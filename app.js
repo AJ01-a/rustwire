@@ -83,9 +83,11 @@ function renderPulse() {
 
   strip.innerHTML = (state.data?.categories || []).map((cat) => {
     const count = counts.get(cat.id) || 0;
+    const accent = safeColor(cat.accent);
+    const id = safeSlug(cat.id);
     return `
-      <a class="pulse-pill" href="#cat-${cat.id}" style="--cat-color:${cat.accent}">
-        ${escapeHtml(cat.label)}<span class="count" style="color:${cat.accent}">${count}</span>
+      <a class="pulse-pill" href="#cat-${escapeAttr(id)}" style="--cat-color:${accent}">
+        ${escapeHtml(cat.label)}<span class="count" style="color:${accent}">${count}</span>
       </a>`;
   }).join("");
 }
@@ -117,11 +119,11 @@ function renderTldr() {
     if (item.author) metaBits.push(`by ${escapeHtml(item.author)}`);
 
     return `
-      <article class="tldr-card" style="--cat-color:${cat.accent}">
+      <article class="tldr-card" style="--cat-color:${safeColor(cat.accent)}">
         <div class="tldr-cat">
           ${escapeHtml(cat.label)}
           <span class="sep">/</span>
-          <span class="tldr-source">${sourceLabel} ${escapeHtml(item.subsource || "")}</span>
+          <span class="tldr-source">${escapeHtml(sourceLabel)} ${escapeHtml(item.subsource || "")}</span>
         </div>
         <h3 class="tldr-title">
           <a href="${escapeAttr(item.url)}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a>
@@ -147,8 +149,10 @@ function renderFeedSections() {
     const items = grouped.get(cat.id) || [];
     if (items.length === 0) return ""; // omit empty categories
     const rows = items.map((item) => renderRow(item, cat)).join("");
+    const accent = safeColor(cat.accent);
+    const id = safeSlug(cat.id);
     return `
-      <section class="feed-cat" id="cat-${cat.id}" style="--cat-color:${cat.accent}">
+      <section class="feed-cat" id="cat-${escapeAttr(id)}" style="--cat-color:${accent}">
         <header class="feed-cat-header">
           <h2 class="feed-cat-name">${escapeHtml(cat.label)}</h2>
           <span class="feed-cat-count">${items.length} items</span>
@@ -165,10 +169,10 @@ function renderFeedSections() {
 
 function renderRow(item, cat) {
   const sourceLabel = SOURCE_LABELS[item.source] || (item.source || "").toUpperCase();
-  const meta = [`<span class="source-tag">${sourceLabel}</span>`];
+  const meta = [`<span class="source-tag">${escapeHtml(sourceLabel)}</span>`];
   if (item.subsource) meta.push(`<span>${escapeHtml(item.subsource)}</span>`);
   if (item.author) meta.push(`<span>${escapeHtml(item.author)}</span>`);
-  if (item.published) meta.push(`<span>${relativeTime(new Date(item.published))}</span>`);
+  if (item.published) meta.push(`<span>${escapeHtml(relativeTime(new Date(item.published)))}</span>`);
 
   const side = [];
   if (typeof item.score === "number") side.push(`▲ ${item.score}`);
@@ -215,6 +219,19 @@ function escapeHtml(s) {
 }
 function escapeAttr(s) {
   return escapeHtml(s).replace(/`/g, "&#096;");
+}
+
+// Whitelist hex colors only — prevents CSS injection if feed.json is tampered.
+// Allows #rgb, #rgba, #rrggbb, #rrggbbaa.
+const HEX_COLOR_RE = /^#[0-9a-fA-F]{3,8}$/;
+function safeColor(c) {
+  return (typeof c === "string" && HEX_COLOR_RE.test(c)) ? c : "var(--accent)";
+}
+
+// Allow only [a-z0-9_-] in slug positions used in id= and href="#..." —
+// belt-and-suspenders on top of escapeAttr.
+function safeSlug(s) {
+  return typeof s === "string" ? s.replace(/[^a-zA-Z0-9_-]/g, "") : "";
 }
 
 /* ---------- Init ---------- */

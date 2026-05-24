@@ -8,7 +8,7 @@ from typing import Any
 import requests
 
 from .. import categorizer, config
-from ..utils import normalize_item, parse_epoch
+from ..utils import ResponseTooLargeError, normalize_item, parse_epoch, safe_get
 
 logger = logging.getLogger("rustwire.reddit")
 
@@ -17,9 +17,9 @@ def _fetch_subreddit(session: requests.Session, sub: str, category: str) -> list
     url = f"https://www.reddit.com/r/{sub}/top.json"
     params = {"t": config.REDDIT_TIME_WINDOW, "limit": config.REDDIT_FETCH_PER_SUB}
     try:
-        resp = session.get(url, params=params, timeout=config.REQUEST_TIMEOUT)
+        resp = safe_get(session, url, params=params)
         resp.raise_for_status()
-    except requests.RequestException as exc:
+    except (requests.RequestException, ResponseTooLargeError) as exc:
         logger.warning("Reddit fetch failed for r/%s: %s", sub, exc)
         return []
 

@@ -11,7 +11,7 @@ import feedparser
 import requests
 
 from .. import categorizer, config
-from ..utils import normalize_item, strip_html
+from ..utils import ResponseTooLargeError, normalize_item, safe_get, strip_html
 
 logger = logging.getLogger("rustwire.rss")
 
@@ -28,9 +28,9 @@ def _struct_time_to_dt(st: time.struct_time | None) -> datetime | None:
 def _fetch_feed(session: requests.Session, feed_cfg: dict[str, str]) -> list[dict[str, Any]]:
     url = feed_cfg["url"]
     try:
-        resp = session.get(url, timeout=config.REQUEST_TIMEOUT)
+        resp = safe_get(session, url)
         resp.raise_for_status()
-    except requests.RequestException as exc:
+    except (requests.RequestException, ResponseTooLargeError) as exc:
         logger.warning("RSS fetch failed for %s: %s", url, exc)
         return []
 

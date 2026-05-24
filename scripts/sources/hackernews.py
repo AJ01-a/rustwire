@@ -9,7 +9,7 @@ from typing import Any
 import requests
 
 from .. import categorizer, config
-from ..utils import normalize_item, parse_epoch
+from ..utils import ResponseTooLargeError, normalize_item, parse_epoch, safe_get
 
 logger = logging.getLogger("rustwire.hn")
 
@@ -22,10 +22,10 @@ def fetch(session: requests.Session) -> list[dict[str, Any]]:
         "hitsPerPage": 50,
     }
     try:
-        resp = session.get(config.HN_SEARCH_URL, params=params, timeout=config.REQUEST_TIMEOUT)
+        resp = safe_get(session, config.HN_SEARCH_URL, params=params)
         resp.raise_for_status()
         payload = resp.json()
-    except (requests.RequestException, ValueError) as exc:
+    except (requests.RequestException, ResponseTooLargeError, ValueError) as exc:
         logger.warning("HN fetch failed: %s", exc)
         return []
 

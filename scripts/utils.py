@@ -35,6 +35,48 @@ def build_session() -> requests.Session:
     return session
 
 
+# Defense-in-depth: cap every upstream response so a malicious / misconfigured
+# feed can't OOM the Actions runner.  RSS and Reddit JSON for the sources we
+# use are all comfortably under 1 MB; 5 MB is generous.
+MAX_RESPONSE_BYTES: int = 5 * 1024 * 1024
+
+
+class ResponseTooLargeError(Exception):
+    """Raised when a remote response exceeds MAX_RESPONSE_BYTES."""
+
+
+def safe_get(session: requests.Session, url: str, **kwargs) -> requests.Response:
+    """``session.get`` with a hard cap on response body size.
+
+    Streams the body in chunks and aborts as soon as we see more than
+    ``MAX_RESPONSE_BYTES``.  Returns a response object whose ``.content``
+    is preloaded so downstream ``.json()`` / ``.text`` keeps working.
+    """
+    kwargs.setdefault("timeout", config.REQUEST_TIMEOUT)
+    kwargs["stream"] = True
+    resp = session.get(url, **kwargs)
+    # Cheap early reject if the server advertises an oversized body.
+    declared = resp.headers.get("content-length")
+    if declared and declared.isdigit() and int(declared) > MAX_RESPONSE_BYTES:
+        resp.close()
+        raise ResponseTooLargeError(
+            f"{url}: Content-Length {declared} > cap {MAX_RESPONSE_BYTES}"
+        )
+    body = bytearray()
+    for chunk in resp.iter_content(chunk_size=64 * 1024):
+        if not chunk:
+            continue
+        body.extend(chunk)
+        if len(body) > MAX_RESPONSE_BYTES:
+            resp.close()
+            raise ResponseTooLargeError(
+                f"{url}: body exceeded cap {MAX_RESPONSE_BYTES} mid-stream"
+            )
+    resp._content = bytes(body)          # noqa: SLF001 — populate so .json() works
+    resp._content_consumed = True        # noqa: SLF001
+    return resp
+
+
 def now_utc() -> datetime:
     return datetime.now(timezone.utc)
 

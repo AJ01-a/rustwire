@@ -9,7 +9,7 @@ import requests
 from dateutil import parser as date_parser
 
 from .. import categorizer, config
-from ..utils import normalize_item
+from ..utils import ResponseTooLargeError, normalize_item, safe_get
 
 logger = logging.getLogger("rustwire.lobsters")
 
@@ -17,10 +17,10 @@ logger = logging.getLogger("rustwire.lobsters")
 def _fetch_tag(session: requests.Session, tag: str, category: str) -> list[dict[str, Any]]:
     url = f"https://lobste.rs/t/{tag}.json"
     try:
-        resp = session.get(url, timeout=config.REQUEST_TIMEOUT)
+        resp = safe_get(session, url)
         resp.raise_for_status()
         payload = resp.json()
-    except (requests.RequestException, ValueError) as exc:
+    except (requests.RequestException, ResponseTooLargeError, ValueError) as exc:
         logger.warning("Lobsters fetch failed for /t/%s: %s", tag, exc)
         return []
 

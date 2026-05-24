@@ -1,0 +1,35 @@
+# Auto-open PRs when a pinned dependency has a newer version.
+# Reviewing the PR (and the associated changelog link Dependabot includes)
+# protects against shipping a known-vulnerable dependency for months.
+
+version: 2
+updates:
+  # Python pipeline deps
+  - package-ecosystem: pip
+    directory: /scripts
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: America/Winnipeg
+    open-pull-requests-limit: 5
+    labels:
+      - dependencies
+      - python
+    commit-message:
+      prefix: "deps(python)"
+
+  # GitHub Actions (checkout, setup-python)
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: America/Winnipeg
+    open-pull-requests-limit: 5
+    labels:
+      - dependencies
+      - github-actions
+    commit-message:
+      prefix: "deps(actions)"
