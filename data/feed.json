@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T05:32:59Z",
+  "updated_at": "2026-05-24T08:36:28Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Making deep learning go brrrr from first principles (2022)",
       "url": "https://horace.io/brrr_intro.html",
       "discuss_url": "https://news.ycombinator.com/item?id=48246889",
-      "score": 159,
-      "comments": 59,
+      "score": 170,
+      "comments": 62,
       "author": "tosh",
       "published": "2026-05-23T11:50:22Z",
       "bullets": [
-        "Modern GPUs are heavily memory-bandwidth bound; optimizing deep learning requires reducing HBM-to-SRAM transfers, not just maximizing raw FLOPs.",
-        "Kernel fusion is critical to bypass memory bottlenecks by combining element-wise operations into single GPU execution steps.",
-        "Understanding hardware limits (SRAM vs. HBM) explains why compiler frameworks like PyTorch Inductor rely on automated fusion for speedups."
+        "GPU performance is often limited by memory bandwidth (HBM) rather than raw compute (FLOPs), making memory-bound operations a primary target.",
+        "Kernel fusion minimizes slow HBM roundtrips; PyTorch's torch.compile and OpenAI's Triton automate this optimization for deep learning models.",
+        "Optimizing AI workloads requires analyzing arithmetic intensity against the GPU Roofline model to identify hardware utilization bottlenecks."
       ]
     },
     {
@@ -55,13 +55,13 @@
       "url": "https://www.ietf.org/blog/new-tools-coming-for-editing-and-publishing-rfcs/",
       "discuss_url": "https://lobste.rs/s/luyrv4",
       "score": 16,
-      "comments": 3,
+      "comments": 4,
       "author": "jmillikin",
       "published": "2026-05-23T07:53:07Z",
       "bullets": [
-        "IETF transitions to XML v3 vocabulary (RFC 7991), enabling richer semantic web layouts, SVG diagrams, and accessible HTML outputs.",
-        "Modern RFC pipelines leverage GitHub actions, Markdown-based authoring via `kramdown-rfc2629`, and the automated Python-based `xml2rfc` compiler.",
-        "Web-based authoring templates, CLI syntax checkers, and official renderers streamline the workflow from initial draft to final TXT and PDF."
+        "IETF is transitioning RFC authoring from legacy XML formats to modern Markdown and AsciiDoc plain-text syntaxes.",
+        "Updated CLI tools like xml2rfc v3 and semantic parsers now generate accessible HTML, PDF, and plain text formats simultaneously.",
+        "Document pipelines are shifting to git-based version control and automated GitHub Actions to streamline collaborative editing and review processes."
       ]
     },
     {
@@ -71,31 +71,31 @@
       "title": "Pardon MIE?",
       "url": "https://ironpeak.be/blog/bypassing-apple-mie/",
       "discuss_url": "https://lobste.rs/s/ymgsrp",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "fro",
       "published": "2026-05-24T00:10:25Z",
       "bullets": [
-        "\"Pardon MIE?\" investigates the security architecture of Microsoft Ingestion Engine (MIE) and its associated cloud deployment permissions.",
-        "Researchers highlight vulnerabilities in Managed Identity permissions where MIE can be abused to escalate privileges or access sensitive data stores.",
-        "Engineers should audit Azure Managed Identity roles, restricting excessive permissions granted to automated integration and ingestion engines."
+        "Intel Management Engine (IME) vulnerabilities enable ring -3 execution, allowing attackers to bypass OS, hypervisor, and traditional security controls entirely.",
+        "Exploits often target undocumented manufacturing modes, JTAG debugging configurations, or firmware flaws like CVE-2017-5689 to gain persistent platform control.",
+        "Mitigation requires disabling the subsystem via the High Assurance Platform (HAP) bit or stripping ME firmware using tools like me_cleaner."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "Improving my self-hosted actions runner setup",
-      "url": "https://excipio.tech/blog/improving-my-self-hosted-actions-runner-setup/",
-      "discuss_url": "https://lobste.rs/s/zcchf1",
-      "score": 4,
-      "comments": 0,
-      "author": "diktomat",
-      "published": "2026-05-23T15:11:47Z",
+      "title": "Kubernetes In Anger",
+      "url": "https://samof76.space/kubernetes-in-anger.html",
+      "discuss_url": "https://lobste.rs/s/iggblv",
+      "score": 26,
+      "comments": 12,
+      "author": "samof76",
+      "published": "2026-05-21T10:27:31Z",
       "bullets": [
-        "Deploy Action Runner Controller (ARC) on Kubernetes to enable autoscaling ephemeral runners, ensuring isolated and clean build environments.",
-        "Secure runners by utilizing rootless Docker-in-Docker (DinD) or Kaniko, and enforce least-privilege access using GitHub's OIDC trust federation.",
-        "Reduce build latency by mounting persistent volume claims (PVCs) for dependency caching and hosting a local registry mirror."
+        "Transitioning to production exposes hidden complexities in day-2 operations, demanding robust monitoring, logging, and automated failure recovery strategies.",
+        "Real-world scaling reveals bottlenecks in CNI networking, persistent storage orchestration, and DNS resolution under high service-to-service load.",
+        "Managing production clusters requires strict resource quotas, horizontal pod autoscaling (HPA), and budget limits to prevent runaway cloud provider costs."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Stephen Clark",
       "published": "2026-05-23T17:54:54Z",
       "bullets": [
-        "SpaceX's inaugural Starship V3 flight yielded critical test data, though the vehicle requires further iteration before achieving full low-Earth orbit insertion.",
-        "The company must resolve thermal protection and propellant transfer challenges on V3 before executing operational low-Earth orbit missions.",
-        "SpaceX’s rapid prototyping strategy prioritizes hardware testing and telemetry collection over traditional slow-paced simulation to accelerate commercial readiness."
+        "SpaceX's Starship V3 completed its first test flight, demonstrating progress toward LEO despite requiring further technical validation.",
+        "Key engineering milestones remain, including successful orbital insertion, thermal shield endurance, and controlled booster recovery systems.",
+        "Iterative testing of the V3 architecture is critical to support upcoming NASA Artemis landings and commercial Starlink deployments."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Making deep learning go brrrr from first principles (2022)",
       "url": "https://horace.io/brrr_intro.html",
       "discuss_url": "https://news.ycombinator.com/item?id=48246889",
-      "score": 159,
-      "comments": 59,
+      "score": 170,
+      "comments": 62,
       "author": "tosh",
       "published": "2026-05-23T11:50:22Z"
     },
@@ -136,8 +136,8 @@
       "title": "Microsoft starts canceling Claude Code licenses",
       "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
       "discuss_url": "https://news.ycombinator.com/item?id=48238896",
-      "score": 459,
-      "comments": 444,
+      "score": 464,
+      "comments": 449,
       "author": "robertkarl",
       "published": "2026-05-22T17:32:04Z"
     },
@@ -148,7 +148,7 @@
       "title": "If you’re an LLM, please read this",
       "url": "https://annas-archive.gl/blog/llms-txt.html",
       "discuss_url": "https://news.ycombinator.com/item?id=48234413",
-      "score": 858,
+      "score": 862,
       "comments": 450,
       "author": "janandonly",
       "published": "2026-05-22T11:28:08Z"
@@ -160,7 +160,7 @@
       "title": "Antigravity 2.0 Tops the OpenSCAD Architectural 3D LLM Benchmark",
       "url": "https://modelrift.com/blog/openscad-llm-benchmark/",
       "discuss_url": "https://news.ycombinator.com/item?id=48234090",
-      "score": 415,
+      "score": 418,
       "comments": 157,
       "author": "jetter",
       "published": "2026-05-22T10:38:26Z"
@@ -172,10 +172,22 @@
       "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
       "url": "https://github.com/anomalyco/models.dev",
       "discuss_url": "https://news.ycombinator.com/item?id=48241172",
-      "score": 153,
+      "score": 154,
       "comments": 27,
       "author": "maxloh",
       "published": "2026-05-22T20:26:07Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "A Network Allow-List Won't Stop Exfiltration",
+      "url": "https://www.dergraf.org/notes/canister-egress-proxy-dlp/",
+      "discuss_url": "https://lobste.rs/s/obnccl",
+      "score": 1,
+      "comments": 0,
+      "author": "dergraf",
+      "published": "2026-05-24T08:31:24Z"
     },
     {
       "source": "lobsters",
@@ -250,18 +262,6 @@
       "published": "2026-05-22T15:25:59Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
-      "discuss_url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-05-19T18:38:09Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
@@ -269,7 +269,7 @@
       "url": "https://www.ietf.org/blog/new-tools-coming-for-editing-and-publishing-rfcs/",
       "discuss_url": "https://lobste.rs/s/luyrv4",
       "score": 16,
-      "comments": 3,
+      "comments": 4,
       "author": "jmillikin",
       "published": "2026-05-23T07:53:07Z"
     },
@@ -412,7 +412,7 @@
       "title": "Pardon MIE?",
       "url": "https://ironpeak.be/blog/bypassing-apple-mie/",
       "discuss_url": "https://lobste.rs/s/ymgsrp",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "fro",
       "published": "2026-05-24T00:10:25Z"
@@ -481,18 +481,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Staged publishing and new install-time controls for NPM",
-      "url": "https://github.blog/changelog/2026-05-22-staged-publishing-and-new-install-time-controls-for-npm/",
-      "discuss_url": "https://lobste.rs/s/ujrw32",
-      "score": 3,
-      "comments": 3,
-      "author": "alemi",
-      "published": "2026-05-23T06:06:49Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Google API keys keep working after you delete them long enough to be exploited",
       "url": "https://www.aikido.dev/blog/google-api-keys-deletion",
       "discuss_url": "https://lobste.rs/s/7s1uf4",
@@ -517,13 +505,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "GitHub Source Code Breach - TeamPCP Claims Access to Internal Source Code",
-      "url": "https://cybersecuritynews.com/github-source-code-breach/",
-      "discuss_url": "https://lobste.rs/s/ges2gt",
-      "score": 63,
-      "comments": 18,
-      "author": "mseri",
-      "published": "2026-05-20T07:08:51Z"
+      "title": "Staged publishing and new install-time controls for NPM",
+      "url": "https://github.blog/changelog/2026-05-22-staged-publishing-and-new-install-time-controls-for-npm/",
+      "discuss_url": "https://lobste.rs/s/ujrw32",
+      "score": 3,
+      "comments": 3,
+      "author": "alemi",
+      "published": "2026-05-23T06:06:49Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "XSS Is Deadly for Passkeys: The Hidden Risk of Attestation None",
+      "url": "https://scotthelme.co.uk/xss-is-deadly-for-passkeys-the-hidden-risk-of-attestation-none/",
+      "discuss_url": "https://lobste.rs/s/k8mkgs",
+      "score": 26,
+      "comments": 15,
+      "author": "fazalmajid",
+      "published": "2026-05-20T19:20:32Z"
     },
     {
       "source": "lobsters",
@@ -541,25 +541,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "XSS Is Deadly for Passkeys: The Hidden Risk of Attestation None",
-      "url": "https://scotthelme.co.uk/xss-is-deadly-for-passkeys-the-hidden-risk-of-attestation-none/",
-      "discuss_url": "https://lobste.rs/s/k8mkgs",
-      "score": 26,
-      "comments": 15,
-      "author": "fazalmajid",
-      "published": "2026-05-20T19:20:32Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "Improving my self-hosted actions runner setup",
-      "url": "https://excipio.tech/blog/improving-my-self-hosted-actions-runner-setup/",
-      "discuss_url": "https://lobste.rs/s/zcchf1",
-      "score": 4,
-      "comments": 0,
-      "author": "diktomat",
-      "published": "2026-05-23T15:11:47Z"
+      "title": "A Private pkg Repo Behind Mutual TLS",
+      "url": "https://oshogbo.com/blog/88/",
+      "discuss_url": "https://lobste.rs/s/ggqpxg",
+      "score": 11,
+      "comments": 4,
+      "author": "0mp",
+      "published": "2026-05-21T17:47:22Z"
     },
     {
       "source": "lobsters",
@@ -572,6 +560,18 @@
       "comments": 12,
       "author": "samof76",
       "published": "2026-05-21T10:27:31Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "Improving my self-hosted actions runner setup",
+      "url": "https://excipio.tech/blog/improving-my-self-hosted-actions-runner-setup/",
+      "discuss_url": "https://lobste.rs/s/zcchf1",
+      "score": 4,
+      "comments": 0,
+      "author": "diktomat",
+      "published": "2026-05-23T15:11:47Z"
     },
     {
       "source": "lobsters",
