@@ -70,7 +70,18 @@ HN_MIN_POINTS: int = 20
 MAX_DISCUSSIONS: int = 60      # items shown in the main feed
 TLDR_COUNT: int = 5            # items receiving an AI summary
 TLDR_MIN_COMMENTS: int = 5     # require some discussion before summarizing
-RECENT_WINDOW_HOURS: int = 36  # discard older content
+
+# Per-source recency cutoff. Reddit/HN/Lobsters move fast; RSS feeds like
+# This Week in Rust post weekly so they need a longer window or they'd never
+# appear in the dashboard. Items with no `published` timestamp are always
+# included (we err on the side of showing content).
+RECENCY_WINDOW_HOURS: dict[str, int] = {
+    "reddit":     36,
+    "hackernews": 48,
+    "lobsters":   72,
+    "rss":        168,   # 7 days — covers This Week in Rust + slow blogs
+}
+RECENCY_DEFAULT_HOURS: int = 48
 
 # Source weights when ranking the unified feed. Tweak to bias the dashboard.
 SOURCE_WEIGHTS: dict[str, float] = {
@@ -83,6 +94,9 @@ SOURCE_WEIGHTS: dict[str, float] = {
 # ---------------------------------------------------------------------------
 # Gemini
 # ---------------------------------------------------------------------------
-# Free tier: gemini-2.0-flash-exp is fastest and free.
-GEMINI_MODEL: str = "gemini-2.0-flash"
+# Pick a model that still has free-tier quota for your project.  As of 2026
+# `gemini-2.0-flash` was migrated off the free tier; `gemini-2.5-flash` is the
+# current free-tier Flash model.  Run the model-list snippet in doc 05 if you
+# need to switch to a newer model later.
+GEMINI_MODEL: str = "gemini-2.5-flash"
 GEMINI_MAX_INPUT_CHARS: int = 8000  # truncate huge selftexts before prompting

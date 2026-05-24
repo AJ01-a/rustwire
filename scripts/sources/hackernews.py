@@ -58,14 +58,11 @@ def fetch(session: requests.Session) -> list[dict[str, Any]]:
 
 
 def _is_rust_relevant(title: str) -> bool:
-    """Coarse filter: 'rust' as standalone token (not 'trust', 'crusty', etc.)."""
+    """Coarse filter: 'rust' as a standalone token (not 'trust', 'crusty', etc.)."""
     if not title:
         return False
-    t = title.lower()
-    # Quick exits for obviously unrelated matches
-    if " trust " in f" {t} " or "rusty " in t:
-        # Could still be Rust-related; only skip if 'rust' appears only inside these words.
-        pass
-    # Token-boundary check
-    tokens = [tok.strip(".,:;!?()[]{}\"'") for tok in t.split()]
-    return any(tok == "rust" or tok.startswith("rust-") or tok.startswith("rust:") for tok in tokens)
+    tokens = [tok.strip(".,:;!?()[]{}\"'").lower() for tok in title.split()]
+    return any(
+        tok == "rust" or tok.startswith(("rust-", "rust:", "rust/"))
+        for tok in tokens
+    )

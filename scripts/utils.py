@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import html
 import logging
 import re
 import time
@@ -59,13 +60,16 @@ _WHITESPACE_RE = re.compile(r"\s+")
 
 
 def strip_html(text: str | None) -> str:
-    """Remove HTML tags and collapse whitespace."""
+    """Remove HTML tags, decode entities, and collapse whitespace.
+
+    Uses ``html.unescape`` so hex/decimal numeric entities (``&#x2F;``,
+    ``&#039;``) and named entities (``&hellip;``, ``&mdash;``) all decode,
+    not just the small set Reddit/HN happen to emit most often.
+    """
     if not text:
         return ""
     cleaned = _HTML_TAG_RE.sub(" ", text)
-    cleaned = cleaned.replace("&nbsp;", " ").replace("&amp;", "&")
-    cleaned = cleaned.replace("&lt;", "<").replace("&gt;", ">")
-    cleaned = cleaned.replace("&quot;", '"').replace("&#39;", "'")
+    cleaned = html.unescape(cleaned)
     return _WHITESPACE_RE.sub(" ", cleaned).strip()
 
 

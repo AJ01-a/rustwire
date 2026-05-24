@@ -67,7 +67,8 @@ def _is_recent(item: dict[str, Any]) -> bool:
         dt = datetime.fromisoformat(pub.replace("Z", "+00:00"))
     except ValueError:
         return True
-    return (now_utc() - dt) <= timedelta(hours=config.RECENT_WINDOW_HOURS)
+    hours = config.RECENCY_WINDOW_HOURS.get(item["source"], config.RECENCY_DEFAULT_HOURS)
+    return (now_utc() - dt) <= timedelta(hours=hours)
 
 
 def _rank(item: dict[str, Any]) -> float:

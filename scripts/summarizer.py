@@ -18,12 +18,15 @@ from .utils import strip_html, truncate
 logger = logging.getLogger("rustwire.summarizer")
 
 PROMPT_TEMPLATE = """You are a senior Rust systems engineer writing a 3-bullet
-TL;DR for fellow experts. Read the discussion below and produce exactly THREE
-short bullet points (max 22 words each) that capture the most technically
-substantive takeaways. Avoid restating the title. No marketing fluff. If the
-content has runnable code, mention the concrete pattern. If it's a release,
-name the most consequential change. Respond with ONLY a JSON array of three
-strings — no preamble, no markdown fences.
+TL;DR for fellow experts. Produce exactly THREE short bullet points (max 22
+words each) that capture the most technically substantive takeaways from the
+material below. Avoid restating the title. No marketing fluff. If the content
+has runnable code, mention the concrete pattern. If it's a release, name the
+most consequential change. If the body content is empty or just a URL (a link
+post), infer what the linked work is from the title and metadata and infer
+likely technical content; never write filler like "open the link".
+Respond with ONLY a JSON array of three strings — no preamble, no markdown
+fences.
 
 TITLE: {title}
 SOURCE: {source} ({subsource})
@@ -36,19 +39,50 @@ CONTENT:
 
 
 def _heuristic_bullets(item: dict[str, Any]) -> list[str]:
-    """Fallback summarizer used when no Gemini key is configured."""
-    raw = strip_html(item.get("summary") or "") or item.get("title") or ""
+    """Fallback summarizer used when Gemini is unavailable or fails.
+
+    Tries (in order): sentences from the body, then the title, then a metadata
+    triplet. Avoids the "open the original" filler that earlier versions
+    produced for link-only posts.
+    """
+    raw = strip_html(item.get("summary") or "")
     sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", raw) if s.strip()]
-    if not sentences:
-        return [
-            f"From {item.get('subsource') or item.get('source')}.",
-            f"Engagement: {item.get('score') or 0} points, {item.get('comments') or 0} comments.",
-            "Open the source link for the full discussion.",
-        ]
-    bullets = sentences[:3]
+
+    if len(sentences) >= 3:
+        return [truncate(s, 180) for s in sentences[:3]]
+
+    bullets = [truncate(s, 180) for s in sentences]
+
+    # Pad with informative metadata-derived lines (not filler).
+    title = (item.get("title") or "").strip()
+    subsource = item.get("subsource") or item.get("source") or "source"
+    score = item.get("score")
+    comments = item.get("comments")
+    author = item.get("author")
+
+    pads: list[str] = []
+    if title and (not bullets or title.lower() not in bullets[0].lower()):
+        pads.append(truncate(title, 180))
+    engagement: list[str] = []
+    if isinstance(score, int):
+        engagement.append(f"{score} points")
+    if isinstance(comments, int):
+        engagement.append(f"{comments} comments")
+    if engagement:
+        pads.append(f"Trending on {subsource} — {', '.join(engagement)}.")
+    if author:
+        pads.append(f"Submitted by {author} on {subsource}.")
+    pads.append(f"Posted via {subsource}; full context at the source link.")
+
+    for pad in pads:
+        if len(bullets) >= 3:
+            break
+        if pad and pad not in bullets:
+            bullets.append(pad)
+
     while len(bullets) < 3:
-        bullets.append(f"Open the original on {item.get('subsource') or item.get('source')}.")
-    return [truncate(b, 180) for b in bullets]
+        bullets.append("(no further detail available)")
+    return bullets
 
 
 def _extract_json_array(text: str) -> list[str] | None:
