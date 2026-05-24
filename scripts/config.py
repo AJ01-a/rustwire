@@ -148,5 +148,10 @@ SOURCE_WEIGHTS: dict[str, float] = {
 # ---------------------------------------------------------------------------
 # Gemini
 # ---------------------------------------------------------------------------
-GEMINI_MODEL: str = "gemini-2.5-flash"
+# `gemini-flash-latest` is an alias that Google auto-points at the newest
+# Flash model.  Using the alias means you don't have to manually swap when
+# Google deprecates an older Flash (as happened with gemini-2.0-flash).
+# Pin to a specific version (e.g. `gemini-2.5-flash`) if you want stricter
+# control over which model runs your TL;DRs.
+GEMINI_MODEL: str = "gemini-flash-latest"
 GEMINI_MAX_INPUT_CHARS: int = 8000
