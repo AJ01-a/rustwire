@@ -1,0 +1,22 @@
+# Normalize line endings: all text files store LF in the repo; Git checks out
+# whatever the OS prefers.  This silences the "LF will be replaced by CRLF"
+# warnings on Windows and keeps the GitHub Actions Linux runner happy.
+
+* text=auto eol=lf
+
+# Force LF on files that are run as scripts (YAML, shell, Python) so the
+# Actions runner never sees stray CRs.
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.sh    text eol=lf
+*.py    text eol=lf
+*.json  text eol=lf
+*.toml  text eol=lf
+
+# Treat these as binary so Git doesn't try to diff or convert them.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.svg   text eol=lf
