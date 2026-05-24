@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.local
+*.key
+
+# Pipeline scratch
+.feed-*.json.tmp
+*.log
+
+# Node (in case you ever bolt on tooling)
+node_modules/
+.npm/
