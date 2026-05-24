@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T13:44:19Z",
+  "updated_at": "2026-05-24T19:23:57Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,51 +34,51 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Making deep learning go brrrr from first principles (2022)",
-      "url": "https://horace.io/brrr_intro.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=48246889",
-      "score": 175,
-      "comments": 63,
-      "author": "tosh",
-      "published": "2026-05-23T11:50:22Z",
+      "title": "DeepSeek to Make Permanent 75% Discount on Flagship AI Model",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model",
+      "discuss_url": "https://news.ycombinator.com/item?id=48257410",
+      "score": 130,
+      "comments": 130,
+      "author": "moh_maya",
+      "published": "2026-05-24T14:09:33Z",
       "bullets": [
-        "GPU performance is constrained by memory bandwidth (HBM vs. SRAM) rather than raw compute FLOPs for many modern deep learning operations.",
-        "Eager mode PyTorch introduces high kernel launch overheads; compiling graphs enables kernel fusion to reduce memory roundtrips to HBM.",
-        "Compilers like PyTorch 2.0 (torch.compile) and Triton automate kernel fusion, optimizing memory-bound bottlenecks like LayerNorm and Softmax."
+        "DeepSeek permanently cuts API pricing for flagship V3 and R1 models by 75%, intensifying margin pressure on OpenAI and Anthropic.",
+        "The extreme price drop significantly lowers financial barriers for running massive-scale RAG pipelines and multi-agent systems in production.",
+        "This discount accelerates LLM commoditization, forcing enterprise buyers to re-evaluate the cost-to-performance ratio of proprietary Western models."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "libwce: the entropy layer of a wavelet codec, on its own",
-      "url": "https://yogthos.net/posts/2026-05-24-libwce.html",
-      "discuss_url": "https://lobste.rs/s/d3uwf1",
-      "score": 1,
+      "title": "From AFSK to Goertzel",
+      "url": "https://uart.cz/2959/from-afsk-to-goertzel/",
+      "discuss_url": "https://lobste.rs/s/vqivdq",
+      "score": 7,
       "comments": 0,
-      "author": "Yogthos",
-      "published": "2026-05-24T13:43:11Z",
+      "author": "Bernerd",
+      "published": "2026-05-24T14:22:54Z",
       "bullets": [
-        "libwce isolates a wavelet codec's entropy coding layer, separating statistical compression from the initial mathematical wavelet transform.",
-        "This decoupling allows engineers to apply optimized context-based arithmetic coding to custom multi-resolution data structures and non-image signals.",
-        "Standardizing this layer enables independent optimization of bit-plane coding pipelines without rewriting core compression and serialization logic."
+        "Goertzel's algorithm efficiently detects specific tone frequencies in AFSK, requiring fewer computational resources than a full Fast Fourier Transform (FFT).",
+        "This DSP technique optimizes AFSK demodulation for low-power embedded systems, legacy telecom hardware, and amateur radio protocols like APRS.",
+        "Implementation relies on a second-order IIR filter structure to compute discrete Fourier transform coefficients for isolated, predetermined frequency bins."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Debian SE Linux and PinTheft",
-      "url": "https://etbe.coker.com.au/2026/05/24/debian-selinux-pintheft/",
-      "discuss_url": "https://lobste.rs/s/jlhsqw",
-      "score": 3,
-      "comments": 0,
-      "author": "7tehdt3cnw6kir6o",
-      "published": "2026-05-24T11:37:11Z",
+      "title": "How my minimal, memory-safe Go rsync steers clear of vulnerabilities",
+      "url": "https://michael.stapelberg.ch/posts/2026-05-24-minimal-memory-safe-go-rsync-vulns/",
+      "discuss_url": "https://lobste.rs/s/5y9u93",
+      "score": 33,
+      "comments": 1,
+      "author": "stapelberg",
+      "published": "2026-05-24T14:38:34Z",
       "bullets": [
-        "Debian's default SELinux policies may fail to properly isolate `pinentry` processes, exposing them to local inter-process attacks.",
-        "Attackers can exploit insufficient ptrace restrictions to scrape active GnuPG passphrases and smart card PINs directly from memory.",
-        "Mitigate this vector by enabling Yama ptrace scope limitations (`kernel.yama.ptrace_scope=1`) and hardening SELinux policy domains."
+        "Rewriting rsync in Go eliminates memory corruption bugs like buffer overflows and use-after-free errors common in legacy C implementations.",
+        "A minimal codebase reduces attack surface by stripping out complex legacy protocol versions and unused rsync features.",
+        "Leveraging Go's built-in path sanitization naturally mitigates directory traversal risks during remote file synchronization."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "samof76",
       "published": "2026-05-21T10:27:31Z",
       "bullets": [
-        "Production Kubernetes requires careful etcd tuning, high-performance storage, and defragmentation to avoid quorum loss and control plane latency under load.",
-        "CoreDNS scaling issues and ndots:5 latency overhead frequently plague large-scale deployments; mitigate using NodeLocal DNSCache and custom IPAM configurations.",
-        "Incorrect CPU limits trigger CFS throttling, while misconfigured memory requests lead to unexpected OOMKilled events; use VPA for dynamic rightsizing."
+        "Production K8s requires managing complex Day-2 operations like zero-downtime control plane upgrades and ETCD database maintenance.",
+        "Resolving CNI networking failures (e.g., Cilium/Calico) and CoreDNS bottlenecks is critical for maintaining stable microservice communication.",
+        "Misconfigured resource requests and limits lead to silent OOMKills, noisy neighbors, and runaway cloud infrastructure costs."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Federica Sgorbissa",
       "published": "2026-05-24T11:15:38Z",
       "bullets": [
-        "Beluga whales join a small group of animals passing the mirror self-recognition (MSR) test, indicating advanced cognitive processing capabilities.",
-        "Studying cetacean self-awareness provides biological baselines for researchers developing autonomous agent architectures and embodied AI world models.",
-        "The mirror test remains a highly debated benchmark, mirroring the tech industry's ongoing struggle to define and measure machine self-awareness."
+        "Beluga whales successfully passed the mirror self-recognition (MSR) test, joining a highly select group of cognitively advanced animal species.",
+        "The MSR test remains a foundational benchmark in cognitive science for evaluating self-awareness, a concept highly relevant to autonomous AI systems.",
+        "Research into animal self-conceptualization provides valuable comparative data for modeling agency, spatial perception, and identity in computer vision systems."
       ]
     }
   ],
@@ -121,37 +121,25 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Making deep learning go brrrr from first principles (2022)",
-      "url": "https://horace.io/brrr_intro.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=48246889",
-      "score": 175,
-      "comments": 63,
-      "author": "tosh",
-      "published": "2026-05-23T11:50:22Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "A Network Allow-List Won't Stop Exfiltration",
-      "url": "https://www.dergraf.org/notes/canister-egress-proxy-dlp/",
-      "discuss_url": "https://lobste.rs/s/obnccl",
-      "score": 3,
-      "comments": 7,
-      "author": "dergraf",
-      "published": "2026-05-24T08:31:24Z"
+      "title": "DeepSeek to Make Permanent 75% Discount on Flagship AI Model",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model",
+      "discuss_url": "https://news.ycombinator.com/item?id=48257410",
+      "score": 130,
+      "comments": 130,
+      "author": "moh_maya",
+      "published": "2026-05-24T14:09:33Z"
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Microsoft starts canceling Claude Code licenses",
-      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
-      "discuss_url": "https://news.ycombinator.com/item?id=48238896",
-      "score": 468,
-      "comments": 454,
-      "author": "robertkarl",
-      "published": "2026-05-22T17:32:04Z"
+      "title": "Making deep learning go brrrr from first principles (2022)",
+      "url": "https://horace.io/brrr_intro.html",
+      "discuss_url": "https://news.ycombinator.com/item?id=48246889",
+      "score": 183,
+      "comments": 64,
+      "author": "tosh",
+      "published": "2026-05-23T11:50:22Z"
     },
     {
       "source": "hackernews",
@@ -160,10 +148,22 @@
       "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
       "url": "https://github.com/anomalyco/models.dev",
       "discuss_url": "https://news.ycombinator.com/item?id=48241172",
-      "score": 155,
+      "score": 156,
       "comments": 27,
       "author": "maxloh",
       "published": "2026-05-22T20:26:07Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "A Network Allow-List Won't Stop Exfiltration",
+      "url": "https://www.dergraf.org/notes/canister-egress-proxy-dlp/",
+      "discuss_url": "https://lobste.rs/s/obnccl",
+      "score": 1,
+      "comments": 11,
+      "author": "dergraf",
+      "published": "2026-05-24T08:31:24Z"
     },
     {
       "source": "lobsters",
@@ -200,18 +200,6 @@
       "comments": 0,
       "author": "adsouza",
       "published": "2026-05-20T23:54:58Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "2ality blog: temporarily offline",
-      "url": "https://2ality.com/",
-      "discuss_url": "https://lobste.rs/s/4s9es3",
-      "score": 1,
-      "comments": 0,
-      "author": "alemi",
-      "published": "2026-05-20T14:45:26Z"
     },
     {
       "source": "rss",
@@ -262,14 +250,38 @@
       "published": "2026-05-19T00:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
+      "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+      "discuss_url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-05-18T15:12:46Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "From AFSK to Goertzel",
+      "url": "https://uart.cz/2959/from-afsk-to-goertzel/",
+      "discuss_url": "https://lobste.rs/s/vqivdq",
+      "score": 7,
+      "comments": 0,
+      "author": "Bernerd",
+      "published": "2026-05-24T14:22:54Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "libwce: the entropy layer of a wavelet codec, on its own",
       "url": "https://yogthos.net/posts/2026-05-24-libwce.html",
       "discuss_url": "https://lobste.rs/s/d3uwf1",
-      "score": 1,
-      "comments": 0,
+      "score": 4,
+      "comments": 1,
       "author": "Yogthos",
       "published": "2026-05-24T13:43:11Z"
     },
@@ -320,18 +332,6 @@
       "comments": 1,
       "author": "Yogthos",
       "published": "2026-05-21T18:58:07Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Golfing Zig ELF Binaries (2025)",
-      "url": "https://ctf.gg/blog/zig-binary-golfing",
-      "discuss_url": "https://lobste.rs/s/agojmb",
-      "score": 26,
-      "comments": 0,
-      "author": "jstrieb",
-      "published": "2026-05-20T14:05:11Z"
     },
     {
       "source": "lobsters",
@@ -409,10 +409,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "How my minimal, memory-safe Go rsync steers clear of vulnerabilities",
+      "url": "https://michael.stapelberg.ch/posts/2026-05-24-minimal-memory-safe-go-rsync-vulns/",
+      "discuss_url": "https://lobste.rs/s/5y9u93",
+      "score": 33,
+      "comments": 1,
+      "author": "stapelberg",
+      "published": "2026-05-24T14:38:34Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Debian SE Linux and PinTheft",
       "url": "https://etbe.coker.com.au/2026/05/24/debian-selinux-pintheft/",
       "discuss_url": "https://lobste.rs/s/jlhsqw",
-      "score": 3,
+      "score": 4,
       "comments": 0,
       "author": "7tehdt3cnw6kir6o",
       "published": "2026-05-24T11:37:11Z"
@@ -424,7 +436,7 @@
       "title": "Pardon MIE?",
       "url": "https://ironpeak.be/blog/bypassing-apple-mie/",
       "discuss_url": "https://lobste.rs/s/ymgsrp",
-      "score": 5,
+      "score": 7,
       "comments": 0,
       "author": "fro",
       "published": "2026-05-24T00:10:25Z"
@@ -460,7 +472,7 @@
       "title": "CVE-2026-46529: 10-year-old RCE in Linux PDF Viewer (XReader/Evince/Atril)",
       "url": "https://medeiros.zip/posts/CVE-2026-46529-evince",
       "discuss_url": "https://lobste.rs/s/rlpzut",
-      "score": 18,
+      "score": 20,
       "comments": 1,
       "author": "commanderk",
       "published": "2026-05-22T22:14:59Z"
@@ -484,10 +496,22 @@
       "title": "Secure Boot and CA Rollover - a heads-up for distributions",
       "url": "https://blog.einval.com/2026/05/22#secure_boot_ca_rollover",
       "discuss_url": "https://lobste.rs/s/qwytbf",
-      "score": 18,
+      "score": 20,
       "comments": 3,
       "author": "Foxboron",
       "published": "2026-05-22T09:48:59Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Staged publishing and new install-time controls for NPM",
+      "url": "https://github.blog/changelog/2026-05-22-staged-publishing-and-new-install-time-controls-for-npm/",
+      "discuss_url": "https://lobste.rs/s/ujrw32",
+      "score": 5,
+      "comments": 3,
+      "author": "alemi",
+      "published": "2026-05-23T06:06:49Z"
     },
     {
       "source": "lobsters",
@@ -505,18 +529,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Staged publishing and new install-time controls for NPM",
-      "url": "https://github.blog/changelog/2026-05-22-staged-publishing-and-new-install-time-controls-for-npm/",
-      "discuss_url": "https://lobste.rs/s/ujrw32",
-      "score": 4,
-      "comments": 3,
-      "author": "alemi",
-      "published": "2026-05-23T06:06:49Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Megalodon: Mass GitHub Repo Backdooring via CI Workflows",
       "url": "https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows",
       "discuss_url": "https://lobste.rs/s/k2ifb5",
@@ -529,25 +541,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "XSS Is Deadly for Passkeys: The Hidden Risk of Attestation None",
-      "url": "https://scotthelme.co.uk/xss-is-deadly-for-passkeys-the-hidden-risk-of-attestation-none/",
-      "discuss_url": "https://lobste.rs/s/k8mkgs",
-      "score": 26,
-      "comments": 15,
-      "author": "fazalmajid",
-      "published": "2026-05-20T19:20:32Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Noroboto: Lying fonts and mitigation in Rust",
-      "url": "https://tritium.legal/blog/noroboto",
-      "discuss_url": "https://lobste.rs/s/xsnzi6",
-      "score": 7,
-      "comments": 1,
-      "author": "jmillikin",
-      "published": "2026-05-22T20:40:35Z"
+      "title": "A Private pkg Repo Behind Mutual TLS",
+      "url": "https://oshogbo.com/blog/88/",
+      "discuss_url": "https://lobste.rs/s/ggqpxg",
+      "score": 11,
+      "comments": 4,
+      "author": "0mp",
+      "published": "2026-05-21T17:47:22Z"
     },
     {
       "source": "lobsters",
@@ -572,18 +572,6 @@
       "comments": 0,
       "author": "diktomat",
       "published": "2026-05-23T15:11:47Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "localgcp: LocalStack for GCP. One Go binary emulating 14 Google Cloud services locally",
-      "url": "https://github.com/slokam-ai/localgcp",
-      "discuss_url": "https://lobste.rs/s/p24qim",
-      "score": 1,
-      "comments": 0,
-      "author": "linkdd",
-      "published": "2026-05-20T15:33:05Z"
     },
     {
       "source": "rss",
@@ -692,6 +680,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-05-21T23:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 C7i-flex, M7i-flex & M7i instances now available in Asia Pacific (Hyderabad) region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-c7i-flex-m7i-flex-m7i-instances-HYD-region/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-c7i-flex-m7i-flex-m7i-instances-HYD-region/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-21T19:39:00Z"
     },
     {
       "source": "rss",
