@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T08:36:28Z",
+  "updated_at": "2026-05-24T13:44:19Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,48 +37,48 @@
       "title": "Making deep learning go brrrr from first principles (2022)",
       "url": "https://horace.io/brrr_intro.html",
       "discuss_url": "https://news.ycombinator.com/item?id=48246889",
-      "score": 170,
-      "comments": 62,
+      "score": 175,
+      "comments": 63,
       "author": "tosh",
       "published": "2026-05-23T11:50:22Z",
       "bullets": [
-        "GPU performance is often limited by memory bandwidth (HBM) rather than raw compute (FLOPs), making memory-bound operations a primary target.",
-        "Kernel fusion minimizes slow HBM roundtrips; PyTorch's torch.compile and OpenAI's Triton automate this optimization for deep learning models.",
-        "Optimizing AI workloads requires analyzing arithmetic intensity against the GPU Roofline model to identify hardware utilization bottlenecks."
+        "GPU performance is constrained by memory bandwidth (HBM vs. SRAM) rather than raw compute FLOPs for many modern deep learning operations.",
+        "Eager mode PyTorch introduces high kernel launch overheads; compiling graphs enables kernel fusion to reduce memory roundtrips to HBM.",
+        "Compilers like PyTorch 2.0 (torch.compile) and Triton automate kernel fusion, optimizing memory-bound bottlenecks like LayerNorm and Softmax."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "A new suite of modern tools coming for editing and publishing RFCs",
-      "url": "https://www.ietf.org/blog/new-tools-coming-for-editing-and-publishing-rfcs/",
-      "discuss_url": "https://lobste.rs/s/luyrv4",
-      "score": 16,
-      "comments": 4,
-      "author": "jmillikin",
-      "published": "2026-05-23T07:53:07Z",
+      "title": "libwce: the entropy layer of a wavelet codec, on its own",
+      "url": "https://yogthos.net/posts/2026-05-24-libwce.html",
+      "discuss_url": "https://lobste.rs/s/d3uwf1",
+      "score": 1,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-05-24T13:43:11Z",
       "bullets": [
-        "IETF is transitioning RFC authoring from legacy XML formats to modern Markdown and AsciiDoc plain-text syntaxes.",
-        "Updated CLI tools like xml2rfc v3 and semantic parsers now generate accessible HTML, PDF, and plain text formats simultaneously.",
-        "Document pipelines are shifting to git-based version control and automated GitHub Actions to streamline collaborative editing and review processes."
+        "libwce isolates a wavelet codec's entropy coding layer, separating statistical compression from the initial mathematical wavelet transform.",
+        "This decoupling allows engineers to apply optimized context-based arithmetic coding to custom multi-resolution data structures and non-image signals.",
+        "Standardizing this layer enables independent optimization of bit-plane coding pipelines without rewriting core compression and serialization logic."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Pardon MIE?",
-      "url": "https://ironpeak.be/blog/bypassing-apple-mie/",
-      "discuss_url": "https://lobste.rs/s/ymgsrp",
+      "title": "Debian SE Linux and PinTheft",
+      "url": "https://etbe.coker.com.au/2026/05/24/debian-selinux-pintheft/",
+      "discuss_url": "https://lobste.rs/s/jlhsqw",
       "score": 3,
       "comments": 0,
-      "author": "fro",
-      "published": "2026-05-24T00:10:25Z",
+      "author": "7tehdt3cnw6kir6o",
+      "published": "2026-05-24T11:37:11Z",
       "bullets": [
-        "Intel Management Engine (IME) vulnerabilities enable ring -3 execution, allowing attackers to bypass OS, hypervisor, and traditional security controls entirely.",
-        "Exploits often target undocumented manufacturing modes, JTAG debugging configurations, or firmware flaws like CVE-2017-5689 to gain persistent platform control.",
-        "Mitigation requires disabling the subsystem via the High Assurance Platform (HAP) bit or stripping ME firmware using tools like me_cleaner."
+        "Debian's default SELinux policies may fail to properly isolate `pinentry` processes, exposing them to local inter-process attacks.",
+        "Attackers can exploit insufficient ptrace restrictions to scrape active GnuPG passphrases and smart card PINs directly from memory.",
+        "Mitigate this vector by enabling Yama ptrace scope limitations (`kernel.yama.ptrace_scope=1`) and hardening SELinux policy domains."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "samof76",
       "published": "2026-05-21T10:27:31Z",
       "bullets": [
-        "Transitioning to production exposes hidden complexities in day-2 operations, demanding robust monitoring, logging, and automated failure recovery strategies.",
-        "Real-world scaling reveals bottlenecks in CNI networking, persistent storage orchestration, and DNS resolution under high service-to-service load.",
-        "Managing production clusters requires strict resource quotas, horizontal pod autoscaling (HPA), and budget limits to prevent runaway cloud provider costs."
+        "Production Kubernetes requires careful etcd tuning, high-performance storage, and defragmentation to avoid quorum loss and control plane latency under load.",
+        "CoreDNS scaling issues and ndots:5 latency overhead frequently plague large-scale deployments; mitigate using NodeLocal DNSCache and custom IPAM configurations.",
+        "Incorrect CPU limits trigger CFS throttling, while misconfigured memory requests lead to unexpected OOMKilled events; use VPA for dynamic rightsizing."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "SpaceX's Starship V3—still a work in progress—mostly successful on first flight",
-      "url": "https://arstechnica.com/space/2026/05/spacexs-starship-v3-still-a-work-in-progress-mostly-successful-on-first-flight/",
-      "discuss_url": "https://arstechnica.com/space/2026/05/spacexs-starship-v3-still-a-work-in-progress-mostly-successful-on-first-flight/",
+      "title": "Whatever the mirror test tells us, beluga whales pass it",
+      "url": "https://arstechnica.com/science/2026/05/belugas-may-pass-the-mirror-test-but-does-the-mirror-test-still-pass/",
+      "discuss_url": "https://arstechnica.com/science/2026/05/belugas-may-pass-the-mirror-test-but-does-the-mirror-test-still-pass/",
       "score": null,
       "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-05-23T17:54:54Z",
+      "author": "Federica Sgorbissa",
+      "published": "2026-05-24T11:15:38Z",
       "bullets": [
-        "SpaceX's Starship V3 completed its first test flight, demonstrating progress toward LEO despite requiring further technical validation.",
-        "Key engineering milestones remain, including successful orbital insertion, thermal shield endurance, and controlled booster recovery systems.",
-        "Iterative testing of the V3 architecture is critical to support upcoming NASA Artemis landings and commercial Starlink deployments."
+        "Beluga whales join a small group of animals passing the mirror self-recognition (MSR) test, indicating advanced cognitive processing capabilities.",
+        "Studying cetacean self-awareness provides biological baselines for researchers developing autonomous agent architectures and embodied AI world models.",
+        "The mirror test remains a highly debated benchmark, mirroring the tech industry's ongoing struggle to define and measure machine self-awareness."
       ]
     }
   ],
@@ -124,58 +124,10 @@
       "title": "Making deep learning go brrrr from first principles (2022)",
       "url": "https://horace.io/brrr_intro.html",
       "discuss_url": "https://news.ycombinator.com/item?id=48246889",
-      "score": 170,
-      "comments": 62,
+      "score": 175,
+      "comments": 63,
       "author": "tosh",
       "published": "2026-05-23T11:50:22Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Microsoft starts canceling Claude Code licenses",
-      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
-      "discuss_url": "https://news.ycombinator.com/item?id=48238896",
-      "score": 464,
-      "comments": 449,
-      "author": "robertkarl",
-      "published": "2026-05-22T17:32:04Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "If you’re an LLM, please read this",
-      "url": "https://annas-archive.gl/blog/llms-txt.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=48234413",
-      "score": 862,
-      "comments": 450,
-      "author": "janandonly",
-      "published": "2026-05-22T11:28:08Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Antigravity 2.0 Tops the OpenSCAD Architectural 3D LLM Benchmark",
-      "url": "https://modelrift.com/blog/openscad-llm-benchmark/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48234090",
-      "score": 418,
-      "comments": 157,
-      "author": "jetter",
-      "published": "2026-05-22T10:38:26Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
-      "url": "https://github.com/anomalyco/models.dev",
-      "discuss_url": "https://news.ycombinator.com/item?id=48241172",
-      "score": 154,
-      "comments": 27,
-      "author": "maxloh",
-      "published": "2026-05-22T20:26:07Z"
     },
     {
       "source": "lobsters",
@@ -184,10 +136,34 @@
       "title": "A Network Allow-List Won't Stop Exfiltration",
       "url": "https://www.dergraf.org/notes/canister-egress-proxy-dlp/",
       "discuss_url": "https://lobste.rs/s/obnccl",
-      "score": 1,
-      "comments": 0,
+      "score": 3,
+      "comments": 7,
       "author": "dergraf",
       "published": "2026-05-24T08:31:24Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Microsoft starts canceling Claude Code licenses",
+      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+      "discuss_url": "https://news.ycombinator.com/item?id=48238896",
+      "score": 468,
+      "comments": 454,
+      "author": "robertkarl",
+      "published": "2026-05-22T17:32:04Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
+      "url": "https://github.com/anomalyco/models.dev",
+      "discuss_url": "https://news.ycombinator.com/item?id=48241172",
+      "score": 155,
+      "comments": 27,
+      "author": "maxloh",
+      "published": "2026-05-22T20:26:07Z"
     },
     {
       "source": "lobsters",
@@ -262,13 +238,49 @@
       "published": "2026-05-22T15:25:59Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+      "discuss_url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-05-19T18:38:09Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Introducing the Ettin Reranker Family",
+      "url": "https://huggingface.co/blog/ettin-reranker",
+      "discuss_url": "https://huggingface.co/blog/ettin-reranker",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-05-19T00:00:00Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "libwce: the entropy layer of a wavelet codec, on its own",
+      "url": "https://yogthos.net/posts/2026-05-24-libwce.html",
+      "discuss_url": "https://lobste.rs/s/d3uwf1",
+      "score": 1,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-05-24T13:43:11Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "A new suite of modern tools coming for editing and publishing RFCs",
       "url": "https://www.ietf.org/blog/new-tools-coming-for-editing-and-publishing-rfcs/",
       "discuss_url": "https://lobste.rs/s/luyrv4",
-      "score": 16,
+      "score": 19,
       "comments": 4,
       "author": "jmillikin",
       "published": "2026-05-23T07:53:07Z"
@@ -394,16 +406,16 @@
       "published": "2026-05-18T16:54:53Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "Dispatches from O'Reilly: The accidental orchestrator",
-      "url": "https://stackoverflow.blog/2026/05/22/dispatches-from-o-reilly-the-accidental-orchestrator/",
-      "discuss_url": "https://stackoverflow.blog/2026/05/22/dispatches-from-o-reilly-the-accidental-orchestrator/",
-      "score": null,
-      "comments": null,
-      "author": "Andrew Stellman",
-      "published": "2026-05-22T14:00:00Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Debian SE Linux and PinTheft",
+      "url": "https://etbe.coker.com.au/2026/05/24/debian-selinux-pintheft/",
+      "discuss_url": "https://lobste.rs/s/jlhsqw",
+      "score": 3,
+      "comments": 0,
+      "author": "7tehdt3cnw6kir6o",
+      "published": "2026-05-24T11:37:11Z"
     },
     {
       "source": "lobsters",
@@ -412,34 +424,10 @@
       "title": "Pardon MIE?",
       "url": "https://ironpeak.be/blog/bypassing-apple-mie/",
       "discuss_url": "https://lobste.rs/s/ymgsrp",
-      "score": 3,
+      "score": 5,
       "comments": 0,
       "author": "fro",
       "published": "2026-05-24T00:10:25Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "CVE-2026-46529: 10-year-old RCE in Linux PDF Viewer (XReader/Evince/Atril)",
-      "url": "https://medeiros.zip/posts/CVE-2026-46529-evince",
-      "discuss_url": "https://lobste.rs/s/rlpzut",
-      "score": 18,
-      "comments": 1,
-      "author": "commanderk",
-      "published": "2026-05-22T22:14:59Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Dependency cooldowns are unfair; we should use phased rollouts instead",
-      "url": "https://illegalcode.net/rfcs/phased_rollouts.html",
-      "discuss_url": "https://lobste.rs/s/jyhbzg",
-      "score": 18,
-      "comments": 33,
-      "author": "quad",
-      "published": "2026-05-21T19:14:04Z"
     },
     {
       "source": "lobsters",
@@ -457,13 +445,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Secure Boot and CA Rollover - a heads-up for distributions",
-      "url": "https://blog.einval.com/2026/05/22#secure_boot_ca_rollover",
-      "discuss_url": "https://lobste.rs/s/qwytbf",
+      "title": "Dependency cooldowns are unfair; we should use phased rollouts instead",
+      "url": "https://illegalcode.net/rfcs/phased_rollouts.html",
+      "discuss_url": "https://lobste.rs/s/jyhbzg",
       "score": 18,
-      "comments": 3,
-      "author": "Foxboron",
-      "published": "2026-05-22T09:48:59Z"
+      "comments": 33,
+      "author": "quad",
+      "published": "2026-05-21T19:14:04Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "CVE-2026-46529: 10-year-old RCE in Linux PDF Viewer (XReader/Evince/Atril)",
+      "url": "https://medeiros.zip/posts/CVE-2026-46529-evince",
+      "discuss_url": "https://lobste.rs/s/rlpzut",
+      "score": 18,
+      "comments": 1,
+      "author": "commanderk",
+      "published": "2026-05-22T22:14:59Z"
     },
     {
       "source": "lobsters",
@@ -481,6 +481,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Secure Boot and CA Rollover - a heads-up for distributions",
+      "url": "https://blog.einval.com/2026/05/22#secure_boot_ca_rollover",
+      "discuss_url": "https://lobste.rs/s/qwytbf",
+      "score": 18,
+      "comments": 3,
+      "author": "Foxboron",
+      "published": "2026-05-22T09:48:59Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Google API keys keep working after you delete them long enough to be exploited",
       "url": "https://www.aikido.dev/blog/google-api-keys-deletion",
       "discuss_url": "https://lobste.rs/s/7s1uf4",
@@ -493,6 +505,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Staged publishing and new install-time controls for NPM",
+      "url": "https://github.blog/changelog/2026-05-22-staged-publishing-and-new-install-time-controls-for-npm/",
+      "discuss_url": "https://lobste.rs/s/ujrw32",
+      "score": 4,
+      "comments": 3,
+      "author": "alemi",
+      "published": "2026-05-23T06:06:49Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Megalodon: Mass GitHub Repo Backdooring via CI Workflows",
       "url": "https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows",
       "discuss_url": "https://lobste.rs/s/k2ifb5",
@@ -500,18 +524,6 @@
       "comments": 0,
       "author": "hauleth",
       "published": "2026-05-22T09:05:54Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Staged publishing and new install-time controls for NPM",
-      "url": "https://github.blog/changelog/2026-05-22-staged-publishing-and-new-install-time-controls-for-npm/",
-      "discuss_url": "https://lobste.rs/s/ujrw32",
-      "score": 3,
-      "comments": 3,
-      "author": "alemi",
-      "published": "2026-05-23T06:06:49Z"
     },
     {
       "source": "lobsters",
@@ -539,18 +551,6 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "A Private pkg Repo Behind Mutual TLS",
-      "url": "https://oshogbo.com/blog/88/",
-      "discuss_url": "https://lobste.rs/s/ggqpxg",
-      "score": 11,
-      "comments": 4,
-      "author": "0mp",
-      "published": "2026-05-21T17:47:22Z"
-    },
-    {
-      "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "Kubernetes In Anger",
@@ -568,7 +568,7 @@
       "title": "Improving my self-hosted actions runner setup",
       "url": "https://excipio.tech/blog/improving-my-self-hosted-actions-runner-setup/",
       "discuss_url": "https://lobste.rs/s/zcchf1",
-      "score": 4,
+      "score": 5,
       "comments": 0,
       "author": "diktomat",
       "published": "2026-05-23T15:11:47Z"
@@ -692,6 +692,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-05-21T23:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Whatever the mirror test tells us, beluga whales pass it",
+      "url": "https://arstechnica.com/science/2026/05/belugas-may-pass-the-mirror-test-but-does-the-mirror-test-still-pass/",
+      "discuss_url": "https://arstechnica.com/science/2026/05/belugas-may-pass-the-mirror-test-but-does-the-mirror-test-still-pass/",
+      "score": null,
+      "comments": null,
+      "author": "Federica Sgorbissa",
+      "published": "2026-05-24T11:15:38Z"
     },
     {
       "source": "rss",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Jennifer Ouellette",
       "published": "2026-05-22T18:30:06Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Texas AG sues Meta over claims that WhatsApp doesn't provide end-to-end encryption",
-      "url": "https://arstechnica.com/security/2026/05/texas-ag-sues-meta-over-claims-that-whatsapp-doesnt-provide-end-to-end-encryption/",
-      "discuss_url": "https://arstechnica.com/security/2026/05/texas-ag-sues-meta-over-claims-that-whatsapp-doesnt-provide-end-to-end-encryption/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-05-22T18:13:05Z"
     }
   ]
 }
