@@ -1,4 +1,4 @@
-"""Fetch entries from the configured RSS/Atom feeds."""
+"""Fetch entries from the configured RSS/Atom feeds, tagged with the feed's category."""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ from typing import Any
 import feedparser
 import requests
 
-from .. import config
+from .. import categorizer, config
 from ..utils import normalize_item, strip_html
 
 logger = logging.getLogger("rustwire.rss")
@@ -39,8 +39,9 @@ def _fetch_feed(session: requests.Session, feed_cfg: dict[str, str]) -> list[dic
         logger.warning("RSS parse error for %s: %s", url, parsed.bozo_exception)
         return []
 
+    category = categorizer.coerce(feed_cfg.get("category"))
     items: list[dict[str, Any]] = []
-    for entry in parsed.entries[:25]:
+    for entry in parsed.entries[:20]:
         published = _struct_time_to_dt(
             getattr(entry, "published_parsed", None)
             or getattr(entry, "updated_parsed", None)
@@ -55,6 +56,7 @@ def _fetch_feed(session: requests.Session, feed_cfg: dict[str, str]) -> list[dic
             normalize_item(
                 source="rss",
                 subsource=feed_cfg["subsource"],
+                category=category,
                 title=getattr(entry, "title", "") or "",
                 url=getattr(entry, "link", "") or "",
                 discuss_url=getattr(entry, "link", "") or "",
@@ -65,7 +67,7 @@ def _fetch_feed(session: requests.Session, feed_cfg: dict[str, str]) -> list[dic
                 summary=summary,
             )
         )
-    logger.info("RSS %s: %d items", feed_cfg["name"], len(items))
+    logger.info("RSS %s [%s]: %d items", feed_cfg["name"], category, len(items))
     return items
 
 

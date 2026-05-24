@@ -1,4 +1,4 @@
-"""Fetch top posts from configured Rust subreddits via Reddit's public JSON API."""
+"""Fetch top posts from each configured subreddit, tagged with its category."""
 
 from __future__ import annotations
 
@@ -7,13 +7,13 @@ from typing import Any
 
 import requests
 
-from .. import config
+from .. import categorizer, config
 from ..utils import normalize_item, parse_epoch
 
 logger = logging.getLogger("rustwire.reddit")
 
 
-def _fetch_subreddit(session: requests.Session, sub: str) -> list[dict[str, Any]]:
+def _fetch_subreddit(session: requests.Session, sub: str, category: str) -> list[dict[str, Any]]:
     url = f"https://www.reddit.com/r/{sub}/top.json"
     params = {"t": config.REDDIT_TIME_WINDOW, "limit": config.REDDIT_FETCH_PER_SUB}
     try:
@@ -39,13 +39,13 @@ def _fetch_subreddit(session: requests.Session, sub: str) -> list[dict[str, Any]
         permalink = d.get("permalink") or ""
         external_url = d.get("url_overridden_by_dest") or d.get("url") or ""
         discuss_url = f"https://www.reddit.com{permalink}" if permalink else external_url
-        # For self-posts the link target is the discussion itself.
         if d.get("is_self"):
             external_url = discuss_url
         items.append(
             normalize_item(
                 source="reddit",
                 subsource=f"r/{sub}",
+                category=categorizer.coerce(category),
                 title=title,
                 url=external_url or discuss_url,
                 discuss_url=discuss_url,
@@ -56,12 +56,12 @@ def _fetch_subreddit(session: requests.Session, sub: str) -> list[dict[str, Any]
                 summary=d.get("selftext") or "",
             )
         )
-    logger.info("Reddit r/%s: %d items", sub, len(items))
+    logger.info("Reddit r/%s [%s]: %d items", sub, category, len(items))
     return items
 
 
 def fetch(session: requests.Session) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
-    for sub in config.REDDIT_SUBREDDITS:
-        out.extend(_fetch_subreddit(session, sub))
+    for sub, category in config.REDDIT_SUBS.items():
+        out.extend(_fetch_subreddit(session, sub, category))
     return out

@@ -1,22 +1,24 @@
-# Rustwire — Niche Intelligence for Rust Systems Programmers
+# TechPulse — A working briefing for tech professionals
 
-A hyper-focused, auto-refreshing dashboard for the Rust systems-programming
-community. The pipeline pulls from **r/rust**, **This Week in Rust**, the
-**Rust** and **Inside Rust** blogs, **Lobsters**, and **Hacker News**, ranks the
-results, and uses **Google Gemini** to distill the five most-discussed items
-into 3-bullet TL;DRs.
+An AI-summarized, auto-refreshing dashboard for working technologists.
+Pulls from Reddit, Hacker News, Lobsters, and major engineering / security /
+cloud blogs; ranks within five categories; uses **Google Gemini** to distill
+the top story in each category into a 3-bullet TL;DR.
+
+**Categories:** AI & ML · Engineering · Security · Cloud & DevOps · Industry
 
 ```
 ┌───────────────────────────────────────────────────────────┐
 │  GitHub Actions (cron: every 6h)                           │
 │   └─► python -m scripts.main                               │
-│         ├─ fetch: reddit / rss / hn / lobsters             │
-│         ├─ dedupe + rank                                   │
-│         ├─ Gemini → 3-bullet TL;DRs                        │
+│         ├─ fetch:  reddit / rss / hn / lobsters            │
+│         ├─ classify (per-source map + HN title keywords)   │
+│         ├─ dedupe + per-source recency + rank-per-category │
+│         ├─ Gemini → 3-bullet TL;DR (top of each category)  │
 │         └─ write data/feed.json (committed)                │
 │                       │                                    │
 │                       ▼                                    │
-│              Netlify rebuilds static site                  │
+│              Netlify auto-deploy                           │
 │                       │                                    │
 │                       ▼                                    │
 │              index.html fetches feed.json                  │
@@ -26,52 +28,49 @@ into 3-bullet TL;DRs.
 ## Quick start
 
 ```bash
-# 1. install deps
 python -m venv .venv && source .venv/bin/activate
 pip install -r scripts/requirements.txt
+cp .env.example .env && $EDITOR .env       # add GEMINI_API_KEY (optional)
 
-# 2. (optional) set your Gemini key — pipeline falls back to heuristics without one
-cp .env.example .env && $EDITOR .env
+GEMINI_API_KEY=... python -m scripts.main  # runs the pipeline once
 
-# 3. run the pipeline once
-GEMINI_API_KEY=... python -m scripts.main
-
-# 4. preview the dashboard
-python -m http.server 8000
-# open http://localhost:8000
+python -m http.server 8000                  # preview at http://localhost:8000
 ```
 
 ## What lives where
 
 | Path | Purpose |
 | --- | --- |
-| `index.html`, `styles.css`, `app.js` | Static dashboard, deployed straight to Netlify. |
-| `data/feed.json` | The live data file — regenerated and committed by Actions. |
-| `scripts/` | Python ingestion pipeline. Each `sources/*.py` is a single fetcher. |
-| `.github/workflows/update.yml` | The 6-hour cron + auto-commit job. |
+| `index.html`, `styles.css`, `app.js`, `favicon.svg` | Static dashboard; zero build step. |
+| `data/feed.json` | Live data, regenerated and committed by the workflow. |
+| `scripts/config.py` | **All niche-specific values** — categories, sources, ranking. |
+| `scripts/categorizer.py` | Maps items to categories (Reddit/Lobsters/RSS by source; HN by title). |
+| `scripts/sources/*.py` | One module per source; each returns `list[dict]` normalized via `utils.normalize_item`. |
+| `scripts/main.py` | Orchestrator — fetch → dedupe → rank → summarize → write. |
+| `scripts/summarizer.py` | Gemini caller + heuristic fallback. |
+| `.github/workflows/update.yml` | 6-hour cron + bot-commits-back-to-repo. |
 | `netlify.toml` | Cache headers + zero-build static config. |
 
-## Step-by-step setup
+## Retargeting
 
-Walk through the docs at `Documentations/niche-intel-rust/` for:
+All niche logic is in **`scripts/config.py`**:
 
-1. Prerequisites and tooling
-2. Local development
-3. Pushing to GitHub
-4. Getting a Gemini API key
-5. Configuring GitHub Actions secrets
-6. Deploying to Netlify
-7. Customizing sources, niche, ranking
-8. Troubleshooting
+| Constant | Effect |
+| --- | --- |
+| `CATEGORIES` | Section names, ids, and accent colors. |
+| `REDDIT_SUBS` | Map of `subreddit -> category`. |
+| `LOBSTERS_TAGS` | Map of `tag -> category`. |
+| `RSS_FEEDS` | List of `{name, url, subsource, category}`. |
+| `HN_CATEGORY_KEYWORDS` | Title keywords that route HN stories into a category. |
+| `MAX_PER_CATEGORY`, `TLDR_PER_CATEGORY` | Volume knobs. |
+| `RECENCY_WINDOW_HOURS` | Per-source max age. |
+| `SOURCE_WEIGHTS` | Source bias in the ranker. |
+| `GEMINI_MODEL` | Defaults to `gemini-2.5-flash`. |
 
-## Retargeting the niche
+To swap the dashboard to a totally different audience, edit those constants
+and push. The frontend reflects the new categories automatically.
 
-Everything niche-specific lives in `scripts/config.py`:
+## Setup docs
 
-- `REDDIT_SUBREDDITS` — list of subreddits to crawl
-- `RSS_FEEDS` — list of `{name, url, subsource}` dicts
-- `HN_QUERY` — keyword passed to the HN Algolia API
-- `LOBSTERS_TAG_URL` — Lobsters tag JSON endpoint
-- `SOURCE_WEIGHTS` — bias toward/away from sources in the ranker
-
-Change those four values and the dashboard is now about something else.
+End-to-end walkthrough lives at `Documentations/niche-intel-rust/`. Start at
+`README.md` and work through the numbered files.

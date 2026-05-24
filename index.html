@@ -3,135 +3,90 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Rustwire — Niche Intelligence for Rust Systems Programmers</title>
+    <title>TechPulse — A working briefing for tech professionals</title>
     <meta
       name="description"
-      content="A hyper-focused dashboard for the Rust systems-programming community. AI-summarized TL;DRs of the most technical discussions, refreshed every 6 hours."
+      content="An AI-summarized briefing of the most-discussed stories across AI, Engineering, Security, Cloud/DevOps, and Industry — refreshed every six hours."
     />
-    <meta name="theme-color" content="#0d0f12" />
-    <meta property="og:title" content="Rustwire — Niche Intelligence for Rust" />
+    <meta name="theme-color" content="#06080c" />
+    <meta property="og:title" content="TechPulse — A working briefing for tech professionals" />
     <meta
       property="og:description"
-      content="AI-summarized intel from r/rust, This Week in Rust, Lobsters, and Hacker News. Refreshed every 6 hours."
+      content="AI-summarized intel from Reddit, Hacker News, Lobsters, and major tech blogs. Refreshed every 6 hours."
     />
     <meta property="og:type" content="website" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-      crossorigin
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <header class="site-header">
-      <div class="container header-row">
+    <header class="hud-header">
+      <div class="container hud-bar">
         <div class="brand">
-          <span class="brand-mark" aria-hidden="true">&gt;_</span>
-          <div>
-            <h1 class="brand-name">Rustwire</h1>
-            <p class="brand-tagline">
-              Niche intelligence for Rust systems programmers
-            </p>
-          </div>
+          <span class="brand-glyph" aria-hidden="true">//</span>
+          <span class="brand-name">TechPulse</span>
         </div>
-        <div class="header-meta">
-          <span class="status-dot" id="status-dot" title="Loading"></span>
-          <span class="updated-label">Updated</span>
+        <nav class="pulse-strip" id="pulse-strip" aria-label="Category counts">
+          <!-- filled by JS -->
+        </nav>
+        <div class="hud-meta">
+          <span class="status-dot" id="status-dot" title="loading"></span>
+          <span class="meta-label">last refresh</span>
           <time id="updated-time" datetime="">—</time>
         </div>
       </div>
     </header>
 
-    <main class="container main-content">
-      <section class="tldr-section" id="tldr-section" aria-labelledby="tldr-heading">
-        <div class="section-header">
-          <h2 id="tldr-heading" class="section-title">
-            <span class="section-badge">AI</span> Today&rsquo;s TL;DR
+    <main class="container main-content" id="main-content">
+      <section class="tldr-strip" aria-labelledby="tldr-heading">
+        <header class="strip-header">
+          <h2 id="tldr-heading" class="strip-title">
+            <span class="title-tag">AI</span> Today&rsquo;s Briefing
           </h2>
-          <p class="section-subtitle">
-            Top technical discussions from the last 24 hours, distilled to three
-            bullets each.
+          <p class="strip-sub">
+            One AI-generated TL;DR per category, taken from the most-engaged
+            story in the last 24&ndash;48&nbsp;hours.
           </p>
-        </div>
+        </header>
         <div class="tldr-grid" id="tldr-grid">
-          <div class="skeleton-card"></div>
-          <div class="skeleton-card"></div>
-          <div class="skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
         </div>
       </section>
 
-      <section class="feed-section" aria-labelledby="feed-heading">
-        <div class="section-header feed-header">
-          <div>
-            <h2 id="feed-heading" class="section-title">Discussions</h2>
-            <p class="section-subtitle">
-              Ranked by engagement across sources.
-            </p>
-          </div>
-          <div class="filters" role="tablist" aria-label="Filter by source">
-            <button
-              class="filter-chip active"
-              data-source="all"
-              role="tab"
-              aria-selected="true"
-            >
-              All
-            </button>
-            <button class="filter-chip" data-source="reddit" role="tab">
-              Reddit
-            </button>
-            <button class="filter-chip" data-source="hackernews" role="tab">
-              HN
-            </button>
-            <button class="filter-chip" data-source="lobsters" role="tab">
-              Lobsters
-            </button>
-            <button class="filter-chip" data-source="rss" role="tab">
-              Blogs
-            </button>
-          </div>
-        </div>
-        <ul class="feed-list" id="feed-list" aria-live="polite">
-          <li class="skeleton-row"></li>
-          <li class="skeleton-row"></li>
-          <li class="skeleton-row"></li>
-          <li class="skeleton-row"></li>
-          <li class="skeleton-row"></li>
-        </ul>
-        <div class="empty-state hidden" id="empty-state">
-          <p>No items for this filter yet. Check back after the next refresh.</p>
-        </div>
-        <div class="error-state hidden" id="error-state">
-          <p>
-            Could not load the feed. The data file may not exist yet &mdash; the
-            first GitHub Actions run will create it.
-          </p>
-        </div>
+      <section class="feed" id="feed-sections" aria-label="Category feeds">
+        <!-- one <section.feed-cat> per category, filled by JS -->
+        <div class="skeleton skeleton-row"></div>
+        <div class="skeleton skeleton-row"></div>
+        <div class="skeleton skeleton-row"></div>
       </section>
+
+      <div class="error-state hidden" id="error-state">
+        <p>
+          Could not load the feed. The pipeline may not have run yet &mdash;
+          the first GitHub Actions run will create
+          <code>data/feed.json</code>.
+        </p>
+      </div>
     </main>
 
-    <footer class="site-footer">
+    <footer class="hud-footer">
       <div class="container footer-row">
-        <p>
-          Rustwire aggregates public discussions from
-          <a href="https://www.reddit.com/r/rust" rel="noopener">r/rust</a>,
-          <a href="https://this-week-in-rust.org" rel="noopener"
-            >This Week in Rust</a
-          >,
-          <a href="https://lobste.rs/t/rust" rel="noopener">Lobsters</a>, and
-          <a href="https://news.ycombinator.com" rel="noopener">Hacker News</a>.
-          Summaries generated by Google Gemini.
+        <p class="footer-text">
+          TechPulse aggregates public discussions from Reddit, Hacker News,
+          Lobsters, and major engineering &amp; security blogs. Summaries
+          generated by Google Gemini.
         </p>
         <p class="footer-meta">
-          Refreshed every 6 hours via GitHub Actions &middot;
-          <a href="https://github.com/" id="repo-link" rel="noopener"
-            >source</a
-          >
+          refresh cadence&nbsp;<span class="kbd">6h</span> &middot;
+          <a href="https://github.com/" id="repo-link" rel="noopener">source</a>
         </p>
       </div>
     </footer>

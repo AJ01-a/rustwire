@@ -1,4 +1,4 @@
-"""Fetch HN stories matching the niche keyword via the Algolia search API."""
+"""Fetch high-engagement HN stories and categorize each by title keywords."""
 
 from __future__ import annotations
 
@@ -8,19 +8,18 @@ from typing import Any
 
 import requests
 
-from .. import config
+from .. import categorizer, config
 from ..utils import normalize_item, parse_epoch
 
 logger = logging.getLogger("rustwire.hn")
 
 
 def fetch(session: requests.Session) -> list[dict[str, Any]]:
-    cutoff = int(time.time()) - 60 * 60 * 24 * 2  # last 48h
+    cutoff = int(time.time()) - 60 * 60 * config.HN_HOURS_BACK
     params = {
-        "query": config.HN_QUERY,
         "tags": "story",
         "numericFilters": f"created_at_i>{cutoff},points>={config.HN_MIN_POINTS}",
-        "hitsPerPage": 30,
+        "hitsPerPage": 50,
     }
     try:
         resp = session.get(config.HN_SEARCH_URL, params=params, timeout=config.REQUEST_TIMEOUT)
@@ -32,17 +31,21 @@ def fetch(session: requests.Session) -> list[dict[str, Any]]:
 
     hits = payload.get("hits", [])
     items: list[dict[str, Any]] = []
+    bucket_counts: dict[str, int] = {}
     for hit in hits:
         title = hit.get("title") or hit.get("story_title") or ""
-        if not _is_rust_relevant(title):
+        if not title:
             continue
         story_id = hit.get("objectID")
         external_url = hit.get("url") or f"https://news.ycombinator.com/item?id={story_id}"
         discuss_url = f"https://news.ycombinator.com/item?id={story_id}"
+        category = categorizer.for_hn_title(title)
+        bucket_counts[category] = bucket_counts.get(category, 0) + 1
         items.append(
             normalize_item(
                 source="hackernews",
                 subsource="news.ycombinator.com",
+                category=category,
                 title=title,
                 url=external_url,
                 discuss_url=discuss_url,
@@ -53,16 +56,5 @@ def fetch(session: requests.Session) -> list[dict[str, Any]]:
                 summary=hit.get("story_text") or "",
             )
         )
-    logger.info("HN: %d items", len(items))
+    logger.info("HN: %d items (%s)", len(items), bucket_counts)
     return items
-
-
-def _is_rust_relevant(title: str) -> bool:
-    """Coarse filter: 'rust' as a standalone token (not 'trust', 'crusty', etc.)."""
-    if not title:
-        return False
-    tokens = [tok.strip(".,:;!?()[]{}\"'").lower() for tok in title.split()]
-    return any(
-        tok == "rust" or tok.startswith(("rust-", "rust:", "rust/"))
-        for tok in tokens
-    )

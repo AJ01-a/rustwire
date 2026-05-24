@@ -1,61 +1,45 @@
 {
-  "updated_at": "2026-05-24T02:49:15Z",
-  "generator": "rustwire-pipeline/1.0",
-  "niche": "Rust systems programming",
+  "updated_at": "2026-05-24T00:00:00Z",
+  "generator": "techpulse-pipeline/1.0",
+  "niche": "Tech professionals",
+  "categories": [
+    { "id": "ai",          "label": "AI & ML",        "accent": "#a06bff" },
+    { "id": "engineering", "label": "Engineering",    "accent": "#00d9ff" },
+    { "id": "security",    "label": "Security",       "accent": "#ff3b6b" },
+    { "id": "devops",      "label": "Cloud & DevOps", "accent": "#00e6a8" },
+    { "id": "industry",    "label": "Industry",       "accent": "#ffb648" }
+  ],
   "tldr": [
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "title": "Electrobun 2.0 will be decoupled from Bun due to the Rust rewrite",
-      "url": "https://twitter.com/YoavCodes/status/2058064720553222567",
-      "discuss_url": "https://news.ycombinator.com/item?id=48246917",
-      "score": 120,
-      "comments": 134,
-      "author": "bundie",
+      "source": "rss",
+      "subsource": "techpulse-bot",
+      "category": "engineering",
+      "title": "Seed briefing — run the pipeline to replace me",
+      "url": "https://github.com/",
+      "discuss_url": "https://github.com/",
+      "score": 0,
+      "comments": 0,
+      "author": "techpulse-bot",
+      "published": "2026-05-24T00:00:00Z",
       "bullets": [
-        "https:&#x2F;&#x2F;xcancel.com&#x2F;YoavCodes&#x2F;status&#x2F;2058064720553222567",
-        "Open the original on news.ycombinator.com.",
-        "Open the original on news.ycombinator.com."
-      ]
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "title": "Bun's unreleased Rust port has 13,365 unsafe blocks",
-      "url": "https://bun.com/bun-unsafe-audit",
-      "discuss_url": "https://news.ycombinator.com/item?id=48239790",
-      "score": 55,
-      "comments": 45,
-      "author": "helloplanets",
-      "bullets": [
-        "Bun's unreleased Rust port has 13,365 unsafe blocks",
-        "Open the original on news.ycombinator.com.",
-        "Open the original on news.ycombinator.com."
+        "This seed JSON ships with the repo so Netlify has something to render before the first pipeline run.",
+        "On the first GitHub Actions run (manual or scheduled), this file is overwritten with real briefings.",
+        "Each TL;DR card pairs the most-engaged story per category with three Gemini-generated bullet points."
       ]
     }
   ],
   "discussions": [
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "title": "Electrobun 2.0 will be decoupled from Bun due to the Rust rewrite",
-      "url": "https://twitter.com/YoavCodes/status/2058064720553222567",
-      "discuss_url": "https://news.ycombinator.com/item?id=48246917",
-      "score": 120,
-      "comments": 134,
-      "author": "bundie",
-      "published": "2026-05-23T11:54:39Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "title": "Bun's unreleased Rust port has 13,365 unsafe blocks",
-      "url": "https://bun.com/bun-unsafe-audit",
-      "discuss_url": "https://news.ycombinator.com/item?id=48239790",
-      "score": 55,
-      "comments": 45,
-      "author": "helloplanets",
-      "published": "2026-05-22T18:46:25Z"
+      "source": "rss",
+      "subsource": "techpulse-bot",
+      "category": "engineering",
+      "title": "Seed feed row — replaced on first pipeline run",
+      "url": "https://github.com/",
+      "discuss_url": "https://github.com/",
+      "score": 0,
+      "comments": 0,
+      "author": "techpulse-bot",
+      "published": "2026-05-24T00:00:00Z"
     }
   ]
 }

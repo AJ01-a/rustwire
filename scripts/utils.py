@@ -91,11 +91,18 @@ def normalize_item(
     author: str | None,
     published: datetime | None,
     summary: str = "",
+    category: str,
 ) -> dict[str, Any]:
-    """Produce the canonical dict shape the rest of the pipeline expects."""
+    """Produce the canonical dict shape the rest of the pipeline expects.
+
+    ``category`` is required: source fetchers must classify their items
+    before handing them upstream.  Use ``categorizer.coerce`` to snap a
+    suspect value back into the known set.
+    """
     return {
         "source": source,
         "subsource": subsource,
+        "category": category,
         "title": (title or "").strip(),
         "url": url,
         "discuss_url": discuss_url or url,
