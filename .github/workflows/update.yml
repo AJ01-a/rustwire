@@ -15,6 +15,12 @@ on:
 permissions:
   contents: write
 
+# Opt JavaScript-based actions into Node.js 24 ahead of the June 2026 forced
+# upgrade. Avoids the Node 20 deprecation warning on actions/checkout and
+# actions/setup-python without having to chase action version bumps.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 concurrency:
   group: rustwire-refresh
   cancel-in-progress: false
