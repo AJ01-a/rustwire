@@ -5,11 +5,9 @@ on:
     # Every 6 hours, on the hour, UTC.
     - cron: "0 */6 * * *"
   workflow_dispatch: {}
-  push:
-    branches: [main]
-    paths:
-      - "scripts/**"
-      - ".github/workflows/update.yml"
+  # Note: no `push:` trigger. The bot's data-refresh commits would race the
+  # user's code commits, causing constant "fetch first" rejections. Use the
+  # "Run workflow" button (Actions tab) to refresh manually after code edits.
 
 # Allow the workflow to push commits back to the repo.
 permissions:
