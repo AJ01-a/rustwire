@@ -32,14 +32,20 @@ def fetch(session: requests.Session) -> list[dict[str, Any]]:
     hits = payload.get("hits", [])
     items: list[dict[str, Any]] = []
     bucket_counts: dict[str, int] = {}
+    dropped = 0
     for hit in hits:
         title = hit.get("title") or hit.get("story_title") or ""
         if not title:
             continue
+        category = categorizer.for_hn_title(title)
+        if category is None:
+            # No keyword matched — drop rather than dump into a default bucket
+            # (kept "Toxic chemical leak..." out of Engineering).
+            dropped += 1
+            continue
         story_id = hit.get("objectID")
         external_url = hit.get("url") or f"https://news.ycombinator.com/item?id={story_id}"
         discuss_url = f"https://news.ycombinator.com/item?id={story_id}"
-        category = categorizer.for_hn_title(title)
         bucket_counts[category] = bucket_counts.get(category, 0) + 1
         items.append(
             normalize_item(
@@ -56,5 +62,6 @@ def fetch(session: requests.Session) -> list[dict[str, Any]]:
                 summary=hit.get("story_text") or "",
             )
         )
-    logger.info("HN: %d items (%s)", len(items), bucket_counts)
+    logger.info("HN: %d items kept, %d dropped (uncategorized) — %s",
+                len(items), dropped, bucket_counts)
     return items
