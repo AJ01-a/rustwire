@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T19:23:57Z",
+  "updated_at": "2026-05-25T04:13:20Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,34 +34,34 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "DeepSeek to Make Permanent 75% Discount on Flagship AI Model",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model",
-      "discuss_url": "https://news.ycombinator.com/item?id=48257410",
-      "score": 130,
-      "comments": 130,
-      "author": "moh_maya",
-      "published": "2026-05-24T14:09:33Z",
+      "title": "Claude is not your architect. Stop letting it pretend",
+      "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48259784",
+      "score": 235,
+      "comments": 174,
+      "author": "cdrnsf",
+      "published": "2026-05-24T18:28:11Z",
       "bullets": [
-        "DeepSeek permanently cuts API pricing for flagship V3 and R1 models by 75%, intensifying margin pressure on OpenAI and Anthropic.",
-        "The extreme price drop significantly lowers financial barriers for running massive-scale RAG pipelines and multi-agent systems in production.",
-        "This discount accelerates LLM commoditization, forcing enterprise buyers to re-evaluate the cost-to-performance ratio of proprietary Western models."
+        "Claude and other LLMs lack the systemic context and long-term reasoning required to design robust, production-grade software architectures.",
+        "Use LLMs for tactical code generation, debugging, or boilerplate, but keep human senior engineers in control of high-level system design.",
+        "Blindly accepting AI-generated architectures risks introducing subtle integration failures, security vulnerabilities, and unscalable microservice patterns."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "From AFSK to Goertzel",
-      "url": "https://uart.cz/2959/from-afsk-to-goertzel/",
-      "discuss_url": "https://lobste.rs/s/vqivdq",
-      "score": 7,
+      "title": "The Eternal Sloptember",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
+      "discuss_url": "https://lobste.rs/s/pwnqab",
+      "score": 17,
       "comments": 0,
-      "author": "Bernerd",
-      "published": "2026-05-24T14:22:54Z",
+      "author": "rcalixte",
+      "published": "2026-05-25T00:35:59Z",
       "bullets": [
-        "Goertzel's algorithm efficiently detects specific tone frequencies in AFSK, requiring fewer computational resources than a full Fast Fourier Transform (FFT).",
-        "This DSP technique optimizes AFSK demodulation for low-power embedded systems, legacy telecom hardware, and amateur radio protocols like APRS.",
-        "Implementation relies on a second-order IIR filter structure to compute discrete Fourier transform coefficients for isolated, predetermined frequency bins."
+        "Massive influx of LLM-generated \"slop\" permanently degrades platforms like GitHub and Stack Overflow, diluting open-source code quality and search utility.",
+        "Engineers face increased debugging overhead and security risks from hallucinated packages, requiring stricter static analysis and code provenance verification.",
+        "Development teams must deploy robust CI/CD gates, automated testing, and LLM detectors to filter out low-quality AI contributions in repositories."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "How my minimal, memory-safe Go rsync steers clear of vulnerabilities",
       "url": "https://michael.stapelberg.ch/posts/2026-05-24-minimal-memory-safe-go-rsync-vulns/",
       "discuss_url": "https://lobste.rs/s/5y9u93",
-      "score": 33,
-      "comments": 1,
+      "score": 58,
+      "comments": 2,
       "author": "stapelberg",
       "published": "2026-05-24T14:38:34Z",
       "bullets": [
-        "Rewriting rsync in Go eliminates memory corruption bugs like buffer overflows and use-after-free errors common in legacy C implementations.",
-        "A minimal codebase reduces attack surface by stripping out complex legacy protocol versions and unused rsync features.",
-        "Leveraging Go's built-in path sanitization naturally mitigates directory traversal risks during remote file synchronization."
+        "Rewriting legacy C rsync in Go eliminates memory-safety risks like buffer overflows, format string vulnerabilities, and use-after-free bugs.",
+        "A minimal Go implementation significantly reduces attack surface by omitting complex, legacy features of the original rsync protocol.",
+        "While Go prevents memory corruption, developers must still explicitly secure against logical vulnerabilities like path traversal in file synchronization."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "samof76",
       "published": "2026-05-21T10:27:31Z",
       "bullets": [
-        "Production K8s requires managing complex Day-2 operations like zero-downtime control plane upgrades and ETCD database maintenance.",
-        "Resolving CNI networking failures (e.g., Cilium/Calico) and CoreDNS bottlenecks is critical for maintaining stable microservice communication.",
-        "Misconfigured resource requests and limits lead to silent OOMKills, noisy neighbors, and runaway cloud infrastructure costs."
+        "Running production Kubernetes introduces severe cognitive load, networking overhead, and hidden infrastructure costs compared to basic VM deployments.",
+        "Teams should evaluate lighter alternatives like HashiCorp Nomad, Docker Swarm, or managed PaaS before adopting complex K8s control planes.",
+        "Real-world K8s pain points often stem from DNS issues (CoreDNS), state management, complex ingress controllers, and poorly configured resource limits."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Federica Sgorbissa",
       "published": "2026-05-24T11:15:38Z",
       "bullets": [
-        "Beluga whales successfully passed the mirror self-recognition (MSR) test, joining a highly select group of cognitively advanced animal species.",
-        "The MSR test remains a foundational benchmark in cognitive science for evaluating self-awareness, a concept highly relevant to autonomous AI systems.",
-        "Research into animal self-conceptualization provides valuable comparative data for modeling agency, spatial perception, and identity in computer vision systems."
+        "Beluga whales passed the mirror self-recognition test, joining a highly exclusive group of animals capable of visual self-awareness.",
+        "The mirror test remains a contested benchmark in cognitive science, yet passing suggests sophisticated spatial and self-referential processing.",
+        "Biological self-awareness benchmarks offer valuable comparative insights for AI researchers developing self-referential agent architectures and AGI models."
       ]
     }
   ],
@@ -121,11 +121,35 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Claude is not your architect. Stop letting it pretend",
+      "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48259784",
+      "score": 235,
+      "comments": 174,
+      "author": "cdrnsf",
+      "published": "2026-05-24T18:28:11Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
+      "url": "https://arxiv.org/abs/2605.06445",
+      "discuss_url": "https://news.ycombinator.com/item?id=48256912",
+      "score": 193,
+      "comments": 102,
+      "author": "wek",
+      "published": "2026-05-24T12:55:53Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "DeepSeek to Make Permanent 75% Discount on Flagship AI Model",
       "url": "https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model",
       "discuss_url": "https://news.ycombinator.com/item?id=48257410",
-      "score": 130,
-      "comments": 130,
+      "score": 206,
+      "comments": 2,
       "author": "moh_maya",
       "published": "2026-05-24T14:09:33Z"
     },
@@ -136,22 +160,10 @@
       "title": "Making deep learning go brrrr from first principles (2022)",
       "url": "https://horace.io/brrr_intro.html",
       "discuss_url": "https://news.ycombinator.com/item?id=48246889",
-      "score": 183,
-      "comments": 64,
+      "score": 187,
+      "comments": 65,
       "author": "tosh",
       "published": "2026-05-23T11:50:22Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
-      "url": "https://github.com/anomalyco/models.dev",
-      "discuss_url": "https://news.ycombinator.com/item?id=48241172",
-      "score": 156,
-      "comments": 27,
-      "author": "maxloh",
-      "published": "2026-05-22T20:26:07Z"
     },
     {
       "source": "lobsters",
@@ -160,8 +172,8 @@
       "title": "A Network Allow-List Won't Stop Exfiltration",
       "url": "https://www.dergraf.org/notes/canister-egress-proxy-dlp/",
       "discuss_url": "https://lobste.rs/s/obnccl",
-      "score": 1,
-      "comments": 11,
+      "score": 3,
+      "comments": 14,
       "author": "dergraf",
       "published": "2026-05-24T08:31:24Z"
     },
@@ -176,30 +188,6 @@
       "comments": 0,
       "author": "slightknack",
       "published": "2026-05-22T05:38:44Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "AI Resist List",
-      "url": "https://airesistlist.org/",
-      "discuss_url": "https://lobste.rs/s/gydtkf",
-      "score": 3,
-      "comments": 0,
-      "author": "chobeat",
-      "published": "2026-05-20T20:09:55Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "I spent 31 hours on the math behind TurboQuant so you don't have to",
-      "url": "https://www.baseten.co/blog/i-spent-31-hours-on-the-math-behind-turboquant-so-you-dont-have-to/",
-      "discuss_url": "https://lobste.rs/s/osi4oa",
-      "score": 2,
-      "comments": 0,
-      "author": "adsouza",
-      "published": "2026-05-20T23:54:58Z"
     },
     {
       "source": "rss",
@@ -262,13 +250,37 @@
       "published": "2026-05-18T15:12:46Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "The Open Agent Leaderboard",
+      "url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
+      "discuss_url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-05-18T14:12:58Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "The Eternal Sloptember",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
+      "discuss_url": "https://lobste.rs/s/pwnqab",
+      "score": 17,
+      "comments": 0,
+      "author": "rcalixte",
+      "published": "2026-05-25T00:35:59Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "From AFSK to Goertzel",
       "url": "https://uart.cz/2959/from-afsk-to-goertzel/",
       "discuss_url": "https://lobste.rs/s/vqivdq",
-      "score": 7,
+      "score": 9,
       "comments": 0,
       "author": "Bernerd",
       "published": "2026-05-24T14:22:54Z"
@@ -281,7 +293,7 @@
       "url": "https://yogthos.net/posts/2026-05-24-libwce.html",
       "discuss_url": "https://lobste.rs/s/d3uwf1",
       "score": 4,
-      "comments": 1,
+      "comments": 2,
       "author": "Yogthos",
       "published": "2026-05-24T13:43:11Z"
     },
@@ -394,26 +406,14 @@
       "published": "2026-05-20T21:07:38Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Take your local GitHub sessions anywhere",
-      "url": "https://github.blog/news-insights/product-news/take-your-local-github-sessions-anywhere/",
-      "discuss_url": "https://github.blog/news-insights/product-news/take-your-local-github-sessions-anywhere/",
-      "score": null,
-      "comments": null,
-      "author": "Candy Ho",
-      "published": "2026-05-18T16:54:53Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "How my minimal, memory-safe Go rsync steers clear of vulnerabilities",
       "url": "https://michael.stapelberg.ch/posts/2026-05-24-minimal-memory-safe-go-rsync-vulns/",
       "discuss_url": "https://lobste.rs/s/5y9u93",
-      "score": 33,
-      "comments": 1,
+      "score": 58,
+      "comments": 2,
       "author": "stapelberg",
       "published": "2026-05-24T14:38:34Z"
     },
@@ -424,34 +424,10 @@
       "title": "Debian SE Linux and PinTheft",
       "url": "https://etbe.coker.com.au/2026/05/24/debian-selinux-pintheft/",
       "discuss_url": "https://lobste.rs/s/jlhsqw",
-      "score": 4,
+      "score": 8,
       "comments": 0,
       "author": "7tehdt3cnw6kir6o",
       "published": "2026-05-24T11:37:11Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Pardon MIE?",
-      "url": "https://ironpeak.be/blog/bypassing-apple-mie/",
-      "discuss_url": "https://lobste.rs/s/ymgsrp",
-      "score": 7,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-05-24T00:10:25Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Chromium publishes fixed exploit 4 years later, turns out it's actually unfixed",
-      "url": "https://infosec.exchange/@rebane2001/116606719764376414",
-      "discuss_url": "https://lobste.rs/s/e7lsqn",
-      "score": 108,
-      "comments": 16,
-      "author": "hugoarnal",
-      "published": "2026-05-20T20:29:05Z"
     },
     {
       "source": "lobsters",
@@ -472,10 +448,22 @@
       "title": "CVE-2026-46529: 10-year-old RCE in Linux PDF Viewer (XReader/Evince/Atril)",
       "url": "https://medeiros.zip/posts/CVE-2026-46529-evince",
       "discuss_url": "https://lobste.rs/s/rlpzut",
-      "score": 20,
+      "score": 21,
       "comments": 1,
       "author": "commanderk",
       "published": "2026-05-22T22:14:59Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Pardon MIE?",
+      "url": "https://ironpeak.be/blog/bypassing-apple-mie/",
+      "discuss_url": "https://lobste.rs/s/ymgsrp",
+      "score": 7,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-05-24T00:10:25Z"
     },
     {
       "source": "lobsters",
@@ -496,7 +484,7 @@
       "title": "Secure Boot and CA Rollover - a heads-up for distributions",
       "url": "https://blog.einval.com/2026/05/22#secure_boot_ca_rollover",
       "discuss_url": "https://lobste.rs/s/qwytbf",
-      "score": 20,
+      "score": 21,
       "comments": 3,
       "author": "Foxboron",
       "published": "2026-05-22T09:48:59Z"
@@ -508,7 +496,7 @@
       "title": "Staged publishing and new install-time controls for NPM",
       "url": "https://github.blog/changelog/2026-05-22-staged-publishing-and-new-install-time-controls-for-npm/",
       "discuss_url": "https://lobste.rs/s/ujrw32",
-      "score": 5,
+      "score": 6,
       "comments": 3,
       "author": "alemi",
       "published": "2026-05-23T06:06:49Z"
@@ -551,6 +539,18 @@
     },
     {
       "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "FatGid - FreeBSD 14.x kernel LPE",
+      "url": "https://fatgid.io/",
+      "discuss_url": "https://lobste.rs/s/yy3xax",
+      "score": 11,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-05-21T13:42:03Z"
+    },
+    {
+      "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "Kubernetes In Anger",
@@ -568,7 +568,7 @@
       "title": "Improving my self-hosted actions runner setup",
       "url": "https://excipio.tech/blog/improving-my-self-hosted-actions-runner-setup/",
       "discuss_url": "https://lobste.rs/s/zcchf1",
-      "score": 5,
+      "score": 6,
       "comments": 0,
       "author": "diktomat",
       "published": "2026-05-23T15:11:47Z"
