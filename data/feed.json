@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T15:19:37Z",
+  "updated_at": "2026-05-25T19:47:59Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -31,37 +31,37 @@
   ],
   "tldr": [
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Claude is not your architect. Stop letting it pretend",
-      "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48259784",
-      "score": 257,
-      "comments": 185,
-      "author": "cdrnsf",
-      "published": "2026-05-24T18:28:11Z",
+      "title": "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas",
+      "url": "http://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
+      "discuss_url": "https://lobste.rs/s/eedsds",
+      "score": 6,
+      "comments": 1,
+      "author": "pyfisch",
+      "published": "2026-05-25T17:07:48Z",
       "bullets": [
-        "LLMs like Claude 3.5 Sonnet excel at localized code generation but lack the holistic reasoning needed for complex software architecture.",
-        "Relying blindly on AI for system design leads to over-engineered microservices, flawed database schemas, and critical architectural drift.",
-        "Deploy LLMs for tactical tasks like unit testing and boilerplate generation, leaving high-level structural decisions to human staff engineers."
+        "This speculative encyclical critiques the spiritual and societal impacts of AGI, urging developers to prioritize human dignity over raw optimization.",
+        "It raises philosophical questions on machine consciousness, algorithmic bias, and the potential displacement of human labor by autonomous systems.",
+        "The text highlights how traditional ethical frameworks, including theology, are adapting to address the rapid rise of generative AI models."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "A Simple Makefile Tutorial",
+      "title": "A Simple Makefile Tutorial (2008)",
       "url": "https://cs.colby.edu/maxwell/courses/tutorials/maketutor/",
       "discuss_url": "https://lobste.rs/s/owa9kn",
-      "score": 6,
-      "comments": 3,
+      "score": 9,
+      "comments": 6,
       "author": "kenballus",
       "published": "2026-05-25T14:44:03Z",
       "bullets": [
-        "Use .PHONY to prevent name conflicts with local files, ensuring targets like clean or test always execute reliably.",
-        "Leverage automatic variables like $@ for target names and $< for the first prerequisite to write DRY, maintainable build rules.",
-        "Implement automatic dependency generation using GCC/Clang -MMD flags to rebuild binary targets only when header files actually change."
+        "Use basic rules structured as `target: prerequisites` followed by tab-indented recipes to automate C/C++ compilation steps.",
+        "Leverage automatic variables like `$@` for target names and `$<` for the first dependency to reduce redundancy in recipes.",
+        "Implement wildcard pattern rules (`%.o: %.c`) and declare non-file targets using `.PHONY` to optimize rebuild speeds."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "How my minimal, memory-safe Go rsync steers clear of vulnerabilities",
       "url": "https://michael.stapelberg.ch/posts/2026-05-24-minimal-memory-safe-go-rsync-vulns/",
       "discuss_url": "https://lobste.rs/s/5y9u93",
-      "score": 79,
-      "comments": 10,
+      "score": 90,
+      "comments": 16,
       "author": "stapelberg",
       "published": "2026-05-24T14:38:34Z",
       "bullets": [
-        "Implementing rsync in Go eliminates classic C-based memory corruption bugs like buffer overflows and use-after-free vulnerabilities.",
-        "A minimal rsync codebase reduces attack surface by omitting legacy protocol features and risky, complex command execution paths.",
-        "Using Go's native path-cleaning libraries mitigates common rsync directory traversal vulnerabilities like those seen in CVE-2022-29154."
+        "Replacing legacy C-based rsync with Go eliminates common memory safety bugs like buffer overflows, use-after-free, and pointer errors.",
+        "A minimal Go implementation reduces attack surface by omitting complex, legacy rsync protocol features prone to exploitation.",
+        "Writing file-sync tools in Go leverages strict standard library path handling to naturally prevent directory traversal vulnerabilities."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "diktomat",
       "published": "2026-05-23T15:11:47Z",
       "bullets": [
-        "Use ephemeral GitHub Actions runners (`--ephemeral`) to ensure clean build environments and prevent persistent state security exploits between jobs.",
-        "Deploy Actions Runner Controller (ARC) on Kubernetes to auto-scale runner pods dynamically based on webhook events and workflow demands.",
-        "Leverage Docker-in-Docker (DinD) or rootless container engines safely within runner environments to support containerized workflow steps efficiently."
+        "Deploy GitHub Actions Runner Controller (ARC) on Kubernetes to automate and orchestrate self-hosted runner infrastructure at scale.",
+        "Use ephemeral, single-use runner pods to prevent state leakage and ensure clean, secure execution environments for every CI/CD job.",
+        "Integrate KEDA for event-driven autoscaling of runners, minimizing idle compute costs while handling peak build demands efficiently."
       ]
     },
     {
@@ -110,13 +110,25 @@
       "author": "John Timmer",
       "published": "2026-05-25T12:00:15Z",
       "bullets": [
-        "Multi-million dollar government funding for PsiQuantum's silicon-photonics architecture faces legal scrutiny over bypassed, non-tendered procurement processes.",
-        "The initiative attempts to launch dedicated quantum foundries, though skeptics question the market demand over utilizing existing commercial CMOS lines.",
-        "Security teams and infrastructure engineers should monitor these state-funded hardware pipelines to forecast realistic post-quantum cryptography migration timelines."
+        "US quantum computing initiatives face legal hurdles over procurement processes and massive state-subsidized technology funding.",
+        "The deal launched the first dedicated quantum foundry, aimed at accelerating hardware fabrication for quantum processors.",
+        "Industry experts debate if current market demand justifies dedicated foundry infrastructure before reaching utility-scale fault tolerance."
       ]
     }
   ],
   "discussions": [
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas",
+      "url": "http://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
+      "discuss_url": "https://lobste.rs/s/eedsds",
+      "score": 6,
+      "comments": 1,
+      "author": "pyfisch",
+      "published": "2026-05-25T17:07:48Z"
+    },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
@@ -124,8 +136,8 @@
       "title": "Claude is not your architect. Stop letting it pretend",
       "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
       "discuss_url": "https://news.ycombinator.com/item?id=48259784",
-      "score": 257,
-      "comments": 185,
+      "score": 264,
+      "comments": 189,
       "author": "cdrnsf",
       "published": "2026-05-24T18:28:11Z"
     },
@@ -136,10 +148,22 @@
       "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
       "url": "https://arxiv.org/abs/2605.06445",
       "discuss_url": "https://news.ycombinator.com/item?id=48256912",
-      "score": 267,
-      "comments": 161,
+      "score": 275,
+      "comments": 176,
       "author": "wek",
       "published": "2026-05-24T12:55:53Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "The Open/Closed Problem in AI",
+      "url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
+      "discuss_url": "https://lobste.rs/s/qfzcpl",
+      "score": 3,
+      "comments": 3,
+      "author": "mempko",
+      "published": "2026-05-25T16:17:21Z"
     },
     {
       "source": "hackernews",
@@ -176,6 +200,18 @@
       "comments": 0,
       "author": "slightknack",
       "published": "2026-05-22T05:38:44Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "url": "https://huggingface.co/blog/agent-glossary",
+      "discuss_url": "https://huggingface.co/blog/agent-glossary",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-05-25T00:00:00Z"
     },
     {
       "source": "rss",
@@ -229,11 +265,11 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "A Simple Makefile Tutorial",
+      "title": "A Simple Makefile Tutorial (2008)",
       "url": "https://cs.colby.edu/maxwell/courses/tutorials/maketutor/",
       "discuss_url": "https://lobste.rs/s/owa9kn",
-      "score": 6,
-      "comments": 3,
+      "score": 9,
+      "comments": 6,
       "author": "kenballus",
       "published": "2026-05-25T14:44:03Z"
     },
@@ -244,22 +280,10 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/vf66rg",
       "discuss_url": "https://lobste.rs/s/vf66rg",
-      "score": 8,
-      "comments": 9,
+      "score": 10,
+      "comments": 12,
       "author": "caius",
       "published": "2026-05-25T10:28:29Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Fully in-browser container builds",
-      "url": "https://ochagavia.nl/blog/fully-in-browser-container-builds/",
-      "discuss_url": "https://lobste.rs/s/vvb79k",
-      "score": 5,
-      "comments": 3,
-      "author": "wofo",
-      "published": "2026-05-25T11:19:36Z"
     },
     {
       "source": "lobsters",
@@ -268,7 +292,7 @@
       "title": "The Eternal Sloptember",
       "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
       "discuss_url": "https://lobste.rs/s/pwnqab",
-      "score": 53,
+      "score": 63,
       "comments": 9,
       "author": "rcalixte",
       "published": "2026-05-25T00:35:59Z"
@@ -277,25 +301,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "From AFSK to Goertzel",
-      "url": "https://uart.cz/2959/from-afsk-to-goertzel/",
-      "discuss_url": "https://lobste.rs/s/vqivdq",
-      "score": 12,
-      "comments": 2,
-      "author": "Bernerd",
-      "published": "2026-05-24T14:22:54Z"
+      "title": "Fully in-browser container builds",
+      "url": "https://ochagavia.nl/blog/fully-in-browser-container-builds/",
+      "discuss_url": "https://lobste.rs/s/vvb79k",
+      "score": 9,
+      "comments": 3,
+      "author": "wofo",
+      "published": "2026-05-25T11:19:36Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "libwce: the entropy layer of a wavelet codec, on its own",
-      "url": "https://yogthos.net/posts/2026-05-24-libwce.html",
-      "discuss_url": "https://lobste.rs/s/d3uwf1",
-      "score": 4,
+      "title": "From AFSK to Goertzel",
+      "url": "https://uart.cz/2959/from-afsk-to-goertzel/",
+      "discuss_url": "https://lobste.rs/s/vqivdq",
+      "score": 13,
       "comments": 2,
-      "author": "Yogthos",
-      "published": "2026-05-24T13:43:11Z"
+      "author": "Bernerd",
+      "published": "2026-05-24T14:22:54Z"
     },
     {
       "source": "lobsters",
@@ -313,6 +337,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "libwce: the entropy layer of a wavelet codec, on its own",
+      "url": "https://yogthos.net/posts/2026-05-24-libwce.html",
+      "discuss_url": "https://lobste.rs/s/d3uwf1",
+      "score": 4,
+      "comments": 2,
+      "author": "Yogthos",
+      "published": "2026-05-24T13:43:11Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/hwyrwd",
       "discuss_url": "https://lobste.rs/s/hwyrwd",
@@ -322,28 +358,16 @@
       "published": "2026-05-22T09:06:33Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
+      "source": "rss",
+      "subsource": "github.blog",
       "category": "engineering",
-      "title": "Reviving old scanners with an in-browser Linux VM bridged to WebUSB over USB/IP",
-      "url": "https://yes-we-scan.app/details",
-      "discuss_url": "https://lobste.rs/s/njsz36",
-      "score": 7,
-      "comments": 1,
-      "author": "Yogthos",
-      "published": "2026-05-21T18:58:07Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Gobee: write eBPF programs in Go, transpiled via clang",
-      "url": "https://github.com/boratanrikulu/gobee",
-      "discuss_url": "https://lobste.rs/s/52g7rz",
-      "score": 6,
-      "comments": 0,
-      "author": "boratanrikulu",
-      "published": "2026-05-21T17:08:19Z"
+      "title": "GitHub for Beginners: Getting started with Git and GitHub in VS Code",
+      "url": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/",
+      "discuss_url": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-05-25T16:00:00Z"
     },
     {
       "source": "rss",
@@ -370,14 +394,26 @@
       "published": "2026-05-21T18:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Building GitHub’s next chapter in accessibility",
+      "url": "https://github.blog/open-source/building-githubs-next-chapter-in-accessibility/",
+      "discuss_url": "https://github.blog/open-source/building-githubs-next-chapter-in-accessibility/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-05-21T16:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "How my minimal, memory-safe Go rsync steers clear of vulnerabilities",
       "url": "https://michael.stapelberg.ch/posts/2026-05-24-minimal-memory-safe-go-rsync-vulns/",
       "discuss_url": "https://lobste.rs/s/5y9u93",
-      "score": 79,
-      "comments": 10,
+      "score": 90,
+      "comments": 16,
       "author": "stapelberg",
       "published": "2026-05-24T14:38:34Z"
     },
@@ -392,18 +428,6 @@
       "comments": 0,
       "author": "7tehdt3cnw6kir6o",
       "published": "2026-05-24T11:37:11Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Dependency cooldowns are unfair; we should use phased rollouts instead",
-      "url": "https://illegalcode.net/rfcs/phased_rollouts.html",
-      "discuss_url": "https://lobste.rs/s/jyhbzg",
-      "score": 18,
-      "comments": 33,
-      "author": "quad",
-      "published": "2026-05-21T19:14:04Z"
     },
     {
       "source": "lobsters",
@@ -433,18 +457,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Pardon MIE?",
-      "url": "https://ironpeak.be/blog/bypassing-apple-mie/",
-      "discuss_url": "https://lobste.rs/s/ymgsrp",
-      "score": 6,
-      "comments": 1,
-      "author": "fro",
-      "published": "2026-05-24T00:10:25Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Secure Boot and CA Rollover - a heads-up for distributions",
       "url": "https://blog.einval.com/2026/05/22#secure_boot_ca_rollover",
       "discuss_url": "https://lobste.rs/s/qwytbf",
@@ -452,6 +464,18 @@
       "comments": 3,
       "author": "Foxboron",
       "published": "2026-05-22T09:48:59Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Pardon MIE?",
+      "url": "https://ironpeak.be/blog/bypassing-apple-mie/",
+      "discuss_url": "https://lobste.rs/s/ymgsrp",
+      "score": 6,
+      "comments": 1,
+      "author": "fro",
+      "published": "2026-05-24T00:10:25Z"
     },
     {
       "source": "lobsters",
@@ -469,18 +493,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Staged publishing and new install-time controls for NPM",
-      "url": "https://github.blog/changelog/2026-05-22-staged-publishing-and-new-install-time-controls-for-npm/",
-      "discuss_url": "https://lobste.rs/s/ujrw32",
-      "score": 6,
-      "comments": 3,
-      "author": "alemi",
-      "published": "2026-05-23T06:06:49Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Megalodon: Mass GitHub Repo Backdooring via CI Workflows",
       "url": "https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows",
       "discuss_url": "https://lobste.rs/s/k2ifb5",
@@ -493,13 +505,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "A Private pkg Repo Behind Mutual TLS",
-      "url": "https://oshogbo.com/blog/88/",
-      "discuss_url": "https://lobste.rs/s/ggqpxg",
-      "score": 11,
-      "comments": 4,
-      "author": "0mp",
-      "published": "2026-05-21T17:47:22Z"
+      "title": "Staged publishing and new install-time controls for NPM",
+      "url": "https://github.blog/changelog/2026-05-22-staged-publishing-and-new-install-time-controls-for-npm/",
+      "discuss_url": "https://lobste.rs/s/ujrw32",
+      "score": 6,
+      "comments": 3,
+      "author": "alemi",
+      "published": "2026-05-23T06:06:49Z"
     },
     {
       "source": "lobsters",
@@ -512,6 +524,30 @@
       "comments": 0,
       "author": "shonfeder",
       "published": "2026-05-21T22:46:37Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "CVE-2026-47243: Kata Containers guest-root to host-root escape via virtiofs",
+      "url": "https://www.openwall.com/lists/oss-security/2026/05/21/14",
+      "discuss_url": "https://lobste.rs/s/blhd1c",
+      "score": 4,
+      "comments": 0,
+      "author": "7tehdt3cnw6kir6o",
+      "published": "2026-05-21T20:41:26Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "krebsonsecurity.com",
+      "category": "security",
+      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
+      "url": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+      "discuss_url": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+      "score": null,
+      "comments": null,
+      "author": "BrianKrebs",
+      "published": "2026-05-25T13:21:49Z"
     },
     {
       "source": "lobsters",
