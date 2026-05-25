@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T10:18:30Z",
+  "updated_at": "2026-05-25T15:19:37Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "Claude is not your architect. Stop letting it pretend",
       "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
       "discuss_url": "https://news.ycombinator.com/item?id=48259784",
-      "score": 251,
-      "comments": 177,
+      "score": 257,
+      "comments": 185,
       "author": "cdrnsf",
       "published": "2026-05-24T18:28:11Z",
       "bullets": [
-        "LLMs like Claude lack systemic reasoning, generating plausible-looking but structurally flawed software architectures that fail under production scale.",
-        "AI-generated designs often suffer from hallucinated dependencies, outdated API patterns, and silent failure modes that humans must painstakingly debug.",
-        "Use LLMs for local code generation and brainstorming, but rely on human architects to define distributed systems and boundaries."
+        "LLMs like Claude 3.5 Sonnet excel at localized code generation but lack the holistic reasoning needed for complex software architecture.",
+        "Relying blindly on AI for system design leads to over-engineered microservices, flawed database schemas, and critical architectural drift.",
+        "Deploy LLMs for tactical tasks like unit testing and boilerplate generation, leaving high-level structural decisions to human staff engineers."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "The Eternal Sloptember",
-      "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
-      "discuss_url": "https://lobste.rs/s/pwnqab",
-      "score": 41,
+      "title": "A Simple Makefile Tutorial",
+      "url": "https://cs.colby.edu/maxwell/courses/tutorials/maketutor/",
+      "discuss_url": "https://lobste.rs/s/owa9kn",
+      "score": 6,
       "comments": 3,
-      "author": "rcalixte",
-      "published": "2026-05-25T00:35:59Z",
+      "author": "kenballus",
+      "published": "2026-05-25T14:44:03Z",
       "bullets": [
-        "Generative AI slop poisons public web scraping data, creating model collapse feedback loops that degrade future LLM training quality.",
-        "Unchecked LLM-generated code floods repositories like GitHub, increasing technical debt, security vulnerabilities, and package maintenance overhead.",
-        "Search engine degradation and AI-generated SEO spam force engineers to rely on curated, closed developer communities for reliable technical information."
+        "Use .PHONY to prevent name conflicts with local files, ensuring targets like clean or test always execute reliably.",
+        "Leverage automatic variables like $@ for target names and $< for the first prerequisite to write DRY, maintainable build rules.",
+        "Implement automatic dependency generation using GCC/Clang -MMD flags to rebuild binary targets only when header files actually change."
       ]
     },
     {
@@ -71,48 +71,48 @@
       "title": "How my minimal, memory-safe Go rsync steers clear of vulnerabilities",
       "url": "https://michael.stapelberg.ch/posts/2026-05-24-minimal-memory-safe-go-rsync-vulns/",
       "discuss_url": "https://lobste.rs/s/5y9u93",
-      "score": 66,
-      "comments": 6,
+      "score": 79,
+      "comments": 10,
       "author": "stapelberg",
       "published": "2026-05-24T14:38:34Z",
       "bullets": [
-        "Replacing legacy C rsync with Go eliminates common memory-safety vulnerabilities like buffer overflows, double-frees, and out-of-bounds pointer arithmetic.",
-        "A minimal feature set dramatically reduces the attack surface compared to legacy rsync, eliminating complex, vulnerable protocol parsing logic.",
-        "Using Go's standard library path sanitization mitigates classic rsync directory traversal exploits during remote file synchronization."
+        "Implementing rsync in Go eliminates classic C-based memory corruption bugs like buffer overflows and use-after-free vulnerabilities.",
+        "A minimal rsync codebase reduces attack surface by omitting legacy protocol features and risky, complex command execution paths.",
+        "Using Go's native path-cleaning libraries mitigates common rsync directory traversal vulnerabilities like those seen in CVE-2022-29154."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "Kubernetes In Anger",
-      "url": "https://samof76.space/kubernetes-in-anger.html",
-      "discuss_url": "https://lobste.rs/s/iggblv",
-      "score": 26,
-      "comments": 12,
-      "author": "samof76",
-      "published": "2026-05-21T10:27:31Z",
+      "title": "Improving my self-hosted actions runner setup",
+      "url": "https://excipio.tech/blog/improving-my-self-hosted-actions-runner-setup/",
+      "discuss_url": "https://lobste.rs/s/zcchf1",
+      "score": 6,
+      "comments": 0,
+      "author": "diktomat",
+      "published": "2026-05-23T15:11:47Z",
       "bullets": [
-        "Monitor etcd disk write latency and optimize raft election timeouts to prevent control plane split-brain scenarios in production.",
-        "Prevent unexpected container termination by avoiding CPU overcommit and setting proactive alerts for OOMKilled events on stateful workloads.",
-        "Mitigate CoreDNS bottlenecks and UDP timeout packet drops in high-scale clusters by deploying NodeLocal DNSCache daemonsets."
+        "Use ephemeral GitHub Actions runners (`--ephemeral`) to ensure clean build environments and prevent persistent state security exploits between jobs.",
+        "Deploy Actions Runner Controller (ARC) on Kubernetes to auto-scale runner pods dynamically based on webhook events and workflow demands.",
+        "Leverage Docker-in-Docker (DinD) or rootless container engines safely within runner environments to support containerized workflow steps efficiently."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Whatever the mirror test tells us, beluga whales pass it",
-      "url": "https://arstechnica.com/science/2026/05/belugas-may-pass-the-mirror-test-but-does-the-mirror-test-still-pass/",
-      "discuss_url": "https://arstechnica.com/science/2026/05/belugas-may-pass-the-mirror-test-but-does-the-mirror-test-still-pass/",
+      "title": "US's big bet on quantum computing may not be entirely legal",
+      "url": "https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/",
       "score": null,
       "comments": null,
-      "author": "Federica Sgorbissa",
-      "published": "2026-05-24T11:15:38Z",
+      "author": "John Timmer",
+      "published": "2026-05-25T12:00:15Z",
       "bullets": [
-        "Beluga whales passed the Mirror Self-Recognition (MSR) test, confirming self-directed behavior when presented with their own reflections.",
-        "This expands the exclusive cohort of species demonstrating MSR, though the test's validity as a proxy for true consciousness remains contested.",
-        "The debate mirrors AI evaluation challenges, where behavioral pass-marks do not definitively prove underlying cognitive states or self-awareness."
+        "Multi-million dollar government funding for PsiQuantum's silicon-photonics architecture faces legal scrutiny over bypassed, non-tendered procurement processes.",
+        "The initiative attempts to launch dedicated quantum foundries, though skeptics question the market demand over utilizing existing commercial CMOS lines.",
+        "Security teams and infrastructure engineers should monitor these state-funded hardware pipelines to forecast realistic post-quantum cryptography migration timelines."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Claude is not your architect. Stop letting it pretend",
       "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
       "discuss_url": "https://news.ycombinator.com/item?id=48259784",
-      "score": 251,
-      "comments": 177,
+      "score": 257,
+      "comments": 185,
       "author": "cdrnsf",
       "published": "2026-05-24T18:28:11Z"
     },
@@ -136,8 +136,8 @@
       "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
       "url": "https://arxiv.org/abs/2605.06445",
       "discuss_url": "https://news.ycombinator.com/item?id=48256912",
-      "score": 241,
-      "comments": 136,
+      "score": 267,
+      "comments": 161,
       "author": "wek",
       "published": "2026-05-24T12:55:53Z"
     },
@@ -148,22 +148,10 @@
       "title": "DeepSeek to Make Permanent 75% Discount on Flagship AI Model",
       "url": "https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model",
       "discuss_url": "https://news.ycombinator.com/item?id=48257410",
-      "score": 207,
+      "score": 209,
       "comments": 2,
       "author": "moh_maya",
       "published": "2026-05-24T14:09:33Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Making deep learning go brrrr from first principles (2022)",
-      "url": "https://horace.io/brrr_intro.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=48246889",
-      "score": 189,
-      "comments": 65,
-      "author": "tosh",
-      "published": "2026-05-23T11:50:22Z"
     },
     {
       "source": "lobsters",
@@ -173,7 +161,7 @@
       "url": "https://www.dergraf.org/notes/canister-egress-proxy-dlp/",
       "discuss_url": "https://lobste.rs/s/obnccl",
       "score": 3,
-      "comments": 14,
+      "comments": 15,
       "author": "dergraf",
       "published": "2026-05-24T08:31:24Z"
     },
@@ -238,28 +226,40 @@
       "published": "2026-05-19T00:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
-      "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
-      "discuss_url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-05-18T15:12:46Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "A Simple Makefile Tutorial",
+      "url": "https://cs.colby.edu/maxwell/courses/tutorials/maketutor/",
+      "discuss_url": "https://lobste.rs/s/owa9kn",
+      "score": 6,
+      "comments": 3,
+      "author": "kenballus",
+      "published": "2026-05-25T14:44:03Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "The Open Agent Leaderboard",
-      "url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
-      "discuss_url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-05-18T14:12:58Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/vf66rg",
+      "discuss_url": "https://lobste.rs/s/vf66rg",
+      "score": 8,
+      "comments": 9,
+      "author": "caius",
+      "published": "2026-05-25T10:28:29Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Fully in-browser container builds",
+      "url": "https://ochagavia.nl/blog/fully-in-browser-container-builds/",
+      "discuss_url": "https://lobste.rs/s/vvb79k",
+      "score": 5,
+      "comments": 3,
+      "author": "wofo",
+      "published": "2026-05-25T11:19:36Z"
     },
     {
       "source": "lobsters",
@@ -268,8 +268,8 @@
       "title": "The Eternal Sloptember",
       "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
       "discuss_url": "https://lobste.rs/s/pwnqab",
-      "score": 41,
-      "comments": 3,
+      "score": 53,
+      "comments": 9,
       "author": "rcalixte",
       "published": "2026-05-25T00:35:59Z"
     },
@@ -280,7 +280,7 @@
       "title": "From AFSK to Goertzel",
       "url": "https://uart.cz/2959/from-afsk-to-goertzel/",
       "discuss_url": "https://lobste.rs/s/vqivdq",
-      "score": 10,
+      "score": 12,
       "comments": 2,
       "author": "Bernerd",
       "published": "2026-05-24T14:22:54Z"
@@ -320,18 +320,6 @@
       "comments": 42,
       "author": "caius",
       "published": "2026-05-22T09:06:33Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Church Encoding, Parametricity, and the Yoneda Lemma",
-      "url": "https://blog.wybxc.cc/blog/parametricity/",
-      "discuss_url": "https://lobste.rs/s/ulkriy",
-      "score": 10,
-      "comments": 1,
-      "author": "josephjnk",
-      "published": "2026-05-21T13:34:58Z"
     },
     {
       "source": "lobsters",
@@ -382,38 +370,14 @@
       "published": "2026-05-21T18:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Building GitHub’s next chapter in accessibility",
-      "url": "https://github.blog/open-source/building-githubs-next-chapter-in-accessibility/",
-      "discuss_url": "https://github.blog/open-source/building-githubs-next-chapter-in-accessibility/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-05-21T16:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Investigating unauthorized access to GitHub-owned repositories",
-      "url": "https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/",
-      "discuss_url": "https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-05-20T21:07:38Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "How my minimal, memory-safe Go rsync steers clear of vulnerabilities",
       "url": "https://michael.stapelberg.ch/posts/2026-05-24-minimal-memory-safe-go-rsync-vulns/",
       "discuss_url": "https://lobste.rs/s/5y9u93",
-      "score": 66,
-      "comments": 6,
+      "score": 79,
+      "comments": 10,
       "author": "stapelberg",
       "published": "2026-05-24T14:38:34Z"
     },
@@ -445,6 +409,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "How to open calc.exe from S&Box",
+      "url": "https://slugcat.systems/post/26-05-21-how-to-open-calc-exe-from-sbox/",
+      "discuss_url": "https://lobste.rs/s/r6lw7v",
+      "score": 24,
+      "comments": 9,
+      "author": "calvin",
+      "published": "2026-05-21T20:00:59Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "CVE-2026-46529: 10-year-old RCE in Linux PDF Viewer (XReader/Evince/Atril)",
       "url": "https://medeiros.zip/posts/CVE-2026-46529-evince",
       "discuss_url": "https://lobste.rs/s/rlpzut",
@@ -457,13 +433,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "How to open calc.exe from S&Box",
-      "url": "https://slugcat.systems/post/26-05-21-how-to-open-calc-exe-from-sbox/",
-      "discuss_url": "https://lobste.rs/s/r6lw7v",
-      "score": 24,
-      "comments": 9,
-      "author": "calvin",
-      "published": "2026-05-21T20:00:59Z"
+      "title": "Pardon MIE?",
+      "url": "https://ironpeak.be/blog/bypassing-apple-mie/",
+      "discuss_url": "https://lobste.rs/s/ymgsrp",
+      "score": 6,
+      "comments": 1,
+      "author": "fro",
+      "published": "2026-05-24T00:10:25Z"
     },
     {
       "source": "lobsters",
@@ -517,18 +493,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Pardon MIE?",
-      "url": "https://ironpeak.be/blog/bypassing-apple-mie/",
-      "discuss_url": "https://lobste.rs/s/ymgsrp",
-      "score": 6,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-05-24T00:10:25Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "A Private pkg Repo Behind Mutual TLS",
       "url": "https://oshogbo.com/blog/88/",
       "discuss_url": "https://lobste.rs/s/ggqpxg",
@@ -541,25 +505,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "FatGid - FreeBSD 14.x kernel LPE",
-      "url": "https://fatgid.io/",
-      "discuss_url": "https://lobste.rs/s/yy3xax",
-      "score": 11,
+      "title": "OCaml Infrastructure: How the opam-repository Works",
+      "url": "https://ocaml.org/backstage/2025-11-05-how-the-opam-repository-works",
+      "discuss_url": "https://lobste.rs/s/mteumb",
+      "score": 5,
       "comments": 0,
-      "author": "fro",
-      "published": "2026-05-21T13:42:03Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "Kubernetes In Anger",
-      "url": "https://samof76.space/kubernetes-in-anger.html",
-      "discuss_url": "https://lobste.rs/s/iggblv",
-      "score": 26,
-      "comments": 12,
-      "author": "samof76",
-      "published": "2026-05-21T10:27:31Z"
+      "author": "shonfeder",
+      "published": "2026-05-21T22:46:37Z"
     },
     {
       "source": "lobsters",
@@ -695,6 +647,42 @@
     },
     {
       "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "SageMaker Unified Studio automates Glue connector provisioning for cross-subnet job retries",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/sagemaker-unified-studio-glue/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/sagemaker-unified-studio-glue/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-21T19:27:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "US's big bet on quantum computing may not be entirely legal",
+      "url": "https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/",
+      "score": null,
+      "comments": null,
+      "author": "John Timmer",
+      "published": "2026-05-25T12:00:15Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "I spent years forcing myself to finish The Witcher 3—don't repeat my mistake",
+      "url": "https://arstechnica.com/gaming/2026/05/the-witcher-3-is-a-good-game-but-that-doesnt-mean-you-have-to-like-it/",
+      "discuss_url": "https://arstechnica.com/gaming/2026/05/the-witcher-3-is-a-good-game-but-that-doesnt-mean-you-have-to-like-it/",
+      "score": null,
+      "comments": null,
+      "author": "Samuel Axon",
+      "published": "2026-05-25T11:22:27Z"
+    },
+    {
+      "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
       "title": "Whatever the mirror test tells us, beluga whales pass it",
@@ -812,30 +800,6 @@
       "comments": null,
       "author": "Jennifer Ouellette",
       "published": "2026-05-22T19:02:48Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Police boast of hacking VPN where criminals \"believed themselves to be safe\"",
-      "url": "https://arstechnica.com/tech-policy/2026/05/police-boast-of-hacking-vpn-where-criminals-believed-themselves-to-be-safe/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/police-boast-of-hacking-vpn-where-criminals-believed-themselves-to-be-safe/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-05-22T18:43:54Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Review: The Mandalorian and Grogu is ... fine",
-      "url": "https://arstechnica.com/culture/2026/05/review-the-mandalorian-and-grogu-is-average-star-wars-no-more-no-less/",
-      "discuss_url": "https://arstechnica.com/culture/2026/05/review-the-mandalorian-and-grogu-is-average-star-wars-no-more-no-less/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-05-22T18:30:06Z"
     }
   ]
 }
