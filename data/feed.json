@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-26T10:04:59Z",
+  "updated_at": "2026-05-26T15:45:37Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "CVE-2026-28952: Apple macOS 26.5 Kernel Vuln found by Claude",
       "url": "https://support.apple.com/en-us/127115",
       "discuss_url": "https://news.ycombinator.com/item?id=48273169",
-      "score": 142,
-      "comments": 77,
+      "score": 159,
+      "comments": 86,
       "author": "dragonsenseiguy",
       "published": "2026-05-25T23:40:40Z",
       "bullets": [
-        "Anthropic's Claude agent autonomously uncovered CVE-2026-28952 in macOS 26.5, showcasing advanced AI capabilities in kernel-level analysis.",
-        "This milestone highlights the transition of LLMs from code drafting assistants to proactive agents in automated zero-day discovery.",
-        "Security teams should prepare for accelerated patch cycles as AI-driven vulnerability research and exploit finding scale rapidly."
+        "Anthropic's Claude discovered CVE-2026-28952, a macOS 26.5 kernel vulnerability, demonstrating LLM viability in automated zero-day vulnerability research.",
+        "The milestone elevates LLM security agents from basic code-completion tools to autonomous auditors capable of complex system-level code analysis.",
+        "Security teams must adopt AI-driven defensive auditing to match the speed of LLM-generated exploits and automated vulnerability discovery."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "The pressure",
       "url": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
       "discuss_url": "https://lobste.rs/s/dw02ye",
-      "score": 16,
-      "comments": 1,
+      "score": 68,
+      "comments": 16,
       "author": "andrewnez",
       "published": "2026-05-26T06:47:38Z",
       "bullets": [
-        "Apply backpressure and queue limits using algorithms like Leaky Bucket to protect downstream microservices from traffic spikes and cascading failures.",
-        "Alleviate developer operational pressure by maintaining strict SLOs, automated runbooks, and distributed tracing tools like OpenTelemetry for rapid debugging.",
-        "Mitigate software delivery pressure by decoupling deployments from releases using feature flags (e.g., LaunchDarkly) to lower production deployment risk."
+        "Manage cognitive overload and framework fatigue by focusing on core protocols like TCP and HTTP rather than chasing every ephemeral JS library.",
+        "Reduce operational pressure by implementing blameless post-mortems, automated CI/CD pipelines, and structured 24/7 on-call rotations with clear escalation paths.",
+        "Counteract delivery pressure by explicitly negotiating technical debt budgets and dedicated refactoring cycles during sprint planning sessions."
       ]
     },
     {
@@ -71,48 +71,48 @@
       "title": "How my minimal, memory-safe Go rsync steers clear of vulnerabilities",
       "url": "https://michael.stapelberg.ch/posts/2026-05-24-minimal-memory-safe-go-rsync-vulns/",
       "discuss_url": "https://lobste.rs/s/5y9u93",
-      "score": 96,
+      "score": 98,
       "comments": 17,
       "author": "stapelberg",
       "published": "2026-05-24T14:38:34Z",
       "bullets": [
-        "Implementing rsync in Go eliminates classic C-based memory corruption bugs like buffer overflows and use-after-free vulnerabilities.",
-        "A minimal protocol implementation reduces attack surface by stripping out legacy rsync features and complex, historically vulnerable parsing logic.",
-        "Go's strict filepath handling mitigates directory traversal attacks, a frequent security flaw in traditional C rsync deployments."
+        "Implementing rsync in Go mitigates legacy C vulnerabilities, protecting against buffer overflows and memory corruption without sacrificing performance.",
+        "A stripped-down feature set slashes attack surface by avoiding complex, historically vulnerable rsync protocol extensions and parsing logic.",
+        "Go’s strict bounds checking and type safety secure file transfers against remote code execution risks common in native binaries."
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "devops",
-      "title": "A demonstration deployment of Haskell on AWS Lambda",
-      "url": "https://git.sr.ht/~jack/lambda-on-lambda",
-      "discuss_url": "https://lobste.rs/s/3rfye9",
-      "score": 1,
-      "comments": 1,
-      "author": "jackdk",
-      "published": "2026-05-25T23:56:37Z",
+      "title": "AWS Fired the One Employee Who Gave a Damn",
+      "url": "https://www.seuros.com/blog/aws-fired-the-human-who-made-the-difference/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48279321",
+      "score": 175,
+      "comments": 93,
+      "author": "berlianta",
+      "published": "2026-05-26T13:08:40Z",
       "bullets": [
-        "AWS Lambda requires a custom runtime bootstrap binary to execute compiled Haskell, as AWS lacks native Haskell runtime support.",
-        "Compile Haskell statically using GHC and Nix or Alpine Linux to package a lightweight, self-contained executable for the Lambda environment.",
-        "Deploy the compiled binary using Terraform or AWS SAM under the custom `provided.al2` or `provided.al2023` Amazon Linux runtimes."
+        "Relying on informal relationships with AWS insiders for critical escalations poses operational risks; teams must harden formal enterprise support paths.",
+        "Degrading vendor-side human advocacy forces DevOps to implement automated guardrails and community-driven workarounds for platform gaps.",
+        "Loss of internal customer champions reduces proactive warnings on API deprecations, billing changes, and undocumented AWS service limits."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Citing Gandalf, Pope Leo says we must \"disarm\" AI",
-      "url": "https://arstechnica.com/tech-policy/2026/05/citing-gandalf-pope-leo-says-we-must-disarm-ai/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/citing-gandalf-pope-leo-says-we-must-disarm-ai/",
+      "title": "Analyst on China's spent rocket stages: \"Things only continue to get worse\"",
+      "url": "https://arstechnica.com/space/2026/05/analyst-on-chinas-spent-rocket-stages-things-only-continue-to-get-worse/",
+      "discuss_url": "https://arstechnica.com/space/2026/05/analyst-on-chinas-spent-rocket-stages-things-only-continue-to-get-worse/",
       "score": null,
       "comments": null,
-      "author": "Nate Anderson",
-      "published": "2026-05-25T21:07:42Z",
+      "author": "Eric Berger",
+      "published": "2026-05-26T13:57:30Z",
       "bullets": [
-        "Vatican AI ethics initiatives demand robust 'human-in-the-loop' guardrails to counter algorithmic determinism and preserve human agency in automated systems.",
-        "The push to 'disarm' AI focuses on banning fully autonomous lethal weapons and mitigating systemic bias in machine learning models.",
-        "AI practitioners should prepare for stricter global compliance frameworks aligned with 'algorethics' principles pushed by international religious and political leaders."
+        "Spent upper rocket stages, containing residual propellants, pose the highest risk of catastrophic orbital explosions and debris generation.",
+        "Uncontrolled Chinese Long March (CZ) stage breakups exacerbate low Earth orbit collision risks for commercial and defense satellite constellations.",
+        "Satellite operators must enhance Space Domain Awareness (SDA) and collision-avoidance automation to mitigate growing uncontrolled orbital debris hazards."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "CVE-2026-28952: Apple macOS 26.5 Kernel Vuln found by Claude",
       "url": "https://support.apple.com/en-us/127115",
       "discuss_url": "https://news.ycombinator.com/item?id=48273169",
-      "score": 142,
-      "comments": 77,
+      "score": 159,
+      "comments": 86,
       "author": "dragonsenseiguy",
       "published": "2026-05-25T23:40:40Z"
     },
@@ -136,8 +136,8 @@
       "title": "Norway's 2 petabytes of Huawei flash storage and LLM training",
       "url": "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910",
       "discuss_url": "https://news.ycombinator.com/item?id=48270770",
-      "score": 266,
-      "comments": 175,
+      "score": 307,
+      "comments": 195,
       "author": "rbanffy",
       "published": "2026-05-25T19:37:57Z"
     },
@@ -148,8 +148,8 @@
       "title": "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas",
       "url": "http://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
       "discuss_url": "https://lobste.rs/s/eedsds",
-      "score": 66,
-      "comments": 30,
+      "score": 88,
+      "comments": 48,
       "author": "pyfisch",
       "published": "2026-05-25T17:07:48Z"
     },
@@ -160,34 +160,10 @@
       "title": "Claude is not your architect. Stop letting it pretend",
       "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
       "discuss_url": "https://news.ycombinator.com/item?id=48259784",
-      "score": 267,
+      "score": 269,
       "comments": 189,
       "author": "cdrnsf",
       "published": "2026-05-24T18:28:11Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
-      "url": "https://arxiv.org/abs/2605.06445",
-      "discuss_url": "https://news.ycombinator.com/item?id=48256912",
-      "score": 280,
-      "comments": 190,
-      "author": "wek",
-      "published": "2026-05-24T12:55:53Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "DeepSeek to Make Permanent 75% Discount on Flagship AI Model",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model",
-      "discuss_url": "https://news.ycombinator.com/item?id=48257410",
-      "score": 209,
-      "comments": 2,
-      "author": "moh_maya",
-      "published": "2026-05-24T14:09:33Z"
     },
     {
       "source": "lobsters",
@@ -196,8 +172,8 @@
       "title": "The Open/Closed Problem in AI",
       "url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
       "discuss_url": "https://lobste.rs/s/qfzcpl",
-      "score": 8,
-      "comments": 4,
+      "score": 10,
+      "comments": 7,
       "author": "mempko",
       "published": "2026-05-25T16:17:21Z"
     },
@@ -268,8 +244,8 @@
       "title": "The pressure",
       "url": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
       "discuss_url": "https://lobste.rs/s/dw02ye",
-      "score": 16,
-      "comments": 1,
+      "score": 68,
+      "comments": 16,
       "author": "andrewnez",
       "published": "2026-05-26T06:47:38Z"
     },
@@ -280,22 +256,10 @@
       "title": "A Simple Makefile Tutorial (2008)",
       "url": "https://cs.colby.edu/maxwell/courses/tutorials/maketutor/",
       "discuss_url": "https://lobste.rs/s/owa9kn",
-      "score": 17,
-      "comments": 13,
+      "score": 18,
+      "comments": 17,
       "author": "kenballus",
       "published": "2026-05-25T14:44:03Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/vf66rg",
-      "discuss_url": "https://lobste.rs/s/vf66rg",
-      "score": 14,
-      "comments": 15,
-      "author": "caius",
-      "published": "2026-05-25T10:28:29Z"
     },
     {
       "source": "lobsters",
@@ -304,7 +268,7 @@
       "title": "The Eternal Sloptember",
       "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
       "discuss_url": "https://lobste.rs/s/pwnqab",
-      "score": 65,
+      "score": 66,
       "comments": 10,
       "author": "rcalixte",
       "published": "2026-05-25T00:35:59Z"
@@ -313,10 +277,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/vf66rg",
+      "discuss_url": "https://lobste.rs/s/vf66rg",
+      "score": 15,
+      "comments": 15,
+      "author": "caius",
+      "published": "2026-05-25T10:28:29Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Fully in-browser container builds",
       "url": "https://ochagavia.nl/blog/fully-in-browser-container-builds/",
       "discuss_url": "https://lobste.rs/s/vvb79k",
-      "score": 11,
+      "score": 14,
       "comments": 4,
       "author": "wofo",
       "published": "2026-05-25T11:19:36Z"
@@ -412,22 +388,10 @@
       "title": "How my minimal, memory-safe Go rsync steers clear of vulnerabilities",
       "url": "https://michael.stapelberg.ch/posts/2026-05-24-minimal-memory-safe-go-rsync-vulns/",
       "discuss_url": "https://lobste.rs/s/5y9u93",
-      "score": 96,
+      "score": 98,
       "comments": 17,
       "author": "stapelberg",
       "published": "2026-05-24T14:38:34Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Debian SE Linux and PinTheft",
-      "url": "https://etbe.coker.com.au/2026/05/24/debian-selinux-pintheft/",
-      "discuss_url": "https://lobste.rs/s/jlhsqw",
-      "score": 9,
-      "comments": 0,
-      "author": "7tehdt3cnw6kir6o",
-      "published": "2026-05-24T11:37:11Z"
     },
     {
       "source": "lobsters",
@@ -440,6 +404,18 @@
       "comments": 1,
       "author": "commanderk",
       "published": "2026-05-22T22:14:59Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Debian SE Linux and PinTheft",
+      "url": "https://etbe.coker.com.au/2026/05/24/debian-selinux-pintheft/",
+      "discuss_url": "https://lobste.rs/s/jlhsqw",
+      "score": 9,
+      "comments": 0,
+      "author": "7tehdt3cnw6kir6o",
+      "published": "2026-05-24T11:37:11Z"
     },
     {
       "source": "lobsters",
@@ -505,7 +481,43 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "CERT-In Mandates 12-Hour Patching for Internet-Facing Flaws Amid AI-Assisted Attacks",
+      "title": "[THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back",
+      "url": "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
+      "discuss_url": "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-05-26T11:58:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions",
+      "url": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
+      "discuss_url": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-05-26T11:49:53Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
+      "url": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
+      "discuss_url": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-05-26T10:30:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "CERT-In Recommends 12-Hour Patching for Internet-Facing Flaws Amid AI-Assisted Attacks",
       "url": "https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html",
       "discuss_url": "https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html",
       "score": null,
@@ -514,52 +526,16 @@
       "published": "2026-05-26T09:13:02Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Iranian Hackers Deploy MiniFast and MiniJunk V2 via Phishing and SEO Poisoning",
-      "url": "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
-      "discuss_url": "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-05-26T07:13:05Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike",
-      "url": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html",
-      "discuss_url": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-05-26T05:19:38Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
-      "url": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
-      "discuss_url": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-05-25T14:13:27Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "devops",
-      "title": "A demonstration deployment of Haskell on AWS Lambda",
-      "url": "https://git.sr.ht/~jack/lambda-on-lambda",
-      "discuss_url": "https://lobste.rs/s/3rfye9",
-      "score": 1,
-      "comments": 1,
-      "author": "jackdk",
-      "published": "2026-05-25T23:56:37Z"
+      "title": "AWS Fired the One Employee Who Gave a Damn",
+      "url": "https://www.seuros.com/blog/aws-fired-the-human-who-made-the-difference/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48279321",
+      "score": 175,
+      "comments": 93,
+      "author": "berlianta",
+      "published": "2026-05-26T13:08:40Z"
     },
     {
       "source": "lobsters",
@@ -697,6 +673,42 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "Analyst on China's spent rocket stages: \"Things only continue to get worse\"",
+      "url": "https://arstechnica.com/space/2026/05/analyst-on-chinas-spent-rocket-stages-things-only-continue-to-get-worse/",
+      "discuss_url": "https://arstechnica.com/space/2026/05/analyst-on-chinas-spent-rocket-stages-things-only-continue-to-get-worse/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-05-26T13:57:30Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Amazing interior, controversial exterior: Ferrari's first electric car",
+      "url": "https://arstechnica.com/cars/2026/05/the-most-controversial-ferrari-ever-meet-the-luce-its-first-ever-ev/",
+      "discuss_url": "https://arstechnica.com/cars/2026/05/the-most-controversial-ferrari-ever-meet-the-luce-its-first-ever-ev/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-05-26T12:56:32Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Driving Porsche's most powerful car—and no, it's not a 911",
+      "url": "https://arstechnica.com/cars/2026/05/porsches-cayenne-coupe-electric-brings-formula-e-tech-to-the-autobahn/",
+      "discuss_url": "https://arstechnica.com/cars/2026/05/porsches-cayenne-coupe-electric-brings-formula-e-tech-to-the-autobahn/",
+      "score": null,
+      "comments": null,
+      "author": "Tim Stevens",
+      "published": "2026-05-26T12:00:11Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "Citing Gandalf, Pope Leo says we must \"disarm\" AI",
       "url": "https://arstechnica.com/tech-policy/2026/05/citing-gandalf-pope-leo-says-we-must-disarm-ai/",
       "discuss_url": "https://arstechnica.com/tech-policy/2026/05/citing-gandalf-pope-leo-says-we-must-disarm-ai/",
@@ -800,42 +812,6 @@
       "comments": null,
       "author": "Beth Mole",
       "published": "2026-05-22T22:24:03Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "First-generation Chromecast users stressed by devices suddenly failing",
-      "url": "https://arstechnica.com/gadgets/2026/05/original-chromecast-lives-devices-back-on-after-mysteriously-breaking-this-week/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/05/original-chromecast-lives-devices-back-on-after-mysteriously-breaking-this-week/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-05-22T21:42:59Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Trump FCC asks public to comment on whether ABC's The View is a news show",
-      "url": "https://arstechnica.com/tech-policy/2026/05/trump-fcc-asks-public-to-comment-on-whether-abcs-the-view-is-a-news-show/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/trump-fcc-asks-public-to-comment-on-whether-abcs-the-view-is-a-news-show/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-05-22T21:10:46Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "US scrambles to stop Internet users re-creating dead pilots’ voices",
-      "url": "https://arstechnica.com/ai/2026/05/ai-users-re-create-dead-pilots-voices-from-crash-investigation-docs/",
-      "discuss_url": "https://arstechnica.com/ai/2026/05/ai-users-re-create-dead-pilots-voices-from-crash-investigation-docs/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-05-22T19:39:04Z"
     }
   ]
 }
