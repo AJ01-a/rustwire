@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-26T15:45:37Z",
+  "updated_at": "2026-05-26T20:15:23Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "CVE-2026-28952: Apple macOS 26.5 Kernel Vuln found by Claude",
       "url": "https://support.apple.com/en-us/127115",
       "discuss_url": "https://news.ycombinator.com/item?id=48273169",
-      "score": 159,
-      "comments": 86,
+      "score": 165,
+      "comments": 97,
       "author": "dragonsenseiguy",
       "published": "2026-05-25T23:40:40Z",
       "bullets": [
-        "Anthropic's Claude discovered CVE-2026-28952, a macOS 26.5 kernel vulnerability, demonstrating LLM viability in automated zero-day vulnerability research.",
-        "The milestone elevates LLM security agents from basic code-completion tools to autonomous auditors capable of complex system-level code analysis.",
-        "Security teams must adopt AI-driven defensive auditing to match the speed of LLM-generated exploits and automated vulnerability discovery."
+        "Anthropic's Claude LLM discovered CVE-2026-28952, a critical kernel vulnerability in macOS 26.5, demonstrating AI's viability in zero-day detection.",
+        "The discovery signals a major shift where LLMs automate complex code auditing, accelerating both defensive patching and offensive capabilities.",
+        "AI practitioners must integrate advanced models like Claude into static analysis pipelines to proactively find vulnerabilities before malicious actors do."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "The pressure",
-      "url": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
-      "discuss_url": "https://lobste.rs/s/dw02ye",
-      "score": 68,
-      "comments": 16,
-      "author": "andrewnez",
-      "published": "2026-05-26T06:47:38Z",
+      "title": "Stop advertising in your commits",
+      "url": "https://akselmo.dev/posts/stop-advertising-in-your-commits/",
+      "discuss_url": "https://lobste.rs/s/w1gpe7",
+      "score": 9,
+      "comments": 17,
+      "author": "Aks",
+      "published": "2026-05-26T17:56:24Z",
       "bullets": [
-        "Manage cognitive overload and framework fatigue by focusing on core protocols like TCP and HTTP rather than chasing every ephemeral JS library.",
-        "Reduce operational pressure by implementing blameless post-mortems, automated CI/CD pipelines, and structured 24/7 on-call rotations with clear escalation paths.",
-        "Counteract delivery pressure by explicitly negotiating technical debt budgets and dedicated refactoring cycles during sprint planning sessions."
+        "Git clients like GitKraken or Tower often append promotional signatures, cluttering project commit history and metadata.",
+        "Clean commit messages are vital for git log readability, automated changelog generators, and running effective git bisect operations.",
+        "Engineers should disable auto-generated promotional footers in Git GUI clients and AI tools to maintain clean repository standards."
       ]
     },
     {
@@ -76,9 +76,9 @@
       "author": "stapelberg",
       "published": "2026-05-24T14:38:34Z",
       "bullets": [
-        "Implementing rsync in Go mitigates legacy C vulnerabilities, protecting against buffer overflows and memory corruption without sacrificing performance.",
-        "A stripped-down feature set slashes attack surface by avoiding complex, historically vulnerable rsync protocol extensions and parsing logic.",
-        "Go’s strict bounds checking and type safety secure file transfers against remote code execution risks common in native binaries."
+        "Rewriting legacy C-based rsync in Go eliminates classic memory corruption bugs like buffer overflows and use-after-free vulnerabilities.",
+        "A minimal codebase reduces attack surface by excluding complex, legacy protocol options that frequently harbor security flaws.",
+        "Go's robust standard library and strict path-cleansing help mitigate directory traversal vulnerabilities inherent in file transfer tools."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "AWS Fired the One Employee Who Gave a Damn",
       "url": "https://www.seuros.com/blog/aws-fired-the-human-who-made-the-difference/",
       "discuss_url": "https://news.ycombinator.com/item?id=48279321",
-      "score": 175,
-      "comments": 93,
+      "score": 185,
+      "comments": 106,
       "author": "berlianta",
       "published": "2026-05-26T13:08:40Z",
       "bullets": [
-        "Relying on informal relationships with AWS insiders for critical escalations poses operational risks; teams must harden formal enterprise support paths.",
-        "Degrading vendor-side human advocacy forces DevOps to implement automated guardrails and community-driven workarounds for platform gaps.",
-        "Loss of internal customer champions reduces proactive warnings on API deprecations, billing changes, and undocumented AWS service limits."
+        "Relying on single AWS technical contacts creates key-man risks; document all infrastructure dependencies to survive vendor support quality drops.",
+        "As AWS internal support degrades, DevOps must invest in robust self-healing architectures and active monitoring rather than relying on vendor escalations.",
+        "Evaluate multi-cloud or hybrid alternatives using Terraform to mitigate risks from sudden vendor service management and personnel changes."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Analyst on China's spent rocket stages: \"Things only continue to get worse\"",
-      "url": "https://arstechnica.com/space/2026/05/analyst-on-chinas-spent-rocket-stages-things-only-continue-to-get-worse/",
-      "discuss_url": "https://arstechnica.com/space/2026/05/analyst-on-chinas-spent-rocket-stages-things-only-continue-to-get-worse/",
+      "title": "Want an oxygen-rich atmosphere? Stuff oxygen’s friends in the mantle.",
+      "url": "https://arstechnica.com/science/2026/05/the-oxygenation-of-earths-air-might-owe-a-lot-to-plate-tectonics/",
+      "discuss_url": "https://arstechnica.com/science/2026/05/the-oxygenation-of-earths-air-might-owe-a-lot-to-plate-tectonics/",
       "score": null,
       "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-05-26T13:57:30Z",
+      "author": "Scott K. Johnson",
+      "published": "2026-05-26T18:30:58Z",
       "bullets": [
-        "Spent upper rocket stages, containing residual propellants, pose the highest risk of catastrophic orbital explosions and debris generation.",
-        "Uncontrolled Chinese Long March (CZ) stage breakups exacerbate low Earth orbit collision risks for commercial and defense satellite constellations.",
-        "Satellite operators must enhance Space Domain Awareness (SDA) and collision-avoidance automation to mitigate growing uncontrolled orbital debris hazards."
+        "Deep-mantle geochemical modeling indicates that sequestering carbon and sulfur in the mantle was essential for atmospheric oxygen accumulation.",
+        "Tectonic subduction acts as a planetary-scale carbon capture mechanism, permanently removing reactants that would otherwise consume free O2.",
+        "These biogeochemical insights inform both industrial-scale geoengineering carbon sequestration strategies and remote exoplanet biosignature detection models."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "CVE-2026-28952: Apple macOS 26.5 Kernel Vuln found by Claude",
       "url": "https://support.apple.com/en-us/127115",
       "discuss_url": "https://news.ycombinator.com/item?id=48273169",
-      "score": 159,
-      "comments": 86,
+      "score": 165,
+      "comments": 97,
       "author": "dragonsenseiguy",
       "published": "2026-05-25T23:40:40Z"
     },
@@ -136,8 +136,8 @@
       "title": "Norway's 2 petabytes of Huawei flash storage and LLM training",
       "url": "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910",
       "discuss_url": "https://news.ycombinator.com/item?id=48270770",
-      "score": 307,
-      "comments": 195,
+      "score": 317,
+      "comments": 201,
       "author": "rbanffy",
       "published": "2026-05-25T19:37:57Z"
     },
@@ -148,22 +148,10 @@
       "title": "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas",
       "url": "http://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
       "discuss_url": "https://lobste.rs/s/eedsds",
-      "score": 88,
-      "comments": 48,
+      "score": 101,
+      "comments": 53,
       "author": "pyfisch",
       "published": "2026-05-25T17:07:48Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Claude is not your architect. Stop letting it pretend",
-      "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48259784",
-      "score": 269,
-      "comments": 189,
-      "author": "cdrnsf",
-      "published": "2026-05-24T18:28:11Z"
     },
     {
       "source": "lobsters",
@@ -172,8 +160,8 @@
       "title": "The Open/Closed Problem in AI",
       "url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
       "discuss_url": "https://lobste.rs/s/qfzcpl",
-      "score": 10,
-      "comments": 7,
+      "score": 12,
+      "comments": 8,
       "author": "mempko",
       "published": "2026-05-25T16:17:21Z"
     },
@@ -226,16 +214,16 @@
       "published": "2026-05-22T15:25:59Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
-      "discuss_url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-05-19T18:38:09Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Stop advertising in your commits",
+      "url": "https://akselmo.dev/posts/stop-advertising-in-your-commits/",
+      "discuss_url": "https://lobste.rs/s/w1gpe7",
+      "score": 9,
+      "comments": 17,
+      "author": "Aks",
+      "published": "2026-05-26T17:56:24Z"
     },
     {
       "source": "lobsters",
@@ -244,8 +232,8 @@
       "title": "The pressure",
       "url": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
       "discuss_url": "https://lobste.rs/s/dw02ye",
-      "score": 68,
-      "comments": 16,
+      "score": 116,
+      "comments": 27,
       "author": "andrewnez",
       "published": "2026-05-26T06:47:38Z"
     },
@@ -256,10 +244,22 @@
       "title": "A Simple Makefile Tutorial (2008)",
       "url": "https://cs.colby.edu/maxwell/courses/tutorials/maketutor/",
       "discuss_url": "https://lobste.rs/s/owa9kn",
-      "score": 18,
-      "comments": 17,
+      "score": 19,
+      "comments": 18,
       "author": "kenballus",
       "published": "2026-05-25T14:44:03Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Folding in Parallel",
+      "url": "https://okmij.org/ftp/Algorithms/map-monoid-reduce.html",
+      "discuss_url": "https://lobste.rs/s/t1es6x",
+      "score": 1,
+      "comments": 0,
+      "author": "slightknack",
+      "published": "2026-05-26T19:24:03Z"
     },
     {
       "source": "lobsters",
@@ -268,7 +268,7 @@
       "title": "The Eternal Sloptember",
       "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
       "discuss_url": "https://lobste.rs/s/pwnqab",
-      "score": 66,
+      "score": 67,
       "comments": 10,
       "author": "rcalixte",
       "published": "2026-05-25T00:35:59Z"
@@ -280,8 +280,8 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/vf66rg",
       "discuss_url": "https://lobste.rs/s/vf66rg",
-      "score": 15,
-      "comments": 15,
+      "score": 16,
+      "comments": 17,
       "author": "caius",
       "published": "2026-05-25T10:28:29Z"
     },
@@ -356,30 +356,6 @@
       "comments": null,
       "author": "Natalie Guevara",
       "published": "2026-05-22T16:10:21Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Beyond the engine: 10 open source projects shaping how games actually get made",
-      "url": "https://github.blog/open-source/gaming/beyond-the-engine-10-open-source-projects-shaping-how-games-actually-get-made/",
-      "discuss_url": "https://github.blog/open-source/gaming/beyond-the-engine-10-open-source-projects-shaping-how-games-actually-get-made/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-05-21T18:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Building GitHub’s next chapter in accessibility",
-      "url": "https://github.blog/open-source/building-githubs-next-chapter-in-accessibility/",
-      "discuss_url": "https://github.blog/open-source/building-githubs-next-chapter-in-accessibility/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-05-21T16:00:00Z"
     },
     {
       "source": "lobsters",
@@ -481,6 +457,18 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries",
+      "url": "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
+      "discuss_url": "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-05-26T15:48:41Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "[THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back",
       "url": "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
       "discuss_url": "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
@@ -514,26 +502,14 @@
       "published": "2026-05-26T10:30:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "CERT-In Recommends 12-Hour Patching for Internet-Facing Flaws Amid AI-Assisted Attacks",
-      "url": "https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html",
-      "discuss_url": "https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-05-26T09:13:02Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "AWS Fired the One Employee Who Gave a Damn",
       "url": "https://www.seuros.com/blog/aws-fired-the-human-who-made-the-difference/",
       "discuss_url": "https://news.ycombinator.com/item?id=48279321",
-      "score": 175,
-      "comments": 93,
+      "score": 185,
+      "comments": 106,
       "author": "berlianta",
       "published": "2026-05-26T13:08:40Z"
     },
@@ -548,6 +524,42 @@
       "comments": 0,
       "author": "diktomat",
       "published": "2026-05-23T15:11:47Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon RDS now supports ENA Express for Multi-AZ replication",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-ena-express-multiAZ/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-ena-express-multiAZ/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-26T19:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon VPC IPAM now supports tags on IPAM pool allocations",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-vpc-ipam-tags/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-vpc-ipam-tags/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-26T13:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon SageMaker Unified Studio adds interactive interface for managing Feature Store in IAM Domains",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-feature-store/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-feature-store/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-22T20:07:00Z"
     },
     {
       "source": "rss",
@@ -601,6 +613,18 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "Amazon GameLift Streams launches Generation 6e stream classes for high-fidelity game streaming",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-gamelift-streams-g6e-stream-class/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-gamelift-streams-g6e-stream-class/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-22T16:39:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon WorkSpaces Personal now supports WorkSpace Migration for Linux WorkSpaces",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/workspaces-linux-migration",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/workspaces-linux-migration",
@@ -623,51 +647,75 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Clean Rooms now supports mutable payment configurations for collaborations",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-clean-rooms-mutable-payments",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-clean-rooms-mutable-payments",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Want an oxygen-rich atmosphere? Stuff oxygen’s friends in the mantle.",
+      "url": "https://arstechnica.com/science/2026/05/the-oxygenation-of-earths-air-might-owe-a-lot-to-plate-tectonics/",
+      "discuss_url": "https://arstechnica.com/science/2026/05/the-oxygenation-of-earths-air-might-owe-a-lot-to-plate-tectonics/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-22T12:00:00Z"
+      "author": "Scott K. Johnson",
+      "published": "2026-05-26T18:30:58Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Secrets Manager adds managed external secrets support for Datadog vended keys and Snowflake Programmatic Access Tokens",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/secrets-manager-managed-external-secrets-datadog-snowflake/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/secrets-manager-managed-external-secrets-datadog-snowflake/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "FBI agent explains how easy it is to ID people posting AI porn without consent",
+      "url": "https://arstechnica.com/tech-policy/2026/05/fbi-easily-nabs-man-selling-sexy-deepfakes-who-used-his-own-photo-in-profile/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/fbi-easily-nabs-man-selling-sexy-deepfakes-who-used-his-own-photo-in-profile/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-22T07:00:00Z"
+      "author": "Ashley Belanger",
+      "published": "2026-05-26T17:46:01Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon CloudWatch Logs Insights adds new query commands and functions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "3D-printable humanoid legs let robotics experiments run wild",
+      "url": "https://arstechnica.com/ai/2026/05/3d-printable-humanoid-legs-let-robotics-experiments-run-wild/",
+      "discuss_url": "https://arstechnica.com/ai/2026/05/3d-printable-humanoid-legs-let-robotics-experiments-run-wild/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-21T23:00:00Z"
+      "author": "Jeremy Hsu",
+      "published": "2026-05-26T17:16:07Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 C7i-flex, M7i-flex & M7i instances now available in Asia Pacific (Hyderabad) region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-c7i-flex-m7i-flex-m7i-instances-HYD-region/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-c7i-flex-m7i-flex-m7i-instances-HYD-region/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Windows' classic 3D Space Cadet pinball is getting a physical re-creation",
+      "url": "https://arstechnica.com/gaming/2026/05/windows-classic-3d-space-cadet-pinball-is-getting-a-physical-re-creation/",
+      "discuss_url": "https://arstechnica.com/gaming/2026/05/windows-classic-3d-space-cadet-pinball-is-getting-a-physical-re-creation/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-21T19:39:00Z"
+      "author": "Kyle Orland",
+      "published": "2026-05-26T16:24:02Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Review: The Boroughs is a smart, pitch-perfect creature feature",
+      "url": "https://arstechnica.com/culture/2026/05/review-the-boroughs-is-a-smart-pitch-perfect-creature-feature/",
+      "discuss_url": "https://arstechnica.com/culture/2026/05/review-the-boroughs-is-a-smart-pitch-perfect-creature-feature/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-05-26T14:35:13Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "A global brand but local cars is Audi's future, says CEO",
+      "url": "https://arstechnica.com/cars/2026/05/audis-boss-talks-local-production-wagons-and-maybe-a-new-r8-supercar/",
+      "discuss_url": "https://arstechnica.com/cars/2026/05/audis-boss-talks-local-production-wagons-and-maybe-a-new-r8-supercar/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-05-26T14:21:33Z"
     },
     {
       "source": "rss",
@@ -740,78 +788,6 @@
       "comments": null,
       "author": "Samuel Axon",
       "published": "2026-05-25T11:22:27Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Whatever the mirror test tells us, beluga whales pass it",
-      "url": "https://arstechnica.com/science/2026/05/belugas-may-pass-the-mirror-test-but-does-the-mirror-test-still-pass/",
-      "discuss_url": "https://arstechnica.com/science/2026/05/belugas-may-pass-the-mirror-test-but-does-the-mirror-test-still-pass/",
-      "score": null,
-      "comments": null,
-      "author": "Federica Sgorbissa",
-      "published": "2026-05-24T11:15:38Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "SpaceX's Starship V3—still a work in progress—mostly successful on first flight",
-      "url": "https://arstechnica.com/space/2026/05/spacexs-starship-v3-still-a-work-in-progress-mostly-successful-on-first-flight/",
-      "discuss_url": "https://arstechnica.com/space/2026/05/spacexs-starship-v3-still-a-work-in-progress-mostly-successful-on-first-flight/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-05-23T17:54:54Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Two space shuttle-era spacewalkers enter Astronaut Hall of Fame",
-      "url": "https://arstechnica.com/space/2026/05/two-space-shuttle-era-spacewalkers-enter-astronaut-hall-of-fame/",
-      "discuss_url": "https://arstechnica.com/space/2026/05/two-space-shuttle-era-spacewalkers-enter-astronaut-hall-of-fame/",
-      "score": null,
-      "comments": null,
-      "author": "Robert Pearlman",
-      "published": "2026-05-23T11:30:35Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "China’s shark finning could lead to US seafood sanctions",
-      "url": "https://arstechnica.com/tech-policy/2026/05/chinas-shark-finning-could-lead-to-us-seafood-sanctions/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/chinas-shark-finning-could-lead-to-us-seafood-sanctions/",
-      "score": null,
-      "comments": null,
-      "author": "Johnny Sturgeon, Inside Climate News",
-      "published": "2026-05-23T11:00:25Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Four Russian satellites are now within striking distance of an ICEYE radarsat",
-      "url": "https://arstechnica.com/space/2026/05/a-satellite-company-supporting-ukraine-appears-to-be-in-russias-crosshairs/",
-      "discuss_url": "https://arstechnica.com/space/2026/05/a-satellite-company-supporting-ukraine-appears-to-be-in-russias-crosshairs/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-05-22T22:50:23Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Ebola outbreak now third largest recorded and \"spreading rapidly\"",
-      "url": "https://arstechnica.com/health/2026/05/ebola-outbreak-now-third-largest-recorded-and-spreading-rapidly/",
-      "discuss_url": "https://arstechnica.com/health/2026/05/ebola-outbreak-now-third-largest-recorded-and-spreading-rapidly/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-05-22T22:24:03Z"
     }
   ]
 }
