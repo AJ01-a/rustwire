@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T19:47:59Z",
+  "updated_at": "2026-05-26T03:57:17Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -31,20 +31,20 @@
   ],
   "tldr": [
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas",
-      "url": "http://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
-      "discuss_url": "https://lobste.rs/s/eedsds",
-      "score": 6,
-      "comments": 1,
-      "author": "pyfisch",
-      "published": "2026-05-25T17:07:48Z",
+      "title": "Norway's 2 petabytes of Huawei flash storage and LLM training",
+      "url": "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910",
+      "discuss_url": "https://news.ycombinator.com/item?id=48270770",
+      "score": 184,
+      "comments": 89,
+      "author": "rbanffy",
+      "published": "2026-05-25T19:37:57Z",
       "bullets": [
-        "This speculative encyclical critiques the spiritual and societal impacts of AGI, urging developers to prioritize human dignity over raw optimization.",
-        "It raises philosophical questions on machine consciousness, algorithmic bias, and the potential displacement of human labor by autonomous systems.",
-        "The text highlights how traditional ethical frameworks, including theology, are adapting to address the rapid rise of generative AI models."
+        "Norway’s National Library acquired 2 petabytes of Huawei OceanStor flash storage to power sovereign Norwegian language model (LLM) training.",
+        "High-throughput NVMe storage is critical for feeding large datasets to GPUs during the pre-training phases of models like NorBERT.",
+        "The deal underscores European AI infrastructure dependencies and security debates over deploying Huawei hardware in national public sector projects."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "A Simple Makefile Tutorial (2008)",
       "url": "https://cs.colby.edu/maxwell/courses/tutorials/maketutor/",
       "discuss_url": "https://lobste.rs/s/owa9kn",
-      "score": 9,
-      "comments": 6,
+      "score": 13,
+      "comments": 11,
       "author": "kenballus",
       "published": "2026-05-25T14:44:03Z",
       "bullets": [
-        "Use basic rules structured as `target: prerequisites` followed by tab-indented recipes to automate C/C++ compilation steps.",
-        "Leverage automatic variables like `$@` for target names and `$<` for the first dependency to reduce redundancy in recipes.",
-        "Implement wildcard pattern rules (`%.o: %.c`) and declare non-file targets using `.PHONY` to optimize rebuild speeds."
+        "GNU Make automates compilation by tracking file modification times to rebuild only modified dependencies and targets.",
+        "Using variables like `CC` and `CFLAGS` centralizes compiler selection and build flags for consistent, portable compilation.",
+        "Pattern rules like `%.o: %.c` reduce redundancy, while `.PHONY` prevents conflicts with actual files for commands like `clean`."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "How my minimal, memory-safe Go rsync steers clear of vulnerabilities",
       "url": "https://michael.stapelberg.ch/posts/2026-05-24-minimal-memory-safe-go-rsync-vulns/",
       "discuss_url": "https://lobste.rs/s/5y9u93",
-      "score": 90,
-      "comments": 16,
+      "score": 93,
+      "comments": 17,
       "author": "stapelberg",
       "published": "2026-05-24T14:38:34Z",
       "bullets": [
-        "Replacing legacy C-based rsync with Go eliminates common memory safety bugs like buffer overflows, use-after-free, and pointer errors.",
-        "A minimal Go implementation reduces attack surface by omitting complex, legacy rsync protocol features prone to exploitation.",
-        "Writing file-sync tools in Go leverages strict standard library path handling to naturally prevent directory traversal vulnerabilities."
+        "Rewriting rsync in Go eliminates memory corruption vulnerabilities like buffer overflows and use-after-free errors common in legacy C implementations.",
+        "A minimal implementation reduces attack surface by excluding complex legacy protocol features that frequently lead to remote code execution.",
+        "Leveraging Go's strict native path handling mitigates directory traversal risks, a historical vulnerability vector in traditional file transfer tools."
       ]
     },
     {
@@ -93,30 +93,42 @@
       "author": "diktomat",
       "published": "2026-05-23T15:11:47Z",
       "bullets": [
-        "Deploy GitHub Actions Runner Controller (ARC) on Kubernetes to automate and orchestrate self-hosted runner infrastructure at scale.",
-        "Use ephemeral, single-use runner pods to prevent state leakage and ensure clean, secure execution environments for every CI/CD job.",
-        "Integrate KEDA for event-driven autoscaling of runners, minimizing idle compute costs while handling peak build demands efficiently."
+        "Use GitHub's `--ephemeral` flag to automatically tear down runners after a single job, preventing cross-job state pollution and security leaks.",
+        "Deploy Actions Runner Controller (ARC) on Kubernetes to autoscale runners dynamically based on active workflow demand, optimizing resource consumption.",
+        "Implement local persistent volume mounts or pre-cached Docker images on runners to drastically reduce pipeline latency and network bandwidth usage."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "US's big bet on quantum computing may not be entirely legal",
-      "url": "https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/",
+      "title": "Citing Gandalf, Pope Leo says we must \"disarm\" AI",
+      "url": "https://arstechnica.com/tech-policy/2026/05/citing-gandalf-pope-leo-says-we-must-disarm-ai/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/citing-gandalf-pope-leo-says-we-must-disarm-ai/",
       "score": null,
       "comments": null,
-      "author": "John Timmer",
-      "published": "2026-05-25T12:00:15Z",
+      "author": "Nate Anderson",
+      "published": "2026-05-25T21:07:42Z",
       "bullets": [
-        "US quantum computing initiatives face legal hurdles over procurement processes and massive state-subsidized technology funding.",
-        "The deal launched the first dedicated quantum foundry, aimed at accelerating hardware fabrication for quantum processors.",
-        "Industry experts debate if current market demand justifies dedicated foundry infrastructure before reaching utility-scale fault tolerance."
+        "The Vatican advocates for a global ban on autonomous weapons systems, urging developers to prioritize human-centric ethical guardrails over automation.",
+        "Pope Francis warns against AI-driven technocratic paradigms, citing Tolkien to highlight the dangers of losing human agency to algorithmic decision-making.",
+        "Organizations must implement robust AI governance and \"human-in-the-loop\" protocols to align with emerging international ethical standards and regulations."
       ]
     }
   ],
   "discussions": [
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Norway's 2 petabytes of Huawei flash storage and LLM training",
+      "url": "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910",
+      "discuss_url": "https://news.ycombinator.com/item?id=48270770",
+      "score": 184,
+      "comments": 89,
+      "author": "rbanffy",
+      "published": "2026-05-25T19:37:57Z"
+    },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
@@ -124,8 +136,8 @@
       "title": "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas",
       "url": "http://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
       "discuss_url": "https://lobste.rs/s/eedsds",
-      "score": 6,
-      "comments": 1,
+      "score": 40,
+      "comments": 16,
       "author": "pyfisch",
       "published": "2026-05-25T17:07:48Z"
     },
@@ -136,7 +148,7 @@
       "title": "Claude is not your architect. Stop letting it pretend",
       "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
       "discuss_url": "https://news.ycombinator.com/item?id=48259784",
-      "score": 264,
+      "score": 266,
       "comments": 189,
       "author": "cdrnsf",
       "published": "2026-05-24T18:28:11Z"
@@ -148,22 +160,10 @@
       "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
       "url": "https://arxiv.org/abs/2605.06445",
       "discuss_url": "https://news.ycombinator.com/item?id=48256912",
-      "score": 275,
-      "comments": 176,
+      "score": 278,
+      "comments": 187,
       "author": "wek",
       "published": "2026-05-24T12:55:53Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "The Open/Closed Problem in AI",
-      "url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
-      "discuss_url": "https://lobste.rs/s/qfzcpl",
-      "score": 3,
-      "comments": 3,
-      "author": "mempko",
-      "published": "2026-05-25T16:17:21Z"
     },
     {
       "source": "hackernews",
@@ -176,6 +176,18 @@
       "comments": 2,
       "author": "moh_maya",
       "published": "2026-05-24T14:09:33Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "The Open/Closed Problem in AI",
+      "url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
+      "discuss_url": "https://lobste.rs/s/qfzcpl",
+      "score": 6,
+      "comments": 3,
+      "author": "mempko",
+      "published": "2026-05-25T16:17:21Z"
     },
     {
       "source": "lobsters",
@@ -250,26 +262,14 @@
       "published": "2026-05-19T18:38:09Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Introducing the Ettin Reranker Family",
-      "url": "https://huggingface.co/blog/ettin-reranker",
-      "discuss_url": "https://huggingface.co/blog/ettin-reranker",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-05-19T00:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "A Simple Makefile Tutorial (2008)",
       "url": "https://cs.colby.edu/maxwell/courses/tutorials/maketutor/",
       "discuss_url": "https://lobste.rs/s/owa9kn",
-      "score": 9,
-      "comments": 6,
+      "score": 13,
+      "comments": 11,
       "author": "kenballus",
       "published": "2026-05-25T14:44:03Z"
     },
@@ -280,8 +280,8 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/vf66rg",
       "discuss_url": "https://lobste.rs/s/vf66rg",
-      "score": 10,
-      "comments": 12,
+      "score": 13,
+      "comments": 13,
       "author": "caius",
       "published": "2026-05-25T10:28:29Z"
     },
@@ -292,8 +292,8 @@
       "title": "The Eternal Sloptember",
       "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
       "discuss_url": "https://lobste.rs/s/pwnqab",
-      "score": 63,
-      "comments": 9,
+      "score": 64,
+      "comments": 10,
       "author": "rcalixte",
       "published": "2026-05-25T00:35:59Z"
     },
@@ -304,8 +304,8 @@
       "title": "Fully in-browser container builds",
       "url": "https://ochagavia.nl/blog/fully-in-browser-container-builds/",
       "discuss_url": "https://lobste.rs/s/vvb79k",
-      "score": 9,
-      "comments": 3,
+      "score": 10,
+      "comments": 4,
       "author": "wofo",
       "published": "2026-05-25T11:19:36Z"
     },
@@ -337,18 +337,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "libwce: the entropy layer of a wavelet codec, on its own",
-      "url": "https://yogthos.net/posts/2026-05-24-libwce.html",
-      "discuss_url": "https://lobste.rs/s/d3uwf1",
-      "score": 4,
-      "comments": 2,
-      "author": "Yogthos",
-      "published": "2026-05-24T13:43:11Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/hwyrwd",
       "discuss_url": "https://lobste.rs/s/hwyrwd",
@@ -356,6 +344,18 @@
       "comments": 42,
       "author": "caius",
       "published": "2026-05-22T09:06:33Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "libwce: the entropy layer of a wavelet codec, on its own",
+      "url": "https://yogthos.net/posts/2026-05-24-libwce.html",
+      "discuss_url": "https://lobste.rs/s/d3uwf1",
+      "score": 4,
+      "comments": 2,
+      "author": "Yogthos",
+      "published": "2026-05-24T13:43:11Z"
     },
     {
       "source": "rss",
@@ -412,8 +412,8 @@
       "title": "How my minimal, memory-safe Go rsync steers clear of vulnerabilities",
       "url": "https://michael.stapelberg.ch/posts/2026-05-24-minimal-memory-safe-go-rsync-vulns/",
       "discuss_url": "https://lobste.rs/s/5y9u93",
-      "score": 90,
-      "comments": 16,
+      "score": 93,
+      "comments": 17,
       "author": "stapelberg",
       "published": "2026-05-24T14:38:34Z"
     },
@@ -433,13 +433,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "How to open calc.exe from S&Box",
-      "url": "https://slugcat.systems/post/26-05-21-how-to-open-calc-exe-from-sbox/",
-      "discuss_url": "https://lobste.rs/s/r6lw7v",
-      "score": 24,
-      "comments": 9,
-      "author": "calvin",
-      "published": "2026-05-21T20:00:59Z"
+      "title": "Pardon MIE?",
+      "url": "https://ironpeak.be/blog/bypassing-apple-mie/",
+      "discuss_url": "https://lobste.rs/s/ymgsrp",
+      "score": 6,
+      "comments": 2,
+      "author": "fro",
+      "published": "2026-05-24T00:10:25Z"
     },
     {
       "source": "lobsters",
@@ -464,18 +464,6 @@
       "comments": 3,
       "author": "Foxboron",
       "published": "2026-05-22T09:48:59Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Pardon MIE?",
-      "url": "https://ironpeak.be/blog/bypassing-apple-mie/",
-      "discuss_url": "https://lobste.rs/s/ymgsrp",
-      "score": 6,
-      "comments": 1,
-      "author": "fro",
-      "published": "2026-05-24T00:10:25Z"
     },
     {
       "source": "lobsters",
@@ -514,30 +502,6 @@
       "published": "2026-05-23T06:06:49Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "OCaml Infrastructure: How the opam-repository Works",
-      "url": "https://ocaml.org/backstage/2025-11-05-how-the-opam-repository-works",
-      "discuss_url": "https://lobste.rs/s/mteumb",
-      "score": 5,
-      "comments": 0,
-      "author": "shonfeder",
-      "published": "2026-05-21T22:46:37Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "CVE-2026-47243: Kata Containers guest-root to host-root escape via virtiofs",
-      "url": "https://www.openwall.com/lists/oss-security/2026/05/21/14",
-      "discuss_url": "https://lobste.rs/s/blhd1c",
-      "score": 4,
-      "comments": 0,
-      "author": "7tehdt3cnw6kir6o",
-      "published": "2026-05-21T20:41:26Z"
-    },
-    {
       "source": "rss",
       "subsource": "krebsonsecurity.com",
       "category": "security",
@@ -548,6 +512,42 @@
       "comments": null,
       "author": "BrianKrebs",
       "published": "2026-05-25T13:21:49Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "krebsonsecurity.com",
+      "category": "security",
+      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
+      "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "discuss_url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "score": null,
+      "comments": null,
+      "author": "BrianKrebs",
+      "published": "2026-05-22T16:34:24Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "krebsonsecurity.com",
+      "category": "security",
+      "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
+      "url": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
+      "discuss_url": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
+      "score": null,
+      "comments": null,
+      "author": "BrianKrebs",
+      "published": "2026-05-21T21:50:25Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
+      "url": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
+      "discuss_url": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-05-25T14:13:27Z"
     },
     {
       "source": "lobsters",
@@ -697,6 +697,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "Citing Gandalf, Pope Leo says we must \"disarm\" AI",
+      "url": "https://arstechnica.com/tech-policy/2026/05/citing-gandalf-pope-leo-says-we-must-disarm-ai/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/citing-gandalf-pope-leo-says-we-must-disarm-ai/",
+      "score": null,
+      "comments": null,
+      "author": "Nate Anderson",
+      "published": "2026-05-25T21:07:42Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "US's big bet on quantum computing may not be entirely legal",
       "url": "https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/",
       "discuss_url": "https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Jeremy Hsu",
       "published": "2026-05-22T19:39:04Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The Boys is dead. Long live Vought Rising.",
-      "url": "https://arstechnica.com/culture/2026/05/the-boys-is-dead-long-live-vought-rising/",
-      "discuss_url": "https://arstechnica.com/culture/2026/05/the-boys-is-dead-long-live-vought-rising/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-05-22T19:02:48Z"
     }
   ]
 }
