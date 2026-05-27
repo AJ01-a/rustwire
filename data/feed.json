@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T10:02:30Z",
+  "updated_at": "2026-05-27T15:56:25Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "A sleep-like consolidation mechanism for LLMs",
-      "url": "https://arxiv.org/abs/2605.26099",
-      "discuss_url": "https://news.ycombinator.com/item?id=48281226",
-      "score": 199,
-      "comments": 133,
-      "author": "juxtapose",
-      "published": "2026-05-26T15:36:24Z",
+      "title": "Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs",
+      "url": "https://arps18.github.io/posts/claude-code-mastery/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48289950",
+      "score": 206,
+      "comments": 164,
+      "author": "arps18",
+      "published": "2026-05-27T05:13:39Z",
       "bullets": [
-        "Idle GPU cycles are leveraged for generative replay, training LLMs on self-generated data to consolidate knowledge and mitigate catastrophic forgetting.",
-        "This sleep-like phase stabilizes neural weights via self-distillation or contrastive learning, maintaining performance on historical tasks during continuous learning.",
-        "Practitioners can implement this post-training routine during off-peak periods to optimize memory footprint and model weight coherence without retraining."
+        "Anthropic's Claude Code CLI leverages the Model Context Protocol (MCP) to integrate external data sources and tools into developer workflows.",
+        "Developers use subagents and custom skills to delegate complex, multi-step coding tasks while maintaining fine-grained control over execution.",
+        "Structuring project-specific guidelines in Claude.md files steers agent behavior, ensuring compliance with local coding standards and architecture."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "What are some of your favourite developer tools?",
       "url": "https://lobste.rs/s/2jdvxa",
       "discuss_url": "https://lobste.rs/s/2jdvxa",
-      "score": 16,
-      "comments": 19,
+      "score": 47,
+      "comments": 71,
       "author": "dhruvp",
       "published": "2026-05-27T05:40:47Z",
       "bullets": [
-        "Command-line search and filtering tools like ripgrep (rg) and fzf remain industry standards for rapid, codebase-wide navigation and terminal productivity.",
-        "Highly customizable, keyboard-driven editors like Neovim and Helix are favored by power users over heavy IDEs for speed and extensibility.",
-        "Standardizing on tools like jq for JSON processing and direnv for directory-specific environment variable loading optimizes localized workflow automation."
+        "Command-line utilities like ripgrep, fzf, and jq remain industry standards for rapid codebase navigation and JSON parsing.",
+        "Engineers heavily leverage environment managers like direnv and modern shell enhancements like starship to streamline local development workflows.",
+        "Terminal-based Git clients like lazygit alongside editors like Neovim dominate discussions for maximizing local programming efficiency."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "How my minimal, memory-safe Go rsync steers clear of vulnerabilities",
-      "url": "https://michael.stapelberg.ch/posts/2026-05-24-minimal-memory-safe-go-rsync-vulns/",
-      "discuss_url": "https://lobste.rs/s/5y9u93",
-      "score": 98,
-      "comments": 17,
-      "author": "stapelberg",
-      "published": "2026-05-24T14:38:34Z",
+      "title": "Sovereignty Over Convenience",
+      "url": "https://icle.es/2026/05/27/sovereignty-over-convenience/",
+      "discuss_url": "https://lobste.rs/s/fuihmz",
+      "score": 1,
+      "comments": 0,
+      "author": "janus",
+      "published": "2026-05-27T15:53:19Z",
       "bullets": [
-        "Replacing legacy C rsync with Go eliminates common memory-safety vulnerabilities like buffer overflows and use-after-free errors.",
-        "Leveraging Go's strict path handling mitigates directory traversal exploits, a recurring issue in historical C-based rsync CVEs.",
-        "A minimalist Go implementation reduces attack surface by stripping out legacy protocol features and complex daemon mode capabilities."
+        "Self-hosting critical security tools like Vaultwarden, Keycloak, or GitLab mitigates third-party SaaS supply chain risks and cloud provider data leaks.",
+        "On-premise infrastructure and air-gapped environments ensure complete data sovereignty, helping organizations meet strict GDPR, HIPAA, and local privacy compliance mandates.",
+        "Prioritizing local control over proprietary SaaS APIs reduces external attack surfaces and secures cryptographic keys within physically owned HSMs."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Cloudflare Flagship",
       "url": "https://developers.cloudflare.com/flagship/",
       "discuss_url": "https://news.ycombinator.com/item?id=48287468",
-      "score": 219,
-      "comments": 112,
+      "score": 310,
+      "comments": 159,
       "author": "tjek",
       "published": "2026-05-26T23:36:06Z",
       "bullets": [
-        "Flagship integrates with Cloudflare Workers to run feature flagging and A/B testing at the edge, eliminating round-trip latency.",
-        "DevOps teams can deploy flag configurations globally in milliseconds, shifting decision-making from servers to Cloudflare's edge network.",
-        "Utilizing Workers KV and edge caching reduces external API dependency, ensuring zero-performance impact on application delivery pipelines."
+        "Run feature flags at the edge using Cloudflare Workers to achieve sub-millisecond decision latency without origin server round-trips.",
+        "Decouple deployments from releases, allowing DevOps teams to safely test in production and roll back instantly via edge-computed configurations.",
+        "Leverage Cloudflare’s global network of 300+ PoPs to scale feature flag evaluation infinitely without bottlenecking central databases."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Is Peter Thiel the target of Pope Leo's Gandalf quote? An investigation.",
-      "url": "https://arstechnica.com/tech-policy/2026/05/is-peter-thiel-the-target-of-pope-leos-gandalf-quote-an-investigation/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/is-peter-thiel-the-target-of-pope-leos-gandalf-quote-an-investigation/",
+      "title": "Nvidia kills Windows XP-era Control Panel \"after 20 years of dedicated service\"",
+      "url": "https://arstechnica.com/gadgets/2026/05/nvidia-kills-windows-xp-era-control-panel-after-20-years-of-dedicated-service/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/05/nvidia-kills-windows-xp-era-control-panel-after-20-years-of-dedicated-service/",
       "score": null,
       "comments": null,
-      "author": "Nate Anderson",
-      "published": "2026-05-26T22:27:32Z",
+      "author": "Andrew Cunningham",
+      "published": "2026-05-27T15:06:01Z",
       "bullets": [
-        "Peter Thiel’s Palantir faces ongoing ethical scrutiny, often framed through Tolkien lore, regarding its pervasive government surveillance and data-mining technologies.",
-        "The critique highlights rising tensions between massive defense tech contractors and ethical oversight from global, religious, and philosophical institutions.",
-        "Palantir's proprietary data analytics platforms (Foundry, Gotham) continue to centralize critical military intelligence, raising systemic privacy and monopoly concerns."
+        "Nvidia is officially retiring its legacy, 20-year-old desktop Control Panel, migrating all system configuration features to the unified Nvidia app.",
+        "The modern Nvidia app replaces both the classic Control Panel and GeForce Experience, consolidating display, GPU, and driver management.",
+        "The new unified application optimizes GPU settings without requiring user accounts, streamlining administrative overhead for enterprise workstations and deployments."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs",
+      "url": "https://arps18.github.io/posts/claude-code-mastery/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48289950",
+      "score": 206,
+      "comments": 164,
+      "author": "arps18",
+      "published": "2026-05-27T05:13:39Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "A sleep-like consolidation mechanism for LLMs",
       "url": "https://arxiv.org/abs/2605.26099",
       "discuss_url": "https://news.ycombinator.com/item?id=48281226",
-      "score": 199,
-      "comments": 133,
+      "score": 205,
+      "comments": 135,
       "author": "juxtapose",
       "published": "2026-05-26T15:36:24Z"
     },
@@ -136,8 +148,8 @@
       "title": "Norway's 2 petabytes of Huawei flash storage and LLM training",
       "url": "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910",
       "discuss_url": "https://news.ycombinator.com/item?id=48270770",
-      "score": 320,
-      "comments": 206,
+      "score": 321,
+      "comments": 207,
       "author": "rbanffy",
       "published": "2026-05-25T19:37:57Z"
     },
@@ -148,8 +160,8 @@
       "title": "CVE-2026-28952: Apple macOS 26.5 Kernel Vuln found by Claude",
       "url": "https://support.apple.com/en-us/127115",
       "discuss_url": "https://news.ycombinator.com/item?id=48273169",
-      "score": 169,
-      "comments": 98,
+      "score": 170,
+      "comments": 100,
       "author": "dragonsenseiguy",
       "published": "2026-05-25T23:40:40Z"
     },
@@ -160,8 +172,8 @@
       "title": "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas",
       "url": "http://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
       "discuss_url": "https://lobste.rs/s/eedsds",
-      "score": 119,
-      "comments": 62,
+      "score": 125,
+      "comments": 68,
       "author": "pyfisch",
       "published": "2026-05-25T17:07:48Z"
     },
@@ -184,10 +196,34 @@
       "title": "Intent to Prototype: Embedding API",
       "url": "https://groups.google.com/a/chromium.org/g/blink-dev/c/EjL1gAy3k3Q/m/31Cnh22MBgAJ",
       "discuss_url": "https://lobste.rs/s/czctjh",
-      "score": 2,
-      "comments": 0,
+      "score": 3,
+      "comments": 1,
       "author": "untitaker",
       "published": "2026-05-26T21:41:58Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Reachy Mini goes fully local",
+      "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "discuss_url": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-05-27T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+      "url": "https://huggingface.co/blog/delta-weight-sync",
+      "discuss_url": "https://huggingface.co/blog/delta-weight-sync",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-05-27T00:00:00Z"
     },
     {
       "source": "rss",
@@ -232,8 +268,8 @@
       "title": "What are some of your favourite developer tools?",
       "url": "https://lobste.rs/s/2jdvxa",
       "discuss_url": "https://lobste.rs/s/2jdvxa",
-      "score": 16,
-      "comments": 19,
+      "score": 47,
+      "comments": 71,
       "author": "dhruvp",
       "published": "2026-05-27T05:40:47Z"
     },
@@ -244,7 +280,7 @@
       "title": "The pressure",
       "url": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
       "discuss_url": "https://lobste.rs/s/dw02ye",
-      "score": 166,
+      "score": 175,
       "comments": 36,
       "author": "andrewnez",
       "published": "2026-05-26T06:47:38Z"
@@ -256,7 +292,7 @@
       "title": "Folding in Parallel",
       "url": "https://okmij.org/ftp/Algorithms/map-monoid-reduce.html",
       "discuss_url": "https://lobste.rs/s/t1es6x",
-      "score": 18,
+      "score": 23,
       "comments": 0,
       "author": "slightknack",
       "published": "2026-05-26T19:24:03Z"
@@ -268,8 +304,8 @@
       "title": "A Simple Makefile Tutorial (2008)",
       "url": "https://cs.colby.edu/maxwell/courses/tutorials/maketutor/",
       "discuss_url": "https://lobste.rs/s/owa9kn",
-      "score": 20,
-      "comments": 27,
+      "score": 21,
+      "comments": 29,
       "author": "kenballus",
       "published": "2026-05-25T14:44:03Z"
     },
@@ -281,7 +317,7 @@
       "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
       "discuss_url": "https://lobste.rs/s/pwnqab",
       "score": 68,
-      "comments": 10,
+      "comments": 11,
       "author": "rcalixte",
       "published": "2026-05-25T00:35:59Z"
     },
@@ -293,7 +329,7 @@
       "url": "https://lobste.rs/s/vf66rg",
       "discuss_url": "https://lobste.rs/s/vf66rg",
       "score": 16,
-      "comments": 17,
+      "comments": 20,
       "author": "caius",
       "published": "2026-05-25T10:28:29Z"
     },
@@ -368,6 +404,18 @@
       "comments": null,
       "author": "Natalie Guevara",
       "published": "2026-05-21T18:00:00Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Sovereignty Over Convenience",
+      "url": "https://icle.es/2026/05/27/sovereignty-over-convenience/",
+      "discuss_url": "https://lobste.rs/s/fuihmz",
+      "score": 1,
+      "comments": 0,
+      "author": "janus",
+      "published": "2026-05-27T15:53:19Z"
     },
     {
       "source": "lobsters",
@@ -457,61 +505,49 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites",
-      "url": "https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html",
-      "discuss_url": "https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html",
+      "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
+      "url": "https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html",
+      "discuss_url": "https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-05-27T07:45:52Z"
+      "published": "2026-05-27T13:28:48Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries",
-      "url": "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
-      "discuss_url": "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
+      "title": "GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure",
+      "url": "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
+      "discuss_url": "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-05-26T15:48:41Z"
+      "published": "2026-05-27T11:48:37Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "[THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back",
-      "url": "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
-      "discuss_url": "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
+      "title": "3 SOC Steps that Shut Down Incident Risks Early",
+      "url": "https://thehackernews.com/2026/05/3-soc-steps-that-shut-down-incident.html",
+      "discuss_url": "https://thehackernews.com/2026/05/3-soc-steps-that-shut-down-incident.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-05-26T11:58:00Z"
+      "published": "2026-05-27T11:45:00Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions",
-      "url": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
-      "discuss_url": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
+      "title": "Gitea Vulnerability Exposes Private Container Images without Authentication",
+      "url": "https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html",
+      "discuss_url": "https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-05-26T11:49:53Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
-      "url": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
-      "discuss_url": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-05-26T10:30:00Z"
+      "published": "2026-05-27T10:06:32Z"
     },
     {
       "source": "hackernews",
@@ -520,8 +556,8 @@
       "title": "Cloudflare Flagship",
       "url": "https://developers.cloudflare.com/flagship/",
       "discuss_url": "https://news.ycombinator.com/item?id=48287468",
-      "score": 219,
-      "comments": 112,
+      "score": 310,
+      "comments": 159,
       "author": "tjek",
       "published": "2026-05-26T23:36:06Z"
     },
@@ -538,16 +574,16 @@
       "published": "2026-05-26T13:08:40Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
+      "source": "rss",
+      "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Improving my self-hosted actions runner setup",
-      "url": "https://excipio.tech/blog/improving-my-self-hosted-actions-runner-setup/",
-      "discuss_url": "https://lobste.rs/s/zcchf1",
-      "score": 7,
-      "comments": 0,
-      "author": "diktomat",
-      "published": "2026-05-23T15:11:47Z"
+      "title": "Amazon EC2 X8i instances are now available in additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-SIN-SYD-PDT-region/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-SIN-SYD-PDT-region/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-26T21:58:00Z"
     },
     {
       "source": "rss",
@@ -661,6 +697,54 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "Nvidia kills Windows XP-era Control Panel \"after 20 years of dedicated service\"",
+      "url": "https://arstechnica.com/gadgets/2026/05/nvidia-kills-windows-xp-era-control-panel-after-20-years-of-dedicated-service/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/05/nvidia-kills-windows-xp-era-control-panel-after-20-years-of-dedicated-service/",
+      "score": null,
+      "comments": null,
+      "author": "Andrew Cunningham",
+      "published": "2026-05-27T15:06:01Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Volvo gets US government approval to bypass Chinese connected-car ban",
+      "url": "https://arstechnica.com/cars/2026/05/volvo-gets-us-government-approval-to-bypass-chinese-connected-car-ban/",
+      "discuss_url": "https://arstechnica.com/cars/2026/05/volvo-gets-us-government-approval-to-bypass-chinese-connected-car-ban/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-05-27T14:44:07Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Motorola's 2026 Razrs are almost worth buying just for their stunning looks… almost",
+      "url": "https://arstechnica.com/gadgets/2026/05/motorolas-2026-razrs-are-almost-worth-buying-just-for-their-stunning-looks-almost/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/05/motorolas-2026-razrs-are-almost-worth-buying-just-for-their-stunning-looks-almost/",
+      "score": null,
+      "comments": null,
+      "author": "Ryan Whitwam",
+      "published": "2026-05-27T11:00:28Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "US law enforcement warns of \"anti-tech extremism\" as AI hatred grows",
+      "url": "https://arstechnica.com/ai/2026/05/us-law-enforcement-warns-of-anti-tech-extremism-as-ai-hatred-grows/",
+      "discuss_url": "https://arstechnica.com/ai/2026/05/us-law-enforcement-warns-of-anti-tech-extremism-as-ai-hatred-grows/",
+      "score": null,
+      "comments": null,
+      "author": "Daniel Boguslaw, WIRED.com",
+      "published": "2026-05-27T10:30:28Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "Is Peter Thiel the target of Pope Leo's Gandalf quote? An investigation.",
       "url": "https://arstechnica.com/tech-policy/2026/05/is-peter-thiel-the-target-of-pope-leos-gandalf-quote-an-investigation/",
       "discuss_url": "https://arstechnica.com/tech-policy/2026/05/is-peter-thiel-the-target-of-pope-leos-gandalf-quote-an-investigation/",
@@ -752,54 +836,6 @@
       "comments": null,
       "author": "Jeremy Hsu",
       "published": "2026-05-26T17:16:07Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Windows' classic 3D Space Cadet pinball is getting a physical re-creation",
-      "url": "https://arstechnica.com/gaming/2026/05/windows-classic-3d-space-cadet-pinball-is-getting-a-physical-re-creation/",
-      "discuss_url": "https://arstechnica.com/gaming/2026/05/windows-classic-3d-space-cadet-pinball-is-getting-a-physical-re-creation/",
-      "score": null,
-      "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-05-26T16:24:02Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Review: The Boroughs is a smart, pitch-perfect creature feature",
-      "url": "https://arstechnica.com/culture/2026/05/review-the-boroughs-is-a-smart-pitch-perfect-creature-feature/",
-      "discuss_url": "https://arstechnica.com/culture/2026/05/review-the-boroughs-is-a-smart-pitch-perfect-creature-feature/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-05-26T14:35:13Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "A global brand but local cars is Audi's future, says CEO",
-      "url": "https://arstechnica.com/cars/2026/05/audis-boss-talks-local-production-wagons-and-maybe-a-new-r8-supercar/",
-      "discuss_url": "https://arstechnica.com/cars/2026/05/audis-boss-talks-local-production-wagons-and-maybe-a-new-r8-supercar/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-05-26T14:21:33Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Analyst on China's spent rocket stages: \"Things only continue to get worse\"",
-      "url": "https://arstechnica.com/space/2026/05/analyst-on-chinas-spent-rocket-stages-things-only-continue-to-get-worse/",
-      "discuss_url": "https://arstechnica.com/space/2026/05/analyst-on-chinas-spent-rocket-stages-things-only-continue-to-get-worse/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-05-26T13:57:30Z"
     }
   ]
 }
