@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T15:56:25Z",
+  "updated_at": "2026-05-27T20:25:19Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs",
-      "url": "https://arps18.github.io/posts/claude-code-mastery/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48289950",
-      "score": 206,
-      "comments": 164,
-      "author": "arps18",
-      "published": "2026-05-27T05:13:39Z",
+      "title": "I think Anthropic and OpenAI have found product-market fit",
+      "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48296794",
+      "score": 365,
+      "comments": 455,
+      "author": "simonw",
+      "published": "2026-05-27T16:39:13Z",
       "bullets": [
-        "Anthropic's Claude Code CLI leverages the Model Context Protocol (MCP) to integrate external data sources and tools into developer workflows.",
-        "Developers use subagents and custom skills to delegate complex, multi-step coding tasks while maintaining fine-grained control over execution.",
-        "Structuring project-specific guidelines in Claude.md files steers agent behavior, ensuring compliance with local coding standards and architecture."
+        "Claude 3.5 Sonnet and GPT-4o drive massive API growth through integration in developer tools like Cursor and GitHub Copilot.",
+        "Enterprises transition from simple chat interfaces to production-grade agentic workflows and custom RAG pipelines using native LLM tool-calling APIs.",
+        "Rapidly declining token costs and expanding context windows make processing entire codebases economically viable for production AI engineering."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "What are some of your favourite developer tools?",
       "url": "https://lobste.rs/s/2jdvxa",
       "discuss_url": "https://lobste.rs/s/2jdvxa",
-      "score": 47,
-      "comments": 71,
+      "score": 74,
+      "comments": 105,
       "author": "dhruvp",
       "published": "2026-05-27T05:40:47Z",
       "bullets": [
-        "Command-line utilities like ripgrep, fzf, and jq remain industry standards for rapid codebase navigation and JSON parsing.",
-        "Engineers heavily leverage environment managers like direnv and modern shell enhancements like starship to streamline local development workflows.",
-        "Terminal-based Git clients like lazygit alongside editors like Neovim dominate discussions for maximizing local programming efficiency."
+        "Engineers highly favor Rust-based CLI upgrades like `ripgrep` (rg) and `fd` alongside `fzf` for ultra-fast terminal search and navigation.",
+        "Tools like `direnv` for directory-specific environment variables and `asdf` or `mise` for multi-language runtime version management are widely recommended.",
+        "Terminal multiplexers like `tmux` and interactive Git TUI tools like `lazygit` significantly optimize developer workflow efficiency over GUI alternatives."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Sovereignty Over Convenience",
-      "url": "https://icle.es/2026/05/27/sovereignty-over-convenience/",
-      "discuss_url": "https://lobste.rs/s/fuihmz",
-      "score": 1,
-      "comments": 0,
-      "author": "janus",
-      "published": "2026-05-27T15:53:19Z",
+      "title": "Atom Exhaustion Is Not a Footgun. It's One Third of Our CVEs",
+      "url": "https://erlef.org/blog/security/atom-exhaustion",
+      "discuss_url": "https://lobste.rs/s/lfusbg",
+      "score": 15,
+      "comments": 8,
+      "author": "pushcx",
+      "published": "2026-05-27T16:48:05Z",
       "bullets": [
-        "Self-hosting critical security tools like Vaultwarden, Keycloak, or GitLab mitigates third-party SaaS supply chain risks and cloud provider data leaks.",
-        "On-premise infrastructure and air-gapped environments ensure complete data sovereignty, helping organizations meet strict GDPR, HIPAA, and local privacy compliance mandates.",
-        "Prioritizing local control over proprietary SaaS APIs reduces external attack surfaces and secures cryptographic keys within physically owned HSMs."
+        "Erlang and Elixir (BEAM) systems risk Denial of Service (DoS) VM crashes because dynamically created atoms are never garbage-collected.",
+        "Untrusted input parsing driving dynamic atom creation accounts for approximately 33% of CVEs in the BEAM ecosystem.",
+        "Mitigate this vulnerability by banning String.to_atom/1 and binary_to_atom/2, mandating safer existing_atom alternatives."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Cloudflare Flagship",
       "url": "https://developers.cloudflare.com/flagship/",
       "discuss_url": "https://news.ycombinator.com/item?id=48287468",
-      "score": 310,
-      "comments": 159,
+      "score": 335,
+      "comments": 165,
       "author": "tjek",
       "published": "2026-05-26T23:36:06Z",
       "bullets": [
-        "Run feature flags at the edge using Cloudflare Workers to achieve sub-millisecond decision latency without origin server round-trips.",
-        "Decouple deployments from releases, allowing DevOps teams to safely test in production and roll back instantly via edge-computed configurations.",
-        "Leverage Cloudflare’s global network of 300+ PoPs to scale feature flag evaluation infinitely without bottlenecking central databases."
+        "Execute feature flags at the edge using Cloudflare Workers to eliminate latency and avoid origin server roundtrips during user requests.",
+        "Enable progressive delivery and A/B testing globally with Flagship's Edge SDK integrated into your Cloudflare serverless pipeline.",
+        "Reduce client-side SDK footprint and improve Core Web Vitals by moving feature flagging decisions to Cloudflare's 300+ edge locations."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Nvidia kills Windows XP-era Control Panel \"after 20 years of dedicated service\"",
-      "url": "https://arstechnica.com/gadgets/2026/05/nvidia-kills-windows-xp-era-control-panel-after-20-years-of-dedicated-service/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/05/nvidia-kills-windows-xp-era-control-panel-after-20-years-of-dedicated-service/",
+      "title": "Roku OS’s home screen now features a large, permanent ad",
+      "url": "https://arstechnica.com/gadgets/2026/05/roku-oss-home-screen-now-features-a-large-permanent-ad/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/05/roku-oss-home-screen-now-features-a-large-permanent-ad/",
       "score": null,
       "comments": null,
-      "author": "Andrew Cunningham",
-      "published": "2026-05-27T15:06:01Z",
+      "author": "Scharon Harding",
+      "published": "2026-05-27T19:12:59Z",
       "bullets": [
-        "Nvidia is officially retiring its legacy, 20-year-old desktop Control Panel, migrating all system configuration features to the unified Nvidia app.",
-        "The modern Nvidia app replaces both the classic Control Panel and GeForce Experience, consolidating display, GPU, and driver management.",
-        "The new unified application optimizes GPU settings without requiring user accounts, streamlining administrative overhead for enterprise workstations and deployments."
+        "Roku's OS update highlights a growing Smart TV trend prioritizing high-yield programmatic ad inventory over traditional user interface usability.",
+        "Developers face declining user satisfaction on proprietary TV platforms, accelerating demand for self-hosted launchers or open-source OS alternatives.",
+        "The shift drives increased DNS-based ad-blocking (e.g., Pi-hole) and network telemetry monitoring by privacy-conscious users targeting Roku domains."
       ]
     }
   ],
@@ -121,11 +121,35 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "I think Anthropic and OpenAI have found product-market fit",
+      "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48296794",
+      "score": 365,
+      "comments": 455,
+      "author": "simonw",
+      "published": "2026-05-27T16:39:13Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Training our own AI models",
+      "url": "https://posthog.com/blog/training-ai-models",
+      "discuss_url": "https://news.ycombinator.com/item?id=48296359",
+      "score": 167,
+      "comments": 110,
+      "author": "tartieret",
+      "published": "2026-05-27T16:08:42Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs",
       "url": "https://arps18.github.io/posts/claude-code-mastery/",
       "discuss_url": "https://news.ycombinator.com/item?id=48289950",
-      "score": 206,
-      "comments": 164,
+      "score": 306,
+      "comments": 210,
       "author": "arps18",
       "published": "2026-05-27T05:13:39Z"
     },
@@ -136,22 +160,10 @@
       "title": "A sleep-like consolidation mechanism for LLMs",
       "url": "https://arxiv.org/abs/2605.26099",
       "discuss_url": "https://news.ycombinator.com/item?id=48281226",
-      "score": 205,
-      "comments": 135,
+      "score": 208,
+      "comments": 138,
       "author": "juxtapose",
       "published": "2026-05-26T15:36:24Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Norway's 2 petabytes of Huawei flash storage and LLM training",
-      "url": "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910",
-      "discuss_url": "https://news.ycombinator.com/item?id=48270770",
-      "score": 321,
-      "comments": 207,
-      "author": "rbanffy",
-      "published": "2026-05-25T19:37:57Z"
     },
     {
       "source": "hackernews",
@@ -172,10 +184,22 @@
       "title": "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas",
       "url": "http://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
       "discuss_url": "https://lobste.rs/s/eedsds",
-      "score": 125,
-      "comments": 68,
+      "score": 127,
+      "comments": 71,
       "author": "pyfisch",
       "published": "2026-05-25T17:07:48Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "A non-coding coding agent",
+      "url": "https://zserge.com/posts/socreates/",
+      "discuss_url": "https://lobste.rs/s/soguos",
+      "score": 1,
+      "comments": 0,
+      "author": "cinemast",
+      "published": "2026-05-27T20:19:27Z"
     },
     {
       "source": "lobsters",
@@ -185,7 +209,7 @@
       "url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
       "discuss_url": "https://lobste.rs/s/qfzcpl",
       "score": 14,
-      "comments": 8,
+      "comments": 9,
       "author": "mempko",
       "published": "2026-05-25T16:17:21Z"
     },
@@ -200,6 +224,18 @@
       "comments": 1,
       "author": "untitaker",
       "published": "2026-05-26T21:41:58Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+      "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "discuss_url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-05-27T17:20:29Z"
     },
     {
       "source": "rss",
@@ -226,50 +262,14 @@
       "published": "2026-05-27T00:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
-      "url": "https://huggingface.co/blog/agent-glossary",
-      "discuss_url": "https://huggingface.co/blog/agent-glossary",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-05-25T00:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
-      "discuss_url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-05-23T00:02:03Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
-      "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
-      "discuss_url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-05-22T15:25:59Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What are some of your favourite developer tools?",
       "url": "https://lobste.rs/s/2jdvxa",
       "discuss_url": "https://lobste.rs/s/2jdvxa",
-      "score": 47,
-      "comments": 71,
+      "score": 74,
+      "comments": 105,
       "author": "dhruvp",
       "published": "2026-05-27T05:40:47Z"
     },
@@ -280,8 +280,8 @@
       "title": "The pressure",
       "url": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
       "discuss_url": "https://lobste.rs/s/dw02ye",
-      "score": 175,
-      "comments": 36,
+      "score": 185,
+      "comments": 37,
       "author": "andrewnez",
       "published": "2026-05-26T06:47:38Z"
     },
@@ -292,7 +292,7 @@
       "title": "Folding in Parallel",
       "url": "https://okmij.org/ftp/Algorithms/map-monoid-reduce.html",
       "discuss_url": "https://lobste.rs/s/t1es6x",
-      "score": 23,
+      "score": 26,
       "comments": 0,
       "author": "slightknack",
       "published": "2026-05-26T19:24:03Z"
@@ -305,7 +305,7 @@
       "url": "https://cs.colby.edu/maxwell/courses/tutorials/maketutor/",
       "discuss_url": "https://lobste.rs/s/owa9kn",
       "score": 21,
-      "comments": 29,
+      "comments": 30,
       "author": "kenballus",
       "published": "2026-05-25T14:44:03Z"
     },
@@ -409,13 +409,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Sovereignty Over Convenience",
-      "url": "https://icle.es/2026/05/27/sovereignty-over-convenience/",
-      "discuss_url": "https://lobste.rs/s/fuihmz",
-      "score": 1,
-      "comments": 0,
-      "author": "janus",
-      "published": "2026-05-27T15:53:19Z"
+      "title": "Atom Exhaustion Is Not a Footgun. It's One Third of Our CVEs",
+      "url": "https://erlef.org/blog/security/atom-exhaustion",
+      "discuss_url": "https://lobste.rs/s/lfusbg",
+      "score": 15,
+      "comments": 8,
+      "author": "pushcx",
+      "published": "2026-05-27T16:48:05Z"
     },
     {
       "source": "lobsters",
@@ -428,6 +428,18 @@
       "comments": 17,
       "author": "stapelberg",
       "published": "2026-05-24T14:38:34Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Sovereignty Over Convenience",
+      "url": "https://icle.es/2026/05/27/sovereignty-over-convenience/",
+      "discuss_url": "https://lobste.rs/s/fuihmz",
+      "score": 1,
+      "comments": 0,
+      "author": "janus",
+      "published": "2026-05-27T15:53:19Z"
     },
     {
       "source": "lobsters",
@@ -449,7 +461,7 @@
       "url": "https://ironpeak.be/blog/bypassing-apple-mie/",
       "discuss_url": "https://lobste.rs/s/ymgsrp",
       "score": 6,
-      "comments": 2,
+      "comments": 3,
       "author": "fro",
       "published": "2026-05-24T00:10:25Z"
     },
@@ -505,6 +517,30 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users",
+      "url": "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
+      "discuss_url": "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-05-27T16:10:21Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Malicious npm Package Stole Files From Claude AI User Directory via GitHub",
+      "url": "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html",
+      "discuss_url": "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-05-27T15:44:29Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
       "url": "https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html",
       "discuss_url": "https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html",
@@ -514,50 +550,14 @@
       "published": "2026-05-27T13:28:48Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure",
-      "url": "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
-      "discuss_url": "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-05-27T11:48:37Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "3 SOC Steps that Shut Down Incident Risks Early",
-      "url": "https://thehackernews.com/2026/05/3-soc-steps-that-shut-down-incident.html",
-      "discuss_url": "https://thehackernews.com/2026/05/3-soc-steps-that-shut-down-incident.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-05-27T11:45:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Gitea Vulnerability Exposes Private Container Images without Authentication",
-      "url": "https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html",
-      "discuss_url": "https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-05-27T10:06:32Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Cloudflare Flagship",
       "url": "https://developers.cloudflare.com/flagship/",
       "discuss_url": "https://news.ycombinator.com/item?id=48287468",
-      "score": 310,
-      "comments": 159,
+      "score": 335,
+      "comments": 165,
       "author": "tjek",
       "published": "2026-05-26T23:36:06Z"
     },
@@ -572,6 +572,30 @@
       "comments": 107,
       "author": "berlianta",
       "published": "2026-05-26T13:08:40Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Connect Customer now uses generative AI to automatically evaluate self-service interactions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-gen-AI-evaluations-self-service",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-gen-AI-evaluations-self-service",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-27T17:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon SageMaker HyperPod Slurm clusters now support specifying minimum capacity requirements with continuous provisioning",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-mincount/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-mincount/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-27T15:06:00Z"
     },
     {
       "source": "rss",
@@ -671,27 +695,99 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "New agentic migration assessment capabilities now available with AWS Transform",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/assessment-capabilities-transform",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/assessment-capabilities-transform",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Roku OS’s home screen now features a large, permanent ad",
+      "url": "https://arstechnica.com/gadgets/2026/05/roku-oss-home-screen-now-features-a-large-permanent-ad/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/05/roku-oss-home-screen-now-features-a-large-permanent-ad/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-22T18:58:00Z"
+      "author": "Scharon Harding",
+      "published": "2026-05-27T19:12:59Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon SageMaker adds business metadata and governance in IAM-based domains",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/sagemaker-catalog-iam-domains/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/sagemaker-catalog-iam-domains/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Valve's Steam Deck is back in stock after months, but you won't like it",
+      "url": "https://arstechnica.com/gadgets/2026/05/valves-steam-deck-is-back-in-stock-after-months-but-you-wont-like-it/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/05/valves-steam-deck-is-back-in-stock-after-months-but-you-wont-like-it/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-22T18:24:00Z"
+      "author": "Andrew Cunningham",
+      "published": "2026-05-27T19:02:21Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Trump admin to block Ebola-exposed Americans from US, move them to Kenya",
+      "url": "https://arstechnica.com/health/2026/05/us-walls-itself-off-from-ebola-beefed-up-travel-ban-no-citizen-repatriation/",
+      "discuss_url": "https://arstechnica.com/health/2026/05/us-walls-itself-off-from-ebola-beefed-up-travel-ban-no-citizen-repatriation/",
+      "score": null,
+      "comments": null,
+      "author": "Beth Mole",
+      "published": "2026-05-27T18:52:45Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "\"Little red dot\" in early Universe is a naked supermassive black hole",
+      "url": "https://arstechnica.com/science/2026/05/little-red-dot-in-early-universe-is-a-naked-supermassive-black-hole/",
+      "discuss_url": "https://arstechnica.com/science/2026/05/little-red-dot-in-early-universe-is-a-naked-supermassive-black-hole/",
+      "score": null,
+      "comments": null,
+      "author": "John Timmer",
+      "published": "2026-05-27T18:37:57Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "US Space Force confirms SpaceX will build sensor-to-shooter targeting network",
+      "url": "https://arstechnica.com/space/2026/05/us-space-force-confirms-spacex-will-build-sensor-to-shooter-targeting-network/",
+      "discuss_url": "https://arstechnica.com/space/2026/05/us-space-force-confirms-spacex-will-build-sensor-to-shooter-targeting-network/",
+      "score": null,
+      "comments": null,
+      "author": "Stephen Clark",
+      "published": "2026-05-27T18:19:51Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Disclosure Day final trailer features Spielberg himself",
+      "url": "https://arstechnica.com/culture/2026/05/disclosure-day-final-trailer-features-spielberg-himself/",
+      "discuss_url": "https://arstechnica.com/culture/2026/05/disclosure-day-final-trailer-features-spielberg-himself/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-05-27T17:51:07Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "YouTube to begin automatically labeling AI videos",
+      "url": "https://arstechnica.com/google/2026/05/youtube-to-begin-automatically-labeling-ai-videos/",
+      "discuss_url": "https://arstechnica.com/google/2026/05/youtube-to-begin-automatically-labeling-ai-videos/",
+      "score": null,
+      "comments": null,
+      "author": "Ryan Whitwam",
+      "published": "2026-05-27T17:36:10Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Smart light company Govee apologizes for “white supremacy” marketing imagery",
+      "url": "https://arstechnica.com/gadgets/2026/05/govee-says-it-mistakenly-licensed-white-supremacy-book-pic-to-sell-smart-lights/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/05/govee-says-it-mistakenly-licensed-white-supremacy-book-pic-to-sell-smart-lights/",
+      "score": null,
+      "comments": null,
+      "author": "Scharon Harding",
+      "published": "2026-05-27T17:00:50Z"
     },
     {
       "source": "rss",
@@ -740,102 +836,6 @@
       "comments": null,
       "author": "Daniel Boguslaw, WIRED.com",
       "published": "2026-05-27T10:30:28Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Is Peter Thiel the target of Pope Leo's Gandalf quote? An investigation.",
-      "url": "https://arstechnica.com/tech-policy/2026/05/is-peter-thiel-the-target-of-pope-leos-gandalf-quote-an-investigation/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/is-peter-thiel-the-target-of-pope-leos-gandalf-quote-an-investigation/",
-      "score": null,
-      "comments": null,
-      "author": "Nate Anderson",
-      "published": "2026-05-26T22:27:32Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Musk says US military suicide drones used Starlink in violation of SpaceX rules",
-      "url": "https://arstechnica.com/tech-policy/2026/05/musk-says-us-military-suicide-drones-used-starlink-in-violation-of-spacex-rules/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/musk-says-us-military-suicide-drones-used-starlink-in-violation-of-spacex-rules/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-05-26T21:23:56Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "NASA takes steps toward building Moon Base, including discussing a \"perimeter\"",
-      "url": "https://arstechnica.com/space/2026/05/nasa-takes-steps-toward-building-moon-base-including-discussing-a-perimeter/",
-      "discuss_url": "https://arstechnica.com/space/2026/05/nasa-takes-steps-toward-building-moon-base-including-discussing-a-perimeter/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-05-26T21:03:03Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "We're starting to see some PC makers respond to Apple's MacBook Neo",
-      "url": "https://arstechnica.com/gadgets/2026/05/were-starting-to-see-some-pc-makers-respond-to-apples-macbook-neo/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/05/were-starting-to-see-some-pc-makers-respond-to-apples-macbook-neo/",
-      "score": null,
-      "comments": null,
-      "author": "Andrew Cunningham",
-      "published": "2026-05-26T20:47:31Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Millions of AI agents imperiled by critical vulnerability in open source package",
-      "url": "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/",
-      "discuss_url": "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-05-26T19:50:33Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Want an oxygen-rich atmosphere? Stuff oxygen’s friends in the mantle.",
-      "url": "https://arstechnica.com/science/2026/05/the-oxygenation-of-earths-air-might-owe-a-lot-to-plate-tectonics/",
-      "discuss_url": "https://arstechnica.com/science/2026/05/the-oxygenation-of-earths-air-might-owe-a-lot-to-plate-tectonics/",
-      "score": null,
-      "comments": null,
-      "author": "Scott K. Johnson",
-      "published": "2026-05-26T18:30:58Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "FBI agent explains how easy it is to ID people posting AI porn without consent",
-      "url": "https://arstechnica.com/tech-policy/2026/05/fbi-easily-nabs-man-selling-sexy-deepfakes-who-used-his-own-photo-in-profile/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/fbi-easily-nabs-man-selling-sexy-deepfakes-who-used-his-own-photo-in-profile/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-05-26T17:46:01Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "3D-printable humanoid legs let robotics experiments run wild",
-      "url": "https://arstechnica.com/ai/2026/05/3d-printable-humanoid-legs-let-robotics-experiments-run-wild/",
-      "discuss_url": "https://arstechnica.com/ai/2026/05/3d-printable-humanoid-legs-let-robotics-experiments-run-wild/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-05-26T17:16:07Z"
     }
   ]
 }
