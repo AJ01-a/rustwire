@@ -56,5 +56,5 @@ jobs:
             exit 0
           fi
           git add data/feed.json
-          git commit -m "chore(data): refresh feed [skip ci]"
+          git commit -m "chore(data): refresh feed"
           git push
