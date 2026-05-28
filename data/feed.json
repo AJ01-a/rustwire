@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T03:59:24Z",
+  "updated_at": "2026-05-28T10:11:52Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "I think Anthropic and OpenAI have found product-market fit",
       "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
       "discuss_url": "https://news.ycombinator.com/item?id=48296794",
-      "score": 698,
-      "comments": 869,
+      "score": 874,
+      "comments": 994,
       "author": "simonw",
       "published": "2026-05-27T16:39:13Z",
       "bullets": [
-        "Developers are migrating to Cursor and IDEs using Anthropic’s Claude 3.5 Sonnet, proving PMF through core software engineering workflow integration.",
-        "OpenAI’s GPT-4o and Anthropic’s models have transitioned from novelties to essential API-driven infrastructure, replacing legacy software-as-a-service tools.",
-        "Sustained developer retention and high API volume for automated coding, reasoning, and data pipelines confirm PMF over temporary hype cycles."
+        "OpenAI and Anthropic secured PMF as developers transitioned from experimental chatbots to integrating APIs directly into core production infrastructure.",
+        "Claude 3.5 Sonnet dominates software engineering workflows, while GPT-4o leads in multimodal tasks, driving distinct enterprise use cases for each vendor.",
+        "Production value has shifted from raw LLM outputs to reliable RAG architectures, structured JSON outputs, and autonomous agentic tool-use loops."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "What are some of your favourite developer tools?",
       "url": "https://lobste.rs/s/2jdvxa",
       "discuss_url": "https://lobste.rs/s/2jdvxa",
-      "score": 87,
-      "comments": 135,
+      "score": 100,
+      "comments": 155,
       "author": "dhruvp",
       "published": "2026-05-27T05:40:47Z",
       "bullets": [
-        "Modern CLI utilities like ripgrep (rg), fzf, and jq remain industry standards for fast local search and JSON processing.",
-        "Environment managers like direnv and asdf streamline context-specific shell variables and multi-version runtime configurations across diverse projects.",
-        "Terminal-based git enhancements like lazygit and delta drastically improve repository visualization and local version control workflows for engineers."
+        "CLI search and processing utilities like ripgrep, fzf, and jq dramatically accelerate codebase navigation and data manipulation workflows.",
+        "Declarative environment managers like Nix and direnv solve reproducible, localized developer environment provisioning and dependency management.",
+        "Advanced terminal-based Git tools, including lazygit and git-delta, streamline version control visualization, diffing, and history navigation."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Atom Exhaustion Is Not a Footgun. It's One Third of Our CVEs",
-      "url": "https://erlef.org/blog/security/atom-exhaustion",
-      "discuss_url": "https://lobste.rs/s/lfusbg",
-      "score": 31,
-      "comments": 17,
-      "author": "pushcx",
-      "published": "2026-05-27T16:48:05Z",
+      "title": "Cybersecurity challenge: be nice to each other [IMPOSSIBLE]",
+      "url": "https://sdomi.pl/weblog/29-please-do-better-thanks/",
+      "discuss_url": "https://lobste.rs/s/jifvgs",
+      "score": 5,
+      "comments": 0,
+      "author": "addison",
+      "published": "2026-05-28T07:53:13Z",
       "bullets": [
-        "In Erlang and Elixir (BEAM), atoms are not garbage-collected, making dynamic atom creation a severe Denial of Service vulnerability.",
-        "Converting untrusted user input via String.to_atom exhausts the default 1,048,576 atom limit; use String.to_existing_atom instead.",
-        "Atom exhaustion accounts for one-third of CVEs in affected BEAM projects, proving it is a systemic risk, not just developer error."
+        "Toxic gatekeeping and blame culture in cybersecurity impede talent retention and hinder collaborative threat sharing across industry sectors.",
+        "Emphasizing blameless post-mortems is critical, as shaming teams during breaches discourages transparency and delays vulnerability disclosure.",
+        "Injecting empathy into security training reduces user alienation, bridging the gap between security analysts and employees to improve defenses."
       ]
     },
     {
@@ -89,13 +89,13 @@
       "url": "https://developers.cloudflare.com/flagship/",
       "discuss_url": "https://news.ycombinator.com/item?id=48287468",
       "score": 343,
-      "comments": 170,
+      "comments": 171,
       "author": "tjek",
       "published": "2026-05-26T23:36:06Z",
       "bullets": [
-        "Edge-based feature flagging via Cloudflare Workers eliminates client-side SDK latency, evaluating flags in under 10ms close to users.",
-        "Integrates directly into CI/CD pipelines to decouple code deployments from feature releases, reducing blast radiuses during production rollouts.",
-        "Replaces heavy origin-side evaluation with lightweight edge routing rules, optimizing server resource consumption and improving page performance."
+        "Evaluate feature flags at the edge using Cloudflare Workers to eliminate origin round-trips and minimize latency.",
+        "Sync configuration states globally in milliseconds leveraging Cloudflare's distributed KV store for real-time progressive rollouts.",
+        "Decouple deployments from releases, enabling canary testing and instant traffic-splitting rollbacks directly at the CDN layer."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Jon Brodkin",
       "published": "2026-05-27T21:08:51Z",
       "bullets": [
-        "California's civil rights agency defeated Tesla's motion to dismiss a racial discrimination lawsuit, moving the case forward to trial.",
-        "The trial is scheduled to begin in July, following failed attempts by Tesla to throw out the state's case.",
-        "The litigation maintains high-profile regulatory and reputational pressure on Tesla's manufacturing workforce management and ESG compliance."
+        "California's Civil Rights Department defeated Tesla's motion to dismiss, advancing a major systemic racial discrimination lawsuit to trial.",
+        "The litigation bypasses Tesla’s mandatory employee arbitration clauses, allowing public state-level enforcement and exposure of factory-floor conditions.",
+        "A California state court cleared the case to proceed, with the trial officially scheduled to begin in July."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "I think Anthropic and OpenAI have found product-market fit",
       "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
       "discuss_url": "https://news.ycombinator.com/item?id=48296794",
-      "score": 698,
-      "comments": 869,
+      "score": 874,
+      "comments": 994,
       "author": "simonw",
       "published": "2026-05-27T16:39:13Z"
     },
@@ -136,8 +136,8 @@
       "title": "Training our own AI models",
       "url": "https://posthog.com/blog/training-ai-models",
       "discuss_url": "https://news.ycombinator.com/item?id=48296359",
-      "score": 195,
-      "comments": 136,
+      "score": 202,
+      "comments": 139,
       "author": "tartieret",
       "published": "2026-05-27T16:08:42Z"
     },
@@ -148,8 +148,8 @@
       "title": "Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs",
       "url": "https://arps18.github.io/posts/claude-code-mastery/",
       "discuss_url": "https://news.ycombinator.com/item?id=48289950",
-      "score": 382,
-      "comments": 229,
+      "score": 401,
+      "comments": 242,
       "author": "arps18",
       "published": "2026-05-27T05:13:39Z"
     },
@@ -169,11 +169,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
+      "title": "YT labels slop via ML",
+      "url": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
+      "discuss_url": "https://lobste.rs/s/k2jg2y",
+      "score": 1,
+      "comments": 0,
+      "author": "netzego",
+      "published": "2026-05-28T10:08:36Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
       "title": "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas",
       "url": "http://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
       "discuss_url": "https://lobste.rs/s/eedsds",
       "score": 130,
-      "comments": 72,
+      "comments": 73,
       "author": "pyfisch",
       "published": "2026-05-25T17:07:48Z"
     },
@@ -250,28 +262,28 @@
       "published": "2026-05-25T00:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
-      "discuss_url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-05-23T00:02:03Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What are some of your favourite developer tools?",
       "url": "https://lobste.rs/s/2jdvxa",
       "discuss_url": "https://lobste.rs/s/2jdvxa",
-      "score": 87,
-      "comments": 135,
+      "score": 100,
+      "comments": 155,
       "author": "dhruvp",
       "published": "2026-05-27T05:40:47Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "The state of curl 2026 with Daniel Stenberg",
+      "url": "https://www.youtube.com/watch?v=zt4qMZN2xDU",
+      "discuss_url": "https://lobste.rs/s/jiwsnj",
+      "score": 2,
+      "comments": 0,
+      "author": "andrewnez",
+      "published": "2026-05-28T09:11:32Z"
     },
     {
       "source": "lobsters",
@@ -280,7 +292,7 @@
       "title": "The pressure",
       "url": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
       "discuss_url": "https://lobste.rs/s/dw02ye",
-      "score": 186,
+      "score": 189,
       "comments": 37,
       "author": "andrewnez",
       "published": "2026-05-26T06:47:38Z"
@@ -292,7 +304,7 @@
       "title": "Folding in Parallel",
       "url": "https://okmij.org/ftp/Algorithms/map-monoid-reduce.html",
       "discuss_url": "https://lobste.rs/s/t1es6x",
-      "score": 27,
+      "score": 28,
       "comments": 0,
       "author": "slightknack",
       "published": "2026-05-26T19:24:03Z"
@@ -394,16 +406,16 @@
       "published": "2026-05-22T16:10:21Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Beyond the engine: 10 open source projects shaping how games actually get made",
-      "url": "https://github.blog/open-source/gaming/beyond-the-engine-10-open-source-projects-shaping-how-games-actually-get-made/",
-      "discuss_url": "https://github.blog/open-source/gaming/beyond-the-engine-10-open-source-projects-shaping-how-games-actually-get-made/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-05-21T18:00:00Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Cybersecurity challenge: be nice to each other [IMPOSSIBLE]",
+      "url": "https://sdomi.pl/weblog/29-please-do-better-thanks/",
+      "discuss_url": "https://lobste.rs/s/jifvgs",
+      "score": 5,
+      "comments": 0,
+      "author": "addison",
+      "published": "2026-05-28T07:53:13Z"
     },
     {
       "source": "lobsters",
@@ -412,10 +424,22 @@
       "title": "Atom Exhaustion Is Not a Footgun. It's One Third of Our CVEs",
       "url": "https://erlef.org/blog/security/atom-exhaustion",
       "discuss_url": "https://lobste.rs/s/lfusbg",
-      "score": 31,
-      "comments": 17,
+      "score": 45,
+      "comments": 30,
       "author": "pushcx",
       "published": "2026-05-27T16:48:05Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "The tenth OpenPGP email summit",
+      "url": "https://lwn.net/Articles/1072870/",
+      "discuss_url": "https://lobste.rs/s/dfz7tg",
+      "score": 2,
+      "comments": 0,
+      "author": "wiktor",
+      "published": "2026-05-28T10:01:05Z"
     },
     {
       "source": "lobsters",
@@ -436,22 +460,10 @@
       "title": "Sovereignty Over Convenience",
       "url": "https://icle.es/2026/05/27/sovereignty-over-convenience/",
       "discuss_url": "https://lobste.rs/s/fuihmz",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "janus",
       "published": "2026-05-27T15:53:19Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "A Network Allow-List Won't Stop Exfiltration",
-      "url": "https://www.dergraf.org/notes/canister-egress-proxy-dlp/",
-      "discuss_url": "https://lobste.rs/s/obnccl",
-      "score": 3,
-      "comments": 16,
-      "author": "dergraf",
-      "published": "2026-05-24T08:31:24Z"
     },
     {
       "source": "lobsters",
@@ -505,6 +517,18 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
+      "url": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
+      "discuss_url": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-05-28T07:54:48Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users",
       "url": "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
       "discuss_url": "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
@@ -526,30 +550,6 @@
       "published": "2026-05-27T15:44:29Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
-      "url": "https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html",
-      "discuss_url": "https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-05-27T13:28:48Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure",
-      "url": "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
-      "discuss_url": "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-05-27T11:48:37Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
@@ -557,7 +557,7 @@
       "url": "https://developers.cloudflare.com/flagship/",
       "discuss_url": "https://news.ycombinator.com/item?id=48287468",
       "score": 343,
-      "comments": 170,
+      "comments": 171,
       "author": "tjek",
       "published": "2026-05-26T23:36:06Z"
     },
