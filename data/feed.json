@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T10:11:52Z",
+  "updated_at": "2026-05-28T16:10:42Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "I think Anthropic and OpenAI have found product-market fit",
-      "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48296794",
-      "score": 874,
-      "comments": 994,
-      "author": "simonw",
-      "published": "2026-05-27T16:39:13Z",
+      "title": "Five frontier LLMs disagree on 67% of 1k real-world fact-check claims",
+      "url": "https://lenz.io/research/llm-disagreement",
+      "discuss_url": "https://news.ycombinator.com/item?id=48307887",
+      "score": 419,
+      "comments": 287,
+      "author": "kostaj",
+      "published": "2026-05-28T12:20:19Z",
       "bullets": [
-        "OpenAI and Anthropic secured PMF as developers transitioned from experimental chatbots to integrating APIs directly into core production infrastructure.",
-        "Claude 3.5 Sonnet dominates software engineering workflows, while GPT-4o leads in multimodal tasks, driving distinct enterprise use cases for each vendor.",
-        "Production value has shifted from raw LLM outputs to reliable RAG architectures, structured JSON outputs, and autonomous agentic tool-use loops."
+        "Frontier LLMs fail to establish a reliable consensus on factual claims, rendering single-model automated fact-checking highly untrustworthy for production.",
+        "Developers must implement Retrieval-Augmented Generation (RAG) and multi-model voting architectures to mitigate hallucination and factual drift in high-stakes applications.",
+        "Disagreement rates underscore how proprietary training data mixtures, alignment heuristics, and temporal cutoffs prevent cross-vendor consistency on ambiguous real-world facts."
       ]
     },
     {
@@ -54,65 +54,65 @@
       "title": "What are some of your favourite developer tools?",
       "url": "https://lobste.rs/s/2jdvxa",
       "discuss_url": "https://lobste.rs/s/2jdvxa",
-      "score": 100,
-      "comments": 155,
+      "score": 110,
+      "comments": 166,
       "author": "dhruvp",
       "published": "2026-05-27T05:40:47Z",
       "bullets": [
-        "CLI search and processing utilities like ripgrep, fzf, and jq dramatically accelerate codebase navigation and data manipulation workflows.",
-        "Declarative environment managers like Nix and direnv solve reproducible, localized developer environment provisioning and dependency management.",
-        "Advanced terminal-based Git tools, including lazygit and git-delta, streamline version control visualization, diffing, and history navigation."
+        "Modern CLI search and filtering tools like ripgrep (rg) and fzf drastically speed up codebase navigation and command-history retrieval.",
+        "Environment managers like direnv and version switchers like asdf automate project-specific configurations, reducing runtime and dependency conflicts.",
+        "Neovim paired with LSP engines and tmux remain top choices for highly customizable, distraction-free terminal-based development environments."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Cybersecurity challenge: be nice to each other [IMPOSSIBLE]",
-      "url": "https://sdomi.pl/weblog/29-please-do-better-thanks/",
-      "discuss_url": "https://lobste.rs/s/jifvgs",
-      "score": 5,
-      "comments": 0,
-      "author": "addison",
-      "published": "2026-05-28T07:53:13Z",
+      "title": "Atom Exhaustion Is Not a Footgun. It's One Third of Our CVEs",
+      "url": "https://erlef.org/blog/security/atom-exhaustion",
+      "discuss_url": "https://lobste.rs/s/lfusbg",
+      "score": 59,
+      "comments": 44,
+      "author": "pushcx",
+      "published": "2026-05-27T16:48:05Z",
       "bullets": [
-        "Toxic gatekeeping and blame culture in cybersecurity impede talent retention and hinder collaborative threat sharing across industry sectors.",
-        "Emphasizing blameless post-mortems is critical, as shaming teams during breaches discourages transparency and delays vulnerability disclosure.",
-        "Injecting empathy into security training reduces user alienation, bridging the gap between security analysts and employees to improve defenses."
+        "Dynamic creation of Erlang/Elixir atoms from untrusted input exhausts the VM's non-garbage-collected atom table, causing immediate DoS crashes.",
+        "This memory exhaustion vector accounts for nearly one-third of CVEs in BEAM-based systems, indicating systemic architectural risks.",
+        "Prevent exploitation by auditing code for unsafe functions like `String.to_atom` and mandating `String.to_existing_atom` for untrusted input."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "Cloudflare Flagship",
-      "url": "https://developers.cloudflare.com/flagship/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48287468",
-      "score": 343,
-      "comments": 171,
-      "author": "tjek",
-      "published": "2026-05-26T23:36:06Z",
+      "title": "What's cooking on SourceHut? Q2 2026",
+      "url": "https://sourcehut.org/blog/2026-05-28-whats-cooking-q2-2026/",
+      "discuss_url": "https://lobste.rs/s/jowjkj",
+      "score": 38,
+      "comments": 3,
+      "author": "kmaasrud",
+      "published": "2026-05-28T10:46:28Z",
       "bullets": [
-        "Evaluate feature flags at the edge using Cloudflare Workers to eliminate origin round-trips and minimize latency.",
-        "Sync configuration states globally in milliseconds leveraging Cloudflare's distributed KV store for real-time progressive rollouts.",
-        "Decouple deployments from releases, enabling canary testing and instant traffic-splitting rollbacks directly at the CDN layer."
+        "SourceHut’s CI platform (builds.sr.ht) advances its KVM-based build isolation, offering faster ephemeral VM provisioning for secure pipeline runs.",
+        "Enhanced hosting infrastructure scales Mercurial (hg.sr.ht) and Git performance, prioritizing raw ssh-based push/pull efficiency over heavy web UI overhead.",
+        "Updates to self-hosted SourceHut deployments simplify multi-tenant configurations, database migrations, and mail-based CI dispatch integrations."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "California defeats Tesla's attempt to throw out racial discrimination lawsuit",
-      "url": "https://arstechnica.com/tech-policy/2026/05/california-defeats-teslas-attempt-to-throw-out-racial-discrimination-lawsuit/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/california-defeats-teslas-attempt-to-throw-out-racial-discrimination-lawsuit/",
+      "title": "Bad cholesterol slashed 62% by single dose of gene-editing drug in small trial",
+      "url": "https://arstechnica.com/health/2026/05/one-dose-of-gene-editing-drug-cut-bad-cholesterol-62-for-months-in-small-trial/",
+      "discuss_url": "https://arstechnica.com/health/2026/05/one-dose-of-gene-editing-drug-cut-bad-cholesterol-62-for-months-in-small-trial/",
       "score": null,
       "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-05-27T21:08:51Z",
+      "author": "Beth Mole",
+      "published": "2026-05-28T13:39:49Z",
       "bullets": [
-        "California's Civil Rights Department defeated Tesla's motion to dismiss, advancing a major systemic racial discrimination lawsuit to trial.",
-        "The litigation bypasses Tesla’s mandatory employee arbitration clauses, allowing public state-level enforcement and exposure of factory-floor conditions.",
-        "A California state court cleared the case to proceed, with the trial officially scheduled to begin in July."
+        "Verve Therapeutics' single-dose gene-editing drug VERVE-101 reduced LDL cholesterol by 62% in an interim 35-patient Phase I trial.",
+        "The therapy utilizes in vivo base editing to permanently turn off the PCSK9 gene in the liver.",
+        "This represents the first clinical proof-of-concept for utilizing CRISPR-based base editing to treat a common cardiovascular disease."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Five frontier LLMs disagree on 67% of 1k real-world fact-check claims",
+      "url": "https://lenz.io/research/llm-disagreement",
+      "discuss_url": "https://news.ycombinator.com/item?id=48307887",
+      "score": 419,
+      "comments": 287,
+      "author": "kostaj",
+      "published": "2026-05-28T12:20:19Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "I think Anthropic and OpenAI have found product-market fit",
       "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
       "discuss_url": "https://news.ycombinator.com/item?id=48296794",
-      "score": 874,
-      "comments": 994,
+      "score": 1021,
+      "comments": 1133,
       "author": "simonw",
       "published": "2026-05-27T16:39:13Z"
     },
@@ -136,10 +148,22 @@
       "title": "Training our own AI models",
       "url": "https://posthog.com/blog/training-ai-models",
       "discuss_url": "https://news.ycombinator.com/item?id=48296359",
-      "score": 202,
-      "comments": 139,
+      "score": 206,
+      "comments": 141,
       "author": "tartieret",
       "published": "2026-05-27T16:08:42Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Gemini, Gophers, and Fingers. Oh My Alternative Internets Beyond HTTPS",
+      "url": "https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48297467",
+      "score": 134,
+      "comments": 71,
+      "author": "ChrisArchitect",
+      "published": "2026-05-27T17:24:25Z"
     },
     {
       "source": "hackernews",
@@ -148,34 +172,22 @@
       "title": "Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs",
       "url": "https://arps18.github.io/posts/claude-code-mastery/",
       "discuss_url": "https://news.ycombinator.com/item?id=48289950",
-      "score": 401,
-      "comments": 242,
+      "score": 415,
+      "comments": 246,
       "author": "arps18",
       "published": "2026-05-27T05:13:39Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "A sleep-like consolidation mechanism for LLMs",
-      "url": "https://arxiv.org/abs/2605.26099",
-      "discuss_url": "https://news.ycombinator.com/item?id=48281226",
-      "score": 210,
-      "comments": 139,
-      "author": "juxtapose",
-      "published": "2026-05-26T15:36:24Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "YT labels slop via ML",
-      "url": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
-      "discuss_url": "https://lobste.rs/s/k2jg2y",
+      "title": "Agentic Search for Context Engineering",
+      "url": "https://leoniemonigatti.com/blog/agentic-search-for-context-engineering.html",
+      "discuss_url": "https://lobste.rs/s/sfdb0q",
       "score": 1,
       "comments": 0,
-      "author": "netzego",
-      "published": "2026-05-28T10:08:36Z"
+      "author": "mrfabbri",
+      "published": "2026-05-28T16:06:37Z"
     },
     {
       "source": "lobsters",
@@ -184,7 +196,7 @@
       "title": "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas",
       "url": "http://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
       "discuss_url": "https://lobste.rs/s/eedsds",
-      "score": 130,
+      "score": 131,
       "comments": 73,
       "author": "pyfisch",
       "published": "2026-05-25T17:07:48Z"
@@ -250,40 +262,16 @@
       "published": "2026-05-27T00:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
-      "url": "https://huggingface.co/blog/agent-glossary",
-      "discuss_url": "https://huggingface.co/blog/agent-glossary",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-05-25T00:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What are some of your favourite developer tools?",
       "url": "https://lobste.rs/s/2jdvxa",
       "discuss_url": "https://lobste.rs/s/2jdvxa",
-      "score": 100,
-      "comments": 155,
+      "score": 110,
+      "comments": 166,
       "author": "dhruvp",
       "published": "2026-05-27T05:40:47Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "The state of curl 2026 with Daniel Stenberg",
-      "url": "https://www.youtube.com/watch?v=zt4qMZN2xDU",
-      "discuss_url": "https://lobste.rs/s/jiwsnj",
-      "score": 2,
-      "comments": 0,
-      "author": "andrewnez",
-      "published": "2026-05-28T09:11:32Z"
     },
     {
       "source": "lobsters",
@@ -301,13 +289,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Folding in Parallel",
-      "url": "https://okmij.org/ftp/Algorithms/map-monoid-reduce.html",
-      "discuss_url": "https://lobste.rs/s/t1es6x",
-      "score": 28,
+      "title": "The state of curl 2026 with Daniel Stenberg",
+      "url": "https://www.youtube.com/watch?v=zt4qMZN2xDU",
+      "discuss_url": "https://lobste.rs/s/jiwsnj",
+      "score": 3,
       "comments": 0,
-      "author": "slightknack",
-      "published": "2026-05-26T19:24:03Z"
+      "author": "andrewnez",
+      "published": "2026-05-28T09:11:32Z"
     },
     {
       "source": "lobsters",
@@ -337,6 +325,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Folding in Parallel",
+      "url": "https://okmij.org/ftp/Algorithms/map-monoid-reduce.html",
+      "discuss_url": "https://lobste.rs/s/t1es6x",
+      "score": 29,
+      "comments": 0,
+      "author": "slightknack",
+      "published": "2026-05-26T19:24:03Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/vf66rg",
       "discuss_url": "https://lobste.rs/s/vf66rg",
@@ -356,30 +356,6 @@
       "comments": 4,
       "author": "wofo",
       "published": "2026-05-25T11:19:36Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "From AFSK to Goertzel",
-      "url": "https://uart.cz/2959/from-afsk-to-goertzel/",
-      "discuss_url": "https://lobste.rs/s/vqivdq",
-      "score": 14,
-      "comments": 2,
-      "author": "Bernerd",
-      "published": "2026-05-24T14:22:54Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "libwce: the entropy layer of a wavelet codec, on its own",
-      "url": "https://yogthos.net/posts/2026-05-24-libwce.html",
-      "discuss_url": "https://lobste.rs/s/d3uwf1",
-      "score": 4,
-      "comments": 2,
-      "author": "Yogthos",
-      "published": "2026-05-24T13:43:11Z"
     },
     {
       "source": "rss",
@@ -406,16 +382,28 @@
       "published": "2026-05-22T16:10:21Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Cybersecurity challenge: be nice to each other [IMPOSSIBLE]",
-      "url": "https://sdomi.pl/weblog/29-please-do-better-thanks/",
-      "discuss_url": "https://lobste.rs/s/jifvgs",
-      "score": 5,
-      "comments": 0,
-      "author": "addison",
-      "published": "2026-05-28T07:53:13Z"
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Beyond the engine: 10 open source projects shaping how games actually get made",
+      "url": "https://github.blog/open-source/gaming/beyond-the-engine-10-open-source-projects-shaping-how-games-actually-get-made/",
+      "discuss_url": "https://github.blog/open-source/gaming/beyond-the-engine-10-open-source-projects-shaping-how-games-actually-get-made/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-05-21T18:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "In an AI world, the most valuable developers will be both artisans and builders​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​​​﻿‌​‌‍‌‌​﻿​‌‌‍​‍​﻿‌‌‌‍‌‍​﻿‌‍​‍﻿‌‌‍​‍‌‍​‍​﻿‌​​﻿‌​​‍﻿‌​﻿‌​​﻿​‍​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍‌‌‍‌​​﻿​‌​﻿‍​​‍﻿‌‌‍‌‍‌‍​﻿‌‍​﻿​﻿‌﻿​﻿‌‌​﻿​‌​﻿‌﻿​﻿‌‍‌‍‌‍​﻿​​‌‍​‍​﻿​‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​​​﻿‌​‌‍‌‌​﻿​‌‌‍​‍​﻿‌‌‌‍‌‍​﻿‌‍​‍﻿‌‌‍​‍‌‍​‍​﻿‌​​﻿‌​​‍﻿‌​﻿‌​​﻿​‍​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍‌‌‍‌​​﻿​‌​﻿‍​​‍﻿‌‌‍‌‍‌‍​﻿‌‍​﻿​﻿‌﻿​﻿‌‌​﻿​‌​﻿‌﻿​﻿‌‍‌‍‌‍​﻿​​‌‍​‍​﻿​‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/05/28/artisans-and-builders/",
+      "discuss_url": "https://stackoverflow.blog/2026/05/28/artisans-and-builders/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-05-28T16:00:00Z"
     },
     {
       "source": "lobsters",
@@ -424,10 +412,22 @@
       "title": "Atom Exhaustion Is Not a Footgun. It's One Third of Our CVEs",
       "url": "https://erlef.org/blog/security/atom-exhaustion",
       "discuss_url": "https://lobste.rs/s/lfusbg",
-      "score": 45,
-      "comments": 30,
+      "score": 59,
+      "comments": 44,
       "author": "pushcx",
       "published": "2026-05-27T16:48:05Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Cybersecurity challenge: be nice to each other [IMPOSSIBLE]",
+      "url": "https://sdomi.pl/weblog/29-please-do-better-thanks/",
+      "discuss_url": "https://lobste.rs/s/jifvgs",
+      "score": 12,
+      "comments": 0,
+      "author": "addison",
+      "published": "2026-05-28T07:53:13Z"
     },
     {
       "source": "lobsters",
@@ -436,22 +436,10 @@
       "title": "The tenth OpenPGP email summit",
       "url": "https://lwn.net/Articles/1072870/",
       "discuss_url": "https://lobste.rs/s/dfz7tg",
-      "score": 2,
+      "score": 7,
       "comments": 0,
       "author": "wiktor",
       "published": "2026-05-28T10:01:05Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "How my minimal, memory-safe Go rsync steers clear of vulnerabilities",
-      "url": "https://michael.stapelberg.ch/posts/2026-05-24-minimal-memory-safe-go-rsync-vulns/",
-      "discuss_url": "https://lobste.rs/s/5y9u93",
-      "score": 98,
-      "comments": 17,
-      "author": "stapelberg",
-      "published": "2026-05-24T14:38:34Z"
     },
     {
       "source": "lobsters",
@@ -464,18 +452,6 @@
       "comments": 0,
       "author": "janus",
       "published": "2026-05-27T15:53:19Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Debian SE Linux and PinTheft",
-      "url": "https://etbe.coker.com.au/2026/05/24/debian-selinux-pintheft/",
-      "discuss_url": "https://lobste.rs/s/jlhsqw",
-      "score": 9,
-      "comments": 0,
-      "author": "7tehdt3cnw6kir6o",
-      "published": "2026-05-24T11:37:11Z"
     },
     {
       "source": "rss",
@@ -517,6 +493,42 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
+      "url": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
+      "discuss_url": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-05-28T13:53:52Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More",
+      "url": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
+      "discuss_url": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-05-28T13:33:16Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "New AI Usage Report: Enterprise AI Risk Is Heavily Concentrated Among a Small Group of AI \"Power users\"",
+      "url": "https://thehackernews.com/2026/05/new-ai-usage-report-enterprise-ai-risk.html",
+      "discuss_url": "https://thehackernews.com/2026/05/new-ai-usage-report-enterprise-ai-risk.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-05-28T11:30:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
       "url": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
       "discuss_url": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
@@ -538,16 +550,16 @@
       "published": "2026-05-27T16:10:21Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Malicious npm Package Stole Files From Claude AI User Directory via GitHub",
-      "url": "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html",
-      "discuss_url": "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-05-27T15:44:29Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "What's cooking on SourceHut? Q2 2026",
+      "url": "https://sourcehut.org/blog/2026-05-28-whats-cooking-q2-2026/",
+      "discuss_url": "https://lobste.rs/s/jowjkj",
+      "score": 38,
+      "comments": 3,
+      "author": "kmaasrud",
+      "published": "2026-05-28T10:46:28Z"
     },
     {
       "source": "hackernews",
@@ -556,22 +568,22 @@
       "title": "Cloudflare Flagship",
       "url": "https://developers.cloudflare.com/flagship/",
       "discuss_url": "https://news.ycombinator.com/item?id=48287468",
-      "score": 343,
-      "comments": 171,
+      "score": 345,
+      "comments": 172,
       "author": "tjek",
       "published": "2026-05-26T23:36:06Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Fired the One Employee Who Gave a Damn",
-      "url": "https://www.seuros.com/blog/aws-fired-the-human-who-made-the-difference/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48279321",
-      "score": 196,
-      "comments": 106,
-      "author": "berlianta",
-      "published": "2026-05-26T13:08:40Z"
+      "title": "DynamoDB Streams now supports AWS PrivateLink for FIPS endpoints in AWS GovCloud (US) Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-dynamodb-streams-privatelink-fips-govcloud/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-dynamodb-streams-privatelink-fips-govcloud/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-28T15:00:00Z"
     },
     {
       "source": "rss",
@@ -601,9 +613,21 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "SageMaker Notebook Instances now support P5.4xl instance types",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/p5-4xl-new-instance-launch-sagemaker-notebook-instances/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/p5-4xl-new-instance-launch-sagemaker-notebook-instances/",
+      "title": "AWS Elemental Inference now supports Smart Subtitles for automated live captioning",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/elemental-inference-subtitles",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/elemental-inference-subtitles",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-27T21:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "SageMaker Notebook Instances now support P5en.48xl instance types",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/p5en-new-instance-launch-sagemaker-notebook-instances/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/02/p5en-new-instance-launch-sagemaker-notebook-instances/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -613,9 +637,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "SageMaker Notebook Instances now support P5en.48xl instance types",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/p5en-new-instance-launch-sagemaker-notebook-instances/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/02/p5en-new-instance-launch-sagemaker-notebook-instances/",
+      "title": "SageMaker Notebook Instances now support P5.4xl instance types",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/p5-4xl-new-instance-launch-sagemaker-notebook-instances/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/p5-4xl-new-instance-launch-sagemaker-notebook-instances/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -671,27 +695,27 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Aurora MySQL now supports integration with Kiro Powers",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql-kiro-powers/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql-kiro-powers/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Bad cholesterol slashed 62% by single dose of gene-editing drug in small trial",
+      "url": "https://arstechnica.com/health/2026/05/one-dose-of-gene-editing-drug-cut-bad-cholesterol-62-for-months-in-small-trial/",
+      "discuss_url": "https://arstechnica.com/health/2026/05/one-dose-of-gene-editing-drug-cut-bad-cholesterol-62-for-months-in-small-trial/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-27T15:00:00Z"
+      "author": "Beth Mole",
+      "published": "2026-05-28T13:39:49Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Backup adds OTP verification for Multi-party approval on logically air-gapped vaults",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-backup-otp-multi-party-approval-lag/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-backup-otp-multi-party-approval-lag/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Forecasters predict below-average hurricane season, advise against complacency",
+      "url": "https://arstechnica.com/science/2026/05/forecasters-predict-below-average-hurricane-season-advise-against-complacency/",
+      "discuss_url": "https://arstechnica.com/science/2026/05/forecasters-predict-below-average-hurricane-season-advise-against-complacency/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-27T10:00:00Z"
+      "author": "Amy Green",
+      "published": "2026-05-28T10:00:01Z"
     },
     {
       "source": "rss",
@@ -709,7 +733,7 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Websites have a new way to spy on visitors: analyzing their SSD activity",
+      "title": "Websites have a new way to spy on visitors: Analyzing their SSD activity",
       "url": "https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/",
       "discuss_url": "https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/",
       "score": null,
@@ -812,30 +836,6 @@
       "comments": null,
       "author": "Stephen Clark",
       "published": "2026-05-27T18:19:51Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Disclosure Day final trailer features Spielberg himself",
-      "url": "https://arstechnica.com/culture/2026/05/disclosure-day-final-trailer-features-spielberg-himself/",
-      "discuss_url": "https://arstechnica.com/culture/2026/05/disclosure-day-final-trailer-features-spielberg-himself/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-05-27T17:51:07Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "YouTube to begin automatically labeling AI videos",
-      "url": "https://arstechnica.com/google/2026/05/youtube-to-begin-automatically-labeling-ai-videos/",
-      "discuss_url": "https://arstechnica.com/google/2026/05/youtube-to-begin-automatically-labeling-ai-videos/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-05-27T17:36:10Z"
     }
   ]
 }
