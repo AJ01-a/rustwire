@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T20:25:19Z",
+  "updated_at": "2026-05-28T03:59:24Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "I think Anthropic and OpenAI have found product-market fit",
       "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
       "discuss_url": "https://news.ycombinator.com/item?id=48296794",
-      "score": 365,
-      "comments": 455,
+      "score": 698,
+      "comments": 869,
       "author": "simonw",
       "published": "2026-05-27T16:39:13Z",
       "bullets": [
-        "Claude 3.5 Sonnet and GPT-4o drive massive API growth through integration in developer tools like Cursor and GitHub Copilot.",
-        "Enterprises transition from simple chat interfaces to production-grade agentic workflows and custom RAG pipelines using native LLM tool-calling APIs.",
-        "Rapidly declining token costs and expanding context windows make processing entire codebases economically viable for production AI engineering."
+        "Developers are migrating to Cursor and IDEs using Anthropic’s Claude 3.5 Sonnet, proving PMF through core software engineering workflow integration.",
+        "OpenAI’s GPT-4o and Anthropic’s models have transitioned from novelties to essential API-driven infrastructure, replacing legacy software-as-a-service tools.",
+        "Sustained developer retention and high API volume for automated coding, reasoning, and data pipelines confirm PMF over temporary hype cycles."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are some of your favourite developer tools?",
       "url": "https://lobste.rs/s/2jdvxa",
       "discuss_url": "https://lobste.rs/s/2jdvxa",
-      "score": 74,
-      "comments": 105,
+      "score": 87,
+      "comments": 135,
       "author": "dhruvp",
       "published": "2026-05-27T05:40:47Z",
       "bullets": [
-        "Engineers highly favor Rust-based CLI upgrades like `ripgrep` (rg) and `fd` alongside `fzf` for ultra-fast terminal search and navigation.",
-        "Tools like `direnv` for directory-specific environment variables and `asdf` or `mise` for multi-language runtime version management are widely recommended.",
-        "Terminal multiplexers like `tmux` and interactive Git TUI tools like `lazygit` significantly optimize developer workflow efficiency over GUI alternatives."
+        "Modern CLI utilities like ripgrep (rg), fzf, and jq remain industry standards for fast local search and JSON processing.",
+        "Environment managers like direnv and asdf streamline context-specific shell variables and multi-version runtime configurations across diverse projects.",
+        "Terminal-based git enhancements like lazygit and delta drastically improve repository visualization and local version control workflows for engineers."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Atom Exhaustion Is Not a Footgun. It's One Third of Our CVEs",
       "url": "https://erlef.org/blog/security/atom-exhaustion",
       "discuss_url": "https://lobste.rs/s/lfusbg",
-      "score": 15,
-      "comments": 8,
+      "score": 31,
+      "comments": 17,
       "author": "pushcx",
       "published": "2026-05-27T16:48:05Z",
       "bullets": [
-        "Erlang and Elixir (BEAM) systems risk Denial of Service (DoS) VM crashes because dynamically created atoms are never garbage-collected.",
-        "Untrusted input parsing driving dynamic atom creation accounts for approximately 33% of CVEs in the BEAM ecosystem.",
-        "Mitigate this vulnerability by banning String.to_atom/1 and binary_to_atom/2, mandating safer existing_atom alternatives."
+        "In Erlang and Elixir (BEAM), atoms are not garbage-collected, making dynamic atom creation a severe Denial of Service vulnerability.",
+        "Converting untrusted user input via String.to_atom exhausts the default 1,048,576 atom limit; use String.to_existing_atom instead.",
+        "Atom exhaustion accounts for one-third of CVEs in affected BEAM projects, proving it is a systemic risk, not just developer error."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Cloudflare Flagship",
       "url": "https://developers.cloudflare.com/flagship/",
       "discuss_url": "https://news.ycombinator.com/item?id=48287468",
-      "score": 335,
-      "comments": 165,
+      "score": 343,
+      "comments": 170,
       "author": "tjek",
       "published": "2026-05-26T23:36:06Z",
       "bullets": [
-        "Execute feature flags at the edge using Cloudflare Workers to eliminate latency and avoid origin server roundtrips during user requests.",
-        "Enable progressive delivery and A/B testing globally with Flagship's Edge SDK integrated into your Cloudflare serverless pipeline.",
-        "Reduce client-side SDK footprint and improve Core Web Vitals by moving feature flagging decisions to Cloudflare's 300+ edge locations."
+        "Edge-based feature flagging via Cloudflare Workers eliminates client-side SDK latency, evaluating flags in under 10ms close to users.",
+        "Integrates directly into CI/CD pipelines to decouple code deployments from feature releases, reducing blast radiuses during production rollouts.",
+        "Replaces heavy origin-side evaluation with lightweight edge routing rules, optimizing server resource consumption and improving page performance."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Roku OS’s home screen now features a large, permanent ad",
-      "url": "https://arstechnica.com/gadgets/2026/05/roku-oss-home-screen-now-features-a-large-permanent-ad/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/05/roku-oss-home-screen-now-features-a-large-permanent-ad/",
+      "title": "California defeats Tesla's attempt to throw out racial discrimination lawsuit",
+      "url": "https://arstechnica.com/tech-policy/2026/05/california-defeats-teslas-attempt-to-throw-out-racial-discrimination-lawsuit/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/california-defeats-teslas-attempt-to-throw-out-racial-discrimination-lawsuit/",
       "score": null,
       "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-05-27T19:12:59Z",
+      "author": "Jon Brodkin",
+      "published": "2026-05-27T21:08:51Z",
       "bullets": [
-        "Roku's OS update highlights a growing Smart TV trend prioritizing high-yield programmatic ad inventory over traditional user interface usability.",
-        "Developers face declining user satisfaction on proprietary TV platforms, accelerating demand for self-hosted launchers or open-source OS alternatives.",
-        "The shift drives increased DNS-based ad-blocking (e.g., Pi-hole) and network telemetry monitoring by privacy-conscious users targeting Roku domains."
+        "California's civil rights agency defeated Tesla's motion to dismiss a racial discrimination lawsuit, moving the case forward to trial.",
+        "The trial is scheduled to begin in July, following failed attempts by Tesla to throw out the state's case.",
+        "The litigation maintains high-profile regulatory and reputational pressure on Tesla's manufacturing workforce management and ESG compliance."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "I think Anthropic and OpenAI have found product-market fit",
       "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
       "discuss_url": "https://news.ycombinator.com/item?id=48296794",
-      "score": 365,
-      "comments": 455,
+      "score": 698,
+      "comments": 869,
       "author": "simonw",
       "published": "2026-05-27T16:39:13Z"
     },
@@ -136,8 +136,8 @@
       "title": "Training our own AI models",
       "url": "https://posthog.com/blog/training-ai-models",
       "discuss_url": "https://news.ycombinator.com/item?id=48296359",
-      "score": 167,
-      "comments": 110,
+      "score": 195,
+      "comments": 136,
       "author": "tartieret",
       "published": "2026-05-27T16:08:42Z"
     },
@@ -148,8 +148,8 @@
       "title": "Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs",
       "url": "https://arps18.github.io/posts/claude-code-mastery/",
       "discuss_url": "https://news.ycombinator.com/item?id=48289950",
-      "score": 306,
-      "comments": 210,
+      "score": 382,
+      "comments": 229,
       "author": "arps18",
       "published": "2026-05-27T05:13:39Z"
     },
@@ -160,22 +160,10 @@
       "title": "A sleep-like consolidation mechanism for LLMs",
       "url": "https://arxiv.org/abs/2605.26099",
       "discuss_url": "https://news.ycombinator.com/item?id=48281226",
-      "score": 208,
-      "comments": 138,
+      "score": 210,
+      "comments": 139,
       "author": "juxtapose",
       "published": "2026-05-26T15:36:24Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "CVE-2026-28952: Apple macOS 26.5 Kernel Vuln found by Claude",
-      "url": "https://support.apple.com/en-us/127115",
-      "discuss_url": "https://news.ycombinator.com/item?id=48273169",
-      "score": 170,
-      "comments": 100,
-      "author": "dragonsenseiguy",
-      "published": "2026-05-25T23:40:40Z"
     },
     {
       "source": "lobsters",
@@ -184,22 +172,10 @@
       "title": "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas",
       "url": "http://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
       "discuss_url": "https://lobste.rs/s/eedsds",
-      "score": 127,
-      "comments": 71,
+      "score": 130,
+      "comments": 72,
       "author": "pyfisch",
       "published": "2026-05-25T17:07:48Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "A non-coding coding agent",
-      "url": "https://zserge.com/posts/socreates/",
-      "discuss_url": "https://lobste.rs/s/soguos",
-      "score": 1,
-      "comments": 0,
-      "author": "cinemast",
-      "published": "2026-05-27T20:19:27Z"
     },
     {
       "source": "lobsters",
@@ -262,14 +238,38 @@
       "published": "2026-05-27T00:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "url": "https://huggingface.co/blog/agent-glossary",
+      "discuss_url": "https://huggingface.co/blog/agent-glossary",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-05-25T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+      "discuss_url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-05-23T00:02:03Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What are some of your favourite developer tools?",
       "url": "https://lobste.rs/s/2jdvxa",
       "discuss_url": "https://lobste.rs/s/2jdvxa",
-      "score": 74,
-      "comments": 105,
+      "score": 87,
+      "comments": 135,
       "author": "dhruvp",
       "published": "2026-05-27T05:40:47Z"
     },
@@ -280,7 +280,7 @@
       "title": "The pressure",
       "url": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
       "discuss_url": "https://lobste.rs/s/dw02ye",
-      "score": 185,
+      "score": 186,
       "comments": 37,
       "author": "andrewnez",
       "published": "2026-05-26T06:47:38Z"
@@ -292,7 +292,7 @@
       "title": "Folding in Parallel",
       "url": "https://okmij.org/ftp/Algorithms/map-monoid-reduce.html",
       "discuss_url": "https://lobste.rs/s/t1es6x",
-      "score": 26,
+      "score": 27,
       "comments": 0,
       "author": "slightknack",
       "published": "2026-05-26T19:24:03Z"
@@ -412,8 +412,8 @@
       "title": "Atom Exhaustion Is Not a Footgun. It's One Third of Our CVEs",
       "url": "https://erlef.org/blog/security/atom-exhaustion",
       "discuss_url": "https://lobste.rs/s/lfusbg",
-      "score": 15,
-      "comments": 8,
+      "score": 31,
+      "comments": 17,
       "author": "pushcx",
       "published": "2026-05-27T16:48:05Z"
     },
@@ -452,18 +452,6 @@
       "comments": 16,
       "author": "dergraf",
       "published": "2026-05-24T08:31:24Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Pardon MIE?",
-      "url": "https://ironpeak.be/blog/bypassing-apple-mie/",
-      "discuss_url": "https://lobste.rs/s/ymgsrp",
-      "score": 6,
-      "comments": 3,
-      "author": "fro",
-      "published": "2026-05-24T00:10:25Z"
     },
     {
       "source": "lobsters",
@@ -550,14 +538,26 @@
       "published": "2026-05-27T13:28:48Z"
     },
     {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure",
+      "url": "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
+      "discuss_url": "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-05-27T11:48:37Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Cloudflare Flagship",
       "url": "https://developers.cloudflare.com/flagship/",
       "discuss_url": "https://news.ycombinator.com/item?id=48287468",
-      "score": 335,
-      "comments": 165,
+      "score": 343,
+      "comments": 170,
       "author": "tjek",
       "published": "2026-05-26T23:36:06Z"
     },
@@ -568,10 +568,82 @@
       "title": "AWS Fired the One Employee Who Gave a Damn",
       "url": "https://www.seuros.com/blog/aws-fired-the-human-who-made-the-difference/",
       "discuss_url": "https://news.ycombinator.com/item?id=48279321",
-      "score": 195,
-      "comments": 107,
+      "score": 196,
+      "comments": 106,
       "author": "berlianta",
       "published": "2026-05-26T13:08:40Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Announcing Region Expansion of P6-B200 instances on SageMaker Notebook Instances",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/p6-b200-region-expansion-sagemaker-notebook-instances/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/p6-b200-region-expansion-sagemaker-notebook-instances/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-27T23:30:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Bedrock expands support for Service Quotas",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/5/amazon-bedrock-service-quotas/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/5/amazon-bedrock-service-quotas/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-27T21:41:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "SageMaker Notebook Instances now support P5.4xl instance types",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/p5-4xl-new-instance-launch-sagemaker-notebook-instances/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/p5-4xl-new-instance-launch-sagemaker-notebook-instances/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-27T20:30:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "SageMaker Notebook Instances now support P5en.48xl instance types",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/p5en-new-instance-launch-sagemaker-notebook-instances/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/02/p5en-new-instance-launch-sagemaker-notebook-instances/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-27T20:30:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EMR now supports Apache Spark 4.0.2 in general availability",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-apache-spark/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-apache-spark/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-27T20:17:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Glue large and memory optimized workers now available in Europe (Spain) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-larger-memory-intensive-workers-spain",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-larger-memory-intensive-workers-spain",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-27T20:10:00Z"
     },
     {
       "source": "rss",
@@ -601,97 +673,85 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon EC2 X8i instances are now available in additional regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-SIN-SYD-PDT-region/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-SIN-SYD-PDT-region/",
+      "title": "Amazon Aurora MySQL now supports integration with Kiro Powers",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql-kiro-powers/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql-kiro-powers/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-05-26T21:58:00Z"
+      "published": "2026-05-27T15:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon RDS now supports ENA Express for Multi-AZ replication",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-ena-express-multiAZ/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-ena-express-multiAZ/",
+      "title": "AWS Backup adds OTP verification for Multi-party approval on logically air-gapped vaults",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-backup-otp-multi-party-approval-lag/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-backup-otp-multi-party-approval-lag/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-05-26T19:00:00Z"
+      "published": "2026-05-27T10:00:00Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 R8i and R8i-flex instances are now available in AWS GovCloud (US-East) Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-r8i-r8i-flex-govcloud-east/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-r8i-r8i-flex-govcloud-east/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "California defeats Tesla's attempt to throw out racial discrimination lawsuit",
+      "url": "https://arstechnica.com/tech-policy/2026/05/california-defeats-teslas-attempt-to-throw-out-racial-discrimination-lawsuit/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/california-defeats-teslas-attempt-to-throw-out-racial-discrimination-lawsuit/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-26T16:00:00Z"
+      "author": "Jon Brodkin",
+      "published": "2026-05-27T21:08:51Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 M8i and M8i-flex instances are now available in AWS GovCloud (US-East) Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m8i-m8i-flex-govcloud-east/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m8i-m8i-flex-govcloud-east/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Websites have a new way to spy on visitors: analyzing their SSD activity",
+      "url": "https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/",
+      "discuss_url": "https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-26T16:00:00Z"
+      "author": "Dan Goodin",
+      "published": "2026-05-27T20:56:03Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon VPC IPAM now supports tags on IPAM pool allocations",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-vpc-ipam-tags/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-vpc-ipam-tags/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Mystery GPS jammer in Iran becomes test for NASA satellites’ capabilities",
+      "url": "https://arstechnica.com/gadgets/2026/05/nasa-satellites-can-spot-gps-jammers-on-earth/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/05/nasa-satellites-can-spot-gps-jammers-on-earth/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-26T13:00:00Z"
+      "author": "Jeremy Hsu",
+      "published": "2026-05-27T20:43:54Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon GuardDuty Malware Protection for AWS Backup supports Amazon S3 continuous backups",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-guardduty-aws-backup-s3-continuous/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-guardduty-aws-backup-s3-continuous/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Mina the Hollower is the best old-school action adventure I've played in a while",
+      "url": "https://arstechnica.com/gaming/2026/05/mina-the-hollower-is-the-best-old-school-action-adventure-ive-played-in-a-while/",
+      "discuss_url": "https://arstechnica.com/gaming/2026/05/mina-the-hollower-is-the-best-old-school-action-adventure-ive-played-in-a-while/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-26T10:00:00Z"
+      "author": "Kyle Orland",
+      "published": "2026-05-27T20:22:04Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon SageMaker Unified Studio adds interactive interface for managing Feature Store in IAM Domains",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-feature-store/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-feature-store/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Nvidia bets $150B on Taiwan as Trump's plan to make US an AI hub backfires",
+      "url": "https://arstechnica.com/tech-policy/2026/05/nvidia-ceo-wants-taiwan-to-be-center-of-ai-revolution-not-us/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/nvidia-ceo-wants-taiwan-to-be-center-of-ai-revolution-not-us/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-22T20:07:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon SageMaker expands domain management across domain types",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/domain-management-iam-idc/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/domain-management-iam-idc/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-22T19:30:00Z"
+      "author": "Ashley Belanger",
+      "published": "2026-05-27T19:59:40Z"
     },
     {
       "source": "rss",
@@ -776,66 +836,6 @@
       "comments": null,
       "author": "Ryan Whitwam",
       "published": "2026-05-27T17:36:10Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Smart light company Govee apologizes for “white supremacy” marketing imagery",
-      "url": "https://arstechnica.com/gadgets/2026/05/govee-says-it-mistakenly-licensed-white-supremacy-book-pic-to-sell-smart-lights/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/05/govee-says-it-mistakenly-licensed-white-supremacy-book-pic-to-sell-smart-lights/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-05-27T17:00:50Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Nvidia kills Windows XP-era Control Panel \"after 20 years of dedicated service\"",
-      "url": "https://arstechnica.com/gadgets/2026/05/nvidia-kills-windows-xp-era-control-panel-after-20-years-of-dedicated-service/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/05/nvidia-kills-windows-xp-era-control-panel-after-20-years-of-dedicated-service/",
-      "score": null,
-      "comments": null,
-      "author": "Andrew Cunningham",
-      "published": "2026-05-27T15:06:01Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Volvo gets US government approval to bypass Chinese connected-car ban",
-      "url": "https://arstechnica.com/cars/2026/05/volvo-gets-us-government-approval-to-bypass-chinese-connected-car-ban/",
-      "discuss_url": "https://arstechnica.com/cars/2026/05/volvo-gets-us-government-approval-to-bypass-chinese-connected-car-ban/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-05-27T14:44:07Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Motorola's 2026 Razrs are almost worth buying just for their stunning looks… almost",
-      "url": "https://arstechnica.com/gadgets/2026/05/motorolas-2026-razrs-are-almost-worth-buying-just-for-their-stunning-looks-almost/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/05/motorolas-2026-razrs-are-almost-worth-buying-just-for-their-stunning-looks-almost/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-05-27T11:00:28Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "US law enforcement warns of \"anti-tech extremism\" as AI hatred grows",
-      "url": "https://arstechnica.com/ai/2026/05/us-law-enforcement-warns-of-anti-tech-extremism-as-ai-hatred-grows/",
-      "discuss_url": "https://arstechnica.com/ai/2026/05/us-law-enforcement-warns-of-anti-tech-extremism-as-ai-hatred-grows/",
-      "score": null,
-      "comments": null,
-      "author": "Daniel Boguslaw, WIRED.com",
-      "published": "2026-05-27T10:30:28Z"
     }
   ]
 }
