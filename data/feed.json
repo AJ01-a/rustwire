@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T15:50:10Z",
+  "updated_at": "2026-05-29T20:32:10Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,34 +34,34 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Claude Opus 4.8",
-      "url": "https://www.anthropic.com/news/claude-opus-4-8",
-      "discuss_url": "https://news.ycombinator.com/item?id=48311647",
-      "score": 1670,
-      "comments": 1297,
-      "author": "craigmart",
-      "published": "2026-05-28T16:49:14Z",
+      "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
+      "url": "https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48321076",
+      "score": 186,
+      "comments": 84,
+      "author": "NicoConstant",
+      "published": "2026-05-29T09:47:23Z",
       "bullets": [
-        "Anthropic's upcoming frontier model aims to redefine state-of-the-art benchmarks, targeting complex multi-step reasoning and agentic workflows over GPT-4o.",
-        "Developers prioritize Claude 3.5 Sonnet's speed but expect the new Opus to offer superior coding, logic, and long-context retrieval.",
-        "Enterprise adoption hinges on pricing, latency trade-offs, and API stability compared to OpenAI's GPT-4.5 or o1 series."
+        "Standard GPUs achieve 3,000 tokens/sec per request by leveraging speculative decoding, FP8 quantization, and highly optimized custom CUDA kernels.",
+        "This performance bridges the gap between custom ASICs and commodity hardware, slashing hosting costs for high-throughput, real-time LLM applications.",
+        "Engineers can now run ultra-low-latency agentic loops and voice AI pipelines on standard, cost-effective cloud GPU instances."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/nhppxf",
-      "discuss_url": "https://lobste.rs/s/nhppxf",
-      "score": 10,
-      "comments": 8,
-      "author": "caius",
-      "published": "2026-05-29T10:15:46Z",
+      "title": "bijou64: A variable-length integer encoding",
+      "url": "https://www.inkandswitch.com/tangents/bijou64/",
+      "discuss_url": "https://lobste.rs/s/40broz",
+      "score": 31,
+      "comments": 4,
+      "author": "justinweiss",
+      "published": "2026-05-29T15:02:24Z",
       "bullets": [
-        "Use weekend downtime to experiment with emerging systems languages like Rust or Zig on low-overhead hobby projects.",
-        "Optimize personal infrastructure by migrating legacy Docker configurations to NixOS or self-hosted Kubernetes for reproducible home labs.",
-        "Mitigate professional burnout by balancing active side-project hacking with intentional, screen-free recovery periods over the weekend."
+        "Encodes 64-bit unsigned integers into 1 to 9 bytes, optimizing storage footprint for smaller numeric values.",
+        "Uses a prefix-based length indicator to avoid branch mispredictions and loop overhead common in MSB-based varint decoders.",
+        "Offers a high-performance alternative to Protocol Buffers' varint for systems requiring fast serialization and deserialization."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "GitHub bans security researcher who posted zero-day Windows exploits",
       "url": "https://www.tomshardware.com/tech-industry/cyber-security/microsofts-github-bans-security-researcher-who-posted-zero-day-windows-exploits-because-company-ruined-their-life-expert-claims-action-is-vindictive-and-promises-further-retaliation",
       "discuss_url": "https://news.ycombinator.com/item?id=48315968",
-      "score": 485,
-      "comments": 234,
+      "score": 510,
+      "comments": 242,
       "author": "possibilistic",
       "published": "2026-05-28T21:45:54Z",
       "bullets": [
-        "GitHub removed a security researcher's account for hosting active, unpatched Windows zero-day PoC exploits under its platform abuse policies.",
-        "The ban underscores the conflict of interest inherent in Microsoft owning the primary hosting platform for exploits targeting its own OS.",
-        "Defenders must diversify threat intelligence feeds and PoC repositories, as relying solely on GitHub risks sudden loss of vulnerability data."
+        "GitHub's policy enforcement highlights risks of hosting active, unpatched zero-day exploit Proof-of-Concepts on centralized, corporate-owned platforms.",
+        "Microsoft's ownership of GitHub triggers industry debate over potential conflicts of interest when Windows vulnerability research is summarily removed.",
+        "Defenders and threat intelligence analysts must diversify PoC repositories beyond GitHub to guarantee access to critical vulnerability research."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "Garnix is shutting down",
       "url": "https://discourse.nixos.org/t/garnix-is-shutting-down-not-oc/77895",
       "discuss_url": "https://lobste.rs/s/4msjpt",
-      "score": 57,
+      "score": 62,
       "comments": 37,
       "author": "ysun",
       "published": "2026-05-28T17:30:47Z",
       "bullets": [
-        "Nix-native CI/CD and hosting platform Garnix is ceasing operations, forcing teams to migrate their Nix build pipelines and environments.",
-        "DevOps teams must migrate to alternative Nix tools like Cachix, Hercules CI, or GitHub Actions with Magic Nix Cache.",
-        "The closure highlights the financial difficulty of sustaining niche, resource-intensive CI/CD SaaS platforms tailored exclusively to the Nix package manager."
+        "Nix-dedicated CI/CD platform Garnix is ceasing operations, impacting automated NixOS deployments and Pull Request preview environments.",
+        "DevOps teams must migrate to alternatives like GitHub Actions with Cachix, Hercules CI, or self-hosted Nix infrastructure.",
+        "The closure highlights the financial difficulty of scaling niche, resource-heavy Nix-as-a-service infrastructure and hosting platforms."
       ]
     },
     {
@@ -105,14 +105,14 @@
       "title": "SF startup is testing robots in Airbnbs, and trashing them, lawsuit claims",
       "url": "https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/",
       "discuss_url": "https://news.ycombinator.com/item?id=48317093",
-      "score": 235,
-      "comments": 128,
+      "score": 246,
+      "comments": 137,
       "author": "drewda",
       "published": "2026-05-28T23:42:47Z",
       "bullets": [
-        "A robotics startup faces lawsuits over unauthorized physical hardware testing and property damage inside rented residential Airbnb properties.",
-        "Testing autonomous systems unsupervised in uncontrolled consumer spaces violates deployment standards and creates severe physical liability for hardware developers.",
-        "The case underscores the intense pressure on spatial-AI and robotics firms to acquire diverse real-world training data outside simulation."
+        "A lawsuit alleges SF-based Koda rented Airbnb properties to covertly test its quadruped robot dogs, causing extensive property damage.",
+        "The case highlights growing liability and ethical concerns around using residential spaces for unauthorized, unsupervised autonomous hardware testing.",
+        "Hardware startups must prioritize dedicated sandboxes and standardized Hardware-in-the-Loop (HIL) simulation over risky, real-world deployments in public rentals."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
+      "url": "https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48321076",
+      "score": 186,
+      "comments": 84,
+      "author": "NicoConstant",
+      "published": "2026-05-29T09:47:23Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Claude Opus 4.8",
       "url": "https://www.anthropic.com/news/claude-opus-4-8",
       "discuss_url": "https://news.ycombinator.com/item?id=48311647",
-      "score": 1670,
-      "comments": 1297,
+      "score": 1712,
+      "comments": 1334,
       "author": "craigmart",
       "published": "2026-05-28T16:49:14Z"
     },
@@ -133,25 +145,13 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Claude Code – Everything You Can Configure That the Docs Don't Tell You",
+      "title": "Claude Code – Everything you can configure that the docs don't tell you",
       "url": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
       "discuss_url": "https://news.ycombinator.com/item?id=48318174",
-      "score": 272,
-      "comments": 53,
+      "score": 319,
+      "comments": 63,
       "author": "ankitg12",
       "published": "2026-05-29T02:13:20Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Various LLM Smells",
-      "url": "https://shvbsle.in/various-llm-smells/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48313810",
-      "score": 340,
-      "comments": 263,
-      "author": "speckx",
-      "published": "2026-05-28T19:02:18Z"
     },
     {
       "source": "hackernews",
@@ -160,10 +160,22 @@
       "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
       "url": "https://www.anthropic.com/news/series-h",
       "discuss_url": "https://news.ycombinator.com/item?id=48313048",
-      "score": 356,
-      "comments": 388,
+      "score": 357,
+      "comments": 406,
       "author": "meetpateltech",
       "published": "2026-05-28T18:09:44Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Various LLM Smells",
+      "url": "https://shvbsle.in/various-llm-smells/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48313810",
+      "score": 350,
+      "comments": 273,
+      "author": "speckx",
+      "published": "2026-05-28T19:02:18Z"
     },
     {
       "source": "hackernews",
@@ -172,8 +184,8 @@
       "title": "Disagreement among frontier LLMs on real-world fact-checks",
       "url": "https://lenz.io/research/llm-disagreement",
       "discuss_url": "https://news.ycombinator.com/item?id=48307887",
-      "score": 495,
-      "comments": 340,
+      "score": 500,
+      "comments": 344,
       "author": "kostaj",
       "published": "2026-05-28T12:20:19Z"
     },
@@ -184,70 +196,22 @@
       "title": "Dynamic Workflows in Claude Code",
       "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
       "discuss_url": "https://news.ycombinator.com/item?id=48311705",
-      "score": 150,
-      "comments": 116,
+      "score": 161,
+      "comments": 123,
       "author": "mil22",
       "published": "2026-05-28T16:52:21Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "I think Anthropic and OpenAI have found product-market fit",
-      "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48296794",
-      "score": 1080,
-      "comments": 1227,
-      "author": "simonw",
-      "published": "2026-05-27T16:39:13Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Training our own AI models",
-      "url": "https://posthog.com/blog/training-ai-models",
-      "discuss_url": "https://news.ycombinator.com/item?id=48296359",
-      "score": 213,
-      "comments": 143,
-      "author": "tartieret",
-      "published": "2026-05-27T16:08:42Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Gemini, Gophers, and Fingers. Oh My Alternative Internets Beyond HTTPS",
-      "url": "https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48297467",
-      "score": 143,
-      "comments": 79,
-      "author": "ChrisArchitect",
-      "published": "2026-05-27T17:24:25Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas",
-      "url": "http://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
-      "discuss_url": "https://lobste.rs/s/eedsds",
-      "score": 131,
-      "comments": 73,
-      "author": "pyfisch",
-      "published": "2026-05-25T17:07:48Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "The Open/Closed Problem in AI",
-      "url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
-      "discuss_url": "https://lobste.rs/s/qfzcpl",
-      "score": 14,
-      "comments": 9,
-      "author": "mempko",
-      "published": "2026-05-25T16:17:21Z"
+      "title": "\"But it happened.\" - Casey Muratori's comment on Eric Schmidt's commencement speech",
+      "url": "https://youtu.be/tlQ7EoJDTQY",
+      "discuss_url": "https://lobste.rs/s/lwnweu",
+      "score": 2,
+      "comments": 0,
+      "author": "mrunix",
+      "published": "2026-05-29T18:52:09Z"
     },
     {
       "source": "lobsters",
@@ -262,16 +226,40 @@
       "published": "2026-05-26T21:41:58Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/nhppxf",
-      "discuss_url": "https://lobste.rs/s/nhppxf",
-      "score": 10,
-      "comments": 8,
-      "author": "caius",
-      "published": "2026-05-29T10:15:46Z"
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
+      "url": "https://huggingface.co/blog/torch-profiler",
+      "discuss_url": "https://huggingface.co/blog/torch-profiler",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-05-29T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+      "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "discuss_url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-05-27T17:20:29Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Reachy Mini goes fully local",
+      "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "discuss_url": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-05-27T00:00:00Z"
     },
     {
       "source": "lobsters",
@@ -280,10 +268,34 @@
       "title": "bijou64: A variable-length integer encoding",
       "url": "https://www.inkandswitch.com/tangents/bijou64/",
       "discuss_url": "https://lobste.rs/s/40broz",
-      "score": 3,
-      "comments": 0,
+      "score": 31,
+      "comments": 4,
       "author": "justinweiss",
       "published": "2026-05-29T15:02:24Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/nhppxf",
+      "discuss_url": "https://lobste.rs/s/nhppxf",
+      "score": 12,
+      "comments": 19,
+      "author": "caius",
+      "published": "2026-05-29T10:15:46Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Absurd is a Postgres-native durable workflow system",
+      "url": "https://earendil-works.github.io/absurd/",
+      "discuss_url": "https://lobste.rs/s/ypimpc",
+      "score": 3,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-05-29T16:27:37Z"
     },
     {
       "source": "lobsters",
@@ -292,7 +304,7 @@
       "title": "What are some of your favourite developer tools?",
       "url": "https://lobste.rs/s/2jdvxa",
       "discuss_url": "https://lobste.rs/s/2jdvxa",
-      "score": 117,
+      "score": 118,
       "comments": 194,
       "author": "dhruvp",
       "published": "2026-05-27T05:40:47Z"
@@ -308,18 +320,6 @@
       "comments": 37,
       "author": "andrewnez",
       "published": "2026-05-26T06:47:38Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Using ASTs and CUE to describe multi-language linters and fixers",
-      "url": "https://github.com/imjasonh/pasta",
-      "discuss_url": "https://lobste.rs/s/xnzzf6",
-      "score": 1,
-      "comments": 0,
-      "author": "StevenAndrewCoffman",
-      "published": "2026-05-29T11:52:23Z"
     },
     {
       "source": "lobsters",
@@ -371,18 +371,6 @@
     },
     {
       "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "GitHub recognized as a Leader in the Gartner® Magic Quadrant™ for Enterprise AI Coding Agents for the third year in a row",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/",
-      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-05-22T16:10:21Z"
-    },
-    {
-      "source": "rss",
       "subsource": "stackoverflow.blog",
       "category": "engineering",
       "title": "Best of the Heap: First post of the past​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‍​﻿‌‍​﻿‍​‌‍‌‍​﻿​‌​﻿‌‍​﻿​​‌‍​‍​‍﻿‌‌‍​‍‌‍​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍​‍‌‍‌​​﻿‍‌​﻿​​​‍﻿‌​﻿‌﻿​﻿‌‌‌‍​‌​﻿​﻿​﻿‍‌​﻿​‌​﻿​‍‌‍‌​​﻿​‌​﻿‌​​﻿‌‌​﻿‌‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‍​﻿‌‍​﻿‍​‌‍‌‍​﻿​‌​﻿‌‍​﻿​​‌‍​‍​‍﻿‌‌‍​‍‌‍​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍​‍‌‍‌​​﻿‍‌​﻿​​​‍﻿‌​﻿‌﻿​﻿‌‌‌‍​‌​﻿​﻿​﻿‍‌​﻿​‌​﻿​‍‌‍‌​​﻿​‌​﻿‌​​﻿‌‌​﻿‌‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
@@ -406,16 +394,40 @@
       "published": "2026-05-29T07:40:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "In an AI world, the most valuable developers will be both artisans and builders​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​​​﻿‌​‌‍‌‌​﻿​‌‌‍​‍​﻿‌‌‌‍‌‍​﻿‌‍​‍﻿‌‌‍​‍‌‍​‍​﻿‌​​﻿‌​​‍﻿‌​﻿‌​​﻿​‍​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍‌‌‍‌​​﻿​‌​﻿‍​​‍﻿‌‌‍‌‍‌‍​﻿‌‍​﻿​﻿‌﻿​﻿‌‌​﻿​‌​﻿‌﻿​﻿‌‍‌‍‌‍​﻿​​‌‍​‍​﻿​‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​​​﻿‌​‌‍‌‌​﻿​‌‌‍​‍​﻿‌‌‌‍‌‍​﻿‌‍​‍﻿‌‌‍​‍‌‍​‍​﻿‌​​﻿‌​​‍﻿‌​﻿‌​​﻿​‍​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍‌‌‍‌​​﻿​‌​﻿‍​​‍﻿‌‌‍‌‍‌‍​﻿‌‍​﻿​﻿‌﻿​﻿‌‌​﻿​‌​﻿‌﻿​﻿‌‍‌‍‌‍​﻿​​‌‍​‍​﻿​‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/05/28/artisans-and-builders/",
+      "discuss_url": "https://stackoverflow.blog/2026/05/28/artisans-and-builders/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-05-28T16:00:00Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "GitHub bans security researcher who posted zero-day Windows exploits",
       "url": "https://www.tomshardware.com/tech-industry/cyber-security/microsofts-github-bans-security-researcher-who-posted-zero-day-windows-exploits-because-company-ruined-their-life-expert-claims-action-is-vindictive-and-promises-further-retaliation",
       "discuss_url": "https://news.ycombinator.com/item?id=48315968",
-      "score": 485,
-      "comments": 234,
+      "score": 510,
+      "comments": 242,
       "author": "possibilistic",
       "published": "2026-05-28T21:45:54Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "CVE-2026-48710: A Maintainer's Perspective",
+      "url": "https://marcelotryle.com/blog/2026/05/28/cve-2026-48710-a-maintainers-perspective/",
+      "discuss_url": "https://lobste.rs/s/xvdvko",
+      "score": 4,
+      "comments": 1,
+      "author": "gi0baro",
+      "published": "2026-05-29T17:51:55Z"
     },
     {
       "source": "lobsters",
@@ -424,8 +436,8 @@
       "title": "Protestware for coding agents",
       "url": "https://nesbitt.io/2026/05/28/protestware-for-coding-agents.html",
       "discuss_url": "https://lobste.rs/s/brusu8",
-      "score": 94,
-      "comments": 79,
+      "score": 98,
+      "comments": 92,
       "author": "bitshift",
       "published": "2026-05-28T18:17:31Z"
     },
@@ -448,10 +460,22 @@
       "title": "ACME CAA Extensions to Become Mandatory",
       "url": "https://www.feistyduck.com/newsletter/issue_137_acme_caa__extensions_to_become_mandatory",
       "discuss_url": "https://lobste.rs/s/eowso1",
-      "score": 7,
-      "comments": 2,
+      "score": 9,
+      "comments": 3,
       "author": "fanf",
       "published": "2026-05-28T23:36:16Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Fooling around with encrypted reasoning blobs",
+      "url": "https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/",
+      "discuss_url": "https://lobste.rs/s/5lmciv",
+      "score": 2,
+      "comments": 0,
+      "author": "untitaker",
+      "published": "2026-05-29T16:13:12Z"
     },
     {
       "source": "lobsters",
@@ -460,7 +484,7 @@
       "title": "An AI audit of FreeBSD",
       "url": "https://blog.calif.io/p/an-ai-audit-of-freebsd",
       "discuss_url": "https://lobste.rs/s/kdninn",
-      "score": 5,
+      "score": 6,
       "comments": 0,
       "author": "fro",
       "published": "2026-05-29T05:46:43Z"
@@ -526,37 +550,13 @@
       "published": "2026-05-27T15:53:19Z"
     },
     {
-      "source": "rss",
-      "subsource": "krebsonsecurity.com",
-      "category": "security",
-      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
-      "url": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
-      "discuss_url": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
-      "score": null,
-      "comments": null,
-      "author": "BrianKrebs",
-      "published": "2026-05-25T13:21:49Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "krebsonsecurity.com",
-      "category": "security",
-      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
-      "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
-      "discuss_url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
-      "score": null,
-      "comments": null,
-      "author": "BrianKrebs",
-      "published": "2026-05-22T16:34:24Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "Garnix is shutting down",
       "url": "https://discourse.nixos.org/t/garnix-is-shutting-down-not-oc/77895",
       "discuss_url": "https://lobste.rs/s/4msjpt",
-      "score": 57,
+      "score": 62,
       "comments": 37,
       "author": "ysun",
       "published": "2026-05-28T17:30:47Z"
@@ -572,6 +572,54 @@
       "comments": 11,
       "author": "kmaasrud",
       "published": "2026-05-28T10:46:28Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Connect Customer now supports scheduling tasks up to 90 days in advance",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-tasks-90day-schedule",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-tasks-90day-schedule",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-29T18:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Shield Advanced introduces DDoS attack flow logs",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-shield-ddos/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-shield-ddos/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-29T17:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon RDS for Oracle now supports April 2026 Release Update and Supplemental Patch Bundle",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-oracle-supports-april-2026-release-update-supplemental-patch-bundle",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-oracle-supports-april-2026-release-update-supplemental-patch-bundle",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-29T07:49:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Oracle Database@AWS is now available in twenty AWS Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/oracle-database-aws-available-twenty-regions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/oracle-database-aws-available-twenty-regions/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-05-29T07:00:00Z"
     },
     {
       "source": "rss",
@@ -646,64 +694,112 @@
       "published": "2026-05-28T15:21:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Claude Opus 4.8 is now available on AWS",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-opus-4.8-aws/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-opus-4.8-aws/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-28T15:16:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "DynamoDB Streams now supports AWS PrivateLink for FIPS endpoints in AWS GovCloud (US) Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-dynamodb-streams-privatelink-fips-govcloud/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-dynamodb-streams-privatelink-fips-govcloud/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-28T15:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon WorkSpaces Applications adds support for Windows Desktop OS",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-workspaces-applications-windows-desktop-OS/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-workspaces-applications-windows-desktop-OS/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-28T15:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "The next generation of Amazon OpenSearch Serverless is now generally available",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-opensearch-serverless-next-generation-generally-available/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-opensearch-serverless-next-generation-generally-available/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-28T15:00:00Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "industry",
       "title": "SF startup is testing robots in Airbnbs, and trashing them, lawsuit claims",
       "url": "https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/",
       "discuss_url": "https://news.ycombinator.com/item?id=48317093",
-      "score": 235,
-      "comments": 128,
+      "score": 246,
+      "comments": 137,
       "author": "drewda",
       "published": "2026-05-28T23:42:47Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Botnet of more than 17 million devices dismantled",
+      "url": "https://arstechnica.com/security/2026/05/botnet-of-more-than-17-million-devices-dismantled/",
+      "discuss_url": "https://arstechnica.com/security/2026/05/botnet-of-more-than-17-million-devices-dismantled/",
+      "score": null,
+      "comments": null,
+      "author": "Dan Goodin",
+      "published": "2026-05-29T18:46:33Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Analysis of Texas measles outbreak shows just how dangerous virus is",
+      "url": "https://arstechnica.com/health/2026/05/analysis-of-texas-measles-outbreak-shows-just-how-dangerous-virus-is/",
+      "discuss_url": "https://arstechnica.com/health/2026/05/analysis-of-texas-measles-outbreak-shows-just-how-dangerous-virus-is/",
+      "score": null,
+      "comments": null,
+      "author": "Beth Mole",
+      "published": "2026-05-29T18:35:38Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "House of the Dragon S3 trailer revels in dragons, fire, and blood",
+      "url": "https://arstechnica.com/culture/2026/05/house-of-the-dragon-s3-trailer-revels-in-dragons-fire-and-blood/",
+      "discuss_url": "https://arstechnica.com/culture/2026/05/house-of-the-dragon-s3-trailer-revels-in-dragons-fire-and-blood/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-05-29T18:21:44Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Trump FCC warns all broadcasters to follow orders or be punished like ABC",
+      "url": "https://arstechnica.com/tech-policy/2026/05/trump-fcc-warns-all-broadcasters-to-follow-orders-or-be-punished-like-abc/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/trump-fcc-warns-all-broadcasters-to-follow-orders-or-be-punished-like-abc/",
+      "score": null,
+      "comments": null,
+      "author": "Jon Brodkin",
+      "published": "2026-05-29T18:09:43Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "DOJ sues states that rejected ICE requests for undercover license plates",
+      "url": "https://arstechnica.com/tech-policy/2026/05/doj-sues-states-that-rejected-ice-requests-for-undercover-license-plates/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/doj-sues-states-that-rejected-ice-requests-for-undercover-license-plates/",
+      "score": null,
+      "comments": null,
+      "author": "Ashley Belanger",
+      "published": "2026-05-29T17:41:56Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Startup offers free home cleaning—if it can record it all for robot training",
+      "url": "https://arstechnica.com/ai/2026/05/robot-training-startup-will-send-humans-wearing-cameras-to-clean-your-home/",
+      "discuss_url": "https://arstechnica.com/ai/2026/05/robot-training-startup-will-send-humans-wearing-cameras-to-clean-your-home/",
+      "score": null,
+      "comments": null,
+      "author": "Jeremy Hsu",
+      "published": "2026-05-29T16:16:14Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "After years of stability, F1 reliability can no longer be taken for granted",
+      "url": "https://arstechnica.com/cars/2026/05/f1-in-2026-to-finish-first-first-you-have-to-finish/",
+      "discuss_url": "https://arstechnica.com/cars/2026/05/f1-in-2026-to-finish-first-first-you-have-to-finish/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-05-29T16:03:28Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Severed sea cucumber appendages don't seem to die",
+      "url": "https://arstechnica.com/science/2026/05/severed-sea-cucumber-appendages-dont-seem-to-die/",
+      "discuss_url": "https://arstechnica.com/science/2026/05/severed-sea-cucumber-appendages-dont-seem-to-die/",
+      "score": null,
+      "comments": null,
+      "author": "Jacek Krywko",
+      "published": "2026-05-29T15:10:29Z"
     },
     {
       "source": "rss",
@@ -740,102 +836,6 @@
       "comments": null,
       "author": "Emily Mullin",
       "published": "2026-05-29T10:30:40Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The most spectacular rocket explosion since N1 just happened in Florida",
-      "url": "https://arstechnica.com/space/2026/05/blue-origins-new-glenn-rocket-just-exploded-during-a-static-fire-test/",
-      "discuss_url": "https://arstechnica.com/space/2026/05/blue-origins-new-glenn-rocket-just-exploded-during-a-static-fire-test/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-05-29T02:21:08Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "2027 Audi RS5 first drive: A performance PHEV with split personalities",
-      "url": "https://arstechnica.com/cars/2026/05/2027-audi-rs5-first-drive-a-performance-phev-with-split-personalities/",
-      "discuss_url": "https://arstechnica.com/cars/2026/05/2027-audi-rs5-first-drive-a-performance-phev-with-split-personalities/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-05-28T22:01:02Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "LLMs believe false statements even after explicit warnings that they're false",
-      "url": "https://arstechnica.com/ai/2026/05/llms-believe-false-statements-even-after-explicit-warnings-that-theyre-false/",
-      "discuss_url": "https://arstechnica.com/ai/2026/05/llms-believe-false-statements-even-after-explicit-warnings-that-theyre-false/",
-      "score": null,
-      "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-05-28T21:29:43Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
-      "url": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/",
-      "discuss_url": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-05-28T20:29:53Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "US healthcare still stupidly expensive, with pathetic outcomes, study finds",
-      "url": "https://arstechnica.com/health/2026/05/us-healthcare-still-stupidly-expensive-with-pathetic-outcomes-study-finds/",
-      "discuss_url": "https://arstechnica.com/health/2026/05/us-healthcare-still-stupidly-expensive-with-pathetic-outcomes-study-finds/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-05-28T20:18:54Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Researchers develop a new process to get lithium out of rocks",
-      "url": "https://arstechnica.com/science/2026/05/researchers-develop-a-new-process-to-get-lithium-out-of-rocks/",
-      "discuss_url": "https://arstechnica.com/science/2026/05/researchers-develop-a-new-process-to-get-lithium-out-of-rocks/",
-      "score": null,
-      "comments": null,
-      "author": "John Timmer",
-      "published": "2026-05-28T19:30:04Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "FBI says Google engineer used internal search data to win $1.2M on Polymarket",
-      "url": "https://arstechnica.com/tech-policy/2026/05/fbi-says-google-engineer-used-internal-search-data-to-win-1-2m-on-polymarket/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/fbi-says-google-engineer-used-internal-search-data-to-win-1-2m-on-polymarket/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-05-28T19:01:54Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "A respectable port of Age of Empires II: Definitive Edition invades macOS",
-      "url": "https://arstechnica.com/gaming/2026/05/a-respectable-port-of-age-of-empires-ii-definitive-edition-invades-macos/",
-      "discuss_url": "https://arstechnica.com/gaming/2026/05/a-respectable-port-of-age-of-empires-ii-definitive-edition-invades-macos/",
-      "score": null,
-      "comments": null,
-      "author": "Samuel Axon",
-      "published": "2026-05-28T18:42:28Z"
     }
   ]
 }
