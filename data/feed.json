@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-30T03:47:29Z",
+  "updated_at": "2026-05-30T08:33:14Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
       "url": "https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/",
       "discuss_url": "https://news.ycombinator.com/item?id=48321076",
-      "score": 198,
+      "score": 204,
       "comments": 91,
       "author": "NicoConstant",
       "published": "2026-05-29T09:47:23Z",
       "bullets": [
-        "Speculative decoding and draft models bypass memory-bandwidth bottlenecks to accelerate generation speeds on standard NVIDIA RTX or A100/H100 GPUs.",
-        "Runtimes like SGLang and vLLM utilize continuous batching and PagedAttention to optimize memory layout and maximize hardware utilization.",
-        "Achieving 3,000 tokens/s on standard hardware challenges specialized ASICs like Groq, making high-speed local deployment highly cost-effective."
+        "New optimization techniques achieve 3,000 tokens/sec per stream on standard GPUs like NVIDIA A100, bypassing traditional memory bandwidth bottlenecks.",
+        "Achieving these speeds typically requires speculative decoding, highly optimized FP8/FP16 kernels, and aggressive KV cache management algorithms.",
+        "Ultra-fast single-request throughput enables real-time agentic workflows, instantaneous multi-step reasoning, and interactive UX previously blocked by high latency."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "bijou64: A variable-length integer encoding",
       "url": "https://www.inkandswitch.com/tangents/bijou64/",
       "discuss_url": "https://lobste.rs/s/40broz",
-      "score": 45,
-      "comments": 5,
+      "score": 49,
+      "comments": 6,
       "author": "justinweiss",
       "published": "2026-05-29T15:02:24Z",
       "bullets": [
-        "Bijou64 encodes 64-bit unsigned integers into 1 to 9 bytes, optimizing storage footprint for smaller numeric values.",
-        "Unlike LEB128, prefix-based varint schemes enable branchless decoding, significantly reducing CPU instruction overhead and cache misses in high-throughput systems.",
-        "This encoding is ideal for high-performance serialization, network protocols, and database index compression like LSM-trees or column-oriented stores."
+        "Bijou64 encodes 64-bit integers using prefix-coded lengths instead of LEB128-style continuation bits, optimizing parsing performance.",
+        "The format enables branchless decoding via CPU intrinsics like CLZ (Count Leading Zeros), reducing instruction count and pipeline stalls.",
+        "It scales from 1 to 9 bytes, offering a highly efficient alternative for serialization formats and database index keys."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Microsoft 0-day feud escalates as researcher threatens another exploit dump",
       "url": "https://www.theregister.com/security/2026/05/28/microsoft-0-day-feud-escalates-as-researcher-threatens-another-windows-exploit-dump/5248085",
       "discuss_url": "https://news.ycombinator.com/item?id=48328175",
-      "score": 206,
-      "comments": 74,
+      "score": 233,
+      "comments": 81,
       "author": "Cider9986",
       "published": "2026-05-29T19:37:41Z",
       "bullets": [
-        "A security researcher threatens to publish unpatched Microsoft zero-day exploits, escalating an ongoing dispute over vulnerability disclosures.",
-        "Defenders face heightened risk of attacks as public proof-of-concept code bypasses standard vendor-coordinated patch management cycles.",
-        "The conflict highlights industry-wide friction surrounding vendor bug bounty payouts, triage delays, and the quality of released security patches."
+        "Tensions between Microsoft and researchers increase the risk of zero-day public exploit dumps, bypassing coordinated vulnerability disclosure protocols.",
+        "Security teams must prepare for sudden, unpatched PoC releases, requiring robust behavior-based detection rather than relying solely on CVE patches.",
+        "Disputes often stem from Microsoft's bug bounty policies, silent patching practices, or delayed fixes, prompting researchers to publish raw exploits."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "Garnix is shutting down",
       "url": "https://discourse.nixos.org/t/garnix-is-shutting-down-not-oc/77895",
       "discuss_url": "https://lobste.rs/s/4msjpt",
-      "score": 64,
+      "score": 65,
       "comments": 38,
       "author": "ysun",
       "published": "2026-05-28T17:30:47Z",
       "bullets": [
-        "Garnix, a specialized CI and hosting platform for Nix flakes, is shutting down, requiring teams to migrate active pipelines.",
-        "DevOps teams must migrate to alternative Nix CI/caching solutions like Cachix, Hercules CI, or self-hosted Hydra on GitHub Actions.",
-        "The closure underscores the financial viability challenges for specialized Nix-native infrastructure tooling providers in a crowded CI/CD market."
+        "Nix-focused CI/CD and hosting platform Garnix is ceasing operations, requiring teams to migrate their reproducible build pipelines.",
+        "DevOps engineers should evaluate alternatives like Cachix, Hercules CI, or custom GitHub Actions runners with Magic Nix Cache.",
+        "This shutdown emphasizes the infrastructure costs and sustainability challenges of running specialized, ecosystem-specific build environments."
       ]
     },
     {
@@ -105,14 +105,14 @@
       "title": "SF startup is testing robots in Airbnbs, and trashing them, lawsuit claims",
       "url": "https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/",
       "discuss_url": "https://news.ycombinator.com/item?id=48317093",
-      "score": 260,
-      "comments": 144,
+      "score": 263,
+      "comments": 148,
       "author": "drewda",
       "published": "2026-05-28T23:42:47Z",
       "bullets": [
-        "SF startup is testing robots in Airbnbs, and trashing them, lawsuit claims",
-        "Trending on news.ycombinator.com — 260 points, 144 comments.",
-        "Submitted by drewda on news.ycombinator.com."
+        "A San Francisco robotics startup faces a lawsuit for allegedly renting Airbnbs to secretly test autonomous physical hardware in-the-wild.",
+        "The case highlights severe operational and liability risks of bypassing simulated environments to train spatial AI in unmonitored residential spaces.",
+        "Robot-in-the-loop testing requires rigorous sandboxing; unauthorized deployment in residential edge environments damages physical assets and triggers litigation."
       ]
     }
   ],
@@ -124,7 +124,7 @@
       "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
       "url": "https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/",
       "discuss_url": "https://news.ycombinator.com/item?id=48321076",
-      "score": 198,
+      "score": 204,
       "comments": 91,
       "author": "NicoConstant",
       "published": "2026-05-29T09:47:23Z"
@@ -136,8 +136,8 @@
       "title": "\"But it happened.\" - Casey Muratori's comment on Eric Schmidt's commencement speech",
       "url": "https://youtu.be/tlQ7EoJDTQY",
       "discuss_url": "https://lobste.rs/s/lwnweu",
-      "score": 46,
-      "comments": 9,
+      "score": 73,
+      "comments": 15,
       "author": "mrunix",
       "published": "2026-05-29T18:52:09Z"
     },
@@ -148,8 +148,8 @@
       "title": "Claude Opus 4.8",
       "url": "https://www.anthropic.com/news/claude-opus-4-8",
       "discuss_url": "https://news.ycombinator.com/item?id=48311647",
-      "score": 1730,
-      "comments": 1346,
+      "score": 1733,
+      "comments": 1349,
       "author": "craigmart",
       "published": "2026-05-28T16:49:14Z"
     },
@@ -160,8 +160,8 @@
       "title": "Claude Code – Everything you can configure that the docs don't tell you",
       "url": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
       "discuss_url": "https://news.ycombinator.com/item?id=48318174",
-      "score": 322,
-      "comments": 63,
+      "score": 324,
+      "comments": 64,
       "author": "ankitg12",
       "published": "2026-05-29T02:13:20Z"
     },
@@ -173,7 +173,7 @@
       "url": "https://www.anthropic.com/news/series-h",
       "discuss_url": "https://news.ycombinator.com/item?id=48313048",
       "score": 359,
-      "comments": 412,
+      "comments": 414,
       "author": "meetpateltech",
       "published": "2026-05-28T18:09:44Z"
     },
@@ -184,8 +184,8 @@
       "title": "Various LLM Smells",
       "url": "https://shvbsle.in/various-llm-smells/",
       "discuss_url": "https://news.ycombinator.com/item?id=48313810",
-      "score": 355,
-      "comments": 279,
+      "score": 357,
+      "comments": 283,
       "author": "speckx",
       "published": "2026-05-28T19:02:18Z"
     },
@@ -208,8 +208,8 @@
       "title": "Dynamic Workflows in Claude Code",
       "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
       "discuss_url": "https://news.ycombinator.com/item?id=48311705",
-      "score": 167,
-      "comments": 128,
+      "score": 169,
+      "comments": 130,
       "author": "mil22",
       "published": "2026-05-28T16:52:21Z"
     },
@@ -268,8 +268,8 @@
       "title": "bijou64: A variable-length integer encoding",
       "url": "https://www.inkandswitch.com/tangents/bijou64/",
       "discuss_url": "https://lobste.rs/s/40broz",
-      "score": 45,
-      "comments": 5,
+      "score": 49,
+      "comments": 6,
       "author": "justinweiss",
       "published": "2026-05-29T15:02:24Z"
     },
@@ -281,7 +281,7 @@
       "url": "https://lobste.rs/s/nhppxf",
       "discuss_url": "https://lobste.rs/s/nhppxf",
       "score": 13,
-      "comments": 27,
+      "comments": 29,
       "author": "caius",
       "published": "2026-05-29T10:15:46Z"
     },
@@ -308,18 +308,6 @@
       "comments": 0,
       "author": "Yogthos",
       "published": "2026-05-29T16:27:37Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "The pressure",
-      "url": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
-      "discuss_url": "https://lobste.rs/s/dw02ye",
-      "score": 190,
-      "comments": 37,
-      "author": "andrewnez",
-      "published": "2026-05-26T06:47:38Z"
     },
     {
       "source": "lobsters",
@@ -406,14 +394,26 @@
       "published": "2026-05-28T16:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Agents on a leash: Agentic AI remains mostly single-agent and monitored at work​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍​‍‌‍​‌‌‍​‌​﻿​﻿​﻿​‌‌‍‌‌‌‍‌​‌‍‌‌​‍﻿‌​﻿​﻿‌‍​‌‌‍‌‍​﻿‌‌​‍﻿‌​﻿‌​​﻿‌﻿​﻿‌​‌‍‌‌​‍﻿‌‌‍​‍​﻿​​​﻿‌‍​﻿​​​‍﻿‌​﻿‌﻿​﻿​​‌‍‌​‌‍‌​​﻿‌‌​﻿​﻿​﻿‌‍‌‍​﻿​﻿‌​​﻿‌‌​﻿​‍​﻿‍​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍​‍‌‍​‌‌‍​‌​﻿​﻿​﻿​‌‌‍‌‌‌‍‌​‌‍‌‌​‍﻿‌​﻿​﻿‌‍​‌‌‍‌‍​﻿‌‌​‍﻿‌​﻿‌​​﻿‌﻿​﻿‌​‌‍‌‌​‍﻿‌‌‍​‍​﻿​​​﻿‌‍​﻿​​​‍﻿‌​﻿‌﻿​﻿​​‌‍‌​‌‍‌​​﻿‌‌​﻿​﻿​﻿‌‍‌‍​﻿​﻿‌​​﻿‌‌​﻿​‍​﻿‍​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/05/27/agents-on-a-leash-agentic-ai-remains-mostly-monitored-at-work/",
+      "discuss_url": "https://stackoverflow.blog/2026/05/27/agents-on-a-leash-agentic-ai-remains-mostly-monitored-at-work/",
+      "score": null,
+      "comments": null,
+      "author": "Erin Yepis",
+      "published": "2026-05-27T14:00:00Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Microsoft 0-day feud escalates as researcher threatens another exploit dump",
       "url": "https://www.theregister.com/security/2026/05/28/microsoft-0-day-feud-escalates-as-researcher-threatens-another-windows-exploit-dump/5248085",
       "discuss_url": "https://news.ycombinator.com/item?id=48328175",
-      "score": 206,
-      "comments": 74,
+      "score": 233,
+      "comments": 81,
       "author": "Cider9986",
       "published": "2026-05-29T19:37:41Z"
     },
@@ -424,22 +424,10 @@
       "title": "GitHub bans security researcher who posted zero-day Windows exploits",
       "url": "https://www.tomshardware.com/tech-industry/cyber-security/microsofts-github-bans-security-researcher-who-posted-zero-day-windows-exploits-because-company-ruined-their-life-expert-claims-action-is-vindictive-and-promises-further-retaliation",
       "discuss_url": "https://news.ycombinator.com/item?id=48315968",
-      "score": 533,
-      "comments": 249,
+      "score": 539,
+      "comments": 251,
       "author": "possibilistic",
       "published": "2026-05-28T21:45:54Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "CVE-2026-48710: A Maintainer's Perspective",
-      "url": "https://marcelotryle.com/blog/2026/05/28/cve-2026-48710-a-maintainers-perspective/",
-      "discuss_url": "https://lobste.rs/s/xvdvko",
-      "score": 11,
-      "comments": 3,
-      "author": "gi0baro",
-      "published": "2026-05-29T17:51:55Z"
     },
     {
       "source": "lobsters",
@@ -448,10 +436,22 @@
       "title": "Protestware for coding agents",
       "url": "https://nesbitt.io/2026/05/28/protestware-for-coding-agents.html",
       "discuss_url": "https://lobste.rs/s/brusu8",
-      "score": 99,
-      "comments": 99,
+      "score": 100,
+      "comments": 101,
       "author": "bitshift",
       "published": "2026-05-28T18:17:31Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "CVE-2026-48710: A Maintainer's Perspective",
+      "url": "https://marcelotryle.com/blog/2026/05/28/cve-2026-48710-a-maintainers-perspective/",
+      "discuss_url": "https://lobste.rs/s/xvdvko",
+      "score": 15,
+      "comments": 3,
+      "author": "gi0baro",
+      "published": "2026-05-29T17:51:55Z"
     },
     {
       "source": "lobsters",
@@ -464,18 +464,6 @@
       "comments": 51,
       "author": "pushcx",
       "published": "2026-05-27T16:48:05Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Signal Automatic Key Verification",
-      "url": "https://support.signal.org/hc/en-us/articles/10223569377562-Automatic-Key-Verification",
-      "discuss_url": "https://lobste.rs/s/7lrfzf",
-      "score": 2,
-      "comments": 0,
-      "author": "strugee",
-      "published": "2026-05-29T22:00:20Z"
     },
     {
       "source": "lobsters",
@@ -505,25 +493,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Cybersecurity challenge: be nice to each other [IMPOSSIBLE]",
-      "url": "https://sdomi.pl/weblog/29-please-do-better-thanks/",
-      "discuss_url": "https://lobste.rs/s/jifvgs",
-      "score": 18,
-      "comments": 0,
-      "author": "addison",
-      "published": "2026-05-28T07:53:13Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Fooling around with encrypted reasoning blobs",
-      "url": "https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/",
-      "discuss_url": "https://lobste.rs/s/5lmciv",
+      "title": "Signal Automatic Key Verification",
+      "url": "https://support.signal.org/hc/en-us/articles/10223569377562-Automatic-Key-Verification",
+      "discuss_url": "https://lobste.rs/s/7lrfzf",
       "score": 2,
       "comments": 0,
-      "author": "untitaker",
-      "published": "2026-05-29T16:13:12Z"
+      "author": "strugee",
+      "published": "2026-05-29T22:00:20Z"
     },
     {
       "source": "lobsters",
@@ -532,10 +508,22 @@
       "title": "Why no easter eggs?",
       "url": "https://learn.microsoft.com/ar-sa/archive/blogs/larryosterman/why-no-easter-eggs",
       "discuss_url": "https://lobste.rs/s/kev8az",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "janus",
       "published": "2026-05-29T21:42:33Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Cybersecurity challenge: be nice to each other [IMPOSSIBLE]",
+      "url": "https://sdomi.pl/weblog/29-please-do-better-thanks/",
+      "discuss_url": "https://lobste.rs/s/jifvgs",
+      "score": 18,
+      "comments": 0,
+      "author": "addison",
+      "published": "2026-05-28T07:53:13Z"
     },
     {
       "source": "lobsters",
@@ -551,12 +539,24 @@
     },
     {
       "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Fooling around with encrypted reasoning blobs",
+      "url": "https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/",
+      "discuss_url": "https://lobste.rs/s/5lmciv",
+      "score": 2,
+      "comments": 0,
+      "author": "untitaker",
+      "published": "2026-05-29T16:13:12Z"
+    },
+    {
+      "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "Garnix is shutting down",
       "url": "https://discourse.nixos.org/t/garnix-is-shutting-down-not-oc/77895",
       "discuss_url": "https://lobste.rs/s/4msjpt",
-      "score": 64,
+      "score": 65,
       "comments": 38,
       "author": "ysun",
       "published": "2026-05-28T17:30:47Z"
@@ -568,7 +568,7 @@
       "title": "What's cooking on SourceHut? Q2 2026",
       "url": "https://sourcehut.org/blog/2026-05-28-whats-cooking-q2-2026/",
       "discuss_url": "https://lobste.rs/s/jowjkj",
-      "score": 74,
+      "score": 75,
       "comments": 11,
       "author": "kmaasrud",
       "published": "2026-05-28T10:46:28Z"
@@ -700,8 +700,8 @@
       "title": "SF startup is testing robots in Airbnbs, and trashing them, lawsuit claims",
       "url": "https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/",
       "discuss_url": "https://news.ycombinator.com/item?id=48317093",
-      "score": 260,
-      "comments": 144,
+      "score": 263,
+      "comments": 148,
       "author": "drewda",
       "published": "2026-05-28T23:42:47Z"
     },
