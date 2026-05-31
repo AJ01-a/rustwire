@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-31T13:53:23Z",
+  "updated_at": "2026-05-31T19:23:11Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -31,20 +31,20 @@
   ],
   "tldr": [
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "I Put a Datacenter GPU in My Gaming PC for £200",
-      "url": "https://blog.tymscar.com/posts/v100localllm/",
-      "discuss_url": "https://lobste.rs/s/2tskyy",
-      "score": 20,
-      "comments": 6,
-      "author": "puhsu",
-      "published": "2026-05-31T09:43:06Z",
+      "title": "Anthropic surpasses OpenAI to become most valuable AI startup",
+      "url": "https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup",
+      "discuss_url": "https://news.ycombinator.com/item?id=48336233",
+      "score": 412,
+      "comments": 464,
+      "author": "Bolat14",
+      "published": "2026-05-30T13:56:34Z",
       "bullets": [
-        "I Put a Datacenter GPU in My Gaming PC for £200",
-        "Trending on lobste.rs/ai — 20 points, 6 comments.",
-        "Submitted by puhsu on lobste.rs/ai."
+        "Shift signals enterprise trust moving toward Anthropic's safety-first model, backed heavily by AWS Bedrock and Google Cloud infrastructure.",
+        "Claude 3.5 Sonnet's coding and reasoning dominance drives developer migration away from OpenAI's GPT-4o, shifting API integration priorities.",
+        "Increased valuation secures Anthropic's long-term GPU compute runway, crucial for training upcoming Claude 4 and Opus next-gen models."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "I found a seashell in the middle of the desert",
       "url": "https://github.com/Hawzen/I-found-a-seashell-in-the-middle-of-the-desert#i-found-a-seashell-in-the-middle-of-the-desert",
       "discuss_url": "https://lobste.rs/s/qn9jdp",
-      "score": 4,
-      "comments": 0,
+      "score": 18,
+      "comments": 1,
       "author": "anex9d",
       "published": "2026-05-31T12:57:16Z",
       "bullets": [
-        "I found a seashell in the middle of the desert",
-        "Trending on lobste.rs/programming — 4 points, 0 comments.",
-        "Submitted by anex9d on lobste.rs/programming."
+        "Unexpected shell access in hardened or distroless production environments introduces severe security risks and expands the attack surface.",
+        "Regularly audit container images and embedded firmware to detect and remove orphaned binaries, hidden shells, or debugging utilities.",
+        "Utilize static analysis tools and filesystem scanners to enforce minimal runtime environments and prevent potential reverse-shell exploits."
       ]
     },
     {
@@ -71,31 +71,31 @@
       "title": "securix: NixOS-based secure operating system. Provides a hardened environment with strong isolation, reproducibility, and policy-driven configurations",
       "url": "https://github.com/cloud-gouv/securix",
       "discuss_url": "https://lobste.rs/s/45dqvh",
-      "score": 10,
-      "comments": 1,
+      "score": 13,
+      "comments": 3,
       "author": "koala",
       "published": "2026-05-31T09:40:35Z",
       "bullets": [
-        "securix: NixOS-based secure operating system. Provides a hardened environment with strong isolation, reproducibility, and policy-driven configurations",
-        "Trending on lobste.rs/security — 10 points, 1 comments.",
-        "Submitted by koala on lobste.rs/security."
+        "Securix leverages NixOS to deliver a declarative, immutable operating system, effectively eliminating configuration drift and unauthorized host changes.",
+        "The distribution implements kernel-level hardening and strict process isolation to block lateral movement and reduce the runtime attack surface.",
+        "Its declarative Nix architecture provides DevSecOps teams with cryptographic build verifiability, simplified auditing, and atomic security rollbacks."
       ]
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
-      "title": "Show HN: 500 years of Joseon court omens as an observability dashboard",
-      "url": "https://ajin.im/is/building/omen.ops/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48339753",
-      "score": 122,
-      "comments": 23,
-      "author": "poppypetalmask",
-      "published": "2026-05-30T19:23:36Z",
+      "title": "Cloudflare Turnstile requiring fingerprintable WebGL",
+      "url": "https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting",
+      "discuss_url": "https://news.ycombinator.com/item?id=48345840",
+      "score": 298,
+      "comments": 160,
+      "author": "HypnoticOcelot",
+      "published": "2026-05-31T14:13:20Z",
       "bullets": [
-        "Show HN: 500 years of Joseon court omens as an observability dashboard",
-        "Trending on news.ycombinator.com — 122 points, 23 comments.",
-        "Submitted by poppypetalmask on news.ycombinator.com."
+        "Cloudflare Turnstile's new WebGL requirement blocks or degrades access for users using hardened, privacy-focused browsers like Tor or LibreWolf.",
+        "DevOps teams utilizing Turnstile for bot protection must anticipate increased user friction and false positives among privacy-sensitive clients.",
+        "Consider deploying alternative solutions like hCaptcha or adjusting WAF policies if maintaining strict user privacy and accessibility is critical."
       ]
     },
     {
@@ -105,30 +105,18 @@
       "title": "Danish pension fund excludes SpaceX citing governance and valuation",
       "url": "https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/",
       "discuss_url": "https://news.ycombinator.com/item?id=48333820",
-      "score": 460,
+      "score": 461,
       "comments": 12,
       "author": "vrganj",
       "published": "2026-05-30T08:00:20Z",
       "bullets": [
-        "Danish pension fund excludes SpaceX citing governance and valuation",
-        "Trending on news.ycombinator.com — 460 points, 12 comments.",
-        "Submitted by vrganj on news.ycombinator.com."
+        "A Danish pension fund blacklisted SpaceX, citing risks from Elon Musk's dominant control and a lack of independent board governance.",
+        "Institutional investors are increasingly skeptical of SpaceX’s $180 billion valuation amid limited financial disclosures required of private firms.",
+        "The exclusion underscores rising ESG and key-man risk scrutiny for dual-class, founder-dominated technology and aerospace giants."
       ]
     }
   ],
   "discussions": [
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "I Put a Datacenter GPU in My Gaming PC for £200",
-      "url": "https://blog.tymscar.com/posts/v100localllm/",
-      "discuss_url": "https://lobste.rs/s/2tskyy",
-      "score": 20,
-      "comments": 6,
-      "author": "puhsu",
-      "published": "2026-05-31T09:43:06Z"
-    },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
@@ -136,10 +124,22 @@
       "title": "Anthropic surpasses OpenAI to become most valuable AI startup",
       "url": "https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup",
       "discuss_url": "https://news.ycombinator.com/item?id=48336233",
-      "score": 409,
-      "comments": 463,
+      "score": 412,
+      "comments": 464,
       "author": "Bolat14",
       "published": "2026-05-30T13:56:34Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Rsync 3.4.3 has hundreds of Claude commits",
+      "url": "https://mastodon.gamedev.place/@JeremiahFieldhaven/116654345332213390",
+      "discuss_url": "https://news.ycombinator.com/item?id=48334021",
+      "score": 114,
+      "comments": 79,
+      "author": "fooker",
+      "published": "2026-05-30T08:32:57Z"
     },
     {
       "source": "hackernews",
@@ -148,7 +148,7 @@
       "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
       "url": "https://github.com/jmaczan/tiny-vllm",
       "discuss_url": "https://news.ycombinator.com/item?id=48328184",
-      "score": 190,
+      "score": 194,
       "comments": 17,
       "author": "yu3zhou4",
       "published": "2026-05-29T19:38:27Z"
@@ -220,8 +220,8 @@
       "title": "I found a seashell in the middle of the desert",
       "url": "https://github.com/Hawzen/I-found-a-seashell-in-the-middle-of-the-desert#i-found-a-seashell-in-the-middle-of-the-desert",
       "discuss_url": "https://lobste.rs/s/qn9jdp",
-      "score": 4,
-      "comments": 0,
+      "score": 18,
+      "comments": 1,
       "author": "anex9d",
       "published": "2026-05-31T12:57:16Z"
     },
@@ -232,7 +232,7 @@
       "title": "A pragmatic set of modern colour space transforms for the Odin language",
       "url": "https://github.com/heavyrain266/colourspace",
       "discuss_url": "https://lobste.rs/s/flliys",
-      "score": 2,
+      "score": 4,
       "comments": 3,
       "author": "heavyrain266",
       "published": "2026-05-31T11:12:12Z"
@@ -244,7 +244,7 @@
       "title": "Voxel Space",
       "url": "https://s-macke.github.io/VoxelSpace/",
       "discuss_url": "https://lobste.rs/s/fcoley",
-      "score": 16,
+      "score": 17,
       "comments": 2,
       "author": "Yogthos",
       "published": "2026-05-30T17:29:47Z"
@@ -256,7 +256,7 @@
       "title": "bijou64: A variable-length integer encoding",
       "url": "https://www.inkandswitch.com/tangents/bijou64/",
       "discuss_url": "https://lobste.rs/s/40broz",
-      "score": 60,
+      "score": 61,
       "comments": 8,
       "author": "justinweiss",
       "published": "2026-05-29T15:02:24Z"
@@ -364,22 +364,10 @@
       "title": "securix: NixOS-based secure operating system. Provides a hardened environment with strong isolation, reproducibility, and policy-driven configurations",
       "url": "https://github.com/cloud-gouv/securix",
       "discuss_url": "https://lobste.rs/s/45dqvh",
-      "score": 10,
-      "comments": 1,
+      "score": 13,
+      "comments": 3,
       "author": "koala",
       "published": "2026-05-31T09:40:35Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "The S in interoperability",
-      "url": "https://frederikbraun.de/the-s-in-interoperability.html",
-      "discuss_url": "https://lobste.rs/s/1xzofw",
-      "score": 9,
-      "comments": 0,
-      "author": "freddyb",
-      "published": "2026-05-31T09:13:13Z"
     },
     {
       "source": "hackernews",
@@ -388,10 +376,22 @@
       "title": "Microsoft 0-day feud escalates as researcher threatens another exploit dump",
       "url": "https://www.theregister.com/security/2026/05/28/microsoft-0-day-feud-escalates-as-researcher-threatens-another-windows-exploit-dump/5248085",
       "discuss_url": "https://news.ycombinator.com/item?id=48328175",
-      "score": 270,
+      "score": 273,
       "comments": 97,
       "author": "Cider9986",
       "published": "2026-05-29T19:37:41Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "The S in interoperability",
+      "url": "https://frederikbraun.de/the-s-in-interoperability.html",
+      "discuss_url": "https://lobste.rs/s/1xzofw",
+      "score": 16,
+      "comments": 0,
+      "author": "freddyb",
+      "published": "2026-05-31T09:13:13Z"
     },
     {
       "source": "lobsters",
@@ -401,9 +401,21 @@
       "url": "https://nesbitt.io/2026/05/28/protestware-for-coding-agents.html",
       "discuss_url": "https://lobste.rs/s/brusu8",
       "score": 105,
-      "comments": 109,
+      "comments": 111,
       "author": "bitshift",
       "published": "2026-05-28T18:17:31Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "CVE-2026-48710: A Maintainer's Perspective",
+      "url": "https://marcelotryle.com/blog/2026/05/28/cve-2026-48710-a-maintainers-perspective/",
+      "discuss_url": "https://lobste.rs/s/xvdvko",
+      "score": 40,
+      "comments": 6,
+      "author": "gi0baro",
+      "published": "2026-05-29T17:51:55Z"
     },
     {
       "source": "lobsters",
@@ -421,25 +433,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "CVE-2026-48710: A Maintainer's Perspective",
-      "url": "https://marcelotryle.com/blog/2026/05/28/cve-2026-48710-a-maintainers-perspective/",
-      "discuss_url": "https://lobste.rs/s/xvdvko",
-      "score": 39,
-      "comments": 6,
-      "author": "gi0baro",
-      "published": "2026-05-29T17:51:55Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Atom Exhaustion Is Not a Footgun. It's One Third of Our CVEs",
-      "url": "https://erlef.org/blog/security/atom-exhaustion",
-      "discuss_url": "https://lobste.rs/s/lfusbg",
-      "score": 69,
-      "comments": 51,
-      "author": "pushcx",
-      "published": "2026-05-27T16:48:05Z"
+      "title": "Claw Patrol: an open-source security firewall for agents",
+      "url": "https://deno.com/blog/clawpatrol",
+      "discuss_url": "https://lobste.rs/s/jc0jsn",
+      "score": 1,
+      "comments": 3,
+      "author": "boramalper",
+      "published": "2026-05-30T20:00:19Z"
     },
     {
       "source": "lobsters",
@@ -457,18 +457,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Navigating the MTE Landscape: iOS Memory Protection Deep Dive",
-      "url": "https://fuzzinglabs.com/wp-content/uploads/2026/05/Navigating_iOS_MTE_Landscape.pdf",
-      "discuss_url": "https://lobste.rs/s/auvxjf",
-      "score": 3,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-05-30T18:15:21Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "ACME CAA Extensions to Become Mandatory",
       "url": "https://www.feistyduck.com/newsletter/issue_137_acme_caa__extensions_to_become_mandatory",
       "discuss_url": "https://lobste.rs/s/eowso1",
@@ -481,7 +469,19 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Why no easter eggs?",
+      "title": "Navigating the MTE Landscape: iOS Memory Protection Deep Dive",
+      "url": "https://fuzzinglabs.com/wp-content/uploads/2026/05/Navigating_iOS_MTE_Landscape.pdf",
+      "discuss_url": "https://lobste.rs/s/auvxjf",
+      "score": 3,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-05-30T18:15:21Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Why no easter eggs? (2005)",
       "url": "https://learn.microsoft.com/ar-sa/archive/blogs/larryosterman/why-no-easter-eggs",
       "discuss_url": "https://lobste.rs/s/kev8az",
       "score": 4,
@@ -505,13 +505,37 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
+      "title": "Cloudflare Turnstile requiring fingerprintable WebGL",
+      "url": "https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting",
+      "discuss_url": "https://news.ycombinator.com/item?id=48345840",
+      "score": 298,
+      "comments": 160,
+      "author": "HypnoticOcelot",
+      "published": "2026-05-31T14:13:20Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "devops",
       "title": "Show HN: 500 years of Joseon court omens as an observability dashboard",
       "url": "https://ajin.im/is/building/omen.ops/",
       "discuss_url": "https://news.ycombinator.com/item?id=48339753",
-      "score": 122,
+      "score": 130,
       "comments": 23,
       "author": "poppypetalmask",
       "published": "2026-05-30T19:23:36Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "SOPS + Age and Sealed Secrets",
+      "url": "https://www.jonashietala.se/blog/2026/05/31/sops_age_and_sealed_secrets/",
+      "discuss_url": "https://lobste.rs/s/72alqa",
+      "score": 4,
+      "comments": 0,
+      "author": "dryya",
+      "published": "2026-05-31T14:45:12Z"
     },
     {
       "source": "lobsters",
@@ -622,37 +646,13 @@
       "published": "2026-05-29T07:49:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Oracle Database@AWS is now available in twenty AWS Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/oracle-database-aws-available-twenty-regions/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/oracle-database-aws-available-twenty-regions/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-29T07:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon S3 Tables are now available in two additional AWS Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-s3-tables-aws-regions/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-s3-tables-aws-regions/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-05-29T04:00:00Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "industry",
       "title": "Danish pension fund excludes SpaceX citing governance and valuation",
       "url": "https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/",
       "discuss_url": "https://news.ycombinator.com/item?id=48333820",
-      "score": 460,
+      "score": 461,
       "comments": 12,
       "author": "vrganj",
       "published": "2026-05-30T08:00:20Z"
