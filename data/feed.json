@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-30T19:24:53Z",
+  "updated_at": "2026-05-31T04:13:08Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Anthropic surpasses OpenAI to become most valuable AI startup",
       "url": "https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup",
       "discuss_url": "https://news.ycombinator.com/item?id=48336233",
-      "score": 376,
-      "comments": 416,
+      "score": 397,
+      "comments": 456,
       "author": "Bolat14",
       "published": "2026-05-30T13:56:34Z",
       "bullets": [
-        "Anthropic's valuation surge reflects enterprise adoption shifts, driven by Claude 3.5 Sonnet outperforming OpenAI's GPT-4o in coding and reasoning benchmarks.",
-        "Tech stacks increasingly favor Anthropic's API for its superior steerability, data privacy guarantees, and robust XML parsing capabilities over OpenAI.",
-        "The capital shift intensifies frontier model competition, accelerating developmental timelines for impending releases like Claude 3.5 Opus and OpenAI's GPT-5."
+        "Debates highlight Claude 3.5 Sonnet’s superior coding capabilities driving developer migration from OpenAI’s GPT-4o to Anthropic’s API ecosystem.",
+        "The valuation rivalry underscores intense cloud infrastructure wars, pitting AWS and Google (backing Anthropic) against Microsoft’s heavy OpenAI integration.",
+        "AI teams increasingly leverage multi-LLM routing to balance Claude’s reasoning strengths against GPT-4o's speed and cost efficiencies."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Voxel Space",
       "url": "https://s-macke.github.io/VoxelSpace/",
       "discuss_url": "https://lobste.rs/s/fcoley",
-      "score": 2,
-      "comments": 0,
+      "score": 12,
+      "comments": 2,
       "author": "Yogthos",
       "published": "2026-05-30T17:29:47Z",
       "bullets": [
-        "Voxel Space renders pseudo-3D terrain from 2D heightmaps and colormaps using 1D vertical line projection instead of polygons.",
-        "A 1D screen-space y-buffer optimizes rendering by drawing front-to-back, preventing redundant pixel writes and maximizing CPU cache efficiency.",
-        "Originating in NovaLogic's 1992 game Comanche, the technique avoids expensive 3D matrix transformations, making it ideal for low-power rendering."
+        "Renders 3D terrain from 2D height and color maps using 1D column projection instead of complex 3D polygon meshes.",
+        "Popularized by Comanche (1992), this technique achieves high-performance terrain rendering on CPU-bound systems without relying on GPU acceleration.",
+        "Modern JavaScript implementations utilize typed arrays to process rendering columns sequentially, optimizing cache locality and memory throughput."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Microsoft 0-day feud escalates as researcher threatens another exploit dump",
       "url": "https://www.theregister.com/security/2026/05/28/microsoft-0-day-feud-escalates-as-researcher-threatens-another-windows-exploit-dump/5248085",
       "discuss_url": "https://news.ycombinator.com/item?id=48328175",
-      "score": 254,
-      "comments": 90,
+      "score": 265,
+      "comments": 93,
       "author": "Cider9986",
       "published": "2026-05-29T19:37:41Z",
       "bullets": [
-        "Bug bounty payout disputes drive researchers to release unpatched Windows Local Privilege Escalation (LPE) exploits directly to GitHub.",
-        "Defenders must actively monitor threat intelligence feeds for public proof-of-concept code bypassing existing Microsoft security patches.",
-        "Rapid weaponization of public zero-days by threat actors necessitates proactive endpoint monitoring and robust compensating controls over patch reliance."
+        "Friction between Microsoft and researchers increases the risk of public zero-day exploit drops bypassing coordinated vulnerability disclosure channels.",
+        "Defenders should actively monitor Windows event logs for privilege escalation behaviors to mitigate unpatched zero-days dropped outside official release cycles.",
+        "The feud underscores growing industry frustration with vendor bug bounty payouts, patch quality, and communication gaps with independent security researchers."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "ysun",
       "published": "2026-05-28T17:30:47Z",
       "bullets": [
-        "Garnix, a dedicated CI/CD and hosting platform for the Nix ecosystem, has announced its impending shutdown.",
-        "DevOps teams must migrate Nix builds to alternatives like GitHub Actions with Cachix, Hercules CI, or self-hosted Hydra instances.",
-        "The shutdown highlights the financial challenges of commercializing specialized Nix tooling and hosting infrastructure at scale."
+        "The Nix-native continuous integration and hosting platform Garnix is ceasing operations, ending its managed build and deployment services.",
+        "DevOps teams must migrate Nix pipelines to alternatives like GitHub Actions with Cachix, Hercules CI, or self-hosted Hydra instances.",
+        "The shutdown highlights the risks of niche CI SaaS, prompting migration to generalist runners paired with independent Nix caches."
       ]
     },
     {
@@ -105,14 +105,14 @@
       "title": "Danish pension fund excludes SpaceX citing governance and valuation",
       "url": "https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/",
       "discuss_url": "https://news.ycombinator.com/item?id=48333820",
-      "score": 439,
-      "comments": 332,
+      "score": 455,
+      "comments": 11,
       "author": "vrganj",
       "published": "2026-05-30T08:00:20Z",
       "bullets": [
-        "AkademikerPension blacklisted SpaceX, highlighting systemic risks from Elon Musk’s dual-class share structure and hostile stance toward labor unions.",
-        "The decision underscores growing institutional skepticism toward skyrocketing private tech valuations that bypass traditional public market reporting requirements.",
-        "This signals that ESG compliance and robust board governance are now critical requirements for defense and aerospace firms seeking institutional capital."
+        "A Danish pension fund's exclusion of SpaceX highlights growing institutional skepticism toward key-man risk and private-market corporate governance.",
+        "The decision reflects mounting investor concern over astronomical private space-tech valuations in a shifting macroeconomic climate.",
+        "Late-stage private tech giants face stricter ESG scrutiny and capital access constraints as institutional funds demand greater transparency."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Anthropic surpasses OpenAI to become most valuable AI startup",
       "url": "https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup",
       "discuss_url": "https://news.ycombinator.com/item?id=48336233",
-      "score": 376,
-      "comments": 416,
+      "score": 397,
+      "comments": 456,
       "author": "Bolat14",
       "published": "2026-05-30T13:56:34Z"
     },
@@ -136,7 +136,7 @@
       "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
       "url": "https://github.com/jmaczan/tiny-vllm",
       "discuss_url": "https://news.ycombinator.com/item?id=48328184",
-      "score": 176,
+      "score": 184,
       "comments": 16,
       "author": "yu3zhou4",
       "published": "2026-05-29T19:38:27Z"
@@ -148,46 +148,10 @@
       "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
       "url": "https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/",
       "discuss_url": "https://news.ycombinator.com/item?id=48321076",
-      "score": 209,
+      "score": 212,
       "comments": 94,
       "author": "NicoConstant",
       "published": "2026-05-29T09:47:23Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Claude Code – Everything you can configure that the docs don't tell you",
-      "url": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
-      "discuss_url": "https://news.ycombinator.com/item?id=48318174",
-      "score": 324,
-      "comments": 64,
-      "author": "ankitg12",
-      "published": "2026-05-29T02:13:20Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
-      "url": "https://minimaxir.com/2026/05/openrouter-hy3/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48317294",
-      "score": 138,
-      "comments": 111,
-      "author": "freediver",
-      "published": "2026-05-29T00:09:35Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Intent to Prototype: Embedding API",
-      "url": "https://groups.google.com/a/chromium.org/g/blink-dev/c/EjL1gAy3k3Q/m/31Cnh22MBgAJ",
-      "discuss_url": "https://lobste.rs/s/czctjh",
-      "score": 4,
-      "comments": 1,
-      "author": "untitaker",
-      "published": "2026-05-26T21:41:58Z"
     },
     {
       "source": "rss",
@@ -256,8 +220,8 @@
       "title": "Voxel Space",
       "url": "https://s-macke.github.io/VoxelSpace/",
       "discuss_url": "https://lobste.rs/s/fcoley",
-      "score": 2,
-      "comments": 0,
+      "score": 12,
+      "comments": 2,
       "author": "Yogthos",
       "published": "2026-05-30T17:29:47Z"
     },
@@ -268,7 +232,7 @@
       "title": "bijou64: A variable-length integer encoding",
       "url": "https://www.inkandswitch.com/tangents/bijou64/",
       "discuss_url": "https://lobste.rs/s/40broz",
-      "score": 59,
+      "score": 60,
       "comments": 8,
       "author": "justinweiss",
       "published": "2026-05-29T15:02:24Z"
@@ -281,7 +245,7 @@
       "url": "https://lobste.rs/s/nhppxf",
       "discuss_url": "https://lobste.rs/s/nhppxf",
       "score": 14,
-      "comments": 33,
+      "comments": 34,
       "author": "caius",
       "published": "2026-05-29T10:15:46Z"
     },
@@ -308,18 +272,6 @@
       "comments": 0,
       "author": "Yogthos",
       "published": "2026-05-29T16:27:37Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Folding in Parallel",
-      "url": "https://okmij.org/ftp/Algorithms/map-monoid-reduce.html",
-      "discuss_url": "https://lobste.rs/s/t1es6x",
-      "score": 30,
-      "comments": 0,
-      "author": "slightknack",
-      "published": "2026-05-26T19:24:03Z"
     },
     {
       "source": "lobsters",
@@ -394,52 +346,40 @@
       "published": "2026-05-28T16:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Agents on a leash: Agentic AI remains mostly single-agent and monitored at work​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍​‍‌‍​‌‌‍​‌​﻿​﻿​﻿​‌‌‍‌‌‌‍‌​‌‍‌‌​‍﻿‌​﻿​﻿‌‍​‌‌‍‌‍​﻿‌‌​‍﻿‌​﻿‌​​﻿‌﻿​﻿‌​‌‍‌‌​‍﻿‌‌‍​‍​﻿​​​﻿‌‍​﻿​​​‍﻿‌​﻿‌﻿​﻿​​‌‍‌​‌‍‌​​﻿‌‌​﻿​﻿​﻿‌‍‌‍​﻿​﻿‌​​﻿‌‌​﻿​‍​﻿‍​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍​‍‌‍​‌‌‍​‌​﻿​﻿​﻿​‌‌‍‌‌‌‍‌​‌‍‌‌​‍﻿‌​﻿​﻿‌‍​‌‌‍‌‍​﻿‌‌​‍﻿‌​﻿‌​​﻿‌﻿​﻿‌​‌‍‌‌​‍﻿‌‌‍​‍​﻿​​​﻿‌‍​﻿​​​‍﻿‌​﻿‌﻿​﻿​​‌‍‌​‌‍‌​​﻿‌‌​﻿​﻿​﻿‌‍‌‍​﻿​﻿‌​​﻿‌‌​﻿​‍​﻿‍​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/05/27/agents-on-a-leash-agentic-ai-remains-mostly-monitored-at-work/",
+      "discuss_url": "https://stackoverflow.blog/2026/05/27/agents-on-a-leash-agentic-ai-remains-mostly-monitored-at-work/",
+      "score": null,
+      "comments": null,
+      "author": "Erin Yepis",
+      "published": "2026-05-27T14:00:00Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Microsoft 0-day feud escalates as researcher threatens another exploit dump",
       "url": "https://www.theregister.com/security/2026/05/28/microsoft-0-day-feud-escalates-as-researcher-threatens-another-windows-exploit-dump/5248085",
       "discuss_url": "https://news.ycombinator.com/item?id=48328175",
-      "score": 254,
-      "comments": 90,
+      "score": 265,
+      "comments": 93,
       "author": "Cider9986",
       "published": "2026-05-29T19:37:41Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "security",
-      "title": "GitHub bans security researcher who posted zero-day Windows exploits",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/microsofts-github-bans-security-researcher-who-posted-zero-day-windows-exploits-because-company-ruined-their-life-expert-claims-action-is-vindictive-and-promises-further-retaliation",
-      "discuss_url": "https://news.ycombinator.com/item?id=48315968",
-      "score": 549,
-      "comments": 254,
-      "author": "possibilistic",
-      "published": "2026-05-28T21:45:54Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Navigating the MTE Landscape: iOS Memory Protection Deep Dive",
-      "url": "https://fuzzinglabs.com/wp-content/uploads/2026/05/Navigating_iOS_MTE_Landscape.pdf",
-      "discuss_url": "https://lobste.rs/s/auvxjf",
+      "title": "Parallel Reconstruction of Lawful TLS Wiretapping",
+      "url": "https://remyhax.xyz/posts/reproducing-lawful-tls-wiretapping/",
+      "discuss_url": "https://lobste.rs/s/jedgbs",
       "score": 2,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-05-30T18:15:21Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "CVE-2026-48710: A Maintainer's Perspective",
-      "url": "https://marcelotryle.com/blog/2026/05/28/cve-2026-48710-a-maintainers-perspective/",
-      "discuss_url": "https://lobste.rs/s/xvdvko",
-      "score": 34,
-      "comments": 6,
-      "author": "gi0baro",
-      "published": "2026-05-29T17:51:55Z"
+      "comments": 3,
+      "author": "bitshift",
+      "published": "2026-05-30T21:49:58Z"
     },
     {
       "source": "lobsters",
@@ -448,10 +388,34 @@
       "title": "Protestware for coding agents",
       "url": "https://nesbitt.io/2026/05/28/protestware-for-coding-agents.html",
       "discuss_url": "https://lobste.rs/s/brusu8",
-      "score": 104,
-      "comments": 105,
+      "score": 105,
+      "comments": 107,
       "author": "bitshift",
       "published": "2026-05-28T18:17:31Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "CVE-2026-48710: A Maintainer's Perspective",
+      "url": "https://marcelotryle.com/blog/2026/05/28/cve-2026-48710-a-maintainers-perspective/",
+      "discuss_url": "https://lobste.rs/s/xvdvko",
+      "score": 38,
+      "comments": 6,
+      "author": "gi0baro",
+      "published": "2026-05-29T17:51:55Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Navigating the MTE Landscape: iOS Memory Protection Deep Dive",
+      "url": "https://fuzzinglabs.com/wp-content/uploads/2026/05/Navigating_iOS_MTE_Landscape.pdf",
+      "discuss_url": "https://lobste.rs/s/auvxjf",
+      "score": 3,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-05-30T18:15:21Z"
     },
     {
       "source": "lobsters",
@@ -493,6 +457,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Why no easter eggs?",
+      "url": "https://learn.microsoft.com/ar-sa/archive/blogs/larryosterman/why-no-easter-eggs",
+      "discuss_url": "https://lobste.rs/s/kev8az",
+      "score": 3,
+      "comments": 1,
+      "author": "janus",
+      "published": "2026-05-29T21:42:33Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "An AI audit of FreeBSD",
       "url": "https://blog.calif.io/p/an-ai-audit-of-freebsd",
       "discuss_url": "https://lobste.rs/s/kdninn",
@@ -524,18 +500,6 @@
       "comments": 0,
       "author": "untitaker",
       "published": "2026-05-29T16:13:12Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "The tenth OpenPGP email summit",
-      "url": "https://lwn.net/Articles/1072870/",
-      "discuss_url": "https://lobste.rs/s/dfz7tg",
-      "score": 10,
-      "comments": 0,
-      "author": "wiktor",
-      "published": "2026-05-28T10:01:05Z"
     },
     {
       "source": "lobsters",
@@ -688,22 +652,10 @@
       "title": "Danish pension fund excludes SpaceX citing governance and valuation",
       "url": "https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/",
       "discuss_url": "https://news.ycombinator.com/item?id=48333820",
-      "score": 439,
-      "comments": 332,
+      "score": 455,
+      "comments": 11,
       "author": "vrganj",
       "published": "2026-05-30T08:00:20Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "industry",
-      "title": "SF startup is testing robots in Airbnbs, and trashing them, lawsuit claims",
-      "url": "https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48317093",
-      "score": 266,
-      "comments": 148,
-      "author": "drewda",
-      "published": "2026-05-28T23:42:47Z"
     },
     {
       "source": "rss",
@@ -824,6 +776,18 @@
       "comments": null,
       "author": "Jeremy Hsu",
       "published": "2026-05-29T16:16:14Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "After years of stability, F1 reliability can no longer be taken for granted",
+      "url": "https://arstechnica.com/cars/2026/05/f1-in-2026-to-finish-first-first-you-have-to-finish/",
+      "discuss_url": "https://arstechnica.com/cars/2026/05/f1-in-2026-to-finish-first-first-you-have-to-finish/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-05-29T16:03:28Z"
     }
   ]
 }
