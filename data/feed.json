@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T11:45:42Z",
+  "updated_at": "2026-06-01T21:39:27Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -31,20 +31,20 @@
   ],
   "tldr": [
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "It's Not Just X. It's Y",
-      "url": "https://mail.cyberneticforests.com/its-not-just-data-its-post-training/",
-      "discuss_url": "https://lobste.rs/s/4xllsb",
-      "score": 25,
-      "comments": 3,
-      "author": "Yogthos",
-      "published": "2026-06-01T03:33:55Z",
+      "title": "Anthropic confidentially submits draft S-1 to the SEC",
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "discuss_url": "https://news.ycombinator.com/item?id=48358646",
+      "score": 362,
+      "comments": 287,
+      "author": "surprisetalk",
+      "published": "2026-06-01T16:00:40Z",
       "bullets": [
-        "Modern AI scaling shifts focus from raw LLM parameter counts to high-quality dataset curation and pipeline engineering.",
-        "Production reliability requires migrating from single-turn prompts to compound AI systems and multi-agent frameworks like LangGraph.",
-        "Search accuracy in RAG depends on hybrid lexical-vector retrieval and metadata filtering, not just raw vector embedding similarity."
+        "The IPO aims to fund training compute for next-generation Claude models, securing capital to compete directly with OpenAI.",
+        "Public markets will test Anthropic's Public Benefit Corporation structure and Long-Term Benefit Trust governance under intense fiscal scrutiny.",
+        "The listing will catalyze liquid valuations for backers like Amazon ($8B+ invested) and Alphabet, reshaping the AI venture ecosystem."
       ]
     },
     {
@@ -54,69 +54,81 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/degtqh",
       "discuss_url": "https://lobste.rs/s/degtqh",
-      "score": 3,
-      "comments": 4,
+      "score": 16,
+      "comments": 43,
       "author": "caius",
       "published": "2026-06-01T09:57:04Z",
       "bullets": [
-        "Leverage community developer logs to benchmark peer adoption of modern systems languages like Rust, Go, and Zig.",
-        "Monitor peer-to-peer forums for real-world telemetry on homelab deployments, self-hosting configurations, and open-source infrastructure tooling.",
-        "Utilize informal weekly check-ins to discover niche libraries, debugging strategies, and undocumented system-level optimization techniques."
-      ]
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "securix: NixOS-based secure operating system. Provides a hardened environment with strong isolation, reproducibility, and policy-driven configurations",
-      "url": "https://github.com/cloud-gouv/securix",
-      "discuss_url": "https://lobste.rs/s/45dqvh",
-      "score": 21,
-      "comments": 7,
-      "author": "koala",
-      "published": "2026-05-31T09:40:35Z",
-      "bullets": [
-        "Employs NixOS's declarative framework to enforce immutable system configurations, eliminating drift and simplifying security auditing.",
-        "Provides hardened process isolation to restrict runtime privileges and mitigate the blast radius of potential system compromises.",
-        "Delivers policy-driven, reproducible builds that enable cryptographic verification of OS states and simplify compliance engineering."
+        "What are you doing this week?",
+        "Feel free to share!",
+        "Keep in mind it’s OK to do nothing at all, too."
       ]
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
-      "category": "devops",
-      "title": "Cloudflare Turnstile requiring fingerprintable WebGL",
-      "url": "https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting",
-      "discuss_url": "https://news.ycombinator.com/item?id=48345840",
-      "score": 693,
-      "comments": 394,
-      "author": "HypnoticOcelot",
-      "published": "2026-05-31T14:13:20Z",
+      "category": "security",
+      "title": "The newest Instagram “exploit” is the goofiest I've seen",
+      "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
+      "discuss_url": "https://news.ycombinator.com/item?id=48359102",
+      "score": 973,
+      "comments": 238,
+      "author": "ssiddharth",
+      "published": "2026-06-01T16:31:42Z",
       "bullets": [
-        "Cloudflare Turnstile's WebGL requirement breaks headless browsers like Puppeteer and Playwright used in automated testing and CI/CD pipelines.",
-        "Forcing WebGL enables browser fingerprinting, blocking legitimate users who disable hardware acceleration or use privacy-focused browsers like Tor.",
-        "Teams using Turnstile must weigh anti-bot efficacy against compliance risks, as WebGL tracking may violate strict ePrivacy and GDPR regulations."
+        "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-su...",
+        "The newest Instagram “exploit” is the goofiest I've seen",
+        "Trending on news.ycombinator.com — 973 points, 238 comments."
+      ]
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "github and the crime against software",
+      "url": "https://eblog.fly.dev/githubbad.html",
+      "discuss_url": "https://lobste.rs/s/vkoa7r",
+      "score": 26,
+      "comments": 10,
+      "author": "abnercoimbre",
+      "published": "2026-06-01T15:36:49Z",
+      "bullets": [
+        "github and the crime against software",
+        "Trending on lobste.rs/devops — 26 points, 10 comments.",
+        "Submitted by abnercoimbre on lobste.rs/devops."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "An OpenAI model solved a famous math problem that stumped humans for 80 years",
-      "url": "https://arstechnica.com/ai/2026/06/openais-math-breakthrough-played-to-ais-strengths/",
-      "discuss_url": "https://arstechnica.com/ai/2026/06/openais-math-breakthrough-played-to-ais-strengths/",
+      "title": "Doctors blast Trump for doubling down on vaccine policy modeled after Denmark",
+      "url": "https://arstechnica.com/health/2026/06/doctors-blast-trump-for-doubling-down-on-vaccine-policy-modeled-after-denmark/",
+      "discuss_url": "https://arstechnica.com/health/2026/06/doctors-blast-trump-for-doubling-down-on-vaccine-policy-modeled-after-denmark/",
       "score": null,
       "comments": null,
-      "author": "Kai Williams",
-      "published": "2026-06-01T11:00:00Z",
+      "author": "Beth Mole",
+      "published": "2026-06-01T19:07:58Z",
       "bullets": [
-        "OpenAI's o1 model leveraged reinforcement learning and chain-of-thought reasoning to solve a mathematical problem unsolved for 80 years.",
-        "The milestone highlights a shift from LLM pattern-matching to search-based 'System 2' reasoning, crucial for advanced symbolic mathematics.",
-        "This progress accelerates AI applicability in automated theorem proving, formal hardware/software verification, and complex algorithmic research."
+        "Even Danish researchers think it's bizarre.",
+        "Doctors blast Trump for doubling down on vaccine policy modeled after Denmark",
+        "Submitted by Beth Mole on arstechnica.com."
       ]
     }
   ],
   "discussions": [
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Anthropic confidentially submits draft S-1 to the SEC",
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "discuss_url": "https://news.ycombinator.com/item?id=48358646",
+      "score": 362,
+      "comments": 287,
+      "author": "surprisetalk",
+      "published": "2026-06-01T16:00:40Z"
+    },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
@@ -124,22 +136,34 @@
       "title": "It's Not Just X. It's Y",
       "url": "https://mail.cyberneticforests.com/its-not-just-data-its-post-training/",
       "discuss_url": "https://lobste.rs/s/4xllsb",
-      "score": 25,
-      "comments": 3,
+      "score": 52,
+      "comments": 10,
       "author": "Yogthos",
       "published": "2026-06-01T03:33:55Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "huggingface.co",
       "category": "ai",
-      "title": "Anthropic surpasses OpenAI to become most valuable AI startup",
-      "url": "https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup",
-      "discuss_url": "https://news.ycombinator.com/item?id=48336233",
-      "score": 419,
-      "comments": 471,
-      "author": "Bolat14",
-      "published": "2026-05-30T13:56:34Z"
+      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "discuss_url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-01T15:45:17Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "discuss_url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-01T13:51:18Z"
     },
     {
       "source": "rss",
@@ -164,18 +188,6 @@
       "comments": null,
       "author": null,
       "published": "2026-05-29T00:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
-      "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
-      "discuss_url": "https://huggingface.co/blog/ibm-research/itbench-aa",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-05-27T17:20:29Z"
     },
     {
       "source": "rss",
@@ -208,8 +220,8 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/degtqh",
       "discuss_url": "https://lobste.rs/s/degtqh",
-      "score": 3,
-      "comments": 4,
+      "score": 16,
+      "comments": 43,
       "author": "caius",
       "published": "2026-06-01T09:57:04Z"
     },
@@ -220,22 +232,10 @@
       "title": "I found a seashell in the middle of the desert",
       "url": "https://github.com/Hawzen/I-found-a-seashell-in-the-middle-of-the-desert#i-found-a-seashell-in-the-middle-of-the-desert",
       "discuss_url": "https://lobste.rs/s/qn9jdp",
-      "score": 45,
-      "comments": 1,
+      "score": 51,
+      "comments": 2,
       "author": "anex9d",
       "published": "2026-05-31T12:57:16Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Why does ASTC use ISE when almost nothing else does?",
-      "url": "https://fgiesen.wordpress.com/2026/05/29/why-does-astc-use-ise-when-almost-nothing-else-does/",
-      "discuss_url": "https://lobste.rs/s/ek75hg",
-      "score": 6,
-      "comments": 0,
-      "author": "calvin",
-      "published": "2026-06-01T01:19:27Z"
     },
     {
       "source": "lobsters",
@@ -244,10 +244,22 @@
       "title": "A pragmatic set of modern colour space transforms for the Odin language",
       "url": "https://github.com/heavyrain266/colourspace",
       "discuss_url": "https://lobste.rs/s/flliys",
-      "score": 7,
+      "score": 10,
       "comments": 3,
       "author": "heavyrain266",
       "published": "2026-05-31T11:12:12Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Why does ASTC use ISE when almost nothing else does?",
+      "url": "https://fgiesen.wordpress.com/2026/05/29/why-does-astc-use-ise-when-almost-nothing-else-does/",
+      "discuss_url": "https://lobste.rs/s/ek75hg",
+      "score": 7,
+      "comments": 0,
+      "author": "calvin",
+      "published": "2026-06-01T01:19:27Z"
     },
     {
       "source": "lobsters",
@@ -311,18 +323,6 @@
     },
     {
       "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "GitHub for Beginners: Getting started with Git and GitHub in VS Code",
-      "url": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/",
-      "discuss_url": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-05-25T16:00:00Z"
-    },
-    {
-      "source": "rss",
       "subsource": "stackoverflow.blog",
       "category": "engineering",
       "title": "Best of the Heap: First post of the past​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‍​﻿‌‍​﻿‍​‌‍‌‍​﻿​‌​﻿‌‍​﻿​​‌‍​‍​‍﻿‌‌‍​‍‌‍​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍​‍‌‍‌​​﻿‍‌​﻿​​​‍﻿‌​﻿‌﻿​﻿‌‌‌‍​‌​﻿​﻿​﻿‍‌​﻿​‌​﻿​‍‌‍‌​​﻿​‌​﻿‌​​﻿‌‌​﻿‌‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‍​﻿‌‍​﻿‍​‌‍‌‍​﻿​‌​﻿‌‍​﻿​​‌‍​‍​‍﻿‌‌‍​‍‌‍​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍​‍‌‍‌​​﻿‍‌​﻿​​​‍﻿‌​﻿‌﻿​﻿‌‌‌‍​‌​﻿​﻿​﻿‍‌​﻿​‌​﻿​‍‌‍‌​​﻿​‌​﻿‌​​﻿‌‌​﻿‌‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
@@ -346,13 +346,49 @@
       "published": "2026-05-29T07:40:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "In an AI world, the most valuable developers will be both artisans and builders​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​​​﻿‌​‌‍‌‌​﻿​‌‌‍​‍​﻿‌‌‌‍‌‍​﻿‌‍​‍﻿‌‌‍​‍‌‍​‍​﻿‌​​﻿‌​​‍﻿‌​﻿‌​​﻿​‍​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍‌‌‍‌​​﻿​‌​﻿‍​​‍﻿‌‌‍‌‍‌‍​﻿‌‍​﻿​﻿‌﻿​﻿‌‌​﻿​‌​﻿‌﻿​﻿‌‍‌‍‌‍​﻿​​‌‍​‍​﻿​‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​​​﻿‌​‌‍‌‌​﻿​‌‌‍​‍​﻿‌‌‌‍‌‍​﻿‌‍​‍﻿‌‌‍​‍‌‍​‍​﻿‌​​﻿‌​​‍﻿‌​﻿‌​​﻿​‍​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍‌‌‍‌​​﻿​‌​﻿‍​​‍﻿‌‌‍‌‍‌‍​﻿‌‍​﻿​﻿‌﻿​﻿‌‌​﻿​‌​﻿‌﻿​﻿‌‍‌‍‌‍​﻿​​‌‍​‍​﻿​‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/05/28/artisans-and-builders/",
+      "discuss_url": "https://stackoverflow.blog/2026/05/28/artisans-and-builders/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-05-28T16:00:00Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "The newest Instagram “exploit” is the goofiest I've seen",
+      "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
+      "discuss_url": "https://news.ycombinator.com/item?id=48359102",
+      "score": 973,
+      "comments": 238,
+      "author": "ssiddharth",
+      "published": "2026-06-01T16:31:42Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "iSCSI CHAP: Heap Buffer Overflow in the Linux Kernel",
+      "url": "https://ahossu.ro/blog/iscsi-chap-base64-overflow",
+      "discuss_url": "https://lobste.rs/s/exezj2",
+      "score": 4,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-06-01T18:25:24Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "securix: NixOS-based secure operating system. Provides a hardened environment with strong isolation, reproducibility, and policy-driven configurations",
       "url": "https://github.com/cloud-gouv/securix",
       "discuss_url": "https://lobste.rs/s/45dqvh",
-      "score": 21,
+      "score": 23,
       "comments": 7,
       "author": "koala",
       "published": "2026-05-31T09:40:35Z"
@@ -364,22 +400,10 @@
       "title": "The S in interoperability",
       "url": "https://frederikbraun.de/the-s-in-interoperability.html",
       "discuss_url": "https://lobste.rs/s/1xzofw",
-      "score": 22,
-      "comments": 0,
+      "score": 25,
+      "comments": 1,
       "author": "freddyb",
       "published": "2026-05-31T09:13:13Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Protestware for coding agents",
-      "url": "https://nesbitt.io/2026/05/28/protestware-for-coding-agents.html",
-      "discuss_url": "https://lobste.rs/s/brusu8",
-      "score": 107,
-      "comments": 111,
-      "author": "bitshift",
-      "published": "2026-05-28T18:17:31Z"
     },
     {
       "source": "lobsters",
@@ -400,7 +424,7 @@
       "title": "On Reading SRAMs in IR Images, and Establishing Bounds on Trust",
       "url": "https://www.bunniestudios.com/blog/2026/on-reading-srams-in-ir-images-and-establishing-bounds-on-trust/",
       "discuss_url": "https://lobste.rs/s/oiyknx",
-      "score": 1,
+      "score": 2,
       "comments": 1,
       "author": "cyplo",
       "published": "2026-06-01T02:47:16Z"
@@ -479,15 +503,15 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Navigating the MTE Landscape: iOS Memory Protection Deep Dive",
-      "url": "https://fuzzinglabs.com/wp-content/uploads/2026/05/Navigating_iOS_MTE_Landscape.pdf",
-      "discuss_url": "https://lobste.rs/s/auvxjf",
-      "score": 3,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-05-30T18:15:21Z"
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "github and the crime against software",
+      "url": "https://eblog.fly.dev/githubbad.html",
+      "discuss_url": "https://lobste.rs/s/vkoa7r",
+      "score": 26,
+      "comments": 10,
+      "author": "abnercoimbre",
+      "published": "2026-06-01T15:36:49Z"
     },
     {
       "source": "hackernews",
@@ -496,22 +520,10 @@
       "title": "Cloudflare Turnstile requiring fingerprintable WebGL",
       "url": "https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting",
       "discuss_url": "https://news.ycombinator.com/item?id=48345840",
-      "score": 693,
-      "comments": 394,
+      "score": 766,
+      "comments": 448,
       "author": "HypnoticOcelot",
       "published": "2026-05-31T14:13:20Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "devops",
-      "title": "Show HN: 500 years of Joseon court omens as an observability dashboard",
-      "url": "https://ajin.im/is/building/omen.ops/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48339753",
-      "score": 146,
-      "comments": 24,
-      "author": "poppypetalmask",
-      "published": "2026-05-30T19:23:36Z"
     },
     {
       "source": "lobsters",
@@ -526,112 +538,208 @@
       "published": "2026-05-31T14:45:12Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
+      "source": "rss",
+      "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Garnix is shutting down",
-      "url": "https://discourse.nixos.org/t/garnix-is-shutting-down-not-oc/77895",
-      "discuss_url": "https://lobste.rs/s/4msjpt",
-      "score": 68,
-      "comments": 39,
-      "author": "ysun",
-      "published": "2026-05-28T17:30:47Z"
+      "title": "Quick Research now supports customer managed keys",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-research-cm-keys",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-research-cm-keys",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-01T18:27:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon SES now offers inbox placement metrics and blocklist monitoring",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ses-global-deliverability/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ses-global-deliverability/",
+      "title": "Amazon SageMaker adds permissions boundaries for SCP compliance",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-scp/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-scp/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-05-29T21:48:00Z"
+      "published": "2026-06-01T17:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS End User Messaging RCS for Business now available in 20 additional countries",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-rcs-countries/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-rcs-countries/",
+      "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-05-29T20:23:00Z"
+      "published": "2026-06-01T16:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon Connect Customer now supports scheduling tasks up to 90 days in advance",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-tasks-90day-schedule",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-tasks-90day-schedule",
+      "title": "Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8i-m8i-flex-new-zealand/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8i-m8i-flex-new-zealand/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-05-29T18:00:00Z"
+      "published": "2026-06-01T16:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Shield Advanced introduces DDoS attack flow logs",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-shield-ddos/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-shield-ddos/",
+      "title": "Amazon EC2 M8azn instances are now available in Europe (Ireland) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8azn-europe-ireland/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8azn-europe-ireland/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-05-29T17:00:00Z"
+      "published": "2026-06-01T16:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon Redshift Serverless now offers 4-RPU Minimum Capacity in 7 additional AWS Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-serverless-4-rpu-seven-regions/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-serverless-4-rpu-seven-regions/",
+      "title": "Amazon SageMaker HyperPod now supports EFA-only network interfaces",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-efa-only/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-efa-only/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-05-29T15:00:00Z"
+      "published": "2026-06-01T16:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Interconnect - multicloud now offers a free 500 Mbps tier",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-interconnect-multicloud-offers-free-500-mbps-tier",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-interconnect-multicloud-offers-free-500-mbps-tier",
+      "title": "Amazon SageMaker HyperPod now offers troubleshooting skills for AI coding assistants",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-troubleshooting-skills/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-troubleshooting-skills/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-05-29T15:00:00Z"
+      "published": "2026-06-01T16:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon RDS for Oracle now supports April 2026 Release Update and Supplemental Patch Bundle",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-oracle-supports-april-2026-release-update-supplemental-patch-bundle",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-oracle-supports-april-2026-release-update-supplemental-patch-bundle",
+      "title": "AWS Direct Connect now supports VIF Rate Limiters to help prevent network congestion",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-direct-connect-now-supports-vif-rate-limiters/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-direct-connect-now-supports-vif-rate-limiters/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-05-29T07:49:00Z"
+      "published": "2026-06-01T15:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Oracle Database@AWS is now available in twenty AWS Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/oracle-database-aws-available-twenty-regions/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/oracle-database-aws-available-twenty-regions/",
+      "title": "Amazon Bedrock adds Amazon CloudWatch metrics for OpenAI- and Anthropic-compatible APIs",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-supports-cloudwatch-metrics-bedrock-mantle-endpoint/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-supports-cloudwatch-metrics-bedrock-mantle-endpoint/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-05-29T07:00:00Z"
+      "published": "2026-06-01T13:38:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Doctors blast Trump for doubling down on vaccine policy modeled after Denmark",
+      "url": "https://arstechnica.com/health/2026/06/doctors-blast-trump-for-doubling-down-on-vaccine-policy-modeled-after-denmark/",
+      "discuss_url": "https://arstechnica.com/health/2026/06/doctors-blast-trump-for-doubling-down-on-vaccine-policy-modeled-after-denmark/",
+      "score": null,
+      "comments": null,
+      "author": "Beth Mole",
+      "published": "2026-06-01T19:07:58Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Florida sues OpenAI, Sam Altman after multiple ChatGPT-linked murders",
+      "url": "https://arstechnica.com/tech-policy/2026/06/florida-sues-openai-sam-altman-after-multiple-chatgpt-linked-murders/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/florida-sues-openai-sam-altman-after-multiple-chatgpt-linked-murders/",
+      "score": null,
+      "comments": null,
+      "author": "Ashley Belanger",
+      "published": "2026-06-01T18:52:19Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "From 15 hours to one minute: How AI/ML is speeding up GM's development",
+      "url": "https://arstechnica.com/cars/2026/06/from-15-hours-to-one-minute-how-ai-ml-is-speeding-up-gms-development/",
+      "discuss_url": "https://arstechnica.com/cars/2026/06/from-15-hours-to-one-minute-how-ai-ml-is-speeding-up-gms-development/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-06-01T17:41:47Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Allegedly trashing Airbnbs to test robots puts startup in legal trouble",
+      "url": "https://arstechnica.com/ai/2026/06/allegedly-trashing-airbnbs-to-test-robots-puts-startup-in-legal-trouble/",
+      "discuss_url": "https://arstechnica.com/ai/2026/06/allegedly-trashing-airbnbs-to-test-robots-puts-startup-in-legal-trouble/",
+      "score": null,
+      "comments": null,
+      "author": "Jeremy Hsu",
+      "published": "2026-06-01T17:17:55Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "AMD extends Socket AM5 support through at least 2029; AM4 refuses to die",
+      "url": "https://arstechnica.com/gadgets/2026/06/amd-extends-socket-am5-support-through-at-least-2029-am4-refuses-to-die/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/06/amd-extends-socket-am5-support-through-at-least-2029-am4-refuses-to-die/",
+      "score": null,
+      "comments": null,
+      "author": "Andrew Cunningham",
+      "published": "2026-06-01T17:02:22Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "ROG Xbox Ally X20 adds OLED screen, control upgrades",
+      "url": "https://arstechnica.com/gaming/2026/06/asus-gives-the-rox-xbox-ally-the-oled-screen-it-deserves/",
+      "discuss_url": "https://arstechnica.com/gaming/2026/06/asus-gives-the-rox-xbox-ally-the-oled-screen-it-deserves/",
+      "score": null,
+      "comments": null,
+      "author": "Kyle Orland",
+      "published": "2026-06-01T16:04:45Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Nvidia RTX Spark comes to Windows PCs with Arm CPU, RTX GPU, and unified memory",
+      "url": "https://arstechnica.com/gadgets/2026/06/nvidia-gets-into-the-arm-pc-business-with-new-high-end-rtx-spark-processor/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/06/nvidia-gets-into-the-arm-pc-business-with-new-high-end-rtx-spark-processor/",
+      "score": null,
+      "comments": null,
+      "author": "Andrew Cunningham",
+      "published": "2026-06-01T14:47:22Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Intel: Our upcoming AI chip will be cheaper, run cooler than Nvidia, AMD options",
+      "url": "https://arstechnica.com/ai/2026/06/intel-our-upcoming-ai-chip-will-be-cheaper-run-cooler-than-nvidia-amd-options/",
+      "discuss_url": "https://arstechnica.com/ai/2026/06/intel-our-upcoming-ai-chip-will-be-cheaper-run-cooler-than-nvidia-amd-options/",
+      "score": null,
+      "comments": null,
+      "author": "Financial Times",
+      "published": "2026-06-01T13:32:16Z"
     },
     {
       "source": "rss",
@@ -680,102 +788,6 @@
       "comments": null,
       "author": "Diana Gitig",
       "published": "2026-05-30T11:00:05Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Environmentalists turn out in force to oppose Trump coal ash rollbacks",
-      "url": "https://arstechnica.com/tech-policy/2026/05/environmentalists-turn-out-in-force-to-oppose-trump-coal-ash-rollbacks/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/environmentalists-turn-out-in-force-to-oppose-trump-coal-ash-rollbacks/",
-      "score": null,
-      "comments": null,
-      "author": "Arcelia Martin",
-      "published": "2026-05-30T10:00:38Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Proposed new US funding rules: We can cancel any grant at any time",
-      "url": "https://arstechnica.com/science/2026/05/the-office-of-management-and-budget-tries-again-to-cripple-us-science/",
-      "discuss_url": "https://arstechnica.com/science/2026/05/the-office-of-management-and-budget-tries-again-to-cripple-us-science/",
-      "score": null,
-      "comments": null,
-      "author": "John Timmer",
-      "published": "2026-05-29T22:58:29Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Kenyan court blocks Trump admin from dumping Ebola-exposed Americans there",
-      "url": "https://arstechnica.com/health/2026/05/kenyan-court-blocks-trump-admin-from-dumping-ebola-exposed-americans-there/",
-      "discuss_url": "https://arstechnica.com/health/2026/05/kenyan-court-blocks-trump-admin-from-dumping-ebola-exposed-americans-there/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-05-29T21:17:09Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Botnet of more than 17 million devices dismantled",
-      "url": "https://arstechnica.com/security/2026/05/botnet-of-more-than-17-million-devices-dismantled/",
-      "discuss_url": "https://arstechnica.com/security/2026/05/botnet-of-more-than-17-million-devices-dismantled/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-05-29T18:46:33Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Analysis of Texas measles outbreak shows just how dangerous virus is",
-      "url": "https://arstechnica.com/health/2026/05/analysis-of-texas-measles-outbreak-shows-just-how-dangerous-virus-is/",
-      "discuss_url": "https://arstechnica.com/health/2026/05/analysis-of-texas-measles-outbreak-shows-just-how-dangerous-virus-is/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-05-29T18:35:38Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "House of the Dragon S3 trailer revels in dragons, fire, and blood",
-      "url": "https://arstechnica.com/culture/2026/05/house-of-the-dragon-s3-trailer-revels-in-dragons-fire-and-blood/",
-      "discuss_url": "https://arstechnica.com/culture/2026/05/house-of-the-dragon-s3-trailer-revels-in-dragons-fire-and-blood/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-05-29T18:21:44Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Trump FCC warns all broadcasters to follow orders or be punished like ABC",
-      "url": "https://arstechnica.com/tech-policy/2026/05/trump-fcc-warns-all-broadcasters-to-follow-orders-or-be-punished-like-abc/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/trump-fcc-warns-all-broadcasters-to-follow-orders-or-be-punished-like-abc/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-05-29T18:09:43Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "DOJ sues states that rejected ICE requests for undercover license plates",
-      "url": "https://arstechnica.com/tech-policy/2026/05/doj-sues-states-that-rejected-ice-requests-for-undercover-license-plates/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/05/doj-sues-states-that-rejected-ice-requests-for-undercover-license-plates/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-05-29T17:41:56Z"
     }
   ]
 }
