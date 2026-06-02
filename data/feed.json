@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T04:20:10Z",
+  "updated_at": "2026-06-02T10:45:22Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
       "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
       "discuss_url": "https://news.ycombinator.com/item?id=48364055",
-      "score": 159,
-      "comments": 340,
+      "score": 394,
+      "comments": 679,
       "author": "1vuio0pswjnm7",
       "published": "2026-06-01T23:45:46Z",
       "bullets": [
-        "https://archive.ph/nKEVw",
-        "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
-        "Trending on news.ycombinator.com — 159 points, 340 comments."
+        "Frontier AI giants like OpenAI ($150B) and Anthropic require unprecedented public market liquidity to sustain massive GPU and compute infrastructure costs.",
+        "Public markets struggle to value AI firms characterized by extreme capital burn, unproven software margins, and massive ongoing compute liabilities.",
+        "Sustaining scaling laws pushes AI startups toward massive private rounds or sovereign wealth, delaying traditional tech IPO pathways due to scale."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/degtqh",
-      "discuss_url": "https://lobste.rs/s/degtqh",
-      "score": 19,
-      "comments": 48,
-      "author": "caius",
-      "published": "2026-06-01T09:57:04Z",
+      "title": "kelvin versioning",
+      "url": "https://wiki.xxiivv.com/site/kelvin_versioning.html",
+      "discuss_url": "https://lobste.rs/s/2eaosl",
+      "score": 5,
+      "comments": 1,
+      "author": "hugoarnal",
+      "published": "2026-06-02T07:12:34Z",
       "bullets": [
-        "What are you doing this week?",
-        "Feel free to share!",
-        "Keep in mind it’s OK to do nothing at all, too."
+        "Kelvin Versioning decrements versions toward 0K (absolute zero), starting at 273.15, to signal a project's progression toward a completely frozen state.",
+        "Unlike SemVer's infinite increments, this scheme discourages perpetual feature creep by establishing a clear, mathematically defined end-of-life or feature-complete target.",
+        "It provides DevOps and SREs a predictable metric for dependency stability, ensuring libraries eventually reach zero-maintenance, bug-free maturity."
       ]
     },
     {
@@ -71,31 +71,31 @@
       "title": "The newest Instagram “exploit” is the goofiest I've seen",
       "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
       "discuss_url": "https://news.ycombinator.com/item?id=48359102",
-      "score": 1461,
-      "comments": 347,
+      "score": 1851,
+      "comments": 420,
       "author": "ssiddharth",
       "published": "2026-06-01T16:31:42Z",
       "bullets": [
-        "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-su...",
-        "The newest Instagram “exploit” is the goofiest I've seen",
-        "Trending on news.ycombinator.com — 1461 points, 347 comments."
+        "Attackers exploited Meta's AI support chatbot to bypass identity verification, allowing them to hijack and ban target Instagram accounts.",
+        "The incident highlights critical security risks in deploying LLM-powered customer service agents with direct API access to account management.",
+        "Organizations must restrict AI agents from performing high-privilege actions like account recovery without mandatory human-in-the-loop authorization."
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "devops",
-      "title": "github and the crime against software",
-      "url": "https://eblog.fly.dev/githubbad.html",
-      "discuss_url": "https://lobste.rs/s/vkoa7r",
-      "score": 43,
-      "comments": 19,
-      "author": "abnercoimbre",
-      "published": "2026-06-01T15:36:49Z",
+      "title": "Cloudflare Turnstile requiring fingerprintable WebGL",
+      "url": "https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting",
+      "discuss_url": "https://news.ycombinator.com/item?id=48345840",
+      "score": 774,
+      "comments": 463,
+      "author": "HypnoticOcelot",
+      "published": "2026-05-31T14:13:20Z",
       "bullets": [
-        "github and the crime against software",
-        "Trending on lobste.rs/devops — 43 points, 19 comments.",
-        "Submitted by abnercoimbre on lobste.rs/devops."
+        "Cloudflare Turnstile now mandates WebGL rendering, blocking privacy-conscious users who disable WebGL or use hardened browsers like Tor or Mullvad.",
+        "Headless browser automation (Playwright, Puppeteer) and CI/CD testing pipelines may fail Turnstile checks due to missing or spoofed WebGL signatures.",
+        "Infrastructure teams must monitor bounce rates and evaluate alternative bot-mitigation tools if Turnstile's aggressive fingerprinting blocks legitimate customer traffic."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Kyle Orland",
       "published": "2026-06-01T22:18:09Z",
       "bullets": [
-        "Some report burning through their whole monthly \"AI credit\" allotment in a single day.",
-        "AI costs how much? GitHub Copilot users react to new usage-based pricing system.",
-        "Submitted by Kyle Orland on arstechnica.com."
+        "GitHub Copilot transitioned to a usage-based model with metered AI credits, replacing flat-rate pricing for developer seats.",
+        "Early adopters report depleting their entire monthly Copilot AI credit allotment within a single day of active coding.",
+        "The shift signals growing pressure on GenAI vendors to offset massive LLM inference costs by passing them directly to users."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
       "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
       "discuss_url": "https://news.ycombinator.com/item?id=48364055",
-      "score": 159,
-      "comments": 340,
+      "score": 394,
+      "comments": 679,
       "author": "1vuio0pswjnm7",
       "published": "2026-06-01T23:45:46Z"
     },
@@ -136,8 +136,8 @@
       "title": "OpenAI frontier models and Codex are now available on AWS",
       "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
       "discuss_url": "https://news.ycombinator.com/item?id=48363132",
-      "score": 182,
-      "comments": 64,
+      "score": 280,
+      "comments": 96,
       "author": "typpo",
       "published": "2026-06-01T21:50:02Z"
     },
@@ -148,8 +148,8 @@
       "title": "Anthropic confidentially submits draft S-1 to the SEC",
       "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
       "discuss_url": "https://news.ycombinator.com/item?id=48358646",
-      "score": 468,
-      "comments": 383,
+      "score": 498,
+      "comments": 406,
       "author": "surprisetalk",
       "published": "2026-06-01T16:00:40Z"
     },
@@ -160,8 +160,8 @@
       "title": "Florida sues OpenAI and Sam Altman over AI risks",
       "url": "https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215",
       "discuss_url": "https://news.ycombinator.com/item?id=48358667",
-      "score": 192,
-      "comments": 164,
+      "score": 233,
+      "comments": 179,
       "author": "cyunker",
       "published": "2026-06-01T16:02:04Z"
     },
@@ -172,10 +172,22 @@
       "title": "It's Not Just X. It's Y",
       "url": "https://mail.cyberneticforests.com/its-not-just-data-its-post-training/",
       "discuss_url": "https://lobste.rs/s/4xllsb",
-      "score": 55,
+      "score": 57,
       "comments": 14,
       "author": "Yogthos",
       "published": "2026-06-01T03:33:55Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "thunderbolt-ibverbs: We have InfiniBand at home",
+      "url": "https://blog.hellas.ai/blog/thunderbolt-ibverbs/",
+      "discuss_url": "https://lobste.rs/s/t8emho",
+      "score": 3,
+      "comments": 0,
+      "author": "statusfailed",
+      "published": "2026-06-02T05:20:57Z"
     },
     {
       "source": "lobsters",
@@ -250,16 +262,16 @@
       "published": "2026-05-27T00:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
-      "url": "https://huggingface.co/blog/delta-weight-sync",
-      "discuss_url": "https://huggingface.co/blog/delta-weight-sync",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-05-27T00:00:00Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "kelvin versioning",
+      "url": "https://wiki.xxiivv.com/site/kelvin_versioning.html",
+      "discuss_url": "https://lobste.rs/s/2eaosl",
+      "score": 5,
+      "comments": 1,
+      "author": "hugoarnal",
+      "published": "2026-06-02T07:12:34Z"
     },
     {
       "source": "lobsters",
@@ -268,8 +280,8 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/degtqh",
       "discuss_url": "https://lobste.rs/s/degtqh",
-      "score": 19,
-      "comments": 48,
+      "score": 20,
+      "comments": 47,
       "author": "caius",
       "published": "2026-06-01T09:57:04Z"
     },
@@ -280,22 +292,10 @@
       "title": "I found a seashell in the middle of the desert",
       "url": "https://github.com/Hawzen/I-found-a-seashell-in-the-middle-of-the-desert#i-found-a-seashell-in-the-middle-of-the-desert",
       "discuss_url": "https://lobste.rs/s/qn9jdp",
-      "score": 52,
+      "score": 54,
       "comments": 2,
       "author": "anex9d",
       "published": "2026-05-31T12:57:16Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "A pragmatic set of modern colour space transforms for the Odin language",
-      "url": "https://github.com/heavyrain266/colourspace",
-      "discuss_url": "https://lobste.rs/s/flliys",
-      "score": 10,
-      "comments": 3,
-      "author": "heavyrain266",
-      "published": "2026-05-31T11:12:12Z"
     },
     {
       "source": "lobsters",
@@ -308,6 +308,18 @@
       "comments": 8,
       "author": "justinweiss",
       "published": "2026-05-29T15:02:24Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "A pragmatic set of modern colour space transforms for the Odin language",
+      "url": "https://github.com/heavyrain266/colourspace",
+      "discuss_url": "https://lobste.rs/s/flliys",
+      "score": 10,
+      "comments": 3,
+      "author": "heavyrain266",
+      "published": "2026-05-31T11:12:12Z"
     },
     {
       "source": "lobsters",
@@ -337,18 +349,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/nhppxf",
-      "discuss_url": "https://lobste.rs/s/nhppxf",
-      "score": 14,
-      "comments": 35,
-      "author": "caius",
-      "published": "2026-05-29T10:15:46Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Absurd is a Postgres-native durable workflow system",
       "url": "https://earendil-works.github.io/absurd/",
       "discuss_url": "https://lobste.rs/s/ypimpc",
@@ -368,6 +368,18 @@
       "comments": null,
       "author": "Natalie Guevara",
       "published": "2026-05-28T18:18:43Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "What it takes to be a player in the international AI game​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‍​﻿​​​﻿​﻿‌‍​‌‌‍​‍‌‍​‌​﻿‌﻿​﻿‌‌​‍﻿‌‌‍‌‍​﻿​‍‌‍​﻿​﻿​‌​‍﻿‌​﻿‌​​﻿‌‍‌‍‌​​﻿‍‌​‍﻿‌​﻿‍​​﻿‌‌​﻿​﻿​﻿‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‍​​﻿​﻿​﻿‍‌​﻿​​‌‍‌‌​﻿​﻿​﻿‌‌​﻿‌‍​﻿‍​​﻿‍‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‍​﻿​​​﻿​﻿‌‍​‌‌‍​‍‌‍​‌​﻿‌﻿​﻿‌‌​‍﻿‌‌‍‌‍​﻿​‍‌‍​﻿​﻿​‌​‍﻿‌​﻿‌​​﻿‌‍‌‍‌​​﻿‍‌​‍﻿‌​﻿‍​​﻿‌‌​﻿​﻿​﻿‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‍​​﻿​﻿​﻿‍‌​﻿​​‌‍‌‌​﻿​﻿​﻿‌‌​﻿‌‍​﻿‍​​﻿‍‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/06/02/be-a-player-in-the-international-ai-game/",
+      "discuss_url": "https://stackoverflow.blog/2026/06/02/be-a-player-in-the-international-ai-game/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-06-02T07:40:00Z"
     },
     {
       "source": "rss",
@@ -394,26 +406,14 @@
       "published": "2026-05-29T07:40:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "In an AI world, the most valuable developers will be both artisans and builders​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​​​﻿‌​‌‍‌‌​﻿​‌‌‍​‍​﻿‌‌‌‍‌‍​﻿‌‍​‍﻿‌‌‍​‍‌‍​‍​﻿‌​​﻿‌​​‍﻿‌​﻿‌​​﻿​‍​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍‌‌‍‌​​﻿​‌​﻿‍​​‍﻿‌‌‍‌‍‌‍​﻿‌‍​﻿​﻿‌﻿​﻿‌‌​﻿​‌​﻿‌﻿​﻿‌‍‌‍‌‍​﻿​​‌‍​‍​﻿​‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​​​﻿‌​‌‍‌‌​﻿​‌‌‍​‍​﻿‌‌‌‍‌‍​﻿‌‍​‍﻿‌‌‍​‍‌‍​‍​﻿‌​​﻿‌​​‍﻿‌​﻿‌​​﻿​‍​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍‌‌‍‌​​﻿​‌​﻿‍​​‍﻿‌‌‍‌‍‌‍​﻿‌‍​﻿​﻿‌﻿​﻿‌‌​﻿​‌​﻿‌﻿​﻿‌‍‌‍‌‍​﻿​​‌‍​‍​﻿​‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "url": "https://stackoverflow.blog/2026/05/28/artisans-and-builders/",
-      "discuss_url": "https://stackoverflow.blog/2026/05/28/artisans-and-builders/",
-      "score": null,
-      "comments": null,
-      "author": "Phoebe Sajor",
-      "published": "2026-05-28T16:00:00Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "The newest Instagram “exploit” is the goofiest I've seen",
       "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
       "discuss_url": "https://news.ycombinator.com/item?id=48359102",
-      "score": 1461,
-      "comments": 347,
+      "score": 1851,
+      "comments": 420,
       "author": "ssiddharth",
       "published": "2026-06-01T16:31:42Z"
     },
@@ -424,7 +424,7 @@
       "title": "iSCSI CHAP: Heap Buffer Overflow in the Linux Kernel",
       "url": "https://ahossu.ro/blog/iscsi-chap-base64-overflow",
       "discuss_url": "https://lobste.rs/s/exezj2",
-      "score": 5,
+      "score": 7,
       "comments": 0,
       "author": "fro",
       "published": "2026-06-01T18:25:24Z"
@@ -433,10 +433,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "ChatGPhish: The Page Is the Payload",
+      "url": "https://permiso.io/blog/chatgpt-markdown-rendering-vulnerability",
+      "discuss_url": "https://lobste.rs/s/hqcuy7",
+      "score": 1,
+      "comments": 0,
+      "author": "gerikson",
+      "published": "2026-06-02T07:50:59Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "securix: NixOS-based secure operating system. Provides a hardened environment with strong isolation, reproducibility, and policy-driven configurations",
       "url": "https://github.com/cloud-gouv/securix",
       "discuss_url": "https://lobste.rs/s/45dqvh",
-      "score": 23,
+      "score": 24,
       "comments": 7,
       "author": "koala",
       "published": "2026-05-31T09:40:35Z"
@@ -469,18 +481,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "On Reading SRAMs in IR Images, and Establishing Bounds on Trust",
-      "url": "https://www.bunniestudios.com/blog/2026/on-reading-srams-in-ir-images-and-establishing-bounds-on-trust/",
-      "discuss_url": "https://lobste.rs/s/oiyknx",
-      "score": 2,
-      "comments": 1,
-      "author": "cyplo",
-      "published": "2026-06-01T02:47:16Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Parallel Reconstruction of Lawful TLS Wiretapping",
       "url": "https://remyhax.xyz/posts/reproducing-lawful-tls-wiretapping/",
       "discuss_url": "https://lobste.rs/s/jedgbs",
@@ -488,6 +488,18 @@
       "comments": 4,
       "author": "bitshift",
       "published": "2026-05-30T21:49:58Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "On Reading SRAMs in IR Images, and Establishing Bounds on Trust",
+      "url": "https://www.bunniestudios.com/blog/2026/on-reading-srams-in-ir-images-and-establishing-bounds-on-trust/",
+      "discuss_url": "https://lobste.rs/s/oiyknx",
+      "score": 2,
+      "comments": 1,
+      "author": "cyplo",
+      "published": "2026-06-01T02:47:16Z"
     },
     {
       "source": "lobsters",
@@ -529,18 +541,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "An AI audit of FreeBSD",
-      "url": "https://blog.calif.io/p/an-ai-audit-of-freebsd",
-      "discuss_url": "https://lobste.rs/s/kdninn",
-      "score": 10,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-05-29T05:46:43Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Navigating the MTE Landscape: iOS Memory Protection Deep Dive",
       "url": "https://fuzzinglabs.com/wp-content/uploads/2026/05/Navigating_iOS_MTE_Landscape.pdf",
       "discuss_url": "https://lobste.rs/s/auvxjf",
@@ -550,28 +550,28 @@
       "published": "2026-05-30T18:15:21Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "github and the crime against software",
-      "url": "https://eblog.fly.dev/githubbad.html",
-      "discuss_url": "https://lobste.rs/s/vkoa7r",
-      "score": 43,
-      "comments": 19,
-      "author": "abnercoimbre",
-      "published": "2026-06-01T15:36:49Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Cloudflare Turnstile requiring fingerprintable WebGL",
       "url": "https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting",
       "discuss_url": "https://news.ycombinator.com/item?id=48345840",
-      "score": 772,
-      "comments": 453,
+      "score": 774,
+      "comments": 463,
       "author": "HypnoticOcelot",
       "published": "2026-05-31T14:13:20Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "github and the crime against software",
+      "url": "https://eblog.fly.dev/githubbad.html",
+      "discuss_url": "https://lobste.rs/s/vkoa7r",
+      "score": 57,
+      "comments": 24,
+      "author": "abnercoimbre",
+      "published": "2026-06-01T15:36:49Z"
     },
     {
       "source": "lobsters",
