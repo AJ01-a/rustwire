@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T10:45:22Z",
+  "updated_at": "2026-06-02T16:45:49Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
       "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
       "discuss_url": "https://news.ycombinator.com/item?id=48364055",
-      "score": 394,
-      "comments": 679,
+      "score": 585,
+      "comments": 995,
       "author": "1vuio0pswjnm7",
       "published": "2026-06-01T23:45:46Z",
       "bullets": [
-        "Frontier AI giants like OpenAI ($150B) and Anthropic require unprecedented public market liquidity to sustain massive GPU and compute infrastructure costs.",
-        "Public markets struggle to value AI firms characterized by extreme capital burn, unproven software margins, and massive ongoing compute liabilities.",
-        "Sustaining scaling laws pushes AI startups toward massive private rounds or sovereign wealth, delaying traditional tech IPO pathways due to scale."
+        "OpenAI ($150B) and Anthropic ($40B+) face massive capital demands that test public market capacity for high-burn AI IPOs.",
+        "Scaling frontier models requires unprecedented GPU infrastructure spend, shifting AI development viability from venture capital to public equity markets.",
+        "To justify multi-billion-dollar public valuations, AI firms must transition from subsidized API pricing to sustainable, high-margin enterprise revenue models."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "kelvin versioning",
-      "url": "https://wiki.xxiivv.com/site/kelvin_versioning.html",
-      "discuss_url": "https://lobste.rs/s/2eaosl",
-      "score": 5,
-      "comments": 1,
-      "author": "hugoarnal",
-      "published": "2026-06-02T07:12:34Z",
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/degtqh",
+      "discuss_url": "https://lobste.rs/s/degtqh",
+      "score": 20,
+      "comments": 47,
+      "author": "caius",
+      "published": "2026-06-01T09:57:04Z",
       "bullets": [
-        "Kelvin Versioning decrements versions toward 0K (absolute zero), starting at 273.15, to signal a project's progression toward a completely frozen state.",
-        "Unlike SemVer's infinite increments, this scheme discourages perpetual feature creep by establishing a clear, mathematically defined end-of-life or feature-complete target.",
-        "It provides DevOps and SREs a predictable metric for dependency stability, ensuring libraries eventually reach zero-maintenance, bug-free maturity."
+        "Engineers use weekly check-ins to share progress on systems programming, custom compilers, and writing tooling in Rust or Go.",
+        "DevOps and web engineers discuss self-hosting, database migrations (e.g., PostgreSQL, SQLite), and optimizing CI/CD build pipelines.",
+        "These developer threads provide technical accountability, peer feedback on niche architectures, and exposure to emerging open-source libraries."
       ]
     },
     {
@@ -71,48 +71,48 @@
       "title": "The newest Instagram “exploit” is the goofiest I've seen",
       "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
       "discuss_url": "https://news.ycombinator.com/item?id=48359102",
-      "score": 1851,
-      "comments": 420,
+      "score": 2060,
+      "comments": 455,
       "author": "ssiddharth",
       "published": "2026-06-01T16:31:42Z",
       "bullets": [
-        "Attackers exploited Meta's AI support chatbot to bypass identity verification, allowing them to hijack and ban target Instagram accounts.",
-        "The incident highlights critical security risks in deploying LLM-powered customer service agents with direct API access to account management.",
-        "Organizations must restrict AI agents from performing high-privilege actions like account recovery without mandatory human-in-the-loop authorization."
+        "Attackers hijacked Instagram accounts by tricking Meta’s AI customer support chatbot into bypassing standard verification and recovery protocols.",
+        "The exploit demonstrates how prompt injection and social engineering of LLM-based support agents can override multi-factor authentication.",
+        "Security teams must restrict AI chatbots from executing high-privilege actions like account recovery or password resets without human oversight."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "Cloudflare Turnstile requiring fingerprintable WebGL",
-      "url": "https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting",
-      "discuss_url": "https://news.ycombinator.com/item?id=48345840",
-      "score": 774,
-      "comments": 463,
-      "author": "HypnoticOcelot",
-      "published": "2026-05-31T14:13:20Z",
+      "title": "github and the crime against software",
+      "url": "https://eblog.fly.dev/githubbad.html",
+      "discuss_url": "https://lobste.rs/s/vkoa7r",
+      "score": 64,
+      "comments": 29,
+      "author": "abnercoimbre",
+      "published": "2026-06-01T15:36:49Z",
       "bullets": [
-        "Cloudflare Turnstile now mandates WebGL rendering, blocking privacy-conscious users who disable WebGL or use hardened browsers like Tor or Mullvad.",
-        "Headless browser automation (Playwright, Puppeteer) and CI/CD testing pipelines may fail Turnstile checks due to missing or spoofed WebGL signatures.",
-        "Infrastructure teams must monitor bounce rates and evaluate alternative bot-mitigation tools if Turnstile's aggressive fingerprinting blocks legitimate customer traffic."
+        "GitHub centralizes decentralized Git, creating vendor lock-in through proprietary metadata like Pull Requests, Issues, and GitHub Actions CI pipelines.",
+        "Mitigate centralization risks by exploring self-hosted open-source git alternatives like Forgejo, Gitea, or Sourcehut.",
+        "Ensure CI/CD portability by writing pipelines in standard shell scripts or agnostic tools instead of relying solely on proprietary YAML."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "AI costs how much? GitHub Copilot users react to new usage-based pricing system.",
-      "url": "https://arstechnica.com/ai/2026/06/ai-costs-how-much-github-copilot-users-react-to-new-usage-based-pricing-system/",
-      "discuss_url": "https://arstechnica.com/ai/2026/06/ai-costs-how-much-github-copilot-users-react-to-new-usage-based-pricing-system/",
+      "title": "Blue Origin has set a very aggressive return-to-flight timeline",
+      "url": "https://arstechnica.com/space/2026/06/blue-origin-vows-to-fly-its-new-glenn-rocket-before-the-end-of-this-year/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/blue-origin-vows-to-fly-its-new-glenn-rocket-before-the-end-of-this-year/",
       "score": null,
       "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-06-01T22:18:09Z",
+      "author": "Eric Berger",
+      "published": "2026-06-02T15:16:13Z",
       "bullets": [
-        "GitHub Copilot transitioned to a usage-based model with metered AI credits, replacing flat-rate pricing for developer seats.",
-        "Early adopters report depleting their entire monthly Copilot AI credit allotment within a single day of active coding.",
-        "The shift signals growing pressure on GenAI vendors to offset massive LLM inference costs by passing them directly to users."
+        "Blue Origin's critical launch infrastructure, including oxygen, liquid hydrogen, and LNG storage tanks, remains fully intact and undamaged.",
+        "Preserving the propellant farm avoids major ground support equipment rebuilds, accelerating the company's aggressive return-to-flight schedule.",
+        "Intact cryogenic assets minimize recovery downtime, clearing a key hardware hurdle for upcoming launch operations."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
       "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
       "discuss_url": "https://news.ycombinator.com/item?id=48364055",
-      "score": 394,
-      "comments": 679,
+      "score": 585,
+      "comments": 995,
       "author": "1vuio0pswjnm7",
       "published": "2026-06-01T23:45:46Z"
     },
@@ -136,8 +136,8 @@
       "title": "OpenAI frontier models and Codex are now available on AWS",
       "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
       "discuss_url": "https://news.ycombinator.com/item?id=48363132",
-      "score": 280,
-      "comments": 96,
+      "score": 342,
+      "comments": 115,
       "author": "typpo",
       "published": "2026-06-01T21:50:02Z"
     },
@@ -148,8 +148,8 @@
       "title": "Anthropic confidentially submits draft S-1 to the SEC",
       "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
       "discuss_url": "https://news.ycombinator.com/item?id=48358646",
-      "score": 498,
-      "comments": 406,
+      "score": 518,
+      "comments": 432,
       "author": "surprisetalk",
       "published": "2026-06-01T16:00:40Z"
     },
@@ -160,8 +160,8 @@
       "title": "Florida sues OpenAI and Sam Altman over AI risks",
       "url": "https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215",
       "discuss_url": "https://news.ycombinator.com/item?id=48358667",
-      "score": 233,
-      "comments": 179,
+      "score": 257,
+      "comments": 190,
       "author": "cyunker",
       "published": "2026-06-01T16:02:04Z"
     },
@@ -172,7 +172,7 @@
       "title": "It's Not Just X. It's Y",
       "url": "https://mail.cyberneticforests.com/its-not-just-data-its-post-training/",
       "discuss_url": "https://lobste.rs/s/4xllsb",
-      "score": 57,
+      "score": 61,
       "comments": 14,
       "author": "Yogthos",
       "published": "2026-06-01T03:33:55Z"
@@ -196,10 +196,22 @@
       "title": "Constraining LLMs Just Like Users",
       "url": "https://www.aeracode.org/2026/06/01/constraining-llms/",
       "discuss_url": "https://lobste.rs/s/zom23n",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "carlana",
       "published": "2026-06-01T23:07:30Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Holo3.1: Fast & Local Computer Use Agents",
+      "url": "https://huggingface.co/blog/Hcompany/holo31",
+      "discuss_url": "https://huggingface.co/blog/Hcompany/holo31",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-02T14:13:23Z"
     },
     {
       "source": "rss",
@@ -250,30 +262,6 @@
       "published": "2026-05-29T00:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Reachy Mini goes fully local",
-      "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
-      "discuss_url": "https://huggingface.co/blog/local-reachy-mini-conversation",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-05-27T00:00:00Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "kelvin versioning",
-      "url": "https://wiki.xxiivv.com/site/kelvin_versioning.html",
-      "discuss_url": "https://lobste.rs/s/2eaosl",
-      "score": 5,
-      "comments": 1,
-      "author": "hugoarnal",
-      "published": "2026-06-02T07:12:34Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
@@ -284,6 +272,18 @@
       "comments": 47,
       "author": "caius",
       "published": "2026-06-01T09:57:04Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Parallel Parentheses Matching",
+      "url": "https://williamdue.github.io/blog/parallel-parentheses-matching",
+      "discuss_url": "https://lobste.rs/s/se9uoy",
+      "score": 1,
+      "comments": 0,
+      "author": "athas",
+      "published": "2026-06-02T14:36:57Z"
     },
     {
       "source": "lobsters",
@@ -301,18 +301,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "bijou64: A variable-length integer encoding",
-      "url": "https://www.inkandswitch.com/tangents/bijou64/",
-      "discuss_url": "https://lobste.rs/s/40broz",
-      "score": 61,
-      "comments": 8,
-      "author": "justinweiss",
-      "published": "2026-05-29T15:02:24Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "A pragmatic set of modern colour space transforms for the Odin language",
       "url": "https://github.com/heavyrain266/colourspace",
       "discuss_url": "https://lobste.rs/s/flliys",
@@ -320,18 +308,6 @@
       "comments": 3,
       "author": "heavyrain266",
       "published": "2026-05-31T11:12:12Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Why does ASTC use ISE when almost nothing else does?",
-      "url": "https://fgiesen.wordpress.com/2026/05/29/why-does-astc-use-ise-when-almost-nothing-else-does/",
-      "discuss_url": "https://lobste.rs/s/ek75hg",
-      "score": 8,
-      "comments": 0,
-      "author": "calvin",
-      "published": "2026-06-01T01:19:27Z"
     },
     {
       "source": "lobsters",
@@ -349,13 +325,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Absurd is a Postgres-native durable workflow system",
-      "url": "https://earendil-works.github.io/absurd/",
-      "discuss_url": "https://lobste.rs/s/ypimpc",
-      "score": 4,
+      "title": "Why does ASTC use ISE when almost nothing else does?",
+      "url": "https://fgiesen.wordpress.com/2026/05/29/why-does-astc-use-ise-when-almost-nothing-else-does/",
+      "discuss_url": "https://lobste.rs/s/ek75hg",
+      "score": 8,
       "comments": 0,
-      "author": "Yogthos",
-      "published": "2026-05-29T16:27:37Z"
+      "author": "calvin",
+      "published": "2026-06-01T01:19:27Z"
     },
     {
       "source": "rss",
@@ -406,14 +382,38 @@
       "published": "2026-05-29T07:40:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "In an AI world, the most valuable developers will be both artisans and builders​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​​​﻿‌​‌‍‌‌​﻿​‌‌‍​‍​﻿‌‌‌‍‌‍​﻿‌‍​‍﻿‌‌‍​‍‌‍​‍​﻿‌​​﻿‌​​‍﻿‌​﻿‌​​﻿​‍​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍‌‌‍‌​​﻿​‌​﻿‍​​‍﻿‌‌‍‌‍‌‍​﻿‌‍​﻿​﻿‌﻿​﻿‌‌​﻿​‌​﻿‌﻿​﻿‌‍‌‍‌‍​﻿​​‌‍​‍​﻿​‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​​​﻿‌​‌‍‌‌​﻿​‌‌‍​‍​﻿‌‌‌‍‌‍​﻿‌‍​‍﻿‌‌‍​‍‌‍​‍​﻿‌​​﻿‌​​‍﻿‌​﻿‌​​﻿​‍​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍‌‌‍‌​​﻿​‌​﻿‍​​‍﻿‌‌‍‌‍‌‍​﻿‌‍​﻿​﻿‌﻿​﻿‌‌​﻿​‌​﻿‌﻿​﻿‌‍‌‍‌‍​﻿​​‌‍​‍​﻿​‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/05/28/artisans-and-builders/",
+      "discuss_url": "https://stackoverflow.blog/2026/05/28/artisans-and-builders/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-05-28T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Agents on a leash: Agentic AI remains mostly single-agent and monitored at work​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍​‍‌‍​‌‌‍​‌​﻿​﻿​﻿​‌‌‍‌‌‌‍‌​‌‍‌‌​‍﻿‌​﻿​﻿‌‍​‌‌‍‌‍​﻿‌‌​‍﻿‌​﻿‌​​﻿‌﻿​﻿‌​‌‍‌‌​‍﻿‌‌‍​‍​﻿​​​﻿‌‍​﻿​​​‍﻿‌​﻿‌﻿​﻿​​‌‍‌​‌‍‌​​﻿‌‌​﻿​﻿​﻿‌‍‌‍​﻿​﻿‌​​﻿‌‌​﻿​‍​﻿‍​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍​‍‌‍​‌‌‍​‌​﻿​﻿​﻿​‌‌‍‌‌‌‍‌​‌‍‌‌​‍﻿‌​﻿​﻿‌‍​‌‌‍‌‍​﻿‌‌​‍﻿‌​﻿‌​​﻿‌﻿​﻿‌​‌‍‌‌​‍﻿‌‌‍​‍​﻿​​​﻿‌‍​﻿​​​‍﻿‌​﻿‌﻿​﻿​​‌‍‌​‌‍‌​​﻿‌‌​﻿​﻿​﻿‌‍‌‍​﻿​﻿‌​​﻿‌‌​﻿​‍​﻿‍​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/05/27/agents-on-a-leash-agentic-ai-remains-mostly-monitored-at-work/",
+      "discuss_url": "https://stackoverflow.blog/2026/05/27/agents-on-a-leash-agentic-ai-remains-mostly-monitored-at-work/",
+      "score": null,
+      "comments": null,
+      "author": "Erin Yepis",
+      "published": "2026-05-27T14:00:00Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "The newest Instagram “exploit” is the goofiest I've seen",
       "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
       "discuss_url": "https://news.ycombinator.com/item?id=48359102",
-      "score": 1851,
-      "comments": 420,
+      "score": 2060,
+      "comments": 455,
       "author": "ssiddharth",
       "published": "2026-06-01T16:31:42Z"
     },
@@ -421,25 +421,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "iSCSI CHAP: Heap Buffer Overflow in the Linux Kernel",
-      "url": "https://ahossu.ro/blog/iscsi-chap-base64-overflow",
-      "discuss_url": "https://lobste.rs/s/exezj2",
+      "title": "Memory safety is a matter of life and death",
+      "url": "https://joshlf.com/posts/memory-safety-life-and-death/",
+      "discuss_url": "https://lobste.rs/s/67tqpz",
       "score": 7,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-06-01T18:25:24Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "ChatGPhish: The Page Is the Payload",
-      "url": "https://permiso.io/blog/chatgpt-markdown-rendering-vulnerability",
-      "discuss_url": "https://lobste.rs/s/hqcuy7",
-      "score": 1,
-      "comments": 0,
-      "author": "gerikson",
-      "published": "2026-06-02T07:50:59Z"
+      "comments": 2,
+      "author": "jswrenn",
+      "published": "2026-06-02T14:07:42Z"
     },
     {
       "source": "lobsters",
@@ -452,6 +440,18 @@
       "comments": 7,
       "author": "koala",
       "published": "2026-05-31T09:40:35Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "iSCSI CHAP: Heap Buffer Overflow in the Linux Kernel",
+      "url": "https://ahossu.ro/blog/iscsi-chap-base64-overflow",
+      "discuss_url": "https://lobste.rs/s/exezj2",
+      "score": 7,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-06-01T18:25:24Z"
     },
     {
       "source": "lobsters",
@@ -476,6 +476,18 @@
       "comments": 6,
       "author": "gi0baro",
       "published": "2026-05-29T17:51:55Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "ChatGPhish: The Page Is the Payload",
+      "url": "https://permiso.io/blog/chatgpt-markdown-rendering-vulnerability",
+      "discuss_url": "https://lobste.rs/s/hqcuy7",
+      "score": 1,
+      "comments": 0,
+      "author": "gerikson",
+      "published": "2026-06-02T07:50:59Z"
     },
     {
       "source": "lobsters",
@@ -539,37 +551,13 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Navigating the MTE Landscape: iOS Memory Protection Deep Dive",
-      "url": "https://fuzzinglabs.com/wp-content/uploads/2026/05/Navigating_iOS_MTE_Landscape.pdf",
-      "discuss_url": "https://lobste.rs/s/auvxjf",
-      "score": 3,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-05-30T18:15:21Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "devops",
-      "title": "Cloudflare Turnstile requiring fingerprintable WebGL",
-      "url": "https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting",
-      "discuss_url": "https://news.ycombinator.com/item?id=48345840",
-      "score": 774,
-      "comments": 463,
-      "author": "HypnoticOcelot",
-      "published": "2026-05-31T14:13:20Z"
-    },
-    {
-      "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "github and the crime against software",
       "url": "https://eblog.fly.dev/githubbad.html",
       "discuss_url": "https://lobste.rs/s/vkoa7r",
-      "score": 57,
-      "comments": 24,
+      "score": 64,
+      "comments": 29,
       "author": "abnercoimbre",
       "published": "2026-06-01T15:36:49Z"
     },
@@ -584,6 +572,18 @@
       "comments": 0,
       "author": "dryya",
       "published": "2026-05-31T14:45:12Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon RDS for SQL Server supports Bring Your Own Media",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-supports-bring-your-own-media/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-supports-bring-your-own-media/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-02T07:00:00Z"
     },
     {
       "source": "rss",
@@ -649,6 +649,18 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-01T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8i-m8i-flex-new-zealand/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8i-m8i-flex-new-zealand/",
@@ -673,18 +685,6 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-01T16:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
       "title": "Amazon SageMaker HyperPod now supports EFA-only network interfaces",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-efa-only/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-efa-only/",
@@ -692,6 +692,54 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-06-01T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Blue Origin has set a very aggressive return-to-flight timeline",
+      "url": "https://arstechnica.com/space/2026/06/blue-origin-vows-to-fly-its-new-glenn-rocket-before-the-end-of-this-year/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/blue-origin-vows-to-fly-its-new-glenn-rocket-before-the-end-of-this-year/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-06-02T15:16:13Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Slate Auto gets serious about privacy for its bare-bones EV pickup",
+      "url": "https://arstechnica.com/cars/2026/06/slate-says-its-electric-pickup-will-never-track-you/",
+      "discuss_url": "https://arstechnica.com/cars/2026/06/slate-says-its-electric-pickup-will-never-track-you/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-06-02T14:49:05Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Trump's DOE restarts energy rebate program with dumb conditions",
+      "url": "https://arstechnica.com/tech-policy/2026/06/trumps-doe-restarts-energy-rebate-program-with-dumb-conditions/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/trumps-doe-restarts-energy-rebate-program-with-dumb-conditions/",
+      "score": null,
+      "comments": null,
+      "author": "Dan Gearino, Inside Climate News",
+      "published": "2026-06-02T13:29:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Impulse Space raises $500 million as orbital maneuvering race heats up",
+      "url": "https://arstechnica.com/space/2026/06/impulse-space-raises-500-million-as-orbital-maneuvering-race-heats-up/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/impulse-space-raises-500-million-as-orbital-maneuvering-race-heats-up/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-06-02T12:00:54Z"
     },
     {
       "source": "rss",
@@ -788,54 +836,6 @@
       "comments": null,
       "author": "Ashley Belanger",
       "published": "2026-06-01T18:52:19Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "From 15 hours to one minute: How AI/ML is speeding up GM's development",
-      "url": "https://arstechnica.com/cars/2026/06/from-15-hours-to-one-minute-how-ai-ml-is-speeding-up-gms-development/",
-      "discuss_url": "https://arstechnica.com/cars/2026/06/from-15-hours-to-one-minute-how-ai-ml-is-speeding-up-gms-development/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-06-01T17:41:47Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Allegedly trashing Airbnbs to test robots puts startup in legal trouble",
-      "url": "https://arstechnica.com/ai/2026/06/allegedly-trashing-airbnbs-to-test-robots-puts-startup-in-legal-trouble/",
-      "discuss_url": "https://arstechnica.com/ai/2026/06/allegedly-trashing-airbnbs-to-test-robots-puts-startup-in-legal-trouble/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-06-01T17:17:55Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "AMD extends Socket AM5 support through at least 2029; AM4 refuses to die",
-      "url": "https://arstechnica.com/gadgets/2026/06/amd-extends-socket-am5-support-through-at-least-2029-am4-refuses-to-die/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/06/amd-extends-socket-am5-support-through-at-least-2029-am4-refuses-to-die/",
-      "score": null,
-      "comments": null,
-      "author": "Andrew Cunningham",
-      "published": "2026-06-01T17:02:22Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "ROG Xbox Ally X20 adds OLED screen, control upgrades",
-      "url": "https://arstechnica.com/gaming/2026/06/asus-gives-the-rox-xbox-ally-the-oled-screen-it-deserves/",
-      "discuss_url": "https://arstechnica.com/gaming/2026/06/asus-gives-the-rox-xbox-ally-the-oled-screen-it-deserves/",
-      "score": null,
-      "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-06-01T16:04:45Z"
     }
   ]
 }
