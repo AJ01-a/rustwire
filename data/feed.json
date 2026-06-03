@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-03T17:02:57Z",
+  "updated_at": "2026-06-03T21:20:56Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
       "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
       "discuss_url": "https://news.ycombinator.com/item?id=48364055",
-      "score": 699,
-      "comments": 1233,
+      "score": 704,
+      "comments": 1246,
       "author": "1vuio0pswjnm7",
       "published": "2026-06-01T23:45:46Z",
       "bullets": [
-        "Valuations of OpenAI ($150B+), SpaceX, and Anthropic test public market capacity to absorb massive, capital-intensive tech enterprises.",
-        "Frontier model training costs force AI developers into deep compute partnerships with cloud giants like Microsoft, Amazon, and Google.",
-        "Public markets must evaluate high-burn, hardware-heavy AI operations that contrast sharply with traditional high-margin software business models."
+        "OpenAI ($150B valuation) and Anthropic ($40B) require massive public market capital to fund unprecedented GPU and infrastructure scaling costs.",
+        "Complex equity-for-compute deals with Microsoft and Google complicate IPO prospects, as public markets demand clear paths to profitability.",
+        "A shift to public markets forces AI labs to pivot from pure-play R&D to enterprise software monetization and commercial viability."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "revo, the programming language",
       "url": "https://gills.pages.dev/revo/",
       "discuss_url": "https://lobste.rs/s/ikkx3r",
-      "score": 44,
-      "comments": 5,
+      "score": 49,
+      "comments": 6,
       "author": "alurm",
       "published": "2026-06-02T17:39:22Z",
       "bullets": [
-        "Features a minimalist, expression-oriented syntax designed to simplify static analysis and reduce boilerplate in modern systems-level development.",
-        "The compiler targets optimized bytecode or LLVM IR, prioritizing low memory overhead and fast startup times.",
-        "Engineers should assess its early-stage ecosystem, custom runtime, and tooling limitations before prototyping production services."
+        "This language balances developer ergonomics with strict static typing, compile-time safety guarantees, and simplified syntax paradigms.",
+        "Analyze its concurrency primitives, memory management strategies, and interoperability options with established ecosystems like LLVM and C-ABI.",
+        "The compiler architecture focuses on rapid compilation times, minimal runtime overhead, and cross-compilation support for WebAssembly and native targets."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it",
       "url": "https://blog.nns.ee/2026/06/03/katana-badusb/",
       "discuss_url": "https://lobste.rs/s/mth4mj",
-      "score": 16,
+      "score": 28,
       "comments": 2,
       "author": "matthew2",
       "published": "2026-06-03T11:54:11Z",
       "bullets": [
-        "Acoustic injection attacks use ultrasound to exploit MEMS microphones, allowing remote command execution on voice-enabled PCs without physical access.",
-        "Malware can repurpose audio output jacks and speakers into microphones, bypassing OS microphone permissions to record local ambient audio silently.",
-        "Targeted acoustic frequencies can induce resonance in MEMS accelerometers or mechanical hard drives, leading to physical denial-of-service or data corruption."
+        "Acoustic command injection attacks exploit PC speakers using ultrasonic signals to trigger unauthorized voice assistant actions without physical device access.",
+        "These side-channel exploits bypass air-gapped protections, utilizing high-frequency sound waves to exfiltrate sensitive data or inject malicious commands covertly.",
+        "Defense strategies require disabling always-on microphones, implementing ultrasonic audio filters, and restricting physical proximity access to critical hardware interfaces."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "github and the crime against software",
       "url": "https://eblog.fly.dev/githubbad.html",
       "discuss_url": "https://lobste.rs/s/vkoa7r",
-      "score": 73,
+      "score": 75,
       "comments": 32,
       "author": "abnercoimbre",
       "published": "2026-06-01T15:36:49Z",
       "bullets": [
-        "GitHub locks DevOps into proprietary features like Actions, Issues, and PRs, making migrations to GitLab or Forgejo incredibly complex.",
-        "Centralizing Git hosting creates single points of failure, risking CI/CD pipelines and package registries during widespread GitHub platform outages.",
-        "GitHub replaces native, distributed Git protocols with proprietary APIs and web UIs, hindering offline development and open-source interoperability."
+        "Proprietary GitHub features like Issues, Pull Requests, and Actions create heavy vendor lock-in, undermining Git’s inherently decentralized architecture.",
+        "Over-reliance on a single centralized platform (GitHub) risks widespread CI/CD outages and vulnerability to arbitrary account suspensions or policy changes.",
+        "DevOps teams should evaluate open, decentralized alternatives like Sourcehut, GitLab, or self-hosted Gitea to regain control over their developer infrastructure."
       ]
     },
     {
@@ -105,14 +105,14 @@
       "title": "Morningstar values SpaceX at $780B, half its IPO target",
       "url": "https://www.reuters.com/business/media-telecom/morningstar-values-spacex-780-billion-half-its-ipo-target-2026-06-02/",
       "discuss_url": "https://news.ycombinator.com/item?id=48373909",
-      "score": 204,
-      "comments": 177,
+      "score": 208,
+      "comments": 183,
       "author": "berkeleyjunk",
       "published": "2026-06-02T18:09:53Z",
       "bullets": [
-        "Morningstar's $780B SpaceX valuation sits at half its rumored $1.5T IPO target, highlighting divergent market expectations for Starlink.",
-        "Financial models tie this valuation directly to Starlink's broadband margins and Starship's critical developmental milestones.",
-        "The valuation gap signals increased market scrutiny on high-capex space tech business models and satcom profitability forecasts."
+        "Morningstar's $780B valuation, down 50% from IPO targets, signals shifting investor expectations for capital-intensive, deep-tech infrastructure companies.",
+        "Future upside depends heavily on Starlink's global subscription growth and Starship achieving regular, low-cost orbital launch cadence.",
+        "The appraisal reflects broader market caution regarding regulatory hurdles, orbital debris mitigation, and long-term commercial monetization of space."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
       "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
       "discuss_url": "https://news.ycombinator.com/item?id=48364055",
-      "score": 699,
-      "comments": 1233,
+      "score": 704,
+      "comments": 1246,
       "author": "1vuio0pswjnm7",
       "published": "2026-06-01T23:45:46Z"
     },
@@ -136,7 +136,7 @@
       "title": "OpenAI frontier models and Codex are now available on AWS",
       "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
       "discuss_url": "https://news.ycombinator.com/item?id=48363132",
-      "score": 363,
+      "score": 364,
       "comments": 128,
       "author": "typpo",
       "published": "2026-06-01T21:50:02Z"
@@ -173,7 +173,7 @@
       "url": "https://trellis.unfoldml.com/blog/radix-attention-intro",
       "discuss_url": "https://lobste.rs/s/g5opue",
       "score": 1,
-      "comments": 0,
+      "comments": 1,
       "author": "ocramz",
       "published": "2026-06-03T07:16:58Z"
     },
@@ -268,8 +268,8 @@
       "title": "revo, the programming language",
       "url": "https://gills.pages.dev/revo/",
       "discuss_url": "https://lobste.rs/s/ikkx3r",
-      "score": 44,
-      "comments": 5,
+      "score": 49,
+      "comments": 6,
       "author": "alurm",
       "published": "2026-06-02T17:39:22Z"
     },
@@ -280,10 +280,22 @@
       "title": "Oils - Reviewing Our NLnet Grants After 4 Years",
       "url": "https://oils.pub/blog/2026/06/grants.html",
       "discuss_url": "https://lobste.rs/s/rlt5x6",
-      "score": 33,
+      "score": 41,
       "comments": 2,
       "author": "andyc",
       "published": "2026-06-02T20:57:41Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "‘No Way To Prevent This,’ Says Only Package Manager Where This Regularly Happens",
+      "url": "https://kevinpatel.xyz/posts/no-way-to-prevent-this/",
+      "discuss_url": "https://lobste.rs/s/unhyew",
+      "score": 1,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-06-03T20:54:58Z"
     },
     {
       "source": "lobsters",
@@ -361,18 +373,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Voxel Space",
-      "url": "https://s-macke.github.io/VoxelSpace/",
-      "discuss_url": "https://lobste.rs/s/fcoley",
-      "score": 18,
-      "comments": 2,
-      "author": "Yogthos",
-      "published": "2026-05-30T17:29:47Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Why does ASTC use ISE when almost nothing else does?",
       "url": "https://fgiesen.wordpress.com/2026/05/29/why-does-astc-use-ise-when-almost-nothing-else-does/",
       "discuss_url": "https://lobste.rs/s/ek75hg",
@@ -412,7 +412,7 @@
       "title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it",
       "url": "https://blog.nns.ee/2026/06/03/katana-badusb/",
       "discuss_url": "https://lobste.rs/s/mth4mj",
-      "score": 16,
+      "score": 28,
       "comments": 2,
       "author": "matthew2",
       "published": "2026-06-03T11:54:11Z"
@@ -421,11 +421,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "A Post-Quantum Future for Let's Encrypt",
+      "url": "https://letsencrypt.org/2026/06/03/pq-certs.html",
+      "discuss_url": "https://lobste.rs/s/djguny",
+      "score": 5,
+      "comments": 0,
+      "author": "fanf",
+      "published": "2026-06-03T19:07:13Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Full Disclosure: 1-Click GitHub Token Stealing via a VSCode Bug",
       "url": "https://blog.ammaraskar.com/github-token-stealing/",
       "discuss_url": "https://lobste.rs/s/fysuyw",
-      "score": 39,
-      "comments": 6,
+      "score": 50,
+      "comments": 12,
       "author": "ammar2",
       "published": "2026-06-03T00:22:59Z"
     },
@@ -436,10 +448,22 @@
       "title": "Codex Discovered a Hidden HTTP/2 Bomb",
       "url": "https://blog.calif.io/p/codex-discovered-a-hidden-http2-bomb",
       "discuss_url": "https://lobste.rs/s/cnbztx",
-      "score": 15,
-      "comments": 12,
+      "score": 19,
+      "comments": 13,
       "author": "freddyb",
       "published": "2026-06-02T20:03:10Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Please Do Not Hack Me - The Tale of a TeamSpeak Use-After-Free",
+      "url": "https://modzero.com/en/blog/please-do-not-hack-me/",
+      "discuss_url": "https://lobste.rs/s/fxksjw",
+      "score": 1,
+      "comments": 0,
+      "author": "freddyb",
+      "published": "2026-06-03T20:09:21Z"
     },
     {
       "source": "lobsters",
@@ -448,7 +472,7 @@
       "title": "The Newest Instagram \"Exploit\" is the Goofiest I've Seen",
       "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
       "discuss_url": "https://lobste.rs/s/pmkmil",
-      "score": 68,
+      "score": 69,
       "comments": 13,
       "author": "sinic",
       "published": "2026-06-01T17:38:50Z"
@@ -464,6 +488,18 @@
       "comments": 0,
       "author": "mtlynch",
       "published": "2026-06-03T10:29:40Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Pilcrow's auth book",
+      "url": "https://auth.pilcrowonpaper.com/",
+      "discuss_url": "https://lobste.rs/s/a9qqxl",
+      "score": 1,
+      "comments": 0,
+      "author": "andrewchou",
+      "published": "2026-06-03T17:36:13Z"
     },
     {
       "source": "lobsters",
@@ -515,48 +551,12 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Claw Patrol: an open-source security firewall for agents",
-      "url": "https://deno.com/blog/clawpatrol",
-      "discuss_url": "https://lobste.rs/s/jc0jsn",
-      "score": 3,
-      "comments": 3,
-      "author": "boramalper",
-      "published": "2026-05-30T20:00:19Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "On Reading SRAMs in IR Images, and Establishing Bounds on Trust",
-      "url": "https://www.bunniestudios.com/blog/2026/on-reading-srams-in-ir-images-and-establishing-bounds-on-trust/",
-      "discuss_url": "https://lobste.rs/s/oiyknx",
-      "score": 2,
-      "comments": 1,
-      "author": "cyplo",
-      "published": "2026-06-01T02:47:16Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "ChatGPhish: The Page Is the Payload",
-      "url": "https://permiso.io/blog/chatgpt-markdown-rendering-vulnerability",
-      "discuss_url": "https://lobste.rs/s/hqcuy7",
-      "score": 1,
-      "comments": 0,
-      "author": "gerikson",
-      "published": "2026-06-02T07:50:59Z"
-    },
-    {
-      "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "github and the crime against software",
       "url": "https://eblog.fly.dev/githubbad.html",
       "discuss_url": "https://lobste.rs/s/vkoa7r",
-      "score": 73,
+      "score": 75,
       "comments": 32,
       "author": "abnercoimbre",
       "published": "2026-06-01T15:36:49Z"
@@ -589,6 +589,66 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "Amazon SageMaker Data Agent now supports conversation history",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-03T20:26:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon SageMaker Unified Studio now supports notebook scheduling",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-03T20:13:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Step Functions adds AgentCore-powered agentic reasoning step",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-agentcore/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-agentcore/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-03T20:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "OpenAI GPT-5.4 generally available on Amazon Bedrock in AWS GovCloud (US-West)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/GPT54-available-in-aws-govcloud-us-west/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/GPT54-available-in-aws-govcloud-us-west/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-03T19:58:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "ARC Region switch adds Amazon Aurora scaling and Amazon Neptune global database failover",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/region-switch-aurora-scaling-neptune-failover/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/region-switch-aurora-scaling-neptune-failover/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-03T17:44:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon Keyspaces (for Apache Cassandra) now provides CDC iterator position",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/keyspaces-cdc-iterator-position/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/keyspaces-cdc-iterator-position/",
@@ -596,6 +656,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-06-03T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon SageMaker Unified Studio now supports a localized experience in twelve languages",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/sagemaker-localization",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/sagemaker-localization",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-03T15:26:00Z"
     },
     {
       "source": "rss",
@@ -613,85 +685,13 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon EKS and Amazon EKS Distro now supports Kubernetes version 1.36",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-distro-kubernetes-version-1-36",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-distro-kubernetes-version-1-36",
+      "title": "AWS Config now supports 9 new resource types",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-config-new-resource-types",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-config-new-resource-types",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-06-02T21:48:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Config now supports internal service linked rules",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-supports-internal-service-linked-rules",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-supports-internal-service-linked-rules",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-02T18:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Deadline Cloud now supports persistent storage for Service Managed Fleets",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/persistent-storage",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/persistent-storage",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-02T17:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon SageMaker Studio now sets up in seconds with model customization ready from the start",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/quick-setup-model-customization-sagemaker-studio/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/quick-setup-model-customization-sagemaker-studio/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-02T16:23:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon ElastiCache for Valkey now supports durability",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/durability-amazon-elasticache",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/durability-amazon-elasticache",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-02T15:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Location Service announces public transit and intermodal routing",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-location-service/amazon-location-new-public-transit-intermodal-routing",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-location-service/amazon-location-new-public-transit-intermodal-routing",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-02T14:51:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Cost and Usage Report 2.0 now supports Athena and Redshift integration",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cur2.0-athena-redshift/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cur2.0-athena-redshift/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-02T13:40:00Z"
+      "published": "2026-06-03T15:00:00Z"
     },
     {
       "source": "hackernews",
@@ -700,8 +700,8 @@
       "title": "Morningstar values SpaceX at $780B, half its IPO target",
       "url": "https://www.reuters.com/business/media-telecom/morningstar-values-spacex-780-billion-half-its-ipo-target-2026-06-02/",
       "discuss_url": "https://news.ycombinator.com/item?id=48373909",
-      "score": 204,
-      "comments": 177,
+      "score": 208,
+      "comments": 183,
       "author": "berkeleyjunk",
       "published": "2026-06-02T18:09:53Z"
     },
