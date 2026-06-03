@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-03T11:08:58Z",
+  "updated_at": "2026-06-03T17:02:57Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
       "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
       "discuss_url": "https://news.ycombinator.com/item?id=48364055",
-      "score": 692,
-      "comments": 1218,
+      "score": 699,
+      "comments": 1233,
       "author": "1vuio0pswjnm7",
       "published": "2026-06-01T23:45:46Z",
       "bullets": [
-        "OpenAI and Anthropic face immense public liquidity hurdles due to unprecedented private valuations of $150B+ and $40B+ respectively.",
-        "Public markets demand proven margins, challenging the high GPU capex and compute scaling costs of frontier AI laboratory business models.",
-        "OpenAI’s restructuring from non-profit control is a critical prerequisite to access the massive public capital required for future model training."
+        "Valuations of OpenAI ($150B+), SpaceX, and Anthropic test public market capacity to absorb massive, capital-intensive tech enterprises.",
+        "Frontier model training costs force AI developers into deep compute partnerships with cloud giants like Microsoft, Amazon, and Google.",
+        "Public markets must evaluate high-burn, hardware-heavy AI operations that contrast sharply with traditional high-margin software business models."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "revo, the programming language",
       "url": "https://gills.pages.dev/revo/",
       "discuss_url": "https://lobste.rs/s/ikkx3r",
-      "score": 33,
-      "comments": 3,
+      "score": 44,
+      "comments": 5,
       "author": "alurm",
       "published": "2026-06-02T17:39:22Z",
       "bullets": [
-        "Revo introduces an experimental syntax and runtime, targeting modern engineering needs with a focus on simplicity and performance.",
-        "Engineers evaluate its memory management model and type system, comparing its developer experience to Rust, Go, or Zig.",
-        "The compiler design, intermediate representation, and LLVM integration represent key technical points of interest for language implementers."
+        "Features a minimalist, expression-oriented syntax designed to simplify static analysis and reduce boilerplate in modern systems-level development.",
+        "The compiler targets optimized bytecode or LLVM IR, prioritizing low memory overhead and fast startup times.",
+        "Engineers should assess its early-stage ecosystem, custom runtime, and tooling limitations before prototyping production services."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "The newest Instagram “exploit” is the goofiest I've seen",
-      "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
-      "discuss_url": "https://news.ycombinator.com/item?id=48359102",
-      "score": 2154,
-      "comments": 474,
-      "author": "ssiddharth",
-      "published": "2026-06-01T16:31:42Z",
+      "title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it",
+      "url": "https://blog.nns.ee/2026/06/03/katana-badusb/",
+      "discuss_url": "https://lobste.rs/s/mth4mj",
+      "score": 16,
+      "comments": 2,
+      "author": "matthew2",
+      "published": "2026-06-03T11:54:11Z",
       "bullets": [
-        "Hackers exploited Meta's AI support chatbot vulnerabilities to hijack Instagram accounts and bypass standard authentication controls.",
-        "The flaw underscores the risk of delegating high-privilege administrative tasks, like account recovery, to automated LLM support agents.",
-        "Organizations must implement strict human-in-the-loop verification for AI-driven customer service systems to prevent automated social engineering."
+        "Acoustic injection attacks use ultrasound to exploit MEMS microphones, allowing remote command execution on voice-enabled PCs without physical access.",
+        "Malware can repurpose audio output jacks and speakers into microphones, bypassing OS microphone permissions to record local ambient audio silently.",
+        "Targeted acoustic frequencies can induce resonance in MEMS accelerometers or mechanical hard drives, leading to physical denial-of-service or data corruption."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "abnercoimbre",
       "published": "2026-06-01T15:36:49Z",
       "bullets": [
-        "GitHub's centralization turns decentralized Git into a single point of failure (SPOF), threatening global software supply chain resilience.",
-        "Proprietary features like GitHub Actions and Pull Requests create heavy vendor lock-in, bypassing native, federated Git workflows.",
-        "DevOps teams should evaluate self-hosted or federated alternatives like GitLab, Forgejo, or Sourcehut to mitigate Microsoft ecosystem dependency."
+        "GitHub locks DevOps into proprietary features like Actions, Issues, and PRs, making migrations to GitLab or Forgejo incredibly complex.",
+        "Centralizing Git hosting creates single points of failure, risking CI/CD pipelines and package registries during widespread GitHub platform outages.",
+        "GitHub replaces native, distributed Git protocols with proprietary APIs and web UIs, hindering offline development and open-source interoperability."
       ]
     },
     {
@@ -105,14 +105,14 @@
       "title": "Morningstar values SpaceX at $780B, half its IPO target",
       "url": "https://www.reuters.com/business/media-telecom/morningstar-values-spacex-780-billion-half-its-ipo-target-2026-06-02/",
       "discuss_url": "https://news.ycombinator.com/item?id=48373909",
-      "score": 200,
-      "comments": 166,
+      "score": 204,
+      "comments": 177,
       "author": "berkeleyjunk",
       "published": "2026-06-02T18:09:53Z",
       "bullets": [
-        "Morningstar's $780B SpaceX valuation is half its rumored target, reflecting cautious projections on commercial space margins and capital constraints.",
-        "Valuation debates hinge on Starlink's subscriber scaling limits, ongoing Falcon 9 launch dominance, and the high-risk development of Starship.",
-        "Analysts question if Starlink's revenue can sustain expensive satellite replacement cycles and fund Starship development without continuous capital injections."
+        "Morningstar's $780B SpaceX valuation sits at half its rumored $1.5T IPO target, highlighting divergent market expectations for Starlink.",
+        "Financial models tie this valuation directly to Starlink's broadband margins and Starship's critical developmental milestones.",
+        "The valuation gap signals increased market scrutiny on high-capex space tech business models and satcom profitability forecasts."
       ]
     }
   ],
@@ -124,22 +124,10 @@
       "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
       "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
       "discuss_url": "https://news.ycombinator.com/item?id=48364055",
-      "score": 692,
-      "comments": 1218,
+      "score": 699,
+      "comments": 1233,
       "author": "1vuio0pswjnm7",
       "published": "2026-06-01T23:45:46Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Anthropic confidentially submits draft S-1 to the SEC",
-      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
-      "discuss_url": "https://news.ycombinator.com/item?id=48358646",
-      "score": 528,
-      "comments": 443,
-      "author": "surprisetalk",
-      "published": "2026-06-01T16:00:40Z"
     },
     {
       "source": "hackernews",
@@ -148,22 +136,10 @@
       "title": "OpenAI frontier models and Codex are now available on AWS",
       "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
       "discuss_url": "https://news.ycombinator.com/item?id=48363132",
-      "score": 360,
-      "comments": 127,
+      "score": 363,
+      "comments": 128,
       "author": "typpo",
       "published": "2026-06-01T21:50:02Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Florida sues OpenAI and Sam Altman over AI risks",
-      "url": "https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215",
-      "discuss_url": "https://news.ycombinator.com/item?id=48358667",
-      "score": 265,
-      "comments": 193,
-      "author": "cyunker",
-      "published": "2026-06-01T16:02:04Z"
     },
     {
       "source": "lobsters",
@@ -181,6 +157,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
+      "title": "thunderbolt-ibverbs: We have InfiniBand at home",
+      "url": "https://blog.hellas.ai/blog/thunderbolt-ibverbs/",
+      "discuss_url": "https://lobste.rs/s/t8emho",
+      "score": 4,
+      "comments": 3,
+      "author": "statusfailed",
+      "published": "2026-06-02T05:20:57Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
       "title": "Introducing RadixAttention to Trellis",
       "url": "https://trellis.unfoldml.com/blog/radix-attention-intro",
       "discuss_url": "https://lobste.rs/s/g5opue",
@@ -193,18 +181,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "thunderbolt-ibverbs: We have InfiniBand at home",
-      "url": "https://blog.hellas.ai/blog/thunderbolt-ibverbs/",
-      "discuss_url": "https://lobste.rs/s/t8emho",
-      "score": 4,
-      "comments": 2,
-      "author": "statusfailed",
-      "published": "2026-06-02T05:20:57Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "Constraining LLMs Just Like Users",
       "url": "https://www.aeracode.org/2026/06/01/constraining-llms/",
       "discuss_url": "https://lobste.rs/s/zom23n",
@@ -212,6 +188,30 @@
       "comments": 0,
       "author": "carlana",
       "published": "2026-06-01T23:07:30Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Direct Preference Optimization Beyond Chatbots",
+      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "discuss_url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-03T12:55:11Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Adding MCP Tools to Reachy Mini",
+      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "discuss_url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-03T00:00:00Z"
     },
     {
       "source": "rss",
@@ -268,8 +268,8 @@
       "title": "revo, the programming language",
       "url": "https://gills.pages.dev/revo/",
       "discuss_url": "https://lobste.rs/s/ikkx3r",
-      "score": 33,
-      "comments": 3,
+      "score": 44,
+      "comments": 5,
       "author": "alurm",
       "published": "2026-06-02T17:39:22Z"
     },
@@ -280,8 +280,8 @@
       "title": "Oils - Reviewing Our NLnet Grants After 4 Years",
       "url": "https://oils.pub/blog/2026/06/grants.html",
       "discuss_url": "https://lobste.rs/s/rlt5x6",
-      "score": 27,
-      "comments": 1,
+      "score": 33,
+      "comments": 2,
       "author": "andyc",
       "published": "2026-06-02T20:57:41Z"
     },
@@ -292,8 +292,8 @@
       "title": "Self-calling executables",
       "url": "https://log.pfad.fr/2026/self-calling-executable/",
       "discuss_url": "https://lobste.rs/s/o78n3y",
-      "score": 6,
-      "comments": 4,
+      "score": 7,
+      "comments": 6,
       "author": "oliverpool",
       "published": "2026-06-02T16:54:12Z"
     },
@@ -337,18 +337,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Parallel Parentheses Matching",
-      "url": "https://williamdue.github.io/blog/parallel-parentheses-matching",
-      "discuss_url": "https://lobste.rs/s/se9uoy",
-      "score": 3,
-      "comments": 0,
-      "author": "athas",
-      "published": "2026-06-02T14:36:57Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "A pragmatic set of modern colour space transforms for the Odin language",
       "url": "https://github.com/heavyrain266/colourspace",
       "discuss_url": "https://lobste.rs/s/flliys",
@@ -356,6 +344,18 @@
       "comments": 3,
       "author": "heavyrain266",
       "published": "2026-05-31T11:12:12Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Parallel Parentheses Matching",
+      "url": "https://williamdue.github.io/blog/parallel-parentheses-matching",
+      "discuss_url": "https://lobste.rs/s/se9uoy",
+      "score": 3,
+      "comments": 0,
+      "author": "athas",
+      "published": "2026-06-02T14:36:57Z"
     },
     {
       "source": "lobsters",
@@ -406,16 +406,16 @@
       "published": "2026-05-28T18:18:43Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "The newest Instagram “exploit” is the goofiest I've seen",
-      "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
-      "discuss_url": "https://news.ycombinator.com/item?id=48359102",
-      "score": 2154,
-      "comments": 474,
-      "author": "ssiddharth",
-      "published": "2026-06-01T16:31:42Z"
+      "title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it",
+      "url": "https://blog.nns.ee/2026/06/03/katana-badusb/",
+      "discuss_url": "https://lobste.rs/s/mth4mj",
+      "score": 16,
+      "comments": 2,
+      "author": "matthew2",
+      "published": "2026-06-03T11:54:11Z"
     },
     {
       "source": "lobsters",
@@ -424,8 +424,8 @@
       "title": "Full Disclosure: 1-Click GitHub Token Stealing via a VSCode Bug",
       "url": "https://blog.ammaraskar.com/github-token-stealing/",
       "discuss_url": "https://lobste.rs/s/fysuyw",
-      "score": 29,
-      "comments": 4,
+      "score": 39,
+      "comments": 6,
       "author": "ammar2",
       "published": "2026-06-03T00:22:59Z"
     },
@@ -436,10 +436,22 @@
       "title": "Codex Discovered a Hidden HTTP/2 Bomb",
       "url": "https://blog.calif.io/p/codex-discovered-a-hidden-http2-bomb",
       "discuss_url": "https://lobste.rs/s/cnbztx",
-      "score": 12,
-      "comments": 9,
+      "score": 15,
+      "comments": 12,
       "author": "freddyb",
       "published": "2026-06-02T20:03:10Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "The Newest Instagram \"Exploit\" is the Goofiest I've Seen",
+      "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
+      "discuss_url": "https://lobste.rs/s/pmkmil",
+      "score": 68,
+      "comments": 13,
+      "author": "sinic",
+      "published": "2026-06-01T17:38:50Z"
     },
     {
       "source": "lobsters",
@@ -448,7 +460,7 @@
       "title": "Golang code review notes II",
       "url": "https://www.elttam.com/blog/golang-code-review-notes-ii",
       "discuss_url": "https://lobste.rs/s/d0ixpj",
-      "score": 1,
+      "score": 3,
       "comments": 0,
       "author": "mtlynch",
       "published": "2026-06-03T10:29:40Z"
@@ -539,18 +551,6 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Navigating the MTE Landscape: iOS Memory Protection Deep Dive",
-      "url": "https://fuzzinglabs.com/wp-content/uploads/2026/05/Navigating_iOS_MTE_Landscape.pdf",
-      "discuss_url": "https://lobste.rs/s/auvxjf",
-      "score": 3,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-05-30T18:15:21Z"
-    },
-    {
-      "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "github and the crime against software",
@@ -584,6 +584,30 @@
       "comments": 0,
       "author": "dryya",
       "published": "2026-05-31T14:45:12Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Keyspaces (for Apache Cassandra) now provides CDC iterator position",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/keyspaces-cdc-iterator-position/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/keyspaces-cdc-iterator-position/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-03T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon SageMaker AI launches multi-turn reinforcement learning for AI agent model customization",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/multi-turn-reinforcement-learning-on-sagemaker-ai/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/multi-turn-reinforcement-learning-on-sagemaker-ai/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-03T15:00:00Z"
     },
     {
       "source": "rss",
@@ -670,40 +694,28 @@
       "published": "2026-06-02T13:40:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon RDS for SQL Server supports Bring Your Own Media",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-supports-bring-your-own-media/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-supports-bring-your-own-media/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-02T07:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS HealthOmics now supports Nextflow version pinning at run time",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-version-pinning-at-runtime/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-version-pinning-at-runtime/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-01T23:00:00Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "industry",
       "title": "Morningstar values SpaceX at $780B, half its IPO target",
       "url": "https://www.reuters.com/business/media-telecom/morningstar-values-spacex-780-billion-half-its-ipo-target-2026-06-02/",
       "discuss_url": "https://news.ycombinator.com/item?id=48373909",
-      "score": 200,
-      "comments": 166,
+      "score": 204,
+      "comments": 177,
       "author": "berkeleyjunk",
       "published": "2026-06-02T18:09:53Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Beans use an immune receptor to call in airstrikes on caterpillars",
+      "url": "https://arstechnica.com/science/2026/06/beans-use-an-immune-receptor-to-call-in-airstrikes-on-caterpillars/",
+      "discuss_url": "https://arstechnica.com/science/2026/06/beans-use-an-immune-receptor-to-call-in-airstrikes-on-caterpillars/",
+      "score": null,
+      "comments": null,
+      "author": "Jacek Krywko",
+      "published": "2026-06-03T11:15:07Z"
     },
     {
       "source": "rss",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Jennifer Ouellette",
       "published": "2026-06-02T17:58:29Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Number of suspected Ebola cases falls by hundreds as testing ramps up",
-      "url": "https://arstechnica.com/health/2026/06/number-of-suspected-ebola-cases-falls-by-hundreds-as-testing-ramps-up/",
-      "discuss_url": "https://arstechnica.com/health/2026/06/number-of-suspected-ebola-cases-falls-by-hundreds-as-testing-ramps-up/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-06-02T17:10:56Z"
     }
   ]
 }
