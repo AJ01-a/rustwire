@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T15:30:52Z",
+  "updated_at": "2026-06-04T20:10:48Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
       "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
       "discuss_url": "https://news.ycombinator.com/item?id=48392343",
-      "score": 311,
-      "comments": 160,
+      "score": 356,
+      "comments": 191,
       "author": "jc4p",
       "published": "2026-06-04T00:56:32Z",
       "bullets": [
-        "LLM agents struggle with multi-step logical exploits and state tracking, despite successfully identifying basic vulnerabilities like SQL injection and XSS.",
-        "Spending $1,500 on GPT-4 API calls revealed high cost-to-success ratios, making autonomous AI agents currently uneconomical for complex penetration testing.",
-        "LLMs excel as interactive co-pilots for human hackers, aiding in payload generation and code analysis rather than running fully autonomous exploits."
+        "Testing LLM agents (like GPT-4) against a custom vulnerable app cost $1,500, revealing high API consumption for autonomous exploitation.",
+        "LLMs successfully solved basic web vulnerabilities (SQLi, XSS) but struggled heavily with complex, multi-step logical chains and state tracking.",
+        "Current LLM agent architectures remain inefficient for pentesting, hampered by context window limitations and high rates of logical hallucination."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "revo, the programming language",
-      "url": "https://gills.pages.dev/revo/",
-      "discuss_url": "https://lobste.rs/s/ikkx3r",
-      "score": 60,
-      "comments": 7,
-      "author": "alurm",
-      "published": "2026-06-02T17:39:22Z",
+      "title": "Reproducible Builds in May 2026",
+      "url": "https://reproducible-builds.org/reports/2026-05/",
+      "discuss_url": "https://lobste.rs/s/cubjpv",
+      "score": 2,
+      "comments": 0,
+      "author": "fanf",
+      "published": "2026-06-04T19:47:34Z",
       "bullets": [
-        "Revo introduces a novel syntax and execution model, targeting lightweight systems programming and efficient compiler design.",
-        "The language focuses on modern type safety, minimal runtime overhead, and potential compilation to LLVM or WebAssembly backends.",
-        "Provides compiler enthusiasts and systems engineers a sandbox to explore custom AST parsing and alternative memory management paradigms."
+        "Achieving bit-for-bit identical binaries requires eliminating non-deterministic elements like local timestamps, CPU instructions, and absolute build paths from toolchains.",
+        "Toolchains like Nix, Guix, and modern Go/Rust compilers natively support hermetic builds to ensure predictable cryptographic hashes for target artifacts.",
+        "Deterministic builds secure the software supply chain, aligning CI/CD pipelines with SLSA Level 3/4 and SBOM standards like SPDX."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it",
       "url": "https://blog.nns.ee/2026/06/03/katana-badusb/",
       "discuss_url": "https://lobste.rs/s/mth4mj",
-      "score": 46,
+      "score": 48,
       "comments": 5,
       "author": "matthew2",
       "published": "2026-06-03T11:54:11Z",
       "bullets": [
-        "Acoustic injection attacks target MEMS microphones using ultrasonic waves to silently execute unauthorized system commands on nearby PCs.",
-        "Attackers can leverage compromised smart speakers or audio systems to transmit sub-sensory, high-frequency payloads to target devices.",
-        "Key mitigations require disabling voice-wake triggers, applying software-based low-pass filters, and utilizing physical acoustic dampening on microphones."
+        "This attack vector leverages PC speakers for acoustic or ultrasonic injection, potentially exploiting mic-to-speaker hardware loops to execute unauthorized commands.",
+        "Security teams must assess threat models for acoustic side-channels, ensuring unused audio input devices are disabled at the OS level.",
+        "Air-gapped systems remain vulnerable to RF, electromagnetic, or acoustic leakage emitted directly from standard computer speakers."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "VoidZero Is Joining Cloudflare",
       "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
       "discuss_url": "https://news.ycombinator.com/item?id=48398055",
-      "score": 229,
-      "comments": 132,
+      "score": 478,
+      "comments": 228,
       "author": "coloneltcb",
       "published": "2026-06-04T13:00:51Z",
       "bullets": [
-        "Evan You’s VoidZero brings Rust-powered build tools like Rolldown and Oxc directly into Cloudflare’s edge developer ecosystem.",
-        "DevOps teams can expect faster CI/CD pipelines as Cloudflare integrates high-speed Rust bundlers to optimize edge worker deployments.",
-        "The acquisition positions Cloudflare to offer native, ultra-fast JavaScript compilation and bundling directly within its global edge network."
+        "Integrating VoidZero's Rust-based tools like Rolldown and Oxc will accelerate build pipelines and edge deployments on Cloudflare Workers.",
+        "DevOps teams can expect faster CI/CD cycles as Vite and Vitest gain deeper native integration with Cloudflare's serverless infrastructure.",
+        "This consolidation shifts web build infrastructure toward highly optimized, Rust-native tooling to minimize cold starts and deployment latency at scale."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Morningstar values SpaceX at $780B, half its IPO target",
-      "url": "https://www.reuters.com/business/media-telecom/morningstar-values-spacex-780-billion-half-its-ipo-target-2026-06-02/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48373909",
-      "score": 211,
-      "comments": 191,
-      "author": "berkeleyjunk",
-      "published": "2026-06-02T18:09:53Z",
+      "title": "Elon Musk tries again to escape FTC audits of X data handling",
+      "url": "https://arstechnica.com/tech-policy/2026/06/elon-musk-tries-again-to-escape-ftc-audits-of-x-data-handling/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/elon-musk-tries-again-to-escape-ftc-audits-of-x-data-handling/",
+      "score": null,
+      "comments": null,
+      "author": "Ashley Belanger",
+      "published": "2026-06-04T19:49:12Z",
       "bullets": [
-        "Morningstar's $780B appraisal reflects a conservative market discount on SpaceX's capital-intensive, high-capex aerospace and deep-tech business model.",
-        "The valuation hinges on Starlink achieving massive subscriber growth and SpaceX demonstrating the commercial viability of its reusable Starship launcher.",
-        "The disparity highlights the financial complexity of valuing a company transitioning from launch services to a high-margin global telecom provider."
+        "Elon Musk petitioned the FTC to terminate or modify the 2022 consent decree governing X’s data security and privacy practices.",
+        "Public commenters warned the FTC that X cannot be trusted with user data, urging the agency to maintain strict audit oversight.",
+        "The dispute underscores the high stakes of regulatory compliance for platform scale data architectures and user privacy governance."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
       "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
       "discuss_url": "https://news.ycombinator.com/item?id=48392343",
-      "score": 311,
-      "comments": 160,
+      "score": 356,
+      "comments": 191,
       "author": "jc4p",
       "published": "2026-06-04T00:56:32Z"
     },
@@ -136,8 +136,8 @@
       "title": "The ways we contain Claude across products",
       "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
       "discuss_url": "https://news.ycombinator.com/item?id=48392082",
-      "score": 174,
-      "comments": 80,
+      "score": 216,
+      "comments": 93,
       "author": "jbredeche",
       "published": "2026-06-04T00:27:52Z"
     },
@@ -148,7 +148,7 @@
       "title": "It's Not Just X. It's Y",
       "url": "https://mail.cyberneticforests.com/its-not-just-data-its-post-training/",
       "discuss_url": "https://lobste.rs/s/4xllsb",
-      "score": 61,
+      "score": 60,
       "comments": 14,
       "author": "Yogthos",
       "published": "2026-06-01T03:33:55Z"
@@ -193,13 +193,13 @@
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
-      "title": "How to Fine-Tune Nemotron 3.5 ASR for Your Language, Domain, or Accent",
-      "url": "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr",
-      "discuss_url": "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr",
+      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "discuss_url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
       "score": null,
       "comments": null,
       "author": null,
-      "published": "2026-06-04T12:59:35Z"
+      "published": "2026-06-04T18:57:45Z"
     },
     {
       "source": "rss",
@@ -265,6 +265,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Reproducible Builds in May 2026",
+      "url": "https://reproducible-builds.org/reports/2026-05/",
+      "discuss_url": "https://lobste.rs/s/cubjpv",
+      "score": 2,
+      "comments": 0,
+      "author": "fanf",
+      "published": "2026-06-04T19:47:34Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "revo, the programming language",
       "url": "https://gills.pages.dev/revo/",
       "discuss_url": "https://lobste.rs/s/ikkx3r",
@@ -289,6 +301,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Self-calling executables",
+      "url": "https://log.pfad.fr/2026/self-calling-executable/",
+      "discuss_url": "https://lobste.rs/s/o78n3y",
+      "score": 10,
+      "comments": 9,
+      "author": "oliverpool",
+      "published": "2026-06-02T16:54:12Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/degtqh",
       "discuss_url": "https://lobste.rs/s/degtqh",
@@ -301,22 +325,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Self-calling executables",
-      "url": "https://log.pfad.fr/2026/self-calling-executable/",
-      "discuss_url": "https://lobste.rs/s/o78n3y",
-      "score": 9,
-      "comments": 6,
-      "author": "oliverpool",
-      "published": "2026-06-02T16:54:12Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Wordplay: Accessible, Multilingual, Programmable Typography",
       "url": "https://wordplay.dev/",
       "discuss_url": "https://lobste.rs/s/amwa2w",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "azhenley",
       "published": "2026-06-04T05:44:16Z"
@@ -361,6 +373,18 @@
       "source": "rss",
       "subsource": "github.blog",
       "category": "engineering",
+      "title": "GitHub Universe is back: All together now, in the agentic era",
+      "url": "https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/",
+      "discuss_url": "https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-06-04T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
       "title": "GitHub Copilot app: The agent-native desktop experience",
       "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
       "discuss_url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
@@ -368,18 +392,6 @@
       "comments": null,
       "author": "Natalie Guevara",
       "published": "2026-06-02T17:30:03Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Still a developer. Just outside. Our latest GitHub Shop collection is here.",
-      "url": "https://github.blog/news-insights/company-news/still-a-developer-just-outside-our-latest-github-shop-collection-is-here/",
-      "discuss_url": "https://github.blog/news-insights/company-news/still-a-developer-just-outside-our-latest-github-shop-collection-is-here/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-05-28T18:18:43Z"
     },
     {
       "source": "rss",
@@ -394,25 +406,13 @@
       "published": "2026-06-02T07:40:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "Best of the Heap: First post of the past​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‍​﻿‌‍​﻿‍​‌‍‌‍​﻿​‌​﻿‌‍​﻿​​‌‍​‍​‍﻿‌‌‍​‍‌‍​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍​‍‌‍‌​​﻿‍‌​﻿​​​‍﻿‌​﻿‌﻿​﻿‌‌‌‍​‌​﻿​﻿​﻿‍‌​﻿​‌​﻿​‍‌‍‌​​﻿​‌​﻿‌​​﻿‌‌​﻿‌‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‍​﻿‌‍​﻿‍​‌‍‌‍​﻿​‌​﻿‌‍​﻿​​‌‍​‍​‍﻿‌‌‍​‍‌‍​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍​‍‌‍‌​​﻿‍‌​﻿​​​‍﻿‌​﻿‌﻿​﻿‌‌‌‍​‌​﻿​﻿​﻿‍‌​﻿​‌​﻿​‍‌‍‌​​﻿​‌​﻿‌​​﻿‌‌​﻿‌‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "url": "https://stackoverflow.blog/2026/05/29/best-of-the-heap-first-post-of-the-past/",
-      "discuss_url": "https://stackoverflow.blog/2026/05/29/best-of-the-heap-first-post-of-the-past/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Donovan",
-      "published": "2026-05-29T14:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it",
       "url": "https://blog.nns.ee/2026/06/03/katana-badusb/",
       "discuss_url": "https://lobste.rs/s/mth4mj",
-      "score": 46,
+      "score": 48,
       "comments": 5,
       "author": "matthew2",
       "published": "2026-06-03T11:54:11Z"
@@ -424,7 +424,7 @@
       "title": "Full Disclosure: 1-Click GitHub Token Stealing via a VSCode Bug",
       "url": "https://blog.ammaraskar.com/github-token-stealing/",
       "discuss_url": "https://lobste.rs/s/fysuyw",
-      "score": 67,
+      "score": 69,
       "comments": 15,
       "author": "ammar2",
       "published": "2026-06-03T00:22:59Z"
@@ -436,7 +436,7 @@
       "title": "A Post-Quantum Future for Let's Encrypt",
       "url": "https://letsencrypt.org/2026/06/03/pq-certs.html",
       "discuss_url": "https://lobste.rs/s/djguny",
-      "score": 29,
+      "score": 34,
       "comments": 0,
       "author": "fanf",
       "published": "2026-06-03T19:07:13Z"
@@ -556,8 +556,8 @@
       "title": "VoidZero Is Joining Cloudflare",
       "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
       "discuss_url": "https://news.ycombinator.com/item?id=48398055",
-      "score": 229,
-      "comments": 132,
+      "score": 478,
+      "comments": 228,
       "author": "coloneltcb",
       "published": "2026-06-04T13:00:51Z"
     },
@@ -584,6 +584,30 @@
       "comments": 0,
       "author": "gioele",
       "published": "2026-06-02T22:27:57Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Cognito now supports multi-Region replication",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-04T17:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon MQ is now available in the AWS European Sovereign Cloud (Germany) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mq-eur-sov-cloud",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mq-eur-sov-cloud",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-04T08:05:00Z"
     },
     {
       "source": "rss",
@@ -671,39 +695,87 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Keyspaces (for Apache Cassandra) now provides CDC iterator position",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/keyspaces-cdc-iterator-position/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/keyspaces-cdc-iterator-position/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Elon Musk tries again to escape FTC audits of X data handling",
+      "url": "https://arstechnica.com/tech-policy/2026/06/elon-musk-tries-again-to-escape-ftc-audits-of-x-data-handling/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/elon-musk-tries-again-to-escape-ftc-audits-of-x-data-handling/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-03T16:00:00Z"
+      "author": "Ashley Belanger",
+      "published": "2026-06-04T19:49:12Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon SageMaker Unified Studio now supports a localized experience in twelve languages",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/sagemaker-localization",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/sagemaker-localization",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Cable lobby warns of chaos if FCC doesn't relax ban on foreign routers",
+      "url": "https://arstechnica.com/tech-policy/2026/06/cable-lobby-warns-of-chaos-if-fcc-doesnt-relax-ban-on-foreign-routers/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/cable-lobby-warns-of-chaos-if-fcc-doesnt-relax-ban-on-foreign-routers/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-03T15:26:00Z"
+      "author": "Jon Brodkin",
+      "published": "2026-06-04T18:34:33Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Morningstar values SpaceX at $780B, half its IPO target",
-      "url": "https://www.reuters.com/business/media-telecom/morningstar-values-spacex-780-billion-half-its-ipo-target-2026-06-02/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48373909",
-      "score": 211,
-      "comments": 191,
-      "author": "berkeleyjunk",
-      "published": "2026-06-02T18:09:53Z"
+      "title": "Bumblebees can spontaneously solve problems, study finds",
+      "url": "https://arstechnica.com/science/2026/06/bumblebees-can-spontaneously-solve-problems-study-finds/",
+      "discuss_url": "https://arstechnica.com/science/2026/06/bumblebees-can-spontaneously-solve-problems-study-finds/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-06-04T18:00:35Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "After 11 years at Mars, NASA's MAVEN spacecraft went out with a whisper",
+      "url": "https://arstechnica.com/space/2026/06/after-11-years-at-mars-nasas-maven-spacecraft-went-out-with-a-whisper/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/after-11-years-at-mars-nasas-maven-spacecraft-went-out-with-a-whisper/",
+      "score": null,
+      "comments": null,
+      "author": "Stephen Clark",
+      "published": "2026-06-04T16:21:06Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "It doesn't feel very agricultural: The 2026 Subaru Solterra review",
+      "url": "https://arstechnica.com/cars/2026/06/2026-subaru-solterra-review-the-badge-engineered-bz-aint-bad/",
+      "discuss_url": "https://arstechnica.com/cars/2026/06/2026-subaru-solterra-review-the-badge-engineered-bz-aint-bad/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-06-04T15:43:51Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "How some data center operators are tackling their water use problems",
+      "url": "https://arstechnica.com/ai/2026/06/how-data-center-operators-are-tackling-their-water-use-problems/",
+      "discuss_url": "https://arstechnica.com/ai/2026/06/how-data-center-operators-are-tackling-their-water-use-problems/",
+      "score": null,
+      "comments": null,
+      "author": "Molly Taft, wired.com",
+      "published": "2026-06-04T14:11:32Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "My SSN was exposed in a breach at Columbia—a school I have no connection with",
+      "url": "https://arstechnica.com/tech-policy/2026/06/my-ssn-was-exposed-in-a-breach-at-columbia-a-school-i-have-no-connection-with/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/my-ssn-was-exposed-in-a-breach-at-columbia-a-school-i-have-no-connection-with/",
+      "score": null,
+      "comments": null,
+      "author": "Ashley Belanger",
+      "published": "2026-06-04T13:48:51Z"
     },
     {
       "source": "rss",
@@ -733,7 +805,7 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Microsoft, Atom Computing, EeroQ update their quantum computing progress",
+      "title": "Microsoft, Atom Computing update their quantum computing progress",
       "url": "https://arstechnica.com/science/2026/06/microsoft-atom-computing-eeroq-update-their-quantum-computing-progress/",
       "discuss_url": "https://arstechnica.com/science/2026/06/microsoft-atom-computing-eeroq-update-their-quantum-computing-progress/",
       "score": null,
@@ -764,78 +836,6 @@
       "comments": null,
       "author": "Dan Goodin",
       "published": "2026-06-03T19:53:14Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Google's new Gemma 4 12B model is designed to run on any laptop with 16GB of RAM",
-      "url": "https://arstechnica.com/google/2026/06/googles-new-gemma-4-open-ai-model-is-sized-for-your-laptop/",
-      "discuss_url": "https://arstechnica.com/google/2026/06/googles-new-gemma-4-open-ai-model-is-sized-for-your-laptop/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-06-03T19:10:03Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Trump plan to test AI models has a problem—US security teams were gutted by DOGE",
-      "url": "https://arstechnica.com/tech-policy/2026/06/trumps-ai-executive-order-may-not-prevent-dangerous-deployments/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/trumps-ai-executive-order-may-not-prevent-dangerous-deployments/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-06-03T18:11:15Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "New social features further Plex’s evolution from media server business",
-      "url": "https://arstechnica.com/gadgets/2026/06/new-social-features-further-plexs-evolution-from-media-server-business/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/06/new-social-features-further-plexs-evolution-from-media-server-business/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-06-03T17:35:06Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Autonomous vehicles were supposed to cut traffic—what if they don't?",
-      "url": "https://arstechnica.com/cars/2026/06/robotaxis-dont-cut-traffic-any-more-than-ride-hailing-study-finds/",
-      "discuss_url": "https://arstechnica.com/cars/2026/06/robotaxis-dont-cut-traffic-any-more-than-ride-hailing-study-finds/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-06-03T15:13:03Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Inside Meta's attempts to play catch-up with AI",
-      "url": "https://arstechnica.com/ai/2026/06/inside-metas-attempts-to-play-catch-up-with-ai/",
-      "discuss_url": "https://arstechnica.com/ai/2026/06/inside-metas-attempts-to-play-catch-up-with-ai/",
-      "score": null,
-      "comments": null,
-      "author": "Hannah Murphy, Financial Times",
-      "published": "2026-06-03T13:35:58Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Beans use an immune receptor to call in airstrikes on caterpillars",
-      "url": "https://arstechnica.com/science/2026/06/beans-use-an-immune-receptor-to-call-in-airstrikes-on-caterpillars/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/beans-use-an-immune-receptor-to-call-in-airstrikes-on-caterpillars/",
-      "score": null,
-      "comments": null,
-      "author": "Jacek Krywko",
-      "published": "2026-06-03T11:15:07Z"
     }
   ]
 }
