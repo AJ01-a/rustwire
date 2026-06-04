@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-03T21:20:56Z",
+  "updated_at": "2026-06-04T04:26:36Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -31,20 +31,20 @@
   ],
   "tldr": [
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
-      "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
-      "discuss_url": "https://news.ycombinator.com/item?id=48364055",
-      "score": 704,
-      "comments": 1246,
-      "author": "1vuio0pswjnm7",
-      "published": "2026-06-01T23:45:46Z",
+      "title": "It's Not Just X. It's Y",
+      "url": "https://mail.cyberneticforests.com/its-not-just-data-its-post-training/",
+      "discuss_url": "https://lobste.rs/s/4xllsb",
+      "score": 61,
+      "comments": 14,
+      "author": "Yogthos",
+      "published": "2026-06-01T03:33:55Z",
       "bullets": [
-        "OpenAI ($150B valuation) and Anthropic ($40B) require massive public market capital to fund unprecedented GPU and infrastructure scaling costs.",
-        "Complex equity-for-compute deals with Microsoft and Google complicate IPO prospects, as public markets demand clear paths to profitability.",
-        "A shift to public markets forces AI labs to pivot from pure-play R&D to enterprise software monetization and commercial viability."
+        "Supervised learning requires defining the target variable Y carefully, as optimizing the wrong label or metric undermines model utility.",
+        "Target leakage occurs when training features X inadvertently contain information about Y, artificially inflating validation scores but failing in production.",
+        "Successful AI deployment requires aligning Y with actual business outcomes rather than just maximizing statistical accuracy on arbitrary datasets."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "revo, the programming language",
       "url": "https://gills.pages.dev/revo/",
       "discuss_url": "https://lobste.rs/s/ikkx3r",
-      "score": 49,
-      "comments": 6,
+      "score": 55,
+      "comments": 7,
       "author": "alurm",
       "published": "2026-06-02T17:39:22Z",
       "bullets": [
-        "This language balances developer ergonomics with strict static typing, compile-time safety guarantees, and simplified syntax paradigms.",
-        "Analyze its concurrency primitives, memory management strategies, and interoperability options with established ecosystems like LLVM and C-ABI.",
-        "The compiler architecture focuses on rapid compilation times, minimal runtime overhead, and cross-compilation support for WebAssembly and native targets."
+        "Revo is a reversible programming language designed to execute computations both forwards and backwards with zero information loss.",
+        "It targets quantum computing simulation and energy-efficient thermodynamic computing paradigms by avoiding traditional state-destruction overhead.",
+        "The language introduces specialized syntax for invertible operations, ensuring deterministic bidirectional execution of control flows."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it",
       "url": "https://blog.nns.ee/2026/06/03/katana-badusb/",
       "discuss_url": "https://lobste.rs/s/mth4mj",
-      "score": 28,
-      "comments": 2,
+      "score": 37,
+      "comments": 4,
       "author": "matthew2",
       "published": "2026-06-03T11:54:11Z",
       "bullets": [
-        "Acoustic command injection attacks exploit PC speakers using ultrasonic signals to trigger unauthorized voice assistant actions without physical device access.",
-        "These side-channel exploits bypass air-gapped protections, utilizing high-frequency sound waves to exfiltrate sensitive data or inject malicious commands covertly.",
-        "Defense strategies require disabling always-on microphones, implementing ultrasonic audio filters, and restricting physical proximity access to critical hardware interfaces."
+        "Software can remap audio jack functions, silently converting output speakers into microphones to eavesdrop on surrounding physical environments.",
+        "Air-gapped PCs are vulnerable to ultrasonic command injection and data exfiltration using standard speakers and nearby mobile receivers.",
+        "Targeted acoustic frequencies can cause physical resonance in hard drives, triggering read/write errors and system crashes without physical access."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "abnercoimbre",
       "published": "2026-06-01T15:36:49Z",
       "bullets": [
-        "Proprietary GitHub features like Issues, Pull Requests, and Actions create heavy vendor lock-in, undermining Git’s inherently decentralized architecture.",
-        "Over-reliance on a single centralized platform (GitHub) risks widespread CI/CD outages and vulnerability to arbitrary account suspensions or policy changes.",
-        "DevOps teams should evaluate open, decentralized alternatives like Sourcehut, GitLab, or self-hosted Gitea to regain control over their developer infrastructure."
+        "GitHub centralizes Git, fostering vendor lock-in through proprietary PRs, non-standard APIs, and walled-garden developer collaboration tools.",
+        "Proprietary platforms like GitHub Actions limit CI/CD portability, making migration to open alternatives like GitLab or Forgejo highly labor-intensive.",
+        "DevOps engineers should adopt standard, decentralized Git workflows and self-hosted forges to preserve infrastructure autonomy and avoid single-vendor dependency."
       ]
     },
     {
@@ -105,42 +105,18 @@
       "title": "Morningstar values SpaceX at $780B, half its IPO target",
       "url": "https://www.reuters.com/business/media-telecom/morningstar-values-spacex-780-billion-half-its-ipo-target-2026-06-02/",
       "discuss_url": "https://news.ycombinator.com/item?id=48373909",
-      "score": 208,
-      "comments": 183,
+      "score": 210,
+      "comments": 188,
       "author": "berkeleyjunk",
       "published": "2026-06-02T18:09:53Z",
       "bullets": [
-        "Morningstar's $780B valuation, down 50% from IPO targets, signals shifting investor expectations for capital-intensive, deep-tech infrastructure companies.",
-        "Future upside depends heavily on Starlink's global subscription growth and Starship achieving regular, low-cost orbital launch cadence.",
-        "The appraisal reflects broader market caution regarding regulatory hurdles, orbital debris mitigation, and long-term commercial monetization of space."
+        "Morningstar values SpaceX at $780B, half its IPO target",
+        "Trending on news.ycombinator.com — 210 points, 188 comments.",
+        "Submitted by berkeleyjunk on news.ycombinator.com."
       ]
     }
   ],
   "discussions": [
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
-      "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
-      "discuss_url": "https://news.ycombinator.com/item?id=48364055",
-      "score": 704,
-      "comments": 1246,
-      "author": "1vuio0pswjnm7",
-      "published": "2026-06-01T23:45:46Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "OpenAI frontier models and Codex are now available on AWS",
-      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48363132",
-      "score": 364,
-      "comments": 128,
-      "author": "typpo",
-      "published": "2026-06-01T21:50:02Z"
-    },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
@@ -157,6 +133,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
+      "title": "Introducing RadixAttention to Trellis",
+      "url": "https://trellis.unfoldml.com/blog/radix-attention-intro",
+      "discuss_url": "https://lobste.rs/s/g5opue",
+      "score": 2,
+      "comments": 1,
+      "author": "ocramz",
+      "published": "2026-06-03T07:16:58Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
       "title": "thunderbolt-ibverbs: We have InfiniBand at home",
       "url": "https://blog.hellas.ai/blog/thunderbolt-ibverbs/",
       "discuss_url": "https://lobste.rs/s/t8emho",
@@ -164,18 +152,6 @@
       "comments": 3,
       "author": "statusfailed",
       "published": "2026-06-02T05:20:57Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Introducing RadixAttention to Trellis",
-      "url": "https://trellis.unfoldml.com/blog/radix-attention-intro",
-      "discuss_url": "https://lobste.rs/s/g5opue",
-      "score": 1,
-      "comments": 1,
-      "author": "ocramz",
-      "published": "2026-06-03T07:16:58Z"
     },
     {
       "source": "lobsters",
@@ -262,14 +238,26 @@
       "published": "2026-06-01T04:44:55Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
+      "url": "https://huggingface.co/blog/torch-profiler",
+      "discuss_url": "https://huggingface.co/blog/torch-profiler",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-05-29T00:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "revo, the programming language",
       "url": "https://gills.pages.dev/revo/",
       "discuss_url": "https://lobste.rs/s/ikkx3r",
-      "score": 49,
-      "comments": 6,
+      "score": 55,
+      "comments": 7,
       "author": "alurm",
       "published": "2026-06-02T17:39:22Z"
     },
@@ -280,34 +268,10 @@
       "title": "Oils - Reviewing Our NLnet Grants After 4 Years",
       "url": "https://oils.pub/blog/2026/06/grants.html",
       "discuss_url": "https://lobste.rs/s/rlt5x6",
-      "score": 41,
-      "comments": 2,
+      "score": 42,
+      "comments": 3,
       "author": "andyc",
       "published": "2026-06-02T20:57:41Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "‘No Way To Prevent This,’ Says Only Package Manager Where This Regularly Happens",
-      "url": "https://kevinpatel.xyz/posts/no-way-to-prevent-this/",
-      "discuss_url": "https://lobste.rs/s/unhyew",
-      "score": 1,
-      "comments": 0,
-      "author": "Yogthos",
-      "published": "2026-06-03T20:54:58Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Self-calling executables",
-      "url": "https://log.pfad.fr/2026/self-calling-executable/",
-      "discuss_url": "https://lobste.rs/s/o78n3y",
-      "score": 7,
-      "comments": 6,
-      "author": "oliverpool",
-      "published": "2026-06-02T16:54:12Z"
     },
     {
       "source": "lobsters",
@@ -325,10 +289,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Self-calling executables",
+      "url": "https://log.pfad.fr/2026/self-calling-executable/",
+      "discuss_url": "https://lobste.rs/s/o78n3y",
+      "score": 7,
+      "comments": 6,
+      "author": "oliverpool",
+      "published": "2026-06-02T16:54:12Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "I found a seashell in the middle of the desert",
       "url": "https://github.com/Hawzen/I-found-a-seashell-in-the-middle-of-the-desert#i-found-a-seashell-in-the-middle-of-the-desert",
       "discuss_url": "https://lobste.rs/s/qn9jdp",
-      "score": 54,
+      "score": 55,
       "comments": 2,
       "author": "anex9d",
       "published": "2026-05-31T12:57:16Z"
@@ -406,14 +382,26 @@
       "published": "2026-05-28T18:18:43Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "What it takes to be a player in the international AI game​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‍​﻿​​​﻿​﻿‌‍​‌‌‍​‍‌‍​‌​﻿‌﻿​﻿‌‌​‍﻿‌‌‍‌‍​﻿​‍‌‍​﻿​﻿​‌​‍﻿‌​﻿‌​​﻿‌‍‌‍‌​​﻿‍‌​‍﻿‌​﻿‍​​﻿‌‌​﻿​﻿​﻿‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‍​​﻿​﻿​﻿‍‌​﻿​​‌‍‌‌​﻿​﻿​﻿‌‌​﻿‌‍​﻿‍​​﻿‍‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‍​﻿​​​﻿​﻿‌‍​‌‌‍​‍‌‍​‌​﻿‌﻿​﻿‌‌​‍﻿‌‌‍‌‍​﻿​‍‌‍​﻿​﻿​‌​‍﻿‌​﻿‌​​﻿‌‍‌‍‌​​﻿‍‌​‍﻿‌​﻿‍​​﻿‌‌​﻿​﻿​﻿‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‍​​﻿​﻿​﻿‍‌​﻿​​‌‍‌‌​﻿​﻿​﻿‌‌​﻿‌‍​﻿‍​​﻿‍‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/06/02/be-a-player-in-the-international-ai-game/",
+      "discuss_url": "https://stackoverflow.blog/2026/06/02/be-a-player-in-the-international-ai-game/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-06-02T07:40:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it",
       "url": "https://blog.nns.ee/2026/06/03/katana-badusb/",
       "discuss_url": "https://lobste.rs/s/mth4mj",
-      "score": 28,
-      "comments": 2,
+      "score": 37,
+      "comments": 4,
       "author": "matthew2",
       "published": "2026-06-03T11:54:11Z"
     },
@@ -424,7 +412,7 @@
       "title": "A Post-Quantum Future for Let's Encrypt",
       "url": "https://letsencrypt.org/2026/06/03/pq-certs.html",
       "discuss_url": "https://lobste.rs/s/djguny",
-      "score": 5,
+      "score": 17,
       "comments": 0,
       "author": "fanf",
       "published": "2026-06-03T19:07:13Z"
@@ -436,8 +424,8 @@
       "title": "Full Disclosure: 1-Click GitHub Token Stealing via a VSCode Bug",
       "url": "https://blog.ammaraskar.com/github-token-stealing/",
       "discuss_url": "https://lobste.rs/s/fysuyw",
-      "score": 50,
-      "comments": 12,
+      "score": 59,
+      "comments": 15,
       "author": "ammar2",
       "published": "2026-06-03T00:22:59Z"
     },
@@ -457,25 +445,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Please Do Not Hack Me - The Tale of a TeamSpeak Use-After-Free",
-      "url": "https://modzero.com/en/blog/please-do-not-hack-me/",
-      "discuss_url": "https://lobste.rs/s/fxksjw",
-      "score": 1,
-      "comments": 0,
-      "author": "freddyb",
-      "published": "2026-06-03T20:09:21Z"
+      "title": "The Newest Instagram \"Exploit\" is the Goofiest I've Seen",
+      "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
+      "discuss_url": "https://lobste.rs/s/pmkmil",
+      "score": 70,
+      "comments": 13,
+      "author": "sinic",
+      "published": "2026-06-01T17:38:50Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "The Newest Instagram \"Exploit\" is the Goofiest I've Seen",
-      "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
-      "discuss_url": "https://lobste.rs/s/pmkmil",
-      "score": 69,
-      "comments": 13,
-      "author": "sinic",
-      "published": "2026-06-01T17:38:50Z"
+      "title": "Rooting Home Assistant through MeshCore: XSS attacks with a LoRa node name",
+      "url": "https://mxsasha.eu/posts/meshcore-xss-home-assistant/",
+      "discuss_url": "https://lobste.rs/s/0rtm7s",
+      "score": 1,
+      "comments": 0,
+      "author": "fanf",
+      "published": "2026-06-03T22:34:16Z"
     },
     {
       "source": "lobsters",
@@ -493,18 +481,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Pilcrow's auth book",
-      "url": "https://auth.pilcrowonpaper.com/",
-      "discuss_url": "https://lobste.rs/s/a9qqxl",
-      "score": 1,
-      "comments": 0,
-      "author": "andrewchou",
-      "published": "2026-06-03T17:36:13Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "securix: NixOS-based secure operating system. Provides a hardened environment with strong isolation, reproducibility, and policy-driven configurations",
       "url": "https://github.com/cloud-gouv/securix",
       "discuss_url": "https://lobste.rs/s/45dqvh",
@@ -512,6 +488,18 @@
       "comments": 7,
       "author": "koala",
       "published": "2026-05-31T09:40:35Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Please Do Not Hack Me - The Tale of a TeamSpeak Use-After-Free",
+      "url": "https://modzero.com/en/blog/please-do-not-hack-me/",
+      "discuss_url": "https://lobste.rs/s/fxksjw",
+      "score": 1,
+      "comments": 0,
+      "author": "freddyb",
+      "published": "2026-06-03T20:09:21Z"
     },
     {
       "source": "lobsters",
@@ -529,6 +517,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Pilcrow's auth book",
+      "url": "https://auth.pilcrowonpaper.com/",
+      "discuss_url": "https://lobste.rs/s/a9qqxl",
+      "score": 1,
+      "comments": 0,
+      "author": "andrewchou",
+      "published": "2026-06-03T17:36:13Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "iSCSI CHAP: Heap Buffer Overflow in the Linux Kernel",
       "url": "https://ahossu.ro/blog/iscsi-chap-base64-overflow",
       "discuss_url": "https://lobste.rs/s/exezj2",
@@ -536,18 +536,6 @@
       "comments": 0,
       "author": "fro",
       "published": "2026-06-01T18:25:24Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Parallel Reconstruction of Lawful TLS Wiretapping",
-      "url": "https://remyhax.xyz/posts/reproducing-lawful-tls-wiretapping/",
-      "discuss_url": "https://lobste.rs/s/jedgbs",
-      "score": 4,
-      "comments": 4,
-      "author": "bitshift",
-      "published": "2026-05-30T21:49:58Z"
     },
     {
       "source": "lobsters",
@@ -584,6 +572,18 @@
       "comments": 0,
       "author": "dryya",
       "published": "2026-05-31T14:45:12Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS IoT Device Management adds MQTT session data to connectivity status API",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-device-management-mqtt/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-device-management-mqtt/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-03T21:15:00Z"
     },
     {
       "source": "rss",
@@ -637,6 +637,18 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "AWS Compute Optimizer now supports 32-day lookback for EBS volume and ECS service rightsizing recommendations",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-ebs-ecs-32-day-lookback/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-ebs-ecs-32-day-lookback/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-03T18:30:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "ARC Region switch adds Amazon Aurora scaling and Amazon Neptune global database failover",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/region-switch-aurora-scaling-neptune-failover/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/region-switch-aurora-scaling-neptune-failover/",
@@ -670,40 +682,124 @@
       "published": "2026-06-03T15:26:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon SageMaker AI launches multi-turn reinforcement learning for AI agent model customization",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/multi-turn-reinforcement-learning-on-sagemaker-ai/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/multi-turn-reinforcement-learning-on-sagemaker-ai/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-03T15:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Config now supports 9 new resource types",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-config-new-resource-types",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-config-new-resource-types",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-03T15:00:00Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "industry",
       "title": "Morningstar values SpaceX at $780B, half its IPO target",
       "url": "https://www.reuters.com/business/media-telecom/morningstar-values-spacex-780-billion-half-its-ipo-target-2026-06-02/",
       "discuss_url": "https://news.ycombinator.com/item?id=48373909",
-      "score": 208,
-      "comments": 183,
+      "score": 210,
+      "comments": 188,
       "author": "berkeleyjunk",
       "published": "2026-06-02T18:09:53Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Flesh-eating screwworm infection confirmed in South Texas, USDA says",
+      "url": "https://arstechnica.com/health/2026/06/flesh-eating-screwworm-infection-detected-in-south-texas-usda-says/",
+      "discuss_url": "https://arstechnica.com/health/2026/06/flesh-eating-screwworm-infection-detected-in-south-texas-usda-says/",
+      "score": null,
+      "comments": null,
+      "author": "Beth Mole",
+      "published": "2026-06-04T02:46:35Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Microsoft, Atom Computing, EeroQ update their quantum computing progress",
+      "url": "https://arstechnica.com/science/2026/06/microsoft-atom-computing-eeroq-update-their-quantum-computing-progress/",
+      "discuss_url": "https://arstechnica.com/science/2026/06/microsoft-atom-computing-eeroq-update-their-quantum-computing-progress/",
+      "score": null,
+      "comments": null,
+      "author": "John Timmer",
+      "published": "2026-06-03T22:09:41Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Google ordered to put clearer links in AI search and let UK publishers opt out",
+      "url": "https://arstechnica.com/tech-policy/2026/06/google-ordered-to-put-clearer-links-in-ai-search-and-let-uk-publishers-opt-out/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/google-ordered-to-put-clearer-links-in-ai-search-and-let-uk-publishers-opt-out/",
+      "score": null,
+      "comments": null,
+      "author": "Jon Brodkin",
+      "published": "2026-06-03T20:26:51Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Can't make sense of Dashlane's vault theft notification? You're not alone.",
+      "url": "https://arstechnica.com/security/2026/06/dashlane-issues-opaque-advisory-warning-20-encrypted-vaults-were-stolen/",
+      "discuss_url": "https://arstechnica.com/security/2026/06/dashlane-issues-opaque-advisory-warning-20-encrypted-vaults-were-stolen/",
+      "score": null,
+      "comments": null,
+      "author": "Dan Goodin",
+      "published": "2026-06-03T19:53:14Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Google's new Gemma 4 12B model is designed to run on any laptop with 16GB of RAM",
+      "url": "https://arstechnica.com/google/2026/06/googles-new-gemma-4-open-ai-model-is-sized-for-your-laptop/",
+      "discuss_url": "https://arstechnica.com/google/2026/06/googles-new-gemma-4-open-ai-model-is-sized-for-your-laptop/",
+      "score": null,
+      "comments": null,
+      "author": "Ryan Whitwam",
+      "published": "2026-06-03T19:10:03Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Trump plan to test AI models has a problem—US security teams were gutted by DOGE",
+      "url": "https://arstechnica.com/tech-policy/2026/06/trumps-ai-executive-order-may-not-prevent-dangerous-deployments/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/trumps-ai-executive-order-may-not-prevent-dangerous-deployments/",
+      "score": null,
+      "comments": null,
+      "author": "Ashley Belanger",
+      "published": "2026-06-03T18:11:15Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "New social features further Plex’s evolution from media server business",
+      "url": "https://arstechnica.com/gadgets/2026/06/new-social-features-further-plexs-evolution-from-media-server-business/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/06/new-social-features-further-plexs-evolution-from-media-server-business/",
+      "score": null,
+      "comments": null,
+      "author": "Scharon Harding",
+      "published": "2026-06-03T17:35:06Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Autonomous vehicles were supposed to cut traffic—what if they don't?",
+      "url": "https://arstechnica.com/cars/2026/06/robotaxis-dont-cut-traffic-any-more-than-ride-hailing-study-finds/",
+      "discuss_url": "https://arstechnica.com/cars/2026/06/robotaxis-dont-cut-traffic-any-more-than-ride-hailing-study-finds/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-06-03T15:13:03Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Inside Meta's attempts to play catch-up with AI",
+      "url": "https://arstechnica.com/ai/2026/06/inside-metas-attempts-to-play-catch-up-with-ai/",
+      "discuss_url": "https://arstechnica.com/ai/2026/06/inside-metas-attempts-to-play-catch-up-with-ai/",
+      "score": null,
+      "comments": null,
+      "author": "Hannah Murphy, Financial Times",
+      "published": "2026-06-03T13:35:58Z"
     },
     {
       "source": "rss",
@@ -728,114 +824,6 @@
       "comments": null,
       "author": "Eric Berger",
       "published": "2026-06-03T10:00:07Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Male bowerbirds prefer to dazzle females with bright human-made items",
-      "url": "https://arstechnica.com/science/2026/06/male-bowerbirds-prefer-colorful-human-items-to-decorate-bowers/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/male-bowerbirds-prefer-colorful-human-items-to-decorate-bowers/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-06-02T23:05:31Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Microsoft plans Linux tools and an RTX Spark desktop for Windows developers",
-      "url": "https://arstechnica.com/gadgets/2026/06/microsoft-plans-linux-tools-and-an-rtx-spark-desktop-for-windows-developers/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/06/microsoft-plans-linux-tools-and-an-rtx-spark-desktop-for-windows-developers/",
-      "score": null,
-      "comments": null,
-      "author": "Andrew Cunningham",
-      "published": "2026-06-02T22:51:10Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Microsoft's Project Solara is an Android OS designed for agents instead of apps",
-      "url": "https://arstechnica.com/gadgets/2026/06/microsofts-project-solara-is-an-android-os-designed-for-agents-instead-of-apps/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/06/microsofts-project-solara-is-an-android-os-designed-for-agents-instead-of-apps/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-06-02T20:47:54Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Amazon-owned Ring should pay Americans for scanning their faces, lawsuit says",
-      "url": "https://arstechnica.com/tech-policy/2026/06/amazon-owned-ring-should-pay-americans-for-scanning-their-faces-lawsuit-says/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/amazon-owned-ring-should-pay-americans-for-scanning-their-faces-lawsuit-says/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-06-02T20:17:41Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "If I had a hammer... it might actually be a rhino tooth",
-      "url": "https://arstechnica.com/science/2026/06/experiments-reveal-that-neanderthals-used-rhino-teeth-as-hammers/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/experiments-reveal-that-neanderthals-used-rhino-teeth-as-hammers/",
-      "score": null,
-      "comments": null,
-      "author": "Kiona N. Smith",
-      "published": "2026-06-02T19:54:14Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Feds failing in bid to take a supercomputer from a climate research center",
-      "url": "https://arstechnica.com/science/2026/06/judge-blocks-part-of-trump-admins-effort-to-hurt-colorado-research-center/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/judge-blocks-part-of-trump-admins-effort-to-hurt-colorado-research-center/",
-      "score": null,
-      "comments": null,
-      "author": "John Timmer",
-      "published": "2026-06-02T19:02:27Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Mathematicians warn of AI threats to profession as industry encroaches",
-      "url": "https://arstechnica.com/tech-policy/2026/06/mathematicians-warn-of-ai-threats-to-profession-as-industry-encroaches/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/mathematicians-warn-of-ai-threats-to-profession-as-industry-encroaches/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-06-02T18:19:06Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Android phones will soon be able to detect spoofed calls and impersonation scams",
-      "url": "https://arstechnica.com/gadgets/2026/06/google-announces-deepfake-call-detection-for-android-new-airdrop-device-support/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/06/google-announces-deepfake-call-detection-for-android-new-airdrop-device-support/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-06-02T18:00:46Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The truth lies in the past in Silo S3 trailer",
-      "url": "https://arstechnica.com/culture/2026/06/the-truth-lies-in-the-past-in-silo-s3-trailer/",
-      "discuss_url": "https://arstechnica.com/culture/2026/06/the-truth-lies-in-the-past-in-silo-s3-trailer/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-06-02T17:58:29Z"
     }
   ]
 }
