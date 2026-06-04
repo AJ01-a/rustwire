@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T10:04:34Z",
+  "updated_at": "2026-06-04T15:30:52Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
       "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
       "discuss_url": "https://news.ycombinator.com/item?id=48392343",
-      "score": 219,
-      "comments": 94,
+      "score": 311,
+      "comments": 160,
       "author": "jc4p",
       "published": "2026-06-04T00:56:32Z",
       "bullets": [
-        "Autonomous LLM agents incur high API costs ($1,500) while struggling with multi-step pentesting beyond basic, known vulnerability scanning.",
-        "Models like GPT-4 require specialized tool-use scaffolding, shell execution, and precise feedback loops to exploit even simple application flaws.",
-        "Current LLM reasoning limitations make autonomous hacking cost-inefficient compared to human security researchers using AI-assisted workflows."
+        "LLM agents struggle with multi-step logical exploits and state tracking, despite successfully identifying basic vulnerabilities like SQL injection and XSS.",
+        "Spending $1,500 on GPT-4 API calls revealed high cost-to-success ratios, making autonomous AI agents currently uneconomical for complex penetration testing.",
+        "LLMs excel as interactive co-pilots for human hackers, aiding in payload generation and code analysis rather than running fully autonomous exploits."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Floating-Point Error Handling in C++: What Actually Works",
-      "url": "https://johnnysswlab.com/floating-point-error-handling-in-c-what-actually-works/",
-      "discuss_url": "https://lobste.rs/s/uw6wmo",
-      "score": 3,
-      "comments": 0,
-      "author": "signal-11",
-      "published": "2026-06-04T05:07:24Z",
+      "title": "revo, the programming language",
+      "url": "https://gills.pages.dev/revo/",
+      "discuss_url": "https://lobste.rs/s/ikkx3r",
+      "score": 60,
+      "comments": 7,
+      "author": "alurm",
+      "published": "2026-06-02T17:39:22Z",
       "bullets": [
-        "Avoid compiler flags like `-ffast-math` if you rely on `std::isnan`, as they optimize away crucial NaN validation checks.",
-        "Use C++ `<cfenv>` and `fetestexcept` to safely query hardware floating-point status flags instead of relying on fragile signal handlers.",
-        "Perform defensive boundary checks using `std::isfinite` rather than relying on hardware traps, which cause undefined, platform-specific behavior."
+        "Revo introduces a novel syntax and execution model, targeting lightweight systems programming and efficient compiler design.",
+        "The language focuses on modern type safety, minimal runtime overhead, and potential compilation to LLVM or WebAssembly backends.",
+        "Provides compiler enthusiasts and systems engineers a sandbox to explore custom AST parsing and alternative memory management paradigms."
       ]
     },
     {
@@ -71,31 +71,31 @@
       "title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it",
       "url": "https://blog.nns.ee/2026/06/03/katana-badusb/",
       "discuss_url": "https://lobste.rs/s/mth4mj",
-      "score": 42,
-      "comments": 4,
+      "score": 46,
+      "comments": 5,
       "author": "matthew2",
       "published": "2026-06-03T11:54:11Z",
       "bullets": [
-        "Software can retask PC speakers into microphones, enabling remote eavesdropping and acoustic data exfiltration over air-gapped networks.",
-        "Acoustic resonance attacks leverage targeted sound frequencies to disrupt hard drives, MEMS gyroscopes, and physical PC hardware integrity.",
-        "Mitigate these threat vectors by disabling unused audio jacks, implementing high-pass filters, and monitoring ultrasonic frequency bands."
+        "Acoustic injection attacks target MEMS microphones using ultrasonic waves to silently execute unauthorized system commands on nearby PCs.",
+        "Attackers can leverage compromised smart speakers or audio systems to transmit sub-sensory, high-frequency payloads to target devices.",
+        "Key mitigations require disabling voice-wake triggers, applying software-based low-pass filters, and utilizing physical acoustic dampening on microphones."
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "devops",
-      "title": "github and the crime against software",
-      "url": "https://eblog.fly.dev/githubbad.html",
-      "discuss_url": "https://lobste.rs/s/vkoa7r",
-      "score": 75,
-      "comments": 32,
-      "author": "abnercoimbre",
-      "published": "2026-06-01T15:36:49Z",
+      "title": "VoidZero Is Joining Cloudflare",
+      "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48398055",
+      "score": 229,
+      "comments": 132,
+      "author": "coloneltcb",
+      "published": "2026-06-04T13:00:51Z",
       "bullets": [
-        "GitHub centralizes Git, a natively decentralized VCS, creating single points of failure and monopolistic control over open-source distribution.",
-        "Proprietary lock-in via GitHub Actions and PR APIs restricts DevOps mobility, making migration to platforms like Forgejo or GitLab difficult.",
-        "Teams can mitigate centralization risks by maintaining local git mirrors and using open-source, federated CI/CD engines."
+        "Evan You’s VoidZero brings Rust-powered build tools like Rolldown and Oxc directly into Cloudflare’s edge developer ecosystem.",
+        "DevOps teams can expect faster CI/CD pipelines as Cloudflare integrates high-speed Rust bundlers to optimize edge worker deployments.",
+        "The acquisition positions Cloudflare to offer native, ultra-fast JavaScript compilation and bundling directly within its global edge network."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "berkeleyjunk",
       "published": "2026-06-02T18:09:53Z",
       "bullets": [
-        "Morningstar’s $780B SpaceX valuation, half its IPO target, highlights massive valuation discrepancies for high-capital deep-tech and satellite telecom enterprises.",
-        "Starlink’s global broadband scaling and orbital density remain the primary drivers of SpaceX's long-term commercial revenue and valuation models.",
-        "Starship’s heavy-lift launch capabilities and NASA Artemis contracts represent critical technical milestones affecting immediate public market pricing."
+        "Morningstar's $780B appraisal reflects a conservative market discount on SpaceX's capital-intensive, high-capex aerospace and deep-tech business model.",
+        "The valuation hinges on Starlink achieving massive subscriber growth and SpaceX demonstrating the commercial viability of its reusable Starship launcher.",
+        "The disparity highlights the financial complexity of valuing a company transitioning from launch services to a high-margin global telecom provider."
       ]
     }
   ],
@@ -124,22 +124,22 @@
       "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
       "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
       "discuss_url": "https://news.ycombinator.com/item?id=48392343",
-      "score": 219,
-      "comments": 94,
+      "score": 311,
+      "comments": 160,
       "author": "jc4p",
       "published": "2026-06-04T00:56:32Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "What happened to tab autocomplete?",
-      "url": "https://lobste.rs/s/humg0y",
-      "discuss_url": "https://lobste.rs/s/humg0y",
-      "score": 1,
-      "comments": 1,
-      "author": "iacore",
-      "published": "2026-06-04T09:32:30Z"
+      "title": "The ways we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "discuss_url": "https://news.ycombinator.com/item?id=48392082",
+      "score": 174,
+      "comments": 80,
+      "author": "jbredeche",
+      "published": "2026-06-04T00:27:52Z"
     },
     {
       "source": "lobsters",
@@ -157,6 +157,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
+      "title": "thunderbolt-ibverbs: We have InfiniBand at home",
+      "url": "https://blog.hellas.ai/blog/thunderbolt-ibverbs/",
+      "discuss_url": "https://lobste.rs/s/t8emho",
+      "score": 5,
+      "comments": 3,
+      "author": "statusfailed",
+      "published": "2026-06-02T05:20:57Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
       "title": "Introducing RadixAttention to Trellis",
       "url": "https://trellis.unfoldml.com/blog/radix-attention-intro",
       "discuss_url": "https://lobste.rs/s/g5opue",
@@ -169,18 +181,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "thunderbolt-ibverbs: We have InfiniBand at home",
-      "url": "https://blog.hellas.ai/blog/thunderbolt-ibverbs/",
-      "discuss_url": "https://lobste.rs/s/t8emho",
-      "score": 4,
-      "comments": 3,
-      "author": "statusfailed",
-      "published": "2026-06-02T05:20:57Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "Constraining LLMs Just Like Users",
       "url": "https://www.aeracode.org/2026/06/01/constraining-llms/",
       "discuss_url": "https://lobste.rs/s/zom23n",
@@ -188,6 +188,42 @@
       "comments": 0,
       "author": "carlana",
       "published": "2026-06-01T23:07:30Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "How to Fine-Tune Nemotron 3.5 ASR for Your Language, Domain, or Accent",
+      "url": "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr",
+      "discuss_url": "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-04T12:59:35Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+      "discuss_url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-04T12:24:58Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+      "url": "https://huggingface.co/blog/hf-cli-for-agents",
+      "discuss_url": "https://huggingface.co/blog/hf-cli-for-agents",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-04T00:00:00Z"
     },
     {
       "source": "rss",
@@ -226,61 +262,13 @@
       "published": "2026-06-02T14:13:23Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
-      "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
-      "discuss_url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-01T15:45:17Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-      "discuss_url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-01T13:51:18Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
-      "discuss_url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-01T04:44:55Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Floating-Point Error Handling in C++: What Actually Works",
-      "url": "https://johnnysswlab.com/floating-point-error-handling-in-c-what-actually-works/",
-      "discuss_url": "https://lobste.rs/s/uw6wmo",
-      "score": 3,
-      "comments": 0,
-      "author": "signal-11",
-      "published": "2026-06-04T05:07:24Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "revo, the programming language",
       "url": "https://gills.pages.dev/revo/",
       "discuss_url": "https://lobste.rs/s/ikkx3r",
-      "score": 56,
+      "score": 60,
       "comments": 7,
       "author": "alurm",
       "published": "2026-06-02T17:39:22Z"
@@ -292,7 +280,7 @@
       "title": "Oils - Reviewing Our NLnet Grants After 4 Years",
       "url": "https://oils.pub/blog/2026/06/grants.html",
       "discuss_url": "https://lobste.rs/s/rlt5x6",
-      "score": 43,
+      "score": 44,
       "comments": 3,
       "author": "andyc",
       "published": "2026-06-02T20:57:41Z"
@@ -316,7 +304,7 @@
       "title": "Self-calling executables",
       "url": "https://log.pfad.fr/2026/self-calling-executable/",
       "discuss_url": "https://lobste.rs/s/o78n3y",
-      "score": 8,
+      "score": 9,
       "comments": 6,
       "author": "oliverpool",
       "published": "2026-06-02T16:54:12Z"
@@ -337,30 +325,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "I found a seashell in the middle of the desert",
-      "url": "https://github.com/Hawzen/I-found-a-seashell-in-the-middle-of-the-desert#i-found-a-seashell-in-the-middle-of-the-desert",
-      "discuss_url": "https://lobste.rs/s/qn9jdp",
-      "score": 55,
-      "comments": 2,
-      "author": "anex9d",
-      "published": "2026-05-31T12:57:16Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "A pragmatic set of modern colour space transforms for the Odin language",
-      "url": "https://github.com/heavyrain266/colourspace",
-      "discuss_url": "https://lobste.rs/s/flliys",
-      "score": 10,
-      "comments": 3,
-      "author": "heavyrain266",
-      "published": "2026-05-31T11:12:12Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Using wavelets and entropy coding to analyze code structure",
       "url": "https://yogthos.net/posts/2026-06-02-wavescope.html",
       "discuss_url": "https://lobste.rs/s/8ntcw9",
@@ -368,18 +332,6 @@
       "comments": 0,
       "author": "Yogthos",
       "published": "2026-06-02T17:26:58Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Parallel Parentheses Matching",
-      "url": "https://williamdue.github.io/blog/parallel-parentheses-matching",
-      "discuss_url": "https://lobste.rs/s/se9uoy",
-      "score": 3,
-      "comments": 0,
-      "author": "athas",
-      "published": "2026-06-02T14:36:57Z"
     },
     {
       "source": "lobsters",
@@ -394,6 +346,18 @@
       "published": "2026-06-01T01:19:27Z"
     },
     {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Parallel Parentheses Matching",
+      "url": "https://williamdue.github.io/blog/parallel-parentheses-matching",
+      "discuss_url": "https://lobste.rs/s/se9uoy",
+      "score": 3,
+      "comments": 0,
+      "author": "athas",
+      "published": "2026-06-02T14:36:57Z"
+    },
+    {
       "source": "rss",
       "subsource": "github.blog",
       "category": "engineering",
@@ -406,14 +370,50 @@
       "published": "2026-06-02T17:30:03Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Still a developer. Just outside. Our latest GitHub Shop collection is here.",
+      "url": "https://github.blog/news-insights/company-news/still-a-developer-just-outside-our-latest-github-shop-collection-is-here/",
+      "discuss_url": "https://github.blog/news-insights/company-news/still-a-developer-just-outside-our-latest-github-shop-collection-is-here/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-05-28T18:18:43Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "What it takes to be a player in the international AI game​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‍​﻿​​​﻿​﻿‌‍​‌‌‍​‍‌‍​‌​﻿‌﻿​﻿‌‌​‍﻿‌‌‍‌‍​﻿​‍‌‍​﻿​﻿​‌​‍﻿‌​﻿‌​​﻿‌‍‌‍‌​​﻿‍‌​‍﻿‌​﻿‍​​﻿‌‌​﻿​﻿​﻿‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‍​​﻿​﻿​﻿‍‌​﻿​​‌‍‌‌​﻿​﻿​﻿‌‌​﻿‌‍​﻿‍​​﻿‍‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‍​﻿​​​﻿​﻿‌‍​‌‌‍​‍‌‍​‌​﻿‌﻿​﻿‌‌​‍﻿‌‌‍‌‍​﻿​‍‌‍​﻿​﻿​‌​‍﻿‌​﻿‌​​﻿‌‍‌‍‌​​﻿‍‌​‍﻿‌​﻿‍​​﻿‌‌​﻿​﻿​﻿‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‍​​﻿​﻿​﻿‍‌​﻿​​‌‍‌‌​﻿​﻿​﻿‌‌​﻿‌‍​﻿‍​​﻿‍‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/06/02/be-a-player-in-the-international-ai-game/",
+      "discuss_url": "https://stackoverflow.blog/2026/06/02/be-a-player-in-the-international-ai-game/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-06-02T07:40:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Best of the Heap: First post of the past​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‍​﻿‌‍​﻿‍​‌‍‌‍​﻿​‌​﻿‌‍​﻿​​‌‍​‍​‍﻿‌‌‍​‍‌‍​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍​‍‌‍‌​​﻿‍‌​﻿​​​‍﻿‌​﻿‌﻿​﻿‌‌‌‍​‌​﻿​﻿​﻿‍‌​﻿​‌​﻿​‍‌‍‌​​﻿​‌​﻿‌​​﻿‌‌​﻿‌‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‍​﻿‌‍​﻿‍​‌‍‌‍​﻿​‌​﻿‌‍​﻿​​‌‍​‍​‍﻿‌‌‍​‍‌‍​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍​‍‌‍‌​​﻿‍‌​﻿​​​‍﻿‌​﻿‌﻿​﻿‌‌‌‍​‌​﻿​﻿​﻿‍‌​﻿​‌​﻿​‍‌‍‌​​﻿​‌​﻿‌​​﻿‌‌​﻿‌‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/05/29/best-of-the-heap-first-post-of-the-past/",
+      "discuss_url": "https://stackoverflow.blog/2026/05/29/best-of-the-heap-first-post-of-the-past/",
+      "score": null,
+      "comments": null,
+      "author": "Ryan Donovan",
+      "published": "2026-05-29T14:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it",
       "url": "https://blog.nns.ee/2026/06/03/katana-badusb/",
       "discuss_url": "https://lobste.rs/s/mth4mj",
-      "score": 42,
-      "comments": 4,
+      "score": 46,
+      "comments": 5,
       "author": "matthew2",
       "published": "2026-06-03T11:54:11Z"
     },
@@ -424,7 +424,7 @@
       "title": "Full Disclosure: 1-Click GitHub Token Stealing via a VSCode Bug",
       "url": "https://blog.ammaraskar.com/github-token-stealing/",
       "discuss_url": "https://lobste.rs/s/fysuyw",
-      "score": 65,
+      "score": 67,
       "comments": 15,
       "author": "ammar2",
       "published": "2026-06-03T00:22:59Z"
@@ -436,7 +436,7 @@
       "title": "A Post-Quantum Future for Let's Encrypt",
       "url": "https://letsencrypt.org/2026/06/03/pq-certs.html",
       "discuss_url": "https://lobste.rs/s/djguny",
-      "score": 22,
+      "score": 29,
       "comments": 0,
       "author": "fanf",
       "published": "2026-06-03T19:07:13Z"
@@ -472,7 +472,7 @@
       "title": "Rooting Home Assistant through MeshCore: XSS attacks with a LoRa node name",
       "url": "https://mxsasha.eu/posts/meshcore-xss-home-assistant/",
       "discuss_url": "https://lobste.rs/s/0rtm7s",
-      "score": 4,
+      "score": 6,
       "comments": 0,
       "author": "fanf",
       "published": "2026-06-03T22:34:16Z"
@@ -493,18 +493,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Please Do Not Hack Me - The Tale of a TeamSpeak Use-After-Free",
-      "url": "https://modzero.com/en/blog/please-do-not-hack-me/",
-      "discuss_url": "https://lobste.rs/s/fxksjw",
-      "score": 1,
-      "comments": 0,
-      "author": "freddyb",
-      "published": "2026-06-03T20:09:21Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "iSCSI CHAP: Heap Buffer Overflow in the Linux Kernel",
       "url": "https://ahossu.ro/blog/iscsi-chap-base64-overflow",
       "discuss_url": "https://lobste.rs/s/exezj2",
@@ -512,6 +500,18 @@
       "comments": 0,
       "author": "fro",
       "published": "2026-06-01T18:25:24Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Please Do Not Hack Me - The Tale of a TeamSpeak Use-After-Free",
+      "url": "https://modzero.com/en/blog/please-do-not-hack-me/",
+      "discuss_url": "https://lobste.rs/s/fxksjw",
+      "score": 1,
+      "comments": 0,
+      "author": "freddyb",
+      "published": "2026-06-03T20:09:21Z"
     },
     {
       "source": "lobsters",
@@ -550,6 +550,18 @@
       "published": "2026-06-02T07:50:59Z"
     },
     {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "devops",
+      "title": "VoidZero Is Joining Cloudflare",
+      "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48398055",
+      "score": 229,
+      "comments": 132,
+      "author": "coloneltcb",
+      "published": "2026-06-04T13:00:51Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
@@ -572,18 +584,6 @@
       "comments": 0,
       "author": "gioele",
       "published": "2026-06-02T22:27:57Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "SOPS + Age and Sealed Secrets",
-      "url": "https://www.jonashietala.se/blog/2026/05/31/sops_age_and_sealed_secrets/",
-      "discuss_url": "https://lobste.rs/s/72alqa",
-      "score": 8,
-      "comments": 0,
-      "author": "dryya",
-      "published": "2026-05-31T14:45:12Z"
     },
     {
       "source": "rss",
@@ -709,6 +709,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "Used Waymo robotaxi batteries become backup storage for power grids",
+      "url": "https://arstechnica.com/science/2026/06/used-waymo-robotaxi-batteries-become-backup-storage-for-power-grids/",
+      "discuss_url": "https://arstechnica.com/science/2026/06/used-waymo-robotaxi-batteries-become-backup-storage-for-power-grids/",
+      "score": null,
+      "comments": null,
+      "author": "Jeremy Hsu",
+      "published": "2026-06-04T11:00:45Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "Flesh-eating screwworm infection confirmed in South Texas, USDA says",
       "url": "https://arstechnica.com/health/2026/06/flesh-eating-screwworm-infection-detected-in-south-texas-usda-says/",
       "discuss_url": "https://arstechnica.com/health/2026/06/flesh-eating-screwworm-infection-detected-in-south-texas-usda-says/",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Jacek Krywko",
       "published": "2026-06-03T11:15:07Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "How long will it take to rebuild Blue Origin's launch pad? We asked some SpaceX vets.",
-      "url": "https://arstechnica.com/space/2026/06/how-long-will-it-take-to-rebuild-blue-origins-launch-pad-we-asked-some-spacex-vets/",
-      "discuss_url": "https://arstechnica.com/space/2026/06/how-long-will-it-take-to-rebuild-blue-origins-launch-pad-we-asked-some-spacex-vets/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-06-03T10:00:07Z"
     }
   ]
 }
