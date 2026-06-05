@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T15:13:10Z",
+  "updated_at": "2026-06-05T20:02:23Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,34 +34,34 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Fine-tuning an LLM to write docs like it's 1995",
-      "url": "https://passo.uno/fine-tuning-docs-llm/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48408442",
-      "score": 136,
-      "comments": 49,
-      "author": "taubek",
-      "published": "2026-06-05T05:46:06Z",
+      "title": "Did Claude increase bugs in rsync?",
+      "url": "https://alexispurslane.github.io/rsync-analysis/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48411635",
+      "score": 141,
+      "comments": 142,
+      "author": "logicprog",
+      "published": "2026-06-05T12:43:33Z",
       "bullets": [
-        "Fine-tuning an LLM to write docs like it's 1995",
-        "Trending on news.ycombinator.com — 136 points, 49 comments.",
-        "Submitted by taubek on news.ycombinator.com."
+        "AI-generated PRs from Claude and ChatGPT for legacy C tools like rsync frequently introduce hallucinated flags and subtle logic bugs.",
+        "LLMs struggle with complex codebase-specific contexts, generating syntactically correct but functionally broken code that bypasses basic static analysis.",
+        "The influx of low-quality AI code increases maintainer fatigue, highlighting the need for stricter automated CI/CD gating in open-source repositories."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/vzutqp",
-      "discuss_url": "https://lobste.rs/s/vzutqp",
-      "score": 7,
-      "comments": 4,
-      "author": "caius",
-      "published": "2026-06-05T08:57:48Z",
+      "title": "Win16 Memory Management",
+      "url": "http://www.os2museum.com/wp/win16-memory-management/",
+      "discuss_url": "https://lobste.rs/s/c3xmxm",
+      "score": 5,
+      "comments": 0,
+      "author": "calvin",
+      "published": "2026-06-05T17:31:03Z",
       "bullets": [
-        "Feel free to tell what you plan on doing this weekend and even ask for help or feedback.",
-        "Please keep in mind it’s more than OK to do nothing at all too!",
-        "What are you doing this weekend?"
+        "Win16 used x86 16-bit segmented memory addressing (16:16), mapping selectors to physical descriptors to bypass the 64KB limit.",
+        "Developers managed memory via `GlobalAlloc` and `LocalAlloc`, requiring explicit handle locking (`GlobalLock`) to prevent fragmentation via relocatable blocks.",
+        "Windows 3.x navigated Intel 8086 Real Mode, 286 Standard Mode (16MB limit), and 386 Enhanced Mode with hardware-enforced virtual memory."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "The Empty Field That Wasn't: GPS Broadcasts a Numbers Station",
       "url": "https://lsc-pagepro.mydigitalpublication.com/publication/?i=865273&p=62&view=issueViewer",
       "discuss_url": "https://lobste.rs/s/a7v7e5",
-      "score": 7,
-      "comments": 1,
+      "score": 14,
+      "comments": 3,
       "author": "lordgilman",
       "published": "2026-06-05T13:07:50Z",
       "bullets": [
-        "The Empty Field That Wasn't: GPS Broadcasts a Numbers Station",
-        "Trending on lobste.rs/security — 7 points, 1 comments.",
-        "Submitted by lordgilman on lobste.rs/security."
+        "Analysis of GPS LNAV (L1 C/A) navigation messages reveals that reserved bits defined as static in IS-GPS-200 contain active data.",
+        "This undocumented payload acts as an orbital covert channel, transmitting changing, pseudorandom sequences directly from US Space Force satellites.",
+        "Security analysts and receiver developers must update parsers to handle arbitrary data in reserved fields to prevent decoding anomalies."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "Azure Linux 4.0 is Microsoft's first general-purpose Linux",
       "url": "https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/",
       "discuss_url": "https://news.ycombinator.com/item?id=48407499",
-      "score": 137,
-      "comments": 114,
+      "score": 182,
+      "comments": 136,
       "author": "haydenbarnes",
       "published": "2026-06-05T03:14:28Z",
       "bullets": [
-        "Azure Linux 4.0 is Microsoft's first general-purpose Linux",
-        "Trending on news.ycombinator.com — 137 points, 114 comments.",
-        "Submitted by haydenbarnes on news.ycombinator.com."
+        "Evolving from CBL-Mariner, version 4.0 moves beyond container hosting to offer a fully supported enterprise-grade distro for general VM workloads.",
+        "The RPM-based OS minimizes attack surfaces with a lightweight footprint, optimized kernel tuning, and native integration across the Azure ecosystem.",
+        "DevOps teams can deploy leaner, highly secure workloads on Azure Kubernetes Service (AKS) while consolidating enterprise support under a single vendor."
       ]
     },
     {
@@ -105,14 +105,14 @@
       "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
       "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
       "discuss_url": "https://news.ycombinator.com/item?id=48405718",
-      "score": 829,
-      "comments": 419,
+      "score": 895,
+      "comments": 475,
       "author": "tristanj",
       "published": "2026-06-04T22:48:19Z",
       "bullets": [
-        "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
-        "Trending on news.ycombinator.com — 829 points, 419 comments.",
-        "Submitted by tristanj on news.ycombinator.com."
+        "S&P's decision delays immediate passive index inflows for mega-IPOs like SpaceX, requiring longer reliance on active market capital.",
+        "Massive valuations will not bypass S&P 500 seasoning rules, forcing newly public tech giants to wait for index inclusion.",
+        "This delay shifts initial post-IPO liquidity dynamics toward active institutional and retail investors rather than automated passive funds."
       ]
     }
   ],
@@ -121,11 +121,35 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Did Claude increase bugs in rsync?",
+      "url": "https://alexispurslane.github.io/rsync-analysis/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48411635",
+      "score": 141,
+      "comments": 142,
+      "author": "logicprog",
+      "published": "2026-06-05T12:43:33Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Programmers will document for Claude, but not for each other",
+      "url": "https://blog.plover.com/2026/03/09/#documentation-wins-2",
+      "discuss_url": "https://news.ycombinator.com/item?id=48411510",
+      "score": 154,
+      "comments": 143,
+      "author": "surprisetalk",
+      "published": "2026-06-05T12:30:17Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Fine-tuning an LLM to write docs like it's 1995",
       "url": "https://passo.uno/fine-tuning-docs-llm/",
       "discuss_url": "https://news.ycombinator.com/item?id=48408442",
-      "score": 136,
-      "comments": 49,
+      "score": 171,
+      "comments": 64,
       "author": "taubek",
       "published": "2026-06-05T05:46:06Z"
     },
@@ -136,8 +160,8 @@
       "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
       "url": "https://github.com/anthropics/defending-code-reference-harness",
       "discuss_url": "https://news.ycombinator.com/item?id=48403980",
-      "score": 480,
-      "comments": 135,
+      "score": 511,
+      "comments": 140,
       "author": "binyu",
       "published": "2026-06-04T20:11:20Z"
     },
@@ -148,7 +172,7 @@
       "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
       "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
       "discuss_url": "https://news.ycombinator.com/item?id=48392343",
-      "score": 394,
+      "score": 396,
       "comments": 214,
       "author": "jc4p",
       "published": "2026-06-04T00:56:32Z"
@@ -160,8 +184,8 @@
       "title": "The ways we contain Claude across products",
       "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
       "discuss_url": "https://news.ycombinator.com/item?id=48392082",
-      "score": 223,
-      "comments": 101,
+      "score": 226,
+      "comments": 103,
       "author": "jbredeche",
       "published": "2026-06-04T00:27:52Z"
     },
@@ -238,28 +262,16 @@
       "published": "2026-06-04T00:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Direct Preference Optimization Beyond Chatbots",
-      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-      "discuss_url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-03T12:55:11Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Adding MCP Tools to Reachy Mini",
-      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
-      "discuss_url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-03T00:00:00Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Win16 Memory Management",
+      "url": "http://www.os2museum.com/wp/win16-memory-management/",
+      "discuss_url": "https://lobste.rs/s/c3xmxm",
+      "score": 5,
+      "comments": 0,
+      "author": "calvin",
+      "published": "2026-06-05T17:31:03Z"
     },
     {
       "source": "lobsters",
@@ -268,8 +280,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/vzutqp",
       "discuss_url": "https://lobste.rs/s/vzutqp",
-      "score": 7,
-      "comments": 4,
+      "score": 12,
+      "comments": 10,
       "author": "caius",
       "published": "2026-06-05T08:57:48Z"
     },
@@ -280,7 +292,7 @@
       "title": "Reproducible Builds in May 2026",
       "url": "https://reproducible-builds.org/reports/2026-05/",
       "discuss_url": "https://lobste.rs/s/cubjpv",
-      "score": 18,
+      "score": 19,
       "comments": 2,
       "author": "fanf",
       "published": "2026-06-04T19:47:34Z"
@@ -292,7 +304,7 @@
       "title": "Navigating the Fog of War: Age of Empires, AI Agents, and the Rise of Dark Code",
       "url": "https://blog.waleson.com/2026/05/navigating-fog-of-war-age-of-empires-ai.html",
       "discuss_url": "https://lobste.rs/s/huexha",
-      "score": 2,
+      "score": 3,
       "comments": 2,
       "author": "j11g",
       "published": "2026-06-05T05:29:28Z"
@@ -394,26 +406,14 @@
       "published": "2026-06-02T17:30:03Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "Making the OWASP top ten in the vibe code era​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍​‌​﻿​﻿​﻿‌‍​﻿‍‌​﻿‌‍‌‍​‍​﻿‌​​‍﻿‌​﻿‍​​﻿​‌‌‍‌‍​﻿​﻿​‍﻿‌​﻿‌​‌‍‌‌​﻿‌‌‌‍‌‌​‍﻿‌‌‍​‌​﻿​​‌‍​﻿‌‍​‍​‍﻿‌‌‍​﻿​﻿‌‌‌‍‌‌‌‍​‌​﻿‍​​﻿​‌​﻿‌﻿‌‍‌​​﻿‍​​﻿‍​​﻿​​​﻿‌﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍​‌​﻿​﻿​﻿‌‍​﻿‍‌​﻿‌‍‌‍​‍​﻿‌​​‍﻿‌​﻿‍​​﻿​‌‌‍‌‍​﻿​﻿​‍﻿‌​﻿‌​‌‍‌‌​﻿‌‌‌‍‌‌​‍﻿‌‌‍​‌​﻿​​‌‍​﻿‌‍​‍​‍﻿‌‌‍​﻿​﻿‌‌‌‍‌‌‌‍​‌​﻿‍​​﻿​‌​﻿‌﻿‌‍‌​​﻿‍​​﻿‍​​﻿​​​﻿‌﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "url": "https://stackoverflow.blog/2026/06/05/making-the-owasp-top-ten-in-the-vibe-code-era/",
-      "discuss_url": "https://stackoverflow.blog/2026/06/05/making-the-owasp-top-ten-in-the-vibe-code-era/",
-      "score": null,
-      "comments": null,
-      "author": "Phoebe Sajor",
-      "published": "2026-06-05T07:40:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "The Empty Field That Wasn't: GPS Broadcasts a Numbers Station",
       "url": "https://lsc-pagepro.mydigitalpublication.com/publication/?i=865273&p=62&view=issueViewer",
       "discuss_url": "https://lobste.rs/s/a7v7e5",
-      "score": 7,
-      "comments": 1,
+      "score": 14,
+      "comments": 3,
       "author": "lordgilman",
       "published": "2026-06-05T13:07:50Z"
     },
@@ -424,7 +424,7 @@
       "title": "Full Disclosure: 1-Click GitHub Token Stealing via a VSCode Bug",
       "url": "https://blog.ammaraskar.com/github-token-stealing/",
       "discuss_url": "https://lobste.rs/s/fysuyw",
-      "score": 69,
+      "score": 70,
       "comments": 15,
       "author": "ammar2",
       "published": "2026-06-03T00:22:59Z"
@@ -440,18 +440,6 @@
       "comments": 5,
       "author": "matthew2",
       "published": "2026-06-03T11:54:11Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Chasing Lightning: Detecting, Characterizing, and Identifying a Powerful Space-Based GNSS Interference Source",
-      "url": "https://arxiv.org/abs/2606.03673",
-      "discuss_url": "https://lobste.rs/s/qrhqvc",
-      "score": 1,
-      "comments": 0,
-      "author": "fanf",
-      "published": "2026-06-05T12:26:03Z"
     },
     {
       "source": "lobsters",
@@ -481,13 +469,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "The Newest Instagram \"Exploit\" is the Goofiest I've Seen",
-      "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
-      "discuss_url": "https://lobste.rs/s/pmkmil",
-      "score": 70,
-      "comments": 14,
-      "author": "sinic",
-      "published": "2026-06-01T17:38:50Z"
+      "title": "Chasing Lightning: Detecting, Characterizing, and Identifying a Powerful Space-Based GNSS Interference Source",
+      "url": "https://arxiv.org/abs/2606.03673",
+      "discuss_url": "https://lobste.rs/s/qrhqvc",
+      "score": 1,
+      "comments": 0,
+      "author": "fanf",
+      "published": "2026-06-05T12:26:03Z"
     },
     {
       "source": "lobsters",
@@ -517,18 +505,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "iSCSI CHAP: Heap Buffer Overflow in the Linux Kernel",
-      "url": "https://ahossu.ro/blog/iscsi-chap-base64-overflow",
-      "discuss_url": "https://lobste.rs/s/exezj2",
-      "score": 7,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-06-01T18:25:24Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Please Do Not Hack Me - The Tale of a TeamSpeak Use-After-Free",
       "url": "https://modzero.com/en/blog/please-do-not-hack-me/",
       "discuss_url": "https://lobste.rs/s/fxksjw",
@@ -550,14 +526,38 @@
       "published": "2026-06-03T17:36:13Z"
     },
     {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "ChatGPhish: The Page Is the Payload",
+      "url": "https://permiso.io/blog/chatgpt-markdown-rendering-vulnerability",
+      "discuss_url": "https://lobste.rs/s/hqcuy7",
+      "score": 1,
+      "comments": 0,
+      "author": "gerikson",
+      "published": "2026-06-02T07:50:59Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "krebsonsecurity.com",
+      "category": "security",
+      "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
+      "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+      "discuss_url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+      "score": null,
+      "comments": null,
+      "author": "BrianKrebs",
+      "published": "2026-06-01T17:32:50Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Azure Linux 4.0 is Microsoft's first general-purpose Linux",
       "url": "https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/",
       "discuss_url": "https://news.ycombinator.com/item?id=48407499",
-      "score": 137,
-      "comments": 114,
+      "score": 182,
+      "comments": 136,
       "author": "haydenbarnes",
       "published": "2026-06-05T03:14:28Z"
     },
@@ -568,8 +568,8 @@
       "title": "VoidZero Is Joining Cloudflare",
       "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
       "discuss_url": "https://news.ycombinator.com/item?id=48398055",
-      "score": 655,
-      "comments": 286,
+      "score": 662,
+      "comments": 301,
       "author": "coloneltcb",
       "published": "2026-06-04T13:00:51Z"
     },
@@ -580,22 +580,10 @@
       "title": "IPv6 zones in URLs are a mistake",
       "url": "https://xeiaso.net/notes/2026/ipv6-zones-go-url/",
       "discuss_url": "https://lobste.rs/s/lcnc5e",
-      "score": 39,
-      "comments": 25,
+      "score": 44,
+      "comments": 30,
       "author": "gmem",
       "published": "2026-06-04T21:09:47Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "github and the crime against software",
-      "url": "https://eblog.fly.dev/githubbad.html",
-      "discuss_url": "https://lobste.rs/s/vkoa7r",
-      "score": 77,
-      "comments": 32,
-      "author": "abnercoimbre",
-      "published": "2026-06-01T15:36:49Z"
     },
     {
       "source": "lobsters",
@@ -608,6 +596,18 @@
       "comments": 0,
       "author": "gioele",
       "published": "2026-06-02T22:27:57Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "The AWS MCP Server now supports cross-account and cross-role access",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-mcp-server/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-mcp-server/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-05T07:00:00Z"
     },
     {
       "source": "rss",
@@ -661,6 +661,18 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "AWS Deadline Cloud now supports plugin sync for service-managed fleets",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/plugin-sync",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/plugin-sync",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-04T16:13:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon MQ is now available in the AWS European Sovereign Cloud (Germany) Region",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mq-eur-sov-cloud",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mq-eur-sov-cloud",
@@ -682,26 +694,14 @@
       "published": "2026-06-04T07:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS IoT Device Management adds MQTT session data to connectivity status API",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-device-management-mqtt/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-device-management-mqtt/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-03T21:15:00Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "industry",
       "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
       "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
       "discuss_url": "https://news.ycombinator.com/item?id=48405718",
-      "score": 829,
-      "comments": 419,
+      "score": 895,
+      "comments": 475,
       "author": "tristanj",
       "published": "2026-06-04T22:48:19Z"
     },
@@ -712,10 +712,70 @@
       "title": "The SpaceX IPO will be the theft of the century",
       "url": "https://montanaskeptic.substack.com/p/the-spacex-ipo-will-be-the-theft",
       "discuss_url": "https://news.ycombinator.com/item?id=48394034",
-      "score": 138,
-      "comments": 119,
+      "score": 140,
+      "comments": 121,
       "author": "400thecat",
       "published": "2026-06-04T04:52:37Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "S&P 500 blocks fast SpaceX entry, won’t waive rule for unprofitable AI firms",
+      "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+      "score": null,
+      "comments": null,
+      "author": "Jeremy Hsu",
+      "published": "2026-06-05T18:45:20Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "\"We pissed off a lot of people\": Giant data center plan cut 50% amid protests",
+      "url": "https://arstechnica.com/tech-policy/2026/06/we-pissed-off-a-lot-of-people-giant-data-center-plan-cut-50-amid-protests/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/we-pissed-off-a-lot-of-people-giant-data-center-plan-cut-50-amid-protests/",
+      "score": null,
+      "comments": null,
+      "author": "Ashley Belanger",
+      "published": "2026-06-05T18:23:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Review: Spider-Noir recaptures the magic of a bygone era",
+      "url": "https://arstechnica.com/culture/2026/06/review-spider-noir-recaptures-the-magic-of-a-bygone-era/",
+      "discuss_url": "https://arstechnica.com/culture/2026/06/review-spider-noir-recaptures-the-magic-of-a-bygone-era/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-06-05T17:05:02Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Trump admin tries again to revive dying coal industry",
+      "url": "https://arstechnica.com/science/2026/06/trump-admin-tries-again-to-revive-dying-coal-industry/",
+      "discuss_url": "https://arstechnica.com/science/2026/06/trump-admin-tries-again-to-revive-dying-coal-industry/",
+      "score": null,
+      "comments": null,
+      "author": "John Timmer",
+      "published": "2026-06-05T15:55:14Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "The Fitbit Air is a good wearable weighed down by a chatty AI \"coach\"",
+      "url": "https://arstechnica.com/gadgets/2026/06/the-fitbit-air-is-great-but-googles-ai-is-too-nice-to-be-your-coach/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/06/the-fitbit-air-is-great-but-googles-ai-is-too-nice-to-be-your-coach/",
+      "score": null,
+      "comments": null,
+      "author": "Ryan Whitwam",
+      "published": "2026-06-05T15:40:48Z"
     },
     {
       "source": "rss",
@@ -776,66 +836,6 @@
       "comments": null,
       "author": "Andrew Cunningham",
       "published": "2026-06-05T11:00:55Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The skeptic’s guide to humanoid robots going viral on the Internet",
-      "url": "https://arstechnica.com/ai/2026/06/the-skeptics-guide-to-humanoid-robots-going-viral-on-the-internet/",
-      "discuss_url": "https://arstechnica.com/ai/2026/06/the-skeptics-guide-to-humanoid-robots-going-viral-on-the-internet/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-06-04T22:23:36Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "AT&T and Verizon lose Supreme Court case over fines for selling location data",
-      "url": "https://arstechnica.com/tech-policy/2026/06/att-and-verizon-lose-supreme-court-case-over-fines-for-selling-location-data/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/att-and-verizon-lose-supreme-court-case-over-fines-for-selling-location-data/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-06-04T21:25:19Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "These LLMs are the best at resisting Russian propaganda",
-      "url": "https://arstechnica.com/ai/2026/06/these-llms-are-the-best-at-resisting-russian-propaganda/",
-      "discuss_url": "https://arstechnica.com/ai/2026/06/these-llms-are-the-best-at-resisting-russian-propaganda/",
-      "score": null,
-      "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-06-04T20:44:31Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Dashlane explains how attackers managed to download encrypted password vaults",
-      "url": "https://arstechnica.com/security/2026/06/dashlane-explains-how-attackers-managed-to-download-encrypted-password-vaults/",
-      "discuss_url": "https://arstechnica.com/security/2026/06/dashlane-explains-how-attackers-managed-to-download-encrypted-password-vaults/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-06-04T20:02:04Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Elon Musk tries again to escape FTC audits of X data handling",
-      "url": "https://arstechnica.com/tech-policy/2026/06/elon-musk-tries-again-to-escape-ftc-audits-of-x-data-handling/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/elon-musk-tries-again-to-escape-ftc-audits-of-x-data-handling/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-06-04T19:49:12Z"
     }
   ]
 }
