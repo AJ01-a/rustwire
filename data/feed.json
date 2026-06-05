@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T20:10:48Z",
+  "updated_at": "2026-06-05T04:12:39Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
-      "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48392343",
-      "score": 356,
-      "comments": 191,
-      "author": "jc4p",
-      "published": "2026-06-04T00:56:32Z",
+      "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "discuss_url": "https://news.ycombinator.com/item?id=48403980",
+      "score": 318,
+      "comments": 101,
+      "author": "binyu",
+      "published": "2026-06-04T20:11:20Z",
       "bullets": [
-        "Testing LLM agents (like GPT-4) against a custom vulnerable app cost $1,500, revealing high API consumption for autonomous exploitation.",
-        "LLMs successfully solved basic web vulnerabilities (SQLi, XSS) but struggled heavily with complex, multi-step logical chains and state tracking.",
-        "Current LLM agent architectures remain inefficient for pentesting, hampered by context window limitations and high rates of logical hallucination."
+        "Anthropic open-sourced a benchmarking framework to evaluate LLMs, like Claude 3.5 Sonnet, on automated vulnerability discovery and exploit generation.",
+        "The tool uses agentic workflows to test AI models against diverse, sandboxed environments to quantify cybersecurity risks and capabilities.",
+        "AI practitioners can run automated CTF challenges to benchmark dual-use hazards and improve LLM-assisted patch generation and defense."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Reproducible Builds in May 2026",
       "url": "https://reproducible-builds.org/reports/2026-05/",
       "discuss_url": "https://lobste.rs/s/cubjpv",
-      "score": 2,
-      "comments": 0,
+      "score": 9,
+      "comments": 1,
       "author": "fanf",
       "published": "2026-06-04T19:47:34Z",
       "bullets": [
-        "Achieving bit-for-bit identical binaries requires eliminating non-deterministic elements like local timestamps, CPU instructions, and absolute build paths from toolchains.",
-        "Toolchains like Nix, Guix, and modern Go/Rust compilers natively support hermetic builds to ensure predictable cryptographic hashes for target artifacts.",
-        "Deterministic builds secure the software supply chain, aligning CI/CD pipelines with SLSA Level 3/4 and SBOM standards like SPDX."
+        "Standardize builds using `SOURCE_DATE_EPOCH` to eliminate non-deterministic timestamps in compilers like GCC, Clang, and Rustc.",
+        "Leverage `diffoscope` for deep comparison of tarballs, ISO images, and PDF files to identify sources of build variation.",
+        "Integrate reproducibility checks into CI/CD pipelines to validate SBOM integrity and mitigate upstream software supply chain vulnerabilities."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it",
       "url": "https://blog.nns.ee/2026/06/03/katana-badusb/",
       "discuss_url": "https://lobste.rs/s/mth4mj",
-      "score": 48,
+      "score": 50,
       "comments": 5,
       "author": "matthew2",
       "published": "2026-06-03T11:54:11Z",
       "bullets": [
-        "This attack vector leverages PC speakers for acoustic or ultrasonic injection, potentially exploiting mic-to-speaker hardware loops to execute unauthorized commands.",
-        "Security teams must assess threat models for acoustic side-channels, ensuring unused audio input devices are disabled at the OS level.",
-        "Air-gapped systems remain vulnerable to RF, electromagnetic, or acoustic leakage emitted directly from standard computer speakers."
+        "The attack exploits standard audio chipsets to turn output speakers into passive microphones, enabling unauthorized local eavesdropping without hardware access.",
+        "Resonant acoustic frequencies emitted from speakers can disrupt physical components like hard disk drives and MEMS sensors, causing system crashes.",
+        "Malware can exfiltrate sensitive data from air-gapped systems using high-frequency, inaudible ultrasonic signals transmitted via the target PC’s speakers."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "VoidZero Is Joining Cloudflare",
       "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
       "discuss_url": "https://news.ycombinator.com/item?id=48398055",
-      "score": 478,
-      "comments": 228,
+      "score": 591,
+      "comments": 263,
       "author": "coloneltcb",
       "published": "2026-06-04T13:00:51Z",
       "bullets": [
-        "Integrating VoidZero's Rust-based tools like Rolldown and Oxc will accelerate build pipelines and edge deployments on Cloudflare Workers.",
-        "DevOps teams can expect faster CI/CD cycles as Vite and Vitest gain deeper native integration with Cloudflare's serverless infrastructure.",
-        "This consolidation shifts web build infrastructure toward highly optimized, Rust-native tooling to minimize cold starts and deployment latency at scale."
+        "VoidZero joins Cloudflare, integrating Rust-based Oxc and Rolldown to accelerate build and deployment speeds for Workers and Pages.",
+        "The joint team will prioritize making Rolldown production-ready to replace Rollup and esbuild in modern web pipelines.",
+        "DevOps engineers will benefit from faster, native Rust-powered build tooling, drastically reducing CI/CD execution times for JS/TS apps."
       ]
     },
     {
-      "source": "rss",
-      "subsource": "arstechnica.com",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "industry",
-      "title": "Elon Musk tries again to escape FTC audits of X data handling",
-      "url": "https://arstechnica.com/tech-policy/2026/06/elon-musk-tries-again-to-escape-ftc-audits-of-x-data-handling/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/elon-musk-tries-again-to-escape-ftc-audits-of-x-data-handling/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-06-04T19:49:12Z",
+      "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
+      "discuss_url": "https://news.ycombinator.com/item?id=48405718",
+      "score": 209,
+      "comments": 95,
+      "author": "tristanj",
+      "published": "2026-06-04T22:48:19Z",
       "bullets": [
-        "Elon Musk petitioned the FTC to terminate or modify the 2022 consent decree governing X’s data security and privacy practices.",
-        "Public commenters warned the FTC that X cannot be trusted with user data, urging the agency to maintain strict audit oversight.",
-        "The dispute underscores the high stakes of regulatory compliance for platform scale data architectures and user privacy governance."
+        "S&P ruled against accelerated index inclusion for mega IPOs, forcing companies to wait and meet standard seasoning and profitability rules.",
+        "Late-stage tech giants like SpaceX or Stripe face delayed passive-fund inflows post-IPO, affecting initial liquidity and valuation stability.",
+        "Tech employees and VC backers face longer lockups and potential price volatility without immediate S&P 500 index-fund buying pressure."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "discuss_url": "https://news.ycombinator.com/item?id=48403980",
+      "score": 318,
+      "comments": 101,
+      "author": "binyu",
+      "published": "2026-06-04T20:11:20Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
       "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
       "discuss_url": "https://news.ycombinator.com/item?id=48392343",
-      "score": 356,
-      "comments": 191,
+      "score": 381,
+      "comments": 209,
       "author": "jc4p",
       "published": "2026-06-04T00:56:32Z"
     },
@@ -136,22 +148,10 @@
       "title": "The ways we contain Claude across products",
       "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
       "discuss_url": "https://news.ycombinator.com/item?id=48392082",
-      "score": 216,
-      "comments": 93,
+      "score": 222,
+      "comments": 94,
       "author": "jbredeche",
       "published": "2026-06-04T00:27:52Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "It's Not Just X. It's Y",
-      "url": "https://mail.cyberneticforests.com/its-not-just-data-its-post-training/",
-      "discuss_url": "https://lobste.rs/s/4xllsb",
-      "score": 60,
-      "comments": 14,
-      "author": "Yogthos",
-      "published": "2026-06-01T03:33:55Z"
     },
     {
       "source": "lobsters",
@@ -268,8 +268,8 @@
       "title": "Reproducible Builds in May 2026",
       "url": "https://reproducible-builds.org/reports/2026-05/",
       "discuss_url": "https://lobste.rs/s/cubjpv",
-      "score": 2,
-      "comments": 0,
+      "score": 9,
+      "comments": 1,
       "author": "fanf",
       "published": "2026-06-04T19:47:34Z"
     },
@@ -280,7 +280,7 @@
       "title": "revo, the programming language",
       "url": "https://gills.pages.dev/revo/",
       "discuss_url": "https://lobste.rs/s/ikkx3r",
-      "score": 60,
+      "score": 61,
       "comments": 7,
       "author": "alurm",
       "published": "2026-06-02T17:39:22Z"
@@ -301,18 +301,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Self-calling executables",
-      "url": "https://log.pfad.fr/2026/self-calling-executable/",
-      "discuss_url": "https://lobste.rs/s/o78n3y",
-      "score": 10,
-      "comments": 9,
-      "author": "oliverpool",
-      "published": "2026-06-02T16:54:12Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/degtqh",
       "discuss_url": "https://lobste.rs/s/degtqh",
@@ -320,6 +308,18 @@
       "comments": 48,
       "author": "caius",
       "published": "2026-06-01T09:57:04Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Self-calling executables",
+      "url": "https://log.pfad.fr/2026/self-calling-executable/",
+      "discuss_url": "https://lobste.rs/s/o78n3y",
+      "score": 10,
+      "comments": 9,
+      "author": "oliverpool",
+      "published": "2026-06-02T16:54:12Z"
     },
     {
       "source": "lobsters",
@@ -344,18 +344,6 @@
       "comments": 0,
       "author": "Yogthos",
       "published": "2026-06-02T17:26:58Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Why does ASTC use ISE when almost nothing else does?",
-      "url": "https://fgiesen.wordpress.com/2026/05/29/why-does-astc-use-ise-when-almost-nothing-else-does/",
-      "discuss_url": "https://lobste.rs/s/ek75hg",
-      "score": 8,
-      "comments": 0,
-      "author": "calvin",
-      "published": "2026-06-01T01:19:27Z"
     },
     {
       "source": "lobsters",
@@ -406,13 +394,25 @@
       "published": "2026-06-02T07:40:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Best of the Heap: First post of the past​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‍​﻿‌‍​﻿‍​‌‍‌‍​﻿​‌​﻿‌‍​﻿​​‌‍​‍​‍﻿‌‌‍​‍‌‍​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍​‍‌‍‌​​﻿‍‌​﻿​​​‍﻿‌​﻿‌﻿​﻿‌‌‌‍​‌​﻿​﻿​﻿‍‌​﻿​‌​﻿​‍‌‍‌​​﻿​‌​﻿‌​​﻿‌‌​﻿‌‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‍​﻿‌‍​﻿‍​‌‍‌‍​﻿​‌​﻿‌‍​﻿​​‌‍​‍​‍﻿‌‌‍​‍‌‍​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍​‍‌‍‌​​﻿‍‌​﻿​​​‍﻿‌​﻿‌﻿​﻿‌‌‌‍​‌​﻿​﻿​﻿‍‌​﻿​‌​﻿​‍‌‍‌​​﻿​‌​﻿‌​​﻿‌‌​﻿‌‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/05/29/best-of-the-heap-first-post-of-the-past/",
+      "discuss_url": "https://stackoverflow.blog/2026/05/29/best-of-the-heap-first-post-of-the-past/",
+      "score": null,
+      "comments": null,
+      "author": "Ryan Donovan",
+      "published": "2026-05-29T14:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it",
       "url": "https://blog.nns.ee/2026/06/03/katana-badusb/",
       "discuss_url": "https://lobste.rs/s/mth4mj",
-      "score": 48,
+      "score": 50,
       "comments": 5,
       "author": "matthew2",
       "published": "2026-06-03T11:54:11Z"
@@ -436,7 +436,7 @@
       "title": "A Post-Quantum Future for Let's Encrypt",
       "url": "https://letsencrypt.org/2026/06/03/pq-certs.html",
       "discuss_url": "https://lobste.rs/s/djguny",
-      "score": 34,
+      "score": 36,
       "comments": 0,
       "author": "fanf",
       "published": "2026-06-03T19:07:13Z"
@@ -461,7 +461,7 @@
       "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
       "discuss_url": "https://lobste.rs/s/pmkmil",
       "score": 70,
-      "comments": 13,
+      "comments": 14,
       "author": "sinic",
       "published": "2026-06-01T17:38:50Z"
     },
@@ -472,7 +472,7 @@
       "title": "Rooting Home Assistant through MeshCore: XSS attacks with a LoRa node name",
       "url": "https://mxsasha.eu/posts/meshcore-xss-home-assistant/",
       "discuss_url": "https://lobste.rs/s/0rtm7s",
-      "score": 6,
+      "score": 7,
       "comments": 0,
       "author": "fanf",
       "published": "2026-06-03T22:34:16Z"
@@ -493,6 +493,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Please Do Not Hack Me - The Tale of a TeamSpeak Use-After-Free",
+      "url": "https://modzero.com/en/blog/please-do-not-hack-me/",
+      "discuss_url": "https://lobste.rs/s/fxksjw",
+      "score": 2,
+      "comments": 0,
+      "author": "freddyb",
+      "published": "2026-06-03T20:09:21Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "iSCSI CHAP: Heap Buffer Overflow in the Linux Kernel",
       "url": "https://ahossu.ro/blog/iscsi-chap-base64-overflow",
       "discuss_url": "https://lobste.rs/s/exezj2",
@@ -500,18 +512,6 @@
       "comments": 0,
       "author": "fro",
       "published": "2026-06-01T18:25:24Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Please Do Not Hack Me - The Tale of a TeamSpeak Use-After-Free",
-      "url": "https://modzero.com/en/blog/please-do-not-hack-me/",
-      "discuss_url": "https://lobste.rs/s/fxksjw",
-      "score": 1,
-      "comments": 0,
-      "author": "freddyb",
-      "published": "2026-06-03T20:09:21Z"
     },
     {
       "source": "lobsters",
@@ -529,18 +529,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "On Reading SRAMs in IR Images, and Establishing Bounds on Trust",
-      "url": "https://www.bunniestudios.com/blog/2026/on-reading-srams-in-ir-images-and-establishing-bounds-on-trust/",
-      "discuss_url": "https://lobste.rs/s/oiyknx",
-      "score": 2,
-      "comments": 1,
-      "author": "cyplo",
-      "published": "2026-06-01T02:47:16Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "ChatGPhish: The Page Is the Payload",
       "url": "https://permiso.io/blog/chatgpt-markdown-rendering-vulnerability",
       "discuss_url": "https://lobste.rs/s/hqcuy7",
@@ -550,16 +538,40 @@
       "published": "2026-06-02T07:50:59Z"
     },
     {
+      "source": "rss",
+      "subsource": "krebsonsecurity.com",
+      "category": "security",
+      "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
+      "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+      "discuss_url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+      "score": null,
+      "comments": null,
+      "author": "BrianKrebs",
+      "published": "2026-06-01T17:32:50Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "VoidZero Is Joining Cloudflare",
       "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
       "discuss_url": "https://news.ycombinator.com/item?id=48398055",
-      "score": 478,
-      "comments": 228,
+      "score": 591,
+      "comments": 263,
       "author": "coloneltcb",
       "published": "2026-06-04T13:00:51Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "IPv6 zones in URLs are a mistake",
+      "url": "https://xeiaso.net/notes/2026/ipv6-zones-go-url/",
+      "discuss_url": "https://lobste.rs/s/lcnc5e",
+      "score": 26,
+      "comments": 8,
+      "author": "gmem",
+      "published": "2026-06-04T21:09:47Z"
     },
     {
       "source": "lobsters",
@@ -568,7 +580,7 @@
       "title": "github and the crime against software",
       "url": "https://eblog.fly.dev/githubbad.html",
       "discuss_url": "https://lobste.rs/s/vkoa7r",
-      "score": 75,
+      "score": 77,
       "comments": 32,
       "author": "abnercoimbre",
       "published": "2026-06-01T15:36:49Z"
@@ -589,9 +601,45 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "Amazon SageMaker Data Agent integrates business context into conversations",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent-bdc/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent-bdc/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-04T21:51:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon Cognito now supports multi-Region replication",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-04T17:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Databases on Vercel now available in additional AWS Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-04T17:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EKS Capabilities now supports Amazon CloudWatch Vended Logs",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-capabilities-logging",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-capabilities-logging",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -608,6 +656,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-06-04T08:05:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Bedrock launches a redesigned console optimized for OpenAI- and Anthropic-compatible APIs",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-redesigned-console-optimized-openai-anthropic-compatible-apis/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-redesigned-console-optimized-openai-anthropic-compatible-apis/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-04T07:00:00Z"
     },
     {
       "source": "rss",
@@ -634,64 +694,76 @@
       "published": "2026-06-03T20:26:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon SageMaker Unified Studio now supports notebook scheduling",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-03T20:13:00Z"
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "industry",
+      "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
+      "discuss_url": "https://news.ycombinator.com/item?id=48405718",
+      "score": 209,
+      "comments": 95,
+      "author": "tristanj",
+      "published": "2026-06-04T22:48:19Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "industry",
+      "title": "The SpaceX IPO will be the theft of the century",
+      "url": "https://montanaskeptic.substack.com/p/the-spacex-ipo-will-be-the-theft",
+      "discuss_url": "https://news.ycombinator.com/item?id=48394034",
+      "score": 136,
+      "comments": 112,
+      "author": "400thecat",
+      "published": "2026-06-04T04:52:37Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Step Functions adds AgentCore-powered agentic reasoning step",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-agentcore/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-agentcore/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "The skeptic’s guide to humanoid robots going viral on the Internet",
+      "url": "https://arstechnica.com/ai/2026/06/the-skeptics-guide-to-humanoid-robots-going-viral-on-the-internet/",
+      "discuss_url": "https://arstechnica.com/ai/2026/06/the-skeptics-guide-to-humanoid-robots-going-viral-on-the-internet/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-03T20:00:00Z"
+      "author": "Jeremy Hsu",
+      "published": "2026-06-04T22:23:36Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "OpenAI GPT-5.4 generally available on Amazon Bedrock in AWS GovCloud (US-West)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/GPT54-available-in-aws-govcloud-us-west/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/GPT54-available-in-aws-govcloud-us-west/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "AT&T and Verizon lose Supreme Court case over fines for selling location data",
+      "url": "https://arstechnica.com/tech-policy/2026/06/att-and-verizon-lose-supreme-court-case-over-fines-for-selling-location-data/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/att-and-verizon-lose-supreme-court-case-over-fines-for-selling-location-data/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-03T19:58:00Z"
+      "author": "Jon Brodkin",
+      "published": "2026-06-04T21:25:19Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Compute Optimizer now supports 32-day lookback for EBS volume and ECS service rightsizing recommendations",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-ebs-ecs-32-day-lookback/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-ebs-ecs-32-day-lookback/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "These LLMs are the best at resisting Russian propaganda",
+      "url": "https://arstechnica.com/ai/2026/06/these-llms-are-the-best-at-resisting-russian-propaganda/",
+      "discuss_url": "https://arstechnica.com/ai/2026/06/these-llms-are-the-best-at-resisting-russian-propaganda/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-03T18:30:00Z"
+      "author": "Kyle Orland",
+      "published": "2026-06-04T20:44:31Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "ARC Region switch adds Amazon Aurora scaling and Amazon Neptune global database failover",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/region-switch-aurora-scaling-neptune-failover/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/region-switch-aurora-scaling-neptune-failover/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Dashlane explains how attackers managed to download encrypted password vaults",
+      "url": "https://arstechnica.com/security/2026/06/dashlane-explains-how-attackers-managed-to-download-encrypted-password-vaults/",
+      "discuss_url": "https://arstechnica.com/security/2026/06/dashlane-explains-how-attackers-managed-to-download-encrypted-password-vaults/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-03T17:44:00Z"
+      "author": "Dan Goodin",
+      "published": "2026-06-04T20:02:04Z"
     },
     {
       "source": "rss",
@@ -764,78 +836,6 @@
       "comments": null,
       "author": "Molly Taft, wired.com",
       "published": "2026-06-04T14:11:32Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "My SSN was exposed in a breach at Columbia—a school I have no connection with",
-      "url": "https://arstechnica.com/tech-policy/2026/06/my-ssn-was-exposed-in-a-breach-at-columbia-a-school-i-have-no-connection-with/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/my-ssn-was-exposed-in-a-breach-at-columbia-a-school-i-have-no-connection-with/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-06-04T13:48:51Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Used Waymo robotaxi batteries become backup storage for power grids",
-      "url": "https://arstechnica.com/science/2026/06/used-waymo-robotaxi-batteries-become-backup-storage-for-power-grids/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/used-waymo-robotaxi-batteries-become-backup-storage-for-power-grids/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-06-04T11:00:45Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Flesh-eating screwworm infection confirmed in South Texas, USDA says",
-      "url": "https://arstechnica.com/health/2026/06/flesh-eating-screwworm-infection-detected-in-south-texas-usda-says/",
-      "discuss_url": "https://arstechnica.com/health/2026/06/flesh-eating-screwworm-infection-detected-in-south-texas-usda-says/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-06-04T02:46:35Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Microsoft, Atom Computing update their quantum computing progress",
-      "url": "https://arstechnica.com/science/2026/06/microsoft-atom-computing-eeroq-update-their-quantum-computing-progress/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/microsoft-atom-computing-eeroq-update-their-quantum-computing-progress/",
-      "score": null,
-      "comments": null,
-      "author": "John Timmer",
-      "published": "2026-06-03T22:09:41Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Google ordered to put clearer links in AI search and let UK publishers opt out",
-      "url": "https://arstechnica.com/tech-policy/2026/06/google-ordered-to-put-clearer-links-in-ai-search-and-let-uk-publishers-opt-out/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/google-ordered-to-put-clearer-links-in-ai-search-and-let-uk-publishers-opt-out/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-06-03T20:26:51Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Can't make sense of Dashlane's vault theft notification? You're not alone.",
-      "url": "https://arstechnica.com/security/2026/06/dashlane-issues-opaque-advisory-warning-20-encrypted-vaults-were-stolen/",
-      "discuss_url": "https://arstechnica.com/security/2026/06/dashlane-issues-opaque-advisory-warning-20-encrypted-vaults-were-stolen/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-06-03T19:53:14Z"
     }
   ]
 }
