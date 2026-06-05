@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T04:12:39Z",
+  "updated_at": "2026-06-05T10:00:22Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
       "url": "https://github.com/anthropics/defending-code-reference-harness",
       "discuss_url": "https://news.ycombinator.com/item?id=48403980",
-      "score": 318,
-      "comments": 101,
+      "score": 422,
+      "comments": 119,
       "author": "binyu",
       "published": "2026-06-04T20:11:20Z",
       "bullets": [
-        "Anthropic open-sourced a benchmarking framework to evaluate LLMs, like Claude 3.5 Sonnet, on automated vulnerability discovery and exploit generation.",
-        "The tool uses agentic workflows to test AI models against diverse, sandboxed environments to quantify cybersecurity risks and capabilities.",
-        "AI practitioners can run automated CTF challenges to benchmark dual-use hazards and improve LLM-assisted patch generation and defense."
+        "The release enables security teams to benchmark LLMs like Claude 3.5 Sonnet on automated software exploitation and patching tasks.",
+        "It utilizes agentic scaffolding, letting AI models run terminal commands, compilers, and debuggers inside secure Docker containers.",
+        "This standardized testing harness helps AI safety researchers measure cyber-capabilities and establish risk-mitigation guardrails for autonomous agents."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Reproducible Builds in May 2026",
-      "url": "https://reproducible-builds.org/reports/2026-05/",
-      "discuss_url": "https://lobste.rs/s/cubjpv",
-      "score": 9,
-      "comments": 1,
-      "author": "fanf",
-      "published": "2026-06-04T19:47:34Z",
+      "title": "Navigating the Fog of War: Age of Empires, AI Agents, and the Rise of Dark Code",
+      "url": "https://blog.waleson.com/2026/05/navigating-fog-of-war-age-of-empires-ai.html",
+      "discuss_url": "https://lobste.rs/s/huexha",
+      "score": 2,
+      "comments": 2,
+      "author": "j11g",
+      "published": "2026-06-05T05:29:28Z",
       "bullets": [
-        "Standardize builds using `SOURCE_DATE_EPOCH` to eliminate non-deterministic timestamps in compilers like GCC, Clang, and Rustc.",
-        "Leverage `diffoscope` for deep comparison of tarballs, ISO images, and PDF files to identify sources of build variation.",
-        "Integrate reproducibility checks into CI/CD pipelines to validate SBOM integrity and mitigate upstream software supply chain vulnerabilities."
+        "RTS games like Age of Empires serve as critical training environments for AI agents navigating partially observable, real-time state spaces.",
+        "Dark code represents unmonitored, emergent, or AI-generated executable logic operating outside traditional CI/CD pipelines and static analysis tools.",
+        "Mitigating agentic risks requires runtime observability, strict execution sandboxing, and policy-enforcing guardrails for autonomous code generation."
       ]
     },
     {
@@ -76,9 +76,9 @@
       "author": "matthew2",
       "published": "2026-06-03T11:54:11Z",
       "bullets": [
-        "The attack exploits standard audio chipsets to turn output speakers into passive microphones, enabling unauthorized local eavesdropping without hardware access.",
-        "Resonant acoustic frequencies emitted from speakers can disrupt physical components like hard disk drives and MEMS sensors, causing system crashes.",
-        "Malware can exfiltrate sensitive data from air-gapped systems using high-frequency, inaudible ultrasonic signals transmitted via the target PC’s speakers."
+        "Acoustic attacks exploit speaker hardware, turning output transducers into makeshift microphones to silently capture sensitive nearby ambient audio.",
+        "Attackers can use ultrasonic frequencies to inject commands into voice control systems or disrupt hard drives through physical resonance.",
+        "Mitigate risks by physically disconnecting unused speakers, shielding hardware from electromagnetic interference, and auditing audio driver capabilities."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "VoidZero Is Joining Cloudflare",
       "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
       "discuss_url": "https://news.ycombinator.com/item?id=48398055",
-      "score": 591,
-      "comments": 263,
+      "score": 638,
+      "comments": 277,
       "author": "coloneltcb",
       "published": "2026-06-04T13:00:51Z",
       "bullets": [
-        "VoidZero joins Cloudflare, integrating Rust-based Oxc and Rolldown to accelerate build and deployment speeds for Workers and Pages.",
-        "The joint team will prioritize making Rolldown production-ready to replace Rollup and esbuild in modern web pipelines.",
-        "DevOps engineers will benefit from faster, native Rust-powered build tooling, drastically reducing CI/CD execution times for JS/TS apps."
+        "VoidZero joins Cloudflare to integrate its Rust-based JavaScript toolchain (Oxc, Rolldown, Vite) directly into the Workers platform.",
+        "DevOps pipelines will benefit from faster builds and deploys by leveraging Rust-native Oxc and Rolldown for edge compilation.",
+        "The collaboration promises zero-config, highly optimized deployment workflows for Vite-powered frameworks on Cloudflare's global workerd runtime."
       ]
     },
     {
@@ -105,14 +105,14 @@
       "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
       "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
       "discuss_url": "https://news.ycombinator.com/item?id=48405718",
-      "score": 209,
-      "comments": 95,
+      "score": 568,
+      "comments": 277,
       "author": "tristanj",
       "published": "2026-06-04T22:48:19Z",
       "bullets": [
-        "S&P ruled against accelerated index inclusion for mega IPOs, forcing companies to wait and meet standard seasoning and profitability rules.",
-        "Late-stage tech giants like SpaceX or Stripe face delayed passive-fund inflows post-IPO, affecting initial liquidity and valuation stability.",
-        "Tech employees and VC backers face longer lockups and potential price volatility without immediate S&P 500 index-fund buying pressure."
+        "S&P Dow Jones Indices rejected fast-track entry for mega IPOs, forcing companies to meet standard seasoning and GAAP profitability requirements first.",
+        "Delayed S&P 500 entry blocks immediate passive ETF capital inflows, impacting post-IPO stock liquidity and early market valuation.",
+        "Strict index criteria pressure tech firms to balance multi-class share structures and founder control against institutional investor demands."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
       "url": "https://github.com/anthropics/defending-code-reference-harness",
       "discuss_url": "https://news.ycombinator.com/item?id=48403980",
-      "score": 318,
-      "comments": 101,
+      "score": 422,
+      "comments": 119,
       "author": "binyu",
       "published": "2026-06-04T20:11:20Z"
     },
@@ -136,8 +136,8 @@
       "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
       "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
       "discuss_url": "https://news.ycombinator.com/item?id=48392343",
-      "score": 381,
-      "comments": 209,
+      "score": 388,
+      "comments": 210,
       "author": "jc4p",
       "published": "2026-06-04T00:56:32Z"
     },
@@ -148,8 +148,8 @@
       "title": "The ways we contain Claude across products",
       "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
       "discuss_url": "https://news.ycombinator.com/item?id=48392082",
-      "score": 222,
-      "comments": 94,
+      "score": 223,
+      "comments": 100,
       "author": "jbredeche",
       "published": "2026-06-04T00:27:52Z"
     },
@@ -265,13 +265,37 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Navigating the Fog of War: Age of Empires, AI Agents, and the Rise of Dark Code",
+      "url": "https://blog.waleson.com/2026/05/navigating-fog-of-war-age-of-empires-ai.html",
+      "discuss_url": "https://lobste.rs/s/huexha",
+      "score": 2,
+      "comments": 2,
+      "author": "j11g",
+      "published": "2026-06-05T05:29:28Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Reproducible Builds in May 2026",
       "url": "https://reproducible-builds.org/reports/2026-05/",
       "discuss_url": "https://lobste.rs/s/cubjpv",
-      "score": 9,
-      "comments": 1,
+      "score": 12,
+      "comments": 2,
       "author": "fanf",
       "published": "2026-06-04T19:47:34Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/vzutqp",
+      "discuss_url": "https://lobste.rs/s/vzutqp",
+      "score": 1,
+      "comments": 0,
+      "author": "caius",
+      "published": "2026-06-05T08:57:48Z"
     },
     {
       "source": "lobsters",
@@ -296,18 +320,6 @@
       "comments": 3,
       "author": "andyc",
       "published": "2026-06-02T20:57:41Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/degtqh",
-      "discuss_url": "https://lobste.rs/s/degtqh",
-      "score": 21,
-      "comments": 48,
-      "author": "caius",
-      "published": "2026-06-01T09:57:04Z"
     },
     {
       "source": "lobsters",
@@ -385,25 +397,13 @@
       "source": "rss",
       "subsource": "stackoverflow.blog",
       "category": "engineering",
-      "title": "What it takes to be a player in the international AI game​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‍​﻿​​​﻿​﻿‌‍​‌‌‍​‍‌‍​‌​﻿‌﻿​﻿‌‌​‍﻿‌‌‍‌‍​﻿​‍‌‍​﻿​﻿​‌​‍﻿‌​﻿‌​​﻿‌‍‌‍‌​​﻿‍‌​‍﻿‌​﻿‍​​﻿‌‌​﻿​﻿​﻿‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‍​​﻿​﻿​﻿‍‌​﻿​​‌‍‌‌​﻿​﻿​﻿‌‌​﻿‌‍​﻿‍​​﻿‍‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‍​﻿​​​﻿​﻿‌‍​‌‌‍​‍‌‍​‌​﻿‌﻿​﻿‌‌​‍﻿‌‌‍‌‍​﻿​‍‌‍​﻿​﻿​‌​‍﻿‌​﻿‌​​﻿‌‍‌‍‌​​﻿‍‌​‍﻿‌​﻿‍​​﻿‌‌​﻿​﻿​﻿‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‍​​﻿​﻿​﻿‍‌​﻿​​‌‍‌‌​﻿​﻿​﻿‌‌​﻿‌‍​﻿‍​​﻿‍‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "url": "https://stackoverflow.blog/2026/06/02/be-a-player-in-the-international-ai-game/",
-      "discuss_url": "https://stackoverflow.blog/2026/06/02/be-a-player-in-the-international-ai-game/",
+      "title": "Making the OWASP top ten in the vibe code era​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍​‌​﻿​﻿​﻿‌‍​﻿‍‌​﻿‌‍‌‍​‍​﻿‌​​‍﻿‌​﻿‍​​﻿​‌‌‍‌‍​﻿​﻿​‍﻿‌​﻿‌​‌‍‌‌​﻿‌‌‌‍‌‌​‍﻿‌‌‍​‌​﻿​​‌‍​﻿‌‍​‍​‍﻿‌‌‍​﻿​﻿‌‌‌‍‌‌‌‍​‌​﻿‍​​﻿​‌​﻿‌﻿‌‍‌​​﻿‍​​﻿‍​​﻿​​​﻿‌﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍​‌​﻿​﻿​﻿‌‍​﻿‍‌​﻿‌‍‌‍​‍​﻿‌​​‍﻿‌​﻿‍​​﻿​‌‌‍‌‍​﻿​﻿​‍﻿‌​﻿‌​‌‍‌‌​﻿‌‌‌‍‌‌​‍﻿‌‌‍​‌​﻿​​‌‍​﻿‌‍​‍​‍﻿‌‌‍​﻿​﻿‌‌‌‍‌‌‌‍​‌​﻿‍​​﻿​‌​﻿‌﻿‌‍‌​​﻿‍​​﻿‍​​﻿​​​﻿‌﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/06/05/making-the-owasp-top-ten-in-the-vibe-code-era/",
+      "discuss_url": "https://stackoverflow.blog/2026/06/05/making-the-owasp-top-ten-in-the-vibe-code-era/",
       "score": null,
       "comments": null,
       "author": "Phoebe Sajor",
-      "published": "2026-06-02T07:40:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "Best of the Heap: First post of the past​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‍​﻿‌‍​﻿‍​‌‍‌‍​﻿​‌​﻿‌‍​﻿​​‌‍​‍​‍﻿‌‌‍​‍‌‍​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍​‍‌‍‌​​﻿‍‌​﻿​​​‍﻿‌​﻿‌﻿​﻿‌‌‌‍​‌​﻿​﻿​﻿‍‌​﻿​‌​﻿​‍‌‍‌​​﻿​‌​﻿‌​​﻿‌‌​﻿‌‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‍​﻿‌‍​﻿‍​‌‍‌‍​﻿​‌​﻿‌‍​﻿​​‌‍​‍​‍﻿‌‌‍​‍‌‍​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍​‍‌‍‌​​﻿‍‌​﻿​​​‍﻿‌​﻿‌﻿​﻿‌‌‌‍​‌​﻿​﻿​﻿‍‌​﻿​‌​﻿​‍‌‍‌​​﻿​‌​﻿‌​​﻿‌‌​﻿‌‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "url": "https://stackoverflow.blog/2026/05/29/best-of-the-heap-first-post-of-the-past/",
-      "discuss_url": "https://stackoverflow.blog/2026/05/29/best-of-the-heap-first-post-of-the-past/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Donovan",
-      "published": "2026-05-29T14:00:00Z"
+      "published": "2026-06-05T07:40:00Z"
     },
     {
       "source": "lobsters",
@@ -520,7 +520,7 @@
       "title": "Pilcrow's auth book",
       "url": "https://auth.pilcrowonpaper.com/",
       "discuss_url": "https://lobste.rs/s/a9qqxl",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "andrewchou",
       "published": "2026-06-03T17:36:13Z"
@@ -556,8 +556,8 @@
       "title": "VoidZero Is Joining Cloudflare",
       "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
       "discuss_url": "https://news.ycombinator.com/item?id=48398055",
-      "score": 591,
-      "comments": 263,
+      "score": 638,
+      "comments": 277,
       "author": "coloneltcb",
       "published": "2026-06-04T13:00:51Z"
     },
@@ -568,8 +568,8 @@
       "title": "IPv6 zones in URLs are a mistake",
       "url": "https://xeiaso.net/notes/2026/ipv6-zones-go-url/",
       "discuss_url": "https://lobste.rs/s/lcnc5e",
-      "score": 26,
-      "comments": 8,
+      "score": 33,
+      "comments": 19,
       "author": "gmem",
       "published": "2026-06-04T21:09:47Z"
     },
@@ -700,8 +700,8 @@
       "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
       "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
       "discuss_url": "https://news.ycombinator.com/item?id=48405718",
-      "score": 209,
-      "comments": 95,
+      "score": 568,
+      "comments": 277,
       "author": "tristanj",
       "published": "2026-06-04T22:48:19Z"
     },
@@ -712,8 +712,8 @@
       "title": "The SpaceX IPO will be the theft of the century",
       "url": "https://montanaskeptic.substack.com/p/the-spacex-ipo-will-be-the-theft",
       "discuss_url": "https://news.ycombinator.com/item?id=48394034",
-      "score": 136,
-      "comments": 112,
+      "score": 137,
+      "comments": 117,
       "author": "400thecat",
       "published": "2026-06-04T04:52:37Z"
     },
