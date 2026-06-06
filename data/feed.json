@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-06T03:52:26Z",
+  "updated_at": "2026-06-06T08:39:30Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,51 +34,51 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Did Claude increase bugs in rsync?",
-      "url": "https://alexispurslane.github.io/rsync-analysis/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48411635",
-      "score": 337,
-      "comments": 347,
-      "author": "logicprog",
-      "published": "2026-06-05T12:43:33Z",
+      "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+      "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48421442",
+      "score": 344,
+      "comments": 101,
+      "author": "maltalex",
+      "published": "2026-06-06T04:38:36Z",
       "bullets": [
-        "AI-assisted code generation tools like Anthropic's Claude often introduce subtle memory and logic bugs into legacy C codebases like rsync.",
-        "Maintainers face a surge of plausible-looking but flawed AI-generated pull requests, increasing review fatigue and requiring stricter automated testing.",
-        "The incident underscores that LLMs lack deep system-level context, necessitating RAG or static analysis verification in AI software engineering workflows."
+        "S&P 500 eligibility rules block private AI pioneers OpenAI and Anthropic, keeping them inaccessible to passive index fund capital.",
+        "The exclusion highlights how non-traditional, capped-profit, or highly controlled corporate structures delay major AI startups from entering public markets.",
+        "Investors seeking direct exposure to leading foundation models must rely on private markets or indirect tech giants like Microsoft and Amazon."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Win16 Memory Management",
-      "url": "http://www.os2museum.com/wp/win16-memory-management/",
-      "discuss_url": "https://lobste.rs/s/c3xmxm",
-      "score": 19,
-      "comments": 1,
-      "author": "calvin",
-      "published": "2026-06-05T17:31:03Z",
+      "title": "The smallest C binary",
+      "url": "https://blog.weineng.me/posts/smallest_c/",
+      "discuss_url": "https://lobste.rs/s/eetcxi",
+      "score": 13,
+      "comments": 4,
+      "author": "weineng",
+      "published": "2026-06-06T02:37:28Z",
       "bullets": [
-        "Win16 uses x86 segmented addressing, forcing developers to manage 64KB segments using Selector:Offset pointers instead of a flat memory space.",
-        "APIs like GlobalAlloc and LocalAlloc handle moveable, discardable memory blocks, requiring manual locking via GlobalLock to retrieve physical pointers.",
-        "Real, Standard, and 386 Enhanced modes dictate how Windows 3.x utilizes MMUs, transitioning from physical addressing to page-based virtual memory."
+        "Standard GCC/Clang builds include bloated runtime libraries; developers must use `-nostdlib` and `-fno-asynchronous-unwind-tables` to minimize size.",
+        "Bypassing `libc` means redefining the entry point to `_start` and executing direct `syscall` instructions for basic I/O operations.",
+        "Shrinking Linux ELF binaries further requires manual assembler optimizations, section stripping, and rewriting headers to overlay metadata segments."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "The Empty Field That Wasn't: GPS Broadcasts a Numbers Station",
-      "url": "https://lsc-pagepro.mydigitalpublication.com/publication/?i=865273&p=62&view=issueViewer",
-      "discuss_url": "https://lobste.rs/s/a7v7e5",
-      "score": 26,
-      "comments": 4,
-      "author": "lordgilman",
-      "published": "2026-06-05T13:07:50Z",
+      "title": "Magecart skimmer turns Stripe into a malware command server",
+      "url": "https://sansec.io/research/stripe-api-skimmer-infrastructure",
+      "discuss_url": "https://lobste.rs/s/evgsx7",
+      "score": 2,
+      "comments": 0,
+      "author": "mseri",
+      "published": "2026-06-06T07:26:52Z",
       "bullets": [
-        "Legacy GPS LNAV navigation messages contain reserved \"empty\" fields that actually broadcast unexpected, changing data, functioning as a covert channel.",
-        "GPS receivers parsing these undocumented bits risk memory corruption if firmware assumes reserved fields always contain static zero values.",
-        "Security teams must validate GPS parser robustness against non-standard LNAV subframe data injected via Software-Defined Radios (SDRs)."
+        "Attackers abuse legitimate Stripe API endpoints for C2, bypassing standard network whitelisting and domain-based security controls.",
+        "Malicious JavaScript skimmers hide exfiltrated credit card data and configuration payloads inside legitimate Stripe API requests to evade detection.",
+        "To mitigate, security teams should implement strict Content Security Policies (CSP) and audit anomalous outbound payloads to trusted payment gateways."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "Cloudflare CEO is lying to you about the bot traffic jump",
       "url": "https://www.flyingpenguin.com/cloudflare-ceo-is-lying-to-you-about-the-bot-traffic-jump/",
       "discuss_url": "https://news.ycombinator.com/item?id=48415987",
-      "score": 143,
-      "comments": 123,
+      "score": 145,
+      "comments": 124,
       "author": "speckx",
       "published": "2026-06-05T17:56:19Z",
       "bullets": [
-        "Cloudflare CEO is lying to you about the bot traffic jump",
-        "Trending on news.ycombinator.com — 143 points, 123 comments.",
-        "Submitted by speckx on news.ycombinator.com."
+        "Cloudflare's claimed surge in bot traffic likely reflects modified classification metrics and dashboard telemetry updates rather than actual network threat changes.",
+        "Cross-reference Cloudflare WAF events with raw web server logs (e.g., Nginx, Apache) to prevent unnecessary, costly automated blocking adjustments.",
+        "Ensure bot management rules do not inadvertently block legitimate CI/CD webhooks, uptime monitors, or partner API integrations."
       ]
     },
     {
@@ -105,14 +105,14 @@
       "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
       "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
       "discuss_url": "https://news.ycombinator.com/item?id=48405718",
-      "score": 940,
-      "comments": 482,
+      "score": 992,
+      "comments": 500,
       "author": "tristanj",
       "published": "2026-06-04T22:48:19Z",
       "bullets": [
-        "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
-        "Trending on news.ycombinator.com — 940 points, 482 comments.",
-        "Submitted by tristanj on news.ycombinator.com."
+        "S&P Dow Jones Indices blocked accelerated entry for mega IPOs, forcing firms like SpaceX to undergo standard seasoning periods.",
+        "Delayed inclusion restricts immediate passive-fund buying, directly impacting post-IPO valuation stability and employee equity liquidity.",
+        "To enter the S&P 500, tech giants must still achieve positive cumulative GAAP earnings over four consecutive quarters."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+      "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48421442",
+      "score": 344,
+      "comments": 101,
+      "author": "maltalex",
+      "published": "2026-06-06T04:38:36Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Did Claude increase bugs in rsync?",
       "url": "https://alexispurslane.github.io/rsync-analysis/",
       "discuss_url": "https://news.ycombinator.com/item?id=48411635",
-      "score": 337,
-      "comments": 347,
+      "score": 399,
+      "comments": 402,
       "author": "logicprog",
       "published": "2026-06-05T12:43:33Z"
     },
@@ -136,8 +148,8 @@
       "title": "Programmers will document for Claude, but not for each other",
       "url": "https://blog.plover.com/2026/03/09/#documentation-wins-2",
       "discuss_url": "https://news.ycombinator.com/item?id=48411510",
-      "score": 177,
-      "comments": 149,
+      "score": 180,
+      "comments": 152,
       "author": "surprisetalk",
       "published": "2026-06-05T12:30:17Z"
     },
@@ -148,8 +160,8 @@
       "title": "Fine-tuning an LLM to write docs like it's 1995",
       "url": "https://passo.uno/fine-tuning-docs-llm/",
       "discuss_url": "https://news.ycombinator.com/item?id=48408442",
-      "score": 178,
-      "comments": 64,
+      "score": 184,
+      "comments": 65,
       "author": "taubek",
       "published": "2026-06-05T05:46:06Z"
     },
@@ -160,8 +172,8 @@
       "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
       "url": "https://github.com/anthropics/defending-code-reference-harness",
       "discuss_url": "https://news.ycombinator.com/item?id=48403980",
-      "score": 520,
-      "comments": 140,
+      "score": 522,
+      "comments": 141,
       "author": "binyu",
       "published": "2026-06-04T20:11:20Z"
     },
@@ -176,18 +188,6 @@
       "comments": 0,
       "author": "sanxiyn",
       "published": "2026-06-06T03:28:53Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "thunderbolt-ibverbs: We have InfiniBand at home",
-      "url": "https://blog.hellas.ai/blog/thunderbolt-ibverbs/",
-      "discuss_url": "https://lobste.rs/s/t8emho",
-      "score": 5,
-      "comments": 3,
-      "author": "statusfailed",
-      "published": "2026-06-02T05:20:57Z"
     },
     {
       "source": "lobsters",
@@ -265,10 +265,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "The smallest C binary",
+      "url": "https://blog.weineng.me/posts/smallest_c/",
+      "discuss_url": "https://lobste.rs/s/eetcxi",
+      "score": 13,
+      "comments": 4,
+      "author": "weineng",
+      "published": "2026-06-06T02:37:28Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Win16 Memory Management",
       "url": "http://www.os2museum.com/wp/win16-memory-management/",
       "discuss_url": "https://lobste.rs/s/c3xmxm",
-      "score": 19,
+      "score": 20,
       "comments": 1,
       "author": "calvin",
       "published": "2026-06-05T17:31:03Z"
@@ -284,18 +296,6 @@
       "comments": 16,
       "author": "caius",
       "published": "2026-06-05T08:57:48Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "The smallest C binary",
-      "url": "https://blog.weineng.me/posts/smallest_c/",
-      "discuss_url": "https://lobste.rs/s/eetcxi",
-      "score": 1,
-      "comments": 0,
-      "author": "weineng",
-      "published": "2026-06-06T02:37:28Z"
     },
     {
       "source": "lobsters",
@@ -409,10 +409,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Magecart skimmer turns Stripe into a malware command server",
+      "url": "https://sansec.io/research/stripe-api-skimmer-infrastructure",
+      "discuss_url": "https://lobste.rs/s/evgsx7",
+      "score": 2,
+      "comments": 0,
+      "author": "mseri",
+      "published": "2026-06-06T07:26:52Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "The Empty Field That Wasn't: GPS Broadcasts a Numbers Station",
       "url": "https://lsc-pagepro.mydigitalpublication.com/publication/?i=865273&p=62&view=issueViewer",
       "discuss_url": "https://lobste.rs/s/a7v7e5",
-      "score": 26,
+      "score": 32,
       "comments": 4,
       "author": "lordgilman",
       "published": "2026-06-05T13:07:50Z"
@@ -526,18 +538,6 @@
       "published": "2026-06-03T17:36:13Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "ChatGPhish: The Page Is the Payload",
-      "url": "https://permiso.io/blog/chatgpt-markdown-rendering-vulnerability",
-      "discuss_url": "https://lobste.rs/s/hqcuy7",
-      "score": 1,
-      "comments": 0,
-      "author": "gerikson",
-      "published": "2026-06-02T07:50:59Z"
-    },
-    {
       "source": "rss",
       "subsource": "krebsonsecurity.com",
       "category": "security",
@@ -556,8 +556,8 @@
       "title": "Cloudflare CEO is lying to you about the bot traffic jump",
       "url": "https://www.flyingpenguin.com/cloudflare-ceo-is-lying-to-you-about-the-bot-traffic-jump/",
       "discuss_url": "https://news.ycombinator.com/item?id=48415987",
-      "score": 143,
-      "comments": 123,
+      "score": 145,
+      "comments": 124,
       "author": "speckx",
       "published": "2026-06-05T17:56:19Z"
     },
@@ -568,8 +568,8 @@
       "title": "Azure Linux 4.0 is Microsoft's first general-purpose Linux",
       "url": "https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/",
       "discuss_url": "https://news.ycombinator.com/item?id=48407499",
-      "score": 197,
-      "comments": 139,
+      "score": 201,
+      "comments": 143,
       "author": "haydenbarnes",
       "published": "2026-06-05T03:14:28Z"
     },
@@ -580,7 +580,7 @@
       "title": "VoidZero Is Joining Cloudflare",
       "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
       "discuss_url": "https://news.ycombinator.com/item?id=48398055",
-      "score": 671,
+      "score": 674,
       "comments": 301,
       "author": "coloneltcb",
       "published": "2026-06-04T13:00:51Z"
@@ -592,8 +592,8 @@
       "title": "IPv6 zones in URLs are a mistake",
       "url": "https://xeiaso.net/notes/2026/ipv6-zones-go-url/",
       "discuss_url": "https://lobste.rs/s/lcnc5e",
-      "score": 45,
-      "comments": 36,
+      "score": 46,
+      "comments": 38,
       "author": "gmem",
       "published": "2026-06-04T21:09:47Z"
     },
@@ -685,9 +685,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Databases on Vercel now available in additional AWS Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
+      "title": "Amazon Cognito now supports multi-Region replication",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -700,22 +700,10 @@
       "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
       "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
       "discuss_url": "https://news.ycombinator.com/item?id=48405718",
-      "score": 940,
-      "comments": 482,
+      "score": 992,
+      "comments": 500,
       "author": "tristanj",
       "published": "2026-06-04T22:48:19Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "industry",
-      "title": "The SpaceX IPO will be the theft of the century",
-      "url": "https://montanaskeptic.substack.com/p/the-spacex-ipo-will-be-the-theft",
-      "discuss_url": "https://news.ycombinator.com/item?id=48394034",
-      "score": 141,
-      "comments": 121,
-      "author": "400thecat",
-      "published": "2026-06-04T04:52:37Z"
     },
     {
       "source": "rss",
@@ -764,18 +752,6 @@
       "comments": null,
       "author": "Stephen Clark",
       "published": "2026-06-05T19:03:16Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
-      "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-06-05T18:45:20Z"
     },
     {
       "source": "rss",
@@ -836,6 +812,30 @@
       "comments": null,
       "author": "Jonathan M. Gitlin",
       "published": "2026-06-05T14:44:04Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Rocket Report: Blue Origin explosion still making headlines; Impulse raises money",
+      "url": "https://arstechnica.com/space/2026/06/rocket-report-blue-origin-explosion-still-making-headlines-impulse-raises-money/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/rocket-report-blue-origin-explosion-still-making-headlines-impulse-raises-money/",
+      "score": null,
+      "comments": null,
+      "author": "Stephen Clark",
+      "published": "2026-06-05T14:20:54Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Safety officials finally have a good idea of what a big rocket explosion can do",
+      "url": "https://arstechnica.com/space/2026/06/safety-officials-finally-have-a-good-idea-of-what-a-big-rocket-explosion-can-do/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/safety-officials-finally-have-a-good-idea-of-what-a-big-rocket-explosion-can-do/",
+      "score": null,
+      "comments": null,
+      "author": "Stephen Clark",
+      "published": "2026-06-05T13:55:05Z"
     }
   ]
 }
