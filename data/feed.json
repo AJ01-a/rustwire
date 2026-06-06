@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-06T08:39:30Z",
+  "updated_at": "2026-06-06T13:52:23Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
       "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
       "discuss_url": "https://news.ycombinator.com/item?id=48421442",
-      "score": 344,
-      "comments": 101,
+      "score": 791,
+      "comments": 259,
       "author": "maltalex",
       "published": "2026-06-06T04:38:36Z",
       "bullets": [
-        "S&P 500 eligibility rules block private AI pioneers OpenAI and Anthropic, keeping them inaccessible to passive index fund capital.",
-        "The exclusion highlights how non-traditional, capped-profit, or highly controlled corporate structures delay major AI startups from entering public markets.",
-        "Investors seeking direct exposure to leading foundation models must rely on private markets or indirect tech giants like Microsoft and Amazon."
+        "S&P 500's public listing and profitability rules exclude privately held AI giants OpenAI and Anthropic despite their massive market valuations.",
+        "OpenAI's capped-profit structure and Anthropic's Public Benefit Corporation status present novel governance hurdles for traditional public market integration.",
+        "Exclusion from indices like the S&P 500 limits passive retail and institutional capital inflows for top-tier LLM developers."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "The smallest C binary",
       "url": "https://blog.weineng.me/posts/smallest_c/",
       "discuss_url": "https://lobste.rs/s/eetcxi",
-      "score": 13,
-      "comments": 4,
+      "score": 22,
+      "comments": 8,
       "author": "weineng",
       "published": "2026-06-06T02:37:28Z",
       "bullets": [
-        "Standard GCC/Clang builds include bloated runtime libraries; developers must use `-nostdlib` and `-fno-asynchronous-unwind-tables` to minimize size.",
-        "Bypassing `libc` means redefining the entry point to `_start` and executing direct `syscall` instructions for basic I/O operations.",
-        "Shrinking Linux ELF binaries further requires manual assembler optimizations, section stripping, and rewriting headers to overlay metadata segments."
+        "Compiling with -nostdlib and replacing main with _start bypasses standard C library overhead, drastically reducing initial ELF binary size.",
+        "Using direct assembly system calls (like sys_exit) eliminates runtime dependencies, allowing developers to omit libc linking entirely.",
+        "Shrinking binaries to extreme minimums (under 100 bytes) requires manual ELF header manipulation and overlapping header fields using assembly."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Magecart skimmer turns Stripe into a malware command server",
-      "url": "https://sansec.io/research/stripe-api-skimmer-infrastructure",
-      "discuss_url": "https://lobste.rs/s/evgsx7",
+      "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
+      "url": "https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/",
+      "discuss_url": "https://lobste.rs/s/k67xnh",
       "score": 2,
       "comments": 0,
-      "author": "mseri",
-      "published": "2026-06-06T07:26:52Z",
+      "author": "gerikson",
+      "published": "2026-06-06T11:46:28Z",
       "bullets": [
-        "Attackers abuse legitimate Stripe API endpoints for C2, bypassing standard network whitelisting and domain-based security controls.",
-        "Malicious JavaScript skimmers hide exfiltrated credit card data and configuration payloads inside legitimate Stripe API requests to evade detection.",
-        "To mitigate, security teams should implement strict Content Security Policies (CSP) and audit anomalous outbound payloads to trusted payment gateways."
+        "Smart TVs act as residential proxies for AI scrapers, running embedded SDKs within apps to route scraping traffic past bot detection.",
+        "Defenders must monitor IoT egress traffic for unauthorized proxy protocols, such as SOCKS5, linked to commercial residential proxy networks.",
+        "App monetization SDKs turn consumer smart TVs into covert scraping nodes, exploiting residential IP addresses to bypass automated bot mitigation."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "Cloudflare CEO is lying to you about the bot traffic jump",
       "url": "https://www.flyingpenguin.com/cloudflare-ceo-is-lying-to-you-about-the-bot-traffic-jump/",
       "discuss_url": "https://news.ycombinator.com/item?id=48415987",
-      "score": 145,
-      "comments": 124,
+      "score": 146,
+      "comments": 126,
       "author": "speckx",
       "published": "2026-06-05T17:56:19Z",
       "bullets": [
-        "Cloudflare's claimed surge in bot traffic likely reflects modified classification metrics and dashboard telemetry updates rather than actual network threat changes.",
-        "Cross-reference Cloudflare WAF events with raw web server logs (e.g., Nginx, Apache) to prevent unnecessary, costly automated blocking adjustments.",
-        "Ensure bot management rules do not inadvertently block legitimate CI/CD webhooks, uptime monitors, or partner API integrations."
+        "Cloudflare's bot detection often misclassifies legitimate API requests and DevOps tools as malicious, artificially inflating reported bot traffic metrics.",
+        "DevOps teams should cross-reference Cloudflare's dashboard analytics with application-level ingress logs like Nginx or Envoy to verify actual traffic patterns.",
+        "Incorrect bot classification risks blocking essential automated systems, including CI/CD pipelines, monitoring webhooks, and legitimate partner API integrations."
       ]
     },
     {
@@ -105,14 +105,14 @@
       "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
       "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
       "discuss_url": "https://news.ycombinator.com/item?id=48405718",
-      "score": 992,
-      "comments": 500,
+      "score": 1017,
+      "comments": 503,
       "author": "tristanj",
       "published": "2026-06-04T22:48:19Z",
       "bullets": [
-        "S&P Dow Jones Indices blocked accelerated entry for mega IPOs, forcing firms like SpaceX to undergo standard seasoning periods.",
-        "Delayed inclusion restricts immediate passive-fund buying, directly impacting post-IPO valuation stability and employee equity liquidity.",
-        "To enter the S&P 500, tech giants must still achieve positive cumulative GAAP earnings over four consecutive quarters."
+        "S&P rejected expedited index inclusion rules, meaning massive venture-backed listings face standard seasoning periods before S&P 500 entry.",
+        "Delayed indexation prevents immediate passive fund inflows, potentially increasing post-IPO stock volatility for multi-billion-dollar technology firms.",
+        "The decision alters liquidity strategies for late-stage startups and defense-tech giants planning public market debuts."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
       "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
       "discuss_url": "https://news.ycombinator.com/item?id=48421442",
-      "score": 344,
-      "comments": 101,
+      "score": 791,
+      "comments": 259,
       "author": "maltalex",
       "published": "2026-06-06T04:38:36Z"
     },
@@ -136,8 +136,8 @@
       "title": "Did Claude increase bugs in rsync?",
       "url": "https://alexispurslane.github.io/rsync-analysis/",
       "discuss_url": "https://news.ycombinator.com/item?id=48411635",
-      "score": 399,
-      "comments": 402,
+      "score": 454,
+      "comments": 459,
       "author": "logicprog",
       "published": "2026-06-05T12:43:33Z"
     },
@@ -148,10 +148,46 @@
       "title": "Programmers will document for Claude, but not for each other",
       "url": "https://blog.plover.com/2026/03/09/#documentation-wins-2",
       "discuss_url": "https://news.ycombinator.com/item?id=48411510",
-      "score": 180,
+      "score": 183,
       "comments": 152,
       "author": "surprisetalk",
       "published": "2026-06-05T12:30:17Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+      "url": "https://arxiv.org/pdf/2605.31514",
+      "discuss_url": "https://lobste.rs/s/owclks",
+      "score": 4,
+      "comments": 0,
+      "author": "onbjerg",
+      "published": "2026-06-06T12:31:19Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "AI Worm",
+      "url": "https://arxiv.org/abs/2606.03811",
+      "discuss_url": "https://lobste.rs/s/vrwnjw",
+      "score": 5,
+      "comments": 1,
+      "author": "carlomonte",
+      "published": "2026-06-06T10:29:43Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens",
+      "url": "https://github.com/zdk/lowfat",
+      "discuss_url": "https://news.ycombinator.com/item?id=48409955",
+      "score": 133,
+      "comments": 68,
+      "author": "zdkaster",
+      "published": "2026-06-05T09:10:42Z"
     },
     {
       "source": "hackernews",
@@ -160,8 +196,8 @@
       "title": "Fine-tuning an LLM to write docs like it's 1995",
       "url": "https://passo.uno/fine-tuning-docs-llm/",
       "discuss_url": "https://news.ycombinator.com/item?id=48408442",
-      "score": 184,
-      "comments": 65,
+      "score": 187,
+      "comments": 66,
       "author": "taubek",
       "published": "2026-06-05T05:46:06Z"
     },
@@ -172,7 +208,7 @@
       "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
       "url": "https://github.com/anthropics/defending-code-reference-harness",
       "discuss_url": "https://news.ycombinator.com/item?id=48403980",
-      "score": 522,
+      "score": 524,
       "comments": 141,
       "author": "binyu",
       "published": "2026-06-04T20:11:20Z"
@@ -181,10 +217,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
+      "title": "Language models transmit behavioural traits through hidden signals in data",
+      "url": "https://www.nature.com/articles/s41586-026-10319-8",
+      "discuss_url": "https://lobste.rs/s/wv1dx8",
+      "score": 2,
+      "comments": 0,
+      "author": "jmillikin",
+      "published": "2026-06-06T10:12:07Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
       "title": "ZML: Model to Metal",
       "url": "https://zml.ai/",
       "discuss_url": "https://lobste.rs/s/icyhpt",
-      "score": 1,
+      "score": 3,
       "comments": 0,
       "author": "sanxiyn",
       "published": "2026-06-06T03:28:53Z"
@@ -205,61 +253,13 @@
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
-      "title": "Thousand Token Wood: shipping a multi-agent economy on a 3B model",
-      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
-      "discuss_url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
+      "title": "Persona Atlas: Mapping How Famous Minds Think",
+      "url": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
+      "discuss_url": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
       "score": null,
       "comments": null,
       "author": null,
-      "published": "2026-06-05T22:18:46Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-      "discuss_url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-04T18:57:45Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
-      "discuss_url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-04T12:24:58Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
-      "url": "https://huggingface.co/blog/hf-cli-for-agents",
-      "discuss_url": "https://huggingface.co/blog/hf-cli-for-agents",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-04T00:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Direct Preference Optimization Beyond Chatbots",
-      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-      "discuss_url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-03T12:55:11Z"
+      "published": "2026-06-06T11:42:01Z"
     },
     {
       "source": "lobsters",
@@ -268,8 +268,8 @@
       "title": "The smallest C binary",
       "url": "https://blog.weineng.me/posts/smallest_c/",
       "discuss_url": "https://lobste.rs/s/eetcxi",
-      "score": 13,
-      "comments": 4,
+      "score": 22,
+      "comments": 8,
       "author": "weineng",
       "published": "2026-06-06T02:37:28Z"
     },
@@ -280,7 +280,7 @@
       "title": "Win16 Memory Management",
       "url": "http://www.os2museum.com/wp/win16-memory-management/",
       "discuss_url": "https://lobste.rs/s/c3xmxm",
-      "score": 20,
+      "score": 21,
       "comments": 1,
       "author": "calvin",
       "published": "2026-06-05T17:31:03Z"
@@ -292,8 +292,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/vzutqp",
       "discuss_url": "https://lobste.rs/s/vzutqp",
-      "score": 13,
-      "comments": 16,
+      "score": 14,
+      "comments": 17,
       "author": "caius",
       "published": "2026-06-05T08:57:48Z"
     },
@@ -341,7 +341,7 @@
       "url": "https://blog.waleson.com/2026/05/navigating-fog-of-war-age-of-empires-ai.html",
       "discuss_url": "https://lobste.rs/s/huexha",
       "score": 2,
-      "comments": 2,
+      "comments": 3,
       "author": "j11g",
       "published": "2026-06-05T05:29:28Z"
     },
@@ -409,10 +409,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
+      "url": "https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/",
+      "discuss_url": "https://lobste.rs/s/k67xnh",
+      "score": 2,
+      "comments": 0,
+      "author": "gerikson",
+      "published": "2026-06-06T11:46:28Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Magecart skimmer turns Stripe into a malware command server",
       "url": "https://sansec.io/research/stripe-api-skimmer-infrastructure",
       "discuss_url": "https://lobste.rs/s/evgsx7",
-      "score": 2,
+      "score": 6,
       "comments": 0,
       "author": "mseri",
       "published": "2026-06-06T07:26:52Z"
@@ -424,7 +436,7 @@
       "title": "The Empty Field That Wasn't: GPS Broadcasts a Numbers Station",
       "url": "https://lsc-pagepro.mydigitalpublication.com/publication/?i=865273&p=62&view=issueViewer",
       "discuss_url": "https://lobste.rs/s/a7v7e5",
-      "score": 32,
+      "score": 34,
       "comments": 4,
       "author": "lordgilman",
       "published": "2026-06-05T13:07:50Z"
@@ -457,18 +469,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "A Post-Quantum Future for Let's Encrypt",
-      "url": "https://letsencrypt.org/2026/06/03/pq-certs.html",
-      "discuss_url": "https://lobste.rs/s/djguny",
-      "score": 38,
-      "comments": 0,
-      "author": "fanf",
-      "published": "2026-06-03T19:07:13Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Codex Discovered a Hidden HTTP/2 Bomb",
       "url": "https://blog.calif.io/p/codex-discovered-a-hidden-http2-bomb",
       "discuss_url": "https://lobste.rs/s/cnbztx",
@@ -481,13 +481,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Rooting Home Assistant through MeshCore: XSS attacks with a LoRa node name",
-      "url": "https://mxsasha.eu/posts/meshcore-xss-home-assistant/",
-      "discuss_url": "https://lobste.rs/s/0rtm7s",
-      "score": 8,
+      "title": "A Post-Quantum Future for Let's Encrypt",
+      "url": "https://letsencrypt.org/2026/06/03/pq-certs.html",
+      "discuss_url": "https://lobste.rs/s/djguny",
+      "score": 38,
       "comments": 0,
       "author": "fanf",
-      "published": "2026-06-03T22:34:16Z"
+      "published": "2026-06-03T19:07:13Z"
     },
     {
       "source": "lobsters",
@@ -496,10 +496,22 @@
       "title": "Chasing Lightning: Detecting, Characterizing, and Identifying a Powerful Space-Based GNSS Interference Source",
       "url": "https://arxiv.org/abs/2606.03673",
       "discuss_url": "https://lobste.rs/s/qrhqvc",
-      "score": 1,
+      "score": 3,
       "comments": 0,
       "author": "fanf",
       "published": "2026-06-05T12:26:03Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Rooting Home Assistant through MeshCore: XSS attacks with a LoRa node name",
+      "url": "https://mxsasha.eu/posts/meshcore-xss-home-assistant/",
+      "discuss_url": "https://lobste.rs/s/0rtm7s",
+      "score": 8,
+      "comments": 0,
+      "author": "fanf",
+      "published": "2026-06-03T22:34:16Z"
     },
     {
       "source": "lobsters",
@@ -538,26 +550,14 @@
       "published": "2026-06-03T17:36:13Z"
     },
     {
-      "source": "rss",
-      "subsource": "krebsonsecurity.com",
-      "category": "security",
-      "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
-      "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
-      "discuss_url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
-      "score": null,
-      "comments": null,
-      "author": "BrianKrebs",
-      "published": "2026-06-01T17:32:50Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Cloudflare CEO is lying to you about the bot traffic jump",
       "url": "https://www.flyingpenguin.com/cloudflare-ceo-is-lying-to-you-about-the-bot-traffic-jump/",
       "discuss_url": "https://news.ycombinator.com/item?id=48415987",
-      "score": 145,
-      "comments": 124,
+      "score": 146,
+      "comments": 126,
       "author": "speckx",
       "published": "2026-06-05T17:56:19Z"
     },
@@ -568,22 +568,10 @@
       "title": "Azure Linux 4.0 is Microsoft's first general-purpose Linux",
       "url": "https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/",
       "discuss_url": "https://news.ycombinator.com/item?id=48407499",
-      "score": 201,
-      "comments": 143,
+      "score": 204,
+      "comments": 144,
       "author": "haydenbarnes",
       "published": "2026-06-05T03:14:28Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "devops",
-      "title": "VoidZero Is Joining Cloudflare",
-      "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48398055",
-      "score": 674,
-      "comments": 301,
-      "author": "coloneltcb",
-      "published": "2026-06-04T13:00:51Z"
     },
     {
       "source": "lobsters",
@@ -685,6 +673,18 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "AWS Databases on Vercel now available in additional AWS Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-04T17:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon Cognito now supports multi-Region replication",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
@@ -700,10 +700,22 @@
       "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
       "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
       "discuss_url": "https://news.ycombinator.com/item?id=48405718",
-      "score": 992,
-      "comments": 500,
+      "score": 1017,
+      "comments": 503,
       "author": "tristanj",
       "published": "2026-06-04T22:48:19Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Some ancient microbes frozen with Ötzi the Iceman are still growing",
+      "url": "https://arstechnica.com/science/2026/06/otzis-mummified-body-is-home-to-ancient-strains-of-yeast-and-bacteria/",
+      "discuss_url": "https://arstechnica.com/science/2026/06/otzis-mummified-body-is-home-to-ancient-strains-of-yeast-and-bacteria/",
+      "score": null,
+      "comments": null,
+      "author": "Kiona N. Smith",
+      "published": "2026-06-06T11:15:51Z"
     },
     {
       "source": "rss",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Stephen Clark",
       "published": "2026-06-05T14:20:54Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Safety officials finally have a good idea of what a big rocket explosion can do",
-      "url": "https://arstechnica.com/space/2026/06/safety-officials-finally-have-a-good-idea-of-what-a-big-rocket-explosion-can-do/",
-      "discuss_url": "https://arstechnica.com/space/2026/06/safety-officials-finally-have-a-good-idea-of-what-a-big-rocket-explosion-can-do/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-06-05T13:55:05Z"
     }
   ]
 }
