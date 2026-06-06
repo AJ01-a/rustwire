@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T20:02:23Z",
+  "updated_at": "2026-06-06T03:52:26Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Did Claude increase bugs in rsync?",
       "url": "https://alexispurslane.github.io/rsync-analysis/",
       "discuss_url": "https://news.ycombinator.com/item?id=48411635",
-      "score": 141,
-      "comments": 142,
+      "score": 337,
+      "comments": 347,
       "author": "logicprog",
       "published": "2026-06-05T12:43:33Z",
       "bullets": [
-        "AI-generated PRs from Claude and ChatGPT for legacy C tools like rsync frequently introduce hallucinated flags and subtle logic bugs.",
-        "LLMs struggle with complex codebase-specific contexts, generating syntactically correct but functionally broken code that bypasses basic static analysis.",
-        "The influx of low-quality AI code increases maintainer fatigue, highlighting the need for stricter automated CI/CD gating in open-source repositories."
+        "AI-assisted code generation tools like Anthropic's Claude often introduce subtle memory and logic bugs into legacy C codebases like rsync.",
+        "Maintainers face a surge of plausible-looking but flawed AI-generated pull requests, increasing review fatigue and requiring stricter automated testing.",
+        "The incident underscores that LLMs lack deep system-level context, necessitating RAG or static analysis verification in AI software engineering workflows."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Win16 Memory Management",
       "url": "http://www.os2museum.com/wp/win16-memory-management/",
       "discuss_url": "https://lobste.rs/s/c3xmxm",
-      "score": 5,
-      "comments": 0,
+      "score": 19,
+      "comments": 1,
       "author": "calvin",
       "published": "2026-06-05T17:31:03Z",
       "bullets": [
-        "Win16 used x86 16-bit segmented memory addressing (16:16), mapping selectors to physical descriptors to bypass the 64KB limit.",
-        "Developers managed memory via `GlobalAlloc` and `LocalAlloc`, requiring explicit handle locking (`GlobalLock`) to prevent fragmentation via relocatable blocks.",
-        "Windows 3.x navigated Intel 8086 Real Mode, 286 Standard Mode (16MB limit), and 386 Enhanced Mode with hardware-enforced virtual memory."
+        "Win16 uses x86 segmented addressing, forcing developers to manage 64KB segments using Selector:Offset pointers instead of a flat memory space.",
+        "APIs like GlobalAlloc and LocalAlloc handle moveable, discardable memory blocks, requiring manual locking via GlobalLock to retrieve physical pointers.",
+        "Real, Standard, and 386 Enhanced modes dictate how Windows 3.x utilizes MMUs, transitioning from physical addressing to page-based virtual memory."
       ]
     },
     {
@@ -71,31 +71,31 @@
       "title": "The Empty Field That Wasn't: GPS Broadcasts a Numbers Station",
       "url": "https://lsc-pagepro.mydigitalpublication.com/publication/?i=865273&p=62&view=issueViewer",
       "discuss_url": "https://lobste.rs/s/a7v7e5",
-      "score": 14,
-      "comments": 3,
+      "score": 26,
+      "comments": 4,
       "author": "lordgilman",
       "published": "2026-06-05T13:07:50Z",
       "bullets": [
-        "Analysis of GPS LNAV (L1 C/A) navigation messages reveals that reserved bits defined as static in IS-GPS-200 contain active data.",
-        "This undocumented payload acts as an orbital covert channel, transmitting changing, pseudorandom sequences directly from US Space Force satellites.",
-        "Security analysts and receiver developers must update parsers to handle arbitrary data in reserved fields to prevent decoding anomalies."
+        "Legacy GPS LNAV navigation messages contain reserved \"empty\" fields that actually broadcast unexpected, changing data, functioning as a covert channel.",
+        "GPS receivers parsing these undocumented bits risk memory corruption if firmware assumes reserved fields always contain static zero values.",
+        "Security teams must validate GPS parser robustness against non-standard LNAV subframe data injected via Software-Defined Radios (SDRs)."
       ]
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
-      "title": "Azure Linux 4.0 is Microsoft's first general-purpose Linux",
-      "url": "https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48407499",
-      "score": 182,
-      "comments": 136,
-      "author": "haydenbarnes",
-      "published": "2026-06-05T03:14:28Z",
+      "title": "Cloudflare CEO is lying to you about the bot traffic jump",
+      "url": "https://www.flyingpenguin.com/cloudflare-ceo-is-lying-to-you-about-the-bot-traffic-jump/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48415987",
+      "score": 143,
+      "comments": 123,
+      "author": "speckx",
+      "published": "2026-06-05T17:56:19Z",
       "bullets": [
-        "Evolving from CBL-Mariner, version 4.0 moves beyond container hosting to offer a fully supported enterprise-grade distro for general VM workloads.",
-        "The RPM-based OS minimizes attack surfaces with a lightweight footprint, optimized kernel tuning, and native integration across the Azure ecosystem.",
-        "DevOps teams can deploy leaner, highly secure workloads on Azure Kubernetes Service (AKS) while consolidating enterprise support under a single vendor."
+        "Cloudflare CEO is lying to you about the bot traffic jump",
+        "Trending on news.ycombinator.com — 143 points, 123 comments.",
+        "Submitted by speckx on news.ycombinator.com."
       ]
     },
     {
@@ -105,14 +105,14 @@
       "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
       "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
       "discuss_url": "https://news.ycombinator.com/item?id=48405718",
-      "score": 895,
-      "comments": 475,
+      "score": 940,
+      "comments": 482,
       "author": "tristanj",
       "published": "2026-06-04T22:48:19Z",
       "bullets": [
-        "S&P's decision delays immediate passive index inflows for mega-IPOs like SpaceX, requiring longer reliance on active market capital.",
-        "Massive valuations will not bypass S&P 500 seasoning rules, forcing newly public tech giants to wait for index inclusion.",
-        "This delay shifts initial post-IPO liquidity dynamics toward active institutional and retail investors rather than automated passive funds."
+        "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
+        "Trending on news.ycombinator.com — 940 points, 482 comments.",
+        "Submitted by tristanj on news.ycombinator.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Did Claude increase bugs in rsync?",
       "url": "https://alexispurslane.github.io/rsync-analysis/",
       "discuss_url": "https://news.ycombinator.com/item?id=48411635",
-      "score": 141,
-      "comments": 142,
+      "score": 337,
+      "comments": 347,
       "author": "logicprog",
       "published": "2026-06-05T12:43:33Z"
     },
@@ -136,8 +136,8 @@
       "title": "Programmers will document for Claude, but not for each other",
       "url": "https://blog.plover.com/2026/03/09/#documentation-wins-2",
       "discuss_url": "https://news.ycombinator.com/item?id=48411510",
-      "score": 154,
-      "comments": 143,
+      "score": 177,
+      "comments": 149,
       "author": "surprisetalk",
       "published": "2026-06-05T12:30:17Z"
     },
@@ -148,7 +148,7 @@
       "title": "Fine-tuning an LLM to write docs like it's 1995",
       "url": "https://passo.uno/fine-tuning-docs-llm/",
       "discuss_url": "https://news.ycombinator.com/item?id=48408442",
-      "score": 171,
+      "score": 178,
       "comments": 64,
       "author": "taubek",
       "published": "2026-06-05T05:46:06Z"
@@ -160,34 +160,22 @@
       "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
       "url": "https://github.com/anthropics/defending-code-reference-harness",
       "discuss_url": "https://news.ycombinator.com/item?id=48403980",
-      "score": 511,
+      "score": 520,
       "comments": 140,
       "author": "binyu",
       "published": "2026-06-04T20:11:20Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
-      "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48392343",
-      "score": 396,
-      "comments": 214,
-      "author": "jc4p",
-      "published": "2026-06-04T00:56:32Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "The ways we contain Claude across products",
-      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-      "discuss_url": "https://news.ycombinator.com/item?id=48392082",
-      "score": 226,
-      "comments": 103,
-      "author": "jbredeche",
-      "published": "2026-06-04T00:27:52Z"
+      "title": "ZML: Model to Metal",
+      "url": "https://zml.ai/",
+      "discuss_url": "https://lobste.rs/s/icyhpt",
+      "score": 1,
+      "comments": 0,
+      "author": "sanxiyn",
+      "published": "2026-06-06T03:28:53Z"
     },
     {
       "source": "lobsters",
@@ -214,16 +202,16 @@
       "published": "2026-06-03T07:16:58Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
+      "source": "rss",
+      "subsource": "huggingface.co",
       "category": "ai",
-      "title": "Constraining LLMs Just Like Users",
-      "url": "https://www.aeracode.org/2026/06/01/constraining-llms/",
-      "discuss_url": "https://lobste.rs/s/zom23n",
-      "score": 2,
-      "comments": 0,
-      "author": "carlana",
-      "published": "2026-06-01T23:07:30Z"
+      "title": "Thousand Token Wood: shipping a multi-agent economy on a 3B model",
+      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
+      "discuss_url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-05T22:18:46Z"
     },
     {
       "source": "rss",
@@ -262,14 +250,26 @@
       "published": "2026-06-04T00:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Direct Preference Optimization Beyond Chatbots",
+      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "discuss_url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-03T12:55:11Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Win16 Memory Management",
       "url": "http://www.os2museum.com/wp/win16-memory-management/",
       "discuss_url": "https://lobste.rs/s/c3xmxm",
-      "score": 5,
-      "comments": 0,
+      "score": 19,
+      "comments": 1,
       "author": "calvin",
       "published": "2026-06-05T17:31:03Z"
     },
@@ -280,10 +280,22 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/vzutqp",
       "discuss_url": "https://lobste.rs/s/vzutqp",
-      "score": 12,
-      "comments": 10,
+      "score": 13,
+      "comments": 16,
       "author": "caius",
       "published": "2026-06-05T08:57:48Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "The smallest C binary",
+      "url": "https://blog.weineng.me/posts/smallest_c/",
+      "discuss_url": "https://lobste.rs/s/eetcxi",
+      "score": 1,
+      "comments": 0,
+      "author": "weineng",
+      "published": "2026-06-06T02:37:28Z"
     },
     {
       "source": "lobsters",
@@ -296,18 +308,6 @@
       "comments": 2,
       "author": "fanf",
       "published": "2026-06-04T19:47:34Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Navigating the Fog of War: Age of Empires, AI Agents, and the Rise of Dark Code",
-      "url": "https://blog.waleson.com/2026/05/navigating-fog-of-war-age-of-empires-ai.html",
-      "discuss_url": "https://lobste.rs/s/huexha",
-      "score": 3,
-      "comments": 2,
-      "author": "j11g",
-      "published": "2026-06-05T05:29:28Z"
     },
     {
       "source": "lobsters",
@@ -332,6 +332,18 @@
       "comments": 3,
       "author": "andyc",
       "published": "2026-06-02T20:57:41Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Navigating the Fog of War: Age of Empires, AI Agents, and the Rise of Dark Code",
+      "url": "https://blog.waleson.com/2026/05/navigating-fog-of-war-age-of-empires-ai.html",
+      "discuss_url": "https://lobste.rs/s/huexha",
+      "score": 2,
+      "comments": 2,
+      "author": "j11g",
+      "published": "2026-06-05T05:29:28Z"
     },
     {
       "source": "lobsters",
@@ -394,26 +406,14 @@
       "published": "2026-06-04T16:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "GitHub Copilot app: The agent-native desktop experience",
-      "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
-      "discuss_url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-06-02T17:30:03Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "The Empty Field That Wasn't: GPS Broadcasts a Numbers Station",
       "url": "https://lsc-pagepro.mydigitalpublication.com/publication/?i=865273&p=62&view=issueViewer",
       "discuss_url": "https://lobste.rs/s/a7v7e5",
-      "score": 14,
-      "comments": 3,
+      "score": 26,
+      "comments": 4,
       "author": "lordgilman",
       "published": "2026-06-05T13:07:50Z"
     },
@@ -469,6 +469,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Rooting Home Assistant through MeshCore: XSS attacks with a LoRa node name",
+      "url": "https://mxsasha.eu/posts/meshcore-xss-home-assistant/",
+      "discuss_url": "https://lobste.rs/s/0rtm7s",
+      "score": 8,
+      "comments": 0,
+      "author": "fanf",
+      "published": "2026-06-03T22:34:16Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Chasing Lightning: Detecting, Characterizing, and Identifying a Powerful Space-Based GNSS Interference Source",
       "url": "https://arxiv.org/abs/2606.03673",
       "discuss_url": "https://lobste.rs/s/qrhqvc",
@@ -476,18 +488,6 @@
       "comments": 0,
       "author": "fanf",
       "published": "2026-06-05T12:26:03Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Rooting Home Assistant through MeshCore: XSS attacks with a LoRa node name",
-      "url": "https://mxsasha.eu/posts/meshcore-xss-home-assistant/",
-      "discuss_url": "https://lobste.rs/s/0rtm7s",
-      "score": 7,
-      "comments": 0,
-      "author": "fanf",
-      "published": "2026-06-03T22:34:16Z"
     },
     {
       "source": "lobsters",
@@ -553,11 +553,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
+      "title": "Cloudflare CEO is lying to you about the bot traffic jump",
+      "url": "https://www.flyingpenguin.com/cloudflare-ceo-is-lying-to-you-about-the-bot-traffic-jump/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48415987",
+      "score": 143,
+      "comments": 123,
+      "author": "speckx",
+      "published": "2026-06-05T17:56:19Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "devops",
       "title": "Azure Linux 4.0 is Microsoft's first general-purpose Linux",
       "url": "https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/",
       "discuss_url": "https://news.ycombinator.com/item?id=48407499",
-      "score": 182,
-      "comments": 136,
+      "score": 197,
+      "comments": 139,
       "author": "haydenbarnes",
       "published": "2026-06-05T03:14:28Z"
     },
@@ -568,7 +580,7 @@
       "title": "VoidZero Is Joining Cloudflare",
       "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
       "discuss_url": "https://news.ycombinator.com/item?id=48398055",
-      "score": 662,
+      "score": 671,
       "comments": 301,
       "author": "coloneltcb",
       "published": "2026-06-04T13:00:51Z"
@@ -580,8 +592,8 @@
       "title": "IPv6 zones in URLs are a mistake",
       "url": "https://xeiaso.net/notes/2026/ipv6-zones-go-url/",
       "discuss_url": "https://lobste.rs/s/lcnc5e",
-      "score": 44,
-      "comments": 30,
+      "score": 45,
+      "comments": 36,
       "author": "gmem",
       "published": "2026-06-04T21:09:47Z"
     },
@@ -596,6 +608,54 @@
       "comments": 0,
       "author": "gioele",
       "published": "2026-06-02T22:27:57Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Bedrock AgentCore Runtime introduces interactive shells for terminal access into agent sessions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-05T22:25:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Simplified permissions for Amazon S3 Tables and Iceberg materialized views are now available in AWS GovCloud (US) Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/gdc-s3tables-simplified-permissions-in-aws-govcloud/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/gdc-s3tables-simplified-permissions-in-aws-govcloud/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-05T21:11:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon OpenSearch UI is now available in GovCloud regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-ui-govcloud-region",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-ui-govcloud-region",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-05T20:40:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon ECS with AWS Fargate now supports 32vCPU compute configurations",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-fargate-32vcpu",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-fargate-32vcpu",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-05T15:00:00Z"
     },
     {
       "source": "rss",
@@ -625,18 +685,6 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon Cognito now supports multi-Region replication",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-04T17:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
       "title": "AWS Databases on Vercel now available in additional AWS Regions",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
@@ -646,62 +694,14 @@
       "published": "2026-06-04T17:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EKS Capabilities now supports Amazon CloudWatch Vended Logs",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-capabilities-logging",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-capabilities-logging",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-04T17:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Deadline Cloud now supports plugin sync for service-managed fleets",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/plugin-sync",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/plugin-sync",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-04T16:13:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon MQ is now available in the AWS European Sovereign Cloud (Germany) Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mq-eur-sov-cloud",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mq-eur-sov-cloud",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-04T08:05:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Bedrock launches a redesigned console optimized for OpenAI- and Anthropic-compatible APIs",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-redesigned-console-optimized-openai-anthropic-compatible-apis/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-redesigned-console-optimized-openai-anthropic-compatible-apis/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-04T07:00:00Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "industry",
       "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
       "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
       "discuss_url": "https://news.ycombinator.com/item?id=48405718",
-      "score": 895,
-      "comments": 475,
+      "score": 940,
+      "comments": 482,
       "author": "tristanj",
       "published": "2026-06-04T22:48:19Z"
     },
@@ -712,7 +712,7 @@
       "title": "The SpaceX IPO will be the theft of the century",
       "url": "https://montanaskeptic.substack.com/p/the-spacex-ipo-will-be-the-theft",
       "discuss_url": "https://news.ycombinator.com/item?id=48394034",
-      "score": 140,
+      "score": 141,
       "comments": 121,
       "author": "400thecat",
       "published": "2026-06-04T04:52:37Z"
@@ -721,7 +721,55 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "S&P 500 blocks fast SpaceX entry, won’t waive rule for unprofitable AI firms",
+      "title": "Baby botulism outbreak: FDA still doesn't know cause—or how to prevent it",
+      "url": "https://arstechnica.com/health/2026/06/baby-botulism-outbreak-fda-still-doesnt-know-cause-or-how-to-prevent-it/",
+      "discuss_url": "https://arstechnica.com/health/2026/06/baby-botulism-outbreak-fda-still-doesnt-know-cause-or-how-to-prevent-it/",
+      "score": null,
+      "comments": null,
+      "author": "Beth Mole",
+      "published": "2026-06-05T22:36:21Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "How a USB-connected speaker can infect a PC without ever being touched",
+      "url": "https://arstechnica.com/security/2026/06/highly-reviewed-speaker-can-be-hacked-over-the-air-to-infect-connected-devices/",
+      "discuss_url": "https://arstechnica.com/security/2026/06/highly-reviewed-speaker-can-be-hacked-over-the-air-to-infect-connected-devices/",
+      "score": null,
+      "comments": null,
+      "author": "Dan Goodin",
+      "published": "2026-06-05T21:00:29Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Small modular nuclear reactor reaches criticality in first test",
+      "url": "https://arstechnica.com/science/2026/06/first-us-test-of-modular-reactor-reaches-criticality/",
+      "discuss_url": "https://arstechnica.com/science/2026/06/first-us-test-of-modular-reactor-reaches-criticality/",
+      "score": null,
+      "comments": null,
+      "author": "John Timmer",
+      "published": "2026-06-05T19:23:08Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "The saga of the International Space Station air leak took a worrying turn Friday",
+      "url": "https://arstechnica.com/space/2026/06/work-on-russias-leaky-space-station-module-causes-astronauts-to-take-shelter/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/work-on-russias-leaky-space-station-module-causes-astronauts-to-take-shelter/",
+      "score": null,
+      "comments": null,
+      "author": "Stephen Clark",
+      "published": "2026-06-05T19:03:16Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
       "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
       "discuss_url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
       "score": null,
@@ -788,54 +836,6 @@
       "comments": null,
       "author": "Jonathan M. Gitlin",
       "published": "2026-06-05T14:44:04Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Rocket Report: Blue Origin explosion still making headlines; Impulse raises money",
-      "url": "https://arstechnica.com/space/2026/06/rocket-report-blue-origin-explosion-still-making-headlines-impulse-raises-money/",
-      "discuss_url": "https://arstechnica.com/space/2026/06/rocket-report-blue-origin-explosion-still-making-headlines-impulse-raises-money/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-06-05T14:20:54Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Safety officials finally have a good idea of what a big rocket explosion can do",
-      "url": "https://arstechnica.com/space/2026/06/safety-officials-finally-have-a-good-idea-of-what-a-big-rocket-explosion-can-do/",
-      "discuss_url": "https://arstechnica.com/space/2026/06/safety-officials-finally-have-a-good-idea-of-what-a-big-rocket-explosion-can-do/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-06-05T13:55:05Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Steve Jobs in Exile is a fine profile of Jobs' years at NeXT",
-      "url": "https://arstechnica.com/apple/2026/06/steve-jobs-in-exile-is-a-fine-profile-of-jobs-years-at-next/",
-      "discuss_url": "https://arstechnica.com/apple/2026/06/steve-jobs-in-exile-is-a-fine-profile-of-jobs-years-at-next/",
-      "score": null,
-      "comments": null,
-      "author": "Cyrus Farivar",
-      "published": "2026-06-05T11:15:29Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Review: AMD's Radeon RX 9070 GRE is a disappointing way to spend $549",
-      "url": "https://arstechnica.com/gadgets/2026/06/amd-radeon-rx-9070-gre-review-shrinkflation-isnt-just-for-groceries-anymore/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/06/amd-radeon-rx-9070-gre-review-shrinkflation-isnt-just-for-groceries-anymore/",
-      "score": null,
-      "comments": null,
-      "author": "Andrew Cunningham",
-      "published": "2026-06-05T11:00:55Z"
     }
   ]
 }
