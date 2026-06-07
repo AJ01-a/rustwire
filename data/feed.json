@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-07T14:02:38Z",
+  "updated_at": "2026-06-07T19:39:01Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "LLMs are eroding my software engineering career and I don't know what to do",
       "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
       "discuss_url": "https://news.ycombinator.com/item?id=48434312",
-      "score": 186,
-      "comments": 140,
+      "score": 680,
+      "comments": 633,
       "author": "poisonfountain",
       "published": "2026-06-07T12:49:29Z",
       "bullets": [
-        "AI coding assistants like GitHub Copilot and Claude 3.5 Sonnet cause developer anxiety regarding skill stagnation and long-term career viability.",
-        "AI builders must address automation anxiety by designing agentic workflows that complement, rather than replace, human system architecture skills.",
-        "LLMs shift the core software engineering value proposition from syntax writing to system design, integration, and security verification."
+        "AI coding assistants like Claude 3.5 Sonnet shift software engineering value from syntax writing to system architecture and verification.",
+        "Widespread AI automation of boilerplate tasks is hollowing out entry-level roles, threatening the pipeline for training future senior engineers.",
+        "Engineers must adapt by mastering system design, LLM integration, and directing AI agents rather than competing on pure coding speed."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "ntsc-rs - an accurate VHS video effect",
       "url": "https://ntsc.rs/",
       "discuss_url": "https://lobste.rs/s/1nojpo",
-      "score": 21,
+      "score": 23,
       "comments": 1,
       "author": "Yogthos",
       "published": "2026-06-06T20:18:32Z",
       "bullets": [
-        "Rust-implemented digital signal processing library simulating NTSC color subcarrier phase modulation, luma/chroma crosstalk, and tape head switching artifacts.",
-        "It compiles to WebAssembly and integrates as an OpenFX plugin, enabling real-time video degradation in web browsers and DaVinci Resolve.",
-        "The tool processes frames by converting RGB data into simulated composite RF video signals before applying bandpass filters and noise."
+        "This Rust-based digital signal processing pipeline models the physics of analog TV transmissions, including RF modulation and tape deck mechanics.",
+        "The engine simulates YIQ color space conversion, frequency-modulated luma/chroma degradation, head-switching noise, and chroma-bleed artifacts.",
+        "It delivers a Rust core alongside a standalone GUI, CLI, and OpenFX plugins for DaVinci Resolve and After Effects."
       ]
     },
     {
@@ -71,31 +71,31 @@
       "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
       "url": "https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/",
       "discuss_url": "https://lobste.rs/s/k67xnh",
-      "score": 46,
+      "score": 48,
       "comments": 12,
       "author": "gerikson",
       "published": "2026-06-06T11:46:28Z",
       "bullets": [
-        "Smart TV apps embed residential proxy SDKs like Bright Data to monetize idle consumer bandwidth for distributed AI scraping campaigns.",
-        "This turns domestic IoT devices into covert egress nodes, undermining IP reputation lists and bypassing enterprise bot detection systems.",
-        "Defenders should isolate Smart TVs on dedicated IoT VLANs and monitor egress traffic for unauthorized proxy protocol signatures."
+        "Smart TVs run apps with embedded SDKs that covertly turn consumer devices into residential proxy nodes for AI web scraping.",
+        "Scrapers leverage these residential proxies to bypass WAFs and bot detection, mimicking legitimate consumer traffic to harvest data.",
+        "Defenders must use behavioral analysis and JA4 fingerprints rather than IP reputation to block scraping traffic originating from residential IoT."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "Cloudflare CEO is lying to you about the bot traffic jump",
-      "url": "https://www.flyingpenguin.com/cloudflare-ceo-is-lying-to-you-about-the-bot-traffic-jump/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48415987",
-      "score": 149,
-      "comments": 136,
-      "author": "speckx",
-      "published": "2026-06-05T17:56:19Z",
+      "title": "IPv6 zones in URLs are a mistake",
+      "url": "https://xeiaso.net/notes/2026/ipv6-zones-go-url/",
+      "discuss_url": "https://lobste.rs/s/lcnc5e",
+      "score": 49,
+      "comments": 38,
+      "author": "gmem",
+      "published": "2026-06-04T21:09:47Z",
       "bullets": [
-        "Critics accuse Cloudflare of inflating bot traffic metrics, misclassifying legitimate API and CI/CD runner traffic as malicious automated bots.",
-        "DevOps teams face false positives from aggressive heuristics, forcing unnecessary upgrades to Cloudflare's expensive enterprise-tier Bot Management tools.",
-        "Engineers should independently audit access logs using ELK or ClickHouse instead of relying solely on Cloudflare's proprietary dashboard telemetry."
+        "RFC 6874 zone IDs (like %25eth0) destroy URL portability because interface contexts are strictly local to the host.",
+        "Inconsistent parsing between WHATWG standards and RFC 6874 creates security risks like SSRF and URL validation bypasses in DevOps pipelines.",
+        "Prefer Unique Local Addresses (ULA) or DNS resolution over raw IPv6 link-local addresses with zone indices in configuration files."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Cyrus Farivar",
       "published": "2026-06-07T11:08:30Z",
       "bullets": [
-        "A survivor's lawsuit against Evolv Technology underscores the legal liability AI vendors face when computer vision models fail in safety-critical deployments.",
-        "The case highlights the risk of relying on weapon-detection models, where false negatives carry catastrophic, legally actionable consequences.",
-        "Security architects must integrate multi-layered physical backups, as machine learning classifiers cannot realistically guarantee zero-miss performance."
+        "AI physical security vendors face unprecedented product liability lawsuits when computer vision models fail to detect weapons in real-world deployments.",
+        "The lawsuit highlights critical SLA and reliability gaps in computer vision, raising the bar for false-negative rates in life-safety AI integrations.",
+        "Engineers must design redundant fail-safes, as standalone ML weapon detection lacks industry-standardized certification for high-risk, zero-tolerance environments."
       ]
     }
   ],
@@ -124,10 +124,34 @@
       "title": "LLMs are eroding my software engineering career and I don't know what to do",
       "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
       "discuss_url": "https://news.ycombinator.com/item?id=48434312",
-      "score": 186,
-      "comments": 140,
+      "score": 680,
+      "comments": 633,
       "author": "poisonfountain",
       "published": "2026-06-07T12:49:29Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Anthropic, please ship an official Claude Desktop for Linux",
+      "url": "https://github.com/anthropics/claude-code/issues/65697",
+      "discuss_url": "https://news.ycombinator.com/item?id=48434436",
+      "score": 349,
+      "comments": 187,
+      "author": "predkambrij",
+      "published": "2026-06-07T13:06:52Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
+      "url": "https://github.com/devenjarvis/lathe",
+      "discuss_url": "https://news.ycombinator.com/item?id=48433756",
+      "score": 158,
+      "comments": 34,
+      "author": "devenjarvis",
+      "published": "2026-06-07T11:16:46Z"
     },
     {
       "source": "hackernews",
@@ -136,8 +160,8 @@
       "title": "I design with Claude more than Figma now",
       "url": "https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/",
       "discuss_url": "https://news.ycombinator.com/item?id=48431981",
-      "score": 201,
-      "comments": 176,
+      "score": 219,
+      "comments": 202,
       "author": "MrBuddyCasino",
       "published": "2026-06-07T05:04:24Z"
     },
@@ -148,8 +172,8 @@
       "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
       "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
       "discuss_url": "https://news.ycombinator.com/item?id=48421442",
-      "score": 1421,
-      "comments": 487,
+      "score": 1437,
+      "comments": 493,
       "author": "maltalex",
       "published": "2026-06-06T04:38:36Z"
     },
@@ -160,7 +184,7 @@
       "title": "How LLMs Actually Work",
       "url": "https://0xkato.xyz/how-llms-actually-work/",
       "discuss_url": "https://lobste.rs/s/pumnjn",
-      "score": 21,
+      "score": 32,
       "comments": 1,
       "author": "dgv",
       "published": "2026-06-07T00:53:58Z"
@@ -172,22 +196,10 @@
       "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
       "url": "https://arxiv.org/pdf/2605.31514",
       "discuss_url": "https://lobste.rs/s/owclks",
-      "score": 32,
-      "comments": 19,
+      "score": 35,
+      "comments": 22,
       "author": "onbjerg",
       "published": "2026-06-06T12:31:19Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "AI Worm",
-      "url": "https://arxiv.org/abs/2606.03811",
-      "discuss_url": "https://lobste.rs/s/vrwnjw",
-      "score": 14,
-      "comments": 4,
-      "author": "carlomonte",
-      "published": "2026-06-06T10:29:43Z"
     },
     {
       "source": "lobsters",
@@ -217,13 +229,13 @@
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
-      "title": "Sponsors especially OPENAI CODEX voucher usage for codex - openAI challange",
-      "url": "https://huggingface.co/blog/build-small-hackathon/sponsors-vouchers",
-      "discuss_url": "https://huggingface.co/blog/build-small-hackathon/sponsors-vouchers",
+      "title": "Room360: Video-to-3D Spatial Reconstruction Platform",
+      "url": "https://huggingface.co/blog/build-small-hackathon/video-to-3d-spatial-reconstruction-platform",
+      "discuss_url": "https://huggingface.co/blog/build-small-hackathon/video-to-3d-spatial-reconstruction-platform",
       "score": null,
       "comments": null,
       "author": null,
-      "published": "2026-06-07T11:38:54Z"
+      "published": "2026-06-07T19:30:16Z"
     },
     {
       "source": "rss",
@@ -250,25 +262,13 @@
       "published": "2026-06-04T12:24:58Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
-      "url": "https://huggingface.co/blog/hf-cli-for-agents",
-      "discuss_url": "https://huggingface.co/blog/hf-cli-for-agents",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-04T00:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "ntsc-rs - an accurate VHS video effect",
       "url": "https://ntsc.rs/",
       "discuss_url": "https://lobste.rs/s/1nojpo",
-      "score": 21,
+      "score": 23,
       "comments": 1,
       "author": "Yogthos",
       "published": "2026-06-06T20:18:32Z"
@@ -280,7 +280,7 @@
       "title": "SDL_net 3.2.0 is out",
       "url": "https://github.com/libsdl-org/SDL_net/releases/tag/release-3.2.0",
       "discuss_url": "https://lobste.rs/s/dmcanq",
-      "score": 4,
+      "score": 5,
       "comments": 0,
       "author": "linkdd",
       "published": "2026-06-07T04:49:58Z"
@@ -293,7 +293,7 @@
       "url": "https://lobste.rs/s/vzutqp",
       "discuss_url": "https://lobste.rs/s/vzutqp",
       "score": 17,
-      "comments": 26,
+      "comments": 30,
       "author": "caius",
       "published": "2026-06-05T08:57:48Z"
     },
@@ -400,7 +400,7 @@
       "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
       "url": "https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/",
       "discuss_url": "https://lobste.rs/s/k67xnh",
-      "score": 46,
+      "score": 48,
       "comments": 12,
       "author": "gerikson",
       "published": "2026-06-06T11:46:28Z"
@@ -412,10 +412,34 @@
       "title": "Did Claude Increase Bugs in rsync?",
       "url": "https://alexispurslane.github.io/rsync-analysis/",
       "discuss_url": "https://lobste.rs/s/mf5ryi",
-      "score": 102,
-      "comments": 59,
+      "score": 104,
+      "comments": 61,
       "author": "wonk",
       "published": "2026-06-05T18:14:42Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Dancing mad with sandboxing",
+      "url": "https://xeiaso.net/blog/2026/dancing-mad-sandboxing/",
+      "discuss_url": "https://lobste.rs/s/fmkvwk",
+      "score": 1,
+      "comments": 0,
+      "author": "cohix",
+      "published": "2026-06-07T18:38:04Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "AI Worm",
+      "url": "https://arxiv.org/abs/2606.03811",
+      "discuss_url": "https://lobste.rs/s/vrwnjw",
+      "score": 14,
+      "comments": 4,
+      "author": "carlomonte",
+      "published": "2026-06-06T10:29:43Z"
     },
     {
       "source": "lobsters",
@@ -425,7 +449,7 @@
       "url": "https://lsc-pagepro.mydigitalpublication.com/publication/?i=865273&p=62&view=issueViewer",
       "discuss_url": "https://lobste.rs/s/a7v7e5",
       "score": 37,
-      "comments": 6,
+      "comments": 7,
       "author": "lordgilman",
       "published": "2026-06-05T13:07:50Z"
     },
@@ -452,18 +476,6 @@
       "comments": 0,
       "author": "achivetta",
       "published": "2026-06-06T19:03:31Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "A Post-Quantum Future for Let's Encrypt",
-      "url": "https://letsencrypt.org/2026/06/03/pq-certs.html",
-      "discuss_url": "https://lobste.rs/s/djguny",
-      "score": 38,
-      "comments": 0,
-      "author": "fanf",
-      "published": "2026-06-03T19:07:13Z"
     },
     {
       "source": "lobsters",
@@ -502,18 +514,6 @@
       "published": "2026-06-03T20:09:21Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Pilcrow's auth book",
-      "url": "https://auth.pilcrowonpaper.com/",
-      "discuss_url": "https://lobste.rs/s/a9qqxl",
-      "score": 2,
-      "comments": 0,
-      "author": "andrewchou",
-      "published": "2026-06-03T17:36:13Z"
-    },
-    {
       "source": "rss",
       "subsource": "krebsonsecurity.com",
       "category": "security",
@@ -536,18 +536,6 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-06-06T13:36:57Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "devops",
-      "title": "Cloudflare CEO is lying to you about the bot traffic jump",
-      "url": "https://www.flyingpenguin.com/cloudflare-ceo-is-lying-to-you-about-the-bot-traffic-jump/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48415987",
-      "score": 149,
-      "comments": 136,
-      "author": "speckx",
-      "published": "2026-06-05T17:56:19Z"
     },
     {
       "source": "lobsters",
@@ -680,6 +668,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-06-04T16:13:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon MQ is now available in the AWS European Sovereign Cloud (Germany) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mq-eur-sov-cloud",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mq-eur-sov-cloud",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-04T08:05:00Z"
     },
     {
       "source": "rss",
