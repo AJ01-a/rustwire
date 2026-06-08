@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08T04:23:07Z",
+  "updated_at": "2026-06-08T11:05:41Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,48 +37,48 @@
       "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
       "url": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
       "discuss_url": "https://news.ycombinator.com/item?id=48440448",
-      "score": 143,
-      "comments": 40,
+      "score": 284,
+      "comments": 136,
       "author": "yogthos",
       "published": "2026-06-08T01:39:30Z",
       "bullets": [
-        "DeepSeek V4 Pro surpasses OpenAI's GPT-5.5 Pro in precision-critical evaluations, signaling a shift toward highly competitive open-architecture frontier models.",
-        "This precision milestone highlights the efficiency of DeepSeek's Mixture-of-Experts (MoE) architecture and optimized Multi-Head Latent Attention (MLA) mechanisms.",
-        "AI engineers should benchmark V4 Pro for high-precision workflows including deterministic code generation, mathematics, and structured JSON parsing."
+        "DeepSeek V4 Pro leverages advanced Mixture-of-Experts (MoE) and Latent Attention (MLA) to outperform GPT-5.5 Pro in high-precision reasoning tasks.",
+        "The benchmark shift highlights open-weights or alternative-vendor models matching or exceeding proprietary frontier models at potentially lower inference costs.",
+        "Engineers should evaluate DeepSeek V4 Pro for precision-critical pipelines like code generation, mathematical reasoning, and complex structured JSON outputs."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Making a game in Visual Studio from 1997",
-      "url": "https://www.youtube.com/watch?v=nQrzB5P5NPE",
-      "discuss_url": "https://lobste.rs/s/virlcj",
-      "score": 7,
-      "comments": 2,
-      "author": "calvin",
-      "published": "2026-06-07T19:34:27Z",
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/yiwcln",
+      "discuss_url": "https://lobste.rs/s/yiwcln",
+      "score": 4,
+      "comments": 3,
+      "author": "caius",
+      "published": "2026-06-08T09:23:20Z",
       "bullets": [
-        "Developing in Visual Studio 97 (VC++ 5.0) requires managing pre-C++98 compiler limitations and legacy MSVC build systems on modern Windows.",
-        "Retro game loop design relies on legacy DirectX 5 or Win32 GDI, requiring manual memory management without modern STL or smart pointers.",
-        "Targeting Windows 95/98 requires handling 32-bit execution boundaries, legacy DLL dependencies, and static linking of old MSVCRT runtimes."
+        "Developers use community standups to peer-review architectural decisions, share side-project stacks, and troubleshoot niche compiler or dependency bottlenecks.",
+        "Typical weekly engineering tasks focus on migrating legacy runtimes, refactoring database schemas, and evaluating systems languages like Rust or Go.",
+        "Balancing intense sprint cycles with intentional downtime mitigates developer burnout, ultimately improving long-term code quality and systems reliability."
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "Dancing mad with sandboxing",
-      "url": "https://xeiaso.net/blog/2026/dancing-mad-sandboxing/",
-      "discuss_url": "https://lobste.rs/s/fmkvwk",
-      "score": 9,
-      "comments": 2,
-      "author": "cohix",
-      "published": "2026-06-07T18:38:04Z",
+      "title": "1k Data Breaches Later, the Disclosure Lag Is Worse",
+      "url": "https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48440952",
+      "score": 160,
+      "comments": 61,
+      "author": "882542F3884314B",
+      "published": "2026-06-08T03:17:10Z",
       "bullets": [
-        "Linux sandboxing relies on complex, error-prone combinations of namespaces, seccomp-bpf, and Landlock rather than a unified API.",
-        "OpenBSD's pledge and unveil offer simpler, safer sandboxing paradigms compared to the fragmented and low-level Linux primitives.",
-        "Implementing custom Linux sandboxes often introduces security risks due to subtle interactions between CLONE_NEWUSER and system privileges."
+        "Despite regulatory pressure, data from 1,000 breaches shows the lag between incident detection and public disclosure is actively worsening.",
+        "Compliance mandates like GDPR and the SEC four-day rule are struggling to force timely transparency from compromised enterprises.",
+        "Security leaders must focus on reducing dwell times and optimizing forensic pipelines to meet legal reporting windows."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "gmem",
       "published": "2026-06-04T21:09:47Z",
       "bullets": [
-        "IPv6 link-local zone identifiers (like %eth0) are host-specific, breaking portability when shared in distributed configuration files across different environments.",
-        "RFC 6874 defines IPv6 zone identifiers in URIs, but inconsistent browser and HTTP client parser implementations cause silent connection failures.",
-        "DevOps teams should avoid using IPv6 link-local addresses in configs; use global unicast addresses (GUA) or unique local addresses (ULA) instead."
+        "IPv6 link-local zone indices (like %eth0) are local to the sender, making URLs non-portable and useless when shared between different hosts.",
+        "URL parsers struggle with the percent-encoded percent sign (%25) required by RFC 6874, causing widespread client-side implementation bugs and failures.",
+        "DevOps teams should use global unicast or unique local addresses (ULAs) instead of scoped link-local addresses in service configurations."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Jennifer Ouellette",
       "published": "2026-06-07T19:34:05Z",
       "bullets": [
-        "Ars Technica published a retrospective analyzing Anthony Head's performance as Rupert Giles in the Buffy the Vampire Slayer franchise.",
-        "The analysis highlights ten key scenes, focusing on how Head's acting anchored the ensemble cast and facilitated narrative progression.",
-        "The profile emphasizes the technique of 'quietly filling in the gaps,' demonstrating the high value of subtle, supporting execution in complex productions."
+        "Quietly filling operational gaps, akin to Giles' character, is a vital 'glue' function for high-performing DevOps and engineering teams.",
+        "System reliability often depends on unsung contributors who integrate disparate APIs, tools, and workflows behind the scenes.",
+        "Organizations must identify and reward 'glue' engineers who prevent critical failures without demanding the spotlight."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
       "url": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
       "discuss_url": "https://news.ycombinator.com/item?id=48440448",
-      "score": 143,
-      "comments": 40,
+      "score": 284,
+      "comments": 136,
       "author": "yogthos",
       "published": "2026-06-08T01:39:30Z"
     },
@@ -136,22 +136,10 @@
       "title": "LLMs are eroding my software engineering career and I don't know what to do",
       "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
       "discuss_url": "https://news.ycombinator.com/item?id=48434312",
-      "score": 849,
-      "comments": 847,
+      "score": 991,
+      "comments": 948,
       "author": "poisonfountain",
       "published": "2026-06-07T12:49:29Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
-      "url": "https://arxiv.org/abs/2605.31514",
-      "discuss_url": "https://news.ycombinator.com/item?id=48437568",
-      "score": 104,
-      "comments": 103,
-      "author": "ketchup32613",
-      "published": "2026-06-07T18:54:55Z"
     },
     {
       "source": "hackernews",
@@ -160,10 +148,22 @@
       "title": "Anthropic, please ship an official Claude Desktop for Linux",
       "url": "https://github.com/anthropics/claude-code/issues/65697",
       "discuss_url": "https://news.ycombinator.com/item?id=48434436",
-      "score": 474,
-      "comments": 274,
+      "score": 502,
+      "comments": 283,
       "author": "predkambrij",
       "published": "2026-06-07T13:06:52Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+      "url": "https://arxiv.org/abs/2605.31514",
+      "discuss_url": "https://news.ycombinator.com/item?id=48437568",
+      "score": 111,
+      "comments": 112,
+      "author": "ketchup32613",
+      "published": "2026-06-07T18:54:55Z"
     },
     {
       "source": "hackernews",
@@ -172,8 +172,8 @@
       "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
       "url": "https://github.com/devenjarvis/lathe",
       "discuss_url": "https://news.ycombinator.com/item?id=48433756",
-      "score": 270,
-      "comments": 51,
+      "score": 324,
+      "comments": 57,
       "author": "devenjarvis",
       "published": "2026-06-07T11:16:46Z"
     },
@@ -184,22 +184,10 @@
       "title": "I design with Claude more than Figma now",
       "url": "https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/",
       "discuss_url": "https://news.ycombinator.com/item?id=48431981",
-      "score": 278,
-      "comments": 239,
+      "score": 288,
+      "comments": 251,
       "author": "MrBuddyCasino",
       "published": "2026-06-07T05:04:24Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
-      "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48421442",
-      "score": 1454,
-      "comments": 496,
-      "author": "maltalex",
-      "published": "2026-06-06T04:38:36Z"
     },
     {
       "source": "lobsters",
@@ -208,8 +196,8 @@
       "title": "How LLMs Actually Work",
       "url": "https://0xkato.xyz/how-llms-actually-work/",
       "discuss_url": "https://lobste.rs/s/pumnjn",
-      "score": 49,
-      "comments": 2,
+      "score": 56,
+      "comments": 3,
       "author": "dgv",
       "published": "2026-06-07T00:53:58Z"
     },
@@ -262,13 +250,37 @@
       "published": "2026-06-07T19:44:27Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "discuss_url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-04T18:57:45Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/yiwcln",
+      "discuss_url": "https://lobste.rs/s/yiwcln",
+      "score": 4,
+      "comments": 3,
+      "author": "caius",
+      "published": "2026-06-08T09:23:20Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Making a game in Visual Studio from 1997",
       "url": "https://www.youtube.com/watch?v=nQrzB5P5NPE",
       "discuss_url": "https://lobste.rs/s/virlcj",
-      "score": 7,
+      "score": 11,
       "comments": 2,
       "author": "calvin",
       "published": "2026-06-07T19:34:27Z"
@@ -292,7 +304,7 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/vzutqp",
       "discuss_url": "https://lobste.rs/s/vzutqp",
-      "score": 17,
+      "score": 18,
       "comments": 32,
       "author": "caius",
       "published": "2026-06-05T08:57:48Z"
@@ -346,18 +358,6 @@
       "published": "2026-06-05T05:29:28Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Wordplay: Accessible, Multilingual, Programmable Typography",
-      "url": "https://wordplay.dev/",
-      "discuss_url": "https://lobste.rs/s/amwa2w",
-      "score": 2,
-      "comments": 0,
-      "author": "azhenley",
-      "published": "2026-06-04T05:44:16Z"
-    },
-    {
       "source": "rss",
       "subsource": "github.blog",
       "category": "engineering",
@@ -406,14 +406,26 @@
       "published": "2026-06-02T07:40:00Z"
     },
     {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "1k Data Breaches Later, the Disclosure Lag Is Worse",
+      "url": "https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48440952",
+      "score": 160,
+      "comments": 61,
+      "author": "882542F3884314B",
+      "published": "2026-06-08T03:17:10Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Dancing mad with sandboxing",
       "url": "https://xeiaso.net/blog/2026/dancing-mad-sandboxing/",
       "discuss_url": "https://lobste.rs/s/fmkvwk",
-      "score": 9,
-      "comments": 2,
+      "score": 13,
+      "comments": 5,
       "author": "cohix",
       "published": "2026-06-07T18:38:04Z"
     },
@@ -425,7 +437,7 @@
       "url": "https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/",
       "discuss_url": "https://lobste.rs/s/k67xnh",
       "score": 58,
-      "comments": 17,
+      "comments": 18,
       "author": "gerikson",
       "published": "2026-06-06T11:46:28Z"
     },
@@ -517,37 +529,25 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
-      "url": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
-      "discuss_url": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
+      "title": "VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances",
+      "url": "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html",
+      "discuss_url": "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-06T13:36:57Z"
+      "published": "2026-06-08T10:27:32Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI",
-      "url": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
-      "discuss_url": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
+      "title": "UNC3753 Used Vishing and Physical Intrusions in U.S. Data Theft Extortion Campaign",
+      "url": "https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html",
+      "discuss_url": "https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-06T08:29:05Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
-      "url": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
-      "discuss_url": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-06T08:14:31Z"
+      "published": "2026-06-08T07:39:28Z"
     },
     {
       "source": "lobsters",
@@ -637,9 +637,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Databases on Vercel now available in additional AWS Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
+      "title": "Amazon Cognito now supports multi-Region replication",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -649,9 +649,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon Cognito now supports multi-Region replication",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
+      "title": "AWS Databases on Vercel now available in additional AWS Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -793,6 +793,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+      "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+      "score": null,
+      "comments": null,
+      "author": "Jeremy Hsu",
+      "published": "2026-06-05T18:45:20Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "\"We pissed off a lot of people\": Giant data center plan cut 50% amid protests",
       "url": "https://arstechnica.com/tech-policy/2026/06/we-pissed-off-a-lot-of-people-giant-data-center-plan-cut-50-amid-protests/",
       "discuss_url": "https://arstechnica.com/tech-policy/2026/06/we-pissed-off-a-lot-of-people-giant-data-center-plan-cut-50-amid-protests/",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "John Timmer",
       "published": "2026-06-05T15:55:14Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The Fitbit Air is a good wearable weighed down by a chatty AI \"coach\"",
-      "url": "https://arstechnica.com/gadgets/2026/06/the-fitbit-air-is-great-but-googles-ai-is-too-nice-to-be-your-coach/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/06/the-fitbit-air-is-great-but-googles-ai-is-too-nice-to-be-your-coach/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-06-05T15:40:48Z"
     }
   ]
 }
