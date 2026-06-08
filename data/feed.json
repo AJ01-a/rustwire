@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-07T19:39:01Z",
+  "updated_at": "2026-06-08T04:23:07Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,51 +34,51 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "LLMs are eroding my software engineering career and I don't know what to do",
-      "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48434312",
-      "score": 680,
-      "comments": 633,
-      "author": "poisonfountain",
-      "published": "2026-06-07T12:49:29Z",
+      "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
+      "url": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
+      "discuss_url": "https://news.ycombinator.com/item?id=48440448",
+      "score": 143,
+      "comments": 40,
+      "author": "yogthos",
+      "published": "2026-06-08T01:39:30Z",
       "bullets": [
-        "AI coding assistants like Claude 3.5 Sonnet shift software engineering value from syntax writing to system architecture and verification.",
-        "Widespread AI automation of boilerplate tasks is hollowing out entry-level roles, threatening the pipeline for training future senior engineers.",
-        "Engineers must adapt by mastering system design, LLM integration, and directing AI agents rather than competing on pure coding speed."
+        "DeepSeek V4 Pro surpasses OpenAI's GPT-5.5 Pro in precision-critical evaluations, signaling a shift toward highly competitive open-architecture frontier models.",
+        "This precision milestone highlights the efficiency of DeepSeek's Mixture-of-Experts (MoE) architecture and optimized Multi-Head Latent Attention (MLA) mechanisms.",
+        "AI engineers should benchmark V4 Pro for high-precision workflows including deterministic code generation, mathematics, and structured JSON parsing."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "ntsc-rs - an accurate VHS video effect",
-      "url": "https://ntsc.rs/",
-      "discuss_url": "https://lobste.rs/s/1nojpo",
-      "score": 23,
-      "comments": 1,
-      "author": "Yogthos",
-      "published": "2026-06-06T20:18:32Z",
+      "title": "Making a game in Visual Studio from 1997",
+      "url": "https://www.youtube.com/watch?v=nQrzB5P5NPE",
+      "discuss_url": "https://lobste.rs/s/virlcj",
+      "score": 7,
+      "comments": 2,
+      "author": "calvin",
+      "published": "2026-06-07T19:34:27Z",
       "bullets": [
-        "This Rust-based digital signal processing pipeline models the physics of analog TV transmissions, including RF modulation and tape deck mechanics.",
-        "The engine simulates YIQ color space conversion, frequency-modulated luma/chroma degradation, head-switching noise, and chroma-bleed artifacts.",
-        "It delivers a Rust core alongside a standalone GUI, CLI, and OpenFX plugins for DaVinci Resolve and After Effects."
+        "Developing in Visual Studio 97 (VC++ 5.0) requires managing pre-C++98 compiler limitations and legacy MSVC build systems on modern Windows.",
+        "Retro game loop design relies on legacy DirectX 5 or Win32 GDI, requiring manual memory management without modern STL or smart pointers.",
+        "Targeting Windows 95/98 requires handling 32-bit execution boundaries, legacy DLL dependencies, and static linking of old MSVCRT runtimes."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
-      "url": "https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/",
-      "discuss_url": "https://lobste.rs/s/k67xnh",
-      "score": 48,
-      "comments": 12,
-      "author": "gerikson",
-      "published": "2026-06-06T11:46:28Z",
+      "title": "Dancing mad with sandboxing",
+      "url": "https://xeiaso.net/blog/2026/dancing-mad-sandboxing/",
+      "discuss_url": "https://lobste.rs/s/fmkvwk",
+      "score": 9,
+      "comments": 2,
+      "author": "cohix",
+      "published": "2026-06-07T18:38:04Z",
       "bullets": [
-        "Smart TVs run apps with embedded SDKs that covertly turn consumer devices into residential proxy nodes for AI web scraping.",
-        "Scrapers leverage these residential proxies to bypass WAFs and bot detection, mimicking legitimate consumer traffic to harvest data.",
-        "Defenders must use behavioral analysis and JA4 fingerprints rather than IP reputation to block scraping traffic originating from residential IoT."
+        "Linux sandboxing relies on complex, error-prone combinations of namespaces, seccomp-bpf, and Landlock rather than a unified API.",
+        "OpenBSD's pledge and unveil offer simpler, safer sandboxing paradigms compared to the fragmented and low-level Linux primitives.",
+        "Implementing custom Linux sandboxes often introduces security risks due to subtle interactions between CLONE_NEWUSER and system privileges."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "gmem",
       "published": "2026-06-04T21:09:47Z",
       "bullets": [
-        "RFC 6874 zone IDs (like %25eth0) destroy URL portability because interface contexts are strictly local to the host.",
-        "Inconsistent parsing between WHATWG standards and RFC 6874 creates security risks like SSRF and URL validation bypasses in DevOps pipelines.",
-        "Prefer Unique Local Addresses (ULA) or DNS resolution over raw IPv6 link-local addresses with zone indices in configuration files."
+        "IPv6 link-local zone identifiers (like %eth0) are host-specific, breaking portability when shared in distributed configuration files across different environments.",
+        "RFC 6874 defines IPv6 zone identifiers in URIs, but inconsistent browser and HTTP client parser implementations cause silent connection failures.",
+        "DevOps teams should avoid using IPv6 link-local addresses in configs; use global unicast addresses (GUA) or unique local addresses (ULA) instead."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "School shooting survivor sues AI gun detection firm after system failed to spot weapon",
-      "url": "https://arstechnica.com/tech-policy/2026/06/school-shooting-survivor-sues-ai-gun-detection-firm-after-system-failed-to-spot-weapon/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/school-shooting-survivor-sues-ai-gun-detection-firm-after-system-failed-to-spot-weapon/",
+      "title": "RIP Anthony Head: Our 10 favorite moments of Buffy's Giles",
+      "url": "https://arstechnica.com/culture/2026/06/rip-anthony-head-our-10-favorite-moments-of-buffys-giles/",
+      "discuss_url": "https://arstechnica.com/culture/2026/06/rip-anthony-head-our-10-favorite-moments-of-buffys-giles/",
       "score": null,
       "comments": null,
-      "author": "Cyrus Farivar",
-      "published": "2026-06-07T11:08:30Z",
+      "author": "Jennifer Ouellette",
+      "published": "2026-06-07T19:34:05Z",
       "bullets": [
-        "AI physical security vendors face unprecedented product liability lawsuits when computer vision models fail to detect weapons in real-world deployments.",
-        "The lawsuit highlights critical SLA and reliability gaps in computer vision, raising the bar for false-negative rates in life-safety AI integrations.",
-        "Engineers must design redundant fail-safes, as standalone ML weapon detection lacks industry-standardized certification for high-risk, zero-tolerance environments."
+        "Ars Technica published a retrospective analyzing Anthony Head's performance as Rupert Giles in the Buffy the Vampire Slayer franchise.",
+        "The analysis highlights ten key scenes, focusing on how Head's acting anchored the ensemble cast and facilitated narrative progression.",
+        "The profile emphasizes the technique of 'quietly filling in the gaps,' demonstrating the high value of subtle, supporting execution in complex productions."
       ]
     }
   ],
@@ -121,13 +121,37 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
+      "url": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
+      "discuss_url": "https://news.ycombinator.com/item?id=48440448",
+      "score": 143,
+      "comments": 40,
+      "author": "yogthos",
+      "published": "2026-06-08T01:39:30Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "LLMs are eroding my software engineering career and I don't know what to do",
       "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
       "discuss_url": "https://news.ycombinator.com/item?id=48434312",
-      "score": 680,
-      "comments": 633,
+      "score": 849,
+      "comments": 847,
       "author": "poisonfountain",
       "published": "2026-06-07T12:49:29Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+      "url": "https://arxiv.org/abs/2605.31514",
+      "discuss_url": "https://news.ycombinator.com/item?id=48437568",
+      "score": 104,
+      "comments": 103,
+      "author": "ketchup32613",
+      "published": "2026-06-07T18:54:55Z"
     },
     {
       "source": "hackernews",
@@ -136,8 +160,8 @@
       "title": "Anthropic, please ship an official Claude Desktop for Linux",
       "url": "https://github.com/anthropics/claude-code/issues/65697",
       "discuss_url": "https://news.ycombinator.com/item?id=48434436",
-      "score": 349,
-      "comments": 187,
+      "score": 474,
+      "comments": 274,
       "author": "predkambrij",
       "published": "2026-06-07T13:06:52Z"
     },
@@ -148,8 +172,8 @@
       "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
       "url": "https://github.com/devenjarvis/lathe",
       "discuss_url": "https://news.ycombinator.com/item?id=48433756",
-      "score": 158,
-      "comments": 34,
+      "score": 270,
+      "comments": 51,
       "author": "devenjarvis",
       "published": "2026-06-07T11:16:46Z"
     },
@@ -160,8 +184,8 @@
       "title": "I design with Claude more than Figma now",
       "url": "https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/",
       "discuss_url": "https://news.ycombinator.com/item?id=48431981",
-      "score": 219,
-      "comments": 202,
+      "score": 278,
+      "comments": 239,
       "author": "MrBuddyCasino",
       "published": "2026-06-07T05:04:24Z"
     },
@@ -172,8 +196,8 @@
       "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
       "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
       "discuss_url": "https://news.ycombinator.com/item?id=48421442",
-      "score": 1437,
-      "comments": 493,
+      "score": 1454,
+      "comments": 496,
       "author": "maltalex",
       "published": "2026-06-06T04:38:36Z"
     },
@@ -184,8 +208,8 @@
       "title": "How LLMs Actually Work",
       "url": "https://0xkato.xyz/how-llms-actually-work/",
       "discuss_url": "https://lobste.rs/s/pumnjn",
-      "score": 32,
-      "comments": 1,
+      "score": 49,
+      "comments": 2,
       "author": "dgv",
       "published": "2026-06-07T00:53:58Z"
     },
@@ -229,37 +253,25 @@
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
-      "title": "Room360: Video-to-3D Spatial Reconstruction Platform",
-      "url": "https://huggingface.co/blog/build-small-hackathon/video-to-3d-spatial-reconstruction-platform",
-      "discuss_url": "https://huggingface.co/blog/build-small-hackathon/video-to-3d-spatial-reconstruction-platform",
+      "title": "Amazing Digital Dentures (a failed project)",
+      "url": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
+      "discuss_url": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
       "score": null,
       "comments": null,
       "author": null,
-      "published": "2026-06-07T19:30:16Z"
+      "published": "2026-06-07T19:44:27Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-      "discuss_url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-04T18:57:45Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
-      "discuss_url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-04T12:24:58Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Making a game in Visual Studio from 1997",
+      "url": "https://www.youtube.com/watch?v=nQrzB5P5NPE",
+      "discuss_url": "https://lobste.rs/s/virlcj",
+      "score": 7,
+      "comments": 2,
+      "author": "calvin",
+      "published": "2026-06-07T19:34:27Z"
     },
     {
       "source": "lobsters",
@@ -277,23 +289,11 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "SDL_net 3.2.0 is out",
-      "url": "https://github.com/libsdl-org/SDL_net/releases/tag/release-3.2.0",
-      "discuss_url": "https://lobste.rs/s/dmcanq",
-      "score": 5,
-      "comments": 0,
-      "author": "linkdd",
-      "published": "2026-06-07T04:49:58Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/vzutqp",
       "discuss_url": "https://lobste.rs/s/vzutqp",
       "score": 17,
-      "comments": 30,
+      "comments": 32,
       "author": "caius",
       "published": "2026-06-05T08:57:48Z"
     },
@@ -308,6 +308,18 @@
       "comments": 2,
       "author": "calvin",
       "published": "2026-06-05T17:31:03Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "SDL_net 3.2.0 is out",
+      "url": "https://github.com/libsdl-org/SDL_net/releases/tag/release-3.2.0",
+      "discuss_url": "https://lobste.rs/s/dmcanq",
+      "score": 6,
+      "comments": 0,
+      "author": "linkdd",
+      "published": "2026-06-07T04:49:58Z"
     },
     {
       "source": "lobsters",
@@ -397,11 +409,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Dancing mad with sandboxing",
+      "url": "https://xeiaso.net/blog/2026/dancing-mad-sandboxing/",
+      "discuss_url": "https://lobste.rs/s/fmkvwk",
+      "score": 9,
+      "comments": 2,
+      "author": "cohix",
+      "published": "2026-06-07T18:38:04Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
       "url": "https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/",
       "discuss_url": "https://lobste.rs/s/k67xnh",
-      "score": 48,
-      "comments": 12,
+      "score": 58,
+      "comments": 17,
       "author": "gerikson",
       "published": "2026-06-06T11:46:28Z"
     },
@@ -421,22 +445,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Dancing mad with sandboxing",
-      "url": "https://xeiaso.net/blog/2026/dancing-mad-sandboxing/",
-      "discuss_url": "https://lobste.rs/s/fmkvwk",
-      "score": 1,
-      "comments": 0,
-      "author": "cohix",
-      "published": "2026-06-07T18:38:04Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "AI Worm",
       "url": "https://arxiv.org/abs/2606.03811",
       "discuss_url": "https://lobste.rs/s/vrwnjw",
-      "score": 14,
+      "score": 15,
       "comments": 4,
       "author": "carlomonte",
       "published": "2026-06-06T10:29:43Z"
@@ -490,30 +502,6 @@
       "published": "2026-06-05T12:26:03Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Rooting Home Assistant through MeshCore: XSS attacks with a LoRa node name",
-      "url": "https://mxsasha.eu/posts/meshcore-xss-home-assistant/",
-      "discuss_url": "https://lobste.rs/s/0rtm7s",
-      "score": 8,
-      "comments": 0,
-      "author": "fanf",
-      "published": "2026-06-03T22:34:16Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Please Do Not Hack Me - The Tale of a TeamSpeak Use-After-Free",
-      "url": "https://modzero.com/en/blog/please-do-not-hack-me/",
-      "discuss_url": "https://lobste.rs/s/fxksjw",
-      "score": 2,
-      "comments": 0,
-      "author": "freddyb",
-      "published": "2026-06-03T20:09:21Z"
-    },
-    {
       "source": "rss",
       "subsource": "krebsonsecurity.com",
       "category": "security",
@@ -536,6 +524,30 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-06-06T13:36:57Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI",
+      "url": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
+      "discuss_url": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-06T08:29:05Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
+      "url": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
+      "discuss_url": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-06T08:14:31Z"
     },
     {
       "source": "lobsters",
@@ -625,9 +637,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon Cognito now supports multi-Region replication",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
+      "title": "AWS Databases on Vercel now available in additional AWS Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -637,9 +649,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Databases on Vercel now available in additional AWS Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
+      "title": "Amazon Cognito now supports multi-Region replication",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -680,6 +692,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-06-04T08:05:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "RIP Anthony Head: Our 10 favorite moments of Buffy's Giles",
+      "url": "https://arstechnica.com/culture/2026/06/rip-anthony-head-our-10-favorite-moments-of-buffys-giles/",
+      "discuss_url": "https://arstechnica.com/culture/2026/06/rip-anthony-head-our-10-favorite-moments-of-buffys-giles/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-06-07T19:34:05Z"
     },
     {
       "source": "rss",
@@ -812,18 +836,6 @@
       "comments": null,
       "author": "Ryan Whitwam",
       "published": "2026-06-05T15:40:48Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Not the next R8? Audi reveals mid-engined plug-in hybrid V8 Nuvolari.",
-      "url": "https://arstechnica.com/cars/2026/06/not-the-next-r8-audi-reveals-mid-engined-plug-in-hybrid-v8-nuvolari/",
-      "discuss_url": "https://arstechnica.com/cars/2026/06/not-the-next-r8-audi-reveals-mid-engined-plug-in-hybrid-v8-nuvolari/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-06-05T14:44:04Z"
     }
   ]
 }
