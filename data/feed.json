@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T03:53:24Z",
+  "updated_at": "2026-06-09T09:53:53Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Apple reveals new AI architecture built around Google Gemini models",
       "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
       "discuss_url": "https://news.ycombinator.com/item?id=48450142",
-      "score": 417,
-      "comments": 350,
+      "score": 591,
+      "comments": 450,
       "author": "unclefuzzy",
       "published": "2026-06-08T19:14:47Z",
       "bullets": [
-        "Apple Intelligence routes complex queries to Google Gemini when on-device models or Private Cloud Compute (PCC) cannot resolve them.",
-        "The architecture enforces privacy by masking IP addresses and preventing external LLMs from storing user query data.",
-        "Siri orchestrates multi-model options, allowing seamless switching between local Apple models, OpenAI's GPT-4o, and Google Gemini."
+        "Apple integrates Google's Gemini models into Apple Intelligence, offering users alternative cloud-based LLM reasoning alongside OpenAI's ChatGPT.",
+        "The hybrid architecture routes complex prompts to Gemini when local models and Private Cloud Compute nodes lack the required capacity.",
+        "This integration establishes Google and OpenAI as primary external model providers, bypassing Apple's strict hardware constraints for LLMs."
       ]
     },
     {
@@ -55,30 +55,30 @@
       "url": "https://lobste.rs/s/yiwcln",
       "discuss_url": "https://lobste.rs/s/yiwcln",
       "score": 11,
-      "comments": 20,
+      "comments": 25,
       "author": "caius",
       "published": "2026-06-08T09:23:20Z",
       "bullets": [
-        "What are you doing this week?",
-        "Feel free to share!",
-        "Keep in mind it’s OK to do nothing at all, too."
+        "Engineers leverage weekly community threads to benchmark active adoption of languages like Rust, Go, and Zig in real-world side projects.",
+        "These developer-led discussions highlight niche database engines, custom compilers, and self-hosted DevOps pipelines built outside enterprise environments.",
+        "Peer check-ins facilitate collaborative debugging, architecture reviews, and feedback on open-source libraries before public release."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "1k Data Breaches Later, the Disclosure Lag Is Worse",
-      "url": "https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48440952",
-      "score": 298,
-      "comments": 120,
-      "author": "882542F3884314B",
-      "published": "2026-06-08T03:17:10Z",
+      "title": "Self-hosting email the hard way from your own routable IPv4 block up",
+      "url": "https://anil.recoil.org/notes/recoil-self-hosting-2026",
+      "discuss_url": "https://lobste.rs/s/cw7vxa",
+      "score": 27,
+      "comments": 13,
+      "author": "ryangibb",
+      "published": "2026-06-08T21:47:00Z",
       "bullets": [
-        "1k Data Breaches Later, the Disclosure Lag Is Worse",
-        "Trending on news.ycombinator.com — 298 points, 120 comments.",
-        "Submitted by 882542F3884314B on news.ycombinator.com."
+        "Deploying a custom BGP ASN and IPv4 block requires strict rDNS (PTR) alignment to bypass ISP and spam-filter blocks.",
+        "Implement SPF, DKIM, and DMARC policies alongside MTA-STS and DANE to secure SMTP transit against interception and spoofing.",
+        "Mitigate blacklisting by securing Postfix/Dovecot against open relays and proactively monitoring IP reputation across major RBLs like Spamhaus."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Introduction to nixidy - Kubernetes GitOps with nix",
       "url": "https://codedbearder.com/posts/nixidy-part-1-introduction/",
       "discuss_url": "https://lobste.rs/s/nwrobx",
-      "score": 7,
-      "comments": 4,
+      "score": 8,
+      "comments": 9,
       "author": "granra",
       "published": "2026-06-08T15:21:54Z",
       "bullets": [
-        "Introduction to nixidy - Kubernetes GitOps with nix",
-        "Trending on lobste.rs/devops — 7 points, 4 comments.",
-        "Submitted by granra on lobste.rs/devops."
+        "Nixidy uses Nix to generate Kubernetes manifests, offering a type-safe, reproducible alternative to complex Helm charts and Kustomize YAML templates.",
+        "It compiles Nix expressions into standard Kubernetes JSON/YAML, allowing seamless integration with existing GitOps controllers like ArgoCD or Flux.",
+        "Leveraging Nix flakes, nixidy enables version-locked, hermetic build environments for platform engineering teams managing multi-cluster infrastructure."
       ]
     },
     {
-      "source": "rss",
-      "subsource": "arstechnica.com",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "industry",
-      "title": "FCC lifts looming deadline for Amazon Leo satellite broadband constellation",
-      "url": "https://arstechnica.com/space/2026/06/fcc-lifts-looming-deadline-for-amazon-leo-satellite-broadband-constellation/",
-      "discuss_url": "https://arstechnica.com/space/2026/06/fcc-lifts-looming-deadline-for-amazon-leo-satellite-broadband-constellation/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-06-09T00:59:40Z",
+      "title": "We Think the SpaceX IPO Is Overvalued",
+      "url": "https://www.morningstar.com/stocks/why-we-think-spacex-ipo-is-overvalued?content_id=20768396545",
+      "discuss_url": "https://news.ycombinator.com/item?id=48455233",
+      "score": 219,
+      "comments": 222,
+      "author": "0xedb",
+      "published": "2026-06-09T01:56:40Z",
       "bullets": [
-        "The waiver \"serves the public interest by promoting a second large satellite broadband constellation.\"",
-        "FCC lifts looming deadline for Amazon Leo satellite broadband constellation",
-        "Submitted by Stephen Clark on arstechnica.com."
+        "Starlink's growth faces physical bandwidth constraints in high-density areas, limiting its addressable market and long-term subscription revenue potential.",
+        "Starship's immense development costs and capital expenditure requirements pressure margins, making the rumored $180B+ valuation highly speculative for public markets.",
+        "While Falcon 9 dominates launch, the commercial launch market's total addressable market is too small to justify tech-industry valuation multiples."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Apple reveals new AI architecture built around Google Gemini models",
       "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
       "discuss_url": "https://news.ycombinator.com/item?id=48450142",
-      "score": 417,
-      "comments": 350,
+      "score": 591,
+      "comments": 450,
       "author": "unclefuzzy",
       "published": "2026-06-08T19:14:47Z"
     },
@@ -136,8 +136,8 @@
       "title": "Replies to comments on my \"LLMs are eroding my career\" post",
       "url": "https://human-in-the-loop.bearblog.dev/replies-to-comments-on-my-llms-are-eroding-my-career-post/",
       "discuss_url": "https://news.ycombinator.com/item?id=48443258",
-      "score": 138,
-      "comments": 197,
+      "score": 149,
+      "comments": 205,
       "author": "omblivion",
       "published": "2026-06-08T09:52:03Z"
     },
@@ -148,8 +148,8 @@
       "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
       "url": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
       "discuss_url": "https://news.ycombinator.com/item?id=48440448",
-      "score": 389,
-      "comments": 217,
+      "score": 391,
+      "comments": 219,
       "author": "yogthos",
       "published": "2026-06-08T01:39:30Z"
     },
@@ -160,8 +160,8 @@
       "title": "LLMs are eroding my software engineering career and I don't know what to do",
       "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
       "discuss_url": "https://news.ycombinator.com/item?id=48434312",
-      "score": 1107,
-      "comments": 1049,
+      "score": 1117,
+      "comments": 1061,
       "author": "poisonfountain",
       "published": "2026-06-07T12:49:29Z"
     },
@@ -172,8 +172,8 @@
       "title": "Anthropic, please ship an official Claude Desktop for Linux",
       "url": "https://github.com/anthropics/claude-code/issues/65697",
       "discuss_url": "https://news.ycombinator.com/item?id=48434436",
-      "score": 526,
-      "comments": 300,
+      "score": 528,
+      "comments": 301,
       "author": "predkambrij",
       "published": "2026-06-07T13:06:52Z"
     },
@@ -184,34 +184,10 @@
       "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
       "url": "https://github.com/devenjarvis/lathe",
       "discuss_url": "https://news.ycombinator.com/item?id=48433756",
-      "score": 382,
-      "comments": 69,
+      "score": 388,
+      "comments": 70,
       "author": "devenjarvis",
       "published": "2026-06-07T11:16:46Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "I design with Claude more than Figma now",
-      "url": "https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48431981",
-      "score": 310,
-      "comments": 267,
-      "author": "MrBuddyCasino",
-      "published": "2026-06-07T05:04:24Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Expanding Private Cloud Compute - Apple Security Research",
-      "url": "https://security.apple.com/blog/expanding-pcc/",
-      "discuss_url": "https://lobste.rs/s/4xbzbk",
-      "score": 3,
-      "comments": 0,
-      "author": "achivetta",
-      "published": "2026-06-08T20:57:56Z"
     },
     {
       "source": "lobsters",
@@ -233,9 +209,21 @@
       "url": "https://arxiv.org/pdf/2605.31514",
       "discuss_url": "https://lobste.rs/s/owclks",
       "score": 35,
-      "comments": 24,
+      "comments": 26,
       "author": "onbjerg",
       "published": "2026-06-06T12:31:19Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Expanding Private Cloud Compute",
+      "url": "https://security.apple.com/blog/expanding-pcc/",
+      "discuss_url": "https://lobste.rs/s/4xbzbk",
+      "score": 3,
+      "comments": 0,
+      "author": "achivetta",
+      "published": "2026-06-08T20:57:56Z"
     },
     {
       "source": "lobsters",
@@ -262,6 +250,18 @@
       "published": "2026-06-06T10:12:07Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "NeuroBait: I fine-tuned a model to spark dopamine for ADHD brain",
+      "url": "https://huggingface.co/blog/build-small-hackathon/neurobait-adhd",
+      "discuss_url": "https://huggingface.co/blog/build-small-hackathon/neurobait-adhd",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-09T09:04:58Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
@@ -269,7 +269,7 @@
       "url": "https://lobste.rs/s/yiwcln",
       "discuss_url": "https://lobste.rs/s/yiwcln",
       "score": 11,
-      "comments": 20,
+      "comments": 25,
       "author": "caius",
       "published": "2026-06-08T09:23:20Z"
     },
@@ -296,18 +296,6 @@
       "comments": 1,
       "author": "Yogthos",
       "published": "2026-06-06T20:18:32Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/vzutqp",
-      "discuss_url": "https://lobste.rs/s/vzutqp",
-      "score": 18,
-      "comments": 32,
-      "author": "caius",
-      "published": "2026-06-05T08:57:48Z"
     },
     {
       "source": "lobsters",
@@ -344,18 +332,6 @@
       "comments": 2,
       "author": "crowdhailer",
       "published": "2026-06-08T17:11:36Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Navigating the Fog of War: Age of Empires, AI Agents, and the Rise of Dark Code",
-      "url": "https://blog.waleson.com/2026/05/navigating-fog-of-war-age-of-empires-ai.html",
-      "discuss_url": "https://lobste.rs/s/huexha",
-      "score": 2,
-      "comments": 3,
-      "author": "j11g",
-      "published": "2026-06-05T05:29:28Z"
     },
     {
       "source": "rss",
@@ -397,6 +373,18 @@
       "source": "rss",
       "subsource": "stackoverflow.blog",
       "category": "engineering",
+      "title": "Creating checkpoints by gaslighting a Postgres database​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍‌‌‍​﻿‌‍​‍​﻿​​‌‍​﻿‌‍​‍​﻿​﻿​﻿‍‌​‍﻿‌‌‍‌‍‌‍​﻿‌‍​﻿​﻿‍‌​‍﻿‌​﻿‌​‌‍​‍​﻿​​​﻿‍‌​‍﻿‌​﻿‍‌​﻿​‍‌‍‌‌​﻿‌‍​‍﻿‌​﻿‌‍‌‍​‌​﻿‍​‌‍​‌‌‍‌​‌‍‌‌‌‍‌‍​﻿‍​‌‍‌​‌‍​﻿​﻿​​​﻿​‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍‌‌‍​﻿‌‍​‍​﻿​​‌‍​﻿‌‍​‍​﻿​﻿​﻿‍‌​‍﻿‌‌‍‌‍‌‍​﻿‌‍​﻿​﻿‍‌​‍﻿‌​﻿‌​‌‍​‍​﻿​​​﻿‍‌​‍﻿‌​﻿‍‌​﻿​‍‌‍‌‌​﻿‌‍​‍﻿‌​﻿‌‍‌‍​‌​﻿‍​‌‍​‌‌‍‌​‌‍‌‌‌‍‌‍​﻿‍​‌‍‌​‌‍​﻿​﻿​​​﻿​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/06/09/checkpoints-by-gaslighting-postgres-database/",
+      "discuss_url": "https://stackoverflow.blog/2026/06/09/checkpoints-by-gaslighting-postgres-database/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-06-09T07:40:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
       "title": "Making the OWASP top ten in the vibe code era​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍​‌​﻿​﻿​﻿‌‍​﻿‍‌​﻿‌‍‌‍​‍​﻿‌​​‍﻿‌​﻿‍​​﻿​‌‌‍‌‍​﻿​﻿​‍﻿‌​﻿‌​‌‍‌‌​﻿‌‌‌‍‌‌​‍﻿‌‌‍​‌​﻿​​‌‍​﻿‌‍​‍​‍﻿‌‌‍​﻿​﻿‌‌‌‍‌‌‌‍​‌​﻿‍​​﻿​‌​﻿‌﻿‌‍‌​​﻿‍​​﻿‍​​﻿​​​﻿‌﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍​‌​﻿​﻿​﻿‌‍​﻿‍‌​﻿‌‍‌‍​‍​﻿‌​​‍﻿‌​﻿‍​​﻿​‌‌‍‌‍​﻿​﻿​‍﻿‌​﻿‌​‌‍‌‌​﻿‌‌‌‍‌‌​‍﻿‌‌‍​‌​﻿​​‌‍​﻿‌‍​‍​‍﻿‌‌‍​﻿​﻿‌‌‌‍‌‌‌‍​‌​﻿‍​​﻿​‌​﻿‌﻿‌‍‌​​﻿‍​​﻿‍​​﻿​​​﻿‌﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "url": "https://stackoverflow.blog/2026/06/05/making-the-owasp-top-ten-in-the-vibe-code-era/",
       "discuss_url": "https://stackoverflow.blog/2026/06/05/making-the-owasp-top-ten-in-the-vibe-code-era/",
@@ -406,13 +394,25 @@
       "published": "2026-06-05T07:40:00Z"
     },
     {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Self-hosting email the hard way from your own routable IPv4 block up",
+      "url": "https://anil.recoil.org/notes/recoil-self-hosting-2026",
+      "discuss_url": "https://lobste.rs/s/cw7vxa",
+      "score": 27,
+      "comments": 13,
+      "author": "ryangibb",
+      "published": "2026-06-08T21:47:00Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "1k Data Breaches Later, the Disclosure Lag Is Worse",
       "url": "https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/",
       "discuss_url": "https://news.ycombinator.com/item?id=48440952",
-      "score": 298,
+      "score": 299,
       "comments": 120,
       "author": "882542F3884314B",
       "published": "2026-06-08T03:17:10Z"
@@ -421,23 +421,11 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Self-hosting email the hard way from your own routable IPv4 block up",
-      "url": "https://anil.recoil.org/notes/recoil-self-hosting-2026",
-      "discuss_url": "https://lobste.rs/s/cw7vxa",
-      "score": 15,
-      "comments": 3,
-      "author": "ryangibb",
-      "published": "2026-06-08T21:47:00Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "For the 2nd time in weeks, Microsoft packages laced with credential stealer",
       "url": "https://arstechnica.com/security/2026/06/for-the-2nd-time-in-weeks-microsoft-packages-laced-with-credential-stealer/",
       "discuss_url": "https://lobste.rs/s/ryxjww",
-      "score": 3,
-      "comments": 0,
+      "score": 7,
+      "comments": 1,
       "author": "ashishb",
       "published": "2026-06-09T01:10:41Z"
     },
@@ -448,8 +436,8 @@
       "title": "Arbitrary code execution in objdump -g",
       "url": "https://blog.calif.io/p/oobdump-relocation-oriented-programming",
       "discuss_url": "https://lobste.rs/s/sbcasc",
-      "score": 4,
-      "comments": 0,
+      "score": 10,
+      "comments": 1,
       "author": "albino",
       "published": "2026-06-08T22:13:46Z"
     },
@@ -460,8 +448,8 @@
       "title": "Vulnerability and malware checks in uv",
       "url": "https://astral.sh/blog/uv-audit",
       "discuss_url": "https://lobste.rs/s/mct5rz",
-      "score": 11,
-      "comments": 0,
+      "score": 14,
+      "comments": 1,
       "author": "yossarian",
       "published": "2026-06-08T16:29:42Z"
     },
@@ -481,18 +469,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
-      "url": "https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/",
-      "discuss_url": "https://lobste.rs/s/k67xnh",
-      "score": 60,
-      "comments": 19,
-      "author": "gerikson",
-      "published": "2026-06-06T11:46:28Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Did Claude Increase Bugs in rsync?",
       "url": "https://alexispurslane.github.io/rsync-analysis/",
       "discuss_url": "https://lobste.rs/s/mf5ryi",
@@ -500,6 +476,18 @@
       "comments": 61,
       "author": "wonk",
       "published": "2026-06-05T18:14:42Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
+      "url": "https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/",
+      "discuss_url": "https://lobste.rs/s/k67xnh",
+      "score": 61,
+      "comments": 19,
+      "author": "gerikson",
+      "published": "2026-06-06T11:46:28Z"
     },
     {
       "source": "lobsters",
@@ -556,10 +544,34 @@
       "title": "Introduction to nixidy - Kubernetes GitOps with nix",
       "url": "https://codedbearder.com/posts/nixidy-part-1-introduction/",
       "discuss_url": "https://lobste.rs/s/nwrobx",
-      "score": 7,
-      "comments": 4,
+      "score": 8,
+      "comments": 9,
       "author": "granra",
       "published": "2026-06-08T15:21:54Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "Safe Terraform auto-apply with conftest",
+      "url": "https://www.bejarano.io/terraform-autoapply/",
+      "discuss_url": "https://lobste.rs/s/yapgzf",
+      "score": 1,
+      "comments": 0,
+      "author": "ricardbejarano",
+      "published": "2026-06-09T09:02:29Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Cost Explorer launches intelligent cost explanations powered by Amazon Q",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer-intelligent-cost-explanations",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer-intelligent-cost-explanations",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-09T03:00:00Z"
     },
     {
       "source": "rss",
@@ -596,6 +608,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-06-08T18:59:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon CloudWatch Logs Insights adds 23 new query commands and functions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights-new/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights-new/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-08T17:50:00Z"
     },
     {
       "source": "rss",
@@ -658,40 +682,16 @@
       "published": "2026-06-08T17:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS now provides AI-powered cost investigations for cost anomalies",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-ai-powered-cost-investigations/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-ai-powered-cost-investigations/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-08T16:41:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Connect Customer now offers AI agent trace details for self-service voice interactions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-ai-agent-traces/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-ai-agent-traces/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-08T16:17:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Redshift reduces manual snapshot cost for Serverless and RG instances",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-incremental-manual-snapshots/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-incremental-manual-snapshots/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-08T15:00:00Z"
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "industry",
+      "title": "We Think the SpaceX IPO Is Overvalued",
+      "url": "https://www.morningstar.com/stocks/why-we-think-spacex-ipo-is-overvalued?content_id=20768396545",
+      "discuss_url": "https://news.ycombinator.com/item?id=48455233",
+      "score": 219,
+      "comments": 222,
+      "author": "0xedb",
+      "published": "2026-06-09T01:56:40Z"
     },
     {
       "source": "rss",
@@ -824,18 +824,6 @@
       "comments": null,
       "author": "Ashley Belanger",
       "published": "2026-06-08T17:20:30Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "F1 in Monaco: Finally, the cars were flat-out in qualifying",
-      "url": "https://arstechnica.com/cars/2026/06/f1-in-monaco-finally-the-cars-were-flat-out-in-qualifying/",
-      "discuss_url": "https://arstechnica.com/cars/2026/06/f1-in-monaco-finally-the-cars-were-flat-out-in-qualifying/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-06-08T16:56:21Z"
     }
   ]
 }
