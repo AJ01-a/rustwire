@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T15:19:57Z",
+  "updated_at": "2026-06-09T20:12:01Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,34 +34,34 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Apple reveals new AI architecture built around Google Gemini models",
-      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48450142",
-      "score": 671,
-      "comments": 522,
-      "author": "unclefuzzy",
-      "published": "2026-06-08T19:14:47Z",
+      "title": "Claude Fable 5",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "discuss_url": "https://news.ycombinator.com/item?id=48463808",
+      "score": 1133,
+      "comments": 940,
+      "author": "Philpax",
+      "published": "2026-06-09T16:58:01Z",
       "bullets": [
-        "Apple integrates Google Gemini alongside OpenAI GPT-4o to handle complex, off-device queries within its multi-tier Apple Intelligence architecture.",
-        "Apple's proprietary foundation models (on-device and cloud) were trained using Google's custom Cloud TPUv4 and TPUv5p hardware clusters.",
-        "Orchestration routing dynamically sends tasks to local hardware, Apple's Private Cloud Compute (PCC), or third-party APIs based on complexity."
+        "Anthropic's Claude 3.5 Sonnet operates at twice the speed of Claude 3 Opus and at one-fifth of the cost.",
+        "It scores 49% on SWE-bench, outperforming Claude 3 Opus (38%) and GPT-4o (27%) in software engineering tasks.",
+        "Evaluations by US and UK Safety Institutes confirmed Claude 3.5 Sonnet remains at ASL-2, presenting low CBRN risk."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/yiwcln",
-      "discuss_url": "https://lobste.rs/s/yiwcln",
-      "score": 11,
-      "comments": 27,
-      "author": "caius",
-      "published": "2026-06-08T09:23:20Z",
+      "title": "Passing DBs Through Continuations",
+      "url": "https://remy.wang/blog/cps.html",
+      "discuss_url": "https://lobste.rs/s/jxtxkj",
+      "score": 7,
+      "comments": 0,
+      "author": "anex9d",
+      "published": "2026-06-09T13:14:55Z",
       "bullets": [
-        "Engineering community threads serve as informal peer reviews for systems programming, custom compilers, and self-hosted infrastructure projects.",
-        "Sharing active workflows helps developers benchmark toolchains, discover alternative libraries, and troubleshoot complex architectural bottlenecks.",
-        "Discussing side projects, from Rust utilities to Nix configurations, fosters collaborative knowledge exchange among senior technical practitioners."
+        "Passing DBs Through Continuations",
+        "Trending on lobste.rs/programming — 7 points, 0 comments.",
+        "Submitted by anex9d on lobste.rs/programming."
       ]
     },
     {
@@ -76,9 +76,9 @@
       "author": "882542F3884314B",
       "published": "2026-06-08T03:17:10Z",
       "bullets": [
-        "Despite stricter regulations like the SEC four-day rule, the median time between breach detection and public disclosure continues to widen.",
-        "Protracted disclosure windows leave defense teams blind to active credential stuffing, phishing campaigns, and secondary supply-chain compromises.",
-        "Organizations must unify SIEM/XDR telemetry with legal incident response playbooks to accelerate compliance reporting and mitigate downstream exploitation."
+        "1k Data Breaches Later, the Disclosure Lag Is Worse",
+        "Trending on news.ycombinator.com — 300 points, 121 comments.",
+        "Submitted by 882542F3884314B on news.ycombinator.com."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "Safe Terraform auto-apply with conftest",
       "url": "https://www.bejarano.io/terraform-autoapply/",
       "discuss_url": "https://lobste.rs/s/yapgzf",
-      "score": 3,
+      "score": 4,
       "comments": 1,
       "author": "ricardbejarano",
       "published": "2026-06-09T09:02:29Z",
       "bullets": [
-        "Export Terraform plans to JSON with `terraform show -json` to programmatically evaluate infrastructure changes before automated CI/CD execution.",
-        "Write policy-as-code guardrails in Rego using Conftest to automatically block high-risk changes, like open security groups or deleted databases.",
-        "Embed Conftest checks in GitLab CI or GitHub Actions to safely enable `terraform apply -auto-approve` on compliant pull requests."
+        "Safe Terraform auto-apply with conftest",
+        "Trending on lobste.rs/devops — 4 points, 1 comments.",
+        "Submitted by ricardbejarano on lobste.rs/devops."
       ]
     },
     {
@@ -105,14 +105,14 @@
       "title": "We Think the SpaceX IPO Is Overvalued",
       "url": "https://www.morningstar.com/stocks/why-we-think-spacex-ipo-is-overvalued?content_id=20768396545",
       "discuss_url": "https://news.ycombinator.com/item?id=48455233",
-      "score": 236,
-      "comments": 240,
+      "score": 252,
+      "comments": 257,
       "author": "0xedb",
       "published": "2026-06-09T01:56:40Z",
       "bullets": [
-        "Starlink's valuation hinges on global consumer broadband TAM, which faces limits from urban fiber expansion and high user terminal costs.",
-        "Starship development demands immense capital, while commoditizing orbital launch risks lowering profit margins despite Falcon 9's current dominance.",
-        "Skeptics argue SpaceX is valued like a high-multiple SaaS company rather than a capital-intensive aerospace hardware and infrastructure provider."
+        "We Think the SpaceX IPO Is Overvalued",
+        "Trending on news.ycombinator.com — 252 points, 257 comments.",
+        "Submitted by 0xedb on news.ycombinator.com."
       ]
     }
   ],
@@ -121,11 +121,35 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Claude Fable 5",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "discuss_url": "https://news.ycombinator.com/item?id=48463808",
+      "score": 1133,
+      "comments": 940,
+      "author": "Philpax",
+      "published": "2026-06-09T16:58:01Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "System Card: Claude Fable 5 and Claude Mythos 5 [pdf]",
+      "url": "https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf",
+      "discuss_url": "https://news.ycombinator.com/item?id=48463811",
+      "score": 210,
+      "comments": 1,
+      "author": "scrlk",
+      "published": "2026-06-09T16:58:13Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Apple reveals new AI architecture built around Google Gemini models",
       "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
       "discuss_url": "https://news.ycombinator.com/item?id=48450142",
-      "score": 671,
-      "comments": 522,
+      "score": 699,
+      "comments": 544,
       "author": "unclefuzzy",
       "published": "2026-06-08T19:14:47Z"
     },
@@ -136,8 +160,8 @@
       "title": "Replies to comments on my \"LLMs are eroding my career\" post",
       "url": "https://human-in-the-loop.bearblog.dev/replies-to-comments-on-my-llms-are-eroding-my-career-post/",
       "discuss_url": "https://news.ycombinator.com/item?id=48443258",
-      "score": 165,
-      "comments": 215,
+      "score": 171,
+      "comments": 221,
       "author": "omblivion",
       "published": "2026-06-08T09:52:03Z"
     },
@@ -148,10 +172,22 @@
       "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
       "url": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
       "discuss_url": "https://news.ycombinator.com/item?id=48440448",
-      "score": 392,
-      "comments": 219,
+      "score": 395,
+      "comments": 221,
       "author": "yogthos",
       "published": "2026-06-08T01:39:30Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "chromiumfish: A stealth Chromium build with a drop-in Playwright harness for Python and Node",
+      "url": "https://github.com/arman-bd/chromiumfish",
+      "discuss_url": "https://lobste.rs/s/frcjak",
+      "score": 2,
+      "comments": 3,
+      "author": "ndegruchy",
+      "published": "2026-06-09T16:00:05Z"
     },
     {
       "source": "lobsters",
@@ -176,6 +212,18 @@
       "comments": 26,
       "author": "onbjerg",
       "published": "2026-06-06T12:31:19Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "What about OpenCL and CUDA C++ alternatives?",
+      "url": "https://www.modular.com/blog/democratizing-ai-compute-part-5-what-about-cuda-c-alternatives",
+      "discuss_url": "https://lobste.rs/s/s8eigz",
+      "score": 1,
+      "comments": 0,
+      "author": "eatonphil",
+      "published": "2026-06-09T15:41:12Z"
     },
     {
       "source": "lobsters",
@@ -214,52 +262,28 @@
       "published": "2026-06-06T10:12:07Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "discuss_url": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-09T10:46:19Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Passing DBs Through Continuations",
+      "url": "https://remy.wang/blog/cps.html",
+      "discuss_url": "https://lobste.rs/s/jxtxkj",
+      "score": 7,
+      "comments": 0,
+      "author": "anex9d",
+      "published": "2026-06-09T13:14:55Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "The Open Source Community is backing OpenEnv for Agentic RL",
-      "url": "https://huggingface.co/blog/openenv-agentic-rl",
-      "discuss_url": "https://huggingface.co/blog/openenv-agentic-rl",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-08T00:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-      "discuss_url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-04T18:57:45Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
-      "discuss_url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-04T12:24:58Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "rayforce: SIMD-accelerated columnar database for analytics — pure C, zero dependencies",
+      "url": "https://github.com/RayforceDB/rayforce",
+      "discuss_url": "https://lobste.rs/s/vbhkt9",
+      "score": 1,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-06-09T19:22:55Z"
     },
     {
       "source": "lobsters",
@@ -269,21 +293,9 @@
       "url": "https://lobste.rs/s/yiwcln",
       "discuss_url": "https://lobste.rs/s/yiwcln",
       "score": 11,
-      "comments": 27,
+      "comments": 28,
       "author": "caius",
       "published": "2026-06-08T09:23:20Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Passing DBs Through Continuations",
-      "url": "https://remy.wang/blog/cps.html",
-      "discuss_url": "https://lobste.rs/s/jxtxkj",
-      "score": 1,
-      "comments": 0,
-      "author": "anex9d",
-      "published": "2026-06-09T13:14:55Z"
     },
     {
       "source": "lobsters",
@@ -313,18 +325,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Win16 Memory Management",
-      "url": "http://www.os2museum.com/wp/win16-memory-management/",
-      "discuss_url": "https://lobste.rs/s/c3xmxm",
-      "score": 28,
-      "comments": 2,
-      "author": "calvin",
-      "published": "2026-06-05T17:31:03Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "SDL_net 3.2.0 is out",
       "url": "https://github.com/libsdl-org/SDL_net/releases/tag/release-3.2.0",
       "discuss_url": "https://lobste.rs/s/dmcanq",
@@ -349,6 +349,18 @@
       "source": "rss",
       "subsource": "github.blog",
       "category": "engineering",
+      "title": "From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI",
+      "url": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-06-09T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
       "title": "GitHub for Beginners: Answers to some common questions",
       "url": "https://github.blog/developer-skills/github/github-for-beginners-answers-to-some-common-questions/",
       "discuss_url": "https://github.blog/developer-skills/github/github-for-beginners-answers-to-some-common-questions/",
@@ -368,18 +380,6 @@
       "comments": null,
       "author": "Natalie Guevara",
       "published": "2026-06-04T16:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "GitHub Copilot app: The agent-native desktop experience",
-      "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
-      "discuss_url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-06-02T17:30:03Z"
     },
     {
       "source": "rss",
@@ -424,7 +424,7 @@
       "title": "Self-hosting email the hard way from your own routable IPv4 block up",
       "url": "https://anil.recoil.org/notes/recoil-self-hosting-2026",
       "discuss_url": "https://lobste.rs/s/cw7vxa",
-      "score": 42,
+      "score": 47,
       "comments": 15,
       "author": "ryangibb",
       "published": "2026-06-08T21:47:00Z"
@@ -433,23 +433,11 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Arbitrary code execution in objdump -g",
-      "url": "https://blog.calif.io/p/oobdump-relocation-oriented-programming",
-      "discuss_url": "https://lobste.rs/s/sbcasc",
-      "score": 16,
-      "comments": 1,
-      "author": "albino",
-      "published": "2026-06-08T22:13:46Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "For the 2nd time in weeks, Microsoft packages laced with credential stealer",
       "url": "https://arstechnica.com/security/2026/06/for-the-2nd-time-in-weeks-microsoft-packages-laced-with-credential-stealer/",
       "discuss_url": "https://lobste.rs/s/ryxjww",
-      "score": 10,
-      "comments": 1,
+      "score": 12,
+      "comments": 3,
       "author": "ashishb",
       "published": "2026-06-09T01:10:41Z"
     },
@@ -457,13 +445,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "We have to change the rules of security",
-      "url": "https://opensourcesecurity.io/2026/06-rules-of-security/",
-      "discuss_url": "https://lobste.rs/s/ku6lzl",
-      "score": 1,
-      "comments": 0,
-      "author": "krig",
-      "published": "2026-06-09T14:15:33Z"
+      "title": "Arbitrary code execution in objdump -g",
+      "url": "https://blog.calif.io/p/oobdump-relocation-oriented-programming",
+      "discuss_url": "https://lobste.rs/s/sbcasc",
+      "score": 18,
+      "comments": 1,
+      "author": "albino",
+      "published": "2026-06-08T22:13:46Z"
     },
     {
       "source": "lobsters",
@@ -473,7 +461,7 @@
       "url": "https://astral.sh/blog/uv-audit",
       "discuss_url": "https://lobste.rs/s/mct5rz",
       "score": 17,
-      "comments": 1,
+      "comments": 2,
       "author": "yossarian",
       "published": "2026-06-08T16:29:42Z"
     },
@@ -493,18 +481,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Did Claude Increase Bugs in rsync?",
-      "url": "https://alexispurslane.github.io/rsync-analysis/",
-      "discuss_url": "https://lobste.rs/s/mf5ryi",
-      "score": 104,
-      "comments": 61,
-      "author": "wonk",
-      "published": "2026-06-05T18:14:42Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
       "url": "https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/",
       "discuss_url": "https://lobste.rs/s/k67xnh",
@@ -512,6 +488,18 @@
       "comments": 19,
       "author": "gerikson",
       "published": "2026-06-06T11:46:28Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "We have to change the rules of security",
+      "url": "https://opensourcesecurity.io/2026/06-rules-of-security/",
+      "discuss_url": "https://lobste.rs/s/ku6lzl",
+      "score": 1,
+      "comments": 0,
+      "author": "krig",
+      "published": "2026-06-09T14:15:33Z"
     },
     {
       "source": "lobsters",
@@ -550,13 +538,25 @@
       "published": "2026-06-06T19:03:31Z"
     },
     {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Meta to Use Off-Site Business Data for Feed and AI Personalization",
+      "url": "https://thehackernews.com/2026/06/meta-to-use-off-site-business-data-for.html",
+      "discuss_url": "https://thehackernews.com/2026/06/meta-to-use-off-site-business-data-for.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-09T17:03:58Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "Safe Terraform auto-apply with conftest",
       "url": "https://www.bejarano.io/terraform-autoapply/",
       "discuss_url": "https://lobste.rs/s/yapgzf",
-      "score": 3,
+      "score": 4,
       "comments": 1,
       "author": "ricardbejarano",
       "published": "2026-06-09T09:02:29Z"
@@ -568,10 +568,46 @@
       "title": "Introduction to nixidy - Kubernetes GitOps with nix",
       "url": "https://codedbearder.com/posts/nixidy-part-1-introduction/",
       "discuss_url": "https://lobste.rs/s/nwrobx",
-      "score": 9,
+      "score": 11,
       "comments": 9,
       "author": "granra",
       "published": "2026-06-08T15:21:54Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS FinOps Agent is now available in preview",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-finops-agent-preview/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-finops-agent-preview/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-09T15:28:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS announces Claude Fable 5, the first generally available Mythos-class model",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-fable-5-aws/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-fable-5-aws/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-09T14:15:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Run Interactive Workloads on Amazon EMR Serverless with Spark Connect",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-serverless-spark-connect",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-serverless-spark-connect",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-09T07:00:00Z"
     },
     {
       "source": "rss",
@@ -658,52 +694,100 @@
       "published": "2026-06-08T17:03:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-08T17:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Application Migration Service is now AWS Transform MGN",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mgn-rebrand/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mgn-rebrand/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-08T17:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Aurora DSQL now supports the JSONB data type with compression",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-dsql-supports-jsonb/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-dsql-supports-jsonb/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-08T17:00:00Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "industry",
       "title": "We Think the SpaceX IPO Is Overvalued",
       "url": "https://www.morningstar.com/stocks/why-we-think-spacex-ipo-is-overvalued?content_id=20768396545",
       "discuss_url": "https://news.ycombinator.com/item?id=48455233",
-      "score": 236,
-      "comments": 240,
+      "score": 252,
+      "comments": 257,
       "author": "0xedb",
       "published": "2026-06-09T01:56:40Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "NASA assigns crew for Artemis III, sets aggressive timeline for flying it",
+      "url": "https://arstechnica.com/space/2026/06/nasa-assigns-crew-for-artemis-iii-sets-aggressive-timeline-for-flying-it/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/nasa-assigns-crew-for-artemis-iii-sets-aggressive-timeline-for-flying-it/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-06-09T18:42:19Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Screwworms in US: Human risk is low—but they can burrow through your skull",
+      "url": "https://arstechnica.com/health/2026/06/screwworms-in-us-human-risk-is-low-but-they-can-burrow-through-your-skull/",
+      "discuss_url": "https://arstechnica.com/health/2026/06/screwworms-in-us-human-risk-is-low-but-they-can-burrow-through-your-skull/",
+      "score": null,
+      "comments": null,
+      "author": "Beth Mole",
+      "published": "2026-06-09T17:09:10Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "One day after discovery, Meta pulls facial recognition code from its smart glasses",
+      "url": "https://arstechnica.com/tech-policy/2026/06/one-day-after-discovery-meta-pulls-facial-recognition-code-from-its-smart-glasses/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/one-day-after-discovery-meta-pulls-facial-recognition-code-from-its-smart-glasses/",
+      "score": null,
+      "comments": null,
+      "author": "Dhruv Mehrotra and Dell Cameron, wired.com",
+      "published": "2026-06-09T16:31:10Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Drone boat picked up downed US Army helicopter pilots—a first for sea rescues",
+      "url": "https://arstechnica.com/gadgets/2026/06/us-military-claims-first-drone-boat-rescue-of-downed-helicopter-crew/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/06/us-military-claims-first-drone-boat-rescue-of-downed-helicopter-crew/",
+      "score": null,
+      "comments": null,
+      "author": "Jeremy Hsu",
+      "published": "2026-06-09T15:44:36Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "High-severity vulnerability in Linux caused by a single faulty character",
+      "url": "https://arstechnica.com/security/2026/06/a-single-errant-character-in-the-linux-kernel-allows-attacker-to-gain-root/",
+      "discuss_url": "https://arstechnica.com/security/2026/06/a-single-errant-character-in-the-linux-kernel-allows-attacker-to-gain-root/",
+      "score": null,
+      "comments": null,
+      "author": "Dan Goodin",
+      "published": "2026-06-09T15:12:43Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Gold isn’t inert, it just has bodyguards protecting it",
+      "url": "https://arstechnica.com/science/2026/06/gold-isnt-inert-it-just-has-bodyguards-protecting-it/",
+      "discuss_url": "https://arstechnica.com/science/2026/06/gold-isnt-inert-it-just-has-bodyguards-protecting-it/",
+      "score": null,
+      "comments": null,
+      "author": "Chris Lee",
+      "published": "2026-06-09T14:23:59Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Here's Audi's next Q7 SUV and US-only SQ7, now with an RS V8",
+      "url": "https://arstechnica.com/cars/2026/06/heres-audis-next-q7-suv-and-us-only-sq7-now-with-an-rs-v8/",
+      "discuss_url": "https://arstechnica.com/cars/2026/06/heres-audis-next-q7-suv-and-us-only-sq7-now-with-an-rs-v8/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-06-09T14:00:20Z"
     },
     {
       "source": "rss",
@@ -752,90 +836,6 @@
       "comments": null,
       "author": "Jeremy Hsu",
       "published": "2026-06-08T21:56:28Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "macOS 27 requires Apple Silicon, as Apple draws down the Intel Mac era",
-      "url": "https://arstechnica.com/gadgets/2026/06/macos-27-requires-apple-silicon-as-apple-draws-down-the-intel-mac-era/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/06/macos-27-requires-apple-silicon-as-apple-draws-down-the-intel-mac-era/",
-      "score": null,
-      "comments": null,
-      "author": "Andrew Cunningham",
-      "published": "2026-06-08T21:03:56Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "iOS 27 and iPadOS 27 don't drop support for any iPhones—and just a few iPads",
-      "url": "https://arstechnica.com/gadgets/2026/06/ios-27-and-ipados-27-dont-drop-support-for-any-iphones-and-just-a-few-ipads/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/06/ios-27-and-ipados-27-dont-drop-support-for-any-iphones-and-just-a-few-ipads/",
-      "score": null,
-      "comments": null,
-      "author": "Andrew Cunningham",
-      "published": "2026-06-08T20:55:58Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Meta alleges NSO violated spyware injunction with new WhatsApp attacks",
-      "url": "https://arstechnica.com/tech-policy/2026/06/meta-alleges-nso-violated-spyware-injunction-with-new-whatsapp-attacks/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/meta-alleges-nso-violated-spyware-injunction-with-new-whatsapp-attacks/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-06-08T20:26:14Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The fastest humans in the galaxy just got a spiffy patch to prove it",
-      "url": "https://arstechnica.com/space/2026/06/artemis-ii-crew-flew-fast-earned-new-patch-astronauts-mach-39-emblem/",
-      "discuss_url": "https://arstechnica.com/space/2026/06/artemis-ii-crew-flew-fast-earned-new-patch-astronauts-mach-39-emblem/",
-      "score": null,
-      "comments": null,
-      "author": "Robert Pearlman",
-      "published": "2026-06-08T19:40:05Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Say hi to \"Siri AI\"—Apple announces new, more \"conversational\" voice assistant",
-      "url": "https://arstechnica.com/apple/2026/06/say-hi-to-siri-ai-apple-announces-new-more-conversational-voice-assistant/",
-      "discuss_url": "https://arstechnica.com/apple/2026/06/say-hi-to-siri-ai-apple-announces-new-more-conversational-voice-assistant/",
-      "score": null,
-      "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-06-08T19:30:05Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Gemini 3.5 and Antigravity come to Google NotebookLM",
-      "url": "https://arstechnica.com/ai/2026/06/gemini-3-5-and-antigravity-come-to-google-notebooklm/",
-      "discuss_url": "https://arstechnica.com/ai/2026/06/gemini-3-5-and-antigravity-come-to-google-notebooklm/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-06-08T19:00:30Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Your empty cuppa could capture carbon",
-      "url": "https://arstechnica.com/science/2026/06/your-empty-cuppa-could-capture-carbon/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/your-empty-cuppa-could-capture-carbon/",
-      "score": null,
-      "comments": null,
-      "author": "Scott K. Johnson",
-      "published": "2026-06-08T18:50:10Z"
     }
   ]
 }
