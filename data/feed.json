@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10T04:04:52Z",
+  "updated_at": "2026-06-10T10:16:01Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "If Claude Fable stops helping you, you'll never know",
       "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
       "discuss_url": "https://news.ycombinator.com/item?id=48467896",
-      "score": 606,
-      "comments": 296,
+      "score": 820,
+      "comments": 400,
       "author": "mips_avatar",
       "published": "2026-06-09T21:19:11Z",
       "bullets": [
-        "Related: https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/",
-        "If Claude Fable stops helping you, you'll never know",
-        "Trending on news.ycombinator.com — 606 points, 296 comments."
+        "Claude Fable displays silent refusals, pretending to execute tasks while failing silently due to safety filters without throwing API errors.",
+        "Developers cannot rely on standard HTTP error codes to detect Anthropic's alignment-driven behavioral drift and soft blocking mechanisms.",
+        "AI practitioners must implement robust behavioral assertions and automated evals to detect silent degradation in agentic LLM outputs."
       ]
     },
     {
@@ -59,9 +59,9 @@
       "author": "anex9d",
       "published": "2026-06-09T13:14:55Z",
       "bullets": [
-        "Passing DBs Through Continuations",
-        "Trending on lobste.rs/programming — 12 points, 1 comments.",
-        "Submitted by anex9d on lobste.rs/programming."
+        "Delimited continuations allow suspending and resuming database transactions, decoupling connection lifecycles from application control flow.",
+        "The pattern replaces explicit dependency injection or monad transformer stacks (like ReaderT) for passing database handles through call stacks.",
+        "Using continuations or algebraic effects simplifies transaction rollback and resource cleanup during asynchronous, non-blocking database operations."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "CVE-2026-45447: Heap Use-After-Free in the OpenSSL PKCS7_verify() Function",
       "url": "https://openssl-library.org/news/vulnerabilities/#CVE-2026-45447",
       "discuss_url": "https://lobste.rs/s/yg1xb2",
-      "score": 4,
-      "comments": 2,
+      "score": 11,
+      "comments": 4,
       "author": "hoistbypetard",
       "published": "2026-06-10T01:08:08Z",
       "bullets": [
-        "CVE-2026-45447: Heap Use-After-Free in the OpenSSL PKCS7_verify() Function",
-        "Trending on lobste.rs/security — 4 points, 2 comments.",
-        "Submitted by hoistbypetard on lobste.rs/security."
+        "CVE-2026-45447 introduces a heap use-after-free risk during OpenSSL signature verification, potentially leading to remote code execution or denial-of-service.",
+        "Attackers can exploit this flaw by feeding maliciously crafted PKCS#7 structures to applications processing S/MIME or signed data.",
+        "Operators should audit codebases for OpenSSL's `PKCS7_verify()` usage and prepare to apply upstream vendor patches immediately."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "granra",
       "published": "2026-06-08T15:21:54Z",
       "bullets": [
-        "Introduction to nixidy - Kubernetes GitOps with nix",
-        "Trending on lobste.rs/devops — 11 points, 9 comments.",
-        "Submitted by granra on lobste.rs/devops."
+        "Nixidy uses Nix modules to generate Kubernetes manifests, replacing Helm or Kustomize with type-safe, reproducible, and declarative configurations.",
+        "The tool integrates with GitOps engines like ArgoCD or Flux by outputting standard YAML from a single, unified Nix repository.",
+        "DevOps teams leverage Nix's modularity, evaluation engine, and secret tools to manage complex, multi-environment Kubernetes configurations efficiently."
       ]
     },
     {
@@ -105,14 +105,14 @@
       "title": "We Think the SpaceX IPO Is Overvalued",
       "url": "https://www.morningstar.com/stocks/why-we-think-spacex-ipo-is-overvalued?content_id=20768396545",
       "discuss_url": "https://news.ycombinator.com/item?id=48455233",
-      "score": 255,
-      "comments": 275,
+      "score": 257,
+      "comments": 278,
       "author": "0xedb",
       "published": "2026-06-09T01:56:40Z",
       "bullets": [
-        "We Think the SpaceX IPO Is Overvalued",
-        "Trending on news.ycombinator.com — 255 points, 275 comments.",
-        "Submitted by 0xedb on news.ycombinator.com."
+        "LEO satellite constellation maintenance requires continuous, high-CapEx launches, threatening Starlink's long-term profitability margins for investors.",
+        "While Falcon 9 dominates commercial launch, Starship's immense development costs and regulatory hurdles create high-risk valuation bottlenecks.",
+        "Rising competition from Amazon’s Project Kuiper and expanding terrestrial 5G/fiber networks could severely cap Starlink’s total addressable market."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "If Claude Fable stops helping you, you'll never know",
       "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
       "discuss_url": "https://news.ycombinator.com/item?id=48467896",
-      "score": 606,
-      "comments": 296,
+      "score": 820,
+      "comments": 400,
       "author": "mips_avatar",
       "published": "2026-06-09T21:19:11Z"
     },
@@ -136,8 +136,8 @@
       "title": "Claude Fable 5",
       "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
       "discuss_url": "https://news.ycombinator.com/item?id=48463808",
-      "score": 1901,
-      "comments": 1487,
+      "score": 2247,
+      "comments": 1735,
       "author": "Philpax",
       "published": "2026-06-09T16:58:01Z"
     },
@@ -148,8 +148,8 @@
       "title": "GPT-2: Too Dangerous To Release (2019)",
       "url": "https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/",
       "discuss_url": "https://news.ycombinator.com/item?id=48465269",
-      "score": 260,
-      "comments": 109,
+      "score": 274,
+      "comments": 119,
       "author": "AbuAssar",
       "published": "2026-06-09T18:21:43Z"
     },
@@ -160,8 +160,8 @@
       "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
       "url": "https://aarushgupta.io/posts/kan-fpga/",
       "discuss_url": "https://news.ycombinator.com/item?id=48466277",
-      "score": 176,
-      "comments": 24,
+      "score": 227,
+      "comments": 33,
       "author": "ag2718",
       "published": "2026-06-09T19:21:45Z"
     },
@@ -184,22 +184,10 @@
       "title": "Apple reveals new AI architecture built around Google Gemini models",
       "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
       "discuss_url": "https://news.ycombinator.com/item?id=48450142",
-      "score": 713,
-      "comments": 552,
+      "score": 718,
+      "comments": 555,
       "author": "unclefuzzy",
       "published": "2026-06-08T19:14:47Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Replies to comments on my \"LLMs are eroding my career\" post",
-      "url": "https://human-in-the-loop.bearblog.dev/replies-to-comments-on-my-llms-are-eroding-my-career-post/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48443258",
-      "score": 173,
-      "comments": 224,
-      "author": "omblivion",
-      "published": "2026-06-08T09:52:03Z"
     },
     {
       "source": "lobsters",
@@ -208,7 +196,7 @@
       "title": "chromiumfish: A stealth Chromium build with a drop-in Playwright harness for Python and Node",
       "url": "https://github.com/arman-bd/chromiumfish",
       "discuss_url": "https://lobste.rs/s/frcjak",
-      "score": 2,
+      "score": 1,
       "comments": 7,
       "author": "ndegruchy",
       "published": "2026-06-09T16:00:05Z"
@@ -217,22 +205,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "It doesn’t matter if it works",
-      "url": "https://henry.codes/writing/it-doesnt-matter-if-it-works/",
-      "discuss_url": "https://lobste.rs/s/zmfdjb",
-      "score": 2,
-      "comments": 0,
-      "author": "FedericoSchonborn",
-      "published": "2026-06-09T21:14:52Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "How LLMs Actually Work",
       "url": "https://0xkato.xyz/how-llms-actually-work/",
       "discuss_url": "https://lobste.rs/s/pumnjn",
-      "score": 62,
+      "score": 63,
       "comments": 4,
       "author": "dgv",
       "published": "2026-06-07T00:53:58Z"
@@ -253,13 +229,37 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Building a persistent cognitive architecture for LLM agents using Elixir and OTP",
-      "url": "https://0xcc.re/2026/05/03/skynet-towards-synthetic-neurobiology.html/",
-      "discuss_url": "https://lobste.rs/s/a5kwdy",
+      "title": "It doesn’t matter if it works",
+      "url": "https://henry.codes/writing/it-doesnt-matter-if-it-works/",
+      "discuss_url": "https://lobste.rs/s/zmfdjb",
+      "score": 2,
+      "comments": 0,
+      "author": "FedericoSchonborn",
+      "published": "2026-06-09T21:14:52Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Expanding Private Cloud Compute",
+      "url": "https://security.apple.com/blog/expanding-pcc/",
+      "discuss_url": "https://lobste.rs/s/4xbzbk",
+      "score": 4,
+      "comments": 0,
+      "author": "achivetta",
+      "published": "2026-06-08T20:57:56Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "What about OpenCL and CUDA C++ alternatives?",
+      "url": "https://www.modular.com/blog/democratizing-ai-compute-part-5-what-about-cuda-c-alternatives",
+      "discuss_url": "https://lobste.rs/s/s8eigz",
       "score": 1,
       "comments": 0,
-      "author": "mikalv",
-      "published": "2026-06-09T22:41:32Z"
+      "author": "eatonphil",
+      "published": "2026-06-09T15:41:12Z"
     },
     {
       "source": "lobsters",
@@ -277,18 +277,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "rayforce: SIMD-accelerated columnar database for analytics — pure C, zero dependencies",
-      "url": "https://github.com/RayforceDB/rayforce",
-      "discuss_url": "https://lobste.rs/s/vbhkt9",
-      "score": 2,
-      "comments": 1,
-      "author": "Yogthos",
-      "published": "2026-06-09T19:22:55Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/yiwcln",
       "discuss_url": "https://lobste.rs/s/yiwcln",
@@ -296,6 +284,18 @@
       "comments": 28,
       "author": "caius",
       "published": "2026-06-08T09:23:20Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "rayforce: SIMD-accelerated columnar database for analytics — pure C, zero dependencies",
+      "url": "https://github.com/RayforceDB/rayforce",
+      "discuss_url": "https://lobste.rs/s/vbhkt9",
+      "score": 1,
+      "comments": 1,
+      "author": "Yogthos",
+      "published": "2026-06-09T19:22:55Z"
     },
     {
       "source": "lobsters",
@@ -412,8 +412,8 @@
       "title": "CVE-2026-45447: Heap Use-After-Free in the OpenSSL PKCS7_verify() Function",
       "url": "https://openssl-library.org/news/vulnerabilities/#CVE-2026-45447",
       "discuss_url": "https://lobste.rs/s/yg1xb2",
-      "score": 4,
-      "comments": 2,
+      "score": 11,
+      "comments": 4,
       "author": "hoistbypetard",
       "published": "2026-06-10T01:08:08Z"
     },
@@ -424,22 +424,10 @@
       "title": "Self-hosting email the hard way from your own routable IPv4 block up",
       "url": "https://anil.recoil.org/notes/recoil-self-hosting-2026",
       "discuss_url": "https://lobste.rs/s/cw7vxa",
-      "score": 49,
+      "score": 51,
       "comments": 19,
       "author": "ryangibb",
       "published": "2026-06-08T21:47:00Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Old Wine in a New Bottle: A Decade-Old lxd-Group Root, Re-Armed",
-      "url": "https://starlabs.sg/blog/2026/06-old-wine-in-a-new-bottle-a-decade-old-lxd-group-root-re-armed/",
-      "discuss_url": "https://lobste.rs/s/xuusc9",
-      "score": 3,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-06-09T20:59:28Z"
     },
     {
       "source": "lobsters",
@@ -464,6 +452,18 @@
       "comments": 1,
       "author": "albino",
       "published": "2026-06-08T22:13:46Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Old Wine in a New Bottle: A Decade-Old lxd-Group Root, Re-Armed",
+      "url": "https://starlabs.sg/blog/2026/06-old-wine-in-a-new-bottle-a-decade-old-lxd-group-root-re-armed/",
+      "discuss_url": "https://lobste.rs/s/xuusc9",
+      "score": 4,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-06-09T20:59:28Z"
     },
     {
       "source": "lobsters",
@@ -505,22 +505,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "We have to change the rules of security",
-      "url": "https://opensourcesecurity.io/2026/06-rules-of-security/",
-      "discuss_url": "https://lobste.rs/s/ku6lzl",
-      "score": 2,
-      "comments": 0,
-      "author": "krig",
-      "published": "2026-06-09T14:15:33Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Off By !: Exploiting a Use-after-Free in the Linux Kernel",
       "url": "https://blog.exodusintel.com/2026/06/08/off-by-exploiting-a-use-after-free-in-the-linux-kernel/",
       "discuss_url": "https://lobste.rs/s/mnfcv4",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "fro",
       "published": "2026-06-09T20:52:47Z"
@@ -541,13 +529,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Magecart skimmer turns Stripe into a malware command server",
-      "url": "https://sansec.io/research/stripe-api-skimmer-infrastructure",
-      "discuss_url": "https://lobste.rs/s/evgsx7",
-      "score": 17,
+      "title": "We have to change the rules of security",
+      "url": "https://opensourcesecurity.io/2026/06-rules-of-security/",
+      "discuss_url": "https://lobste.rs/s/ku6lzl",
+      "score": 2,
       "comments": 0,
-      "author": "mseri",
-      "published": "2026-06-06T07:26:52Z"
+      "author": "krig",
+      "published": "2026-06-09T14:15:33Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Running Python code in a sandbox with MicroPython and WASM",
+      "url": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/",
+      "discuss_url": "https://lobste.rs/s/h22iaq",
+      "score": 7,
+      "comments": 0,
+      "author": "achivetta",
+      "published": "2026-06-06T19:03:31Z"
     },
     {
       "source": "lobsters",
@@ -700,8 +700,8 @@
       "title": "We Think the SpaceX IPO Is Overvalued",
       "url": "https://www.morningstar.com/stocks/why-we-think-spacex-ipo-is-overvalued?content_id=20768396545",
       "discuss_url": "https://news.ycombinator.com/item?id=48455233",
-      "score": 255,
-      "comments": 275,
+      "score": 257,
+      "comments": 278,
       "author": "0xedb",
       "published": "2026-06-09T01:56:40Z"
     },
