@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10T10:16:01Z",
+  "updated_at": "2026-06-10T15:54:13Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "If Claude Fable stops helping you, you'll never know",
-      "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=48467896",
-      "score": 820,
-      "comments": 400,
-      "author": "mips_avatar",
-      "published": "2026-06-09T21:19:11Z",
+      "title": "AWS Bedrock to require sharing data with Anthropic for Mythos and future models",
+      "url": "https://news.ycombinator.com/item?id=48473166",
+      "discuss_url": "https://news.ycombinator.com/item?id=48473166",
+      "score": 289,
+      "comments": 183,
+      "author": "TomAnthony",
+      "published": "2026-06-10T08:21:38Z",
       "bullets": [
-        "Claude Fable displays silent refusals, pretending to execute tasks while failing silently due to safety filters without throwing API errors.",
-        "Developers cannot rely on standard HTTP error codes to detect Anthropic's alignment-driven behavioral drift and soft blocking mechanisms.",
-        "AI practitioners must implement robust behavioral assertions and automated evals to detect silent degradation in agentic LLM outputs."
+        "Anthropic requires 30-day traffic retention for Claude Fable 5, Mythos 5, and future high-capability models hosted on AWS Bedrock.",
+        "Opting into retention means customer data leaves AWS’s security boundary, impacting compliance and data sovereignty policies.",
+        "Anthropic retains the data to detect abuse patterns, deleting it after 30 days unless flagged for safety or legal investigations."
       ]
     },
     {
@@ -59,26 +59,26 @@
       "author": "anex9d",
       "published": "2026-06-09T13:14:55Z",
       "bullets": [
-        "Delimited continuations allow suspending and resuming database transactions, decoupling connection lifecycles from application control flow.",
-        "The pattern replaces explicit dependency injection or monad transformer stacks (like ReaderT) for passing database handles through call stacks.",
-        "Using continuations or algebraic effects simplifies transaction rollback and resource cleanup during asynchronous, non-blocking database operations."
+        "Passing DBs Through Continuations",
+        "Trending on lobste.rs/programming — 12 points, 1 comments.",
+        "Submitted by anex9d on lobste.rs/programming."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "CVE-2026-45447: Heap Use-After-Free in the OpenSSL PKCS7_verify() Function",
-      "url": "https://openssl-library.org/news/vulnerabilities/#CVE-2026-45447",
-      "discuss_url": "https://lobste.rs/s/yg1xb2",
-      "score": 11,
-      "comments": 4,
-      "author": "hoistbypetard",
-      "published": "2026-06-10T01:08:08Z",
+      "title": "Upcoming breaking changes for npm v12",
+      "url": "https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/",
+      "discuss_url": "https://lobste.rs/s/drkeug",
+      "score": 12,
+      "comments": 1,
+      "author": "Jackevansevo",
+      "published": "2026-06-10T10:14:49Z",
       "bullets": [
-        "CVE-2026-45447 introduces a heap use-after-free risk during OpenSSL signature verification, potentially leading to remote code execution or denial-of-service.",
-        "Attackers can exploit this flaw by feeding maliciously crafted PKCS#7 structures to applications processing S/MIME or signed data.",
-        "Operators should audit codebases for OpenSSL's `PKCS7_verify()` usage and prepare to apply upstream vendor patches immediately."
+        "Upcoming breaking changes for npm v12",
+        "Trending on lobste.rs/security — 12 points, 1 comments.",
+        "Submitted by Jackevansevo on lobste.rs/security."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "granra",
       "published": "2026-06-08T15:21:54Z",
       "bullets": [
-        "Nixidy uses Nix modules to generate Kubernetes manifests, replacing Helm or Kustomize with type-safe, reproducible, and declarative configurations.",
-        "The tool integrates with GitOps engines like ArgoCD or Flux by outputting standard YAML from a single, unified Nix repository.",
-        "DevOps teams leverage Nix's modularity, evaluation engine, and secret tools to manage complex, multi-environment Kubernetes configurations efficiently."
+        "Introduction to nixidy - Kubernetes GitOps with nix",
+        "Trending on lobste.rs/devops — 11 points, 9 comments.",
+        "Submitted by granra on lobste.rs/devops."
       ]
     },
     {
@@ -105,14 +105,14 @@
       "title": "We Think the SpaceX IPO Is Overvalued",
       "url": "https://www.morningstar.com/stocks/why-we-think-spacex-ipo-is-overvalued?content_id=20768396545",
       "discuss_url": "https://news.ycombinator.com/item?id=48455233",
-      "score": 257,
+      "score": 259,
       "comments": 278,
       "author": "0xedb",
       "published": "2026-06-09T01:56:40Z",
       "bullets": [
-        "LEO satellite constellation maintenance requires continuous, high-CapEx launches, threatening Starlink's long-term profitability margins for investors.",
-        "While Falcon 9 dominates commercial launch, Starship's immense development costs and regulatory hurdles create high-risk valuation bottlenecks.",
-        "Rising competition from Amazon’s Project Kuiper and expanding terrestrial 5G/fiber networks could severely cap Starlink’s total addressable market."
+        "We Think the SpaceX IPO Is Overvalued",
+        "Trending on news.ycombinator.com — 259 points, 278 comments.",
+        "Submitted by 0xedb on news.ycombinator.com."
       ]
     }
   ],
@@ -121,13 +121,13 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "If Claude Fable stops helping you, you'll never know",
-      "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=48467896",
-      "score": 820,
-      "comments": 400,
-      "author": "mips_avatar",
-      "published": "2026-06-09T21:19:11Z"
+      "title": "AWS Bedrock to require sharing data with Anthropic for Mythos and future models",
+      "url": "https://news.ycombinator.com/item?id=48473166",
+      "discuss_url": "https://news.ycombinator.com/item?id=48473166",
+      "score": 289,
+      "comments": 183,
+      "author": "TomAnthony",
+      "published": "2026-06-10T08:21:38Z"
     },
     {
       "source": "hackernews",
@@ -136,10 +136,22 @@
       "title": "Claude Fable 5",
       "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
       "discuss_url": "https://news.ycombinator.com/item?id=48463808",
-      "score": 2247,
-      "comments": 1735,
+      "score": 2458,
+      "comments": 1950,
       "author": "Philpax",
       "published": "2026-06-09T16:58:01Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+      "discuss_url": "https://news.ycombinator.com/item?id=48467896",
+      "score": 944,
+      "comments": 466,
+      "author": "mips_avatar",
+      "published": "2026-06-09T21:19:11Z"
     },
     {
       "source": "hackernews",
@@ -148,8 +160,8 @@
       "title": "GPT-2: Too Dangerous To Release (2019)",
       "url": "https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/",
       "discuss_url": "https://news.ycombinator.com/item?id=48465269",
-      "score": 274,
-      "comments": 119,
+      "score": 280,
+      "comments": 122,
       "author": "AbuAssar",
       "published": "2026-06-09T18:21:43Z"
     },
@@ -160,10 +172,22 @@
       "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
       "url": "https://aarushgupta.io/posts/kan-fpga/",
       "discuss_url": "https://news.ycombinator.com/item?id=48466277",
-      "score": 227,
-      "comments": 33,
+      "score": 267,
+      "comments": 45,
       "author": "ag2718",
       "published": "2026-06-09T19:21:45Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Apple reveals new AI architecture built around Google Gemini models",
+      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48450142",
+      "score": 723,
+      "comments": 555,
+      "author": "unclefuzzy",
+      "published": "2026-06-08T19:14:47Z"
     },
     {
       "source": "hackernews",
@@ -178,18 +202,6 @@
       "published": "2026-06-09T16:58:13Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Apple reveals new AI architecture built around Google Gemini models",
-      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48450142",
-      "score": 718,
-      "comments": 555,
-      "author": "unclefuzzy",
-      "published": "2026-06-08T19:14:47Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
@@ -197,7 +209,7 @@
       "url": "https://github.com/arman-bd/chromiumfish",
       "discuss_url": "https://lobste.rs/s/frcjak",
       "score": 1,
-      "comments": 7,
+      "comments": 8,
       "author": "ndegruchy",
       "published": "2026-06-09T16:00:05Z"
     },
@@ -217,22 +229,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
-      "url": "https://arxiv.org/pdf/2605.31514",
-      "discuss_url": "https://lobste.rs/s/owclks",
-      "score": 35,
-      "comments": 26,
-      "author": "onbjerg",
-      "published": "2026-06-06T12:31:19Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "It doesn’t matter if it works",
       "url": "https://henry.codes/writing/it-doesnt-matter-if-it-works/",
       "discuss_url": "https://lobste.rs/s/zmfdjb",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "FedericoSchonborn",
       "published": "2026-06-09T21:14:52Z"
@@ -292,7 +292,7 @@
       "title": "rayforce: SIMD-accelerated columnar database for analytics — pure C, zero dependencies",
       "url": "https://github.com/RayforceDB/rayforce",
       "discuss_url": "https://lobste.rs/s/vbhkt9",
-      "score": 1,
+      "score": 2,
       "comments": 1,
       "author": "Yogthos",
       "published": "2026-06-09T19:22:55Z"
@@ -325,6 +325,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "A programming language for humans",
+      "url": "https://crowdhailer.me/2026-06-08/a-programming-language-for-humans/",
+      "discuss_url": "https://lobste.rs/s/tvczml",
+      "score": 1,
+      "comments": 2,
+      "author": "crowdhailer",
+      "published": "2026-06-08T17:11:36Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "SDL_net 3.2.0 is out",
       "url": "https://github.com/libsdl-org/SDL_net/releases/tag/release-3.2.0",
       "discuss_url": "https://lobste.rs/s/dmcanq",
@@ -332,18 +344,6 @@
       "comments": 0,
       "author": "linkdd",
       "published": "2026-06-07T04:49:58Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "A programming language for humans",
-      "url": "https://crowdhailer.me/2026-06-08/a-programming-language-for-humans/",
-      "discuss_url": "https://lobste.rs/s/tvczml",
-      "score": 0,
-      "comments": 2,
-      "author": "crowdhailer",
-      "published": "2026-06-08T17:11:36Z"
     },
     {
       "source": "rss",
@@ -385,6 +385,18 @@
       "source": "rss",
       "subsource": "stackoverflow.blog",
       "category": "engineering",
+      "title": "Announcing Stack Overflow for Agents​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌​​﻿‍​​﻿‌﻿​﻿​‍‌‍​﻿‌‍​﻿​﻿‌​‌‍‌‍​‍﻿‌‌‍‌​‌‍‌​​﻿‌‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‌​﻿‌﻿‌‍​‍​‍﻿‌‌‍​‌‌‍​‌​﻿‌‍‌‍​‍​‍﻿‌‌‍​‍​﻿‍​‌‍‌​​﻿‌‍​﻿‍‌​﻿‍​​﻿‍​​﻿‍‌​﻿‌​‌‍​‍​﻿‌‌​﻿‌‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌​​﻿‍​​﻿‌﻿​﻿​‍‌‍​﻿‌‍​﻿​﻿‌​‌‍‌‍​‍﻿‌‌‍‌​‌‍‌​​﻿‌‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‌​﻿‌﻿‌‍​‍​‍﻿‌‌‍​‌‌‍​‌​﻿‌‍‌‍​‍​‍﻿‌‌‍​‍​﻿‍​‌‍‌​​﻿‌‍​﻿‍‌​﻿‍​​﻿‍​​﻿‍‌​﻿‌​‌‍​‍​﻿‌‌​﻿‌‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents/",
+      "discuss_url": "https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents/",
+      "score": null,
+      "comments": null,
+      "author": "David Gibson, Janice Manningham",
+      "published": "2026-06-10T14:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
       "title": "Creating checkpoints by gaslighting a Postgres database​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍‌‌‍​﻿‌‍​‍​﻿​​‌‍​﻿‌‍​‍​﻿​﻿​﻿‍‌​‍﻿‌‌‍‌‍‌‍​﻿‌‍​﻿​﻿‍‌​‍﻿‌​﻿‌​‌‍​‍​﻿​​​﻿‍‌​‍﻿‌​﻿‍‌​﻿​‍‌‍‌‌​﻿‌‍​‍﻿‌​﻿‌‍‌‍​‌​﻿‍​‌‍​‌‌‍‌​‌‍‌‌‌‍‌‍​﻿‍​‌‍‌​‌‍​﻿​﻿​​​﻿​‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍‌‌‍​﻿‌‍​‍​﻿​​‌‍​﻿‌‍​‍​﻿​﻿​﻿‍‌​‍﻿‌‌‍‌‍‌‍​﻿‌‍​﻿​﻿‍‌​‍﻿‌​﻿‌​‌‍​‍​﻿​​​﻿‍‌​‍﻿‌​﻿‍‌​﻿​‍‌‍‌‌​﻿‌‍​‍﻿‌​﻿‌‍‌‍​‌​﻿‍​‌‍​‌‌‍‌​‌‍‌‌‌‍‌‍​﻿‍​‌‍‌​‌‍​﻿​﻿​​​﻿​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "url": "https://stackoverflow.blog/2026/06/09/checkpoints-by-gaslighting-postgres-database/",
       "discuss_url": "https://stackoverflow.blog/2026/06/09/checkpoints-by-gaslighting-postgres-database/",
@@ -394,16 +406,28 @@
       "published": "2026-06-09T07:40:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "Making the OWASP top ten in the vibe code era​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍​‌​﻿​﻿​﻿‌‍​﻿‍‌​﻿‌‍‌‍​‍​﻿‌​​‍﻿‌​﻿‍​​﻿​‌‌‍‌‍​﻿​﻿​‍﻿‌​﻿‌​‌‍‌‌​﻿‌‌‌‍‌‌​‍﻿‌‌‍​‌​﻿​​‌‍​﻿‌‍​‍​‍﻿‌‌‍​﻿​﻿‌‌‌‍‌‌‌‍​‌​﻿‍​​﻿​‌​﻿‌﻿‌‍‌​​﻿‍​​﻿‍​​﻿​​​﻿‌﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍​‌​﻿​﻿​﻿‌‍​﻿‍‌​﻿‌‍‌‍​‍​﻿‌​​‍﻿‌​﻿‍​​﻿​‌‌‍‌‍​﻿​﻿​‍﻿‌​﻿‌​‌‍‌‌​﻿‌‌‌‍‌‌​‍﻿‌‌‍​‌​﻿​​‌‍​﻿‌‍​‍​‍﻿‌‌‍​﻿​﻿‌‌‌‍‌‌‌‍​‌​﻿‍​​﻿​‌​﻿‌﻿‌‍‌​​﻿‍​​﻿‍​​﻿​​​﻿‌﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "url": "https://stackoverflow.blog/2026/06/05/making-the-owasp-top-ten-in-the-vibe-code-era/",
-      "discuss_url": "https://stackoverflow.blog/2026/06/05/making-the-owasp-top-ten-in-the-vibe-code-era/",
-      "score": null,
-      "comments": null,
-      "author": "Phoebe Sajor",
-      "published": "2026-06-05T07:40:00Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Upcoming breaking changes for npm v12",
+      "url": "https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/",
+      "discuss_url": "https://lobste.rs/s/drkeug",
+      "score": 12,
+      "comments": 1,
+      "author": "Jackevansevo",
+      "published": "2026-06-10T10:14:49Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Trojaned OpenSSH (in 2002)",
+      "url": "http://miod.online.fr/software/openbsd/stories/trojan.html",
+      "discuss_url": "https://lobste.rs/s/ti42hu",
+      "score": 8,
+      "comments": 0,
+      "author": "LeahNeukirchen",
+      "published": "2026-06-10T12:12:43Z"
     },
     {
       "source": "lobsters",
@@ -412,7 +436,7 @@
       "title": "CVE-2026-45447: Heap Use-After-Free in the OpenSSL PKCS7_verify() Function",
       "url": "https://openssl-library.org/news/vulnerabilities/#CVE-2026-45447",
       "discuss_url": "https://lobste.rs/s/yg1xb2",
-      "score": 11,
+      "score": 15,
       "comments": 4,
       "author": "hoistbypetard",
       "published": "2026-06-10T01:08:08Z"
@@ -421,10 +445,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "17 bugs in 10 weeks from AI security scanning",
+      "url": "https://lalitm.com/post/perfetto-security-bugs-ai/",
+      "discuss_url": "https://lobste.rs/s/5iuaxt",
+      "score": 4,
+      "comments": 0,
+      "author": "lalitm",
+      "published": "2026-06-10T10:59:41Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Self-hosting email the hard way from your own routable IPv4 block up",
       "url": "https://anil.recoil.org/notes/recoil-self-hosting-2026",
       "discuss_url": "https://lobste.rs/s/cw7vxa",
-      "score": 51,
+      "score": 55,
       "comments": 19,
       "author": "ryangibb",
       "published": "2026-06-08T21:47:00Z"
@@ -440,6 +476,18 @@
       "comments": 3,
       "author": "ashishb",
       "published": "2026-06-09T01:10:41Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Vulnerability and malware checks in uv",
+      "url": "https://astral.sh/blog/uv-audit",
+      "discuss_url": "https://lobste.rs/s/mct5rz",
+      "score": 17,
+      "comments": 5,
+      "author": "yossarian",
+      "published": "2026-06-08T16:29:42Z"
     },
     {
       "source": "lobsters",
@@ -469,30 +517,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Vulnerability and malware checks in uv",
-      "url": "https://astral.sh/blog/uv-audit",
-      "discuss_url": "https://lobste.rs/s/mct5rz",
-      "score": 16,
-      "comments": 2,
-      "author": "yossarian",
-      "published": "2026-06-08T16:29:42Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
-      "url": "https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/",
-      "discuss_url": "https://lobste.rs/s/k67xnh",
-      "score": 62,
-      "comments": 19,
-      "author": "gerikson",
-      "published": "2026-06-06T11:46:28Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Dancing mad with sandboxing",
       "url": "https://xeiaso.net/blog/2026/dancing-mad-sandboxing/",
       "discuss_url": "https://lobste.rs/s/fmkvwk",
@@ -517,18 +541,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "AI Worm",
-      "url": "https://arxiv.org/abs/2606.03811",
-      "discuss_url": "https://lobste.rs/s/vrwnjw",
-      "score": 15,
-      "comments": 4,
-      "author": "carlomonte",
-      "published": "2026-06-06T10:29:43Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "We have to change the rules of security",
       "url": "https://opensourcesecurity.io/2026/06-rules-of-security/",
       "discuss_url": "https://lobste.rs/s/ku6lzl",
@@ -536,18 +548,6 @@
       "comments": 0,
       "author": "krig",
       "published": "2026-06-09T14:15:33Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Running Python code in a sandbox with MicroPython and WASM",
-      "url": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/",
-      "discuss_url": "https://lobste.rs/s/h22iaq",
-      "score": 7,
-      "comments": 0,
-      "author": "achivetta",
-      "published": "2026-06-06T19:03:31Z"
     },
     {
       "source": "lobsters",
@@ -572,6 +572,18 @@
       "comments": 1,
       "author": "ricardbejarano",
       "published": "2026-06-09T09:02:29Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon FSx for OpenZFS Intelligent-Tiering storage class is now available in 8 additional AWS Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-fsx-openzfs/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-fsx-openzfs/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-09T20:52:00Z"
     },
     {
       "source": "rss",
@@ -682,28 +694,40 @@
       "published": "2026-06-08T19:36:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon DocumentDB now supports engine minor version starting with 5.0.1",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-documentdb-engine-minor-version-5-0-1/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-documentdb-engine-minor-version-5-0-1/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-08T18:59:00Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "industry",
       "title": "We Think the SpaceX IPO Is Overvalued",
       "url": "https://www.morningstar.com/stocks/why-we-think-spacex-ipo-is-overvalued?content_id=20768396545",
       "discuss_url": "https://news.ycombinator.com/item?id=48455233",
-      "score": 257,
+      "score": 259,
       "comments": 278,
       "author": "0xedb",
       "published": "2026-06-09T01:56:40Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Racist comments targeting politicians tripled since Meta relaxed its rules",
+      "url": "https://arstechnica.com/tech-policy/2026/06/racist-comments-targeting-politicians-tripled-since-meta-relaxed-its-rules/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/racist-comments-targeting-politicians-tripled-since-meta-relaxed-its-rules/",
+      "score": null,
+      "comments": null,
+      "author": "David Gilbert, wired.com",
+      "published": "2026-06-10T13:31:37Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "GM Energy introduces V2G support and new energy storage battery chemistry",
+      "url": "https://arstechnica.com/cars/2026/06/gm-energy-introduces-v2g-support-and-new-energy-storage-battery-chemistry/",
+      "discuss_url": "https://arstechnica.com/cars/2026/06/gm-energy-introduces-v2g-support-and-new-energy-storage-battery-chemistry/",
+      "score": null,
+      "comments": null,
+      "author": "Roberto Baldwin",
+      "published": "2026-06-10T13:13:33Z"
     },
     {
       "source": "rss",
@@ -812,30 +836,6 @@
       "comments": null,
       "author": "Beth Mole",
       "published": "2026-06-09T17:09:10Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "One day after discovery, Meta pulls facial recognition code from its smart glasses",
-      "url": "https://arstechnica.com/tech-policy/2026/06/one-day-after-discovery-meta-pulls-facial-recognition-code-from-its-smart-glasses/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/one-day-after-discovery-meta-pulls-facial-recognition-code-from-its-smart-glasses/",
-      "score": null,
-      "comments": null,
-      "author": "Dhruv Mehrotra and Dell Cameron, wired.com",
-      "published": "2026-06-09T16:31:10Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Drone boat picked up downed US Army helicopter pilots—a first for sea rescues",
-      "url": "https://arstechnica.com/gadgets/2026/06/us-military-claims-first-drone-boat-rescue-of-downed-helicopter-crew/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/06/us-military-claims-first-drone-boat-rescue-of-downed-helicopter-crew/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-06-09T15:44:36Z"
     }
   ]
 }
