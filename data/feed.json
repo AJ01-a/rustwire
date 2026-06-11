@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-11T04:19:11Z",
+  "updated_at": "2026-06-11T10:50:08Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
-      "url": "https://github.com/anthropics/claude-code/issues/29045",
-      "discuss_url": "https://news.ycombinator.com/item?id=48479452",
-      "score": 367,
-      "comments": 256,
-      "author": "tonyrice",
-      "published": "2026-06-10T17:11:56Z",
+      "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
+      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48478969",
+      "score": 453,
+      "comments": 392,
+      "author": "speckx",
+      "published": "2026-06-10T16:42:00Z",
       "bullets": [
-        "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
-        "Trending on news.ycombinator.com — 367 points, 256 comments.",
-        "Submitted by tonyrice on news.ycombinator.com."
+        "Security researchers criticize Anthropic's restrictive guardrails for blocking legitimate defensive tasks like vulnerability scanning and exploit analysis.",
+        "While blocking benign research, Claude's guardrails remain vulnerable to simple jailbreak prompts, failing to stop actual malicious actors.",
+        "AI practitioners advocate for risk-utility balanced alignment or verified developer tiers to prevent security-related over-refusals."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "Static types and shovels",
       "url": "https://carefully.understood.systems/blog-2026-06-10-static-type-shovel.html",
       "discuss_url": "https://lobste.rs/s/eiknm1",
-      "score": 11,
-      "comments": 5,
+      "score": 16,
+      "comments": 16,
       "author": "0x2ba22e11",
       "published": "2026-06-10T18:13:56Z",
       "bullets": [
-        "Static types and shovels",
-        "Trending on lobste.rs/programming — 11 points, 5 comments.",
-        "Submitted by 0x2ba22e11 on lobste.rs/programming."
+        "View static type systems as practical utility tools (like shovels) for risk mitigation, not just academic exercises in formal correctness.",
+        "Robust type boundaries in languages like Go, Rust, or TypeScript reduce runtime errors and significantly accelerate safe codebase refactoring.",
+        "Avoid over-engineering type complexity; excessive type-level gymnastics can introduce friction and reduce team velocity without adding tangible security."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Trojaned OpenSSH (in 2002)",
-      "url": "http://miod.online.fr/software/openbsd/stories/trojan.html",
-      "discuss_url": "https://lobste.rs/s/ti42hu",
-      "score": 27,
-      "comments": 2,
-      "author": "LeahNeukirchen",
-      "published": "2026-06-10T12:12:43Z",
+      "title": "A human in control",
+      "url": "https://daniel.haxx.se/blog/2026/06/10/a-human-in-control/",
+      "discuss_url": "https://lobste.rs/s/p4ey1w",
+      "score": 21,
+      "comments": 3,
+      "author": "jturner",
+      "published": "2026-06-10T16:18:11Z",
       "bullets": [
-        "Trojaned OpenSSH (in 2002)",
-        "Trending on lobste.rs/security — 27 points, 2 comments.",
-        "Submitted by LeahNeukirchen on lobste.rs/security."
+        "Fully automated security remediation and SOAR pipelines require human verification to prevent catastrophic, cascading operational failures.",
+        "Autonomous AI agents in security operations introduce unpredictable risks; manual approvals remain critical for high-privilege access and code deployments.",
+        "Organizations must design fallback mechanisms and manual override protocols to counter automated system lockouts during complex cyberattacks."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "granra",
       "published": "2026-06-08T15:21:54Z",
       "bullets": [
-        "Introduction to nixidy - Kubernetes GitOps with nix",
-        "Trending on lobste.rs/devops — 11 points, 9 comments.",
-        "Submitted by granra on lobste.rs/devops."
+        "Nixidy leverages Nix's module system to generate declarative, type-safe Kubernetes manifests, replacing verbose YAML with reproducible Nix code.",
+        "It integrates into GitOps pipelines like ArgoCD or Flux by compiling Nix expressions into standard Kubernetes resource definitions.",
+        "The tool eliminates templating engines like Helm, providing strict build-time evaluation and schema validation before deploying to clusters."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Beth Mole",
       "published": "2026-06-10T22:16:57Z",
       "bullets": [
-        "For days after the stunning incident, the ADA had doubled-down on the choice.",
-        "Diabetes org apologizes for ejecting scientists over criticism of Trump",
-        "Submitted by Beth Mole on arstechnica.com."
+        "The American Diabetes Association (ADA) reversed its stance following severe backlash over censoring political criticism at its annual meeting.",
+        "The controversy underscores escalating tension between organizational neutrality, public policy advocacy, and academic freedom in professional societies.",
+        "Organizations hosting major technical and scientific conferences must establish clear, consistent guidelines regarding political expression and speaker rights."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
+      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48478969",
+      "score": 453,
+      "comments": 392,
+      "author": "speckx",
+      "published": "2026-06-10T16:42:00Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
       "url": "https://github.com/anthropics/claude-code/issues/29045",
       "discuss_url": "https://news.ycombinator.com/item?id=48479452",
-      "score": 367,
-      "comments": 256,
+      "score": 403,
+      "comments": 282,
       "author": "tonyrice",
       "published": "2026-06-10T17:11:56Z"
     },
@@ -136,22 +148,10 @@
       "title": "Anthropic's model naming, extrapolated",
       "url": "https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated",
       "discuss_url": "https://news.ycombinator.com/item?id=48480852",
-      "score": 294,
-      "comments": 82,
+      "score": 305,
+      "comments": 90,
       "author": "sammycdubs",
       "published": "2026-06-10T18:45:20Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
-      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48478969",
-      "score": 289,
-      "comments": 272,
-      "author": "speckx",
-      "published": "2026-06-10T16:42:00Z"
     },
     {
       "source": "hackernews",
@@ -160,8 +160,8 @@
       "title": "AWS Bedrock to require sharing data with Anthropic for Mythos and future models",
       "url": "https://news.ycombinator.com/item?id=48473166",
       "discuss_url": "https://news.ycombinator.com/item?id=48473166",
-      "score": 399,
-      "comments": 234,
+      "score": 403,
+      "comments": 243,
       "author": "TomAnthony",
       "published": "2026-06-10T08:21:38Z"
     },
@@ -172,8 +172,8 @@
       "title": "Claude Fable 5",
       "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
       "discuss_url": "https://news.ycombinator.com/item?id=48463808",
-      "score": 2554,
-      "comments": 2088,
+      "score": 2567,
+      "comments": 2107,
       "author": "Philpax",
       "published": "2026-06-09T16:58:01Z"
     },
@@ -184,10 +184,22 @@
       "title": "If Claude Fable stops helping you, you'll never know",
       "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
       "discuss_url": "https://news.ycombinator.com/item?id=48467896",
-      "score": 1008,
-      "comments": 494,
+      "score": 1016,
+      "comments": 495,
       "author": "mips_avatar",
       "published": "2026-06-09T21:19:11Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Anthropic requires 30 day data retention for Fable and Mythos",
+      "url": "https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models",
+      "discuss_url": "https://news.ycombinator.com/item?id=48464258",
+      "score": 443,
+      "comments": 229,
+      "author": "lebovic",
+      "published": "2026-06-09T17:23:40Z"
     },
     {
       "source": "hackernews",
@@ -197,21 +209,9 @@
       "url": "https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/",
       "discuss_url": "https://news.ycombinator.com/item?id=48465269",
       "score": 284,
-      "comments": 126,
+      "comments": 127,
       "author": "AbuAssar",
       "published": "2026-06-09T18:21:43Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Anthropic requires 30 day data retention for Fable and Mythos",
-      "url": "https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models",
-      "discuss_url": "https://news.ycombinator.com/item?id=48464258",
-      "score": 263,
-      "comments": 122,
-      "author": "lebovic",
-      "published": "2026-06-09T17:23:40Z"
     },
     {
       "source": "hackernews",
@@ -220,10 +220,22 @@
       "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
       "url": "https://aarushgupta.io/posts/kan-fpga/",
       "discuss_url": "https://news.ycombinator.com/item?id=48466277",
-      "score": 278,
+      "score": 279,
       "comments": 49,
       "author": "ag2718",
       "published": "2026-06-09T19:21:45Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "To Gen or Not To Gen: The Ethical Use of Generative AI",
+      "url": "https://blog.johanneslink.net/2025/11/04/to-gen-or-not-to-gen/",
+      "discuss_url": "https://lobste.rs/s/2ye7ng",
+      "score": 3,
+      "comments": 0,
+      "author": "qznc",
+      "published": "2026-06-11T06:23:56Z"
     },
     {
       "source": "hackernews",
@@ -232,22 +244,10 @@
       "title": "System Card: Claude Fable 5 and Claude Mythos 5 [pdf]",
       "url": "https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf",
       "discuss_url": "https://news.ycombinator.com/item?id=48463811",
-      "score": 211,
+      "score": 212,
       "comments": 1,
       "author": "scrlk",
       "published": "2026-06-09T16:58:13Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "It doesn’t matter if it works",
-      "url": "https://henry.codes/writing/it-doesnt-matter-if-it-works/",
-      "discuss_url": "https://lobste.rs/s/zmfdjb",
-      "score": 5,
-      "comments": 0,
-      "author": "FedericoSchonborn",
-      "published": "2026-06-09T21:14:52Z"
     },
     {
       "source": "lobsters",
@@ -268,22 +268,10 @@
       "title": "Static types and shovels",
       "url": "https://carefully.understood.systems/blog-2026-06-10-static-type-shovel.html",
       "discuss_url": "https://lobste.rs/s/eiknm1",
-      "score": 11,
-      "comments": 5,
+      "score": 16,
+      "comments": 16,
       "author": "0x2ba22e11",
       "published": "2026-06-10T18:13:56Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Passing DBs Through Continuations",
-      "url": "https://remy.wang/blog/cps.html",
-      "discuss_url": "https://lobste.rs/s/jxtxkj",
-      "score": 12,
-      "comments": 1,
-      "author": "anex9d",
-      "published": "2026-06-09T13:14:55Z"
     },
     {
       "source": "lobsters",
@@ -296,6 +284,18 @@
       "comments": 28,
       "author": "caius",
       "published": "2026-06-08T09:23:20Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Passing DBs Through Continuations",
+      "url": "https://remy.wang/blog/cps.html",
+      "discuss_url": "https://lobste.rs/s/jxtxkj",
+      "score": 12,
+      "comments": 1,
+      "author": "anex9d",
+      "published": "2026-06-09T13:14:55Z"
     },
     {
       "source": "lobsters",
@@ -332,18 +332,6 @@
       "comments": 2,
       "author": "crowdhailer",
       "published": "2026-06-08T17:11:36Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "SDL_net 3.2.0 is out",
-      "url": "https://github.com/libsdl-org/SDL_net/releases/tag/release-3.2.0",
-      "discuss_url": "https://lobste.rs/s/dmcanq",
-      "score": 6,
-      "comments": 0,
-      "author": "linkdd",
-      "published": "2026-06-07T04:49:58Z"
     },
     {
       "source": "rss",
@@ -397,6 +385,18 @@
       "source": "rss",
       "subsource": "stackoverflow.blog",
       "category": "engineering",
+      "title": "When the cost of code approaches zero, what does engineering leadership look like?​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‌​﻿‌‌​﻿‌﻿​﻿‌‌‌‍‌‌‌‍‌‍‌‍‌‌​﻿​​​‍﻿‌​﻿‌﻿‌‍‌‍​﻿‍​​﻿‍‌​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍‌‍​‌​‍﻿‌​﻿‍​​﻿‌‌​﻿‌﻿​﻿‍​​‍﻿‌​﻿‍‌‌‍​﻿​﻿‌​‌‍​‍​﻿‍​​﻿​‌​﻿‍‌‌‍‌‍‌‍‌‍‌‍‌‍​﻿‌‍‌‍​‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‌​﻿‌‌​﻿‌﻿​﻿‌‌‌‍‌‌‌‍‌‍‌‍‌‌​﻿​​​‍﻿‌​﻿‌﻿‌‍‌‍​﻿‍​​﻿‍‌​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍‌‍​‌​‍﻿‌​﻿‍​​﻿‌‌​﻿‌﻿​﻿‍​​‍﻿‌​﻿‍‌‌‍​﻿​﻿‌​‌‍​‍​﻿‍​​﻿​‌​﻿‍‌‌‍‌‍‌‍‌‍‌‍‌‍​﻿‌‍‌‍​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/06/11/engineering-leadership-zero-cost-code/",
+      "discuss_url": "https://stackoverflow.blog/2026/06/11/engineering-leadership-zero-cost-code/",
+      "score": null,
+      "comments": null,
+      "author": "Eira May",
+      "published": "2026-06-11T07:40:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
       "title": "Announcing Stack Overflow for Agents​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌​​﻿‍​​﻿‌﻿​﻿​‍‌‍​﻿‌‍​﻿​﻿‌​‌‍‌‍​‍﻿‌‌‍‌​‌‍‌​​﻿‌‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‌​﻿‌﻿‌‍​‍​‍﻿‌‌‍​‌‌‍​‌​﻿‌‍‌‍​‍​‍﻿‌‌‍​‍​﻿‍​‌‍‌​​﻿‌‍​﻿‍‌​﻿‍​​﻿‍​​﻿‍‌​﻿‌​‌‍​‍​﻿‌‌​﻿‌‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌​​﻿‍​​﻿‌﻿​﻿​‍‌‍​﻿‌‍​﻿​﻿‌​‌‍‌‍​‍﻿‌‌‍‌​‌‍‌​​﻿‌‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‌​﻿‌﻿‌‍​‍​‍﻿‌‌‍​‌‌‍​‌​﻿‌‍‌‍​‍​‍﻿‌‌‍​‍​﻿‍​‌‍‌​​﻿‌‍​﻿‍‌​﻿‍​​﻿‍​​﻿‍‌​﻿‌​‌‍​‍​﻿‌‌​﻿‌‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "url": "https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents/",
       "discuss_url": "https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents/",
@@ -409,10 +409,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "A human in control",
+      "url": "https://daniel.haxx.se/blog/2026/06/10/a-human-in-control/",
+      "discuss_url": "https://lobste.rs/s/p4ey1w",
+      "score": 21,
+      "comments": 3,
+      "author": "jturner",
+      "published": "2026-06-10T16:18:11Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Trojaned OpenSSH (in 2002)",
       "url": "http://miod.online.fr/software/openbsd/stories/trojan.html",
       "discuss_url": "https://lobste.rs/s/ti42hu",
-      "score": 27,
+      "score": 30,
       "comments": 2,
       "author": "LeahNeukirchen",
       "published": "2026-06-10T12:12:43Z"
@@ -421,22 +433,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "A human in control",
-      "url": "https://daniel.haxx.se/blog/2026/06/10/a-human-in-control/",
-      "discuss_url": "https://lobste.rs/s/p4ey1w",
-      "score": 15,
-      "comments": 1,
-      "author": "jturner",
-      "published": "2026-06-10T16:18:11Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Upcoming breaking changes for npm v12",
       "url": "https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/",
       "discuss_url": "https://lobste.rs/s/drkeug",
-      "score": 24,
+      "score": 25,
       "comments": 3,
       "author": "Jackevansevo",
       "published": "2026-06-10T10:14:49Z"
@@ -448,22 +448,10 @@
       "title": "CVE-2026-45447: Heap Use-After-Free in the OpenSSL PKCS7_verify() Function",
       "url": "https://openssl-library.org/news/vulnerabilities/#CVE-2026-45447",
       "discuss_url": "https://lobste.rs/s/yg1xb2",
-      "score": 20,
+      "score": 21,
       "comments": 4,
       "author": "hoistbypetard",
       "published": "2026-06-10T01:08:08Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Lets Encrypt June ToS Update: no more for US sanctioned people",
-      "url": "https://letsencrypt.org/documents/LE-SA-v1.7-June-04-2026-diff.pdf",
-      "discuss_url": "https://lobste.rs/s/xo62fe",
-      "score": 2,
-      "comments": 0,
-      "author": "gnunicorn",
-      "published": "2026-06-11T00:13:18Z"
     },
     {
       "source": "lobsters",
@@ -481,6 +469,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Lets Encrypt June ToS Update: no more for US sanctioned people",
+      "url": "https://letsencrypt.org/documents/LE-SA-v1.7-June-04-2026-diff.pdf",
+      "discuss_url": "https://lobste.rs/s/xo62fe",
+      "score": 3,
+      "comments": 0,
+      "author": "gnunicorn",
+      "published": "2026-06-11T00:13:18Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "17 bugs in 10 weeks from AI security scanning",
       "url": "https://lalitm.com/post/perfetto-security-bugs-ai/",
       "discuss_url": "https://lobste.rs/s/5iuaxt",
@@ -488,18 +488,6 @@
       "comments": 0,
       "author": "lalitm",
       "published": "2026-06-10T10:59:41Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "ITScape: Guest-to-Host Escape in KVM/arm64",
-      "url": "https://github.com/V4bel/ITScape",
-      "discuss_url": "https://lobste.rs/s/jst2wq",
-      "score": 2,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-06-10T19:00:36Z"
     },
     {
       "source": "lobsters",
@@ -551,6 +539,18 @@
     },
     {
       "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "ITScape: Guest-to-Host Escape in KVM/arm64",
+      "url": "https://github.com/V4bel/ITScape",
+      "discuss_url": "https://lobste.rs/s/jst2wq",
+      "score": 2,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-06-10T19:00:36Z"
+    },
+    {
+      "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "Introduction to nixidy - Kubernetes GitOps with nix",
@@ -584,6 +584,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-06-11T00:12:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon OpenSearch Service launches MCP Apps for agentic observability",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-agentic-observability-mcp-app",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-agentic-observability-mcp-app",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-10T22:58:00Z"
     },
     {
       "source": "rss",
@@ -680,18 +692,6 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-06-09T15:28:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Announcing metal-48xl and metal-96xl for Amazon EC2 network/EBS instances",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-metal-sizes-network-EBS/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-metal-sizes-network-EBS/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-09T15:00:00Z"
     },
     {
       "source": "rss",
