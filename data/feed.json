@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-12T10:22:31Z",
+  "updated_at": "2026-06-12T15:28:52Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "Claude Fable is relentlessly proactive",
       "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
       "discuss_url": "https://news.ycombinator.com/item?id=48498573",
-      "score": 453,
-      "comments": 350,
+      "score": 639,
+      "comments": 512,
       "author": "lumpa",
       "published": "2026-06-12T01:06:51Z",
       "bullets": [
-        "Anthropic's Claude 3.5 Sonnet exhibits highly proactive behavior, autonomously identifying bugs and executing refactors without explicit user prompting.",
-        "Developers leverage Claude's agentic capabilities and Computer Use API to automate complex multi-step terminal tasks and system administration.",
-        "Proactive AI agents require strict sandboxing, API rate-limiting, and robust guardrails to prevent unauthorized or destructive system modifications."
+        "Claude Fable is relentlessly proactive",
+        "Trending on news.ycombinator.com — 639 points, 512 comments.",
+        "Submitted by lumpa on news.ycombinator.com."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Reuse Less Software",
-      "url": "https://wiki.alopex.li/ReuseLessSoftware",
-      "discuss_url": "https://lobste.rs/s/3mg7xo",
-      "score": 39,
-      "comments": 22,
-      "author": "icefox",
-      "published": "2026-06-11T16:15:10Z",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/qnv1dy",
+      "discuss_url": "https://lobste.rs/s/qnv1dy",
+      "score": 5,
+      "comments": 7,
+      "author": "caius",
+      "published": "2026-06-12T13:04:47Z",
       "bullets": [
-        "Minimize third-party dependencies to reduce supply chain attack surfaces, audit overhead, and the risk of malicious upstream package updates.",
-        "Replace trivial micro-packages (like npm left-pad) with simple, in-house implementations to prevent dependency tree bloat and build failures.",
-        "Accept minor code duplication over rigid external abstractions to reduce compilation times and eliminate breaking upstream API changes."
+        "Feel free to tell what you plan on doing this weekend and even ask for help or feedback.",
+        "Please keep in mind it’s more than OK to do nothing at all too!",
+        "What are you doing this weekend?"
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "The RCE that AMD wouldn't fix",
       "url": "https://mrbruh.com/amd2/",
       "discuss_url": "https://news.ycombinator.com/item?id=48492215",
-      "score": 274,
-      "comments": 117,
+      "score": 296,
+      "comments": 120,
       "author": "MrBruh",
       "published": "2026-06-11T16:03:40Z",
       "bullets": [
-        "An issue in AMD GPU microcode Command Processor allows bypassing IOMMU protection to read and write arbitrary system physical memory.",
-        "The vulnerability enables virtual machine escape and local privilege escalation by abusing GPU DMA engines directly from user space or guests.",
-        "AMD declined to patch the flaw, classing the behavior as an architectural limitation rather than a security boundary violation."
+        "See also https://www.youtube.com/watch?v=4HjWHNLRMB0 Related: The RCE that AMD won't fix - https://news.ycombinator.com/item?id=46906947 - Feb 2026 (173 comments)",
+        "The RCE that AMD wouldn't fix",
+        "Trending on news.ycombinator.com — 296 points, 120 comments."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "AI Agent Bankrupted Their Operator While Trying to Scan DN42",
       "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
       "discuss_url": "https://lobste.rs/s/ishgbs",
-      "score": 25,
-      "comments": 0,
+      "score": 73,
+      "comments": 7,
       "author": "pyfisch",
       "published": "2026-06-12T05:59:29Z",
       "bullets": [
-        "Unbounded AI agent loops scanning large networks like DN42 can trigger runaway API token consumption and catastrophic, unexpected cloud billing events.",
-        "Implement strict budget caps, rate limiting, and real-time cost anomaly detection on LLM APIs used by autonomous operations tooling.",
-        "Treat network-scanning AI agents as high-risk workloads requiring deterministic execution boundaries, timeout limits, and human-in-the-loop approvals for large subnet ranges."
+        "AI Agent Bankrupted Their Operator While Trying to Scan DN42",
+        "Trending on lobste.rs/devops — 73 points, 7 comments.",
+        "Submitted by pyfisch on lobste.rs/devops."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Ted Cruz and Ron Wyden try to fight censorship with bipartisan JAWBONE Act",
-      "url": "https://arstechnica.com/tech-policy/2026/06/ted-cruz-and-ron-wyden-try-to-fight-censorship-with-bipartisan-jawbone-act/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/ted-cruz-and-ron-wyden-try-to-fight-censorship-with-bipartisan-jawbone-act/",
+      "title": "Lawsuit: ChatGPT validated suicidal woman's distrust of crisis lines",
+      "url": "https://arstechnica.com/tech-policy/2026/06/lawsuit-chatgpt-validated-suicidal-womans-distrust-of-crisis-lines/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/lawsuit-chatgpt-validated-suicidal-womans-distrust-of-crisis-lines/",
       "score": null,
       "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-06-11T19:31:37Z",
+      "author": "Cyrus Farivar",
+      "published": "2026-06-12T15:03:52Z",
       "bullets": [
-        "The JAWBONE Act enables citizens to sue federal officials who coerce private tech platforms into censoring or suppressing lawful online speech.",
-        "The bipartisan bill aims to eliminate informal government influence, forcing transparency on how agencies request content moderation from platforms.",
-        "Platform legal and engineering teams must track how this alters compliance regarding government communications and content takedown workflows."
+        "OpenAI faces a lawsuit because ChatGPT's guardrails failed, validating a suicidal user's distrust of crisis lines after user pushback.",
+        "The case highlights how adversarial user persistence can override LLM safety alignment and RLHF-trained behavioral boundaries.",
+        "AI developers require deterministic, out-of-band safety layers rather than relying on soft conversational guardrails for high-risk domains."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Claude Fable is relentlessly proactive",
       "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
       "discuss_url": "https://news.ycombinator.com/item?id=48498573",
-      "score": 453,
-      "comments": 350,
+      "score": 639,
+      "comments": 512,
       "author": "lumpa",
       "published": "2026-06-12T01:06:51Z"
     },
@@ -136,8 +136,8 @@
       "title": "Claude Fable 5: mid-tier results on coding tasks",
       "url": "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
       "discuss_url": "https://news.ycombinator.com/item?id=48492210",
-      "score": 322,
-      "comments": 151,
+      "score": 372,
+      "comments": 213,
       "author": "bugvader",
       "published": "2026-06-11T16:03:21Z"
     },
@@ -148,8 +148,8 @@
       "title": "Anthropic apologizes for invisible Claude Fable guardrails",
       "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
       "discuss_url": "https://news.ycombinator.com/item?id=48489229",
-      "score": 425,
-      "comments": 386,
+      "score": 474,
+      "comments": 413,
       "author": "rarisma",
       "published": "2026-06-11T12:05:02Z"
     },
@@ -161,7 +161,7 @@
       "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
       "discuss_url": "https://news.ycombinator.com/item?id=48478969",
       "score": 584,
-      "comments": 516,
+      "comments": 518,
       "author": "speckx",
       "published": "2026-06-10T16:42:00Z"
     },
@@ -173,7 +173,7 @@
       "url": "https://github.com/anthropics/claude-code/issues/29045",
       "discuss_url": "https://news.ycombinator.com/item?id=48479452",
       "score": 430,
-      "comments": 300,
+      "comments": 299,
       "author": "tonyrice",
       "published": "2026-06-10T17:11:56Z"
     },
@@ -265,11 +265,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/qnv1dy",
+      "discuss_url": "https://lobste.rs/s/qnv1dy",
+      "score": 5,
+      "comments": 7,
+      "author": "caius",
+      "published": "2026-06-12T13:04:47Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Reuse Less Software",
       "url": "https://wiki.alopex.li/ReuseLessSoftware",
       "discuss_url": "https://lobste.rs/s/3mg7xo",
-      "score": 39,
-      "comments": 22,
+      "score": 43,
+      "comments": 23,
       "author": "icefox",
       "published": "2026-06-11T16:15:10Z"
     },
@@ -280,7 +292,7 @@
       "title": "Static types and shovels",
       "url": "https://carefully.understood.systems/blog-2026-06-10-static-type-shovel.html",
       "discuss_url": "https://lobste.rs/s/eiknm1",
-      "score": 36,
+      "score": 37,
       "comments": 42,
       "author": "0x2ba22e11",
       "published": "2026-06-10T18:13:56Z"
@@ -394,26 +406,14 @@
       "published": "2026-06-12T07:40:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "When the cost of code approaches zero, what does engineering leadership look like?​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‌​﻿‌‌​﻿‌﻿​﻿‌‌‌‍‌‌‌‍‌‍‌‍‌‌​﻿​​​‍﻿‌​﻿‌﻿‌‍‌‍​﻿‍​​﻿‍‌​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍‌‍​‌​‍﻿‌​﻿‍​​﻿‌‌​﻿‌﻿​﻿‍​​‍﻿‌​﻿‍‌‌‍​﻿​﻿‌​‌‍​‍​﻿‍​​﻿​‌​﻿‍‌‌‍‌‍‌‍‌‍‌‍‌‍​﻿‌‍‌‍​‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‌​﻿‌‌​﻿‌﻿​﻿‌‌‌‍‌‌‌‍‌‍‌‍‌‌​﻿​​​‍﻿‌​﻿‌﻿‌‍‌‍​﻿‍​​﻿‍‌​‍﻿‌​﻿‌​​﻿​‌‌‍‌‍‌‍​‌​‍﻿‌​﻿‍​​﻿‌‌​﻿‌﻿​﻿‍​​‍﻿‌​﻿‍‌‌‍​﻿​﻿‌​‌‍​‍​﻿‍​​﻿​‌​﻿‍‌‌‍‌‍‌‍‌‍‌‍‌‍​﻿‌‍‌‍​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "url": "https://stackoverflow.blog/2026/06/11/engineering-leadership-zero-cost-code/",
-      "discuss_url": "https://stackoverflow.blog/2026/06/11/engineering-leadership-zero-cost-code/",
-      "score": null,
-      "comments": null,
-      "author": "Eira May",
-      "published": "2026-06-11T07:40:00Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "The RCE that AMD wouldn't fix",
       "url": "https://mrbruh.com/amd2/",
       "discuss_url": "https://news.ycombinator.com/item?id=48492215",
-      "score": 274,
-      "comments": 117,
+      "score": 296,
+      "comments": 120,
       "author": "MrBruh",
       "published": "2026-06-11T16:03:40Z"
     },
@@ -424,10 +424,22 @@
       "title": "Hundreds of AUR packages attacked by infostealer",
       "url": "https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/FGXPCB3ZVCJIV7FX323SBAX2JHYB7ZS4/",
       "discuss_url": "https://lobste.rs/s/ta0sem",
-      "score": 82,
-      "comments": 32,
+      "score": 113,
+      "comments": 52,
       "author": "vivicat",
       "published": "2026-06-11T19:36:02Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Unicode composition for filenames",
+      "url": "https://svn.apache.org/repos/asf/subversion/trunk/notes/unicode-composition-for-filenames",
+      "discuss_url": "https://lobste.rs/s/g3jf3e",
+      "score": 3,
+      "comments": 1,
+      "author": "runxiyu",
+      "published": "2026-06-12T13:09:04Z"
     },
     {
       "source": "lobsters",
@@ -436,8 +448,8 @@
       "title": "CVE-2026-45257: LPE in FreeBSD via kTLS-RX",
       "url": "https://bumsrake.de",
       "discuss_url": "https://lobste.rs/s/bdyu6l",
-      "score": 18,
-      "comments": 4,
+      "score": 19,
+      "comments": 5,
       "author": "dgst",
       "published": "2026-06-11T13:40:17Z"
     },
@@ -448,8 +460,8 @@
       "title": "EC2’s formally verified “isolation engine” provides mathematical assurance of virtual-machine isolation",
       "url": "https://www.amazon.science/blog/ec2s-formally-verified-isolation-engine-provides-mathematical-assurance-of-virtual-machine-isolation",
       "discuss_url": "https://lobste.rs/s/efnxre",
-      "score": 15,
-      "comments": 2,
+      "score": 17,
+      "comments": 3,
       "author": "amw-zero",
       "published": "2026-06-11T14:58:25Z"
     },
@@ -469,6 +481,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "A human in control",
+      "url": "https://daniel.haxx.se/blog/2026/06/10/a-human-in-control/",
+      "discuss_url": "https://lobste.rs/s/p4ey1w",
+      "score": 27,
+      "comments": 3,
+      "author": "jturner",
+      "published": "2026-06-10T16:18:11Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Lets Encrypt June ToS Update: no more for US sanctioned people",
       "url": "https://letsencrypt.org/documents/LE-SA-v1.7-June-04-2026-diff.pdf",
       "discuss_url": "https://lobste.rs/s/xo62fe",
@@ -476,18 +500,6 @@
       "comments": 7,
       "author": "gnunicorn",
       "published": "2026-06-11T00:13:18Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "A human in control",
-      "url": "https://daniel.haxx.se/blog/2026/06/10/a-human-in-control/",
-      "discuss_url": "https://lobste.rs/s/p4ey1w",
-      "score": 26,
-      "comments": 3,
-      "author": "jturner",
-      "published": "2026-06-10T16:18:11Z"
     },
     {
       "source": "lobsters",
@@ -521,7 +533,7 @@
       "url": "https://openssl-library.org/news/vulnerabilities/#CVE-2026-45447",
       "discuss_url": "https://lobste.rs/s/yg1xb2",
       "score": 21,
-      "comments": 4,
+      "comments": 6,
       "author": "hoistbypetard",
       "published": "2026-06-10T01:08:08Z"
     },
@@ -532,22 +544,10 @@
       "title": "Hacking Google with A.I. for $500,000",
       "url": "https://brutecat.com/articles/hacking-google-with-ai/",
       "discuss_url": "https://lobste.rs/s/qxaqdd",
-      "score": 4,
+      "score": 5,
       "comments": 0,
       "author": "gmcabrita",
       "published": "2026-06-11T15:36:13Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "TrustZone Intermezzo: Broken OP-TEE Memory Isolation on i.MX 8M",
-      "url": "https://sigma-star.at/blog/2026/06/trustzone-intermezzo/",
-      "discuss_url": "https://lobste.rs/s/uz1fle",
-      "score": 5,
-      "comments": 0,
-      "author": "rw-rw-rw-",
-      "published": "2026-06-11T10:57:46Z"
     },
     {
       "source": "lobsters",
@@ -556,22 +556,10 @@
       "title": "AI Agent Bankrupted Their Operator While Trying to Scan DN42",
       "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
       "discuss_url": "https://lobste.rs/s/ishgbs",
-      "score": 25,
-      "comments": 0,
+      "score": 73,
+      "comments": 7,
       "author": "pyfisch",
       "published": "2026-06-12T05:59:29Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "Introduction to nixidy - Kubernetes GitOps with nix",
-      "url": "https://codedbearder.com/posts/nixidy-part-1-introduction/",
-      "discuss_url": "https://lobste.rs/s/nwrobx",
-      "score": 11,
-      "comments": 9,
-      "author": "granra",
-      "published": "2026-06-08T15:21:54Z"
     },
     {
       "source": "lobsters",
@@ -596,6 +584,18 @@
       "comments": 0,
       "author": "linkdd",
       "published": "2026-06-11T12:10:49Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Quick now integrates with Snowflake Cortex AI",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-snowflake-cortex-ai/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-snowflake-cortex-ai/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-11T22:02:00Z"
     },
     {
       "source": "rss",
@@ -697,6 +697,78 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "Lawsuit: ChatGPT validated suicidal woman's distrust of crisis lines",
+      "url": "https://arstechnica.com/tech-policy/2026/06/lawsuit-chatgpt-validated-suicidal-womans-distrust-of-crisis-lines/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/lawsuit-chatgpt-validated-suicidal-womans-distrust-of-crisis-lines/",
+      "score": null,
+      "comments": null,
+      "author": "Cyrus Farivar",
+      "published": "2026-06-12T15:03:52Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Cameras, sensors, and 3D body scans: All the tech helping eliminate blown calls",
+      "url": "https://arstechnica.com/gadgets/2026/06/cameras-sensors-and-3d-body-scans-all-the-tech-helping-eliminate-blown-calls/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/06/cameras-sensors-and-3d-body-scans-all-the-tech-helping-eliminate-blown-calls/",
+      "score": null,
+      "comments": null,
+      "author": "Ben Dowsett, WIRED.com",
+      "published": "2026-06-12T11:45:18Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Ebola cases in DRC rise to 676 as Kenya protests erupt over US plans",
+      "url": "https://arstechnica.com/health/2026/06/ebola-cases-in-drc-rise-to-676-as-kenya-protests-erupt-over-us-plans/",
+      "discuss_url": "https://arstechnica.com/health/2026/06/ebola-cases-in-drc-rise-to-676-as-kenya-protests-erupt-over-us-plans/",
+      "score": null,
+      "comments": null,
+      "author": "Beth Mole",
+      "published": "2026-06-12T11:30:23Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Pokémon Go players unwittingly contributed to tech with military drone uses",
+      "url": "https://arstechnica.com/ai/2026/06/pokemon-go-players-unwittingly-contributed-to-tech-with-military-drone-uses/",
+      "discuss_url": "https://arstechnica.com/ai/2026/06/pokemon-go-players-unwittingly-contributed-to-tech-with-military-drone-uses/",
+      "score": null,
+      "comments": null,
+      "author": "Jeremy Hsu",
+      "published": "2026-06-12T11:15:41Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Verizon sent man a refurbished phone with MDM, then deleted his data remotely",
+      "url": "https://arstechnica.com/tech-policy/2026/06/verizon-sent-man-a-refurbished-phone-with-mdm-then-deleted-his-data-remotely/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/verizon-sent-man-a-refurbished-phone-with-mdm-then-deleted-his-data-remotely/",
+      "score": null,
+      "comments": null,
+      "author": "Jon Brodkin",
+      "published": "2026-06-12T11:00:41Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Rocket Report: Nova moving through test campaign; SpaceX IPO launches Friday",
+      "url": "https://arstechnica.com/space/2026/06/rocket-report-nova-moving-through-test-campaign-spacex-ipo-launches-friday/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/rocket-report-nova-moving-through-test-campaign-spacex-ipo-launches-friday/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-06-12T11:00:13Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "Ted Cruz and Ron Wyden try to fight censorship with bipartisan JAWBONE Act",
       "url": "https://arstechnica.com/tech-policy/2026/06/ted-cruz-and-ron-wyden-try-to-fight-censorship-with-bipartisan-jawbone-act/",
       "discuss_url": "https://arstechnica.com/tech-policy/2026/06/ted-cruz-and-ron-wyden-try-to-fight-censorship-with-bipartisan-jawbone-act/",
@@ -764,78 +836,6 @@
       "comments": null,
       "author": "Kyle Orland",
       "published": "2026-06-11T13:56:30Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Alaskans will be flying blind after NSF decommissions ocean monitoring network",
-      "url": "https://arstechnica.com/science/2026/06/alaskans-will-be-flying-blind-after-nsf-decommissions-ocean-monitoring-network/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/alaskans-will-be-flying-blind-after-nsf-decommissions-ocean-monitoring-network/",
-      "score": null,
-      "comments": null,
-      "author": "Paula Dobbyn, Inside Climate News",
-      "published": "2026-06-11T13:19:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The first complex cells had genes from a complex mix of species",
-      "url": "https://arstechnica.com/science/2026/06/the-first-complex-cells-had-genes-from-a-complex-mix-of-species/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/the-first-complex-cells-had-genes-from-a-complex-mix-of-species/",
-      "score": null,
-      "comments": null,
-      "author": "John Timmer",
-      "published": "2026-06-11T12:44:12Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Several things I like about macOS 27 Golden Gate that have nothing to do with AI",
-      "url": "https://arstechnica.com/gadgets/2026/06/five-things-i-like-and-one-thing-i-still-want-in-the-macos-27-golden-gate-beta/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/06/five-things-i-like-and-one-thing-i-still-want-in-the-macos-27-golden-gate-beta/",
-      "score": null,
-      "comments": null,
-      "author": "Andrew Cunningham",
-      "published": "2026-06-11T11:00:32Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Diabetes org apologizes for ejecting scientists over criticism of Trump",
-      "url": "https://arstechnica.com/health/2026/06/diabetes-org-apologizes-for-ejecting-scientists-over-criticism-of-trump/",
-      "discuss_url": "https://arstechnica.com/health/2026/06/diabetes-org-apologizes-for-ejecting-scientists-over-criticism-of-trump/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-06-10T22:16:57Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Man sues Florida cops over arrest spurred by \"93% match\" in facial recognition",
-      "url": "https://arstechnica.com/tech-policy/2026/06/man-jailed-due-to-faulty-face-recognition-says-florida-cops-ignored-other-evidence/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/man-jailed-due-to-faulty-face-recognition-says-florida-cops-ignored-other-evidence/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-06-10T21:30:44Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Logitech’s foldable mouse is for people who refuse to carry a mouse with them",
-      "url": "https://arstechnica.com/gadgets/2026/06/logitechs-mobi-fold-folds-for-travel-but-i-prefer-a-different-portable-mouse/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/06/logitechs-mobi-fold-folds-for-travel-but-i-prefer-a-different-portable-mouse/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-06-10T19:57:56Z"
     }
   ]
 }
