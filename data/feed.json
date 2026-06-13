@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T14:14:54Z",
+  "updated_at": "2026-06-13T19:42:58Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "We've suspended access to Claude Mythos 5 and Claude Fable 5",
-      "url": "https://status.claude.com/incidents/s9w82lp9dcn9",
-      "discuss_url": "https://news.ycombinator.com/item?id=48511121",
-      "score": 250,
-      "comments": 5,
-      "author": "jesse_dot_id",
-      "published": "2026-06-13T00:58:06Z",
+      "title": "Amazon CEO's Talks with U.S. Officials Triggered Crackdown on Anthropic Models",
+      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578",
+      "discuss_url": "https://news.ycombinator.com/item?id=48519092",
+      "score": 199,
+      "comments": 177,
+      "author": "ls612",
+      "published": "2026-06-13T16:57:49Z",
       "bullets": [
-        "API providers have cut access to specialized Claude derivatives Mythos 5 and Fable 5, highlighting risks of relying on custom wrappers.",
-        "Suspensions typically stem from Anthropic's strict safety filters or terms of service violations regarding unfiltered roleplay and creative generation.",
-        "AI developers should build redundancy into LLM pipelines using open-weight alternatives to avoid sudden deprecation of fine-tuned API endpoints."
+        "Government scrutiny of Anthropic models highlights growing regulatory and export control risks for frontier AI deployment on hyperscaler clouds like AWS.",
+        "Amazon's government discussions could restrict global distribution or impose stricter security compliance on Claude models hosted on Bedrock.",
+        "The crackdown signals rising geopolitical influence over AI safety, potentially gating advanced model APIs based on user location and affiliation."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "Rejected Emoji Proposals",
       "url": "https://charlottebuff.com/unicode/misc/rejected-emoji-proposals/",
       "discuss_url": "https://lobste.rs/s/tigq8d",
-      "score": 39,
-      "comments": 12,
+      "score": 54,
+      "comments": 16,
       "author": "carlana",
       "published": "2026-06-13T02:17:01Z",
       "bullets": [
-        "The Unicode Consortium enforces strict criteria like longevity, uniqueness, and trademark avoidance to limit character set expansion.",
-        "Developers should leverage Zero Width Joiner (ZWJ) sequences to create compound glyphs instead of requesting new discrete codepoints.",
-        "Filtering submission bloat ensures text rendering engines maintain performance and compatibility across diverse operating systems and fonts."
+        "Rejected Emoji Proposals",
+        "Trending on lobste.rs/programming — 54 points, 16 comments.",
+        "Submitted by carlana on lobste.rs/programming."
       ]
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "Twenty One Zero-Days in FFmpeg",
-      "url": "https://depthfirst.com/research/21-zero-days-in-ffmpeg",
-      "discuss_url": "https://news.ycombinator.com/item?id=48510046",
-      "score": 247,
-      "comments": 159,
-      "author": "redbell",
-      "published": "2026-06-12T22:13:29Z",
+      "title": "Arch Linux Now Believes Malware Incident Under Control: More Than 1,500 Packages",
+      "url": "https://www.phoronix.com/news/Arch-Linux-AUR-More-Than-1500",
+      "discuss_url": "https://news.ycombinator.com/item?id=48516379",
+      "score": 234,
+      "comments": 144,
+      "author": "qwertox",
+      "published": "2026-06-13T11:55:30Z",
       "bullets": [
-        "FFmpeg's 21 newly disclosed vulnerabilities expose widespread media-parsing pipelines to critical memory corruption and remote code execution risks.",
-        "SecOps must identify deep FFmpeg dependencies in applications, immediately update binaries, and implement strict sandboxing for untrusted media files.",
-        "The flaws highlight persistent memory-safety risks in legacy C/C++ codecs, driving the industry-wide push toward memory-safe alternatives like Rust."
+        "Arch Linux Now Believes Malware Incident Under Control: More Than 1,500 Packages",
+        "Trending on news.ycombinator.com — 234 points, 144 comments.",
+        "Submitted by qwertox on news.ycombinator.com."
       ]
     },
     {
@@ -88,35 +88,47 @@
       "title": "AI Agent Bankrupted Their Operator While Trying to Scan DN42",
       "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
       "discuss_url": "https://lobste.rs/s/ishgbs",
-      "score": 149,
-      "comments": 27,
+      "score": 150,
+      "comments": 28,
       "author": "pyfisch",
       "published": "2026-06-12T05:59:29Z",
       "bullets": [
-        "Uncapped LLM API budgets for autonomous agents scanning networks like DN42 risk rapid financial exhaustion through recursive query loops.",
-        "Implement strict token limits, hard budget caps, and real-time monitoring to prevent autonomous AI agents from causing financial denial-of-service.",
-        "DN42’s decentralized routing topology can trap naive AI scanners in infinite reasoning loops, exponentially multiplying LLM token costs."
+        "AI Agent Bankrupted Their Operator While Trying to Scan DN42",
+        "Trending on lobste.rs/devops — 150 points, 28 comments.",
+        "Submitted by pyfisch on lobste.rs/devops."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Threads of underground fungal networks are long enough to reach beyond the Solar System",
-      "url": "https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/",
+      "title": "Review: Disclosure Day is big on action, light on ideas",
+      "url": "https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/",
+      "discuss_url": "https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/",
       "score": null,
       "comments": null,
-      "author": "Wyatt Myskow, Inside Climate News",
-      "published": "2026-06-13T11:18:42Z",
+      "author": "Jennifer Ouellette",
+      "published": "2026-06-13T17:17:44Z",
       "bullets": [
-        "Researchers mapped the global length and mass of arbuscular mycorrhizal fungal (AMF) networks for the first time.",
-        "This planetary-scale ecological dataset enables precise carbon sequestration modeling and agricultural biotechnology optimization.",
-        "The decentralized architecture of global AMF networks offers design principles for resilient, bio-inspired physical routing grids."
+        "There's nothing new or surprising, but it's still an entertaining film from one of our greatest directors.",
+        "Review: Disclosure Day is big on action, light on ideas",
+        "Submitted by Jennifer Ouellette on arstechnica.com."
       ]
     }
   ],
   "discussions": [
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Amazon CEO's Talks with U.S. Officials Triggered Crackdown on Anthropic Models",
+      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578",
+      "discuss_url": "https://news.ycombinator.com/item?id=48519092",
+      "score": 199,
+      "comments": 177,
+      "author": "ls612",
+      "published": "2026-06-13T16:57:49Z"
+    },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
@@ -136,22 +148,10 @@
       "title": "Claude Fable is relentlessly proactive",
       "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
       "discuss_url": "https://news.ycombinator.com/item?id=48498573",
-      "score": 751,
-      "comments": 650,
+      "score": 757,
+      "comments": 649,
       "author": "lumpa",
       "published": "2026-06-12T01:06:51Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Claude Fable 5: mid-tier results on coding tasks",
-      "url": "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
-      "discuss_url": "https://news.ycombinator.com/item?id=48492210",
-      "score": 402,
-      "comments": 240,
-      "author": "bugvader",
-      "published": "2026-06-11T16:03:21Z"
     },
     {
       "source": "lobsters",
@@ -164,18 +164,6 @@
       "comments": 0,
       "author": "tomeraberbach",
       "published": "2026-06-12T19:10:55Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Claude Fable 5 and Claude Mythos 5",
-      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-      "discuss_url": "https://lobste.rs/s/5hxwqt",
-      "score": 5,
-      "comments": 6,
-      "author": "mattwatson",
-      "published": "2026-06-09T17:14:31Z"
     },
     {
       "source": "lobsters",
@@ -200,30 +188,6 @@
       "comments": 0,
       "author": "FedericoSchonborn",
       "published": "2026-06-09T21:14:52Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "chromiumfish: A stealth Chromium build with a drop-in Playwright harness for Python and Node",
-      "url": "https://github.com/arman-bd/chromiumfish",
-      "discuss_url": "https://lobste.rs/s/frcjak",
-      "score": 1,
-      "comments": 8,
-      "author": "ndegruchy",
-      "published": "2026-06-09T16:00:05Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "What about OpenCL and CUDA C++ alternatives?",
-      "url": "https://www.modular.com/blog/democratizing-ai-compute-part-5-what-about-cuda-c-alternatives",
-      "discuss_url": "https://lobste.rs/s/s8eigz",
-      "score": 1,
-      "comments": 0,
-      "author": "eatonphil",
-      "published": "2026-06-09T15:41:12Z"
     },
     {
       "source": "rss",
@@ -262,14 +226,50 @@
       "published": "2026-06-09T15:56:23Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "discuss_url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-09T10:46:19Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Migrating Your GitHub CI to Hugging Face Jobs",
+      "url": "https://huggingface.co/blog/github-ci-hf-jobs",
+      "discuss_url": "https://huggingface.co/blog/github-ci-hf-jobs",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-09T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "The Open Source Community is backing OpenEnv for Agentic RL",
+      "url": "https://huggingface.co/blog/openenv-agentic-rl",
+      "discuss_url": "https://huggingface.co/blog/openenv-agentic-rl",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-08T00:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Rejected Emoji Proposals",
       "url": "https://charlottebuff.com/unicode/misc/rejected-emoji-proposals/",
       "discuss_url": "https://lobste.rs/s/tigq8d",
-      "score": 39,
-      "comments": 12,
+      "score": 54,
+      "comments": 16,
       "author": "carlana",
       "published": "2026-06-13T02:17:01Z"
     },
@@ -280,8 +280,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/qnv1dy",
       "discuss_url": "https://lobste.rs/s/qnv1dy",
-      "score": 17,
-      "comments": 33,
+      "score": 18,
+      "comments": 34,
       "author": "caius",
       "published": "2026-06-12T13:04:47Z"
     },
@@ -292,7 +292,7 @@
       "title": "erm: A Local CLI That Strips Ums, Uhs, and Erms From Speech",
       "url": "https://doug.sh/posts/erm-a-local-cli-that-strips-ums-uhs-and-erms-from-speech/",
       "discuss_url": "https://lobste.rs/s/n5gyfj",
-      "score": 13,
+      "score": 16,
       "comments": 3,
       "author": "Yogthos",
       "published": "2026-06-12T17:23:35Z"
@@ -316,7 +316,7 @@
       "title": "A columnar database for analytics in pure Clojure",
       "url": "https://github.com/yogthos/flatiron",
       "discuss_url": "https://lobste.rs/s/8mcck8",
-      "score": 17,
+      "score": 18,
       "comments": 0,
       "author": "Yogthos",
       "published": "2026-06-12T17:06:44Z"
@@ -332,18 +332,6 @@
       "comments": 42,
       "author": "0x2ba22e11",
       "published": "2026-06-10T18:13:56Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "rayforce: SIMD-accelerated columnar database for analytics — pure C, zero dependencies",
-      "url": "https://github.com/RayforceDB/rayforce",
-      "discuss_url": "https://lobste.rs/s/vbhkt9",
-      "score": 3,
-      "comments": 1,
-      "author": "Yogthos",
-      "published": "2026-06-09T19:22:55Z"
     },
     {
       "source": "rss",
@@ -406,14 +394,38 @@
       "published": "2026-06-09T16:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "GitHub for Beginners: Answers to some common questions",
+      "url": "https://github.blog/developer-skills/github/github-for-beginners-answers-to-some-common-questions/",
+      "discuss_url": "https://github.blog/developer-skills/github/github-for-beginners-answers-to-some-common-questions/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-06-08T16:00:00Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "Arch Linux Now Believes Malware Incident Under Control: More Than 1,500 Packages",
+      "url": "https://www.phoronix.com/news/Arch-Linux-AUR-More-Than-1500",
+      "discuss_url": "https://news.ycombinator.com/item?id=48516379",
+      "score": 234,
+      "comments": 144,
+      "author": "qwertox",
+      "published": "2026-06-13T11:55:30Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Twenty One Zero-Days in FFmpeg",
       "url": "https://depthfirst.com/research/21-zero-days-in-ffmpeg",
       "discuss_url": "https://news.ycombinator.com/item?id=48510046",
-      "score": 247,
-      "comments": 159,
+      "score": 272,
+      "comments": 179,
       "author": "redbell",
       "published": "2026-06-12T22:13:29Z"
     },
@@ -424,22 +436,10 @@
       "title": "Malware developers added nuclear and biological weapons text to to their spyware",
       "url": "https://twitter.com/jsrailton/status/2064661778978533571",
       "discuss_url": "https://news.ycombinator.com/item?id=48495928",
-      "score": 424,
-      "comments": 227,
+      "score": 442,
+      "comments": 233,
       "author": "marc__1",
       "published": "2026-06-11T20:24:18Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "security",
-      "title": "The RCE that AMD wouldn't fix",
-      "url": "https://mrbruh.com/amd2/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48492215",
-      "score": 317,
-      "comments": 123,
-      "author": "MrBruh",
-      "published": "2026-06-11T16:03:40Z"
     },
     {
       "source": "lobsters",
@@ -448,8 +448,8 @@
       "title": "Hundreds of AUR packages attacked by infostealer",
       "url": "https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/FGXPCB3ZVCJIV7FX323SBAX2JHYB7ZS4/",
       "discuss_url": "https://lobste.rs/s/ta0sem",
-      "score": 140,
-      "comments": 71,
+      "score": 143,
+      "comments": 72,
       "author": "vivicat",
       "published": "2026-06-11T19:36:02Z"
     },
@@ -484,7 +484,7 @@
       "title": "Unicode composition for filenames (2008)",
       "url": "https://svn.apache.org/repos/asf/subversion/trunk/notes/unicode-composition-for-filenames",
       "discuss_url": "https://lobste.rs/s/g3jf3e",
-      "score": 5,
+      "score": 6,
       "comments": 2,
       "author": "runxiyu",
       "published": "2026-06-12T13:09:04Z"
@@ -556,8 +556,8 @@
       "title": "AI Agent Bankrupted Their Operator While Trying to Scan DN42",
       "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
       "discuss_url": "https://lobste.rs/s/ishgbs",
-      "score": 149,
-      "comments": 27,
+      "score": 150,
+      "comments": 28,
       "author": "pyfisch",
       "published": "2026-06-12T05:59:29Z"
     },
@@ -697,6 +697,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "Review: Disclosure Day is big on action, light on ideas",
+      "url": "https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/",
+      "discuss_url": "https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-06-13T17:17:44Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "Threads of underground fungal networks are long enough to reach beyond the Solar System",
       "url": "https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/",
       "discuss_url": "https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Ryan Whitwam",
       "published": "2026-06-12T16:34:36Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "RFK Jr. melts down over NYT report, admits he blacklists reporters",
-      "url": "https://arstechnica.com/health/2026/06/rfk-jr-melts-down-over-nyt-report-admits-he-blacklists-reporters/",
-      "discuss_url": "https://arstechnica.com/health/2026/06/rfk-jr-melts-down-over-nyt-report-admits-he-blacklists-reporters/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-06-12T16:19:44Z"
     }
   ]
 }
