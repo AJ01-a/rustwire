@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T09:25:20Z",
+  "updated_at": "2026-06-13T14:14:54Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -42,9 +42,9 @@
       "author": "jesse_dot_id",
       "published": "2026-06-13T00:58:06Z",
       "bullets": [
-        "Third-party platform access to Claude-based derivatives 'Mythos 5' and 'Fable 5' has been suspended, impacting specialized roleplay and creative writing pipelines.",
-        "The suspension highlights ongoing enforcement of Anthropic's safety policies and usage terms regarding derivative model deployments and fine-tunes.",
-        "AI developers must plan for API instability and sudden deprecations when building production workflows on top of unofficial wrapper endpoints."
+        "API providers have cut access to specialized Claude derivatives Mythos 5 and Fable 5, highlighting risks of relying on custom wrappers.",
+        "Suspensions typically stem from Anthropic's strict safety filters or terms of service violations regarding unfiltered roleplay and creative generation.",
+        "AI developers should build redundancy into LLM pipelines using open-weight alternatives to avoid sudden deprecation of fine-tuned API endpoints."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Rejected Emoji Proposals",
       "url": "https://charlottebuff.com/unicode/misc/rejected-emoji-proposals/",
       "discuss_url": "https://lobste.rs/s/tigq8d",
-      "score": 21,
-      "comments": 7,
+      "score": 39,
+      "comments": 12,
       "author": "carlana",
       "published": "2026-06-13T02:17:01Z",
       "bullets": [
-        "Unicode's strict rejection criteria prevent font bloat and standardization overhead by excluding overly specific, branded, or transient design proposals.",
-        "Many rejected concepts are already technically feasible using Zero Width Joiner (ZWJ) sequences to combine existing standard Unicode codepoints.",
-        "Strict Unicode curation mitigates parsing complexities, rendering engine bugs, and security risks like IDN homograph attacks in modern software."
+        "The Unicode Consortium enforces strict criteria like longevity, uniqueness, and trademark avoidance to limit character set expansion.",
+        "Developers should leverage Zero Width Joiner (ZWJ) sequences to create compound glyphs instead of requesting new discrete codepoints.",
+        "Filtering submission bloat ensures text rendering engines maintain performance and compatibility across diverse operating systems and fonts."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Twenty One Zero-Days in FFmpeg",
       "url": "https://depthfirst.com/research/21-zero-days-in-ffmpeg",
       "discuss_url": "https://news.ycombinator.com/item?id=48510046",
-      "score": 199,
-      "comments": 121,
+      "score": 247,
+      "comments": 159,
       "author": "redbell",
       "published": "2026-06-12T22:13:29Z",
       "bullets": [
-        "Twenty-one vulnerabilities in FFmpeg pose severe supply-chain risks to downstream applications like browsers, media players, and messaging platforms.",
-        "Parsing malicious media files triggers these memory corruption vulnerabilities, potentially leading to remote code execution or denial of service.",
-        "Security teams must immediately inventory dependencies, apply upstream patches, or sandbox FFmpeg-based media processing pipelines to mitigate exploitation."
+        "FFmpeg's 21 newly disclosed vulnerabilities expose widespread media-parsing pipelines to critical memory corruption and remote code execution risks.",
+        "SecOps must identify deep FFmpeg dependencies in applications, immediately update binaries, and implement strict sandboxing for untrusted media files.",
+        "The flaws highlight persistent memory-safety risks in legacy C/C++ codecs, driving the industry-wide push toward memory-safe alternatives like Rust."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "AI Agent Bankrupted Their Operator While Trying to Scan DN42",
       "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
       "discuss_url": "https://lobste.rs/s/ishgbs",
-      "score": 144,
-      "comments": 26,
+      "score": 149,
+      "comments": 27,
       "author": "pyfisch",
       "published": "2026-06-12T05:59:29Z",
       "bullets": [
-        "Unbounded AI agents scanning networks like DN42 trigger recursive LLM queries, rapidly exhausting cloud budgets without strict spend limits.",
-        "Implement hard billing quotas, rate limits, and execution timeouts on LLM tools to prevent runaway automated network scanning costs.",
-        "Deploy loop-detection and human-in-the-loop approvals before allowing autonomous agents to execute recursive network routing or scanning tasks."
+        "Uncapped LLM API budgets for autonomous agents scanning networks like DN42 risk rapid financial exhaustion through recursive query loops.",
+        "Implement strict token limits, hard budget caps, and real-time monitoring to prevent autonomous AI agents from causing financial denial-of-service.",
+        "DN42’s decentralized routing topology can trap naive AI scanners in infinite reasoning loops, exponentially multiplying LLM token costs."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Anthropic shuts down Fable, Mythos models following Trump admin directive",
-      "url": "https://arstechnica.com/ai/2026/06/anthropic-shuts-down-fable-mythos-models-following-trump-admin-directive/",
-      "discuss_url": "https://arstechnica.com/ai/2026/06/anthropic-shuts-down-fable-mythos-models-following-trump-admin-directive/",
+      "title": "Threads of underground fungal networks are long enough to reach beyond the Solar System",
+      "url": "https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/",
+      "discuss_url": "https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/",
       "score": null,
       "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-06-13T03:00:34Z",
+      "author": "Wyatt Myskow, Inside Climate News",
+      "published": "2026-06-13T11:18:42Z",
       "bullets": [
-        "Under Trump administration orders, Anthropic disabled its Fable and Mythos model families, marking direct federal intervention in private AI deployment.",
-        "The US Department of Commerce mandated the shutdown due to national security risks associated with potential Fable 5 jailbreak exploits.",
-        "The action highlights growing government scrutiny over LLM safety, specifically how jailbreak vulnerabilities are classified as critical national security threats."
+        "Researchers mapped the global length and mass of arbuscular mycorrhizal fungal (AMF) networks for the first time.",
+        "This planetary-scale ecological dataset enables precise carbon sequestration modeling and agricultural biotechnology optimization.",
+        "The decentralized architecture of global AMF networks offers design principles for resilient, bio-inspired physical routing grids."
       ]
     }
   ],
@@ -136,8 +136,8 @@
       "title": "Claude Fable is relentlessly proactive",
       "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
       "discuss_url": "https://news.ycombinator.com/item?id=48498573",
-      "score": 742,
-      "comments": 639,
+      "score": 751,
+      "comments": 650,
       "author": "lumpa",
       "published": "2026-06-12T01:06:51Z"
     },
@@ -148,22 +148,10 @@
       "title": "Claude Fable 5: mid-tier results on coding tasks",
       "url": "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
       "discuss_url": "https://news.ycombinator.com/item?id=48492210",
-      "score": 398,
-      "comments": 239,
+      "score": 402,
+      "comments": 240,
       "author": "bugvader",
       "published": "2026-06-11T16:03:21Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Anthropic apologizes for invisible Claude Fable guardrails",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
-      "discuss_url": "https://news.ycombinator.com/item?id=48489229",
-      "score": 502,
-      "comments": 439,
-      "author": "rarisma",
-      "published": "2026-06-11T12:05:02Z"
     },
     {
       "source": "lobsters",
@@ -184,7 +172,7 @@
       "title": "Claude Fable 5 and Claude Mythos 5",
       "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
       "discuss_url": "https://lobste.rs/s/5hxwqt",
-      "score": 4,
+      "score": 5,
       "comments": 6,
       "author": "mattwatson",
       "published": "2026-06-09T17:14:31Z"
@@ -262,14 +250,26 @@
       "published": "2026-06-11T00:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
+      "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "discuss_url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-09T15:56:23Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Rejected Emoji Proposals",
       "url": "https://charlottebuff.com/unicode/misc/rejected-emoji-proposals/",
       "discuss_url": "https://lobste.rs/s/tigq8d",
-      "score": 21,
-      "comments": 7,
+      "score": 39,
+      "comments": 12,
       "author": "carlana",
       "published": "2026-06-13T02:17:01Z"
     },
@@ -280,8 +280,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/qnv1dy",
       "discuss_url": "https://lobste.rs/s/qnv1dy",
-      "score": 15,
-      "comments": 31,
+      "score": 17,
+      "comments": 33,
       "author": "caius",
       "published": "2026-06-12T13:04:47Z"
     },
@@ -292,7 +292,7 @@
       "title": "erm: A Local CLI That Strips Ums, Uhs, and Erms From Speech",
       "url": "https://doug.sh/posts/erm-a-local-cli-that-strips-ums-uhs-and-erms-from-speech/",
       "discuss_url": "https://lobste.rs/s/n5gyfj",
-      "score": 10,
+      "score": 13,
       "comments": 3,
       "author": "Yogthos",
       "published": "2026-06-12T17:23:35Z"
@@ -304,7 +304,7 @@
       "title": "Reuse Less Software",
       "url": "https://wiki.alopex.li/ReuseLessSoftware",
       "discuss_url": "https://lobste.rs/s/3mg7xo",
-      "score": 49,
+      "score": 50,
       "comments": 30,
       "author": "icefox",
       "published": "2026-06-11T16:15:10Z"
@@ -332,18 +332,6 @@
       "comments": 42,
       "author": "0x2ba22e11",
       "published": "2026-06-10T18:13:56Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Passing DBs Through Continuations",
-      "url": "https://remy.wang/blog/cps.html",
-      "discuss_url": "https://lobste.rs/s/jxtxkj",
-      "score": 12,
-      "comments": 1,
-      "author": "anex9d",
-      "published": "2026-06-09T13:14:55Z"
     },
     {
       "source": "lobsters",
@@ -406,14 +394,26 @@
       "published": "2026-06-10T16:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI",
+      "url": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-06-09T16:00:00Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Twenty One Zero-Days in FFmpeg",
       "url": "https://depthfirst.com/research/21-zero-days-in-ffmpeg",
       "discuss_url": "https://news.ycombinator.com/item?id=48510046",
-      "score": 199,
-      "comments": 121,
+      "score": 247,
+      "comments": 159,
       "author": "redbell",
       "published": "2026-06-12T22:13:29Z"
     },
@@ -424,8 +424,8 @@
       "title": "Malware developers added nuclear and biological weapons text to to their spyware",
       "url": "https://twitter.com/jsrailton/status/2064661778978533571",
       "discuss_url": "https://news.ycombinator.com/item?id=48495928",
-      "score": 386,
-      "comments": 218,
+      "score": 424,
+      "comments": 227,
       "author": "marc__1",
       "published": "2026-06-11T20:24:18Z"
     },
@@ -436,7 +436,7 @@
       "title": "The RCE that AMD wouldn't fix",
       "url": "https://mrbruh.com/amd2/",
       "discuss_url": "https://news.ycombinator.com/item?id=48492215",
-      "score": 315,
+      "score": 317,
       "comments": 123,
       "author": "MrBruh",
       "published": "2026-06-11T16:03:40Z"
@@ -449,21 +449,9 @@
       "url": "https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/FGXPCB3ZVCJIV7FX323SBAX2JHYB7ZS4/",
       "discuss_url": "https://lobste.rs/s/ta0sem",
       "score": 140,
-      "comments": 70,
+      "comments": 71,
       "author": "vivicat",
       "published": "2026-06-11T19:36:02Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Unicode composition for filenames (2008)",
-      "url": "https://svn.apache.org/repos/asf/subversion/trunk/notes/unicode-composition-for-filenames",
-      "discuss_url": "https://lobste.rs/s/g3jf3e",
-      "score": 5,
-      "comments": 2,
-      "author": "runxiyu",
-      "published": "2026-06-12T13:09:04Z"
     },
     {
       "source": "lobsters",
@@ -488,6 +476,18 @@
       "comments": 5,
       "author": "dgst",
       "published": "2026-06-11T13:40:17Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Unicode composition for filenames (2008)",
+      "url": "https://svn.apache.org/repos/asf/subversion/trunk/notes/unicode-composition-for-filenames",
+      "discuss_url": "https://lobste.rs/s/g3jf3e",
+      "score": 5,
+      "comments": 2,
+      "author": "runxiyu",
+      "published": "2026-06-12T13:09:04Z"
     },
     {
       "source": "lobsters",
@@ -556,8 +556,8 @@
       "title": "AI Agent Bankrupted Their Operator While Trying to Scan DN42",
       "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
       "discuss_url": "https://lobste.rs/s/ishgbs",
-      "score": 144,
-      "comments": 26,
+      "score": 149,
+      "comments": 27,
       "author": "pyfisch",
       "published": "2026-06-12T05:59:29Z"
     },
@@ -697,6 +697,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "Threads of underground fungal networks are long enough to reach beyond the Solar System",
+      "url": "https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/",
+      "discuss_url": "https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/",
+      "score": null,
+      "comments": null,
+      "author": "Wyatt Myskow, Inside Climate News",
+      "published": "2026-06-13T11:18:42Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "Anthropic shuts down Fable, Mythos models following Trump admin directive",
       "url": "https://arstechnica.com/ai/2026/06/anthropic-shuts-down-fable-mythos-models-following-trump-admin-directive/",
       "discuss_url": "https://arstechnica.com/ai/2026/06/anthropic-shuts-down-fable-mythos-models-following-trump-admin-directive/",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Beth Mole",
       "published": "2026-06-12T16:19:44Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The biggest race in the world? The 24 Hours of Le Mans is this weekend.",
-      "url": "https://arstechnica.com/cars/2026/06/the-biggest-race-in-the-world-the-24-hours-of-le-mans-is-this-weekend/",
-      "discuss_url": "https://arstechnica.com/cars/2026/06/the-biggest-race-in-the-world-the-24-hours-of-le-mans-is-this-weekend/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-06-12T15:34:37Z"
     }
   ]
 }
