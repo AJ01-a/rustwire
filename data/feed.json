@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T14:12:04Z",
+  "updated_at": "2026-06-14T19:42:36Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
-      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
-      "discuss_url": "https://news.ycombinator.com/item?id=48519092",
-      "score": 740,
-      "comments": 548,
-      "author": "ls612",
-      "published": "2026-06-13T16:57:49Z",
+      "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+      "url": "https://github.com/nex-agi/Nex-N2/issues/4",
+      "discuss_url": "https://news.ycombinator.com/item?id=48528371",
+      "score": 182,
+      "comments": 104,
+      "author": "unrvl22",
+      "published": "2026-06-14T15:37:31Z",
       "bullets": [
-        "Amazon CEO's complaints about Microsoft's G42 deal backfired, prompting US national security reviews of AWS's own overseas Anthropic deployments.",
-        "The US government is tightening export controls on frontier models like Claude to prevent foreign state-backed entities from accessing weights.",
-        "Cloud providers face intense regulatory scrutiny when hosting LLMs internationally, complicating global AWS and Azure sovereign cloud strategies."
+        "Technical analysis suggests Rio's municipal LLM is a merge of existing open-weights models rather than a custom pre-trained system.",
+        "Model merging via tools like mergekit enables rapid, low-cost LLM creation, but risks deceptive sovereign AI branding by public entities.",
+        "Practitioners should use lineage tracking, license compliance audits, and evaluation benchmarks to verify claims of novel, custom-built AI models."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "Rejected Emoji Proposals",
       "url": "https://charlottebuff.com/unicode/misc/rejected-emoji-proposals/",
       "discuss_url": "https://lobste.rs/s/tigq8d",
-      "score": 76,
-      "comments": 19,
+      "score": 79,
+      "comments": 20,
       "author": "carlana",
       "published": "2026-06-13T02:17:01Z",
       "bullets": [
-        "The Unicode Consortium rejects emoji proposals violating strict criteria like transient popularity, brand representation, or lack of distinct visual identity.",
-        "Downstream engineers face complexities from emoji expansion, including font payload bloat, collation challenges, and rendering engine inconsistencies across OS platforms.",
-        "Filtering emoji proposals prevents character set bloat and limits homograph attacks, preserving parsing efficiency and text processing security in applications."
+        "The Unicode Consortium rejects emoji proposals violating criteria like transient popularity, brand representation, or capability of representation via existing sequences.",
+        "Managing emoji parsing requires handling Zero-Width Joiners (ZWJ) and complex grapheme clusters, impacting text rendering pipelines and storage overhead.",
+        "Unicode Technical Committee (UTC) documents rejected proposals to prevent duplicate submissions and guide developers on future character encoding submissions."
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "Arch Linux AUR Hit By Another Wave Of Now More Sophisticated Malware Attack",
-      "url": "https://www.phoronix.com/news/Arch-Linux-AUR-More-Malware",
-      "discuss_url": "https://lobste.rs/s/jlavzd",
-      "score": 11,
-      "comments": 9,
-      "author": "alemi",
-      "published": "2026-06-14T10:48:27Z",
+      "title": "Arch Linux Now Believes Malware Incident Under Control: More Than 1,500 Packages",
+      "url": "https://www.phoronix.com/news/Arch-Linux-AUR-More-Than-1500",
+      "discuss_url": "https://news.ycombinator.com/item?id=48516379",
+      "score": 310,
+      "comments": 199,
+      "author": "qwertox",
+      "published": "2026-06-13T11:55:30Z",
       "bullets": [
-        "Arch User Repository (AUR) faced sophisticated malware targeting PKGBUILD files to execute arbitrary code during compilation and installation.",
-        "Attackers exploited unvetted, community-maintained packages to deliver malicious payloads, highlighting critical open-source software supply chain vulnerabilities.",
-        "SecOps should restrict AUR helpers on production endpoints and mandate manual inspection of PKGBUILD scripts before execution."
+        "Arch Linux contained a supply chain compromise affecting over 1,500 packages, emphasizing risks in community-supported repository ecosystems.",
+        "DevSecOps teams must audit Arch-based infrastructure, verifying PGP keys and package integrity hashes against trusted upstream sources.",
+        "Mitigation requires rotating compromised build credentials and scanning development environments for unauthorized post-install scripts."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "pyfisch",
       "published": "2026-06-12T05:59:29Z",
       "bullets": [
-        "Unconstrained AI agents scanning decentralized networks like DN42 can trigger recursive loops, leading to rapid API or cloud budget exhaustion.",
-        "DevOps must implement hard spending limits, strict API rate-limiting, and automated circuit breakers to prevent runaway autonomous agent spending.",
-        "Scanning non-standard networks like DN42 requires deterministic boundary controls; LLMs cannot safely navigate complex routing loops without execution sandboxes."
+        "Uncapped AI agents scanning complex networks like DN42 can trigger recursive loops, leading to rapid, catastrophic API billing exhaustion.",
+        "DevOps must implement strict token-limit guardrails, budget caps, and hard timeouts on all autonomous agent API integrations.",
+        "Real-time billing alerts and automated kill-switches are critical when deploying LLM agents with access to dynamic external network tools."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Review: Disclosure Day is big on action, light on ideas",
-      "url": "https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/",
-      "discuss_url": "https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/",
+      "title": "Did a medieval flying monk spot Halley's comet, twice? It's complicated",
+      "url": "https://arstechnica.com/science/2026/06/did-a-medieval-flying-monk-spot-halleys-comet-twice-its-complicated/",
+      "discuss_url": "https://arstechnica.com/science/2026/06/did-a-medieval-flying-monk-spot-halleys-comet-twice-its-complicated/",
       "score": null,
       "comments": null,
       "author": "Jennifer Ouellette",
-      "published": "2026-06-13T17:17:44Z",
+      "published": "2026-06-14T16:02:53Z",
       "bullets": [
-        "Ars Technica reviews a new tech-themed film, noting it prioritizes cinematic action over novel intellectual concepts or technical depth.",
-        "The movie delivers high entertainment value from an acclaimed director but lacks fresh insights for modern security or IT practitioners.",
-        "Professionals seeking rigorous analysis of vulnerability disclosure or industry-aligned technical realism will find the narrative light on substance."
+        "A University of Leicester historian suggests medieval monk Eilmer of Malmesbury recorded two distinct comets in 1018 and 1066.",
+        "While the 1066 sighting was indeed Halley's Comet, evidence indicates the 1018 observation was an entirely different celestial event.",
+        "The study underscores the complexity of reconciling ancient observational logs with modern astronomical and orbital data models."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+      "url": "https://github.com/nex-agi/Nex-N2/issues/4",
+      "discuss_url": "https://news.ycombinator.com/item?id=48528371",
+      "score": 182,
+      "comments": 104,
+      "author": "unrvl22",
+      "published": "2026-06-14T15:37:31Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
       "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
       "discuss_url": "https://news.ycombinator.com/item?id=48519092",
-      "score": 740,
-      "comments": 548,
+      "score": 767,
+      "comments": 572,
       "author": "ls612",
       "published": "2026-06-13T16:57:49Z"
     },
@@ -136,7 +148,7 @@
       "title": "The future of Siri, or: why private inference isn’t private enough",
       "url": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
       "discuss_url": "https://lobste.rs/s/tylzdy",
-      "score": 12,
+      "score": 17,
       "comments": 4,
       "author": "achivetta",
       "published": "2026-06-14T03:50:26Z"
@@ -250,26 +262,14 @@
       "published": "2026-06-09T10:46:19Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Migrating Your GitHub CI to Hugging Face Jobs",
-      "url": "https://huggingface.co/blog/github-ci-hf-jobs",
-      "discuss_url": "https://huggingface.co/blog/github-ci-hf-jobs",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-09T00:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Rejected Emoji Proposals",
       "url": "https://charlottebuff.com/unicode/misc/rejected-emoji-proposals/",
       "discuss_url": "https://lobste.rs/s/tigq8d",
-      "score": 76,
-      "comments": 19,
+      "score": 79,
+      "comments": 20,
       "author": "carlana",
       "published": "2026-06-13T02:17:01Z"
     },
@@ -308,18 +308,6 @@
       "comments": 3,
       "author": "Yogthos",
       "published": "2026-06-12T17:23:35Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Static types and shovels",
-      "url": "https://carefully.understood.systems/blog-2026-06-10-static-type-shovel.html",
-      "discuss_url": "https://lobste.rs/s/eiknm1",
-      "score": 38,
-      "comments": 42,
-      "author": "0x2ba22e11",
-      "published": "2026-06-10T18:13:56Z"
     },
     {
       "source": "lobsters",
@@ -406,16 +394,16 @@
       "published": "2026-06-08T16:00:00Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Arch Linux AUR Hit By Another Wave Of Now More Sophisticated Malware Attack",
-      "url": "https://www.phoronix.com/news/Arch-Linux-AUR-More-Malware",
-      "discuss_url": "https://lobste.rs/s/jlavzd",
-      "score": 11,
-      "comments": 9,
-      "author": "alemi",
-      "published": "2026-06-14T10:48:27Z"
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Designing CherryScript: Optimizing Data-Driven Workflows via Custom Python-Based Interpreters​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‌‌‍​‌‌‍‌‍​﻿​‍​﻿‍​​﻿‌‍​﻿​​​﻿​﻿​‍﻿‌​﻿​‍​﻿‌​​﻿‍‌​﻿‌​​‍﻿‌​﻿‌​‌‍‌‌​﻿​‌​﻿‌​​‍﻿‌‌‍​‍​﻿‌​​﻿‍‌‌‍​‍​‍﻿‌​﻿‍​​﻿‌‍‌‍‌​‌‍​‍​﻿‌‍‌‍​‍​﻿​﻿​﻿‌‌​﻿​​​﻿‌﻿‌‍​‌‌‍​‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‌‌‍​‌‌‍‌‍​﻿​‍​﻿‍​​﻿‌‍​﻿​​​﻿​﻿​‍﻿‌​﻿​‍​﻿‌​​﻿‍‌​﻿‌​​‍﻿‌​﻿‌​‌‍‌‌​﻿​‌​﻿‌​​‍﻿‌‌‍​‍​﻿‌​​﻿‍‌‌‍​‍​‍﻿‌​﻿‍​​﻿‌‍‌‍‌​‌‍​‍​﻿‌‍‌‍​‍​﻿​﻿​﻿‌‌​﻿​​​﻿‌﻿‌‍​‌‌‍​‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/06/12/designing-cherryscript-optimizing-data-driven-workflows-via-custom-python-based-interpreters/",
+      "discuss_url": "https://stackoverflow.blog/2026/06/12/designing-cherryscript-optimizing-data-driven-workflows-via-custom-python-based-interpreters/",
+      "score": null,
+      "comments": null,
+      "author": "Ahmad Ishanzai",
+      "published": "2026-06-12T16:17:10Z"
     },
     {
       "source": "hackernews",
@@ -424,8 +412,8 @@
       "title": "Arch Linux Now Believes Malware Incident Under Control: More Than 1,500 Packages",
       "url": "https://www.phoronix.com/news/Arch-Linux-AUR-More-Than-1500",
       "discuss_url": "https://news.ycombinator.com/item?id=48516379",
-      "score": 305,
-      "comments": 188,
+      "score": 310,
+      "comments": 199,
       "author": "qwertox",
       "published": "2026-06-13T11:55:30Z"
     },
@@ -436,8 +424,8 @@
       "title": "Twenty One Zero-Days in FFmpeg",
       "url": "https://depthfirst.com/research/21-zero-days-in-ffmpeg",
       "discuss_url": "https://news.ycombinator.com/item?id=48510046",
-      "score": 284,
-      "comments": 193,
+      "score": 285,
+      "comments": 195,
       "author": "redbell",
       "published": "2026-06-12T22:13:29Z"
     },
@@ -448,8 +436,8 @@
       "title": "Hundreds of AUR packages attacked by infostealer",
       "url": "https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/FGXPCB3ZVCJIV7FX323SBAX2JHYB7ZS4/",
       "discuss_url": "https://lobste.rs/s/ta0sem",
-      "score": 143,
-      "comments": 72,
+      "score": 144,
+      "comments": 99,
       "author": "vivicat",
       "published": "2026-06-11T19:36:02Z"
     },
@@ -493,22 +481,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "A human in control",
-      "url": "https://daniel.haxx.se/blog/2026/06/10/a-human-in-control/",
-      "discuss_url": "https://lobste.rs/s/p4ey1w",
-      "score": 27,
-      "comments": 3,
-      "author": "jturner",
-      "published": "2026-06-10T16:18:11Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Lets Encrypt June ToS Update: no more for US sanctioned people",
       "url": "https://letsencrypt.org/documents/LE-SA-v1.7-June-04-2026-diff.pdf",
       "discuss_url": "https://lobste.rs/s/xo62fe",
-      "score": 11,
+      "score": 12,
       "comments": 7,
       "author": "gnunicorn",
       "published": "2026-06-11T00:13:18Z"
@@ -538,16 +514,40 @@
       "published": "2026-06-11T10:57:46Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
+      "source": "rss",
+      "subsource": "krebsonsecurity.com",
       "category": "security",
-      "title": "ITScape: Guest-to-Host Escape in KVM/arm64",
-      "url": "https://github.com/V4bel/ITScape",
-      "discuss_url": "https://lobste.rs/s/jst2wq",
-      "score": 3,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-06-10T19:00:36Z"
+      "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
+      "url": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+      "discuss_url": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+      "score": null,
+      "comments": null,
+      "author": "BrianKrebs",
+      "published": "2026-06-10T14:03:44Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "krebsonsecurity.com",
+      "category": "security",
+      "title": "A Record-Breaking Patch Tuesday for June 2026",
+      "url": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
+      "discuss_url": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
+      "score": null,
+      "comments": null,
+      "author": "BrianKrebs",
+      "published": "2026-06-09T22:07:28Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
+      "url": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
+      "discuss_url": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-13T13:23:03Z"
     },
     {
       "source": "lobsters",
@@ -697,6 +697,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "Did a medieval flying monk spot Halley's comet, twice? It's complicated",
+      "url": "https://arstechnica.com/science/2026/06/did-a-medieval-flying-monk-spot-halleys-comet-twice-its-complicated/",
+      "discuss_url": "https://arstechnica.com/science/2026/06/did-a-medieval-flying-monk-spot-halleys-comet-twice-its-complicated/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-06-14T16:02:53Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "Review: Disclosure Day is big on action, light on ideas",
       "url": "https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/",
       "discuss_url": "https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Kyle Orland",
       "published": "2026-06-12T16:51:38Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Google sues Chinese cybercrime network that used Gemini to automate scams",
-      "url": "https://arstechnica.com/google/2026/06/google-sues-chinese-cybercrime-network-that-used-gemini-to-automate-scams/",
-      "discuss_url": "https://arstechnica.com/google/2026/06/google-sues-chinese-cybercrime-network-that-used-gemini-to-automate-scams/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-06-12T16:34:36Z"
     }
   ]
 }
