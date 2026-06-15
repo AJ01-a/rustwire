@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T04:50:28Z",
+  "updated_at": "2026-06-15T12:27:06Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,65 +37,65 @@
       "title": "Did Anthropic ask for this?",
       "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
       "discuss_url": "https://news.ycombinator.com/item?id=48533504",
-      "score": 172,
-      "comments": 148,
+      "score": 186,
+      "comments": 157,
       "author": "ad8e",
       "published": "2026-06-14T22:23:05Z",
       "bullets": [
-        "Anthropic's crawler, ClaudeBot, is accused of aggressive scraping, high server loads, and ignoring robots.txt files across various web properties.",
-        "Developers face escalating hosting costs and must deploy advanced rate-limiting or Cloudflare rules to block aggressive LLM training crawlers.",
-        "The dispute underscores the tension between web publishers and AI labs over unauthorized data ingestion for training models like Claude 3.5."
+        "ClaudeBot aggressively crawls websites, frequently ignoring crawl-delay rules in robots.txt, forcing DevOps teams to implement hard IP blocks.",
+        "Claude 3.5 Sonnet's 'Computer Use' API introduces severe prompt injection risks, potentially allowing malicious sites to hijack host operating systems.",
+        "Anthropic's official system prompts reveal heavy reliance on structured XML tags to manage Claude's behavior, formatting, and tool-use capabilities."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "zinnia: a modular 64-bit Unix-like kernel written in Rust",
-      "url": "https://zinnia-os.org/",
-      "discuss_url": "https://lobste.rs/s/0ichrt",
-      "score": 34,
-      "comments": 1,
-      "author": "mrunix",
-      "published": "2026-06-14T21:05:27Z",
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/fwohh5",
+      "discuss_url": "https://lobste.rs/s/fwohh5",
+      "score": 4,
+      "comments": 4,
+      "author": "caius",
+      "published": "2026-06-15T09:46:08Z",
       "bullets": [
-        "Leverages Rust's strict memory safety and ownership model to eliminate common C-based kernel vulnerabilities like buffer overflows and double-frees.",
-        "Employs a modular architecture to isolate subsystems, enhancing driver stability and minimizing the blast radius of kernel panics.",
-        "Implements a 64-bit Unix-like design aiming for POSIX API compatibility, allowing traditional command-line tools to run."
+        "Engineers use weekly syncs to share progress on side projects, system migrations, and learning modern languages like Rust or Go.",
+        "Typical community discussions focus on optimizing PostgreSQL databases, automating deployments with NixOS, and managing technical debt in legacy codebases.",
+        "Active developers leverage community feedback on Lobsters to troubleshoot complex concurrency bugs and refine system architecture designs."
       ]
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "Arch Linux Now Believes Malware Incident Under Control: More Than 1,500 Packages",
-      "url": "https://www.phoronix.com/news/Arch-Linux-AUR-More-Than-1500",
-      "discuss_url": "https://news.ycombinator.com/item?id=48516379",
-      "score": 314,
-      "comments": 203,
-      "author": "qwertox",
-      "published": "2026-06-13T11:55:30Z",
+      "title": "Curl will not accept vulnerability reports during July 2026",
+      "url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48537165",
+      "score": 498,
+      "comments": 198,
+      "author": "secret-noun",
+      "published": "2026-06-15T06:02:57Z",
       "bullets": [
-        "Arch Linux has contained a security incident involving over 1,500 compromised packages, showcasing severe repository-scale supply chain vulnerabilities.",
-        "The attack targets community-maintained package systems like AUR, where trust-by-default ingestion pipelines can be exploited by malicious maintainers.",
-        "Engineers must audit Arch-based container images, enforce strict package signature verification, and block untrusted community repositories in production."
+        "Curl pauses vulnerability triage and its bug bounty program for July 2026 during a planned maintainer sabbatical.",
+        "Security researchers must delay submissions; unmonitored reports during this period risk coordinated disclosure timeline violations or unpatched zero-day exposure.",
+        "Organizations should monitor alternative threat intelligence feeds and anticipate delayed security patching cycles for curl in Q3 2026."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "AI Agent Bankrupted Their Operator While Trying to Scan DN42",
-      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
-      "discuss_url": "https://lobste.rs/s/ishgbs",
-      "score": 158,
-      "comments": 28,
-      "author": "pyfisch",
-      "published": "2026-06-12T05:59:29Z",
+      "title": "pyinfra — agentless infrastructure automation, in plain Python",
+      "url": "https://pyinfra.com",
+      "discuss_url": "https://lobste.rs/s/htfm3p",
+      "score": 10,
+      "comments": 4,
+      "author": "gregnavis",
+      "published": "2026-06-15T11:05:07Z",
       "bullets": [
-        "Autonomous LLM agents scanning decentralized networks like DN42 can trigger infinite recursive loops, leading to catastrophic API billing exhaustion.",
-        "DevOps must enforce strict hard spend limits, API rate limiting, and execution timeouts on LLM-driven infrastructure and security tools.",
-        "Implement real-time token/cost monitoring and human-in-the-loop approvals for autonomous agents interacting with dynamic, external network environments."
+        "An agentless configuration management tool using standard Python instead of YAML, executing state changes over SSH, WinRM, or local connectors.",
+        "Compiles execution state beforehand for faster deployments than Ansible, reducing runtime errors inherent in complex YAML playbooks.",
+        "Leverages the native Python ecosystem, enabling DevOps teams to integrate standard IDE debugging, pip packages, and programmatic APIs."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Jennifer Ouellette",
       "published": "2026-06-14T16:02:53Z",
       "bullets": [
-        "University of Leicester research indicates monk Eilmer of Malmesbury recorded two separate comet sightings, in 1018 and 1066.",
-        "The 1066 sighting is confirmed as Halley's Comet, while the 1018 observation represents a distinct, different astronomical event.",
-        "Eilmer, famous for an early 11th-century gliding attempt, provides some of the earliest recorded European observational data on comets."
+        "University of Leicester research suggests medieval monk Eilmer of Malmesbury recorded two distinct comet sightings, in 1018 and 1066.",
+        "The analysis refutes theories that Eilmer saw Halley's Comet twice, identifying the 1018 sighting as a separate celestial event.",
+        "Monastic records provide valuable long-baseline historical observations, helping modern astronomers verify past orbital trajectories and comet return cycles."
       ]
     }
   ],
@@ -124,10 +124,22 @@
       "title": "Did Anthropic ask for this?",
       "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
       "discuss_url": "https://news.ycombinator.com/item?id=48533504",
-      "score": 172,
-      "comments": 148,
+      "score": 186,
+      "comments": 157,
       "author": "ad8e",
       "published": "2026-06-14T22:23:05Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Why Is Claude Turning into an a**Hole?",
+      "url": "https://bramcohen.com/p/why-is-claude-turning-into-an-asshole",
+      "discuss_url": "https://news.ycombinator.com/item?id=48533308",
+      "score": 112,
+      "comments": 175,
+      "author": "drob518",
+      "published": "2026-06-14T22:04:01Z"
     },
     {
       "source": "hackernews",
@@ -136,8 +148,8 @@
       "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
       "url": "https://github.com/nex-agi/Nex-N2/issues/4",
       "discuss_url": "https://news.ycombinator.com/item?id=48528371",
-      "score": 308,
-      "comments": 162,
+      "score": 364,
+      "comments": 193,
       "author": "unrvl22",
       "published": "2026-06-14T15:37:31Z"
     },
@@ -148,8 +160,8 @@
       "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
       "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
       "discuss_url": "https://news.ycombinator.com/item?id=48519092",
-      "score": 782,
-      "comments": 587,
+      "score": 787,
+      "comments": 594,
       "author": "ls612",
       "published": "2026-06-13T16:57:49Z"
     },
@@ -160,8 +172,8 @@
       "title": "The future of Siri, or: why private inference isn’t private enough",
       "url": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
       "discuss_url": "https://lobste.rs/s/tylzdy",
-      "score": 24,
-      "comments": 5,
+      "score": 28,
+      "comments": 8,
       "author": "achivetta",
       "published": "2026-06-14T03:50:26Z"
     },
@@ -200,18 +212,6 @@
       "comments": 0,
       "author": "tomeraberbach",
       "published": "2026-06-12T19:10:55Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "To Gen or Not To Gen: The Ethical Use of Generative AI",
-      "url": "https://blog.johanneslink.net/2025/11/04/to-gen-or-not-to-gen/",
-      "discuss_url": "https://lobste.rs/s/2ye7ng",
-      "score": 5,
-      "comments": 0,
-      "author": "qznc",
-      "published": "2026-06-11T06:23:56Z"
     },
     {
       "source": "rss",
@@ -265,11 +265,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/fwohh5",
+      "discuss_url": "https://lobste.rs/s/fwohh5",
+      "score": 4,
+      "comments": 4,
+      "author": "caius",
+      "published": "2026-06-15T09:46:08Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "zinnia: a modular 64-bit Unix-like kernel written in Rust",
       "url": "https://zinnia-os.org/",
       "discuss_url": "https://lobste.rs/s/0ichrt",
-      "score": 34,
-      "comments": 1,
+      "score": 45,
+      "comments": 3,
       "author": "mrunix",
       "published": "2026-06-14T21:05:27Z"
     },
@@ -281,7 +293,7 @@
       "url": "https://charlottebuff.com/unicode/misc/rejected-emoji-proposals/",
       "discuss_url": "https://lobste.rs/s/tigq8d",
       "score": 82,
-      "comments": 21,
+      "comments": 22,
       "author": "carlana",
       "published": "2026-06-13T02:17:01Z"
     },
@@ -394,28 +406,16 @@
       "published": "2026-06-09T16:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "GitHub for Beginners: Answers to some common questions",
-      "url": "https://github.blog/developer-skills/github/github-for-beginners-answers-to-some-common-questions/",
-      "discuss_url": "https://github.blog/developer-skills/github/github-for-beginners-answers-to-some-common-questions/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-06-08T16:00:00Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "Arch Linux Now Believes Malware Incident Under Control: More Than 1,500 Packages",
-      "url": "https://www.phoronix.com/news/Arch-Linux-AUR-More-Than-1500",
-      "discuss_url": "https://news.ycombinator.com/item?id=48516379",
-      "score": 314,
-      "comments": 203,
-      "author": "qwertox",
-      "published": "2026-06-13T11:55:30Z"
+      "title": "Curl will not accept vulnerability reports during July 2026",
+      "url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48537165",
+      "score": 498,
+      "comments": 198,
+      "author": "secret-noun",
+      "published": "2026-06-15T06:02:57Z"
     },
     {
       "source": "lobsters",
@@ -425,7 +425,7 @@
       "url": "https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/FGXPCB3ZVCJIV7FX323SBAX2JHYB7ZS4/",
       "discuss_url": "https://lobste.rs/s/ta0sem",
       "score": 145,
-      "comments": 101,
+      "comments": 103,
       "author": "vivicat",
       "published": "2026-06-11T19:36:02Z"
     },
@@ -449,7 +449,7 @@
       "url": "https://www.amazon.science/blog/ec2s-formally-verified-isolation-engine-provides-mathematical-assurance-of-virtual-machine-isolation",
       "discuss_url": "https://lobste.rs/s/efnxre",
       "score": 20,
-      "comments": 7,
+      "comments": 8,
       "author": "amw-zero",
       "published": "2026-06-11T14:58:25Z"
     },
@@ -476,18 +476,6 @@
       "comments": 2,
       "author": "runxiyu",
       "published": "2026-06-12T13:09:04Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "TrustZone Intermezzo: Broken OP-TEE Memory Isolation on i.MX 8M",
-      "url": "https://sigma-star.at/blog/2026/06/trustzone-intermezzo/",
-      "discuss_url": "https://lobste.rs/s/uz1fle",
-      "score": 7,
-      "comments": 0,
-      "author": "rw-rw-rw-",
-      "published": "2026-06-11T10:57:46Z"
     },
     {
       "source": "lobsters",
@@ -529,25 +517,49 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
-      "url": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
-      "discuss_url": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
+      "title": "The Onboarding Password Mistake That Creates Unnecessary Risk",
+      "url": "https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html",
+      "discuss_url": "https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-13T13:23:03Z"
+      "published": "2026-06-15T11:30:00Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals",
-      "url": "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html",
-      "discuss_url": "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html",
+      "title": "152 Chrome Wallpaper Extensions with 105K Installs Linked to Adware and Fake Traffic",
+      "url": "https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html",
+      "discuss_url": "https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-13T05:42:50Z"
+      "published": "2026-06-15T11:07:50Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Popular WordPress Plugin Scripts Tampered to Plant Hidden Backdoors on Sites",
+      "url": "https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html",
+      "discuss_url": "https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-15T09:59:38Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "pyinfra — agentless infrastructure automation, in plain Python",
+      "url": "https://pyinfra.com",
+      "discuss_url": "https://lobste.rs/s/htfm3p",
+      "score": 10,
+      "comments": 4,
+      "author": "gregnavis",
+      "published": "2026-06-15T11:05:07Z"
     },
     {
       "source": "lobsters",
@@ -556,7 +568,7 @@
       "title": "AI Agent Bankrupted Their Operator While Trying to Scan DN42",
       "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
       "discuss_url": "https://lobste.rs/s/ishgbs",
-      "score": 158,
+      "score": 159,
       "comments": 28,
       "author": "pyfisch",
       "published": "2026-06-12T05:59:29Z"
@@ -572,18 +584,6 @@
       "comments": 1,
       "author": "ajayvk",
       "published": "2026-06-13T00:09:38Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "FlowG v0.59.0 is out, with Dark Mode support",
-      "url": "https://flowg.cloud/blog/darkmode",
-      "discuss_url": "https://lobste.rs/s/r6qxta",
-      "score": 1,
-      "comments": 0,
-      "author": "linkdd",
-      "published": "2026-06-11T12:10:49Z"
     },
     {
       "source": "rss",
