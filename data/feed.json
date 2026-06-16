@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T11:20:36Z",
+  "updated_at": "2026-06-16T17:05:03Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
       "url": "https://news.ycombinator.com/item?id=48542100",
       "discuss_url": "https://news.ycombinator.com/item?id=48542100",
-      "score": 1041,
-      "comments": 456,
+      "score": 1213,
+      "comments": 509,
       "author": "cloudking",
       "published": "2026-06-15T14:46:53Z",
       "bullets": [
-        "Developers are replacing Claude/GPT with Qwen-2.5-Coder (14B/32B) and DeepSeek-Coder-V2 for daily local development workflows.",
-        "Tooling relies heavily on Ollama or llama.cpp backends paired with the Continue.dev VS Code/JetBrains extension for inline autocompletion.",
-        "Viable performance (30+ tok/s) requires Apple Silicon (M3 Max/Ultra) or 24GB VRAM GPUs like the RTX 4090 running GGUF quants."
+        "Practitioners use Ollama and Continue with Qwen2.5-Coder-32B or DeepSeek-Coder-V2 to replace Claude and GPT-4 for local development.",
+        "Running 30B+ models at usable speeds (>20 tok/s) requires high-end hardware like Apple M-series Max/Ultra or NVIDIA RTX 4090 GPUs.",
+        "Local models excel at inline autocomplete, but Claude 3.5 Sonnet still outperforms them on complex, multi-file codebase reasoning tasks."
       ]
     },
     {
@@ -55,64 +55,64 @@
       "url": "https://lobste.rs/s/fwohh5",
       "discuss_url": "https://lobste.rs/s/fwohh5",
       "score": 13,
-      "comments": 25,
+      "comments": 28,
       "author": "caius",
       "published": "2026-06-15T09:46:08Z",
       "bullets": [
-        "Prioritize building side projects, creating POCs, and experimenting with modern languages like Rust, Go, or Zig.",
-        "Optimize engineering velocity by refactoring legacy code, automating CI/CD pipelines, and resolving accumulated technical debt.",
-        "Invest in continuous learning, studying distributed systems architecture, and evaluating database performance metrics."
+        "Rewriting legacy services in Rust and Go to optimize CPU utilization and reduce memory footprints in distributed systems.",
+        "Configuring declarative infrastructure using NixOS and Terraform to automate reproducible deployments and eliminate configuration drift.",
+        "Implementing local-first state synchronization using SQLite and CRDTs to improve offline capabilities and reduce API latency."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Curl will not accept vulnerability reports during July 2026",
-      "url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48537165",
-      "score": 769,
-      "comments": 307,
-      "author": "secret-noun",
-      "published": "2026-06-15T06:02:57Z",
+      "title": "A backdoor in a LinkedIn job offer",
+      "url": "https://roman.pt/posts/linkedin-backdoor/",
+      "discuss_url": "https://lobste.rs/s/2u1z4w",
+      "score": 24,
+      "comments": 3,
+      "author": "hoistbypetard",
+      "published": "2026-06-16T12:58:11Z",
       "bullets": [
-        "Lead maintainer Daniel Stenberg's planned sabbatical in July 2026 means zero upstream vulnerability triaging or CVE assignments during this period.",
-        "Security researchers must delay submissions, as curl's HackerOne and email reporting channels will pause triage for the entire month.",
-        "DevSecOps teams should expect a freeze on official curl patches and anticipate a potential influx of disclosures in August 2026."
+        "Lazarus and other APTs leverage fake LinkedIn recruitment to deploy RustBucket or BeaverTail malware disguised as technical assessments.",
+        "Attackers transition targets to WhatsApp or Telegram, delivering malicious ZIP archives with double-extension executables or trojanized dependencies.",
+        "Isolate developer environments and monitor endpoint terminals for unauthorized outbound network connections initiated by IDEs or build tools."
       ]
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
-      "title": "What job interviews taught me about Kubernetes",
-      "url": "https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48546428",
-      "score": 196,
-      "comments": 144,
-      "author": "chmaynard",
-      "published": "2026-06-15T20:12:37Z",
+      "title": "Microsoft turns to AWS as GitHub faces AI capacity crunch",
+      "url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
+      "discuss_url": "https://news.ycombinator.com/item?id=48549918",
+      "score": 153,
+      "comments": 69,
+      "author": "ilreb",
+      "published": "2026-06-16T02:47:57Z",
       "bullets": [
-        "Interviewers heavily test Kubernetes control plane internals, etcd consistency, and CNI networking over basic YAML writing or application deployment.",
-        "Practical GitOps experience with ArgoCD or Flux and Day-2 observability using Prometheus are highly valued over theoretical cluster administration.",
-        "Candidates must demonstrate hands-on troubleshooting of DNS resolution, OOMKilled errors, and cost-efficient scaling using Karpenter or Cluster Autoscaler."
+        "Microsoft is leveraging AWS infrastructure to scale GitHub's AI features, bypassing Azure's GPU capacity constraints for Copilot workloads.",
+        "AI scaling requires DevOps to design resilient multi-cloud architectures to bypass GPU shortages and compute bottlenecks at single providers.",
+        "Using competitor clouds like AWS for GitHub Copilot workloads highlights the critical need for infrastructure flexibility to meet AI SLAs."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Commodore’s newest gadget is a flip phone that blocks social media and browsers",
-      "url": "https://arstechnica.com/gadgets/2026/06/commodores-newest-gadget-is-a-flip-phone-that-blocks-social-media-and-browsers/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/06/commodores-newest-gadget-is-a-flip-phone-that-blocks-social-media-and-browsers/",
+      "title": "Mobileye is entering the US robotaxi market with standalone service",
+      "url": "https://arstechnica.com/cars/2026/06/mobileye-is-entering-the-us-robotaxi-market-with-standalone-service/",
+      "discuss_url": "https://arstechnica.com/cars/2026/06/mobileye-is-entering-the-us-robotaxi-market-with-standalone-service/",
       "score": null,
       "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-06-16T09:00:51Z",
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-06-16T14:20:51Z",
       "bullets": [
-        "Commodore is launching the Call Back 8020, a flip phone designed without web browsers or social media capabilities.",
-        "By omitting app stores and internet access, the device mitigates common mobile privacy threats and data harvesting practices.",
-        "The hardware targets a growing niche market for distraction-free 'dumbphones' that prioritize offline security over ad-supported ecosystems."
+        "Mobileye will leverage its transit-planning platform Moovit to power the dispatch and routing of its upcoming US robotaxi service.",
+        "The standalone commercial autonomous vehicle service is slated to launch in a selected US city by 2027.",
+        "The shift signals Mobileye's evolution from an ADAS supplier to a vertically integrated, direct-to-consumer robotaxi fleet operator."
       ]
     }
   ],
@@ -124,10 +124,22 @@
       "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
       "url": "https://news.ycombinator.com/item?id=48542100",
       "discuss_url": "https://news.ycombinator.com/item?id=48542100",
-      "score": 1041,
-      "comments": 456,
+      "score": 1213,
+      "comments": 509,
       "author": "cloudking",
       "published": "2026-06-15T14:46:53Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Claude Corps",
+      "url": "https://www.anthropic.com/news/claude-corps",
+      "discuss_url": "https://news.ycombinator.com/item?id=48544637",
+      "score": 151,
+      "comments": 111,
+      "author": "Mustan",
+      "published": "2026-06-15T17:41:24Z"
     },
     {
       "source": "hackernews",
@@ -136,8 +148,8 @@
       "title": "Anthropic's Safety Superpower",
       "url": "https://stratechery.com/2026/anthropics-safety-superpower/",
       "discuss_url": "https://news.ycombinator.com/item?id=48539078",
-      "score": 210,
-      "comments": 187,
+      "score": 211,
+      "comments": 189,
       "author": "swolpers",
       "published": "2026-06-15T10:06:35Z"
     },
@@ -149,21 +161,9 @@
       "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
       "discuss_url": "https://news.ycombinator.com/item?id=48533504",
       "score": 194,
-      "comments": 164,
+      "comments": 165,
       "author": "ad8e",
       "published": "2026-06-14T22:23:05Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
-      "url": "https://github.com/nex-agi/Nex-N2/issues/4",
-      "discuss_url": "https://news.ycombinator.com/item?id=48528371",
-      "score": 400,
-      "comments": 222,
-      "author": "unrvl22",
-      "published": "2026-06-14T15:37:31Z"
     },
     {
       "source": "lobsters",
@@ -181,6 +181,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
+      "title": "The future of Siri, or: why private inference isn’t private enough",
+      "url": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
+      "discuss_url": "https://lobste.rs/s/tylzdy",
+      "score": 37,
+      "comments": 14,
+      "author": "achivetta",
+      "published": "2026-06-14T03:50:26Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
       "title": "Why adding ontologies to LLMs won't yield machine intelligence",
       "url": "https://youtu.be/Ce-cN5Llaz4?t=93",
       "discuss_url": "https://lobste.rs/s/9iqluy",
@@ -193,22 +205,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "The future of Siri, or: why private inference isn’t private enough",
-      "url": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
-      "discuss_url": "https://lobste.rs/s/tylzdy",
-      "score": 36,
-      "comments": 14,
-      "author": "achivetta",
-      "published": "2026-06-14T03:50:26Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "June Framework Memory and storage pricing updates",
       "url": "https://frame.work/ca/en/blog/updates-on-memory-pricing-and-navigating-the-volatile-memory-market",
       "discuss_url": "https://lobste.rs/s/uicwti",
-      "score": 3,
+      "score": 4,
       "comments": 0,
       "author": "nocoffei",
       "published": "2026-06-15T22:04:31Z"
@@ -269,7 +269,7 @@
       "url": "https://lobste.rs/s/fwohh5",
       "discuss_url": "https://lobste.rs/s/fwohh5",
       "score": 13,
-      "comments": 25,
+      "comments": 28,
       "author": "caius",
       "published": "2026-06-15T09:46:08Z"
     },
@@ -289,18 +289,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "MONOLITH: An experimental non-Unix operating system for x86",
-      "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
-      "discuss_url": "https://lobste.rs/s/hwi7c2",
-      "score": 9,
-      "comments": 0,
-      "author": "mrunix",
-      "published": "2026-06-15T16:54:04Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Rejected Emoji Proposals",
       "url": "https://charlottebuff.com/unicode/misc/rejected-emoji-proposals/",
       "discuss_url": "https://lobste.rs/s/tigq8d",
@@ -313,25 +301,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Forest for the trees - An adventure in structured data",
-      "url": "https://nick.zoic.org/art/forest-for-the-trees/",
-      "discuss_url": "https://lobste.rs/s/rq4la4",
-      "score": 4,
+      "title": "MONOLITH: An experimental non-Unix operating system for x86",
+      "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
+      "discuss_url": "https://lobste.rs/s/hwi7c2",
+      "score": 9,
       "comments": 0,
-      "author": "abnercoimbre",
-      "published": "2026-06-15T16:02:24Z"
+      "author": "mrunix",
+      "published": "2026-06-15T16:54:04Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/qnv1dy",
-      "discuss_url": "https://lobste.rs/s/qnv1dy",
-      "score": 20,
-      "comments": 35,
-      "author": "caius",
-      "published": "2026-06-12T13:04:47Z"
+      "title": "Forest for the trees - An adventure in structured data",
+      "url": "https://nick.zoic.org/art/forest-for-the-trees/",
+      "discuss_url": "https://lobste.rs/s/rq4la4",
+      "score": 5,
+      "comments": 0,
+      "author": "abnercoimbre",
+      "published": "2026-06-15T16:02:24Z"
     },
     {
       "source": "lobsters",
@@ -406,14 +394,38 @@
       "published": "2026-06-11T21:30:15Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
+      "url": "https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/",
+      "discuss_url": "https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-06-11T16:00:00Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "A backdoor in a LinkedIn job offer",
+      "url": "https://roman.pt/posts/linkedin-backdoor/",
+      "discuss_url": "https://lobste.rs/s/2u1z4w",
+      "score": 24,
+      "comments": 3,
+      "author": "hoistbypetard",
+      "published": "2026-06-16T12:58:11Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Curl will not accept vulnerability reports during July 2026",
       "url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
       "discuss_url": "https://news.ycombinator.com/item?id=48537165",
-      "score": 769,
-      "comments": 307,
+      "score": 773,
+      "comments": 312,
       "author": "secret-noun",
       "published": "2026-06-15T06:02:57Z"
     },
@@ -424,7 +436,7 @@
       "title": "Users cry foul after AMD stripped memory crypto from its consumer CPUs",
       "url": "https://arstechnica.com/security/2026/06/users-cry-foul-after-amd-stripped-memory-crypto-from-its-consumer-cpus/",
       "discuss_url": "https://lobste.rs/s/i2cjew",
-      "score": 21,
+      "score": 24,
       "comments": 7,
       "author": "hoistbypetard",
       "published": "2026-06-15T20:03:41Z"
@@ -440,18 +452,6 @@
       "comments": 6,
       "author": "sanxiyn",
       "published": "2026-06-13T00:21:57Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Unicode composition for filenames (2008)",
-      "url": "https://svn.apache.org/repos/asf/subversion/trunk/notes/unicode-composition-for-filenames",
-      "discuss_url": "https://lobste.rs/s/g3jf3e",
-      "score": 7,
-      "comments": 2,
-      "author": "runxiyu",
-      "published": "2026-06-12T13:09:04Z"
     },
     {
       "source": "rss",
@@ -476,6 +476,30 @@
       "comments": null,
       "author": "BrianKrebs",
       "published": "2026-06-09T22:07:28Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds",
+      "url": "https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html",
+      "discuss_url": "https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-16T13:10:17Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive",
+      "url": "https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html",
+      "discuss_url": "https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-16T11:30:00Z"
     },
     {
       "source": "rss",
@@ -526,28 +550,16 @@
       "published": "2026-06-16T06:05:58Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "CISA Flags LiteSpeed cPanel Plugin Flaw Exploited for Root Privilege Escalation",
-      "url": "https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html",
-      "discuss_url": "https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-16T05:41:52Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails",
-      "url": "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
-      "discuss_url": "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-15T19:44:06Z"
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "devops",
+      "title": "Microsoft turns to AWS as GitHub faces AI capacity crunch",
+      "url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
+      "discuss_url": "https://news.ycombinator.com/item?id=48549918",
+      "score": 153,
+      "comments": 69,
+      "author": "ilreb",
+      "published": "2026-06-16T02:47:57Z"
     },
     {
       "source": "hackernews",
@@ -556,10 +568,22 @@
       "title": "What job interviews taught me about Kubernetes",
       "url": "https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/",
       "discuss_url": "https://news.ycombinator.com/item?id=48546428",
-      "score": 196,
-      "comments": 144,
+      "score": 240,
+      "comments": 188,
       "author": "chmaynard",
       "published": "2026-06-15T20:12:37Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "mgmt: next generation distributed, event-driven, parallel config management",
+      "url": "https://github.com/purpleidea/mgmt",
+      "discuss_url": "https://lobste.rs/s/jwji8v",
+      "score": 1,
+      "comments": 2,
+      "author": "fbegyn",
+      "published": "2026-06-16T15:18:23Z"
     },
     {
       "source": "lobsters",
@@ -568,8 +592,8 @@
       "title": "pyinfra — agentless infrastructure automation, in plain Python",
       "url": "https://pyinfra.com",
       "discuss_url": "https://lobste.rs/s/htfm3p",
-      "score": 62,
-      "comments": 32,
+      "score": 63,
+      "comments": 35,
       "author": "gregnavis",
       "published": "2026-06-15T11:05:07Z"
     },
@@ -589,109 +613,121 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Transform now supports Amazon FSx for NetApp ONTAP (Public Preview)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-vmware-fsx-for-ontap-preview",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-vmware-fsx-for-ontap-preview",
+      "title": "AWS Partner Central agents now accelerate co-selling on every deal",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/accelerate-co-selling-with-agents/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/accelerate-co-selling-with-agents/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-06-16T04:00:00Z"
+      "published": "2026-06-16T13:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Management Console Private Access now works without internet connectivity",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-management-console-private/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-management-console-private/",
+      "title": "Amazon CloudWatch introduces native OpenTelemetry metrics with PromQL querying and per-GB pricing",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-otel-metrics/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-otel-metrics/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-06-15T23:00:00Z"
+      "published": "2026-06-16T12:44:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Grok 4.3 from xAI now available in Amazon Bedrock",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/",
+      "title": "AWS Marketplace announces AI-assisted product listing",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ai-assisted-product-listing/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ai-assisted-product-listing/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-06-15T20:04:00Z"
+      "published": "2026-06-16T12:30:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon Bedrock AgentCore Memory now supports strictly consistent metadata for long-term memory",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-memory-scmetadata",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-memory-scmetadata",
+      "title": "AWS Partner Central now validates Foundational Technical Review in minutes",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-central-foundational-technical-review/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-central-foundational-technical-review/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-06-15T20:00:00Z"
+      "published": "2026-06-16T07:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon FSx for OpenZFS now supports on-demand data replication across AWS opt-in Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/on-demand-cross-region-replication/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/on-demand-cross-region-replication/",
+      "title": "AWS Partner Central launches new funding benefits for Business Value Realization",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-business-value-realization/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-business-value-realization/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-06-15T18:30:00Z"
+      "published": "2026-06-16T07:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon CloudWatch introduces Log Analytics for unified log analysis",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-log-analytics/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-log-analytics/",
+      "title": "AWS Marketplace reduces listing fee for professional services to 0.5%",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/reduce-listing-fee-professional-services-aws-marketplace",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/reduce-listing-fee-professional-services-aws-marketplace",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-06-15T18:00:00Z"
+      "published": "2026-06-16T05:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon Route 53 Resolver DNS Firewall now supports Palo Alto Networks Advanced DNS Security (Preview)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-route-53-resolver-dns/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-route-53-resolver-dns/",
+      "title": "AWS Partners can now accelerate co-sell deals with express private offers",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partners-express-private-offers",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partners-express-private-offers",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-06-15T17:06:00Z"
+      "published": "2026-06-16T05:00:00Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon ECS Express Mode is now available in AWS GovCloud (US) Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-express-mode-govcloud/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-express-mode-govcloud/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Mobileye is entering the US robotaxi market with standalone service",
+      "url": "https://arstechnica.com/cars/2026/06/mobileye-is-entering-the-us-robotaxi-market-with-standalone-service/",
+      "discuss_url": "https://arstechnica.com/cars/2026/06/mobileye-is-entering-the-us-robotaxi-market-with-standalone-service/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-15T17:00:00Z"
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-06-16T14:20:51Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS launches Cost Explorer historical data retention for accounts in billing groups",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "The Ars Technica 2026 Reader Survey: Let your voice be heard!",
+      "url": "https://arstechnica.com/staff/2026/06/the-ars-technica-2026-reader-survey-let-your-voice-be-heard/",
+      "discuss_url": "https://arstechnica.com/staff/2026/06/the-ars-technica-2026-reader-survey-let-your-voice-be-heard/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-15T16:07:00Z"
+      "author": "Ken Fisher",
+      "published": "2026-06-16T13:35:55Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Critical Copilot vulnerability allowed hackers to seal 2FA code from users",
+      "url": "https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/",
+      "discuss_url": "https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/",
+      "score": null,
+      "comments": null,
+      "author": "Dan Goodin",
+      "published": "2026-06-16T11:15:46Z"
     },
     {
       "source": "rss",
@@ -800,42 +836,6 @@
       "comments": null,
       "author": "Scott K. Johnson",
       "published": "2026-06-15T16:28:17Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "F1 in Spain: An old-fashioned strategy fight can still be thrilling",
-      "url": "https://arstechnica.com/cars/2026/06/f1-in-spain-an-old-fashioned-strategy-fight-can-still-be-thrilling/",
-      "discuss_url": "https://arstechnica.com/cars/2026/06/f1-in-spain-an-old-fashioned-strategy-fight-can-still-be-thrilling/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-06-15T15:25:17Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Russia appears set to finally address long-term, serious space station cracks",
-      "url": "https://arstechnica.com/space/2026/06/russia-appears-set-to-finally-address-long-term-serious-space-station-cracks/",
-      "discuss_url": "https://arstechnica.com/space/2026/06/russia-appears-set-to-finally-address-long-term-serious-space-station-cracks/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-06-15T13:54:02Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Did a medieval flying monk spot Halley's comet, twice? It's complicated",
-      "url": "https://arstechnica.com/science/2026/06/did-a-medieval-flying-monk-spot-halleys-comet-twice-its-complicated/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/did-a-medieval-flying-monk-spot-halleys-comet-twice-its-complicated/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-06-14T16:02:53Z"
     }
   ]
 }
