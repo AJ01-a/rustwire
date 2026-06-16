@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T21:12:05Z",
+  "updated_at": "2026-06-16T04:48:40Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
       "url": "https://news.ycombinator.com/item?id=48542100",
       "discuss_url": "https://news.ycombinator.com/item?id=48542100",
-      "score": 444,
-      "comments": 235,
+      "score": 782,
+      "comments": 375,
       "author": "cloudking",
       "published": "2026-06-15T14:46:53Z",
       "bullets": [
-        "Developers use state-of-the-art open models like Qwen-2.5-Coder-32B and DeepSeek-Coder-V2 to match commercial coding capabilities locally.",
-        "Inference setups leverage Ollama, llama.cpp, and Tabby integrated with VS Code, Cursor, or Neovim for seamless developer workflows.",
-        "Running >30B parameter models effectively requires Apple Silicon (Mac Studio/Pro) or high-VRAM GPUs like Nvidia RTX 3090/4090."
+        "Practitioners pair Qwen-2.5-Coder or DeepSeek-Coder-V2 with Ollama and the Continue.dev IDE extension to replace proprietary LLMs for daily coding.",
+        "Achieving viable tokens/second for 70B+ models requires high-end hardware like Apple Silicon Mac Studios (64GB+ unified memory) or dual RTX 3090/4090 GPUs.",
+        "Local setups excel at offline, context-aware autocomplete and privacy, but struggle with complex, multi-file architectural reasoning compared to Claude 3.5 Sonnet."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/fwohh5",
       "discuss_url": "https://lobste.rs/s/fwohh5",
-      "score": 11,
-      "comments": 16,
+      "score": 12,
+      "comments": 22,
       "author": "caius",
       "published": "2026-06-15T09:46:08Z",
       "bullets": [
-        "Weekly developer threads provide raw, peer-vetted insights into experimental side-projects, system refactoring, and real-world deployment challenges.",
-        "Engineers share informal reviews of emerging tooling, language migrations (e.g., Rust, Go, Zig), and self-hosting infrastructure configurations.",
-        "These community syncs highlight practical developer workflows, library choices, and troubleshooting steps absent from official documentation."
+        "Leverage peer developer logs to discover niche tools and libraries in systems programming languages like Rust and Zig.",
+        "Cross-reference your current sprint goals with community trends in database optimization, compiler design, and self-hosting.",
+        "Incorporate low-pressure hacking and deliberate rest into your weekly cycle to sustain long-term software engineering productivity."
       ]
     },
     {
@@ -71,48 +71,48 @@
       "title": "Curl will not accept vulnerability reports during July 2026",
       "url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
       "discuss_url": "https://news.ycombinator.com/item?id=48537165",
-      "score": 721,
-      "comments": 294,
+      "score": 755,
+      "comments": 303,
       "author": "secret-noun",
       "published": "2026-06-15T06:02:57Z",
       "bullets": [
-        "Curl will pause its HackerOne bug bounty program and vulnerability triage for the entire month of July 2026.",
-        "Organizations must adjust patch cycles as no curl CVEs or security updates will be released in July 2026.",
-        "The pause accommodates lead maintainer Daniel Stenberg’s sabbatical, temporarily halting the project's coordinated vulnerability disclosure pipeline."
+        "Upstream curl security patch releases and CVE assignments will pause entirely for one month due to maintainer sabbatical.",
+        "Security teams must adjust vulnerability SLA expectations and patch deployment schedules for enterprise software embedding libcurl.",
+        "The planned pause underscores systemic open-source supply chain risks where critical utilities depend on a single core developer."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "pyinfra — agentless infrastructure automation, in plain Python",
-      "url": "https://pyinfra.com",
-      "discuss_url": "https://lobste.rs/s/htfm3p",
-      "score": 49,
-      "comments": 25,
-      "author": "gregnavis",
-      "published": "2026-06-15T11:05:07Z",
+      "title": "What job interviews taught me about Kubernetes",
+      "url": "https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/",
+      "discuss_url": "https://lobste.rs/s/k6qon4",
+      "score": 5,
+      "comments": 2,
+      "author": "rau",
+      "published": "2026-06-16T02:41:09Z",
       "bullets": [
-        "Replaces complex YAML configs (like Ansible) with pure Python, allowing native debugging, testing, and integration with standard Python packages.",
-        "Deploys via agentless SSH, Docker, or local connectors, leveraging parallel execution for faster performance than traditional Ansible playbooks.",
-        "Provides dry-run mode to preview state changes and supports hybrid declarative-imperative automation directly within existing CI/CD pipelines."
+        "Focus on Kubernetes networking fundamentals (CNIs, DNS, Ingress) and stateful storage configurations, which are critical gaps in many candidate interviews.",
+        "Mastery of day-2 operations—specifically Prometheus monitoring, HPA/VPA autoscaling, and GitOps workflows (ArgoCD)—separates senior DevOps candidates from beginners.",
+        "Evaluate if Kubernetes is truly necessary; many architectures benefit more from simpler managed container platforms like AWS ECS or Cloud Run."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "UK to ban social media for kids under 16, may impose overnight curfews",
-      "url": "https://arstechnica.com/tech-policy/2026/06/uk-to-ban-social-media-for-kids-under-16-may-impose-overnight-curfews/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/uk-to-ban-social-media-for-kids-under-16-may-impose-overnight-curfews/",
+      "title": "Key mission for Europe's commercial space enterprise scrubbed again",
+      "url": "https://arstechnica.com/space/2026/06/key-mission-for-europes-commercial-space-enterprise-scrubbed-again/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/key-mission-for-europes-commercial-space-enterprise-scrubbed-again/",
       "score": null,
       "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-06-15T20:14:04Z",
+      "author": "Stephen Clark",
+      "published": "2026-06-15T23:40:38Z",
       "bullets": [
-        "VPNs easily bypass regional age-verification filters, presenting a major enforcement challenge for platform engineers and policy compliance.",
-        "Strict bans risk driving underage users to unmoderated alternative platforms, complicating trust, safety, and content moderation engineering efforts.",
-        "Implementing the UK mandate forces platforms to deploy complex age-verification systems, escalating privacy concerns and compliance overhead."
+        "German launch startup Isar Aerospace delayed the maiden flight of its Spectrum rocket, deferring critical validation of its liquid-propellant engines.",
+        "Despite securing over €300M in funding, Isar remains bottlenecked by a lack of flight heritage and real-world telemetry.",
+        "The scrub highlights persistent hurdles for Europe’s commercial space sector in establishing sovereign, low-cost micro-launcher alternatives."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
       "url": "https://news.ycombinator.com/item?id=48542100",
       "discuss_url": "https://news.ycombinator.com/item?id=48542100",
-      "score": 444,
-      "comments": 235,
+      "score": 782,
+      "comments": 375,
       "author": "cloudking",
       "published": "2026-06-15T14:46:53Z"
     },
@@ -136,8 +136,8 @@
       "title": "Anthropic's Safety Superpower",
       "url": "https://stratechery.com/2026/anthropics-safety-superpower/",
       "discuss_url": "https://news.ycombinator.com/item?id=48539078",
-      "score": 195,
-      "comments": 180,
+      "score": 207,
+      "comments": 185,
       "author": "swolpers",
       "published": "2026-06-15T10:06:35Z"
     },
@@ -148,8 +148,8 @@
       "title": "Did Anthropic ask for this?",
       "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
       "discuss_url": "https://news.ycombinator.com/item?id=48533504",
-      "score": 192,
-      "comments": 161,
+      "score": 193,
+      "comments": 164,
       "author": "ad8e",
       "published": "2026-06-14T22:23:05Z"
     },
@@ -160,8 +160,8 @@
       "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
       "url": "https://github.com/nex-agi/Nex-N2/issues/4",
       "discuss_url": "https://news.ycombinator.com/item?id=48528371",
-      "score": 392,
-      "comments": 212,
+      "score": 396,
+      "comments": 216,
       "author": "unrvl22",
       "published": "2026-06-14T15:37:31Z"
     },
@@ -181,6 +181,30 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
+      "title": "Why adding ontologies to LLMs won't yield machine intelligence",
+      "url": "https://youtu.be/Ce-cN5Llaz4?t=93",
+      "discuss_url": "https://lobste.rs/s/9iqluy",
+      "score": 1,
+      "comments": 1,
+      "author": "veqq",
+      "published": "2026-06-16T01:33:59Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "June Framework Memory and storage pricing updates",
+      "url": "https://frame.work/ca/en/blog/updates-on-memory-pricing-and-navigating-the-volatile-memory-market",
+      "discuss_url": "https://lobste.rs/s/uicwti",
+      "score": 3,
+      "comments": 0,
+      "author": "nocoffei",
+      "published": "2026-06-15T22:04:31Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
       "title": "The future of Siri, or: why private inference isn’t private enough",
       "url": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
       "discuss_url": "https://lobste.rs/s/tylzdy",
@@ -193,18 +217,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Building llm-driven “ai” still requires domain knowledge",
-      "url": "https://lobste.rs/s/q9sd1m",
-      "discuss_url": "https://lobste.rs/s/q9sd1m",
-      "score": 1,
-      "comments": 0,
-      "author": "Student",
-      "published": "2026-06-15T14:46:23Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "AI Economics for Dummies",
       "url": "https://www.mcsweeneys.net/articles/ai-economics-for-dummies",
       "discuss_url": "https://lobste.rs/s/rr3qvi",
@@ -212,6 +224,18 @@
       "comments": 0,
       "author": "Yogthos",
       "published": "2026-06-12T21:17:18Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Building llm-driven “ai” still requires domain knowledge",
+      "url": "https://lobste.rs/s/q9sd1m",
+      "discuss_url": "https://lobste.rs/s/q9sd1m",
+      "score": 1,
+      "comments": 0,
+      "author": "Student",
+      "published": "2026-06-15T14:46:23Z"
     },
     {
       "source": "lobsters",
@@ -238,38 +262,14 @@
       "published": "2026-06-12T19:10:55Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "olmo-eval: An evaluation workbench for the model development loop",
-      "url": "https://huggingface.co/blog/allenai/olmo-eval",
-      "discuss_url": "https://huggingface.co/blog/allenai/olmo-eval",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-12T15:56:10Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
-      "url": "https://huggingface.co/blog/torch-mlp-fusion",
-      "discuss_url": "https://huggingface.co/blog/torch-mlp-fusion",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-11T00:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/fwohh5",
       "discuss_url": "https://lobste.rs/s/fwohh5",
-      "score": 11,
-      "comments": 16,
+      "score": 12,
+      "comments": 22,
       "author": "caius",
       "published": "2026-06-15T09:46:08Z"
     },
@@ -280,10 +280,22 @@
       "title": "zinnia: a modular 64-bit Unix-like kernel written in Rust",
       "url": "https://zinnia-os.org/",
       "discuss_url": "https://lobste.rs/s/0ichrt",
-      "score": 52,
-      "comments": 3,
+      "score": 54,
+      "comments": 4,
       "author": "mrunix",
       "published": "2026-06-14T21:05:27Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Microsoft is resorting to its biggest cloud rival to deal with GitHub AI capacity issues",
+      "url": "https://www.businessinsider.com/microsoft-github-amazon-ai-cloud-capacity-2026-6",
+      "discuss_url": "https://lobste.rs/s/femzsi",
+      "score": 1,
+      "comments": 0,
+      "author": "ashishb",
+      "published": "2026-06-16T03:37:13Z"
     },
     {
       "source": "lobsters",
@@ -292,7 +304,7 @@
       "title": "MONOLITH: An experimental non-Unix operating system for x86",
       "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
       "discuss_url": "https://lobste.rs/s/hwi7c2",
-      "score": 3,
+      "score": 6,
       "comments": 0,
       "author": "mrunix",
       "published": "2026-06-15T16:54:04Z"
@@ -304,10 +316,22 @@
       "title": "Rejected Emoji Proposals",
       "url": "https://charlottebuff.com/unicode/misc/rejected-emoji-proposals/",
       "discuss_url": "https://lobste.rs/s/tigq8d",
-      "score": 82,
-      "comments": 23,
+      "score": 83,
+      "comments": 24,
       "author": "carlana",
       "published": "2026-06-13T02:17:01Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Forest for the trees - An adventure in structured data",
+      "url": "https://nick.zoic.org/art/forest-for-the-trees/",
+      "discuss_url": "https://lobste.rs/s/rq4la4",
+      "score": 4,
+      "comments": 0,
+      "author": "abnercoimbre",
+      "published": "2026-06-15T16:02:24Z"
     },
     {
       "source": "lobsters",
@@ -320,18 +344,6 @@
       "comments": 35,
       "author": "caius",
       "published": "2026-06-12T13:04:47Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Forest for the trees - An adventure in structured data",
-      "url": "https://nick.zoic.org/art/forest-for-the-trees/",
-      "discuss_url": "https://lobste.rs/s/rq4la4",
-      "score": 1,
-      "comments": 0,
-      "author": "abnercoimbre",
-      "published": "2026-06-15T16:02:24Z"
     },
     {
       "source": "lobsters",
@@ -394,26 +406,14 @@
       "published": "2026-06-12T22:26:23Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "GitHub availability report: May 2026",
-      "url": "https://github.blog/news-insights/company-news/github-availability-report-may-2026/",
-      "discuss_url": "https://github.blog/news-insights/company-news/github-availability-report-may-2026/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-06-11T21:30:15Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Curl will not accept vulnerability reports during July 2026",
       "url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
       "discuss_url": "https://news.ycombinator.com/item?id=48537165",
-      "score": 721,
-      "comments": 294,
+      "score": 755,
+      "comments": 303,
       "author": "secret-noun",
       "published": "2026-06-15T06:02:57Z"
     },
@@ -424,8 +424,8 @@
       "title": "Users cry foul after AMD stripped memory crypto from its consumer CPUs",
       "url": "https://arstechnica.com/security/2026/06/users-cry-foul-after-amd-stripped-memory-crypto-from-its-consumer-cpus/",
       "discuss_url": "https://lobste.rs/s/i2cjew",
-      "score": 4,
-      "comments": 0,
+      "score": 13,
+      "comments": 4,
       "author": "hoistbypetard",
       "published": "2026-06-15T20:03:41Z"
     },
@@ -476,6 +476,18 @@
       "comments": null,
       "author": "BrianKrebs",
       "published": "2026-06-09T22:07:28Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails",
+      "url": "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
+      "discuss_url": "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-15T19:44:06Z"
     },
     {
       "source": "rss",
@@ -538,16 +550,16 @@
       "published": "2026-06-15T11:30:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "152 Chrome Wallpaper Extensions with 105K Installs Linked to Adware and Fake Traffic",
-      "url": "https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html",
-      "discuss_url": "https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-15T11:07:50Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "What job interviews taught me about Kubernetes",
+      "url": "https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/",
+      "discuss_url": "https://lobste.rs/s/k6qon4",
+      "score": 5,
+      "comments": 2,
+      "author": "rau",
+      "published": "2026-06-16T02:41:09Z"
     },
     {
       "source": "lobsters",
@@ -556,8 +568,8 @@
       "title": "pyinfra — agentless infrastructure automation, in plain Python",
       "url": "https://pyinfra.com",
       "discuss_url": "https://lobste.rs/s/htfm3p",
-      "score": 49,
-      "comments": 25,
+      "score": 56,
+      "comments": 29,
       "author": "gregnavis",
       "published": "2026-06-15T11:05:07Z"
     },
@@ -589,6 +601,18 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "AWS Management Console Private Access now works without internet connectivity",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-management-console-private/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-management-console-private/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-15T23:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon Bedrock AgentCore Memory now supports strictly consistent metadata for long-term memory",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-memory-scmetadata",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-memory-scmetadata",
@@ -596,6 +620,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-06-15T20:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon FSx for OpenZFS now supports on-demand data replication across AWS opt-in Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/on-demand-cross-region-replication/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/on-demand-cross-region-replication/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-15T18:30:00Z"
     },
     {
       "source": "rss",
@@ -659,39 +695,27 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS DevOps Agent expands with custom SRE agents and MCP/A2A protocols",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-custom-agents/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-custom-agents/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Key mission for Europe's commercial space enterprise scrubbed again",
+      "url": "https://arstechnica.com/space/2026/06/key-mission-for-europes-commercial-space-enterprise-scrubbed-again/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/key-mission-for-europes-commercial-space-enterprise-scrubbed-again/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-15T15:47:00Z"
+      "author": "Stephen Clark",
+      "published": "2026-06-15T23:40:38Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 C7i instances are now available in the Israel (Tel Aviv) region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7i-instances-israel-tel-aviv-region/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7i-instances-israel-tel-aviv-region/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Heart protection from COVID shots remains amid updates, study finds",
+      "url": "https://arstechnica.com/health/2026/06/covid-vaccines-still-protect-against-heart-problems-large-study-finds/",
+      "discuss_url": "https://arstechnica.com/health/2026/06/covid-vaccines-still-protect-against-heart-problems-large-study-finds/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-15T13:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 C8i instances are now available in Europe (Stockholm) region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8i-instances-europe-stockholm-region/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8i-instances-europe-stockholm-region/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-15T13:00:00Z"
+      "author": "Beth Mole",
+      "published": "2026-06-15T21:04:26Z"
     },
     {
       "source": "rss",
@@ -812,30 +836,6 @@
       "comments": null,
       "author": "Jennifer Ouellette",
       "published": "2026-06-13T17:17:44Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Threads of underground fungal networks are long enough to reach beyond the Solar System",
-      "url": "https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/",
-      "score": null,
-      "comments": null,
-      "author": "Wyatt Myskow, Inside Climate News",
-      "published": "2026-06-13T11:18:42Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Anthropic shuts down Fable, Mythos models following Trump admin directive",
-      "url": "https://arstechnica.com/ai/2026/06/anthropic-shuts-down-fable-mythos-models-following-trump-admin-directive/",
-      "discuss_url": "https://arstechnica.com/ai/2026/06/anthropic-shuts-down-fable-mythos-models-following-trump-admin-directive/",
-      "score": null,
-      "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-06-13T03:00:34Z"
     }
   ]
 }
