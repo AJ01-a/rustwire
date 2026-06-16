@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T04:48:40Z",
+  "updated_at": "2026-06-16T11:20:36Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
       "url": "https://news.ycombinator.com/item?id=48542100",
       "discuss_url": "https://news.ycombinator.com/item?id=48542100",
-      "score": 782,
-      "comments": 375,
+      "score": 1041,
+      "comments": 456,
       "author": "cloudking",
       "published": "2026-06-15T14:46:53Z",
       "bullets": [
-        "Practitioners pair Qwen-2.5-Coder or DeepSeek-Coder-V2 with Ollama and the Continue.dev IDE extension to replace proprietary LLMs for daily coding.",
-        "Achieving viable tokens/second for 70B+ models requires high-end hardware like Apple Silicon Mac Studios (64GB+ unified memory) or dual RTX 3090/4090 GPUs.",
-        "Local setups excel at offline, context-aware autocomplete and privacy, but struggle with complex, multi-file architectural reasoning compared to Claude 3.5 Sonnet."
+        "Developers are replacing Claude/GPT with Qwen-2.5-Coder (14B/32B) and DeepSeek-Coder-V2 for daily local development workflows.",
+        "Tooling relies heavily on Ollama or llama.cpp backends paired with the Continue.dev VS Code/JetBrains extension for inline autocompletion.",
+        "Viable performance (30+ tok/s) requires Apple Silicon (M3 Max/Ultra) or 24GB VRAM GPUs like the RTX 4090 running GGUF quants."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/fwohh5",
       "discuss_url": "https://lobste.rs/s/fwohh5",
-      "score": 12,
-      "comments": 22,
+      "score": 13,
+      "comments": 25,
       "author": "caius",
       "published": "2026-06-15T09:46:08Z",
       "bullets": [
-        "Leverage peer developer logs to discover niche tools and libraries in systems programming languages like Rust and Zig.",
-        "Cross-reference your current sprint goals with community trends in database optimization, compiler design, and self-hosting.",
-        "Incorporate low-pressure hacking and deliberate rest into your weekly cycle to sustain long-term software engineering productivity."
+        "Prioritize building side projects, creating POCs, and experimenting with modern languages like Rust, Go, or Zig.",
+        "Optimize engineering velocity by refactoring legacy code, automating CI/CD pipelines, and resolving accumulated technical debt.",
+        "Invest in continuous learning, studying distributed systems architecture, and evaluating database performance metrics."
       ]
     },
     {
@@ -71,48 +71,48 @@
       "title": "Curl will not accept vulnerability reports during July 2026",
       "url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
       "discuss_url": "https://news.ycombinator.com/item?id=48537165",
-      "score": 755,
-      "comments": 303,
+      "score": 769,
+      "comments": 307,
       "author": "secret-noun",
       "published": "2026-06-15T06:02:57Z",
       "bullets": [
-        "Upstream curl security patch releases and CVE assignments will pause entirely for one month due to maintainer sabbatical.",
-        "Security teams must adjust vulnerability SLA expectations and patch deployment schedules for enterprise software embedding libcurl.",
-        "The planned pause underscores systemic open-source supply chain risks where critical utilities depend on a single core developer."
+        "Lead maintainer Daniel Stenberg's planned sabbatical in July 2026 means zero upstream vulnerability triaging or CVE assignments during this period.",
+        "Security researchers must delay submissions, as curl's HackerOne and email reporting channels will pause triage for the entire month.",
+        "DevSecOps teams should expect a freeze on official curl patches and anticipate a potential influx of disclosures in August 2026."
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "What job interviews taught me about Kubernetes",
       "url": "https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/",
-      "discuss_url": "https://lobste.rs/s/k6qon4",
-      "score": 5,
-      "comments": 2,
-      "author": "rau",
-      "published": "2026-06-16T02:41:09Z",
+      "discuss_url": "https://news.ycombinator.com/item?id=48546428",
+      "score": 196,
+      "comments": 144,
+      "author": "chmaynard",
+      "published": "2026-06-15T20:12:37Z",
       "bullets": [
-        "Focus on Kubernetes networking fundamentals (CNIs, DNS, Ingress) and stateful storage configurations, which are critical gaps in many candidate interviews.",
-        "Mastery of day-2 operations—specifically Prometheus monitoring, HPA/VPA autoscaling, and GitOps workflows (ArgoCD)—separates senior DevOps candidates from beginners.",
-        "Evaluate if Kubernetes is truly necessary; many architectures benefit more from simpler managed container platforms like AWS ECS or Cloud Run."
+        "Interviewers heavily test Kubernetes control plane internals, etcd consistency, and CNI networking over basic YAML writing or application deployment.",
+        "Practical GitOps experience with ArgoCD or Flux and Day-2 observability using Prometheus are highly valued over theoretical cluster administration.",
+        "Candidates must demonstrate hands-on troubleshooting of DNS resolution, OOMKilled errors, and cost-efficient scaling using Karpenter or Cluster Autoscaler."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Key mission for Europe's commercial space enterprise scrubbed again",
-      "url": "https://arstechnica.com/space/2026/06/key-mission-for-europes-commercial-space-enterprise-scrubbed-again/",
-      "discuss_url": "https://arstechnica.com/space/2026/06/key-mission-for-europes-commercial-space-enterprise-scrubbed-again/",
+      "title": "Commodore’s newest gadget is a flip phone that blocks social media and browsers",
+      "url": "https://arstechnica.com/gadgets/2026/06/commodores-newest-gadget-is-a-flip-phone-that-blocks-social-media-and-browsers/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/06/commodores-newest-gadget-is-a-flip-phone-that-blocks-social-media-and-browsers/",
       "score": null,
       "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-06-15T23:40:38Z",
+      "author": "Scharon Harding",
+      "published": "2026-06-16T09:00:51Z",
       "bullets": [
-        "German launch startup Isar Aerospace delayed the maiden flight of its Spectrum rocket, deferring critical validation of its liquid-propellant engines.",
-        "Despite securing over €300M in funding, Isar remains bottlenecked by a lack of flight heritage and real-world telemetry.",
-        "The scrub highlights persistent hurdles for Europe’s commercial space sector in establishing sovereign, low-cost micro-launcher alternatives."
+        "Commodore is launching the Call Back 8020, a flip phone designed without web browsers or social media capabilities.",
+        "By omitting app stores and internet access, the device mitigates common mobile privacy threats and data harvesting practices.",
+        "The hardware targets a growing niche market for distraction-free 'dumbphones' that prioritize offline security over ad-supported ecosystems."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
       "url": "https://news.ycombinator.com/item?id=48542100",
       "discuss_url": "https://news.ycombinator.com/item?id=48542100",
-      "score": 782,
-      "comments": 375,
+      "score": 1041,
+      "comments": 456,
       "author": "cloudking",
       "published": "2026-06-15T14:46:53Z"
     },
@@ -136,8 +136,8 @@
       "title": "Anthropic's Safety Superpower",
       "url": "https://stratechery.com/2026/anthropics-safety-superpower/",
       "discuss_url": "https://news.ycombinator.com/item?id=48539078",
-      "score": 207,
-      "comments": 185,
+      "score": 210,
+      "comments": 187,
       "author": "swolpers",
       "published": "2026-06-15T10:06:35Z"
     },
@@ -148,7 +148,7 @@
       "title": "Did Anthropic ask for this?",
       "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
       "discuss_url": "https://news.ycombinator.com/item?id=48533504",
-      "score": 193,
+      "score": 194,
       "comments": 164,
       "author": "ad8e",
       "published": "2026-06-14T22:23:05Z"
@@ -160,8 +160,8 @@
       "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
       "url": "https://github.com/nex-agi/Nex-N2/issues/4",
       "discuss_url": "https://news.ycombinator.com/item?id=48528371",
-      "score": 396,
-      "comments": 216,
+      "score": 400,
+      "comments": 222,
       "author": "unrvl22",
       "published": "2026-06-14T15:37:31Z"
     },
@@ -185,9 +185,21 @@
       "url": "https://youtu.be/Ce-cN5Llaz4?t=93",
       "discuss_url": "https://lobste.rs/s/9iqluy",
       "score": 1,
-      "comments": 1,
+      "comments": 3,
       "author": "veqq",
       "published": "2026-06-16T01:33:59Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "The future of Siri, or: why private inference isn’t private enough",
+      "url": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
+      "discuss_url": "https://lobste.rs/s/tylzdy",
+      "score": 36,
+      "comments": 14,
+      "author": "achivetta",
+      "published": "2026-06-14T03:50:26Z"
     },
     {
       "source": "lobsters",
@@ -200,18 +212,6 @@
       "comments": 0,
       "author": "nocoffei",
       "published": "2026-06-15T22:04:31Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "The future of Siri, or: why private inference isn’t private enough",
-      "url": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
-      "discuss_url": "https://lobste.rs/s/tylzdy",
-      "score": 35,
-      "comments": 8,
-      "author": "achivetta",
-      "published": "2026-06-14T03:50:26Z"
     },
     {
       "source": "lobsters",
@@ -268,8 +268,8 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/fwohh5",
       "discuss_url": "https://lobste.rs/s/fwohh5",
-      "score": 12,
-      "comments": 22,
+      "score": 13,
+      "comments": 25,
       "author": "caius",
       "published": "2026-06-15T09:46:08Z"
     },
@@ -280,7 +280,7 @@
       "title": "zinnia: a modular 64-bit Unix-like kernel written in Rust",
       "url": "https://zinnia-os.org/",
       "discuss_url": "https://lobste.rs/s/0ichrt",
-      "score": 54,
+      "score": 55,
       "comments": 4,
       "author": "mrunix",
       "published": "2026-06-14T21:05:27Z"
@@ -289,22 +289,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Microsoft is resorting to its biggest cloud rival to deal with GitHub AI capacity issues",
-      "url": "https://www.businessinsider.com/microsoft-github-amazon-ai-cloud-capacity-2026-6",
-      "discuss_url": "https://lobste.rs/s/femzsi",
-      "score": 1,
-      "comments": 0,
-      "author": "ashishb",
-      "published": "2026-06-16T03:37:13Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "MONOLITH: An experimental non-Unix operating system for x86",
       "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
       "discuss_url": "https://lobste.rs/s/hwi7c2",
-      "score": 6,
+      "score": 9,
       "comments": 0,
       "author": "mrunix",
       "published": "2026-06-15T16:54:04Z"
@@ -317,7 +305,7 @@
       "url": "https://charlottebuff.com/unicode/misc/rejected-emoji-proposals/",
       "discuss_url": "https://lobste.rs/s/tigq8d",
       "score": 83,
-      "comments": 24,
+      "comments": 25,
       "author": "carlana",
       "published": "2026-06-13T02:17:01Z"
     },
@@ -406,14 +394,26 @@
       "published": "2026-06-12T22:26:23Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "GitHub availability report: May 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-may-2026/",
+      "discuss_url": "https://github.blog/news-insights/company-news/github-availability-report-may-2026/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-06-11T21:30:15Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Curl will not accept vulnerability reports during July 2026",
       "url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
       "discuss_url": "https://news.ycombinator.com/item?id=48537165",
-      "score": 755,
-      "comments": 303,
+      "score": 769,
+      "comments": 307,
       "author": "secret-noun",
       "published": "2026-06-15T06:02:57Z"
     },
@@ -424,8 +424,8 @@
       "title": "Users cry foul after AMD stripped memory crypto from its consumer CPUs",
       "url": "https://arstechnica.com/security/2026/06/users-cry-foul-after-amd-stripped-memory-crypto-from-its-consumer-cpus/",
       "discuss_url": "https://lobste.rs/s/i2cjew",
-      "score": 13,
-      "comments": 4,
+      "score": 21,
+      "comments": 7,
       "author": "hoistbypetard",
       "published": "2026-06-15T20:03:41Z"
     },
@@ -481,6 +481,66 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week",
+      "url": "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
+      "discuss_url": "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-16T10:30:41Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth",
+      "url": "https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html",
+      "discuss_url": "https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-16T09:44:34Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware",
+      "url": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
+      "discuss_url": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-16T08:14:55Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw",
+      "url": "https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html",
+      "discuss_url": "https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-16T06:05:58Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "CISA Flags LiteSpeed cPanel Plugin Flaw Exploited for Root Privilege Escalation",
+      "url": "https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html",
+      "discuss_url": "https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-16T05:41:52Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails",
       "url": "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
       "discuss_url": "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
@@ -490,76 +550,16 @@
       "published": "2026-06-15T19:44:06Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels",
-      "url": "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html",
-      "discuss_url": "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-15T19:32:52Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers",
-      "url": "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html",
-      "discuss_url": "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-15T16:39:01Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes",
-      "url": "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
-      "discuss_url": "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-15T15:09:05Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "⚡ Weekly Recap: Chrome 0-Day, UniFi Exploits, macOS Stealers, VPN Flaw and More",
-      "url": "https://thehackernews.com/2026/06/weekly-recap-chrome-0-day-unifi.html",
-      "discuss_url": "https://thehackernews.com/2026/06/weekly-recap-chrome-0-day-unifi.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-15T13:49:29Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "The Onboarding Password Mistake That Creates Unnecessary Risk",
-      "url": "https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html",
-      "discuss_url": "https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-15T11:30:00Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "What job interviews taught me about Kubernetes",
       "url": "https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/",
-      "discuss_url": "https://lobste.rs/s/k6qon4",
-      "score": 5,
-      "comments": 2,
-      "author": "rau",
-      "published": "2026-06-16T02:41:09Z"
+      "discuss_url": "https://news.ycombinator.com/item?id=48546428",
+      "score": 196,
+      "comments": 144,
+      "author": "chmaynard",
+      "published": "2026-06-15T20:12:37Z"
     },
     {
       "source": "lobsters",
@@ -568,22 +568,10 @@
       "title": "pyinfra — agentless infrastructure automation, in plain Python",
       "url": "https://pyinfra.com",
       "discuss_url": "https://lobste.rs/s/htfm3p",
-      "score": 56,
-      "comments": 29,
+      "score": 62,
+      "comments": 32,
       "author": "gregnavis",
       "published": "2026-06-15T11:05:07Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "AI Agent Bankrupted Their Operator While Trying to Scan DN42",
-      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
-      "discuss_url": "https://lobste.rs/s/ishgbs",
-      "score": 159,
-      "comments": 28,
-      "author": "pyfisch",
-      "published": "2026-06-12T05:59:29Z"
     },
     {
       "source": "lobsters",
@@ -601,6 +589,18 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "AWS Transform now supports Amazon FSx for NetApp ONTAP (Public Preview)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-vmware-fsx-for-ontap-preview",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-vmware-fsx-for-ontap-preview",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-16T04:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "AWS Management Console Private Access now works without internet connectivity",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-management-console-private/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-management-console-private/",
@@ -608,6 +608,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-06-15T23:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Grok 4.3 from xAI now available in Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-15T20:04:00Z"
     },
     {
       "source": "rss",
@@ -683,15 +695,15 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Lambda Managed Instances now supports Tag Propagation for Managed Resources",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-tag-propagation/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-tag-propagation/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Commodore’s newest gadget is a flip phone that blocks social media and browsers",
+      "url": "https://arstechnica.com/gadgets/2026/06/commodores-newest-gadget-is-a-flip-phone-that-blocks-social-media-and-browsers/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/06/commodores-newest-gadget-is-a-flip-phone-that-blocks-social-media-and-browsers/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-15T15:55:00Z"
+      "author": "Scharon Harding",
+      "published": "2026-06-16T09:00:51Z"
     },
     {
       "source": "rss",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Jennifer Ouellette",
       "published": "2026-06-14T16:02:53Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Review: Disclosure Day is big on action, light on ideas",
-      "url": "https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/",
-      "discuss_url": "https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-06-13T17:17:44Z"
     }
   ]
 }
