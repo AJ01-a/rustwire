@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T20:57:59Z",
+  "updated_at": "2026-06-17T04:28:47Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -31,20 +31,20 @@
   ],
   "tldr": [
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Claude: Elevated errors across many models",
-      "url": "https://status.claude.com/incidents/xmhsglsz3h3w",
-      "discuss_url": "https://news.ycombinator.com/item?id=48558766",
-      "score": 171,
-      "comments": 145,
-      "author": "forks",
-      "published": "2026-06-16T17:30:30Z",
+      "title": "Can gzip be a language model?",
+      "url": "https://nathan.rs/posts/gzip-lm/",
+      "discuss_url": "https://lobste.rs/s/j11pew",
+      "score": 4,
+      "comments": 0,
+      "author": "AviKav",
+      "published": "2026-06-16T22:17:20Z",
       "bullets": [
-        "Anthropic's widespread API outage highlights the vulnerability of production workflows tightly coupled to a single LLM vendor.",
-        "Engineers should implement multi-provider fallbacks, routing queries to alternative models like OpenAI GPT-4o or Google Gemini during outages.",
-        "To maintain system resilience, AI practitioners must deploy robust circuit breakers, caching layers, and graceful degradation strategies."
+        "Using gzip, Normalized Compression Distance (NCD), and k-NN enables parameter-free text classification without training heavy deep learning models.",
+        "This compression-based approach rivals models like BERT on out-of-distribution datasets while requiring zero parameters or GPU training.",
+        "However, execution scales poorly to large datasets due to the O(N^2) complexity of pairwise compression and k-NN search."
       ]
     },
     {
@@ -54,140 +54,80 @@
       "title": "But yak shaving is fun",
       "url": "https://parksb.github.io/en/article/32.html",
       "discuss_url": "https://lobste.rs/s/zpjomk",
-      "score": 3,
-      "comments": 0,
+      "score": 13,
+      "comments": 1,
       "author": "hoistbypetard",
       "published": "2026-06-16T19:18:46Z",
       "bullets": [
-        "Yak shaving drives deep toolchain mastery, turning tedious dependency, compiler, or build-system debugging into valuable foundational knowledge.",
-        "Balancing exploratory rabbit holes with product delivery is crucial; timeboxing custom tooling development prevents productivity loss in CI/CD pipelines.",
-        "Documenting complex edge cases encountered during deep dives converts individual debugging sessions into reusable team runbooks and automation."
+        "Deep toolchain setups (like Nix, Docker, or Webpack) offer learning value but often become massive productivity sinks disguised as engineering work.",
+        "Building custom internal developer tooling improves developer experience but creates long-term maintenance overhead instead of leveraging existing SaaS alternatives.",
+        "Engineers must timebox system optimizations, balancing the educational joy of solving peripheral technical problems against pragmatic product shipping velocities."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "A backdoor in a LinkedIn job offer",
-      "url": "https://roman.pt/posts/linkedin-backdoor/",
-      "discuss_url": "https://lobste.rs/s/2u1z4w",
-      "score": 36,
-      "comments": 9,
+      "title": "Honda Civics and the Evil Valet",
+      "url": "https://juniperspring.org/posts/honda-evil-valet/",
+      "discuss_url": "https://lobste.rs/s/bt3cq8",
+      "score": 4,
+      "comments": 0,
       "author": "hoistbypetard",
-      "published": "2026-06-16T12:58:11Z",
+      "published": "2026-06-17T02:59:20Z",
       "bullets": [
-        "Threat actors bypass email security by delivering malicious PDF, LNK, or ZIP payloads directly through LinkedIn direct messaging channels.",
-        "Spear-phishing campaigns often deploy the \"More_eggs\" backdoor or Trojanized coding challenges to compromise developer and security analyst endpoints.",
-        "Defense requires monitoring endpoint process spawns like `mshta.exe` or `powershell.exe` originating from web browsers or untrusted downloaded archives."
+        "Unrestricted OBD-II port access allows attackers to program unauthorized key fobs in under five minutes using readily available locksmith tools.",
+        "Honda vehicles suffer from rolling code bypasses like CVE-2022-27254, enabling attackers to capture and replay RF signals to unlock doors.",
+        "Securing vehicles requires physical OBD port locks and RF-shielding pouches, as standard valet modes lack cryptographic hardware isolation."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "What job interviews taught me about Kubernetes",
       "url": "https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48546428",
-      "score": 249,
-      "comments": 195,
-      "author": "chmaynard",
-      "published": "2026-06-15T20:12:37Z",
+      "discuss_url": "https://lobste.rs/s/k6qon4",
+      "score": 43,
+      "comments": 52,
+      "author": "rau",
+      "published": "2026-06-16T02:41:09Z",
       "bullets": [
-        "Interviews reveal widespread Kubernetes over-engineering; many workloads are better suited for simpler setups like Docker Compose or AWS ECS.",
-        "Candidates often struggle with core networking like CNIs and Ingress, focusing too much on basic YAML templating.",
-        "There is a major knowledge gap between using managed services like EKS/GKE and understanding bare-metal control plane administration."
+        "Many organizations adopt Kubernetes prematurely when simpler alternatives like AWS ECS, Nomad, or systemd services would reduce operational overhead.",
+        "Interviews reveal a critical gap in fundamental K8s networking (CNIs like Calico, CoreDNS) and storage internals over simple YAML templating.",
+        "Production troubleshooting skills, including Prometheus monitoring, RBAC security, and debugging etcd consistency, are far more valued than basic deployment automation."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "US approval of Paramount/Warner Bros. deal surprised DOJ lawyers, report says",
-      "url": "https://arstechnica.com/tech-policy/2026/06/us-approval-of-paramount-warner-bros-deal-surprised-doj-lawyers-report-says/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/us-approval-of-paramount-warner-bros-deal-surprised-doj-lawyers-report-says/",
+      "title": "Trump admin tries to block Clean Air Act lawsuit over xAI's gas turbines",
+      "url": "https://arstechnica.com/tech-policy/2026/06/trump-admin-helps-xai-fight-pollution-lawsuit-says-military-needs-grok-for-war/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/trump-admin-helps-xai-fight-pollution-lawsuit-says-military-needs-grok-for-war/",
       "score": null,
       "comments": null,
       "author": "Jon Brodkin",
-      "published": "2026-06-16T18:48:45Z",
+      "published": "2026-06-16T22:22:44Z",
       "bullets": [
-        "DOJ lawyers were surprised by the Trump administration's rapid approval of the massive $111B Paramount and Warner Bros. merger.",
-        "Senator Warren heavily criticized the green-lit deal, highlighting growing political friction over massive media and telecom consolidation.",
-        "The decision signals unpredictable antitrust enforcement, where executive actions may override standard DOJ regulatory review processes."
+        "NAACP lawsuit says xAI uses gas turbines without permits for Grok data center.",
+        "Trump admin tries to block Clean Air Act lawsuit over xAI's gas turbines",
+        "Submitted by Jon Brodkin on arstechnica.com."
       ]
     }
   ],
   "discussions": [
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Claude: Elevated errors across many models",
-      "url": "https://status.claude.com/incidents/xmhsglsz3h3w",
-      "discuss_url": "https://news.ycombinator.com/item?id=48558766",
-      "score": 171,
-      "comments": 145,
-      "author": "forks",
-      "published": "2026-06-16T17:30:30Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
-      "url": "https://news.ycombinator.com/item?id=48542100",
-      "discuss_url": "https://news.ycombinator.com/item?id=48542100",
-      "score": 1229,
-      "comments": 519,
-      "author": "cloudking",
-      "published": "2026-06-15T14:46:53Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Claude Corps",
-      "url": "https://www.anthropic.com/news/claude-corps",
-      "discuss_url": "https://news.ycombinator.com/item?id=48544637",
-      "score": 155,
-      "comments": 114,
-      "author": "Mustan",
-      "published": "2026-06-15T17:41:24Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Anthropic's Safety Superpower",
-      "url": "https://stratechery.com/2026/anthropics-safety-superpower/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48539078",
-      "score": 211,
-      "comments": 189,
-      "author": "swolpers",
-      "published": "2026-06-15T10:06:35Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Did Anthropic ask for this?",
-      "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
-      "discuss_url": "https://news.ycombinator.com/item?id=48533504",
-      "score": 194,
-      "comments": 165,
-      "author": "ad8e",
-      "published": "2026-06-14T22:23:05Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "CrankGPT — Local Human-powered AI",
-      "url": "https://crankgpt.com",
-      "discuss_url": "https://lobste.rs/s/fdjc6i",
-      "score": 10,
-      "comments": 2,
-      "author": "ndegruchy",
-      "published": "2026-06-15T13:35:22Z"
+      "title": "Can gzip be a language model?",
+      "url": "https://nathan.rs/posts/gzip-lm/",
+      "discuss_url": "https://lobste.rs/s/j11pew",
+      "score": 4,
+      "comments": 0,
+      "author": "AviKav",
+      "published": "2026-06-16T22:17:20Z"
     },
     {
       "source": "lobsters",
@@ -205,13 +145,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Why adding ontologies to LLMs won't yield machine intelligence",
-      "url": "https://youtu.be/Ce-cN5Llaz4?t=93",
-      "discuss_url": "https://lobste.rs/s/9iqluy",
-      "score": 1,
-      "comments": 3,
-      "author": "veqq",
-      "published": "2026-06-16T01:33:59Z"
+      "title": "CrankGPT — Local Human-powered AI",
+      "url": "https://crankgpt.com",
+      "discuss_url": "https://lobste.rs/s/fdjc6i",
+      "score": 10,
+      "comments": 2,
+      "author": "ndegruchy",
+      "published": "2026-06-15T13:35:22Z"
     },
     {
       "source": "lobsters",
@@ -220,7 +160,7 @@
       "title": "June Framework Memory and storage pricing updates",
       "url": "https://frame.work/ca/en/blog/updates-on-memory-pricing-and-navigating-the-volatile-memory-market",
       "discuss_url": "https://lobste.rs/s/uicwti",
-      "score": 4,
+      "score": 5,
       "comments": 0,
       "author": "nocoffei",
       "published": "2026-06-15T22:04:31Z"
@@ -229,13 +169,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "AI Economics for Dummies",
-      "url": "https://www.mcsweeneys.net/articles/ai-economics-for-dummies",
-      "discuss_url": "https://lobste.rs/s/rr3qvi",
-      "score": 14,
-      "comments": 0,
-      "author": "Yogthos",
-      "published": "2026-06-12T21:17:18Z"
+      "title": "Why adding ontologies to LLMs won't yield machine intelligence",
+      "url": "https://youtu.be/Ce-cN5Llaz4?t=93",
+      "discuss_url": "https://lobste.rs/s/9iqluy",
+      "score": 1,
+      "comments": 3,
+      "author": "veqq",
+      "published": "2026-06-16T01:33:59Z"
     },
     {
       "source": "lobsters",
@@ -250,13 +190,37 @@
       "published": "2026-06-13T20:12:35Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "olmo-eval: An evaluation workbench for the model development loop",
+      "url": "https://huggingface.co/blog/allenai/olmo-eval",
+      "discuss_url": "https://huggingface.co/blog/allenai/olmo-eval",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-12T15:56:10Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+      "url": "https://huggingface.co/blog/torch-mlp-fusion",
+      "discuss_url": "https://huggingface.co/blog/torch-mlp-fusion",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-11T00:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
       "title": "Building llm-driven “ai” still requires domain knowledge",
       "url": "https://lobste.rs/s/q9sd1m",
       "discuss_url": "https://lobste.rs/s/q9sd1m",
-      "score": 1,
+      "score": 0,
       "comments": 0,
       "author": "Student",
       "published": "2026-06-15T14:46:23Z"
@@ -268,10 +232,22 @@
       "title": "But yak shaving is fun",
       "url": "https://parksb.github.io/en/article/32.html",
       "discuss_url": "https://lobste.rs/s/zpjomk",
-      "score": 3,
-      "comments": 0,
+      "score": 13,
+      "comments": 1,
       "author": "hoistbypetard",
       "published": "2026-06-16T19:18:46Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Demystifying Noise Contrastive Estimation",
+      "url": "http://jxmo.io/posts/nce",
+      "discuss_url": "https://lobste.rs/s/w0idmf",
+      "score": 1,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-06-17T03:39:46Z"
     },
     {
       "source": "lobsters",
@@ -301,18 +277,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Rejected Emoji Proposals",
-      "url": "https://charlottebuff.com/unicode/misc/rejected-emoji-proposals/",
-      "discuss_url": "https://lobste.rs/s/tigq8d",
-      "score": 83,
-      "comments": 25,
-      "author": "carlana",
-      "published": "2026-06-13T02:17:01Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "MONOLITH: An experimental non-Unix operating system for x86",
       "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
       "discuss_url": "https://lobste.rs/s/hwi7c2",
@@ -332,6 +296,18 @@
       "comments": 0,
       "author": "abnercoimbre",
       "published": "2026-06-15T16:02:24Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "What are git worktrees, and why should I use them?",
+      "url": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-06-16T20:58:54Z"
     },
     {
       "source": "rss",
@@ -394,16 +370,16 @@
       "published": "2026-06-11T16:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Give GitHub Copilot CLI real code intelligence with language servers",
-      "url": "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/",
-      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-06-10T16:00:00Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Honda Civics and the Evil Valet",
+      "url": "https://juniperspring.org/posts/honda-evil-valet/",
+      "discuss_url": "https://lobste.rs/s/bt3cq8",
+      "score": 4,
+      "comments": 0,
+      "author": "hoistbypetard",
+      "published": "2026-06-17T02:59:20Z"
     },
     {
       "source": "lobsters",
@@ -412,34 +388,22 @@
       "title": "A backdoor in a LinkedIn job offer",
       "url": "https://roman.pt/posts/linkedin-backdoor/",
       "discuss_url": "https://lobste.rs/s/2u1z4w",
-      "score": 36,
-      "comments": 9,
+      "score": 44,
+      "comments": 12,
       "author": "hoistbypetard",
       "published": "2026-06-16T12:58:11Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "security",
-      "title": "Curl will not accept vulnerability reports during July 2026",
-      "url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48537165",
-      "score": 776,
-      "comments": 313,
-      "author": "secret-noun",
-      "published": "2026-06-15T06:02:57Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Malware in Arch Linux AURs now inserting Russian spam into shell configs",
-      "url": "https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/message/2YQSHTC27MOKDDKHZTH2BJGTEN2CYC7W/",
-      "discuss_url": "https://lobste.rs/s/zaejgn",
-      "score": 4,
-      "comments": 0,
-      "author": "dustyweb",
-      "published": "2026-06-16T18:36:47Z"
+      "title": "curl summer of bliss",
+      "url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
+      "discuss_url": "https://lobste.rs/s/uqagn2",
+      "score": 259,
+      "comments": 21,
+      "author": "andrewnez",
+      "published": "2026-06-15T07:53:52Z"
     },
     {
       "source": "lobsters",
@@ -454,18 +418,6 @@
       "published": "2026-06-15T20:03:41Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "21 Zero-Days in FFmpeg",
-      "url": "https://depthfirst.com/research/21-zero-days-in-ffmpeg",
-      "discuss_url": "https://lobste.rs/s/ejra5c",
-      "score": 20,
-      "comments": 6,
-      "author": "sanxiyn",
-      "published": "2026-06-13T00:21:57Z"
-    },
-    {
       "source": "rss",
       "subsource": "krebsonsecurity.com",
       "category": "security",
@@ -476,18 +428,6 @@
       "comments": null,
       "author": "BrianKrebs",
       "published": "2026-06-10T14:03:44Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "krebsonsecurity.com",
-      "category": "security",
-      "title": "A Record-Breaking Patch Tuesday for June 2026",
-      "url": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
-      "discuss_url": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
-      "score": null,
-      "comments": null,
-      "author": "BrianKrebs",
-      "published": "2026-06-09T22:07:28Z"
     },
     {
       "source": "rss",
@@ -550,16 +490,40 @@
       "published": "2026-06-16T10:30:41Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth",
+      "url": "https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html",
+      "discuss_url": "https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-16T09:44:34Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware",
+      "url": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
+      "discuss_url": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-16T08:14:55Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "What job interviews taught me about Kubernetes",
       "url": "https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48546428",
-      "score": 249,
-      "comments": 195,
-      "author": "chmaynard",
-      "published": "2026-06-15T20:12:37Z"
+      "discuss_url": "https://lobste.rs/s/k6qon4",
+      "score": 43,
+      "comments": 52,
+      "author": "rau",
+      "published": "2026-06-16T02:41:09Z"
     },
     {
       "source": "lobsters",
@@ -568,7 +532,7 @@
       "title": "pyinfra — agentless infrastructure automation, in plain Python",
       "url": "https://pyinfra.com",
       "discuss_url": "https://lobste.rs/s/htfm3p",
-      "score": 65,
+      "score": 66,
       "comments": 35,
       "author": "gregnavis",
       "published": "2026-06-15T11:05:07Z"
@@ -580,22 +544,58 @@
       "title": "mgmt: next generation distributed, event-driven, parallel config management",
       "url": "https://github.com/purpleidea/mgmt",
       "discuss_url": "https://lobste.rs/s/jwji8v",
-      "score": 1,
+      "score": 0,
       "comments": 2,
       "author": "fbegyn",
       "published": "2026-06-16T15:18:23Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
+      "source": "rss",
+      "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Service Bindings - A Better Way to Connect Apps to Databases",
-      "url": "https://openrun.dev/blog/service-binding/",
-      "discuss_url": "https://lobste.rs/s/tfvd8h",
-      "score": 1,
-      "comments": 1,
-      "author": "ajayvk",
-      "published": "2026-06-13T00:09:38Z"
+      "title": "Amazon Bedrock Guardrails announces a new API targeting agentic AI workflows",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails-api-ai/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails-api-ai/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-16T22:53:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Transform now supports model-to-model migration assessment for generative AI workloads",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-model-to-model-assessments",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-model-to-model-assessments",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-16T21:55:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon S3 Vectors now supports up to 10,000 similarity search results per query",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/s3-vectors-supports-10000-search-results-per-query",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/s3-vectors-supports-10000-search-results-per-query",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-16T21:22:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Transform for mainframe now delivers a traceable reimagine workflow",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mainframe-traceable-reimagine-workflow/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mainframe-traceable-reimagine-workflow/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-16T18:29:00Z"
     },
     {
       "source": "rss",
@@ -659,39 +659,63 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Marketplace announces AI-assisted product listing",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ai-assisted-product-listing/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ai-assisted-product-listing/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Trump admin tries to block Clean Air Act lawsuit over xAI's gas turbines",
+      "url": "https://arstechnica.com/tech-policy/2026/06/trump-admin-helps-xai-fight-pollution-lawsuit-says-military-needs-grok-for-war/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/trump-admin-helps-xai-fight-pollution-lawsuit-says-military-needs-grok-for-war/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-16T12:30:00Z"
+      "author": "Jon Brodkin",
+      "published": "2026-06-16T22:22:44Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Partner Central launches new funding benefits for Business Value Realization",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-business-value-realization/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-business-value-realization/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Year of free HPE software a “step in the correct direction” in VMware rivalry",
+      "url": "https://arstechnica.com/information-technology/2026/06/hpe-tempts-vmware-users-partners-with-year-of-free-virtualization-software/",
+      "discuss_url": "https://arstechnica.com/information-technology/2026/06/hpe-tempts-vmware-users-partners-with-year-of-free-virtualization-software/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-16T07:00:00Z"
+      "author": "Scharon Harding",
+      "published": "2026-06-16T22:11:15Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Partner Central now validates Foundational Technical Review in minutes",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-central-foundational-technical-review/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-central-foundational-technical-review/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Cockroaches scurry around with thousands of pieces of bacterial genomes",
+      "url": "https://arstechnica.com/science/2026/06/cockroaches-scurry-around-with-thousands-of-pieces-of-bacterial-genomes/",
+      "discuss_url": "https://arstechnica.com/science/2026/06/cockroaches-scurry-around-with-thousands-of-pieces-of-bacterial-genomes/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-16T07:00:00Z"
+      "author": "John Timmer",
+      "published": "2026-06-16T21:54:41Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Among the large new rockets Amazon was counting on, only Europe has delivered",
+      "url": "https://arstechnica.com/space/2026/06/amid-launch-bottleneck-amazon-has-hundreds-of-satellites-waiting-to-fly/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/amid-launch-bottleneck-amazon-has-hundreds-of-satellites-waiting-to-fly/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-06-16T21:14:08Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Anthropic \"pauses\" token-based billing for its Claude Agent SDK",
+      "url": "https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/",
+      "discuss_url": "https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/",
+      "score": null,
+      "comments": null,
+      "author": "Kyle Orland",
+      "published": "2026-06-16T21:00:35Z"
     },
     {
       "source": "rss",
@@ -776,66 +800,6 @@
       "comments": null,
       "author": "Jonathan M. Gitlin",
       "published": "2026-06-16T14:20:51Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The Ars Technica 2026 Reader Survey: Let your voice be heard!",
-      "url": "https://arstechnica.com/staff/2026/06/the-ars-technica-2026-reader-survey-let-your-voice-be-heard/",
-      "discuss_url": "https://arstechnica.com/staff/2026/06/the-ars-technica-2026-reader-survey-let-your-voice-be-heard/",
-      "score": null,
-      "comments": null,
-      "author": "Ken Fisher",
-      "published": "2026-06-16T13:35:55Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Critical Copilot vulnerability allowed hackers to steal 2FA code from users",
-      "url": "https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/",
-      "discuss_url": "https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-06-16T11:15:46Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Commodore’s newest gadget is a flip phone that blocks social media and browsers",
-      "url": "https://arstechnica.com/gadgets/2026/06/commodores-newest-gadget-is-a-flip-phone-that-blocks-social-media-and-browsers/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/06/commodores-newest-gadget-is-a-flip-phone-that-blocks-social-media-and-browsers/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-06-16T09:00:51Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Key mission for Europe's commercial space enterprise scrubbed again",
-      "url": "https://arstechnica.com/space/2026/06/key-mission-for-europes-commercial-space-enterprise-scrubbed-again/",
-      "discuss_url": "https://arstechnica.com/space/2026/06/key-mission-for-europes-commercial-space-enterprise-scrubbed-again/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-06-15T23:40:38Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Heart protection from COVID shots remains amid updates, study finds",
-      "url": "https://arstechnica.com/health/2026/06/covid-vaccines-still-protect-against-heart-problems-large-study-finds/",
-      "discuss_url": "https://arstechnica.com/health/2026/06/covid-vaccines-still-protect-against-heart-problems-large-study-finds/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-06-15T21:04:26Z"
     }
   ]
 }
