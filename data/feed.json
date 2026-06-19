@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T04:48:05Z",
+  "updated_at": "2026-06-19T10:48:47Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "The Future of the Con Is Already Here, It's Just Not Evenly Distributed",
       "url": "http://manishearth.github.io/blog/2026/06/17/the-future-of-the-con-is-already-here/",
       "discuss_url": "https://lobste.rs/s/5majlp",
-      "score": 33,
-      "comments": 9,
+      "score": 43,
+      "comments": 25,
       "author": "Manishearth",
       "published": "2026-06-18T16:25:48Z",
       "bullets": [
-        "The Future of the Con Is Already Here, It's Just Not Evenly Distributed",
-        "Trending on lobste.rs/ai — 33 points, 9 comments.",
-        "Submitted by Manishearth on lobste.rs/ai."
+        "Generative AI and voice cloning scale highly convincing social engineering, rendering traditional text-based phishing indicators obsolete.",
+        "Deepfakes and LLMs automate spear-phishing, enabling attackers to bypass biometric verification and MFA via real-time synthesis.",
+        "Defense requires transitioning from passive detection to zero-trust verification, cryptographic signatures, and out-of-band channels."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are your Favorite Lobste.rs Comments?",
       "url": "https://lobste.rs/s/crl4fj",
       "discuss_url": "https://lobste.rs/s/crl4fj",
-      "score": 56,
-      "comments": 8,
+      "score": 88,
+      "comments": 16,
       "author": "veqq",
       "published": "2026-06-18T17:04:00Z",
       "bullets": [
-        "The forum has been around for a long time and I occasionally find old gems, I wonder what great insights etc.",
-        "I've missed from the past.",
-        "What are your Favorite Lobste.rs Comments?"
+        "Lobste.rs archives offer deep, peer-reviewed engineering insights on systems design, language pragmatics, and historical software architecture decisions.",
+        "The invite-only moderation model preserves high signal-to-noise, safeguarding highly technical critiques, performance optimizations, and obscure bug post-mortems.",
+        "Mining older threads uncovers production-tested database trade-offs, systems programming wisdom, and pragmatic architectural retrospectives from senior practitioners."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "CLI Authentication, the Right Way",
       "url": "https://www.abgeo.dev/blog/cli-authentication-the-right-way/",
       "discuss_url": "https://lobste.rs/s/nqv7yo",
-      "score": 37,
-      "comments": 8,
+      "score": 39,
+      "comments": 9,
       "author": "ABGEO",
       "published": "2026-06-18T06:36:39Z",
       "bullets": [
-        "CLI Authentication, the Right Way",
-        "Trending on lobste.rs/security — 37 points, 8 comments.",
-        "Submitted by ABGEO on lobste.rs/security."
+        "Implement OAuth 2.0 Device Authorization Grant (RFC 8628) to authenticate CLI tools securely using browser-based identity providers.",
+        "Store session tokens in native OS credential managers like macOS Keychain or Linux Secret Service instead of plaintext files.",
+        "Replace long-lived static API keys with short-lived tokens and OIDC federation to minimize the blast radius of compromised credentials."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "rau",
       "published": "2026-06-16T02:41:09Z",
       "bullets": [
-        "What job interviews taught me about Kubernetes",
-        "Trending on lobste.rs/devops — 48 points, 78 comments.",
-        "Submitted by rau on lobste.rs/devops."
+        "K8s interviews heavily prioritize real-world Day-2 operations, testing deep troubleshooting of etcd, CoreDNS bottlenecks, and CNI networking failures over basic YAML.",
+        "Employers value GitOps automation using ArgoCD or Flux and secure secret management with HashiCorp Vault over manual kubectl deployments.",
+        "Technical loops focus on cost-efficiency tools like Karpenter alongside architectural decisions on when to bypass Kubernetes for simpler ECS setups."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Stephen Clark",
       "published": "2026-06-19T00:39:30Z",
       "bullets": [
-        "\"I consider this a success already, just from the fact that we're even going to try this.\"",
-        "A bold satellite rescue mission came together in record time, but will it work?",
-        "Submitted by Stephen Clark on arstechnica.com."
+        "On-orbit servicing (OOS) missions leverage Rendezvous and Proximity Operations (RPO) to inspect, fuel, or repair failing orbital assets.",
+        "Rapid-response deployments challenge traditional guidance, navigation, and control (GNC) systems, requiring autonomous hazard detection and real-time path planning.",
+        "Key commercial players like Astroscale and Northrop Grumman are pioneering mechanical capture mechanisms to mitigate space debris and extend spacecraft lifespans."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "The Future of the Con Is Already Here, It's Just Not Evenly Distributed",
       "url": "http://manishearth.github.io/blog/2026/06/17/the-future-of-the-con-is-already-here/",
       "discuss_url": "https://lobste.rs/s/5majlp",
-      "score": 33,
-      "comments": 9,
+      "score": 43,
+      "comments": 25,
       "author": "Manishearth",
       "published": "2026-06-18T16:25:48Z"
     },
@@ -136,7 +136,7 @@
       "title": "Can gzip be a language model?",
       "url": "https://nathan.rs/posts/gzip-lm/",
       "discuss_url": "https://lobste.rs/s/j11pew",
-      "score": 61,
+      "score": 62,
       "comments": 11,
       "author": "AviKav",
       "published": "2026-06-16T22:17:20Z"
@@ -268,22 +268,10 @@
       "title": "What are your Favorite Lobste.rs Comments?",
       "url": "https://lobste.rs/s/crl4fj",
       "discuss_url": "https://lobste.rs/s/crl4fj",
-      "score": 56,
-      "comments": 8,
+      "score": 88,
+      "comments": 16,
       "author": "veqq",
       "published": "2026-06-18T17:04:00Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "The design of littlefs",
-      "url": "https://github.com/littlefs-project/littlefs/blob/master/DESIGN.md",
-      "discuss_url": "https://lobste.rs/s/mhymex",
-      "score": 20,
-      "comments": 4,
-      "author": "nortti",
-      "published": "2026-06-18T18:13:35Z"
     },
     {
       "source": "lobsters",
@@ -292,10 +280,22 @@
       "title": "Pull Requests are Free Puppies",
       "url": "https://www.youtube.com/watch?v=x8_ZZhRL3YU&t=1733s",
       "discuss_url": "https://lobste.rs/s/aqk7vl",
-      "score": 85,
-      "comments": 15,
+      "score": 89,
+      "comments": 16,
       "author": "ndr",
       "published": "2026-06-17T13:23:44Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "But yak shaving is fun",
+      "url": "https://parksb.github.io/en/article/32.html",
+      "discuss_url": "https://lobste.rs/s/zpjomk",
+      "score": 73,
+      "comments": 27,
+      "author": "hoistbypetard",
+      "published": "2026-06-16T19:18:46Z"
     },
     {
       "source": "lobsters",
@@ -308,18 +308,6 @@
       "comments": 0,
       "author": "Yogthos",
       "published": "2026-06-18T14:01:40Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "But yak shaving is fun",
-      "url": "https://parksb.github.io/en/article/32.html",
-      "discuss_url": "https://lobste.rs/s/zpjomk",
-      "score": 72,
-      "comments": 27,
-      "author": "hoistbypetard",
-      "published": "2026-06-16T19:18:46Z"
     },
     {
       "source": "lobsters",
@@ -340,7 +328,7 @@
       "title": "ClojureWasm is a Clojure runtime written from scratch in Zig and Clojure, with no JVM",
       "url": "https://github.com/clojurewasm/ClojureWasm",
       "discuss_url": "https://lobste.rs/s/updcup",
-      "score": 3,
+      "score": 5,
       "comments": 0,
       "author": "Yogthos",
       "published": "2026-06-18T16:54:25Z"
@@ -352,7 +340,7 @@
       "title": "FMAG: A single-instruction GPU virtual machine and toolchain",
       "url": "https://github.com/jangafx/FMAG",
       "discuss_url": "https://lobste.rs/s/fdbotr",
-      "score": 9,
+      "score": 10,
       "comments": 2,
       "author": "gingerBill",
       "published": "2026-06-17T16:10:52Z"
@@ -368,18 +356,6 @@
       "comments": 0,
       "author": "eddelbuettel",
       "published": "2026-06-17T12:20:21Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/fwohh5",
-      "discuss_url": "https://lobste.rs/s/fwohh5",
-      "score": 14,
-      "comments": 30,
-      "author": "caius",
-      "published": "2026-06-15T09:46:08Z"
     },
     {
       "source": "lobsters",
@@ -407,15 +383,51 @@
     },
     {
       "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Forest for the trees - An adventure in structured data",
+      "url": "https://nick.zoic.org/art/forest-for-the-trees/",
+      "discuss_url": "https://lobste.rs/s/rq4la4",
+      "score": 5,
+      "comments": 0,
+      "author": "abnercoimbre",
+      "published": "2026-06-15T16:02:24Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Demystifying Noise Contrastive Estimation",
+      "url": "http://jxmo.io/posts/nce",
+      "discuss_url": "https://lobste.rs/s/w0idmf",
+      "score": 2,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-06-17T03:39:46Z"
+    },
+    {
+      "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "CLI Authentication, the Right Way",
       "url": "https://www.abgeo.dev/blog/cli-authentication-the-right-way/",
       "discuss_url": "https://lobste.rs/s/nqv7yo",
-      "score": 37,
-      "comments": 8,
+      "score": 39,
+      "comments": 9,
       "author": "ABGEO",
       "published": "2026-06-18T06:36:39Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "I discovered a large-scale malware distribution on GitHub",
+      "url": "https://orchidfiles.com/github-repositories-distributing-malware/",
+      "discuss_url": "https://lobste.rs/s/pc7tnx",
+      "score": 9,
+      "comments": 1,
+      "author": "LeahNeukirchen",
+      "published": "2026-06-18T21:41:39Z"
     },
     {
       "source": "lobsters",
@@ -433,25 +445,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "I discovered a large-scale malware distribution on GitHub",
-      "url": "https://orchidfiles.com/github-repositories-distributing-malware/",
-      "discuss_url": "https://lobste.rs/s/pc7tnx",
-      "score": 6,
-      "comments": 0,
-      "author": "LeahNeukirchen",
-      "published": "2026-06-18T21:41:39Z"
+      "title": "yay v13 and the AURpocalypse",
+      "url": "https://jguer.space/blog/2026-06-15-yay-v13",
+      "discuss_url": "https://lobste.rs/s/e325gb",
+      "score": 17,
+      "comments": 4,
+      "author": "hugoarnal",
+      "published": "2026-06-18T09:37:59Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "yay v13 and the AURpocalypse",
-      "url": "https://jguer.space/blog/2026-06-15-yay-v13",
-      "discuss_url": "https://lobste.rs/s/e325gb",
-      "score": 15,
-      "comments": 4,
-      "author": "hugoarnal",
-      "published": "2026-06-18T09:37:59Z"
+      "title": "\"Mythos\" at Home, and It's Called AISLE",
+      "url": "https://stanislavfort.substack.com/p/mythos-at-home-and-its-called-aisle",
+      "discuss_url": "https://lobste.rs/s/cuh3be",
+      "score": 1,
+      "comments": 0,
+      "author": "daveliepmann",
+      "published": "2026-06-19T08:41:53Z"
     },
     {
       "source": "lobsters",
@@ -464,18 +476,6 @@
       "comments": 18,
       "author": "hoistbypetard",
       "published": "2026-06-16T12:58:11Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "curl summer of bliss",
-      "url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
-      "discuss_url": "https://lobste.rs/s/uqagn2",
-      "score": 260,
-      "comments": 21,
-      "author": "andrewnez",
-      "published": "2026-06-15T07:53:52Z"
     },
     {
       "source": "lobsters",
@@ -496,7 +496,7 @@
       "title": "Users cry foul after AMD stripped memory crypto from its consumer CPUs",
       "url": "https://arstechnica.com/security/2026/06/users-cry-foul-after-amd-stripped-memory-crypto-from-its-consumer-cpus/",
       "discuss_url": "https://lobste.rs/s/i2cjew",
-      "score": 28,
+      "score": 29,
       "comments": 7,
       "author": "hoistbypetard",
       "published": "2026-06-15T20:03:41Z"
@@ -580,7 +580,7 @@
       "title": "The feedback loops behind Kubernetes",
       "url": "https://planetscale.com/blog/the-feedback-loops-behind-kubernetes",
       "discuss_url": "https://lobste.rs/s/tyrdpo",
-      "score": 6,
+      "score": 7,
       "comments": 0,
       "author": "sp6370",
       "published": "2026-06-17T19:19:28Z"
