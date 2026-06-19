@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T15:29:52Z",
+  "updated_at": "2026-06-19T19:55:37Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "The Future of the Con Is Already Here, It's Just Not Evenly Distributed",
       "url": "http://manishearth.github.io/blog/2026/06/17/the-future-of-the-con-is-already-here/",
       "discuss_url": "https://lobste.rs/s/5majlp",
-      "score": 54,
-      "comments": 29,
+      "score": 63,
+      "comments": 32,
       "author": "Manishearth",
       "published": "2026-06-18T16:25:48Z",
       "bullets": [
-        "Generative AI, including LLMs and voice cloning, enables highly personalized, automated phishing and social engineering attacks at unprecedented scale.",
-        "Attackers leverage deepfake video and synthesized audio to bypass traditional biometric verification, identity proofing, and KYC security protocols.",
-        "Defenders must deploy AI-driven detection, zero-trust communication protocols, and cryptographic verification to counter sophisticated, machine-generated social engineering tactics."
+        "Generative AI, including ElevenLabs voice cloning and deepfakes, scales highly personalized, automated social engineering and vishing attacks.",
+        "Traditional authentication methods fail against AI-synthesized media, requiring organizations to adopt cryptographic verification and zero-trust communication protocols.",
+        "As LLMs commoditize, malicious actors leverage open-source models to orchestrate spear-phishing campaigns at unprecedented volume and minimal cost."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Shutting Down Fornjot",
-      "url": "https://fornjot.app/blog/shutting-down-fornjot/",
-      "discuss_url": "https://lobste.rs/s/ggp2ov",
-      "score": 8,
-      "comments": 1,
-      "author": "dzervas",
-      "published": "2026-06-19T11:28:45Z",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/wemk3j",
+      "discuss_url": "https://lobste.rs/s/wemk3j",
+      "score": 7,
+      "comments": 8,
+      "author": "caius",
+      "published": "2026-06-19T12:30:13Z",
       "bullets": [
-        "Development has ceased on the Rust-based code-first CAD engine, highlighting the extreme complexity of building geometric modeling kernels from scratch.",
-        "The project aimed to deliver a modern, Rust-native alternative to OpenSCAD, utilizing a boundary representation (B-Rep) framework for 3D design.",
-        "This shutdown leaves a significant gap in the open-source Rust ecosystem for native, programmatic computer-aided design (CAD) tooling."
+        "Community threads offer a space for peer feedback on engineering side projects, homelabs, and open-source contributions.",
+        "Balancing intensive coding with deliberate downtime prevents burnout and sustains long-term cognitive performance for software engineers.",
+        "Weekend sprints provide low-pressure environments for engineers to experiment with new frameworks, languages, and personal infrastructure."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "I discovered a large-scale malware distribution on GitHub",
       "url": "https://orchidfiles.com/github-repositories-distributing-malware/",
       "discuss_url": "https://lobste.rs/s/pc7tnx",
-      "score": 15,
-      "comments": 2,
+      "score": 17,
+      "comments": 3,
       "author": "LeahNeukirchen",
       "published": "2026-06-18T21:41:39Z",
       "bullets": [
-        "Attackers leverage automated GitHub repository creation, fork hijacking, and star manipulation to distribute malware targeting developers.",
-        "Security teams must monitor source code repositories for typo-squatting dependencies and malicious binary commits disguised as legitimate software.",
-        "Implement strict software bill of materials (SBOM) validation and dependency scanning to block compromised GitHub-hosted assets in build pipelines."
+        "Attackers exploit GitHub's reputation, using automated accounts to distribute infostealers through malicious releases and repository forks.",
+        "Campaigns often target developers by disguising malware as fake pull requests, compromised GitHub Actions, or poisoned upstream dependencies.",
+        "Mitigation requires strict hash-based pinning for GitHub Actions, auditing automated PRs, and monitoring anomalous third-party repository activity."
       ]
     },
     {
@@ -89,13 +89,13 @@
       "url": "https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/",
       "discuss_url": "https://lobste.rs/s/k6qon4",
       "score": 48,
-      "comments": 78,
+      "comments": 79,
       "author": "rau",
       "published": "2026-06-16T02:41:09Z",
       "bullets": [
-        "Many organizations over-engineer by adopting Kubernetes prematurely; simpler managed services like AWS ECS often suffice for basic workloads.",
-        "Interviews prioritize deep networking knowledge, including CNIs and DNS resolution, over basic YAML manipulation and Helm chart configurations.",
-        "Real-world DevOps requires mastering GitOps workflows via ArgoCD or Flux, alongside robust PV/PVC storage management for stateful applications."
+        "Interviews often over-index on Kubernetes when simpler alternatives like AWS ECS, HashiCorp Nomad, or systemd on VMs are more appropriate.",
+        "Candidates often struggle with Linux networking, CoreDNS, and ingress controllers despite proficiency in writing standard Kubernetes YAML manifests.",
+        "Hiring reveals a stark skills gap between operating managed services (EKS, GKE) and troubleshooting self-hosted etcd, control planes, or kubelet issues."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Stephen Clark",
       "published": "2026-06-19T13:36:53Z",
       "bullets": [
-        "Blue Origin has begun rebuilding its Launch Complex 36 pad to support upcoming New Glenn flight operations.",
-        "Relativity Space is targeting Mars missions, utilizing its metal 3D-printing technology for future heavy-class launch vehicles.",
-        "A French launch startup is rebranding its flagship rocket after encountering an unspecified trademark conflict."
+        "A French launch startup is scrapping the name of its rocket, apparently due to a trademark issue.",
+        "Rocket Report: Rebuild begins at Blue Origin launch pad; Relativity targets Mars",
+        "Submitted by Stephen Clark on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "The Future of the Con Is Already Here, It's Just Not Evenly Distributed",
       "url": "http://manishearth.github.io/blog/2026/06/17/the-future-of-the-con-is-already-here/",
       "discuss_url": "https://lobste.rs/s/5majlp",
-      "score": 54,
-      "comments": 29,
+      "score": 63,
+      "comments": 32,
       "author": "Manishearth",
       "published": "2026-06-18T16:25:48Z"
     },
@@ -265,11 +265,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/wemk3j",
+      "discuss_url": "https://lobste.rs/s/wemk3j",
+      "score": 7,
+      "comments": 8,
+      "author": "caius",
+      "published": "2026-06-19T12:30:13Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Shutting Down Fornjot",
       "url": "https://fornjot.app/blog/shutting-down-fornjot/",
       "discuss_url": "https://lobste.rs/s/ggp2ov",
-      "score": 8,
-      "comments": 1,
+      "score": 16,
+      "comments": 2,
       "author": "dzervas",
       "published": "2026-06-19T11:28:45Z"
     },
@@ -280,10 +292,22 @@
       "title": "What are your Favorite Lobste.rs Comments?",
       "url": "https://lobste.rs/s/crl4fj",
       "discuss_url": "https://lobste.rs/s/crl4fj",
-      "score": 111,
-      "comments": 20,
+      "score": 137,
+      "comments": 27,
       "author": "veqq",
       "published": "2026-06-18T17:04:00Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "A framework for systematically addressing undefined behaviour in the C++ Standard",
+      "url": "https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2026/p3100r6.pdf",
+      "discuss_url": "https://lobste.rs/s/mo0lsm",
+      "score": 1,
+      "comments": 0,
+      "author": "linkdd",
+      "published": "2026-06-19T18:32:50Z"
     },
     {
       "source": "lobsters",
@@ -308,18 +332,6 @@
       "comments": 27,
       "author": "hoistbypetard",
       "published": "2026-06-16T19:18:46Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/wemk3j",
-      "discuss_url": "https://lobste.rs/s/wemk3j",
-      "score": 1,
-      "comments": 0,
-      "author": "caius",
-      "published": "2026-06-19T12:30:13Z"
     },
     {
       "source": "lobsters",
@@ -385,18 +397,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "MONOLITH: An experimental non-Unix operating system for x86",
-      "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
-      "discuss_url": "https://lobste.rs/s/hwi7c2",
-      "score": 11,
-      "comments": 0,
-      "author": "mrunix",
-      "published": "2026-06-15T16:54:04Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Getting Creative with Perlin Noise Fields",
       "url": "https://sighack.com/post/getting-creative-with-perlin-noise-fields",
       "discuss_url": "https://lobste.rs/s/iffmsh",
@@ -412,8 +412,8 @@
       "title": "I discovered a large-scale malware distribution on GitHub",
       "url": "https://orchidfiles.com/github-repositories-distributing-malware/",
       "discuss_url": "https://lobste.rs/s/pc7tnx",
-      "score": 15,
-      "comments": 2,
+      "score": 17,
+      "comments": 3,
       "author": "LeahNeukirchen",
       "published": "2026-06-18T21:41:39Z"
     },
@@ -424,7 +424,7 @@
       "title": "CLI Authentication, the Right Way",
       "url": "https://www.abgeo.dev/blog/cli-authentication-the-right-way/",
       "discuss_url": "https://lobste.rs/s/nqv7yo",
-      "score": 40,
+      "score": 44,
       "comments": 10,
       "author": "ABGEO",
       "published": "2026-06-18T06:36:39Z"
@@ -481,6 +481,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "\"Mythos\" at Home, and It's Called AISLE",
+      "url": "https://stanislavfort.substack.com/p/mythos-at-home-and-its-called-aisle",
+      "discuss_url": "https://lobste.rs/s/cuh3be",
+      "score": 2,
+      "comments": 0,
+      "author": "daveliepmann",
+      "published": "2026-06-19T08:41:53Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Users cry foul after AMD stripped memory crypto from its consumer CPUs",
       "url": "https://arstechnica.com/security/2026/06/users-cry-foul-after-amd-stripped-memory-crypto-from-its-consumer-cpus/",
       "discuss_url": "https://lobste.rs/s/i2cjew",
@@ -488,18 +500,6 @@
       "comments": 7,
       "author": "hoistbypetard",
       "published": "2026-06-15T20:03:41Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "\"Mythos\" at Home, and It's Called AISLE",
-      "url": "https://stanislavfort.substack.com/p/mythos-at-home-and-its-called-aisle",
-      "discuss_url": "https://lobste.rs/s/cuh3be",
-      "score": 1,
-      "comments": 0,
-      "author": "daveliepmann",
-      "published": "2026-06-19T08:41:53Z"
     },
     {
       "source": "lobsters",
@@ -557,7 +557,7 @@
       "url": "https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/",
       "discuss_url": "https://lobste.rs/s/k6qon4",
       "score": 48,
-      "comments": 78,
+      "comments": 79,
       "author": "rau",
       "published": "2026-06-16T02:41:09Z"
     },
@@ -596,6 +596,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-06-19T01:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon CloudWatch Synthetics now supports multilocation canaries",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-synthetics-multilocation/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-synthetics-multilocation/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-18T22:41:00Z"
     },
     {
       "source": "rss",
@@ -676,18 +688,6 @@
       "title": "all-MiniLM-L12-v2 for semantic search and sentence similarity is now available in Amazon SageMaker JumpStart",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/all-minilm-l12-v2-on-sagemaker-jumpstart/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/all-minilm-l12-v2-on-sagemaker-jumpstart/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-18T18:30:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Compute Optimizer enhances EBS volume recommendations with additional performance metrics",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-enhances-ebs-recommendations/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-enhances-ebs-recommendations/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
