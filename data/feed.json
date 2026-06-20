@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T19:55:37Z",
+  "updated_at": "2026-06-20T04:02:57Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "The Future of the Con Is Already Here, It's Just Not Evenly Distributed",
       "url": "http://manishearth.github.io/blog/2026/06/17/the-future-of-the-con-is-already-here/",
       "discuss_url": "https://lobste.rs/s/5majlp",
-      "score": 63,
-      "comments": 32,
+      "score": 71,
+      "comments": 35,
       "author": "Manishearth",
       "published": "2026-06-18T16:25:48Z",
       "bullets": [
-        "Generative AI, including ElevenLabs voice cloning and deepfakes, scales highly personalized, automated social engineering and vishing attacks.",
-        "Traditional authentication methods fail against AI-synthesized media, requiring organizations to adopt cryptographic verification and zero-trust communication protocols.",
-        "As LLMs commoditize, malicious actors leverage open-source models to orchestrate spear-phishing campaigns at unprecedented volume and minimal cost."
+        "Generative AI lowers barriers for hyper-personalized phishing, scaling voice cloning (e.g., ElevenLabs) and deepfakes to automate social engineering attacks.",
+        "Attackers utilize LLMs for high-volume, convincing business email compromise, shifting the security paradigm from detecting spelling errors to verifying identity.",
+        "Defense relies on zero-trust architectures, out-of-band cryptographic verification, and hardware-bound keys rather than trusting audio or video feeds."
       ]
     },
     {
@@ -54,48 +54,48 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/wemk3j",
       "discuss_url": "https://lobste.rs/s/wemk3j",
-      "score": 7,
-      "comments": 8,
+      "score": 11,
+      "comments": 14,
       "author": "caius",
       "published": "2026-06-19T12:30:13Z",
       "bullets": [
-        "Community threads offer a space for peer feedback on engineering side projects, homelabs, and open-source contributions.",
-        "Balancing intensive coding with deliberate downtime prevents burnout and sustains long-term cognitive performance for software engineers.",
-        "Weekend sprints provide low-pressure environments for engineers to experiment with new frameworks, languages, and personal infrastructure."
+        "Feel free to tell what you plan on doing this weekend and even ask for help or feedback.",
+        "Please keep in mind it’s more than OK to do nothing at all too!",
+        "What are you doing this weekend?"
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "I discovered a large-scale malware distribution on GitHub",
-      "url": "https://orchidfiles.com/github-repositories-distributing-malware/",
-      "discuss_url": "https://lobste.rs/s/pc7tnx",
-      "score": 17,
-      "comments": 3,
-      "author": "LeahNeukirchen",
-      "published": "2026-06-18T21:41:39Z",
+      "title": "I Could've Rickrolled the Entire FIFA World Cup. All I Needed Was My ID",
+      "url": "https://bobdahacker.com/blog/fifa-hack",
+      "discuss_url": "https://lobste.rs/s/z5wfi9",
+      "score": 161,
+      "comments": 38,
+      "author": "fs111",
+      "published": "2026-06-17T08:31:43Z",
       "bullets": [
-        "Attackers exploit GitHub's reputation, using automated accounts to distribute infostealers through malicious releases and repository forks.",
-        "Campaigns often target developers by disguising malware as fake pull requests, compromised GitHub Actions, or poisoned upstream dependencies.",
-        "Mitigation requires strict hash-based pinning for GitHub Actions, auditing automated PRs, and monitoring anomalous third-party repository activity."
+        "I Could've Rickrolled the Entire FIFA World Cup. All I Needed Was My ID",
+        "Trending on lobste.rs/security — 161 points, 38 comments.",
+        "Submitted by fs111 on lobste.rs/security."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "What job interviews taught me about Kubernetes",
-      "url": "https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/",
-      "discuss_url": "https://lobste.rs/s/k6qon4",
-      "score": 48,
-      "comments": 79,
-      "author": "rau",
-      "published": "2026-06-16T02:41:09Z",
+      "title": "I am dreading our LLM-written incident report future",
+      "url": "https://surfingcomplexity.blog/2026/06/19/i-am-dreading-our-llm-written-incident-report-future/",
+      "discuss_url": "https://lobste.rs/s/ysxvko",
+      "score": 2,
+      "comments": 0,
+      "author": "azhenley",
+      "published": "2026-06-20T00:51:33Z",
       "bullets": [
-        "Interviews often over-index on Kubernetes when simpler alternatives like AWS ECS, HashiCorp Nomad, or systemd on VMs are more appropriate.",
-        "Candidates often struggle with Linux networking, CoreDNS, and ingress controllers despite proficiency in writing standard Kubernetes YAML manifests.",
-        "Hiring reveals a stark skills gap between operating managed services (EKS, GKE) and troubleshooting self-hosted etcd, control planes, or kubelet issues."
+        "I am dreading our LLM-written incident report future",
+        "Trending on lobste.rs/devops — 2 points, 0 comments.",
+        "Submitted by azhenley on lobste.rs/devops."
       ]
     },
     {
@@ -124,8 +124,8 @@
       "title": "The Future of the Con Is Already Here, It's Just Not Evenly Distributed",
       "url": "http://manishearth.github.io/blog/2026/06/17/the-future-of-the-con-is-already-here/",
       "discuss_url": "https://lobste.rs/s/5majlp",
-      "score": 63,
-      "comments": 32,
+      "score": 71,
+      "comments": 35,
       "author": "Manishearth",
       "published": "2026-06-18T16:25:48Z"
     },
@@ -140,30 +140,6 @@
       "comments": 11,
       "author": "AviKav",
       "published": "2026-06-16T22:17:20Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "June Framework Memory and storage pricing updates",
-      "url": "https://frame.work/ca/en/blog/updates-on-memory-pricing-and-navigating-the-volatile-memory-market",
-      "discuss_url": "https://lobste.rs/s/uicwti",
-      "score": 5,
-      "comments": 0,
-      "author": "nocoffei",
-      "published": "2026-06-15T22:04:31Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Why adding ontologies to LLMs won't yield machine intelligence",
-      "url": "https://youtu.be/Ce-cN5Llaz4?t=93",
-      "discuss_url": "https://lobste.rs/s/9iqluy",
-      "score": 1,
-      "comments": 2,
-      "author": "veqq",
-      "published": "2026-06-16T01:33:59Z"
     },
     {
       "source": "rss",
@@ -268,22 +244,10 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/wemk3j",
       "discuss_url": "https://lobste.rs/s/wemk3j",
-      "score": 7,
-      "comments": 8,
+      "score": 11,
+      "comments": 14,
       "author": "caius",
       "published": "2026-06-19T12:30:13Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Shutting Down Fornjot",
-      "url": "https://fornjot.app/blog/shutting-down-fornjot/",
-      "discuss_url": "https://lobste.rs/s/ggp2ov",
-      "score": 16,
-      "comments": 2,
-      "author": "dzervas",
-      "published": "2026-06-19T11:28:45Z"
     },
     {
       "source": "lobsters",
@@ -292,22 +256,10 @@
       "title": "What are your Favorite Lobste.rs Comments?",
       "url": "https://lobste.rs/s/crl4fj",
       "discuss_url": "https://lobste.rs/s/crl4fj",
-      "score": 137,
-      "comments": 27,
+      "score": 154,
+      "comments": 31,
       "author": "veqq",
       "published": "2026-06-18T17:04:00Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "A framework for systematically addressing undefined behaviour in the C++ Standard",
-      "url": "https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2026/p3100r6.pdf",
-      "discuss_url": "https://lobste.rs/s/mo0lsm",
-      "score": 1,
-      "comments": 0,
-      "author": "linkdd",
-      "published": "2026-06-19T18:32:50Z"
     },
     {
       "source": "lobsters",
@@ -316,7 +268,7 @@
       "title": "Pull Requests are Free Puppies",
       "url": "https://www.youtube.com/watch?v=x8_ZZhRL3YU&t=1733s",
       "discuss_url": "https://lobste.rs/s/aqk7vl",
-      "score": 90,
+      "score": 91,
       "comments": 16,
       "author": "ndr",
       "published": "2026-06-17T13:23:44Z"
@@ -325,10 +277,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Why languages should never reorder structs",
+      "url": "https://youtu.be/xqdiSaLRzHc",
+      "discuss_url": "https://lobste.rs/s/6otyjb",
+      "score": 1,
+      "comments": 2,
+      "author": "mrunix",
+      "published": "2026-06-19T20:02:44Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "But yak shaving is fun",
       "url": "https://parksb.github.io/en/article/32.html",
       "discuss_url": "https://lobste.rs/s/zpjomk",
-      "score": 73,
+      "score": 74,
       "comments": 27,
       "author": "hoistbypetard",
       "published": "2026-06-16T19:18:46Z"
@@ -349,18 +313,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "ClojureWasm is a Clojure runtime written from scratch in Zig and Clojure, with no JVM",
-      "url": "https://github.com/clojurewasm/ClojureWasm",
-      "discuss_url": "https://lobste.rs/s/updcup",
-      "score": 5,
-      "comments": 1,
-      "author": "Yogthos",
-      "published": "2026-06-18T16:54:25Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Game Engine White Papers: Commander Keen",
       "url": "https://forgottenbytes.net/commander_keen.html",
       "discuss_url": "https://lobste.rs/s/y3ra4s",
@@ -373,6 +325,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "ClojureWasm is a Clojure runtime written from scratch in Zig and Clojure, with no JVM",
+      "url": "https://github.com/clojurewasm/ClojureWasm",
+      "discuss_url": "https://lobste.rs/s/updcup",
+      "score": 6,
+      "comments": 1,
+      "author": "Yogthos",
+      "published": "2026-06-18T16:54:25Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "FMAG: A single-instruction GPU virtual machine and toolchain",
       "url": "https://github.com/jangafx/FMAG",
       "discuss_url": "https://lobste.rs/s/fdbotr",
@@ -380,6 +344,18 @@
       "comments": 2,
       "author": "gingerBill",
       "published": "2026-06-17T16:10:52Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "A framework for systematically addressing undefined behaviour in the C++ Standard",
+      "url": "https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2026/p3100r6.pdf",
+      "discuss_url": "https://lobste.rs/s/mo0lsm",
+      "score": 1,
+      "comments": 0,
+      "author": "linkdd",
+      "published": "2026-06-19T18:32:50Z"
     },
     {
       "source": "lobsters",
@@ -409,13 +385,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "I discovered a large-scale malware distribution on GitHub",
-      "url": "https://orchidfiles.com/github-repositories-distributing-malware/",
-      "discuss_url": "https://lobste.rs/s/pc7tnx",
-      "score": 17,
-      "comments": 3,
-      "author": "LeahNeukirchen",
-      "published": "2026-06-18T21:41:39Z"
+      "title": "I Could've Rickrolled the Entire FIFA World Cup. All I Needed Was My ID",
+      "url": "https://bobdahacker.com/blog/fifa-hack",
+      "discuss_url": "https://lobste.rs/s/z5wfi9",
+      "score": 161,
+      "comments": 38,
+      "author": "fs111",
+      "published": "2026-06-17T08:31:43Z"
     },
     {
       "source": "lobsters",
@@ -424,7 +400,7 @@
       "title": "CLI Authentication, the Right Way",
       "url": "https://www.abgeo.dev/blog/cli-authentication-the-right-way/",
       "discuss_url": "https://lobste.rs/s/nqv7yo",
-      "score": 44,
+      "score": 46,
       "comments": 10,
       "author": "ABGEO",
       "published": "2026-06-18T06:36:39Z"
@@ -433,13 +409,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "I Could've Rickrolled the Entire FIFA World Cup. All I Needed Was My ID",
-      "url": "https://bobdahacker.com/blog/fifa-hack",
-      "discuss_url": "https://lobste.rs/s/z5wfi9",
-      "score": 161,
-      "comments": 38,
-      "author": "fs111",
-      "published": "2026-06-17T08:31:43Z"
+      "title": "I discovered a large-scale malware distribution on GitHub",
+      "url": "https://orchidfiles.com/github-repositories-distributing-malware/",
+      "discuss_url": "https://lobste.rs/s/pc7tnx",
+      "score": 18,
+      "comments": 3,
+      "author": "LeahNeukirchen",
+      "published": "2026-06-18T21:41:39Z"
     },
     {
       "source": "lobsters",
@@ -484,22 +460,10 @@
       "title": "\"Mythos\" at Home, and It's Called AISLE",
       "url": "https://stanislavfort.substack.com/p/mythos-at-home-and-its-called-aisle",
       "discuss_url": "https://lobste.rs/s/cuh3be",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "daveliepmann",
       "published": "2026-06-19T08:41:53Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Users cry foul after AMD stripped memory crypto from its consumer CPUs",
-      "url": "https://arstechnica.com/security/2026/06/users-cry-foul-after-amd-stripped-memory-crypto-from-its-consumer-cpus/",
-      "discuss_url": "https://lobste.rs/s/i2cjew",
-      "score": 29,
-      "comments": 7,
-      "author": "hoistbypetard",
-      "published": "2026-06-15T20:03:41Z"
     },
     {
       "source": "lobsters",
@@ -517,18 +481,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "CVE-2026-42530: Use after free in nginx HTTP/3 QUIC module",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-42530",
-      "discuss_url": "https://lobste.rs/s/pbvqlz",
-      "score": 2,
-      "comments": 0,
-      "author": "jmillikin",
-      "published": "2026-06-18T13:32:10Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Humiliating IIS servers for fun and jail time",
       "url": "https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/",
       "discuss_url": "https://lobste.rs/s/uqoo16",
@@ -536,6 +488,18 @@
       "comments": 0,
       "author": "zk",
       "published": "2026-06-17T04:40:29Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "CVE-2026-42530: Use after free in nginx HTTP/3 QUIC module",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-42530",
+      "discuss_url": "https://lobste.rs/s/pbvqlz",
+      "score": 2,
+      "comments": 0,
+      "author": "jmillikin",
+      "published": "2026-06-18T13:32:10Z"
     },
     {
       "source": "rss",
@@ -550,16 +514,28 @@
       "published": "2026-06-18T17:37:58Z"
     },
     {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain",
+      "url": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
+      "discuss_url": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-19T18:37:41Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "What job interviews taught me about Kubernetes",
-      "url": "https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/",
-      "discuss_url": "https://lobste.rs/s/k6qon4",
-      "score": 48,
-      "comments": 79,
-      "author": "rau",
-      "published": "2026-06-16T02:41:09Z"
+      "title": "I am dreading our LLM-written incident report future",
+      "url": "https://surfingcomplexity.blog/2026/06/19/i-am-dreading-our-llm-written-incident-report-future/",
+      "discuss_url": "https://lobste.rs/s/ysxvko",
+      "score": 2,
+      "comments": 0,
+      "author": "azhenley",
+      "published": "2026-06-20T00:51:33Z"
     },
     {
       "source": "lobsters",
