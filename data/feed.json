@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T09:23:54Z",
+  "updated_at": "2026-06-20T14:12:39Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "The Future of the Con Is Already Here, It's Just Not Evenly Distributed",
-      "url": "http://manishearth.github.io/blog/2026/06/17/the-future-of-the-con-is-already-here/",
-      "discuss_url": "https://lobste.rs/s/5majlp",
-      "score": 75,
-      "comments": 35,
-      "author": "Manishearth",
-      "published": "2026-06-18T16:25:48Z",
+      "title": "Lighthouse agentic browsing scoring",
+      "url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring",
+      "discuss_url": "https://lobste.rs/s/rdrtip",
+      "score": 1,
+      "comments": 2,
+      "author": "ethanhawksley",
+      "published": "2026-06-20T11:44:00Z",
       "bullets": [
-        "Generative AI tools like voice cloning and deepfakes enable highly personalized, scalable social engineering attacks and automated vishing.",
-        "Attackers leverage real-time LLMs and synthetic media to bypass traditional identity verification and manual security controls.",
-        "Defenders must pivot from vulnerable biometric checks to cryptographic verification, hardware keys, and continuous zero-trust architecture."
+        "New auditing methodologies score web page compatibility for LLM agents, assessing ease of automated navigation and semantic data extraction.",
+        "Evaluation metrics target clean DOM structures, ARIA landmarks, and schema markup to optimize for tools like Anthropic's Computer Use.",
+        "Developers must shift from traditional SEO to Agentic SEO, ensuring web apps are structured for programmatic AI interaction."
       ]
     },
     {
@@ -59,9 +59,9 @@
       "author": "veqq",
       "published": "2026-06-18T17:04:00Z",
       "bullets": [
-        "Lobste.rs historical threads emphasize pragmatic systems design, favoring POSIX compliance, simple file-based state, and minimal dependencies over complex microservices.",
-        "Database-focused threads dissect transaction isolation anomalies, ORM performance pitfalls, and the trade-offs of leveraging PostgreSQL as a message queue.",
-        "Community consensus critiques modern web framework bloat, advocating for robust, low-overhead languages like Rust, Go, and classic functional programming paradigms."
+        "Favor simple, proven stacks like monolithic architectures and SQLite over complex, distributed microservices to minimize operational overhead.",
+        "Treat reading production codebases and historical post-mortems as a core skill for understanding complex, distributed system failure modes.",
+        "Choose boring, mature technologies like Postgres or Unix utilities to reduce the risk of unforced operational errors in production."
       ]
     },
     {
@@ -76,9 +76,9 @@
       "author": "fs111",
       "published": "2026-06-17T08:31:43Z",
       "bullets": [
-        "API vulnerabilities (like BOLA/IDOR) in public event-registration systems can expose critical internal infrastructure like stadium digital signage.",
-        "Inadequate network segmentation between user-facing registration portals and broadcast control systems enables catastrophic lateral movement.",
-        "Organizations must enforce strict Zero Trust access controls and continuous API penetration testing on all public-facing credential endpoints."
+        "Broken access control (IDOR) in Qatar's World Cup Hayya portal API allowed unauthorized access to internal administrative endpoints.",
+        "Attackers could exploit this to hijack the stadium IPTV system, changing screen feeds across all eight World Cup stadiums.",
+        "The vulnerability highlights the critical risk of linking fan identification APIs directly to internal venue broadcast and infrastructure networks."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "I am dreading our LLM-written incident report future",
       "url": "https://surfingcomplexity.blog/2026/06/19/i-am-dreading-our-llm-written-incident-report-future/",
       "discuss_url": "https://lobste.rs/s/ysxvko",
-      "score": 5,
-      "comments": 0,
+      "score": 21,
+      "comments": 2,
       "author": "azhenley",
       "published": "2026-06-20T00:51:33Z",
       "bullets": [
-        "Automating post-mortems with LLMs bypasses the critical engineering reflection needed to deeply understand complex system failures and prevent future outages.",
-        "LLM-generated reports prioritize readable prose over raw telemetry, risking hallucinated root causes and sanitized timelines that obscure real failure modes.",
-        "Outsourcing write-ups leads to generic remediation action items and superficial Jira tasks, failing to address systemic architectural or process debt."
+        "LLM-generated incident reports risk sanitizing critical technical failures, replacing deep human root-cause analysis with polished but useless compliance-driven summaries.",
+        "Automated AI writing tools hallucinate technical details in logs and hide systemic architectural flaws under the guise of clean documentation.",
+        "DevOps teams must restrict LLMs to initial log summarization, ensuring engineers retain ownership of final post-mortems and action items."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Rocket Report: Rebuild begins at Blue Origin launch pad; Relativity targets Mars",
-      "url": "https://arstechnica.com/space/2026/06/rocket-report-rebuild-begins-at-blue-origin-launch-pad-relativity-targets-mars/",
-      "discuss_url": "https://arstechnica.com/space/2026/06/rocket-report-rebuild-begins-at-blue-origin-launch-pad-relativity-targets-mars/",
+      "title": "The UK will scan asylum-seekers’ faces for age checks—despite knowing the tech is flawed",
+      "url": "https://arstechnica.com/tech-policy/2026/06/the-uk-will-scan-asylum-seekers-faces-for-age-checks-despite-knowing-the-tech-is-flawed/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/the-uk-will-scan-asylum-seekers-faces-for-age-checks-despite-knowing-the-tech-is-flawed/",
       "score": null,
       "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-06-19T13:36:53Z",
+      "author": "Matt Burgess, Maddy Varner, May Bulman, Gabriel Geiger, WIRED.com",
+      "published": "2026-06-20T11:15:09Z",
       "bullets": [
-        "Blue Origin has begun rebuilding its launch pad infrastructure to support future heavy-lift flight operations.",
-        "Relativity Space is targeting future Mars missions, leveraging its proprietary 3D-printed rocket manufacturing pipelines.",
-        "A French aerospace startup is forced to rebrand its orbital rocket due to trademark infringement conflicts."
+        "The UK is deploying facial age-estimation technology on asylum-seekers to verify minors, despite documented biometric error margins.",
+        "Biometric age-verification algorithms exhibit high error rates and demographic bias, risking life-altering classification failures in high-stakes deployments.",
+        "The rollout highlights the systemic risks of using immature computer vision and facial analysis models for automated legal status determinations."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
+      "title": "Lighthouse agentic browsing scoring",
+      "url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring",
+      "discuss_url": "https://lobste.rs/s/rdrtip",
+      "score": 1,
+      "comments": 2,
+      "author": "ethanhawksley",
+      "published": "2026-06-20T11:44:00Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
       "title": "The Future of the Con Is Already Here, It's Just Not Evenly Distributed",
       "url": "http://manishearth.github.io/blog/2026/06/17/the-future-of-the-con-is-already-here/",
       "discuss_url": "https://lobste.rs/s/5majlp",
-      "score": 75,
-      "comments": 35,
+      "score": 79,
+      "comments": 39,
       "author": "Manishearth",
       "published": "2026-06-18T16:25:48Z"
     },
@@ -256,8 +268,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/wemk3j",
       "discuss_url": "https://lobste.rs/s/wemk3j",
-      "score": 12,
-      "comments": 15,
+      "score": 14,
+      "comments": 18,
       "author": "caius",
       "published": "2026-06-19T12:30:13Z"
     },
@@ -301,18 +313,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "The Hidden Elegance of Gradient Noise",
-      "url": "https://yogthos.net/posts/2026-06-17-perlin-flow.html",
-      "discuss_url": "https://lobste.rs/s/ept8fv",
-      "score": 14,
-      "comments": 0,
-      "author": "Yogthos",
-      "published": "2026-06-18T14:01:40Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Game Engine White Papers: Commander Keen",
       "url": "https://forgottenbytes.net/commander_keen.html",
       "discuss_url": "https://lobste.rs/s/y3ra4s",
@@ -320,6 +320,18 @@
       "comments": 6,
       "author": "orib",
       "published": "2026-06-17T05:29:46Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "The Hidden Elegance of Gradient Noise",
+      "url": "https://yogthos.net/posts/2026-06-17-perlin-flow.html",
+      "discuss_url": "https://lobste.rs/s/ept8fv",
+      "score": 14,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-06-18T14:01:40Z"
     },
     {
       "source": "lobsters",
@@ -433,18 +445,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "A backdoor in a LinkedIn job offer",
-      "url": "https://roman.pt/posts/linkedin-backdoor/",
-      "discuss_url": "https://lobste.rs/s/2u1z4w",
-      "score": 60,
-      "comments": 18,
-      "author": "hoistbypetard",
-      "published": "2026-06-16T12:58:11Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "A 27-Year-Old Authentication Bypass in OpenBSD's PPP Stack",
       "url": "https://blog.argus-systems.ai/blog/openbsd-pap-27-year-auth-bypass.html",
       "discuss_url": "https://lobste.rs/s/suaa0r",
@@ -517,6 +517,18 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
+      "url": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
+      "discuss_url": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-20T09:56:04Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain",
       "url": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
       "discuss_url": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
@@ -532,8 +544,8 @@
       "title": "I am dreading our LLM-written incident report future",
       "url": "https://surfingcomplexity.blog/2026/06/19/i-am-dreading-our-llm-written-incident-report-future/",
       "discuss_url": "https://lobste.rs/s/ysxvko",
-      "score": 5,
-      "comments": 0,
+      "score": 21,
+      "comments": 2,
       "author": "azhenley",
       "published": "2026-06-20T00:51:33Z"
     },
@@ -673,6 +685,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "The UK will scan asylum-seekers’ faces for age checks—despite knowing the tech is flawed",
+      "url": "https://arstechnica.com/tech-policy/2026/06/the-uk-will-scan-asylum-seekers-faces-for-age-checks-despite-knowing-the-tech-is-flawed/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/the-uk-will-scan-asylum-seekers-faces-for-age-checks-despite-knowing-the-tech-is-flawed/",
+      "score": null,
+      "comments": null,
+      "author": "Matt Burgess, Maddy Varner, May Bulman, Gabriel Geiger, WIRED.com",
+      "published": "2026-06-20T11:15:09Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "Rocket Report: Rebuild begins at Blue Origin launch pad; Relativity targets Mars",
       "url": "https://arstechnica.com/space/2026/06/rocket-report-rebuild-begins-at-blue-origin-launch-pad-relativity-targets-mars/",
       "discuss_url": "https://arstechnica.com/space/2026/06/rocket-report-rebuild-begins-at-blue-origin-launch-pad-relativity-targets-mars/",
@@ -800,18 +824,6 @@
       "comments": null,
       "author": "stin Elliott and Joshua Kaplan, ProPublica",
       "published": "2026-06-18T17:42:18Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Bernie Sanders unveils $7 trillion plan to give Americans control of AI industry",
-      "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-06-18T17:02:49Z"
     }
   ]
 }
