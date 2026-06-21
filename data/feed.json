@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T04:44:19Z",
+  "updated_at": "2026-06-21T09:59:25Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,48 +37,48 @@
       "title": "The Future of the Con Is Already Here, It's Just Not Evenly Distributed",
       "url": "http://manishearth.github.io/blog/2026/06/17/the-future-of-the-con-is-already-here/",
       "discuss_url": "https://lobste.rs/s/5majlp",
-      "score": 82,
+      "score": 84,
       "comments": 39,
       "author": "Manishearth",
       "published": "2026-06-18T16:25:48Z",
       "bullets": [
-        "AI-driven social engineering leverages LLMs and voice cloning (e.g., ElevenLabs) to automate highly personalized spear-phishing at scale.",
-        "Deepfake technologies bypass traditional identity verification, enabling multi-million dollar corporate fraud via synthesized video and audio impersonation.",
-        "Defenders must adopt cryptographic identity verification and AI-based anomaly detection to counter automated, context-aware social engineering payloads."
+        "AI voice cloning (e.g., ElevenLabs) and deepfake video enable highly convincing, real-time social engineering attacks bypassing traditional identity verification.",
+        "LLMs scale hyper-personalized spear-phishing and vishing, bypassing classic NLP heuristics and spam filters by generating context-aware, grammatically perfect lures.",
+        "Organizations must transition to cryptographic identity verification and hardware-backed MFA, as human-in-the-loop verification is easily compromised by synthetic media."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are your Favorite Lobste.rs Comments?",
-      "url": "https://lobste.rs/s/crl4fj",
-      "discuss_url": "https://lobste.rs/s/crl4fj",
-      "score": 164,
-      "comments": 32,
-      "author": "veqq",
-      "published": "2026-06-18T17:04:00Z",
+      "title": "cl-bbs: the schemeBBS-like textboard rewritten in Common Lisp",
+      "url": "https://github.com/ryukinix/cl-bbs",
+      "discuss_url": "https://lobste.rs/s/wgpa6x",
+      "score": 2,
+      "comments": 0,
+      "author": "lerax",
+      "published": "2026-06-21T07:19:03Z",
       "bullets": [
-        "The forum has been around for a long time and I occasionally find old gems, I wonder what great insights etc.",
-        "I've missed from the past.",
-        "What are your Favorite Lobste.rs Comments?"
+        "Migrates a textboard from MIT Scheme to Common Lisp to leverage a broader ecosystem for adding new application features.",
+        "Adds persistent user preferences, image URL previews without local hosting, an administrative moderation dashboard, and an integrated search system.",
+        "Maintains an authless, privacy-centric design while introducing administrative moderation tools and a custom search index."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "I Could've Rickrolled the Entire FIFA World Cup. All I Needed Was My ID",
-      "url": "https://bobdahacker.com/blog/fifa-hack",
-      "discuss_url": "https://lobste.rs/s/z5wfi9",
-      "score": 162,
-      "comments": 42,
-      "author": "fs111",
-      "published": "2026-06-17T08:31:43Z",
+      "title": "Forward to Hell? On Misusing Transparent DNS Forwarders For Amplification Attacks",
+      "url": "https://labs.ripe.net/author/mkoch/forward-to-hell-on-misusing-transparent-dns-forwarders-for-amplification-attacks/",
+      "discuss_url": "https://lobste.rs/s/ozr1zf",
+      "score": 1,
+      "comments": 0,
+      "author": "jaguar",
+      "published": "2026-06-21T08:24:37Z",
       "bullets": [
-        "I Could've Rickrolled the Entire FIFA World Cup. All I Needed Was My ID",
-        "Trending on lobste.rs/security — 162 points, 42 comments.",
-        "Submitted by fs111 on lobste.rs/security."
+        "Transparent DNS forwarders bypass standard resolver security controls, enabling novel vectors for reflective distributed denial-of-service (DDoS) attacks.",
+        "Attackers leverage anycast resolver infrastructure to massively scale and distribute these DNS amplification attacks globally.",
+        "Traditional rate-limiting and IP filtering on open resolvers fail to block traffic routed through transparent forwarding intermediaries."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "azhenley",
       "published": "2026-06-20T00:51:33Z",
       "bullets": [
-        "I am dreading our LLM-written incident report future",
-        "Trending on lobste.rs/devops — 36 points, 14 comments.",
-        "Submitted by azhenley on lobste.rs/devops."
+        "Using LLMs to generate post-mortems risks sanitizing complex outages, replacing deep engineering root-cause analysis with superficial, hallucination-prone summaries.",
+        "Auto-generating reports from Slack and Datadog logs risks treating post-mortems as compliance checklists instead of critical team learning opportunities.",
+        "Relying on GPT or Claude to synthesize PagerDuty alerts ignores critical human context, team dynamics, and systemic operational debt."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Matt Burgess, Maddy Varner, May Bulman, Gabriel Geiger, WIRED.com",
       "published": "2026-06-20T11:15:09Z",
       "bullets": [
-        "Tests of age-verification technology show the risks of life-altering errors.",
-        "The UK will scan asylum-seekers’ faces for age checks—despite knowing the tech is flawed",
-        "Submitted by Matt Burgess, Maddy Varner, May Bulman, Gabriel Geiger, WIRED.com on arstechnica.com."
+        "UK Home Office is deploying facial age-estimation technology for asylum-seekers despite known high error rates in biometric models.",
+        "Biometric age estimation algorithms exhibit severe demographic biases, frequently misclassifying non-white minors due to training data disparities.",
+        "Engineers deploying high-stakes facial classifiers must implement rigorous human-in-the-loop overrides to mitigate life-altering algorithmic errors."
       ]
     }
   ],
@@ -124,7 +124,7 @@
       "title": "The Future of the Con Is Already Here, It's Just Not Evenly Distributed",
       "url": "http://manishearth.github.io/blog/2026/06/17/the-future-of-the-con-is-already-here/",
       "discuss_url": "https://lobste.rs/s/5majlp",
-      "score": 82,
+      "score": 84,
       "comments": 39,
       "author": "Manishearth",
       "published": "2026-06-18T16:25:48Z"
@@ -241,11 +241,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "cl-bbs: the schemeBBS-like textboard rewritten in Common Lisp",
+      "url": "https://github.com/ryukinix/cl-bbs",
+      "discuss_url": "https://lobste.rs/s/wgpa6x",
+      "score": 2,
+      "comments": 0,
+      "author": "lerax",
+      "published": "2026-06-21T07:19:03Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "What are your Favorite Lobste.rs Comments?",
       "url": "https://lobste.rs/s/crl4fj",
       "discuss_url": "https://lobste.rs/s/crl4fj",
-      "score": 164,
-      "comments": 32,
+      "score": 165,
+      "comments": 33,
       "author": "veqq",
       "published": "2026-06-18T17:04:00Z"
     },
@@ -268,22 +280,10 @@
       "title": "Pull Requests are Free Puppies",
       "url": "https://www.youtube.com/watch?v=x8_ZZhRL3YU&t=1733s",
       "discuss_url": "https://lobste.rs/s/aqk7vl",
-      "score": 93,
+      "score": 94,
       "comments": 16,
       "author": "ndr",
       "published": "2026-06-17T13:23:44Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Game Engine White Papers: Commander Keen",
-      "url": "https://forgottenbytes.net/commander_keen.html",
-      "discuss_url": "https://lobste.rs/s/y3ra4s",
-      "score": 18,
-      "comments": 6,
-      "author": "orib",
-      "published": "2026-06-17T05:29:46Z"
     },
     {
       "source": "lobsters",
@@ -313,6 +313,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "FMAG: A single-instruction GPU virtual machine and toolchain",
+      "url": "https://github.com/jangafx/FMAG",
+      "discuss_url": "https://lobste.rs/s/fdbotr",
+      "score": 11,
+      "comments": 2,
+      "author": "gingerBill",
+      "published": "2026-06-17T16:10:52Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "ClojureWasm is a Clojure runtime written from scratch in Zig and Clojure, with no JVM",
       "url": "https://github.com/clojurewasm/ClojureWasm",
       "discuss_url": "https://lobste.rs/s/updcup",
@@ -325,18 +337,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "FMAG: A single-instruction GPU virtual machine and toolchain",
-      "url": "https://github.com/jangafx/FMAG",
-      "discuss_url": "https://lobste.rs/s/fdbotr",
-      "score": 10,
-      "comments": 2,
-      "author": "gingerBill",
-      "published": "2026-06-17T16:10:52Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "R Core team wins Rousseeuw Prize for Statistics 2026",
       "url": "https://rousseeuwprize.org/2026",
       "discuss_url": "https://lobste.rs/s/nh9q9g",
@@ -344,18 +344,6 @@
       "comments": 0,
       "author": "eddelbuettel",
       "published": "2026-06-17T12:20:21Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Getting Creative with Perlin Noise Fields",
-      "url": "https://sighack.com/post/getting-creative-with-perlin-noise-fields",
-      "discuss_url": "https://lobste.rs/s/iffmsh",
-      "score": 4,
-      "comments": 0,
-      "author": "Yogthos",
-      "published": "2026-06-17T04:49:04Z"
     },
     {
       "source": "lobsters",
@@ -382,16 +370,40 @@
       "published": "2026-06-19T16:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "How pull request limits are cutting down the noise",
+      "url": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
+      "discuss_url": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-06-18T16:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "I Could've Rickrolled the Entire FIFA World Cup. All I Needed Was My ID",
-      "url": "https://bobdahacker.com/blog/fifa-hack",
-      "discuss_url": "https://lobste.rs/s/z5wfi9",
-      "score": 162,
-      "comments": 42,
-      "author": "fs111",
-      "published": "2026-06-17T08:31:43Z"
+      "title": "Forward to Hell? On Misusing Transparent DNS Forwarders For Amplification Attacks",
+      "url": "https://labs.ripe.net/author/mkoch/forward-to-hell-on-misusing-transparent-dns-forwarders-for-amplification-attacks/",
+      "discuss_url": "https://lobste.rs/s/ozr1zf",
+      "score": 1,
+      "comments": 0,
+      "author": "jaguar",
+      "published": "2026-06-21T08:24:37Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Mark-of-the-web and pinning installers to sites",
+      "url": "https://blog.randomoracle.io/2026/06/20/mark-of-the-web-and-pinning-installers-to-sites/",
+      "discuss_url": "https://lobste.rs/s/z4vrld",
+      "score": 2,
+      "comments": 0,
+      "author": "raymii",
+      "published": "2026-06-21T05:35:25Z"
     },
     {
       "source": "lobsters",
@@ -440,18 +452,6 @@
       "comments": 4,
       "author": "nocoffei",
       "published": "2026-06-18T15:22:18Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "A 27-Year-Old Authentication Bypass in OpenBSD's PPP Stack",
-      "url": "https://blog.argus-systems.ai/blog/openbsd-pap-27-year-auth-bypass.html",
-      "discuss_url": "https://lobste.rs/s/suaa0r",
-      "score": 15,
-      "comments": 6,
-      "author": "fro",
-      "published": "2026-06-17T05:14:19Z"
     },
     {
       "source": "lobsters",
