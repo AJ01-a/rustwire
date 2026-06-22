@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T19:49:04Z",
+  "updated_at": "2026-06-22T04:50:32Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -42,26 +42,26 @@
       "author": "Manishearth",
       "published": "2026-06-18T16:25:48Z",
       "bullets": [
-        "Generative AI and voice cloning enable highly convincing, real-time impersonation scams, lowering the technical barrier for advanced social engineering.",
-        "LLMs automate hyper-personalized spear-phishing campaigns at scale, eliminating grammatical red flags that traditional email security filters rely on.",
-        "Security teams must shift to zero-trust communication, utilizing cryptographic identity verification and out-of-band channels to counter automated AI fraud."
+        "Generative AI enables hyper-realistic voice and video cloning, driving high-value corporate social engineering scams like the $25M CFO deepfake heist.",
+        "LLMs automate highly personalized spear-phishing at scale, eliminating linguistic tells and bypassing traditional email security gateways and pattern-matching detection.",
+        "Organizations must transition to zero-trust verification, implementing cryptographic or out-of-band protocols to counter AI-generated synthetic identity fraud."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Robust Jobserver",
-      "url": "https://codeberg.org/mlugg/robust-jobserver/src/branch/main/spec.md",
-      "discuss_url": "https://lobste.rs/s/1jcvyh",
-      "score": 13,
-      "comments": 1,
-      "author": "matklad",
-      "published": "2026-06-21T14:29:48Z",
+      "title": "What's the advice for LLM poisoning of artwork these days?",
+      "url": "https://lobste.rs/s/lbjdlo",
+      "discuss_url": "https://lobste.rs/s/lbjdlo",
+      "score": 15,
+      "comments": 17,
+      "author": "stig",
+      "published": "2026-06-21T19:57:17Z",
       "bullets": [
-        "Traditional GNU Make jobservers leak tokens via anonymous pipes if worker processes crash, permanently reducing build parallelism.",
-        "Robust designs use POSIX semaphores or process-tracked token pools to automatically reclaim tokens when compiler processes terminate abruptly.",
-        "Integrating robust jobservers into build systems like Cargo or Ninja prevents deadlocks and optimizes resource utilization across concurrent compiler invocations."
+        "Apply pixel-level perturbations using tools like Glaze and Nightshade to disrupt diffusion model training while preserving visual quality.",
+        "Configure Eleventy or static sites with robots.txt blocking GPTBot and ClaudeBot, alongside noai and noimageai HTML meta tags.",
+        "Embed C2PA metadata and register assets with Spawning's Do Not Train API to opt-out from compliant AI scraping tools."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Mark-of-the-web and pinning installers to sites",
       "url": "https://blog.randomoracle.io/2026/06/20/mark-of-the-web-and-pinning-installers-to-sites/",
       "discuss_url": "https://lobste.rs/s/z4vrld",
-      "score": 6,
-      "comments": 0,
+      "score": 8,
+      "comments": 1,
       "author": "raymii",
       "published": "2026-06-21T05:35:25Z",
       "bullets": [
-        "Windows Mark-of-the-Web (MoTW) utilizes NTFS Alternate Data Streams (Zone.Identifier) to flag untrusted downloads, but is easily stripped by archive extractors.",
-        "Pinning installers to specific domains leverages download-origin metadata to validate the source before execution, mitigating drive-by or unauthorized distribution.",
-        "Defenders must monitor for MoTW bypasses, such as CVE-2024-21412, where packaged containers or crafted LNK files evade SmartScreen warnings."
+        "Mark-of-the-Web (MotW) uses NTFS Alternate Data Streams (Zone.Identifier) to flag downloaded files and trigger Windows SmartScreen protection.",
+        "Pinning installers to specific origin domains prevents threat actors from repurposing legitimate, signed packages for drive-by malware delivery.",
+        "Attackers routinely bypass MotW controls using archive formats like ISO or exploiting parsing flaws to run unsigned payloads."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "I am dreading our LLM-written incident report future",
       "url": "https://surfingcomplexity.blog/2026/06/19/i-am-dreading-our-llm-written-incident-report-future/",
       "discuss_url": "https://lobste.rs/s/ysxvko",
-      "score": 40,
+      "score": 42,
       "comments": 15,
       "author": "azhenley",
       "published": "2026-06-20T00:51:33Z",
       "bullets": [
-        "LLM-generated postmortems risk sanitizing complex system failures, replacing deep human-led root-cause analysis with generic, hallucinatory compliance theater.",
-        "The critical learning in DevOps occurs during the human writing process; outsourcing reports to AI degrades long-term institutional knowledge.",
-        "Teams should restrict LLMs to log aggregation (Datadog, Slack) while mandating human ownership of the final incident narrative."
+        "Delegating incident reports to LLMs removes the critical human reflection and learning process essential for improving system reliability.",
+        "AI-generated post-mortems risk hallucinating root causes or glossing over complex engineering failures in logs and telemetry data.",
+        "Automated reports produce sanitised, generic summaries that satisfy compliance but fail to provide actionable, deep technical remediation steps."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Ajani Stella, Inside Climate News",
       "published": "2026-06-21T17:49:35Z",
       "bullets": [
-        "At least three coal plants received federal funding despite repeated, documented violations of environmental protection regulations.",
-        "Federal investments directly support coal-fired utility plants currently failing to maintain basic environmental compliance standards.",
-        "The intersection of government subsidies and compliance failures elevates regulatory risks for energy industry stakeholders."
+        "At least three heavily subsidized coal-fired utilities received federal assistance despite failing basic environmental compliance standards.",
+        "The funding patterns expose operational and regulatory misalignment between federal energy policy and EPA compliance enforcement.",
+        "Infrastructure operators must prepare for heightened compliance scrutiny as environmental enforcement policies fluctuate between political administrations."
       ]
     }
   ],
@@ -253,13 +253,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Robust Jobserver",
-      "url": "https://codeberg.org/mlugg/robust-jobserver/src/branch/main/spec.md",
-      "discuss_url": "https://lobste.rs/s/1jcvyh",
-      "score": 13,
-      "comments": 1,
-      "author": "matklad",
-      "published": "2026-06-21T14:29:48Z"
+      "title": "What's the advice for LLM poisoning of artwork these days?",
+      "url": "https://lobste.rs/s/lbjdlo",
+      "discuss_url": "https://lobste.rs/s/lbjdlo",
+      "score": 15,
+      "comments": 17,
+      "author": "stig",
+      "published": "2026-06-21T19:57:17Z"
     },
     {
       "source": "lobsters",
@@ -268,10 +268,22 @@
       "title": "Performance improvements in libffi",
       "url": "https://atgreen.github.io/repl-yell/posts/libffi-plan-cache/",
       "discuss_url": "https://lobste.rs/s/agw0rr",
-      "score": 19,
-      "comments": 0,
+      "score": 23,
+      "comments": 5,
       "author": "atgreen",
       "published": "2026-06-21T14:16:43Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Robust Jobserver",
+      "url": "https://codeberg.org/mlugg/robust-jobserver/src/branch/main/spec.md",
+      "discuss_url": "https://lobste.rs/s/1jcvyh",
+      "score": 17,
+      "comments": 1,
+      "author": "matklad",
+      "published": "2026-06-21T14:29:48Z"
     },
     {
       "source": "lobsters",
@@ -280,8 +292,8 @@
       "title": "cl-bbs: the schemeBBS-like textboard rewritten in Common Lisp",
       "url": "https://github.com/ryukinix/cl-bbs",
       "discuss_url": "https://lobste.rs/s/wgpa6x",
-      "score": 8,
-      "comments": 2,
+      "score": 11,
+      "comments": 3,
       "author": "lerax",
       "published": "2026-06-21T07:19:03Z"
     },
@@ -382,40 +394,16 @@
       "published": "2026-06-18T16:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Getting more from each token: How Copilot improves context handling and model routing",
-      "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
-      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-06-17T19:41:46Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Mark-of-the-web and pinning installers to sites",
       "url": "https://blog.randomoracle.io/2026/06/20/mark-of-the-web-and-pinning-installers-to-sites/",
       "discuss_url": "https://lobste.rs/s/z4vrld",
-      "score": 6,
-      "comments": 0,
+      "score": 8,
+      "comments": 1,
       "author": "raymii",
       "published": "2026-06-21T05:35:25Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Forward to Hell? On Misusing Transparent DNS Forwarders For Amplification Attacks",
-      "url": "https://labs.ripe.net/author/mkoch/forward-to-hell-on-misusing-transparent-dns-forwarders-for-amplification-attacks/",
-      "discuss_url": "https://lobste.rs/s/ozr1zf",
-      "score": 3,
-      "comments": 0,
-      "author": "jaguar",
-      "published": "2026-06-21T08:24:37Z"
     },
     {
       "source": "lobsters",
@@ -433,10 +421,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Forward to Hell? On Misusing Transparent DNS Forwarders For Amplification Attacks",
+      "url": "https://labs.ripe.net/author/mkoch/forward-to-hell-on-misusing-transparent-dns-forwarders-for-amplification-attacks/",
+      "discuss_url": "https://lobste.rs/s/ozr1zf",
+      "score": 4,
+      "comments": 0,
+      "author": "jaguar",
+      "published": "2026-06-21T08:24:37Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "I discovered a large-scale malware distribution on GitHub",
       "url": "https://orchidfiles.com/github-repositories-distributing-malware/",
       "discuss_url": "https://lobste.rs/s/pc7tnx",
-      "score": 19,
+      "score": 20,
       "comments": 3,
       "author": "LeahNeukirchen",
       "published": "2026-06-18T21:41:39Z"
@@ -544,7 +544,7 @@
       "title": "I am dreading our LLM-written incident report future",
       "url": "https://surfingcomplexity.blog/2026/06/19/i-am-dreading-our-llm-written-incident-report-future/",
       "discuss_url": "https://lobste.rs/s/ysxvko",
-      "score": 40,
+      "score": 42,
       "comments": 15,
       "author": "azhenley",
       "published": "2026-06-20T00:51:33Z"
