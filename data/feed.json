@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T04:50:32Z",
+  "updated_at": "2026-06-22T12:15:11Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,34 +34,34 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "The Future of the Con Is Already Here, It's Just Not Evenly Distributed",
-      "url": "http://manishearth.github.io/blog/2026/06/17/the-future-of-the-con-is-already-here/",
-      "discuss_url": "https://lobste.rs/s/5majlp",
-      "score": 84,
-      "comments": 39,
-      "author": "Manishearth",
-      "published": "2026-06-18T16:25:48Z",
+      "title": "Munich 1991: the Roots of the Current AI Boom",
+      "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+      "discuss_url": "https://lobste.rs/s/n1xvd7",
+      "score": 1,
+      "comments": 0,
+      "author": "mpweiher",
+      "published": "2026-06-22T12:09:39Z",
       "bullets": [
-        "Generative AI enables hyper-realistic voice and video cloning, driving high-value corporate social engineering scams like the $25M CFO deepfake heist.",
-        "LLMs automate highly personalized spear-phishing at scale, eliminating linguistic tells and bypassing traditional email security gateways and pattern-matching detection.",
-        "Organizations must transition to zero-trust verification, implementing cryptographic or out-of-band protocols to counter AI-generated synthetic identity fraud."
+        "Sepp Hochreiter’s 1991 Munich diploma thesis first identified the vanishing gradient problem, a foundational barrier in training deep recurrent networks.",
+        "This theoretical breakthrough under advisor Jürgen Schmidhuber directly enabled the development of Long Short-Term Memory (LSTM) networks in 1997.",
+        "Solving vanishing gradients laid the groundwork for modern sequence modeling, directly influencing today's transformer architectures and large language models."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What's the advice for LLM poisoning of artwork these days?",
-      "url": "https://lobste.rs/s/lbjdlo",
-      "discuss_url": "https://lobste.rs/s/lbjdlo",
-      "score": 15,
-      "comments": 17,
-      "author": "stig",
-      "published": "2026-06-21T19:57:17Z",
+      "title": "help i accidentally a wigglegram",
+      "url": "https://lmao.center/blog/wiggle-accidents/",
+      "discuss_url": "https://lobste.rs/s/uuyjxb",
+      "score": 55,
+      "comments": 14,
+      "author": "winter",
+      "published": "2026-06-22T06:07:05Z",
       "bullets": [
-        "Apply pixel-level perturbations using tools like Glaze and Nightshade to disrupt diffusion model training while preserving visual quality.",
-        "Configure Eleventy or static sites with robots.txt blocking GPTBot and ClaudeBot, alongside noai and noimageai HTML meta tags.",
-        "Embed C2PA metadata and register assets with Spawning's Do Not Train API to opt-out from compliant AI scraping tools."
+        "Wigglegrams simulate 3D depth by looping sequential frames captured from slightly offset horizontal angles, mimicking stereoscopic camera perspectives.",
+        "Programmatic alignment uses feature detection (SIFT/ORB) in OpenCV to calculate homography matrices, stabilizing frames around a common focal point.",
+        "Aligned frames are compiled into looping GIFs or APNGs using tools like FFmpeg, ImageMagick, or Python's Pillow library."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Mark-of-the-web and pinning installers to sites",
       "url": "https://blog.randomoracle.io/2026/06/20/mark-of-the-web-and-pinning-installers-to-sites/",
       "discuss_url": "https://lobste.rs/s/z4vrld",
-      "score": 8,
+      "score": 9,
       "comments": 1,
       "author": "raymii",
       "published": "2026-06-21T05:35:25Z",
       "bullets": [
-        "Mark-of-the-Web (MotW) uses NTFS Alternate Data Streams (Zone.Identifier) to flag downloaded files and trigger Windows SmartScreen protection.",
-        "Pinning installers to specific origin domains prevents threat actors from repurposing legitimate, signed packages for drive-by malware delivery.",
-        "Attackers routinely bypass MotW controls using archive formats like ISO or exploiting parsing flaws to run unsigned payloads."
+        "Windows Mark-of-the-Web (MotW) uses NTFS Alternate Data Streams (Zone.Identifier) to flag untrusted downloads and trigger SmartScreen blocks.",
+        "Pinning installers to specific download domains mitigates drive-by campaigns and prevents unauthorized execution of repackaged malicious binaries.",
+        "Because threat actors bypass MotW via ISO or LNK files, defenders must enforce strict application control and code signing."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "azhenley",
       "published": "2026-06-20T00:51:33Z",
       "bullets": [
-        "Delegating incident reports to LLMs removes the critical human reflection and learning process essential for improving system reliability.",
-        "AI-generated post-mortems risk hallucinating root causes or glossing over complex engineering failures in logs and telemetry data.",
-        "Automated reports produce sanitised, generic summaries that satisfy compliance but fail to provide actionable, deep technical remediation steps."
+        "LLM-generated incident reports risk sanitizing critical technical details, turning valuable post-mortems into generic compliance theater rather than learning opportunities.",
+        "Relying on LLMs to parse complex telemetry and logs can introduce hallucinations, masking actual infrastructure failures during post-mortem analysis.",
+        "SRE teams must mandate human ownership of incident timelines and root-cause analysis to prevent AI-generated fluff from eroding engineering culture."
       ]
     },
     {
@@ -110,13 +110,25 @@
       "author": "Ajani Stella, Inside Climate News",
       "published": "2026-06-21T17:49:35Z",
       "bullets": [
-        "At least three heavily subsidized coal-fired utilities received federal assistance despite failing basic environmental compliance standards.",
-        "The funding patterns expose operational and regulatory misalignment between federal energy policy and EPA compliance enforcement.",
-        "Infrastructure operators must prepare for heightened compliance scrutiny as environmental enforcement policies fluctuate between political administrations."
+        "At least three US coal plants received federal investment despite repeated violations of environmental regulations.",
+        "The funding highlights tension between federal energy infrastructure investments and the enforcement of environmental compliance standards.",
+        "Energy sector analysts should anticipate increased scrutiny on compliance histories during federal grant and investment evaluations."
       ]
     }
   ],
   "discussions": [
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Munich 1991: the Roots of the Current AI Boom",
+      "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+      "discuss_url": "https://lobste.rs/s/n1xvd7",
+      "score": 1,
+      "comments": 0,
+      "author": "mpweiher",
+      "published": "2026-06-22T12:09:39Z"
+    },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
@@ -253,11 +265,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "help i accidentally a wigglegram",
+      "url": "https://lmao.center/blog/wiggle-accidents/",
+      "discuss_url": "https://lobste.rs/s/uuyjxb",
+      "score": 55,
+      "comments": 14,
+      "author": "winter",
+      "published": "2026-06-22T06:07:05Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "What's the advice for LLM poisoning of artwork these days?",
       "url": "https://lobste.rs/s/lbjdlo",
       "discuss_url": "https://lobste.rs/s/lbjdlo",
-      "score": 15,
-      "comments": 17,
+      "score": 28,
+      "comments": 24,
       "author": "stig",
       "published": "2026-06-21T19:57:17Z"
     },
@@ -268,8 +292,8 @@
       "title": "Performance improvements in libffi",
       "url": "https://atgreen.github.io/repl-yell/posts/libffi-plan-cache/",
       "discuss_url": "https://lobste.rs/s/agw0rr",
-      "score": 23,
-      "comments": 5,
+      "score": 26,
+      "comments": 8,
       "author": "atgreen",
       "published": "2026-06-21T14:16:43Z"
     },
@@ -280,8 +304,8 @@
       "title": "Robust Jobserver",
       "url": "https://codeberg.org/mlugg/robust-jobserver/src/branch/main/spec.md",
       "discuss_url": "https://lobste.rs/s/1jcvyh",
-      "score": 17,
-      "comments": 1,
+      "score": 19,
+      "comments": 3,
       "author": "matklad",
       "published": "2026-06-21T14:29:48Z"
     },
@@ -292,10 +316,22 @@
       "title": "cl-bbs: the schemeBBS-like textboard rewritten in Common Lisp",
       "url": "https://github.com/ryukinix/cl-bbs",
       "discuss_url": "https://lobste.rs/s/wgpa6x",
-      "score": 11,
-      "comments": 3,
+      "score": 13,
+      "comments": 4,
       "author": "lerax",
       "published": "2026-06-21T07:19:03Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Learning XQuery One Dish at a Time",
+      "url": "https://www.linkedin.com/posts/jennifer-ramirez-betancur_this-month-i-attended-xml-prague-for-the-activity-7472908836539138048-yLHj",
+      "discuss_url": "https://lobste.rs/s/axkvfn",
+      "score": 1,
+      "comments": 0,
+      "author": "adamretter",
+      "published": "2026-06-22T09:17:00Z"
     },
     {
       "source": "lobsters",
@@ -304,7 +340,7 @@
       "title": "What are your Favorite Lobste.rs Comments?",
       "url": "https://lobste.rs/s/crl4fj",
       "discuss_url": "https://lobste.rs/s/crl4fj",
-      "score": 168,
+      "score": 169,
       "comments": 33,
       "author": "veqq",
       "published": "2026-06-18T17:04:00Z"
@@ -317,7 +353,7 @@
       "url": "https://lobste.rs/s/wemk3j",
       "discuss_url": "https://lobste.rs/s/wemk3j",
       "score": 14,
-      "comments": 25,
+      "comments": 26,
       "author": "caius",
       "published": "2026-06-19T12:30:13Z"
     },
@@ -337,18 +373,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Why languages should never reorder structs",
-      "url": "https://youtu.be/xqdiSaLRzHc",
-      "discuss_url": "https://lobste.rs/s/6otyjb",
-      "score": 2,
-      "comments": 2,
-      "author": "mrunix",
-      "published": "2026-06-19T20:02:44Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "ClojureWasm is a Clojure runtime written from scratch in Zig and Clojure, with no JVM",
       "url": "https://github.com/clojurewasm/ClojureWasm",
       "discuss_url": "https://lobste.rs/s/updcup",
@@ -356,6 +380,18 @@
       "comments": 1,
       "author": "Yogthos",
       "published": "2026-06-18T16:54:25Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Why languages should never reorder structs",
+      "url": "https://youtu.be/xqdiSaLRzHc",
+      "discuss_url": "https://lobste.rs/s/6otyjb",
+      "score": 2,
+      "comments": 2,
+      "author": "mrunix",
+      "published": "2026-06-19T20:02:44Z"
     },
     {
       "source": "lobsters",
@@ -370,64 +406,16 @@
       "published": "2026-06-19T18:32:50Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "How we built an internal data analytics agent",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
-      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-06-19T16:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "How pull request limits are cutting down the noise",
-      "url": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
-      "discuss_url": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-06-18T16:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Mark-of-the-web and pinning installers to sites",
       "url": "https://blog.randomoracle.io/2026/06/20/mark-of-the-web-and-pinning-installers-to-sites/",
       "discuss_url": "https://lobste.rs/s/z4vrld",
-      "score": 8,
+      "score": 9,
       "comments": 1,
       "author": "raymii",
       "published": "2026-06-21T05:35:25Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "CLI Authentication, the Right Way",
-      "url": "https://www.abgeo.dev/blog/cli-authentication-the-right-way/",
-      "discuss_url": "https://lobste.rs/s/nqv7yo",
-      "score": 46,
-      "comments": 10,
-      "author": "ABGEO",
-      "published": "2026-06-18T06:36:39Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Forward to Hell? On Misusing Transparent DNS Forwarders For Amplification Attacks",
-      "url": "https://labs.ripe.net/author/mkoch/forward-to-hell-on-misusing-transparent-dns-forwarders-for-amplification-attacks/",
-      "discuss_url": "https://lobste.rs/s/ozr1zf",
-      "score": 4,
-      "comments": 0,
-      "author": "jaguar",
-      "published": "2026-06-21T08:24:37Z"
     },
     {
       "source": "lobsters",
@@ -445,13 +433,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "yay v13 and the AURpocalypse",
-      "url": "https://jguer.space/blog/2026-06-15-yay-v13",
-      "discuss_url": "https://lobste.rs/s/e325gb",
-      "score": 18,
-      "comments": 5,
-      "author": "hugoarnal",
-      "published": "2026-06-18T09:37:59Z"
+      "title": "Forward to Hell? On Misusing Transparent DNS Forwarders For Amplification Attacks",
+      "url": "https://labs.ripe.net/author/mkoch/forward-to-hell-on-misusing-transparent-dns-forwarders-for-amplification-attacks/",
+      "discuss_url": "https://lobste.rs/s/ozr1zf",
+      "score": 4,
+      "comments": 0,
+      "author": "jaguar",
+      "published": "2026-06-21T08:24:37Z"
     },
     {
       "source": "lobsters",
@@ -505,6 +493,42 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "Canada’s Spy Agency Used First-of-Its-Kind Warrant to Clean Botnet-Infected Devices",
+      "url": "https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html",
+      "discuss_url": "https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-22T09:11:37Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "AryStinger Malware Infects 4,300 Legacy Routers to Build Reconnaissance Proxy Network",
+      "url": "https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html",
+      "discuss_url": "https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-22T06:57:44Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific",
+      "url": "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
+      "discuss_url": "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-22T06:06:53Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
       "url": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
       "discuss_url": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
@@ -524,18 +548,6 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-06-19T18:37:41Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes",
-      "url": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
-      "discuss_url": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-19T18:33:07Z"
     },
     {
       "source": "lobsters",
