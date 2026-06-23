@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T03:54:38Z",
+  "updated_at": "2026-06-23T09:55:05Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Event Tensor: A Unified Abstraction for Compiling Dynamic Megakernel",
-      "url": "https://arxiv.org/abs/2604.13327",
-      "discuss_url": "https://lobste.rs/s/lpn1cr",
-      "score": 3,
-      "comments": 0,
-      "author": "sanxiyn",
-      "published": "2026-06-22T23:18:52Z",
+      "title": "A fully local voice assistant setup",
+      "url": "https://blog.platypush.tech/article/Local-voice-assistant",
+      "discuss_url": "https://lobste.rs/s/luosjw",
+      "score": 4,
+      "comments": 1,
+      "author": "blacklight",
+      "published": "2026-06-22T22:25:06Z",
       "bullets": [
-        "Event Tensor: A Unified Abstraction for Compiling Dynamic Megakernel",
-        "Trending on lobste.rs/ai — 3 points, 0 comments.",
-        "Submitted by sanxiyn on lobste.rs/ai."
+        "Local voice pipelines leverage OpenAI's Whisper for Speech-to-Text and Piper for highly optimized, low-latency Text-to-Speech on consumer hardware.",
+        "On-device LLM orchestration relies on Ollama or llama.cpp running quantized open models like Llama 3 8B or Mistral 7B.",
+        "Integration with home automation uses Home Assistant's Wyoming protocol to stream audio from ESP32-S3 microcontrollers to local servers."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/12jy9c",
       "discuss_url": "https://lobste.rs/s/12jy9c",
-      "score": 13,
-      "comments": 22,
+      "score": 14,
+      "comments": 26,
       "author": "caius",
       "published": "2026-06-22T13:11:56Z",
       "bullets": [
-        "What are you doing this week?",
-        "Feel free to share!",
-        "Keep in mind it’s OK to do nothing at all, too."
+        "Engineers are prioritizing database schema migrations, optimizing PostgreSQL query performance, and refactoring legacy codebases for better scalability.",
+        "Many are adopting Rust and Go to rewrite performance-critical microservices and build highly efficient command-line utilities.",
+        "Teams are focusing on automating CI/CD pipelines using GitHub Actions to improve deployment safety and overall developer velocity."
       ]
     },
     {
@@ -76,9 +76,9 @@
       "author": "raymii",
       "published": "2026-06-21T05:35:25Z",
       "bullets": [
-        "Mark-of-the-web and pinning installers to sites",
-        "Trending on lobste.rs/security — 9 points, 1 comments.",
-        "Submitted by raymii on lobste.rs/security."
+        "Windows Mark-of-the-Web (MotW) flags untrusted downloads, but attackers bypass it using container formats like ISOs, VHDs, or ZIP archives.",
+        "Binding installers to specific download domains limits execution to authorized web origins, mitigating drive-by malware and phishing payloads.",
+        "Harden defenses against MotW bypasses like CVE-2023-36025 by disabling the ms-appinstaller protocol and enforcing application control."
       ]
     },
     {
@@ -89,34 +89,58 @@
       "url": "https://surfingcomplexity.blog/2026/06/19/i-am-dreading-our-llm-written-incident-report-future/",
       "discuss_url": "https://lobste.rs/s/ysxvko",
       "score": 45,
-      "comments": 16,
+      "comments": 17,
       "author": "azhenley",
       "published": "2026-06-20T00:51:33Z",
       "bullets": [
-        "I am dreading our LLM-written incident report future",
-        "Trending on lobste.rs/devops — 45 points, 16 comments.",
-        "Submitted by azhenley on lobste.rs/devops."
+        "Delegating incident reports to LLMs bypasses critical human post-mortem analysis, erasing deep learning about complex system failures and technical debt.",
+        "AI-generated RCAs risk hallucinating root causes or omitting subtle telemetry details, leading to recurring, unaddressed infrastructure vulnerabilities.",
+        "Automated reports prioritize polished prose over systemic blameless post-mortem insights, hiding true architectural bottlenecks from engineering teams."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "GM installs robots at flagship EV factory after laying off 1,300 workers",
-      "url": "https://arstechnica.com/ai/2026/06/gm-installs-robots-at-flagship-ev-factory-after-laying-off-1300-workers/",
-      "discuss_url": "https://arstechnica.com/ai/2026/06/gm-installs-robots-at-flagship-ev-factory-after-laying-off-1300-workers/",
+      "title": "With Starfall, SpaceX eyes an edge in global cargo delivery from orbit",
+      "url": "https://arstechnica.com/space/2026/06/with-starfall-spacex-eyes-an-edge-in-global-cargo-delivery-from-orbit/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/with-starfall-spacex-eyes-an-edge-in-global-cargo-delivery-from-orbit/",
       "score": null,
       "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-06-22T21:52:39Z",
+      "author": "Stephen Clark",
+      "published": "2026-06-23T05:25:16Z",
       "bullets": [
-        "US autoworkers union warns of robot automation as dark factory future looms.",
-        "GM installs robots at flagship EV factory after laying off 1,300 workers",
-        "Submitted by Jeremy Hsu on arstechnica.com."
+        "SpaceX's Starfall program targets rapid, point-to-point global cargo delivery utilizing its Starship heavy-lift orbital launch vehicle architecture.",
+        "The initiative positions SpaceX for Department of Defense Rocket Cargo contracts, aiming for under-one-hour orbital transit times globally.",
+        "Key engineering hurdles include developing rapid orbital payload deployment systems, thermal protection for cargo, and precise terrestrial landing infrastructure."
       ]
     }
   ],
   "discussions": [
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "A fully local voice assistant setup",
+      "url": "https://blog.platypush.tech/article/Local-voice-assistant",
+      "discuss_url": "https://lobste.rs/s/luosjw",
+      "score": 4,
+      "comments": 1,
+      "author": "blacklight",
+      "published": "2026-06-22T22:25:06Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Munich 1991: the Roots of the Current AI Boom",
+      "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+      "discuss_url": "https://lobste.rs/s/n1xvd7",
+      "score": 10,
+      "comments": 0,
+      "author": "mpweiher",
+      "published": "2026-06-22T12:09:39Z"
+    },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
@@ -145,18 +169,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Munich 1991: the Roots of the Current AI Boom",
-      "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
-      "discuss_url": "https://lobste.rs/s/n1xvd7",
-      "score": 9,
-      "comments": 0,
-      "author": "mpweiher",
-      "published": "2026-06-22T12:09:39Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "TIRx: An Open Compiler Stack for Evolving Frontier ML Kernels",
       "url": "https://tvm.apache.org/2026/06/22/tirx",
       "discuss_url": "https://lobste.rs/s/j04tzc",
@@ -164,18 +176,6 @@
       "comments": 0,
       "author": "sanxiyn",
       "published": "2026-06-22T22:49:28Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "A fully local voice assistant setup",
-      "url": "https://blog.platypush.tech/article/Local-voice-assistant",
-      "discuss_url": "https://lobste.rs/s/luosjw",
-      "score": 1,
-      "comments": 1,
-      "author": "blacklight",
-      "published": "2026-06-22T22:25:06Z"
     },
     {
       "source": "lobsters",
@@ -205,6 +205,18 @@
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
+      "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+      "discuss_url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-23T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
       "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
       "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
       "discuss_url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
@@ -212,6 +224,18 @@
       "comments": null,
       "author": null,
       "published": "2026-06-22T13:18:56Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "We got local models to triage the OpenClaw repo for FREE!*",
+      "url": "https://huggingface.co/blog/local-models-pr-triage",
+      "discuss_url": "https://huggingface.co/blog/local-models-pr-triage",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-22T00:00:00Z"
     },
     {
       "source": "rss",
@@ -238,38 +262,14 @@
       "published": "2026-06-18T00:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
-      "url": "https://huggingface.co/blog/is-it-agentic-enough",
-      "discuss_url": "https://huggingface.co/blog/is-it-agentic-enough",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-18T00:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "MolmoMotion: Language-guided 3D motion forecasting",
-      "url": "https://huggingface.co/blog/allenai/molmomotion",
-      "discuss_url": "https://huggingface.co/blog/allenai/molmomotion",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-17T15:26:44Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/12jy9c",
       "discuss_url": "https://lobste.rs/s/12jy9c",
-      "score": 13,
-      "comments": 22,
+      "score": 14,
+      "comments": 26,
       "author": "caius",
       "published": "2026-06-22T13:11:56Z"
     },
@@ -280,8 +280,8 @@
       "title": "systemd-bsod.service",
       "url": "https://www.freedesktop.org/software/systemd/man/257/systemd-bsod.service.html",
       "discuss_url": "https://lobste.rs/s/nepr0y",
-      "score": 2,
-      "comments": 2,
+      "score": 6,
+      "comments": 5,
       "author": "orib",
       "published": "2026-06-22T22:31:20Z"
     },
@@ -430,18 +430,6 @@
       "published": "2026-06-21T08:24:37Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "\"Mythos\" at Home, and It's Called AISLE",
-      "url": "https://stanislavfort.substack.com/p/mythos-at-home-and-its-called-aisle",
-      "discuss_url": "https://lobste.rs/s/cuh3be",
-      "score": 4,
-      "comments": 0,
-      "author": "daveliepmann",
-      "published": "2026-06-19T08:41:53Z"
-    },
-    {
       "source": "rss",
       "subsource": "krebsonsecurity.com",
       "category": "security",
@@ -452,6 +440,42 @@
       "comments": null,
       "author": "BrianKrebs",
       "published": "2026-06-18T17:37:58Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
+      "url": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
+      "discuss_url": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-23T08:54:32Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
+      "url": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
+      "discuss_url": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-23T05:38:40Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws",
+      "url": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
+      "discuss_url": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-23T03:56:58Z"
     },
     {
       "source": "rss",
@@ -526,30 +550,6 @@
       "published": "2026-06-22T11:58:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "⚡ Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBSD Flaw, Android Trojan, and More",
-      "url": "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
-      "discuss_url": "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-22T10:55:10Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Canada’s Spy Agency Used First-of-Its-Kind Warrant to Clean Botnet-Infected Devices",
-      "url": "https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html",
-      "discuss_url": "https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-22T09:11:37Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
@@ -557,7 +557,7 @@
       "url": "https://surfingcomplexity.blog/2026/06/19/i-am-dreading-our-llm-written-incident-report-future/",
       "discuss_url": "https://lobste.rs/s/ysxvko",
       "score": 45,
-      "comments": 16,
+      "comments": 17,
       "author": "azhenley",
       "published": "2026-06-20T00:51:33Z"
     },
@@ -584,6 +584,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-06-22T20:37:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Transform for migrations now supports all AWS commercial regions as migration targets",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-migrations-region-expansion/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-migrations-region-expansion/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-22T17:30:40Z"
     },
     {
       "source": "rss",
@@ -683,15 +695,15 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon ECS announces faster service auto scaling",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-faster-autoscaling/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-faster-autoscaling/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "With Starfall, SpaceX eyes an edge in global cargo delivery from orbit",
+      "url": "https://arstechnica.com/space/2026/06/with-starfall-spacex-eyes-an-edge-in-global-cargo-delivery-from-orbit/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/with-starfall-spacex-eyes-an-edge-in-global-cargo-delivery-from-orbit/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-18T21:00:00Z"
+      "author": "Stephen Clark",
+      "published": "2026-06-23T05:25:16Z"
     },
     {
       "source": "rss",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Eric Berger",
       "published": "2026-06-22T14:11:03Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "How Anthropic may have talked itself into an AI export ban",
-      "url": "https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban/",
-      "discuss_url": "https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban/",
-      "score": null,
-      "comments": null,
-      "author": "Clara Murray, Financial Times",
-      "published": "2026-06-22T13:45:24Z"
     }
   ]
 }
