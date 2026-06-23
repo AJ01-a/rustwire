@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T21:01:46Z",
+  "updated_at": "2026-06-23T03:54:38Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,34 +34,34 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Prompt Injection as Role Confusion",
-      "url": "https://role-confusion.github.io",
-      "discuss_url": "https://lobste.rs/s/vwin4l",
-      "score": 2,
-      "comments": 1,
-      "author": "LolPython",
-      "published": "2026-06-22T17:22:07Z",
+      "title": "Event Tensor: A Unified Abstraction for Compiling Dynamic Megakernel",
+      "url": "https://arxiv.org/abs/2604.13327",
+      "discuss_url": "https://lobste.rs/s/lpn1cr",
+      "score": 3,
+      "comments": 0,
+      "author": "sanxiyn",
+      "published": "2026-06-22T23:18:52Z",
       "bullets": [
-        "LLM prompt injection stems from failing to separate control and data planes, leading models to confuse system roles with untrusted user inputs.",
-        "Mitigate role confusion by utilizing structural APIs like ChatML or deploying dual-model architectures to strictly isolate system and user instruction contexts.",
-        "Engineers must evaluate LLM robustness using automated red-teaming frameworks that specifically target system-prompt versus user-input boundary degradation."
+        "Event Tensor: A Unified Abstraction for Compiling Dynamic Megakernel",
+        "Trending on lobste.rs/ai — 3 points, 0 comments.",
+        "Submitted by sanxiyn on lobste.rs/ai."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Rhombus v1.0: A Racket flavored language with syntax",
-      "url": "https://blog.racket-lang.org/2026/06/rhombus-v1.0.html",
-      "discuss_url": "https://lobste.rs/s/bkwkz5",
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/12jy9c",
+      "discuss_url": "https://lobste.rs/s/12jy9c",
       "score": 13,
-      "comments": 2,
-      "author": "orib",
-      "published": "2026-06-22T17:54:04Z",
+      "comments": 22,
+      "author": "caius",
+      "published": "2026-06-22T13:11:56Z",
       "bullets": [
-        "Rhombus v1.0 delivers a modern, conventional syntax similar to Python, built on top of the Racket ecosystem.",
-        "It preserves Racket's powerful macro system and language-oriented programming without requiring traditional Lisp S-expression parentheses.",
-        "The release enables building custom domain-specific languages utilizing an extensible, indentation-sensitive, and operator-precedence-based parser."
+        "What are you doing this week?",
+        "Feel free to share!",
+        "Keep in mind it’s OK to do nothing at all, too."
       ]
     },
     {
@@ -76,9 +76,9 @@
       "author": "raymii",
       "published": "2026-06-21T05:35:25Z",
       "bullets": [
-        "Mark-of-the-Web (MOTW) utilizes NTFS Alternate Data Streams (Zone.Identifier) to trigger SmartScreen warnings on downloaded files.",
-        "Threat actors bypass MOTW using container formats like ISOs and ZIPs, necessitating additional verification layers for installers.",
-        "Pinning installers to authorized download domains mitigates malvertising by ensuring payloads only execute when fetched from trusted origins."
+        "Mark-of-the-web and pinning installers to sites",
+        "Trending on lobste.rs/security — 9 points, 1 comments.",
+        "Submitted by raymii on lobste.rs/security."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "I am dreading our LLM-written incident report future",
       "url": "https://surfingcomplexity.blog/2026/06/19/i-am-dreading-our-llm-written-incident-report-future/",
       "discuss_url": "https://lobste.rs/s/ysxvko",
-      "score": 43,
+      "score": 45,
       "comments": 16,
       "author": "azhenley",
       "published": "2026-06-20T00:51:33Z",
       "bullets": [
-        "LLM-generated post-mortems risk smoothing over human errors, replacing deep blameless analysis with generic, plausible-sounding boilerplate.",
-        "Automated reports satisfy compliance and management checklists but fail to provide SREs with actionable technical lessons to prevent future outages.",
-        "Offloading documentation to GenAI tools degrades the critical DevOps practice of post-incident reflection and team-wide collaborative learning."
+        "I am dreading our LLM-written incident report future",
+        "Trending on lobste.rs/devops — 45 points, 16 comments.",
+        "Submitted by azhenley on lobste.rs/devops."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Valve's Steam Machine ships June 29 for $1,049, but you probably won't be able to buy one yet",
-      "url": "https://arstechnica.com/gaming/2026/06/valves-steam-machine-ships-june-29-for-1049-but-you-probably-wont-be-able-to-buy-one-yet/",
-      "discuss_url": "https://arstechnica.com/gaming/2026/06/valves-steam-machine-ships-june-29-for-1049-but-you-probably-wont-be-able-to-buy-one-yet/",
+      "title": "GM installs robots at flagship EV factory after laying off 1,300 workers",
+      "url": "https://arstechnica.com/ai/2026/06/gm-installs-robots-at-flagship-ev-factory-after-laying-off-1300-workers/",
+      "discuss_url": "https://arstechnica.com/ai/2026/06/gm-installs-robots-at-flagship-ev-factory-after-laying-off-1300-workers/",
       "score": null,
       "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-06-22T19:02:45Z",
+      "author": "Jeremy Hsu",
+      "published": "2026-06-22T21:52:39Z",
       "bullets": [
-        "Valve is implementing a randomized purchase queue to mitigate botting and scalping for its high-demand hardware distribution.",
-        "This algorithmic queuing approach shifts away from traditional first-come, first-served models to manage limited inventory.",
-        "The $1,049 price point and controlled rollout highlight Valve's strategy of premium hardware positioning despite constrained initial supply."
+        "US autoworkers union warns of robot automation as dark factory future looms.",
+        "GM installs robots at flagship EV factory after laying off 1,300 workers",
+        "Submitted by Jeremy Hsu on arstechnica.com."
       ]
     }
   ],
@@ -121,10 +121,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
+      "title": "Event Tensor: A Unified Abstraction for Compiling Dynamic Megakernel",
+      "url": "https://arxiv.org/abs/2604.13327",
+      "discuss_url": "https://lobste.rs/s/lpn1cr",
+      "score": 3,
+      "comments": 0,
+      "author": "sanxiyn",
+      "published": "2026-06-22T23:18:52Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
       "title": "Prompt Injection as Role Confusion",
       "url": "https://role-confusion.github.io",
       "discuss_url": "https://lobste.rs/s/vwin4l",
-      "score": 2,
+      "score": 3,
       "comments": 1,
       "author": "LolPython",
       "published": "2026-06-22T17:22:07Z"
@@ -136,10 +148,34 @@
       "title": "Munich 1991: the Roots of the Current AI Boom",
       "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
       "discuss_url": "https://lobste.rs/s/n1xvd7",
-      "score": 8,
+      "score": 9,
       "comments": 0,
       "author": "mpweiher",
       "published": "2026-06-22T12:09:39Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "TIRx: An Open Compiler Stack for Evolving Frontier ML Kernels",
+      "url": "https://tvm.apache.org/2026/06/22/tirx",
+      "discuss_url": "https://lobste.rs/s/j04tzc",
+      "score": 2,
+      "comments": 0,
+      "author": "sanxiyn",
+      "published": "2026-06-22T22:49:28Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "A fully local voice assistant setup",
+      "url": "https://blog.platypush.tech/article/Local-voice-assistant",
+      "discuss_url": "https://lobste.rs/s/luosjw",
+      "score": 1,
+      "comments": 1,
+      "author": "blacklight",
+      "published": "2026-06-22T22:25:06Z"
     },
     {
       "source": "lobsters",
@@ -226,76 +262,28 @@
       "published": "2026-06-17T15:26:44Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "discuss_url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-17T10:18:05Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "GLM-5.2: Built for Long-Horizon Tasks",
-      "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
-      "discuss_url": "https://huggingface.co/blog/zai-org/glm-52-blog",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-17T09:01:25Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Agentic Resource Discovery: Let agents search",
-      "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
-      "discuss_url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-17T00:00:00Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Rhombus v1.0: A Racket flavored language with syntax",
-      "url": "https://blog.racket-lang.org/2026/06/rhombus-v1.0.html",
-      "discuss_url": "https://lobste.rs/s/bkwkz5",
-      "score": 13,
-      "comments": 2,
-      "author": "orib",
-      "published": "2026-06-22T17:54:04Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "help i accidentally a wigglegram",
-      "url": "https://lmao.center/blog/wiggle-accidents/",
-      "discuss_url": "https://lobste.rs/s/uuyjxb",
-      "score": 116,
-      "comments": 24,
-      "author": "winter",
-      "published": "2026-06-22T06:07:05Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/12jy9c",
       "discuss_url": "https://lobste.rs/s/12jy9c",
-      "score": 10,
-      "comments": 20,
+      "score": 13,
+      "comments": 22,
       "author": "caius",
       "published": "2026-06-22T13:11:56Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "systemd-bsod.service",
+      "url": "https://www.freedesktop.org/software/systemd/man/257/systemd-bsod.service.html",
+      "discuss_url": "https://lobste.rs/s/nepr0y",
+      "score": 2,
+      "comments": 2,
+      "author": "orib",
+      "published": "2026-06-22T22:31:20Z"
     },
     {
       "source": "lobsters",
@@ -304,8 +292,8 @@
       "title": "What's the advice for LLM poisoning of artwork these days?",
       "url": "https://lobste.rs/s/lbjdlo",
       "discuss_url": "https://lobste.rs/s/lbjdlo",
-      "score": 32,
-      "comments": 28,
+      "score": 35,
+      "comments": 29,
       "author": "stig",
       "published": "2026-06-21T19:57:17Z"
     },
@@ -316,8 +304,8 @@
       "title": "Performance improvements in libffi",
       "url": "https://atgreen.github.io/repl-yell/posts/libffi-plan-cache/",
       "discuss_url": "https://lobste.rs/s/agw0rr",
-      "score": 27,
-      "comments": 13,
+      "score": 25,
+      "comments": 14,
       "author": "atgreen",
       "published": "2026-06-21T14:16:43Z"
     },
@@ -406,6 +394,18 @@
       "published": "2026-06-22T17:20:31Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "How we built an internal data analytics agent",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-06-19T16:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
@@ -416,18 +416,6 @@
       "comments": 1,
       "author": "raymii",
       "published": "2026-06-21T05:35:25Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "I discovered a large-scale malware distribution on GitHub",
-      "url": "https://orchidfiles.com/github-repositories-distributing-malware/",
-      "discuss_url": "https://lobste.rs/s/pc7tnx",
-      "score": 21,
-      "comments": 3,
-      "author": "LeahNeukirchen",
-      "published": "2026-06-18T21:41:39Z"
     },
     {
       "source": "lobsters",
@@ -550,16 +538,52 @@
       "published": "2026-06-22T10:55:10Z"
     },
     {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Canada’s Spy Agency Used First-of-Its-Kind Warrant to Clean Botnet-Infected Devices",
+      "url": "https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html",
+      "discuss_url": "https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-22T09:11:37Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "I am dreading our LLM-written incident report future",
       "url": "https://surfingcomplexity.blog/2026/06/19/i-am-dreading-our-llm-written-incident-report-future/",
       "discuss_url": "https://lobste.rs/s/ysxvko",
-      "score": 43,
+      "score": 45,
       "comments": 16,
       "author": "azhenley",
       "published": "2026-06-20T00:51:33Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS HealthOmics now supports Nextflow profiles",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-profiles/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-profiles/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-22T22:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-22T20:37:00Z"
     },
     {
       "source": "rss",
@@ -596,6 +620,30 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-06-22T16:07:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon MSK now offers AI Agent Skills to help developers operate MSK efficiently and accelerate migrations to MSK",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-ai-agent-skills",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-ai-agent-skills",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-22T15:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Introducing self-service lifecycle management capabilities for AWS Outposts",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-outposts-self-service-lifecycle-management",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-outposts-self-service-lifecycle-management",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-22T10:00:00Z"
     },
     {
       "source": "rss",
@@ -647,51 +695,63 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 G7 instances are now generally available",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-g7-generally-available",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-g7-generally-available",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "GM installs robots at flagship EV factory after laying off 1,300 workers",
+      "url": "https://arstechnica.com/ai/2026/06/gm-installs-robots-at-flagship-ev-factory-after-laying-off-1300-workers/",
+      "discuss_url": "https://arstechnica.com/ai/2026/06/gm-installs-robots-at-flagship-ev-factory-after-laying-off-1300-workers/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-18T20:59:00Z"
+      "author": "Jeremy Hsu",
+      "published": "2026-06-22T21:52:39Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon MQ for RabbitMQ now supports private networking connectivity",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-mq-private-network-connectivity/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-mq-private-network-connectivity/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Report: Kennedy Space Center not ready for era of super heavy rockets",
+      "url": "https://arstechnica.com/space/2026/06/report-kennedy-space-center-not-ready-for-era-of-super-heavy-rockets/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/report-kennedy-space-center-not-ready-for-era-of-super-heavy-rockets/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-18T20:20:00Z"
+      "author": "Eric Berger",
+      "published": "2026-06-22T21:28:19Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Parallel Computing Service supports P6e-GB200 and P6e-GB300 UltraServers",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-parallel-computing-service/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-parallel-computing-service/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Man used massage gun on his tired eyeballs. It went as well as you'd expect.",
+      "url": "https://arstechnica.com/health/2026/06/man-used-massage-gun-on-his-tired-eyeballs-it-went-as-well-as-youd-expect/",
+      "discuss_url": "https://arstechnica.com/health/2026/06/man-used-massage-gun-on-his-tired-eyeballs-it-went-as-well-as-youd-expect/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-18T19:00:00Z"
+      "author": "Beth Mole",
+      "published": "2026-06-22T21:02:08Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Nested virtualization is now available on additional Intel platforms and US Gov Cloud regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/nested-virtualization-intel-us-gov-cloud/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/nested-virtualization-intel-us-gov-cloud/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Polymarket's viral videos showed people winning big, but the bets were fake",
+      "url": "https://arstechnica.com/tech-policy/2026/06/polymarkets-viral-videos-showed-people-winning-big-but-the-bets-were-fake/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/polymarkets-viral-videos-showed-people-winning-big-but-the-bets-were-fake/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-18T18:47:00Z"
+      "author": "Jon Brodkin",
+      "published": "2026-06-22T20:10:34Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Following user outcry, AMD reinstates memory encryption in consumer CPUs",
+      "url": "https://arstechnica.com/security/2026/06/following-user-outcry-amd-reinstates-memory-encryption-in-consumer-cpus/",
+      "discuss_url": "https://arstechnica.com/security/2026/06/following-user-outcry-amd-reinstates-memory-encryption-in-consumer-cpus/",
+      "score": null,
+      "comments": null,
+      "author": "Dan Goodin",
+      "published": "2026-06-22T19:16:52Z"
     },
     {
       "source": "rss",
@@ -776,66 +836,6 @@
       "comments": null,
       "author": "Clara Murray, Financial Times",
       "published": "2026-06-22T13:45:24Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Trump admin’s coal investments assist plants with repeated violations",
-      "url": "https://arstechnica.com/science/2026/06/trump-admins-coal-investments-assist-plants-with-repeated-violations/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/trump-admins-coal-investments-assist-plants-with-repeated-violations/",
-      "score": null,
-      "comments": null,
-      "author": "Ajani Stella, Inside Climate News",
-      "published": "2026-06-21T17:49:35Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Review: Widow's Bay is a boldly original take on comedic horror",
-      "url": "https://arstechnica.com/culture/2026/06/review-widows-bay-is-a-boldly-original-take-on-comedic-horror/",
-      "discuss_url": "https://arstechnica.com/culture/2026/06/review-widows-bay-is-a-boldly-original-take-on-comedic-horror/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-06-21T10:00:11Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The UK will scan asylum-seekers’ faces for age checks—despite knowing the tech is flawed",
-      "url": "https://arstechnica.com/tech-policy/2026/06/the-uk-will-scan-asylum-seekers-faces-for-age-checks-despite-knowing-the-tech-is-flawed/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/the-uk-will-scan-asylum-seekers-faces-for-age-checks-despite-knowing-the-tech-is-flawed/",
-      "score": null,
-      "comments": null,
-      "author": "Matt Burgess, Maddy Varner, May Bulman, Gabriel Geiger, WIRED.com",
-      "published": "2026-06-20T11:15:09Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Rocket Report: Rebuild begins at Blue Origin launch pad; Relativity targets Mars",
-      "url": "https://arstechnica.com/space/2026/06/rocket-report-rebuild-begins-at-blue-origin-launch-pad-relativity-targets-mars/",
-      "discuss_url": "https://arstechnica.com/space/2026/06/rocket-report-rebuild-begins-at-blue-origin-launch-pad-relativity-targets-mars/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-06-19T13:36:53Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "As global warming threatens corals, scientists search for reefs that can take the heat",
-      "url": "https://arstechnica.com/science/2026/06/as-global-warming-threatens-corals-scientists-search-for-reefs-that-can-take-the-heat/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/as-global-warming-threatens-corals-scientists-search-for-reefs-that-can-take-the-heat/",
-      "score": null,
-      "comments": null,
-      "author": "Teresa Tomassoni, Inside Climate News",
-      "published": "2026-06-19T11:15:11Z"
     }
   ]
 }
