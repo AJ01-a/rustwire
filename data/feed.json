@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T03:56:16Z",
+  "updated_at": "2026-06-24T09:43:43Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -42,9 +42,9 @@
       "author": "blacklight",
       "published": "2026-06-22T22:25:06Z",
       "bullets": [
-        "A fully local voice assistant setup",
-        "Trending on lobste.rs/ai — 6 points, 2 comments.",
-        "Submitted by blacklight on lobste.rs/ai."
+        "Use Whisper.cpp or Faster-Whisper for low-latency Speech-to-Text (STT) and Piper TTS for highly efficient local voice synthesis.",
+        "Run quantized local LLMs like Llama-3-8B or Phi-3 via Ollama to handle intent parsing and conversational response generation offline.",
+        "Integrate components using Home Assistant's Wyoming protocol or local API endpoints to secure user privacy and eliminate cloud latency."
       ]
     },
     {
@@ -54,13 +54,13 @@
       "title": "Please keep code descriptions simple",
       "url": "https://akselmo.dev/posts/please-keep-code-descriptions-simple/",
       "discuss_url": "https://lobste.rs/s/y4hgjd",
-      "score": 34,
-      "comments": 39,
+      "score": 38,
+      "comments": 49,
       "author": "Aks",
       "published": "2026-06-23T10:29:40Z",
       "bullets": [
         "Please keep code descriptions simple",
-        "Trending on lobste.rs/programming — 34 points, 39 comments.",
+        "Trending on lobste.rs/programming — 38 points, 49 comments.",
         "Submitted by Aks on lobste.rs/programming."
       ]
     },
@@ -71,13 +71,13 @@
       "title": "Vulnerability Reports Are Not Special Anymore",
       "url": "https://words.filippo.io/vuln-reports/",
       "discuss_url": "https://lobste.rs/s/bcjwwn",
-      "score": 32,
-      "comments": 10,
+      "score": 36,
+      "comments": 14,
       "author": "orib",
       "published": "2026-06-23T13:47:31Z",
       "bullets": [
         "Vulnerability Reports Are Not Special Anymore",
-        "Trending on lobste.rs/security — 32 points, 10 comments.",
+        "Trending on lobste.rs/security — 36 points, 14 comments.",
         "Submitted by orib on lobste.rs/security."
       ]
     },
@@ -169,18 +169,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "VibeThinker-3B: Exploring the Frontier of Verifiable Reasoning in Small Language Models",
-      "url": "https://arxiv.org/abs/2606.16140",
-      "discuss_url": "https://lobste.rs/s/jrj4o3",
-      "score": 1,
-      "comments": 0,
-      "author": "Yogthos",
-      "published": "2026-06-23T14:17:13Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "TIRx: An Open Compiler Stack for Evolving Frontier ML Kernels",
       "url": "https://tvm.apache.org/2026/06/22/tirx",
       "discuss_url": "https://lobste.rs/s/j04tzc",
@@ -188,6 +176,18 @@
       "comments": 0,
       "author": "sanxiyn",
       "published": "2026-06-22T22:49:28Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "VibeThinker-3B: Exploring the Frontier of Verifiable Reasoning in Small Language Models",
+      "url": "https://arxiv.org/abs/2606.16140",
+      "discuss_url": "https://lobste.rs/s/jrj4o3",
+      "score": 1,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-06-23T14:17:13Z"
     },
     {
       "source": "lobsters",
@@ -268,8 +268,8 @@
       "title": "Please keep code descriptions simple",
       "url": "https://akselmo.dev/posts/please-keep-code-descriptions-simple/",
       "discuss_url": "https://lobste.rs/s/y4hgjd",
-      "score": 34,
-      "comments": 39,
+      "score": 38,
+      "comments": 49,
       "author": "Aks",
       "published": "2026-06-23T10:29:40Z"
     },
@@ -280,8 +280,8 @@
       "title": "RRB-Trees: Efficient Immutable Vectors",
       "url": "https://infoscience.epfl.ch/server/api/core/bitstreams/e5d662ea-1e8d-4dda-b917-8cbb8bb40bf9/content",
       "discuss_url": "https://lobste.rs/s/ev9ruz",
-      "score": 1,
-      "comments": 0,
+      "score": 4,
+      "comments": 1,
       "author": "azhenley",
       "published": "2026-06-24T02:57:02Z"
     },
@@ -328,7 +328,7 @@
       "title": "Performance improvements in libffi",
       "url": "https://atgreen.github.io/repl-yell/posts/libffi-plan-cache/",
       "discuss_url": "https://lobste.rs/s/agw0rr",
-      "score": 25,
+      "score": 24,
       "comments": 14,
       "author": "atgreen",
       "published": "2026-06-21T14:16:43Z"
@@ -352,7 +352,7 @@
       "title": "cl-bbs: the schemeBBS-like textboard rewritten in Common Lisp",
       "url": "https://github.com/ryukinix/cl-bbs",
       "discuss_url": "https://lobste.rs/s/wgpa6x",
-      "score": 13,
+      "score": 14,
       "comments": 5,
       "author": "lerax",
       "published": "2026-06-21T07:19:03Z"
@@ -412,10 +412,22 @@
       "title": "Vulnerability Reports Are Not Special Anymore",
       "url": "https://words.filippo.io/vuln-reports/",
       "discuss_url": "https://lobste.rs/s/bcjwwn",
-      "score": 32,
-      "comments": 10,
+      "score": 36,
+      "comments": 14,
       "author": "orib",
       "published": "2026-06-23T13:47:31Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Making Rust supply chain attacks harder with Cackle (2023)",
+      "url": "https://davidlattimore.github.io/posts/2023/10/09/making-supply-chain-attacks-harder.html",
+      "discuss_url": "https://lobste.rs/s/dl0yiv",
+      "score": 4,
+      "comments": 0,
+      "author": "typesanitizer",
+      "published": "2026-06-24T06:18:03Z"
     },
     {
       "source": "lobsters",
@@ -469,6 +481,30 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering",
+      "url": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
+      "discuss_url": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-24T08:55:12Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root",
+      "url": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
+      "discuss_url": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-24T06:50:38Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation",
       "url": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
       "discuss_url": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
@@ -512,42 +548,6 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-06-23T14:22:03Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Agentic AI: The Weapon That No Longer Needs a Warrior",
-      "url": "https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html",
-      "discuss_url": "https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-23T11:30:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
-      "url": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
-      "discuss_url": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-23T08:54:32Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
-      "url": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
-      "discuss_url": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-23T05:38:40Z"
     },
     {
       "source": "rss",
