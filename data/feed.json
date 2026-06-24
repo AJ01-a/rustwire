@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T09:43:43Z",
+  "updated_at": "2026-06-24T14:39:08Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "A fully local voice assistant setup",
       "url": "https://blog.platypush.tech/article/Local-voice-assistant",
       "discuss_url": "https://lobste.rs/s/luosjw",
-      "score": 6,
+      "score": 7,
       "comments": 2,
       "author": "blacklight",
       "published": "2026-06-22T22:25:06Z",
       "bullets": [
-        "Use Whisper.cpp or Faster-Whisper for low-latency Speech-to-Text (STT) and Piper TTS for highly efficient local voice synthesis.",
-        "Run quantized local LLMs like Llama-3-8B or Phi-3 via Ollama to handle intent parsing and conversational response generation offline.",
-        "Integrate components using Home Assistant's Wyoming protocol or local API endpoints to secure user privacy and eliminate cloud latency."
+        "Faster-Whisper or Whisper.cpp provides low-latency, offline speech-to-text transcription on local CPU/GPU hardware.",
+        "Ollama or llama.cpp orchestrates open weights models like Llama 3 or Mistral 7B to process queries without external API dependencies.",
+        "Piper or Kokoro TTS handles ultra-fast, local text-to-speech, integrated via Home Assistant and Wyoming protocol for home automation."
       ]
     },
     {
@@ -54,13 +54,13 @@
       "title": "Please keep code descriptions simple",
       "url": "https://akselmo.dev/posts/please-keep-code-descriptions-simple/",
       "discuss_url": "https://lobste.rs/s/y4hgjd",
-      "score": 38,
-      "comments": 49,
+      "score": 46,
+      "comments": 55,
       "author": "Aks",
       "published": "2026-06-23T10:29:40Z",
       "bullets": [
         "Please keep code descriptions simple",
-        "Trending on lobste.rs/programming — 38 points, 49 comments.",
+        "Trending on lobste.rs/programming — 46 points, 55 comments.",
         "Submitted by Aks on lobste.rs/programming."
       ]
     },
@@ -71,13 +71,13 @@
       "title": "Vulnerability Reports Are Not Special Anymore",
       "url": "https://words.filippo.io/vuln-reports/",
       "discuss_url": "https://lobste.rs/s/bcjwwn",
-      "score": 36,
-      "comments": 14,
+      "score": 40,
+      "comments": 15,
       "author": "orib",
       "published": "2026-06-23T13:47:31Z",
       "bullets": [
         "Vulnerability Reports Are Not Special Anymore",
-        "Trending on lobste.rs/security — 36 points, 14 comments.",
+        "Trending on lobste.rs/security — 40 points, 15 comments.",
         "Submitted by orib on lobste.rs/security."
       ]
     },
@@ -85,34 +85,34 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon CloudWatch Logs supports managed syslog ingestion",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-syslog-ingestion/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-syslog-ingestion/",
+      "title": "Amazon CloudWatch now supports tags on dashboards",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-tags-on-dashboards",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-tags-on-dashboards",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-06-23T20:30:00Z",
+      "published": "2026-06-24T08:00:00Z",
       "bullets": [
-        "Amazon CloudWatch Logs supports managed syslog ingestion, enabling customers to send syslog messages from firewalls, routers, switches, and Linux servers directly into CloudWatch…",
-        "With today's launch, customers can configure their network devices and servers to send syslog messages over TCP, TCP+TLS, or UDP to a VPC endpoint in their account - without insta…",
-        "Amazon CloudWatch Logs supports RFC 5424, RFC 3164, and Cisco FTD/ASA syslog formats, making it compatible with a wide range of infrastructure."
+        "A mazon CloudWatch now supports tagging for CloudWatch dashboards, enabling you to organize, categorize, and control access to your dashboards using tags.",
+        "Tags are key-value pairs that help you identify and manage AWS resources across your environment.",
+        "With this launch, the PutDashboard API now accepts an optional Tags parameter, allowing you to assign up to 50 tags when creating a new dashboard."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "White House drastically shortens deadline for dropping quantum-vulnerable crypto",
-      "url": "https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto/",
-      "discuss_url": "https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto/",
+      "title": "November launch set for space shuttle Endeavour's towering display",
+      "url": "https://arstechnica.com/space/2026/06/november-launch-set-for-space-shuttle-endeavours-towering-display/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/november-launch-set-for-space-shuttle-endeavours-towering-display/",
       "score": null,
       "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-06-23T22:30:57Z",
+      "author": "Robert Pearlman",
+      "published": "2026-06-24T14:04:56Z",
       "bullets": [
-        "Order warns of national security risks if post-quantum cryptography isn't adopted in time.",
-        "White House drastically shortens deadline for dropping quantum-vulnerable crypto",
-        "Submitted by Dan Goodin on arstechnica.com."
+        "\"It is an incredible exhibit and incredible sight.\"",
+        "November launch set for space shuttle Endeavour's towering display",
+        "Submitted by Robert Pearlman on arstechnica.com."
       ]
     }
   ],
@@ -124,7 +124,7 @@
       "title": "A fully local voice assistant setup",
       "url": "https://blog.platypush.tech/article/Local-voice-assistant",
       "discuss_url": "https://lobste.rs/s/luosjw",
-      "score": 6,
+      "score": 7,
       "comments": 2,
       "author": "blacklight",
       "published": "2026-06-22T22:25:06Z"
@@ -190,30 +190,6 @@
       "published": "2026-06-23T14:17:13Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Reverse Engineering the Qualcomm NPU Compiler",
-      "url": "https://datavorous.github.io/writing/qairt/",
-      "discuss_url": "https://lobste.rs/s/lhn5w5",
-      "score": 6,
-      "comments": 0,
-      "author": "mrunix",
-      "published": "2026-06-20T11:49:16Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Lighthouse agentic browsing scoring",
-      "url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring",
-      "discuss_url": "https://lobste.rs/s/rdrtip",
-      "score": 0,
-      "comments": 2,
-      "author": "ethanhawksley",
-      "published": "2026-06-20T11:44:00Z"
-    },
-    {
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
@@ -262,14 +238,38 @@
       "published": "2026-06-22T13:18:56Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "We got local models to triage the OpenClaw repo for FREE!*",
+      "url": "https://huggingface.co/blog/local-models-pr-triage",
+      "discuss_url": "https://huggingface.co/blog/local-models-pr-triage",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-22T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "MosaicLeaks: Can your research agent keep a secret?",
+      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "discuss_url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-18T18:13:13Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Please keep code descriptions simple",
       "url": "https://akselmo.dev/posts/please-keep-code-descriptions-simple/",
       "discuss_url": "https://lobste.rs/s/y4hgjd",
-      "score": 38,
-      "comments": 49,
+      "score": 46,
+      "comments": 55,
       "author": "Aks",
       "published": "2026-06-23T10:29:40Z"
     },
@@ -280,10 +280,22 @@
       "title": "RRB-Trees: Efficient Immutable Vectors",
       "url": "https://infoscience.epfl.ch/server/api/core/bitstreams/e5d662ea-1e8d-4dda-b917-8cbb8bb40bf9/content",
       "discuss_url": "https://lobste.rs/s/ev9ruz",
-      "score": 4,
+      "score": 10,
       "comments": 1,
       "author": "azhenley",
       "published": "2026-06-24T02:57:02Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Porting WINE to a new Hobby OS",
+      "url": "https://astral-os.org/posts/2026/04/03/wine-on-astral.html",
+      "discuss_url": "https://lobste.rs/s/aj0e9u",
+      "score": 1,
+      "comments": 0,
+      "author": "avaliosdev",
+      "published": "2026-06-24T14:27:02Z"
     },
     {
       "source": "lobsters",
@@ -293,7 +305,7 @@
       "url": "https://lobste.rs/s/12jy9c",
       "discuss_url": "https://lobste.rs/s/12jy9c",
       "score": 15,
-      "comments": 37,
+      "comments": 39,
       "author": "caius",
       "published": "2026-06-22T13:11:56Z"
     },
@@ -394,26 +406,14 @@
       "published": "2026-06-23T15:48:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "From pledge to practice: Building a more inclusive open source ecosystem",
-      "url": "https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/",
-      "discuss_url": "https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-06-22T17:20:31Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Vulnerability Reports Are Not Special Anymore",
       "url": "https://words.filippo.io/vuln-reports/",
       "discuss_url": "https://lobste.rs/s/bcjwwn",
-      "score": 36,
-      "comments": 14,
+      "score": 40,
+      "comments": 15,
       "author": "orib",
       "published": "2026-06-23T13:47:31Z"
     },
@@ -424,7 +424,7 @@
       "title": "Making Rust supply chain attacks harder with Cackle (2023)",
       "url": "https://davidlattimore.github.io/posts/2023/10/09/making-supply-chain-attacks-harder.html",
       "discuss_url": "https://lobste.rs/s/dl0yiv",
-      "score": 4,
+      "score": 8,
       "comments": 0,
       "author": "typesanitizer",
       "published": "2026-06-24T06:18:03Z"
@@ -481,6 +481,30 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks",
+      "url": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
+      "discuss_url": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-24T12:48:11Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Dawn of the Apex Agentic Adversary",
+      "url": "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html",
+      "discuss_url": "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-24T11:30:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering",
       "url": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
       "discuss_url": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
@@ -527,27 +551,15 @@
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration",
-      "url": "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
-      "discuss_url": "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon CloudWatch now supports tags on dashboards",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-tags-on-dashboards",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-tags-on-dashboards",
       "score": null,
       "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-23T15:16:40Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns",
-      "url": "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
-      "discuss_url": "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-23T14:22:03Z"
+      "author": "aws@amazon.com",
+      "published": "2026-06-24T08:00:00Z"
     },
     {
       "source": "rss",
@@ -683,15 +695,27 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "November launch set for space shuttle Endeavour's towering display",
+      "url": "https://arstechnica.com/space/2026/06/november-launch-set-for-space-shuttle-endeavours-towering-display/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/november-launch-set-for-space-shuttle-endeavours-towering-display/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-22T20:37:00Z"
+      "author": "Robert Pearlman",
+      "published": "2026-06-24T14:04:56Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "White House app auto-downloads to government phones, can't be uninstalled",
+      "url": "https://arstechnica.com/tech-policy/2026/06/white-house-app-auto-downloads-to-government-phones-cant-be-uninstalled/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/white-house-app-auto-downloads-to-government-phones-cant-be-uninstalled/",
+      "score": null,
+      "comments": null,
+      "author": "Vittoria Elliott, wired.com",
+      "published": "2026-06-24T13:35:19Z"
     },
     {
       "source": "rss",
@@ -812,30 +836,6 @@
       "comments": null,
       "author": "Jennifer Ouellette",
       "published": "2026-06-23T13:55:14Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "How to burst the AI bubble: Strike at its roots",
-      "url": "https://arstechnica.com/gadgets/2026/06/how-to-burst-the-ai-bubble-strike-at-its-roots/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/06/how-to-burst-the-ai-bubble-strike-at-its-roots/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-06-23T12:00:34Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "With Starfall, SpaceX eyes an edge in global cargo delivery from orbit",
-      "url": "https://arstechnica.com/space/2026/06/with-starfall-spacex-eyes-an-edge-in-global-cargo-delivery-from-orbit/",
-      "discuss_url": "https://arstechnica.com/space/2026/06/with-starfall-spacex-eyes-an-edge-in-global-cargo-delivery-from-orbit/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-06-23T05:25:16Z"
     }
   ]
 }
