@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T04:03:41Z",
+  "updated_at": "2026-06-26T09:34:26Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,48 +37,48 @@
       "title": "Echoes of the AI Winter",
       "url": "https://netzhansa.com/echoes-of-the-ai-winter/",
       "discuss_url": "https://lobste.rs/s/8soruc",
-      "score": 3,
-      "comments": 2,
+      "score": 8,
+      "comments": 3,
       "author": "kchanqvq",
       "published": "2026-06-25T20:27:23Z",
       "bullets": [
-        "Echoes of the AI Winter",
-        "Trending on lobste.rs/ai — 3 points, 2 comments.",
-        "Submitted by kchanqvq on lobste.rs/ai."
+        "Unrealistic ROI expectations on massive LLM CapEx, fueled by high Nvidia H100 costs, raise concerns of a looming market correction.",
+        "Frontier models face diminishing returns as scaling laws hit training data walls, prompting a pivot to synthetic data and distillation.",
+        "Practitioners are shifting focus from massive proprietary APIs to cost-efficient, open-weights small language models like Llama-3 and Phi-3."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Porting WINE to a new Hobby OS",
-      "url": "https://astral-os.org/posts/2026/04/03/wine-on-astral.html",
-      "discuss_url": "https://lobste.rs/s/aj0e9u",
-      "score": 51,
-      "comments": 5,
-      "author": "avaliosdev",
-      "published": "2026-06-24T14:27:02Z",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/dpctyb",
+      "discuss_url": "https://lobste.rs/s/dpctyb",
+      "score": 2,
+      "comments": 3,
+      "author": "caius",
+      "published": "2026-06-26T08:12:59Z",
       "bullets": [
-        "Porting WINE to a new Hobby OS",
-        "Trending on lobste.rs/programming — 51 points, 5 comments.",
-        "Submitted by avaliosdev on lobste.rs/programming."
+        "Engineers use weekend downtime to experiment with new languages like Rust or Go and contribute to open-source repositories.",
+        "Weekend projects often focus on self-hosting, updating home lab Kubernetes clusters, or migrating personal databases and APIs.",
+        "Prioritizing complete cognitive rest over weekend coding is vital for long-term engineering productivity and preventing professional burnout."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Ignore DNSSEC if you like MITM attacks",
-      "url": "https://whynothugo.nl/journal/2026/06/24/ignore-dnssec-if-you-like-mitm-attacks/",
-      "discuss_url": "https://lobste.rs/s/pcuxjt",
-      "score": 21,
-      "comments": 20,
-      "author": "ggpsv",
-      "published": "2026-06-24T19:40:31Z",
+      "title": "usbliter8: An A12/A13 SecureROM exploit",
+      "url": "https://github.com/prdgmshift/usbliter8",
+      "discuss_url": "https://lobste.rs/s/fs8itz",
+      "score": 4,
+      "comments": 0,
+      "author": "jeanthomas",
+      "published": "2026-06-26T06:16:24Z",
       "bullets": [
-        "Ignore DNSSEC if you like MITM attacks",
-        "Trending on lobste.rs/security — 21 points, 20 comments.",
-        "Submitted by ggpsv on lobste.rs/security."
+        "The usbliter8 hardware exploit targets the unpatchable bootrom of Apple A12 and A13 Bionic system-on-chips.",
+        "It targets USB control transfers during DFU mode, enabling arbitrary code execution before the iOS kernel loads.",
+        "Because SecureROM is read-only, Apple cannot patch this vulnerability, enabling permanent hardware-level decryption and jailbreaks."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "aws@amazon.com",
       "published": "2026-06-25T22:24:00Z",
       "bullets": [
-        "Starting today, the compute optimized Amazon EC2 C7a instances are now available in AWS Asia Pacific (Singapore) Region.",
-        "C7a instances, powered by 4th Gen AMD EPYC processors (code-named Genoa) with a maximum frequency of 3.7 GHz, deliver up to 50% higher performance compared to C6a instances.",
-        "C7a instances offer new processor capabilities such as AVX-512, VNNI, and bfloat16."
+        "AWS C7a instances, powered by 4th Gen AMD EPYC Genoa CPUs, are now available in the Singapore region.",
+        "DevOps teams can attach up to 128 EBS volumes per C7a instance, a significant increase from C6a’s limit of 28.",
+        "Built on AWS Nitro, the instances feature DDR5 memory, AVX-512, VNNI, and bfloat16 for high-performance workloads."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Ryan Whitwam",
       "published": "2026-06-25T20:24:09Z",
       "bullets": [
-        "About a quarter of PCs are still running Microsoft's previous operating system.",
-        "Microsoft adds another year to Windows 10 extended update program",
-        "Submitted by Ryan Whitwam on arstechnica.com."
+        "Microsoft extended the Windows 10 Extended Security Update (ESU) program as the OS retains roughly 25% of PC market share.",
+        "The extension offers security teams additional time to patch legacy Windows 10 endpoints before forcing a Windows 11 migration.",
+        "Organizations should plan budgets for paid ESU licensing or accelerate hardware procurement to meet strict Windows 11 TPM requirements."
       ]
     }
   ],
@@ -124,10 +124,22 @@
       "title": "Echoes of the AI Winter",
       "url": "https://netzhansa.com/echoes-of-the-ai-winter/",
       "discuss_url": "https://lobste.rs/s/8soruc",
-      "score": 3,
-      "comments": 2,
+      "score": 8,
+      "comments": 3,
       "author": "kchanqvq",
       "published": "2026-06-25T20:27:23Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "A fully local voice assistant setup",
+      "url": "https://blog.platypush.tech/article/Local-voice-assistant",
+      "discuss_url": "https://lobste.rs/s/luosjw",
+      "score": 9,
+      "comments": 2,
+      "author": "blacklight",
+      "published": "2026-06-22T22:25:06Z"
     },
     {
       "source": "lobsters",
@@ -145,13 +157,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "A fully local voice assistant setup",
-      "url": "https://blog.platypush.tech/article/Local-voice-assistant",
-      "discuss_url": "https://lobste.rs/s/luosjw",
-      "score": 8,
-      "comments": 2,
-      "author": "blacklight",
-      "published": "2026-06-22T22:25:06Z"
+      "title": "Munich 1991: the Roots of the Current AI Boom",
+      "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+      "discuss_url": "https://lobste.rs/s/n1xvd7",
+      "score": 10,
+      "comments": 0,
+      "author": "mpweiher",
+      "published": "2026-06-22T12:09:39Z"
     },
     {
       "source": "lobsters",
@@ -164,18 +176,6 @@
       "comments": 0,
       "author": "metahost",
       "published": "2026-06-24T10:35:51Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Munich 1991: the Roots of the Current AI Boom",
-      "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
-      "discuss_url": "https://lobste.rs/s/n1xvd7",
-      "score": 10,
-      "comments": 0,
-      "author": "mpweiher",
-      "published": "2026-06-22T12:09:39Z"
     },
     {
       "source": "lobsters",
@@ -265,11 +265,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/dpctyb",
+      "discuss_url": "https://lobste.rs/s/dpctyb",
+      "score": 2,
+      "comments": 3,
+      "author": "caius",
+      "published": "2026-06-26T08:12:59Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Porting WINE to a new Hobby OS",
       "url": "https://astral-os.org/posts/2026/04/03/wine-on-astral.html",
       "discuss_url": "https://lobste.rs/s/aj0e9u",
-      "score": 51,
-      "comments": 5,
+      "score": 52,
+      "comments": 7,
       "author": "avaliosdev",
       "published": "2026-06-24T14:27:02Z"
     },
@@ -281,7 +293,7 @@
       "url": "https://akselmo.dev/posts/please-keep-code-descriptions-simple/",
       "discuss_url": "https://lobste.rs/s/y4hgjd",
       "score": 52,
-      "comments": 57,
+      "comments": 58,
       "author": "Aks",
       "published": "2026-06-23T10:29:40Z"
     },
@@ -320,18 +332,6 @@
       "comments": 10,
       "author": "orib",
       "published": "2026-06-22T22:31:20Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Learning XQuery One Dish at a Time",
-      "url": "https://www.linkedin.com/posts/jennifer-ramirez-betancur_this-month-i-attended-xml-prague-for-the-activity-7472908836539138048-yLHj",
-      "discuss_url": "https://lobste.rs/s/axkvfn",
-      "score": 1,
-      "comments": 0,
-      "author": "adamretter",
-      "published": "2026-06-22T09:17:00Z"
     },
     {
       "source": "rss",
@@ -397,13 +397,25 @@
       "source": "rss",
       "subsource": "stackoverflow.blog",
       "category": "engineering",
-      "title": "Your AI shipped a backend that boots. That is the whole problem.​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌​‌‍​‍​﻿​‍​﻿​‍‌‍​﻿​﻿​‍‌‍​‌​﻿​﻿​‍﻿‌​﻿​﻿​﻿‌﻿​﻿‌﻿​﻿‍‌​‍﻿‌​﻿‌​​﻿‍‌​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍‌​﻿​﻿‌‍‌‌‌‍​‍​‍﻿‌​﻿‌‌​﻿​‍​﻿​﻿​﻿​​​﻿​﻿​﻿‍‌​﻿​‌‌‍‌​‌‍​‍‌‍‌​‌‍​﻿‌‍‌‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌​‌‍​‍​﻿​‍​﻿​‍‌‍​﻿​﻿​‍‌‍​‌​﻿​﻿​‍﻿‌​﻿​﻿​﻿‌﻿​﻿‌﻿​﻿‍‌​‍﻿‌​﻿‌​​﻿‍‌​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍‌​﻿​﻿‌‍‌‌‌‍​‍​‍﻿‌​﻿‌‌​﻿​‍​﻿​﻿​﻿​​​﻿​﻿​﻿‍‌​﻿​‌‌‍‌​‌‍​‍‌‍‌​‌‍​﻿‌‍‌‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "url": "https://stackoverflow.blog/2026/06/23/your-ai-shipped-a-backend-that-boots-that-is-the-whole-problem/",
-      "discuss_url": "https://stackoverflow.blog/2026/06/23/your-ai-shipped-a-backend-that-boots-that-is-the-whole-problem/",
+      "title": "Code isn’t the only thing causing your production failures​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌‍​﻿‍​​﻿​﻿‌‍‌‌‌‍​‍​﻿‌‌‌‍‌‍​﻿​​​‍﻿‌​﻿​‌​﻿​‍​﻿​﻿​﻿‌﻿​‍﻿‌​﻿‌​​﻿‍​​﻿‌﻿‌‍‌‍​‍﻿‌​﻿‍​​﻿‌​‌‍‌​​﻿‍​​‍﻿‌‌‍‌‍​﻿‌﻿‌‍​‌‌‍​‍‌‍‌‍​﻿​‍​﻿​﻿​﻿​‌​﻿‍​‌‍​﻿​﻿​﻿​﻿‍‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌‍​﻿‍​​﻿​﻿‌‍‌‌‌‍​‍​﻿‌‌‌‍‌‍​﻿​​​‍﻿‌​﻿​‌​﻿​‍​﻿​﻿​﻿‌﻿​‍﻿‌​﻿‌​​﻿‍​​﻿‌﻿‌‍‌‍​‍﻿‌​﻿‍​​﻿‌​‌‍‌​​﻿‍​​‍﻿‌‌‍‌‍​﻿‌﻿‌‍​‌‌‍​‍‌‍‌‍​﻿​‍​﻿​﻿​﻿​‌​﻿‍​‌‍​﻿​﻿​﻿​﻿‍‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/06/25/code-isnt-causing-your-production-failures/",
+      "discuss_url": "https://stackoverflow.blog/2026/06/25/code-isnt-causing-your-production-failures/",
       "score": null,
       "comments": null,
-      "author": "Devlin Duldulao",
-      "published": "2026-06-23T14:08:58Z"
+      "author": "Phoebe Sajor",
+      "published": "2026-06-25T07:40:00Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "usbliter8: An A12/A13 SecureROM exploit",
+      "url": "https://github.com/prdgmshift/usbliter8",
+      "discuss_url": "https://lobste.rs/s/fs8itz",
+      "score": 4,
+      "comments": 0,
+      "author": "jeanthomas",
+      "published": "2026-06-26T06:16:24Z"
     },
     {
       "source": "lobsters",
@@ -433,18 +445,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Akrites: Coordinated, confidential vulnerability remediation for the open source software critical infrastructure depends on",
-      "url": "https://akrites.org/",
-      "discuss_url": "https://lobste.rs/s/x6nv9y",
-      "score": 1,
-      "comments": 0,
-      "author": "fanf",
-      "published": "2026-06-25T23:56:00Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Exploiting vulnerabilities in Johnson & Johnson web apps",
       "url": "https://eaton-works.com/2026/06/24/jnj-webapp-hacks/",
       "discuss_url": "https://lobste.rs/s/rl7aid",
@@ -464,6 +464,18 @@
       "comments": 0,
       "author": "typesanitizer",
       "published": "2026-06-24T06:18:03Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Akrites: Coordinated, confidential vulnerability remediation for the open source software critical infrastructure depends on",
+      "url": "https://akrites.org/",
+      "discuss_url": "https://lobste.rs/s/x6nv9y",
+      "score": 1,
+      "comments": 0,
+      "author": "fanf",
+      "published": "2026-06-25T23:56:00Z"
     },
     {
       "source": "lobsters",
@@ -493,6 +505,30 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "Russia Used Cellebrite on Jailed Activist's iPhone Months After Sales Cutoff",
+      "url": "https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html",
+      "discuss_url": "https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-26T08:49:35Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Google Details Turla's New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks",
+      "url": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html",
+      "discuss_url": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-06-26T07:15:46Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability",
       "url": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
       "discuss_url": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
@@ -512,42 +548,6 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-06-25T12:24:43Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Surviving the Mythos Era: Richard Bejtlich on the Case for NDR",
-      "url": "https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html",
-      "discuss_url": "https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-25T11:17:31Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis",
-      "url": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
-      "discuss_url": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-25T09:23:03Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns",
-      "url": "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html",
-      "discuss_url": "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-25T08:54:37Z"
     },
     {
       "source": "rss",
