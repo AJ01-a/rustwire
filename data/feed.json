@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T14:33:47Z",
+  "updated_at": "2026-06-26T19:57:09Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Chatbots vs Ozone",
       "url": "https://blog.dshr.org/2026/05/chatbots-vs-ozone.html",
       "discuss_url": "https://lobste.rs/s/tjpsew",
-      "score": 3,
-      "comments": 3,
+      "score": 4,
+      "comments": 4,
       "author": "fazalmajid",
       "published": "2026-06-26T10:36:54Z",
       "bullets": [
-        "Decentralized networks like Bluesky face a surge of AI chatbots, putting pressure on Ozone, their open-source collaborative moderation platform.",
-        "Ozone enables AT Protocol users to run independent labeling services, crucial for filtering LLM-generated spam and automated identity spoofing.",
-        "AI practitioners must design defensive systems to help federated moderation tools programmatically detect sophisticated, low-cost synthetic accounts."
+        "Scaling LLMs like GPT-4 accelerates grid strain, increasing fossil fuel emissions and atmospheric ozone-depleting pollutants during training and inference.",
+        "Semiconductor fabrication for AI accelerators like Nvidia H100s relies on greenhouse gases and chemicals that contribute to ozone layer degradation.",
+        "Practitioners should adopt model quantization, efficient architectures, and green hosting to minimize the high carbon footprint of conversational AI."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/dpctyb",
       "discuss_url": "https://lobste.rs/s/dpctyb",
-      "score": 16,
-      "comments": 18,
+      "score": 26,
+      "comments": 45,
       "author": "caius",
       "published": "2026-06-26T08:12:59Z",
       "bullets": [
-        "Lobsters community members use weekend threads to share progress on personal tools, compiler design, homelabs, and self-hosting infrastructure.",
-        "These developer discussions facilitate peer feedback, code reviews, and collaborative troubleshooting on open-source repositories and hobby codebases.",
-        "Explicitly endorsing rest underscores a critical cultural shift in engineering toward burnout prevention and sustainable professional pacing."
+        "Engineers leverage weekend side-projects to experiment with emerging tech like Rust, Go, or LLMs without production constraints.",
+        "Community discussions provide peer feedback on systems architecture, database performance tuning, and self-hosted infrastructure setups.",
+        "Deliberate rest and unplugging from technical tasks are essential to prevent burnout and maintain long-term engineering productivity."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "usbliter8: An A12/A13 SecureROM exploit",
-      "url": "https://github.com/prdgmshift/usbliter8",
-      "discuss_url": "https://lobste.rs/s/fs8itz",
-      "score": 7,
-      "comments": 0,
-      "author": "jeanthomas",
-      "published": "2026-06-26T06:16:24Z",
+      "title": "Anatomy of a Failed (Nation-State?) Attack",
+      "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/",
+      "discuss_url": "https://lobste.rs/s/j2ua4f",
+      "score": 27,
+      "comments": 6,
+      "author": "Manishearth",
+      "published": "2026-06-26T14:58:54Z",
       "bullets": [
-        "A hardware-level vulnerability in Apple's A12 and A13 SecureROM provides an unpatchable exploit vector via USB DFU mode.",
-        "Impacts devices like iPhone XS, 11, and SE (2nd Gen), enabling firmware decryption and Secure Enclave security analysis.",
-        "Because the flaw is burned into read-only silicon, Apple cannot mitigate this vulnerability on affected devices via software updates."
+        "Anatomy of a Failed (Nation-State?) Attack",
+        "Trending on lobste.rs/security — 27 points, 6 comments.",
+        "Submitted by Manishearth on lobste.rs/security."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "How PgBouncer Works",
       "url": "https://www.augusteo.com/blog/how-pgbouncer-works/",
       "discuss_url": "https://lobste.rs/s/n58ygj",
-      "score": 4,
+      "score": 12,
       "comments": 0,
       "author": "jstoja",
       "published": "2026-06-26T12:52:38Z",
       "bullets": [
-        "PgBouncer acts as a lightweight proxy, multiplexing many client connections into a smaller pool of PostgreSQL backend processes to reduce memory.",
-        "It supports session, transaction, and statement pooling; transaction pooling is most common but disables prepared statements and session-level features.",
-        "Each client connection uses only kilobytes of memory, preventing database resource exhaustion when scaling to thousands of concurrent active connections."
+        "How PgBouncer Works",
+        "Trending on lobste.rs/devops — 12 points, 0 comments.",
+        "Submitted by jstoja on lobste.rs/devops."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "SpaceX plans to launch Starlink mobile service in the US",
-      "url": "https://arstechnica.com/space/2026/06/spacex-plans-to-launch-starlink-mobile-service-in-the-us/",
-      "discuss_url": "https://arstechnica.com/space/2026/06/spacex-plans-to-launch-starlink-mobile-service-in-the-us/",
+      "title": "FCC accused of hiding Chairman Carr's messages with DOGE and Musk",
+      "url": "https://arstechnica.com/tech-policy/2026/06/fcc-accused-of-hiding-chairman-carrs-messages-with-doge-and-musk/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/fcc-accused-of-hiding-chairman-carrs-messages-with-doge-and-musk/",
       "score": null,
       "comments": null,
-      "author": "Kieran Smith, George Steer, James Fontanella-Khan, and Michelle Chan, Financial Times",
-      "published": "2026-06-26T13:22:59Z",
+      "author": "Jon Brodkin",
+      "published": "2026-06-26T18:51:04Z",
       "bullets": [
-        "SpaceX is partnering with T-Mobile to launch Starlink Direct-to-Cell, utilizing modified LTE eNodeB modems on v2 satellites.",
-        "The service targets unmodified consumer smartphones, initially offering SMS texting before expanding to voice and data services.",
-        "This commercial deployment tests satellite-to-cellular technology at scale, competing with AST SpaceMobile and Apple’s Globalstar emergency SOS."
+        "FCC refuses to provide messages, has \"wasted a year\" of court's time, filing says.",
+        "FCC accused of hiding Chairman Carr's messages with DOGE and Musk",
+        "Submitted by Jon Brodkin on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Chatbots vs Ozone",
       "url": "https://blog.dshr.org/2026/05/chatbots-vs-ozone.html",
       "discuss_url": "https://lobste.rs/s/tjpsew",
-      "score": 3,
-      "comments": 3,
+      "score": 4,
+      "comments": 4,
       "author": "fazalmajid",
       "published": "2026-06-26T10:36:54Z"
     },
@@ -137,7 +137,7 @@
       "url": "https://netzhansa.com/echoes-of-the-ai-winter/",
       "discuss_url": "https://lobste.rs/s/8soruc",
       "score": 11,
-      "comments": 7,
+      "comments": 9,
       "author": "kchanqvq",
       "published": "2026-06-25T20:27:23Z"
     },
@@ -188,18 +188,6 @@
       "comments": 1,
       "author": "Yogthos",
       "published": "2026-06-23T14:17:13Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Prompt Injection as Role Confusion",
-      "url": "https://role-confusion.github.io",
-      "discuss_url": "https://lobste.rs/s/vwin4l",
-      "score": 3,
-      "comments": 1,
-      "author": "LolPython",
-      "published": "2026-06-22T17:22:07Z"
     },
     {
       "source": "lobsters",
@@ -262,14 +250,26 @@
       "published": "2026-06-24T16:00:13Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+      "url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "discuss_url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-24T00:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/dpctyb",
       "discuss_url": "https://lobste.rs/s/dpctyb",
-      "score": 16,
-      "comments": 18,
+      "score": 26,
+      "comments": 45,
       "author": "caius",
       "published": "2026-06-26T08:12:59Z"
     },
@@ -280,8 +280,8 @@
       "title": "All you need is PostgreSQL",
       "url": "https://ebellani.github.io/blog/2026/all-you-need-is-postgresql/",
       "discuss_url": "https://lobste.rs/s/yvvhve",
-      "score": 13,
-      "comments": 0,
+      "score": 31,
+      "comments": 2,
       "author": "schonfinkel",
       "published": "2026-06-26T09:48:57Z"
     },
@@ -337,7 +337,19 @@
       "source": "rss",
       "subsource": "github.blog",
       "category": "engineering",
-      "title": "Transitioning as a hubber",
+      "title": "GitHub and UNDP team up to advance development priorities in Ghana with open source",
+      "url": "https://github.blog/open-source/social-impact/github-and-undp-team-up-to-advance-development-priorities-in-ghana-with-open-source/",
+      "discuss_url": "https://github.blog/open-source/social-impact/github-and-undp-team-up-to-advance-development-priorities-in-ghana-with-open-source/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-06-26T16:53:57Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Transitioning as a Hubber",
       "url": "https://github.blog/developer-skills/career-growth/transitioning-as-a-hubber/",
       "discuss_url": "https://github.blog/developer-skills/career-growth/transitioning-as-a-hubber/",
       "score": null,
@@ -394,16 +406,28 @@
       "published": "2026-06-22T17:20:31Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "How we built an internal data analytics agent",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
-      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-06-19T16:00:00Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Anatomy of a Failed (Nation-State?) Attack",
+      "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/",
+      "discuss_url": "https://lobste.rs/s/j2ua4f",
+      "score": 27,
+      "comments": 6,
+      "author": "Manishearth",
+      "published": "2026-06-26T14:58:54Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Incident Report: CVE-2026-LGTM",
+      "url": "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html",
+      "discuss_url": "https://lobste.rs/s/6q12d7",
+      "score": 20,
+      "comments": 0,
+      "author": "Manishearth",
+      "published": "2026-06-26T15:42:28Z"
     },
     {
       "source": "lobsters",
@@ -412,7 +436,7 @@
       "title": "usbliter8: An A12/A13 SecureROM exploit",
       "url": "https://github.com/prdgmshift/usbliter8",
       "discuss_url": "https://lobste.rs/s/fs8itz",
-      "score": 7,
+      "score": 10,
       "comments": 0,
       "author": "jeanthomas",
       "published": "2026-06-26T06:16:24Z"
@@ -424,7 +448,7 @@
       "title": "Ignore DNSSEC if you like MITM attacks",
       "url": "https://whynothugo.nl/journal/2026/06/24/ignore-dnssec-if-you-like-mitm-attacks/",
       "discuss_url": "https://lobste.rs/s/pcuxjt",
-      "score": 21,
+      "score": 22,
       "comments": 26,
       "author": "ggpsv",
       "published": "2026-06-24T19:40:31Z"
@@ -505,49 +529,25 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
-      "url": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
-      "discuss_url": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
+      "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
+      "url": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
+      "discuss_url": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-26T13:57:55Z"
+      "published": "2026-06-26T18:17:46Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs",
-      "url": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
-      "discuss_url": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
+      "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
+      "url": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
+      "discuss_url": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-26T13:53:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue",
-      "url": "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
-      "discuss_url": "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-26T12:31:56Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets",
-      "url": "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html",
-      "discuss_url": "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-26T11:51:35Z"
+      "published": "2026-06-26T16:21:25Z"
     },
     {
       "source": "lobsters",
@@ -556,10 +556,22 @@
       "title": "How PgBouncer Works",
       "url": "https://www.augusteo.com/blog/how-pgbouncer-works/",
       "discuss_url": "https://lobste.rs/s/n58ygj",
-      "score": 4,
+      "score": 12,
       "comments": 0,
       "author": "jstoja",
       "published": "2026-06-26T12:52:38Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 R8g instances now available in additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-r8g-instances-additional-regions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-r8g-instances-additional-regions/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-26T15:00:00Z"
     },
     {
       "source": "rss",
@@ -608,6 +620,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-06-25T20:18:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 C8in instances are now available in additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8in-ireland-ohio/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8in-ireland-ohio/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-25T17:00:00Z"
     },
     {
       "source": "rss",
@@ -671,27 +695,75 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon RDS now supports the latest GDR updates for Microsoft SQL Server",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-supports-latest-gdr-updates-microsoft-sql-server",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-supports-latest-gdr-updates-microsoft-sql-server",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "FCC accused of hiding Chairman Carr's messages with DOGE and Musk",
+      "url": "https://arstechnica.com/tech-policy/2026/06/fcc-accused-of-hiding-chairman-carrs-messages-with-doge-and-musk/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/fcc-accused-of-hiding-chairman-carrs-messages-with-doge-and-musk/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-25T07:03:00Z"
+      "author": "Jon Brodkin",
+      "published": "2026-06-26T18:51:04Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon OpenSearch Ingestion now available in AWS Europe (Paris) Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-ingestion-europe-paris-region-availability",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-ingestion-europe-paris-region-availability",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Netflix now requires every user profile to be tied to unique email address",
+      "url": "https://arstechnica.com/gadgets/2026/06/netflix-now-requires-every-user-profile-to-be-tied-to-unique-email-address/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/06/netflix-now-requires-every-user-profile-to-be-tied-to-unique-email-address/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-25T01:32:00Z"
+      "author": "Scharon Harding",
+      "published": "2026-06-26T18:19:58Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Antibiotic \"megacluster\" discovery provides new strategy to fight superbugs",
+      "url": "https://arstechnica.com/health/2026/06/antibiotic-megacluster-discovery-provides-new-strategy-to-fight-superbugs/",
+      "discuss_url": "https://arstechnica.com/health/2026/06/antibiotic-megacluster-discovery-provides-new-strategy-to-fight-superbugs/",
+      "score": null,
+      "comments": null,
+      "author": "Beth Mole",
+      "published": "2026-06-26T17:46:07Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Ars Live: What's the latest in the aftermath of the New Glenn catastrophe?",
+      "url": "https://arstechnica.com/space/2026/06/ars-live-whats-the-latest-in-the-aftermath-of-the-new-glenn-catastrophe/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/ars-live-whats-the-latest-in-the-aftermath-of-the-new-glenn-catastrophe/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-06-26T16:24:59Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "VW may close four factories to adapt to the future, report says",
+      "url": "https://arstechnica.com/cars/2026/06/vw-may-close-four-factories-to-adapt-to-the-future-report-says/",
+      "discuss_url": "https://arstechnica.com/cars/2026/06/vw-may-close-four-factories-to-adapt-to-the-future-report-says/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-06-26T15:10:03Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Feedbacks upon feedbacks: Rock weathering and the climate",
+      "url": "https://arstechnica.com/science/2026/06/feedbacks-upon-feedbacks-rock-weathering-and-the-climate/",
+      "discuss_url": "https://arstechnica.com/science/2026/06/feedbacks-upon-feedbacks-rock-weathering-and-the-climate/",
+      "score": null,
+      "comments": null,
+      "author": "Howard Lee",
+      "published": "2026-06-26T14:41:18Z"
     },
     {
       "source": "rss",
@@ -764,78 +836,6 @@
       "comments": null,
       "author": "Ryan Whitwam",
       "published": "2026-06-25T18:38:51Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Anthropic says Alibaba must be punished for largest Claude cloning attack",
-      "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-06-25T18:01:48Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Planet orbits so close to its star that their magnetic fields connect",
-      "url": "https://arstechnica.com/science/2026/06/planet-orbits-so-close-to-its-star-that-their-magnetic-fields-connect/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/planet-orbits-so-close-to-its-star-that-their-magnetic-fields-connect/",
-      "score": null,
-      "comments": null,
-      "author": "John Timmer",
-      "published": "2026-06-25T18:00:39Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Feds deny Polestar authorization to sell cars in US from model year 2027",
-      "url": "https://arstechnica.com/cars/2026/06/feds-deny-polestar-authorization-to-sell-cars-in-us-from-model-year-2027/",
-      "discuss_url": "https://arstechnica.com/cars/2026/06/feds-deny-polestar-authorization-to-sell-cars-in-us-from-model-year-2027/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-06-25T14:40:23Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Apple ratchets up prices, blames the cost of memory",
-      "url": "https://arstechnica.com/apple/2026/06/apple-ratchets-up-prices-blames-the-cost-of-memory/",
-      "discuss_url": "https://arstechnica.com/apple/2026/06/apple-ratchets-up-prices-blames-the-cost-of-memory/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-06-25T14:14:37Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The \"sad inevitability\" of Europe's heat wave",
-      "url": "https://arstechnica.com/science/2026/06/the-sad-inevitability-of-europes-heat-wave/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/the-sad-inevitability-of-europes-heat-wave/",
-      "score": null,
-      "comments": null,
-      "author": "Lauren Dalban, Inside Climate News",
-      "published": "2026-06-25T13:54:46Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "New effort will get genome sequences for entire Endangered Species list",
-      "url": "https://arstechnica.com/science/2026/06/new-effort-will-get-genome-sequences-for-entire-endangered-species-list/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/new-effort-will-get-genome-sequences-for-entire-endangered-species-list/",
-      "score": null,
-      "comments": null,
-      "author": "John Timmer",
-      "published": "2026-06-25T13:40:34Z"
     }
   ]
 }
