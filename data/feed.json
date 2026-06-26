@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T09:34:26Z",
+  "updated_at": "2026-06-26T14:33:47Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Echoes of the AI Winter",
-      "url": "https://netzhansa.com/echoes-of-the-ai-winter/",
-      "discuss_url": "https://lobste.rs/s/8soruc",
-      "score": 8,
+      "title": "Chatbots vs Ozone",
+      "url": "https://blog.dshr.org/2026/05/chatbots-vs-ozone.html",
+      "discuss_url": "https://lobste.rs/s/tjpsew",
+      "score": 3,
       "comments": 3,
-      "author": "kchanqvq",
-      "published": "2026-06-25T20:27:23Z",
+      "author": "fazalmajid",
+      "published": "2026-06-26T10:36:54Z",
       "bullets": [
-        "Unrealistic ROI expectations on massive LLM CapEx, fueled by high Nvidia H100 costs, raise concerns of a looming market correction.",
-        "Frontier models face diminishing returns as scaling laws hit training data walls, prompting a pivot to synthetic data and distillation.",
-        "Practitioners are shifting focus from massive proprietary APIs to cost-efficient, open-weights small language models like Llama-3 and Phi-3."
+        "Decentralized networks like Bluesky face a surge of AI chatbots, putting pressure on Ozone, their open-source collaborative moderation platform.",
+        "Ozone enables AT Protocol users to run independent labeling services, crucial for filtering LLM-generated spam and automated identity spoofing.",
+        "AI practitioners must design defensive systems to help federated moderation tools programmatically detect sophisticated, low-cost synthetic accounts."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/dpctyb",
       "discuss_url": "https://lobste.rs/s/dpctyb",
-      "score": 2,
-      "comments": 3,
+      "score": 16,
+      "comments": 18,
       "author": "caius",
       "published": "2026-06-26T08:12:59Z",
       "bullets": [
-        "Engineers use weekend downtime to experiment with new languages like Rust or Go and contribute to open-source repositories.",
-        "Weekend projects often focus on self-hosting, updating home lab Kubernetes clusters, or migrating personal databases and APIs.",
-        "Prioritizing complete cognitive rest over weekend coding is vital for long-term engineering productivity and preventing professional burnout."
+        "Lobsters community members use weekend threads to share progress on personal tools, compiler design, homelabs, and self-hosting infrastructure.",
+        "These developer discussions facilitate peer feedback, code reviews, and collaborative troubleshooting on open-source repositories and hobby codebases.",
+        "Explicitly endorsing rest underscores a critical cultural shift in engineering toward burnout prevention and sustainable professional pacing."
       ]
     },
     {
@@ -71,48 +71,48 @@
       "title": "usbliter8: An A12/A13 SecureROM exploit",
       "url": "https://github.com/prdgmshift/usbliter8",
       "discuss_url": "https://lobste.rs/s/fs8itz",
-      "score": 4,
+      "score": 7,
       "comments": 0,
       "author": "jeanthomas",
       "published": "2026-06-26T06:16:24Z",
       "bullets": [
-        "The usbliter8 hardware exploit targets the unpatchable bootrom of Apple A12 and A13 Bionic system-on-chips.",
-        "It targets USB control transfers during DFU mode, enabling arbitrary code execution before the iOS kernel loads.",
-        "Because SecureROM is read-only, Apple cannot patch this vulnerability, enabling permanent hardware-level decryption and jailbreaks."
+        "A hardware-level vulnerability in Apple's A12 and A13 SecureROM provides an unpatchable exploit vector via USB DFU mode.",
+        "Impacts devices like iPhone XS, 11, and SE (2nd Gen), enabling firmware decryption and Secure Enclave security analysis.",
+        "Because the flaw is burned into read-only silicon, Apple cannot mitigate this vulnerability on affected devices via software updates."
       ]
     },
     {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "Amazon EC2 C7a instances are now available in the Asia Pacific (Singapore) Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7a-instances-asia-pacific-singapore-region/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7a-instances-asia-pacific-singapore-region/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-25T22:24:00Z",
+      "title": "How PgBouncer Works",
+      "url": "https://www.augusteo.com/blog/how-pgbouncer-works/",
+      "discuss_url": "https://lobste.rs/s/n58ygj",
+      "score": 4,
+      "comments": 0,
+      "author": "jstoja",
+      "published": "2026-06-26T12:52:38Z",
       "bullets": [
-        "AWS C7a instances, powered by 4th Gen AMD EPYC Genoa CPUs, are now available in the Singapore region.",
-        "DevOps teams can attach up to 128 EBS volumes per C7a instance, a significant increase from C6a’s limit of 28.",
-        "Built on AWS Nitro, the instances feature DDR5 memory, AVX-512, VNNI, and bfloat16 for high-performance workloads."
+        "PgBouncer acts as a lightweight proxy, multiplexing many client connections into a smaller pool of PostgreSQL backend processes to reduce memory.",
+        "It supports session, transaction, and statement pooling; transaction pooling is most common but disables prepared statements and session-level features.",
+        "Each client connection uses only kilobytes of memory, preventing database resource exhaustion when scaling to thousands of concurrent active connections."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Microsoft adds another year to Windows 10 extended update program",
-      "url": "https://arstechnica.com/gadgets/2026/06/microsoft-adds-another-year-to-windows-10-extended-update-program/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/06/microsoft-adds-another-year-to-windows-10-extended-update-program/",
+      "title": "SpaceX plans to launch Starlink mobile service in the US",
+      "url": "https://arstechnica.com/space/2026/06/spacex-plans-to-launch-starlink-mobile-service-in-the-us/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/spacex-plans-to-launch-starlink-mobile-service-in-the-us/",
       "score": null,
       "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-06-25T20:24:09Z",
+      "author": "Kieran Smith, George Steer, James Fontanella-Khan, and Michelle Chan, Financial Times",
+      "published": "2026-06-26T13:22:59Z",
       "bullets": [
-        "Microsoft extended the Windows 10 Extended Security Update (ESU) program as the OS retains roughly 25% of PC market share.",
-        "The extension offers security teams additional time to patch legacy Windows 10 endpoints before forcing a Windows 11 migration.",
-        "Organizations should plan budgets for paid ESU licensing or accelerate hardware procurement to meet strict Windows 11 TPM requirements."
+        "SpaceX is partnering with T-Mobile to launch Starlink Direct-to-Cell, utilizing modified LTE eNodeB modems on v2 satellites.",
+        "The service targets unmodified consumer smartphones, initially offering SMS texting before expanding to voice and data services.",
+        "This commercial deployment tests satellite-to-cellular technology at scale, competing with AST SpaceMobile and Apple’s Globalstar emergency SOS."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
+      "title": "Chatbots vs Ozone",
+      "url": "https://blog.dshr.org/2026/05/chatbots-vs-ozone.html",
+      "discuss_url": "https://lobste.rs/s/tjpsew",
+      "score": 3,
+      "comments": 3,
+      "author": "fazalmajid",
+      "published": "2026-06-26T10:36:54Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
       "title": "Echoes of the AI Winter",
       "url": "https://netzhansa.com/echoes-of-the-ai-winter/",
       "discuss_url": "https://lobste.rs/s/8soruc",
-      "score": 8,
-      "comments": 3,
+      "score": 11,
+      "comments": 7,
       "author": "kchanqvq",
       "published": "2026-06-25T20:27:23Z"
     },
@@ -152,18 +164,6 @@
       "comments": 0,
       "author": "barathr",
       "published": "2026-06-24T17:08:52Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Munich 1991: the Roots of the Current AI Boom",
-      "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
-      "discuss_url": "https://lobste.rs/s/n1xvd7",
-      "score": 10,
-      "comments": 0,
-      "author": "mpweiher",
-      "published": "2026-06-22T12:09:39Z"
     },
     {
       "source": "lobsters",
@@ -268,10 +268,22 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/dpctyb",
       "discuss_url": "https://lobste.rs/s/dpctyb",
-      "score": 2,
-      "comments": 3,
+      "score": 16,
+      "comments": 18,
       "author": "caius",
       "published": "2026-06-26T08:12:59Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "All you need is PostgreSQL",
+      "url": "https://ebellani.github.io/blog/2026/all-you-need-is-postgresql/",
+      "discuss_url": "https://lobste.rs/s/yvvhve",
+      "score": 13,
+      "comments": 0,
+      "author": "schonfinkel",
+      "published": "2026-06-26T09:48:57Z"
     },
     {
       "source": "lobsters",
@@ -281,7 +293,7 @@
       "url": "https://astral-os.org/posts/2026/04/03/wine-on-astral.html",
       "discuss_url": "https://lobste.rs/s/aj0e9u",
       "score": 52,
-      "comments": 7,
+      "comments": 8,
       "author": "avaliosdev",
       "published": "2026-06-24T14:27:02Z"
     },
@@ -313,18 +325,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/12jy9c",
-      "discuss_url": "https://lobste.rs/s/12jy9c",
-      "score": 15,
-      "comments": 43,
-      "author": "caius",
-      "published": "2026-06-22T13:11:56Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "systemd-bsod.service",
       "url": "https://www.freedesktop.org/software/systemd/man/257/systemd-bsod.service.html",
       "discuss_url": "https://lobste.rs/s/nepr0y",
@@ -332,6 +332,18 @@
       "comments": 10,
       "author": "orib",
       "published": "2026-06-22T22:31:20Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Transitioning as a hubber",
+      "url": "https://github.blog/developer-skills/career-growth/transitioning-as-a-hubber/",
+      "discuss_url": "https://github.blog/developer-skills/career-growth/transitioning-as-a-hubber/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-06-26T12:00:00Z"
     },
     {
       "source": "rss",
@@ -394,25 +406,13 @@
       "published": "2026-06-19T16:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "Code isn’t the only thing causing your production failures​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌‍​﻿‍​​﻿​﻿‌‍‌‌‌‍​‍​﻿‌‌‌‍‌‍​﻿​​​‍﻿‌​﻿​‌​﻿​‍​﻿​﻿​﻿‌﻿​‍﻿‌​﻿‌​​﻿‍​​﻿‌﻿‌‍‌‍​‍﻿‌​﻿‍​​﻿‌​‌‍‌​​﻿‍​​‍﻿‌‌‍‌‍​﻿‌﻿‌‍​‌‌‍​‍‌‍‌‍​﻿​‍​﻿​﻿​﻿​‌​﻿‍​‌‍​﻿​﻿​﻿​﻿‍‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌‍​﻿‍​​﻿​﻿‌‍‌‌‌‍​‍​﻿‌‌‌‍‌‍​﻿​​​‍﻿‌​﻿​‌​﻿​‍​﻿​﻿​﻿‌﻿​‍﻿‌​﻿‌​​﻿‍​​﻿‌﻿‌‍‌‍​‍﻿‌​﻿‍​​﻿‌​‌‍‌​​﻿‍​​‍﻿‌‌‍‌‍​﻿‌﻿‌‍​‌‌‍​‍‌‍‌‍​﻿​‍​﻿​﻿​﻿​‌​﻿‍​‌‍​﻿​﻿​﻿​﻿‍‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "url": "https://stackoverflow.blog/2026/06/25/code-isnt-causing-your-production-failures/",
-      "discuss_url": "https://stackoverflow.blog/2026/06/25/code-isnt-causing-your-production-failures/",
-      "score": null,
-      "comments": null,
-      "author": "Phoebe Sajor",
-      "published": "2026-06-25T07:40:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "usbliter8: An A12/A13 SecureROM exploit",
       "url": "https://github.com/prdgmshift/usbliter8",
       "discuss_url": "https://lobste.rs/s/fs8itz",
-      "score": 4,
+      "score": 7,
       "comments": 0,
       "author": "jeanthomas",
       "published": "2026-06-26T06:16:24Z"
@@ -425,9 +425,21 @@
       "url": "https://whynothugo.nl/journal/2026/06/24/ignore-dnssec-if-you-like-mitm-attacks/",
       "discuss_url": "https://lobste.rs/s/pcuxjt",
       "score": 21,
-      "comments": 20,
+      "comments": 26,
       "author": "ggpsv",
       "published": "2026-06-24T19:40:31Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Akrites: Coordinated, confidential vulnerability remediation for the open source software critical infrastructure depends on",
+      "url": "https://akrites.org/",
+      "discuss_url": "https://lobste.rs/s/x6nv9y",
+      "score": 3,
+      "comments": 2,
+      "author": "fanf",
+      "published": "2026-06-25T23:56:00Z"
     },
     {
       "source": "lobsters",
@@ -448,7 +460,7 @@
       "title": "Exploiting vulnerabilities in Johnson & Johnson web apps",
       "url": "https://eaton-works.com/2026/06/24/jnj-webapp-hacks/",
       "discuss_url": "https://lobste.rs/s/rl7aid",
-      "score": 10,
+      "score": 11,
       "comments": 1,
       "author": "raymii",
       "published": "2026-06-24T18:37:10Z"
@@ -464,18 +476,6 @@
       "comments": 0,
       "author": "typesanitizer",
       "published": "2026-06-24T06:18:03Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Akrites: Coordinated, confidential vulnerability remediation for the open source software critical infrastructure depends on",
-      "url": "https://akrites.org/",
-      "discuss_url": "https://lobste.rs/s/x6nv9y",
-      "score": 1,
-      "comments": 0,
-      "author": "fanf",
-      "published": "2026-06-25T23:56:00Z"
     },
     {
       "source": "lobsters",
@@ -505,49 +505,61 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Russia Used Cellebrite on Jailed Activist's iPhone Months After Sales Cutoff",
-      "url": "https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html",
-      "discuss_url": "https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html",
+      "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
+      "url": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
+      "discuss_url": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-26T08:49:35Z"
+      "published": "2026-06-26T13:57:55Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Google Details Turla's New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks",
-      "url": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html",
-      "discuss_url": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html",
+      "title": "Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs",
+      "url": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
+      "discuss_url": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-26T07:15:46Z"
+      "published": "2026-06-26T13:53:00Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability",
-      "url": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
-      "discuss_url": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
+      "title": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue",
+      "url": "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
+      "discuss_url": "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-25T14:12:52Z"
+      "published": "2026-06-26T12:31:56Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "ThreatsDay Bulletin: Smart TV Proxyware, 24-Year curl Bug, AI Crime Forums + 13 More Stories",
-      "url": "https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html",
-      "discuss_url": "https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html",
+      "title": "New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets",
+      "url": "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html",
+      "discuss_url": "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-25T12:24:43Z"
+      "published": "2026-06-26T11:51:35Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "How PgBouncer Works",
+      "url": "https://www.augusteo.com/blog/how-pgbouncer-works/",
+      "discuss_url": "https://lobste.rs/s/n58ygj",
+      "score": 4,
+      "comments": 0,
+      "author": "jstoja",
+      "published": "2026-06-26T12:52:38Z"
     },
     {
       "source": "rss",
@@ -683,15 +695,27 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 announces AMI Watermarks for improved AMI governance",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-image-watermarks-allowed-images",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-image-watermarks-allowed-images",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "SpaceX plans to launch Starlink mobile service in the US",
+      "url": "https://arstechnica.com/space/2026/06/spacex-plans-to-launch-starlink-mobile-service-in-the-us/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/spacex-plans-to-launch-starlink-mobile-service-in-the-us/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-24T20:00:00Z"
+      "author": "Kieran Smith, George Steer, James Fontanella-Khan, and Michelle Chan, Financial Times",
+      "published": "2026-06-26T13:22:59Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Rocket Report: China may soon attempt booster landing; Rocket Lab does rapid response",
+      "url": "https://arstechnica.com/space/2026/06/rocket-report-china-may-soon-attempt-booster-landing-rocket-lab-does-rapid-response/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/rocket-report-china-may-soon-attempt-booster-landing-rocket-lab-does-rapid-response/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-06-26T11:00:59Z"
     },
     {
       "source": "rss",
@@ -812,30 +836,6 @@
       "comments": null,
       "author": "John Timmer",
       "published": "2026-06-25T13:40:34Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Every Homo naledi we know of is female, and the implications are fascinating",
-      "url": "https://arstechnica.com/science/2026/06/every-homo-naledi-we-know-of-is-female-and-the-implications-are-fascinating/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/every-homo-naledi-we-know-of-is-female-and-the-implications-are-fascinating/",
-      "score": null,
-      "comments": null,
-      "author": "Kiona N. Smith",
-      "published": "2026-06-25T13:28:54Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "IBM claims world’s first sub-1 nanometer chip technology",
-      "url": "https://arstechnica.com/gadgets/2026/06/ibm-claims-worlds-first-sub-1-nanometer-chip-technology/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/06/ibm-claims-worlds-first-sub-1-nanometer-chip-technology/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-06-25T10:00:55Z"
     }
   ]
 }
