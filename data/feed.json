@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T13:51:53Z",
+  "updated_at": "2026-06-27T19:27:56Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "What does it mean to be a mathematician when AI does the math?",
       "url": "https://spectrum.ieee.org/ai-in-mathematics",
       "discuss_url": "https://lobste.rs/s/hvd5hk",
-      "score": 9,
-      "comments": 7,
+      "score": 12,
+      "comments": 13,
       "author": "veqq",
       "published": "2026-06-27T00:27:42Z",
       "bullets": [
-        "AI systems like Google DeepMind's AlphaProof and AlphaGeometry are shifting mathematics from manual proof generation to automated theorem proving.",
-        "Mathematicians increasingly use formal verification languages like Lean 4 to verify AI-generated proofs and collaborate with neural network systems.",
-        "For AI practitioners, the frontier is combining LLMs with reinforcement learning and symbolic solvers to achieve verifiable reasoning, not just heuristics."
+        "AI shifts math toward formalization, leveraging tools like Lean 4 and Coq to verify neural-network-generated conjectures and proofs.",
+        "DeepMind's AlphaProof and AlphaGeometry combine LLMs with reinforcement learning, achieving silver-medal standards on International Mathematical Olympiad problems.",
+        "The mathematician's role transitions from manual computation to formal specification, system validation, and conceptual framework design."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "Text files as a user interface",
       "url": "https://ratfactor.com/cards/text-files-as-ui",
       "discuss_url": "https://lobste.rs/s/u1clgf",
-      "score": 17,
-      "comments": 1,
+      "score": 33,
+      "comments": 4,
       "author": "sloanelybutsurely",
       "published": "2026-06-27T03:56:22Z",
       "bullets": [
-        "Plain text interfaces enable seamless version control via Git, providing native history, diffs, and audit trails for application state.",
-        "Storing data in YAML or Markdown allows developers to manipulate application state using CLI tools like grep, jq, and awk.",
-        "Text-based UIs power robust engineering workflows, including GitOps, ledger-based accounting, and local-first knowledge management systems."
+        "Storing application state in flat text files enables native version control, branching, and collaborative conflict resolution via standard Git workflows.",
+        "Text-based interfaces leverage Unix tools like grep and awk, eliminating proprietary database dependencies and reducing API integration overhead.",
+        "Formats like Markdown, TOML, or YAML offer offline-first resilience, low latency, and direct compatibility with IDEs like VS Code."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Anatomy of a Failed (Nation-State?) Attack",
-      "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/",
-      "discuss_url": "https://lobste.rs/s/j2ua4f",
-      "score": 48,
-      "comments": 12,
-      "author": "Manishearth",
-      "published": "2026-06-26T14:58:54Z",
+      "title": "A peek into Reddit's anti-spam internals",
+      "url": "https://lyra.horse/blog/2026/06/reddit-spam-internals/",
+      "discuss_url": "https://lobste.rs/s/boap41",
+      "score": 35,
+      "comments": 5,
+      "author": "rebane2001",
+      "published": "2026-06-27T15:10:14Z",
       "bullets": [
-        "Unstable zero-day kernel exploits often crash target systems, inadvertently alerting defenders before attackers can establish persistent backdoors.",
-        "Egress network filtering and strict firewall rules block reverse shells from reaching external command-and-control servers during post-compromise phases.",
-        "Aggressive endpoint log analysis and file integrity monitoring remain primary defenses to detect anomalous lateral movement attempts early."
+        "Reddit leverages Apache Flink and Kafka pipelines to ingest streaming event data for real-time automated abuse and spam detection.",
+        "Security architecture relies on IP reputation, JA3 fingerprinting, and behavioral analysis to block automated botnets and ban-evaders.",
+        "Global ML classifiers feed reputation scores directly into subreddits, empowering AutoModerator configs to execute localized, automated enforcement actions."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "How PgBouncer Works",
       "url": "https://www.augusteo.com/blog/how-pgbouncer-works/",
       "discuss_url": "https://lobste.rs/s/n58ygj",
-      "score": 20,
+      "score": 21,
       "comments": 2,
       "author": "jstoja",
       "published": "2026-06-26T12:52:38Z",
       "bullets": [
-        "How PgBouncer Works",
-        "Trending on lobste.rs/devops — 20 points, 2 comments.",
-        "Submitted by jstoja on lobste.rs/devops."
+        "PgBouncer mitigates PostgreSQL's process-per-connection overhead by multiplexing many client connections into a smaller pool of database server connections.",
+        "It offers session, transaction, and statement pooling modes; transaction pooling is most common but breaks features like prepared statements.",
+        "Using PgBouncer reduces database memory consumption and CPU context switching, critical for scaling high-throughput PostgreSQL workloads on Kubernetes."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Jeremy White, WIRED.com",
       "published": "2026-06-27T11:07:05Z",
       "bullets": [
-        "The $25,000 Amble One is a street-legal electric vehicle developed by former Apple and Audi design and engineering veterans.",
-        "Inspired by Apollo-era lunar rovers, the vehicle targets luxury resorts within the low-speed vehicle (LSV) and micromobility segments.",
-        "The project reflects a broader trend of hardware talent bypassing traditional OEMs to build niche, high-margin electric transport solutions."
+        "Apple and Audi veterans designed the Amble One, a street-legal electric vehicle inspired by NASA's lunar rover.",
+        "Priced at $25,000, the low-speed EV targets luxury resorts as an upscale alternative to traditional golf carts.",
+        "The startup leverages automotive and consumer tech backgrounds to target the expanding premium micro-mobility and resort vehicle sector."
       ]
     }
   ],
@@ -124,10 +124,34 @@
       "title": "What does it mean to be a mathematician when AI does the math?",
       "url": "https://spectrum.ieee.org/ai-in-mathematics",
       "discuss_url": "https://lobste.rs/s/hvd5hk",
-      "score": 9,
-      "comments": 7,
+      "score": 12,
+      "comments": 13,
       "author": "veqq",
       "published": "2026-06-27T00:27:42Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "AI Learns the \"Dark Art\" of RF Chip Design",
+      "url": "https://spectrum.ieee.org/ai-radio-chip-design",
+      "discuss_url": "https://lobste.rs/s/bxhmjt",
+      "score": 1,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-06-27T18:03:29Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Comparing Transformers and Hybrid Models at the Token Level",
+      "url": "https://arxiv.org/pdf/2606.20936",
+      "discuss_url": "https://lobste.rs/s/6c5c4j",
+      "score": 2,
+      "comments": 0,
+      "author": "jado",
+      "published": "2026-06-27T15:16:10Z"
     },
     {
       "source": "lobsters",
@@ -137,7 +161,7 @@
       "url": "https://netzhansa.com/echoes-of-the-ai-winter/",
       "discuss_url": "https://lobste.rs/s/8soruc",
       "score": 13,
-      "comments": 23,
+      "comments": 32,
       "author": "kchanqvq",
       "published": "2026-06-25T20:27:23Z"
     },
@@ -152,6 +176,18 @@
       "comments": 4,
       "author": "fazalmajid",
       "published": "2026-06-26T10:36:54Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "GPT2-BASIC: Portable Machine Intelligence in BASIC",
+      "url": "https://github.com/tsotchke/gpt2-basic",
+      "discuss_url": "https://lobste.rs/s/mhjlia",
+      "score": 1,
+      "comments": 0,
+      "author": "jado",
+      "published": "2026-06-27T15:15:46Z"
     },
     {
       "source": "lobsters",
@@ -190,18 +226,6 @@
       "published": "2026-06-24T10:35:51Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "VibeThinker-3B: Exploring the Frontier of Verifiable Reasoning in Small Language Models",
-      "url": "https://arxiv.org/abs/2606.16140",
-      "discuss_url": "https://lobste.rs/s/jrj4o3",
-      "score": 2,
-      "comments": 1,
-      "author": "Yogthos",
-      "published": "2026-06-23T14:17:13Z"
-    },
-    {
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
@@ -238,38 +262,14 @@
       "published": "2026-06-24T16:00:13Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
-      "url": "https://huggingface.co/blog/ffasr-leaderboard",
-      "discuss_url": "https://huggingface.co/blog/ffasr-leaderboard",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-24T00:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
-      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
-      "discuss_url": "https://huggingface.co/blog/ibm-research/cuga-apps",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-23T12:51:55Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Text files as a user interface",
       "url": "https://ratfactor.com/cards/text-files-as-ui",
       "discuss_url": "https://lobste.rs/s/u1clgf",
-      "score": 17,
-      "comments": 1,
+      "score": 33,
+      "comments": 4,
       "author": "sloanelybutsurely",
       "published": "2026-06-27T03:56:22Z"
     },
@@ -281,7 +281,7 @@
       "url": "https://lobste.rs/s/dpctyb",
       "discuss_url": "https://lobste.rs/s/dpctyb",
       "score": 33,
-      "comments": 80,
+      "comments": 86,
       "author": "caius",
       "published": "2026-06-26T08:12:59Z"
     },
@@ -292,7 +292,7 @@
       "title": "All you need is PostgreSQL",
       "url": "https://ebellani.github.io/blog/2026/all-you-need-is-postgresql/",
       "discuss_url": "https://lobste.rs/s/yvvhve",
-      "score": 47,
+      "score": 52,
       "comments": 8,
       "author": "schonfinkel",
       "published": "2026-06-26T09:48:57Z"
@@ -409,11 +409,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "A peek into Reddit's anti-spam internals",
+      "url": "https://lyra.horse/blog/2026/06/reddit-spam-internals/",
+      "discuss_url": "https://lobste.rs/s/boap41",
+      "score": 35,
+      "comments": 5,
+      "author": "rebane2001",
+      "published": "2026-06-27T15:10:14Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Anatomy of a Failed (Nation-State?) Attack",
       "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/",
       "discuss_url": "https://lobste.rs/s/j2ua4f",
       "score": 48,
-      "comments": 12,
+      "comments": 13,
       "author": "Manishearth",
       "published": "2026-06-26T14:58:54Z"
     },
@@ -424,10 +436,22 @@
       "title": "Incident Report: CVE-2026-LGTM",
       "url": "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html",
       "discuss_url": "https://lobste.rs/s/6q12d7",
-      "score": 51,
-      "comments": 6,
+      "score": 60,
+      "comments": 7,
       "author": "Manishearth",
       "published": "2026-06-26T15:42:28Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "exploitarium: A single archive of public exploit PoCs",
+      "url": "https://github.com/bikini/exploitarium",
+      "discuss_url": "https://lobste.rs/s/4ywqva",
+      "score": 1,
+      "comments": 0,
+      "author": "ahobson",
+      "published": "2026-06-27T17:27:16Z"
     },
     {
       "source": "lobsters",
@@ -437,7 +461,7 @@
       "url": "https://whynothugo.nl/journal/2026/06/24/ignore-dnssec-if-you-like-mitm-attacks/",
       "discuss_url": "https://lobste.rs/s/pcuxjt",
       "score": 22,
-      "comments": 27,
+      "comments": 31,
       "author": "ggpsv",
       "published": "2026-06-24T19:40:31Z"
     },
@@ -472,7 +496,7 @@
       "title": "Exploiting vulnerabilities in Johnson & Johnson web apps",
       "url": "https://eaton-works.com/2026/06/24/jnj-webapp-hacks/",
       "discuss_url": "https://lobste.rs/s/rl7aid",
-      "score": 11,
+      "score": 12,
       "comments": 1,
       "author": "raymii",
       "published": "2026-06-24T18:37:10Z"
@@ -496,7 +520,7 @@
       "title": "Detecting and removing dangerous secrets on dev workstations before Shai-Hulud does",
       "url": "https://recyclebin.zip/posts/2026-05-25-secret-scanning-fleet-bagel/",
       "discuss_url": "https://lobste.rs/s/evydbs",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "abnercoimbre",
       "published": "2026-06-25T16:35:05Z"
@@ -517,37 +541,13 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards",
-      "url": "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html",
-      "discuss_url": "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html",
+      "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
+      "url": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
+      "discuss_url": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-27T12:19:37Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys",
-      "url": "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
-      "discuss_url": "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-26T19:38:29Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
-      "url": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
-      "discuss_url": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-26T18:17:46Z"
+      "published": "2026-06-27T17:27:11Z"
     },
     {
       "source": "lobsters",
@@ -556,7 +556,7 @@
       "title": "How PgBouncer Works",
       "url": "https://www.augusteo.com/blog/how-pgbouncer-works/",
       "discuss_url": "https://lobste.rs/s/n58ygj",
-      "score": 20,
+      "score": 21,
       "comments": 2,
       "author": "jstoja",
       "published": "2026-06-26T12:52:38Z"
