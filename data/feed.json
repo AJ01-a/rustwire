@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T19:27:56Z",
+  "updated_at": "2026-06-28T04:11:46Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "What does it mean to be a mathematician when AI does the math?",
-      "url": "https://spectrum.ieee.org/ai-in-mathematics",
-      "discuss_url": "https://lobste.rs/s/hvd5hk",
-      "score": 12,
-      "comments": 13,
-      "author": "veqq",
-      "published": "2026-06-27T00:27:42Z",
+      "title": "AI Learns the \"Dark Art\" of RF Chip Design",
+      "url": "https://spectrum.ieee.org/ai-radio-chip-design",
+      "discuss_url": "https://lobste.rs/s/bxhmjt",
+      "score": 4,
+      "comments": 3,
+      "author": "Yogthos",
+      "published": "2026-06-27T18:03:29Z",
       "bullets": [
-        "AI shifts math toward formalization, leveraging tools like Lean 4 and Coq to verify neural-network-generated conjectures and proofs.",
-        "DeepMind's AlphaProof and AlphaGeometry combine LLMs with reinforcement learning, achieving silver-medal standards on International Mathematical Olympiad problems.",
-        "The mathematician's role transitions from manual computation to formal specification, system validation, and conceptual framework design."
+        "AI Learns the \"Dark Art\" of RF Chip Design",
+        "Trending on lobste.rs/ai — 4 points, 3 comments.",
+        "Submitted by Yogthos on lobste.rs/ai."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Text files as a user interface",
       "url": "https://ratfactor.com/cards/text-files-as-ui",
       "discuss_url": "https://lobste.rs/s/u1clgf",
-      "score": 33,
-      "comments": 4,
+      "score": 42,
+      "comments": 5,
       "author": "sloanelybutsurely",
       "published": "2026-06-27T03:56:22Z",
       "bullets": [
-        "Storing application state in flat text files enables native version control, branching, and collaborative conflict resolution via standard Git workflows.",
-        "Text-based interfaces leverage Unix tools like grep and awk, eliminating proprietary database dependencies and reducing API integration overhead.",
-        "Formats like Markdown, TOML, or YAML offer offline-first resilience, low latency, and direct compatibility with IDEs like VS Code."
+        "Text files as a user interface",
+        "Trending on lobste.rs/programming — 42 points, 5 comments.",
+        "Submitted by sloanelybutsurely on lobste.rs/programming."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "A peek into Reddit's anti-spam internals",
       "url": "https://lyra.horse/blog/2026/06/reddit-spam-internals/",
       "discuss_url": "https://lobste.rs/s/boap41",
-      "score": 35,
-      "comments": 5,
+      "score": 66,
+      "comments": 12,
       "author": "rebane2001",
       "published": "2026-06-27T15:10:14Z",
       "bullets": [
-        "Reddit leverages Apache Flink and Kafka pipelines to ingest streaming event data for real-time automated abuse and spam detection.",
-        "Security architecture relies on IP reputation, JA3 fingerprinting, and behavioral analysis to block automated botnets and ban-evaders.",
-        "Global ML classifiers feed reputation scores directly into subreddits, empowering AutoModerator configs to execute localized, automated enforcement actions."
+        "A peek into Reddit's anti-spam internals",
+        "Trending on lobste.rs/security — 66 points, 12 comments.",
+        "Submitted by rebane2001 on lobste.rs/security."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "jstoja",
       "published": "2026-06-26T12:52:38Z",
       "bullets": [
-        "PgBouncer mitigates PostgreSQL's process-per-connection overhead by multiplexing many client connections into a smaller pool of database server connections.",
-        "It offers session, transaction, and statement pooling modes; transaction pooling is most common but breaks features like prepared statements.",
-        "Using PgBouncer reduces database memory consumption and CPU context switching, critical for scaling high-throughput PostgreSQL workloads on Kubernetes."
+        "How PgBouncer Works",
+        "Trending on lobste.rs/devops — 21 points, 2 comments.",
+        "Submitted by jstoja on lobste.rs/devops."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Jeremy White, WIRED.com",
       "published": "2026-06-27T11:07:05Z",
       "bullets": [
-        "Apple and Audi veterans designed the Amble One, a street-legal electric vehicle inspired by NASA's lunar rover.",
-        "Priced at $25,000, the low-speed EV targets luxury resorts as an upscale alternative to traditional golf carts.",
-        "The startup leverages automotive and consumer tech backgrounds to target the expanding premium micro-mobility and resort vehicle sector."
+        "The Amble One is a street-legal $25,000 electric buggy designed for luxury resorts.",
+        "Apple and Audi alumni have made a luxe EV based on the moon buggy",
+        "Submitted by Jeremy White, WIRED.com on arstechnica.com."
       ]
     }
   ],
@@ -121,23 +121,11 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "What does it mean to be a mathematician when AI does the math?",
-      "url": "https://spectrum.ieee.org/ai-in-mathematics",
-      "discuss_url": "https://lobste.rs/s/hvd5hk",
-      "score": 12,
-      "comments": 13,
-      "author": "veqq",
-      "published": "2026-06-27T00:27:42Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "AI Learns the \"Dark Art\" of RF Chip Design",
       "url": "https://spectrum.ieee.org/ai-radio-chip-design",
       "discuss_url": "https://lobste.rs/s/bxhmjt",
-      "score": 1,
-      "comments": 0,
+      "score": 4,
+      "comments": 3,
       "author": "Yogthos",
       "published": "2026-06-27T18:03:29Z"
     },
@@ -145,13 +133,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Comparing Transformers and Hybrid Models at the Token Level",
-      "url": "https://arxiv.org/pdf/2606.20936",
-      "discuss_url": "https://lobste.rs/s/6c5c4j",
-      "score": 2,
-      "comments": 0,
-      "author": "jado",
-      "published": "2026-06-27T15:16:10Z"
+      "title": "What does it mean to be a mathematician when AI does the math?",
+      "url": "https://spectrum.ieee.org/ai-in-mathematics",
+      "discuss_url": "https://lobste.rs/s/hvd5hk",
+      "score": 14,
+      "comments": 15,
+      "author": "veqq",
+      "published": "2026-06-27T00:27:42Z"
     },
     {
       "source": "lobsters",
@@ -160,10 +148,22 @@
       "title": "Echoes of the AI Winter",
       "url": "https://netzhansa.com/echoes-of-the-ai-winter/",
       "discuss_url": "https://lobste.rs/s/8soruc",
-      "score": 13,
-      "comments": 32,
+      "score": 14,
+      "comments": 33,
       "author": "kchanqvq",
       "published": "2026-06-25T20:27:23Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Comparing Transformers and Hybrid Models at the Token Level",
+      "url": "https://arxiv.org/pdf/2606.20936",
+      "discuss_url": "https://lobste.rs/s/6c5c4j",
+      "score": 4,
+      "comments": 0,
+      "author": "jado",
+      "published": "2026-06-27T15:16:10Z"
     },
     {
       "source": "lobsters",
@@ -268,8 +268,8 @@
       "title": "Text files as a user interface",
       "url": "https://ratfactor.com/cards/text-files-as-ui",
       "discuss_url": "https://lobste.rs/s/u1clgf",
-      "score": 33,
-      "comments": 4,
+      "score": 42,
+      "comments": 5,
       "author": "sloanelybutsurely",
       "published": "2026-06-27T03:56:22Z"
     },
@@ -281,7 +281,7 @@
       "url": "https://lobste.rs/s/dpctyb",
       "discuss_url": "https://lobste.rs/s/dpctyb",
       "score": 33,
-      "comments": 86,
+      "comments": 89,
       "author": "caius",
       "published": "2026-06-26T08:12:59Z"
     },
@@ -292,8 +292,8 @@
       "title": "All you need is PostgreSQL",
       "url": "https://ebellani.github.io/blog/2026/all-you-need-is-postgresql/",
       "discuss_url": "https://lobste.rs/s/yvvhve",
-      "score": 52,
-      "comments": 8,
+      "score": 53,
+      "comments": 10,
       "author": "schonfinkel",
       "published": "2026-06-26T09:48:57Z"
     },
@@ -308,18 +308,6 @@
       "comments": 9,
       "author": "avaliosdev",
       "published": "2026-06-24T14:27:02Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "RRB-Trees: Efficient Immutable Vectors",
-      "url": "https://infoscience.epfl.ch/server/api/core/bitstreams/e5d662ea-1e8d-4dda-b917-8cbb8bb40bf9/content",
-      "discuss_url": "https://lobste.rs/s/ev9ruz",
-      "score": 29,
-      "comments": 4,
-      "author": "azhenley",
-      "published": "2026-06-24T02:57:02Z"
     },
     {
       "source": "lobsters",
@@ -406,16 +394,52 @@
       "published": "2026-06-22T17:20:31Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Paging Charity! How can engineering leaders avoid becoming Bond villains?​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‍​﻿‍​‌‍‌‌​﻿‌‌​﻿‌‍​﻿​​‌‍​‌‌‍‌‍​‍﻿‌‌‍‌‍​﻿​​‌‍​‌‌‍​‌​‍﻿‌​﻿‌​‌‍‌​​﻿‌​​﻿‌‍​‍﻿‌‌‍​‍‌‍‌​​﻿‍‌​﻿​​​‍﻿‌‌‍‌‍​﻿‌​​﻿​﻿​﻿‌‌‌‍​‌‌‍‌​​﻿‌‍​﻿​​​﻿‌​‌‍​‌‌‍​‌​﻿‌﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‍​﻿‍​‌‍‌‌​﻿‌‌​﻿‌‍​﻿​​‌‍​‌‌‍‌‍​‍﻿‌‌‍‌‍​﻿​​‌‍​‌‌‍​‌​‍﻿‌​﻿‌​‌‍‌​​﻿‌​​﻿‌‍​‍﻿‌‌‍​‍‌‍‌​​﻿‍‌​﻿​​​‍﻿‌‌‍‌‍​﻿‌​​﻿​﻿​﻿‌‌‌‍​‌‌‍‌​​﻿‌‍​﻿​​​﻿‌​‌‍​‌‌‍​‌​﻿‌﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/06/26/paging-charity-how-can-engineering-leaders-avoid-becoming-bond-villains/",
+      "discuss_url": "https://stackoverflow.blog/2026/06/26/paging-charity-how-can-engineering-leaders-avoid-becoming-bond-villains/",
+      "score": null,
+      "comments": null,
+      "author": "Charity Majors",
+      "published": "2026-06-26T14:00:27Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "A peek into Reddit's anti-spam internals",
       "url": "https://lyra.horse/blog/2026/06/reddit-spam-internals/",
       "discuss_url": "https://lobste.rs/s/boap41",
-      "score": 35,
-      "comments": 5,
+      "score": 66,
+      "comments": 12,
       "author": "rebane2001",
       "published": "2026-06-27T15:10:14Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "It's dead, Jim! (UEFI CA expiry)",
+      "url": "https://blog.einval.com/2026/06/27#its_dead_jim",
+      "discuss_url": "https://lobste.rs/s/xz51yj",
+      "score": 6,
+      "comments": 1,
+      "author": "legoktm",
+      "published": "2026-06-27T22:42:05Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Incident Report: CVE-2026-LGTM",
+      "url": "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html",
+      "discuss_url": "https://lobste.rs/s/6q12d7",
+      "score": 67,
+      "comments": 8,
+      "author": "Manishearth",
+      "published": "2026-06-26T15:42:28Z"
     },
     {
       "source": "lobsters",
@@ -425,33 +449,9 @@
       "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/",
       "discuss_url": "https://lobste.rs/s/j2ua4f",
       "score": 48,
-      "comments": 13,
+      "comments": 14,
       "author": "Manishearth",
       "published": "2026-06-26T14:58:54Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Incident Report: CVE-2026-LGTM",
-      "url": "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html",
-      "discuss_url": "https://lobste.rs/s/6q12d7",
-      "score": 60,
-      "comments": 7,
-      "author": "Manishearth",
-      "published": "2026-06-26T15:42:28Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "exploitarium: A single archive of public exploit PoCs",
-      "url": "https://github.com/bikini/exploitarium",
-      "discuss_url": "https://lobste.rs/s/4ywqva",
-      "score": 1,
-      "comments": 0,
-      "author": "ahobson",
-      "published": "2026-06-27T17:27:16Z"
     },
     {
       "source": "lobsters",
@@ -464,6 +464,18 @@
       "comments": 31,
       "author": "ggpsv",
       "published": "2026-06-24T19:40:31Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "pomerium: Pomerium is an identity and context-aware access proxy",
+      "url": "https://github.com/pomerium/pomerium",
+      "discuss_url": "https://lobste.rs/s/9mtucy",
+      "score": 1,
+      "comments": 0,
+      "author": "doriancodes",
+      "published": "2026-06-27T21:06:32Z"
     },
     {
       "source": "lobsters",
@@ -488,6 +500,18 @@
       "comments": 2,
       "author": "fanf",
       "published": "2026-06-25T23:56:00Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "exploitarium: A single archive of public exploit PoCs",
+      "url": "https://github.com/bikini/exploitarium",
+      "discuss_url": "https://lobste.rs/s/4ywqva",
+      "score": 1,
+      "comments": 0,
+      "author": "ahobson",
+      "published": "2026-06-27T17:27:16Z"
     },
     {
       "source": "lobsters",
@@ -524,30 +548,6 @@
       "comments": 0,
       "author": "abnercoimbre",
       "published": "2026-06-25T16:35:05Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "krebsonsecurity.com",
-      "category": "security",
-      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
-      "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-      "discuss_url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-      "score": null,
-      "comments": null,
-      "author": "BrianKrebs",
-      "published": "2026-06-23T16:12:49Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
-      "url": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
-      "discuss_url": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-06-27T17:27:11Z"
     },
     {
       "source": "lobsters",
