@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T13:58:17Z",
+  "updated_at": "2026-06-28T19:28:00Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "MAX models can now run on Apple silicon GPUs",
       "url": "https://forum.modular.com/t/max-models-can-now-run-on-apple-silicon-gpus/3283",
       "discuss_url": "https://lobste.rs/s/4srepl",
-      "score": 4,
-      "comments": 1,
+      "score": 5,
+      "comments": 4,
       "author": "melodyogonna",
       "published": "2026-06-28T09:21:19Z",
       "bullets": [
-        "Modular's MAX Engine now leverages Apple Silicon GPUs via Metal, enabling high-performance local inference on M-series Mac hardware.",
-        "The update provides unified memory support, offering a high-throughput alternative to Apple’s MLX and llama.cpp for local LLM execution.",
-        "AI engineers can now deploy optimized models like Llama 3 using the Mojo language and MAX SDK directly on macOS."
+        "Modular's MAX Engine now supports Apple silicon GPUs, enabling local, hardware-accelerated execution of AI models via the Metal API.",
+        "The integration allows Mojo-based pipelines to leverage Apple's unified memory architecture, bypassing CPU bottlenecks for large model inference.",
+        "This updates provides macOS developers a high-performance, non-CUDA alternative for deploying optimized PyTorch and ONNX models locally."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Text files as a user interface",
       "url": "https://ratfactor.com/cards/text-files-as-ui",
       "discuss_url": "https://lobste.rs/s/u1clgf",
-      "score": 45,
+      "score": 47,
       "comments": 5,
       "author": "sloanelybutsurely",
       "published": "2026-06-27T03:56:22Z",
       "bullets": [
-        "Plain text formats like Markdown, YAML, and JSON simplify state management, enabling version control via Git and seamless CLI automation.",
-        "Designing developer tools around file-based inputs (like `.env` or TOML) minimizes external dependencies and avoids database overhead.",
-        "Local-first systems leverage plain text to guarantee offline data ownership, interoperability, and fast search using standard Unix utilities."
+        "Text files as a user interface",
+        "Trending on lobste.rs/programming — 47 points, 5 comments.",
+        "Submitted by sloanelybutsurely on lobste.rs/programming."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "A peek into Reddit's anti-spam internals",
       "url": "https://lyra.horse/blog/2026/06/reddit-spam-internals/",
       "discuss_url": "https://lobste.rs/s/boap41",
-      "score": 87,
-      "comments": 14,
+      "score": 96,
+      "comments": 19,
       "author": "rebane2001",
       "published": "2026-06-27T15:10:14Z",
       "bullets": [
-        "Use Apache Flink and Kafka for real-time stream processing to evaluate incoming posts against reputation and behavioral rules instantly.",
-        "ML classifiers combine with device fingerprinting (JA3/TLS) and IP reputation networks to dynamically identify automated botnets and coordinated sybil attacks.",
-        "Redis-backed sliding window rate limiters and graph databases track entity relationships to isolate malicious clusters without degrading legitimate user experience."
+        "A peek into Reddit's anti-spam internals",
+        "Trending on lobste.rs/security — 96 points, 19 comments.",
+        "Submitted by rebane2001 on lobste.rs/security."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "jstoja",
       "published": "2026-06-26T12:52:38Z",
       "bullets": [
-        "PgBouncer optimizes PostgreSQL performance by multiplexing client connections using session, transaction, or statement pooling modes to reduce database RAM usage.",
-        "Built on a single-threaded `libevent` loop, it scales to thousands of concurrent client connections with minimal CPU overhead.",
-        "Transaction pooling is the most common DevOps choice but breaks session-level features like prepared statements and temporary tables."
+        "How PgBouncer Works",
+        "Trending on lobste.rs/devops — 21 points, 2 comments.",
+        "Submitted by jstoja on lobste.rs/devops."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Apple and Audi alumni have made a luxe EV based on the moon buggy",
-      "url": "https://arstechnica.com/cars/2026/06/apple-and-audi-alumni-have-made-a-luxe-ev-based-on-the-moon-buggy/",
-      "discuss_url": "https://arstechnica.com/cars/2026/06/apple-and-audi-alumni-have-made-a-luxe-ev-based-on-the-moon-buggy/",
+      "title": "Why did this journal retract two 1940s papers by Max Planck?",
+      "url": "https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/",
+      "discuss_url": "https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/",
       "score": null,
       "comments": null,
-      "author": "Jeremy White, WIRED.com",
-      "published": "2026-06-27T11:07:05Z",
+      "author": "Jennifer Ouellette",
+      "published": "2026-06-28T18:49:21Z",
       "bullets": [
-        "Former Apple and Audi engineers designed the Amble One, a street-legal electric buggy inspired by NASA's Lunar Roving Vehicle.",
-        "The niche low-speed electric vehicle is priced at $25,000 and targets premium hospitality, resort, and gated community markets.",
-        "The launch highlights a growing industry focus on specialized, lightweight EV form factors over traditional full-sized passenger vehicles."
+        "Clicking on the links now reveals blank pages and empty PDFs.",
+        "\"Intellectually, it’s not acceptable.”",
+        "Why did this journal retract two 1940s papers by Max Planck?"
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "MAX models can now run on Apple silicon GPUs",
       "url": "https://forum.modular.com/t/max-models-can-now-run-on-apple-silicon-gpus/3283",
       "discuss_url": "https://lobste.rs/s/4srepl",
-      "score": 4,
-      "comments": 1,
+      "score": 5,
+      "comments": 4,
       "author": "melodyogonna",
       "published": "2026-06-28T09:21:19Z"
     },
@@ -149,7 +149,7 @@
       "url": "https://spectrum.ieee.org/ai-radio-chip-design",
       "discuss_url": "https://lobste.rs/s/bxhmjt",
       "score": 4,
-      "comments": 4,
+      "comments": 7,
       "author": "Yogthos",
       "published": "2026-06-27T18:03:29Z"
     },
@@ -161,7 +161,7 @@
       "url": "https://netzhansa.com/echoes-of-the-ai-winter/",
       "discuss_url": "https://lobste.rs/s/8soruc",
       "score": 14,
-      "comments": 34,
+      "comments": 36,
       "author": "kchanqvq",
       "published": "2026-06-25T20:27:23Z"
     },
@@ -214,18 +214,6 @@
       "published": "2026-06-27T15:15:46Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Using the Gini Coefficient to Plan Edge Capacity",
-      "url": "https://www.fastly.com/blog/using-gini-coefficient-plan-edge-capacity",
-      "discuss_url": "https://lobste.rs/s/frfsss",
-      "score": 4,
-      "comments": 0,
-      "author": "barathr",
-      "published": "2026-06-24T17:08:52Z"
-    },
-    {
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
@@ -262,13 +250,25 @@
       "published": "2026-06-24T16:00:13Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+      "url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "discuss_url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-24T00:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Text files as a user interface",
       "url": "https://ratfactor.com/cards/text-files-as-ui",
       "discuss_url": "https://lobste.rs/s/u1clgf",
-      "score": 45,
+      "score": 47,
       "comments": 5,
       "author": "sloanelybutsurely",
       "published": "2026-06-27T03:56:22Z"
@@ -280,8 +280,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/dpctyb",
       "discuss_url": "https://lobste.rs/s/dpctyb",
-      "score": 33,
-      "comments": 91,
+      "score": 35,
+      "comments": 92,
       "author": "caius",
       "published": "2026-06-26T08:12:59Z"
     },
@@ -292,22 +292,10 @@
       "title": "All you need is PostgreSQL",
       "url": "https://ebellani.github.io/blog/2026/all-you-need-is-postgresql/",
       "discuss_url": "https://lobste.rs/s/yvvhve",
-      "score": 53,
-      "comments": 10,
+      "score": 54,
+      "comments": 14,
       "author": "schonfinkel",
       "published": "2026-06-26T09:48:57Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Porting WINE to a new Hobby OS",
-      "url": "https://astral-os.org/posts/2026/04/03/wine-on-astral.html",
-      "discuss_url": "https://lobste.rs/s/aj0e9u",
-      "score": 52,
-      "comments": 9,
-      "author": "avaliosdev",
-      "published": "2026-06-24T14:27:02Z"
     },
     {
       "source": "lobsters",
@@ -406,14 +394,26 @@
       "published": "2026-06-26T14:00:27Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Code isn’t the only thing causing your production failures​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌‍​﻿‍​​﻿​﻿‌‍‌‌‌‍​‍​﻿‌‌‌‍‌‍​﻿​​​‍﻿‌​﻿​‌​﻿​‍​﻿​﻿​﻿‌﻿​‍﻿‌​﻿‌​​﻿‍​​﻿‌﻿‌‍‌‍​‍﻿‌​﻿‍​​﻿‌​‌‍‌​​﻿‍​​‍﻿‌‌‍‌‍​﻿‌﻿‌‍​‌‌‍​‍‌‍‌‍​﻿​‍​﻿​﻿​﻿​‌​﻿‍​‌‍​﻿​﻿​﻿​﻿‍‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌‍​﻿‍​​﻿​﻿‌‍‌‌‌‍​‍​﻿‌‌‌‍‌‍​﻿​​​‍﻿‌​﻿​‌​﻿​‍​﻿​﻿​﻿‌﻿​‍﻿‌​﻿‌​​﻿‍​​﻿‌﻿‌‍‌‍​‍﻿‌​﻿‍​​﻿‌​‌‍‌​​﻿‍​​‍﻿‌‌‍‌‍​﻿‌﻿‌‍​‌‌‍​‍‌‍‌‍​﻿​‍​﻿​﻿​﻿​‌​﻿‍​‌‍​﻿​﻿​﻿​﻿‍‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/06/25/code-isnt-causing-your-production-failures/",
+      "discuss_url": "https://stackoverflow.blog/2026/06/25/code-isnt-causing-your-production-failures/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-06-25T07:40:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "A peek into Reddit's anti-spam internals",
       "url": "https://lyra.horse/blog/2026/06/reddit-spam-internals/",
       "discuss_url": "https://lobste.rs/s/boap41",
-      "score": 87,
-      "comments": 14,
+      "score": 96,
+      "comments": 19,
       "author": "rebane2001",
       "published": "2026-06-27T15:10:14Z"
     },
@@ -424,8 +424,8 @@
       "title": "It's dead, Jim! (UEFI CA expiry)",
       "url": "https://blog.einval.com/2026/06/27#its_dead_jim",
       "discuss_url": "https://lobste.rs/s/xz51yj",
-      "score": 16,
-      "comments": 5,
+      "score": 19,
+      "comments": 8,
       "author": "legoktm",
       "published": "2026-06-27T22:42:05Z"
     },
@@ -436,7 +436,7 @@
       "title": "Incident Report: CVE-2026-LGTM",
       "url": "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html",
       "discuss_url": "https://lobste.rs/s/6q12d7",
-      "score": 69,
+      "score": 71,
       "comments": 8,
       "author": "Manishearth",
       "published": "2026-06-26T15:42:28Z"
@@ -481,18 +481,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "exploitarium: A single archive of public exploit PoCs",
-      "url": "https://github.com/bikini/exploitarium",
-      "discuss_url": "https://lobste.rs/s/4ywqva",
-      "score": 2,
-      "comments": 0,
-      "author": "ahobson",
-      "published": "2026-06-27T17:27:16Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Akrites: Coordinated, confidential vulnerability remediation for the open source software critical infrastructure depends on",
       "url": "https://akrites.org/",
       "discuss_url": "https://lobste.rs/s/x6nv9y",
@@ -505,13 +493,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Exploiting vulnerabilities in Johnson & Johnson web apps",
-      "url": "https://eaton-works.com/2026/06/24/jnj-webapp-hacks/",
-      "discuss_url": "https://lobste.rs/s/rl7aid",
-      "score": 12,
-      "comments": 1,
-      "author": "raymii",
-      "published": "2026-06-24T18:37:10Z"
+      "title": "exploitarium: A single archive of public exploit PoCs",
+      "url": "https://github.com/bikini/exploitarium",
+      "discuss_url": "https://lobste.rs/s/4ywqva",
+      "score": 2,
+      "comments": 0,
+      "author": "ahobson",
+      "published": "2026-06-27T17:27:16Z"
     },
     {
       "source": "lobsters",
@@ -536,6 +524,18 @@
       "comments": 0,
       "author": "abnercoimbre",
       "published": "2026-06-25T16:35:05Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "krebsonsecurity.com",
+      "category": "security",
+      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+      "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+      "discuss_url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+      "score": null,
+      "comments": null,
+      "author": "BrianKrebs",
+      "published": "2026-06-23T16:12:49Z"
     },
     {
       "source": "rss",
@@ -697,6 +697,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "Why did this journal retract two 1940s papers by Max Planck?",
+      "url": "https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/",
+      "discuss_url": "https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-06-28T18:49:21Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "Apple and Audi alumni have made a luxe EV based on the moon buggy",
       "url": "https://arstechnica.com/cars/2026/06/apple-and-audi-alumni-have-made-a-luxe-ev-based-on-the-moon-buggy/",
       "discuss_url": "https://arstechnica.com/cars/2026/06/apple-and-audi-alumni-have-made-a-luxe-ev-based-on-the-moon-buggy/",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Jonathan M. Gitlin",
       "published": "2026-06-26T15:10:03Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Feedbacks upon feedbacks: Rock weathering and the climate",
-      "url": "https://arstechnica.com/science/2026/06/feedbacks-upon-feedbacks-rock-weathering-and-the-climate/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/feedbacks-upon-feedbacks-rock-weathering-and-the-climate/",
-      "score": null,
-      "comments": null,
-      "author": "Howard Lee",
-      "published": "2026-06-26T14:41:18Z"
     }
   ]
 }
