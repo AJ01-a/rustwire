@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T09:02:46Z",
+  "updated_at": "2026-06-28T13:58:17Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "AI Learns the \"Dark Art\" of RF Chip Design",
-      "url": "https://spectrum.ieee.org/ai-radio-chip-design",
-      "discuss_url": "https://lobste.rs/s/bxhmjt",
+      "title": "MAX models can now run on Apple silicon GPUs",
+      "url": "https://forum.modular.com/t/max-models-can-now-run-on-apple-silicon-gpus/3283",
+      "discuss_url": "https://lobste.rs/s/4srepl",
       "score": 4,
-      "comments": 4,
-      "author": "Yogthos",
-      "published": "2026-06-27T18:03:29Z",
+      "comments": 1,
+      "author": "melodyogonna",
+      "published": "2026-06-28T09:21:19Z",
       "bullets": [
-        "AI Learns the \"Dark Art\" of RF Chip Design",
-        "Trending on lobste.rs/ai — 4 points, 4 comments.",
-        "Submitted by Yogthos on lobste.rs/ai."
+        "Modular's MAX Engine now leverages Apple Silicon GPUs via Metal, enabling high-performance local inference on M-series Mac hardware.",
+        "The update provides unified memory support, offering a high-throughput alternative to Apple’s MLX and llama.cpp for local LLM execution.",
+        "AI engineers can now deploy optimized models like Llama 3 using the Mojo language and MAX SDK directly on macOS."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Text files as a user interface",
       "url": "https://ratfactor.com/cards/text-files-as-ui",
       "discuss_url": "https://lobste.rs/s/u1clgf",
-      "score": 43,
+      "score": 45,
       "comments": 5,
       "author": "sloanelybutsurely",
       "published": "2026-06-27T03:56:22Z",
       "bullets": [
-        "Text files as a user interface",
-        "Trending on lobste.rs/programming — 43 points, 5 comments.",
-        "Submitted by sloanelybutsurely on lobste.rs/programming."
+        "Plain text formats like Markdown, YAML, and JSON simplify state management, enabling version control via Git and seamless CLI automation.",
+        "Designing developer tools around file-based inputs (like `.env` or TOML) minimizes external dependencies and avoids database overhead.",
+        "Local-first systems leverage plain text to guarantee offline data ownership, interoperability, and fast search using standard Unix utilities."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "A peek into Reddit's anti-spam internals",
       "url": "https://lyra.horse/blog/2026/06/reddit-spam-internals/",
       "discuss_url": "https://lobste.rs/s/boap41",
-      "score": 77,
-      "comments": 12,
+      "score": 87,
+      "comments": 14,
       "author": "rebane2001",
       "published": "2026-06-27T15:10:14Z",
       "bullets": [
-        "A peek into Reddit's anti-spam internals",
-        "Trending on lobste.rs/security — 77 points, 12 comments.",
-        "Submitted by rebane2001 on lobste.rs/security."
+        "Use Apache Flink and Kafka for real-time stream processing to evaluate incoming posts against reputation and behavioral rules instantly.",
+        "ML classifiers combine with device fingerprinting (JA3/TLS) and IP reputation networks to dynamically identify automated botnets and coordinated sybil attacks.",
+        "Redis-backed sliding window rate limiters and graph databases track entity relationships to isolate malicious clusters without degrading legitimate user experience."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "jstoja",
       "published": "2026-06-26T12:52:38Z",
       "bullets": [
-        "How PgBouncer Works",
-        "Trending on lobste.rs/devops — 21 points, 2 comments.",
-        "Submitted by jstoja on lobste.rs/devops."
+        "PgBouncer optimizes PostgreSQL performance by multiplexing client connections using session, transaction, or statement pooling modes to reduce database RAM usage.",
+        "Built on a single-threaded `libevent` loop, it scales to thousands of concurrent client connections with minimal CPU overhead.",
+        "Transaction pooling is the most common DevOps choice but breaks session-level features like prepared statements and temporary tables."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Jeremy White, WIRED.com",
       "published": "2026-06-27T11:07:05Z",
       "bullets": [
-        "The Amble One is a street-legal $25,000 electric buggy designed for luxury resorts.",
-        "Apple and Audi alumni have made a luxe EV based on the moon buggy",
-        "Submitted by Jeremy White, WIRED.com on arstechnica.com."
+        "Former Apple and Audi engineers designed the Amble One, a street-legal electric buggy inspired by NASA's Lunar Roving Vehicle.",
+        "The niche low-speed electric vehicle is priced at $25,000 and targets premium hospitality, resort, and gated community markets.",
+        "The launch highlights a growing industry focus on specialized, lightweight EV form factors over traditional full-sized passenger vehicles."
       ]
     }
   ],
@@ -121,13 +121,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "AI Learns the \"Dark Art\" of RF Chip Design",
-      "url": "https://spectrum.ieee.org/ai-radio-chip-design",
-      "discuss_url": "https://lobste.rs/s/bxhmjt",
+      "title": "MAX models can now run on Apple silicon GPUs",
+      "url": "https://forum.modular.com/t/max-models-can-now-run-on-apple-silicon-gpus/3283",
+      "discuss_url": "https://lobste.rs/s/4srepl",
       "score": 4,
-      "comments": 4,
-      "author": "Yogthos",
-      "published": "2026-06-27T18:03:29Z"
+      "comments": 1,
+      "author": "melodyogonna",
+      "published": "2026-06-28T09:21:19Z"
     },
     {
       "source": "lobsters",
@@ -140,6 +140,18 @@
       "comments": 15,
       "author": "veqq",
       "published": "2026-06-27T00:27:42Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "AI Learns the \"Dark Art\" of RF Chip Design",
+      "url": "https://spectrum.ieee.org/ai-radio-chip-design",
+      "discuss_url": "https://lobste.rs/s/bxhmjt",
+      "score": 4,
+      "comments": 4,
+      "author": "Yogthos",
+      "published": "2026-06-27T18:03:29Z"
     },
     {
       "source": "lobsters",
@@ -160,7 +172,7 @@
       "title": "Comparing Transformers and Hybrid Models at the Token Level",
       "url": "https://arxiv.org/pdf/2606.20936",
       "discuss_url": "https://lobste.rs/s/6c5c4j",
-      "score": 4,
+      "score": 5,
       "comments": 0,
       "author": "jado",
       "published": "2026-06-27T15:16:10Z"
@@ -172,22 +184,10 @@
       "title": "Chatbots vs Ozone",
       "url": "https://blog.dshr.org/2026/05/chatbots-vs-ozone.html",
       "discuss_url": "https://lobste.rs/s/tjpsew",
-      "score": 6,
+      "score": 7,
       "comments": 4,
       "author": "fazalmajid",
       "published": "2026-06-26T10:36:54Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "GPT2-BASIC: Portable Machine Intelligence in BASIC",
-      "url": "https://github.com/tsotchke/gpt2-basic",
-      "discuss_url": "https://lobste.rs/s/mhjlia",
-      "score": 1,
-      "comments": 0,
-      "author": "jado",
-      "published": "2026-06-27T15:15:46Z"
     },
     {
       "source": "lobsters",
@@ -205,6 +205,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
+      "title": "GPT2-BASIC: Portable Machine Intelligence in BASIC",
+      "url": "https://github.com/tsotchke/gpt2-basic",
+      "discuss_url": "https://lobste.rs/s/mhjlia",
+      "score": 1,
+      "comments": 0,
+      "author": "jado",
+      "published": "2026-06-27T15:15:46Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
       "title": "Using the Gini Coefficient to Plan Edge Capacity",
       "url": "https://www.fastly.com/blog/using-gini-coefficient-plan-edge-capacity",
       "discuss_url": "https://lobste.rs/s/frfsss",
@@ -212,18 +224,6 @@
       "comments": 0,
       "author": "barathr",
       "published": "2026-06-24T17:08:52Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Unlimited-OCR: One-shot Long-horizon OCR",
-      "url": "https://github.com/baidu/Unlimited-OCR",
-      "discuss_url": "https://lobste.rs/s/5ej4m6",
-      "score": 3,
-      "comments": 0,
-      "author": "metahost",
-      "published": "2026-06-24T10:35:51Z"
     },
     {
       "source": "rss",
@@ -268,7 +268,7 @@
       "title": "Text files as a user interface",
       "url": "https://ratfactor.com/cards/text-files-as-ui",
       "discuss_url": "https://lobste.rs/s/u1clgf",
-      "score": 43,
+      "score": 45,
       "comments": 5,
       "author": "sloanelybutsurely",
       "published": "2026-06-27T03:56:22Z"
@@ -281,7 +281,7 @@
       "url": "https://lobste.rs/s/dpctyb",
       "discuss_url": "https://lobste.rs/s/dpctyb",
       "score": 33,
-      "comments": 90,
+      "comments": 91,
       "author": "caius",
       "published": "2026-06-26T08:12:59Z"
     },
@@ -412,8 +412,8 @@
       "title": "A peek into Reddit's anti-spam internals",
       "url": "https://lyra.horse/blog/2026/06/reddit-spam-internals/",
       "discuss_url": "https://lobste.rs/s/boap41",
-      "score": 77,
-      "comments": 12,
+      "score": 87,
+      "comments": 14,
       "author": "rebane2001",
       "published": "2026-06-27T15:10:14Z"
     },
@@ -424,8 +424,8 @@
       "title": "It's dead, Jim! (UEFI CA expiry)",
       "url": "https://blog.einval.com/2026/06/27#its_dead_jim",
       "discuss_url": "https://lobste.rs/s/xz51yj",
-      "score": 12,
-      "comments": 2,
+      "score": 16,
+      "comments": 5,
       "author": "legoktm",
       "published": "2026-06-27T22:42:05Z"
     },
@@ -436,7 +436,7 @@
       "title": "Incident Report: CVE-2026-LGTM",
       "url": "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html",
       "discuss_url": "https://lobste.rs/s/6q12d7",
-      "score": 67,
+      "score": 69,
       "comments": 8,
       "author": "Manishearth",
       "published": "2026-06-26T15:42:28Z"
@@ -448,7 +448,7 @@
       "title": "Anatomy of a Failed (Nation-State?) Attack",
       "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/",
       "discuss_url": "https://lobste.rs/s/j2ua4f",
-      "score": 48,
+      "score": 50,
       "comments": 15,
       "author": "Manishearth",
       "published": "2026-06-26T14:58:54Z"
@@ -469,18 +469,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "exploitarium: A single archive of public exploit PoCs",
-      "url": "https://github.com/bikini/exploitarium",
-      "discuss_url": "https://lobste.rs/s/4ywqva",
-      "score": 2,
-      "comments": 0,
-      "author": "ahobson",
-      "published": "2026-06-27T17:27:16Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "usbliter8: An A12/A13 SecureROM exploit",
       "url": "https://github.com/prdgmshift/usbliter8",
       "discuss_url": "https://lobste.rs/s/fs8itz",
@@ -488,6 +476,18 @@
       "comments": 0,
       "author": "jeanthomas",
       "published": "2026-06-26T06:16:24Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "exploitarium: A single archive of public exploit PoCs",
+      "url": "https://github.com/bikini/exploitarium",
+      "discuss_url": "https://lobste.rs/s/4ywqva",
+      "score": 2,
+      "comments": 0,
+      "author": "ahobson",
+      "published": "2026-06-27T17:27:16Z"
     },
     {
       "source": "lobsters",
@@ -505,18 +505,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "pomerium: Pomerium is an identity and context-aware access proxy",
-      "url": "https://github.com/pomerium/pomerium",
-      "discuss_url": "https://lobste.rs/s/9mtucy",
-      "score": 1,
-      "comments": 0,
-      "author": "doriancodes",
-      "published": "2026-06-27T21:06:32Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Exploiting vulnerabilities in Johnson & Johnson web apps",
       "url": "https://eaton-works.com/2026/06/24/jnj-webapp-hacks/",
       "discuss_url": "https://lobste.rs/s/rl7aid",
@@ -524,6 +512,18 @@
       "comments": 1,
       "author": "raymii",
       "published": "2026-06-24T18:37:10Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "pomerium: Pomerium is an identity and context-aware access proxy",
+      "url": "https://github.com/pomerium/pomerium",
+      "discuss_url": "https://lobste.rs/s/9mtucy",
+      "score": 1,
+      "comments": 0,
+      "author": "doriancodes",
+      "published": "2026-06-27T21:06:32Z"
     },
     {
       "source": "lobsters",
