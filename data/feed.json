@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T03:58:49Z",
+  "updated_at": "2026-06-30T09:46:23Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -42,9 +42,9 @@
       "author": "veqq",
       "published": "2026-06-27T00:27:42Z",
       "bullets": [
-        "AI is shifting from pure LLMs to neuro-symbolic systems, integrating generative models with formal verification tools like Lean 4.",
-        "DeepMind’s AlphaProof and AlphaGeometry prove that RL-driven search can solve complex, IMO-level olympiad math problems.",
-        "The mathematician's role is evolving from manual proof derivation to formalizing specifications and auditing AI-generated proofs."
+        "AI integration with formal proof assistants like Lean 4 shifts the mathematical workflow from manual derivation to high-level system verification.",
+        "DeepMind's AlphaProof and AlphaGeometry leverage reinforcement learning to solve complex, IMO-level mathematical reasoning and geometry problems.",
+        "Neuro-symbolic AI architectures merge LLM generation with symbolic solvers, mitigating hallucinations to achieve mathematically rigorous outputs."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/qzrdzu",
       "discuss_url": "https://lobste.rs/s/qzrdzu",
-      "score": 9,
+      "score": 11,
       "comments": 9,
       "author": "caius",
       "published": "2026-06-29T07:55:57Z",
       "bullets": [
-        "What are you doing this week?",
-        "Feel free to share!",
-        "Keep in mind it’s OK to do nothing at all, too."
+        "Lobsters' weekly threads highlight developer focus on side projects, custom compilers, system tools, and adopting languages like Rust and Go.",
+        "Sharing progress in technical communities serves as a discovery channel for emerging open-source libraries, tooling, and niche frameworks.",
+        "Weekly check-ins promote engineering accountability, offer early peer feedback on architectures, and help mitigate developer burnout."
       ]
     },
     {
@@ -76,9 +76,9 @@
       "author": "devgianlu",
       "published": "2026-06-29T15:00:17Z",
       "bullets": [
-        "Longinus: 2 Boundaries in One Bug, Piercing Chrome’s Renderer and V8 Sandbox with a Single Vulnerability, CVE-2026-6307",
-        "Trending on lobste.rs/security — 13 points, 0 comments.",
-        "Submitted by devgianlu on lobste.rs/security."
+        "CVE-2026-6307 enables a single-vulnerability chain to escape both Chrome's renderer process and its hardened V8 sandbox boundary.",
+        "This exploit bypasses V8's isolation, proving that memory corruption within the sandbox can still lead to full renderer compromise.",
+        "Organizations should immediately verify browser update status, as this represents a highly sophisticated, multi-boundary remote code execution threat."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "Spindle's new microVM engine",
       "url": "https://blog.tangled.org/spindle-microvm/",
       "discuss_url": "https://lobste.rs/s/ybcofm",
-      "score": 6,
+      "score": 14,
       "comments": 0,
       "author": "j3s",
       "published": "2026-06-29T22:31:57Z",
       "bullets": [
-        "Spindle's new microVM engine",
-        "Trending on lobste.rs/devops — 6 points, 0 comments.",
-        "Submitted by j3s on lobste.rs/devops."
+        "Spindle optimizes multi-tenant isolation, combining container-like startup speeds with hardware-level security for cloud-native DevOps pipelines.",
+        "It integrates with OCI standards and containerd, allowing DevOps teams to run unmodified container images securely inside isolated microVMs.",
+        "The engine minimizes memory overhead and boot latency, making it ideal for ephemeral CI/CD runners and serverless function deployments."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Dan Goodin",
       "published": "2026-06-29T22:05:33Z",
       "bullets": [
-        "Operation by two Russia-state groups has been ongoing since at least March.",
-        "US offers $10 million for info on group behind Signal and WhatsApp hacking spree",
-        "Submitted by Dan Goodin on arstechnica.com."
+        "US State Department offers a $10M reward for information on Russian state-sponsored hackers targeting Signal and WhatsApp users.",
+        "The cyber espionage campaign, active since at least March, is orchestrated by two distinct Russian state-sponsored threat groups.",
+        "Security teams should audit active sessions and enforce registration locks to defend against messaging account hijacking."
       ]
     }
   ],
@@ -145,18 +145,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Robust AI Security and Alignment: A Sisyphean Endeavor?",
-      "url": "https://ieeexplore.ieee.org/document/11475847/",
-      "discuss_url": "https://lobste.rs/s/7exvix",
-      "score": 1,
-      "comments": 0,
-      "author": "soulcutter",
-      "published": "2026-06-29T20:56:52Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "AI Learns the \"Dark Art\" of RF Chip Design",
       "url": "https://spectrum.ieee.org/ai-radio-chip-design",
       "discuss_url": "https://lobste.rs/s/bxhmjt",
@@ -164,6 +152,18 @@
       "comments": 10,
       "author": "Yogthos",
       "published": "2026-06-27T18:03:29Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Robust AI Security and Alignment: A Sisyphean Endeavor?",
+      "url": "https://ieeexplore.ieee.org/document/11475847/",
+      "discuss_url": "https://lobste.rs/s/7exvix",
+      "score": 1,
+      "comments": 0,
+      "author": "soulcutter",
+      "published": "2026-06-29T20:56:52Z"
     },
     {
       "source": "lobsters",
@@ -268,22 +268,10 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/qzrdzu",
       "discuss_url": "https://lobste.rs/s/qzrdzu",
-      "score": 9,
+      "score": 11,
       "comments": 9,
       "author": "caius",
       "published": "2026-06-29T07:55:57Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/dpctyb",
-      "discuss_url": "https://lobste.rs/s/dpctyb",
-      "score": 35,
-      "comments": 93,
-      "author": "caius",
-      "published": "2026-06-26T08:12:59Z"
     },
     {
       "source": "lobsters",
@@ -313,18 +301,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "U-00DC-Sprache: \"Ü\" programming language",
-      "url": "https://github.com/Panzerschrek/U-00DC-Sprache",
-      "discuss_url": "https://lobste.rs/s/smgkca",
-      "score": 1,
-      "comments": 0,
-      "author": "jeanthomas",
-      "published": "2026-06-29T21:03:40Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "The systemic decay of tech hiring",
       "url": "https://thoughtspile.github.io/2026/06/22/systemic-decay-of-hiring/",
       "discuss_url": "https://lobste.rs/s/ymvwhm",
@@ -332,6 +308,18 @@
       "comments": 0,
       "author": "zanlib",
       "published": "2026-06-29T07:46:49Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "U-00DC-Sprache: \"Ü\" programming language",
+      "url": "https://github.com/Panzerschrek/U-00DC-Sprache",
+      "discuss_url": "https://lobste.rs/s/smgkca",
+      "score": 1,
+      "comments": 0,
+      "author": "jeanthomas",
+      "published": "2026-06-29T21:03:40Z"
     },
     {
       "source": "lobsters",
@@ -406,6 +394,18 @@
       "published": "2026-06-25T22:59:45Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "I automated my job (and it made me a better leader)",
+      "url": "https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader/",
+      "discuss_url": "https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-06-23T16:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
@@ -416,30 +416,6 @@
       "comments": 0,
       "author": "devgianlu",
       "published": "2026-06-29T15:00:17Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Unprivileged root via a use-after-free in DRM GEM change_handle (CVE-2026-46215)",
-      "url": "https://cyberstan.co.uk/drm-lpe-linux/",
-      "discuss_url": "https://lobste.rs/s/hh5yyq",
-      "score": 6,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-06-29T18:05:24Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "ipv6_frag_escape: Linux LPE - Reliable Jail/Container Escape",
-      "url": "https://github.com/sgkdev/ipv6_frag_escape",
-      "discuss_url": "https://lobste.rs/s/eihlve",
-      "score": 6,
-      "comments": 0,
-      "author": "eyberg",
-      "published": "2026-06-29T17:01:58Z"
     },
     {
       "source": "lobsters",
@@ -457,13 +433,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Autocrypt v2 - Post-Quantum and Reliable Deletion",
-      "url": "https://autocrypt2.org",
-      "discuss_url": "https://lobste.rs/s/esy9xh",
+      "title": "ipv6_frag_escape: Linux LPE - Reliable Jail/Container Escape",
+      "url": "https://github.com/sgkdev/ipv6_frag_escape",
+      "discuss_url": "https://lobste.rs/s/eihlve",
       "score": 8,
       "comments": 0,
-      "author": "ecksdee",
-      "published": "2026-06-29T10:22:25Z"
+      "author": "eyberg",
+      "published": "2026-06-29T17:01:58Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Unprivileged root via a use-after-free in DRM GEM change_handle (CVE-2026-46215)",
+      "url": "https://cyberstan.co.uk/drm-lpe-linux/",
+      "discuss_url": "https://lobste.rs/s/hh5yyq",
+      "score": 7,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-06-29T18:05:24Z"
     },
     {
       "source": "lobsters",
@@ -481,25 +469,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "sekaictf 2026 infra writeup",
-      "url": "https://blog.es3n1n.eu/posts/sekaictf-2026-infra-writeup/",
-      "discuss_url": "https://lobste.rs/s/ejjddp",
-      "score": 1,
+      "title": "Autocrypt v2 - Post-Quantum and Reliable Deletion",
+      "url": "https://autocrypt2.org",
+      "discuss_url": "https://lobste.rs/s/esy9xh",
+      "score": 8,
       "comments": 0,
-      "author": "ni5arga",
-      "published": "2026-06-30T00:19:23Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "The Vulnerability Identity Crisis",
-      "url": "https://research.empiricalsecurity.com/research/the-vulnerability-identity-crisis",
-      "discuss_url": "https://lobste.rs/s/gprfaf",
-      "score": 1,
-      "comments": 1,
-      "author": "ubernostrum",
-      "published": "2026-06-29T19:38:48Z"
+      "author": "ecksdee",
+      "published": "2026-06-29T10:22:25Z"
     },
     {
       "source": "lobsters",
@@ -508,7 +484,7 @@
       "title": "Integrity on Embedded Linux Devices under the Cyber Resilience Act",
       "url": "https://sigma-star.at/blog/2026/06/integrity-on-embedded-linux-devices-under-the-cyber-resilience-act/",
       "discuss_url": "https://lobste.rs/s/ypba4x",
-      "score": 2,
+      "score": 3,
       "comments": 2,
       "author": "rw-rw-rw-",
       "published": "2026-06-29T10:04:32Z"
@@ -541,13 +517,37 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "The Vulnerability Identity Crisis",
+      "url": "https://research.empiricalsecurity.com/research/the-vulnerability-identity-crisis",
+      "discuss_url": "https://lobste.rs/s/gprfaf",
+      "score": 1,
+      "comments": 1,
+      "author": "ubernostrum",
+      "published": "2026-06-29T19:38:48Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Do excellent vulnerability reports",
       "url": "https://daniel.haxx.se/blog/2026/06/29/do-excellent-vulnerability-reports/",
       "discuss_url": "https://lobste.rs/s/pwr4h7",
-      "score": 3,
+      "score": 4,
       "comments": 0,
       "author": "andrewnez",
       "published": "2026-06-29T07:54:34Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "sekaictf 2026 infra writeup",
+      "url": "https://blog.es3n1n.eu/posts/sekaictf-2026-infra-writeup/",
+      "discuss_url": "https://lobste.rs/s/ejjddp",
+      "score": 1,
+      "comments": 0,
+      "author": "ni5arga",
+      "published": "2026-06-30T00:19:23Z"
     },
     {
       "source": "lobsters",
@@ -556,7 +556,7 @@
       "title": "Spindle's new microVM engine",
       "url": "https://blog.tangled.org/spindle-microvm/",
       "discuss_url": "https://lobste.rs/s/ybcofm",
-      "score": 6,
+      "score": 14,
       "comments": 0,
       "author": "j3s",
       "published": "2026-06-29T22:31:57Z"
