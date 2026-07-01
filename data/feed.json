@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T20:05:59Z",
+  "updated_at": "2026-07-01T04:16:08Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,51 +34,51 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Serving Local AI on my Jetson through Durable Streams",
-      "url": "https://s2.dev/blog/local-ai",
-      "discuss_url": "https://lobste.rs/s/jiwsyd",
-      "score": 4,
-      "comments": 0,
-      "author": "mesto",
-      "published": "2026-06-30T16:10:17Z",
+      "title": "\"How to Think About AI\": Cory Doctorow on Big Tech, Understanding AI, Labor Automation & More",
+      "url": "https://www.youtube.com/watch?v=OBUzl_IaWIw",
+      "discuss_url": "https://lobste.rs/s/n2r6r6",
+      "score": 33,
+      "comments": 3,
+      "author": "chobeat",
+      "published": "2026-06-27T09:17:42Z",
       "bullets": [
-        "NVIDIA Jetson edge devices enable offline, low-latency local AI inference, reducing reliance on cloud infrastructure.",
-        "Durable message streams (such as NATS or Kafka) ensure resilient data ingestion and fault tolerance during intermittent edge offline states.",
-        "Asynchronous architectures decouple ingestion from model serving, preventing system crashes and optimizing Jetson's constrained edge GPU memory."
+        "Doctorow argues Big Tech uses AI hype to devalue skilled labor and depress wages rather than achieving true task autonomy.",
+        "Massive capital requirements for GPU infrastructure and data ingestion create monopolistic market lock-in, accelerating platform enshittification.",
+        "Current LLM valuations rely on unsustainable venture subsidies, hiding the true environmental, compute, and legal liabilities of generative models."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Local Reasoning for Global Properties",
-      "url": "https://tratt.net/laurie/blog/2026/local_reasoning_for_global_properties.html",
-      "discuss_url": "https://lobste.rs/s/4rfzbl",
-      "score": 16,
-      "comments": 2,
-      "author": "ltratt",
-      "published": "2026-06-30T09:58:16Z",
+      "title": "pkgbump: from a dumb tool to an irreplaceable helper",
+      "url": "https://blogs.gentoo.org/mgorny/2026/06/21/pkgbump-from-a-dumb-tool-to-an-irreplaceable-helper/",
+      "discuss_url": "https://lobste.rs/s/4hlrn0",
+      "score": 1,
+      "comments": 0,
+      "author": "FedericoSchonborn",
+      "published": "2026-07-01T02:38:32Z",
       "bullets": [
-        "Local reasoning allows engineers to verify global system properties by analyzing individual modules independently, preventing state space explosion.",
-        "Languages like Rust implement this via ownership and lifetimes, enforcing global memory safety through local, function-level compiler checks.",
-        "In distributed systems, designing around local invariants guarantees global consistency and safety without relying on expensive global coordination."
+        "pkgbump automates semantic versioning updates across configuration files, eliminating manual errors during software release cycles.",
+        "Integrating version-bumping tools into CI/CD pipelines ensures consistent dependency management and automated git tagging for releases.",
+        "Automating package updates simplifies monorepo management via synchronized versioning, reducing friction when publishing to package registries."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Soatok’s Informal Guide to Threat Models",
-      "url": "https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/",
-      "discuss_url": "https://lobste.rs/s/gwrlsv",
+      "title": "The Threat of Residential Proxies",
+      "url": "https://www.feistyduck.com/newsletter/issue_138_the_threat_of_residential_proxies",
+      "discuss_url": "https://lobste.rs/s/x8qug8",
       "score": 20,
-      "comments": 0,
-      "author": "sloanelybutsurely",
-      "published": "2026-06-30T13:12:27Z",
+      "comments": 12,
+      "author": "fanf",
+      "published": "2026-06-30T19:43:05Z",
       "bullets": [
-        "Define realistic adversaries by analyzing their specific capabilities, motivations, and resources rather than aiming for blanket, absolute security.",
-        "Map clear trust boundaries and data flows to identify concrete vulnerabilities instead of over-relying on rigid, abstract frameworks like STRIDE.",
-        "Prioritize actionable mitigations aligned with engineering constraints, balancing actual exploit likelihood against the cost of security implementation."
+        "Malicious actors bypass traditional IP reputation blocks by routing automated attacks (credential stuffing, scraping) through legitimate consumer ISP IP addresses.",
+        "Residential proxy networks harvest IPs using covert SDKs embedded in free mobile apps, browser extensions, or malware-infected IoT devices.",
+        "Mitigate proxy abuse by shifting from static IP blocklists to behavioral profiling, TLS fingerprinting (JA4), and device attestation."
       ]
     },
     {
@@ -88,47 +88,35 @@
       "title": "Spindle's new microVM engine",
       "url": "https://blog.tangled.org/spindle-microvm/",
       "discuss_url": "https://lobste.rs/s/ybcofm",
-      "score": 32,
+      "score": 34,
       "comments": 0,
       "author": "j3s",
       "published": "2026-06-29T22:31:57Z",
       "bullets": [
-        "Spindle introduces a lightweight microVM engine optimizing boot times and memory footprints compared to traditional QEMU and Firecracker setups.",
-        "The engine leverages KVM to provide secure, hardware-level isolation for multi-tenant workloads without the overhead of heavy virtual machines.",
-        "DevOps teams can leverage Spindle for ultra-fast serverless cold starts, rapid CI/CD sandboxing, and efficient edge computing deployments."
+        "Spindle's new microVM engine",
+        "Trending on lobste.rs/devops — 34 points, 0 comments.",
+        "Submitted by j3s on lobste.rs/devops."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Google's new Nano Banana 2 Lite image model is its fastest and cheapest yet",
-      "url": "https://arstechnica.com/ai/2026/06/googles-new-nano-banana-2-lite-image-model-is-its-fastest-and-cheapest-yet/",
-      "discuss_url": "https://arstechnica.com/ai/2026/06/googles-new-nano-banana-2-lite-image-model-is-its-fastest-and-cheapest-yet/",
+      "title": "June research roundup: 6 cool science stories we almost missed",
+      "url": "https://arstechnica.com/science/2026/06/june-research-roundup-6-cool-science-stories-we-almost-missed/",
+      "discuss_url": "https://arstechnica.com/science/2026/06/june-research-roundup-6-cool-science-stories-we-almost-missed/",
       "score": null,
       "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-06-30T18:36:10Z",
+      "author": "Jennifer Ouellette",
+      "published": "2026-06-30T22:11:10Z",
       "bullets": [
-        "Google introduced Nano Banana 2 Lite, an image generation model optimized for high-speed, low-cost cloud or edge inference.",
-        "Inference latency is reduced to a few seconds, trading off peak visual fidelity for rapid, high-throughput generation.",
-        "The model is positioned for cost-constrained applications like real-time UI prototyping and high-volume asset drafting."
+        "Also, the science of poop's distinctive shape, boron buckyballs, and the secret to a soccer feint.",
+        "June research roundup: 6 cool science stories we almost missed",
+        "Submitted by Jennifer Ouellette on arstechnica.com."
       ]
     }
   ],
   "discussions": [
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Serving Local AI on my Jetson through Durable Streams",
-      "url": "https://s2.dev/blog/local-ai",
-      "discuss_url": "https://lobste.rs/s/jiwsyd",
-      "score": 4,
-      "comments": 0,
-      "author": "mesto",
-      "published": "2026-06-30T16:10:17Z"
-    },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
@@ -140,18 +128,6 @@
       "comments": 3,
       "author": "chobeat",
       "published": "2026-06-27T09:17:42Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "What does it mean to be a mathematician when AI does the math?",
-      "url": "https://spectrum.ieee.org/ai-in-mathematics",
-      "discuss_url": "https://lobste.rs/s/hvd5hk",
-      "score": 15,
-      "comments": 14,
-      "author": "veqq",
-      "published": "2026-06-27T00:27:42Z"
     },
     {
       "source": "lobsters",
@@ -217,18 +193,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "AI Agents Enable Adaptive Computer Worms",
-      "url": "https://cleverhans.io/worm.html",
-      "discuss_url": "https://lobste.rs/s/qsp10b",
-      "score": 3,
-      "comments": 0,
-      "author": "zurtar",
-      "published": "2026-06-26T22:15:36Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "GPT2-BASIC: Portable Machine Intelligence in BASIC",
       "url": "https://github.com/tsotchke/gpt2-basic",
       "discuss_url": "https://lobste.rs/s/mhjlia",
@@ -262,16 +226,52 @@
       "published": "2026-06-30T14:39:11Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+      "url": "https://huggingface.co/blog/eee-community-evals",
+      "discuss_url": "https://huggingface.co/blog/eee-community-evals",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-30T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "DiScoFormer: One transformer for density and score, across distributions",
+      "url": "https://huggingface.co/blog/allenai/discoformer",
+      "discuss_url": "https://huggingface.co/blog/allenai/discoformer",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-29T18:02:48Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Run a vLLM Server on HF Jobs in One Command",
+      "url": "https://huggingface.co/blog/vllm-jobs",
+      "discuss_url": "https://huggingface.co/blog/vllm-jobs",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-26T00:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Local Reasoning for Global Properties",
-      "url": "https://tratt.net/laurie/blog/2026/local_reasoning_for_global_properties.html",
-      "discuss_url": "https://lobste.rs/s/4rfzbl",
-      "score": 16,
-      "comments": 2,
-      "author": "ltratt",
-      "published": "2026-06-30T09:58:16Z"
+      "title": "pkgbump: from a dumb tool to an irreplaceable helper",
+      "url": "https://blogs.gentoo.org/mgorny/2026/06/21/pkgbump-from-a-dumb-tool-to-an-irreplaceable-helper/",
+      "discuss_url": "https://lobste.rs/s/4hlrn0",
+      "score": 1,
+      "comments": 0,
+      "author": "FedericoSchonborn",
+      "published": "2026-07-01T02:38:32Z"
     },
     {
       "source": "lobsters",
@@ -284,18 +284,6 @@
       "comments": 9,
       "author": "caius",
       "published": "2026-06-29T07:55:57Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Text files as a user interface",
-      "url": "https://ratfactor.com/cards/text-files-as-ui",
-      "discuss_url": "https://lobste.rs/s/u1clgf",
-      "score": 48,
-      "comments": 5,
-      "author": "sloanelybutsurely",
-      "published": "2026-06-27T03:56:22Z"
     },
     {
       "source": "lobsters",
@@ -320,18 +308,6 @@
       "comments": 0,
       "author": "jeanthomas",
       "published": "2026-06-29T21:03:40Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "How I'm Running a Software Jam",
-      "url": "https://foxmoss.com/blog/radish/",
-      "discuss_url": "https://lobste.rs/s/exqzcj",
-      "score": 2,
-      "comments": 0,
-      "author": "arcade",
-      "published": "2026-06-26T21:12:45Z"
     },
     {
       "source": "rss",
@@ -406,16 +382,28 @@
       "published": "2026-06-25T22:59:45Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Soatok’s Informal Guide to Threat Models",
-      "url": "https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/",
-      "discuss_url": "https://lobste.rs/s/gwrlsv",
-      "score": 20,
-      "comments": 0,
-      "author": "sloanelybutsurely",
-      "published": "2026-06-30T13:12:27Z"
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Why intent prediction needs more than an LLM​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‌​﻿​​‌‍‌‍​﻿‌​​﻿‌‌​﻿​​​﻿‍‌‌‍​﻿​‍﻿‌​﻿‌​‌‍‌‍​﻿‌‌​﻿‌‌​‍﻿‌​﻿‌​‌‍‌‍​﻿​‌​﻿​‌​‍﻿‌​﻿‍​‌‍​‌‌‍‌​‌‍​﻿​‍﻿‌​﻿‌‌​﻿‌‌​﻿‌‌​﻿‌‍‌‍‌‌​﻿‍​​﻿​‍​﻿​‌‌‍‌‌‌‍​‌​﻿‌﻿​﻿‌﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‌​﻿​​‌‍‌‍​﻿‌​​﻿‌‌​﻿​​​﻿‍‌‌‍​﻿​‍﻿‌​﻿‌​‌‍‌‍​﻿‌‌​﻿‌‌​‍﻿‌​﻿‌​‌‍‌‍​﻿​‌​﻿​‌​‍﻿‌​﻿‍​‌‍​‌‌‍‌​‌‍​﻿​‍﻿‌​﻿‌‌​﻿‌‌​﻿‌‌​﻿‌‍‌‍‌‌​﻿‍​​﻿​‍​﻿​‌‌‍‌‌‌‍​‌​﻿‌﻿​﻿‌﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/06/30/why-intent-prediction-needs-more-than-an-llm/",
+      "discuss_url": "https://stackoverflow.blog/2026/06/30/why-intent-prediction-needs-more-than-an-llm/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-06-30T07:40:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Paging Charity! How can engineering leaders avoid becoming Bond villains?​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‍​﻿‍​‌‍‌‌​﻿‌‌​﻿‌‍​﻿​​‌‍​‌‌‍‌‍​‍﻿‌‌‍‌‍​﻿​​‌‍​‌‌‍​‌​‍﻿‌​﻿‌​‌‍‌​​﻿‌​​﻿‌‍​‍﻿‌‌‍​‍‌‍‌​​﻿‍‌​﻿​​​‍﻿‌‌‍‌‍​﻿‌​​﻿​﻿​﻿‌‌‌‍​‌‌‍‌​​﻿‌‍​﻿​​​﻿‌​‌‍​‌‌‍​‌​﻿‌﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‍​﻿‍​‌‍‌‌​﻿‌‌​﻿‌‍​﻿​​‌‍​‌‌‍‌‍​‍﻿‌‌‍‌‍​﻿​​‌‍​‌‌‍​‌​‍﻿‌​﻿‌​‌‍‌​​﻿‌​​﻿‌‍​‍﻿‌‌‍​‍‌‍‌​​﻿‍‌​﻿​​​‍﻿‌‌‍‌‍​﻿‌​​﻿​﻿​﻿‌‌‌‍​‌‌‍‌​​﻿‌‍​﻿​​​﻿‌​‌‍​‌‌‍​‌​﻿‌﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/06/26/paging-charity-how-can-engineering-leaders-avoid-becoming-bond-villains/",
+      "discuss_url": "https://stackoverflow.blog/2026/06/26/paging-charity-how-can-engineering-leaders-avoid-becoming-bond-villains/",
+      "score": null,
+      "comments": null,
+      "author": "Charity Majors",
+      "published": "2026-06-26T14:00:27Z"
     },
     {
       "source": "lobsters",
@@ -424,10 +412,22 @@
       "title": "The Threat of Residential Proxies",
       "url": "https://www.feistyduck.com/newsletter/issue_138_the_threat_of_residential_proxies",
       "discuss_url": "https://lobste.rs/s/x8qug8",
-      "score": 1,
-      "comments": 0,
+      "score": 20,
+      "comments": 12,
       "author": "fanf",
       "published": "2026-06-30T19:43:05Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Soatok’s Informal Guide to Threat Models",
+      "url": "https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/",
+      "discuss_url": "https://lobste.rs/s/gwrlsv",
+      "score": 32,
+      "comments": 3,
+      "author": "sloanelybutsurely",
+      "published": "2026-06-30T13:12:27Z"
     },
     {
       "source": "lobsters",
@@ -445,6 +445,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "It's dead, Jim! (UEFI CA expiry)",
+      "url": "https://blog.einval.com/2026/06/27#its_dead_jim",
+      "discuss_url": "https://lobste.rs/s/xz51yj",
+      "score": 22,
+      "comments": 16,
+      "author": "legoktm",
+      "published": "2026-06-27T22:42:05Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Longinus: 2 Boundaries in One Bug, Piercing Chrome’s Renderer and V8 Sandbox with a Single Vulnerability, CVE-2026-6307",
       "url": "https://nebusec.ai/research/v8-cve-2026-6307-writeup/",
       "discuss_url": "https://lobste.rs/s/uaoe9y",
@@ -452,18 +464,6 @@
       "comments": 0,
       "author": "devgianlu",
       "published": "2026-06-29T15:00:17Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "It's dead, Jim! (UEFI CA expiry)",
-      "url": "https://blog.einval.com/2026/06/27#its_dead_jim",
-      "discuss_url": "https://lobste.rs/s/xz51yj",
-      "score": 22,
-      "comments": 14,
-      "author": "legoktm",
-      "published": "2026-06-27T22:42:05Z"
     },
     {
       "source": "lobsters",
@@ -517,18 +517,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "sekaictf 2026 infra writeup",
-      "url": "https://blog.es3n1n.eu/posts/sekaictf-2026-infra-writeup/",
-      "discuss_url": "https://lobste.rs/s/ejjddp",
-      "score": 1,
-      "comments": 1,
-      "author": "ni5arga",
-      "published": "2026-06-30T00:19:23Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Do excellent vulnerability reports",
       "url": "https://daniel.haxx.se/blog/2026/06/29/do-excellent-vulnerability-reports/",
       "discuss_url": "https://lobste.rs/s/pwr4h7",
@@ -536,6 +524,18 @@
       "comments": 0,
       "author": "andrewnez",
       "published": "2026-06-29T07:54:34Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "sekaictf 2026 infra writeup",
+      "url": "https://blog.es3n1n.eu/posts/sekaictf-2026-infra-writeup/",
+      "discuss_url": "https://lobste.rs/s/ejjddp",
+      "score": 1,
+      "comments": 1,
+      "author": "ni5arga",
+      "published": "2026-06-30T00:19:23Z"
     },
     {
       "source": "lobsters",
@@ -556,10 +556,94 @@
       "title": "Spindle's new microVM engine",
       "url": "https://blog.tangled.org/spindle-microvm/",
       "discuss_url": "https://lobste.rs/s/ybcofm",
-      "score": 32,
+      "score": 34,
       "comments": 0,
       "author": "j3s",
       "published": "2026-06-29T22:31:57Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon CloudWatch Logs enriches log events with AWS resource tags",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-resource-tags/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-resource-tags/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-30T21:15:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS CloudFormation and CDK accelerate development feedback loops with pre-deployment validation on all stack operations",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cloudformation/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cloudformation/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-30T21:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS CloudFormation and CDK express mode speeds up infrastructure deployments by up to 4x",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cloudformation-cdk/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cloudformation-cdk/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-30T21:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon RDS Enhances IAM Database Authentication with Connection Rate Scaling",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-iam/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-iam/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-30T20:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Parallel Computing Service supports in-place Slurm major version upgrades",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-parallel-computing-service-upgrade/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-parallel-computing-service-upgrade/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-30T19:12:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon ElastiCache T4g nodes now available in additional AWS Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-elasticache-t4g-additional-aws-regions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-elasticache-t4g-additional-aws-regions/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-30T19:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Neptune announces dual stack support with IPv6",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-ipv6/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-ipv6/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-06-30T19:00:00Z"
     },
     {
       "source": "rss",
@@ -601,97 +685,97 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "capability-insights-aws",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/capability-insights-aws/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/capability-insights-aws/",
+      "title": "Amazon EC2 Auto Scaling now supports reservations then balanced Availability Zone distribution",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-auto-scaling-res-then-balanced/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-auto-scaling-res-then-balanced/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-06-30T17:00:00Z"
+      "published": "2026-06-30T17:09:00Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon SageMaker AI cuts generative AI inference scale-out time by up to half with automatic container image caching",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/sagemakerai-inf-scale-out-time",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/sagemakerai-inf-scale-out-time",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "June research roundup: 6 cool science stories we almost missed",
+      "url": "https://arstechnica.com/science/2026/06/june-research-roundup-6-cool-science-stories-we-almost-missed/",
+      "discuss_url": "https://arstechnica.com/science/2026/06/june-research-roundup-6-cool-science-stories-we-almost-missed/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-30T16:31:00Z"
+      "author": "Jennifer Ouellette",
+      "published": "2026-06-30T22:11:10Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "IAM Identity Center now enables programmatic AWS account access for customer managed applications",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-iam-identity-center-account-access-customer-managed-apps/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-iam-identity-center-account-access-customer-managed-apps/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Reddit will require you to log in to use old.reddit.com",
+      "url": "https://arstechnica.com/gadgets/2026/06/reddit-will-require-you-to-log-in-to-use-old-reddit-com/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/06/reddit-will-require-you-to-log-in-to-use-old-reddit-com/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-30T16:00:00Z"
+      "author": "Scharon Harding",
+      "published": "2026-06-30T21:46:35Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Claude Sonnet 5 now available on AWS",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-sonnet-5-now-available-on-aws",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-sonnet-5-now-available-on-aws",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Amazon blames piracy apps with malware for killing new Fire Stick sideloading",
+      "url": "https://arstechnica.com/gadgets/2026/06/exec-blames-malware-threat-for-amazon-blocking-sideloading-on-new-fire-sticks/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/06/exec-blames-malware-threat-for-amazon-blocking-sideloading-on-new-fire-sticks/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-30T16:00:00Z"
+      "author": "Scharon Harding",
+      "published": "2026-06-30T21:04:53Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon SageMaker AI now supports serverless model customization for Gemma 4 models",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-ai-gemma-4/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-ai-gemma-4/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "NASA may send a backup, nuclear-powered Mars rover to the Moon",
+      "url": "https://arstechnica.com/space/2026/06/nasa-may-send-a-backup-nuclear-powered-mars-rover-to-the-moon/",
+      "discuss_url": "https://arstechnica.com/space/2026/06/nasa-may-send-a-backup-nuclear-powered-mars-rover-to-the-moon/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-30T15:30:00Z"
+      "author": "Eric Berger",
+      "published": "2026-06-30T20:50:14Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Claude Opus 4.8 is now available in AWS GovCloud (US)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-opus-4.8-aws-govcloud-us",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-opus-4.8-aws-govcloud-us",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Google kills Tenor GIF API, forcing changes at X, Discord, and more",
+      "url": "https://arstechnica.com/gadgets/2026/06/google-kills-tenor-gif-api-forcing-changes-at-x-discord-and-more/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/06/google-kills-tenor-gif-api-forcing-changes-at-x-discord-and-more/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-30T12:00:00Z"
+      "author": "Ryan Whitwam",
+      "published": "2026-06-30T20:38:51Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "OpenAI GPT-5.4 and NVIDIA Nemotron 3 Super 120B now available on Kiro in AWS GovCloud (US-West) Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-gpt-nemotron-launch-aws-govcloud-us/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-gpt-nemotron-launch-aws-govcloud-us/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Apple takes Epic fight over app store fees to the Supreme Court",
+      "url": "https://arstechnica.com/tech-policy/2026/06/apple-takes-epic-fight-over-app-store-fees-to-the-supreme-court/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/apple-takes-epic-fight-over-app-store-fees-to-the-supreme-court/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-30T09:00:00Z"
+      "author": "Ashley Belanger",
+      "published": "2026-06-30T20:20:29Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Service Availability Updates",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-service-availability/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-service-availability/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "New attack provides one more reason why AI browsers are a bad idea",
+      "url": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/",
+      "discuss_url": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-06-30T07:00:00Z"
+      "author": "Dan Goodin",
+      "published": "2026-06-30T20:03:14Z"
     },
     {
       "source": "rss",
@@ -752,90 +836,6 @@
       "comments": null,
       "author": "Ashley Belanger",
       "published": "2026-06-30T15:38:08Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Florida bans local governments from pursuing net-zero emissions goals",
-      "url": "https://arstechnica.com/science/2026/06/florida-bans-local-governments-from-pursuing-net-zero-emissions-goals/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/florida-bans-local-governments-from-pursuing-net-zero-emissions-goals/",
-      "score": null,
-      "comments": null,
-      "author": "Amy Green, Inside Climate News",
-      "published": "2026-06-30T13:40:16Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Ars Live, today: The latest on the aftermath of the New Glenn catastrophe",
-      "url": "https://arstechnica.com/space/2026/06/ars-live-whats-the-latest-in-the-aftermath-of-the-new-glenn-catastrophe/",
-      "discuss_url": "https://arstechnica.com/space/2026/06/ars-live-whats-the-latest-in-the-aftermath-of-the-new-glenn-catastrophe/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-06-30T13:15:59Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "US offers $10 million for info on group behind Signal and WhatsApp hacking spree",
-      "url": "https://arstechnica.com/information-technology/2026/06/us-offers-10-million-for-info-on-group-behind-signal-and-whatsapp-hacking-spree/",
-      "discuss_url": "https://arstechnica.com/information-technology/2026/06/us-offers-10-million-for-info-on-group-behind-signal-and-whatsapp-hacking-spree/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-06-29T22:05:33Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "South Korea to spend $1T on more memory chip production and humanoid robots",
-      "url": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
-      "discuss_url": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-06-29T21:09:43Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "US renewable boom passes key milestone in April",
-      "url": "https://arstechnica.com/science/2026/06/solar-outproduced-coal-in-april-but-not-on-the-grid/",
-      "discuss_url": "https://arstechnica.com/science/2026/06/solar-outproduced-coal-in-april-but-not-on-the-grid/",
-      "score": null,
-      "comments": null,
-      "author": "John Timmer",
-      "published": "2026-06-29T20:12:30Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Supreme Court ruling guts government’s use of geofence warrants",
-      "url": "https://arstechnica.com/tech-policy/2026/06/supreme-court-ruling-guts-governments-use-of-geofence-warrants/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/06/supreme-court-ruling-guts-governments-use-of-geofence-warrants/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-06-29T20:04:04Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Sony erases digital content from libraries; we're reminded we don’t own what we buy",
-      "url": "https://arstechnica.com/gadgets/2026/06/sony-erases-digital-content-from-libraries-were-reminded-we-dont-own-what-we-buy/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/06/sony-erases-digital-content-from-libraries-were-reminded-we-dont-own-what-we-buy/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-06-29T19:10:57Z"
     }
   ]
 }
