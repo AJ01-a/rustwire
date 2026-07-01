@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T04:16:08Z",
+  "updated_at": "2026-07-01T10:01:38Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "\"How to Think About AI\": Cory Doctorow on Big Tech, Understanding AI, Labor Automation & More",
-      "url": "https://www.youtube.com/watch?v=OBUzl_IaWIw",
-      "discuss_url": "https://lobste.rs/s/n2r6r6",
-      "score": 33,
-      "comments": 3,
-      "author": "chobeat",
-      "published": "2026-06-27T09:17:42Z",
+      "title": "MAX models can now run on Apple silicon GPUs",
+      "url": "https://forum.modular.com/t/max-models-can-now-run-on-apple-silicon-gpus/3283",
+      "discuss_url": "https://lobste.rs/s/4srepl",
+      "score": 5,
+      "comments": 4,
+      "author": "melodyogonna",
+      "published": "2026-06-28T09:21:19Z",
       "bullets": [
-        "Doctorow argues Big Tech uses AI hype to devalue skilled labor and depress wages rather than achieving true task autonomy.",
-        "Massive capital requirements for GPU infrastructure and data ingestion create monopolistic market lock-in, accelerating platform enshittification.",
-        "Current LLM valuations rely on unsustainable venture subsidies, hiding the true environmental, compute, and legal liabilities of generative models."
+        "Modular integrated Metal GPU acceleration into the MAX Engine, allowing Macs to execute optimized models locally with high performance.",
+        "Developers can compile and run PyTorch or ONNX models on Apple's unified memory architecture using the Mojo-powered MAX SDK.",
+        "This update narrows the gap between Apple Silicon and CUDA, providing a high-performance local alternative for running LLMs."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "pkgbump: from a dumb tool to an irreplaceable helper",
       "url": "https://blogs.gentoo.org/mgorny/2026/06/21/pkgbump-from-a-dumb-tool-to-an-irreplaceable-helper/",
       "discuss_url": "https://lobste.rs/s/4hlrn0",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "FedericoSchonborn",
       "published": "2026-07-01T02:38:32Z",
       "bullets": [
-        "pkgbump automates semantic versioning updates across configuration files, eliminating manual errors during software release cycles.",
-        "Integrating version-bumping tools into CI/CD pipelines ensures consistent dependency management and automated git tagging for releases.",
-        "Automating package updates simplifies monorepo management via synchronized versioning, reducing friction when publishing to package registries."
+        "Automating SemVer updates in `package.json` with CLI tools reduces manual release errors and streamlines CI/CD pipelines.",
+        "Integrating automated bumping into Git workflows ensures consistent version tagging, changelog generation, and reliable registry publishing.",
+        "Moving from manual version increments to automated tools like `pkgbump` prevents dependency drift in complex monorepo environments."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "The Threat of Residential Proxies",
       "url": "https://www.feistyduck.com/newsletter/issue_138_the_threat_of_residential_proxies",
       "discuss_url": "https://lobste.rs/s/x8qug8",
-      "score": 20,
-      "comments": 12,
+      "score": 28,
+      "comments": 14,
       "author": "fanf",
       "published": "2026-06-30T19:43:05Z",
       "bullets": [
-        "Malicious actors bypass traditional IP reputation blocks by routing automated attacks (credential stuffing, scraping) through legitimate consumer ISP IP addresses.",
-        "Residential proxy networks harvest IPs using covert SDKs embedded in free mobile apps, browser extensions, or malware-infected IoT devices.",
-        "Mitigate proxy abuse by shifting from static IP blocklists to behavioral profiling, TLS fingerprinting (JA4), and device attestation."
+        "Threat actors harvest residential IPs via SDKs embedded in free consumer apps or malware-infected IoT devices to bypass traditional geofencing.",
+        "Attackers leverage these proxy networks for large-scale credential stuffing, DDoS, and ad fraud, blending seamlessly with legitimate consumer traffic.",
+        "Mitigate this risk by shifting from static IP reputation lists to behavioral analysis, JA4 fingerprinting, and client-side telemetry."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "j3s",
       "published": "2026-06-29T22:31:57Z",
       "bullets": [
-        "Spindle's new microVM engine",
-        "Trending on lobste.rs/devops — 34 points, 0 comments.",
-        "Submitted by j3s on lobste.rs/devops."
+        "Spindle optimizes microVM startup times to reduce cold-start latency in serverless and edge-computing DevOps pipelines.",
+        "The engine delivers hardware-level virtualization security, isolating multi-tenant workloads more robustly than standard Linux container namespaces.",
+        "Designed to integrate with container runtimes like containerd, allowing DevOps teams to run OCI-compliant images in secure microVMs."
       ]
     },
     {
@@ -110,25 +110,13 @@
       "author": "Jennifer Ouellette",
       "published": "2026-06-30T22:11:10Z",
       "bullets": [
-        "Also, the science of poop's distinctive shape, boron buckyballs, and the secret to a soccer feint.",
-        "June research roundup: 6 cool science stories we almost missed",
-        "Submitted by Jennifer Ouellette on arstechnica.com."
+        "Boron buckyballs (B40) present novel semiconductor and hydrogen-storage capabilities, advancing nanoscale materials science and molecular electronics.",
+        "Biomedical studies on non-uniform intestinal elasticity offer key insights for soft robotics design and advanced industrial extrusion manufacturing processes.",
+        "Kinetic analysis of human deceptive movement (feints) informs predictive computer vision models and motion-planning algorithms in collaborative robotics."
       ]
     }
   ],
   "discussions": [
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "\"How to Think About AI\": Cory Doctorow on Big Tech, Understanding AI, Labor Automation & More",
-      "url": "https://www.youtube.com/watch?v=OBUzl_IaWIw",
-      "discuss_url": "https://lobste.rs/s/n2r6r6",
-      "score": 33,
-      "comments": 3,
-      "author": "chobeat",
-      "published": "2026-06-27T09:17:42Z"
-    },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
@@ -262,13 +250,25 @@
       "published": "2026-06-26T00:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "discuss_url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-24T16:00:13Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "pkgbump: from a dumb tool to an irreplaceable helper",
       "url": "https://blogs.gentoo.org/mgorny/2026/06/21/pkgbump-from-a-dumb-tool-to-an-irreplaceable-helper/",
       "discuss_url": "https://lobste.rs/s/4hlrn0",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "FedericoSchonborn",
       "published": "2026-07-01T02:38:32Z"
@@ -412,8 +412,8 @@
       "title": "The Threat of Residential Proxies",
       "url": "https://www.feistyduck.com/newsletter/issue_138_the_threat_of_residential_proxies",
       "discuss_url": "https://lobste.rs/s/x8qug8",
-      "score": 20,
-      "comments": 12,
+      "score": 28,
+      "comments": 14,
       "author": "fanf",
       "published": "2026-06-30T19:43:05Z"
     },
@@ -424,8 +424,8 @@
       "title": "Soatok’s Informal Guide to Threat Models",
       "url": "https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/",
       "discuss_url": "https://lobste.rs/s/gwrlsv",
-      "score": 32,
-      "comments": 3,
+      "score": 37,
+      "comments": 11,
       "author": "sloanelybutsurely",
       "published": "2026-06-30T13:12:27Z"
     },
