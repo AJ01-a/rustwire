@@ -3,6 +3,18 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--
+      GitHub Pages cannot set response headers, so the CSP ships as a meta
+      tag. frame-ancestors / X-Frame-Options are not supported in meta and
+      are therefore absent — acceptable for a public read-only dashboard.
+      'unsafe-inline' on style-src is required by per-category accent colors
+      (inline style="--cat-color:#..."), which app.js validates as hex-only
+      before interpolating.
+    -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'; upgrade-insecure-requests"
+    />
     <title>TechPulse — A working briefing for tech professionals</title>
     <meta
       name="description"

@@ -1,17 +1,19 @@
-name: Refresh Rustwire feed
+name: Refresh Rustwire feed & deploy
 
 on:
   schedule:
     # Every 6 hours, on the hour, UTC.
     - cron: "0 */6 * * *"
+  push:
+    branches: [main]
   workflow_dispatch: {}
-  # Note: no `push:` trigger. The bot's data-refresh commits would race the
-  # user's code commits, causing constant "fetch first" rejections. Use the
-  # "Run workflow" button (Actions tab) to refresh manually after code edits.
 
-# Allow the workflow to push commits back to the repo.
+# contents: write  — commit the refreshed feed back to the repo.
+# pages/id-token   — deploy to GitHub Pages via OIDC.
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 # Opt JavaScript-based actions into Node.js 24 ahead of the June 2026 forced
 # upgrade. Avoids the Node 20 deprecation warning on actions/checkout and
@@ -19,18 +21,27 @@ permissions:
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
+# Queue runs instead of cancelling: a cron refresh and a user push must both
+# complete, in order, or the feed commit / deploy could be lost.
 concurrency:
   group: rustwire-refresh
   cancel-in-progress: false
 
 jobs:
-  refresh:
+  refresh-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
+        with:
+          # Branch tip, not the trigger SHA — a queued cron run must build on
+          # top of any commits that landed while it waited.
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -57,4 +68,24 @@ jobs:
           fi
           git add data/feed.json
           git commit -m "chore(data): refresh feed"
-          git push
+          # Rebase in case a user push landed mid-run, then push with one retry.
+          git pull --rebase origin main
+          git push origin main || (git pull --rebase origin main && git push origin main)
+
+      - name: Stage site
+        run: |
+          mkdir -p _site/data
+          cp index.html styles.css app.js favicon.svg _site/
+          cp data/feed.json _site/data/
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

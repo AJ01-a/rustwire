@@ -7,9 +7,13 @@ the top story in each category into a 3-bullet TL;DR.
 
 **Categories:** AI & ML · Engineering · Security · Cloud & DevOps · Industry
 
+Live at **https://aj01-a.github.io/rustwire/** — hosted on GitHub Pages,
+refreshed and deployed by the same GitHub Actions workflow. No third-party
+hosting, no manual steps.
+
 ```
 ┌───────────────────────────────────────────────────────────┐
-│  GitHub Actions (cron: every 6h)                           │
+│  GitHub Actions (cron: every 6h, push to main, manual)     │
 │   └─► python -m scripts.main                               │
 │         ├─ fetch:  reddit / rss / hn / lobsters            │
 │         ├─ classify (per-source map + HN title keywords)   │
@@ -18,7 +22,7 @@ the top story in each category into a 3-bullet TL;DR.
 │         └─ write data/feed.json (committed)                │
 │                       │                                    │
 │                       ▼                                    │
-│              Netlify auto-deploy                           │
+│         deploy to GitHub Pages (same workflow run)         │
 │                       │                                    │
 │                       ▼                                    │
 │              index.html fetches feed.json                  │
@@ -48,8 +52,7 @@ python -m http.server 8000                  # preview at http://localhost:8000
 | `scripts/sources/*.py` | One module per source; each returns `list[dict]` normalized via `utils.normalize_item`. |
 | `scripts/main.py` | Orchestrator — fetch → dedupe → rank → summarize → write. |
 | `scripts/summarizer.py` | Gemini caller + heuristic fallback. |
-| `.github/workflows/update.yml` | 6-hour cron + bot-commits-back-to-repo. |
-| `netlify.toml` | Cache headers + zero-build static config. |
+| `.github/workflows/update.yml` | 6-hour cron: refresh feed, commit, deploy to GitHub Pages. |
 
 ## Retargeting
 
