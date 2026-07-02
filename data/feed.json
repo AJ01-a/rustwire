@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T03:54:20Z",
+  "updated_at": "2026-07-02T09:19:55Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,51 +34,51 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "MAX models can now run on Apple silicon GPUs",
-      "url": "https://forum.modular.com/t/max-models-can-now-run-on-apple-silicon-gpus/3283",
-      "discuss_url": "https://lobste.rs/s/4srepl",
-      "score": 5,
-      "comments": 4,
-      "author": "melodyogonna",
-      "published": "2026-06-28T09:21:19Z",
+      "title": "The Control Plane Was the Point: Revisiting autofz in the LLM Era",
+      "url": "https://yfu.tw/blog/en/autofz-revisited/",
+      "discuss_url": "https://lobste.rs/s/gwxqmh",
+      "score": 1,
+      "comments": 0,
+      "author": "yufu",
+      "published": "2026-07-02T05:19:10Z",
       "bullets": [
-        "Modular’s MAX engine now supports native GPU acceleration on Apple Silicon M-series chips, enabling high-performance local AI model execution.",
-        "The update enables AI developers to run optimized models locally on Mac hardware, bypassing traditional ONNX or CoreML translation layers.",
-        "Practitioners can run models like Llama 3 or Mistral locally, utilizing Apple's unified memory architecture for low-latency inference."
+        "LLMs can modernize autofz by acting as intelligent control planes, dynamically coordinating diverse fuzzing engines like AFL and LibFuzzer.",
+        "Generative AI transforms cooperative fuzzing by automating seed generation and mutator selection, optimizing path coverage over traditional static heuristics.",
+        "The architectural separation of control and execution in autofz serves as a blueprint for coordinating multi-agent LLM security testing systems."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Learn Clojure with interactive lessons and drills",
-      "url": "https://clojurefandango.com/",
-      "discuss_url": "https://lobste.rs/s/wdc6r1",
-      "score": 1,
-      "comments": 0,
-      "author": "Yogthos",
-      "published": "2026-07-01T23:37:04Z",
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/qzrdzu",
+      "discuss_url": "https://lobste.rs/s/qzrdzu",
+      "score": 11,
+      "comments": 9,
+      "author": "caius",
+      "published": "2026-06-29T07:55:57Z",
       "bullets": [
-        "Learn Clojure with interactive lessons and drills",
-        "Trending on lobste.rs/programming — 1 points, 0 comments.",
-        "Submitted by Yogthos on lobste.rs/programming."
+        "Developers share weekly progress on system tools, compiler design, and self-hosted deployments using modern stacks like Rust, Go, and SQLite.",
+        "The community emphasizes balancing active feature shipping with intentional downtime to prevent developer burnout and technical debt.",
+        "Engineers exchange feedback on niche libraries, database schema migrations, and optimizing CI/CD pipelines for personal hobby projects."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Creating a development sandbox with crosvm",
-      "url": "https://www.erat.org/crosvm.html",
-      "discuss_url": "https://lobste.rs/s/mml3sh",
-      "score": 3,
-      "comments": 0,
-      "author": "derat",
-      "published": "2026-07-02T02:29:04Z",
+      "title": "Unprivileged root via an out-of-bounds write in the FUSE readdir cache (CVE-2026-31694)",
+      "url": "https://cyberstan.co.uk/fuse-readdir-oob/",
+      "discuss_url": "https://lobste.rs/s/0kc445",
+      "score": 7,
+      "comments": 2,
+      "author": "fro",
+      "published": "2026-07-02T00:36:55Z",
       "bullets": [
-        "Creating a development sandbox with crosvm",
-        "Trending on lobste.rs/security — 3 points, 0 comments.",
-        "Submitted by derat on lobste.rs/security."
+        "CVE-2026-31694 exposes Linux kernels to local privilege escalation via an out-of-bounds write in FUSE memory management.",
+        "Unprivileged local attackers can exploit the readdir cache flaw to corrupt kernel memory and execute arbitrary code as root.",
+        "Administrators should immediately patch affected Linux kernels, focusing on multi-tenant environments and container hosts using user-space filesystems."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "OpenFeature - Standardizing Feature Flagging for Everyone",
       "url": "https://openfeature.dev/",
       "discuss_url": "https://lobste.rs/s/4ttyrk",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "datboi",
       "published": "2026-07-02T02:31:35Z",
       "bullets": [
-        "OpenFeature - Standardizing Feature Flagging for Everyone",
-        "Trending on lobste.rs/devops — 2 points, 0 comments.",
-        "Submitted by datboi on lobste.rs/devops."
+        "OpenFeature is a CNCF incubating project establishing a vendor-agnostic standard and unified API specification for cloud-native feature flagging.",
+        "It prevents vendor lock-in, enabling seamless migration between backends like LaunchDarkly, Unleash, Flagsmith, or custom in-house tooling without code rewrites.",
+        "The ecosystem supports major languages including Go, Java, and Python, offering native Kubernetes integration for GitOps-friendly feature management."
       ]
     },
     {
@@ -110,13 +110,25 @@
       "author": "Scharon Harding",
       "published": "2026-07-01T21:21:21Z",
       "bullets": [
-        "T-Mobile wants Broadcom to keep supporting its VMware perpetual licenses.",
-        "T-Mobile moving tens of thousands of virtual machines off VMware amid lawsuit",
-        "Submitted by Scharon Harding on arstechnica.com."
+        "T-Mobile's lawsuit fights Broadcom's termination of perpetual licenses, buying time to transition tens of thousands of production virtual machines.",
+        "Broadcom's subscription mandate is driving enterprise DevOps to migrate VMware workloads to open-source KVM, Nutanix, or public cloud alternatives.",
+        "The litigation highlights critical risks of vendor lock-in, forcing infrastructure leaders to prioritize hypervisor diversity and migration readiness plans."
       ]
     }
   ],
   "discussions": [
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "The Control Plane Was the Point: Revisiting autofz in the LLM Era",
+      "url": "https://yfu.tw/blog/en/autofz-revisited/",
+      "discuss_url": "https://lobste.rs/s/gwxqmh",
+      "score": 1,
+      "comments": 0,
+      "author": "yufu",
+      "published": "2026-07-02T05:19:10Z"
+    },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
@@ -253,18 +265,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Learn Clojure with interactive lessons and drills",
-      "url": "https://clojurefandango.com/",
-      "discuss_url": "https://lobste.rs/s/wdc6r1",
-      "score": 1,
-      "comments": 0,
-      "author": "Yogthos",
-      "published": "2026-07-01T23:37:04Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/qzrdzu",
       "discuss_url": "https://lobste.rs/s/qzrdzu",
@@ -272,6 +272,18 @@
       "comments": 9,
       "author": "caius",
       "published": "2026-06-29T07:55:57Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Learn Clojure with interactive lessons and drills",
+      "url": "https://clojurefandango.com/",
+      "discuss_url": "https://lobste.rs/s/wdc6r1",
+      "score": 1,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-07-01T23:37:04Z"
     },
     {
       "source": "lobsters",
@@ -289,18 +301,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "EmacsWiki Blog Carnival \"Programming\"",
-      "url": "https://plaindrops.de/blog/2026/emacscarnival2607/",
-      "discuss_url": "https://lobste.rs/s/cmeyvt",
-      "score": 1,
-      "comments": 0,
-      "author": "tusharhero",
-      "published": "2026-07-01T10:23:11Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "The systemic decay of tech hiring",
       "url": "https://thoughtspile.github.io/2026/06/22/systemic-decay-of-hiring/",
       "discuss_url": "https://lobste.rs/s/ymvwhm",
@@ -308,6 +308,18 @@
       "comments": 0,
       "author": "zanlib",
       "published": "2026-06-29T07:46:49Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "EmacsWiki Blog Carnival \"Programming\"",
+      "url": "https://plaindrops.de/blog/2026/emacscarnival2607/",
+      "discuss_url": "https://lobste.rs/s/cmeyvt",
+      "score": 1,
+      "comments": 0,
+      "author": "tusharhero",
+      "published": "2026-07-01T10:23:11Z"
     },
     {
       "source": "lobsters",
@@ -397,13 +409,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Creating a development sandbox with crosvm",
-      "url": "https://www.erat.org/crosvm.html",
-      "discuss_url": "https://lobste.rs/s/mml3sh",
-      "score": 3,
-      "comments": 0,
-      "author": "derat",
-      "published": "2026-07-02T02:29:04Z"
+      "title": "Unprivileged root via an out-of-bounds write in the FUSE readdir cache (CVE-2026-31694)",
+      "url": "https://cyberstan.co.uk/fuse-readdir-oob/",
+      "discuss_url": "https://lobste.rs/s/0kc445",
+      "score": 7,
+      "comments": 2,
+      "author": "fro",
+      "published": "2026-07-02T00:36:55Z"
     },
     {
       "source": "lobsters",
@@ -412,8 +424,8 @@
       "title": "Building a passive Ethernet tap",
       "url": "https://blog.lvmbdv.dev/posts/building-a-passive-ethernet-tap/",
       "discuss_url": "https://lobste.rs/s/qwk5vn",
-      "score": 28,
-      "comments": 18,
+      "score": 31,
+      "comments": 20,
       "author": "lvmbdv",
       "published": "2026-07-01T10:32:50Z"
     },
@@ -421,25 +433,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Unprivileged root via an out-of-bounds write in the FUSE readdir cache (CVE-2026-31694)",
-      "url": "https://cyberstan.co.uk/fuse-readdir-oob/",
-      "discuss_url": "https://lobste.rs/s/0kc445",
+      "title": "Creating a development sandbox with crosvm",
+      "url": "https://www.erat.org/crosvm.html",
+      "discuss_url": "https://lobste.rs/s/mml3sh",
       "score": 4,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-07-02T00:36:55Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "The Threat of Residential Proxies",
-      "url": "https://www.feistyduck.com/newsletter/issue_138_the_threat_of_residential_proxies",
-      "discuss_url": "https://lobste.rs/s/x8qug8",
-      "score": 36,
-      "comments": 17,
-      "author": "fanf",
-      "published": "2026-06-30T19:43:05Z"
+      "comments": 1,
+      "author": "derat",
+      "published": "2026-07-02T02:29:04Z"
     },
     {
       "source": "lobsters",
@@ -448,10 +448,22 @@
       "title": "Open Source as Infrastructure: Taking Roads and Bridges literally",
       "url": "https://nesbitt.io/2026/06/30/taking-roads-and-bridges-literally.html",
       "discuss_url": "https://lobste.rs/s/z2wzap",
-      "score": 6,
-      "comments": 1,
+      "score": 10,
+      "comments": 3,
       "author": "robey",
       "published": "2026-07-01T17:29:00Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "The Threat of Residential Proxies",
+      "url": "https://www.feistyduck.com/newsletter/issue_138_the_threat_of_residential_proxies",
+      "discuss_url": "https://lobste.rs/s/x8qug8",
+      "score": 37,
+      "comments": 19,
+      "author": "fanf",
+      "published": "2026-06-30T19:43:05Z"
     },
     {
       "source": "lobsters",
@@ -464,6 +476,18 @@
       "comments": 18,
       "author": "sloanelybutsurely",
       "published": "2026-06-30T13:12:27Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Try the `upki` preview for Ubuntu",
+      "url": "https://jnsgr.uk/2026/07/upki-preview-for-ubuntu/",
+      "discuss_url": "https://lobste.rs/s/981pzy",
+      "score": 2,
+      "comments": 0,
+      "author": "fanf",
+      "published": "2026-07-01T15:03:41Z"
     },
     {
       "source": "lobsters",
@@ -505,18 +529,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Try the `upki` preview for Ubuntu",
-      "url": "https://jnsgr.uk/2026/07/upki-preview-for-ubuntu/",
-      "discuss_url": "https://lobste.rs/s/981pzy",
-      "score": 1,
-      "comments": 0,
-      "author": "fanf",
-      "published": "2026-07-01T15:03:41Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Autocrypt v2 - Post-Quantum and Reliable Deletion",
       "url": "https://autocrypt2.org",
       "discuss_url": "https://lobste.rs/s/esy9xh",
@@ -544,7 +556,7 @@
       "title": "OpenFeature - Standardizing Feature Flagging for Everyone",
       "url": "https://openfeature.dev/",
       "discuss_url": "https://lobste.rs/s/4ttyrk",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "datboi",
       "published": "2026-07-02T02:31:35Z"
