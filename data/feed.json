@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T14:19:29Z",
+  "updated_at": "2026-07-02T19:35:51Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Investigating idiosyncrasies in AI fiction",
       "url": "https://arxiv.org/abs/2604.03136",
       "discuss_url": "https://lobste.rs/s/hjuopb",
-      "score": 1,
-      "comments": 1,
+      "score": 2,
+      "comments": 2,
       "author": "kehn",
       "published": "2026-07-02T12:02:29Z",
       "bullets": [
-        "RLHF and instruction tuning flatten LLM narrative styles, causing predictable tropes and repetitive vocabulary across models like GPT-4 and Claude.",
-        "Standard decoding methods (temperature, top-p) struggle to balance coherence with the high-entropy unpredictability required for engaging, non-formulaic creative writing.",
-        "AI fiction exhibits structural idiosyncrasies like rapid resolution, flat character arcs, and a systematic bias toward optimistic, moralistic endings."
+        "RLHF alignment and top-p sampling cause LLMs to overuse specific token sequences and formulaic tropes in narrative generation.",
+        "AI-generated fiction exhibits low perplexity and predictable probability distributions, making it easily detectable via tools like DetectGPT or Binoculars.",
+        "Long-form narrative incoherence stems from attention decay over large context windows, requiring specialized fine-tuning or retrieval-augmented generation (RAG)."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Tools or techniques for conveying mental models?",
       "url": "https://lobste.rs/s/ubl3i2",
       "discuss_url": "https://lobste.rs/s/ubl3i2",
-      "score": 2,
-      "comments": 0,
+      "score": 9,
+      "comments": 5,
       "author": "mw",
       "published": "2026-07-02T14:04:10Z",
       "bullets": [
-        "Exhaustive feature-catalog documentation fails to convey system mental models; engineers require interactive, experiential learning to grasp complex architectures.",
-        "Hands-on building, direct API usage, and informal whiteboarding are highly effective techniques for rapidly transferring technical mental models.",
-        "Intuitive developer tool design and well-architected interfaces naturally teach system behavior better than static, text-heavy documentation."
+        "What are tools or techniques which well for conveying and growing mental model?",
+        "Techniques I have seen which work well include: Building and maintaining the system (growing) Scribbling on napkins or gesturing next to someone with a furrowed brow (conveying) D…",
+        "Using a well designed tool or product directly can achieve both."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Preventing token theft",
       "url": "https://codon.org.uk/~mjg59/blog/p/preventing-token-theft/",
       "discuss_url": "https://lobste.rs/s/agwtde",
-      "score": 5,
-      "comments": 0,
+      "score": 14,
+      "comments": 2,
       "author": "Foxboron",
       "published": "2026-07-02T11:02:59Z",
       "bullets": [
-        "Implement OAuth 2.0 DPoP (RFC 9449) or mTLS to bind tokens to sender keys, neutralizing stolen token replay attacks.",
-        "Store session tokens in HttpOnly, Secure, SameSite cookies instead of localStorage to mitigate XSS-based token exfiltration.",
-        "Enforce short token lifespans, implement refresh token rotation, and monitor for IP or device fingerprint mismatches during validation."
+        "Preventing token theft",
+        "Trending on lobste.rs/security — 14 points, 2 comments.",
+        "Submitted by Foxboron on lobste.rs/security."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "datboi",
       "published": "2026-07-02T02:31:35Z",
       "bullets": [
-        "CNCF-incubating OpenFeature provides a standardized, vendor-agnostic API and SDK ecosystem to unify feature flagging across diverse runtimes.",
-        "Decouples application code from specific SaaS backends like LaunchDarkly, Split, or Flagsmith, mitigating proprietary vendor lock-in risks.",
-        "Enables DevOps teams to integrate flag evaluations with cloud-native monitoring tools via OpenTelemetry and standardized Kubernetes operators."
+        "OpenFeature - Standardizing Feature Flagging for Everyone",
+        "Trending on lobste.rs/devops — 3 points, 0 comments.",
+        "Submitted by datboi on lobste.rs/devops."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Woman's puzzling decline turns out to be cobalt poisoning from hip replacement",
-      "url": "https://arstechnica.com/health/2026/07/womans-puzzling-decline-turns-out-to-be-cobalt-poisoning-from-hip-replacement/",
-      "discuss_url": "https://arstechnica.com/health/2026/07/womans-puzzling-decline-turns-out-to-be-cobalt-poisoning-from-hip-replacement/",
+      "title": "FAA proposal: Supersonic airliners can fly over US cities if they’re quiet",
+      "url": "https://arstechnica.com/gadgets/2026/07/faa-proposal-supersonic-airliners-can-fly-over-us-cities-if-theyre-quiet/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/07/faa-proposal-supersonic-airliners-can-fly-over-us-cities-if-theyre-quiet/",
       "score": null,
       "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-07-02T14:04:28Z",
+      "author": "Jeremy Hsu",
+      "published": "2026-07-02T17:29:37Z",
       "bullets": [
-        "Doctors find grey fluid and dead, metallic flesh inside poisoned woman's hip.",
-        "Woman's puzzling decline turns out to be cobalt poisoning from hip replacement",
-        "Submitted by Beth Mole on arstechnica.com."
+        "New US rules would legalize quiet supersonic flights without the sonic boom.",
+        "FAA proposal: Supersonic airliners can fly over US cities if they’re quiet",
+        "Submitted by Jeremy Hsu on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Investigating idiosyncrasies in AI fiction",
       "url": "https://arxiv.org/abs/2604.03136",
       "discuss_url": "https://lobste.rs/s/hjuopb",
-      "score": 1,
-      "comments": 1,
+      "score": 2,
+      "comments": 2,
       "author": "kehn",
       "published": "2026-07-02T12:02:29Z"
     },
@@ -190,16 +190,100 @@
       "published": "2026-06-29T20:56:52Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "discuss_url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-01T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "discuss_url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-30T18:32:50Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Why Specialization Is Inevitable",
+      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "discuss_url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-30T14:39:11Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+      "url": "https://huggingface.co/blog/eee-community-evals",
+      "discuss_url": "https://huggingface.co/blog/eee-community-evals",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-30T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "DiScoFormer: One transformer for density and score, across distributions",
+      "url": "https://huggingface.co/blog/allenai/discoformer",
+      "discuss_url": "https://huggingface.co/blog/allenai/discoformer",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-29T18:02:48Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Run a vLLM Server on HF Jobs in One Command",
+      "url": "https://huggingface.co/blog/vllm-jobs",
+      "discuss_url": "https://huggingface.co/blog/vllm-jobs",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-06-26T00:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Tools or techniques for conveying mental models?",
       "url": "https://lobste.rs/s/ubl3i2",
       "discuss_url": "https://lobste.rs/s/ubl3i2",
-      "score": 2,
-      "comments": 0,
+      "score": 9,
+      "comments": 5,
       "author": "mw",
       "published": "2026-07-02T14:04:10Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Learn Clojure with interactive lessons and drills",
+      "url": "https://clojurefandango.com/",
+      "discuss_url": "https://lobste.rs/s/wdc6r1",
+      "score": 3,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-07-01T23:37:04Z"
     },
     {
       "source": "lobsters",
@@ -229,13 +313,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Learn Clojure with interactive lessons and drills",
-      "url": "https://clojurefandango.com/",
-      "discuss_url": "https://lobste.rs/s/wdc6r1",
-      "score": 1,
+      "title": "EmacsWiki Blog Carnival \"Programming\"",
+      "url": "https://plaindrops.de/blog/2026/emacscarnival2607/",
+      "discuss_url": "https://lobste.rs/s/cmeyvt",
+      "score": 2,
       "comments": 0,
-      "author": "Yogthos",
-      "published": "2026-07-01T23:37:04Z"
+      "author": "tusharhero",
+      "published": "2026-07-01T10:23:11Z"
     },
     {
       "source": "lobsters",
@@ -253,18 +337,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "EmacsWiki Blog Carnival \"Programming\"",
-      "url": "https://plaindrops.de/blog/2026/emacscarnival2607/",
-      "discuss_url": "https://lobste.rs/s/cmeyvt",
-      "score": 1,
-      "comments": 0,
-      "author": "tusharhero",
-      "published": "2026-07-01T10:23:11Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "U-00DC-Sprache: \"Ü\" programming language",
       "url": "https://github.com/Panzerschrek/U-00DC-Sprache",
       "discuss_url": "https://lobste.rs/s/smgkca",
@@ -272,6 +344,18 @@
       "comments": 0,
       "author": "jeanthomas",
       "published": "2026-06-29T21:03:40Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "How GitHub used secret scanning to reach inbox zero",
+      "url": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
+      "discuss_url": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-07-02T16:00:00Z"
     },
     {
       "source": "rss",
@@ -322,26 +406,14 @@
       "published": "2026-06-29T16:10:20Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "GitHub and UNDP team up to advance development priorities in Ghana with open source",
-      "url": "https://github.blog/open-source/social-impact/github-and-undp-team-up-to-advance-development-priorities-in-ghana-with-open-source/",
-      "discuss_url": "https://github.blog/open-source/social-impact/github-and-undp-team-up-to-advance-development-priorities-in-ghana-with-open-source/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-06-26T16:53:57Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Preventing token theft",
       "url": "https://codon.org.uk/~mjg59/blog/p/preventing-token-theft/",
       "discuss_url": "https://lobste.rs/s/agwtde",
-      "score": 5,
-      "comments": 0,
+      "score": 14,
+      "comments": 2,
       "author": "Foxboron",
       "published": "2026-07-02T11:02:59Z"
     },
@@ -352,10 +424,22 @@
       "title": "Building a passive Ethernet tap",
       "url": "https://blog.lvmbdv.dev/posts/building-a-passive-ethernet-tap/",
       "discuss_url": "https://lobste.rs/s/qwk5vn",
-      "score": 39,
-      "comments": 21,
+      "score": 42,
+      "comments": 23,
       "author": "lvmbdv",
       "published": "2026-07-01T10:32:50Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Creating a development sandbox with crosvm",
+      "url": "https://www.erat.org/crosvm.html",
+      "discuss_url": "https://lobste.rs/s/mml3sh",
+      "score": 14,
+      "comments": 2,
+      "author": "derat",
+      "published": "2026-07-02T02:29:04Z"
     },
     {
       "source": "lobsters",
@@ -365,21 +449,9 @@
       "url": "https://cyberstan.co.uk/fuse-readdir-oob/",
       "discuss_url": "https://lobste.rs/s/0kc445",
       "score": 9,
-      "comments": 4,
+      "comments": 8,
       "author": "fro",
       "published": "2026-07-02T00:36:55Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Creating a development sandbox with crosvm",
-      "url": "https://www.erat.org/crosvm.html",
-      "discuss_url": "https://lobste.rs/s/mml3sh",
-      "score": 8,
-      "comments": 1,
-      "author": "derat",
-      "published": "2026-07-02T02:29:04Z"
     },
     {
       "source": "lobsters",
@@ -388,7 +460,7 @@
       "title": "Open Source as Infrastructure: Taking Roads and Bridges literally",
       "url": "https://nesbitt.io/2026/06/30/taking-roads-and-bridges-literally.html",
       "discuss_url": "https://lobste.rs/s/z2wzap",
-      "score": 14,
+      "score": 15,
       "comments": 4,
       "author": "robey",
       "published": "2026-07-01T17:29:00Z"
@@ -400,8 +472,8 @@
       "title": "The Threat of Residential Proxies",
       "url": "https://www.feistyduck.com/newsletter/issue_138_the_threat_of_residential_proxies",
       "discuss_url": "https://lobste.rs/s/x8qug8",
-      "score": 37,
-      "comments": 19,
+      "score": 38,
+      "comments": 20,
       "author": "fanf",
       "published": "2026-06-30T19:43:05Z"
     },
@@ -505,6 +577,30 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "Amazon EC2 Dedicated Hosts now support AMD SEV-SNP",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-02T17:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Config now supports 8 new resource types",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-new-resource-types",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-new-resource-types",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-02T15:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon Bedrock AgentCore increases default runtime quota limits",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-increases-default-runtime-quota-limits/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-increases-default-runtime-quota-limits/",
@@ -524,18 +620,6 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-07-01T21:30:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "ECS Service Connect now supports Zone-Aware routing",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-01T21:28:00Z"
     },
     {
       "source": "rss",
@@ -577,6 +661,18 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "Amazon ECS now supports configurable deployment circuit breaker settings",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-01T17:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon RDS announces Cross-Region Automated Backups in four additional AWS Regions",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-cross-region-automated-backups-additional-aws-regions/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-cross-region-automated-backups-additional-aws-regions/",
@@ -599,33 +695,117 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon ECS now supports configurable deployment circuit breaker settings",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "FAA proposal: Supersonic airliners can fly over US cities if they’re quiet",
+      "url": "https://arstechnica.com/gadgets/2026/07/faa-proposal-supersonic-airliners-can-fly-over-us-cities-if-theyre-quiet/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/07/faa-proposal-supersonic-airliners-can-fly-over-us-cities-if-theyre-quiet/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-01T17:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon GuardDuty adds sensitive file modification threat detections",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-guardduty-sfm/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-guardduty-sfm/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-01T16:58:00Z"
+      "author": "Jeremy Hsu",
+      "published": "2026-07-02T17:29:37Z"
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Woman's puzzling decline turns out to be cobalt poisoning from hip replacement",
+      "title": "Ars Live recap: When are the big rockets NASA desperately needs going to be ready?",
+      "url": "https://arstechnica.com/space/2026/07/ars-live-recap-when-are-the-big-rockets-nasa-desperately-needs-going-to-be-ready/",
+      "discuss_url": "https://arstechnica.com/space/2026/07/ars-live-recap-when-are-the-big-rockets-nasa-desperately-needs-going-to-be-ready/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-07-02T16:46:47Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Plex debuts 5-year membership pass for $250",
+      "url": "https://arstechnica.com/gadgets/2026/07/250-used-to-get-you-a-lifetime-plex-pass-now-you-get-a-five-year-subscription/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/07/250-used-to-get-you-a-lifetime-plex-pass-now-you-get-a-five-year-subscription/",
+      "score": null,
+      "comments": null,
+      "author": "Scharon Harding",
+      "published": "2026-07-02T16:35:59Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Africa CDC confirms Marburg case in Uganda as Ebola outbreak rages",
+      "url": "https://arstechnica.com/health/2026/07/africa-cdc-confirms-marburg-case-in-uganda-as-ebola-outbreak-rages/",
+      "discuss_url": "https://arstechnica.com/health/2026/07/africa-cdc-confirms-marburg-case-in-uganda-as-ebola-outbreak-rages/",
+      "score": null,
+      "comments": null,
+      "author": "Beth Mole",
+      "published": "2026-07-02T16:30:37Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Artificial cell manages a few rounds of cell division",
+      "url": "https://arstechnica.com/science/2026/07/artificial-cell-manages-a-few-rounds-of-cell-division/",
+      "discuss_url": "https://arstechnica.com/science/2026/07/artificial-cell-manages-a-few-rounds-of-cell-division/",
+      "score": null,
+      "comments": null,
+      "author": "John Timmer",
+      "published": "2026-07-02T16:21:23Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Google loses long-running appeal of record EU fine, will have to cough up $4.7 billion",
+      "url": "https://arstechnica.com/gadgets/2026/07/google-loses-long-running-appeal-of-record-eu-fine-will-have-to-cough-up-4-7-billion/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/07/google-loses-long-running-appeal-of-record-eu-fine-will-have-to-cough-up-4-7-billion/",
+      "score": null,
+      "comments": null,
+      "author": "Ryan Whitwam",
+      "published": "2026-07-02T16:15:41Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Trump gets OpenAI to offer US 5% stake, far lower than Sanders’ target",
+      "url": "https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/",
+      "score": null,
+      "comments": null,
+      "author": "Ashley Belanger",
+      "published": "2026-07-02T15:12:25Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Musk’s X poses “serious risk to Americans’ privacy,” advocates warn FTC",
+      "url": "https://arstechnica.com/tech-policy/2026/07/musks-x-poses-serious-risk-to-americans-privacy-advocates-warn-ftc/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/musks-x-poses-serious-risk-to-americans-privacy-advocates-warn-ftc/",
+      "score": null,
+      "comments": null,
+      "author": "Ashley Belanger",
+      "published": "2026-07-02T14:39:17Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Tesla sales increase by 25% in Q2 2026",
+      "url": "https://arstechnica.com/cars/2026/07/tesla-sales-increase-by-25-in-q2-2026/",
+      "discuss_url": "https://arstechnica.com/cars/2026/07/tesla-sales-increase-by-25-in-q2-2026/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-07-02T14:11:07Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Woman's hip replacement disintegrates, causing severe metal poisoning",
       "url": "https://arstechnica.com/health/2026/07/womans-puzzling-decline-turns-out-to-be-cobalt-poisoning-from-hip-replacement/",
       "discuss_url": "https://arstechnica.com/health/2026/07/womans-puzzling-decline-turns-out-to-be-cobalt-poisoning-from-hip-replacement/",
       "score": null,
@@ -656,114 +836,6 @@
       "comments": null,
       "author": "John Timmer",
       "published": "2026-07-02T10:00:27Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "T-Mobile moving tens of thousands of virtual machines off VMware amid lawsuit",
-      "url": "https://arstechnica.com/information-technology/2026/07/t-mobile-moving-tens-of-thousands-of-virtual-machines-off-vmware-amid-lawsuit/",
-      "discuss_url": "https://arstechnica.com/information-technology/2026/07/t-mobile-moving-tens-of-thousands-of-virtual-machines-off-vmware-amid-lawsuit/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-07-01T21:21:21Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "NASA chief praises progress Blue Origin is making after launch failure",
-      "url": "https://arstechnica.com/space/2026/07/nasa-chief-praises-progress-blue-origin-is-making-after-launch-failure/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/nasa-chief-praises-progress-blue-origin-is-making-after-launch-failure/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-07-01T19:57:36Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "US home battery installations hit record high on rising electricity costs",
-      "url": "https://arstechnica.com/science/2026/07/us-home-battery-installations-hit-record-high-in-early-2026/",
-      "discuss_url": "https://arstechnica.com/science/2026/07/us-home-battery-installations-hit-record-high-in-early-2026/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-07-01T19:11:15Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Superworms could replace beetles for cleaning skeletal remains",
-      "url": "https://arstechnica.com/science/2026/07/museums-could-use-ravenous-superworms-to-clean-skeletons/",
-      "discuss_url": "https://arstechnica.com/science/2026/07/museums-could-use-ravenous-superworms-to-clean-skeletons/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-07-01T18:59:21Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Sony announces end of PlayStation discs, parts of digital store in the same day",
-      "url": "https://arstechnica.com/gaming/2026/07/sony-will-stop-making-physical-copies-of-playstation-games-in-2028/",
-      "discuss_url": "https://arstechnica.com/gaming/2026/07/sony-will-stop-making-physical-copies-of-playstation-games-in-2028/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-07-01T18:41:49Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "A good little EV you won't be able to buy soon: The Volvo EX30 Cross Country",
-      "url": "https://arstechnica.com/cars/2026/07/the-volvo-ex30-cross-country-review-a-victim-of-geopolitics/",
-      "discuss_url": "https://arstechnica.com/cars/2026/07/the-volvo-ex30-cross-country-review-a-victim-of-geopolitics/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-07-01T18:24:04Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Ithaca's king defies the gods in final The Odyssey trailer",
-      "url": "https://arstechnica.com/culture/2026/07/ithacas-king-defies-the-gods-in-final-the-odyssey-trailer/",
-      "discuss_url": "https://arstechnica.com/culture/2026/07/ithacas-king-defies-the-gods-in-final-the-odyssey-trailer/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-07-01T16:58:30Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "After spooking Trump into safety testing, Anthropic AI models get global release",
-      "url": "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-07-01T16:44:18Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "NASA inspector general suggests Boeing's Starliner will now be a decade late",
-      "url": "https://arstechnica.com/space/2026/07/nasa-inspector-general-suggests-boeings-starliner-will-now-be-a-decade-late/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/nasa-inspector-general-suggests-boeings-starliner-will-now-be-a-decade-late/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-07-01T16:11:39Z"
     }
   ]
 }
