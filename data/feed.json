@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T13:42:43Z",
+  "updated_at": "2026-07-04T19:20:05Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Investigating idiosyncrasies in AI fiction",
       "url": "https://arxiv.org/abs/2604.03136",
       "discuss_url": "https://lobste.rs/s/hjuopb",
-      "score": 3,
+      "score": 4,
       "comments": 2,
       "author": "kehn",
       "published": "2026-07-02T12:02:29Z",
       "bullets": [
-        "LLMs exhibit distinct stylistic signatures, repetitive vocabulary (like 'delve'), and predictable narrative structures shaped by RLHF alignment.",
-        "Statistical analysis of token distributions and n-gram frequencies can reliably distinguish AI-generated stories from human-authored creative writing.",
-        "Mitigating these artifacts requires custom fine-tuning, diverse training corpora, and strategic sampling parameter adjustments like temperature and top-p."
+        "LLMs like GPT-4 exhibit distinct linguistic fingerprints, overusing specific vocabulary like 'delve' and predictable narrative structures in creative generation.",
+        "RLHF alignment and pre-training data biases enforce homogenized writing styles, stripping away the organic variance found in human-authored fiction.",
+        "Developers mitigate these tropes by tuning temperature parameters, applying negative prompting, or utilizing diverse, non-aligned open-weight models like Llama-3."
       ]
     },
     {
@@ -55,30 +55,30 @@
       "url": "https://lobste.rs/s/rhgehk",
       "discuss_url": "https://lobste.rs/s/rhgehk",
       "score": 16,
-      "comments": 38,
+      "comments": 41,
       "author": "caius",
       "published": "2026-07-03T09:57:25Z",
       "bullets": [
-        "Engineers use weekends to build side projects, experimenting with languages like Rust, Zig, or Go, and self-hosting personal infrastructure.",
-        "Common activities include refactoring legacy personal code, configuring CI/CD pipelines, and evaluating new frameworks or database systems.",
-        "Industry professionals emphasize that intentional rest and avoiding screens is vital to prevent burnout and maintain long-term technical productivity."
+        "Use weekends to explore non-work tech stack variations like Zig, Rust, or local LLMs to expand architectural toolkits.",
+        "Maintain home labs using NixOS, Proxmox, or Docker to safely test deployment, networking, and virtualization patterns.",
+        "Prioritize cognitive recovery and zero-screen rest periods to mitigate developer burnout and maintain long-term system design capabilities."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Arbitrary code execution breaking sandboxes in KDE Plasma",
-      "url": "https://blog.kimiblock.top/2026/07/01/arbitrary-code-execution-in-kde-plasma/",
-      "discuss_url": "https://lobste.rs/s/ovcwkm",
-      "score": 38,
-      "comments": 15,
-      "author": "ecksdee",
-      "published": "2026-07-03T02:39:28Z",
+      "title": "Bad Epoll (CVE-2026-46242)",
+      "url": "https://github.com/J-jaeyoung/bad-epoll",
+      "discuss_url": "https://lobste.rs/s/drf6my",
+      "score": 1,
+      "comments": 1,
+      "author": "dzwdz",
+      "published": "2026-07-04T18:40:12Z",
       "bullets": [
-        "KDE Plasma KIO vulnerabilities allow sandboxed applications to execute arbitrary host commands by exploiting weaknesses in DBus IPC interfaces.",
-        "This sandbox escape bypasses Flatpak and Snap security boundaries, emphasizing the danger of unfiltered portal communication between guest and host.",
-        "Defenders should restrict access to vulnerable DBus services and monitor desktop environment IPC calls for unauthorized execution attempts."
+        "CVE-2026-46242 identifies a security vulnerability in the Linux kernel's epoll subsystem, critical for high-performance network I/O multiplexing.",
+        "Typical epoll exploits trigger use-after-free or race conditions, posing severe risks of local privilege escalation.",
+        "Operators must patch Linux kernels promptly, prioritizing high-concurrency production servers and container hosts."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "I Don't Maintain My Homelab",
       "url": "https://cleberg.net/blog/homelab-maintenance.html",
       "discuss_url": "https://lobste.rs/s/fx5e0f",
-      "score": 26,
-      "comments": 17,
+      "score": 28,
+      "comments": 18,
       "author": "confusedalex",
       "published": "2026-07-03T23:23:43Z",
       "bullets": [
-        "Leverage declarative OS frameworks like NixOS or Talos Linux to enable automated, reproducible rebuilds without manual drift remediation.",
-        "Deploy automated dependency updates via Renovate or Dependabot to patch self-hosted container images without manual intervention.",
-        "Adopt Proxmox or K3s as lightweight, API-driven virtualization layers to treat homelab nodes as disposable, stateless cattle."
+        "Use declarative tools like NixOS or Talos Linux to ensure reproducible, self-healing, and drift-free homelab configurations.",
+        "Implement GitOps with Flux or ArgoCD alongside Renovate to automate container updates and infrastructure deployments without manual intervention.",
+        "Minimize local state and leverage Tailscale for secure, config-free networking, reducing the overhead of manual firewall and VPN management."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "When the ability to smell goes away",
-      "url": "https://arstechnica.com/science/2026/07/when-the-ability-to-smell-goes-away/",
-      "discuss_url": "https://arstechnica.com/science/2026/07/when-the-ability-to-smell-goes-away/",
+      "title": "Review: Supergirl is not the disaster its low box office suggests",
+      "url": "https://arstechnica.com/culture/2026/07/review-supergirl-is-not-the-disaster-its-low-box-office-suggests/",
+      "discuss_url": "https://arstechnica.com/culture/2026/07/review-supergirl-is-not-the-disaster-its-low-box-office-suggests/",
       "score": null,
       "comments": null,
-      "author": "Victoria Clayton, Knowable Magazine",
-      "published": "2026-07-04T11:04:31Z",
+      "author": "Jennifer Ouellette",
+      "published": "2026-07-04T16:49:14Z",
       "bullets": [
-        "Olfactory loss (anosmia) serves as a critical early diagnostic biomarker for neurodegenerative disorders like Parkinson's and Alzheimer's diseases.",
-        "Biotech startups leverage olfactory testing datasets and machine learning to predict cognitive decline years before clinical symptoms manifest.",
-        "The olfactory pathway provides a direct anatomical window to brain pathology, making sensory monitoring vital for neurological preventative health."
+        "The film struggles not due to inherent poor quality, but because of severe market oversaturation in the superhero genre.",
+        "Achieving 'good' status is no longer sufficient for financial viability when competing in crowded, mature entertainment markets.",
+        "High-budget media assets require exceptional execution, not just brand recognition, to overcome negative box office trends and audience fatigue."
       ]
     }
   ],
@@ -124,7 +124,7 @@
       "title": "Investigating idiosyncrasies in AI fiction",
       "url": "https://arxiv.org/abs/2604.03136",
       "discuss_url": "https://lobste.rs/s/hjuopb",
-      "score": 3,
+      "score": 4,
       "comments": 2,
       "author": "kehn",
       "published": "2026-07-02T12:02:29Z"
@@ -217,18 +217,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "OpenClaw just launched an official app for iPhone",
-      "url": "https://9to5mac.com/2026/06/29/openclaw-just-launched-an-official-app-for-iphone-details-here/",
-      "discuss_url": "https://lobste.rs/s/sohna2",
-      "score": 0,
-      "comments": 0,
-      "author": "ecksdee",
-      "published": "2026-07-04T06:13:30Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "The Control Plane Was the Point: Revisiting autofz in the LLM Era",
       "url": "https://yfu.tw/blog/en/autofz-revisited/",
       "discuss_url": "https://lobste.rs/s/gwxqmh",
@@ -245,7 +233,7 @@
       "url": "https://lobste.rs/s/rhgehk",
       "discuss_url": "https://lobste.rs/s/rhgehk",
       "score": 16,
-      "comments": 38,
+      "comments": 41,
       "author": "caius",
       "published": "2026-07-03T09:57:25Z"
     },
@@ -277,6 +265,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "On intent of Code",
+      "url": "https://why.degree/on-intent/",
+      "discuss_url": "https://lobste.rs/s/vb29tc",
+      "score": 1,
+      "comments": 0,
+      "author": "xSavitar",
+      "published": "2026-07-04T15:18:45Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Learn Clojure with interactive lessons and drills",
       "url": "https://clojurefandango.com/",
       "discuss_url": "https://lobste.rs/s/wdc6r1",
@@ -292,7 +292,7 @@
       "title": "More Money For Better Open-Source Software (2015)",
       "url": "https://marijnhaverbeke.nl/blog/sustainable-maintenance.html",
       "discuss_url": "https://lobste.rs/s/4ro47c",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "wofo",
       "published": "2026-07-03T12:29:35Z"
@@ -304,7 +304,7 @@
       "title": "EmacsWiki Blog Carnival \"Programming\"",
       "url": "https://plaindrops.de/blog/2026/emacscarnival2607/",
       "discuss_url": "https://lobste.rs/s/cmeyvt",
-      "score": 3,
+      "score": 4,
       "comments": 0,
       "author": "tusharhero",
       "published": "2026-07-01T10:23:11Z"
@@ -370,16 +370,28 @@
       "published": "2026-06-29T17:25:25Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Inside the Advisory Database and what happens when vulnerability volume breaks records",
-      "url": "https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records/",
-      "discuss_url": "https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-06-29T16:10:20Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Bad Epoll (CVE-2026-46242)",
+      "url": "https://github.com/J-jaeyoung/bad-epoll",
+      "discuss_url": "https://lobste.rs/s/drf6my",
+      "score": 1,
+      "comments": 1,
+      "author": "dzwdz",
+      "published": "2026-07-04T18:40:12Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "SecretSpec 0.13: SDKs for Python, Node.js, Go, Ruby, and Haskell",
+      "url": "https://secretspec.dev/blog/secretspec-0-13-sdks/",
+      "discuss_url": "https://lobste.rs/s/5r5ebh",
+      "score": 3,
+      "comments": 0,
+      "author": "alurm",
+      "published": "2026-07-04T16:21:03Z"
     },
     {
       "source": "lobsters",
@@ -388,7 +400,7 @@
       "title": "Arbitrary code execution breaking sandboxes in KDE Plasma",
       "url": "https://blog.kimiblock.top/2026/07/01/arbitrary-code-execution-in-kde-plasma/",
       "discuss_url": "https://lobste.rs/s/ovcwkm",
-      "score": 38,
+      "score": 41,
       "comments": 15,
       "author": "ecksdee",
       "published": "2026-07-03T02:39:28Z"
@@ -400,7 +412,7 @@
       "title": "Espionage Against the European Parliament: Member of Committee Investigating Spyware Hacked with Pegasus",
       "url": "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/",
       "discuss_url": "https://lobste.rs/s/xwsfs3",
-      "score": 12,
+      "score": 19,
       "comments": 0,
       "author": "rslabbert",
       "published": "2026-07-03T22:22:40Z"
@@ -457,25 +469,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "How OpenSSH implements privilege separation",
-      "url": "https://github.com/openssh/openssh-portable/blob/master/README.privsep",
-      "discuss_url": "https://lobste.rs/s/kfavsp",
-      "score": 5,
-      "comments": 1,
-      "author": "rrampage",
-      "published": "2026-07-03T06:53:13Z"
+      "title": "Unprivileged root via an out-of-bounds write in the FUSE readdir cache (CVE-2026-31694)",
+      "url": "https://cyberstan.co.uk/fuse-readdir-oob/",
+      "discuss_url": "https://lobste.rs/s/0kc445",
+      "score": 11,
+      "comments": 8,
+      "author": "fro",
+      "published": "2026-07-02T00:36:55Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Unprivileged root via an out-of-bounds write in the FUSE readdir cache (CVE-2026-31694)",
-      "url": "https://cyberstan.co.uk/fuse-readdir-oob/",
-      "discuss_url": "https://lobste.rs/s/0kc445",
-      "score": 10,
-      "comments": 8,
-      "author": "fro",
-      "published": "2026-07-02T00:36:55Z"
+      "title": "The pandemic of incomplete OpenSSL error handling",
+      "url": "https://blog.jak-linux.org/2026/07/03/openssl-pandemic/",
+      "discuss_url": "https://lobste.rs/s/xqqamf",
+      "score": 3,
+      "comments": 0,
+      "author": "gioele",
+      "published": "2026-07-04T00:12:39Z"
     },
     {
       "source": "lobsters",
@@ -493,37 +505,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Dissecting and Exploiting Linux LPE Variant: DirtyClone (CVE-2026-43503)",
-      "url": "https://research.jfrog.com/post/dissecting-and-exploiting-linux-lpe-variant-dirtyclone-cve-2026-43503/",
-      "discuss_url": "https://lobste.rs/s/adgyhb",
-      "score": 2,
+      "title": "How OpenSSH implements privilege separation",
+      "url": "https://github.com/openssh/openssh-portable/blob/master/README.privsep",
+      "discuss_url": "https://lobste.rs/s/kfavsp",
+      "score": 5,
       "comments": 1,
-      "author": "fro",
-      "published": "2026-07-03T17:01:38Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "The pandemic of incomplete OpenSSL error handling",
-      "url": "https://blog.jak-linux.org/2026/07/03/openssl-pandemic/",
-      "discuss_url": "https://lobste.rs/s/xqqamf",
-      "score": 2,
-      "comments": 0,
-      "author": "gioele",
-      "published": "2026-07-04T00:12:39Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Newly discovered PamStealer isn't your typical macOS malware",
-      "url": "https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/",
-      "discuss_url": "https://lobste.rs/s/q4m3fa",
-      "score": 7,
-      "comments": 1,
-      "author": "hoistbypetard",
-      "published": "2026-07-02T20:16:47Z"
+      "author": "rrampage",
+      "published": "2026-07-03T06:53:13Z"
     },
     {
       "source": "lobsters",
@@ -532,8 +520,8 @@
       "title": "I Don't Maintain My Homelab",
       "url": "https://cleberg.net/blog/homelab-maintenance.html",
       "discuss_url": "https://lobste.rs/s/fx5e0f",
-      "score": 26,
-      "comments": 17,
+      "score": 28,
+      "comments": 18,
       "author": "confusedalex",
       "published": "2026-07-03T23:23:43Z"
     },
@@ -544,8 +532,8 @@
       "title": "Clickhouse is winning the Observability Wars",
       "url": "https://matduggan.com/clickhouse-is-winning-the-observability-wars/",
       "discuss_url": "https://lobste.rs/s/asi79o",
-      "score": 67,
-      "comments": 23,
+      "score": 74,
+      "comments": 27,
       "author": "siddhartha_golu",
       "published": "2026-07-03T05:25:28Z"
     },
@@ -668,6 +656,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-07-01T20:48:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Review: Supergirl is not the disaster its low box office suggests",
+      "url": "https://arstechnica.com/culture/2026/07/review-supergirl-is-not-the-disaster-its-low-box-office-suggests/",
+      "discuss_url": "https://arstechnica.com/culture/2026/07/review-supergirl-is-not-the-disaster-its-low-box-office-suggests/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-07-04T16:49:14Z"
     },
     {
       "source": "rss",
@@ -800,18 +800,6 @@
       "comments": null,
       "author": "Beth Mole",
       "published": "2026-07-02T16:30:37Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Artificial cell manages a few rounds of cell division",
-      "url": "https://arstechnica.com/science/2026/07/artificial-cell-manages-a-few-rounds-of-cell-division/",
-      "discuss_url": "https://arstechnica.com/science/2026/07/artificial-cell-manages-a-few-rounds-of-cell-division/",
-      "score": null,
-      "comments": null,
-      "author": "John Timmer",
-      "published": "2026-07-02T16:21:23Z"
     }
   ]
 }
