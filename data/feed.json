@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T03:56:01Z",
+  "updated_at": "2026-07-06T10:55:20Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -42,43 +42,43 @@
       "author": "kehn",
       "published": "2026-07-02T12:02:29Z",
       "bullets": [
-        "LLMs generate highly formulaic fiction, overusing specific vocabulary like 'delve' and 'tapestry' due to RLHF alignment and token probability biases.",
-        "Story generation suffers from predictable structural tropes, highlighting the limitations of current temperature, top-k, and top-p sampling methods.",
-        "Identifying these narrative idiosyncrasies helps developers build better synthetic text detectors and evaluate LLM creativity and stylistic diversity."
+        "LLM-generated fiction exhibits distinct stylistic tics and repetitive vocabulary (e.g., 'tapestry', 'testament') due to RLHF biases and training data constraints.",
+        "Practitioners can leverage these structural and stylistic idiosyncrasies to develop highly accurate stylometric classifiers for synthetic text detection.",
+        "Overcoming these narrative biases requires targeted fine-tuning, system prompt engineering, or temperature adjustments to bypass default model alignment constraints."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "If you’re a button, you have one job",
-      "url": "https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/",
-      "discuss_url": "https://lobste.rs/s/zhizsf",
-      "score": 63,
-      "comments": 26,
-      "author": "noncrab",
-      "published": "2026-07-05T08:24:06Z",
+      "title": "Jam Programming Language",
+      "url": "https://rapha.land/jam-programming-language/",
+      "discuss_url": "https://lobste.rs/s/r0xrm0",
+      "score": 10,
+      "comments": 1,
+      "author": "bittermandel",
+      "published": "2026-07-06T08:22:08Z",
       "bullets": [
-        "Use semantic HTML <button> elements instead of <div> tags to inherit native keyboard focus and ARIA accessibility roles automatically.",
-        "Ensure interactive elements support standard keyboard triggers like Space and Enter, matching native browser-level click behaviors.",
-        "Prevent multi-click race conditions in asynchronous operations by managing state and disabling buttons without breaking screen reader focus."
+        "Jam introduces a novel syntax optimizing for developer ergonomics, leveraging static typing to ensure memory safety and compilation efficiency.",
+        "The compiler architecture targets high-performance execution, potentially emitting optimized C code or integrating directly with LLVM-based backends.",
+        "Evaluated as an alternative for systems utility development, competing with Go and Rust in memory footprint and startup times."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Bad Epoll (CVE-2026-46242)",
-      "url": "https://github.com/J-jaeyoung/bad-epoll",
-      "discuss_url": "https://lobste.rs/s/drf6my",
-      "score": 51,
-      "comments": 15,
-      "author": "dzwdz",
-      "published": "2026-07-04T18:40:12Z",
+      "title": "Konform Browser 140.12.0-103",
+      "url": "https://codeberg.org/konform-browser/source/releases/tag/140.12.0.103",
+      "discuss_url": "https://lobste.rs/s/eytr4y",
+      "score": 4,
+      "comments": 1,
+      "author": "commanderk",
+      "published": "2026-07-06T09:22:35Z",
       "bullets": [
-        "Bad Epoll (CVE-2026-46242)",
-        "Trending on lobste.rs/security — 51 points, 15 comments.",
-        "Submitted by dzwdz on lobste.rs/security."
+        "Konform Browser 140.12.0-103",
+        "Trending on lobste.rs/security — 4 points, 1 comments.",
+        "Submitted by commanderk on lobste.rs/security."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "confusedalex",
       "published": "2026-07-03T23:23:43Z",
       "bullets": [
-        "I Don't Maintain My Homelab",
-        "Trending on lobste.rs/devops — 38 points, 19 comments.",
-        "Submitted by confusedalex on lobste.rs/devops."
+        "Use declarative operating systems like NixOS or Talos Linux with GitOps (Flux/ArgoCD) to eliminate manual patching and configuration drift.",
+        "Automate container image updates using Renovate or Watchtower alongside automated health checks to ensure continuous deployment without manual intervention.",
+        "Apply IaC via Terraform and Ansible, paired with Restic and Backblaze B2, to make homelab disaster recovery fast and touchless."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Liza Gross, Inside Climate News",
       "published": "2026-07-05T11:05:22Z",
       "bullets": [
-        "Chemicals from accidents that injured or killed people increased by nearly 50 percent in recent years.",
-        "Chemical accidents rise as Trump administration proposes weakening safety rules",
-        "Submitted by Liza Gross, Inside Climate News on arstechnica.com."
+        "Chemical releases from accidents causing injury or death increased by nearly 50 percent in recent years.",
+        "The Trump administration proposed weakening safety rules designed to prevent chemical accidents.",
+        "The rise in chemical accidents occurs alongside federal proposals to weaken safety regulations."
       ]
     }
   ],
@@ -128,6 +128,18 @@
       "comments": 2,
       "author": "kehn",
       "published": "2026-07-02T12:02:29Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "🤗 Kernels: Major Updates",
+      "url": "https://huggingface.co/blog/revamped-kernels",
+      "discuss_url": "https://huggingface.co/blog/revamped-kernels",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-06T00:00:00Z"
     },
     {
       "source": "rss",
@@ -191,15 +203,27 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "The Control Plane Was the Point: Revisiting autofz in the LLM Era",
-      "url": "https://yfu.tw/blog/en/autofz-revisited/",
-      "discuss_url": "https://lobste.rs/s/gwxqmh",
-      "score": 0,
-      "comments": 0,
-      "author": "yufu",
-      "published": "2026-07-02T05:19:10Z"
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Jam Programming Language",
+      "url": "https://rapha.land/jam-programming-language/",
+      "discuss_url": "https://lobste.rs/s/r0xrm0",
+      "score": 10,
+      "comments": 1,
+      "author": "bittermandel",
+      "published": "2026-07-06T08:22:08Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/7p1a5u",
+      "discuss_url": "https://lobste.rs/s/7p1a5u",
+      "score": 3,
+      "comments": 2,
+      "author": "caius",
+      "published": "2026-07-06T07:43:07Z"
     },
     {
       "source": "lobsters",
@@ -208,8 +232,8 @@
       "title": "If you’re a button, you have one job",
       "url": "https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/",
       "discuss_url": "https://lobste.rs/s/zhizsf",
-      "score": 63,
-      "comments": 26,
+      "score": 82,
+      "comments": 34,
       "author": "noncrab",
       "published": "2026-07-05T08:24:06Z"
     },
@@ -220,8 +244,8 @@
       "title": "ABI vs. API (2004)",
       "url": "https://lists.debian.org/debian-user/2004/02/msg00648.html",
       "discuss_url": "https://lobste.rs/s/k9yyfs",
-      "score": 27,
-      "comments": 7,
+      "score": 30,
+      "comments": 9,
       "author": "dhruvp",
       "published": "2026-07-05T10:00:49Z"
     },
@@ -232,7 +256,7 @@
       "title": "Embedding information in disorder",
       "url": "https://thoughts.hmmz.org/2026-07-05.html",
       "discuss_url": "https://lobste.rs/s/ssvgqs",
-      "score": 9,
+      "score": 19,
       "comments": 0,
       "author": "dw",
       "published": "2026-07-05T19:47:30Z"
@@ -322,28 +346,28 @@
       "published": "2026-07-01T15:59:29Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "How GitHub maintains compliance for open source dependencies",
-      "url": "https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies/",
-      "discuss_url": "https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-06-30T17:28:16Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Konform Browser 140.12.0-103",
+      "url": "https://codeberg.org/konform-browser/source/releases/tag/140.12.0.103",
+      "discuss_url": "https://lobste.rs/s/eytr4y",
+      "score": 4,
+      "comments": 1,
+      "author": "commanderk",
+      "published": "2026-07-06T09:22:35Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Highlights from Git 2.55",
-      "url": "https://github.blog/open-source/git/highlights-from-git-2-55/",
-      "discuss_url": "https://github.blog/open-source/git/highlights-from-git-2-55/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-06-29T17:25:25Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Web Security docs on MDN",
+      "url": "https://openwebdocs.org/content/posts/security-docs-sovereign-tech-agency/",
+      "discuss_url": "https://lobste.rs/s/b3elwj",
+      "score": 5,
+      "comments": 0,
+      "author": "freddyb",
+      "published": "2026-07-06T07:40:41Z"
     },
     {
       "source": "lobsters",
@@ -352,8 +376,8 @@
       "title": "Bad Epoll (CVE-2026-46242)",
       "url": "https://github.com/J-jaeyoung/bad-epoll",
       "discuss_url": "https://lobste.rs/s/drf6my",
-      "score": 51,
-      "comments": 15,
+      "score": 53,
+      "comments": 16,
       "author": "dzwdz",
       "published": "2026-07-04T18:40:12Z"
     },
@@ -364,7 +388,7 @@
       "title": "Bench Press: Leaking Text Nodes with CSS",
       "url": "https://blog.pspaul.de/posts/bench-press-leaking-text-nodes-with-css/",
       "discuss_url": "https://lobste.rs/s/qyugm7",
-      "score": 4,
+      "score": 8,
       "comments": 0,
       "author": "goldstein",
       "published": "2026-07-05T18:40:08Z"
@@ -467,30 +491,6 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "The pandemic of incomplete OpenSSL error handling",
-      "url": "https://blog.jak-linux.org/2026/07/03/openssl-pandemic/",
-      "discuss_url": "https://lobste.rs/s/xqqamf",
-      "score": 3,
-      "comments": 0,
-      "author": "gioele",
-      "published": "2026-07-04T00:12:39Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Fedora 45 Considering x86_64 Shadow Stack Usage By Default",
-      "url": "https://www.phoronix.com/news/Fedora-45-Consider-Shadow-Stack",
-      "discuss_url": "https://lobste.rs/s/pgxaog",
-      "score": 3,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-07-03T00:44:50Z"
-    },
-    {
-      "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "I Don't Maintain My Homelab",
@@ -524,6 +524,114 @@
       "comments": 3,
       "author": "vakradrz",
       "published": "2026-07-03T12:27:45Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon SageMaker Unified Studio now supports Terraform for provisioning",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-terraform/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-terraform/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-02T21:49:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 X8i instances are now available in additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-ICN-KUL-NRT-region/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-ICN-KUL-NRT-region/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-02T20:48:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 Dedicated Hosts now support AMD SEV-SNP",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-02T17:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon SageMaker HyperPod now supports AMI versioning and auto-patching",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-hyperpod-ami-version-auto-patch",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-hyperpod-ami-version-auto-patch",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-02T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Config now supports 8 new resource types",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-new-resource-types",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-new-resource-types",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-02T15:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Bedrock AgentCore increases default runtime quota limits",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-increases-default-runtime-quota-limits/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-increases-default-runtime-quota-limits/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-01T22:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon CloudWatch supports creating alarms from log queries",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-log-alarms/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-log-alarms/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-01T21:30:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-aws-management-console/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-aws-management-console/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-01T20:48:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Artifact now includes Assurance Assistant for compliance inquiries",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-artifact-assurance-assistant/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-artifact-assurance-assistant/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-01T20:01:00Z"
     },
     {
       "source": "rss",
