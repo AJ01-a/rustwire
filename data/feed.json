@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T19:24:37Z",
+  "updated_at": "2026-07-06T03:56:01Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -42,9 +42,9 @@
       "author": "kehn",
       "published": "2026-07-02T12:02:29Z",
       "bullets": [
-        "LLMs exhibit distinct stylistic tells in fiction, such as overusing specific vocabulary ('tapestry', 'beacon') and predictable narrative pacing.",
-        "RLHF and alignment tuning restrict narrative tension, forcing models toward sanitized, cliché, and universally positive story resolutions.",
-        "Analysts use perplexity, burstiness, and n-gram frequency analysis to differentiate AI-generated creative prose from human-written fiction."
+        "LLMs generate highly formulaic fiction, overusing specific vocabulary like 'delve' and 'tapestry' due to RLHF alignment and token probability biases.",
+        "Story generation suffers from predictable structural tropes, highlighting the limitations of current temperature, top-k, and top-p sampling methods.",
+        "Identifying these narrative idiosyncrasies helps developers build better synthetic text detectors and evaluate LLM creativity and stylistic diversity."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "If you’re a button, you have one job",
       "url": "https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/",
       "discuss_url": "https://lobste.rs/s/zhizsf",
-      "score": 37,
-      "comments": 18,
+      "score": 63,
+      "comments": 26,
       "author": "noncrab",
       "published": "2026-07-05T08:24:06Z",
       "bullets": [
-        "Use native HTML <button> elements instead of styling <div> or <a> tags to inherit default keyboard and screen-reader accessibility features.",
-        "Prevent duplicate API calls and race conditions by disabling buttons or showing spinners during pending asynchronous operations.",
-        "Ensure interactive elements support both Space and Enter key triggers, preserving expected browser behavior without custom JavaScript workarounds."
+        "Use semantic HTML <button> elements instead of <div> tags to inherit native keyboard focus and ARIA accessibility roles automatically.",
+        "Ensure interactive elements support standard keyboard triggers like Space and Enter, matching native browser-level click behaviors.",
+        "Prevent multi-click race conditions in asynchronous operations by managing state and disabling buttons without breaking screen reader focus."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Bad Epoll (CVE-2026-46242)",
       "url": "https://github.com/J-jaeyoung/bad-epoll",
       "discuss_url": "https://lobste.rs/s/drf6my",
-      "score": 47,
-      "comments": 12,
+      "score": 51,
+      "comments": 15,
       "author": "dzwdz",
       "published": "2026-07-04T18:40:12Z",
       "bullets": [
-        "CVE-2026-46242 targets the Linux kernel's epoll subsystem, which manages high-performance asynchronous I/O multiplexing across modern enterprise workloads.",
-        "Vulnerabilities in epoll typically enable local privilege escalation, container escapes, or denial-of-service via race conditions or use-after-free flaws.",
-        "Administrators should prioritize upcoming Linux kernel patches and restrict unprivileged user namespaces to mitigate potential exploitation vectors."
+        "Bad Epoll (CVE-2026-46242)",
+        "Trending on lobste.rs/security — 51 points, 15 comments.",
+        "Submitted by dzwdz on lobste.rs/security."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "confusedalex",
       "published": "2026-07-03T23:23:43Z",
       "bullets": [
-        "Use declarative tools like NixOS, Ansible, or Talos Linux to ensure reproducible, self-healing node configurations with minimal manual intervention.",
-        "Implement GitOps via Flux or ArgoCD to automatically sync cluster state with Git repositories, eliminating manual CLI deployments.",
-        "Automate dependency and image updates using tools like Renovate, Watchtower, or Keel to keep the homelab secure without manual patching."
+        "I Don't Maintain My Homelab",
+        "Trending on lobste.rs/devops — 38 points, 19 comments.",
+        "Submitted by confusedalex on lobste.rs/devops."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Liza Gross, Inside Climate News",
       "published": "2026-07-05T11:05:22Z",
       "bullets": [
-        "Chemical accidents causing death or injury increased by nearly 50%, signaling critical vulnerabilities in current industrial risk management.",
-        "Proposed rollbacks of safety regulations could further weaken compliance baselines for hazardous material processing and storage facilities.",
-        "Engineers and operators must maintain strict internal safety standards to mitigate rising operational liabilities and physical threats."
+        "Chemicals from accidents that injured or killed people increased by nearly 50 percent in recent years.",
+        "Chemical accidents rise as Trump administration proposes weakening safety rules",
+        "Submitted by Liza Gross, Inside Climate News on arstechnica.com."
       ]
     }
   ],
@@ -208,8 +208,8 @@
       "title": "If you’re a button, you have one job",
       "url": "https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/",
       "discuss_url": "https://lobste.rs/s/zhizsf",
-      "score": 37,
-      "comments": 18,
+      "score": 63,
+      "comments": 26,
       "author": "noncrab",
       "published": "2026-07-05T08:24:06Z"
     },
@@ -220,10 +220,22 @@
       "title": "ABI vs. API (2004)",
       "url": "https://lists.debian.org/debian-user/2004/02/msg00648.html",
       "discuss_url": "https://lobste.rs/s/k9yyfs",
-      "score": 23,
-      "comments": 3,
+      "score": 27,
+      "comments": 7,
       "author": "dhruvp",
       "published": "2026-07-05T10:00:49Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Embedding information in disorder",
+      "url": "https://thoughts.hmmz.org/2026-07-05.html",
+      "discuss_url": "https://lobste.rs/s/ssvgqs",
+      "score": 9,
+      "comments": 0,
+      "author": "dw",
+      "published": "2026-07-05T19:47:30Z"
     },
     {
       "source": "lobsters",
@@ -244,7 +256,7 @@
       "title": "Tools or techniques for conveying mental models?",
       "url": "https://lobste.rs/s/ubl3i2",
       "discuss_url": "https://lobste.rs/s/ubl3i2",
-      "score": 31,
+      "score": 32,
       "comments": 19,
       "author": "mw",
       "published": "2026-07-02T14:04:10Z"
@@ -265,22 +277,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Learn Clojure with interactive lessons and drills",
-      "url": "https://clojurefandango.com/",
-      "discuss_url": "https://lobste.rs/s/wdc6r1",
-      "score": 4,
-      "comments": 1,
-      "author": "Yogthos",
-      "published": "2026-07-01T23:37:04Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "On intent of Code",
       "url": "https://why.degree/on-intent/",
       "discuss_url": "https://lobste.rs/s/vb29tc",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "xSavitar",
       "published": "2026-07-04T15:18:45Z"
@@ -352,8 +352,8 @@
       "title": "Bad Epoll (CVE-2026-46242)",
       "url": "https://github.com/J-jaeyoung/bad-epoll",
       "discuss_url": "https://lobste.rs/s/drf6my",
-      "score": 47,
-      "comments": 12,
+      "score": 51,
+      "comments": 15,
       "author": "dzwdz",
       "published": "2026-07-04T18:40:12Z"
     },
@@ -364,7 +364,7 @@
       "title": "Bench Press: Leaking Text Nodes with CSS",
       "url": "https://blog.pspaul.de/posts/bench-press-leaking-text-nodes-with-css/",
       "discuss_url": "https://lobste.rs/s/qyugm7",
-      "score": 1,
+      "score": 4,
       "comments": 0,
       "author": "goldstein",
       "published": "2026-07-05T18:40:08Z"
@@ -397,18 +397,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "SecretSpec 0.13: SDKs for Python, Node.js, Go, Ruby, and Haskell",
-      "url": "https://secretspec.dev/blog/secretspec-0-13-sdks/",
-      "discuss_url": "https://lobste.rs/s/5r5ebh",
-      "score": 5,
-      "comments": 0,
-      "author": "alurm",
-      "published": "2026-07-04T16:21:03Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Preventing token theft",
       "url": "https://codon.org.uk/~mjg59/blog/p/preventing-token-theft/",
       "discuss_url": "https://lobste.rs/s/agwtde",
@@ -421,25 +409,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Creating a development sandbox with crosvm",
-      "url": "https://www.erat.org/crosvm.html",
-      "discuss_url": "https://lobste.rs/s/mml3sh",
-      "score": 17,
-      "comments": 4,
-      "author": "derat",
-      "published": "2026-07-02T02:29:04Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Unprivileged root via an out-of-bounds write in the FUSE readdir cache (CVE-2026-31694)",
-      "url": "https://cyberstan.co.uk/fuse-readdir-oob/",
-      "discuss_url": "https://lobste.rs/s/0kc445",
-      "score": 11,
-      "comments": 8,
-      "author": "fro",
-      "published": "2026-07-02T00:36:55Z"
+      "title": "SecretSpec 0.13: SDKs for Python, Node.js, Go, Ruby, and Haskell",
+      "url": "https://secretspec.dev/blog/secretspec-0-13-sdks/",
+      "discuss_url": "https://lobste.rs/s/5r5ebh",
+      "score": 5,
+      "comments": 0,
+      "author": "alurm",
+      "published": "2026-07-04T16:21:03Z"
     },
     {
       "source": "lobsters",
@@ -491,6 +467,30 @@
     },
     {
       "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "The pandemic of incomplete OpenSSL error handling",
+      "url": "https://blog.jak-linux.org/2026/07/03/openssl-pandemic/",
+      "discuss_url": "https://lobste.rs/s/xqqamf",
+      "score": 3,
+      "comments": 0,
+      "author": "gioele",
+      "published": "2026-07-04T00:12:39Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Fedora 45 Considering x86_64 Shadow Stack Usage By Default",
+      "url": "https://www.phoronix.com/news/Fedora-45-Consider-Shadow-Stack",
+      "discuss_url": "https://lobste.rs/s/pgxaog",
+      "score": 3,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-07-03T00:44:50Z"
+    },
+    {
+      "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "I Don't Maintain My Homelab",
@@ -509,7 +509,7 @@
       "url": "https://matduggan.com/clickhouse-is-winning-the-observability-wars/",
       "discuss_url": "https://lobste.rs/s/asi79o",
       "score": 77,
-      "comments": 30,
+      "comments": 31,
       "author": "siddhartha_golu",
       "published": "2026-07-03T05:25:28Z"
     },
@@ -524,114 +524,6 @@
       "comments": 3,
       "author": "vakradrz",
       "published": "2026-07-03T12:27:45Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "OpenFeature - Standardizing Feature Flagging for Everyone",
-      "url": "https://openfeature.dev/",
-      "discuss_url": "https://lobste.rs/s/4ttyrk",
-      "score": 4,
-      "comments": 0,
-      "author": "datboi",
-      "published": "2026-07-02T02:31:35Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon SageMaker Unified Studio now supports Terraform for provisioning",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-terraform/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-terraform/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-02T21:49:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 X8i instances are now available in additional regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-ICN-KUL-NRT-region/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-ICN-KUL-NRT-region/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-02T20:48:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 Dedicated Hosts now support AMD SEV-SNP",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-02T17:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon SageMaker HyperPod now supports AMI versioning and auto-patching",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-hyperpod-ami-version-auto-patch",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-hyperpod-ami-version-auto-patch",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-02T16:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Config now supports 8 new resource types",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-new-resource-types",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-new-resource-types",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-02T15:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Bedrock AgentCore increases default runtime quota limits",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-increases-default-runtime-quota-limits/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-increases-default-runtime-quota-limits/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-01T22:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon CloudWatch supports creating alarms from log queries",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-log-alarms/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-log-alarms/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-01T21:30:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-aws-management-console/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-aws-management-console/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-01T20:48:00Z"
     },
     {
       "source": "rss",
