@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T09:49:50Z",
+  "updated_at": "2026-07-07T14:51:19Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -42,43 +42,43 @@
       "author": null,
       "published": "2026-07-07T00:00:00Z",
       "bullets": [
-        "Hugging Face LeRobot v0.6.0 advances PyTorch-based robotics with enhanced simulation, policy evaluation, and imitation learning workflows.",
-        "The release improves integration with simulated environments like MuJoCo and Gym for evaluating robotic policies like ACT and Diffusion Policy.",
-        "Practitioners can train neural network policies on Hugging Face datasets, benchmark them in simulation, and deploy to physical hardware like Aloha."
+        "Hugging Face LeRobot v0.6.0 enhances open-source robotics with simulation environments like MuJoCo to generate synthetic training data.",
+        "Standardized evaluation frameworks allow rigorous benchmarking of PyTorch-based robotics control policies across diverse virtual tasks.",
+        "Supports training imitation learning policies like ACT and Diffusion Policy, leveraging shared datasets hosted on Hugging Face Hub."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Jam Programming Language",
-      "url": "https://rapha.land/jam-programming-language/",
-      "discuss_url": "https://lobste.rs/s/r0xrm0",
-      "score": 33,
-      "comments": 20,
-      "author": "bittermandel",
-      "published": "2026-07-06T08:22:08Z",
+      "title": "Odin 1.0 Announcement",
+      "url": "https://www.youtube.com/watch?v=dLPAqXi9In0",
+      "discuss_url": "https://lobste.rs/s/5rvgim",
+      "score": 70,
+      "comments": 10,
+      "author": "gingerBill",
+      "published": "2026-07-07T06:20:55Z",
       "bullets": [
-        "Features a statically typed, functional design prioritizing robust type inference, algebraic data types, and expressive pattern matching capabilities.",
-        "Compiles to highly optimized target code, focusing on low memory overhead and predictable execution speeds without a heavy garbage collector.",
-        "Provides built-in tooling for modern dependency management, unit testing, and zero-cost interoperability with existing C-interface APIs."
+        "The systems programming language reaches stable 1.0, prioritizing data-oriented design, fast compilation, and explicit memory allocation over OOP.",
+        "Features built-in support for slices, dynamic arrays, SOA layouts, custom allocators, and seamless, headerless C interoperability with no heavy runtime.",
+        "Targeted at game developers and high-performance computing, the release guarantees backward compatibility and a mature, production-ready core library."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Januscape: Guest-to-Host Escape in KVM/x86",
-      "url": "https://github.com/V4bel/Januscape",
-      "discuss_url": "https://lobste.rs/s/jea4xl",
-      "score": 14,
+      "title": "You shouldn't trust Trusted Publishing",
+      "url": "https://blog.yossarian.net/2026/07/07/You-shouldnt-trust-trusted-publishing",
+      "discuss_url": "https://lobste.rs/s/8d9pgd",
+      "score": 11,
       "comments": 1,
-      "author": "fro",
-      "published": "2026-07-06T18:20:31Z",
+      "author": "yossarian",
+      "published": "2026-07-07T13:13:47Z",
       "bullets": [
-        "Januscape: Guest-to-Host Escape in KVM/x86",
-        "Trending on lobste.rs/security — 14 points, 1 comments.",
-        "Submitted by fro on lobste.rs/security."
+        "PyPI's OIDC-based Trusted Publishing shifts trust to CI/CD platforms like GitHub, making pipeline compromises a direct threat to package integrity.",
+        "Weak OIDC claim configurations, such as wildcard branches, can allow unauthorized pull requests or forks to trigger automated package releases.",
+        "Security teams must enforce strict branch protections, environment-specific secrets, and manual approval gates on GitHub Actions or GitLab CI workflows."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "confusedalex",
       "published": "2026-07-03T23:23:43Z",
       "bullets": [
-        "I Don't Maintain My Homelab",
-        "Trending on lobste.rs/devops — 40 points, 19 comments.",
-        "Submitted by confusedalex on lobste.rs/devops."
+        "Use GitOps tools like ArgoCD or Flux to automate homelab updates and configurations, reducing manual maintenance overhead.",
+        "Define homelab infrastructure using Terraform and Ansible to ensure rapid, reproducible rebuilds instead of manual troubleshooting.",
+        "Adopt low-maintenance platforms like Talos Linux or K3s to minimize OS patching and container orchestration complexity."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "FCC to end Biden-era rule that forces ISPs to list all their fees",
-      "url": "https://arstechnica.com/tech-policy/2026/07/fcc-to-end-biden-era-rule-that-forces-isps-to-list-all-their-fees/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/fcc-to-end-biden-era-rule-that-forces-isps-to-list-all-their-fees/",
+      "title": "ULA's last six Atlas Vs can't launch anything besides Boeing's Starliner",
+      "url": "https://arstechnica.com/space/2026/07/after-a-stellar-career-ulas-atlas-v-rocket-last-act-is-waiting-on-starliner/",
+      "discuss_url": "https://arstechnica.com/space/2026/07/after-a-stellar-career-ulas-atlas-v-rocket-last-act-is-waiting-on-starliner/",
       "score": null,
       "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-07-06T21:13:37Z",
+      "author": "Stephen Clark",
+      "published": "2026-07-07T11:15:15Z",
       "bullets": [
-        "FCC to let ISPs stop listing all passthrough fees, give single \"up to\" price.",
-        "FCC to end Biden-era rule that forces ISPs to list all their fees",
-        "Submitted by Jon Brodkin on arstechnica.com."
+        "ULA's final six Atlas V rockets are dedicated exclusively to Boeing's Starliner, with no flexibility to reallocate them for other payloads.",
+        "Amazon plans to launch initial Project Kuiper broadband services at mid-latitudes later this year using its currently orbited satellite fleet.",
+        "ULA's dual-engine Centaur configuration for Starliner prevents these final Atlas V rockets from being repurposed for standard satellite launches."
       ]
     }
   ],
@@ -178,16 +178,16 @@
       "published": "2026-06-30T18:32:50Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Why Specialization Is Inevitable",
-      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-      "discuss_url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-30T14:39:11Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Odin 1.0 Announcement",
+      "url": "https://www.youtube.com/watch?v=dLPAqXi9In0",
+      "discuss_url": "https://lobste.rs/s/5rvgim",
+      "score": 70,
+      "comments": 10,
+      "author": "gingerBill",
+      "published": "2026-07-07T06:20:55Z"
     },
     {
       "source": "lobsters",
@@ -196,22 +196,10 @@
       "title": "Jam Programming Language",
       "url": "https://rapha.land/jam-programming-language/",
       "discuss_url": "https://lobste.rs/s/r0xrm0",
-      "score": 33,
+      "score": 32,
       "comments": 20,
       "author": "bittermandel",
       "published": "2026-07-06T08:22:08Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/7p1a5u",
-      "discuss_url": "https://lobste.rs/s/7p1a5u",
-      "score": 12,
-      "comments": 17,
-      "author": "caius",
-      "published": "2026-07-06T07:43:07Z"
     },
     {
       "source": "lobsters",
@@ -221,9 +209,21 @@
       "url": "https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/",
       "discuss_url": "https://lobste.rs/s/zhizsf",
       "score": 96,
-      "comments": 39,
+      "comments": 40,
       "author": "noncrab",
       "published": "2026-07-05T08:24:06Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/7p1a5u",
+      "discuss_url": "https://lobste.rs/s/7p1a5u",
+      "score": 12,
+      "comments": 18,
+      "author": "caius",
+      "published": "2026-07-06T07:43:07Z"
     },
     {
       "source": "lobsters",
@@ -253,18 +253,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/rhgehk",
-      "discuss_url": "https://lobste.rs/s/rhgehk",
-      "score": 16,
-      "comments": 43,
-      "author": "caius",
-      "published": "2026-07-03T09:57:25Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Gossamer",
       "url": "https://gossamer-lang.org/",
       "discuss_url": "https://lobste.rs/s/e6k4z1",
@@ -284,18 +272,6 @@
       "comments": 0,
       "author": "xSavitar",
       "published": "2026-07-04T15:18:45Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "More Money For Better Open-Source Software (2015)",
-      "url": "https://marijnhaverbeke.nl/blog/sustainable-maintenance.html",
-      "discuss_url": "https://lobste.rs/s/4ro47c",
-      "score": 2,
-      "comments": 0,
-      "author": "wofo",
-      "published": "2026-07-03T12:29:35Z"
     },
     {
       "source": "rss",
@@ -334,13 +310,49 @@
       "published": "2026-06-30T17:28:16Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Agent orchestration is so two-years ago​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‌‌​﻿​‍‌‍​‍​﻿​﻿​﻿​﻿​﻿‌​‌‍‌‌​‍﻿‌​﻿‌​​﻿​‍​﻿​﻿​﻿​﻿​‍﻿‌​﻿‌​‌‍‌‌​﻿‌﻿‌‍‌​​‍﻿‌‌‍​‌​﻿​‌​﻿​​‌‍​‍​‍﻿‌‌‍​‍‌‍‌‍‌‍​‍‌‍​‌​﻿​‌​﻿‌​​﻿‌﻿​﻿​‍‌‍​﻿​﻿​‍‌‍‌‍‌‍​‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‌‌​﻿​‍‌‍​‍​﻿​﻿​﻿​﻿​﻿‌​‌‍‌‌​‍﻿‌​﻿‌​​﻿​‍​﻿​﻿​﻿​﻿​‍﻿‌​﻿‌​‌‍‌‌​﻿‌﻿‌‍‌​​‍﻿‌‌‍​‌​﻿​‌​﻿​​‌‍​‍​‍﻿‌‌‍​‍‌‍‌‍‌‍​‍‌‍​‌​﻿​‌​﻿‌​​﻿‌﻿​﻿​‍‌‍​﻿​﻿​‍‌‍‌‍‌‍​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/07/07/agent-orchestration-is-so-two-years-ago/",
+      "discuss_url": "https://stackoverflow.blog/2026/07/07/agent-orchestration-is-so-two-years-ago/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-07-07T07:40:00Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "You shouldn't trust Trusted Publishing",
+      "url": "https://blog.yossarian.net/2026/07/07/You-shouldnt-trust-trusted-publishing",
+      "discuss_url": "https://lobste.rs/s/8d9pgd",
+      "score": 11,
+      "comments": 1,
+      "author": "yossarian",
+      "published": "2026-07-07T13:13:47Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Reporting a 19+ Years Hidden Linux Kernel Zero-Day for Google kernelCTF: CVE-2026-43456",
+      "url": "https://gmo-cybersecurity.com/blog/19-years-hidden-80000-rewarded-reporting-a-linux-kernel-zero-day-for-google-kernelctf/",
+      "discuss_url": "https://lobste.rs/s/txjns0",
+      "score": 5,
+      "comments": 0,
+      "author": "rrampage",
+      "published": "2026-07-07T09:56:21Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Januscape: Guest-to-Host Escape in KVM/x86",
       "url": "https://github.com/V4bel/Januscape",
       "discuss_url": "https://lobste.rs/s/jea4xl",
-      "score": 14,
+      "score": 16,
       "comments": 1,
       "author": "fro",
       "published": "2026-07-06T18:20:31Z"
@@ -349,25 +361,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "AT&T's very rare Security-Plus Telephone",
-      "url": "https://www.electrospaces.net/2025/10/an-interesting-advertisement-for-stu.html",
-      "discuss_url": "https://lobste.rs/s/fw8e40",
-      "score": 6,
-      "comments": 0,
-      "author": "ecksdee",
-      "published": "2026-07-07T00:43:11Z"
+      "title": "Web Security docs on MDN",
+      "url": "https://openwebdocs.org/content/posts/security-docs-sovereign-tech-agency/",
+      "discuss_url": "https://lobste.rs/s/b3elwj",
+      "score": 33,
+      "comments": 1,
+      "author": "freddyb",
+      "published": "2026-07-06T07:40:41Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Web Security docs on MDN",
-      "url": "https://openwebdocs.org/content/posts/security-docs-sovereign-tech-agency/",
-      "discuss_url": "https://lobste.rs/s/b3elwj",
-      "score": 32,
-      "comments": 1,
-      "author": "freddyb",
-      "published": "2026-07-06T07:40:41Z"
+      "title": "AT&T's very rare Security-Plus Telephone",
+      "url": "https://www.electrospaces.net/2025/10/an-interesting-advertisement-for-stu.html",
+      "discuss_url": "https://lobste.rs/s/fw8e40",
+      "score": 7,
+      "comments": 0,
+      "author": "ecksdee",
+      "published": "2026-07-07T00:43:11Z"
     },
     {
       "source": "lobsters",
@@ -377,21 +389,9 @@
       "url": "https://codeberg.org/konform-browser/source/releases/tag/140.12.0.103",
       "discuss_url": "https://lobste.rs/s/eytr4y",
       "score": 11,
-      "comments": 3,
+      "comments": 4,
       "author": "commanderk",
       "published": "2026-07-06T09:22:35Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Bad Epoll (CVE-2026-46242)",
-      "url": "https://github.com/J-jaeyoung/bad-epoll",
-      "discuss_url": "https://lobste.rs/s/drf6my",
-      "score": 58,
-      "comments": 17,
-      "author": "dzwdz",
-      "published": "2026-07-04T18:40:12Z"
     },
     {
       "source": "lobsters",
@@ -400,10 +400,22 @@
       "title": "Securing agentic identity",
       "url": "https://codon.org.uk/~mjg59/blog/p/securing-agentic-identity/",
       "discuss_url": "https://lobste.rs/s/ssdcnh",
-      "score": 3,
-      "comments": 0,
+      "score": 4,
+      "comments": 1,
       "author": "gioele",
       "published": "2026-07-06T22:58:20Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Bad Epoll (CVE-2026-46242)",
+      "url": "https://github.com/J-jaeyoung/bad-epoll",
+      "discuss_url": "https://lobste.rs/s/drf6my",
+      "score": 59,
+      "comments": 17,
+      "author": "dzwdz",
+      "published": "2026-07-04T18:40:12Z"
     },
     {
       "source": "lobsters",
@@ -421,18 +433,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Poison, redzones and shadows: inside KASAN – Bootlin",
-      "url": "https://bootlin.com/blog/poison-redzones-and-shadows-inside-kasan/",
-      "discuss_url": "https://lobste.rs/s/exuqoz",
-      "score": 2,
-      "comments": 0,
-      "author": "rrampage",
-      "published": "2026-07-06T20:24:37Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Bench Press: Leaking Text Nodes with CSS",
       "url": "https://blog.pspaul.de/posts/bench-press-leaking-text-nodes-with-css/",
       "discuss_url": "https://lobste.rs/s/qyugm7",
@@ -440,6 +440,18 @@
       "comments": 0,
       "author": "goldstein",
       "published": "2026-07-05T18:40:08Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Poison, redzones and shadows: inside KASAN – Bootlin",
+      "url": "https://bootlin.com/blog/poison-redzones-and-shadows-inside-kasan/",
+      "discuss_url": "https://lobste.rs/s/exuqoz",
+      "score": 2,
+      "comments": 0,
+      "author": "rrampage",
+      "published": "2026-07-06T20:24:37Z"
     },
     {
       "source": "lobsters",
@@ -455,30 +467,6 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "SecretSpec 0.13: SDKs for Python, Node.js, Go, Ruby, and Haskell",
-      "url": "https://secretspec.dev/blog/secretspec-0-13-sdks/",
-      "discuss_url": "https://lobste.rs/s/5r5ebh",
-      "score": 5,
-      "comments": 0,
-      "author": "alurm",
-      "published": "2026-07-04T16:21:03Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "What We Talk About When We Talk About Malware",
-      "url": "https://f-droid.org/2026/07/01/adv-malware.html",
-      "discuss_url": "https://lobste.rs/s/ltsgnw",
-      "score": 6,
-      "comments": 0,
-      "author": "sjamaan",
-      "published": "2026-07-03T09:51:10Z"
-    },
-    {
-      "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "I Don't Maintain My Homelab",
@@ -488,18 +476,6 @@
       "comments": 19,
       "author": "confusedalex",
       "published": "2026-07-03T23:23:43Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "Automating the Rubber Stamp: What If an Agent Ran Your Deployment Gate?",
-      "url": "https://mattvanbird.co.uk/article/ai-deployment-agent",
-      "discuss_url": "https://lobste.rs/s/fcg4xw",
-      "score": 2,
-      "comments": 3,
-      "author": "vakradrz",
-      "published": "2026-07-03T12:27:45Z"
     },
     {
       "source": "rss",
@@ -623,6 +599,42 @@
     },
     {
       "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 Dedicated Hosts now support AMD SEV-SNP",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-02T17:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "ULA's last six Atlas Vs can't launch anything besides Boeing's Starliner",
+      "url": "https://arstechnica.com/space/2026/07/after-a-stellar-career-ulas-atlas-v-rocket-last-act-is-waiting-on-starliner/",
+      "discuss_url": "https://arstechnica.com/space/2026/07/after-a-stellar-career-ulas-atlas-v-rocket-last-act-is-waiting-on-starliner/",
+      "score": null,
+      "comments": null,
+      "author": "Stephen Clark",
+      "published": "2026-07-07T11:15:15Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "How AI could enable autonomous robot workers in workplaces—and maybe homes",
+      "url": "https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics/",
+      "discuss_url": "https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics/",
+      "score": null,
+      "comments": null,
+      "author": "Jeremy Hsu",
+      "published": "2026-07-07T11:00:18Z"
+    },
+    {
+      "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
       "title": "FCC to end Biden-era rule that forces ISPs to list all their fees",
@@ -740,30 +752,6 @@
       "comments": null,
       "author": "Martin Arnold",
       "published": "2026-07-06T14:17:42Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Bentley teases its first EV, the Torcal",
-      "url": "https://arstechnica.com/cars/2026/07/bentley-teases-its-first-ev-the-torcal/",
-      "discuss_url": "https://arstechnica.com/cars/2026/07/bentley-teases-its-first-ev-the-torcal/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-07-06T11:30:38Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The Czinger 21C might be the wildest car we drive all year",
-      "url": "https://arstechnica.com/cars/2026/07/the-czinger-21c-might-be-the-wildest-car-we-drive-all-year/",
-      "discuss_url": "https://arstechnica.com/cars/2026/07/the-czinger-21c-might-be-the-wildest-car-we-drive-all-year/",
-      "score": null,
-      "comments": null,
-      "author": "Bradley Iger",
-      "published": "2026-07-06T11:00:14Z"
     }
   ]
 }
