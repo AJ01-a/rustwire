@@ -75,7 +75,7 @@ jobs:
       - name: Stage site
         run: |
           mkdir -p _site/data
-          cp index.html styles.css app.js favicon.svg _site/
+          cp index.html styles.css app.js theme.js favicon.svg _site/
           cp data/feed.json _site/data/
 
       - name: Configure GitHub Pages
