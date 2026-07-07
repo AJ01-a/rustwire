@@ -28,6 +28,12 @@
     />
     <meta property="og:type" content="website" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <!--
+      Kick off the feed download during HTML parse, before the deferred
+      app.js runs. crossorigin="anonymous" matches fetch()'s default
+      request mode so the preloaded response is actually reused.
+    -->
+    <link rel="preload" href="data/feed.json" as="fetch" crossorigin="anonymous" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
     <link
@@ -51,6 +57,7 @@
           <time id="updated-time" datetime="">—</time>
         </div>
       </div>
+      <div class="hud-line" aria-hidden="true"></div>
     </header>
 
     <main class="container main-content" id="main-content">
@@ -64,20 +71,64 @@
             story in the last 24&ndash;48&nbsp;hours.
           </p>
         </header>
+        <!--
+          Skeletons mirror the final bento geometry (the grid rules apply to
+          any .tldr-grid child), so the skeleton→content swap causes no
+          layout shift. They only ever show on a true first visit; repeat
+          visitors paint instantly from the localStorage cache.
+        -->
         <div class="tldr-grid" id="tldr-grid">
-          <div class="skeleton skeleton-card"></div>
-          <div class="skeleton skeleton-card"></div>
-          <div class="skeleton skeleton-card"></div>
-          <div class="skeleton skeleton-card"></div>
-          <div class="skeleton skeleton-card"></div>
+          <div class="sk-card" aria-hidden="true">
+            <span class="sk sk-chip"></span>
+            <span class="sk sk-title"></span>
+            <span class="sk sk-title w-60"></span>
+            <span class="sk sk-text"></span>
+            <span class="sk sk-text"></span>
+            <span class="sk sk-text w-80"></span>
+          </div>
+          <div class="sk-card" aria-hidden="true">
+            <span class="sk sk-chip"></span>
+            <span class="sk sk-title"></span>
+            <span class="sk sk-text"></span>
+            <span class="sk sk-text w-80"></span>
+          </div>
+          <div class="sk-card" aria-hidden="true">
+            <span class="sk sk-chip"></span>
+            <span class="sk sk-title"></span>
+            <span class="sk sk-text"></span>
+            <span class="sk sk-text w-80"></span>
+          </div>
+          <div class="sk-card" aria-hidden="true">
+            <span class="sk sk-chip"></span>
+            <span class="sk sk-title"></span>
+            <span class="sk sk-text"></span>
+            <span class="sk sk-text w-80"></span>
+          </div>
+          <div class="sk-card" aria-hidden="true">
+            <span class="sk sk-chip"></span>
+            <span class="sk sk-title"></span>
+            <span class="sk sk-text"></span>
+            <span class="sk sk-text w-80"></span>
+          </div>
         </div>
       </section>
 
       <section class="feed" id="feed-sections" aria-label="Category feeds">
         <!-- one <section.feed-cat> per category, filled by JS -->
-        <div class="skeleton skeleton-row"></div>
-        <div class="skeleton skeleton-row"></div>
-        <div class="skeleton skeleton-row"></div>
+        <div class="sk-panel" aria-hidden="true">
+          <span class="sk sk-chip"></span>
+          <span class="sk sk-row"></span>
+          <span class="sk sk-row"></span>
+          <span class="sk sk-row"></span>
+          <span class="sk sk-row"></span>
+        </div>
+        <div class="sk-panel" aria-hidden="true">
+          <span class="sk sk-chip"></span>
+          <span class="sk sk-row"></span>
+          <span class="sk sk-row"></span>
+          <span class="sk sk-row"></span>
+          <span class="sk sk-row"></span>
+        </div>
       </section>
 
       <div class="error-state hidden" id="error-state">
