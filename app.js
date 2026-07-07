@@ -30,10 +30,15 @@ const state = {
   data: null,
   catById: new Map(),    // id -> {id, label, accent}
   lastCheckAt: 0,
+  query: "",             // active search filter, lowercased
 };
 
 /* ---------- Boot ---------- */
 function boot() {
+  initThemeToggle();
+  initSearch();
+  initBackTop();
+
   const cached = readCache();
   if (cached) {
     applyData(cached, { animate: false });
@@ -127,6 +132,124 @@ function writeCache(data) {
   }
 }
 
+/* ---------- Theme toggle ---------- */
+const THEME_KEY = "techpulse:theme";
+
+function initThemeToggle() {
+  document.getElementById("theme-toggle").addEventListener("click", () => {
+    const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+    document.documentElement.dataset.theme = next;
+    try { localStorage.setItem(THEME_KEY, next); } catch { /* best-effort */ }
+    syncThemeColor();
+  });
+  syncThemeColor();
+}
+
+// Keep the browser chrome (mobile address bar) matched to the theme.
+function syncThemeColor() {
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) {
+    meta.content =
+      document.documentElement.dataset.theme === "dark" ? "#06080c" : "#f2f5fa";
+  }
+}
+
+/* ---------- Search / filter ---------- */
+function initSearch() {
+  const input = document.getElementById("search-input");
+  let debounce;
+
+  input.addEventListener("input", () => {
+    clearTimeout(debounce);
+    debounce = setTimeout(() => {
+      state.query = input.value.trim().toLowerCase();
+      applyFilter();
+    }, 120);
+  });
+
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      input.value = "";
+      state.query = "";
+      applyFilter();
+      input.blur();
+    }
+  });
+
+  // "/" focuses the filter from anywhere on the page.
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "/" || e.ctrlKey || e.metaKey || e.altKey) return;
+    const tag = document.activeElement?.tagName;
+    if (tag === "INPUT" || tag === "TEXTAREA") return;
+    e.preventDefault();
+    input.focus();
+  });
+}
+
+// Show/hide rendered rows and cards to match state.query. Runs on every
+// keystroke and again after each re-render so background updates keep the
+// active filter.
+function applyFilter() {
+  const q = state.query;
+
+  for (const sec of document.querySelectorAll(".feed-cat")) {
+    const items = sec.querySelectorAll(".feed-item");
+    let visible = 0;
+    for (const li of items) {
+      const show = !q || li.textContent.toLowerCase().includes(q);
+      li.classList.toggle("hidden", !show);
+      if (show) visible++;
+    }
+    sec.classList.toggle("hidden", visible === 0);
+    const count = sec.querySelector(".feed-cat-count");
+    if (count) count.textContent = q ? `${visible} of ${items.length}` : `${items.length} items`;
+  }
+
+  for (const card of document.querySelectorAll("#tldr-grid .tldr-card")) {
+    card.classList.toggle("hidden", !!q && !card.textContent.toLowerCase().includes(q));
+  }
+
+  const anyFeed = document.querySelector(".feed-cat:not(.hidden)");
+  document.getElementById("no-results").classList.toggle("hidden", !q || !!anyFeed);
+}
+
+/* ---------- Scroll-spy (active category pill) ---------- */
+let spyObserver = null;
+
+function setupScrollSpy() {
+  if (spyObserver) spyObserver.disconnect();
+  if (!("IntersectionObserver" in window)) return;
+  const sections = document.querySelectorAll(".feed-cat");
+  if (!sections.length) return;
+
+  // A section is "active" while it crosses the band near the top of the
+  // viewport (between 20% and 30% down the screen).
+  spyObserver = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      const pill = document.querySelector(`.pulse-pill[href="#${entry.target.id}"]`);
+      if (pill) pill.classList.toggle("active", entry.isIntersecting);
+    }
+  }, { rootMargin: "-20% 0px -70% 0px" });
+
+  for (const sec of sections) spyObserver.observe(sec);
+}
+
+/* ---------- Back to top ---------- */
+function initBackTop() {
+  const btn = document.getElementById("back-top");
+  btn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+
+  let ticking = false;
+  window.addEventListener("scroll", () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      btn.classList.toggle("show", window.scrollY > 600);
+      ticking = false;
+    });
+  }, { passive: true });
+}
+
 /* ---------- Status / timestamp ---------- */
 function setStatus(kind) {
   const dot = document.getElementById("status-dot");
@@ -188,7 +311,7 @@ function renderPulse() {
     const id = safeSlug(cat.id);
     return `
       <a class="pulse-pill" href="#cat-${escapeAttr(id)}" style="--cat-color:${accent}">
-        ${escapeHtml(cat.label)}<span class="count" style="color:${accent}">${count}</span>
+        ${escapeHtml(cat.label)}<span class="count">${count}</span>
       </a>`;
   }).join("");
 }
@@ -319,6 +442,8 @@ function renderAll(animate) {
   renderPulse();
   renderTldr(animate);
   renderFeedSections(animate);
+  setupScrollSpy();
+  if (state.query) applyFilter(); // background updates keep the active filter
 }
 
 /* ---------- Helpers ---------- */

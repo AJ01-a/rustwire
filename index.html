@@ -20,7 +20,7 @@
       name="description"
       content="An AI-summarized briefing of the most-discussed stories across AI, Engineering, Security, Cloud/DevOps, and Industry — refreshed every six hours."
     />
-    <meta name="theme-color" content="#06080c" />
+    <meta name="theme-color" content="#f2f5fa" />
     <meta property="og:title" content="TechPulse — A working briefing for tech professionals" />
     <meta
       property="og:description"
@@ -34,6 +34,7 @@
       request mode so the preloaded response is actually reused.
     -->
     <link rel="preload" href="data/feed.json" as="fetch" crossorigin="anonymous" />
+    <script src="theme.js"></script>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
     <link
@@ -52,6 +53,24 @@
           <!-- filled by JS -->
         </nav>
         <div class="hud-meta">
+          <div class="search-box">
+            <span class="search-glyph" aria-hidden="true">⌕</span>
+            <input
+              type="search"
+              id="search-input"
+              placeholder="filter stories"
+              aria-label="Filter stories by keyword"
+              autocomplete="off"
+              spellcheck="false"
+            />
+            <kbd class="search-kbd" aria-hidden="true">/</kbd>
+          </div>
+          <button
+            class="theme-toggle"
+            id="theme-toggle"
+            aria-label="Toggle light / dark theme"
+            title="toggle theme"
+          >◐</button>
           <span class="status-dot" id="status-dot" title="loading"></span>
           <span class="meta-label">last refresh</span>
           <time id="updated-time" datetime="">—</time>
@@ -131,6 +150,10 @@
         </div>
       </section>
 
+      <div class="no-results hidden" id="no-results">
+        <p>No stories match your filter.</p>
+      </div>
+
       <div class="error-state hidden" id="error-state">
         <p>
           Could not load the feed. The pipeline may not have run yet &mdash;
@@ -153,6 +176,8 @@
         </p>
       </div>
     </footer>
+
+    <button class="back-top" id="back-top" aria-label="Back to top" title="back to top">↑</button>
 
     <script src="app.js" defer></script>
   </body>
