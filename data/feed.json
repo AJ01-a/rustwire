@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T14:51:19Z",
+  "updated_at": "2026-07-07T20:01:45Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -31,20 +31,20 @@
   ],
   "tldr": [
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
-      "url": "https://huggingface.co/blog/lerobot-release-v060",
-      "discuss_url": "https://huggingface.co/blog/lerobot-release-v060",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-07T00:00:00Z",
+      "title": "A global workspace in language models",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "discuss_url": "https://lobste.rs/s/xgtzrp",
+      "score": 1,
+      "comments": 0,
+      "author": "bshanks",
+      "published": "2026-07-07T18:26:18Z",
       "bullets": [
-        "Hugging Face LeRobot v0.6.0 enhances open-source robotics with simulation environments like MuJoCo to generate synthetic training data.",
-        "Standardized evaluation frameworks allow rigorous benchmarking of PyTorch-based robotics control policies across diverse virtual tasks.",
-        "Supports training imitation learning policies like ACT and Diffusion Policy, leveraging shared datasets hosted on Hugging Face Hub."
+        "Implementing Global Workspace Theory in LLMs introduces a centralized, low-dimensional latent bottleneck to coordinate modular representations.",
+        "The communication bottleneck forces models to compress information, improving out-of-distribution generalization and multi-step reasoning.",
+        "This architecture utilizes Perceiver-style attention bottlenecks or recurrent shared states to optimize working memory in Transformer models."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Odin 1.0 Announcement",
       "url": "https://www.youtube.com/watch?v=dLPAqXi9In0",
       "discuss_url": "https://lobste.rs/s/5rvgim",
-      "score": 70,
-      "comments": 10,
+      "score": 99,
+      "comments": 21,
       "author": "gingerBill",
       "published": "2026-07-07T06:20:55Z",
       "bullets": [
-        "The systems programming language reaches stable 1.0, prioritizing data-oriented design, fast compilation, and explicit memory allocation over OOP.",
-        "Features built-in support for slices, dynamic arrays, SOA layouts, custom allocators, and seamless, headerless C interoperability with no heavy runtime.",
-        "Targeted at game developers and high-performance computing, the release guarantees backward compatibility and a mature, production-ready core library."
+        "Odin 1.0 Announcement",
+        "Trending on lobste.rs/programming — 99 points, 21 comments.",
+        "Submitted by gingerBill on lobste.rs/programming."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "You shouldn't trust Trusted Publishing",
       "url": "https://blog.yossarian.net/2026/07/07/You-shouldnt-trust-trusted-publishing",
       "discuss_url": "https://lobste.rs/s/8d9pgd",
-      "score": 11,
-      "comments": 1,
+      "score": 26,
+      "comments": 13,
       "author": "yossarian",
       "published": "2026-07-07T13:13:47Z",
       "bullets": [
-        "PyPI's OIDC-based Trusted Publishing shifts trust to CI/CD platforms like GitHub, making pipeline compromises a direct threat to package integrity.",
-        "Weak OIDC claim configurations, such as wildcard branches, can allow unauthorized pull requests or forks to trigger automated package releases.",
-        "Security teams must enforce strict branch protections, environment-specific secrets, and manual approval gates on GitHub Actions or GitLab CI workflows."
+        "You shouldn't trust Trusted Publishing",
+        "Trending on lobste.rs/security — 26 points, 13 comments.",
+        "Submitted by yossarian on lobste.rs/security."
       ]
     },
     {
@@ -93,30 +93,66 @@
       "author": "confusedalex",
       "published": "2026-07-03T23:23:43Z",
       "bullets": [
-        "Use GitOps tools like ArgoCD or Flux to automate homelab updates and configurations, reducing manual maintenance overhead.",
-        "Define homelab infrastructure using Terraform and Ansible to ensure rapid, reproducible rebuilds instead of manual troubleshooting.",
-        "Adopt low-maintenance platforms like Talos Linux or K3s to minimize OS patching and container orchestration complexity."
+        "I Don't Maintain My Homelab",
+        "Trending on lobste.rs/devops — 40 points, 19 comments.",
+        "Submitted by confusedalex on lobste.rs/devops."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "ULA's last six Atlas Vs can't launch anything besides Boeing's Starliner",
-      "url": "https://arstechnica.com/space/2026/07/after-a-stellar-career-ulas-atlas-v-rocket-last-act-is-waiting-on-starliner/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/after-a-stellar-career-ulas-atlas-v-rocket-last-act-is-waiting-on-starliner/",
+      "title": "Google's Pixel 11 launch event is set for August 12, with possible price increases",
+      "url": "https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/",
       "score": null,
       "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-07-07T11:15:15Z",
+      "author": "Ryan Whitwam",
+      "published": "2026-07-07T19:08:34Z",
       "bullets": [
-        "ULA's final six Atlas V rockets are dedicated exclusively to Boeing's Starliner, with no flexibility to reallocate them for other payloads.",
-        "Amazon plans to launch initial Project Kuiper broadband services at mid-latitudes later this year using its currently orbited satellite fleet.",
-        "ULA's dual-engine Centaur configuration for Starliner prevents these final Atlas V rockets from being repurposed for standard satellite launches."
+        "Google's new phones could feature glowing LEDs and higher price tags.",
+        "Google's Pixel 11 launch event is set for August 12, with possible price increases",
+        "Submitted by Ryan Whitwam on arstechnica.com."
       ]
     }
   ],
   "discussions": [
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "A global workspace in language models",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "discuss_url": "https://lobste.rs/s/xgtzrp",
+      "score": 1,
+      "comments": 0,
+      "author": "bshanks",
+      "published": "2026-07-07T18:26:18Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Hugging Face Models on Foundry Managed Compute",
+      "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "discuss_url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-07T15:20:06Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+      "url": "https://huggingface.co/blog/skypilot-hf-storage",
+      "discuss_url": "https://huggingface.co/blog/skypilot-hf-storage",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-07T00:00:00Z"
+    },
     {
       "source": "rss",
       "subsource": "huggingface.co",
@@ -166,28 +202,28 @@
       "published": "2026-07-01T00:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "discuss_url": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-06-30T18:32:50Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Odin 1.0 Announcement",
       "url": "https://www.youtube.com/watch?v=dLPAqXi9In0",
       "discuss_url": "https://lobste.rs/s/5rvgim",
-      "score": 70,
-      "comments": 10,
+      "score": 99,
+      "comments": 21,
       "author": "gingerBill",
       "published": "2026-07-07T06:20:55Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "CCL: Categorical Configuration Language",
+      "url": "https://github.com/chshersh/ccl",
+      "discuss_url": "https://lobste.rs/s/8whjc0",
+      "score": 2,
+      "comments": 0,
+      "author": "linkdd",
+      "published": "2026-07-07T19:25:57Z"
     },
     {
       "source": "lobsters",
@@ -253,18 +289,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Gossamer",
-      "url": "https://gossamer-lang.org/",
-      "discuss_url": "https://lobste.rs/s/e6k4z1",
-      "score": 7,
-      "comments": 4,
-      "author": "cgrinds",
-      "published": "2026-07-03T15:32:37Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "On intent of Code",
       "url": "https://why.degree/on-intent/",
       "discuss_url": "https://lobste.rs/s/vb29tc",
@@ -272,6 +296,18 @@
       "comments": 0,
       "author": "xSavitar",
       "published": "2026-07-04T15:18:45Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Q1 2026 Innovation Graph update: Open source collaboration is accelerating worldwide",
+      "url": "https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide/",
+      "discuss_url": "https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-07-07T16:00:00Z"
     },
     {
       "source": "rss",
@@ -299,18 +335,6 @@
     },
     {
       "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "How GitHub maintains compliance for open source dependencies",
-      "url": "https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies/",
-      "discuss_url": "https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-06-30T17:28:16Z"
-    },
-    {
-      "source": "rss",
       "subsource": "stackoverflow.blog",
       "category": "engineering",
       "title": "Agent orchestration is so two-years ago​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‌‌​﻿​‍‌‍​‍​﻿​﻿​﻿​﻿​﻿‌​‌‍‌‌​‍﻿‌​﻿‌​​﻿​‍​﻿​﻿​﻿​﻿​‍﻿‌​﻿‌​‌‍‌‌​﻿‌﻿‌‍‌​​‍﻿‌‌‍​‌​﻿​‌​﻿​​‌‍​‍​‍﻿‌‌‍​‍‌‍‌‍‌‍​‍‌‍​‌​﻿​‌​﻿‌​​﻿‌﻿​﻿​‍‌‍​﻿​﻿​‍‌‍‌‍‌‍​‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‌‌​﻿​‍‌‍​‍​﻿​﻿​﻿​﻿​﻿‌​‌‍‌‌​‍﻿‌​﻿‌​​﻿​‍​﻿​﻿​﻿​﻿​‍﻿‌​﻿‌​‌‍‌‌​﻿‌﻿‌‍‌​​‍﻿‌‌‍​‌​﻿​‌​﻿​​‌‍​‍​‍﻿‌‌‍​‍‌‍‌‍‌‍​‍‌‍​‌​﻿​‌​﻿‌​​﻿‌﻿​﻿​‍‌‍​﻿​﻿​‍‌‍‌‍‌‍​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
@@ -328,8 +352,8 @@
       "title": "You shouldn't trust Trusted Publishing",
       "url": "https://blog.yossarian.net/2026/07/07/You-shouldnt-trust-trusted-publishing",
       "discuss_url": "https://lobste.rs/s/8d9pgd",
-      "score": 11,
-      "comments": 1,
+      "score": 26,
+      "comments": 13,
       "author": "yossarian",
       "published": "2026-07-07T13:13:47Z"
     },
@@ -340,7 +364,7 @@
       "title": "Reporting a 19+ Years Hidden Linux Kernel Zero-Day for Google kernelCTF: CVE-2026-43456",
       "url": "https://gmo-cybersecurity.com/blog/19-years-hidden-80000-rewarded-reporting-a-linux-kernel-zero-day-for-google-kernelctf/",
       "discuss_url": "https://lobste.rs/s/txjns0",
-      "score": 5,
+      "score": 6,
       "comments": 0,
       "author": "rrampage",
       "published": "2026-07-07T09:56:21Z"
@@ -376,34 +400,10 @@
       "title": "AT&T's very rare Security-Plus Telephone",
       "url": "https://www.electrospaces.net/2025/10/an-interesting-advertisement-for-stu.html",
       "discuss_url": "https://lobste.rs/s/fw8e40",
-      "score": 7,
+      "score": 9,
       "comments": 0,
       "author": "ecksdee",
       "published": "2026-07-07T00:43:11Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Konform Browser 140.12.0-103",
-      "url": "https://codeberg.org/konform-browser/source/releases/tag/140.12.0.103",
-      "discuss_url": "https://lobste.rs/s/eytr4y",
-      "score": 11,
-      "comments": 4,
-      "author": "commanderk",
-      "published": "2026-07-06T09:22:35Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Securing agentic identity",
-      "url": "https://codon.org.uk/~mjg59/blog/p/securing-agentic-identity/",
-      "discuss_url": "https://lobste.rs/s/ssdcnh",
-      "score": 4,
-      "comments": 1,
-      "author": "gioele",
-      "published": "2026-07-06T22:58:20Z"
     },
     {
       "source": "lobsters",
@@ -413,7 +413,7 @@
       "url": "https://github.com/J-jaeyoung/bad-epoll",
       "discuss_url": "https://lobste.rs/s/drf6my",
       "score": 59,
-      "comments": 17,
+      "comments": 18,
       "author": "dzwdz",
       "published": "2026-07-04T18:40:12Z"
     },
@@ -421,13 +421,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Backstage access: an unauthenticated SQL injection in Front Gate Tickets",
-      "url": "https://ian.sh/frontgate",
-      "discuss_url": "https://lobste.rs/s/fplb85",
-      "score": 3,
-      "comments": 0,
-      "author": "freddyb",
-      "published": "2026-07-06T16:19:11Z"
+      "title": "Securing agentic identity",
+      "url": "https://codon.org.uk/~mjg59/blog/p/securing-agentic-identity/",
+      "discuss_url": "https://lobste.rs/s/ssdcnh",
+      "score": 5,
+      "comments": 1,
+      "author": "gioele",
+      "published": "2026-07-06T22:58:20Z"
     },
     {
       "source": "lobsters",
@@ -445,13 +445,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Poison, redzones and shadows: inside KASAN – Bootlin",
-      "url": "https://bootlin.com/blog/poison-redzones-and-shadows-inside-kasan/",
-      "discuss_url": "https://lobste.rs/s/exuqoz",
-      "score": 2,
+      "title": "Backstage access: an unauthenticated SQL injection in Front Gate Tickets",
+      "url": "https://ian.sh/frontgate",
+      "discuss_url": "https://lobste.rs/s/fplb85",
+      "score": 3,
       "comments": 0,
-      "author": "rrampage",
-      "published": "2026-07-06T20:24:37Z"
+      "author": "freddyb",
+      "published": "2026-07-06T16:19:11Z"
     },
     {
       "source": "lobsters",
@@ -467,6 +467,30 @@
     },
     {
       "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Poison, redzones and shadows: inside KASAN – Bootlin",
+      "url": "https://bootlin.com/blog/poison-redzones-and-shadows-inside-kasan/",
+      "discuss_url": "https://lobste.rs/s/exuqoz",
+      "score": 2,
+      "comments": 0,
+      "author": "rrampage",
+      "published": "2026-07-06T20:24:37Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "SecretSpec 0.13: SDKs for Python, Node.js, Go, Ruby, and Haskell",
+      "url": "https://secretspec.dev/blog/secretspec-0-13-sdks/",
+      "discuss_url": "https://lobste.rs/s/5r5ebh",
+      "score": 5,
+      "comments": 0,
+      "author": "alurm",
+      "published": "2026-07-04T16:21:03Z"
+    },
+    {
+      "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "I Don't Maintain My Homelab",
@@ -476,6 +500,30 @@
       "comments": 19,
       "author": "confusedalex",
       "published": "2026-07-03T23:23:43Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 C8ine instances are now available in AWS Europe (Frankfurt) region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c8ine-aws-frankfurt/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c8ine-aws-frankfurt/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-07T17:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Security Hub adds impact analysis for exposure findings",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/impact-analysis-aws-security-hub/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/impact-analysis-aws-security-hub/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-06T21:45:00Z"
     },
     {
       "source": "rss",
@@ -587,27 +635,87 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 X8i instances are now available in additional regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-ICN-KUL-NRT-region/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-ICN-KUL-NRT-region/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Google's Pixel 11 launch event is set for August 12, with possible price increases",
+      "url": "https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-02T20:48:00Z"
+      "author": "Ryan Whitwam",
+      "published": "2026-07-07T19:08:34Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 Dedicated Hosts now support AMD SEV-SNP",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "The Weather Channel increases streaming subscription prices by up to $20",
+      "url": "https://arstechnica.com/gadgets/2026/07/the-weather-channels-streaming-app-gets-a-67-percent-price-hike/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/07/the-weather-channels-streaming-app-gets-a-67-percent-price-hike/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-02T17:00:00Z"
+      "author": "Scharon Harding",
+      "published": "2026-07-07T18:29:24Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "The Nintendo Switch's days are numbered—but what is that number?",
+      "url": "https://arstechnica.com/gaming/2026/07/the-nintendo-switchs-days-are-numbered-but-what-is-that-number/",
+      "discuss_url": "https://arstechnica.com/gaming/2026/07/the-nintendo-switchs-days-are-numbered-but-what-is-that-number/",
+      "score": null,
+      "comments": null,
+      "author": "Kyle Orland",
+      "published": "2026-07-07T18:16:29Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "This race car is made from plant fibers, volcanoes, ... and seawater?",
+      "url": "https://arstechnica.com/cars/2026/07/this-race-car-is-made-from-plant-fibers-volcanoes-and-seawater/",
+      "discuss_url": "https://arstechnica.com/cars/2026/07/this-race-car-is-made-from-plant-fibers-volcanoes-and-seawater/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-07-07T16:45:18Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Facing US export controls, China's DeepSeek plans to make its own chips",
+      "url": "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips/",
+      "discuss_url": "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips/",
+      "score": null,
+      "comments": null,
+      "author": "Samuel Axon",
+      "published": "2026-07-07T16:14:53Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Dragonflies maneuver like fighter pilots",
+      "url": "https://arstechnica.com/science/2026/07/dragonflies-maneuver-like-fighter-pilots/",
+      "discuss_url": "https://arstechnica.com/science/2026/07/dragonflies-maneuver-like-fighter-pilots/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-07-07T15:54:18Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "New virus catalog reveals which pathogens pose the greatest threat",
+      "url": "https://arstechnica.com/health/2026/07/new-virus-catalog-reveals-which-pathogens-pose-the-greatest-threat/",
+      "discuss_url": "https://arstechnica.com/health/2026/07/new-virus-catalog-reveals-which-pathogens-pose-the-greatest-threat/",
+      "score": null,
+      "comments": null,
+      "author": "Mark Woolhouse",
+      "published": "2026-07-07T13:15:49Z"
     },
     {
       "source": "rss",
@@ -668,90 +776,6 @@
       "comments": null,
       "author": "Robert Pearlman",
       "published": "2026-07-06T19:57:56Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "NRC is (sort of) getting rid of \"as low as reasonably achievable\" standard",
-      "url": "https://arstechnica.com/science/2026/07/nuclear-regulatory-commission-plans-really-minor-changes-to-safety-regs/",
-      "discuss_url": "https://arstechnica.com/science/2026/07/nuclear-regulatory-commission-plans-really-minor-changes-to-safety-regs/",
-      "score": null,
-      "comments": null,
-      "author": "John Timmer",
-      "published": "2026-07-06T17:48:45Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Katalyst's satellite rescue mission is now in pursuit of NASA's Swift",
-      "url": "https://arstechnica.com/space/2026/07/katalysts-satellite-rescue-mission-is-now-in-pursuit-of-nasas-swift/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/katalysts-satellite-rescue-mission-is-now-in-pursuit-of-nasas-swift/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-07-06T17:14:09Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Secret Claude tracker shocks users after Anthropic’s anti-surveillance stance",
-      "url": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-07-06T16:44:18Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The incredible shrinking Xbox: Five studios, 3,200 employees let go",
-      "url": "https://arstechnica.com/gaming/2026/07/the-incredible-shrinking-xbox-five-studios-3200-employees-let-go/",
-      "discuss_url": "https://arstechnica.com/gaming/2026/07/the-incredible-shrinking-xbox-five-studios-3200-employees-let-go/",
-      "score": null,
-      "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-07-06T16:01:54Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "F1 in Britain: Automated software to blame for crushing expectations",
-      "url": "https://arstechnica.com/cars/2026/07/f1-in-britain-automated-software-to-blame-for-crushing-expectations/",
-      "discuss_url": "https://arstechnica.com/cars/2026/07/f1-in-britain-automated-software-to-blame-for-crushing-expectations/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-07-06T15:45:55Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "There were not one, but two asteroid encounters this weekend",
-      "url": "https://arstechnica.com/space/2026/07/there-were-not-one-but-two-asteroid-encounters-this-weekend/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/there-were-not-one-but-two-asteroid-encounters-this-weekend/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-07-06T15:15:30Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "UK regulator warns of \"arms race\" to keep up with AI use in financial services",
-      "url": "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services/",
-      "discuss_url": "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services/",
-      "score": null,
-      "comments": null,
-      "author": "Martin Arnold",
-      "published": "2026-07-06T14:17:42Z"
     }
   ]
 }
