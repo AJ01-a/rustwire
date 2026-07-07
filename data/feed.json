@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T20:01:45Z",
+  "updated_at": "2026-07-07T21:08:08Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -42,9 +42,9 @@
       "author": "bshanks",
       "published": "2026-07-07T18:26:18Z",
       "bullets": [
-        "Implementing Global Workspace Theory in LLMs introduces a centralized, low-dimensional latent bottleneck to coordinate modular representations.",
-        "The communication bottleneck forces models to compress information, improving out-of-distribution generalization and multi-step reasoning.",
-        "This architecture utilizes Perceiver-style attention bottlenecks or recurrent shared states to optimize working memory in Transformer models."
+        "Applying Global Workspace Theory to LLMs introduces a centralized memory bottleneck to coordinate specialized attention heads and modular subnetworks.",
+        "This architecture uses shared latent spaces or dedicated register tokens to compress, store, and broadcast context across deep network layers.",
+        "The design reduces transformer quadratic complexity to linear while enhancing long-context retrieval and multi-step reasoning capabilities."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Odin 1.0 Announcement",
       "url": "https://www.youtube.com/watch?v=dLPAqXi9In0",
       "discuss_url": "https://lobste.rs/s/5rvgim",
-      "score": 99,
-      "comments": 21,
+      "score": 106,
+      "comments": 22,
       "author": "gingerBill",
       "published": "2026-07-07T06:20:55Z",
       "bullets": [
-        "Odin 1.0 Announcement",
-        "Trending on lobste.rs/programming — 99 points, 21 comments.",
-        "Submitted by gingerBill on lobste.rs/programming."
+        "Odin is a C-alternative systems language featuring explicit memory control, a first-class allocator model, and built-in data-oriented programming constructs.",
+        "The language enforces strict typing without implicit conversions and uses a pervasive `context` variable to pass allocators and loggers implicitly.",
+        "Odin features native support for Structure of Arrays (Soa) data layouts, optimizing cache friendliness for high-performance systems and game development."
       ]
     },
     {
@@ -72,12 +72,12 @@
       "url": "https://blog.yossarian.net/2026/07/07/You-shouldnt-trust-trusted-publishing",
       "discuss_url": "https://lobste.rs/s/8d9pgd",
       "score": 26,
-      "comments": 13,
+      "comments": 18,
       "author": "yossarian",
       "published": "2026-07-07T13:13:47Z",
       "bullets": [
         "You shouldn't trust Trusted Publishing",
-        "Trending on lobste.rs/security — 26 points, 13 comments.",
+        "Trending on lobste.rs/security — 26 points, 18 comments.",
         "Submitted by yossarian on lobste.rs/security."
       ]
     },
@@ -102,17 +102,17 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Google's Pixel 11 launch event is set for August 12, with possible price increases",
-      "url": "https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/",
+      "title": "Bethesda, id Software reportedly hit hard by Microsoft layoffs",
+      "url": "https://arstechnica.com/gaming/2026/07/bethesda-id-software-reportedly-hit-hard-by-microsoft-layoffs/",
+      "discuss_url": "https://arstechnica.com/gaming/2026/07/bethesda-id-software-reportedly-hit-hard-by-microsoft-layoffs/",
       "score": null,
       "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-07-07T19:08:34Z",
+      "author": "Kyle Orland",
+      "published": "2026-07-07T19:52:59Z",
       "bullets": [
-        "Google's new phones could feature glowing LEDs and higher price tags.",
-        "Google's Pixel 11 launch event is set for August 12, with possible price increases",
-        "Submitted by Ryan Whitwam on arstechnica.com."
+        "As much as 50 percent of some teams affected by reductions, and more could be coming.",
+        "Bethesda, id Software reportedly hit hard by Microsoft layoffs",
+        "Submitted by Kyle Orland on arstechnica.com."
       ]
     }
   ],
@@ -208,8 +208,8 @@
       "title": "Odin 1.0 Announcement",
       "url": "https://www.youtube.com/watch?v=dLPAqXi9In0",
       "discuss_url": "https://lobste.rs/s/5rvgim",
-      "score": 99,
-      "comments": 21,
+      "score": 106,
+      "comments": 22,
       "author": "gingerBill",
       "published": "2026-07-07T06:20:55Z"
     },
@@ -353,7 +353,7 @@
       "url": "https://blog.yossarian.net/2026/07/07/You-shouldnt-trust-trusted-publishing",
       "discuss_url": "https://lobste.rs/s/8d9pgd",
       "score": 26,
-      "comments": 13,
+      "comments": 18,
       "author": "yossarian",
       "published": "2026-07-07T13:13:47Z"
     },
@@ -505,6 +505,30 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "Amazon ECS Managed Instances reduces GPU management fees by up to 60%",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-managed-instances-gpu-price/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-managed-instances-gpu-price/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-07T18:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EMR Serverless now supports larger worker sizes to run more compute and memory intensive workloads",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-serverless/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-serverless/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-07T17:06:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon EC2 C8ine instances are now available in AWS Europe (Frankfurt) region",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c8ine-aws-frankfurt/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c8ine-aws-frankfurt/",
@@ -512,6 +536,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-07-07T17:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EKS Auto Mode reduces GPU management fees by up to 60%",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-auto-mode-gpu-price",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-auto-mode-gpu-price",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-07T12:00:00Z"
     },
     {
       "source": "rss",
@@ -565,6 +601,18 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "AWS introduces declarative controls for VPC Encryption Controls",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/vpc-encryption-controls-declarative-controls/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/vpc-encryption-controls-declarative-controls/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-06T18:19:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon EVS VCF 9.0 and 9.1 support",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-vcf9",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-vcf9",
@@ -587,51 +635,15 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "CloudWatch Application Signals now automatically captures errors, performance anomalies, and deployment events",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-service-events/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-service-events/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Bethesda, id Software reportedly hit hard by Microsoft layoffs",
+      "url": "https://arstechnica.com/gaming/2026/07/bethesda-id-software-reportedly-hit-hard-by-microsoft-layoffs/",
+      "discuss_url": "https://arstechnica.com/gaming/2026/07/bethesda-id-software-reportedly-hit-hard-by-microsoft-layoffs/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-06T15:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS CodePipeline now available in Asia Pacific (New Zealand) region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codepipeline-new-zealand/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codepipeline-new-zealand/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-06T09:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Secrets Manager adds managed external secrets support for Paddle and GitLab",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-managed-external-secrets-paddle-gitlab/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-managed-external-secrets-paddle-gitlab/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-06T07:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon SageMaker Unified Studio now supports Terraform for provisioning",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-terraform/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-terraform/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-02T21:49:00Z"
+      "author": "Kyle Orland",
+      "published": "2026-07-07T19:52:59Z"
     },
     {
       "source": "rss",
@@ -764,18 +776,6 @@
       "comments": null,
       "author": "Jeremy Hsu",
       "published": "2026-07-06T20:52:42Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "What is the oldest American object ever launched into space?",
-      "url": "https://arstechnica.com/space/2026/07/whats-the-oldest-americana-flown-in-space/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/whats-the-oldest-americana-flown-in-space/",
-      "score": null,
-      "comments": null,
-      "author": "Robert Pearlman",
-      "published": "2026-07-06T19:57:56Z"
     }
   ]
 }
