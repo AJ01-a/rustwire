@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T08:39:29Z",
+  "updated_at": "2026-07-08T14:33:06Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Google’s exponential path to climate-wrecking digital bloat",
       "url": "https://ketanjoshi.co/2026/07/01/googles-exponential-path-to-climate-wrecking-digital-bloat/",
       "discuss_url": "https://lobste.rs/s/v8hk8q",
-      "score": 91,
-      "comments": 9,
+      "score": 115,
+      "comments": 14,
       "author": "sjamaan",
       "published": "2026-07-07T07:33:16Z",
       "bullets": [
-        "Google's AI expansion, including Gemini integration, drove a 48% increase in greenhouse gas emissions over five years from data center energy.",
-        "Training and running large language models exponentially increases compute requirements, challenging industry net-zero carbon goals and energy grid capacity.",
-        "AI practitioners must prioritize energy-efficient model architectures, quantization, and green hosting to mitigate the environmental impact of scaling."
+        "Google’s AI data center expansion drove a 48% emission increase since 2019, jeopardizing its 2030 net-zero carbon goals.",
+        "Replacing standard search indexing with LLMs like Gemini increases energy consumption per query by an estimated 10x.",
+        "Practitioners must prioritize model efficiency, distillation, and specialized hardware like TPU v5p to mitigate unsustainable energy demands."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Jim's TrueType QR Code Font",
       "url": "https://qr.jim.sh/",
       "discuss_url": "https://lobste.rs/s/y0tvll",
-      "score": 20,
-      "comments": 1,
+      "score": 58,
+      "comments": 4,
       "author": "markerz",
       "published": "2026-07-08T03:58:54Z",
       "bullets": [
-        "Utilizes OpenType/TrueType font rendering engines to generate scannable 2D QR codes directly from text input without external APIs.",
-        "Eliminates server-side rendering overhead and JavaScript dependencies, enabling offline QR code generation inside standard text processors.",
-        "Uses complex OpenType GSUB ligature tables to assemble the QR matrix, offering a zero-code, zero-dependency alternative to QR libraries."
+        "Utilizes TrueType/OpenType font engines to dynamically render vector-based QR codes using advanced glyph substitution (GSUB) and ligatures.",
+        "Enables client-side QR generation in static environments like PDFs, Word documents, or legacy print systems without runtime execution engines.",
+        "Bypasses traditional image generation libraries, but is constrained by font lookup limits, encoding capacities, and strict error correction configurations."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589)",
       "url": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
       "discuss_url": "https://lobste.rs/s/7hmu0w",
-      "score": 16,
-      "comments": 0,
+      "score": 26,
+      "comments": 3,
       "author": "fro",
       "published": "2026-07-08T01:02:05Z",
       "bullets": [
-        "Deployments of OpenBSD 7.9 and earlier must be audited immediately for CVE-2026-57589 to prevent complete host compromise.",
-        "The memory safety flaw allows local, non-privileged users to bypass OS boundary controls and execute arbitrary commands as root.",
-        "Remediation requires applying the latest official OpenBSD errata patches to eliminate this high-impact local privilege escalation vector."
+        "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589)",
+        "Trending on lobste.rs/security — 26 points, 3 comments.",
+        "Submitted by fro on lobste.rs/security."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "aws@amazon.com",
       "published": "2026-07-07T21:26:00Z",
       "bullets": [
-        "Access live GameLift runtime environments using the SSM Session Manager CLI plugin for real-time troubleshooting of logs, GPU, and processes.",
-        "Connect via the CreateStreamSessionAdminShell API, removing any requirement to manage SSH keys, open ports, or persistent credentials.",
-        "The feature is free across all supported regions, targeting Ubuntu 22.04, Proton, and Windows Server 2022 application runtimes."
+        "Amazon GameLift Streams now supports Stream Session Admin Shell, a secure terminal connection to the live runtime environment of a stream session for real-time troubleshooting.",
+        "You can inspect logs, query running processes, check GPU utilization, and examine application state — all without managing SSH keys, open ports, or infrastructure credentials.",
+        "Stream Session Admin Shell provides a terminal connection with the same level of access as your Amazon GameLift Streams applications."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
-      "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
-      "discuss_url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
+      "title": "Blue Origin, for the first time, is expected to raise private capital",
+      "url": "https://arstechnica.com/space/2026/07/blue-origin-for-the-first-time-is-expected-to-raise-private-capital/",
+      "discuss_url": "https://arstechnica.com/space/2026/07/blue-origin-for-the-first-time-is-expected-to-raise-private-capital/",
       "score": null,
       "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-07-08T07:00:51Z",
+      "author": "Eric Berger",
+      "published": "2026-07-08T12:47:35Z",
       "bullets": [
-        "HalluSquatting exploits LLMs by registering malicious PyPI or npm packages that AI coding assistants hallucinate and recommend to developers.",
-        "Security researchers found nine major AI tools susceptible, enabling attackers to distribute malware and build massive developer-targeted botnets.",
-        "DevOps teams must enforce strict package gating and verify all AI-suggested dependencies before integration into production pipelines."
+        "The company is raising $10 billion, leading to a valuation of $130 billion.",
+        "Blue Origin, for the first time, is expected to raise private capital",
+        "Submitted by Eric Berger on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Google’s exponential path to climate-wrecking digital bloat",
       "url": "https://ketanjoshi.co/2026/07/01/googles-exponential-path-to-climate-wrecking-digital-bloat/",
       "discuss_url": "https://lobste.rs/s/v8hk8q",
-      "score": 91,
-      "comments": 9,
+      "score": 115,
+      "comments": 14,
       "author": "sjamaan",
       "published": "2026-07-07T07:33:16Z"
     },
@@ -220,8 +220,8 @@
       "title": "Jim's TrueType QR Code Font",
       "url": "https://qr.jim.sh/",
       "discuss_url": "https://lobste.rs/s/y0tvll",
-      "score": 20,
-      "comments": 1,
+      "score": 58,
+      "comments": 4,
       "author": "markerz",
       "published": "2026-07-08T03:58:54Z"
     },
@@ -232,8 +232,8 @@
       "title": "a software engineering interview question I like: computing the median",
       "url": "https://krisshamloo.com/blog/007",
       "discuss_url": "https://lobste.rs/s/8kxouk",
-      "score": 10,
-      "comments": 1,
+      "score": 24,
+      "comments": 10,
       "author": "sunflowerseastar",
       "published": "2026-07-08T01:49:39Z"
     },
@@ -244,8 +244,8 @@
       "title": "Odin 1.0 Announcement",
       "url": "https://www.youtube.com/watch?v=dLPAqXi9In0",
       "discuss_url": "https://lobste.rs/s/5rvgim",
-      "score": 129,
-      "comments": 33,
+      "score": 135,
+      "comments": 40,
       "author": "gingerBill",
       "published": "2026-07-07T06:20:55Z"
     },
@@ -257,7 +257,7 @@
       "url": "https://arxiv.org/abs/2607.02820",
       "discuss_url": "https://lobste.rs/s/qlw9wg",
       "score": 2,
-      "comments": 3,
+      "comments": 9,
       "author": "Yogthos",
       "published": "2026-07-07T21:14:16Z"
     },
@@ -280,10 +280,22 @@
       "title": "If you’re a button, you have one job",
       "url": "https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/",
       "discuss_url": "https://lobste.rs/s/zhizsf",
-      "score": 97,
+      "score": 98,
       "comments": 40,
       "author": "noncrab",
       "published": "2026-07-05T08:24:06Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Monoid Composition & Maximum Subarray Sum Problem",
+      "url": "https://williamdue.github.io/blog/monoid-composition",
+      "discuss_url": "https://lobste.rs/s/dz5wld",
+      "score": 1,
+      "comments": 0,
+      "author": "athas",
+      "published": "2026-07-08T11:16:29Z"
     },
     {
       "source": "lobsters",
@@ -296,6 +308,18 @@
       "comments": 18,
       "author": "caius",
       "published": "2026-07-06T07:43:07Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "CCL: Categorical Configuration Language",
+      "url": "https://github.com/chshersh/ccl",
+      "discuss_url": "https://lobste.rs/s/8whjc0",
+      "score": 3,
+      "comments": 1,
+      "author": "linkdd",
+      "published": "2026-07-07T19:25:57Z"
     },
     {
       "source": "lobsters",
@@ -325,18 +349,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "CCL: Categorical Configuration Language",
-      "url": "https://github.com/chshersh/ccl",
-      "discuss_url": "https://lobste.rs/s/8whjc0",
-      "score": 2,
-      "comments": 0,
-      "author": "linkdd",
-      "published": "2026-07-07T19:25:57Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "On intent of Code",
       "url": "https://why.degree/on-intent/",
       "discuss_url": "https://lobste.rs/s/vb29tc",
@@ -346,26 +358,14 @@
       "published": "2026-07-04T15:18:45Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Q1 2026 Innovation Graph update: Open source collaboration is accelerating worldwide",
-      "url": "https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide/",
-      "discuss_url": "https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-07-07T16:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589)",
       "url": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
       "discuss_url": "https://lobste.rs/s/7hmu0w",
-      "score": 16,
-      "comments": 0,
+      "score": 26,
+      "comments": 3,
       "author": "fro",
       "published": "2026-07-08T01:02:05Z"
     },
@@ -376,7 +376,7 @@
       "title": "You shouldn't trust Trusted Publishing",
       "url": "https://blog.yossarian.net/2026/07/07/You-shouldnt-trust-trusted-publishing",
       "discuss_url": "https://lobste.rs/s/8d9pgd",
-      "score": 30,
+      "score": 35,
       "comments": 20,
       "author": "yossarian",
       "published": "2026-07-07T13:13:47Z"
@@ -388,8 +388,8 @@
       "title": "A Final Return for OpenBSD Anti-Return-Oriented Programming Mitigations",
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6869668",
       "discuss_url": "https://lobste.rs/s/xclcel",
-      "score": 5,
-      "comments": 3,
+      "score": 11,
+      "comments": 4,
       "author": "fro",
       "published": "2026-07-07T22:13:52Z"
     },
@@ -397,13 +397,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Announcing the Save CTFs Fund",
-      "url": "https://osec.io/blog/save-ctfs-fund/",
-      "discuss_url": "https://lobste.rs/s/geibgn",
+      "title": "GitLost: How We Tricked GitHub’s AI Agent into Leaking Private Repos",
+      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+      "discuss_url": "https://lobste.rs/s/rcg4bo",
       "score": 1,
       "comments": 0,
-      "author": "freddyb",
-      "published": "2026-07-08T07:58:42Z"
+      "author": "hoistbypetard",
+      "published": "2026-07-08T14:04:11Z"
     },
     {
       "source": "lobsters",
@@ -412,10 +412,22 @@
       "title": "A Measurement Study on the Adoption of Pledges and Unveils in the OpenBSD Operating System",
       "url": "https://arxiv.org/pdf/2607.03056",
       "discuss_url": "https://lobste.rs/s/sglhvg",
-      "score": 6,
-      "comments": 0,
+      "score": 10,
+      "comments": 1,
       "author": "fro",
       "published": "2026-07-07T22:02:16Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Announcing the Save CTFs Fund",
+      "url": "https://osec.io/blog/save-ctfs-fund/",
+      "discuss_url": "https://lobste.rs/s/geibgn",
+      "score": 2,
+      "comments": 0,
+      "author": "freddyb",
+      "published": "2026-07-08T07:58:42Z"
     },
     {
       "source": "lobsters",
@@ -433,13 +445,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Reporting a 19+ Years Hidden Linux Kernel Zero-Day for Google kernelCTF: CVE-2026-43456",
-      "url": "https://gmo-cybersecurity.com/blog/19-years-hidden-80000-rewarded-reporting-a-linux-kernel-zero-day-for-google-kernelctf/",
-      "discuss_url": "https://lobste.rs/s/txjns0",
-      "score": 8,
-      "comments": 0,
-      "author": "rrampage",
-      "published": "2026-07-07T09:56:21Z"
+      "title": "Bad Epoll (CVE-2026-46242)",
+      "url": "https://github.com/J-jaeyoung/bad-epoll",
+      "discuss_url": "https://lobste.rs/s/drf6my",
+      "score": 60,
+      "comments": 18,
+      "author": "dzwdz",
+      "published": "2026-07-04T18:40:12Z"
     },
     {
       "source": "lobsters",
@@ -457,13 +469,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Bad Epoll (CVE-2026-46242)",
-      "url": "https://github.com/J-jaeyoung/bad-epoll",
-      "discuss_url": "https://lobste.rs/s/drf6my",
-      "score": 60,
-      "comments": 18,
-      "author": "dzwdz",
-      "published": "2026-07-04T18:40:12Z"
+      "title": "Reporting a 19+ Years Hidden Linux Kernel Zero-Day for Google kernelCTF: CVE-2026-43456",
+      "url": "https://gmo-cybersecurity.com/blog/19-years-hidden-80000-rewarded-reporting-a-linux-kernel-zero-day-for-google-kernelctf/",
+      "discuss_url": "https://lobste.rs/s/txjns0",
+      "score": 9,
+      "comments": 0,
+      "author": "rrampage",
+      "published": "2026-07-07T09:56:21Z"
     },
     {
       "source": "lobsters",
@@ -472,7 +484,7 @@
       "title": "AT&T's very rare Security-Plus Telephone",
       "url": "https://www.electrospaces.net/2025/10/an-interesting-advertisement-for-stu.html",
       "discuss_url": "https://lobste.rs/s/fw8e40",
-      "score": 11,
+      "score": 12,
       "comments": 0,
       "author": "ecksdee",
       "published": "2026-07-07T00:43:11Z"
@@ -488,18 +500,6 @@
       "comments": 1,
       "author": "gioele",
       "published": "2026-07-06T22:58:20Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Bench Press: Leaking Text Nodes with CSS",
-      "url": "https://blog.pspaul.de/posts/bench-press-leaking-text-nodes-with-css/",
-      "discuss_url": "https://lobste.rs/s/qyugm7",
-      "score": 8,
-      "comments": 0,
-      "author": "goldstein",
-      "published": "2026-07-05T18:40:08Z"
     },
     {
       "source": "rss",
@@ -637,13 +637,25 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon SageMaker Unified Studio now supports importing existing MWAA environments",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-import-existing-mwaa-environments/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-import-existing-mwaa-environments/",
+      "title": "AWS Systems Manager simplifies Azure VM management and hybrid node pricing",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-systems-manager-multicloud-vm/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-systems-manager-multicloud-vm/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-07-07T02:00:00Z"
+      "published": "2026-07-07T08:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Blue Origin, for the first time, is expected to raise private capital",
+      "url": "https://arstechnica.com/space/2026/07/blue-origin-for-the-first-time-is-expected-to-raise-private-capital/",
+      "discuss_url": "https://arstechnica.com/space/2026/07/blue-origin-for-the-first-time-is-expected-to-raise-private-capital/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-07-08T12:47:35Z"
     },
     {
       "source": "rss",
@@ -776,18 +788,6 @@
       "comments": null,
       "author": "Samuel Axon",
       "published": "2026-07-07T16:14:53Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Dragonflies maneuver like fighter pilots",
-      "url": "https://arstechnica.com/science/2026/07/dragonflies-maneuver-like-fighter-pilots/",
-      "discuss_url": "https://arstechnica.com/science/2026/07/dragonflies-maneuver-like-fighter-pilots/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-07-07T15:54:18Z"
     }
   ]
 }
