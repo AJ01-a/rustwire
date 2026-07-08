@@ -37,7 +37,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           # Branch tip, not the trigger SHA — a queued cron run must build on
           # top of any commits that landed while it waited.
