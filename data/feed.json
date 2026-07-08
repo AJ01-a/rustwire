@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T03:14:00Z",
+  "updated_at": "2026-07-08T08:39:29Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,48 +37,48 @@
       "title": "Google’s exponential path to climate-wrecking digital bloat",
       "url": "https://ketanjoshi.co/2026/07/01/googles-exponential-path-to-climate-wrecking-digital-bloat/",
       "discuss_url": "https://lobste.rs/s/v8hk8q",
-      "score": 79,
-      "comments": 8,
+      "score": 91,
+      "comments": 9,
       "author": "sjamaan",
       "published": "2026-07-07T07:33:16Z",
       "bullets": [
-        "Google's greenhouse gas emissions surged 48% from 2019 to 2023, driven by energy-intensive AI data centers and TPU/GPU hardware scaling.",
-        "Integrating generative AI like Gemini into core search exponentially increases per-query compute, threatening Google's 2030 net-zero carbon goals.",
-        "Model optimization, sparse MoE architectures, and transition to next-gen TPUs are critical to offset the soaring cooling and power demands."
+        "Google's AI expansion, including Gemini integration, drove a 48% increase in greenhouse gas emissions over five years from data center energy.",
+        "Training and running large language models exponentially increases compute requirements, challenging industry net-zero carbon goals and energy grid capacity.",
+        "AI practitioners must prioritize energy-efficient model architectures, quantization, and green hosting to mitigate the environmental impact of scaling."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Odin 1.0 Announcement",
-      "url": "https://www.youtube.com/watch?v=dLPAqXi9In0",
-      "discuss_url": "https://lobste.rs/s/5rvgim",
-      "score": 121,
-      "comments": 27,
-      "author": "gingerBill",
-      "published": "2026-07-07T06:20:55Z",
+      "title": "Jim's TrueType QR Code Font",
+      "url": "https://qr.jim.sh/",
+      "discuss_url": "https://lobste.rs/s/y0tvll",
+      "score": 20,
+      "comments": 1,
+      "author": "markerz",
+      "published": "2026-07-08T03:58:54Z",
       "bullets": [
-        "Odin 1.0 Announcement",
-        "Trending on lobste.rs/programming — 121 points, 27 comments.",
-        "Submitted by gingerBill on lobste.rs/programming."
+        "Utilizes OpenType/TrueType font rendering engines to generate scannable 2D QR codes directly from text input without external APIs.",
+        "Eliminates server-side rendering overhead and JavaScript dependencies, enabling offline QR code generation inside standard text processors.",
+        "Uses complex OpenType GSUB ligature tables to assemble the QR matrix, offering a zero-code, zero-dependency alternative to QR libraries."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "You shouldn't trust Trusted Publishing",
-      "url": "https://blog.yossarian.net/2026/07/07/You-shouldnt-trust-trusted-publishing",
-      "discuss_url": "https://lobste.rs/s/8d9pgd",
-      "score": 28,
-      "comments": 19,
-      "author": "yossarian",
-      "published": "2026-07-07T13:13:47Z",
+      "title": "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589)",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
+      "discuss_url": "https://lobste.rs/s/7hmu0w",
+      "score": 16,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-07-08T01:02:05Z",
       "bullets": [
-        "You shouldn't trust Trusted Publishing",
-        "Trending on lobste.rs/security — 28 points, 19 comments.",
-        "Submitted by yossarian on lobste.rs/security."
+        "Deployments of OpenBSD 7.9 and earlier must be audited immediately for CVE-2026-57589 to prevent complete host compromise.",
+        "The memory safety flaw allows local, non-privileged users to bypass OS boundary controls and execute arbitrary commands as root.",
+        "Remediation requires applying the latest official OpenBSD errata patches to eliminate this high-impact local privilege escalation vector."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "aws@amazon.com",
       "published": "2026-07-07T21:26:00Z",
       "bullets": [
-        "Amazon GameLift Streams now supports Stream Session Admin Shell, a secure terminal connection to the live runtime environment of a stream session for real-time troubleshooting.",
-        "You can inspect logs, query running processes, check GPU utilization, and examine application state — all without managing SSH keys, open ports, or infrastructure credentials.",
-        "Stream Session Admin Shell provides a terminal connection with the same level of access as your Amazon GameLift Streams applications."
+        "Access live GameLift runtime environments using the SSM Session Manager CLI plugin for real-time troubleshooting of logs, GPU, and processes.",
+        "Connect via the CreateStreamSessionAdminShell API, removing any requirement to manage SSH keys, open ports, or persistent credentials.",
+        "The feature is free across all supported regions, targeting Ubuntu 22.04, Proton, and Windows Server 2022 application runtimes."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Michigan sees explosive outbreak of diarrheal parasite with over 700 cases",
-      "url": "https://arstechnica.com/health/2026/07/michigan-sees-explosive-outbreak-of-diarrheal-parasite-with-over-700-cases/",
-      "discuss_url": "https://arstechnica.com/health/2026/07/michigan-sees-explosive-outbreak-of-diarrheal-parasite-with-over-700-cases/",
+      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+      "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
+      "discuss_url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
       "score": null,
       "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-07-07T22:29:00Z",
+      "author": "Dan Goodin",
+      "published": "2026-07-08T07:00:51Z",
       "bullets": [
-        "Cases have risen quickly as officials are working to identify a common source.",
-        "Michigan sees explosive outbreak of diarrheal parasite with over 700 cases",
-        "Submitted by Beth Mole on arstechnica.com."
+        "HalluSquatting exploits LLMs by registering malicious PyPI or npm packages that AI coding assistants hallucinate and recommend to developers.",
+        "Security researchers found nine major AI tools susceptible, enabling attackers to distribute malware and build massive developer-targeted botnets.",
+        "DevOps teams must enforce strict package gating and verify all AI-suggested dependencies before integration into production pipelines."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Google’s exponential path to climate-wrecking digital bloat",
       "url": "https://ketanjoshi.co/2026/07/01/googles-exponential-path-to-climate-wrecking-digital-bloat/",
       "discuss_url": "https://lobste.rs/s/v8hk8q",
-      "score": 79,
-      "comments": 8,
+      "score": 91,
+      "comments": 9,
       "author": "sjamaan",
       "published": "2026-07-07T07:33:16Z"
     },
@@ -217,13 +217,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Odin 1.0 Announcement",
-      "url": "https://www.youtube.com/watch?v=dLPAqXi9In0",
-      "discuss_url": "https://lobste.rs/s/5rvgim",
-      "score": 121,
-      "comments": 27,
-      "author": "gingerBill",
-      "published": "2026-07-07T06:20:55Z"
+      "title": "Jim's TrueType QR Code Font",
+      "url": "https://qr.jim.sh/",
+      "discuss_url": "https://lobste.rs/s/y0tvll",
+      "score": 20,
+      "comments": 1,
+      "author": "markerz",
+      "published": "2026-07-08T03:58:54Z"
     },
     {
       "source": "lobsters",
@@ -232,10 +232,22 @@
       "title": "a software engineering interview question I like: computing the median",
       "url": "https://krisshamloo.com/blog/007",
       "discuss_url": "https://lobste.rs/s/8kxouk",
-      "score": 2,
-      "comments": 0,
+      "score": 10,
+      "comments": 1,
       "author": "sunflowerseastar",
       "published": "2026-07-08T01:49:39Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Odin 1.0 Announcement",
+      "url": "https://www.youtube.com/watch?v=dLPAqXi9In0",
+      "discuss_url": "https://lobste.rs/s/5rvgim",
+      "score": 129,
+      "comments": 33,
+      "author": "gingerBill",
+      "published": "2026-07-07T06:20:55Z"
     },
     {
       "source": "lobsters",
@@ -257,7 +269,7 @@
       "url": "https://rapha.land/jam-programming-language/",
       "discuss_url": "https://lobste.rs/s/r0xrm0",
       "score": 32,
-      "comments": 20,
+      "comments": 21,
       "author": "bittermandel",
       "published": "2026-07-06T08:22:08Z"
     },
@@ -289,18 +301,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "CCL: Categorical Configuration Language",
-      "url": "https://github.com/chshersh/ccl",
-      "discuss_url": "https://lobste.rs/s/8whjc0",
-      "score": 2,
-      "comments": 0,
-      "author": "linkdd",
-      "published": "2026-07-07T19:25:57Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "ABI vs. API (2004)",
       "url": "https://lists.debian.org/debian-user/2004/02/msg00648.html",
       "discuss_url": "https://lobste.rs/s/k9yyfs",
@@ -316,10 +316,22 @@
       "title": "Embedding information in disorder",
       "url": "https://thoughts.hmmz.org/2026-07-05.html",
       "discuss_url": "https://lobste.rs/s/ssvgqs",
-      "score": 35,
+      "score": 36,
       "comments": 0,
       "author": "dw",
       "published": "2026-07-05T19:47:30Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "CCL: Categorical Configuration Language",
+      "url": "https://github.com/chshersh/ccl",
+      "discuss_url": "https://lobste.rs/s/8whjc0",
+      "score": 2,
+      "comments": 0,
+      "author": "linkdd",
+      "published": "2026-07-07T19:25:57Z"
     },
     {
       "source": "lobsters",
@@ -346,16 +358,16 @@
       "published": "2026-07-07T16:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "How GitHub used secret scanning to reach inbox zero",
-      "url": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
-      "discuss_url": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-07-02T16:00:00Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589)",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
+      "discuss_url": "https://lobste.rs/s/7hmu0w",
+      "score": 16,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-07-08T01:02:05Z"
     },
     {
       "source": "lobsters",
@@ -364,8 +376,8 @@
       "title": "You shouldn't trust Trusted Publishing",
       "url": "https://blog.yossarian.net/2026/07/07/You-shouldnt-trust-trusted-publishing",
       "discuss_url": "https://lobste.rs/s/8d9pgd",
-      "score": 28,
-      "comments": 19,
+      "score": 30,
+      "comments": 20,
       "author": "yossarian",
       "published": "2026-07-07T13:13:47Z"
     },
@@ -376,7 +388,7 @@
       "title": "A Final Return for OpenBSD Anti-Return-Oriented Programming Mitigations",
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6869668",
       "discuss_url": "https://lobste.rs/s/xclcel",
-      "score": 4,
+      "score": 5,
       "comments": 3,
       "author": "fro",
       "published": "2026-07-07T22:13:52Z"
@@ -385,13 +397,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589)",
-      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
-      "discuss_url": "https://lobste.rs/s/7hmu0w",
-      "score": 4,
+      "title": "Announcing the Save CTFs Fund",
+      "url": "https://osec.io/blog/save-ctfs-fund/",
+      "discuss_url": "https://lobste.rs/s/geibgn",
+      "score": 1,
       "comments": 0,
-      "author": "fro",
-      "published": "2026-07-08T01:02:05Z"
+      "author": "freddyb",
+      "published": "2026-07-08T07:58:42Z"
     },
     {
       "source": "lobsters",
@@ -400,10 +412,22 @@
       "title": "A Measurement Study on the Adoption of Pledges and Unveils in the OpenBSD Operating System",
       "url": "https://arxiv.org/pdf/2607.03056",
       "discuss_url": "https://lobste.rs/s/sglhvg",
-      "score": 4,
+      "score": 6,
       "comments": 0,
       "author": "fro",
       "published": "2026-07-07T22:02:16Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Web Security docs on MDN",
+      "url": "https://openwebdocs.org/content/posts/security-docs-sovereign-tech-agency/",
+      "discuss_url": "https://lobste.rs/s/b3elwj",
+      "score": 34,
+      "comments": 1,
+      "author": "freddyb",
+      "published": "2026-07-06T07:40:41Z"
     },
     {
       "source": "lobsters",
@@ -433,22 +457,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Web Security docs on MDN",
-      "url": "https://openwebdocs.org/content/posts/security-docs-sovereign-tech-agency/",
-      "discuss_url": "https://lobste.rs/s/b3elwj",
-      "score": 33,
-      "comments": 1,
-      "author": "freddyb",
-      "published": "2026-07-06T07:40:41Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Bad Epoll (CVE-2026-46242)",
       "url": "https://github.com/J-jaeyoung/bad-epoll",
       "discuss_url": "https://lobste.rs/s/drf6my",
-      "score": 59,
+      "score": 60,
       "comments": 18,
       "author": "dzwdz",
       "published": "2026-07-04T18:40:12Z"
@@ -476,18 +488,6 @@
       "comments": 1,
       "author": "gioele",
       "published": "2026-07-06T22:58:20Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Poison, redzones and shadows: inside KASAN – Bootlin",
-      "url": "https://bootlin.com/blog/poison-redzones-and-shadows-inside-kasan/",
-      "discuss_url": "https://lobste.rs/s/exuqoz",
-      "score": 3,
-      "comments": 0,
-      "author": "rrampage",
-      "published": "2026-07-06T20:24:37Z"
     },
     {
       "source": "lobsters",
@@ -649,6 +649,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+      "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
+      "discuss_url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
+      "score": null,
+      "comments": null,
+      "author": "Dan Goodin",
+      "published": "2026-07-08T07:00:51Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "Michigan sees explosive outbreak of diarrheal parasite with over 700 cases",
       "url": "https://arstechnica.com/health/2026/07/michigan-sees-explosive-outbreak-of-diarrheal-parasite-with-over-700-cases/",
       "discuss_url": "https://arstechnica.com/health/2026/07/michigan-sees-explosive-outbreak-of-diarrheal-parasite-with-over-700-cases/",
@@ -776,18 +788,6 @@
       "comments": null,
       "author": "Jennifer Ouellette",
       "published": "2026-07-07T15:54:18Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "New virus catalog reveals which pathogens pose the greatest threat",
-      "url": "https://arstechnica.com/health/2026/07/new-virus-catalog-reveals-which-pathogens-pose-the-greatest-threat/",
-      "discuss_url": "https://arstechnica.com/health/2026/07/new-virus-catalog-reveals-which-pathogens-pose-the-greatest-threat/",
-      "score": null,
-      "comments": null,
-      "author": "Mark Woolhouse",
-      "published": "2026-07-07T13:15:49Z"
     }
   ]
 }
