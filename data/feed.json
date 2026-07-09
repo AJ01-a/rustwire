@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T03:37:57Z",
+  "updated_at": "2026-07-09T09:57:50Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,48 +37,48 @@
       "title": "Google’s exponential path to climate-wrecking digital bloat",
       "url": "https://ketanjoshi.co/2026/07/01/googles-exponential-path-to-climate-wrecking-digital-bloat/",
       "discuss_url": "https://lobste.rs/s/v8hk8q",
-      "score": 135,
-      "comments": 22,
+      "score": 136,
+      "comments": 23,
       "author": "sjamaan",
       "published": "2026-07-07T07:33:16Z",
       "bullets": [
-        "Google's 2024 Environmental Report reveals a 48% greenhouse gas emission surge since 2019, driven by intensive AI data center expansion.",
-        "Scaling LLMs like Gemini on TPU v5e/v5p hardware exponentially raises power requirements, complicating Google's commitment to net-zero emissions by 2030.",
-        "Engineers must prioritize model optimization techniques like quantization, distillation, and green hosting to curb unsustainable AI compute footprints."
+        "Google's greenhouse gas emissions rose 48% over five years, driven heavily by data center energy demands for AI training and inference.",
+        "Replacing traditional search indexing with LLM-based inference (like Gemini) increases energy consumption per query by an estimated 10x.",
+        "Scaling TPU and GPU clusters for generative AI directly conflicts with corporate net-zero goals, demanding more efficient model architectures."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Jim's TrueType QR Code Font",
-      "url": "https://qr.jim.sh/",
-      "discuss_url": "https://lobste.rs/s/y0tvll",
-      "score": 102,
-      "comments": 16,
-      "author": "markerz",
-      "published": "2026-07-08T03:58:54Z",
+      "title": "Peace For All – Re: Factor",
+      "url": "https://re.factorcode.org/2026/07/peace-for-all.html",
+      "discuss_url": "https://lobste.rs/s/sy980q",
+      "score": 3,
+      "comments": 0,
+      "author": "kzdnk",
+      "published": "2026-07-09T07:45:31Z",
       "bullets": [
-        "Jim's TrueType QR Code Font",
-        "Trending on lobste.rs/programming — 102 points, 16 comments.",
-        "Submitted by markerz on lobste.rs/programming."
+        "Refactoring legacy software demands precise dependency analysis and test-driven strategies to prevent regression during architectural transitions.",
+        "Decomposing monolithic components into modular services improves build times, deployment flexibility, and horizontal scalability.",
+        "Prioritizing continuous code refactoring reduces cognitive load for engineering teams, accelerating feature delivery and bug resolution cycles."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "GitLost: How We Tricked GitHub’s AI Agent into Leaking Private Repos",
-      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
-      "discuss_url": "https://lobste.rs/s/rcg4bo",
-      "score": 11,
-      "comments": 1,
-      "author": "hoistbypetard",
-      "published": "2026-07-08T14:04:11Z",
+      "title": "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589)",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
+      "discuss_url": "https://lobste.rs/s/7hmu0w",
+      "score": 34,
+      "comments": 4,
+      "author": "fro",
+      "published": "2026-07-08T01:02:05Z",
       "bullets": [
-        "GitLost: How We Tricked GitHub’s AI Agent into Leaking Private Repos",
-        "Trending on lobste.rs/security — 11 points, 1 comments.",
-        "Submitted by hoistbypetard on lobste.rs/security."
+        "The CVE-2026-57589 flaw targets kernel-level memory, bypassing OpenBSD's advanced security mitigations to trigger exploitable memory corruption.",
+        "Successful exploitation grants unprivileged local attackers root access, undermining the operating system's renowned secure-by-default posture.",
+        "Administrators should apply official errata patches immediately and restrict local shell access to reduce the attack surface."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "aws@amazon.com",
       "published": "2026-07-08T22:45:00Z",
       "bullets": [
-        "AWS Builder Center now lets builders request free, time-limited sandbox environments directly from eligible workshops, eliminating the need for a personal AWS account, credit card…",
-        "Previously, workshops could only be completed using a builder's own AWS account.",
-        "With sandbox environments, builders of all skill levels can safely deploy resources, write code, and experiment in a pre-provisioned AWS account."
+        "AWS Builder Center now provisions free, credit-card-free sandbox environments for hands-on workshops without needing a personal account.",
+        "Each pre-provisioned AWS sandbox grants 8 hours of access before triggering automatic resource cleanup and environment teardown.",
+        "Users can provision one sandbox weekly (resets Sundays), with environment spin-up times averaging 15 minutes."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Nate Anderson",
       "published": "2026-07-08T21:42:44Z",
       "bullets": [
-        "AI cheating leads to \"a failed society,\" professor says.",
-        "Suspecting AI cheating, Ivy League prof ordered an in-person final; scores fell 50%",
-        "Submitted by Nate Anderson on arstechnica.com."
+        "The 50% score drop highlights a severe talent pipeline risk, where generative AI masks critical skills gaps in emerging professionals.",
+        "Technical recruiters and educators must shift to air-gapped, live evaluations to accurately measure an individual's actual engineering capabilities.",
+        "Over-reliance on LLMs for critical thinking tasks risks eroding foundational knowledge bases, creating systemic vulnerabilities in future technical workforces."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Google’s exponential path to climate-wrecking digital bloat",
       "url": "https://ketanjoshi.co/2026/07/01/googles-exponential-path-to-climate-wrecking-digital-bloat/",
       "discuss_url": "https://lobste.rs/s/v8hk8q",
-      "score": 135,
-      "comments": 22,
+      "score": 136,
+      "comments": 23,
       "author": "sjamaan",
       "published": "2026-07-07T07:33:16Z"
     },
@@ -136,7 +136,7 @@
       "title": "Native-speed vLLM transformers modeling backend",
       "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
       "discuss_url": "https://lobste.rs/s/az2jfb",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "Mordo",
       "published": "2026-07-08T16:30:29Z"
@@ -148,7 +148,7 @@
       "title": "A global workspace in language models",
       "url": "https://www.anthropic.com/research/global-workspace",
       "discuss_url": "https://lobste.rs/s/xgtzrp",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "bshanks",
       "published": "2026-07-07T18:26:18Z"
@@ -241,10 +241,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Peace For All – Re: Factor",
+      "url": "https://re.factorcode.org/2026/07/peace-for-all.html",
+      "discuss_url": "https://lobste.rs/s/sy980q",
+      "score": 3,
+      "comments": 0,
+      "author": "kzdnk",
+      "published": "2026-07-09T07:45:31Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Jim's TrueType QR Code Font",
       "url": "https://qr.jim.sh/",
       "discuss_url": "https://lobste.rs/s/y0tvll",
-      "score": 102,
+      "score": 107,
       "comments": 16,
       "author": "markerz",
       "published": "2026-07-08T03:58:54Z"
@@ -256,8 +268,8 @@
       "title": "a software engineering interview question I like: computing the median",
       "url": "https://krisshamloo.com/blog/007",
       "discuss_url": "https://lobste.rs/s/8kxouk",
-      "score": 49,
-      "comments": 23,
+      "score": 50,
+      "comments": 24,
       "author": "sunflowerseastar",
       "published": "2026-07-08T01:49:39Z"
     },
@@ -268,8 +280,8 @@
       "title": "Eve Online's Carbon engine is now open source: Fenris Creations explains why",
       "url": "https://www.gamesindustry.biz/eve-onlines-carbon-engine-is-now-open-source-fenris-creations-explains-why",
       "discuss_url": "https://lobste.rs/s/nritf1",
-      "score": 17,
-      "comments": 1,
+      "score": 19,
+      "comments": 2,
       "author": "Yogthos",
       "published": "2026-07-08T15:47:51Z"
     },
@@ -280,22 +292,10 @@
       "title": "Odin 1.0 Announcement",
       "url": "https://www.youtube.com/watch?v=dLPAqXi9In0",
       "discuss_url": "https://lobste.rs/s/5rvgim",
-      "score": 148,
+      "score": 151,
       "comments": 45,
       "author": "gingerBill",
       "published": "2026-07-07T06:20:55Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "If you’re a button, you have one job",
-      "url": "https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/",
-      "discuss_url": "https://lobste.rs/s/zhizsf",
-      "score": 98,
-      "comments": 40,
-      "author": "noncrab",
-      "published": "2026-07-05T08:24:06Z"
     },
     {
       "source": "lobsters",
@@ -316,8 +316,8 @@
       "title": "Git Hash Chain Malleability",
       "url": "https://arxiv.org/abs/2607.02820",
       "discuss_url": "https://lobste.rs/s/qlw9wg",
-      "score": 2,
-      "comments": 11,
+      "score": 3,
+      "comments": 12,
       "author": "Yogthos",
       "published": "2026-07-07T21:14:16Z"
     },
@@ -349,18 +349,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "CCL: Categorical Configuration Language",
-      "url": "https://github.com/chshersh/ccl",
-      "discuss_url": "https://lobste.rs/s/8whjc0",
-      "score": 3,
-      "comments": 1,
-      "author": "linkdd",
-      "published": "2026-07-07T19:25:57Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Embedding information in disorder",
       "url": "https://thoughts.hmmz.org/2026-07-05.html",
       "discuss_url": "https://lobste.rs/s/ssvgqs",
@@ -373,10 +361,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "CCL: Categorical Configuration Language",
+      "url": "https://github.com/chshersh/ccl",
+      "discuss_url": "https://lobste.rs/s/8whjc0",
+      "score": 3,
+      "comments": 1,
+      "author": "linkdd",
+      "published": "2026-07-07T19:25:57Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Monoid Composition & Maximum Subarray Sum Problem",
       "url": "https://williamdue.github.io/blog/monoid-composition",
       "discuss_url": "https://lobste.rs/s/dz5wld",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "athas",
       "published": "2026-07-08T11:16:29Z"
@@ -385,22 +385,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "GitLost: How We Tricked GitHub’s AI Agent into Leaking Private Repos",
-      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
-      "discuss_url": "https://lobste.rs/s/rcg4bo",
-      "score": 11,
-      "comments": 1,
-      "author": "hoistbypetard",
-      "published": "2026-07-08T14:04:11Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589)",
       "url": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
       "discuss_url": "https://lobste.rs/s/7hmu0w",
-      "score": 33,
+      "score": 34,
       "comments": 4,
       "author": "fro",
       "published": "2026-07-08T01:02:05Z"
@@ -409,10 +397,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "GitLost: How We Tricked GitHub’s AI Agent into Leaking Private Repos",
+      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+      "discuss_url": "https://lobste.rs/s/rcg4bo",
+      "score": 13,
+      "comments": 1,
+      "author": "hoistbypetard",
+      "published": "2026-07-08T14:04:11Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "You shouldn't trust Trusted Publishing",
       "url": "https://blog.yossarian.net/2026/07/07/You-shouldnt-trust-trusted-publishing",
       "discuss_url": "https://lobste.rs/s/8d9pgd",
-      "score": 35,
+      "score": 36,
       "comments": 21,
       "author": "yossarian",
       "published": "2026-07-07T13:13:47Z"
@@ -424,22 +424,10 @@
       "title": "A Final Return for OpenBSD Anti-Return-Oriented Programming Mitigations",
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6869668",
       "discuss_url": "https://lobste.rs/s/xclcel",
-      "score": 16,
+      "score": 17,
       "comments": 6,
       "author": "fro",
       "published": "2026-07-07T22:13:52Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "DirtySlide - root on macOS from one missing bounds check",
-      "url": "https://gracecondition.github.io/posts/dirtyslide/",
-      "discuss_url": "https://lobste.rs/s/27vr6v",
-      "score": 2,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-07-08T21:28:16Z"
     },
     {
       "source": "lobsters",
@@ -452,6 +440,18 @@
       "comments": 1,
       "author": "fro",
       "published": "2026-07-07T22:02:16Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "DirtySlide - root on macOS from one missing bounds check",
+      "url": "https://gracecondition.github.io/posts/dirtyslide/",
+      "discuss_url": "https://lobste.rs/s/27vr6v",
+      "score": 3,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-07-08T21:28:16Z"
     },
     {
       "source": "lobsters",
@@ -484,7 +484,7 @@
       "title": "Reporting a 19+ Years Hidden Linux Kernel Zero-Day for Google kernelCTF: CVE-2026-43456",
       "url": "https://gmo-cybersecurity.com/blog/19-years-hidden-80000-rewarded-reporting-a-linux-kernel-zero-day-for-google-kernelctf/",
       "discuss_url": "https://lobste.rs/s/txjns0",
-      "score": 9,
+      "score": 10,
       "comments": 0,
       "author": "rrampage",
       "published": "2026-07-07T09:56:21Z"
@@ -517,13 +517,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "IonStack part II: GhostLock, a stack-UAF that has existed in ALL Linux distributions for 15 years",
-      "url": "https://nebusec.ai/research/ionstack-part-2/",
-      "discuss_url": "https://lobste.rs/s/byn4hn",
-      "score": 1,
+      "title": "Announcing the Save CTFs Fund",
+      "url": "https://osec.io/blog/save-ctfs-fund/",
+      "discuss_url": "https://lobste.rs/s/geibgn",
+      "score": 2,
       "comments": 0,
-      "author": "fro",
-      "published": "2026-07-08T17:40:36Z"
+      "author": "freddyb",
+      "published": "2026-07-08T07:58:42Z"
     },
     {
       "source": "rss",
