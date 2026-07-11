@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T08:02:50Z",
+  "updated_at": "2026-07-11T13:28:16Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
       "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
       "discuss_url": "https://news.ycombinator.com/item?id=48865019",
-      "score": 972,
-      "comments": 480,
+      "score": 1224,
+      "comments": 648,
       "author": "stock_toaster",
       "published": "2026-07-10T20:47:09Z",
       "bullets": [
-        "Apple accuses former employees of transferring proprietary neural engine optimizations and on-device AI model architectures directly to competitor OpenAI.",
-        "AI organizations must implement rigorous clean-room hiring protocols to prevent IP contamination from competitor training datasets and model weights.",
-        "The lawsuit marks an escalation in legal battles over proprietary local LLM tech and silicon-specific machine learning pipelines."
+        "Apple accuses ex-employees of transferring proprietary AI trade secrets to OpenAI, spotlighting IP theft risks in competitive LLM development.",
+        "AI practitioners must enforce strict code-provenance audits and data exfiltration controls to prevent ingestion of tainted model architectures.",
+        "The lawsuit disrupts Apple-OpenAI integrations, urging enterprises to diversify LLM vendors and isolate proprietary on-device AI pipelines."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/u9yf5l",
       "discuss_url": "https://lobste.rs/s/u9yf5l",
-      "score": 17,
-      "comments": 30,
+      "score": 19,
+      "comments": 39,
       "author": "caius",
       "published": "2026-07-10T10:44:48Z",
       "bullets": [
-        "Developers use weekend hacking to experiment with emerging systems languages like Rust, Go, and Zig on low-stakes side projects.",
-        "Self-hosting services, configuring NixOS home labs, and building compilers are prevalent technical weekend pursuits among systems engineers.",
-        "Industry professionals emphasize structured downtime to combat burnout, highlighting that doing nothing is a critical software engineer maintenance strategy."
+        "Lobsters developers use weekends to build side projects, experimenting with emerging systems languages like Rust, Go, or Zig.",
+        "Popular weekend activities include self-hosting home labs, exploring local AI using Ollama, and refactoring legacy personal codebases.",
+        "The community emphasizes taking intentional downtime to combat industry burnout, prioritizing rest over continuous technical upskilling."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "EU Commission: addictive design Instagram and Facebook in breach of the DSA",
       "url": "https://ec.europa.eu/commission/presscorner/home/en",
       "discuss_url": "https://news.ycombinator.com/item?id=48858292",
-      "score": 260,
-      "comments": 175,
+      "score": 265,
+      "comments": 184,
       "author": "jeroenhd",
       "published": "2026-07-10T11:00:15Z",
       "bullets": [
-        "The European Commission formally charges Meta under the DSA for exploiting minors via behavioral profiling and dark-pattern user retention mechanics.",
-        "Non-compliance under DSA Article 34/35 risks fines up to 6% of Meta's global annual turnover and mandates independent algorithmic audits.",
-        "Engineers must implement robust age-verification, data minimization, and algorithmic threat modeling to satisfy European Commission systemic risk assessment mandates."
+        "The EU's formal DSA proceedings against Meta highlight growing regulatory scrutiny on algorithmic manipulation and systemic platform vulnerabilities.",
+        "Meta risks DSA fines of up to 6% of global turnover over addictive interface patterns and dark UX designs.",
+        "Security auditors and privacy engineers must integrate algorithmic impact assessments to comply with tightening EU digital safety regulations."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Package Management as Org Chart",
       "url": "https://nesbitt.io/2026/07/10/package-management-as-org-chart.html",
       "discuss_url": "https://lobste.rs/s/6fmohi",
-      "score": 9,
+      "score": 12,
       "comments": 1,
       "author": "calvin",
       "published": "2026-07-10T19:12:27Z",
       "bullets": [
-        "Artifact registries like Artifactory and Nexus mirror Conway's Law, where package dependency graphs reflect team boundaries and organizational silos.",
-        "Decisions between monorepos and multi-repos dictate CI/CD pipeline structures, forcing DevOps to map build steps to team ownership.",
-        "Private package governance (npm, NuGet) requires strict RBAC matching company hierarchy to prevent unauthorized access and dependency confusion."
+        "Conway’s Law heavily influences dependency management; internal package structures (npm, NuGet, Cargo) inevitably mirror your organization’s reporting lines and silos.",
+        "Platform teams must align artifact registry permissions (Artifactory, GitHub Packages) with org-chart boundaries to secure the software supply chain.",
+        "Rigid dependency chains and version-lock issues between internal packages highlight organizational bottlenecks and poor cross-team API contracts."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Quantum error correction can constantly recalibrate a processor",
-      "url": "https://arstechnica.com/science/2026/07/quantum-error-correction-can-constantly-recalibrate-a-processor/",
-      "discuss_url": "https://arstechnica.com/science/2026/07/quantum-error-correction-can-constantly-recalibrate-a-processor/",
+      "title": "A Jupiter-size planet that escaped its star's death",
+      "url": "https://arstechnica.com/science/2026/07/a-jupiter-size-planet-that-escaped-its-stars-death/",
+      "discuss_url": "https://arstechnica.com/science/2026/07/a-jupiter-size-planet-that-escaped-its-stars-death/",
       "score": null,
       "comments": null,
-      "author": "John Timmer",
-      "published": "2026-07-10T23:02:30Z",
+      "author": "Jacek Krywko",
+      "published": "2026-07-11T12:00:58Z",
       "bullets": [
-        "Reinforcement learning models dynamically adjust quantum control algorithms by analyzing real-time error correction data to maintain processor stability.",
-        "Continuous automated recalibration mitigates environmental noise and drift, significantly improving qubit coherence and gate fidelity in quantum hardware.",
-        "Integrating closed-loop AI with quantum error correction reduces manual tuning overhead, advancing the viability of fault-tolerant quantum computing."
+        "Astronomers discovered a Jupiter-mass exoplanet (8 UMi b) surviving its host star's red giant expansion, defying standard planetary destruction models.",
+        "Data from NASA’s TESS and Keck Observatory confirmed the host star is a helium-burning giant, proving the planet survived expansion.",
+        "A binary stellar merger likely aborted the red giant's expansion, preventing it from engulfing the close-orbiting gas giant."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
       "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
       "discuss_url": "https://news.ycombinator.com/item?id=48865019",
-      "score": 972,
-      "comments": 480,
+      "score": 1224,
+      "comments": 648,
       "author": "stock_toaster",
       "published": "2026-07-10T20:47:09Z"
     },
@@ -136,8 +136,8 @@
       "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
       "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
       "discuss_url": "https://news.ycombinator.com/item?id=48863490",
-      "score": 438,
-      "comments": 354,
+      "score": 484,
+      "comments": 392,
       "author": "scrlk",
       "published": "2026-07-10T18:29:19Z"
     },
@@ -148,8 +148,8 @@
       "title": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
       "url": "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models",
       "discuss_url": "https://news.ycombinator.com/item?id=48865093",
-      "score": 142,
-      "comments": 81,
+      "score": 148,
+      "comments": 82,
       "author": "hershyb_",
       "published": "2026-07-10T20:52:28Z"
     },
@@ -160,10 +160,22 @@
       "title": "Please don't discontinue Gemini 2.5 Flash",
       "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
       "discuss_url": "https://news.ycombinator.com/item?id=48864507",
-      "score": 121,
-      "comments": 80,
+      "score": 125,
+      "comments": 82,
       "author": "NickDob",
       "published": "2026-07-10T20:00:28Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Apple sues OpenAI, accusing it of stealing company secrets",
+      "url": "https://www.nytimes.com/2026/07/10/technology/apple-openai-lawsuit.html",
+      "discuss_url": "https://news.ycombinator.com/item?id=48865431",
+      "score": 113,
+      "comments": 14,
+      "author": "jbegley",
+      "published": "2026-07-10T21:20:29Z"
     },
     {
       "source": "hackernews",
@@ -172,10 +184,22 @@
       "title": "GPT-5.6",
       "url": "https://openai.com/index/gpt-5-6/",
       "discuss_url": "https://news.ycombinator.com/item?id=48849066",
-      "score": 1522,
-      "comments": 1083,
+      "score": 1529,
+      "comments": 1087,
       "author": "logickkk1",
       "published": "2026-07-09T17:04:14Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "AI Surveillance and Social Progress",
+      "url": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
+      "discuss_url": "https://lobste.rs/s/qvu1m0",
+      "score": 5,
+      "comments": 0,
+      "author": "cyplo",
+      "published": "2026-07-11T09:40:40Z"
     },
     {
       "source": "lobsters",
@@ -238,38 +262,14 @@
       "published": "2026-07-10T00:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Data for Agents",
-      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
-      "discuss_url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-08T17:16:05Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "From Hugging Face to Amazon SageMaker Studio in one click",
-      "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-      "discuss_url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-07T21:15:33Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/u9yf5l",
       "discuss_url": "https://lobste.rs/s/u9yf5l",
-      "score": 17,
-      "comments": 30,
+      "score": 19,
+      "comments": 39,
       "author": "caius",
       "published": "2026-07-10T10:44:48Z"
     },
@@ -280,7 +280,7 @@
       "title": "Adding Go to a browser code runner",
       "url": "https://blog.lvmbdv.dev/posts/adding-go-to-a-browser-code-runner/",
       "discuss_url": "https://lobste.rs/s/qtui32",
-      "score": 4,
+      "score": 10,
       "comments": 0,
       "author": "lvmbdv",
       "published": "2026-07-10T20:52:39Z"
@@ -412,8 +412,8 @@
       "title": "EU Commission: addictive design Instagram and Facebook in breach of the DSA",
       "url": "https://ec.europa.eu/commission/presscorner/home/en",
       "discuss_url": "https://news.ycombinator.com/item?id=48858292",
-      "score": 260,
-      "comments": 175,
+      "score": 265,
+      "comments": 184,
       "author": "jeroenhd",
       "published": "2026-07-10T11:00:15Z"
     },
@@ -424,22 +424,10 @@
       "title": "An update on the scraper situation",
       "url": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/",
       "discuss_url": "https://lobste.rs/s/kpaxih",
-      "score": 27,
-      "comments": 12,
+      "score": 57,
+      "comments": 24,
       "author": "fanf",
       "published": "2026-07-10T23:02:53Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "You shouldn't trust Trusted Publishing",
-      "url": "https://blog.yossarian.net/2026/07/07/You-shouldnt-trust-trusted-publishing",
-      "discuss_url": "https://lobste.rs/s/8d9pgd",
-      "score": 37,
-      "comments": 21,
-      "author": "yossarian",
-      "published": "2026-07-07T13:13:47Z"
     },
     {
       "source": "lobsters",
@@ -505,18 +493,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Reporting a 19+ Years Hidden Linux Kernel Zero-Day for Google kernelCTF: CVE-2026-43456",
-      "url": "https://gmo-cybersecurity.com/blog/19-years-hidden-80000-rewarded-reporting-a-linux-kernel-zero-day-for-google-kernelctf/",
-      "discuss_url": "https://lobste.rs/s/txjns0",
-      "score": 11,
-      "comments": 0,
-      "author": "rrampage",
-      "published": "2026-07-07T09:56:21Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Announcing the Save CTFs Fund",
       "url": "https://osec.io/blog/save-ctfs-fund/",
       "discuss_url": "https://lobste.rs/s/geibgn",
@@ -550,13 +526,37 @@
       "published": "2026-07-08T12:31:39Z"
     },
     {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
+      "url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
+      "discuss_url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-11T06:45:55Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
+      "url": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
+      "discuss_url": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-10T16:30:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "Package Management as Org Chart",
       "url": "https://nesbitt.io/2026/07/10/package-management-as-org-chart.html",
       "discuss_url": "https://lobste.rs/s/6fmohi",
-      "score": 9,
+      "score": 12,
       "comments": 1,
       "author": "calvin",
       "published": "2026-07-10T19:12:27Z"
@@ -697,6 +697,30 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "A Jupiter-size planet that escaped its star's death",
+      "url": "https://arstechnica.com/science/2026/07/a-jupiter-size-planet-that-escaped-its-stars-death/",
+      "discuss_url": "https://arstechnica.com/science/2026/07/a-jupiter-size-planet-that-escaped-its-stars-death/",
+      "score": null,
+      "comments": null,
+      "author": "Jacek Krywko",
+      "published": "2026-07-11T12:00:58Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Overhaul of public lands grazing regulations seeks to cut public involvement",
+      "url": "https://arstechnica.com/tech-policy/2026/07/overhaul-of-public-lands-grazing-regulations-seeks-to-cut-public-involvement/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/overhaul-of-public-lands-grazing-regulations-seeks-to-cut-public-involvement/",
+      "score": null,
+      "comments": null,
+      "author": "Mark Olalde, ProPublica, and Jimmy Tobias for High Country News",
+      "published": "2026-07-11T11:11:26Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "Quantum error correction can constantly recalibrate a processor",
       "url": "https://arstechnica.com/science/2026/07/quantum-error-correction-can-constantly-recalibrate-a-processor/",
       "discuss_url": "https://arstechnica.com/science/2026/07/quantum-error-correction-can-constantly-recalibrate-a-processor/",
@@ -812,30 +836,6 @@
       "comments": null,
       "author": "Ashley Belanger",
       "published": "2026-07-10T15:46:18Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "NASA sure seems to be asking an awful lot of private space stations",
-      "url": "https://arstechnica.com/space/2026/07/nasa-finally-releases-a-critical-planning-document-for-private-space-stations/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/nasa-finally-releases-a-critical-planning-document-for-private-space-stations/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-07-10T15:15:58Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Volkswagen Group tells its board how to fix it, unions disagree",
-      "url": "https://arstechnica.com/cars/2026/07/vw-group-and-unions-disagree-on-plan-to-streamline-the-automaker/",
-      "discuss_url": "https://arstechnica.com/cars/2026/07/vw-group-and-unions-disagree-on-plan-to-streamline-the-automaker/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-07-10T13:51:10Z"
     }
   ]
 }
