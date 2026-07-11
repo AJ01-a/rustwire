@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T13:28:16Z",
+  "updated_at": "2026-07-11T19:10:52Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
       "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
       "discuss_url": "https://news.ycombinator.com/item?id=48865019",
-      "score": 1224,
-      "comments": 648,
+      "score": 1474,
+      "comments": 821,
       "author": "stock_toaster",
       "published": "2026-07-10T20:47:09Z",
       "bullets": [
-        "Apple accuses ex-employees of transferring proprietary AI trade secrets to OpenAI, spotlighting IP theft risks in competitive LLM development.",
-        "AI practitioners must enforce strict code-provenance audits and data exfiltration controls to prevent ingestion of tainted model architectures.",
-        "The lawsuit disrupts Apple-OpenAI integrations, urging enterprises to diversify LLM vendors and isolate proprietary on-device AI pipelines."
+        "Apple's lawsuit against OpenAI over poached employees raises legal risks for AI firms hiring competitor talent with proprietary IP access.",
+        "The case emphasizes the critical need for robust Data Loss Prevention (DLP) and forensic auditing during AI researcher offboarding.",
+        "Litigation over stolen Apple secrets impacts hiring and IP retention strategies for OpenAI, Anthropic, Google, and other AI labs."
       ]
     },
     {
@@ -55,13 +55,13 @@
       "url": "https://lobste.rs/s/u9yf5l",
       "discuss_url": "https://lobste.rs/s/u9yf5l",
       "score": 19,
-      "comments": 39,
+      "comments": 40,
       "author": "caius",
       "published": "2026-07-10T10:44:48Z",
       "bullets": [
-        "Lobsters developers use weekends to build side projects, experimenting with emerging systems languages like Rust, Go, or Zig.",
-        "Popular weekend activities include self-hosting home labs, exploring local AI using Ollama, and refactoring legacy personal codebases.",
-        "The community emphasizes taking intentional downtime to combat industry burnout, prioritizing rest over continuous technical upskilling."
+        "Engineers use weekend downtime to build side projects, experimenting with languages like Rust, Go, or Zig outside of production constraints.",
+        "Homelab maintenance, self-hosting private cloud services, and configuring local LLMs are highly prevalent weekend engineering activities.",
+        "Contributing to open-source software, refactoring personal dotfiles, and testing emerging web frameworks like Svelte or Astro drive weekend learning."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "EU Commission: addictive design Instagram and Facebook in breach of the DSA",
       "url": "https://ec.europa.eu/commission/presscorner/home/en",
       "discuss_url": "https://news.ycombinator.com/item?id=48858292",
-      "score": 265,
-      "comments": 184,
+      "score": 267,
+      "comments": 191,
       "author": "jeroenhd",
       "published": "2026-07-10T11:00:15Z",
       "bullets": [
-        "The EU's formal DSA proceedings against Meta highlight growing regulatory scrutiny on algorithmic manipulation and systemic platform vulnerabilities.",
-        "Meta risks DSA fines of up to 6% of global turnover over addictive interface patterns and dark UX designs.",
-        "Security auditors and privacy engineers must integrate algorithmic impact assessments to comply with tightening EU digital safety regulations."
+        "EU Commission opened formal proceedings against Meta under the DSA, targeting addictive algorithmic designs and systemic risks to minors.",
+        "The probe targets Meta's 'rabbit hole' algorithms, behavioral addiction patterns, age verification effectiveness, and default privacy settings.",
+        "Security and compliance teams must treat engagement-focused UI/UX design and algorithmic optimization as regulated, high-risk compliance liabilities under EU law."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "Package Management as Org Chart",
       "url": "https://nesbitt.io/2026/07/10/package-management-as-org-chart.html",
       "discuss_url": "https://lobste.rs/s/6fmohi",
-      "score": 12,
-      "comments": 1,
+      "score": 14,
+      "comments": 2,
       "author": "calvin",
       "published": "2026-07-10T19:12:27Z",
       "bullets": [
-        "Conway’s Law heavily influences dependency management; internal package structures (npm, NuGet, Cargo) inevitably mirror your organization’s reporting lines and silos.",
-        "Platform teams must align artifact registry permissions (Artifactory, GitHub Packages) with org-chart boundaries to secure the software supply chain.",
-        "Rigid dependency chains and version-lock issues between internal packages highlight organizational bottlenecks and poor cross-team API contracts."
+        "Internal package registries like Artifactory and Nexus often mirror organizational silos, complicating access control and cross-team dependency sharing.",
+        "Decentralized package ownership leads to version-pinning conflicts and security vulnerabilities in shared CI/CD build pipelines.",
+        "Conway’s Law dictates that repository structures (monorepo vs. multi-repo) must align with team boundaries to optimize build performance."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Jacek Krywko",
       "published": "2026-07-11T12:00:58Z",
       "bullets": [
-        "Astronomers discovered a Jupiter-mass exoplanet (8 UMi b) surviving its host star's red giant expansion, defying standard planetary destruction models.",
-        "Data from NASA’s TESS and Keck Observatory confirmed the host star is a helium-burning giant, proving the planet survived expansion.",
-        "A binary stellar merger likely aborted the red giant's expansion, preventing it from engulfing the close-orbiting gas giant."
+        "Astronomers discovered a Jupiter-sized exoplanet that survived its host star's red giant expansion phase, defying current stellar evolution models.",
+        "The survival mechanism remains unknown, challenging existing planetary migration theories and orbital dynamics models during stellar degeneration.",
+        "This detection provides crucial empirical data for astrophysicists modeling the long-term survival of gas giants in aging solar systems."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
       "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
       "discuss_url": "https://news.ycombinator.com/item?id=48865019",
-      "score": 1224,
-      "comments": 648,
+      "score": 1474,
+      "comments": 821,
       "author": "stock_toaster",
       "published": "2026-07-10T20:47:09Z"
     },
@@ -136,8 +136,8 @@
       "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
       "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
       "discuss_url": "https://news.ycombinator.com/item?id=48863490",
-      "score": 484,
-      "comments": 392,
+      "score": 502,
+      "comments": 418,
       "author": "scrlk",
       "published": "2026-07-10T18:29:19Z"
     },
@@ -148,8 +148,8 @@
       "title": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
       "url": "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models",
       "discuss_url": "https://news.ycombinator.com/item?id=48865093",
-      "score": 148,
-      "comments": 82,
+      "score": 151,
+      "comments": 84,
       "author": "hershyb_",
       "published": "2026-07-10T20:52:28Z"
     },
@@ -160,8 +160,8 @@
       "title": "Please don't discontinue Gemini 2.5 Flash",
       "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
       "discuss_url": "https://news.ycombinator.com/item?id=48864507",
-      "score": 125,
-      "comments": 82,
+      "score": 129,
+      "comments": 84,
       "author": "NickDob",
       "published": "2026-07-10T20:00:28Z"
     },
@@ -173,21 +173,9 @@
       "url": "https://www.nytimes.com/2026/07/10/technology/apple-openai-lawsuit.html",
       "discuss_url": "https://news.ycombinator.com/item?id=48865431",
       "score": 113,
-      "comments": 14,
+      "comments": 15,
       "author": "jbegley",
       "published": "2026-07-10T21:20:29Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "GPT-5.6",
-      "url": "https://openai.com/index/gpt-5-6/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48849066",
-      "score": 1529,
-      "comments": 1087,
-      "author": "logickkk1",
-      "published": "2026-07-09T17:04:14Z"
     },
     {
       "source": "lobsters",
@@ -196,8 +184,8 @@
       "title": "AI Surveillance and Social Progress",
       "url": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
       "discuss_url": "https://lobste.rs/s/qvu1m0",
-      "score": 5,
-      "comments": 0,
+      "score": 9,
+      "comments": 1,
       "author": "cyplo",
       "published": "2026-07-11T09:40:40Z"
     },
@@ -229,18 +217,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "A global workspace in language models",
-      "url": "https://www.anthropic.com/research/global-workspace",
-      "discuss_url": "https://lobste.rs/s/xgtzrp",
-      "score": 2,
-      "comments": 0,
-      "author": "bshanks",
-      "published": "2026-07-07T18:26:18Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "Tau: An Educational Coding Agent",
       "url": "https://twotimespi.dev/",
       "discuss_url": "https://lobste.rs/s/glngfn",
@@ -262,6 +238,30 @@
       "published": "2026-07-10T00:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Data for Agents",
+      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "discuss_url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-08T17:16:05Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "From Hugging Face to Amazon SageMaker Studio in one click",
+      "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+      "discuss_url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-07T21:15:33Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
@@ -269,9 +269,21 @@
       "url": "https://lobste.rs/s/u9yf5l",
       "discuss_url": "https://lobste.rs/s/u9yf5l",
       "score": 19,
-      "comments": 39,
+      "comments": 40,
       "author": "caius",
       "published": "2026-07-10T10:44:48Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Handsum: An LQIP Image File Format",
+      "url": "https://nigeltao.github.io/blog/2026/handsum.html",
+      "discuss_url": "https://lobste.rs/s/gmzzeb",
+      "score": 1,
+      "comments": 0,
+      "author": "carlana",
+      "published": "2026-07-11T18:34:59Z"
     },
     {
       "source": "lobsters",
@@ -280,7 +292,7 @@
       "title": "Adding Go to a browser code runner",
       "url": "https://blog.lvmbdv.dev/posts/adding-go-to-a-browser-code-runner/",
       "discuss_url": "https://lobste.rs/s/qtui32",
-      "score": 10,
+      "score": 12,
       "comments": 0,
       "author": "lvmbdv",
       "published": "2026-07-10T20:52:39Z"
@@ -352,7 +364,7 @@
       "title": "The Backstory of Jiki",
       "url": "https://jiki.io/blog/the-backstory-of-jiki",
       "discuss_url": "https://lobste.rs/s/gavvqf",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "bkhl",
       "published": "2026-07-09T20:19:25Z"
@@ -394,26 +406,14 @@
       "published": "2026-07-10T15:57:47Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "How GitHub gave every repository a durable owner",
-      "url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
-      "discuss_url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
-      "score": null,
-      "comments": null,
-      "author": "Michael Recachinas",
-      "published": "2026-07-09T16:29:37Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "EU Commission: addictive design Instagram and Facebook in breach of the DSA",
       "url": "https://ec.europa.eu/commission/presscorner/home/en",
       "discuss_url": "https://news.ycombinator.com/item?id=48858292",
-      "score": 265,
-      "comments": 184,
+      "score": 267,
+      "comments": 191,
       "author": "jeroenhd",
       "published": "2026-07-10T11:00:15Z"
     },
@@ -424,8 +424,8 @@
       "title": "An update on the scraper situation",
       "url": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/",
       "discuss_url": "https://lobste.rs/s/kpaxih",
-      "score": 57,
-      "comments": 24,
+      "score": 81,
+      "comments": 27,
       "author": "fanf",
       "published": "2026-07-10T23:02:53Z"
     },
@@ -529,25 +529,25 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
-      "url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
-      "discuss_url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
+      "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
+      "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
+      "discuss_url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-11T06:45:55Z"
+      "published": "2026-07-11T17:59:26Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
-      "url": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-      "discuss_url": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
+      "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
+      "url": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
+      "discuss_url": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-10T16:30:00Z"
+      "published": "2026-07-11T17:49:31Z"
     },
     {
       "source": "lobsters",
@@ -556,8 +556,8 @@
       "title": "Package Management as Org Chart",
       "url": "https://nesbitt.io/2026/07/10/package-management-as-org-chart.html",
       "discuss_url": "https://lobste.rs/s/6fmohi",
-      "score": 12,
-      "comments": 1,
+      "score": 14,
+      "comments": 2,
       "author": "calvin",
       "published": "2026-07-10T19:12:27Z"
     },
