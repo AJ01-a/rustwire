@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T08:23:49Z",
+  "updated_at": "2026-07-12T13:29:03Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Stop Telling Me to Ask an LLM",
-      "url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48876441",
-      "score": 177,
-      "comments": 104,
-      "author": "theorchid",
-      "published": "2026-07-11T22:28:48Z",
+      "title": "Mesh LLM: distributed AI computing on iroh",
+      "url": "https://www.iroh.computer/blog/mesh-llm",
+      "discuss_url": "https://news.ycombinator.com/item?id=48876505",
+      "score": 285,
+      "comments": 65,
+      "author": "tionis",
+      "published": "2026-07-11T22:38:57Z",
       "bullets": [
-        "LLMs lack determinism and hallucinate API parameters, making probabilistic outputs an unsafe substitute for precise, versioned technical documentation.",
-        "Retrieval-Augmented Generation (RAG) fails on niche codebases, shifting the cognitive burden of verification back to the developer.",
-        "AI-generated code snippets risk introducing supply chain vulnerabilities by recommending non-existent libraries or outdated APIs."
+        "Runs distributed LLM inference across decentralized nodes using Iroh’s peer-to-peer Rust networking stack, bypassing traditional centralized cloud infrastructure.",
+        "Utilizes direct hole punching and content addressable data to efficiently orchestrate model weights and token generation across heterogenous edge hardware.",
+        "Enables collaborative P2P AI inference using local GPUs, offering a private, low-latency alternative to expensive centralized cloud providers."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Handsum: An LQIP Image File Format",
       "url": "https://nigeltao.github.io/blog/2026/handsum.html",
       "discuss_url": "https://lobste.rs/s/gmzzeb",
-      "score": 14,
+      "score": 16,
       "comments": 1,
       "author": "carlana",
       "published": "2026-07-11T18:34:59Z",
       "bullets": [
-        "This specialized image format optimizes web performance by drastically reducing the byte size of Low Quality Image Placeholders (LQIP).",
-        "It targets faster page loads and improved Core Web Vitals like Largest Contentful Paint (LCP) via ultra-low-overhead preview generation.",
-        "The format enables embedding highly compressed, blurred image data directly into HTML or CSS, minimizing initial HTTP roundtrips."
+        "Handsum is a specialized binary format for Low-Quality Image Placeholders (LQIP), reducing initial page payload sizes for better web performance.",
+        "Designed as an alternative to BlurHash and ThumbHash, it prioritizes extremely small byte footprints and fast client-side decoding.",
+        "Engineers can pre-render Handsum strings during build steps to embed lightweight, CSS-ready image previews directly in initial HTML."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "reaction: A daemon that scans program outputs for repeated patterns, and takes action",
       "url": "https://framagit.org/ppom/reaction",
       "discuss_url": "https://lobste.rs/s/zzdc8x",
-      "score": 10,
+      "score": 15,
       "comments": 3,
       "author": "fanf",
       "published": "2026-07-12T01:15:49Z",
       "bullets": [
-        "Reaction serves as a Go-based Fail2ban alternative, scanning command outputs and journald to trigger automated iptables or nftables bans.",
-        "It processes logs as streams rather than polling files, significantly reducing disk I/O overhead during high-volume brute-force attacks.",
-        "Security teams configure declarative YAML rules to match regex patterns and execute arbitrary shell commands for rapid threat mitigation."
+        "A modern, lightweight Fail2ban alternative written in Go for scanning logs and program outputs to detect malicious behavior.",
+        "Supports systemd journald integration, triggering immediate mitigation actions like iptables blocks or custom scripts upon regex matches.",
+        "Provides a simpler, declarative YAML configuration compared to Fail2ban, optimizing threat response for DevOps and security operations."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Package Management as Org Chart",
       "url": "https://nesbitt.io/2026/07/10/package-management-as-org-chart.html",
       "discuss_url": "https://lobste.rs/s/6fmohi",
-      "score": 18,
-      "comments": 2,
+      "score": 20,
+      "comments": 3,
       "author": "calvin",
       "published": "2026-07-10T19:12:27Z",
       "bullets": [
-        "Artifact registry structures (Artifactory, AWS CodeArtifact) naturally mirror organizational boundaries, dictating access control policies and package ownership.",
-        "Scoped registries and namespaces (e.g., npm scopes, private PyPI) define team boundaries, simplifying security patching and vulnerability tracking across silos.",
-        "Decoupled teams require strict SemVer and automated tools like Renovate or Dependabot to manage downstream breaking changes across organizational boundaries."
+        "Conway's Law dictates package architecture; aligning package boundaries with team ownership prevents cross-team build blockages and dependency hell.",
+        "Private registries like Artifactory, Nexus, or CodeArtifact mirror organizational hierarchies to enforce access controls and security policies.",
+        "Decoupled package release cycles reduce organizational friction; use semantic versioning and automated CI/CD pipelines to manage team dependencies."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "A Jupiter-size planet that escaped its star's death",
-      "url": "https://arstechnica.com/science/2026/07/a-jupiter-size-planet-that-escaped-its-stars-death/",
-      "discuss_url": "https://arstechnica.com/science/2026/07/a-jupiter-size-planet-that-escaped-its-stars-death/",
+      "title": "The real mystery behind Moana: After 1,700 years, why did Polynesians suddenly sail east?",
+      "url": "https://arstechnica.com/culture/2026/07/the-real-mystery-behind-moana-after-1700-years-why-did-polynesians-suddenly-sail-east/",
+      "discuss_url": "https://arstechnica.com/culture/2026/07/the-real-mystery-behind-moana-after-1700-years-why-did-polynesians-suddenly-sail-east/",
       "score": null,
       "comments": null,
-      "author": "Jacek Krywko",
-      "published": "2026-07-11T12:00:58Z",
+      "author": "David Sear, Manoj Joshi, and Mark Peaple, The Conversation",
+      "published": "2026-07-12T11:12:19Z",
       "bullets": [
-        "Astronomers confirmed a Jupiter-mass exoplanet survived its host star's red giant expansion, now closely orbiting a dense white dwarf remnant.",
-        "The survival contradicts existing stellar evolution simulations, requiring updates to planetary migration and hydrodynamical envelope-engulfment models.",
-        "This system serves as a predictive empirical baseline for the survival of outer solar system planets, including Jupiter."
+        "Paleoclimate reconstructions suggest shifts in wind patterns and El Niño cycles enabled eastward Polynesian navigation after a 1,700-year pause.",
+        "Researchers leverage advanced climate modeling and sediment data to analyze historical wind shifts that facilitated long-distance maritime migration.",
+        "The study highlights how environmental data analysis and climate variability modeling explain historical human migration patterns and technological adaptation."
       ]
     }
   ],
@@ -121,10 +121,22 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Mesh LLM: distributed AI computing on iroh",
+      "url": "https://www.iroh.computer/blog/mesh-llm",
+      "discuss_url": "https://news.ycombinator.com/item?id=48876505",
+      "score": 285,
+      "comments": 65,
+      "author": "tionis",
+      "published": "2026-07-11T22:38:57Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Stop Telling Me to Ask an LLM",
       "url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/",
       "discuss_url": "https://news.ycombinator.com/item?id=48876441",
-      "score": 177,
+      "score": 183,
       "comments": 104,
       "author": "theorchid",
       "published": "2026-07-11T22:28:48Z"
@@ -133,23 +145,11 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Mesh LLM: distributed AI computing on iroh",
-      "url": "https://www.iroh.computer/blog/mesh-llm",
-      "discuss_url": "https://news.ycombinator.com/item?id=48876505",
-      "score": 229,
-      "comments": 51,
-      "author": "tionis",
-      "published": "2026-07-11T22:38:57Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
       "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
       "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
       "discuss_url": "https://news.ycombinator.com/item?id=48865019",
-      "score": 1604,
-      "comments": 914,
+      "score": 1612,
+      "comments": 920,
       "author": "stock_toaster",
       "published": "2026-07-10T20:47:09Z"
     },
@@ -160,8 +160,8 @@
       "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
       "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
       "discuss_url": "https://news.ycombinator.com/item?id=48863490",
-      "score": 517,
-      "comments": 426,
+      "score": 523,
+      "comments": 429,
       "author": "scrlk",
       "published": "2026-07-10T18:29:19Z"
     },
@@ -205,37 +205,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "An Agent in 100 Lines of Lisp",
-      "url": "https://thebeach.dev/posts/lisp-agent/",
-      "discuss_url": "https://lobste.rs/s/wsw7tq",
-      "score": 3,
-      "comments": 0,
-      "author": "azhenley",
-      "published": "2026-07-12T03:36:08Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "AI Surveillance and Social Progress",
       "url": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
       "discuss_url": "https://lobste.rs/s/qvu1m0",
-      "score": 16,
+      "score": 17,
       "comments": 2,
       "author": "cyplo",
       "published": "2026-07-11T09:40:40Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Full-Pipeline Inference Optimization for MiMo-V2.5 Series",
-      "url": "https://mimo.xiaomi.com/blog/mimo-v2-5-inference",
-      "discuss_url": "https://lobste.rs/s/srdtlp",
-      "score": 1,
-      "comments": 0,
-      "author": "sanxiyn",
-      "published": "2026-07-11T23:22:20Z"
     },
     {
       "source": "lobsters",
@@ -253,6 +229,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
+      "title": "Full-Pipeline Inference Optimization for MiMo-V2.5 Series",
+      "url": "https://mimo.xiaomi.com/blog/mimo-v2-5-inference",
+      "discuss_url": "https://lobste.rs/s/srdtlp",
+      "score": 1,
+      "comments": 0,
+      "author": "sanxiyn",
+      "published": "2026-07-11T23:22:20Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
       "title": "Native-speed vLLM transformers modeling backend",
       "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
       "discuss_url": "https://lobste.rs/s/az2jfb",
@@ -263,12 +251,24 @@
     },
     {
       "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Tau: An Educational Coding Agent",
+      "url": "https://twotimespi.dev/",
+      "discuss_url": "https://lobste.rs/s/glngfn",
+      "score": 0,
+      "comments": 1,
+      "author": "soareschen",
+      "published": "2026-07-09T21:53:03Z"
+    },
+    {
+      "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Handsum: An LQIP Image File Format",
       "url": "https://nigeltao.github.io/blog/2026/handsum.html",
       "discuss_url": "https://lobste.rs/s/gmzzeb",
-      "score": 14,
+      "score": 16,
       "comments": 1,
       "author": "carlana",
       "published": "2026-07-11T18:34:59Z"
@@ -334,18 +334,6 @@
       "published": "2026-07-09T20:19:25Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Monoid Composition & Maximum Subarray Sum Problem",
-      "url": "https://williamdue.github.io/blog/monoid-composition",
-      "discuss_url": "https://lobste.rs/s/dz5wld",
-      "score": 2,
-      "comments": 0,
-      "author": "athas",
-      "published": "2026-07-08T11:16:29Z"
-    },
-    {
       "source": "rss",
       "subsource": "github.blog",
       "category": "engineering",
@@ -406,28 +394,28 @@
       "published": "2026-07-08T16:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Q1 2026 Innovation Graph update: Open source collaboration is accelerating worldwide",
+      "url": "https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide/",
+      "discuss_url": "https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-07-07T16:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "reaction: A daemon that scans program outputs for repeated patterns, and takes action",
       "url": "https://framagit.org/ppom/reaction",
       "discuss_url": "https://lobste.rs/s/zzdc8x",
-      "score": 10,
+      "score": 15,
       "comments": 3,
       "author": "fanf",
       "published": "2026-07-12T01:15:49Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "security",
-      "title": "EU Commission: addictive design Instagram and Facebook in breach of the DSA",
-      "url": "https://ec.europa.eu/commission/presscorner/home/en",
-      "discuss_url": "https://news.ycombinator.com/item?id=48858292",
-      "score": 274,
-      "comments": 192,
-      "author": "jeroenhd",
-      "published": "2026-07-10T11:00:15Z"
     },
     {
       "source": "lobsters",
@@ -436,10 +424,22 @@
       "title": "An update on the scraper situation",
       "url": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/",
       "discuss_url": "https://lobste.rs/s/kpaxih",
-      "score": 105,
-      "comments": 44,
+      "score": 107,
+      "comments": 48,
       "author": "fanf",
       "published": "2026-07-10T23:02:53Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Hacking Apple - SQL Injection to Remote Code Execution — ProjectDiscovery Blog",
+      "url": "https://projectdiscovery.io/blog/hacking-apple-with-sql-injection",
+      "discuss_url": "https://lobste.rs/s/axamxi",
+      "score": 2,
+      "comments": 0,
+      "author": "ni5arga",
+      "published": "2026-07-12T10:50:03Z"
     },
     {
       "source": "lobsters",
@@ -556,8 +556,8 @@
       "title": "Package Management as Org Chart",
       "url": "https://nesbitt.io/2026/07/10/package-management-as-org-chart.html",
       "discuss_url": "https://lobste.rs/s/6fmohi",
-      "score": 18,
-      "comments": 2,
+      "score": 20,
+      "comments": 3,
       "author": "calvin",
       "published": "2026-07-10T19:12:27Z"
     },
@@ -697,6 +697,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "The real mystery behind Moana: After 1,700 years, why did Polynesians suddenly sail east?",
+      "url": "https://arstechnica.com/culture/2026/07/the-real-mystery-behind-moana-after-1700-years-why-did-polynesians-suddenly-sail-east/",
+      "discuss_url": "https://arstechnica.com/culture/2026/07/the-real-mystery-behind-moana-after-1700-years-why-did-polynesians-suddenly-sail-east/",
+      "score": null,
+      "comments": null,
+      "author": "David Sear, Manoj Joshi, and Mark Peaple, The Conversation",
+      "published": "2026-07-12T11:12:19Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "A Jupiter-size planet that escaped its star's death",
       "url": "https://arstechnica.com/science/2026/07/a-jupiter-size-planet-that-escaped-its-stars-death/",
       "discuss_url": "https://arstechnica.com/science/2026/07/a-jupiter-size-planet-that-escaped-its-stars-death/",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Jacek Krywko",
       "published": "2026-07-10T16:11:35Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Disable autoplay and infinite scroll or risk massive fines, EU tells Meta",
-      "url": "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-07-10T15:46:18Z"
     }
   ]
 }
