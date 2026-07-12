@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T13:29:03Z",
+  "updated_at": "2026-07-12T19:11:16Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Mesh LLM: distributed AI computing on iroh",
       "url": "https://www.iroh.computer/blog/mesh-llm",
       "discuss_url": "https://news.ycombinator.com/item?id=48876505",
-      "score": 285,
-      "comments": 65,
+      "score": 326,
+      "comments": 76,
       "author": "tionis",
       "published": "2026-07-11T22:38:57Z",
       "bullets": [
-        "Runs distributed LLM inference across decentralized nodes using Iroh’s peer-to-peer Rust networking stack, bypassing traditional centralized cloud infrastructure.",
-        "Utilizes direct hole punching and content addressable data to efficiently orchestrate model weights and token generation across heterogenous edge hardware.",
-        "Enables collaborative P2P AI inference using local GPUs, offering a private, low-latency alternative to expensive centralized cloud providers."
+        "Mesh LLM leverages the Iroh P2P protocol to distribute LLM inference across decentralized, consumer-grade hardware without centralized coordination.",
+        "Iroh provides robust, low-latency QUIC connections and NAT traversal, mitigating key networking bottlenecks in decentralized AI workloads.",
+        "The architecture enables running large models by sharding layers and model weights across multiple peer nodes on a collaborative mesh."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Handsum: An LQIP Image File Format",
       "url": "https://nigeltao.github.io/blog/2026/handsum.html",
       "discuss_url": "https://lobste.rs/s/gmzzeb",
-      "score": 16,
+      "score": 18,
       "comments": 1,
       "author": "carlana",
       "published": "2026-07-11T18:34:59Z",
       "bullets": [
-        "Handsum is a specialized binary format for Low-Quality Image Placeholders (LQIP), reducing initial page payload sizes for better web performance.",
-        "Designed as an alternative to BlurHash and ThumbHash, it prioritizes extremely small byte footprints and fast client-side decoding.",
-        "Engineers can pre-render Handsum strings during build steps to embed lightweight, CSS-ready image previews directly in initial HTML."
+        "Handsum introduces a custom Low-Quality Image Placeholder (LQIP) format to minimize page payload size and improve perceived loading speeds.",
+        "Like BlurHash, it encodes visual previews into ultra-compact representations, reducing Cumulative Layout Shift (CLS) on modern web applications.",
+        "Implementing LQIP formats allows developers to inline placeholder data directly within HTML/JSON payloads, eliminating extra HTTP requests for images."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "reaction: A daemon that scans program outputs for repeated patterns, and takes action",
       "url": "https://framagit.org/ppom/reaction",
       "discuss_url": "https://lobste.rs/s/zzdc8x",
-      "score": 15,
-      "comments": 3,
+      "score": 22,
+      "comments": 4,
       "author": "fanf",
       "published": "2026-07-12T01:15:49Z",
       "bullets": [
-        "A modern, lightweight Fail2ban alternative written in Go for scanning logs and program outputs to detect malicious behavior.",
-        "Supports systemd journald integration, triggering immediate mitigation actions like iptables blocks or custom scripts upon regex matches.",
-        "Provides a simpler, declarative YAML configuration compared to Fail2ban, optimizing threat response for DevOps and security operations."
+        "reaction is a modern, Go-based alternative to Fail2ban that scans log outputs and systemd journal for pattern-matching intrusion detection.",
+        "SecOps can configure it to trigger immediate defensive actions, like nftables or iptables bans, upon detecting repeated failed login patterns.",
+        "It provides a lightweight, dependency-free binary with lower resource consumption than Python-based tools for container and server hardening."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "calvin",
       "published": "2026-07-10T19:12:27Z",
       "bullets": [
-        "Conway's Law dictates package architecture; aligning package boundaries with team ownership prevents cross-team build blockages and dependency hell.",
-        "Private registries like Artifactory, Nexus, or CodeArtifact mirror organizational hierarchies to enforce access controls and security policies.",
-        "Decoupled package release cycles reduce organizational friction; use semantic versioning and automated CI/CD pipelines to manage team dependencies."
+        "Dependency graphs in package managers like npm or pip directly mirror an organization's communication structures and Conway's Law.",
+        "Siloed teams managing internal registries like Artifactory create duplicate dependencies, increasing supply chain risks and maintenance overhead.",
+        "Mapping software bill of materials (SBOMs) to org charts is critical for identifying package owners during active vulnerability remediation."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "David Sear, Manoj Joshi, and Mark Peaple, The Conversation",
       "published": "2026-07-12T11:12:19Z",
       "bullets": [
-        "Paleoclimate reconstructions suggest shifts in wind patterns and El Niño cycles enabled eastward Polynesian navigation after a 1,700-year pause.",
-        "Researchers leverage advanced climate modeling and sediment data to analyze historical wind shifts that facilitated long-distance maritime migration.",
-        "The study highlights how environmental data analysis and climate variability modeling explain historical human migration patterns and technological adaptation."
+        "A 1,700-year pause in Polynesian exploration ended around 1000 AD, driven by major shifts in Pacific wind patterns.",
+        "New paleoclimate reconstructions reveal multi-decadal wind anomalies that temporarily favored eastward sailing across the Pacific Ocean.",
+        "Researchers used climate modeling and sediment core data to map historical weather shifts, solving a long-standing archaeological mystery."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Mesh LLM: distributed AI computing on iroh",
       "url": "https://www.iroh.computer/blog/mesh-llm",
       "discuss_url": "https://news.ycombinator.com/item?id=48876505",
-      "score": 285,
-      "comments": 65,
+      "score": 326,
+      "comments": 76,
       "author": "tionis",
       "published": "2026-07-11T22:38:57Z"
     },
@@ -136,8 +136,8 @@
       "title": "Stop Telling Me to Ask an LLM",
       "url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/",
       "discuss_url": "https://news.ycombinator.com/item?id=48876441",
-      "score": 183,
-      "comments": 104,
+      "score": 188,
+      "comments": 108,
       "author": "theorchid",
       "published": "2026-07-11T22:28:48Z"
     },
@@ -148,22 +148,10 @@
       "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
       "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
       "discuss_url": "https://news.ycombinator.com/item?id=48865019",
-      "score": 1612,
-      "comments": 920,
+      "score": 1622,
+      "comments": 931,
       "author": "stock_toaster",
       "published": "2026-07-10T20:47:09Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
-      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
-      "discuss_url": "https://news.ycombinator.com/item?id=48863490",
-      "score": 523,
-      "comments": 429,
-      "author": "scrlk",
-      "published": "2026-07-10T18:29:19Z"
     },
     {
       "source": "hackernews",
@@ -172,7 +160,7 @@
       "title": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
       "url": "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models",
       "discuss_url": "https://news.ycombinator.com/item?id=48865093",
-      "score": 155,
+      "score": 157,
       "comments": 86,
       "author": "hershyb_",
       "published": "2026-07-10T20:52:28Z"
@@ -184,7 +172,7 @@
       "title": "Please don't discontinue Gemini 2.5 Flash",
       "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
       "discuss_url": "https://news.ycombinator.com/item?id=48864507",
-      "score": 133,
+      "score": 135,
       "comments": 85,
       "author": "NickDob",
       "published": "2026-07-10T20:00:28Z"
@@ -197,7 +185,7 @@
       "url": "https://www.nytimes.com/2026/07/10/technology/apple-openai-lawsuit.html",
       "discuss_url": "https://news.ycombinator.com/item?id=48865431",
       "score": 113,
-      "comments": 16,
+      "comments": 17,
       "author": "jbegley",
       "published": "2026-07-10T21:20:29Z"
     },
@@ -241,18 +229,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Native-speed vLLM transformers modeling backend",
-      "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-      "discuss_url": "https://lobste.rs/s/az2jfb",
-      "score": 4,
-      "comments": 0,
-      "author": "Mordo",
-      "published": "2026-07-08T16:30:29Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "Tau: An Educational Coding Agent",
       "url": "https://twotimespi.dev/",
       "discuss_url": "https://lobste.rs/s/glngfn",
@@ -262,13 +238,37 @@
       "published": "2026-07-09T21:53:03Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
+      "url": "https://huggingface.co/blog/torch-attention-profile",
+      "discuss_url": "https://huggingface.co/blog/torch-attention-profile",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-10T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Data for Agents",
+      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "discuss_url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-08T17:16:05Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Handsum: An LQIP Image File Format",
       "url": "https://nigeltao.github.io/blog/2026/handsum.html",
       "discuss_url": "https://lobste.rs/s/gmzzeb",
-      "score": 16,
+      "score": 18,
       "comments": 1,
       "author": "carlana",
       "published": "2026-07-11T18:34:59Z"
@@ -281,7 +281,7 @@
       "url": "https://lobste.rs/s/u9yf5l",
       "discuss_url": "https://lobste.rs/s/u9yf5l",
       "score": 20,
-      "comments": 42,
+      "comments": 43,
       "author": "caius",
       "published": "2026-07-10T10:44:48Z"
     },
@@ -308,18 +308,6 @@
       "comments": 1,
       "author": "kzdnk",
       "published": "2026-07-09T07:45:31Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Eve Online's Carbon engine is now open source: Fenris Creations explains why",
-      "url": "https://www.gamesindustry.biz/eve-onlines-carbon-engine-is-now-open-source-fenris-creations-explains-why",
-      "discuss_url": "https://lobste.rs/s/nritf1",
-      "score": 25,
-      "comments": 3,
-      "author": "Yogthos",
-      "published": "2026-07-08T15:47:51Z"
     },
     {
       "source": "lobsters",
@@ -406,14 +394,26 @@
       "published": "2026-07-07T16:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Building more than just an agent harness​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‌‌​﻿​﻿‌‍‌‍​﻿‍‌​﻿​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿​﻿‌‍​‍‌‍​‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‍​﻿‌‍​﻿‍‌​‍﻿‌‌‍​‌‌‍‌‌‌‍​‍‌‍‌‌​‍﻿‌‌‍‌​​﻿​﻿​﻿​‌‌‍‌​​﻿​‌​﻿‍‌​﻿‌‌​﻿​‍​﻿​‍‌‍​﻿‌‍‌​​﻿‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‌‌​﻿​﻿‌‍‌‍​﻿‍‌​﻿​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿​﻿‌‍​‍‌‍​‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‍​﻿‌‍​﻿‍‌​‍﻿‌‌‍​‌‌‍‌‌‌‍​‍‌‍‌‌​‍﻿‌‌‍‌​​﻿​﻿​﻿​‌‌‍‌​​﻿​‌​﻿‍‌​﻿‌‌​﻿​‍​﻿​‍‌‍​﻿‌‍‌​​﻿‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/07/10/building-more-than-just-an-agent-harness/",
+      "discuss_url": "https://stackoverflow.blog/2026/07/10/building-more-than-just-an-agent-harness/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-07-10T07:40:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "reaction: A daemon that scans program outputs for repeated patterns, and takes action",
       "url": "https://framagit.org/ppom/reaction",
       "discuss_url": "https://lobste.rs/s/zzdc8x",
-      "score": 15,
-      "comments": 3,
+      "score": 22,
+      "comments": 4,
       "author": "fanf",
       "published": "2026-07-12T01:15:49Z"
     },
@@ -424,8 +424,8 @@
       "title": "An update on the scraper situation",
       "url": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/",
       "discuss_url": "https://lobste.rs/s/kpaxih",
-      "score": 107,
-      "comments": 48,
+      "score": 110,
+      "comments": 49,
       "author": "fanf",
       "published": "2026-07-10T23:02:53Z"
     },
@@ -433,11 +433,11 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Hacking Apple - SQL Injection to Remote Code Execution — ProjectDiscovery Blog",
+      "title": "Hacking Apple - SQL Injection to Remote Code Execution",
       "url": "https://projectdiscovery.io/blog/hacking-apple-with-sql-injection",
       "discuss_url": "https://lobste.rs/s/axamxi",
-      "score": 2,
-      "comments": 0,
+      "score": 4,
+      "comments": 1,
       "author": "ni5arga",
       "published": "2026-07-12T10:50:03Z"
     },
@@ -445,13 +445,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "GitLost: How We Tricked GitHub’s AI Agent into Leaking Private Repos",
-      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
-      "discuss_url": "https://lobste.rs/s/rcg4bo",
-      "score": 14,
-      "comments": 1,
-      "author": "hoistbypetard",
-      "published": "2026-07-08T14:04:11Z"
+      "title": "Unauthenticated RCE in Motorola's MR2600 Router",
+      "url": "https://mrbruh.com/motorola/",
+      "discuss_url": "https://lobste.rs/s/s1jwea",
+      "score": 2,
+      "comments": 0,
+      "author": "raymii",
+      "published": "2026-07-12T14:03:38Z"
     },
     {
       "source": "lobsters",
@@ -464,18 +464,6 @@
       "comments": 0,
       "author": "fro",
       "published": "2026-07-08T21:28:16Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "IonStack part II: GhostLock, a stack-UAF that has existed in ALL Linux distributions for 15 years",
-      "url": "https://nebusec.ai/research/ionstack-part-2/",
-      "discuss_url": "https://lobste.rs/s/byn4hn",
-      "score": 1,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-07-08T17:40:36Z"
     },
     {
       "source": "rss",
@@ -548,6 +536,18 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-07-10T16:29:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot",
+      "url": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
+      "discuss_url": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-10T15:57:14Z"
     },
     {
       "source": "lobsters",
