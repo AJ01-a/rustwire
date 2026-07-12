@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T19:10:52Z",
+  "updated_at": "2026-07-12T03:20:24Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,51 +34,51 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
-      "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48865019",
-      "score": 1474,
-      "comments": 821,
-      "author": "stock_toaster",
-      "published": "2026-07-10T20:47:09Z",
+      "title": "Stop Telling Me to Ask an LLM",
+      "url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48876441",
+      "score": 168,
+      "comments": 95,
+      "author": "theorchid",
+      "published": "2026-07-11T22:28:48Z",
       "bullets": [
-        "Apple's lawsuit against OpenAI over poached employees raises legal risks for AI firms hiring competitor talent with proprietary IP access.",
-        "The case emphasizes the critical need for robust Data Loss Prevention (DLP) and forensic auditing during AI researcher offboarding.",
-        "Litigation over stolen Apple secrets impacts hiring and IP retention strategies for OpenAI, Anthropic, Google, and other AI labs."
+        "LLMs hallucinate and lack deterministic precision, making conversational AI a poor substitute for structured, authoritative API and technical documentation.",
+        "AI builders must design RAG systems with strict source attribution, as developers prioritize quick, verifiable search over chat-based reasoning.",
+        "Replacing traditional search with LLM generation increases verification overhead, degrading developer experience and slowing down troubleshooting workflows."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/u9yf5l",
-      "discuss_url": "https://lobste.rs/s/u9yf5l",
-      "score": 19,
-      "comments": 40,
-      "author": "caius",
-      "published": "2026-07-10T10:44:48Z",
+      "title": "Handsum: An LQIP Image File Format",
+      "url": "https://nigeltao.github.io/blog/2026/handsum.html",
+      "discuss_url": "https://lobste.rs/s/gmzzeb",
+      "score": 10,
+      "comments": 1,
+      "author": "carlana",
+      "published": "2026-07-11T18:34:59Z",
       "bullets": [
-        "Engineers use weekend downtime to build side projects, experimenting with languages like Rust, Go, or Zig outside of production constraints.",
-        "Homelab maintenance, self-hosting private cloud services, and configuring local LLMs are highly prevalent weekend engineering activities.",
-        "Contributing to open-source software, refactoring personal dotfiles, and testing emerging web frameworks like Svelte or Astro drive weekend learning."
+        "Handsum is a specialized, ultra-compact image format designed to create highly optimized Low-Quality Image Placeholders (LQIP) for modern web applications.",
+        "It provides a lightweight alternative to formats like BlurHash or ThumbHash, enabling faster initial page renders and reduced payload sizes.",
+        "Engineers can integrate Handsum to generate inlineable, sub-kilobyte preview states, improving Largest Contentful Paint (LCP) and Cumulative Layout Shift (CLS)."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "EU Commission: addictive design Instagram and Facebook in breach of the DSA",
-      "url": "https://ec.europa.eu/commission/presscorner/home/en",
-      "discuss_url": "https://news.ycombinator.com/item?id=48858292",
-      "score": 267,
-      "comments": 191,
-      "author": "jeroenhd",
-      "published": "2026-07-10T11:00:15Z",
+      "title": "reaction: A daemon that scans program outputs for repeated patterns, and takes action",
+      "url": "https://framagit.org/ppom/reaction",
+      "discuss_url": "https://lobste.rs/s/zzdc8x",
+      "score": 7,
+      "comments": 2,
+      "author": "fanf",
+      "published": "2026-07-12T01:15:49Z",
       "bullets": [
-        "EU Commission opened formal proceedings against Meta under the DSA, targeting addictive algorithmic designs and systemic risks to minors.",
-        "The probe targets Meta's 'rabbit hole' algorithms, behavioral addiction patterns, age verification effectiveness, and default privacy settings.",
-        "Security and compliance teams must treat engagement-focused UI/UX design and algorithmic optimization as regulated, high-risk compliance liabilities under EU law."
+        "Reaction is a Go-based, lightweight alternative to Fail2ban that scans logs and standard outputs to trigger security actions.",
+        "It integrates with systemd-journald and files, triggering custom mitigation actions via iptables, nftables, or arbitrary shell commands.",
+        "The tool provides a modern, low-footprint, single-binary daemon for host-based intrusion prevention and automated pattern-matching response."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "Package Management as Org Chart",
       "url": "https://nesbitt.io/2026/07/10/package-management-as-org-chart.html",
       "discuss_url": "https://lobste.rs/s/6fmohi",
-      "score": 14,
+      "score": 18,
       "comments": 2,
       "author": "calvin",
       "published": "2026-07-10T19:12:27Z",
       "bullets": [
-        "Internal package registries like Artifactory and Nexus often mirror organizational silos, complicating access control and cross-team dependency sharing.",
-        "Decentralized package ownership leads to version-pinning conflicts and security vulnerabilities in shared CI/CD build pipelines.",
-        "Conway’s Law dictates that repository structures (monorepo vs. multi-repo) must align with team boundaries to optimize build performance."
+        "Internal package structures (npm, NuGet, PyPI) naturally mirror organizational silos, reflecting Conway's Law in artifact dependency graphs.",
+        "Over-segmented registries create complex dependency hell, requiring clear team ownership boundaries in Artifactory, Nexus, or GitHub Packages.",
+        "Mitigate org-chart-induced integration bottlenecks using monorepos or automated dependency updates with tools like Dependabot or Renovate."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Jacek Krywko",
       "published": "2026-07-11T12:00:58Z",
       "bullets": [
-        "Astronomers discovered a Jupiter-sized exoplanet that survived its host star's red giant expansion phase, defying current stellar evolution models.",
-        "The survival mechanism remains unknown, challenging existing planetary migration theories and orbital dynamics models during stellar degeneration.",
-        "This detection provides crucial empirical data for astrophysicists modeling the long-term survival of gas giants in aging solar systems."
+        "It's unclear how the planet avoided its star's bloated red giant stage.",
+        "A Jupiter-size planet that escaped its star's death",
+        "Submitted by Jacek Krywko on arstechnica.com."
       ]
     }
   ],
@@ -121,11 +121,35 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Stop Telling Me to Ask an LLM",
+      "url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48876441",
+      "score": 168,
+      "comments": 95,
+      "author": "theorchid",
+      "published": "2026-07-11T22:28:48Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Mesh LLM: distributed AI computing on iroh",
+      "url": "https://www.iroh.computer/blog/mesh-llm",
+      "discuss_url": "https://news.ycombinator.com/item?id=48876505",
+      "score": 128,
+      "comments": 31,
+      "author": "tionis",
+      "published": "2026-07-11T22:38:57Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
       "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
       "discuss_url": "https://news.ycombinator.com/item?id=48865019",
-      "score": 1474,
-      "comments": 821,
+      "score": 1585,
+      "comments": 890,
       "author": "stock_toaster",
       "published": "2026-07-10T20:47:09Z"
     },
@@ -136,8 +160,8 @@
       "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
       "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
       "discuss_url": "https://news.ycombinator.com/item?id=48863490",
-      "score": 502,
-      "comments": 418,
+      "score": 513,
+      "comments": 424,
       "author": "scrlk",
       "published": "2026-07-10T18:29:19Z"
     },
@@ -148,8 +172,8 @@
       "title": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
       "url": "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models",
       "discuss_url": "https://news.ycombinator.com/item?id=48865093",
-      "score": 151,
-      "comments": 84,
+      "score": 153,
+      "comments": 86,
       "author": "hershyb_",
       "published": "2026-07-10T20:52:28Z"
     },
@@ -160,8 +184,8 @@
       "title": "Please don't discontinue Gemini 2.5 Flash",
       "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
       "discuss_url": "https://news.ycombinator.com/item?id=48864507",
-      "score": 129,
-      "comments": 84,
+      "score": 130,
+      "comments": 85,
       "author": "NickDob",
       "published": "2026-07-10T20:00:28Z"
     },
@@ -184,10 +208,22 @@
       "title": "AI Surveillance and Social Progress",
       "url": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
       "discuss_url": "https://lobste.rs/s/qvu1m0",
-      "score": 9,
+      "score": 15,
       "comments": 1,
       "author": "cyplo",
       "published": "2026-07-11T09:40:40Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Full-Pipeline Inference Optimization for MiMo-V2.5 Series",
+      "url": "https://mimo.xiaomi.com/blog/mimo-v2-5-inference",
+      "discuss_url": "https://lobste.rs/s/srdtlp",
+      "score": 1,
+      "comments": 0,
+      "author": "sanxiyn",
+      "published": "2026-07-11T23:22:20Z"
     },
     {
       "source": "lobsters",
@@ -226,40 +262,16 @@
       "published": "2026-07-09T21:53:03Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
-      "url": "https://huggingface.co/blog/torch-attention-profile",
-      "discuss_url": "https://huggingface.co/blog/torch-attention-profile",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-10T00:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Data for Agents",
-      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
-      "discuss_url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-08T17:16:05Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "From Hugging Face to Amazon SageMaker Studio in one click",
-      "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-      "discuss_url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-07T21:15:33Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Handsum: An LQIP Image File Format",
+      "url": "https://nigeltao.github.io/blog/2026/handsum.html",
+      "discuss_url": "https://lobste.rs/s/gmzzeb",
+      "score": 10,
+      "comments": 1,
+      "author": "carlana",
+      "published": "2026-07-11T18:34:59Z"
     },
     {
       "source": "lobsters",
@@ -268,34 +280,10 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/u9yf5l",
       "discuss_url": "https://lobste.rs/s/u9yf5l",
-      "score": 19,
-      "comments": 40,
+      "score": 20,
+      "comments": 42,
       "author": "caius",
       "published": "2026-07-10T10:44:48Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Handsum: An LQIP Image File Format",
-      "url": "https://nigeltao.github.io/blog/2026/handsum.html",
-      "discuss_url": "https://lobste.rs/s/gmzzeb",
-      "score": 1,
-      "comments": 0,
-      "author": "carlana",
-      "published": "2026-07-11T18:34:59Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Adding Go to a browser code runner",
-      "url": "https://blog.lvmbdv.dev/posts/adding-go-to-a-browser-code-runner/",
-      "discuss_url": "https://lobste.rs/s/qtui32",
-      "score": 12,
-      "comments": 0,
-      "author": "lvmbdv",
-      "published": "2026-07-10T20:52:39Z"
     },
     {
       "source": "lobsters",
@@ -313,13 +301,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "a software engineering interview question I like: computing the median",
-      "url": "https://krisshamloo.com/blog/007",
-      "discuss_url": "https://lobste.rs/s/8kxouk",
-      "score": 54,
-      "comments": 26,
-      "author": "sunflowerseastar",
-      "published": "2026-07-08T01:49:39Z"
+      "title": "Adding Go to a browser code runner",
+      "url": "https://blog.lvmbdv.dev/posts/adding-go-to-a-browser-code-runner/",
+      "discuss_url": "https://lobste.rs/s/qtui32",
+      "score": 13,
+      "comments": 0,
+      "author": "lvmbdv",
+      "published": "2026-07-10T20:52:39Z"
     },
     {
       "source": "lobsters",
@@ -349,18 +337,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Git Hash Chain Malleability",
-      "url": "https://arxiv.org/abs/2607.02820",
-      "discuss_url": "https://lobste.rs/s/qlw9wg",
-      "score": 4,
-      "comments": 12,
-      "author": "Yogthos",
-      "published": "2026-07-07T21:14:16Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "The Backstory of Jiki",
       "url": "https://jiki.io/blog/the-backstory-of-jiki",
       "discuss_url": "https://lobste.rs/s/gavvqf",
@@ -368,18 +344,6 @@
       "comments": 0,
       "author": "bkhl",
       "published": "2026-07-09T20:19:25Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "CCL: Categorical Configuration Language",
-      "url": "https://github.com/chshersh/ccl",
-      "discuss_url": "https://lobste.rs/s/8whjc0",
-      "score": 3,
-      "comments": 1,
-      "author": "linkdd",
-      "published": "2026-07-07T19:25:57Z"
     },
     {
       "source": "lobsters",
@@ -406,14 +370,62 @@
       "published": "2026-07-10T15:57:47Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "How GitHub gave every repository a durable owner",
+      "url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
+      "discuss_url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
+      "score": null,
+      "comments": null,
+      "author": "Michael Recachinas",
+      "published": "2026-07-09T16:29:37Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
+      "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
+      "score": null,
+      "comments": null,
+      "author": "David Pine",
+      "published": "2026-07-08T21:11:56Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "GitHub availability report: June 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-june-2026/",
+      "discuss_url": "https://github.blog/news-insights/company-news/github-availability-report-june-2026/",
+      "score": null,
+      "comments": null,
+      "author": "Jakub Oleksy",
+      "published": "2026-07-08T19:35:51Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "reaction: A daemon that scans program outputs for repeated patterns, and takes action",
+      "url": "https://framagit.org/ppom/reaction",
+      "discuss_url": "https://lobste.rs/s/zzdc8x",
+      "score": 7,
+      "comments": 2,
+      "author": "fanf",
+      "published": "2026-07-12T01:15:49Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "EU Commission: addictive design Instagram and Facebook in breach of the DSA",
       "url": "https://ec.europa.eu/commission/presscorner/home/en",
       "discuss_url": "https://news.ycombinator.com/item?id=48858292",
-      "score": 267,
-      "comments": 191,
+      "score": 272,
+      "comments": 192,
       "author": "jeroenhd",
       "published": "2026-07-10T11:00:15Z"
     },
@@ -424,34 +436,10 @@
       "title": "An update on the scraper situation",
       "url": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/",
       "discuss_url": "https://lobste.rs/s/kpaxih",
-      "score": 81,
-      "comments": 27,
+      "score": 103,
+      "comments": 43,
       "author": "fanf",
       "published": "2026-07-10T23:02:53Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589)",
-      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
-      "discuss_url": "https://lobste.rs/s/7hmu0w",
-      "score": 35,
-      "comments": 4,
-      "author": "fro",
-      "published": "2026-07-08T01:02:05Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "A Final Return for OpenBSD Anti-Return-Oriented Programming Mitigations",
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6869668",
-      "discuss_url": "https://lobste.rs/s/xclcel",
-      "score": 18,
-      "comments": 9,
-      "author": "fro",
-      "published": "2026-07-07T22:13:52Z"
     },
     {
       "source": "lobsters",
@@ -464,18 +452,6 @@
       "comments": 1,
       "author": "hoistbypetard",
       "published": "2026-07-08T14:04:11Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "A Measurement Study on the Adoption of Pledges and Unveils in the OpenBSD Operating System",
-      "url": "https://arxiv.org/pdf/2607.03056",
-      "discuss_url": "https://lobste.rs/s/sglhvg",
-      "score": 14,
-      "comments": 1,
-      "author": "fro",
-      "published": "2026-07-07T22:02:16Z"
     },
     {
       "source": "lobsters",
@@ -496,7 +472,7 @@
       "title": "Announcing the Save CTFs Fund",
       "url": "https://osec.io/blog/save-ctfs-fund/",
       "discuss_url": "https://lobste.rs/s/geibgn",
-      "score": 4,
+      "score": 5,
       "comments": 0,
       "author": "freddyb",
       "published": "2026-07-08T07:58:42Z"
@@ -550,13 +526,37 @@
       "published": "2026-07-11T17:49:31Z"
     },
     {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
+      "url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
+      "discuss_url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-11T06:45:55Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
+      "url": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
+      "discuss_url": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-10T16:30:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "Package Management as Org Chart",
       "url": "https://nesbitt.io/2026/07/10/package-management-as-org-chart.html",
       "discuss_url": "https://lobste.rs/s/6fmohi",
-      "score": 14,
+      "score": 18,
       "comments": 2,
       "author": "calvin",
       "published": "2026-07-10T19:12:27Z"
