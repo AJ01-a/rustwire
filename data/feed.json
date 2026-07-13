@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T19:11:16Z",
+  "updated_at": "2026-07-13T03:23:13Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,34 +34,34 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Mesh LLM: distributed AI computing on iroh",
-      "url": "https://www.iroh.computer/blog/mesh-llm",
-      "discuss_url": "https://news.ycombinator.com/item?id=48876505",
-      "score": 326,
-      "comments": 76,
-      "author": "tionis",
-      "published": "2026-07-11T22:38:57Z",
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "discuss_url": "https://news.ycombinator.com/item?id=48883275",
+      "score": 486,
+      "comments": 274,
+      "author": "systima",
+      "published": "2026-07-12T18:25:51Z",
       "bullets": [
-        "Mesh LLM leverages the Iroh P2P protocol to distribute LLM inference across decentralized, consumer-grade hardware without centralized coordination.",
-        "Iroh provides robust, low-latency QUIC connections and NAT traversal, mitigating key networking bottlenecks in decentralized AI workloads.",
-        "The architecture enables running large models by sharding layers and model weights across multiple peer nodes on a collaborative mesh."
+        "Empirical testing reveals Claude Code consumes over 4.5 times more startup tokens than OpenCode when connecting to Anthropic's endpoint.",
+        "The disparity stems from Claude Code's highly inefficient context caching strategy and bloated agentic harness token usage.",
+        "AI practitioners must evaluate tool-specific harness implementations, as poorly optimized agentic scaffolding dramatically inflates API transaction costs."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Handsum: An LQIP Image File Format",
-      "url": "https://nigeltao.github.io/blog/2026/handsum.html",
-      "discuss_url": "https://lobste.rs/s/gmzzeb",
-      "score": 18,
-      "comments": 1,
-      "author": "carlana",
-      "published": "2026-07-11T18:34:59Z",
+      "title": "InfiniteDiffusion: Bridging Learned Fidelity and Procedural Utility for Open-World Terrain Generation",
+      "url": "https://xandergos.github.io/terrain-diffusion/",
+      "discuss_url": "https://lobste.rs/s/ncsslp",
+      "score": 11,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-07-12T19:56:07Z",
       "bullets": [
-        "Handsum introduces a custom Low-Quality Image Placeholder (LQIP) format to minimize page payload size and improve perceived loading speeds.",
-        "Like BlurHash, it encodes visual previews into ultra-compact representations, reducing Cumulative Layout Shift (CLS) on modern web applications.",
-        "Implementing LQIP formats allows developers to inline placeholder data directly within HTML/JSON payloads, eliminating extra HTTP requests for images."
+        "Combines generative diffusion models with procedural algorithms to synthesize infinite, tileable, and highly realistic terrain heightmaps for open-world rendering.",
+        "Overcomes the tiling and boundary-matching limits of standard diffusion by applying procedural noise constraints during the image generation process.",
+        "Provides graphics engineers with a hybrid framework for infinite-scale 3D terrain generation with controllable macro and micro features."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "reaction: A daemon that scans program outputs for repeated patterns, and takes action",
       "url": "https://framagit.org/ppom/reaction",
       "discuss_url": "https://lobste.rs/s/zzdc8x",
-      "score": 22,
+      "score": 26,
       "comments": 4,
       "author": "fanf",
       "published": "2026-07-12T01:15:49Z",
       "bullets": [
-        "reaction is a modern, Go-based alternative to Fail2ban that scans log outputs and systemd journal for pattern-matching intrusion detection.",
-        "SecOps can configure it to trigger immediate defensive actions, like nftables or iptables bans, upon detecting repeated failed login patterns.",
-        "It provides a lightweight, dependency-free binary with lower resource consumption than Python-based tools for container and server hardening."
+        "Written in Go, `reaction` is a lightweight, modern alternative to Fail2ban for automated intrusion prevention and log pattern matching.",
+        "It natively monitors systemd `journald` or standard log files, executing defined actions like `iptables` or `nftables` commands when thresholds trigger.",
+        "Security teams can configure complex, stateful regex-matching rules and custom mitigation workflows using a single declarative YAML configuration file."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "calvin",
       "published": "2026-07-10T19:12:27Z",
       "bullets": [
-        "Dependency graphs in package managers like npm or pip directly mirror an organization's communication structures and Conway's Law.",
-        "Siloed teams managing internal registries like Artifactory create duplicate dependencies, increasing supply chain risks and maintenance overhead.",
-        "Mapping software bill of materials (SBOMs) to org charts is critical for identifying package owners during active vulnerability remediation."
+        "Conway’s Law shapes package structures; misaligned team boundaries lead to dependency hell, version fragmentation, and brittle CI/CD pipelines in monorepos.",
+        "Aligning package registry scopes in Artifactory or npm with actual team ownership reduces security risks and prevents cross-boundary deployment blockers.",
+        "Mitigate organizational friction by automating dependency updates with Dependabot or Renovate, enforcing semantic versioning, and decoupling package release cycles."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "David Sear, Manoj Joshi, and Mark Peaple, The Conversation",
       "published": "2026-07-12T11:12:19Z",
       "bullets": [
-        "A 1,700-year pause in Polynesian exploration ended around 1000 AD, driven by major shifts in Pacific wind patterns.",
-        "New paleoclimate reconstructions reveal multi-decadal wind anomalies that temporarily favored eastward sailing across the Pacific Ocean.",
-        "Researchers used climate modeling and sediment core data to map historical weather shifts, solving a long-standing archaeological mystery."
+        "Paleoclimate modeling reveals that a major shift in wind patterns, driven by El Niño cycles, facilitated the sudden eastward Polynesian migration.",
+        "Researchers use advanced climate simulations and sediment core data to reconstruct wind vectors during the historical 1,700-year 'Long Pause.'",
+        "The study leverages climate models to simulate historical wind anomalies, proving wind direction shifts enabled navigation across previously impassable ocean gaps."
       ]
     }
   ],
@@ -121,11 +121,47 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "discuss_url": "https://news.ycombinator.com/item?id=48883275",
+      "score": 486,
+      "comments": 274,
+      "author": "systima",
+      "published": "2026-07-12T18:25:51Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "I love LLMs, I hate hype",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+      "discuss_url": "https://news.ycombinator.com/item?id=48883343",
+      "score": 346,
+      "comments": 208,
+      "author": "therepanic",
+      "published": "2026-07-12T18:31:56Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+      "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+      "discuss_url": "https://news.ycombinator.com/item?id=48882716",
+      "score": 151,
+      "comments": 50,
+      "author": "brryant",
+      "published": "2026-07-12T17:13:07Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Mesh LLM: distributed AI computing on iroh",
       "url": "https://www.iroh.computer/blog/mesh-llm",
       "discuss_url": "https://news.ycombinator.com/item?id=48876505",
-      "score": 326,
-      "comments": 76,
+      "score": 336,
+      "comments": 79,
       "author": "tionis",
       "published": "2026-07-11T22:38:57Z"
     },
@@ -136,58 +172,10 @@
       "title": "Stop Telling Me to Ask an LLM",
       "url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/",
       "discuss_url": "https://news.ycombinator.com/item?id=48876441",
-      "score": 188,
-      "comments": 108,
+      "score": 192,
+      "comments": 114,
       "author": "theorchid",
       "published": "2026-07-11T22:28:48Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
-      "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48865019",
-      "score": 1622,
-      "comments": 931,
-      "author": "stock_toaster",
-      "published": "2026-07-10T20:47:09Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
-      "url": "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models",
-      "discuss_url": "https://news.ycombinator.com/item?id=48865093",
-      "score": 157,
-      "comments": 86,
-      "author": "hershyb_",
-      "published": "2026-07-10T20:52:28Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Please don't discontinue Gemini 2.5 Flash",
-      "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
-      "discuss_url": "https://news.ycombinator.com/item?id=48864507",
-      "score": 135,
-      "comments": 85,
-      "author": "NickDob",
-      "published": "2026-07-10T20:00:28Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Apple sues OpenAI, accusing it of stealing company secrets",
-      "url": "https://www.nytimes.com/2026/07/10/technology/apple-openai-lawsuit.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=48865431",
-      "score": 113,
-      "comments": 17,
-      "author": "jbegley",
-      "published": "2026-07-10T21:20:29Z"
     },
     {
       "source": "lobsters",
@@ -262,13 +250,37 @@
       "published": "2026-07-08T17:16:05Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "From Hugging Face to Amazon SageMaker Studio in one click",
+      "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+      "discuss_url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-07T21:15:33Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "InfiniteDiffusion: Bridging Learned Fidelity and Procedural Utility for Open-World Terrain Generation",
+      "url": "https://xandergos.github.io/terrain-diffusion/",
+      "discuss_url": "https://lobste.rs/s/ncsslp",
+      "score": 11,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-07-12T19:56:07Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Handsum: An LQIP Image File Format",
       "url": "https://nigeltao.github.io/blog/2026/handsum.html",
       "discuss_url": "https://lobste.rs/s/gmzzeb",
-      "score": 18,
+      "score": 19,
       "comments": 1,
       "author": "carlana",
       "published": "2026-07-11T18:34:59Z"
@@ -289,6 +301,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Peace For All",
+      "url": "https://re.factorcode.org/2026/07/peace-for-all.html",
+      "discuss_url": "https://lobste.rs/s/sy980q",
+      "score": 38,
+      "comments": 1,
+      "author": "kzdnk",
+      "published": "2026-07-09T07:45:31Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Adding Go to a browser code runner",
       "url": "https://blog.lvmbdv.dev/posts/adding-go-to-a-browser-code-runner/",
       "discuss_url": "https://lobste.rs/s/qtui32",
@@ -296,18 +320,6 @@
       "comments": 0,
       "author": "lvmbdv",
       "published": "2026-07-10T20:52:39Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Peace For All",
-      "url": "https://re.factorcode.org/2026/07/peace-for-all.html",
-      "discuss_url": "https://lobste.rs/s/sy980q",
-      "score": 37,
-      "comments": 1,
-      "author": "kzdnk",
-      "published": "2026-07-09T07:45:31Z"
     },
     {
       "source": "lobsters",
@@ -394,25 +406,13 @@
       "published": "2026-07-07T16:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "Building more than just an agent harness​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‌‌​﻿​﻿‌‍‌‍​﻿‍‌​﻿​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿​﻿‌‍​‍‌‍​‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‍​﻿‌‍​﻿‍‌​‍﻿‌‌‍​‌‌‍‌‌‌‍​‍‌‍‌‌​‍﻿‌‌‍‌​​﻿​﻿​﻿​‌‌‍‌​​﻿​‌​﻿‍‌​﻿‌‌​﻿​‍​﻿​‍‌‍​﻿‌‍‌​​﻿‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‌‌​﻿​﻿‌‍‌‍​﻿‍‌​﻿​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿​﻿‌‍​‍‌‍​‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‍​﻿‌‍​﻿‍‌​‍﻿‌‌‍​‌‌‍‌‌‌‍​‍‌‍‌‌​‍﻿‌‌‍‌​​﻿​﻿​﻿​‌‌‍‌​​﻿​‌​﻿‍‌​﻿‌‌​﻿​‍​﻿​‍‌‍​﻿‌‍‌​​﻿‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "url": "https://stackoverflow.blog/2026/07/10/building-more-than-just-an-agent-harness/",
-      "discuss_url": "https://stackoverflow.blog/2026/07/10/building-more-than-just-an-agent-harness/",
-      "score": null,
-      "comments": null,
-      "author": "Phoebe Sajor",
-      "published": "2026-07-10T07:40:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "reaction: A daemon that scans program outputs for repeated patterns, and takes action",
       "url": "https://framagit.org/ppom/reaction",
       "discuss_url": "https://lobste.rs/s/zzdc8x",
-      "score": 22,
+      "score": 26,
       "comments": 4,
       "author": "fanf",
       "published": "2026-07-12T01:15:49Z"
@@ -424,7 +424,7 @@
       "title": "An update on the scraper situation",
       "url": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/",
       "discuss_url": "https://lobste.rs/s/kpaxih",
-      "score": 110,
+      "score": 113,
       "comments": 49,
       "author": "fanf",
       "published": "2026-07-10T23:02:53Z"
@@ -448,22 +448,10 @@
       "title": "Unauthenticated RCE in Motorola's MR2600 Router",
       "url": "https://mrbruh.com/motorola/",
       "discuss_url": "https://lobste.rs/s/s1jwea",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "raymii",
       "published": "2026-07-12T14:03:38Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "DirtySlide - root on macOS from one missing bounds check",
-      "url": "https://gracecondition.github.io/posts/dirtyslide/",
-      "discuss_url": "https://lobste.rs/s/27vr6v",
-      "score": 5,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-07-08T21:28:16Z"
     },
     {
       "source": "rss",
@@ -548,6 +536,18 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-07-10T15:57:14Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Laser Attack Resets Tangem Wallet Passwords on Cards That Can't Be Patched",
+      "url": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
+      "discuss_url": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-10T14:51:49Z"
     },
     {
       "source": "lobsters",
