@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T03:23:13Z",
+  "updated_at": "2026-07-13T09:36:44Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
       "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
       "discuss_url": "https://news.ycombinator.com/item?id=48883275",
-      "score": 486,
-      "comments": 274,
+      "score": 586,
+      "comments": 322,
       "author": "systima",
       "published": "2026-07-12T18:25:51Z",
       "bullets": [
-        "Empirical testing reveals Claude Code consumes over 4.5 times more startup tokens than OpenCode when connecting to Anthropic's endpoint.",
-        "The disparity stems from Claude Code's highly inefficient context caching strategy and bloated agentic harness token usage.",
-        "AI practitioners must evaluate tool-specific harness implementations, as poorly optimized agentic scaffolding dramatically inflates API transaction costs."
+        "Empirical API logs reveal Anthropic's Claude Code incurs massive token overhead compared to OpenCode, rapidly inflating deployment costs.",
+        "The efficiency gap stems from Claude Code's poorly optimized prompt caching strategy and bloated internal harness token usage.",
+        "AI practitioners should benchmark agentic CLI tools, as unoptimized system prompts can silently multiply Anthropic API consumption."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "InfiniteDiffusion: Bridging Learned Fidelity and Procedural Utility for Open-World Terrain Generation",
       "url": "https://xandergos.github.io/terrain-diffusion/",
       "discuss_url": "https://lobste.rs/s/ncsslp",
-      "score": 11,
-      "comments": 0,
+      "score": 14,
+      "comments": 1,
       "author": "Yogthos",
       "published": "2026-07-12T19:56:07Z",
       "bullets": [
-        "Combines generative diffusion models with procedural algorithms to synthesize infinite, tileable, and highly realistic terrain heightmaps for open-world rendering.",
-        "Overcomes the tiling and boundary-matching limits of standard diffusion by applying procedural noise constraints during the image generation process.",
-        "Provides graphics engineers with a hybrid framework for infinite-scale 3D terrain generation with controllable macro and micro features."
+        "Combines diffusion models with procedural generation to synthesize seamless, infinite-resolution heightmaps and terrains for open-world game engines.",
+        "Uses spatial conditioning and tiling latent diffusion to eliminate boundary seams while maintaining consistent, realistic geological erosion features.",
+        "Provides deterministic control over massive terrain layouts by using low-frequency procedural noise as a guide for high-fidelity neural upscaling."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "reaction: A daemon that scans program outputs for repeated patterns, and takes action",
-      "url": "https://framagit.org/ppom/reaction",
-      "discuss_url": "https://lobste.rs/s/zzdc8x",
-      "score": 26,
-      "comments": 4,
+      "title": "An update on the scraper situation",
+      "url": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/",
+      "discuss_url": "https://lobste.rs/s/kpaxih",
+      "score": 113,
+      "comments": 49,
       "author": "fanf",
-      "published": "2026-07-12T01:15:49Z",
+      "published": "2026-07-10T23:02:53Z",
       "bullets": [
-        "Written in Go, `reaction` is a lightweight, modern alternative to Fail2ban for automated intrusion prevention and log pattern matching.",
-        "It natively monitors systemd `journald` or standard log files, executing defined actions like `iptables` or `nftables` commands when thresholds trigger.",
-        "Security teams can configure complex, stateful regex-matching rules and custom mitigation workflows using a single declarative YAML configuration file."
+        "AI scrapers increasingly bypass robots.txt, causing denial-of-service conditions on forums and requiring active IP-level and user-agent mitigation.",
+        "Security teams deploy Cloudflare WAF rules, rate-limiting, and JA4 fingerprinting to differentiate aggressive AI bots from legitimate search indexers.",
+        "Tightening scraper defenses frequently causes collateral damage, accidentally blocking legitimate RSS readers, API consumers, and web archival tools."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "calvin",
       "published": "2026-07-10T19:12:27Z",
       "bullets": [
-        "Conway’s Law shapes package structures; misaligned team boundaries lead to dependency hell, version fragmentation, and brittle CI/CD pipelines in monorepos.",
-        "Aligning package registry scopes in Artifactory or npm with actual team ownership reduces security risks and prevents cross-boundary deployment blockers.",
-        "Mitigate organizational friction by automating dependency updates with Dependabot or Renovate, enforcing semantic versioning, and decoupling package release cycles."
+        "Package boundaries reflect Conway's Law; split registries like Artifactory or Nexus mirror team silos, complicating cross-team CI/CD pipelines.",
+        "Monorepos simplify dependency management, while multi-repo setups require automated tooling like Renovate or Dependabot to prevent version drift.",
+        "Decentralized artifact publishing increases risk; enforce centralized governance and SBOM scanning to mitigate inner-source dependency confusion attacks."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "David Sear, Manoj Joshi, and Mark Peaple, The Conversation",
       "published": "2026-07-12T11:12:19Z",
       "bullets": [
-        "Paleoclimate modeling reveals that a major shift in wind patterns, driven by El Niño cycles, facilitated the sudden eastward Polynesian migration.",
-        "Researchers use advanced climate simulations and sediment core data to reconstruct wind vectors during the historical 1,700-year 'Long Pause.'",
-        "The study leverages climate models to simulate historical wind anomalies, proving wind direction shifts enabled navigation across previously impassable ocean gaps."
+        "Advanced climate modeling reconstructs historical wind anomalies, showing how favorable sailing windows enabled long-distance Pacific migrations.",
+        "Researchers utilize paleoclimate proxy data and ocean current simulations to map precise windows of ancient maritime exploration.",
+        "The findings demonstrate how modern computational simulation and meteorological datasets resolve historic anthropological and migration debates."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
       "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
       "discuss_url": "https://news.ycombinator.com/item?id=48883275",
-      "score": 486,
-      "comments": 274,
+      "score": 586,
+      "comments": 322,
       "author": "systima",
       "published": "2026-07-12T18:25:51Z"
     },
@@ -136,8 +136,8 @@
       "title": "I love LLMs, I hate hype",
       "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
       "discuss_url": "https://news.ycombinator.com/item?id=48883343",
-      "score": 346,
-      "comments": 208,
+      "score": 422,
+      "comments": 267,
       "author": "therepanic",
       "published": "2026-07-12T18:31:56Z"
     },
@@ -148,8 +148,8 @@
       "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
       "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
       "discuss_url": "https://news.ycombinator.com/item?id=48882716",
-      "score": 151,
-      "comments": 50,
+      "score": 204,
+      "comments": 88,
       "author": "brryant",
       "published": "2026-07-12T17:13:07Z"
     },
@@ -160,8 +160,8 @@
       "title": "Mesh LLM: distributed AI computing on iroh",
       "url": "https://www.iroh.computer/blog/mesh-llm",
       "discuss_url": "https://news.ycombinator.com/item?id=48876505",
-      "score": 336,
-      "comments": 79,
+      "score": 339,
+      "comments": 85,
       "author": "tionis",
       "published": "2026-07-11T22:38:57Z"
     },
@@ -172,8 +172,8 @@
       "title": "Stop Telling Me to Ask an LLM",
       "url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/",
       "discuss_url": "https://news.ycombinator.com/item?id=48876441",
-      "score": 192,
-      "comments": 114,
+      "score": 205,
+      "comments": 119,
       "author": "theorchid",
       "published": "2026-07-11T22:28:48Z"
     },
@@ -268,8 +268,8 @@
       "title": "InfiniteDiffusion: Bridging Learned Fidelity and Procedural Utility for Open-World Terrain Generation",
       "url": "https://xandergos.github.io/terrain-diffusion/",
       "discuss_url": "https://lobste.rs/s/ncsslp",
-      "score": 11,
-      "comments": 0,
+      "score": 14,
+      "comments": 1,
       "author": "Yogthos",
       "published": "2026-07-12T19:56:07Z"
     },
@@ -296,18 +296,6 @@
       "comments": 43,
       "author": "caius",
       "published": "2026-07-10T10:44:48Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Peace For All",
-      "url": "https://re.factorcode.org/2026/07/peace-for-all.html",
-      "discuss_url": "https://lobste.rs/s/sy980q",
-      "score": 38,
-      "comments": 1,
-      "author": "kzdnk",
-      "published": "2026-07-09T07:45:31Z"
     },
     {
       "source": "lobsters",
@@ -406,16 +394,16 @@
       "published": "2026-07-07T16:00:00Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "reaction: A daemon that scans program outputs for repeated patterns, and takes action",
-      "url": "https://framagit.org/ppom/reaction",
-      "discuss_url": "https://lobste.rs/s/zzdc8x",
-      "score": 26,
-      "comments": 4,
-      "author": "fanf",
-      "published": "2026-07-12T01:15:49Z"
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Building more than just an agent harness​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‌‌​﻿​﻿‌‍‌‍​﻿‍‌​﻿​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿​﻿‌‍​‍‌‍​‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‍​﻿‌‍​﻿‍‌​‍﻿‌‌‍​‌‌‍‌‌‌‍​‍‌‍‌‌​‍﻿‌‌‍‌​​﻿​﻿​﻿​‌‌‍‌​​﻿​‌​﻿‍‌​﻿‌‌​﻿​‍​﻿​‍‌‍​﻿‌‍‌​​﻿‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‌‌​﻿​﻿‌‍‌‍​﻿‍‌​﻿​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿​﻿‌‍​‍‌‍​‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‍​﻿‌‍​﻿‍‌​‍﻿‌‌‍​‌‌‍‌‌‌‍​‍‌‍‌‌​‍﻿‌‌‍‌​​﻿​﻿​﻿​‌‌‍‌​​﻿​‌​﻿‍‌​﻿‌‌​﻿​‍​﻿​‍‌‍​﻿‌‍‌​​﻿‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/07/10/building-more-than-just-an-agent-harness/",
+      "discuss_url": "https://stackoverflow.blog/2026/07/10/building-more-than-just-an-agent-harness/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-07-10T07:40:00Z"
     },
     {
       "source": "lobsters",
@@ -428,6 +416,18 @@
       "comments": 49,
       "author": "fanf",
       "published": "2026-07-10T23:02:53Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "reaction: A daemon that scans program outputs for repeated patterns, and takes action",
+      "url": "https://framagit.org/ppom/reaction",
+      "discuss_url": "https://lobste.rs/s/zzdc8x",
+      "score": 27,
+      "comments": 4,
+      "author": "fanf",
+      "published": "2026-07-12T01:15:49Z"
     },
     {
       "source": "lobsters",
@@ -448,7 +448,7 @@
       "title": "Unauthenticated RCE in Motorola's MR2600 Router",
       "url": "https://mrbruh.com/motorola/",
       "discuss_url": "https://lobste.rs/s/s1jwea",
-      "score": 3,
+      "score": 4,
       "comments": 0,
       "author": "raymii",
       "published": "2026-07-12T14:03:38Z"
@@ -464,6 +464,30 @@
       "comments": null,
       "author": "BrianKrebs",
       "published": "2026-07-08T12:31:39Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
+      "url": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
+      "discuss_url": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-13T07:30:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days",
+      "url": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
+      "discuss_url": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-13T05:36:02Z"
     },
     {
       "source": "rss",
@@ -524,30 +548,6 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-07-10T16:29:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot",
-      "url": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
-      "discuss_url": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-10T15:57:14Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Laser Attack Resets Tangem Wallet Passwords on Cards That Can't Be Patched",
-      "url": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
-      "discuss_url": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-10T14:51:49Z"
     },
     {
       "source": "lobsters",
