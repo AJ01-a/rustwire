@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T09:36:44Z",
+  "updated_at": "2026-07-13T14:42:15Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,34 +34,34 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
-      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
-      "discuss_url": "https://news.ycombinator.com/item?id=48883275",
-      "score": 586,
-      "comments": 322,
-      "author": "systima",
-      "published": "2026-07-12T18:25:51Z",
+      "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
+      "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48889637",
+      "score": 940,
+      "comments": 468,
+      "author": "crowdhailer",
+      "published": "2026-07-13T08:39:39Z",
       "bullets": [
-        "Empirical API logs reveal Anthropic's Claude Code incurs massive token overhead compared to OpenCode, rapidly inflating deployment costs.",
-        "The efficiency gap stems from Claude Code's poorly optimized prompt caching strategy and bloated internal harness token usage.",
-        "AI practitioners should benchmark agentic CLI tools, as unoptimized system prompts can silently multiply Anthropic API consumption."
+        "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
+        "Trending on news.ycombinator.com — 940 points, 468 comments.",
+        "Submitted by crowdhailer on news.ycombinator.com."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "InfiniteDiffusion: Bridging Learned Fidelity and Procedural Utility for Open-World Terrain Generation",
-      "url": "https://xandergos.github.io/terrain-diffusion/",
-      "discuss_url": "https://lobste.rs/s/ncsslp",
-      "score": 14,
-      "comments": 1,
-      "author": "Yogthos",
-      "published": "2026-07-12T19:56:07Z",
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/ozcrd0",
+      "discuss_url": "https://lobste.rs/s/ozcrd0",
+      "score": 5,
+      "comments": 7,
+      "author": "caius",
+      "published": "2026-07-13T09:44:13Z",
       "bullets": [
-        "Combines diffusion models with procedural generation to synthesize seamless, infinite-resolution heightmaps and terrains for open-world game engines.",
-        "Uses spatial conditioning and tiling latent diffusion to eliminate boundary seams while maintaining consistent, realistic geological erosion features.",
-        "Provides deterministic control over massive terrain layouts by using low-frequency procedural noise as a guide for high-fidelity neural upscaling."
+        "What are you doing this week?",
+        "Feel free to share!",
+        "Keep in mind it’s OK to do nothing at all, too."
       ]
     },
     {
@@ -76,9 +76,9 @@
       "author": "fanf",
       "published": "2026-07-10T23:02:53Z",
       "bullets": [
-        "AI scrapers increasingly bypass robots.txt, causing denial-of-service conditions on forums and requiring active IP-level and user-agent mitigation.",
-        "Security teams deploy Cloudflare WAF rules, rate-limiting, and JA4 fingerprinting to differentiate aggressive AI bots from legitimate search indexers.",
-        "Tightening scraper defenses frequently causes collateral damage, accidentally blocking legitimate RSS readers, API consumers, and web archival tools."
+        "An update on the scraper situation",
+        "Trending on lobste.rs/security — 113 points, 49 comments.",
+        "Submitted by fanf on lobste.rs/security."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "calvin",
       "published": "2026-07-10T19:12:27Z",
       "bullets": [
-        "Package boundaries reflect Conway's Law; split registries like Artifactory or Nexus mirror team silos, complicating cross-team CI/CD pipelines.",
-        "Monorepos simplify dependency management, while multi-repo setups require automated tooling like Renovate or Dependabot to prevent version drift.",
-        "Decentralized artifact publishing increases risk; enforce centralized governance and SBOM scanning to mitigate inner-source dependency confusion attacks."
+        "Package Management as Org Chart",
+        "Trending on lobste.rs/devops — 20 points, 3 comments.",
+        "Submitted by calvin on lobste.rs/devops."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "David Sear, Manoj Joshi, and Mark Peaple, The Conversation",
       "published": "2026-07-12T11:12:19Z",
       "bullets": [
-        "Advanced climate modeling reconstructs historical wind anomalies, showing how favorable sailing windows enabled long-distance Pacific migrations.",
-        "Researchers utilize paleoclimate proxy data and ocean current simulations to map precise windows of ancient maritime exploration.",
-        "The findings demonstrate how modern computational simulation and meteorological datasets resolve historic anthropological and migration debates."
+        "New climate evidence adds context to these long voyages.",
+        "The real mystery behind Moana: After 1,700 years, why did Polynesians suddenly sail east?",
+        "Submitted by David Sear, Manoj Joshi, and Mark Peaple, The Conversation on arstechnica.com."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
+      "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48889637",
+      "score": 940,
+      "comments": 468,
+      "author": "crowdhailer",
+      "published": "2026-07-13T08:39:39Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
       "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
       "discuss_url": "https://news.ycombinator.com/item?id=48883275",
-      "score": 586,
-      "comments": 322,
+      "score": 662,
+      "comments": 342,
       "author": "systima",
       "published": "2026-07-12T18:25:51Z"
     },
@@ -136,8 +148,8 @@
       "title": "I love LLMs, I hate hype",
       "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
       "discuss_url": "https://news.ycombinator.com/item?id=48883343",
-      "score": 422,
-      "comments": 267,
+      "score": 449,
+      "comments": 286,
       "author": "therepanic",
       "published": "2026-07-12T18:31:56Z"
     },
@@ -148,8 +160,8 @@
       "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
       "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
       "discuss_url": "https://news.ycombinator.com/item?id=48882716",
-      "score": 204,
-      "comments": 88,
+      "score": 234,
+      "comments": 109,
       "author": "brryant",
       "published": "2026-07-12T17:13:07Z"
     },
@@ -160,8 +172,8 @@
       "title": "Mesh LLM: distributed AI computing on iroh",
       "url": "https://www.iroh.computer/blog/mesh-llm",
       "discuss_url": "https://news.ycombinator.com/item?id=48876505",
-      "score": 339,
-      "comments": 85,
+      "score": 341,
+      "comments": 90,
       "author": "tionis",
       "published": "2026-07-11T22:38:57Z"
     },
@@ -172,8 +184,8 @@
       "title": "Stop Telling Me to Ask an LLM",
       "url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/",
       "discuss_url": "https://news.ycombinator.com/item?id=48876441",
-      "score": 205,
-      "comments": 119,
+      "score": 222,
+      "comments": 126,
       "author": "theorchid",
       "published": "2026-07-11T22:28:48Z"
     },
@@ -188,18 +200,6 @@
       "comments": 2,
       "author": "cyplo",
       "published": "2026-07-11T09:40:40Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "A Prolog library for interfacing with LLMs",
-      "url": "https://github.com/vagos/llmpl",
-      "discuss_url": "https://lobste.rs/s/ad7cm6",
-      "score": 6,
-      "comments": 1,
-      "author": "vagos",
-      "published": "2026-07-09T13:52:12Z"
     },
     {
       "source": "lobsters",
@@ -265,25 +265,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "InfiniteDiffusion: Bridging Learned Fidelity and Procedural Utility for Open-World Terrain Generation",
-      "url": "https://xandergos.github.io/terrain-diffusion/",
-      "discuss_url": "https://lobste.rs/s/ncsslp",
-      "score": 14,
-      "comments": 1,
-      "author": "Yogthos",
-      "published": "2026-07-12T19:56:07Z"
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/ozcrd0",
+      "discuss_url": "https://lobste.rs/s/ozcrd0",
+      "score": 5,
+      "comments": 7,
+      "author": "caius",
+      "published": "2026-07-13T09:44:13Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Handsum: An LQIP Image File Format",
-      "url": "https://nigeltao.github.io/blog/2026/handsum.html",
-      "discuss_url": "https://lobste.rs/s/gmzzeb",
-      "score": 19,
+      "title": "InfiniteDiffusion: Bridging Learned Fidelity and Procedural Utility for Open-World Terrain Generation",
+      "url": "https://xandergos.github.io/terrain-diffusion/",
+      "discuss_url": "https://lobste.rs/s/ncsslp",
+      "score": 15,
       "comments": 1,
-      "author": "carlana",
-      "published": "2026-07-11T18:34:59Z"
+      "author": "Yogthos",
+      "published": "2026-07-12T19:56:07Z"
     },
     {
       "source": "lobsters",
@@ -296,6 +296,18 @@
       "comments": 43,
       "author": "caius",
       "published": "2026-07-10T10:44:48Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Handsum: An LQIP Image File Format",
+      "url": "https://nigeltao.github.io/blog/2026/handsum.html",
+      "discuss_url": "https://lobste.rs/s/gmzzeb",
+      "score": 19,
+      "comments": 1,
+      "author": "carlana",
+      "published": "2026-07-11T18:34:59Z"
     },
     {
       "source": "lobsters",
@@ -394,18 +406,6 @@
       "published": "2026-07-07T16:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "Building more than just an agent harness​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‌‌​﻿​﻿‌‍‌‍​﻿‍‌​﻿​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿​﻿‌‍​‍‌‍​‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‍​﻿‌‍​﻿‍‌​‍﻿‌‌‍​‌‌‍‌‌‌‍​‍‌‍‌‌​‍﻿‌‌‍‌​​﻿​﻿​﻿​‌‌‍‌​​﻿​‌​﻿‍‌​﻿‌‌​﻿​‍​﻿​‍‌‍​﻿‌‍‌​​﻿‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‌‌​﻿​﻿‌‍‌‍​﻿‍‌​﻿​﻿​﻿‌‌​﻿‍​​‍﻿‌​﻿​﻿‌‍​‍‌‍​‍​﻿​‍​‍﻿‌​﻿‌​‌‍‌‍​﻿‌‍​﻿‍‌​‍﻿‌‌‍​‌‌‍‌‌‌‍​‍‌‍‌‌​‍﻿‌‌‍‌​​﻿​﻿​﻿​‌‌‍‌​​﻿​‌​﻿‍‌​﻿‌‌​﻿​‍​﻿​‍‌‍​﻿‌‍‌​​﻿‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "url": "https://stackoverflow.blog/2026/07/10/building-more-than-just-an-agent-harness/",
-      "discuss_url": "https://stackoverflow.blog/2026/07/10/building-more-than-just-an-agent-harness/",
-      "score": null,
-      "comments": null,
-      "author": "Phoebe Sajor",
-      "published": "2026-07-10T07:40:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
@@ -424,7 +424,7 @@
       "title": "reaction: A daemon that scans program outputs for repeated patterns, and takes action",
       "url": "https://framagit.org/ppom/reaction",
       "discuss_url": "https://lobste.rs/s/zzdc8x",
-      "score": 27,
+      "score": 29,
       "comments": 4,
       "author": "fanf",
       "published": "2026-07-12T01:15:49Z"
@@ -436,7 +436,7 @@
       "title": "Hacking Apple - SQL Injection to Remote Code Execution",
       "url": "https://projectdiscovery.io/blog/hacking-apple-with-sql-injection",
       "discuss_url": "https://lobste.rs/s/axamxi",
-      "score": 4,
+      "score": 5,
       "comments": 1,
       "author": "ni5arga",
       "published": "2026-07-12T10:50:03Z"
@@ -448,7 +448,7 @@
       "title": "Unauthenticated RCE in Motorola's MR2600 Router",
       "url": "https://mrbruh.com/motorola/",
       "discuss_url": "https://lobste.rs/s/s1jwea",
-      "score": 4,
+      "score": 5,
       "comments": 0,
       "author": "raymii",
       "published": "2026-07-12T14:03:38Z"
@@ -464,6 +464,54 @@
       "comments": null,
       "author": "BrianKrebs",
       "published": "2026-07-08T12:31:39Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft",
+      "url": "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
+      "discuss_url": "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-13T13:03:33Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling",
+      "url": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
+      "discuss_url": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-13T11:54:46Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots",
+      "url": "https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html",
+      "discuss_url": "https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-13T11:37:05Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
+      "url": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
+      "discuss_url": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-13T11:02:33Z"
     },
     {
       "source": "rss",
@@ -500,54 +548,6 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-07-11T17:59:26Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
-      "url": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
-      "discuss_url": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-11T17:49:31Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
-      "url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
-      "discuss_url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-11T06:45:55Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
-      "url": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-      "discuss_url": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-10T16:30:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
-      "url": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
-      "discuss_url": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-10T16:29:00Z"
     },
     {
       "source": "lobsters",
