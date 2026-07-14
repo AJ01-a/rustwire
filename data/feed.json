@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T02:46:35Z",
+  "updated_at": "2026-07-14T08:14:34Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
       "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
       "discuss_url": "https://news.ycombinator.com/item?id=48889637",
-      "score": 1416,
-      "comments": 709,
+      "score": 1469,
+      "comments": 740,
       "author": "crowdhailer",
       "published": "2026-07-13T08:39:39Z",
       "bullets": [
-        "Zig creator Andrew Kelley critiques Anthropic's coding agent claims, highlighting LLM failures in rigorous, systems-level software development.",
-        "LLMs like Claude 3.5 struggle with fast-evolving languages due to training data drift and outdated syntax patterns in public repositories.",
-        "Relying on AI agents for systems programming risks introducing subtle bugs, emphasizing the need for developer-led validation over vendor hype."
+        "Zig's creator criticizes Anthropic's exaggerated claims regarding Claude 3.5 Sonnet's coding capabilities, highlighting failures in generating valid systems-level code.",
+        "Benchmark metrics like SWE-bench often inflate LLM performance, masking critical syntax and architectural errors in compiled languages like Zig.",
+        "AI practitioners must test LLMs on strict, statically-typed languages to expose reasoning limitations hidden by common Python or JavaScript evals."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Should Libraries Log or Propagate Errors?",
-      "url": "https://lobste.rs/s/v3avrp",
-      "discuss_url": "https://lobste.rs/s/v3avrp",
-      "score": 4,
-      "comments": 1,
-      "author": "veqq",
-      "published": "2026-07-13T21:43:24Z",
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/ozcrd0",
+      "discuss_url": "https://lobste.rs/s/ozcrd0",
+      "score": 15,
+      "comments": 22,
+      "author": "caius",
+      "published": "2026-07-13T09:44:13Z",
       "bullets": [
-        "My assumption was always: Applications log (and err), libraries err.",
-        "Today, I was shocked to learn that various ecosystems love logging things in libraries (such that silencing those logs is even an important task).",
-        "My view of logs has been around wide discrete events OR (for small scale personal things) writing errs in a file."
+        "Engineers use weekly community threads to share side-project progress, gather peer feedback, and discover emerging tools or libraries.",
+        "Common topics span Rust system programming, self-hosting infrastructure, database optimization, and experimenting with local LLM integration like llama.cpp.",
+        "Normalizing downtime alongside active development is emphasized to sustain high-quality output and mitigate burnout in engineering teams."
       ]
     },
     {
@@ -76,9 +76,9 @@
       "author": "fanf",
       "published": "2026-07-10T23:02:53Z",
       "bullets": [
-        "An update on the scraper situation",
-        "Trending on lobste.rs/security — 114 points, 49 comments.",
-        "Submitted by fanf on lobste.rs/security."
+        "Heavy LLM crawler traffic forces platforms to move beyond robots.txt to strict IP-rate limiting and aggressive Cloudflare challenges.",
+        "Scrapers increasingly bypass User-Agent blocks using residential proxy networks, requiring behavioral analysis and TLS fingerprinting for detection.",
+        "Protecting community platforms requires caching RSS/API endpoints to prevent database exhaustion from persistent, distributed scraping bots."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "calvin",
       "published": "2026-07-10T19:12:27Z",
       "bullets": [
-        "Package Management as Org Chart",
-        "Trending on lobste.rs/devops — 21 points, 3 comments.",
-        "Submitted by calvin on lobste.rs/devops."
+        "Package boundaries reflect team silos; managing private registries like Artifactory or AWS CodeArtifact often mirrors organizational reporting structures.",
+        "Monorepos using Bazel or Turborepo consolidate ownership, while multi-repo package publishing (npm, NuGet) decentralizes it, impacting release velocity.",
+        "Strict semantic versioning and complex internal dependency graphs often signal communication friction between isolated platform and product teams."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Stephen Clark",
       "published": "2026-07-14T01:17:14Z",
       "bullets": [
-        "This flight will put Starship under higher pressure and test out new Starlink satellites in orbit.",
-        "SpaceX is gearing up for Starship's 13th test flight later this week",
-        "Submitted by Stephen Clark on arstechnica.com."
+        "SpaceX's upcoming Starship Flight 13 will subject the launch vehicle to higher pressure thresholds than previous test flights.",
+        "The orbital mission serves as a deployment testbed for a new generation of Starlink satellites.",
+        "Aerospace engineers will gather telemetry on structural performance and payload deployment mechanisms under extreme operational stress."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
       "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
       "discuss_url": "https://news.ycombinator.com/item?id=48889637",
-      "score": 1416,
-      "comments": 709,
+      "score": 1469,
+      "comments": 740,
       "author": "crowdhailer",
       "published": "2026-07-13T08:39:39Z"
     },
@@ -136,7 +136,7 @@
       "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
       "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
       "discuss_url": "https://news.ycombinator.com/item?id=48883275",
-      "score": 685,
+      "score": 686,
       "comments": 378,
       "author": "systima",
       "published": "2026-07-12T18:25:51Z"
@@ -148,8 +148,8 @@
       "title": "I love LLMs, I hate hype",
       "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
       "discuss_url": "https://news.ycombinator.com/item?id=48883343",
-      "score": 474,
-      "comments": 310,
+      "score": 478,
+      "comments": 312,
       "author": "therepanic",
       "published": "2026-07-12T18:31:56Z"
     },
@@ -160,8 +160,8 @@
       "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
       "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
       "discuss_url": "https://news.ycombinator.com/item?id=48882716",
-      "score": 254,
-      "comments": 126,
+      "score": 256,
+      "comments": 127,
       "author": "brryant",
       "published": "2026-07-12T17:13:07Z"
     },
@@ -241,25 +241,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Should Libraries Log or Propagate Errors?",
-      "url": "https://lobste.rs/s/v3avrp",
-      "discuss_url": "https://lobste.rs/s/v3avrp",
-      "score": 4,
-      "comments": 1,
-      "author": "veqq",
-      "published": "2026-07-13T21:43:24Z"
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/ozcrd0",
+      "discuss_url": "https://lobste.rs/s/ozcrd0",
+      "score": 15,
+      "comments": 22,
+      "author": "caius",
+      "published": "2026-07-13T09:44:13Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/ozcrd0",
-      "discuss_url": "https://lobste.rs/s/ozcrd0",
-      "score": 13,
-      "comments": 18,
-      "author": "caius",
-      "published": "2026-07-13T09:44:13Z"
+      "title": "Should Libraries Log or Propagate Errors?",
+      "url": "https://lobste.rs/s/v3avrp",
+      "discuss_url": "https://lobste.rs/s/v3avrp",
+      "score": 5,
+      "comments": 3,
+      "author": "veqq",
+      "published": "2026-07-13T21:43:24Z"
     },
     {
       "source": "lobsters",
@@ -268,10 +268,22 @@
       "title": "InfiniteDiffusion: Bridging Learned Fidelity and Procedural Utility for Open-World Terrain Generation",
       "url": "https://xandergos.github.io/terrain-diffusion/",
       "discuss_url": "https://lobste.rs/s/ncsslp",
-      "score": 16,
+      "score": 17,
       "comments": 1,
       "author": "Yogthos",
       "published": "2026-07-12T19:56:07Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Adding a second middleware broke our typescript types",
+      "url": "https://www.inngest.com/blog/adding-a-second-middleware-broke-our-typescript-types",
+      "discuss_url": "https://lobste.rs/s/opbq6q",
+      "score": 2,
+      "comments": 0,
+      "author": "Linell",
+      "published": "2026-07-13T21:28:36Z"
     },
     {
       "source": "lobsters",
@@ -284,18 +296,6 @@
       "comments": 43,
       "author": "caius",
       "published": "2026-07-10T10:44:48Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Adding a second middleware broke our typescript types",
-      "url": "https://www.inngest.com/blog/adding-a-second-middleware-broke-our-typescript-types",
-      "discuss_url": "https://lobste.rs/s/opbq6q",
-      "score": 1,
-      "comments": 0,
-      "author": "Linell",
-      "published": "2026-07-13T21:28:36Z"
     },
     {
       "source": "lobsters",
@@ -397,18 +397,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "TFTP Honey pot Results",
-      "url": "https://bruceediger.com/posts/tftp-honeypot-results/",
-      "discuss_url": "https://lobste.rs/s/048t8w",
-      "score": 2,
-      "comments": 0,
-      "author": "mtlynch",
-      "published": "2026-07-13T20:47:40Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "reaction: A daemon that scans program outputs for repeated patterns, and takes action",
       "url": "https://framagit.org/ppom/reaction",
       "discuss_url": "https://lobste.rs/s/zzdc8x",
@@ -416,6 +404,18 @@
       "comments": 5,
       "author": "fanf",
       "published": "2026-07-12T01:15:49Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "TFTP Honey pot Results",
+      "url": "https://bruceediger.com/posts/tftp-honeypot-results/",
+      "discuss_url": "https://lobste.rs/s/048t8w",
+      "score": 3,
+      "comments": 0,
+      "author": "mtlynch",
+      "published": "2026-07-13T20:47:40Z"
     },
     {
       "source": "lobsters",
@@ -493,6 +493,18 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "Microsoft Maps Year-Long ShinyHunters-Linked Salesforce Data Theft Across Three Paths",
+      "url": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
+      "discuss_url": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-14T06:19:24Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
       "url": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
       "discuss_url": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
@@ -512,18 +524,6 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-07-13T17:17:24Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
-      "url": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
-      "discuss_url": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-13T15:05:57Z"
     },
     {
       "source": "lobsters",
@@ -572,6 +572,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-07-13T18:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 46 new MongoDB operators in version 8.0.1",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-mongodb-8-0-1-mongo-api",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-mongodb-8-0-1-mongo-api",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-13T17:00:00Z"
     },
     {
       "source": "rss",
@@ -656,18 +668,6 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-07-10T18:16:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Location Service enhances Places APIs with new address and search options",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-enhanced-address-search",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-enhanced-address-search",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-10T17:26:00Z"
     },
     {
       "source": "rss",
