@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T14:01:42Z",
+  "updated_at": "2026-07-14T19:25:13Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
-      "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48889637",
-      "score": 1493,
-      "comments": 761,
-      "author": "crowdhailer",
-      "published": "2026-07-13T08:39:39Z",
+      "title": "How to stop Claude from saying load-bearing",
+      "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
+      "discuss_url": "https://news.ycombinator.com/item?id=48905248",
+      "score": 272,
+      "comments": 345,
+      "author": "shintoist",
+      "published": "2026-07-14T11:46:02Z",
       "bullets": [
-        "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
-        "Trending on news.ycombinator.com — 1493 points, 761 comments.",
-        "Submitted by crowdhailer on news.ycombinator.com."
+        "Claude models (like 3.5 Sonnet) exhibit distinct stylistic crutches, overusing terms like 'load-bearing' due to RLHF alignment biases.",
+        "Mitigate repetitive vocabulary by using system prompts with XML tags (e.g., <avoid_words>) and providing negative few-shot examples.",
+        "Unlike OpenAI, Anthropic's API lacks logit bias controls, forcing developers to rely entirely on prompt instructions to steer style."
       ]
     },
     {
@@ -55,7 +55,7 @@
       "url": "https://lobste.rs/s/v3avrp",
       "discuss_url": "https://lobste.rs/s/v3avrp",
       "score": 9,
-      "comments": 7,
+      "comments": 12,
       "author": "veqq",
       "published": "2026-07-13T21:43:24Z",
       "bullets": [
@@ -82,37 +82,37 @@
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
+      "source": "rss",
+      "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Package Management as Org Chart",
-      "url": "https://nesbitt.io/2026/07/10/package-management-as-org-chart.html",
-      "discuss_url": "https://lobste.rs/s/6fmohi",
-      "score": 21,
-      "comments": 3,
-      "author": "calvin",
-      "published": "2026-07-10T19:12:27Z",
+      "title": "Amazon WorkSpaces Personal simplifies bulk PCoIP to DCV protocol migration",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-workspaces-personal-pcoip/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-workspaces-personal-pcoip/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-14T17:00:00Z",
       "bullets": [
-        "Package Management as Org Chart",
-        "Trending on lobste.rs/devops — 21 points, 3 comments.",
-        "Submitted by calvin on lobste.rs/devops."
+        "Amazon WorkSpaces Personal now provides automated rollback and support for PCoIP to DCV protocol migration of stopped WorkSpaces, building on the recently launched console-based m…",
+        "These new capabilities enable administrators to migrate WorkSpaces at scale with minimal manual intervention.",
+        "Amazon DCV is a high-performance streaming protocol built by AWS that powers Amazon WorkSpaces services."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "SpaceX is gearing up for Starship's 13th test flight later this week",
-      "url": "https://arstechnica.com/space/2026/07/spacex-is-gearing-up-for-starships-13th-test-flight-later-this-week/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/spacex-is-gearing-up-for-starships-13th-test-flight-later-this-week/",
+      "title": "US military sent explosive drone boats into combat for the first time",
+      "url": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
+      "discuss_url": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
       "score": null,
       "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-07-14T01:17:14Z",
+      "author": "Jeremy Hsu",
+      "published": "2026-07-14T18:00:01Z",
       "bullets": [
-        "This flight will put Starship under higher pressure and test out new Starlink satellites in orbit.",
-        "SpaceX is gearing up for Starship's 13th test flight later this week",
-        "Submitted by Stephen Clark on arstechnica.com."
+        "US military’s drone boats struck an Iranian naval port as war heats up again.",
+        "US military sent explosive drone boats into combat for the first time",
+        "Submitted by Jeremy Hsu on arstechnica.com."
       ]
     }
   ],
@@ -121,49 +121,37 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "How to stop Claude from saying load-bearing",
+      "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
+      "discuss_url": "https://news.ycombinator.com/item?id=48905248",
+      "score": 272,
+      "comments": 345,
+      "author": "shintoist",
+      "published": "2026-07-14T11:46:02Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
       "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
       "discuss_url": "https://news.ycombinator.com/item?id=48889637",
-      "score": 1493,
-      "comments": 761,
+      "score": 1506,
+      "comments": 766,
       "author": "crowdhailer",
       "published": "2026-07-13T08:39:39Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
-      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
-      "discuss_url": "https://news.ycombinator.com/item?id=48883275",
-      "score": 689,
-      "comments": 380,
-      "author": "systima",
-      "published": "2026-07-12T18:25:51Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "I love LLMs, I hate hype",
-      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=48883343",
-      "score": 486,
-      "comments": 318,
-      "author": "therepanic",
-      "published": "2026-07-12T18:31:56Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
-      "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
-      "discuss_url": "https://news.ycombinator.com/item?id=48882716",
-      "score": 257,
-      "comments": 128,
-      "author": "brryant",
-      "published": "2026-07-12T17:13:07Z"
+      "title": "Verifiable AI inference",
+      "url": "https://blog.vrypan.net/2026/07/14/verifiable-ai-inference/",
+      "discuss_url": "https://lobste.rs/s/xkk9ja",
+      "score": 1,
+      "comments": 0,
+      "author": "vrypan",
+      "published": "2026-07-14T18:31:07Z"
     },
     {
       "source": "lobsters",
@@ -172,7 +160,7 @@
       "title": "Tensor is the might",
       "url": "https://zserge.com/posts/tensor/",
       "discuss_url": "https://lobste.rs/s/uhzuf7",
-      "score": 1,
+      "score": 3,
       "comments": 0,
       "author": "eatonphil",
       "published": "2026-07-14T12:56:11Z"
@@ -238,18 +226,6 @@
       "published": "2026-07-07T21:15:33Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Hugging Face Models on Foundry Managed Compute",
-      "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
-      "discuss_url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-07T15:20:06Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
@@ -257,7 +233,7 @@
       "url": "https://lobste.rs/s/v3avrp",
       "discuss_url": "https://lobste.rs/s/v3avrp",
       "score": 9,
-      "comments": 7,
+      "comments": 12,
       "author": "veqq",
       "published": "2026-07-13T21:43:24Z"
     },
@@ -269,9 +245,21 @@
       "url": "https://lobste.rs/s/ozcrd0",
       "discuss_url": "https://lobste.rs/s/ozcrd0",
       "score": 16,
-      "comments": 26,
+      "comments": 27,
       "author": "caius",
       "published": "2026-07-13T09:44:13Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "A technical career retrospective part 1 (January - June 1978)",
+      "url": "https://kenwhitesell.github.io/2026/07/10/A-technical-career-retrospective-pt-1.html",
+      "discuss_url": "https://lobste.rs/s/bmqwm2",
+      "score": 1,
+      "comments": 0,
+      "author": "rrampage",
+      "published": "2026-07-14T18:06:18Z"
     },
     {
       "source": "lobsters",
@@ -382,18 +370,6 @@
       "published": "2026-07-08T16:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Q1 2026 Innovation Graph update: Open source collaboration is accelerating worldwide",
-      "url": "https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide/",
-      "discuss_url": "https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-07-07T16:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
@@ -409,23 +385,11 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "TFTP Honey pot Results",
-      "url": "https://bruceediger.com/posts/tftp-honeypot-results/",
-      "discuss_url": "https://lobste.rs/s/048t8w",
-      "score": 5,
-      "comments": 0,
-      "author": "mtlynch",
-      "published": "2026-07-13T20:47:40Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "reaction: A daemon that scans program outputs for repeated patterns, and takes action",
       "url": "https://framagit.org/ppom/reaction",
       "discuss_url": "https://lobste.rs/s/zzdc8x",
-      "score": 30,
-      "comments": 5,
+      "score": 31,
+      "comments": 6,
       "author": "fanf",
       "published": "2026-07-12T01:15:49Z"
     },
@@ -433,13 +397,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "FreeBSoD: Leveraging Language Models to Find and Exploit Kernel Bugs (Part 1 of 2)",
-      "url": "https://www.praetorian.com/blog/ai-vulnerability-research-freebsd-kernel/",
-      "discuss_url": "https://lobste.rs/s/jhdesh",
-      "score": 1,
-      "comments": 1,
-      "author": "fro",
-      "published": "2026-07-13T18:50:43Z"
+      "title": "TFTP Honey pot Results",
+      "url": "https://bruceediger.com/posts/tftp-honeypot-results/",
+      "discuss_url": "https://lobste.rs/s/048t8w",
+      "score": 5,
+      "comments": 0,
+      "author": "mtlynch",
+      "published": "2026-07-13T20:47:40Z"
     },
     {
       "source": "lobsters",
@@ -469,13 +433,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "FreeBSoD: Leveraging Language Models to Find and Exploit Kernel Bugs (Part 2 of 2)",
-      "url": "https://www.praetorian.com/blog/llm-kernel-exploit-development/",
-      "discuss_url": "https://lobste.rs/s/kwesh9",
+      "title": "FreeBSoD: Leveraging Language Models to Find and Exploit Kernel Bugs (Part 1 of 2)",
+      "url": "https://www.praetorian.com/blog/ai-vulnerability-research-freebsd-kernel/",
+      "discuss_url": "https://lobste.rs/s/jhdesh",
       "score": 0,
       "comments": 1,
       "author": "fro",
-      "published": "2026-07-13T18:51:54Z"
+      "published": "2026-07-13T18:50:43Z"
     },
     {
       "source": "rss",
@@ -505,6 +469,30 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
+      "url": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
+      "discuss_url": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-14T16:52:37Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+      "url": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+      "discuss_url": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-14T13:48:07Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
       "url": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
       "discuss_url": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
@@ -527,27 +515,51 @@
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "How Pentera Turns AI Security Workflows into Validation Engines",
-      "url": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
-      "discuss_url": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon WorkSpaces Personal simplifies bulk PCoIP to DCV protocol migration",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-workspaces-personal-pcoip/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-workspaces-personal-pcoip/",
       "score": null,
       "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-14T11:30:00Z"
+      "author": "aws@amazon.com",
+      "published": "2026-07-14T17:00:00Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
+      "source": "rss",
+      "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Package Management as Org Chart",
-      "url": "https://nesbitt.io/2026/07/10/package-management-as-org-chart.html",
-      "discuss_url": "https://lobste.rs/s/6fmohi",
-      "score": 21,
-      "comments": 3,
-      "author": "calvin",
-      "published": "2026-07-10T19:12:27Z"
+      "title": "AWS Security Hub now provides AI inventory for organization-wide visibility of AI assets",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-14T17:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Storage Gateway adds console support for copying file shares across gateways",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-storage-gateway-console-copy-file-shares/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-storage-gateway-console-copy-file-shares/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-14T10:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon CloudFront Functions now supports logging to CloudFront access logs",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudfront-functions-access-logs/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudfront-functions-access-logs/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-14T08:00:00Z"
     },
     {
       "source": "rss",
@@ -647,39 +659,75 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon SageMaker HyperPod now supports custom AMIs (Amazon Machine Images) for Slurm clusters",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-custom-ami-slurm/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-custom-ami-slurm/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "US military sent explosive drone boats into combat for the first time",
+      "url": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
+      "discuss_url": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-13T14:31:00Z"
+      "author": "Jeremy Hsu",
+      "published": "2026-07-14T18:00:01Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 network/EBS instances now available in additional regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r8in-r8ib-r8idn-r8idb",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r8in-r8ib-r8idn-r8idb",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "These painted e-tattoos could be the future of wearable biosensors",
+      "url": "https://arstechnica.com/science/2026/07/these-painted-e-tattoos-could-be-the-future-of-wearable-biosensors/",
+      "discuss_url": "https://arstechnica.com/science/2026/07/these-painted-e-tattoos-could-be-the-future-of-wearable-biosensors/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-10T20:00:00Z"
+      "author": "Jennifer Ouellette",
+      "published": "2026-07-14T17:31:58Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EMR on EKS now supports Apache Spark troubleshooting agent",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-eks-spark-troubleshooting/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-eks-spark-troubleshooting/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Google revamps image search for its 25th anniversary with more images and more AI",
+      "url": "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai/",
+      "discuss_url": "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-10T18:16:00Z"
+      "author": "Ryan Whitwam",
+      "published": "2026-07-14T16:28:14Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "New York bans data center construction for a year, rattling AI industry",
+      "url": "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/",
+      "score": null,
+      "comments": null,
+      "author": "Ashley Belanger",
+      "published": "2026-07-14T15:06:28Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Probe into explosive diarrheal cases points to Taco Bell and bad lettuce",
+      "url": "https://arstechnica.com/health/2026/07/taco-bell-eyed-in-explosive-diarrheal-outbreak-leafy-greens-suspected/",
+      "discuss_url": "https://arstechnica.com/health/2026/07/taco-bell-eyed-in-explosive-diarrheal-outbreak-leafy-greens-suspected/",
+      "score": null,
+      "comments": null,
+      "author": "Beth Mole",
+      "published": "2026-07-14T14:49:02Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Boomers, not Gen Z, are the generation cutting back most on alcohol",
+      "url": "https://arstechnica.com/health/2026/07/boomers-not-gen-z-are-the-generation-cutting-back-most-on-alcohol/",
+      "discuss_url": "https://arstechnica.com/health/2026/07/boomers-not-gen-z-are-the-generation-cutting-back-most-on-alcohol/",
+      "score": null,
+      "comments": null,
+      "author": "Madeleine Speed, Financial Times",
+      "published": "2026-07-14T13:19:16Z"
     },
     {
       "source": "rss",
@@ -752,78 +800,6 @@
       "comments": null,
       "author": "Ashley Belanger",
       "published": "2026-07-13T19:17:51Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Solution to Feynman's reverse sprinkler puzzle also applies to \"silly sprinklers\"",
-      "url": "https://arstechnica.com/science/2026/07/solution-to-feynmans-reverse-sprinkler-puzzle-also-applies-to-silly-sprinklers/",
-      "discuss_url": "https://arstechnica.com/science/2026/07/solution-to-feynmans-reverse-sprinkler-puzzle-also-applies-to-silly-sprinklers/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-07-13T19:00:47Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "States sue to block Paramount/WBD merger that was approved by Trump admin",
-      "url": "https://arstechnica.com/tech-policy/2026/07/states-sue-to-block-paramount-wbd-merger-that-was-approved-by-trump-admin/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/states-sue-to-block-paramount-wbd-merger-that-was-approved-by-trump-admin/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-07-13T18:34:35Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Tom Cruise is utterly transformed in Digger trailer",
-      "url": "https://arstechnica.com/culture/2026/07/digger-trailer-is-giving-big-dr-strangelove-vibes/",
-      "discuss_url": "https://arstechnica.com/culture/2026/07/digger-trailer-is-giving-big-dr-strangelove-vibes/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-07-13T17:49:56Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Apple and Samsung benefit as memory shortage pushes smartphone shipments to historic lows",
-      "url": "https://arstechnica.com/gadgets/2026/07/apple-and-samsung-benefit-as-memory-shortage-pushes-smartphone-shipments-to-historic-lows/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/07/apple-and-samsung-benefit-as-memory-shortage-pushes-smartphone-shipments-to-historic-lows/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-07-13T17:18:25Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Colorado will decide whether a \"right to natural gas\" is added to state constitution",
-      "url": "https://arstechnica.com/tech-policy/2026/07/colorado-will-decide-whether-a-right-to-natural-gas-is-added-to-state-constitution/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/colorado-will-decide-whether-a-right-to-natural-gas-is-added-to-state-constitution/",
-      "score": null,
-      "comments": null,
-      "author": "Maya McDaniel, Inside Climate News",
-      "published": "2026-07-13T16:49:35Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Hackers quickly prove that Neo Geo Doom ports are not \"impossible\"",
-      "url": "https://arstechnica.com/gaming/2026/07/hackers-quickly-prove-that-neo-geo-doom-ports-are-not-impossible/",
-      "discuss_url": "https://arstechnica.com/gaming/2026/07/hackers-quickly-prove-that-neo-geo-doom-ports-are-not-impossible/",
-      "score": null,
-      "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-07-13T16:37:14Z"
     }
   ]
 }
