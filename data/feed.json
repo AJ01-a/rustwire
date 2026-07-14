@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T08:14:34Z",
+  "updated_at": "2026-07-14T14:01:42Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
       "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
       "discuss_url": "https://news.ycombinator.com/item?id=48889637",
-      "score": 1469,
-      "comments": 740,
+      "score": 1493,
+      "comments": 761,
       "author": "crowdhailer",
       "published": "2026-07-13T08:39:39Z",
       "bullets": [
-        "Zig's creator criticizes Anthropic's exaggerated claims regarding Claude 3.5 Sonnet's coding capabilities, highlighting failures in generating valid systems-level code.",
-        "Benchmark metrics like SWE-bench often inflate LLM performance, masking critical syntax and architectural errors in compiled languages like Zig.",
-        "AI practitioners must test LLMs on strict, statically-typed languages to expose reasoning limitations hidden by common Python or JavaScript evals."
+        "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
+        "Trending on news.ycombinator.com — 1493 points, 761 comments.",
+        "Submitted by crowdhailer on news.ycombinator.com."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/ozcrd0",
-      "discuss_url": "https://lobste.rs/s/ozcrd0",
-      "score": 15,
-      "comments": 22,
-      "author": "caius",
-      "published": "2026-07-13T09:44:13Z",
+      "title": "Should Libraries Log or Propagate Errors?",
+      "url": "https://lobste.rs/s/v3avrp",
+      "discuss_url": "https://lobste.rs/s/v3avrp",
+      "score": 9,
+      "comments": 7,
+      "author": "veqq",
+      "published": "2026-07-13T21:43:24Z",
       "bullets": [
-        "Engineers use weekly community threads to share side-project progress, gather peer feedback, and discover emerging tools or libraries.",
-        "Common topics span Rust system programming, self-hosting infrastructure, database optimization, and experimenting with local LLM integration like llama.cpp.",
-        "Normalizing downtime alongside active development is emphasized to sustain high-quality output and mitigate burnout in engineering teams."
+        "My assumption was always: Applications log (and err), libraries err.",
+        "Today, I was shocked to learn that various ecosystems love logging things in libraries (such that silencing those logs is even an important task).",
+        "My view of logs has been around wide discrete events OR (for small scale personal things) writing errs in a file."
       ]
     },
     {
@@ -76,9 +76,9 @@
       "author": "fanf",
       "published": "2026-07-10T23:02:53Z",
       "bullets": [
-        "Heavy LLM crawler traffic forces platforms to move beyond robots.txt to strict IP-rate limiting and aggressive Cloudflare challenges.",
-        "Scrapers increasingly bypass User-Agent blocks using residential proxy networks, requiring behavioral analysis and TLS fingerprinting for detection.",
-        "Protecting community platforms requires caching RSS/API endpoints to prevent database exhaustion from persistent, distributed scraping bots."
+        "An update on the scraper situation",
+        "Trending on lobste.rs/security — 114 points, 49 comments.",
+        "Submitted by fanf on lobste.rs/security."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "calvin",
       "published": "2026-07-10T19:12:27Z",
       "bullets": [
-        "Package boundaries reflect team silos; managing private registries like Artifactory or AWS CodeArtifact often mirrors organizational reporting structures.",
-        "Monorepos using Bazel or Turborepo consolidate ownership, while multi-repo package publishing (npm, NuGet) decentralizes it, impacting release velocity.",
-        "Strict semantic versioning and complex internal dependency graphs often signal communication friction between isolated platform and product teams."
+        "Package Management as Org Chart",
+        "Trending on lobste.rs/devops — 21 points, 3 comments.",
+        "Submitted by calvin on lobste.rs/devops."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Stephen Clark",
       "published": "2026-07-14T01:17:14Z",
       "bullets": [
-        "SpaceX's upcoming Starship Flight 13 will subject the launch vehicle to higher pressure thresholds than previous test flights.",
-        "The orbital mission serves as a deployment testbed for a new generation of Starlink satellites.",
-        "Aerospace engineers will gather telemetry on structural performance and payload deployment mechanisms under extreme operational stress."
+        "This flight will put Starship under higher pressure and test out new Starlink satellites in orbit.",
+        "SpaceX is gearing up for Starship's 13th test flight later this week",
+        "Submitted by Stephen Clark on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
       "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
       "discuss_url": "https://news.ycombinator.com/item?id=48889637",
-      "score": 1469,
-      "comments": 740,
+      "score": 1493,
+      "comments": 761,
       "author": "crowdhailer",
       "published": "2026-07-13T08:39:39Z"
     },
@@ -136,8 +136,8 @@
       "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
       "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
       "discuss_url": "https://news.ycombinator.com/item?id=48883275",
-      "score": 686,
-      "comments": 378,
+      "score": 689,
+      "comments": 380,
       "author": "systima",
       "published": "2026-07-12T18:25:51Z"
     },
@@ -148,8 +148,8 @@
       "title": "I love LLMs, I hate hype",
       "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
       "discuss_url": "https://news.ycombinator.com/item?id=48883343",
-      "score": 478,
-      "comments": 312,
+      "score": 486,
+      "comments": 318,
       "author": "therepanic",
       "published": "2026-07-12T18:31:56Z"
     },
@@ -160,10 +160,22 @@
       "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
       "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
       "discuss_url": "https://news.ycombinator.com/item?id=48882716",
-      "score": 256,
-      "comments": 127,
+      "score": 257,
+      "comments": 128,
       "author": "brryant",
       "published": "2026-07-12T17:13:07Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Tensor is the might",
+      "url": "https://zserge.com/posts/tensor/",
+      "discuss_url": "https://lobste.rs/s/uhzuf7",
+      "score": 1,
+      "comments": 0,
+      "author": "eatonphil",
+      "published": "2026-07-14T12:56:11Z"
     },
     {
       "source": "lobsters",
@@ -241,25 +253,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/ozcrd0",
-      "discuss_url": "https://lobste.rs/s/ozcrd0",
-      "score": 15,
-      "comments": 22,
-      "author": "caius",
-      "published": "2026-07-13T09:44:13Z"
+      "title": "Should Libraries Log or Propagate Errors?",
+      "url": "https://lobste.rs/s/v3avrp",
+      "discuss_url": "https://lobste.rs/s/v3avrp",
+      "score": 9,
+      "comments": 7,
+      "author": "veqq",
+      "published": "2026-07-13T21:43:24Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Should Libraries Log or Propagate Errors?",
-      "url": "https://lobste.rs/s/v3avrp",
-      "discuss_url": "https://lobste.rs/s/v3avrp",
-      "score": 5,
-      "comments": 3,
-      "author": "veqq",
-      "published": "2026-07-13T21:43:24Z"
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/ozcrd0",
+      "discuss_url": "https://lobste.rs/s/ozcrd0",
+      "score": 16,
+      "comments": 26,
+      "author": "caius",
+      "published": "2026-07-13T09:44:13Z"
     },
     {
       "source": "lobsters",
@@ -277,30 +289,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Adding a second middleware broke our typescript types",
-      "url": "https://www.inngest.com/blog/adding-a-second-middleware-broke-our-typescript-types",
-      "discuss_url": "https://lobste.rs/s/opbq6q",
-      "score": 2,
-      "comments": 0,
-      "author": "Linell",
-      "published": "2026-07-13T21:28:36Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/u9yf5l",
-      "discuss_url": "https://lobste.rs/s/u9yf5l",
-      "score": 20,
-      "comments": 43,
-      "author": "caius",
-      "published": "2026-07-10T10:44:48Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Handsum: An LQIP Image File Format",
       "url": "https://nigeltao.github.io/blog/2026/handsum.html",
       "discuss_url": "https://lobste.rs/s/gmzzeb",
@@ -308,6 +296,18 @@
       "comments": 1,
       "author": "carlana",
       "published": "2026-07-11T18:34:59Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Adding a second middleware broke our typescript types",
+      "url": "https://www.inngest.com/blog/adding-a-second-middleware-broke-our-typescript-types",
+      "discuss_url": "https://lobste.rs/s/opbq6q",
+      "score": 2,
+      "comments": 0,
+      "author": "Linell",
+      "published": "2026-07-13T21:28:36Z"
     },
     {
       "source": "lobsters",
@@ -382,6 +382,18 @@
       "published": "2026-07-08T16:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Q1 2026 Innovation Graph update: Open source collaboration is accelerating worldwide",
+      "url": "https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide/",
+      "discuss_url": "https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide/",
+      "score": null,
+      "comments": null,
+      "author": "Natalie Guevara",
+      "published": "2026-07-07T16:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
@@ -397,25 +409,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "reaction: A daemon that scans program outputs for repeated patterns, and takes action",
-      "url": "https://framagit.org/ppom/reaction",
-      "discuss_url": "https://lobste.rs/s/zzdc8x",
-      "score": 29,
-      "comments": 5,
-      "author": "fanf",
-      "published": "2026-07-12T01:15:49Z"
+      "title": "TFTP Honey pot Results",
+      "url": "https://bruceediger.com/posts/tftp-honeypot-results/",
+      "discuss_url": "https://lobste.rs/s/048t8w",
+      "score": 5,
+      "comments": 0,
+      "author": "mtlynch",
+      "published": "2026-07-13T20:47:40Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "TFTP Honey pot Results",
-      "url": "https://bruceediger.com/posts/tftp-honeypot-results/",
-      "discuss_url": "https://lobste.rs/s/048t8w",
-      "score": 3,
-      "comments": 0,
-      "author": "mtlynch",
-      "published": "2026-07-13T20:47:40Z"
+      "title": "reaction: A daemon that scans program outputs for repeated patterns, and takes action",
+      "url": "https://framagit.org/ppom/reaction",
+      "discuss_url": "https://lobste.rs/s/zzdc8x",
+      "score": 30,
+      "comments": 5,
+      "author": "fanf",
+      "published": "2026-07-12T01:15:49Z"
     },
     {
       "source": "lobsters",
@@ -493,37 +505,37 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Microsoft Maps Year-Long ShinyHunters-Linked Salesforce Data Theft Across Three Paths",
-      "url": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
-      "discuss_url": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
+      "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
+      "url": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
+      "discuss_url": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-14T06:19:24Z"
+      "published": "2026-07-14T12:46:18Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
-      "url": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
-      "discuss_url": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
+      "title": "Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks",
+      "url": "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html",
+      "discuss_url": "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-13T17:36:12Z"
+      "published": "2026-07-14T11:55:00Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found",
-      "url": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
-      "discuss_url": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
+      "title": "How Pentera Turns AI Security Workflows into Validation Engines",
+      "url": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
+      "discuss_url": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-13T17:17:24Z"
+      "published": "2026-07-14T11:30:00Z"
     },
     {
       "source": "lobsters",
@@ -613,9 +625,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Qwen3 embedding and reranking models for retrieval are now available in Amazon SageMaker JumpStart",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
+      "title": "Voxtral-Mini-4B-Realtime for real-time speech transcription is now available in Amazon SageMaker JumpStart",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/voxtral-mini-realtime-on-sagemaker-jumpstart/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/voxtral-mini-realtime-on-sagemaker-jumpstart/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -625,9 +637,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Voxtral-Mini-4B-Realtime for real-time speech transcription is now available in Amazon SageMaker JumpStart",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/voxtral-mini-realtime-on-sagemaker-jumpstart/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/voxtral-mini-realtime-on-sagemaker-jumpstart/",
+      "title": "Qwen3 embedding and reranking models for retrieval are now available in Amazon SageMaker JumpStart",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
