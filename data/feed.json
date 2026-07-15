@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T08:20:58Z",
+  "updated_at": "2026-07-15T13:56:39Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "I tricked Claude into leaking your deepest, darkest secrets",
       "url": "https://www.ayush.digital/blog/the-memory-heist",
       "discuss_url": "https://news.ycombinator.com/item?id=48916975",
-      "score": 172,
-      "comments": 67,
+      "score": 469,
+      "comments": 224,
       "author": "macleginn",
       "published": "2026-07-15T06:28:00Z",
       "bullets": [
-        "Indirect prompt injection exploits Anthropic Claude's alignment, enabling attackers to exfiltrate system instructions and user data from active sessions.",
-        "Shared context environments, like Claude Projects, are vulnerable to cross-session data leaks when processing untrusted third-party documents.",
-        "Defend LLM applications by enforcing hard boundaries between system instructions, user inputs, and retrieved external data."
+        "Indirect prompt injection attacks on Anthropic Claude exploit tool use and document processing to bypass alignment and access private user data.",
+        "Malicious prompts trick the LLM into exfiltrating sensitive chat history or API keys to external servers using markdown image rendering tags.",
+        "AI practitioners must implement strict Content Security Policies (CSP) and disable rendering of arbitrary external assets to mitigate data exfiltration risks."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Empathy and delight mean nothing when the software is disrespectful",
-      "url": "https://productpicnic.beehiiv.com/p/empathy-and-delight-mean-nothing-when-the-software-is-disrespectful",
-      "discuss_url": "https://lobste.rs/s/s4qbwh",
-      "score": 4,
-      "comments": 0,
-      "author": "drmorr",
-      "published": "2026-07-15T04:30:14Z",
+      "title": "The Difficulty of Cataloguing LLM Errors",
+      "url": "https://elliotmorris.net/the-difficulty-of-cataloging-llm-errors",
+      "discuss_url": "https://lobste.rs/s/7uvjcd",
+      "score": 1,
+      "comments": 1,
+      "author": "hoistbypetard",
+      "published": "2026-07-15T13:30:12Z",
       "bullets": [
-        "Respectful engineering prioritizes resource efficiency, minimizing CPU, memory, and battery drain over bloated Electron wrappers or heavy client-side frameworks.",
-        "Prioritize user agency by respecting system-level configurations, offline-first architectures, and opt-in telemetry rather than intrusive, forced data collection.",
-        "Eliminate dark patterns and disruptive forced updates; focus on predictable API versioning, stable configurations, and preserving user workflow continuity."
+        "The Difficulty of Cataloguing LLM Errors",
+        "Trending on lobste.rs/programming — 1 points, 1 comments.",
+        "Submitted by hoistbypetard on lobste.rs/programming."
       ]
     },
     {
@@ -71,48 +71,48 @@
       "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
       "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
       "discuss_url": "https://news.ycombinator.com/item?id=48910676",
-      "score": 345,
-      "comments": 160,
+      "score": 411,
+      "comments": 194,
       "author": "Synthetic7346",
       "published": "2026-07-14T17:58:35Z",
       "bullets": [
-        "An unpatched zero-day in the Cursor AI editor (VS Code fork) allows Remote Code Execution (RCE) via malicious workspaces.",
-        "Attackers can exploit malicious repositories or configuration files like '.cursorrules' to compromise developer machines running the IDE.",
-        "Security teams must enforce workspace trust controls and monitor developer endpoints for unauthorized AI editor installations."
+        "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+        "Trending on news.ycombinator.com — 411 points, 194 comments.",
+        "Submitted by Synthetic7346 on news.ycombinator.com."
       ]
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Elastic Disaster Recovery now supports Amazon EBS volume initialization rate",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-hydration/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-hydration/",
+      "title": "AWS Lambda announces self-managed code storage",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambda-self-managed-code-storage/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambda-self-managed-code-storage/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-07-14T22:00:56Z",
+      "published": "2026-07-15T07:00:00Z",
       "bullets": [
-        "AWS DRS now supports EBS volume initialization rates, accelerating S3 background data loading to reach full storage performance faster during recoveries.",
-        "Configure the rate once in the DRS-managed EC2 launch template; AWS automatically preserves this setting during rightsizing and disk updates.",
-        "To prevent blocked recovery pipelines, DRS automatically falls back and completes volume recovery if the initialization rate cannot be applied."
+        "AWS Lambda now supports self-managed Amazon S3 buckets for code storage, enabling you to reference source code directly from your own S3 buckets without Lambda creating intermedia…",
+        "This eliminates code storage limits and reduces function activation time after function creates and updates by removing the copy step.",
+        "AWS Lambda is a serverless compute service that runs your code without requiring you to manage servers."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
-      "url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
-      "discuss_url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
+      "title": "A most improbable astronaut just went to space",
+      "url": "https://arstechnica.com/space/2026/07/a-most-improbable-astronaut-just-went-to-space/",
+      "discuss_url": "https://arstechnica.com/space/2026/07/a-most-improbable-astronaut-just-went-to-space/",
       "score": null,
       "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-07-14T22:20:48Z",
+      "author": "Eric Berger",
+      "published": "2026-07-15T11:30:07Z",
       "bullets": [
-        "Microsoft failed to revoke old UEFI shim bootloaders, leaving a decade-long window for attackers to trivially bypass Secure Boot protections.",
-        "The vulnerability allows threat actors to leverage historically signed, unrevoked shims to execute unauthorized bootkits and compromise the OS.",
-        "Security teams should ensure UEFI revocation lists (DBX) are actively updated to block these vulnerable legacy bootloaders."
+        "\"I pretty much, at that point in time, gave up on being an astronaut.\"",
+        "A most improbable astronaut just went to space",
+        "Submitted by Eric Berger on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "I tricked Claude into leaking your deepest, darkest secrets",
       "url": "https://www.ayush.digital/blog/the-memory-heist",
       "discuss_url": "https://news.ycombinator.com/item?id=48916975",
-      "score": 172,
-      "comments": 67,
+      "score": 469,
+      "comments": 224,
       "author": "macleginn",
       "published": "2026-07-15T06:28:00Z"
     },
@@ -136,22 +136,10 @@
       "title": "How to stop Claude from saying load-bearing",
       "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
       "discuss_url": "https://news.ycombinator.com/item?id=48905248",
-      "score": 518,
-      "comments": 543,
+      "score": 569,
+      "comments": 584,
       "author": "shintoist",
       "published": "2026-07-14T11:46:02Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
-      "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48889637",
-      "score": 1522,
-      "comments": 770,
-      "author": "crowdhailer",
-      "published": "2026-07-13T08:39:39Z"
     },
     {
       "source": "lobsters",
@@ -164,18 +152,6 @@
       "comments": 1,
       "author": "eatonphil",
       "published": "2026-07-14T12:56:11Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "AI Surveillance and Social Progress",
-      "url": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
-      "discuss_url": "https://lobste.rs/s/qvu1m0",
-      "score": 17,
-      "comments": 2,
-      "author": "cyplo",
-      "published": "2026-07-11T09:40:40Z"
     },
     {
       "source": "lobsters",
@@ -205,6 +181,18 @@
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
+      "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+      "url": "https://huggingface.co/blog/real-world-voiceeq",
+      "discuss_url": "https://huggingface.co/blog/real-world-voiceeq",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-15T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
       "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
       "url": "https://huggingface.co/blog/torch-attention-profile",
       "discuss_url": "https://huggingface.co/blog/torch-attention-profile",
@@ -229,10 +217,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "The Difficulty of Cataloguing LLM Errors",
+      "url": "https://elliotmorris.net/the-difficulty-of-cataloging-llm-errors",
+      "discuss_url": "https://lobste.rs/s/7uvjcd",
+      "score": 1,
+      "comments": 1,
+      "author": "hoistbypetard",
+      "published": "2026-07-15T13:30:12Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Empathy and delight mean nothing when the software is disrespectful",
       "url": "https://productpicnic.beehiiv.com/p/empathy-and-delight-mean-nothing-when-the-software-is-disrespectful",
       "discuss_url": "https://lobste.rs/s/s4qbwh",
-      "score": 4,
+      "score": 8,
       "comments": 0,
       "author": "drmorr",
       "published": "2026-07-15T04:30:14Z"
@@ -245,7 +245,7 @@
       "url": "https://lobste.rs/s/v3avrp",
       "discuss_url": "https://lobste.rs/s/v3avrp",
       "score": 9,
-      "comments": 14,
+      "comments": 16,
       "author": "veqq",
       "published": "2026-07-13T21:43:24Z"
     },
@@ -304,7 +304,7 @@
       "title": "Adding a second middleware broke our typescript types",
       "url": "https://www.inngest.com/blog/adding-a-second-middleware-broke-our-typescript-types",
       "discuss_url": "https://lobste.rs/s/opbq6q",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "Linell",
       "published": "2026-07-13T21:28:36Z"
@@ -358,26 +358,14 @@
       "published": "2026-07-08T19:35:51Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "How GitHub Copilot enables zero DNS configuration for GitHub Pages",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages/",
-      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages/",
-      "score": null,
-      "comments": null,
-      "author": "Bruno Borges",
-      "published": "2026-07-08T16:00:00Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
       "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
       "discuss_url": "https://news.ycombinator.com/item?id=48910676",
-      "score": 345,
-      "comments": 160,
+      "score": 411,
+      "comments": 194,
       "author": "Synthetic7346",
       "published": "2026-07-14T17:58:35Z"
     },
@@ -388,8 +376,8 @@
       "title": "You should probably check on your smart appliances",
       "url": "https://xeiaso.net/notes/2026/check-your-smart-tv/",
       "discuss_url": "https://lobste.rs/s/slrak5",
-      "score": 42,
-      "comments": 10,
+      "score": 60,
+      "comments": 17,
       "author": "cadey",
       "published": "2026-07-14T22:02:25Z"
     },
@@ -479,39 +467,51 @@
     },
     {
       "source": "rss",
-      "subsource": "krebsonsecurity.com",
+      "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-      "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
-      "discuss_url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+      "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
+      "url": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
+      "discuss_url": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
       "score": null,
       "comments": null,
-      "author": "BrianKrebs",
-      "published": "2026-07-08T12:31:39Z"
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-15T11:50:01Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
-      "url": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
-      "discuss_url": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
+      "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday",
+      "url": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
+      "discuss_url": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-15T05:30:21Z"
+      "published": "2026-07-15T11:07:07Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack",
-      "url": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
-      "discuss_url": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
+      "title": "New Webinar: Closing the Approval Gap in AI-Era Ad Tech",
+      "url": "https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html",
+      "discuss_url": "https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-14T20:25:47Z"
+      "published": "2026-07-15T11:06:57Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Lambda announces self-managed code storage",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambda-self-managed-code-storage/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambda-self-managed-code-storage/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-15T07:00:00Z"
     },
     {
       "source": "rss",
@@ -647,15 +647,39 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Managed Service for Prometheus is now available in Asia Pacific (New Zealand) Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-new-zealand/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-new-zealand/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "A most improbable astronaut just went to space",
+      "url": "https://arstechnica.com/space/2026/07/a-most-improbable-astronaut-just-went-to-space/",
+      "discuss_url": "https://arstechnica.com/space/2026/07/a-most-improbable-astronaut-just-went-to-space/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-13T21:17:00Z"
+      "author": "Eric Berger",
+      "published": "2026-07-15T11:30:07Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "How hard is it to build orbital data centers, actually?",
+      "url": "https://arstechnica.com/space/2026/07/how-hard-is-it-to-build-orbital-data-centers-actually/",
+      "discuss_url": "https://arstechnica.com/space/2026/07/how-hard-is-it-to-build-orbital-data-centers-actually/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-07-15T11:00:09Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Sotheby's big T. rex auction raises concerns hype and wealth are upending science",
+      "url": "https://arstechnica.com/science/2026/07/sothebys-big-t-rex-auction-raises-concerns-hype-and-wealth-are-upending-science/",
+      "discuss_url": "https://arstechnica.com/science/2026/07/sothebys-big-t-rex-auction-raises-concerns-hype-and-wealth-are-upending-science/",
+      "score": null,
+      "comments": null,
+      "author": "Kate Wong, WIRED.com",
+      "published": "2026-07-15T10:30:39Z"
     },
     {
       "source": "rss",
@@ -764,42 +788,6 @@
       "comments": null,
       "author": "Madeleine Speed, Financial Times",
       "published": "2026-07-14T13:19:16Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "SpaceX is gearing up for Starship's 13th test flight later this week",
-      "url": "https://arstechnica.com/space/2026/07/spacex-is-gearing-up-for-starships-13th-test-flight-later-this-week/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/spacex-is-gearing-up-for-starships-13th-test-flight-later-this-week/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-07-14T01:17:14Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "US continues to shun Ebola-infected citizens; second American sent to Germany",
-      "url": "https://arstechnica.com/health/2026/07/us-continues-to-shun-ebola-infected-citizens-second-american-sent-to-germany/",
-      "discuss_url": "https://arstechnica.com/health/2026/07/us-continues-to-shun-ebola-infected-citizens-second-american-sent-to-germany/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-07-13T22:07:34Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The US government warns that Russia state hackers are coming after your router",
-      "url": "https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/",
-      "discuss_url": "https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-07-13T21:03:07Z"
     }
   ]
 }
