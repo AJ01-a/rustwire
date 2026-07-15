@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T02:44:35Z",
+  "updated_at": "2026-07-15T08:20:58Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,34 +34,34 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "How to stop Claude from saying load-bearing",
-      "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
-      "discuss_url": "https://news.ycombinator.com/item?id=48905248",
-      "score": 444,
-      "comments": 508,
-      "author": "shintoist",
-      "published": "2026-07-14T11:46:02Z",
+      "title": "I tricked Claude into leaking your deepest, darkest secrets",
+      "url": "https://www.ayush.digital/blog/the-memory-heist",
+      "discuss_url": "https://news.ycombinator.com/item?id=48916975",
+      "score": 172,
+      "comments": 67,
+      "author": "macleginn",
+      "published": "2026-07-15T06:28:00Z",
       "bullets": [
-        "How to stop Claude from saying load-bearing",
-        "Trending on news.ycombinator.com — 444 points, 508 comments.",
-        "Submitted by shintoist on news.ycombinator.com."
+        "Indirect prompt injection exploits Anthropic Claude's alignment, enabling attackers to exfiltrate system instructions and user data from active sessions.",
+        "Shared context environments, like Claude Projects, are vulnerable to cross-session data leaks when processing untrusted third-party documents.",
+        "Defend LLM applications by enforcing hard boundaries between system instructions, user inputs, and retrieved external data."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Should Libraries Log or Propagate Errors?",
-      "url": "https://lobste.rs/s/v3avrp",
-      "discuss_url": "https://lobste.rs/s/v3avrp",
-      "score": 9,
-      "comments": 14,
-      "author": "veqq",
-      "published": "2026-07-13T21:43:24Z",
+      "title": "Empathy and delight mean nothing when the software is disrespectful",
+      "url": "https://productpicnic.beehiiv.com/p/empathy-and-delight-mean-nothing-when-the-software-is-disrespectful",
+      "discuss_url": "https://lobste.rs/s/s4qbwh",
+      "score": 4,
+      "comments": 0,
+      "author": "drmorr",
+      "published": "2026-07-15T04:30:14Z",
       "bullets": [
-        "My assumption was always: Applications log (and err), libraries err.",
-        "Today, I was shocked to learn that various ecosystems love logging things in libraries (such that silencing those logs is even an important task).",
-        "My view of logs has been around wide discrete events OR (for small scale personal things) writing errs in a file."
+        "Respectful engineering prioritizes resource efficiency, minimizing CPU, memory, and battery drain over bloated Electron wrappers or heavy client-side frameworks.",
+        "Prioritize user agency by respecting system-level configurations, offline-first architectures, and opt-in telemetry rather than intrusive, forced data collection.",
+        "Eliminate dark patterns and disruptive forced updates; focus on predictable API versioning, stable configurations, and preserving user workflow continuity."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
       "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
       "discuss_url": "https://news.ycombinator.com/item?id=48910676",
-      "score": 265,
-      "comments": 112,
+      "score": 345,
+      "comments": 160,
       "author": "Synthetic7346",
       "published": "2026-07-14T17:58:35Z",
       "bullets": [
-        "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
-        "Trending on news.ycombinator.com — 265 points, 112 comments.",
-        "Submitted by Synthetic7346 on news.ycombinator.com."
+        "An unpatched zero-day in the Cursor AI editor (VS Code fork) allows Remote Code Execution (RCE) via malicious workspaces.",
+        "Attackers can exploit malicious repositories or configuration files like '.cursorrules' to compromise developer machines running the IDE.",
+        "Security teams must enforce workspace trust controls and monitor developer endpoints for unauthorized AI editor installations."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "aws@amazon.com",
       "published": "2026-07-14T22:00:56Z",
       "bullets": [
-        "AWS Elastic Disaster Recovery (AWS DRS) now supports the Amazon EBS volume initialization rate, helping recovered volumes reach full performance faster during drills and recoverie…",
-        "When DRS restores EBS volumes from snapshots, the data loads from Amazon S3 in the background, and I/O to blocks that haven't loaded yet can be slower until initialization finishe…",
-        "With this launch, you can set a volume initialization rate on your DRS-managed EC2 launch template, and DRS applies it automatically when it creates volumes during recovery — brin…"
+        "AWS DRS now supports EBS volume initialization rates, accelerating S3 background data loading to reach full storage performance faster during recoveries.",
+        "Configure the rate once in the DRS-managed EC2 launch template; AWS automatically preserves this setting during rightsizing and disk updates.",
+        "To prevent blocked recovery pipelines, DRS automatically falls back and completes volume recovery if the initialization rate cannot be applied."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Dan Goodin",
       "published": "2026-07-14T22:20:48Z",
       "bullets": [
-        "Old and forgotten \"shims\" Microsoft failed to revoke have made Secure Boot bypasses simple.",
-        "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
-        "Submitted by Dan Goodin on arstechnica.com."
+        "Microsoft failed to revoke old UEFI shim bootloaders, leaving a decade-long window for attackers to trivially bypass Secure Boot protections.",
+        "The vulnerability allows threat actors to leverage historically signed, unrevoked shims to execute unauthorized bootkits and compromise the OS.",
+        "Security teams should ensure UEFI revocation lists (DBX) are actively updated to block these vulnerable legacy bootloaders."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "I tricked Claude into leaking your deepest, darkest secrets",
+      "url": "https://www.ayush.digital/blog/the-memory-heist",
+      "discuss_url": "https://news.ycombinator.com/item?id=48916975",
+      "score": 172,
+      "comments": 67,
+      "author": "macleginn",
+      "published": "2026-07-15T06:28:00Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "How to stop Claude from saying load-bearing",
       "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
       "discuss_url": "https://news.ycombinator.com/item?id=48905248",
-      "score": 444,
-      "comments": 508,
+      "score": 518,
+      "comments": 543,
       "author": "shintoist",
       "published": "2026-07-14T11:46:02Z"
     },
@@ -136,22 +148,10 @@
       "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
       "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
       "discuss_url": "https://news.ycombinator.com/item?id=48889637",
-      "score": 1516,
-      "comments": 771,
+      "score": 1522,
+      "comments": 770,
       "author": "crowdhailer",
       "published": "2026-07-13T08:39:39Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "The Memory Heist",
-      "url": "https://ayush.digital/blog/the-memory-heist",
-      "discuss_url": "https://lobste.rs/s/lelroo",
-      "score": 3,
-      "comments": 0,
-      "author": "videah",
-      "published": "2026-07-15T00:11:45Z"
     },
     {
       "source": "lobsters",
@@ -169,18 +169,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Verifiable AI inference",
-      "url": "https://blog.vrypan.net/2026/07/14/verifiable-ai-inference/",
-      "discuss_url": "https://lobste.rs/s/xkk9ja",
-      "score": 1,
-      "comments": 0,
-      "author": "vrypan",
-      "published": "2026-07-14T18:31:07Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "AI Surveillance and Social Progress",
       "url": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
       "discuss_url": "https://lobste.rs/s/qvu1m0",
@@ -188,6 +176,18 @@
       "comments": 2,
       "author": "cyplo",
       "published": "2026-07-11T09:40:40Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Verifiable AI inference",
+      "url": "https://blog.vrypan.net/2026/07/14/verifiable-ai-inference/",
+      "discuss_url": "https://lobste.rs/s/xkk9ja",
+      "score": 1,
+      "comments": 0,
+      "author": "vrypan",
+      "published": "2026-07-14T18:31:07Z"
     },
     {
       "source": "lobsters",
@@ -229,6 +229,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Empathy and delight mean nothing when the software is disrespectful",
+      "url": "https://productpicnic.beehiiv.com/p/empathy-and-delight-mean-nothing-when-the-software-is-disrespectful",
+      "discuss_url": "https://lobste.rs/s/s4qbwh",
+      "score": 4,
+      "comments": 0,
+      "author": "drmorr",
+      "published": "2026-07-15T04:30:14Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Should Libraries Log or Propagate Errors?",
       "url": "https://lobste.rs/s/v3avrp",
       "discuss_url": "https://lobste.rs/s/v3avrp",
@@ -253,18 +265,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "A technical career retrospective part 1 (January - June 1978)",
-      "url": "https://kenwhitesell.github.io/2026/07/10/A-technical-career-retrospective-pt-1.html",
-      "discuss_url": "https://lobste.rs/s/bmqwm2",
-      "score": 2,
-      "comments": 0,
-      "author": "rrampage",
-      "published": "2026-07-14T18:06:18Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "InfiniteDiffusion: Bridging Learned Fidelity and Procedural Utility for Open-World Terrain Generation",
       "url": "https://xandergos.github.io/terrain-diffusion/",
       "discuss_url": "https://lobste.rs/s/ncsslp",
@@ -272,6 +272,18 @@
       "comments": 1,
       "author": "Yogthos",
       "published": "2026-07-12T19:56:07Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "A technical career retrospective part 1 (January - June 1978)",
+      "url": "https://kenwhitesell.github.io/2026/07/10/A-technical-career-retrospective-pt-1.html",
+      "discuss_url": "https://lobste.rs/s/bmqwm2",
+      "score": 2,
+      "comments": 0,
+      "author": "rrampage",
+      "published": "2026-07-14T18:06:18Z"
     },
     {
       "source": "lobsters",
@@ -358,26 +370,14 @@
       "published": "2026-07-08T16:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "Your AI is only as responsible as you are​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‍​​﻿​‌​﻿‍​​﻿‌‍​﻿​​‌‍​‍​﻿‌﻿​‍﻿‌​﻿‌﻿‌‍​‍​﻿‌﻿​﻿​‍​‍﻿‌​﻿‌​‌‍​‍‌‍​‌​﻿‌‌​‍﻿‌​﻿‍​‌‍​‌‌‍‌​​﻿‌‌​‍﻿‌​﻿​﻿‌‍​‍​﻿‌﻿​﻿‌﻿‌‍‌‍‌‍‌​​﻿‍‌‌‍​‌​﻿‍​‌‍‌‌​﻿‍‌‌‍​‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‍​​﻿​‌​﻿‍​​﻿‌‍​﻿​​‌‍​‍​﻿‌﻿​‍﻿‌​﻿‌﻿‌‍​‍​﻿‌﻿​﻿​‍​‍﻿‌​﻿‌​‌‍​‍‌‍​‌​﻿‌‌​‍﻿‌​﻿‍​‌‍​‌‌‍‌​​﻿‌‌​‍﻿‌​﻿​﻿‌‍​‍​﻿‌﻿​﻿‌﻿‌‍‌‍‌‍‌​​﻿‍‌‌‍​‌​﻿‍​‌‍‌‌​﻿‍‌‌‍​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "url": "https://stackoverflow.blog/2026/07/14/your-ai-is-only-as-responsible-as-you-are/",
-      "discuss_url": "https://stackoverflow.blog/2026/07/14/your-ai-is-only-as-responsible-as-you-are/",
-      "score": null,
-      "comments": null,
-      "author": "Phoebe Sajor",
-      "published": "2026-07-14T07:40:00Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
       "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
       "discuss_url": "https://news.ycombinator.com/item?id=48910676",
-      "score": 265,
-      "comments": 112,
+      "score": 345,
+      "comments": 160,
       "author": "Synthetic7346",
       "published": "2026-07-14T17:58:35Z"
     },
@@ -388,8 +388,8 @@
       "title": "You should probably check on your smart appliances",
       "url": "https://xeiaso.net/notes/2026/check-your-smart-tv/",
       "discuss_url": "https://lobste.rs/s/slrak5",
-      "score": 21,
-      "comments": 7,
+      "score": 42,
+      "comments": 10,
       "author": "cadey",
       "published": "2026-07-14T22:02:25Z"
     },
@@ -493,6 +493,18 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
+      "url": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
+      "discuss_url": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-15T05:30:21Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack",
       "url": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
       "discuss_url": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
@@ -500,18 +512,6 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-07-14T20:25:47Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data",
-      "url": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
-      "discuss_url": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-14T18:17:57Z"
     },
     {
       "source": "rss",
@@ -577,18 +577,6 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Security Hub now provides AI inventory for organization-wide visibility of AI assets",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-14T17:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
       "title": "Amazon WorkSpaces Personal simplifies bulk PCoIP to DCV protocol migration",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-workspaces-personal-pcoip/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-workspaces-personal-pcoip/",
@@ -604,6 +592,18 @@
       "title": "Amazon Aurora DSQL is now available in Europe (Spain)",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-available-in-spain/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-available-in-spain/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-14T17:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Security Hub now provides AI inventory for organization-wide visibility of AI assets",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
