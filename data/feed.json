@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T19:25:13Z",
+  "updated_at": "2026-07-15T02:44:35Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "How to stop Claude from saying load-bearing",
       "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
       "discuss_url": "https://news.ycombinator.com/item?id=48905248",
-      "score": 272,
-      "comments": 345,
+      "score": 444,
+      "comments": 508,
       "author": "shintoist",
       "published": "2026-07-14T11:46:02Z",
       "bullets": [
-        "Claude models (like 3.5 Sonnet) exhibit distinct stylistic crutches, overusing terms like 'load-bearing' due to RLHF alignment biases.",
-        "Mitigate repetitive vocabulary by using system prompts with XML tags (e.g., <avoid_words>) and providing negative few-shot examples.",
-        "Unlike OpenAI, Anthropic's API lacks logit bias controls, forcing developers to rely entirely on prompt instructions to steer style."
+        "How to stop Claude from saying load-bearing",
+        "Trending on news.ycombinator.com — 444 points, 508 comments.",
+        "Submitted by shintoist on news.ycombinator.com."
       ]
     },
     {
@@ -55,7 +55,7 @@
       "url": "https://lobste.rs/s/v3avrp",
       "discuss_url": "https://lobste.rs/s/v3avrp",
       "score": 9,
-      "comments": 12,
+      "comments": 14,
       "author": "veqq",
       "published": "2026-07-13T21:43:24Z",
       "bullets": [
@@ -65,54 +65,54 @@
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "An update on the scraper situation",
-      "url": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/",
-      "discuss_url": "https://lobste.rs/s/kpaxih",
-      "score": 114,
-      "comments": 49,
-      "author": "fanf",
-      "published": "2026-07-10T23:02:53Z",
+      "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+      "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+      "discuss_url": "https://news.ycombinator.com/item?id=48910676",
+      "score": 265,
+      "comments": 112,
+      "author": "Synthetic7346",
+      "published": "2026-07-14T17:58:35Z",
       "bullets": [
-        "An update on the scraper situation",
-        "Trending on lobste.rs/security — 114 points, 49 comments.",
-        "Submitted by fanf on lobste.rs/security."
+        "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+        "Trending on news.ycombinator.com — 265 points, 112 comments.",
+        "Submitted by Synthetic7346 on news.ycombinator.com."
       ]
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon WorkSpaces Personal simplifies bulk PCoIP to DCV protocol migration",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-workspaces-personal-pcoip/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-workspaces-personal-pcoip/",
+      "title": "AWS Elastic Disaster Recovery now supports Amazon EBS volume initialization rate",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-hydration/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-hydration/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-07-14T17:00:00Z",
+      "published": "2026-07-14T22:00:56Z",
       "bullets": [
-        "Amazon WorkSpaces Personal now provides automated rollback and support for PCoIP to DCV protocol migration of stopped WorkSpaces, building on the recently launched console-based m…",
-        "These new capabilities enable administrators to migrate WorkSpaces at scale with minimal manual intervention.",
-        "Amazon DCV is a high-performance streaming protocol built by AWS that powers Amazon WorkSpaces services."
+        "AWS Elastic Disaster Recovery (AWS DRS) now supports the Amazon EBS volume initialization rate, helping recovered volumes reach full performance faster during drills and recoverie…",
+        "When DRS restores EBS volumes from snapshots, the data loads from Amazon S3 in the background, and I/O to blocks that haven't loaded yet can be slower until initialization finishe…",
+        "With this launch, you can set a volume initialization rate on your DRS-managed EC2 launch template, and DRS applies it automatically when it creates volumes during recovery — brin…"
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "US military sent explosive drone boats into combat for the first time",
-      "url": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
-      "discuss_url": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
+      "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
+      "url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
+      "discuss_url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
       "score": null,
       "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-07-14T18:00:01Z",
+      "author": "Dan Goodin",
+      "published": "2026-07-14T22:20:48Z",
       "bullets": [
-        "US military’s drone boats struck an Iranian naval port as war heats up again.",
-        "US military sent explosive drone boats into combat for the first time",
-        "Submitted by Jeremy Hsu on arstechnica.com."
+        "Old and forgotten \"shims\" Microsoft failed to revoke have made Secure Boot bypasses simple.",
+        "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
+        "Submitted by Dan Goodin on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "How to stop Claude from saying load-bearing",
       "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
       "discuss_url": "https://news.ycombinator.com/item?id=48905248",
-      "score": 272,
-      "comments": 345,
+      "score": 444,
+      "comments": 508,
       "author": "shintoist",
       "published": "2026-07-14T11:46:02Z"
     },
@@ -136,10 +136,34 @@
       "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
       "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
       "discuss_url": "https://news.ycombinator.com/item?id=48889637",
-      "score": 1506,
-      "comments": 766,
+      "score": 1516,
+      "comments": 771,
       "author": "crowdhailer",
       "published": "2026-07-13T08:39:39Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "The Memory Heist",
+      "url": "https://ayush.digital/blog/the-memory-heist",
+      "discuss_url": "https://lobste.rs/s/lelroo",
+      "score": 3,
+      "comments": 0,
+      "author": "videah",
+      "published": "2026-07-15T00:11:45Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Tensor is the might",
+      "url": "https://zserge.com/posts/tensor/",
+      "discuss_url": "https://lobste.rs/s/uhzuf7",
+      "score": 5,
+      "comments": 1,
+      "author": "eatonphil",
+      "published": "2026-07-14T12:56:11Z"
     },
     {
       "source": "lobsters",
@@ -152,18 +176,6 @@
       "comments": 0,
       "author": "vrypan",
       "published": "2026-07-14T18:31:07Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Tensor is the might",
-      "url": "https://zserge.com/posts/tensor/",
-      "discuss_url": "https://lobste.rs/s/uhzuf7",
-      "score": 3,
-      "comments": 0,
-      "author": "eatonphil",
-      "published": "2026-07-14T12:56:11Z"
     },
     {
       "source": "lobsters",
@@ -214,18 +226,6 @@
       "published": "2026-07-08T17:16:05Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "From Hugging Face to Amazon SageMaker Studio in one click",
-      "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-      "discuss_url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-07T21:15:33Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
@@ -233,7 +233,7 @@
       "url": "https://lobste.rs/s/v3avrp",
       "discuss_url": "https://lobste.rs/s/v3avrp",
       "score": 9,
-      "comments": 12,
+      "comments": 14,
       "author": "veqq",
       "published": "2026-07-13T21:43:24Z"
     },
@@ -256,7 +256,7 @@
       "title": "A technical career retrospective part 1 (January - June 1978)",
       "url": "https://kenwhitesell.github.io/2026/07/10/A-technical-career-retrospective-pt-1.html",
       "discuss_url": "https://lobste.rs/s/bmqwm2",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "rrampage",
       "published": "2026-07-14T18:06:18Z"
@@ -296,18 +296,6 @@
       "comments": 0,
       "author": "Linell",
       "published": "2026-07-13T21:28:36Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Adding Go to a browser code runner",
-      "url": "https://blog.lvmbdv.dev/posts/adding-go-to-a-browser-code-runner/",
-      "discuss_url": "https://lobste.rs/s/qtui32",
-      "score": 13,
-      "comments": 0,
-      "author": "lvmbdv",
-      "published": "2026-07-10T20:52:39Z"
     },
     {
       "source": "rss",
@@ -370,16 +358,40 @@
       "published": "2026-07-08T16:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Your AI is only as responsible as you are​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‍​​﻿​‌​﻿‍​​﻿‌‍​﻿​​‌‍​‍​﻿‌﻿​‍﻿‌​﻿‌﻿‌‍​‍​﻿‌﻿​﻿​‍​‍﻿‌​﻿‌​‌‍​‍‌‍​‌​﻿‌‌​‍﻿‌​﻿‍​‌‍​‌‌‍‌​​﻿‌‌​‍﻿‌​﻿​﻿‌‍​‍​﻿‌﻿​﻿‌﻿‌‍‌‍‌‍‌​​﻿‍‌‌‍​‌​﻿‍​‌‍‌‌​﻿‍‌‌‍​‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍‌​​﻿‍​​﻿​‌​﻿‍​​﻿‌‍​﻿​​‌‍​‍​﻿‌﻿​‍﻿‌​﻿‌﻿‌‍​‍​﻿‌﻿​﻿​‍​‍﻿‌​﻿‌​‌‍​‍‌‍​‌​﻿‌‌​‍﻿‌​﻿‍​‌‍​‌‌‍‌​​﻿‌‌​‍﻿‌​﻿​﻿‌‍​‍​﻿‌﻿​﻿‌﻿‌‍‌‍‌‍‌​​﻿‍‌‌‍​‌​﻿‍​‌‍‌‌​﻿‍‌‌‍​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/07/14/your-ai-is-only-as-responsible-as-you-are/",
+      "discuss_url": "https://stackoverflow.blog/2026/07/14/your-ai-is-only-as-responsible-as-you-are/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-07-14T07:40:00Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+      "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+      "discuss_url": "https://news.ycombinator.com/item?id=48910676",
+      "score": 265,
+      "comments": 112,
+      "author": "Synthetic7346",
+      "published": "2026-07-14T17:58:35Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "An update on the scraper situation",
-      "url": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/",
-      "discuss_url": "https://lobste.rs/s/kpaxih",
-      "score": 114,
-      "comments": 49,
-      "author": "fanf",
-      "published": "2026-07-10T23:02:53Z"
+      "title": "You should probably check on your smart appliances",
+      "url": "https://xeiaso.net/notes/2026/check-your-smart-tv/",
+      "discuss_url": "https://lobste.rs/s/slrak5",
+      "score": 21,
+      "comments": 7,
+      "author": "cadey",
+      "published": "2026-07-14T22:02:25Z"
     },
     {
       "source": "lobsters",
@@ -445,6 +457,18 @@
       "source": "rss",
       "subsource": "krebsonsecurity.com",
       "category": "security",
+      "title": "Microsoft Patches a Record 570 Security Flaws",
+      "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+      "discuss_url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+      "score": null,
+      "comments": null,
+      "author": "BrianKrebs",
+      "published": "2026-07-14T19:22:42Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "krebsonsecurity.com",
+      "category": "security",
       "title": "Lessons Learned from CISA’s Recent GitHub Leak",
       "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "discuss_url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
@@ -469,49 +493,97 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
-      "url": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
-      "discuss_url": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
+      "title": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack",
+      "url": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
+      "discuss_url": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-14T16:52:37Z"
+      "published": "2026-07-14T20:25:47Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
-      "url": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
-      "discuss_url": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+      "title": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data",
+      "url": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
+      "discuss_url": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-14T13:48:07Z"
+      "published": "2026-07-14T18:17:57Z"
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
-      "url": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
-      "discuss_url": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Elastic Disaster Recovery now supports Amazon EBS volume initialization rate",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-hydration/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-hydration/",
       "score": null,
       "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-14T12:46:18Z"
+      "author": "aws@amazon.com",
+      "published": "2026-07-14T22:00:56Z"
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks",
-      "url": "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html",
-      "discuss_url": "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Lambda console provides a one-click setup prompt for coding agents",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-prompt-coding-agents/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-prompt-coding-agents/",
       "score": null,
       "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-14T11:55:00Z"
+      "author": "aws@amazon.com",
+      "published": "2026-07-14T20:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS IAM Identity Center achieves FedRAMP Class C Certification",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-identity-center-fedramp/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-identity-center-fedramp/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-14T19:10:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Introducing Amazon GuardDuty AI Protection for AWS AI workloads",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-guardduty-ai-protection-aws/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-guardduty-ai-protection-aws/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-14T19:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Managed Service for Apache Flink now offers AI Agent Skills to simplify building and operating Flink applications",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-flink-agent-skills/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-flink-agent-skills/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-14T18:20:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Security Hub now provides AI inventory for organization-wide visibility of AI assets",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-14T17:00:00Z"
     },
     {
       "source": "rss",
@@ -529,9 +601,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Security Hub now provides AI inventory for organization-wide visibility of AI assets",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
+      "title": "Amazon Aurora DSQL is now available in Europe (Spain)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-available-in-spain/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-available-in-spain/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -587,75 +659,51 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon DocumentDB (with MongoDB compatibility) now available as a skill in the Agent Toolkit for AWS",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-agent-skill",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-agent-skill",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
+      "url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
+      "discuss_url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-13T18:00:00Z"
+      "author": "Dan Goodin",
+      "published": "2026-07-14T22:20:48Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 46 new MongoDB operators in version 8.0.1",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-mongodb-8-0-1-mongo-api",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-mongodb-8-0-1-mongo-api",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Trump admin puts Americans in Congo on \"do-not-board\" list, barring return",
+      "url": "https://arstechnica.com/health/2026/07/americans-in-congo-barred-from-returning-home-amid-ebola-outbreak/",
+      "discuss_url": "https://arstechnica.com/health/2026/07/americans-in-congo-barred-from-returning-home-amid-ebola-outbreak/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-13T17:00:00Z"
+      "author": "Beth Mole",
+      "published": "2026-07-14T22:09:31Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Gemma-4-E2B-it for is now available in Amazon SageMaker JumpStart",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/gemma-4-e2b-on-sagemaker-jumpstart/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/gemma-4-e2b-on-sagemaker-jumpstart/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Lawsuit claims Meta's layoff decisions were made by AI, not humans",
+      "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-13T15:30:00Z"
+      "author": "Jon Brodkin",
+      "published": "2026-07-14T20:05:53Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "OpenAI privacy-filter for PII detection and masking is now available in Amazon SageMaker JumpStart",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/privacy-filter-on-sagemaker-jumpstart/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/privacy-filter-on-sagemaker-jumpstart/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Probe into explosive diarrheal cases points to Taco Bell and bad lettuce",
+      "url": "https://arstechnica.com/health/2026/07/taco-bell-eyed-in-explosive-diarrheal-outbreak-leafy-greens-suspected/",
+      "discuss_url": "https://arstechnica.com/health/2026/07/taco-bell-eyed-in-explosive-diarrheal-outbreak-leafy-greens-suspected/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-13T15:30:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Voxtral-Mini-4B-Realtime for real-time speech transcription is now available in Amazon SageMaker JumpStart",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/voxtral-mini-realtime-on-sagemaker-jumpstart/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/voxtral-mini-realtime-on-sagemaker-jumpstart/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-13T15:30:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Qwen3 embedding and reranking models for retrieval are now available in Amazon SageMaker JumpStart",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-13T15:30:00Z"
+      "author": "Beth Mole",
+      "published": "2026-07-14T19:00:02Z"
     },
     {
       "source": "rss",
@@ -709,18 +757,6 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Probe into explosive diarrheal cases points to Taco Bell and bad lettuce",
-      "url": "https://arstechnica.com/health/2026/07/taco-bell-eyed-in-explosive-diarrheal-outbreak-leafy-greens-suspected/",
-      "discuss_url": "https://arstechnica.com/health/2026/07/taco-bell-eyed-in-explosive-diarrheal-outbreak-leafy-greens-suspected/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-07-14T14:49:02Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
       "title": "Boomers, not Gen Z, are the generation cutting back most on alcohol",
       "url": "https://arstechnica.com/health/2026/07/boomers-not-gen-z-are-the-generation-cutting-back-most-on-alcohol/",
       "discuss_url": "https://arstechnica.com/health/2026/07/boomers-not-gen-z-are-the-generation-cutting-back-most-on-alcohol/",
@@ -764,42 +800,6 @@
       "comments": null,
       "author": "Dan Goodin",
       "published": "2026-07-13T21:03:07Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Ukrainian drone strikes forced Russia to stop shipping in vital sea corridor",
-      "url": "https://arstechnica.com/gadgets/2026/07/ukrainian-drone-strikes-forced-russia-to-stop-shipping-in-vital-sea-corridor/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/07/ukrainian-drone-strikes-forced-russia-to-stop-shipping-in-vital-sea-corridor/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-07-13T20:41:26Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "California creates $3,500 rebate for new electric vehicle buyers",
-      "url": "https://arstechnica.com/cars/2026/07/first-time-ev-buyers-in-california-can-now-claim-a-new-rebate/",
-      "discuss_url": "https://arstechnica.com/cars/2026/07/first-time-ev-buyers-in-california-can-now-claim-a-new-rebate/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-07-13T19:52:48Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Apple sues OpenAI after ex-engineer allegedly used bug to steal trade secrets",
-      "url": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-07-13T19:17:51Z"
     }
   ]
 }
