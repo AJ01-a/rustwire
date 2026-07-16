@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T14:01:21Z",
+  "updated_at": "2026-07-16T19:21:05Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Where are YC founders now? OpenAI and Anthropic, mostly",
-      "url": "https://joinedanthropic.com",
-      "discuss_url": "https://news.ycombinator.com/item?id=48931588",
-      "score": 160,
-      "comments": 70,
-      "author": "ohong",
-      "published": "2026-07-16T08:03:35Z",
+      "title": "The LLM Critics Are Right. I Use LLMs Anyway",
+      "url": "https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48933310",
+      "score": 142,
+      "comments": 159,
+      "author": "JeremyTheo",
+      "published": "2026-07-16T11:59:01Z",
       "bullets": [
-        "Where are YC founders now? OpenAI and Anthropic, mostly",
-        "Trending on news.ycombinator.com — 160 points, 70 comments.",
-        "Submitted by ohong on news.ycombinator.com."
+        "Critics rightly flag LLM flaws like hallucinations, yet practitioners derive massive utility by maintaining strong human-in-the-loop verification.",
+        "Modern models like GPT-4 and Claude 3.5 function as highly effective productivity multipliers despite inherent generation errors.",
+        "Engineers mitigate LLM unreliability by adopting defensive design patterns, such as retrieval-augmented generation (RAG) and strict output validation."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "What gdb frontend do you prefer (linux)",
       "url": "https://lobste.rs/s/76tcpe",
       "discuss_url": "https://lobste.rs/s/76tcpe",
-      "score": 5,
-      "comments": 3,
+      "score": 13,
+      "comments": 11,
       "author": "kghose",
       "published": "2026-07-16T13:12:52Z",
       "bullets": [
-        "I found the basic gdb ui painful and gdb -tui confusing.",
-        "I love dlv for golang debugging.",
-        "Before I drop back to printf debugging is there a frontend I should try?"
+        "Use `cgdb` for a lightweight, vim-like ncurses interface, or `gdb-dashboard` for a modular, single-screen Python-based GDB visualizer.",
+        "Modern GUI debugging options include `gdbgui` for browser-based visualization and native integration via VS Code's C/C++ extension or CLion.",
+        "For advanced debugging, couple GDB with `rr` for deterministic record-and-replay or use Python extensions like `pwndbg` and `GEF`."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
-      "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
-      "discuss_url": "https://news.ycombinator.com/item?id=48910676",
-      "score": 443,
-      "comments": 200,
-      "author": "Synthetic7346",
-      "published": "2026-07-14T17:58:35Z",
+      "title": "Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled, Documented in FBI Case Filing",
+      "url": "https://www.ghacks.net/2026/07/12/microsoft-confirms-windows-gdid-device-identifier-that-cannot-be-disabled-documented-in-fbi-case-filing/",
+      "discuss_url": "https://lobste.rs/s/agkcmz",
+      "score": 40,
+      "comments": 11,
+      "author": "raymii",
+      "published": "2026-07-15T15:36:16Z",
       "bullets": [
-        "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
-        "Trending on news.ycombinator.com — 443 points, 200 comments.",
-        "Submitted by Synthetic7346 on news.ycombinator.com."
+        "GDID is a persistent, hardware-bound Windows identifier that cannot be disabled, serving as an indelible device fingerprint.",
+        "FBI filings confirm law enforcement uses the GDID to trace physical hardware across different user accounts, IP addresses, and sessions.",
+        "Standard OS reinstallation or privacy tool blocks cannot prevent GDID tracking, posing a significant challenge for operational security."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "Telegram Serverless",
       "url": "https://core.telegram.org/bots/serverless",
       "discuss_url": "https://news.ycombinator.com/item?id=48918534",
-      "score": 197,
+      "score": 205,
       "comments": 100,
       "author": "soheilpro",
       "published": "2026-07-15T10:06:39Z",
       "bullets": [
-        "Telegram Serverless",
-        "Trending on news.ycombinator.com — 197 points, 100 comments.",
-        "Submitted by soheilpro on news.ycombinator.com."
+        "Deploy Telegram bots on scale-to-zero runtimes like Cloudflare Workers or AWS Lambda to eliminate idle VM costs.",
+        "Transition from polling to webhooks to trigger serverless executions, reducing API overhead and latency for ChatOps workflows.",
+        "Store ephemeral session state in lightweight external stores like Cloudflare KV or DynamoDB to maintain stateless, fast-booting functions."
       ]
     },
     {
@@ -105,13 +105,13 @@
       "title": "SpaceX stock erases all its gains and slides below IPO price in intraday trading",
       "url": "https://www.latimes.com/business/story/2026-07-16/spacex-stock-erases-gains-slides-below-ipo-price-in-intraday-trading",
       "discuss_url": "https://news.ycombinator.com/item?id=48933344",
-      "score": 207,
-      "comments": 150,
+      "score": 272,
+      "comments": 250,
       "author": "1vuio0pswjnm7",
       "published": "2026-07-16T12:02:11Z",
       "bullets": [
         "SpaceX stock erases all its gains and slides below IPO price in intraday trading",
-        "Trending on news.ycombinator.com — 207 points, 150 comments.",
+        "Trending on news.ycombinator.com — 272 points, 250 comments.",
         "Submitted by 1vuio0pswjnm7 on news.ycombinator.com."
       ]
     }
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Where are YC founders now? OpenAI and Anthropic, mostly",
+      "title": "The LLM Critics Are Right. I Use LLMs Anyway",
+      "url": "https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48933310",
+      "score": 142,
+      "comments": 159,
+      "author": "JeremyTheo",
+      "published": "2026-07-16T11:59:01Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "At least 105 past YC founders have worked at OpenAI and Anthropic",
       "url": "https://joinedanthropic.com",
       "discuss_url": "https://news.ycombinator.com/item?id=48931588",
-      "score": 160,
-      "comments": 70,
+      "score": 286,
+      "comments": 192,
       "author": "ohong",
       "published": "2026-07-16T08:03:35Z"
     },
@@ -136,8 +148,8 @@
       "title": "OpenAI loses trademark dispute at EU court",
       "url": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/",
       "discuss_url": "https://news.ycombinator.com/item?id=48921461",
-      "score": 252,
-      "comments": 158,
+      "score": 258,
+      "comments": 165,
       "author": "hermanzegerman",
       "published": "2026-07-15T14:32:36Z"
     },
@@ -148,7 +160,7 @@
       "title": "I tricked Claude into leaking your deepest, darkest secrets",
       "url": "https://www.ayush.digital/blog/the-memory-heist",
       "discuss_url": "https://news.ycombinator.com/item?id=48916975",
-      "score": 647,
+      "score": 654,
       "comments": 290,
       "author": "macleginn",
       "published": "2026-07-15T06:28:00Z"
@@ -157,11 +169,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
+      "title": "A novel computer Scrabble engine based on probability that performs at championship level (2021)",
+      "url": "https://upcommons.upc.edu/server/api/core/bitstreams/1339ae43-3d65-4015-8e11-3689e5572b23/content",
+      "discuss_url": "https://lobste.rs/s/srir6m",
+      "score": 4,
+      "comments": 0,
+      "author": "calvin",
+      "published": "2026-07-16T15:29:48Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
       "title": "AI Data Centers and the Concentration of Wealth",
       "url": "https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html",
       "discuss_url": "https://lobste.rs/s/iow7ts",
-      "score": 21,
-      "comments": 1,
+      "score": 25,
+      "comments": 2,
       "author": "brn",
       "published": "2026-07-15T21:06:48Z"
     },
@@ -172,8 +196,8 @@
       "title": "Inventing ELIZA - How the First Chatbot Shaped the Future of AI",
       "url": "https://mitpress.mit.edu/9780262052481/inventing-eliza/",
       "discuss_url": "https://lobste.rs/s/hquwey",
-      "score": 11,
-      "comments": 5,
+      "score": 12,
+      "comments": 7,
       "author": "adamo",
       "published": "2026-07-15T14:12:05Z"
     },
@@ -205,6 +229,18 @@
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
+      "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+      "discuss_url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-16T16:01:21Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
       "title": "Newer Models, Same Advantage",
       "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
       "discuss_url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
@@ -226,50 +262,14 @@
       "published": "2026-07-16T00:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "What building Shippy taught us about building agents",
-      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-      "discuss_url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-15T17:29:41Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Model Routing Is Simple. Until It Isn’t.",
-      "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
-      "discuss_url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-15T17:27:01Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Welcome Inkling by Thinking Machines",
-      "url": "https://huggingface.co/blog/thinkingmachines-inkling",
-      "discuss_url": "https://huggingface.co/blog/thinkingmachines-inkling",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-15T00:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What gdb frontend do you prefer (linux)",
       "url": "https://lobste.rs/s/76tcpe",
       "discuss_url": "https://lobste.rs/s/76tcpe",
-      "score": 5,
-      "comments": 3,
+      "score": 13,
+      "comments": 11,
       "author": "kghose",
       "published": "2026-07-16T13:12:52Z"
     },
@@ -280,7 +280,7 @@
       "title": "README, not",
       "url": "https://blog.yossarian.net/2026/07/16/README-not",
       "discuss_url": "https://lobste.rs/s/wveduf",
-      "score": 2,
+      "score": 11,
       "comments": 0,
       "author": "yossarian",
       "published": "2026-07-16T13:51:27Z"
@@ -292,7 +292,7 @@
       "title": "Bring modern package management to Meson's native wrap ecosystem",
       "url": "https://collider.ee/1.5.1/",
       "discuss_url": "https://lobste.rs/s/9b49zd",
-      "score": 5,
+      "score": 6,
       "comments": 0,
       "author": "Mackou",
       "published": "2026-07-16T08:29:26Z"
@@ -325,18 +325,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Gecode 6.3.0 and 6.4.0 are released",
-      "url": "https://zayenz.se/blog/post/gecode-6-3-and-6-4-released/",
-      "discuss_url": "https://lobste.rs/s/u6hawc",
-      "score": 1,
-      "comments": 0,
-      "author": "mzl",
-      "published": "2026-07-16T09:29:56Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/ozcrd0",
       "discuss_url": "https://lobste.rs/s/ozcrd0",
@@ -356,6 +344,18 @@
       "comments": 17,
       "author": "veqq",
       "published": "2026-07-13T21:43:24Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Gecode 6.3.0 and 6.4.0 are released",
+      "url": "https://zayenz.se/blog/post/gecode-6-3-and-6-4-released/",
+      "discuss_url": "https://lobste.rs/s/u6hawc",
+      "score": 1,
+      "comments": 0,
+      "author": "mzl",
+      "published": "2026-07-16T09:29:56Z"
     },
     {
       "source": "lobsters",
@@ -406,25 +406,13 @@
       "published": "2026-07-13T21:28:36Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "security",
-      "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
-      "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
-      "discuss_url": "https://news.ycombinator.com/item?id=48910676",
-      "score": 443,
-      "comments": 200,
-      "author": "Synthetic7346",
-      "published": "2026-07-14T17:58:35Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled, Documented in FBI Case Filing",
       "url": "https://www.ghacks.net/2026/07/12/microsoft-confirms-windows-gdid-device-identifier-that-cannot-be-disabled-documented-in-fbi-case-filing/",
       "discuss_url": "https://lobste.rs/s/agkcmz",
-      "score": 33,
+      "score": 40,
       "comments": 11,
       "author": "raymii",
       "published": "2026-07-15T15:36:16Z"
@@ -440,6 +428,42 @@
       "comments": 23,
       "author": "cadey",
       "published": "2026-07-14T22:02:25Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Securing DNSSEC Keys via Threshold ECDSA From Generic MPC (2019)",
+      "url": "https://eprint.iacr.org/2019/889",
+      "discuss_url": "https://lobste.rs/s/e9jl9m",
+      "score": 2,
+      "comments": 0,
+      "author": "badcryptobitch",
+      "published": "2026-07-16T15:35:08Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "You can't bug fix your way out of the vulnpocalypse",
+      "url": "https://alexgaynor.net/2026/jul/15/you-cant-bugfix-your-way-out-of-the-vulnpocalypse/",
+      "discuss_url": "https://lobste.rs/s/nkrgcp",
+      "score": 5,
+      "comments": 1,
+      "author": "freddyb",
+      "published": "2026-07-16T07:28:41Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Full disclosure: Arbitrary code execution in Cursor",
+      "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+      "discuss_url": "https://lobste.rs/s/vlr279",
+      "score": 17,
+      "comments": 8,
+      "author": "owent",
+      "published": "2026-07-15T02:02:02Z"
     },
     {
       "source": "lobsters",
@@ -469,18 +493,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "You can't bug fix your way out of the vulnpocalypse",
-      "url": "https://alexgaynor.net/2026/jul/15/you-cant-bugfix-your-way-out-of-the-vulnpocalypse/",
-      "discuss_url": "https://lobste.rs/s/nkrgcp",
-      "score": 1,
-      "comments": 0,
-      "author": "freddyb",
-      "published": "2026-07-16T07:28:41Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "TFTP Honey pot Results",
       "url": "https://bruceediger.com/posts/tftp-honeypot-results/",
       "discuss_url": "https://lobste.rs/s/048t8w",
@@ -488,18 +500,6 @@
       "comments": 0,
       "author": "mtlynch",
       "published": "2026-07-13T20:47:40Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Unauthenticated RCE in Motorola's MR2600 Router",
-      "url": "https://mrbruh.com/motorola/",
-      "discuss_url": "https://lobste.rs/s/s1jwea",
-      "score": 5,
-      "comments": 0,
-      "author": "raymii",
-      "published": "2026-07-12T14:03:38Z"
     },
     {
       "source": "lobsters",
@@ -541,13 +541,13 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands",
-      "url": "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html",
-      "discuss_url": "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html",
+      "title": "Two Scattered Spider Hackers Get 5.5 Years Each for £29 Million TfL Hack",
+      "url": "https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html",
+      "discuss_url": "https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-16T12:50:13Z"
+      "published": "2026-07-16T17:09:25Z"
     },
     {
       "source": "hackernews",
@@ -556,10 +556,70 @@
       "title": "Telegram Serverless",
       "url": "https://core.telegram.org/bots/serverless",
       "discuss_url": "https://news.ycombinator.com/item?id=48918534",
-      "score": 197,
+      "score": 205,
       "comments": 100,
       "author": "soheilpro",
       "published": "2026-07-15T10:06:39Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 now surfaces the public SSM parameters associated with public AMIs",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-pulic-images-ssm-parameters",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-pulic-images-ssm-parameters",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-16T18:20:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon S3 Event Notifications now include system-generated tags",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-event-notifications-system-generated-tags/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-event-notifications-system-generated-tags/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-16T18:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Europe (Paris) region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-europe/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-europe/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-16T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Control Tower Account Factory for Terraform now re-applies customizations when accounts move between OUs",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-control-tower-account/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-control-tower-account/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-16T04:07:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon CloudWatch Logs Insights adds 25 new query commands and functions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-cloudwatch-logs-insights-ql/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-cloudwatch-logs-insights-ql/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-15T21:56:00Z"
     },
     {
       "source": "rss",
@@ -601,18 +661,6 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-15T17:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
       "title": "Amazon RDS and Aurora expand R8gd and M8gd to additional Regions",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-aurora-r8gd-m8gd-regions/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-aurora-r8gd-m8gd-regions/",
@@ -637,61 +685,13 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon MSK Express Brokers adds support for Apache Kafka version 4.2",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-express-version-42/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-express-version-42/",
+      "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-07-15T17:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon RDS now supports up to four storage modifications in 24 hours",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-upto-four-storage-modifications-24-hours",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-upto-four-storage-modifications-24-hours",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-15T16:15:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Glue SAP OData connector and zero-ETL integrations are now available in AWS GovCloud (US) regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-sap-zero-etl-govcloud",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-sap-zero-etl-govcloud",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-15T15:51:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon OpenSearch Service now supports the Agent Toolkit for AWS with a curated skill",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service-agent/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service-agent/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-15T14:44:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon RDS for Db2 is now available in additional AWS Commercial regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-db2-available-additional-aws-commercial-regions",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-db2-available-additional-aws-commercial-regions",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-15T07:39:00Z"
     },
     {
       "source": "hackernews",
@@ -700,10 +700,70 @@
       "title": "SpaceX stock erases all its gains and slides below IPO price in intraday trading",
       "url": "https://www.latimes.com/business/story/2026-07-16/spacex-stock-erases-gains-slides-below-ipo-price-in-intraday-trading",
       "discuss_url": "https://news.ycombinator.com/item?id=48933344",
-      "score": 207,
-      "comments": 150,
+      "score": 272,
+      "comments": 250,
       "author": "1vuio0pswjnm7",
       "published": "2026-07-16T12:02:11Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "We've seen helium baked off a rocky exoplanet's atmosphere",
+      "url": "https://arstechnica.com/science/2026/07/weve-seen-helium-baked-off-a-rocky-exoplanets-atmosphere/",
+      "discuss_url": "https://arstechnica.com/science/2026/07/weve-seen-helium-baked-off-a-rocky-exoplanets-atmosphere/",
+      "score": null,
+      "comments": null,
+      "author": "John Timmer",
+      "published": "2026-07-16T18:00:15Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "OnePlus confirms shutdown in the US and Europe, ending months of speculation",
+      "url": "https://arstechnica.com/gadgets/2026/07/oneplus-ends-phone-releases-in-us-and-europe-further-reducing-smartphone-choice/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/07/oneplus-ends-phone-releases-in-us-and-europe-further-reducing-smartphone-choice/",
+      "score": null,
+      "comments": null,
+      "author": "Ryan Whitwam",
+      "published": "2026-07-16T16:29:46Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Could China and Russia really destroy Starlink? Only with a boomerang.",
+      "url": "https://arstechnica.com/space/2026/07/could-china-and-russia-really-destroy-starlink-only-with-a-boomerang/",
+      "discuss_url": "https://arstechnica.com/space/2026/07/could-china-and-russia-really-destroy-starlink-only-with-a-boomerang/",
+      "score": null,
+      "comments": null,
+      "author": "Stephen Clark",
+      "published": "2026-07-16T16:19:28Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
+      "url": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
+      "discuss_url": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
+      "score": null,
+      "comments": null,
+      "author": "Martha Muir in New York",
+      "published": "2026-07-16T15:48:21Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Tesla driver who blamed crash on autopilot pressed accelerator 100%, NTSB finds",
+      "url": "https://arstechnica.com/tech-policy/2026/07/tesla-driver-who-blamed-crash-on-autopilot-pressed-accelerator-100-ntsb-finds/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/tesla-driver-who-blamed-crash-on-autopilot-pressed-accelerator-100-ntsb-finds/",
+      "score": null,
+      "comments": null,
+      "author": "Ashley Belanger",
+      "published": "2026-07-16T14:48:32Z"
     },
     {
       "source": "rss",
@@ -776,66 +836,6 @@
       "comments": null,
       "author": "Samuel Axon",
       "published": "2026-07-15T21:04:22Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Windows 0-day drops the same day Microsoft releases record number of patches",
-      "url": "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/",
-      "discuss_url": "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-07-15T19:59:48Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "FCC to repeal 39% TV ownership cap in boost for Trump-friendly news orgs",
-      "url": "https://arstechnica.com/tech-policy/2026/07/fcc-to-repeal-39-tv-ownership-cap-in-boost-for-trump-friendly-news-orgs/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/fcc-to-repeal-39-tv-ownership-cap-in-boost-for-trump-friendly-news-orgs/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-07-15T18:52:22Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "In memoriam: 7 of our favorite Sam Neill films",
-      "url": "https://arstechnica.com/culture/2026/07/in-memoriam-seven-of-our-favorite-sam-neill-films/",
-      "discuss_url": "https://arstechnica.com/culture/2026/07/in-memoriam-seven-of-our-favorite-sam-neill-films/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-07-15T18:39:58Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Third-party app stores coming to Google Play next week as Epic settlement withdrawn",
-      "url": "https://arstechnica.com/gadgets/2026/07/third-party-app-stores-coming-to-google-play-next-week-as-epic-settlement-withdrawn/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/07/third-party-app-stores-coming-to-google-play-next-week-as-epic-settlement-withdrawn/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-07-15T16:55:12Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "OpenAI's first branded hardware is... a light-up keyboard?",
-      "url": "https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/",
-      "discuss_url": "https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/",
-      "score": null,
-      "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-07-15T16:00:33Z"
     }
   ]
 }
