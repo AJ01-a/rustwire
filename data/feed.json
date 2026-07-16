@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T02:51:22Z",
+  "updated_at": "2026-07-16T08:22:57Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "OpenAI loses trademark dispute at EU court",
       "url": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/",
       "discuss_url": "https://news.ycombinator.com/item?id=48921461",
-      "score": 219,
-      "comments": 144,
+      "score": 234,
+      "comments": 152,
       "author": "hermanzegerman",
       "published": "2026-07-15T14:32:36Z",
       "bullets": [
-        "EU court rulings prevent OpenAI from monopolizing descriptive terms like 'GPT', securing open naming conventions for European AI developers.",
-        "The decision reduces litigation risks for European startups building custom 'GPT' variants, ensuring legal clarity in the EU market.",
-        "This highlights global regulatory divergence, as OpenAI faces different trademark enforcement outcomes for model names in the US versus EU."
+        "EU rulings reinforce that \"GPT\" (Generative Pre-trained Transformer) is a descriptive technical term, preventing OpenAI from securing exclusive European trademark rights.",
+        "AI developers and startups can freely use the \"GPT\" acronym in product names and software within the European market.",
+        "The decision highlights the difficulty of trademarking standard AI architecture acronyms under EU intellectual property laws."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "The dailyprog puzzle safety net",
       "url": "https://blog.lvmbdv.dev/posts/the-puzzle-safety-net/",
       "discuss_url": "https://lobste.rs/s/etvwzv",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "lvmbdv",
       "published": "2026-07-16T02:21:03Z",
       "bullets": [
-        "The dailyprog puzzle safety net",
-        "Trending on lobste.rs/programming — 2 points, 0 comments.",
-        "Submitted by lvmbdv on lobste.rs/programming."
+        "Automated test suites and validation runners act as safety nets, ensuring daily programming puzzles have solvable test cases before deployment.",
+        "Sandboxed execution environments (e.g., Docker) isolate untrusted code execution during automated verification of user-submitted puzzle solutions.",
+        "Implementing CI/CD pipelines with fallback mechanisms prevents service downtime when automated daily puzzle generation or parsing fails."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
       "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
       "discuss_url": "https://news.ycombinator.com/item?id=48910676",
-      "score": 438,
+      "score": 443,
       "comments": 200,
       "author": "Synthetic7346",
       "published": "2026-07-14T17:58:35Z",
       "bullets": [
-        "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
-        "Trending on news.ycombinator.com — 438 points, 200 comments.",
-        "Submitted by Synthetic7346 on news.ycombinator.com."
+        "An unpatched RCE vulnerability in the Cursor AI editor allows remote code execution via malicious URI protocol handlers like cursor://.",
+        "The exploit bypasses VS Code-based workspace trust configurations, enabling silent execution of arbitrary code through malicious web links.",
+        "Security teams should block or monitor the cursor:// custom protocol handler to mitigate risk until Anysphere issues a patch."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "Telegram Serverless",
       "url": "https://core.telegram.org/bots/serverless",
       "discuss_url": "https://news.ycombinator.com/item?id=48918534",
-      "score": 181,
-      "comments": 95,
+      "score": 191,
+      "comments": 97,
       "author": "soheilpro",
       "published": "2026-07-15T10:06:39Z",
       "bullets": [
-        "Telegram Serverless",
-        "Trending on news.ycombinator.com — 181 points, 95 comments.",
-        "Submitted by soheilpro on news.ycombinator.com."
+        "Deploy Telegram bots on serverless platforms like AWS Lambda or Cloudflare Workers to eliminate idle compute costs and scale automatically.",
+        "Use Telegram Webhooks instead of long-polling to trigger ephemeral functions on-demand, optimizing resource utilization and reducing latency.",
+        "Integrate external state stores like Redis or DynamoDB to maintain user sessions across ephemeral, stateless serverless function invocations."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Kyle Orland",
       "published": "2026-07-15T22:36:28Z",
       "bullets": [
-        "Union wants to halt a \"perpetual cycle\" of layoffs, get back to contract bargaining.",
-        "Hundreds rally at Bethesda HQ to protest Xbox layoffs, and Ars was there",
-        "Submitted by Kyle Orland on arstechnica.com."
+        "Unionized workers staged a rally at Bethesda HQ to oppose Microsoft's Xbox layoffs and demand immediate contract negotiations.",
+        "The demonstration reflects growing labor mobilization in game development as workers fight for contractually guaranteed job security.",
+        "Union organizers seek to establish precedent against sudden corporate downsizing through collective bargaining and active workplace resistance."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "OpenAI loses trademark dispute at EU court",
       "url": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/",
       "discuss_url": "https://news.ycombinator.com/item?id=48921461",
-      "score": 219,
-      "comments": 144,
+      "score": 234,
+      "comments": 152,
       "author": "hermanzegerman",
       "published": "2026-07-15T14:32:36Z"
     },
@@ -136,8 +136,8 @@
       "title": "I tricked Claude into leaking your deepest, darkest secrets",
       "url": "https://www.ayush.digital/blog/the-memory-heist",
       "discuss_url": "https://news.ycombinator.com/item?id=48916975",
-      "score": 610,
-      "comments": 281,
+      "score": 636,
+      "comments": 285,
       "author": "macleginn",
       "published": "2026-07-15T06:28:00Z"
     },
@@ -148,8 +148,8 @@
       "title": "How to stop Claude from saying load-bearing",
       "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
       "discuss_url": "https://news.ycombinator.com/item?id=48905248",
-      "score": 591,
-      "comments": 600,
+      "score": 595,
+      "comments": 602,
       "author": "shintoist",
       "published": "2026-07-14T11:46:02Z"
     },
@@ -160,8 +160,8 @@
       "title": "AI Data Centers and the Concentration of Wealth",
       "url": "https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html",
       "discuss_url": "https://lobste.rs/s/iow7ts",
-      "score": 12,
-      "comments": 0,
+      "score": 16,
+      "comments": 1,
       "author": "brn",
       "published": "2026-07-15T21:06:48Z"
     },
@@ -172,7 +172,7 @@
       "title": "Inventing ELIZA - How the First Chatbot Shaped the Future of AI",
       "url": "https://mitpress.mit.edu/9780262052481/inventing-eliza/",
       "discuss_url": "https://lobste.rs/s/hquwey",
-      "score": 9,
+      "score": 11,
       "comments": 5,
       "author": "adamo",
       "published": "2026-07-15T14:12:05Z"
@@ -202,73 +202,13 @@
       "published": "2026-07-14T18:31:07Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "What building Shippy taught us about building agents",
-      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-      "discuss_url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-15T17:29:41Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Model Routing Is Simple. Until It Isn’t.",
-      "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
-      "discuss_url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-15T17:27:01Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Welcome Inkling by Thinking Machines",
-      "url": "https://huggingface.co/blog/thinkingmachines-inkling",
-      "discuss_url": "https://huggingface.co/blog/thinkingmachines-inkling",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-15T00:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
-      "url": "https://huggingface.co/blog/real-world-voiceeq",
-      "discuss_url": "https://huggingface.co/blog/real-world-voiceeq",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-15T00:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
-      "url": "https://huggingface.co/blog/torch-attention-profile",
-      "discuss_url": "https://huggingface.co/blog/torch-attention-profile",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-10T00:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "The dailyprog puzzle safety net",
       "url": "https://blog.lvmbdv.dev/posts/the-puzzle-safety-net/",
       "discuss_url": "https://lobste.rs/s/etvwzv",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "lvmbdv",
       "published": "2026-07-16T02:21:03Z"
@@ -280,7 +220,7 @@
       "title": "Empathy and delight mean nothing when the software is disrespectful",
       "url": "https://productpicnic.beehiiv.com/p/empathy-and-delight-mean-nothing-when-the-software-is-disrespectful",
       "discuss_url": "https://lobste.rs/s/s4qbwh",
-      "score": 19,
+      "score": 23,
       "comments": 2,
       "author": "drmorr",
       "published": "2026-07-15T04:30:14Z"
@@ -305,7 +245,7 @@
       "url": "https://lobste.rs/s/v3avrp",
       "discuss_url": "https://lobste.rs/s/v3avrp",
       "score": 9,
-      "comments": 16,
+      "comments": 17,
       "author": "veqq",
       "published": "2026-07-13T21:43:24Z"
     },
@@ -316,7 +256,7 @@
       "title": "The Difficulty of Cataloguing LLM Errors",
       "url": "https://elliotmorris.net/the-difficulty-of-cataloging-llm-errors",
       "discuss_url": "https://lobste.rs/s/7uvjcd",
-      "score": 1,
+      "score": 2,
       "comments": 1,
       "author": "hoistbypetard",
       "published": "2026-07-15T13:30:12Z"
@@ -412,7 +352,7 @@
       "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
       "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
       "discuss_url": "https://news.ycombinator.com/item?id=48910676",
-      "score": 438,
+      "score": 443,
       "comments": 200,
       "author": "Synthetic7346",
       "published": "2026-07-14T17:58:35Z"
@@ -424,7 +364,7 @@
       "title": "Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled, Documented in FBI Case Filing",
       "url": "https://www.ghacks.net/2026/07/12/microsoft-confirms-windows-gdid-device-identifier-that-cannot-be-disabled-documented-in-fbi-case-filing/",
       "discuss_url": "https://lobste.rs/s/agkcmz",
-      "score": 26,
+      "score": 31,
       "comments": 9,
       "author": "raymii",
       "published": "2026-07-15T15:36:16Z"
@@ -436,7 +376,7 @@
       "title": "You should probably check on your smart appliances",
       "url": "https://xeiaso.net/notes/2026/check-your-smart-tv/",
       "discuss_url": "https://lobste.rs/s/slrak5",
-      "score": 73,
+      "score": 74,
       "comments": 22,
       "author": "cadey",
       "published": "2026-07-14T22:02:25Z"
@@ -445,10 +385,34 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "A Filtering engine and DB for unpropagated kernel security patches",
+      "url": "https://patchless.natey.sh",
+      "discuss_url": "https://lobste.rs/s/pfz6dj",
+      "score": 2,
+      "comments": 0,
+      "author": "dropalltables",
+      "published": "2026-07-16T05:21:50Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "You can't bug fix your way out of the vulnpocalypse",
+      "url": "https://alexgaynor.net/2026/jul/15/you-cant-bugfix-your-way-out-of-the-vulnpocalypse/",
+      "discuss_url": "https://lobste.rs/s/nkrgcp",
+      "score": 1,
+      "comments": 0,
+      "author": "freddyb",
+      "published": "2026-07-16T07:28:41Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "SELinux Userspace Utilities: Local Denial-of-Service Attack Vectors in seunshare in release 3.10",
       "url": "https://security.opensuse.org/2026/07/15/selinux-seunshare.html",
       "discuss_url": "https://lobste.rs/s/h2qy4t",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "fro",
       "published": "2026-07-15T21:21:14Z"
@@ -526,38 +490,14 @@
       "published": "2026-07-13T15:03:28Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development",
-      "url": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html",
-      "discuss_url": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-15T18:43:08Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps",
-      "url": "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html",
-      "discuss_url": "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-15T15:30:30Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Telegram Serverless",
       "url": "https://core.telegram.org/bots/serverless",
       "discuss_url": "https://news.ycombinator.com/item?id=48918534",
-      "score": 181,
-      "comments": 95,
+      "score": 191,
+      "comments": 97,
       "author": "soheilpro",
       "published": "2026-07-15T10:06:39Z"
     },
@@ -601,6 +541,18 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "Amazon Cognito now supports importing users with password hashes",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cognito-password-hash-import/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cognito-password-hash-import/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-15T17:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/",
@@ -616,18 +568,6 @@
       "title": "Amazon RDS and Aurora expand R8gd and M8gd to additional Regions",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-aurora-r8gd-m8gd-regions/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-aurora-r8gd-m8gd-regions/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-15T17:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Cognito now supports importing users with password hashes",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cognito-password-hash-import/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cognito-password-hash-import/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
