@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T08:16:18Z",
+  "updated_at": "2026-07-17T13:49:50Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
       "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
       "discuss_url": "https://news.ycombinator.com/item?id=48939524",
-      "score": 243,
-      "comments": 308,
+      "score": 319,
+      "comments": 424,
       "author": "hershyb_",
       "published": "2026-07-16T20:03:23Z",
       "bullets": [
-        "Comparing Claude Fable 5 and GPT-5.6 Sol reveals differences in multi-agent orchestration of generative video APIs under a strict $100 budget.",
-        "Modern video pipelines leverage LLMs to generate prompts, manage temporal consistency, and synthesize audio-visual assets via Sora or Runway Gen-3.",
-        "High-yield production at scale requires optimizing API rate limits, parallelizing asset generation, and automating video-audio alignment via orchestration frameworks."
+        "Speculative benchmarks of Claude Fable 5 and GPT-5.6 Sol highlight plummeting costs, enabling complete music video production for under $100.",
+        "AI workflows are transitioning toward multi-model orchestration, combining text, music, and video generators into unified, low-cost creative pipelines.",
+        "The community discussion emphasizes the shifting bottleneck from raw model capability to effective prompt engineering and agentic post-production."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What gdb frontend do you prefer (linux)",
-      "url": "https://lobste.rs/s/76tcpe",
-      "discuss_url": "https://lobste.rs/s/76tcpe",
-      "score": 25,
-      "comments": 21,
-      "author": "kghose",
-      "published": "2026-07-16T13:12:52Z",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/1vplvg",
+      "discuss_url": "https://lobste.rs/s/1vplvg",
+      "score": 12,
+      "comments": 7,
+      "author": "caius",
+      "published": "2026-07-17T08:31:40Z",
       "bullets": [
-        "Use `cgdb` for a lightweight, vim-like ncurses interface, or `gdb-dashboard` and `gef` to enhance the standard CLI with python-based layouts.",
-        "Integrate with VS Code using the Native Debug extension or leverage Qt Creator's robust, standalone debugger frontend for complex C++ projects.",
-        "Adopt Mozilla's `rr` for deterministic, record-and-replay debugging, which integrates seamlessly with GDB-compatible frontends to eliminate non-reproducible bugs."
+        "Use weekends to safely prototype with emerging tech like Rust, Go, or local LLMs outside of restrictive production environments.",
+        "Leverage developer communities like Lobsters to seek peer code reviews, architectural feedback, and troubleshooting assistance for hobby projects.",
+        "Prioritize deliberate downtime and cognitive rest over continuous hacking to prevent burnout and maintain long-term engineering velocity."
       ]
     },
     {
@@ -71,31 +71,31 @@
       "title": "PACT: Anonymous Credentials for the Web – Mozilla Hacks",
       "url": "https://hacks.mozilla.org/2026/06/pact-anonymous-credentials-for-the-web/",
       "discuss_url": "https://lobste.rs/s/6pdyiy",
-      "score": 2,
-      "comments": 0,
+      "score": 5,
+      "comments": 3,
       "author": "brn",
       "published": "2026-07-17T06:01:54Z",
       "bullets": [
-        "PACT uses blind signatures and VOPRF to verify user attributes, like humanness, without enabling cross-site tracking or deanonymization.",
-        "Aligned with IETF Privacy Pass, PACT offers a cryptographically secure, privacy-preserving alternative to CAPTCHAs and tracking cookies.",
-        "It prevents token double-spending while ensuring unlinkability by cryptographically separating the token issuer from the verifying origin server."
+        "PACT allows websites to cryptographically verify user attributes, such as active subscriptions, without tracking identities or sessions across the web.",
+        "The protocol leverages blind signatures and zero-knowledge proofs to decouple credential issuance from presentation, preventing cross-site correlation.",
+        "It aims to replace invasive tracking mechanisms for authentication and anti-bot checks with a standardized, privacy-preserving web credential API."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Telegram Serverless",
-      "url": "https://core.telegram.org/bots/serverless",
-      "discuss_url": "https://news.ycombinator.com/item?id=48918534",
-      "score": 207,
-      "comments": 101,
-      "author": "soheilpro",
-      "published": "2026-07-15T10:06:39Z",
+      "title": "Amazon Managed Grafana achieves FedRAMP High authorization in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-grafana-fedramp-high/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-grafana-fedramp-high/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-16T19:31:00Z",
       "bullets": [
-        "Deploy Telegram bots using Cloudflare Workers or AWS Lambda to eliminate server maintenance and leverage scale-to-zero infrastructure.",
-        "Configure Bot API webhooks instead of long-polling to trigger serverless execution on-demand, significantly reducing idle compute costs.",
-        "Secure webhook endpoints using platform secrets and validate Telegram's incoming request headers to prevent unauthorized execution."
+        "Highly regulated DevOps teams can now deploy managed Grafana workloads in AWS GovCloud (US-East/West) under FedRAMP High compliance.",
+        "The managed service enables querying, visualizing, and alerting on hybrid operational metrics using the open-source Grafana engine.",
+        "Allows federal agencies to offload security monitoring infrastructure management while meeting strict US government-wide regulatory standards."
       ]
     },
     {
@@ -105,14 +105,14 @@
       "title": "SpaceX stock erases all its gains and slides below IPO price in intraday trading",
       "url": "https://www.latimes.com/business/story/2026-07-16/spacex-stock-erases-gains-slides-below-ipo-price-in-intraday-trading",
       "discuss_url": "https://news.ycombinator.com/item?id=48933344",
-      "score": 293,
-      "comments": 255,
+      "score": 300,
+      "comments": 265,
       "author": "1vuio0pswjnm7",
       "published": "2026-07-16T12:02:11Z",
       "bullets": [
-        "The trading volatility likely refers to Destiny Tech100 (DXYZ), a public closed-end fund holding private SpaceX shares, not SpaceX itself.",
-        "DXYZ's premium collapsed, highlighting the high volatility and valuation challenges of vehicle structures tracking illiquid, private tech giants.",
-        "SpaceX's direct valuation remains insulated in private secondary markets, estimated at $180B+ due to Falcon 9 and Starlink dominance."
+        "SpaceX remains private; reported trading anomalies likely reflect secondary market share price drops or confusion with other public aerospace equities.",
+        "Public space tech vendors like Rocket Lab (RKLB) and Astra face steep market corrections, influencing broader private sector valuations.",
+        "Private equity liquidity programs and employee stock tender offers remain the key metrics for assessing SpaceX's actual financial valuation."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
       "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
       "discuss_url": "https://news.ycombinator.com/item?id=48939524",
-      "score": 243,
-      "comments": 308,
+      "score": 319,
+      "comments": 424,
       "author": "hershyb_",
       "published": "2026-07-16T20:03:23Z"
     },
@@ -136,8 +136,8 @@
       "title": "NotebookLM is now Gemini Notebook",
       "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
       "discuss_url": "https://news.ycombinator.com/item?id=48936451",
-      "score": 299,
-      "comments": 152,
+      "score": 335,
+      "comments": 163,
       "author": "xnx",
       "published": "2026-07-16T16:08:13Z"
     },
@@ -148,8 +148,8 @@
       "title": "Detecting LLM-Generated Texts with “Classical” Machine Learning",
       "url": "https://blog.lyc8503.net/en/post/llm-classifier/",
       "discuss_url": "https://news.ycombinator.com/item?id=48936880",
-      "score": 191,
-      "comments": 136,
+      "score": 217,
+      "comments": 157,
       "author": "uneven9434",
       "published": "2026-07-16T16:41:37Z"
     },
@@ -160,8 +160,8 @@
       "title": "The LLM Critics Are Right. I Use LLMs Anyway",
       "url": "https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway/",
       "discuss_url": "https://news.ycombinator.com/item?id=48933310",
-      "score": 218,
-      "comments": 225,
+      "score": 260,
+      "comments": 274,
       "author": "JeremyTheo",
       "published": "2026-07-16T11:59:01Z"
     },
@@ -172,7 +172,7 @@
       "title": "At least 105 past YC founders have worked at OpenAI and Anthropic",
       "url": "https://joinedanthropic.com",
       "discuss_url": "https://news.ycombinator.com/item?id=48931588",
-      "score": 296,
+      "score": 299,
       "comments": 216,
       "author": "ohong",
       "published": "2026-07-16T08:03:35Z"
@@ -184,7 +184,7 @@
       "title": "OpenAI loses trademark dispute at EU court",
       "url": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/",
       "discuss_url": "https://news.ycombinator.com/item?id=48921461",
-      "score": 261,
+      "score": 262,
       "comments": 166,
       "author": "hermanzegerman",
       "published": "2026-07-15T14:32:36Z"
@@ -205,18 +205,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "A novel computer Scrabble engine based on probability that performs at championship level (2021)",
-      "url": "https://upcommons.upc.edu/server/api/core/bitstreams/1339ae43-3d65-4015-8e11-3689e5572b23/content",
-      "discuss_url": "https://lobste.rs/s/srir6m",
-      "score": 6,
-      "comments": 0,
-      "author": "calvin",
-      "published": "2026-07-16T15:29:48Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "Inventing ELIZA - How the First Chatbot Shaped the Future of AI",
       "url": "https://mitpress.mit.edu/9780262052481/inventing-eliza/",
       "discuss_url": "https://lobste.rs/s/hquwey",
@@ -224,6 +212,18 @@
       "comments": 7,
       "author": "adamo",
       "published": "2026-07-15T14:12:05Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "A novel computer Scrabble engine based on probability that performs at championship level (2021)",
+      "url": "https://upcommons.upc.edu/server/api/core/bitstreams/1339ae43-3d65-4015-8e11-3689e5572b23/content",
+      "discuss_url": "https://lobste.rs/s/srir6m",
+      "score": 6,
+      "comments": 0,
+      "author": "calvin",
+      "published": "2026-07-16T15:29:48Z"
     },
     {
       "source": "lobsters",
@@ -265,11 +265,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/1vplvg",
+      "discuss_url": "https://lobste.rs/s/1vplvg",
+      "score": 12,
+      "comments": 7,
+      "author": "caius",
+      "published": "2026-07-17T08:31:40Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "What gdb frontend do you prefer (linux)",
       "url": "https://lobste.rs/s/76tcpe",
       "discuss_url": "https://lobste.rs/s/76tcpe",
-      "score": 25,
-      "comments": 21,
+      "score": 27,
+      "comments": 25,
       "author": "kghose",
       "published": "2026-07-16T13:12:52Z"
     },
@@ -280,8 +292,8 @@
       "title": "README, not",
       "url": "https://blog.yossarian.net/2026/07/16/README-not",
       "discuss_url": "https://lobste.rs/s/wveduf",
-      "score": 25,
-      "comments": 1,
+      "score": 34,
+      "comments": 8,
       "author": "yossarian",
       "published": "2026-07-16T13:51:27Z"
     },
@@ -325,18 +337,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/ozcrd0",
-      "discuss_url": "https://lobste.rs/s/ozcrd0",
-      "score": 16,
-      "comments": 27,
-      "author": "caius",
-      "published": "2026-07-13T09:44:13Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Should Libraries Log or Propagate Errors?",
       "url": "https://lobste.rs/s/v3avrp",
       "discuss_url": "https://lobste.rs/s/v3avrp",
@@ -361,18 +361,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Gecode 6.3.0 and 6.4.0 are released",
-      "url": "https://zayenz.se/blog/post/gecode-6-3-and-6-4-released/",
-      "discuss_url": "https://lobste.rs/s/u6hawc",
-      "score": 1,
-      "comments": 0,
-      "author": "mzl",
-      "published": "2026-07-16T09:29:56Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "A technical career retrospective part 1 (January - June 1978)",
       "url": "https://kenwhitesell.github.io/2026/07/10/A-technical-career-retrospective-pt-1.html",
       "discuss_url": "https://lobste.rs/s/bmqwm2",
@@ -380,6 +368,18 @@
       "comments": 0,
       "author": "rrampage",
       "published": "2026-07-14T18:06:18Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Gecode 6.3.0 and 6.4.0 are released",
+      "url": "https://zayenz.se/blog/post/gecode-6-3-and-6-4-released/",
+      "discuss_url": "https://lobste.rs/s/u6hawc",
+      "score": 1,
+      "comments": 0,
+      "author": "mzl",
+      "published": "2026-07-16T09:29:56Z"
     },
     {
       "source": "lobsters",
@@ -412,10 +412,34 @@
       "title": "PACT: Anonymous Credentials for the Web – Mozilla Hacks",
       "url": "https://hacks.mozilla.org/2026/06/pact-anonymous-credentials-for-the-web/",
       "discuss_url": "https://lobste.rs/s/6pdyiy",
-      "score": 2,
-      "comments": 0,
+      "score": 5,
+      "comments": 3,
       "author": "brn",
       "published": "2026-07-17T06:01:54Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "How Far Behind the Frontier are Leading Open Weight Models on Cyber?",
+      "url": "https://www.aisi.gov.uk/blog/how-far-behind-the-frontier-are-leading-open-weight-models-on-cyber",
+      "discuss_url": "https://lobste.rs/s/vrcctk",
+      "score": 1,
+      "comments": 0,
+      "author": "freddyb",
+      "published": "2026-07-17T13:28:04Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Journey to Root, Episode I: The Maglev King",
+      "url": "https://blog.calif.io/p/journey-to-root-episode-i-the-maglev",
+      "discuss_url": "https://lobste.rs/s/i0mnxl",
+      "score": 1,
+      "comments": 0,
+      "author": "freddyb",
+      "published": "2026-07-17T13:27:36Z"
     },
     {
       "source": "lobsters",
@@ -424,8 +448,8 @@
       "title": "You can't bug fix your way out of the vulnpocalypse",
       "url": "https://alexgaynor.net/2026/jul/15/you-cant-bugfix-your-way-out-of-the-vulnpocalypse/",
       "discuss_url": "https://lobste.rs/s/nkrgcp",
-      "score": 16,
-      "comments": 8,
+      "score": 17,
+      "comments": 9,
       "author": "freddyb",
       "published": "2026-07-16T07:28:41Z"
     },
@@ -448,7 +472,7 @@
       "title": "You should probably check on your smart appliances",
       "url": "https://xeiaso.net/notes/2026/check-your-smart-tv/",
       "discuss_url": "https://lobste.rs/s/slrak5",
-      "score": 75,
+      "score": 76,
       "comments": 23,
       "author": "cadey",
       "published": "2026-07-14T22:02:25Z"
@@ -524,42 +548,6 @@
       "comments": 0,
       "author": "mtlynch",
       "published": "2026-07-13T20:47:40Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "FreeBSoD: Leveraging Language Models to Find and Exploit Kernel Bugs (Part 1 of 2)",
-      "url": "https://www.praetorian.com/blog/ai-vulnerability-research-freebsd-kernel/",
-      "discuss_url": "https://lobste.rs/s/jhdesh",
-      "score": 0,
-      "comments": 1,
-      "author": "fro",
-      "published": "2026-07-13T18:50:43Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "krebsonsecurity.com",
-      "category": "security",
-      "title": "Microsoft Patches a Record 570 Security Flaws",
-      "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
-      "discuss_url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
-      "score": null,
-      "comments": null,
-      "author": "BrianKrebs",
-      "published": "2026-07-14T19:22:42Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "devops",
-      "title": "Telegram Serverless",
-      "url": "https://core.telegram.org/bots/serverless",
-      "discuss_url": "https://news.ycombinator.com/item?id=48918534",
-      "score": 207,
-      "comments": 101,
-      "author": "soheilpro",
-      "published": "2026-07-15T10:06:39Z"
     },
     {
       "source": "rss",
@@ -694,16 +682,76 @@
       "published": "2026-07-16T10:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Control Tower Account Factory for Terraform now re-applies customizations when accounts move between OUs",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-control-tower-account/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-control-tower-account/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-16T04:07:00Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "industry",
       "title": "SpaceX stock erases all its gains and slides below IPO price in intraday trading",
       "url": "https://www.latimes.com/business/story/2026-07-16/spacex-stock-erases-gains-slides-below-ipo-price-in-intraday-trading",
       "discuss_url": "https://news.ycombinator.com/item?id=48933344",
-      "score": 293,
-      "comments": 255,
+      "score": 300,
+      "comments": 265,
       "author": "1vuio0pswjnm7",
       "published": "2026-07-16T12:02:11Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "The report oil companies are worried about: Climate attribution science",
+      "url": "https://arstechnica.com/science/2026/07/national-academies-climate-attribution-is-maturing-but-still-has-limits/",
+      "discuss_url": "https://arstechnica.com/science/2026/07/national-academies-climate-attribution-is-maturing-but-still-has-limits/",
+      "score": null,
+      "comments": null,
+      "author": "John Timmer",
+      "published": "2026-07-17T11:30:10Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "FCC took pricey gifts from Paramount as the company needed approval for deals",
+      "url": "https://arstechnica.com/tech-policy/2026/07/fcc-took-pricey-gifts-from-paramount-as-the-company-needed-approval-for-deals/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/fcc-took-pricey-gifts-from-paramount-as-the-company-needed-approval-for-deals/",
+      "score": null,
+      "comments": null,
+      "author": "Corey G. Johnson, ProPublica",
+      "published": "2026-07-17T11:15:55Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "2026 Lucid Gravity Touring review: A strong act 2",
+      "url": "https://arstechnica.com/cars/2026/07/2026-lucid-gravity-touring-review-a-strong-act-2/",
+      "discuss_url": "https://arstechnica.com/cars/2026/07/2026-lucid-gravity-touring-review-a-strong-act-2/",
+      "score": null,
+      "comments": null,
+      "author": "Jim Resnick",
+      "published": "2026-07-17T11:00:30Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Rocket Report: India's Vikram-1 nears debut flight; AST to become rocket company?",
+      "url": "https://arstechnica.com/space/2026/07/rocket-report-indias-vikram-1-nears-debut-flight-ast-to-become-rocket-company/",
+      "discuss_url": "https://arstechnica.com/space/2026/07/rocket-report-indias-vikram-1-nears-debut-flight-ast-to-become-rocket-company/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-07-17T11:00:04Z"
     },
     {
       "source": "rss",
@@ -788,54 +836,6 @@
       "comments": null,
       "author": "Jeremy Hsu",
       "published": "2026-07-16T20:09:48Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Trump teleprompter aide made $100,000 betting on what Trump would say, reports say",
-      "url": "https://arstechnica.com/culture/2026/07/trump-teleprompter-aide-made-100000-betting-on-what-trump-would-say-reports-say/",
-      "discuss_url": "https://arstechnica.com/culture/2026/07/trump-teleprompter-aide-made-100000-betting-on-what-trump-would-say-reports-say/",
-      "score": null,
-      "comments": null,
-      "author": "Nate Anderson",
-      "published": "2026-07-16T19:55:46Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "2026 Toyota RAV4 plug-in: Big battery means daily drives are all-electric",
-      "url": "https://arstechnica.com/cars/2026/07/2026-toyota-rav4-plug-in-review-good-but-skip-the-gr-sport/",
-      "discuss_url": "https://arstechnica.com/cars/2026/07/2026-toyota-rav4-plug-in-review-good-but-skip-the-gr-sport/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-07-16T19:46:22Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Now, even Russia's most elite hackers are using Clickfix to infect devices",
-      "url": "https://arstechnica.com/security/2026/07/now-even-russias-most-elite-hackers-are-using-clickfix-to-infect-devices/",
-      "discuss_url": "https://arstechnica.com/security/2026/07/now-even-russias-most-elite-hackers-are-using-clickfix-to-infect-devices/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-07-16T19:28:33Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Linus Torvalds to critics of AI coding in Linux: \"Fork it. Or just walk away.\"",
-      "url": "https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away/",
-      "discuss_url": "https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away/",
-      "score": null,
-      "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-07-16T19:18:23Z"
     }
   ]
 }
