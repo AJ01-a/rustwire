@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T02:53:40Z",
+  "updated_at": "2026-07-17T08:16:18Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
       "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
       "discuss_url": "https://news.ycombinator.com/item?id=48939524",
-      "score": 153,
-      "comments": 152,
+      "score": 243,
+      "comments": 308,
       "author": "hershyb_",
       "published": "2026-07-16T20:03:23Z",
       "bullets": [
-        "Production costs for complex generative multimedia assets have plummeted to $100 using advanced multi-model AI workflows.",
-        "The comparison evaluates creative prompt adherence and multi-modal steering differences between Anthropic’s Claude Fable 5 and OpenAI’s GPT-5.6 Sol.",
-        "Production workflows integrate LLM-based creative direction with downstream video, audio, and lip-sync models for fully automated asset generation."
+        "Comparing Claude Fable 5 and GPT-5.6 Sol reveals differences in multi-agent orchestration of generative video APIs under a strict $100 budget.",
+        "Modern video pipelines leverage LLMs to generate prompts, manage temporal consistency, and synthesize audio-visual assets via Sora or Runway Gen-3.",
+        "High-yield production at scale requires optimizing API rate limits, parallelizing asset generation, and automating video-audio alignment via orchestration frameworks."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "What gdb frontend do you prefer (linux)",
       "url": "https://lobste.rs/s/76tcpe",
       "discuss_url": "https://lobste.rs/s/76tcpe",
-      "score": 22,
-      "comments": 20,
+      "score": 25,
+      "comments": 21,
       "author": "kghose",
       "published": "2026-07-16T13:12:52Z",
       "bullets": [
-        "I found the basic gdb ui painful and gdb -tui confusing.",
-        "I love dlv for golang debugging.",
-        "Before I drop back to printf debugging is there a frontend I should try?"
+        "Use `cgdb` for a lightweight, vim-like ncurses interface, or `gdb-dashboard` and `gef` to enhance the standard CLI with python-based layouts.",
+        "Integrate with VS Code using the Native Debug extension or leverage Qt Creator's robust, standalone debugger frontend for complex C++ projects.",
+        "Adopt Mozilla's `rr` for deterministic, record-and-replay debugging, which integrates seamlessly with GDB-compatible frontends to eliminate non-reproducible bugs."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "You can't bug fix your way out of the vulnpocalypse",
-      "url": "https://alexgaynor.net/2026/jul/15/you-cant-bugfix-your-way-out-of-the-vulnpocalypse/",
-      "discuss_url": "https://lobste.rs/s/nkrgcp",
-      "score": 15,
-      "comments": 8,
-      "author": "freddyb",
-      "published": "2026-07-16T07:28:41Z",
+      "title": "PACT: Anonymous Credentials for the Web – Mozilla Hacks",
+      "url": "https://hacks.mozilla.org/2026/06/pact-anonymous-credentials-for-the-web/",
+      "discuss_url": "https://lobste.rs/s/6pdyiy",
+      "score": 2,
+      "comments": 0,
+      "author": "brn",
+      "published": "2026-07-17T06:01:54Z",
       "bullets": [
-        "You can't bug fix your way out of the vulnpocalypse",
-        "Trending on lobste.rs/security — 15 points, 8 comments.",
-        "Submitted by freddyb on lobste.rs/security."
+        "PACT uses blind signatures and VOPRF to verify user attributes, like humanness, without enabling cross-site tracking or deanonymization.",
+        "Aligned with IETF Privacy Pass, PACT offers a cryptographically secure, privacy-preserving alternative to CAPTCHAs and tracking cookies.",
+        "It prevents token double-spending while ensuring unlinkability by cryptographically separating the token issuer from the verifying origin server."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "Telegram Serverless",
       "url": "https://core.telegram.org/bots/serverless",
       "discuss_url": "https://news.ycombinator.com/item?id=48918534",
-      "score": 206,
+      "score": 207,
       "comments": 101,
       "author": "soheilpro",
       "published": "2026-07-15T10:06:39Z",
       "bullets": [
-        "Telegram Serverless",
-        "Trending on news.ycombinator.com — 206 points, 101 comments.",
-        "Submitted by soheilpro on news.ycombinator.com."
+        "Deploy Telegram bots using Cloudflare Workers or AWS Lambda to eliminate server maintenance and leverage scale-to-zero infrastructure.",
+        "Configure Bot API webhooks instead of long-polling to trigger serverless execution on-demand, significantly reducing idle compute costs.",
+        "Secure webhook endpoints using platform secrets and validate Telegram's incoming request headers to prevent unauthorized execution."
       ]
     },
     {
@@ -105,14 +105,14 @@
       "title": "SpaceX stock erases all its gains and slides below IPO price in intraday trading",
       "url": "https://www.latimes.com/business/story/2026-07-16/spacex-stock-erases-gains-slides-below-ipo-price-in-intraday-trading",
       "discuss_url": "https://news.ycombinator.com/item?id=48933344",
-      "score": 288,
-      "comments": 254,
+      "score": 293,
+      "comments": 255,
       "author": "1vuio0pswjnm7",
       "published": "2026-07-16T12:02:11Z",
       "bullets": [
-        "SpaceX stock erases all its gains and slides below IPO price in intraday trading",
-        "Trending on news.ycombinator.com — 288 points, 254 comments.",
-        "Submitted by 1vuio0pswjnm7 on news.ycombinator.com."
+        "The trading volatility likely refers to Destiny Tech100 (DXYZ), a public closed-end fund holding private SpaceX shares, not SpaceX itself.",
+        "DXYZ's premium collapsed, highlighting the high volatility and valuation challenges of vehicle structures tracking illiquid, private tech giants.",
+        "SpaceX's direct valuation remains insulated in private secondary markets, estimated at $180B+ due to Falcon 9 and Starlink dominance."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
       "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
       "discuss_url": "https://news.ycombinator.com/item?id=48939524",
-      "score": 153,
-      "comments": 152,
+      "score": 243,
+      "comments": 308,
       "author": "hershyb_",
       "published": "2026-07-16T20:03:23Z"
     },
@@ -136,8 +136,8 @@
       "title": "NotebookLM is now Gemini Notebook",
       "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
       "discuss_url": "https://news.ycombinator.com/item?id=48936451",
-      "score": 256,
-      "comments": 129,
+      "score": 299,
+      "comments": 152,
       "author": "xnx",
       "published": "2026-07-16T16:08:13Z"
     },
@@ -148,8 +148,8 @@
       "title": "Detecting LLM-Generated Texts with “Classical” Machine Learning",
       "url": "https://blog.lyc8503.net/en/post/llm-classifier/",
       "discuss_url": "https://news.ycombinator.com/item?id=48936880",
-      "score": 163,
-      "comments": 110,
+      "score": 191,
+      "comments": 136,
       "author": "uneven9434",
       "published": "2026-07-16T16:41:37Z"
     },
@@ -160,8 +160,8 @@
       "title": "The LLM Critics Are Right. I Use LLMs Anyway",
       "url": "https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway/",
       "discuss_url": "https://news.ycombinator.com/item?id=48933310",
-      "score": 195,
-      "comments": 203,
+      "score": 218,
+      "comments": 225,
       "author": "JeremyTheo",
       "published": "2026-07-16T11:59:01Z"
     },
@@ -172,8 +172,8 @@
       "title": "At least 105 past YC founders have worked at OpenAI and Anthropic",
       "url": "https://joinedanthropic.com",
       "discuss_url": "https://news.ycombinator.com/item?id=48931588",
-      "score": 295,
-      "comments": 210,
+      "score": 296,
+      "comments": 216,
       "author": "ohong",
       "published": "2026-07-16T08:03:35Z"
     },
@@ -184,22 +184,10 @@
       "title": "OpenAI loses trademark dispute at EU court",
       "url": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/",
       "discuss_url": "https://news.ycombinator.com/item?id=48921461",
-      "score": 260,
-      "comments": 165,
+      "score": 261,
+      "comments": 166,
       "author": "hermanzegerman",
       "published": "2026-07-15T14:32:36Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "I tricked Claude into leaking your deepest, darkest secrets",
-      "url": "https://www.ayush.digital/blog/the-memory-heist",
-      "discuss_url": "https://news.ycombinator.com/item?id=48916975",
-      "score": 660,
-      "comments": 291,
-      "author": "macleginn",
-      "published": "2026-07-15T06:28:00Z"
     },
     {
       "source": "lobsters",
@@ -208,7 +196,7 @@
       "title": "AI Data Centers and the Concentration of Wealth",
       "url": "https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html",
       "discuss_url": "https://lobste.rs/s/iow7ts",
-      "score": 25,
+      "score": 26,
       "comments": 3,
       "author": "brn",
       "published": "2026-07-15T21:06:48Z"
@@ -220,7 +208,7 @@
       "title": "A novel computer Scrabble engine based on probability that performs at championship level (2021)",
       "url": "https://upcommons.upc.edu/server/api/core/bitstreams/1339ae43-3d65-4015-8e11-3689e5572b23/content",
       "discuss_url": "https://lobste.rs/s/srir6m",
-      "score": 5,
+      "score": 6,
       "comments": 0,
       "author": "calvin",
       "published": "2026-07-16T15:29:48Z"
@@ -262,14 +250,26 @@
       "published": "2026-07-14T18:31:07Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+      "discuss_url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-16T16:01:21Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What gdb frontend do you prefer (linux)",
       "url": "https://lobste.rs/s/76tcpe",
       "discuss_url": "https://lobste.rs/s/76tcpe",
-      "score": 22,
-      "comments": 20,
+      "score": 25,
+      "comments": 21,
       "author": "kghose",
       "published": "2026-07-16T13:12:52Z"
     },
@@ -280,22 +280,10 @@
       "title": "README, not",
       "url": "https://blog.yossarian.net/2026/07/16/README-not",
       "discuss_url": "https://lobste.rs/s/wveduf",
-      "score": 20,
-      "comments": 0,
+      "score": 25,
+      "comments": 1,
       "author": "yossarian",
       "published": "2026-07-16T13:51:27Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Bring modern package management to Meson's native wrap ecosystem",
-      "url": "https://collider.ee/1.5.1/",
-      "discuss_url": "https://lobste.rs/s/9b49zd",
-      "score": 6,
-      "comments": 0,
-      "author": "Mackou",
-      "published": "2026-07-16T08:29:26Z"
     },
     {
       "source": "lobsters",
@@ -313,13 +301,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/ozcrd0",
-      "discuss_url": "https://lobste.rs/s/ozcrd0",
-      "score": 16,
-      "comments": 27,
-      "author": "caius",
-      "published": "2026-07-13T09:44:13Z"
+      "title": "Bring modern package management to Meson's native wrap ecosystem",
+      "url": "https://collider.ee/1.5.1/",
+      "discuss_url": "https://lobste.rs/s/9b49zd",
+      "score": 6,
+      "comments": 0,
+      "author": "Mackou",
+      "published": "2026-07-16T08:29:26Z"
     },
     {
       "source": "lobsters",
@@ -329,9 +317,21 @@
       "url": "https://blog.lvmbdv.dev/posts/the-puzzle-safety-net/",
       "discuss_url": "https://lobste.rs/s/etvwzv",
       "score": 5,
-      "comments": 0,
+      "comments": 1,
       "author": "lvmbdv",
       "published": "2026-07-16T02:21:03Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/ozcrd0",
+      "discuss_url": "https://lobste.rs/s/ozcrd0",
+      "score": 16,
+      "comments": 27,
+      "author": "caius",
+      "published": "2026-07-13T09:44:13Z"
     },
     {
       "source": "lobsters",
@@ -409,10 +409,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "PACT: Anonymous Credentials for the Web – Mozilla Hacks",
+      "url": "https://hacks.mozilla.org/2026/06/pact-anonymous-credentials-for-the-web/",
+      "discuss_url": "https://lobste.rs/s/6pdyiy",
+      "score": 2,
+      "comments": 0,
+      "author": "brn",
+      "published": "2026-07-17T06:01:54Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "You can't bug fix your way out of the vulnpocalypse",
       "url": "https://alexgaynor.net/2026/jul/15/you-cant-bugfix-your-way-out-of-the-vulnpocalypse/",
       "discuss_url": "https://lobste.rs/s/nkrgcp",
-      "score": 15,
+      "score": 16,
       "comments": 8,
       "author": "freddyb",
       "published": "2026-07-16T07:28:41Z"
@@ -424,7 +436,7 @@
       "title": "Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled, Documented in FBI Case Filing",
       "url": "https://www.ghacks.net/2026/07/12/microsoft-confirms-windows-gdid-device-identifier-that-cannot-be-disabled-documented-in-fbi-case-filing/",
       "discuss_url": "https://lobste.rs/s/agkcmz",
-      "score": 42,
+      "score": 43,
       "comments": 11,
       "author": "raymii",
       "published": "2026-07-15T15:36:16Z"
@@ -436,7 +448,7 @@
       "title": "You should probably check on your smart appliances",
       "url": "https://xeiaso.net/notes/2026/check-your-smart-tv/",
       "discuss_url": "https://lobste.rs/s/slrak5",
-      "score": 74,
+      "score": 75,
       "comments": 23,
       "author": "cadey",
       "published": "2026-07-14T22:02:25Z"
@@ -457,6 +469,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "The Memory Heist",
+      "url": "https://ayush.digital/blog/the-memory-heist",
+      "discuss_url": "https://lobste.rs/s/lelroo",
+      "score": 50,
+      "comments": 0,
+      "author": "videah",
+      "published": "2026-07-15T00:11:45Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Securing DNSSEC Keys via Threshold ECDSA From Generic MPC (2019)",
       "url": "https://eprint.iacr.org/2019/889",
       "discuss_url": "https://lobste.rs/s/e9jl9m",
@@ -469,18 +493,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "A Filtering engine and DB for unpropagated kernel security patches",
-      "url": "https://patchless.natey.sh",
-      "discuss_url": "https://lobste.rs/s/pfz6dj",
-      "score": 2,
-      "comments": 0,
-      "author": "dropalltables",
-      "published": "2026-07-16T05:21:50Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "SELinux Userspace Utilities: Local Denial-of-Service Attack Vectors in seunshare in release 3.10",
       "url": "https://security.opensuse.org/2026/07/15/selinux-seunshare.html",
       "discuss_url": "https://lobste.rs/s/h2qy4t",
@@ -488,6 +500,18 @@
       "comments": 0,
       "author": "fro",
       "published": "2026-07-15T21:21:14Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "A Filtering engine and DB for unpropagated kernel security patches",
+      "url": "https://patchless.natey.sh",
+      "discuss_url": "https://lobste.rs/s/pfz6dj",
+      "score": 2,
+      "comments": 0,
+      "author": "dropalltables",
+      "published": "2026-07-16T05:21:50Z"
     },
     {
       "source": "lobsters",
@@ -526,37 +550,13 @@
       "published": "2026-07-14T19:22:42Z"
     },
     {
-      "source": "rss",
-      "subsource": "krebsonsecurity.com",
-      "category": "security",
-      "title": "Lessons Learned from CISA’s Recent GitHub Leak",
-      "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
-      "discuss_url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
-      "score": null,
-      "comments": null,
-      "author": "BrianKrebs",
-      "published": "2026-07-13T15:03:28Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Two Scattered Spider Hackers Get 5.5 Years Each for £29 Million TfL Hack",
-      "url": "https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html",
-      "discuss_url": "https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-16T17:09:25Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Telegram Serverless",
       "url": "https://core.telegram.org/bots/serverless",
       "discuss_url": "https://news.ycombinator.com/item?id=48918534",
-      "score": 206,
+      "score": 207,
       "comments": 101,
       "author": "soheilpro",
       "published": "2026-07-15T10:06:39Z"
@@ -700,8 +700,8 @@
       "title": "SpaceX stock erases all its gains and slides below IPO price in intraday trading",
       "url": "https://www.latimes.com/business/story/2026-07-16/spacex-stock-erases-gains-slides-below-ipo-price-in-intraday-trading",
       "discuss_url": "https://news.ycombinator.com/item?id=48933344",
-      "score": 288,
-      "comments": 254,
+      "score": 293,
+      "comments": 255,
       "author": "1vuio0pswjnm7",
       "published": "2026-07-16T12:02:11Z"
     },
