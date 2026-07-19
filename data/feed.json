@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T13:24:51Z",
+  "updated_at": "2026-07-19T19:14:09Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "Claude Code uses Bun written in Rust now",
       "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
       "discuss_url": "https://news.ycombinator.com/item?id=48966569",
-      "score": 125,
-      "comments": 163,
+      "score": 287,
+      "comments": 371,
       "author": "tosh",
       "published": "2026-07-19T10:03:23Z",
       "bullets": [
-        "Anthropic's agentic CLI, Claude Code, optimizes execution speed by integrating Bun and Rust for fast-startup terminal interactions.",
-        "This transition reflects a broader shift toward compiling JS/TS-based AI developer tools into highly optimized, native binaries.",
-        "Reducing local runtime latency is increasingly critical for sustaining low-overhead, iterative feedback loops in terminal-based AI agents."
+        "Anthropic's Claude Code CLI integrates Bun and Rust to accelerate local file processing and agentic tool execution.",
+        "The update reflects a broader shift toward compiled languages and high-performance runtimes to reduce AI agent latency.",
+        "Node.js and Python-based AI agent frameworks face pressure from faster runtimes as developers demand near-instantaneous local feedback loops."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Reviewing AI Code Is Not A Viable Argument",
-      "url": "https://softwaremaxims.com/blog/reviewing-ai-code",
-      "discuss_url": "https://lobste.rs/s/5kgenk",
-      "score": 37,
-      "comments": 85,
-      "author": "Diana",
-      "published": "2026-07-18T16:25:19Z",
+      "title": "What is your favorite blog to read recently?",
+      "url": "https://lobste.rs/s/69mche",
+      "discuss_url": "https://lobste.rs/s/69mche",
+      "score": 38,
+      "comments": 15,
+      "author": "oceanhaiyang",
+      "published": "2026-07-19T13:14:39Z",
       "bullets": [
-        "Human code review fails to catch subtle LLM hallucinations and security bugs due to cognitive fatigue and automation bias.",
-        "Reading code is harder than writing; LLMs shift the engineering bottleneck from creation to verification, increasing long-term technical debt.",
-        "Engineers must implement automated CI/CD pipelines, unit testing, and static analysis instead of relying on manual PR reviews for AI-generated code."
+        "Jepsen (Aphyr) and Dan Luu are gold standards for analyzing distributed systems failures, hardware quirks, and empirical software engineering.",
+        "The Morning Paper and similar blogs dissect complex computer science research papers, translating theoretical breakthroughs into actionable production engineering insights.",
+        "Infrastructure blogs from Cloudflare and Fly.io provide deep dives into Linux kernel networking, eBPF, and scaling global edge networks."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "wp2shell: Pre Authentication RCE in WordPress Core",
       "url": "https://wp2shell.com/",
       "discuss_url": "https://lobste.rs/s/aipvbn",
-      "score": 20,
+      "score": 22,
       "comments": 4,
       "author": "Helithumper",
       "published": "2026-07-18T18:12:17Z",
       "bullets": [
-        "Critical unauthenticated RCE in WordPress core allows complete site takeover; prioritize auditing core codebases and applying urgent security updates.",
-        "Implement virtual patching via WAF rules and restrict access to sensitive endpoints like XML-RPC and REST API to mitigate exploit attempts.",
-        "Monitor web server logs for anomalous POST requests to wp-admin or wp-includes targeting undocumented PHP execution paths or file uploads."
+        "Unauthenticated Remote Code Execution (RCE) in WordPress Core poses a maximum-severity threat, bypassing authentication to compromise underlying web servers.",
+        "Immediate mitigation requires upgrading WordPress Core, restricting access to xmlrpc.php, and deploying WAF rules to block malicious payload delivery.",
+        "Defenders should audit system logs for anomalous execution of wp-includes PHP scripts and unexpected outbound network connections from web servers."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "aws@amazon.com",
       "published": "2026-07-17T17:29:00Z",
       "bullets": [
-        "Amazon GameLift Streams supports IAM roles via RoleArn, eliminating the need to embed long-lived AWS credentials in application bundles.",
-        "Leverages container credential provider mechanisms from Amazon ECS task roles and EKS Pod Identity for automated AWS credential rotation.",
-        "Validates IAM configurations at stream session start, surfacing deployment errors immediately instead of causing runtime failures in production."
+        "GameLift Streams now supports temporary credentials via RoleArn, eliminating the need to embed long-lived AWS access keys in bundles.",
+        "Utilizes the same container credential provider mechanism as Amazon ECS task roles and EKS Pod Identity, requiring zero code changes.",
+        "Session-start validation catches IAM role misconfigurations immediately, preventing runtime errors when accessing AWS resources like S3 or DynamoDB."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Short sellers notch $8.7B profit as SpaceX shares dip to IPO price",
-      "url": "https://www.reuters.com/business/media-telecom/short-sellers-rack-up-87-bln-profit-spacex-slips-below-ipo-price-ortex-2026-07-16/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48948435",
-      "score": 166,
-      "comments": 180,
-      "author": "1vuio0pswjnm7",
-      "published": "2026-07-17T15:17:54Z",
+      "title": "As mosquito ranges expand, better monitoring is key to preventing disease",
+      "url": "https://arstechnica.com/science/2026/07/as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease/",
+      "discuss_url": "https://arstechnica.com/science/2026/07/as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease/",
+      "score": null,
+      "comments": null,
+      "author": "Madeline Shaw, Inside Climate News",
+      "published": "2026-07-19T11:19:31Z",
       "bullets": [
-        "Institutional short sellers leveraged secondary market derivatives to net an $8.7B profit from SpaceX's declining private valuation.",
-        "The drop signals cooling investor sentiment and valuation corrections for late-stage space-tech and hardware-heavy private enterprises.",
-        "This massive short position underscores the increasing liquidity and financial engineering surrounding historically illiquid, high-value private tech assets."
+        "Expanding disease-vector ranges demand automated surveillance systems to replace expensive, labor-intensive manual trapping and counting methods.",
+        "Modern solutions leverage IoT smart traps, optical sensors, and machine learning models for real-time mosquito species identification.",
+        "Integrating geospatial data and predictive AI helps public health agencies forecast outbreaks and optimize targeted vector control interventions."
       ]
     }
   ],
@@ -124,10 +124,22 @@
       "title": "Claude Code uses Bun written in Rust now",
       "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
       "discuss_url": "https://news.ycombinator.com/item?id=48966569",
-      "score": 125,
-      "comments": 163,
+      "score": 287,
+      "comments": 371,
       "author": "tosh",
       "published": "2026-07-19T10:03:23Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "OpenAI reduces Codex Model Context Size from 372k to 272k",
+      "url": "https://github.com/openai/codex/pull/33972/files",
+      "discuss_url": "https://news.ycombinator.com/item?id=48965850",
+      "score": 237,
+      "comments": 104,
+      "author": "AmazingTurtle",
+      "published": "2026-07-19T07:54:39Z"
     },
     {
       "source": "hackernews",
@@ -136,8 +148,8 @@
       "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
       "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
       "discuss_url": "https://news.ycombinator.com/item?id=48957779",
-      "score": 572,
-      "comments": 369,
+      "score": 580,
+      "comments": 380,
       "author": "mbustamanter",
       "published": "2026-07-18T13:00:52Z"
     },
@@ -148,8 +160,8 @@
       "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
       "url": "https://ykdojo.github.io/claude-controls-mac/",
       "discuss_url": "https://news.ycombinator.com/item?id=48959392",
-      "score": 235,
-      "comments": 165,
+      "score": 241,
+      "comments": 175,
       "author": "ykev",
       "published": "2026-07-18T16:12:08Z"
     },
@@ -160,22 +172,10 @@
       "title": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?",
       "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
       "discuss_url": "https://news.ycombinator.com/item?id=48956879",
-      "score": 245,
-      "comments": 119,
+      "score": 248,
+      "comments": 122,
       "author": "couAUIA",
       "published": "2026-07-18T11:00:29Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Claude Code: Anatomy of a Misfeature",
-      "url": "https://www.olafalders.com/2026/07/17/claude-code-anatomy-of-a-misfeature/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48947776",
-      "score": 140,
-      "comments": 119,
-      "author": "oalders",
-      "published": "2026-07-17T14:26:58Z"
     },
     {
       "source": "lobsters",
@@ -184,7 +184,7 @@
       "title": "Triton language for Alibaba SAIL",
       "url": "https://github.com/t-head/triton-for-sail",
       "discuss_url": "https://lobste.rs/s/y8okbv",
-      "score": 1,
+      "score": 3,
       "comments": 0,
       "author": "sanxiyn",
       "published": "2026-07-19T11:43:23Z"
@@ -196,7 +196,7 @@
       "title": "How does Pangram work?",
       "url": "https://pangram.substack.com/p/how-does-pangram-work",
       "discuss_url": "https://lobste.rs/s/femw5f",
-      "score": 13,
+      "score": 14,
       "comments": 5,
       "author": "gnyeki",
       "published": "2026-07-18T06:17:08Z"
@@ -208,22 +208,10 @@
       "title": "Human-like Neural Nets by Catapulting",
       "url": "https://gwern.net/llm-catapult",
       "discuss_url": "https://lobste.rs/s/qmvc5h",
-      "score": 2,
+      "score": 4,
       "comments": 0,
       "author": "sunflowerseastar",
       "published": "2026-07-18T23:32:44Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Inventing ELIZA - How the First Chatbot Shaped the Future of AI",
-      "url": "https://mitpress.mit.edu/9780262052481/inventing-eliza/",
-      "discuss_url": "https://lobste.rs/s/hquwey",
-      "score": 12,
-      "comments": 7,
-      "author": "adamo",
-      "published": "2026-07-15T14:12:05Z"
     },
     {
       "source": "lobsters",
@@ -262,16 +250,16 @@
       "published": "2026-07-16T11:49:48Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Reviewing AI Code Is Not A Viable Argument",
-      "url": "https://softwaremaxims.com/blog/reviewing-ai-code",
-      "discuss_url": "https://lobste.rs/s/5kgenk",
-      "score": 37,
-      "comments": 85,
-      "author": "Diana",
-      "published": "2026-07-18T16:25:19Z"
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Security incident disclosure — July 2026",
+      "url": "https://huggingface.co/blog/security-incident-july-2026",
+      "discuss_url": "https://huggingface.co/blog/security-incident-july-2026",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-16T00:00:00Z"
     },
     {
       "source": "lobsters",
@@ -280,10 +268,22 @@
       "title": "What is your favorite blog to read recently?",
       "url": "https://lobste.rs/s/69mche",
       "discuss_url": "https://lobste.rs/s/69mche",
-      "score": 2,
-      "comments": 0,
+      "score": 38,
+      "comments": 15,
       "author": "oceanhaiyang",
       "published": "2026-07-19T13:14:39Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Reviewing AI Code Is Not A Viable Argument (2025)",
+      "url": "https://softwaremaxims.com/blog/reviewing-ai-code",
+      "discuss_url": "https://lobste.rs/s/5kgenk",
+      "score": 43,
+      "comments": 115,
+      "author": "Diana",
+      "published": "2026-07-18T16:25:19Z"
     },
     {
       "source": "lobsters",
@@ -292,22 +292,10 @@
       "title": "Regressive JPEGs",
       "url": "https://maurycyz.com/projects/bad_jpeg/",
       "discuss_url": "https://lobste.rs/s/ihel7n",
-      "score": 120,
+      "score": 129,
       "comments": 2,
       "author": "lcamtuf",
       "published": "2026-07-18T04:31:13Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Cache Directory Tagging Specification",
-      "url": "https://bford.info/cachedir/",
-      "discuss_url": "https://lobste.rs/s/gm7cmo",
-      "score": 8,
-      "comments": 3,
-      "author": "lim",
-      "published": "2026-07-18T12:27:03Z"
     },
     {
       "source": "lobsters",
@@ -325,10 +313,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Cache Directory Tagging Specification",
+      "url": "https://bford.info/cachedir/",
+      "discuss_url": "https://lobste.rs/s/gm7cmo",
+      "score": 8,
+      "comments": 3,
+      "author": "lim",
+      "published": "2026-07-18T12:27:03Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Software and AI - Plotting vs. Pantsing",
       "url": "https://pyjarrett.github.io/2026/07/18/software-and-ai-plotting-versus-pantsing.html",
       "discuss_url": "https://lobste.rs/s/ba0j54",
-      "score": 3,
+      "score": 5,
       "comments": 0,
       "author": "pyj",
       "published": "2026-07-19T02:14:13Z"
@@ -385,18 +385,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "The Difficulty of Cataloguing LLM Errors",
-      "url": "https://elliotmorris.net/the-difficulty-of-cataloging-llm-errors",
-      "discuss_url": "https://lobste.rs/s/7uvjcd",
-      "score": 2,
-      "comments": 1,
-      "author": "hoistbypetard",
-      "published": "2026-07-15T13:30:12Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Gecode 6.3.0 and 6.4.0 are released",
       "url": "https://zayenz.se/blog/post/gecode-6-3-and-6-4-released/",
       "discuss_url": "https://lobste.rs/s/u6hawc",
@@ -406,13 +394,25 @@
       "published": "2026-07-16T09:29:56Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "The cost of saying yes has changed",
+      "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
+      "discuss_url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
+      "score": null,
+      "comments": null,
+      "author": "Dalia Abuadas",
+      "published": "2026-07-17T16:46:47Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "wp2shell: Pre Authentication RCE in WordPress Core",
       "url": "https://wp2shell.com/",
       "discuss_url": "https://lobste.rs/s/aipvbn",
-      "score": 20,
+      "score": 22,
       "comments": 4,
       "author": "Helithumper",
       "published": "2026-07-18T18:12:17Z"
@@ -424,8 +424,8 @@
       "title": "OpenSSL HollowByte: A DoS Hiding in 11 Bytes",
       "url": "https://sec.okta.com/articles/2026/06/openssl-hollowbtye-a-dos-hiding-in-11-bytes/",
       "discuss_url": "https://lobste.rs/s/tvpnsm",
-      "score": 2,
-      "comments": 7,
+      "score": 4,
+      "comments": 8,
       "author": "refp",
       "published": "2026-07-18T21:10:27Z"
     },
@@ -436,22 +436,10 @@
       "title": "You can't bug fix your way out of the vulnpocalypse",
       "url": "https://alexgaynor.net/2026/jul/15/you-cant-bugfix-your-way-out-of-the-vulnpocalypse/",
       "discuss_url": "https://lobste.rs/s/nkrgcp",
-      "score": 23,
+      "score": 24,
       "comments": 12,
       "author": "freddyb",
       "published": "2026-07-16T07:28:41Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled, Documented in FBI Case Filing",
-      "url": "https://www.ghacks.net/2026/07/12/microsoft-confirms-windows-gdid-device-identifier-that-cannot-be-disabled-documented-in-fbi-case-filing/",
-      "discuss_url": "https://lobste.rs/s/agkcmz",
-      "score": 46,
-      "comments": 11,
-      "author": "raymii",
-      "published": "2026-07-15T15:36:16Z"
     },
     {
       "source": "lobsters",
@@ -541,13 +529,25 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
-      "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
-      "discuss_url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+      "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
+      "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
+      "discuss_url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-17T21:20:10Z"
+      "published": "2026-07-19T13:30:55Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
+      "url": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+      "discuss_url": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-19T13:18:56Z"
     },
     {
       "source": "rss",
@@ -694,18 +694,6 @@
       "published": "2026-07-16T15:00:00Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "industry",
-      "title": "Short sellers notch $8.7B profit as SpaceX shares dip to IPO price",
-      "url": "https://www.reuters.com/business/media-telecom/short-sellers-rack-up-87-bln-profit-spacex-slips-below-ipo-price-ortex-2026-07-16/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48948435",
-      "score": 166,
-      "comments": 180,
-      "author": "1vuio0pswjnm7",
-      "published": "2026-07-17T15:17:54Z"
-    },
-    {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
@@ -836,6 +824,18 @@
       "comments": null,
       "author": "Lee Hutchinson",
       "published": "2026-07-17T15:52:28Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "The report oil companies are worried about: Climate attribution science",
+      "url": "https://arstechnica.com/science/2026/07/national-academies-climate-attribution-is-maturing-but-still-has-limits/",
+      "discuss_url": "https://arstechnica.com/science/2026/07/national-academies-climate-attribution-is-maturing-but-still-has-limits/",
+      "score": null,
+      "comments": null,
+      "author": "John Timmer",
+      "published": "2026-07-17T11:30:10Z"
     }
   ]
 }
