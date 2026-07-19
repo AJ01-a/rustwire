@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T03:16:09Z",
+  "updated_at": "2026-07-19T08:24:49Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
-      "url": "https://ykdojo.github.io/claude-controls-mac/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48959392",
-      "score": 186,
-      "comments": 135,
-      "author": "ykev",
-      "published": "2026-07-18T16:12:08Z",
+      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48957779",
+      "score": 554,
+      "comments": 354,
+      "author": "mbustamanter",
+      "published": "2026-07-18T13:00:52Z",
       "bullets": [
-        "Anthropic's Claude Code CLI agent executes commands directly, making dedicated, isolated hardware like a spare Mac ideal for secure execution.",
-        "Local AI agents require broad shell access, raising risks of prompt injection, data loss, and unauthorized system modifications on primary devices.",
-        "Isolating agentic workflows via SSH, Tailscale, or virtual machines mitigates the security dangers of arbitrary local code execution."
+        "A single prompt enabled GPT-5.6 to resolve a long-standing mathematical bottleneck, demonstrating LLMs' capacity for deep algorithmic discovery.",
+        "This success underscores the power of advanced prompting over fine-tuning for solving complex, theoretical computer science and optimization problems.",
+        "Practitioners should explore LLM-driven heuristic generation to automate and accelerate algorithmic design in operations research and machine learning pipelines."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Reviewing AI Code Is Not A Viable Argument",
       "url": "https://softwaremaxims.com/blog/reviewing-ai-code",
       "discuss_url": "https://lobste.rs/s/5kgenk",
-      "score": 27,
-      "comments": 51,
+      "score": 34,
+      "comments": 72,
       "author": "Diana",
       "published": "2026-07-18T16:25:19Z",
       "bullets": [
-        "High-volume AI code generation causes developer cognitive fatigue, making manual code review an ineffective defense against subtle logic bugs.",
-        "AI models frequently introduce hallucinated dependencies and security vulnerabilities that standard PR reviews fail to catch reliably.",
-        "Shifting the burden of AI-generated code to human reviewers creates QA bottlenecks and increases long-term technical debt."
+        "Human reviewers suffer from automation bias and fatigue, making them ineffective at catching subtle logical bugs in high-volume AI-generated code.",
+        "Tools like GitHub Copilot generate vast amounts of syntactically correct boilerplate, overwhelming standard PR review processes and masking architectural flaws.",
+        "Engineers must shift-left with rigorous CI/CD, SAST scanning, and comprehensive unit tests rather than relying on human QA of LLM outputs."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "wp2shell: Pre Authentication RCE in WordPress Core",
       "url": "https://wp2shell.com/",
       "discuss_url": "https://lobste.rs/s/aipvbn",
-      "score": 11,
+      "score": 15,
       "comments": 3,
       "author": "Helithumper",
       "published": "2026-07-18T18:12:17Z",
       "bullets": [
-        "The wp2shell tool automates exploiting a critical pre-authentication Remote Code Execution vulnerability in WordPress Core to spawn interactive shells.",
-        "Organizations must immediately update WordPress Core to the latest patched version and restrict access to critical PHP endpoints.",
-        "Security teams should deploy WAF rules targeting payload signatures and monitor for unauthorized PHP execution in the wp-content directory."
+        "A critical pre-authentication RCE vulnerability in WordPress Core allows remote attackers to execute arbitrary PHP code without credentials.",
+        "The wp2shell exploit demonstrates how attackers can bypass authentication to upload and execute malicious payloads on WordPress servers.",
+        "Security teams must verify WordPress patch levels, restrict file write permissions, and monitor for anomalous HTTP POST requests."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "AWS: Inaccurate Estimated Billing Data – $1.7 billion",
       "url": "https://news.ycombinator.com/item?id=48945241",
       "discuss_url": "https://news.ycombinator.com/item?id=48945241",
-      "score": 1274,
-      "comments": 736,
+      "score": 1282,
+      "comments": 745,
       "author": "nprateem",
       "published": "2026-07-17T09:42:05Z",
       "bullets": [
-        "An AWS Health Dashboard outage caused extreme billing calculation errors, generating multi-billion-dollar false cost projections for minor workloads.",
-        "Platform engineers must temporarily disable automated budget-termination policies to avoid accidental teardowns of critical infrastructure.",
-        "The incident underscores the vulnerability of relying on cloud provider billing APIs for real-time infrastructure guardrails and alerting."
+        "An AWS billing system glitch reported inaccurate estimated monthly charges, showing false bills up to $1.7 billion for low-spend accounts.",
+        "Verify sudden cloud cost spikes via the AWS Health Dashboard before executing emergency incident response or tearing down infrastructure.",
+        "Configure automated billing alerts with anomaly-detection thresholds to prevent team panic and alert fatigue from cloud provider API errors."
       ]
     },
     {
@@ -106,13 +106,13 @@
       "url": "https://www.reuters.com/business/media-telecom/short-sellers-rack-up-87-bln-profit-spacex-slips-below-ipo-price-ortex-2026-07-16/",
       "discuss_url": "https://news.ycombinator.com/item?id=48948435",
       "score": 166,
-      "comments": 184,
+      "comments": 180,
       "author": "1vuio0pswjnm7",
       "published": "2026-07-17T15:17:54Z",
       "bullets": [
-        "Short sellers secured a massive $8.7B profit, highlighting extreme valuation volatility and correction within the commercial aerospace sector.",
-        "For space tech engineers, valuation swings directly affect funding runways for capital-heavy projects like Starlink and Starship.",
-        "The financial shift underscores growing market skepticism toward lofty pre-revenue or high-multiple valuations in deep tech industries."
+        "Short sellers secured $8.7B in profits, reflecting intense market volatility and downward pressure on high-profile aerospace and defense valuations.",
+        "Despite SpaceX being private, secondary markets and specialized financial instruments enable institutional investors to actively trade and short its valuation.",
+        "The valuation drop signals broader macroeconomic recalibrations affecting late-stage tech liquidity, private equity pricing, and venture-backed space sector investments."
       ]
     }
   ],
@@ -121,25 +121,25 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
-      "url": "https://ykdojo.github.io/claude-controls-mac/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48959392",
-      "score": 186,
-      "comments": 135,
-      "author": "ykev",
-      "published": "2026-07-18T16:12:08Z"
+      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48957779",
+      "score": 554,
+      "comments": 354,
+      "author": "mbustamanter",
+      "published": "2026-07-18T13:00:52Z"
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
-      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48957779",
-      "score": 515,
-      "comments": 328,
-      "author": "mbustamanter",
-      "published": "2026-07-18T13:00:52Z"
+      "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
+      "url": "https://ykdojo.github.io/claude-controls-mac/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48959392",
+      "score": 226,
+      "comments": 154,
+      "author": "ykev",
+      "published": "2026-07-18T16:12:08Z"
     },
     {
       "source": "hackernews",
@@ -148,8 +148,8 @@
       "title": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?",
       "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
       "discuss_url": "https://news.ycombinator.com/item?id=48956879",
-      "score": 219,
-      "comments": 107,
+      "score": 236,
+      "comments": 115,
       "author": "couAUIA",
       "published": "2026-07-18T11:00:29Z"
     },
@@ -160,8 +160,8 @@
       "title": "Apple targets dozens of OpenAI employees with legal letters",
       "url": "https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166",
       "discuss_url": "https://news.ycombinator.com/item?id=48946303",
-      "score": 403,
-      "comments": 366,
+      "score": 407,
+      "comments": 369,
       "author": "merksittich",
       "published": "2026-07-17T12:02:39Z"
     },
@@ -184,7 +184,7 @@
       "title": "How does Pangram work?",
       "url": "https://pangram.substack.com/p/how-does-pangram-work",
       "discuss_url": "https://lobste.rs/s/femw5f",
-      "score": 12,
+      "score": 13,
       "comments": 5,
       "author": "gnyeki",
       "published": "2026-07-18T06:17:08Z"
@@ -268,8 +268,8 @@
       "title": "Reviewing AI Code Is Not A Viable Argument",
       "url": "https://softwaremaxims.com/blog/reviewing-ai-code",
       "discuss_url": "https://lobste.rs/s/5kgenk",
-      "score": 27,
-      "comments": 51,
+      "score": 34,
+      "comments": 72,
       "author": "Diana",
       "published": "2026-07-18T16:25:19Z"
     },
@@ -280,7 +280,7 @@
       "title": "Regressive JPEGs",
       "url": "https://maurycyz.com/projects/bad_jpeg/",
       "discuss_url": "https://lobste.rs/s/ihel7n",
-      "score": 105,
+      "score": 109,
       "comments": 2,
       "author": "lcamtuf",
       "published": "2026-07-18T04:31:13Z"
@@ -292,22 +292,10 @@
       "title": "Cache Directory Tagging Specification",
       "url": "https://bford.info/cachedir/",
       "discuss_url": "https://lobste.rs/s/gm7cmo",
-      "score": 6,
+      "score": 8,
       "comments": 3,
       "author": "lim",
       "published": "2026-07-18T12:27:03Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Software and AI - Plotting vs. Pantsing",
-      "url": "https://pyjarrett.github.io/2026/07/18/software-and-ai-plotting-versus-pantsing.html",
-      "discuss_url": "https://lobste.rs/s/ba0j54",
-      "score": 1,
-      "comments": 0,
-      "author": "pyj",
-      "published": "2026-07-19T02:14:13Z"
     },
     {
       "source": "lobsters",
@@ -317,9 +305,21 @@
       "url": "https://lobste.rs/s/1vplvg",
       "discuss_url": "https://lobste.rs/s/1vplvg",
       "score": 23,
-      "comments": 32,
+      "comments": 33,
       "author": "caius",
       "published": "2026-07-17T08:31:40Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Software and AI - Plotting vs. Pantsing",
+      "url": "https://pyjarrett.github.io/2026/07/18/software-and-ai-plotting-versus-pantsing.html",
+      "discuss_url": "https://lobste.rs/s/ba0j54",
+      "score": 2,
+      "comments": 0,
+      "author": "pyj",
+      "published": "2026-07-19T02:14:13Z"
     },
     {
       "source": "lobsters",
@@ -329,7 +329,7 @@
       "url": "https://lobste.rs/s/76tcpe",
       "discuss_url": "https://lobste.rs/s/76tcpe",
       "score": 29,
-      "comments": 27,
+      "comments": 28,
       "author": "kghose",
       "published": "2026-07-16T13:12:52Z"
     },
@@ -344,18 +344,6 @@
       "comments": 8,
       "author": "yossarian",
       "published": "2026-07-16T13:51:27Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Empathy and delight mean nothing when the software is disrespectful",
-      "url": "https://productpicnic.beehiiv.com/p/empathy-and-delight-mean-nothing-when-the-software-is-disrespectful",
-      "discuss_url": "https://lobste.rs/s/s4qbwh",
-      "score": 23,
-      "comments": 2,
-      "author": "drmorr",
-      "published": "2026-07-15T04:30:14Z"
     },
     {
       "source": "lobsters",
@@ -406,13 +394,25 @@
       "published": "2026-07-16T09:29:56Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "The cost of saying yes has changed",
+      "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
+      "discuss_url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
+      "score": null,
+      "comments": null,
+      "author": "Dalia Abuadas",
+      "published": "2026-07-17T16:46:47Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "wp2shell: Pre Authentication RCE in WordPress Core",
       "url": "https://wp2shell.com/",
       "discuss_url": "https://lobste.rs/s/aipvbn",
-      "score": 11,
+      "score": 15,
       "comments": 3,
       "author": "Helithumper",
       "published": "2026-07-18T18:12:17Z"
@@ -425,7 +425,7 @@
       "url": "https://sec.okta.com/articles/2026/06/openssl-hollowbtye-a-dos-hiding-in-11-bytes/",
       "discuss_url": "https://lobste.rs/s/tvpnsm",
       "score": 2,
-      "comments": 0,
+      "comments": 1,
       "author": "refp",
       "published": "2026-07-18T21:10:27Z"
     },
@@ -556,8 +556,8 @@
       "title": "AWS: Inaccurate Estimated Billing Data – $1.7 billion",
       "url": "https://news.ycombinator.com/item?id=48945241",
       "discuss_url": "https://news.ycombinator.com/item?id=48945241",
-      "score": 1274,
-      "comments": 736,
+      "score": 1282,
+      "comments": 745,
       "author": "nprateem",
       "published": "2026-07-17T09:42:05Z"
     },
@@ -701,7 +701,7 @@
       "url": "https://www.reuters.com/business/media-telecom/short-sellers-rack-up-87-bln-profit-spacex-slips-below-ipo-price-ortex-2026-07-16/",
       "discuss_url": "https://news.ycombinator.com/item?id=48948435",
       "score": 166,
-      "comments": 184,
+      "comments": 180,
       "author": "1vuio0pswjnm7",
       "published": "2026-07-17T15:17:54Z"
     },
