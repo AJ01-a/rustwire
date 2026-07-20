@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T03:30:27Z",
+  "updated_at": "2026-07-20T09:21:35Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,51 +34,51 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Claude Code uses Bun written in Rust now",
-      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48966569",
-      "score": 413,
-      "comments": 576,
-      "author": "tosh",
-      "published": "2026-07-19T10:03:23Z",
+      "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
+      "url": "https://xcancel.com/__alpoge__/status/2079028340955197566",
+      "discuss_url": "https://news.ycombinator.com/item?id=48973869",
+      "score": 379,
+      "comments": 219,
+      "author": "loubbrad",
+      "published": "2026-07-20T02:51:16Z",
       "bullets": [
-        "Anthropic's Claude Code CLI agent leverages Bun and Rust to drastically reduce startup latency and optimize local file-system interactions.",
-        "Deploying AI agents via compiled Rust binaries packaged with Bun runtime enables dependency-free, high-performance execution on developer machines.",
-        "This architectural shift reflects an industry-wide push to move AI agent orchestration from heavy Python stacks to lightweight, native runtimes."
+        "Anthropic's Claude model generated a purported counterexample to the Jacobian Conjecture, a famously unsolved algebraic geometry problem.",
+        "Complex mathematical claims by LLMs often contain subtle algebraic errors, underscoring persistent limitations in deep symbolic reasoning and verification.",
+        "Validating LLM-generated math requires integrating neural models with automated theorem provers like Lean to eliminate hallucinations and verify proofs."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What is your favorite blog to read recently?",
-      "url": "https://lobste.rs/s/69mche",
-      "discuss_url": "https://lobste.rs/s/69mche",
-      "score": 64,
-      "comments": 29,
-      "author": "oceanhaiyang",
-      "published": "2026-07-19T13:14:39Z",
+      "title": "Minimal Git CI using hooks",
+      "url": "https://mccd.space/posts/26-06-29/simple-git-ci",
+      "discuss_url": "https://lobste.rs/s/jr72dt",
+      "score": 4,
+      "comments": 0,
+      "author": "klingtnet",
+      "published": "2026-07-20T08:28:45Z",
       "bullets": [
-        "Prioritize blogs featuring production post-mortems and real-world system failures (e.g., Cloudflare, Fly.io) over abstract academic concepts.",
-        "Seek out deep-dives into low-level implementations and empirical benchmarking (e.g., Dan Luu) to understand practical system trade-offs.",
-        "Value highly interactive, visual explanations of complex engineering and mathematical concepts, such as those by Bartosz Ciechanowski."
+        "Use Git server-side `post-receive` hooks to execute automated test and deployment scripts directly upon pushing code.",
+        "Deploy code efficiently using `git --work-tree` and `git checkout -f` to extract the latest commits to targeted directories.",
+        "Replaces heavy CI/CD systems like Jenkins or GitHub Actions with lightweight shell scripts, reducing infrastructure overhead for small projects."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "wp2shell: Pre Authentication RCE in WordPress Core",
-      "url": "https://wp2shell.com/",
-      "discuss_url": "https://lobste.rs/s/aipvbn",
-      "score": 23,
-      "comments": 4,
-      "author": "Helithumper",
-      "published": "2026-07-18T18:12:17Z",
+      "title": "Fuzzing for fun - unauthenticated denial of service in snac2",
+      "url": "https://nullenvk.pl/posts/02-snac2-json/",
+      "discuss_url": "https://lobste.rs/s/zjnc5o",
+      "score": 4,
+      "comments": 0,
+      "author": "ignaloidas",
+      "published": "2026-07-20T07:04:16Z",
       "bullets": [
-        "A critical pre-authentication RCE vulnerability in WordPress Core, dubbed 'wp2shell', allows remote attackers to execute arbitrary code without credentials.",
-        "Security teams must immediately audit WordPress sites, apply emergency core patches, and monitor web server logs for unauthorized shell uploads.",
-        "Deploy WAF rules to detect and block anomalous unauthenticated POST requests targeting core WordPress PHP files and endpoints."
+        "Fuzzing for fun - unauthenticated denial of service in snac2",
+        "Trending on lobste.rs/security — 4 points, 0 comments.",
+        "Submitted by ignaloidas on lobste.rs/security."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "aws@amazon.com",
       "published": "2026-07-17T17:29:00Z",
       "bullets": [
-        "GameLift Streams now supports IAM roles via the RoleArn parameter, replacing insecure, long-lived embedded access keys for stream sessions.",
-        "Uses the container credential provider mechanism—similar to ECS task roles and EKS Pod Identity—to automatically refresh short-lived AWS tokens.",
-        "Role misconfigurations are validated instantly at session startup, preventing runtime errors and streamlining AWS service access (e.g., S3, DynamoDB)."
+        "Amazon GameLift Streams now supports assigning an IAM role to a stream session, enabling your application to securely access resources in your AWS account, such as Amazon S3 bucke…",
+        "With this launch, you can pass a RoleArn parameter when starting a stream session, and your application automatically receives short-lived, auto-refreshing AWS credentials through…",
+        "Previously, customers who needed their streamed applications to access AWS services had to embed long-lived access keys in application bundles or pass them as environment variable…"
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Stephen Clark",
       "published": "2026-07-19T22:11:21Z",
       "bullets": [
-        "India's private space sector achieves orbital capability, breaking the state-run ISRO monopoly on domestic space launch services.",
-        "The milestone positions India's commercial aerospace startups to compete globally in the rapidly growing small-satellite launch market.",
-        "Regulatory support from IN-SPACe has successfully transitioned India's ecosystem from state-dominated to a viable commercial space industry."
+        "\"On the first attempt, reaching orbit, I never thought it was possible.\"",
+        "India's first privately-developed rocket reaches orbit on dramatic debut launch",
+        "Submitted by Stephen Clark on arstechnica.com."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
+      "url": "https://xcancel.com/__alpoge__/status/2079028340955197566",
+      "discuss_url": "https://news.ycombinator.com/item?id=48973869",
+      "score": 379,
+      "comments": 219,
+      "author": "loubbrad",
+      "published": "2026-07-20T02:51:16Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Claude Code uses Bun written in Rust now",
       "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
       "discuss_url": "https://news.ycombinator.com/item?id=48966569",
-      "score": 413,
-      "comments": 576,
+      "score": 511,
+      "comments": 678,
       "author": "tosh",
       "published": "2026-07-19T10:03:23Z"
     },
@@ -136,8 +148,8 @@
       "title": "OpenAI reduces Codex Model Context Size from 372k to 272k",
       "url": "https://github.com/openai/codex/pull/33972/files",
       "discuss_url": "https://news.ycombinator.com/item?id=48965850",
-      "score": 328,
-      "comments": 156,
+      "score": 343,
+      "comments": 160,
       "author": "AmazingTurtle",
       "published": "2026-07-19T07:54:39Z"
     },
@@ -148,8 +160,8 @@
       "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
       "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
       "discuss_url": "https://news.ycombinator.com/item?id=48957779",
-      "score": 584,
-      "comments": 384,
+      "score": 592,
+      "comments": 386,
       "author": "mbustamanter",
       "published": "2026-07-18T13:00:52Z"
     },
@@ -160,8 +172,8 @@
       "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
       "url": "https://ykdojo.github.io/claude-controls-mac/",
       "discuss_url": "https://news.ycombinator.com/item?id=48959392",
-      "score": 244,
-      "comments": 179,
+      "score": 246,
+      "comments": 184,
       "author": "ykev",
       "published": "2026-07-18T16:12:08Z"
     },
@@ -172,8 +184,8 @@
       "title": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?",
       "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
       "discuss_url": "https://news.ycombinator.com/item?id=48956879",
-      "score": 251,
-      "comments": 124,
+      "score": 256,
+      "comments": 125,
       "author": "couAUIA",
       "published": "2026-07-18T11:00:29Z"
     },
@@ -250,16 +262,40 @@
       "published": "2026-07-16T11:49:48Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Security incident disclosure — July 2026",
-      "url": "https://huggingface.co/blog/security-incident-july-2026",
-      "discuss_url": "https://huggingface.co/blog/security-incident-july-2026",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-16T00:00:00Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Minimal Git CI using hooks",
+      "url": "https://mccd.space/posts/26-06-29/simple-git-ci",
+      "discuss_url": "https://lobste.rs/s/jr72dt",
+      "score": 4,
+      "comments": 0,
+      "author": "klingtnet",
+      "published": "2026-07-20T08:28:45Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/hq0he3",
+      "discuss_url": "https://lobste.rs/s/hq0he3",
+      "score": 4,
+      "comments": 0,
+      "author": "caius",
+      "published": "2026-07-20T08:25:33Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "JSON5E - JSON5 for Humans",
+      "url": "https://github.com/boris-kolpackov/libpdjson5/blob/master/JSON5E.md",
+      "discuss_url": "https://lobste.rs/s/6zlnpk",
+      "score": 1,
+      "comments": 2,
+      "author": "borisk",
+      "published": "2026-07-20T09:02:49Z"
     },
     {
       "source": "lobsters",
@@ -268,8 +304,8 @@
       "title": "What is your favorite blog to read recently?",
       "url": "https://lobste.rs/s/69mche",
       "discuss_url": "https://lobste.rs/s/69mche",
-      "score": 64,
-      "comments": 29,
+      "score": 78,
+      "comments": 42,
       "author": "oceanhaiyang",
       "published": "2026-07-19T13:14:39Z"
     },
@@ -280,8 +316,8 @@
       "title": "Reviewing AI Code Is Not A Viable Argument (2025)",
       "url": "https://softwaremaxims.com/blog/reviewing-ai-code",
       "discuss_url": "https://lobste.rs/s/5kgenk",
-      "score": 45,
-      "comments": 125,
+      "score": 46,
+      "comments": 130,
       "author": "Diana",
       "published": "2026-07-18T16:25:19Z"
     },
@@ -292,7 +328,7 @@
       "title": "Regressive JPEGs",
       "url": "https://maurycyz.com/projects/bad_jpeg/",
       "discuss_url": "https://lobste.rs/s/ihel7n",
-      "score": 138,
+      "score": 141,
       "comments": 2,
       "author": "lcamtuf",
       "published": "2026-07-18T04:31:13Z"
@@ -316,7 +352,7 @@
       "title": "Cache Directory Tagging Specification",
       "url": "https://bford.info/cachedir/",
       "discuss_url": "https://lobste.rs/s/gm7cmo",
-      "score": 8,
+      "score": 9,
       "comments": 3,
       "author": "lim",
       "published": "2026-07-18T12:27:03Z"
@@ -361,18 +397,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Bring modern package management to Meson's native wrap ecosystem",
-      "url": "https://collider.ee/1.5.1/",
-      "discuss_url": "https://lobste.rs/s/9b49zd",
-      "score": 6,
-      "comments": 0,
-      "author": "Mackou",
-      "published": "2026-07-16T08:29:26Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Gecode 6.3.0 and 6.4.0 are released",
       "url": "https://zayenz.se/blog/post/gecode-6-3-and-6-4-released/",
       "discuss_url": "https://lobste.rs/s/u6hawc",
@@ -382,28 +406,16 @@
       "published": "2026-07-16T09:29:56Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "The cost of saying yes has changed",
-      "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
-      "discuss_url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
-      "score": null,
-      "comments": null,
-      "author": "Dalia Abuadas",
-      "published": "2026-07-17T16:46:47Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "GitHub for Beginners: Your roadmap to mastering the GitHub essentials",
-      "url": "https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/",
-      "discuss_url": "https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/",
-      "score": null,
-      "comments": null,
-      "author": "Polly Davidson",
-      "published": "2026-07-15T17:29:31Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Fuzzing for fun - unauthenticated denial of service in snac2",
+      "url": "https://nullenvk.pl/posts/02-snac2-json/",
+      "discuss_url": "https://lobste.rs/s/zjnc5o",
+      "score": 4,
+      "comments": 0,
+      "author": "ignaloidas",
+      "published": "2026-07-20T07:04:16Z"
     },
     {
       "source": "lobsters",
@@ -412,7 +424,7 @@
       "title": "wp2shell: Pre Authentication RCE in WordPress Core",
       "url": "https://wp2shell.com/",
       "discuss_url": "https://lobste.rs/s/aipvbn",
-      "score": 23,
+      "score": 24,
       "comments": 4,
       "author": "Helithumper",
       "published": "2026-07-18T18:12:17Z"
@@ -424,22 +436,10 @@
       "title": "OpenSSL HollowByte: A DoS Hiding in 11 Bytes",
       "url": "https://sec.okta.com/articles/2026/06/openssl-hollowbtye-a-dos-hiding-in-11-bytes/",
       "discuss_url": "https://lobste.rs/s/tvpnsm",
-      "score": 4,
+      "score": 5,
       "comments": 8,
       "author": "refp",
       "published": "2026-07-18T21:10:27Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "You can't bug fix your way out of the vulnpocalypse",
-      "url": "https://alexgaynor.net/2026/jul/15/you-cant-bugfix-your-way-out-of-the-vulnpocalypse/",
-      "discuss_url": "https://lobste.rs/s/nkrgcp",
-      "score": 24,
-      "comments": 12,
-      "author": "freddyb",
-      "published": "2026-07-16T07:28:41Z"
     },
     {
       "source": "lobsters",
@@ -478,18 +478,6 @@
       "published": "2026-07-16T15:35:08Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "A Filtering engine and DB for unpropagated kernel security patches",
-      "url": "https://patchless.natey.sh",
-      "discuss_url": "https://lobste.rs/s/pfz6dj",
-      "score": 2,
-      "comments": 0,
-      "author": "dropalltables",
-      "published": "2026-07-16T05:21:50Z"
-    },
-    {
       "source": "rss",
       "subsource": "krebsonsecurity.com",
       "category": "security",
@@ -517,6 +505,30 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
+      "url": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
+      "discuss_url": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-20T05:27:26Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines",
+      "url": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html",
+      "discuss_url": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-20T05:15:39Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
       "url": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
       "discuss_url": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
@@ -536,18 +548,6 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-07-19T13:30:55Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
-      "url": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
-      "discuss_url": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-19T13:18:56Z"
     },
     {
       "source": "rss",
