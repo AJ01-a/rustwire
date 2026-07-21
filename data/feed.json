@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T14:03:34Z",
+  "updated_at": "2026-07-21T19:42:14Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
-      "url": "https://www.emergingtrajectories.com/lh/frontier-lab-economics/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48980019",
-      "score": 348,
-      "comments": 317,
-      "author": "cl42",
-      "published": "2026-07-20T15:13:42Z",
+      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48993414",
+      "score": 442,
+      "comments": 357,
+      "author": "logickkk1",
+      "published": "2026-07-21T15:17:16Z",
       "bullets": [
-        "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
-        "Trending on news.ycombinator.com — 348 points, 317 comments.",
-        "Submitted by cl42 on news.ycombinator.com."
+        "Google DeepMind expands low-latency LLM options with 3.6 Flash and 3.5 Flash-Lite, targeting high-throughput, cost-sensitive production inference workloads.",
+        "Gemini 3.5 Flash Cyber delivers a fine-tuned model specifically optimized for automated vulnerability detection, threat intelligence, and security operations workflows.",
+        "The release highlights an industry trend toward domain-specific specialization and multi-tier model packaging for optimized latency and enterprise cost management."
       ]
     },
     {
@@ -59,9 +59,9 @@
       "author": "klingtnet",
       "published": "2026-07-20T08:28:45Z",
       "bullets": [
-        "Minimal Git CI using hooks",
-        "Trending on lobste.rs/programming — 34 points, 18 comments.",
-        "Submitted by klingtnet on lobste.rs/programming."
+        "Native Git post-receive hooks enable lightweight, zero-dependency CI/CD pipelines directly on bare Git servers without external orchestrators.",
+        "Execute automated test suites and deployments instantly upon git push by running shell scripts in isolated git worktree directories.",
+        "Eliminates heavy SaaS CI platforms like GitHub Actions, reducing infrastructure complexity for simple self-hosted software projects."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "432 Linux kernel CVEs published in the last 24 hours",
       "url": "https://lore.kernel.org/linux-cve-announce/",
       "discuss_url": "https://lobste.rs/s/t2jxyu",
-      "score": 21,
-      "comments": 10,
+      "score": 26,
+      "comments": 12,
       "author": "Helithumper",
       "published": "2026-07-21T03:50:28Z",
       "bullets": [
-        "432 Linux kernel CVEs published in the last 24 hours",
-        "Trending on lobste.rs/security — 21 points, 10 comments.",
-        "Submitted by Helithumper on lobste.rs/security."
+        "Automated Linux Kernel CNA processes triggered a mass publication of kernel CVEs derived directly from stable patch commits.",
+        "Vulnerability scanners face severe noise, rendering manual CVE triage ineffective for security operations and patch management.",
+        "Security teams should shift from tracking individual CVE IDs to automating updates via upstream stable kernel releases."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "GitHub suddenly rejected my SSH key (the fix was a .pub file?!)",
       "url": "https://thorsell.io/2026/07/21/github-ssh-keys.html",
       "discuss_url": "https://lobste.rs/s/twqtlo",
-      "score": 23,
-      "comments": 12,
+      "score": 45,
+      "comments": 16,
       "author": "GLaDER",
       "published": "2026-07-21T10:11:59Z",
       "bullets": [
-        "GitHub suddenly rejected my SSH key (the fix was a .pub file?!)",
-        "Trending on lobste.rs/devops — 23 points, 12 comments.",
-        "Submitted by GLaDER on lobste.rs/devops."
+        "OpenSSH clients require matching .pub files alongside private keys to compute public key signatures during GitHub SSH authentication pre-flights.",
+        "Missing .pub files break SSH key type detection and certificate matching, causing GitHub to reject valid authentication attempts.",
+        "Audit CI/CD pipelines and developer environments to enforce ed25519 keys and ensure paired .pub files are preserved."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "DA: Cop covered bodycam to snap nude prisoners on his iPhone—but other cams caught him",
-      "url": "https://arstechnica.com/tech-policy/2026/07/cop-charged-with-covering-bodycam-to-photograph-naked-prisoners/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/cop-charged-with-covering-bodycam-to-photograph-naked-prisoners/",
+      "title": "Nintendo customers have no legal right to tariff refunds, company tells judge",
+      "url": "https://arstechnica.com/tech-policy/2026/07/nintendo-customers-have-no-legal-right-to-tariff-refunds-company-tells-judge/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/nintendo-customers-have-no-legal-right-to-tariff-refunds-company-tells-judge/",
       "score": null,
       "comments": null,
-      "author": "Nate Anderson",
-      "published": "2026-07-20T22:15:51Z",
+      "author": "Jon Brodkin",
+      "published": "2026-07-21T19:09:19Z",
       "bullets": [
-        "Pennsylvania cop charged with oppression and obstruction.",
-        "DA: Cop covered bodycam to snap nude prisoners on his iPhone—but other cams caught him",
-        "Submitted by Nate Anderson on arstechnica.com."
+        "Nintendo urged a court to dismiss a class-action lawsuit seeking refunds for import tariffs passed onto Nintendo Switch buyers.",
+        "The company argues consumers paid agreed retail prices for hardware and lack legal standing to reclaim corporate tariff expenses.",
+        "The case underscores precedent risks for consumer electronics vendors facing legal challenges over tariff-driven hardware price adjustments."
       ]
     }
   ],
@@ -121,25 +121,37 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
-      "url": "https://www.emergingtrajectories.com/lh/frontier-lab-economics/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48980019",
-      "score": 348,
-      "comments": 317,
-      "author": "cl42",
-      "published": "2026-07-20T15:13:42Z"
+      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48993414",
+      "score": 442,
+      "comments": 357,
+      "author": "logickkk1",
+      "published": "2026-07-21T15:17:16Z"
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "I found a WordPress RCEs with GPT5.6 and $25",
-      "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/",
-      "discuss_url": "https://news.ycombinator.com/item?id=48975665",
-      "score": 398,
-      "comments": 215,
-      "author": "infosecau",
-      "published": "2026-07-20T08:13:36Z"
+      "title": "Claude Is Not a Compiler",
+      "url": "https://blog.exe.dev/claude-is-not-a-compiler",
+      "discuss_url": "https://news.ycombinator.com/item?id=48993059",
+      "score": 133,
+      "comments": 144,
+      "author": "bryanmikaelian",
+      "published": "2026-07-21T14:49:18Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
+      "url": "https://www.emergingtrajectories.com/lh/frontier-lab-economics/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48980019",
+      "score": 358,
+      "comments": 325,
+      "author": "cl42",
+      "published": "2026-07-20T15:13:42Z"
     },
     {
       "source": "hackernews",
@@ -148,10 +160,22 @@
       "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
       "url": "https://xcancel.com/__alpoge__/status/2079028340955197566",
       "discuss_url": "https://news.ycombinator.com/item?id=48973869",
-      "score": 772,
-      "comments": 482,
+      "score": 783,
+      "comments": 493,
       "author": "loubbrad",
       "published": "2026-07-20T02:51:16Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "I found a WordPress RCEs with GPT5.6 and $25",
+      "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/",
+      "discuss_url": "https://news.ycombinator.com/item?id=48975665",
+      "score": 400,
+      "comments": 225,
+      "author": "infosecau",
+      "published": "2026-07-20T08:13:36Z"
     },
     {
       "source": "lobsters",
@@ -184,7 +208,7 @@
       "title": "Human-like Neural Nets by Catapulting",
       "url": "https://gwern.net/llm-catapult",
       "discuss_url": "https://lobste.rs/s/qmvc5h",
-      "score": 4,
+      "score": 3,
       "comments": 0,
       "author": "sunflowerseastar",
       "published": "2026-07-18T23:32:44Z"
@@ -229,37 +253,13 @@
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
-      "title": "What building Shippy taught us about building agents",
-      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-      "discuss_url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "title": "Security incident disclosure — July 2026",
+      "url": "https://huggingface.co/blog/security-incident-july-2026",
+      "discuss_url": "https://huggingface.co/blog/security-incident-july-2026",
       "score": null,
       "comments": null,
       "author": null,
-      "published": "2026-07-15T17:29:41Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Model Routing Is Simple. Until It Isn’t.",
-      "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
-      "discuss_url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-15T17:27:01Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Welcome Inkling by Thinking Machines",
-      "url": "https://huggingface.co/blog/thinkingmachines-inkling",
-      "discuss_url": "https://huggingface.co/blog/thinkingmachines-inkling",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-15T00:00:00Z"
+      "published": "2026-07-16T00:00:00Z"
     },
     {
       "source": "lobsters",
@@ -280,8 +280,8 @@
       "title": "What is your favorite blog to read recently?",
       "url": "https://lobste.rs/s/69mche",
       "discuss_url": "https://lobste.rs/s/69mche",
-      "score": 113,
-      "comments": 60,
+      "score": 114,
+      "comments": 63,
       "author": "oceanhaiyang",
       "published": "2026-07-19T13:14:39Z"
     },
@@ -292,7 +292,7 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/hq0he3",
       "discuss_url": "https://lobste.rs/s/hq0he3",
-      "score": 15,
+      "score": 16,
       "comments": 34,
       "author": "caius",
       "published": "2026-07-20T08:25:33Z"
@@ -305,7 +305,7 @@
       "url": "https://github.com/boris-kolpackov/libpdjson5/blob/master/JSON5E.md",
       "discuss_url": "https://lobste.rs/s/6zlnpk",
       "score": 10,
-      "comments": 46,
+      "comments": 51,
       "author": "borisk",
       "published": "2026-07-20T09:02:49Z"
     },
@@ -317,7 +317,7 @@
       "url": "https://softwaremaxims.com/blog/reviewing-ai-code",
       "discuss_url": "https://lobste.rs/s/5kgenk",
       "score": 49,
-      "comments": 141,
+      "comments": 145,
       "author": "Diana",
       "published": "2026-07-18T16:25:19Z"
     },
@@ -361,6 +361,18 @@
       "source": "rss",
       "subsource": "github.blog",
       "category": "engineering",
+      "title": "How to build interactive experiences with canvases",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+      "score": null,
+      "comments": null,
+      "author": "Jacklyn Carroll",
+      "published": "2026-07-21T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
       "title": "$100 million for open source: A milestone built by the community",
       "url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
       "discuss_url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
@@ -394,26 +406,14 @@
       "published": "2026-07-15T17:29:31Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "The future of development is full-stack​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿‌‍‌​​﻿​﻿‌‍‌‍​﻿‍​‌‍​‌‌‍‌‌‌‍‌‌​‍﻿‌​﻿‍​​﻿​​​﻿‍​‌‍‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍​​﻿​‍​﻿‌﻿​﻿​‌​‍﻿‌‌‍​﻿​﻿‌‍‌‍‌​‌‍​‍​﻿‌﻿​﻿‍​‌‍‌​​﻿​﻿​﻿‍​​﻿​‌​﻿​‌‌‍‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿‌‍‌​​﻿​﻿‌‍‌‍​﻿‍​‌‍​‌‌‍‌‌‌‍‌‌​‍﻿‌​﻿‍​​﻿​​​﻿‍​‌‍‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍​​﻿​‍​﻿‌﻿​﻿​‌​‍﻿‌‌‍​﻿​﻿‌‍‌‍‌​‌‍​‍​﻿‌﻿​﻿‍​‌‍‌​​﻿​﻿​﻿‍​​﻿​‌​﻿​‌‌‍‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "url": "https://stackoverflow.blog/2026/07/21/the-future-of-development-is-full-stack/",
-      "discuss_url": "https://stackoverflow.blog/2026/07/21/the-future-of-development-is-full-stack/",
-      "score": null,
-      "comments": null,
-      "author": "Phoebe Sajor",
-      "published": "2026-07-21T07:40:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "432 Linux kernel CVEs published in the last 24 hours",
       "url": "https://lore.kernel.org/linux-cve-announce/",
       "discuss_url": "https://lobste.rs/s/t2jxyu",
-      "score": 21,
-      "comments": 10,
+      "score": 26,
+      "comments": 12,
       "author": "Helithumper",
       "published": "2026-07-21T03:50:28Z"
     },
@@ -424,8 +424,8 @@
       "title": "Secrets Don’t Belong in Config",
       "url": "https://secretspec.dev/blog/secrets-dont-belong-in-config/",
       "discuss_url": "https://lobste.rs/s/iypcjj",
-      "score": 11,
-      "comments": 3,
+      "score": 14,
+      "comments": 4,
       "author": "alurm",
       "published": "2026-07-21T00:09:48Z"
     },
@@ -436,10 +436,22 @@
       "title": "Opaque, Interoperable Passkey Records",
       "url": "https://words.filippo.io/passkey-record/",
       "discuss_url": "https://lobste.rs/s/boyu9x",
-      "score": 18,
+      "score": 19,
       "comments": 1,
       "author": "mantej",
       "published": "2026-07-20T22:46:53Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Local Privilege Escalation in set-capabilities versions of snap-confine (CVE-2026-8933)",
+      "url": "https://cdn2.qualys.com/advisory/2026/07/21/snap-confine-set-capabilities.txt",
+      "discuss_url": "https://lobste.rs/s/w7qez9",
+      "score": 1,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-07-21T18:01:28Z"
     },
     {
       "source": "lobsters",
@@ -460,8 +472,8 @@
       "title": "Using LLM-based Verification to Eliminate Bugs in Linux's Network Stack",
       "url": "https://www.basis.ai/blog/verified-nftables/",
       "discuss_url": "https://lobste.rs/s/locapv",
-      "score": 7,
-      "comments": 6,
+      "score": 9,
+      "comments": 7,
       "author": "kirancodes",
       "published": "2026-07-20T13:57:41Z"
     },
@@ -472,10 +484,22 @@
       "title": "Fuzzing for fun - unauthenticated denial of service in snac2",
       "url": "https://nullenvk.pl/posts/02-snac2-json/",
       "discuss_url": "https://lobste.rs/s/zjnc5o",
-      "score": 14,
+      "score": 15,
       "comments": 0,
       "author": "ignaloidas",
       "published": "2026-07-20T07:04:16Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "wp2shell: Pre Authentication RCE in WordPress Core",
+      "url": "https://wp2shell.com/",
+      "discuss_url": "https://lobste.rs/s/aipvbn",
+      "score": 26,
+      "comments": 4,
+      "author": "Helithumper",
+      "published": "2026-07-18T18:12:17Z"
     },
     {
       "source": "lobsters",
@@ -493,34 +517,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "wp2shell: Pre Authentication RCE in WordPress Core",
-      "url": "https://wp2shell.com/",
-      "discuss_url": "https://lobste.rs/s/aipvbn",
-      "score": 25,
-      "comments": 4,
-      "author": "Helithumper",
-      "published": "2026-07-18T18:12:17Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Security incident disclosure — July 2026",
-      "url": "https://huggingface.co/blog/security-incident-july-2026",
-      "discuss_url": "https://lobste.rs/s/ifh0wb",
-      "score": 1,
-      "comments": 0,
-      "author": "kana",
-      "published": "2026-07-21T06:13:09Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "OpenSSL HollowByte: A DoS Hiding in 11 Bytes",
       "url": "https://sec.okta.com/articles/2026/06/openssl-hollowbtye-a-dos-hiding-in-11-bytes/",
       "discuss_url": "https://lobste.rs/s/tvpnsm",
-      "score": 5,
+      "score": 6,
       "comments": 8,
       "author": "refp",
       "published": "2026-07-18T21:10:27Z"
@@ -539,15 +539,15 @@
     },
     {
       "source": "rss",
-      "subsource": "krebsonsecurity.com",
+      "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Microsoft Patches a Record 570 Security Flaws",
-      "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
-      "discuss_url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+      "title": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code",
+      "url": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
+      "discuss_url": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
       "score": null,
       "comments": null,
-      "author": "BrianKrebs",
-      "published": "2026-07-14T19:22:42Z"
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-21T16:06:12Z"
     },
     {
       "source": "lobsters",
@@ -556,10 +556,22 @@
       "title": "GitHub suddenly rejected my SSH key (the fix was a .pub file?!)",
       "url": "https://thorsell.io/2026/07/21/github-ssh-keys.html",
       "discuss_url": "https://lobste.rs/s/twqtlo",
-      "score": 23,
-      "comments": 12,
+      "score": 45,
+      "comments": 16,
       "author": "GLaDER",
       "published": "2026-07-21T10:11:59Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "Using Nagios for small business infrastructure monitoring",
+      "url": "https://tech.chrishardie.com/2026/nagios-small-business-infrastructure-monitoring/",
+      "discuss_url": "https://lobste.rs/s/wub9oc",
+      "score": 2,
+      "comments": 1,
+      "author": "robalex",
+      "published": "2026-07-21T18:35:19Z"
     },
     {
       "source": "hackernews",
@@ -568,7 +580,7 @@
       "title": "Airbus Takes Flight from AWS",
       "url": "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109",
       "discuss_url": "https://news.ycombinator.com/item?id=48976682",
-      "score": 208,
+      "score": 212,
       "comments": 166,
       "author": "bbg2401",
       "published": "2026-07-20T10:12:22Z"
@@ -584,6 +596,66 @@
       "comments": 2,
       "author": "Al3xFor",
       "published": "2026-07-20T16:40:40Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon SES introduces pricing plans",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-pricing-plans/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-pricing-plans/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-21T16:35:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon ECS now provides Action Logs for deployment and orchestration visibility",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-action-logs/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-action-logs/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-21T15:30:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Managed Service for Prometheus supports 1.5B active metrics and 200K rules per workspace",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-1500m-metrics-workspace/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-1500m-metrics-workspace/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-21T14:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-21T07:45:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon RDS for SQL Server now supports Microsoft SQL Server 2025",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sqlserver-supports-sqlserver-2025",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sqlserver-supports-sqlserver-2025",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-21T07:00:00Z"
     },
     {
       "source": "rss",
@@ -623,75 +695,123 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Connect delivers more natural agentic voice experiences with expanded language support and speech controls",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-agentic-voice/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-agentic-voice/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Nintendo customers have no legal right to tariff refunds, company tells judge",
+      "url": "https://arstechnica.com/tech-policy/2026/07/nintendo-customers-have-no-legal-right-to-tariff-refunds-company-tells-judge/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/nintendo-customers-have-no-legal-right-to-tariff-refunds-company-tells-judge/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-20T16:16:00Z"
+      "author": "Jon Brodkin",
+      "published": "2026-07-21T19:09:19Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 I8ge instances are now available in AWS GovCloud (US) Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-i8ge-instances-aws-govcloud-us-regions/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-i8ge-instances-aws-govcloud-us-regions/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Let Tom Hiddleston be your guide to Pompeii's final day",
+      "url": "https://arstechnica.com/science/2026/07/tom-hiddleston-tracks-possible-pompeii-survivors-in-new-docuseries/",
+      "discuss_url": "https://arstechnica.com/science/2026/07/tom-hiddleston-tracks-possible-pompeii-survivors-in-new-docuseries/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-20T16:00:00Z"
+      "author": "Jennifer Ouellette",
+      "published": "2026-07-21T18:17:55Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon WorkSpaces Applications now supports Microsoft OneDrive and Google Drive on Multi-Session fleets",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/storage-multi-session-fleets/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/storage-multi-session-fleets/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Naked mole-rat queens use a chemical signal to suppress fertility in rivals",
+      "url": "https://arstechnica.com/science/2026/07/naked-mole-rat-queens-keep-their-colonies-in-line-with-a-scent/",
+      "discuss_url": "https://arstechnica.com/science/2026/07/naked-mole-rat-queens-keep-their-colonies-in-line-with-a-scent/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-20T15:00:00Z"
+      "author": "Jacek Krywko",
+      "published": "2026-07-21T17:51:52Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Managed Service for Apache Flink now supports Apache Flink 2.3",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-flink-2-3/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-flink-2-3/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Anthropic’s $1.5B copyright settlement approved; only 350 authors opted out",
+      "url": "https://arstechnica.com/tech-policy/2026/07/judge-approves-anthropics-1-5-billion-copyright-settlement-with-authors/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/judge-approves-anthropics-1-5-billion-copyright-settlement-with-authors/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-20T15:00:00Z"
+      "author": "Ashley Belanger",
+      "published": "2026-07-21T17:33:14Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Announcing the general availability of a new AWS Local Zone in Athens, Greece",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-local-zone-athens-greece/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-local-zone-athens-greece/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Sales of Valve's Steam Deck crater after recent price hike",
+      "url": "https://arstechnica.com/gaming/2026/07/steam-deck-sales-are-losing-steam-since-mays-price-hike/",
+      "discuss_url": "https://arstechnica.com/gaming/2026/07/steam-deck-sales-are-losing-steam-since-mays-price-hike/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-20T14:00:00Z"
+      "author": "Kyle Orland",
+      "published": "2026-07-21T17:12:34Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon CloudWatch announces coding agent insights",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-coding-agent-insights/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-coding-agent-insights/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Google announces Gemini 3.6 Flash and cybersecurity AI, teases 3.5 Pro and Gemini 4",
+      "url": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
+      "discuss_url": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-20T09:51:00Z"
+      "author": "Ryan Whitwam",
+      "published": "2026-07-21T16:58:25Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "TreeSize won't renew perpetual-license support unless users subscribe",
+      "url": "https://arstechnica.com/gadgets/2026/07/treesize-wont-renew-perpetual-license-support-unless-users-subscribe/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/07/treesize-wont-renew-perpetual-license-support-unless-users-subscribe/",
+      "score": null,
+      "comments": null,
+      "author": "Scharon Harding",
+      "published": "2026-07-21T15:18:23Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "When your vehicle outlives its cloud: What happens next?",
+      "url": "https://arstechnica.com/cars/2026/07/when-your-vehicle-outlives-its-cloud-what-happens-next/",
+      "discuss_url": "https://arstechnica.com/cars/2026/07/when-your-vehicle-outlives-its-cloud-what-happens-next/",
+      "score": null,
+      "comments": null,
+      "author": "Michael Harley",
+      "published": "2026-07-21T13:36:17Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Apps targeted at US troops contain Chinese and Russian code",
+      "url": "https://arstechnica.com/security/2026/07/apps-targeted-at-us-troops-contain-chinese-and-russian-code/",
+      "discuss_url": "https://arstechnica.com/security/2026/07/apps-targeted-at-us-troops-contain-chinese-and-russian-code/",
+      "score": null,
+      "comments": null,
+      "author": "Dell Cameron, wired.com",
+      "published": "2026-07-21T13:19:38Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "2027 Kia Seltos first drive gives you plenty of SUV for not much $",
+      "url": "https://arstechnica.com/cars/2026/07/2027-kia-seltos-first-drive-telluride-vibes-in-a-smaller-package/",
+      "discuss_url": "https://arstechnica.com/cars/2026/07/2027-kia-seltos-first-drive-telluride-vibes-in-a-smaller-package/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-07-21T13:00:08Z"
     },
     {
       "source": "rss",
@@ -716,126 +836,6 @@
       "comments": null,
       "author": "Jeremy Hsu",
       "published": "2026-07-20T21:55:52Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Judge halts Paramount's $111B purchase of Warner Bros. in win for US states",
-      "url": "https://arstechnica.com/tech-policy/2026/07/judge-halts-paramounts-111b-purchase-of-warner-bros-in-win-for-us-states/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/judge-halts-paramounts-111b-purchase-of-warner-bros-in-win-for-us-states/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-07-20T21:10:14Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The Space Force is now seeking to buy up to $30 billion in rocket launches",
-      "url": "https://arstechnica.com/space/2026/07/the-space-force-is-now-seeking-to-buy-up-to-30-billion-in-rocket-launches/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/the-space-force-is-now-seeking-to-buy-up-to-30-billion-in-rocket-launches/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-07-20T20:30:25Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "AT&T loses key ruling in bid to stop offering basic phone service in California",
-      "url": "https://arstechnica.com/tech-policy/2026/07/att-loses-key-ruling-in-bid-to-stop-offering-basic-phone-service-in-california/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/att-loses-key-ruling-in-bid-to-stop-offering-basic-phone-service-in-california/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-07-20T19:20:49Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "RIP bargain bin: The price impact of Sony's disc-free PlayStation plan",
-      "url": "https://arstechnica.com/gaming/2026/07/our-playstation-price-analysis-shows-why-physical-games-still-matter/",
-      "discuss_url": "https://arstechnica.com/gaming/2026/07/our-playstation-price-analysis-shows-why-physical-games-still-matter/",
-      "score": null,
-      "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-07-20T18:06:05Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "F1 in Belgium: Machine learning algorithms are ruining the sport",
-      "url": "https://arstechnica.com/cars/2026/07/f1-in-belgium-the-2026-cars-look-pathetic-on-all-the-best-racetracks/",
-      "discuss_url": "https://arstechnica.com/cars/2026/07/f1-in-belgium-the-2026-cars-look-pathetic-on-all-the-best-racetracks/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-07-20T15:59:18Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "AliExpress hit with record $625M fine after failing to make EU-ordered fixes",
-      "url": "https://arstechnica.com/tech-policy/2026/07/aliexpress-fined-625m-for-failing-to-remove-unsafe-toys-dangerous-cosmetics/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/aliexpress-fined-625m-for-failing-to-remove-unsafe-toys-dangerous-cosmetics/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-07-20T15:32:45Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The first trailer for Avengers: Doomsday is finally here",
-      "url": "https://arstechnica.com/culture/2026/07/the-first-trailer-for-avengers-doomsday-is-finally-here/",
-      "discuss_url": "https://arstechnica.com/culture/2026/07/the-first-trailer-for-avengers-doomsday-is-finally-here/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-07-20T14:33:46Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Pay up or not? Ransomware surge has victims facing tough choices.",
-      "url": "https://arstechnica.com/security/2026/07/pay-up-or-not-ransomware-surge-has-victims-facing-tough-choices/",
-      "discuss_url": "https://arstechnica.com/security/2026/07/pay-up-or-not-ransomware-surge-has-victims-facing-tough-choices/",
-      "score": null,
-      "comments": null,
-      "author": "Hannah Murphy, Financial Times",
-      "published": "2026-07-20T14:00:50Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Beyond grep: The case for a context-rich AI coding harness",
-      "url": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/",
-      "discuss_url": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/",
-      "score": null,
-      "comments": null,
-      "author": "Samuel Axon",
-      "published": "2026-07-20T11:20:10Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "India's first privately developed rocket reaches orbit on dramatic debut launch",
-      "url": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-07-19T22:11:21Z"
     }
   ]
 }
