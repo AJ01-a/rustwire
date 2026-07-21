@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T02:56:52Z",
+  "updated_at": "2026-07-21T08:46:42Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
       "url": "https://www.emergingtrajectories.com/lh/frontier-lab-economics/",
       "discuss_url": "https://news.ycombinator.com/item?id=48980019",
-      "score": 302,
-      "comments": 298,
+      "score": 334,
+      "comments": 309,
       "author": "cl42",
       "published": "2026-07-20T15:13:42Z",
       "bullets": [
-        "Moonshot’s Kimi K3 and Alibaba’s Qwen series signal rapid progress in Chinese frontier-class LLMs, focusing heavily on advanced reasoning capabilities.",
-        "Anthropic faces headwinds amid rumored talent departures, compute allocation strains, and pressure to deliver a definitive Claude 3.5 Opus successor.",
-        "The competitive landscape highlights a structural shift from raw pre-training scale to RL-based test-time compute and inference-time scaling search."
+        "Moonshot’s Kimi K3 and Alibaba’s Qwen models deliver rapid reasoning breakthroughs, narrowing the gap with Western frontier LLMs.",
+        "Anthropic faces competitive pressure and rumored training bottlenecks, threatening its market position and the delayed Claude 3.5 Opus release.",
+        "The shift toward reinforcement learning and test-time compute democratizes advanced reasoning, diminishing the competitive moat of proprietary models."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "Minimal Git CI using hooks",
       "url": "https://mccd.space/posts/26-06-29/simple-git-ci",
       "discuss_url": "https://lobste.rs/s/jr72dt",
-      "score": 28,
-      "comments": 14,
+      "score": 31,
+      "comments": 17,
       "author": "klingtnet",
       "published": "2026-07-20T08:28:45Z",
       "bullets": [
-        "Leverage server-side Git post-receive hooks in bare repositories to trigger automated builds and deployments without external CI/CD servers.",
-        "Execute isolated test suites and linters via shell scripts, utilizing custom environment variables and SSH keys for secure production deployments.",
-        "Ideal for solo developers or micro-projects seeking zero-dependency, ultra-fast pipelines, bypassing resource-heavy platforms like GitHub Actions or GitLab CI."
+        "Minimal Git CI using hooks",
+        "Trending on lobste.rs/programming — 31 points, 17 comments.",
+        "Submitted by klingtnet on lobste.rs/programming."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Secrets Don’t Belong in Config",
-      "url": "https://secretspec.dev/blog/secrets-dont-belong-in-config/",
-      "discuss_url": "https://lobste.rs/s/iypcjj",
-      "score": 4,
-      "comments": 1,
-      "author": "alurm",
-      "published": "2026-07-21T00:09:48Z",
+      "title": "432 Linux kernel CVEs published in the last 24 hours",
+      "url": "https://lore.kernel.org/linux-cve-announce/",
+      "discuss_url": "https://lobste.rs/s/t2jxyu",
+      "score": 8,
+      "comments": 3,
+      "author": "Helithumper",
+      "published": "2026-07-21T03:50:28Z",
       "bullets": [
-        "Secrets Don’t Belong in Config",
-        "Trending on lobste.rs/security — 4 points, 1 comments.",
-        "Submitted by alurm on lobste.rs/security."
+        "The sudden publication of 432 Linux kernel CVEs stems from the kernel team's active CNA status backporting fixes to stable branches.",
+        "Security teams must employ automated patch triage to counter severe alert fatigue caused by this massive volume of newly-assigned CVEs.",
+        "Many of these CVEs likely represent low-severity bugs or historic stable-tree fixes, necessitating risk-based prioritization over simple CVSS scores."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "Airbus Takes Flight from AWS",
       "url": "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109",
       "discuss_url": "https://news.ycombinator.com/item?id=48976682",
-      "score": 194,
-      "comments": 158,
+      "score": 204,
+      "comments": 160,
       "author": "bbg2401",
       "published": "2026-07-20T10:12:22Z",
       "bullets": [
-        "Airbus Takes Flight from AWS",
-        "Trending on news.ycombinator.com — 194 points, 158 comments.",
-        "Submitted by bbg2401 on news.ycombinator.com."
+        "Large-scale cloud repatriation by Airbus signals a shift toward hybrid/private infrastructure for better cost predictability and strict data sovereignty control.",
+        "DevOps pipelines must adapt from AWS-managed services like EKS and RDS to platform-agnostic, self-hosted alternatives like Kubernetes on bare metal.",
+        "Infrastructure-as-Code designs must prioritize cloud portability using tools like Terraform to mitigate lock-in and ease potential egress strategies."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Nate Anderson",
       "published": "2026-07-20T22:15:51Z",
       "bullets": [
-        "Pennsylvania cop charged with oppression and obstruction.",
-        "DA: Cop covered bodycam to snap nude prisoners on his iPhone—but other cams caught him",
-        "Submitted by Nate Anderson on arstechnica.com."
+        "Overlapping camera coverage neutralized local device tampering, demonstrating the value of multi-source audit trails and redundant physical surveillance networks.",
+        "Physical tampering of body-worn cameras highlights the operational necessity for automated, real-time camera obstruction detection and alert systems.",
+        "Unauthorized personal iPhone usage in secure holding areas exposes policy bypasses, emphasizing the need for strict device-detection and MDM enforcement."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
       "url": "https://www.emergingtrajectories.com/lh/frontier-lab-economics/",
       "discuss_url": "https://news.ycombinator.com/item?id=48980019",
-      "score": 302,
-      "comments": 298,
+      "score": 334,
+      "comments": 309,
       "author": "cl42",
       "published": "2026-07-20T15:13:42Z"
     },
@@ -136,8 +136,8 @@
       "title": "I found a WordPress RCEs with GPT5.6 and $25",
       "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/",
       "discuss_url": "https://news.ycombinator.com/item?id=48975665",
-      "score": 386,
-      "comments": 210,
+      "score": 392,
+      "comments": 214,
       "author": "infosecau",
       "published": "2026-07-20T08:13:36Z"
     },
@@ -148,8 +148,8 @@
       "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
       "url": "https://xcancel.com/__alpoge__/status/2079028340955197566",
       "discuss_url": "https://news.ycombinator.com/item?id=48973869",
-      "score": 692,
-      "comments": 447,
+      "score": 749,
+      "comments": 471,
       "author": "loubbrad",
       "published": "2026-07-20T02:51:16Z"
     },
@@ -160,22 +160,10 @@
       "title": "Claude Code uses Bun written in Rust now",
       "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
       "discuss_url": "https://news.ycombinator.com/item?id=48966569",
-      "score": 594,
-      "comments": 817,
+      "score": 597,
+      "comments": 824,
       "author": "tosh",
       "published": "2026-07-19T10:03:23Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "OpenAI reduces Codex Model Context Size from 372k to 272k",
-      "url": "https://github.com/openai/codex/pull/33972/files",
-      "discuss_url": "https://news.ycombinator.com/item?id=48965850",
-      "score": 367,
-      "comments": 163,
-      "author": "AmazingTurtle",
-      "published": "2026-07-19T07:54:39Z"
     },
     {
       "source": "lobsters",
@@ -241,18 +229,6 @@
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
-      "title": "Security incident disclosure — July 2026",
-      "url": "https://huggingface.co/blog/security-incident-july-2026",
-      "discuss_url": "https://huggingface.co/blog/security-incident-july-2026",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-16T00:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
       "title": "What building Shippy taught us about building agents",
       "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
       "discuss_url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
@@ -262,14 +238,38 @@
       "published": "2026-07-15T17:29:41Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Model Routing Is Simple. Until It Isn’t.",
+      "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+      "discuss_url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-15T17:27:01Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Welcome Inkling by Thinking Machines",
+      "url": "https://huggingface.co/blog/thinkingmachines-inkling",
+      "discuss_url": "https://huggingface.co/blog/thinkingmachines-inkling",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-15T00:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Minimal Git CI using hooks",
       "url": "https://mccd.space/posts/26-06-29/simple-git-ci",
       "discuss_url": "https://lobste.rs/s/jr72dt",
-      "score": 28,
-      "comments": 14,
+      "score": 31,
+      "comments": 17,
       "author": "klingtnet",
       "published": "2026-07-20T08:28:45Z"
     },
@@ -280,8 +280,8 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/hq0he3",
       "discuss_url": "https://lobste.rs/s/hq0he3",
-      "score": 14,
-      "comments": 28,
+      "score": 15,
+      "comments": 33,
       "author": "caius",
       "published": "2026-07-20T08:25:33Z"
     },
@@ -293,7 +293,7 @@
       "url": "https://github.com/boris-kolpackov/libpdjson5/blob/master/JSON5E.md",
       "discuss_url": "https://lobste.rs/s/6zlnpk",
       "score": 9,
-      "comments": 38,
+      "comments": 42,
       "author": "borisk",
       "published": "2026-07-20T09:02:49Z"
     },
@@ -304,7 +304,7 @@
       "title": "What is your favorite blog to read recently?",
       "url": "https://lobste.rs/s/69mche",
       "discuss_url": "https://lobste.rs/s/69mche",
-      "score": 110,
+      "score": 113,
       "comments": 60,
       "author": "oceanhaiyang",
       "published": "2026-07-19T13:14:39Z"
@@ -332,18 +332,6 @@
       "comments": 2,
       "author": "lcamtuf",
       "published": "2026-07-18T04:31:13Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/1vplvg",
-      "discuss_url": "https://lobste.rs/s/1vplvg",
-      "score": 23,
-      "comments": 34,
-      "author": "caius",
-      "published": "2026-07-17T08:31:40Z"
     },
     {
       "source": "lobsters",
@@ -406,16 +394,28 @@
       "published": "2026-07-15T17:29:31Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "The future of development is full-stack​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿‌‍‌​​﻿​﻿‌‍‌‍​﻿‍​‌‍​‌‌‍‌‌‌‍‌‌​‍﻿‌​﻿‍​​﻿​​​﻿‍​‌‍‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍​​﻿​‍​﻿‌﻿​﻿​‌​‍﻿‌‌‍​﻿​﻿‌‍‌‍‌​‌‍​‍​﻿‌﻿​﻿‍​‌‍‌​​﻿​﻿​﻿‍​​﻿​‌​﻿​‌‌‍‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿‌‍‌​​﻿​﻿‌‍‌‍​﻿‍​‌‍​‌‌‍‌‌‌‍‌‌​‍﻿‌​﻿‍​​﻿​​​﻿‍​‌‍‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍​​﻿​‍​﻿‌﻿​﻿​‌​‍﻿‌‌‍​﻿​﻿‌‍‌‍‌​‌‍​‍​﻿‌﻿​﻿‍​‌‍‌​​﻿​﻿​﻿‍​​﻿​‌​﻿​‌‌‍‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/07/21/the-future-of-development-is-full-stack/",
+      "discuss_url": "https://stackoverflow.blog/2026/07/21/the-future-of-development-is-full-stack/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-07-21T07:40:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Secrets Don’t Belong in Config",
-      "url": "https://secretspec.dev/blog/secrets-dont-belong-in-config/",
-      "discuss_url": "https://lobste.rs/s/iypcjj",
-      "score": 4,
-      "comments": 1,
-      "author": "alurm",
-      "published": "2026-07-21T00:09:48Z"
+      "title": "432 Linux kernel CVEs published in the last 24 hours",
+      "url": "https://lore.kernel.org/linux-cve-announce/",
+      "discuss_url": "https://lobste.rs/s/t2jxyu",
+      "score": 8,
+      "comments": 3,
+      "author": "Helithumper",
+      "published": "2026-07-21T03:50:28Z"
     },
     {
       "source": "lobsters",
@@ -424,8 +424,8 @@
       "title": "Opaque, Interoperable Passkey Records",
       "url": "https://words.filippo.io/passkey-record/",
       "discuss_url": "https://lobste.rs/s/boyu9x",
-      "score": 8,
-      "comments": 0,
+      "score": 10,
+      "comments": 1,
       "author": "mantej",
       "published": "2026-07-20T22:46:53Z"
     },
@@ -436,10 +436,22 @@
       "title": "7 Sandbox Escape Vulnerabilities Across 4 Coding Agent Vendors",
       "url": "https://www.pillar.security/blog/the-week-of-sandbox-escapes",
       "discuss_url": "https://lobste.rs/s/bper0d",
-      "score": 2,
-      "comments": 8,
+      "score": 7,
+      "comments": 11,
       "author": "afogel",
       "published": "2026-07-20T14:33:55Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Secrets Don’t Belong in Config",
+      "url": "https://secretspec.dev/blog/secrets-dont-belong-in-config/",
+      "discuss_url": "https://lobste.rs/s/iypcjj",
+      "score": 3,
+      "comments": 2,
+      "author": "alurm",
+      "published": "2026-07-21T00:09:48Z"
     },
     {
       "source": "lobsters",
@@ -449,9 +461,33 @@
       "url": "https://www.basis.ai/blog/verified-nftables/",
       "discuss_url": "https://lobste.rs/s/locapv",
       "score": 5,
-      "comments": 2,
+      "comments": 3,
       "author": "kirancodes",
       "published": "2026-07-20T13:57:41Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Security incident disclosure — July 2026",
+      "url": "https://huggingface.co/blog/security-incident-july-2026",
+      "discuss_url": "https://lobste.rs/s/ifh0wb",
+      "score": 1,
+      "comments": 0,
+      "author": "kana",
+      "published": "2026-07-21T06:13:09Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Fuzzing for fun - unauthenticated denial of service in snac2",
+      "url": "https://nullenvk.pl/posts/02-snac2-json/",
+      "discuss_url": "https://lobste.rs/s/zjnc5o",
+      "score": 14,
+      "comments": 0,
+      "author": "ignaloidas",
+      "published": "2026-07-20T07:04:16Z"
     },
     {
       "source": "lobsters",
@@ -469,30 +505,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "SleeperGem: RubyGems supply chain attack targets dormant maintainer accounts",
-      "url": "https://www.aikido.dev/blog/sleepergem-rubygems-supply-chain-attack",
-      "discuss_url": "https://lobste.rs/s/xbfsho",
-      "score": 2,
-      "comments": 0,
-      "author": "noteflakes",
-      "published": "2026-07-20T21:39:00Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Fuzzing for fun - unauthenticated denial of service in snac2",
-      "url": "https://nullenvk.pl/posts/02-snac2-json/",
-      "discuss_url": "https://lobste.rs/s/zjnc5o",
-      "score": 13,
-      "comments": 0,
-      "author": "ignaloidas",
-      "published": "2026-07-20T07:04:16Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "wp2shell: Pre Authentication RCE in WordPress Core",
       "url": "https://wp2shell.com/",
       "discuss_url": "https://lobste.rs/s/aipvbn",
@@ -500,6 +512,18 @@
       "comments": 4,
       "author": "Helithumper",
       "published": "2026-07-18T18:12:17Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "SleeperGem: RubyGems supply chain attack targets dormant maintainer accounts",
+      "url": "https://www.aikido.dev/blog/sleepergem-rubygems-supply-chain-attack",
+      "discuss_url": "https://lobste.rs/s/xbfsho",
+      "score": 2,
+      "comments": 0,
+      "author": "noteflakes",
+      "published": "2026-07-20T21:39:00Z"
     },
     {
       "source": "lobsters",
@@ -526,38 +550,14 @@
       "published": "2026-07-17T13:27:36Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "How Far Behind the Frontier are Leading Open Weight Models on Cyber?",
-      "url": "https://www.aisi.gov.uk/blog/how-far-behind-the-frontier-are-leading-open-weight-models-on-cyber",
-      "discuss_url": "https://lobste.rs/s/vrcctk",
-      "score": 3,
-      "comments": 0,
-      "author": "freddyb",
-      "published": "2026-07-17T13:28:04Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "krebsonsecurity.com",
-      "category": "security",
-      "title": "Microsoft Patches a Record 570 Security Flaws",
-      "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
-      "discuss_url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
-      "score": null,
-      "comments": null,
-      "author": "BrianKrebs",
-      "published": "2026-07-14T19:22:42Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Airbus Takes Flight from AWS",
       "url": "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109",
       "discuss_url": "https://news.ycombinator.com/item?id=48976682",
-      "score": 194,
-      "comments": 158,
+      "score": 204,
+      "comments": 160,
       "author": "bbg2401",
       "published": "2026-07-20T10:12:22Z"
     },
@@ -568,8 +568,8 @@
       "title": "A deep dive into my Forgejo setup",
       "url": "https://a.l3x.in/blog/welcome-to-my-forge/",
       "discuss_url": "https://lobste.rs/s/jhcyuq",
-      "score": 11,
-      "comments": 1,
+      "score": 13,
+      "comments": 2,
       "author": "Al3xFor",
       "published": "2026-07-20T16:40:40Z"
     },
