@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T08:36:24Z",
+  "updated_at": "2026-07-22T14:07:01Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "OpenAI and Hugging Face address security incident during model evaluation",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
       "discuss_url": "https://news.ycombinator.com/item?id=48997548",
-      "score": 1092,
-      "comments": 738,
+      "score": 1374,
+      "comments": 926,
       "author": "mfiguiere",
       "published": "2026-07-21T20:09:52Z",
       "bullets": [
-        "OpenAI and Hugging Face resolved a security breach in automated model evaluation pipelines affecting shared code execution sandboxes.",
-        "The vulnerability stems from executing untrusted benchmark code and loading unverified model artifacts directly in evaluation environments.",
-        "AI engineering teams must isolate evaluation runtimes, enforce strict egress filtering, and rotate Hugging Face API tokens immediately."
+        "OpenAI and Hugging Face mitigated a July 2026 security incident involving automated model evaluation and benchmarking workflows.",
+        "Unsafe code execution from untrusted model weights or scripts poses severe remote code execution risks to evaluation infrastructure.",
+        "AI security teams must strictly sandbox dynamic evaluation pipelines, enforcing zero-trust egress controls and isolated container runtimes."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "libei integrations in the XDG RemoteDesktop and InputCapture portals",
       "url": "http://who-t.blogspot.com/2026/07/libei-integrations-in-xdg-remotedesktop.html",
       "discuss_url": "https://lobste.rs/s/egdij3",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "calvin",
       "published": "2026-07-22T07:21:31Z",
       "bullets": [
-        "libei provides secure input emulation and capture for Wayland, replacing unsafe legacy X11 input injection mechanisms.",
-        "Integration into XDG RemoteDesktop and InputCapture portals exposes sandboxed client-server EIS protocol endpoints.",
-        "Enables Flatpak apps and Wayland compositors to handle remote control and cross-device input sharing without compromising isolation."
+        "libei standardizes sandboxed input emulation on Wayland, replacing legacy X11 XTest mechanisms with secure client-receiver D-Bus communication channels.",
+        "xdg-desktop-portal RemoteDesktop integration uses libei to securely inject synthetic mouse and keyboard events into sandboxed Wayland sessions.",
+        "The InputCapture portal leverages libei to safely intercept and forward local hardware events to external devices across desktop boundary edges."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "discuss_url": "https://lobste.rs/s/ny0yzm",
-      "score": 9,
-      "comments": 0,
+      "score": 40,
+      "comments": 6,
       "author": "raymii",
       "published": "2026-07-22T05:56:08Z",
       "bullets": [
-        "LG webOS is banning app developers from bundling residential proxy SDKs that monetize consumer bandwidth and turn smart TVs into nodes.",
-        "The policy targets malicious proxy networks leveraging home IoT devices to obfuscate credential stuffing, DDoS, and automated scraping attacks.",
-        "Security teams should expect reduced residential IP pool availability while auditing third-party SDKs in IoT app ecosystems for covert proxying."
+        "Monetization SDKs embedded in webOS apps frequently turn smart TVs into unauthorized residential proxy nodes for third-party traffic.",
+        "Cybercriminals exploit these residential IPs to bypass WAFs, rate limits, and anti-bot defenses in automated credential stuffing attacks.",
+        "Banning proxyware targets IoT device abuse, preventing consumer hardware from being weaponized within commercial proxy networks."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "GitHub suddenly rejected my SSH key (the fix was a .pub file?!)",
       "url": "https://thorsell.io/2026/07/21/github-ssh-keys.html",
       "discuss_url": "https://lobste.rs/s/twqtlo",
-      "score": 53,
-      "comments": 17,
+      "score": 56,
+      "comments": 18,
       "author": "GLaDER",
       "published": "2026-07-21T10:11:59Z",
       "bullets": [
-        "OpenSSH requires local .pub files alongside private keys to optimize key selection and present valid public key signatures to ssh-agent.",
-        "Missing .pub files cause OpenSSH to iterate all agent keys, triggering GitHub rate limits or \"Too many authentication failures\" drops.",
-        "Keep matching .pub files in ~/.ssh/ and configure IdentitiesOnly yes in ~/.ssh/config to ensure deterministic identity selection."
+        "OpenSSH clients require local .pub files alongside private keys to correctly offer public key parameters and negotiate signature algorithms with GitHub.",
+        "Missing public key files cause silent SSH authentication failures in automated pipelines, CI/CD runners, and developer environments.",
+        "Store corresponding .pub files alongside private keys or explicitly map IdentityFile paths in local and CI SSH configurations."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Jonathan M. Gitlin",
       "published": "2026-07-21T23:01:23Z",
       "bullets": [
-        "Range Rover is introducing the Range Rover GT, marking a strategic shift away from traditional high-riding SUV form factors.",
-        "The new platform will debut initially as a battery electric vehicle (BEV) to lead the brand's electrification strategy.",
-        "Jaguar Land Rover plans to follow the primary EV rollout with an alternative hybrid powertrain variant."
+        "Jaguar Land Rover is expanding the Range Rover brand beyond traditional SUVs with an upcoming Range Rover GT model.",
+        "The new vehicle will debut as a fully electric model before introducing a hybrid powertrain variant.",
+        "The pivot to a non-SUV form factor targets the high-performance luxury electric grand tourer market segment."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "OpenAI and Hugging Face address security incident during model evaluation",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
       "discuss_url": "https://news.ycombinator.com/item?id=48997548",
-      "score": 1092,
-      "comments": 738,
+      "score": 1374,
+      "comments": 926,
       "author": "mfiguiere",
       "published": "2026-07-21T20:09:52Z"
     },
@@ -136,22 +136,10 @@
       "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
       "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
       "discuss_url": "https://news.ycombinator.com/item?id=48996652",
-      "score": 331,
-      "comments": 249,
+      "score": 467,
+      "comments": 431,
       "author": "BeetleB",
       "published": "2026-07-21T19:04:39Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
-      "url": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
-      "discuss_url": "https://news.ycombinator.com/item?id=48998404",
-      "score": 188,
-      "comments": 69,
-      "author": "hershyb_",
-      "published": "2026-07-21T21:13:20Z"
     },
     {
       "source": "hackernews",
@@ -160,10 +148,34 @@
       "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
       "discuss_url": "https://news.ycombinator.com/item?id=48993414",
-      "score": 680,
-      "comments": 517,
+      "score": 726,
+      "comments": 544,
       "author": "logickkk1",
       "published": "2026-07-21T15:17:16Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
+      "url": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
+      "discuss_url": "https://news.ycombinator.com/item?id=48998404",
+      "score": 227,
+      "comments": 80,
+      "author": "hershyb_",
+      "published": "2026-07-21T21:13:20Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Claude Is Not a Compiler",
+      "url": "https://blog.exe.dev/claude-is-not-a-compiler",
+      "discuss_url": "https://news.ycombinator.com/item?id=48993059",
+      "score": 154,
+      "comments": 159,
+      "author": "bryanmikaelian",
+      "published": "2026-07-21T14:49:18Z"
     },
     {
       "source": "hackernews",
@@ -172,7 +184,7 @@
       "title": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
       "url": "https://www.emergingtrajectories.com/lh/frontier-lab-economics/",
       "discuss_url": "https://news.ycombinator.com/item?id=48980019",
-      "score": 363,
+      "score": 365,
       "comments": 333,
       "author": "cl42",
       "published": "2026-07-20T15:13:42Z"
@@ -181,10 +193,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
+      "title": "Two years of vector search at Notion: 10x scale, 1/10th cost",
+      "url": "https://www.notion.com/blog/two-years-of-vector-search-at-notion",
+      "discuss_url": "https://lobste.rs/s/1xbtlo",
+      "score": 1,
+      "comments": 0,
+      "author": "JulianWgs",
+      "published": "2026-07-22T10:09:50Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
       "title": "Triton language for Alibaba SAIL",
       "url": "https://github.com/t-head/triton-for-sail",
       "discuss_url": "https://lobste.rs/s/y8okbv",
-      "score": 4,
+      "score": 5,
       "comments": 1,
       "author": "sanxiyn",
       "published": "2026-07-19T11:43:23Z"
@@ -238,37 +262,13 @@
       "published": "2026-07-16T11:49:48Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Security incident disclosure — July 2026",
-      "url": "https://huggingface.co/blog/security-incident-july-2026",
-      "discuss_url": "https://huggingface.co/blog/security-incident-july-2026",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-16T00:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "What building Shippy taught us about building agents",
-      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-      "discuss_url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-15T17:29:41Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "libei integrations in the XDG RemoteDesktop and InputCapture portals",
       "url": "http://who-t.blogspot.com/2026/07/libei-integrations-in-xdg-remotedesktop.html",
       "discuss_url": "https://lobste.rs/s/egdij3",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "calvin",
       "published": "2026-07-22T07:21:31Z"
@@ -280,7 +280,7 @@
       "title": "What is your favorite blog to read recently?",
       "url": "https://lobste.rs/s/69mche",
       "discuss_url": "https://lobste.rs/s/69mche",
-      "score": 116,
+      "score": 117,
       "comments": 63,
       "author": "oceanhaiyang",
       "published": "2026-07-19T13:14:39Z"
@@ -305,7 +305,7 @@
       "url": "https://lobste.rs/s/hq0he3",
       "discuss_url": "https://lobste.rs/s/hq0he3",
       "score": 16,
-      "comments": 34,
+      "comments": 35,
       "author": "caius",
       "published": "2026-07-20T08:25:33Z"
     },
@@ -317,7 +317,7 @@
       "url": "https://github.com/boris-kolpackov/libpdjson5/blob/master/JSON5E.md",
       "discuss_url": "https://lobste.rs/s/6zlnpk",
       "score": 10,
-      "comments": 55,
+      "comments": 56,
       "author": "borisk",
       "published": "2026-07-20T09:02:49Z"
     },
@@ -329,21 +329,9 @@
       "url": "https://softwaremaxims.com/blog/reviewing-ai-code",
       "discuss_url": "https://lobste.rs/s/5kgenk",
       "score": 50,
-      "comments": 146,
+      "comments": 147,
       "author": "Diana",
       "published": "2026-07-18T16:25:19Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Cache Directory Tagging Specification",
-      "url": "https://bford.info/cachedir/",
-      "discuss_url": "https://lobste.rs/s/gm7cmo",
-      "score": 11,
-      "comments": 3,
-      "author": "lim",
-      "published": "2026-07-18T12:27:03Z"
     },
     {
       "source": "lobsters",
@@ -406,14 +394,26 @@
       "published": "2026-07-15T17:29:31Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "The future of development is full-stack​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿‌‍‌​​﻿​﻿‌‍‌‍​﻿‍​‌‍​‌‌‍‌‌‌‍‌‌​‍﻿‌​﻿‍​​﻿​​​﻿‍​‌‍‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍​​﻿​‍​﻿‌﻿​﻿​‌​‍﻿‌‌‍​﻿​﻿‌‍‌‍‌​‌‍​‍​﻿‌﻿​﻿‍​‌‍‌​​﻿​﻿​﻿‍​​﻿​‌​﻿​‌‌‍‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿‌‍‌​​﻿​﻿‌‍‌‍​﻿‍​‌‍​‌‌‍‌‌‌‍‌‌​‍﻿‌​﻿‍​​﻿​​​﻿‍​‌‍‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍​​﻿​‍​﻿‌﻿​﻿​‌​‍﻿‌‌‍​﻿​﻿‌‍‌‍‌​‌‍​‍​﻿‌﻿​﻿‍​‌‍‌​​﻿​﻿​﻿‍​​﻿​‌​﻿​‌‌‍‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/07/21/the-future-of-development-is-full-stack/",
+      "discuss_url": "https://stackoverflow.blog/2026/07/21/the-future-of-development-is-full-stack/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-07-21T07:40:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "discuss_url": "https://lobste.rs/s/ny0yzm",
-      "score": 9,
-      "comments": 0,
+      "score": 40,
+      "comments": 6,
       "author": "raymii",
       "published": "2026-07-22T05:56:08Z"
     },
@@ -424,8 +424,8 @@
       "title": "git --end-of-options",
       "url": "https://nesbitt.io/2026/07/21/end-of-options.html",
       "discuss_url": "https://lobste.rs/s/cxz7vd",
-      "score": 54,
-      "comments": 8,
+      "score": 61,
+      "comments": 9,
       "author": "robalex",
       "published": "2026-07-21T12:31:15Z"
     },
@@ -436,7 +436,7 @@
       "title": "432 Linux kernel CVEs published in the last 24 hours",
       "url": "https://lore.kernel.org/linux-cve-announce/",
       "discuss_url": "https://lobste.rs/s/t2jxyu",
-      "score": 34,
+      "score": 38,
       "comments": 13,
       "author": "Helithumper",
       "published": "2026-07-21T03:50:28Z"
@@ -493,18 +493,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Fuzzing for fun - unauthenticated denial of service in snac2",
-      "url": "https://nullenvk.pl/posts/02-snac2-json/",
-      "discuss_url": "https://lobste.rs/s/zjnc5o",
-      "score": 15,
-      "comments": 0,
-      "author": "ignaloidas",
-      "published": "2026-07-20T07:04:16Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "wp2shell: Pre Authentication RCE in WordPress Core",
       "url": "https://wp2shell.com/",
       "discuss_url": "https://lobste.rs/s/aipvbn",
@@ -512,6 +500,18 @@
       "comments": 4,
       "author": "Helithumper",
       "published": "2026-07-18T18:12:17Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Fuzzing for fun - unauthenticated denial of service in snac2",
+      "url": "https://nullenvk.pl/posts/02-snac2-json/",
+      "discuss_url": "https://lobste.rs/s/zjnc5o",
+      "score": 15,
+      "comments": 0,
+      "author": "ignaloidas",
+      "published": "2026-07-20T07:04:16Z"
     },
     {
       "source": "lobsters",
@@ -556,22 +556,10 @@
       "title": "GitHub suddenly rejected my SSH key (the fix was a .pub file?!)",
       "url": "https://thorsell.io/2026/07/21/github-ssh-keys.html",
       "discuss_url": "https://lobste.rs/s/twqtlo",
-      "score": 53,
-      "comments": 17,
+      "score": 56,
+      "comments": 18,
       "author": "GLaDER",
       "published": "2026-07-21T10:11:59Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "devops",
-      "title": "Airbus Takes Flight from AWS",
-      "url": "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109",
-      "discuss_url": "https://news.ycombinator.com/item?id=48976682",
-      "score": 213,
-      "comments": 168,
-      "author": "bbg2401",
-      "published": "2026-07-20T10:12:22Z"
     },
     {
       "source": "lobsters",
@@ -580,7 +568,7 @@
       "title": "Using Nagios for small business infrastructure monitoring",
       "url": "https://tech.chrishardie.com/2026/nagios-small-business-infrastructure-monitoring/",
       "discuss_url": "https://lobste.rs/s/wub9oc",
-      "score": 4,
+      "score": 5,
       "comments": 3,
       "author": "robalex",
       "published": "2026-07-21T18:35:19Z"
@@ -692,6 +680,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-07-21T07:45:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon RDS for SQL Server now supports Microsoft SQL Server 2025",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sqlserver-supports-sqlserver-2025",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sqlserver-supports-sqlserver-2025",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-21T07:00:00Z"
     },
     {
       "source": "rss",
