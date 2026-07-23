@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T03:15:52Z",
+  "updated_at": "2026-07-23T08:37:28Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "OpenAI and Hugging Face address security incident during model evaluation",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
       "discuss_url": "https://news.ycombinator.com/item?id=48997548",
-      "score": 1550,
-      "comments": 1088,
+      "score": 1577,
+      "comments": 1102,
       "author": "mfiguiere",
       "published": "2026-07-21T20:09:52Z",
       "bullets": [
-        "OpenAI and Hugging Face patched vulnerabilities exploited during automated model evaluations, preventing remote code execution risks across benchmark pipelines.",
-        "Dynamic code execution and untrusted custom scripts loaded from repositories present major supply-chain attack vectors in automated LLM benchmarks.",
-        "AI practitioners must enforce strict microVM sandboxing and static analysis when executing third-party evaluation scripts or model repositories."
+        "OpenAI and Hugging Face patched a security vulnerability exploited during automated model evaluation pipelines across shared ML infrastructure.",
+        "Automated AI evaluation environments require strict sandbox isolation and restricted egress to prevent arbitrary code execution and credential theft.",
+        "Engineering teams must audit Hugging Face Hub integrations and enforce zero-trust security controls on dynamic model evaluation workflows."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Why care about programming languages",
       "url": "https://ebellani.github.io/blog/2026/why-care-about-programming-languages/",
       "discuss_url": "https://lobste.rs/s/lv12lc",
-      "score": 16,
+      "score": 21,
       "comments": 5,
       "author": "b--man",
       "published": "2026-07-22T21:33:12Z",
       "bullets": [
-        "Why care about programming languages",
-        "Trending on lobste.rs/programming — 16 points, 5 comments.",
-        "Submitted by b--man on lobste.rs/programming."
+        "Language choices dictate memory safety, compile-time error detection, and runtime overhead, directly reducing production bugs and vulnerability risks.",
+        "Language paradigms dictate concurrency models, garbage collection pauses, and execution efficiency across modern multi-core system architectures.",
+        "Strong type systems and mature tooling accelerate large-scale codebase refactoring, developer onboarding, and long-term software maintainability."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
       "url": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/",
       "discuss_url": "https://lobste.rs/s/5nhto6",
-      "score": 5,
-      "comments": 1,
+      "score": 23,
+      "comments": 2,
       "author": "trousers",
       "published": "2026-07-23T01:54:48Z",
       "bullets": [
-        "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
-        "Trending on lobste.rs/security — 5 points, 1 comments.",
-        "Submitted by trousers on lobste.rs/security."
+        "Attackers deploy trojanized coding assignments and malicious dependencies during fake interviews to compromise developer workstations.",
+        "Threats often involve obfuscated post-install scripts, rogue npm or pip packages, and infostealers targeting SSH keys or tokens.",
+        "Engineers should inspect dependencies and execute untrusted take-home code exclusively within ephemeral containers or isolated VMs."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "GitHub suddenly rejected my SSH key (the fix was a .pub file?!)",
       "url": "https://thorsell.io/2026/07/21/github-ssh-keys.html",
       "discuss_url": "https://lobste.rs/s/twqtlo",
-      "score": 59,
+      "score": 60,
       "comments": 18,
       "author": "GLaDER",
       "published": "2026-07-21T10:11:59Z",
       "bullets": [
-        "GitHub suddenly rejected my SSH key (the fix was a .pub file?!)",
-        "Trending on lobste.rs/devops — 59 points, 18 comments.",
-        "Submitted by GLaDER on lobste.rs/devops."
+        "OpenSSH clients require a local .pub file alongside the private key to properly present public key signatures during GitHub authentication.",
+        "Missing .pub files prevent OpenSSH from offering correct key identities, causing unexpected rejection of valid SSH credentials by GitHub.",
+        "Maintain matching public key files in ~/.ssh and configure IdentitiesOnly to ensure reliable SSH key selection in automated DevOps pipelines."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Sales were up at Tesla but so were costs and spending",
-      "url": "https://arstechnica.com/cars/2026/07/teslas-revenues-are-up-but-profits-squeezed-as-musk-spends-on-ai/",
-      "discuss_url": "https://arstechnica.com/cars/2026/07/teslas-revenues-are-up-but-profits-squeezed-as-musk-spends-on-ai/",
+      "title": "Orcas team up to ram sunfish until they explode",
+      "url": "https://arstechnica.com/science/2026/07/orcas-team-up-to-ram-sunfish-until-they-explode/",
+      "discuss_url": "https://arstechnica.com/science/2026/07/orcas-team-up-to-ram-sunfish-until-they-explode/",
       "score": null,
       "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-07-22T21:15:19Z",
+      "author": "Jennifer Ouellette",
+      "published": "2026-07-23T04:00:38Z",
       "bullets": [
-        "Q2 2026 was profitable, but barely.",
-        "Sales were up at Tesla but so were costs and spending",
-        "Submitted by Jonathan M. Gitlin on arstechnica.com."
+        "Researchers documented coordinated orca pod tactics involving targeted physical ramming against ocean sunfish.",
+        "The behavior serves dual hypotheses: facilitating social skill transfer to juvenile orcas or acting as group play.",
+        "Collaborative hunting strategies demonstrate complex emergent communication and task specialization in apex predator social structures."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "OpenAI and Hugging Face address security incident during model evaluation",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
       "discuss_url": "https://news.ycombinator.com/item?id=48997548",
-      "score": 1550,
-      "comments": 1088,
+      "score": 1577,
+      "comments": 1102,
       "author": "mfiguiere",
       "published": "2026-07-21T20:09:52Z"
     },
@@ -136,8 +136,8 @@
       "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
       "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
       "discuss_url": "https://news.ycombinator.com/item?id=48996652",
-      "score": 550,
-      "comments": 565,
+      "score": 553,
+      "comments": 581,
       "author": "BeetleB",
       "published": "2026-07-21T19:04:39Z"
     },
@@ -148,7 +148,7 @@
       "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
       "discuss_url": "https://news.ycombinator.com/item?id=48993414",
-      "score": 743,
+      "score": 746,
       "comments": 566,
       "author": "logickkk1",
       "published": "2026-07-21T15:17:16Z"
@@ -160,7 +160,7 @@
       "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
       "url": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
       "discuss_url": "https://news.ycombinator.com/item?id=48998404",
-      "score": 246,
+      "score": 248,
       "comments": 103,
       "author": "hershyb_",
       "published": "2026-07-21T21:13:20Z"
@@ -172,10 +172,34 @@
       "title": "Claude Is Not a Compiler",
       "url": "https://blog.exe.dev/claude-is-not-a-compiler",
       "discuss_url": "https://news.ycombinator.com/item?id=48993059",
-      "score": 155,
+      "score": 157,
       "comments": 162,
       "author": "bryanmikaelian",
       "published": "2026-07-21T14:49:18Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "What Rose Petals Teach Us about Induction",
+      "url": "https://www.oranlooney.com/post/rose-petals/",
+      "discuss_url": "https://lobste.rs/s/wwelib",
+      "score": 4,
+      "comments": 0,
+      "author": "calvin",
+      "published": "2026-07-23T04:02:57Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Triton language for Alibaba SAIL",
+      "url": "https://github.com/t-head/triton-for-sail",
+      "discuss_url": "https://lobste.rs/s/y8okbv",
+      "score": 5,
+      "comments": 1,
+      "author": "sanxiyn",
+      "published": "2026-07-19T11:43:23Z"
     },
     {
       "source": "lobsters",
@@ -190,16 +214,16 @@
       "published": "2026-07-22T10:09:50Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
+      "source": "rss",
+      "subsource": "huggingface.co",
       "category": "ai",
-      "title": "Triton language for Alibaba SAIL",
-      "url": "https://github.com/t-head/triton-for-sail",
-      "discuss_url": "https://lobste.rs/s/y8okbv",
-      "score": 5,
-      "comments": 1,
-      "author": "sanxiyn",
-      "published": "2026-07-19T11:43:23Z"
+      "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+      "url": "https://huggingface.co/blog/nunchaku-diffusers",
+      "discuss_url": "https://huggingface.co/blog/nunchaku-diffusers",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-23T00:00:00Z"
     },
     {
       "source": "rss",
@@ -244,7 +268,7 @@
       "title": "Why care about programming languages",
       "url": "https://ebellani.github.io/blog/2026/why-care-about-programming-languages/",
       "discuss_url": "https://lobste.rs/s/lv12lc",
-      "score": 16,
+      "score": 21,
       "comments": 5,
       "author": "b--man",
       "published": "2026-07-22T21:33:12Z"
@@ -256,10 +280,22 @@
       "title": "Unicode Variation Selector-15 and some of my tears",
       "url": "https://benjaminwil.info/weblog/variation-selector-15/",
       "discuss_url": "https://lobste.rs/s/wzncfn",
-      "score": 15,
-      "comments": 2,
+      "score": 16,
+      "comments": 3,
       "author": "abnercoimbre",
       "published": "2026-07-22T15:59:07Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Are Emojis Allowed in XMPP Addresses?",
+      "url": "https://op-co.de/blog/posts/emoji_xmpp_address/",
+      "discuss_url": "https://lobste.rs/s/q4ldkf",
+      "score": 1,
+      "comments": 0,
+      "author": "nicoco",
+      "published": "2026-07-23T07:10:47Z"
     },
     {
       "source": "lobsters",
@@ -370,26 +406,14 @@
       "published": "2026-07-20T16:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "The cost of saying yes has changed",
-      "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
-      "discuss_url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
-      "score": null,
-      "comments": null,
-      "author": "Dalia Abuadas",
-      "published": "2026-07-17T16:46:47Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
       "url": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/",
       "discuss_url": "https://lobste.rs/s/5nhto6",
-      "score": 5,
-      "comments": 1,
+      "score": 23,
+      "comments": 2,
       "author": "trousers",
       "published": "2026-07-23T01:54:48Z"
     },
@@ -400,8 +424,8 @@
       "title": "PyPI releases now reject new files after 14 days",
       "url": "https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/",
       "discuss_url": "https://lobste.rs/s/53g8f7",
-      "score": 26,
-      "comments": 4,
+      "score": 37,
+      "comments": 5,
       "author": "ngoldbaum",
       "published": "2026-07-22T15:01:49Z"
     },
@@ -412,10 +436,22 @@
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "discuss_url": "https://lobste.rs/s/ny0yzm",
-      "score": 89,
+      "score": 92,
       "comments": 15,
       "author": "raymii",
       "published": "2026-07-22T05:56:08Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "RefluXFS: A Linux Kernel Local Privilege Escalation to Root in XFS (CVE-2026-64600)",
+      "url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/07/22/refluxfs-a-linux-kernel-local-privilege-escalation-to-root-in-xfs-cve-2026-64600",
+      "discuss_url": "https://lobste.rs/s/tltlwf",
+      "score": 10,
+      "comments": 2,
+      "author": "rrampage",
+      "published": "2026-07-22T20:24:10Z"
     },
     {
       "source": "lobsters",
@@ -428,18 +464,6 @@
       "comments": 2,
       "author": "fro",
       "published": "2026-07-22T23:07:39Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "RefluXFS: A Linux Kernel Local Privilege Escalation to Root in XFS (CVE-2026-64600)",
-      "url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/07/22/refluxfs-a-linux-kernel-local-privilege-escalation-to-root-in-xfs-cve-2026-64600",
-      "discuss_url": "https://lobste.rs/s/tltlwf",
-      "score": 9,
-      "comments": 1,
-      "author": "rrampage",
-      "published": "2026-07-22T20:24:10Z"
     },
     {
       "source": "lobsters",
@@ -464,18 +488,6 @@
       "comments": 13,
       "author": "Helithumper",
       "published": "2026-07-21T03:50:28Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Dark Elevator: Windows Install Service Local Privilege Escalation (CVE-2026-50343)",
-      "url": "https://blog.calif.io/p/dark-elevator-windows-install-service",
-      "discuss_url": "https://lobste.rs/s/miadav",
-      "score": 2,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-07-22T18:59:00Z"
     },
     {
       "source": "lobsters",
@@ -527,12 +539,24 @@
     },
     {
       "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Dark Elevator: Windows Install Service Local Privilege Escalation (CVE-2026-50343)",
+      "url": "https://blog.calif.io/p/dark-elevator-windows-install-service",
+      "discuss_url": "https://lobste.rs/s/miadav",
+      "score": 2,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-07-22T18:59:00Z"
+    },
+    {
+      "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "GitHub suddenly rejected my SSH key (the fix was a .pub file?!)",
       "url": "https://thorsell.io/2026/07/21/github-ssh-keys.html",
       "discuss_url": "https://lobste.rs/s/twqtlo",
-      "score": 59,
+      "score": 60,
       "comments": 18,
       "author": "GLaDER",
       "published": "2026-07-21T10:11:59Z"
@@ -673,6 +697,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "Orcas team up to ram sunfish until they explode",
+      "url": "https://arstechnica.com/science/2026/07/orcas-team-up-to-ram-sunfish-until-they-explode/",
+      "discuss_url": "https://arstechnica.com/science/2026/07/orcas-team-up-to-ram-sunfish-until-they-explode/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-07-23T04:00:38Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "Sales were up at Tesla but so were costs and spending",
       "url": "https://arstechnica.com/cars/2026/07/teslas-revenues-are-up-but-profits-squeezed-as-musk-spends-on-ai/",
       "discuss_url": "https://arstechnica.com/cars/2026/07/teslas-revenues-are-up-but-profits-squeezed-as-musk-spends-on-ai/",
@@ -800,18 +836,6 @@
       "comments": null,
       "author": "Jeremy Hsu",
       "published": "2026-07-22T11:15:03Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Range Rover answers the question: \"What if we built a not-SUV?\"",
-      "url": "https://arstechnica.com/cars/2026/07/heres-range-rovers-first-not-suv-the-range-rover-gt/",
-      "discuss_url": "https://arstechnica.com/cars/2026/07/heres-range-rovers-first-not-suv-the-range-rover-gt/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-07-21T23:01:23Z"
     }
   ]
 }
