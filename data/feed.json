@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T19:26:08Z",
+  "updated_at": "2026-07-23T03:15:52Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,48 +37,48 @@
       "title": "OpenAI and Hugging Face address security incident during model evaluation",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
       "discuss_url": "https://news.ycombinator.com/item?id=48997548",
-      "score": 1502,
-      "comments": 1064,
+      "score": 1550,
+      "comments": 1088,
       "author": "mfiguiere",
       "published": "2026-07-21T20:09:52Z",
       "bullets": [
-        "OpenAI and Hugging Face patched a security vulnerability exploited during automated model evaluation and cross-platform benchmarking workflows.",
-        "Executing untrusted code, custom tokenizers, or pickled model weights during evals creates critical arbitrary code execution risks.",
-        "AI engineering teams must enforce isolated, zero-trust sandbox environments and strict egress controls for all automated evaluation pipelines."
+        "OpenAI and Hugging Face patched vulnerabilities exploited during automated model evaluations, preventing remote code execution risks across benchmark pipelines.",
+        "Dynamic code execution and untrusted custom scripts loaded from repositories present major supply-chain attack vectors in automated LLM benchmarks.",
+        "AI practitioners must enforce strict microVM sandboxing and static analysis when executing third-party evaluation scripts or model repositories."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Unicode Variation Selector-15 and some of my tears",
-      "url": "https://benjaminwil.info/weblog/variation-selector-15/",
-      "discuss_url": "https://lobste.rs/s/wzncfn",
-      "score": 8,
-      "comments": 1,
-      "author": "abnercoimbre",
-      "published": "2026-07-22T15:59:07Z",
+      "title": "Why care about programming languages",
+      "url": "https://ebellani.github.io/blog/2026/why-care-about-programming-languages/",
+      "discuss_url": "https://lobste.rs/s/lv12lc",
+      "score": 16,
+      "comments": 5,
+      "author": "b--man",
+      "published": "2026-07-22T21:33:12Z",
       "bullets": [
-        "Unicode Variation Selector-15 (U+FE0E) forces text-style rendering, adding invisible codepoints that complicate string length calculation and parsing.",
-        "Standard regex and naive string indexing fail on multi-byte grapheme clusters containing variation selectors, causing layout and logic bugs.",
-        "Systems parsing raw input must implement full Unicode segmentation (UAX #29) to handle hidden variation codepoints and avoid sanitization failures."
+        "Why care about programming languages",
+        "Trending on lobste.rs/programming — 16 points, 5 comments.",
+        "Submitted by b--man on lobste.rs/programming."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "LG to Ban Residential Proxies from Smart TV Apps",
-      "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
-      "discuss_url": "https://lobste.rs/s/ny0yzm",
-      "score": 70,
-      "comments": 14,
-      "author": "raymii",
-      "published": "2026-07-22T05:56:08Z",
+      "title": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
+      "url": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/",
+      "discuss_url": "https://lobste.rs/s/5nhto6",
+      "score": 5,
+      "comments": 1,
+      "author": "trousers",
+      "published": "2026-07-23T01:54:48Z",
       "bullets": [
-        "LG's webOS policy change targets SDKs that silently recruit Smart TV endpoints into commercial residential proxy networks for traffic relaying.",
-        "Monetized third-party TV apps often integrate proxy SDKs, turning consumer IoT devices into origin points for credential stuffing and scraping.",
-        "Developers must audit app dependencies for covert proxy code to prevent banishment, while security teams should monitor Smart TV traffic."
+        "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
+        "Trending on lobste.rs/security — 5 points, 1 comments.",
+        "Submitted by trousers on lobste.rs/security."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "GitHub suddenly rejected my SSH key (the fix was a .pub file?!)",
       "url": "https://thorsell.io/2026/07/21/github-ssh-keys.html",
       "discuss_url": "https://lobste.rs/s/twqtlo",
-      "score": 58,
+      "score": 59,
       "comments": 18,
       "author": "GLaDER",
       "published": "2026-07-21T10:11:59Z",
       "bullets": [
-        "OpenSSH clients require corresponding local .pub files to pre-screen public keys before presenting matching private keys during authentication.",
-        "Without .pub files present in ~/.ssh/, SSH agents may offer incorrect identities or hit GitHub's strict authentication attempt limits.",
-        "Enforce ed25519 keys and set IdentitiesOnly yes in ~/.ssh/config to prevent identity leaks and unexpected SSH key rejections."
+        "GitHub suddenly rejected my SSH key (the fix was a .pub file?!)",
+        "Trending on lobste.rs/devops — 59 points, 18 comments.",
+        "Submitted by GLaDER on lobste.rs/devops."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Hyundai claims humanoid robot plan is not part of talks with striking workers",
-      "url": "https://arstechnica.com/ai/2026/07/hyundai-claims-humanoid-robot-plan-is-not-part-of-talks-with-striking-workers/",
-      "discuss_url": "https://arstechnica.com/ai/2026/07/hyundai-claims-humanoid-robot-plan-is-not-part-of-talks-with-striking-workers/",
+      "title": "Sales were up at Tesla but so were costs and spending",
+      "url": "https://arstechnica.com/cars/2026/07/teslas-revenues-are-up-but-profits-squeezed-as-musk-spends-on-ai/",
+      "discuss_url": "https://arstechnica.com/cars/2026/07/teslas-revenues-are-up-but-profits-squeezed-as-musk-spends-on-ai/",
       "score": null,
       "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-07-22T18:18:12Z",
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-07-22T21:15:19Z",
       "bullets": [
-        "Hyundai denies including its humanoid robot deployment plans in active contract negotiations with its striking labor union.",
-        "Auto unions contend that integrating humanoid automation into manufacturing facilities requires explicit, negotiated worker approval.",
-        "The clash underscores emerging labor-relations hurdles for industrial robotics adoption as automotive OEMs scale factory automation."
+        "Q2 2026 was profitable, but barely.",
+        "Sales were up at Tesla but so were costs and spending",
+        "Submitted by Jonathan M. Gitlin on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "OpenAI and Hugging Face address security incident during model evaluation",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
       "discuss_url": "https://news.ycombinator.com/item?id=48997548",
-      "score": 1502,
-      "comments": 1064,
+      "score": 1550,
+      "comments": 1088,
       "author": "mfiguiere",
       "published": "2026-07-21T20:09:52Z"
     },
@@ -136,8 +136,8 @@
       "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
       "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
       "discuss_url": "https://news.ycombinator.com/item?id=48996652",
-      "score": 535,
-      "comments": 534,
+      "score": 550,
+      "comments": 565,
       "author": "BeetleB",
       "published": "2026-07-21T19:04:39Z"
     },
@@ -148,8 +148,8 @@
       "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
       "discuss_url": "https://news.ycombinator.com/item?id=48993414",
-      "score": 737,
-      "comments": 558,
+      "score": 743,
+      "comments": 566,
       "author": "logickkk1",
       "published": "2026-07-21T15:17:16Z"
     },
@@ -160,8 +160,8 @@
       "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
       "url": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
       "discuss_url": "https://news.ycombinator.com/item?id=48998404",
-      "score": 243,
-      "comments": 97,
+      "score": 246,
+      "comments": 103,
       "author": "hershyb_",
       "published": "2026-07-21T21:13:20Z"
     },
@@ -202,18 +202,6 @@
       "published": "2026-07-19T11:43:23Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Human-like Neural Nets by Catapulting",
-      "url": "https://gwern.net/llm-catapult",
-      "discuss_url": "https://lobste.rs/s/qmvc5h",
-      "score": 3,
-      "comments": 0,
-      "author": "sunflowerseastar",
-      "published": "2026-07-18T23:32:44Z"
-    },
-    {
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
@@ -250,16 +238,16 @@
       "published": "2026-07-16T11:49:48Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Security incident disclosure — July 2026",
-      "url": "https://huggingface.co/blog/security-incident-july-2026",
-      "discuss_url": "https://huggingface.co/blog/security-incident-july-2026",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-16T00:00:00Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Why care about programming languages",
+      "url": "https://ebellani.github.io/blog/2026/why-care-about-programming-languages/",
+      "discuss_url": "https://lobste.rs/s/lv12lc",
+      "score": 16,
+      "comments": 5,
+      "author": "b--man",
+      "published": "2026-07-22T21:33:12Z"
     },
     {
       "source": "lobsters",
@@ -268,8 +256,8 @@
       "title": "Unicode Variation Selector-15 and some of my tears",
       "url": "https://benjaminwil.info/weblog/variation-selector-15/",
       "discuss_url": "https://lobste.rs/s/wzncfn",
-      "score": 8,
-      "comments": 1,
+      "score": 15,
+      "comments": 2,
       "author": "abnercoimbre",
       "published": "2026-07-22T15:59:07Z"
     },
@@ -332,18 +320,6 @@
       "comments": 0,
       "author": "calvin",
       "published": "2026-07-22T07:21:31Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Software and AI - Plotting vs. Pantsing",
-      "url": "https://pyjarrett.github.io/2026/07/18/software-and-ai-plotting-versus-pantsing.html",
-      "discuss_url": "https://lobste.rs/s/ba0j54",
-      "score": 5,
-      "comments": 0,
-      "author": "pyj",
-      "published": "2026-07-19T02:14:13Z"
     },
     {
       "source": "rss",
@@ -409,13 +385,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "LG to Ban Residential Proxies from Smart TV Apps",
-      "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
-      "discuss_url": "https://lobste.rs/s/ny0yzm",
-      "score": 70,
-      "comments": 14,
-      "author": "raymii",
-      "published": "2026-07-22T05:56:08Z"
+      "title": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
+      "url": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/",
+      "discuss_url": "https://lobste.rs/s/5nhto6",
+      "score": 5,
+      "comments": 1,
+      "author": "trousers",
+      "published": "2026-07-23T01:54:48Z"
     },
     {
       "source": "lobsters",
@@ -424,10 +400,46 @@
       "title": "PyPI releases now reject new files after 14 days",
       "url": "https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/",
       "discuss_url": "https://lobste.rs/s/53g8f7",
-      "score": 8,
-      "comments": 0,
+      "score": 26,
+      "comments": 4,
       "author": "ngoldbaum",
       "published": "2026-07-22T15:01:49Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "LG to Ban Residential Proxies from Smart TV Apps",
+      "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "discuss_url": "https://lobste.rs/s/ny0yzm",
+      "score": 89,
+      "comments": 15,
+      "author": "raymii",
+      "published": "2026-07-22T05:56:08Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Frag Gap (CVE-2026-53362, CVE-2026-53366)",
+      "url": "https://blog.qwerty.or.kr/en/posts/cdf3008a-c1a4-4eca-a373-aa3a2bcf1489/",
+      "discuss_url": "https://lobste.rs/s/uibzl8",
+      "score": 3,
+      "comments": 2,
+      "author": "fro",
+      "published": "2026-07-22T23:07:39Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "RefluXFS: A Linux Kernel Local Privilege Escalation to Root in XFS (CVE-2026-64600)",
+      "url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/07/22/refluxfs-a-linux-kernel-local-privilege-escalation-to-root-in-xfs-cve-2026-64600",
+      "discuss_url": "https://lobste.rs/s/tltlwf",
+      "score": 9,
+      "comments": 1,
+      "author": "rrampage",
+      "published": "2026-07-22T20:24:10Z"
     },
     {
       "source": "lobsters",
@@ -436,22 +448,10 @@
       "title": "git --end-of-options",
       "url": "https://nesbitt.io/2026/07/21/end-of-options.html",
       "discuss_url": "https://lobste.rs/s/cxz7vd",
-      "score": 63,
-      "comments": 10,
+      "score": 66,
+      "comments": 11,
       "author": "robalex",
       "published": "2026-07-21T12:31:15Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Dark Elevator: Windows Install Service Local Privilege Escalation (CVE-2026-50343)",
-      "url": "https://blog.calif.io/p/dark-elevator-windows-install-service",
-      "discuss_url": "https://lobste.rs/s/miadav",
-      "score": 1,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-07-22T18:59:00Z"
     },
     {
       "source": "lobsters",
@@ -464,6 +464,18 @@
       "comments": 13,
       "author": "Helithumper",
       "published": "2026-07-21T03:50:28Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Dark Elevator: Windows Install Service Local Privilege Escalation (CVE-2026-50343)",
+      "url": "https://blog.calif.io/p/dark-elevator-windows-install-service",
+      "discuss_url": "https://lobste.rs/s/miadav",
+      "score": 2,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-07-22T18:59:00Z"
     },
     {
       "source": "lobsters",
@@ -515,48 +527,12 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Fuzzing for fun - unauthenticated denial of service in snac2",
-      "url": "https://nullenvk.pl/posts/02-snac2-json/",
-      "discuss_url": "https://lobste.rs/s/zjnc5o",
-      "score": 15,
-      "comments": 0,
-      "author": "ignaloidas",
-      "published": "2026-07-20T07:04:16Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "OpenSSL HollowByte: A DoS Hiding in 11 Bytes",
-      "url": "https://sec.okta.com/articles/2026/06/openssl-hollowbtye-a-dos-hiding-in-11-bytes/",
-      "discuss_url": "https://lobste.rs/s/tvpnsm",
-      "score": 6,
-      "comments": 8,
-      "author": "refp",
-      "published": "2026-07-18T21:10:27Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Local Privilege Escalation in set-capabilities versions of snap-confine (CVE-2026-8933)",
-      "url": "https://cdn2.qualys.com/advisory/2026/07/21/snap-confine-set-capabilities.txt",
-      "discuss_url": "https://lobste.rs/s/w7qez9",
-      "score": 2,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-07-21T18:01:28Z"
-    },
-    {
-      "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "GitHub suddenly rejected my SSH key (the fix was a .pub file?!)",
       "url": "https://thorsell.io/2026/07/21/github-ssh-keys.html",
       "discuss_url": "https://lobste.rs/s/twqtlo",
-      "score": 58,
+      "score": 59,
       "comments": 18,
       "author": "GLaDER",
       "published": "2026-07-21T10:11:59Z"
@@ -589,6 +565,66 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "Amazon EC2 C7a instances are now available in the US West (N. California) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7a-instances-us-west-ncalifornia-region/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7a-instances-us-west-ncalifornia-region/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-22T21:42:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 M8a instances now available in the Asia Pacific (Hyderabad) region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m8a-instances-asia-pacific-hyderabad-region/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m8a-instances-asia-pacific-hyderabad-region/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-22T20:55:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Network Load Balancer now supports Listener Rules for custom traffic routing",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-network-load-balancer-supports-listener-rules/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-network-load-balancer-supports-listener-rules/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-22T19:13:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Entity Resolution now supports advanced real-time matching",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-entity-resolution/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-entity-resolution/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-22T19:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Lambda durable functions now supports customer managed key encryption",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/durablefunctions-cmk/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/durablefunctions-cmk/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-22T18:30:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon Corretto July 2026 Quarterly Updates",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-corretto-july-2026-quarterly-updates",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-corretto-july-2026-quarterly-updates",
@@ -596,6 +632,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-07-22T18:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Organizations increases RCP quota to 2,000 per organization",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-resource-control-policy-limit-increase-2000",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-resource-control-policy-limit-increase-2000",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-22T17:00:00Z"
     },
     {
       "source": "rss",
@@ -613,85 +661,61 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Secrets Manager now publishes secret update notifications to Amazon EventBridge",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-update-notifications",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-update-notifications",
+      "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-07-22T07:00:00Z"
+      "published": "2026-07-22T07:45:00Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Direct Connect announces 100G expansion in Lima, Peru",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-direct-connect-100g-lima/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-direct-connect-100g-lima/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Sales were up at Tesla but so were costs and spending",
+      "url": "https://arstechnica.com/cars/2026/07/teslas-revenues-are-up-but-profits-squeezed-as-musk-spends-on-ai/",
+      "discuss_url": "https://arstechnica.com/cars/2026/07/teslas-revenues-are-up-but-profits-squeezed-as-musk-spends-on-ai/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-22T04:00:00Z"
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-07-22T21:15:19Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Elastic Disaster Recovery is now available in six additional AWS Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-additional-regions/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-additional-regions/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Microsoft brings original Xbox backward compatibility to Windows PCs",
+      "url": "https://arstechnica.com/gaming/2026/07/microsoft-brings-original-xbox-backward-compatibility-to-windows-pcs/",
+      "discuss_url": "https://arstechnica.com/gaming/2026/07/microsoft-brings-original-xbox-backward-compatibility-to-windows-pcs/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-21T22:00:00Z"
+      "author": "Kyle Orland",
+      "published": "2026-07-22T20:36:19Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 R6in and R6idn instances are now available in additional regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r6in-r6idn/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r6in-r6idn/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "ISPs' long nightmare of having to list all the fees they charge is finally over",
+      "url": "https://arstechnica.com/tech-policy/2026/07/isps-long-nightmare-of-having-to-list-all-the-fees-they-charge-is-finally-over/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/isps-long-nightmare-of-having-to-list-all-the-fees-they-charge-is-finally-over/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-21T20:00:00Z"
+      "author": "Jon Brodkin",
+      "published": "2026-07-22T20:17:18Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 M6in and M6idn instances are now available in additional regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m6in-m6idn/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m6in-m6idn/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Clayface trailer leans into the body horror",
+      "url": "https://arstechnica.com/culture/2026/07/clayface-trailer-leans-into-the-body-horror/",
+      "discuss_url": "https://arstechnica.com/culture/2026/07/clayface-trailer-leans-into-the-body-horror/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-21T20:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 C6in instances are now available in Asia Pacific (Taipei) Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c6in/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c6in/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-21T20:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon ECS advanced deployment strategies now available in AWS European Sovereign Cloud",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-adv-deployments-eu-sovereign-cloud/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-adv-deployments-eu-sovereign-cloud/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-21T17:00:00Z"
+      "author": "Jennifer Ouellette",
+      "published": "2026-07-22T19:18:17Z"
     },
     {
       "source": "rss",
@@ -788,54 +812,6 @@
       "comments": null,
       "author": "Jonathan M. Gitlin",
       "published": "2026-07-21T23:01:23Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "On the run for 20 years, most-wanted fugitive caught hiding as a biotech exec",
-      "url": "https://arstechnica.com/health/2026/07/on-the-run-for-20-years-most-wanted-fugitive-caught-hiding-as-a-biotech-exec/",
-      "discuss_url": "https://arstechnica.com/health/2026/07/on-the-run-for-20-years-most-wanted-fugitive-caught-hiding-as-a-biotech-exec/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-07-21T22:04:56Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Sony releases one last trailer for Spider-Man: Brand New Day",
-      "url": "https://arstechnica.com/culture/2026/07/sony-releases-one-last-trailer-for-spider-man-brand-new-day/",
-      "discuss_url": "https://arstechnica.com/culture/2026/07/sony-releases-one-last-trailer-for-spider-man-brand-new-day/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-07-21T19:50:10Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Confusion swirls on source of diarrhea outbreak, but it’s still Taylor Farms",
-      "url": "https://arstechnica.com/health/2026/07/confusion-swirls-on-source-of-diarrhea-outbreak-but-its-still-taylor-farms/",
-      "discuss_url": "https://arstechnica.com/health/2026/07/confusion-swirls-on-source-of-diarrhea-outbreak-but-its-still-taylor-farms/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-07-21T19:39:10Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Nintendo says users voluntarily paid higher prices, have no right to tariff refunds",
-      "url": "https://arstechnica.com/tech-policy/2026/07/nintendo-customers-have-no-legal-right-to-tariff-refunds-company-tells-judge/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/nintendo-customers-have-no-legal-right-to-tariff-refunds-company-tells-judge/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-07-21T19:09:19Z"
     }
   ]
 }
