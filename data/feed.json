@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T13:52:17Z",
+  "updated_at": "2026-07-24T19:35:18Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,34 +34,34 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Claude Cookbook",
-      "url": "https://platform.claude.com/cookbook/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49031409",
-      "score": 163,
-      "comments": 80,
-      "author": "saikatsg",
-      "published": "2026-07-24T05:09:15Z",
+      "title": "Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "discuss_url": "https://news.ycombinator.com/item?id=49038433",
+      "score": 762,
+      "comments": 429,
+      "author": "alvis",
+      "published": "2026-07-24T16:57:41Z",
       "bullets": [
-        "Anthropic's official repository provides practical Python code examples for implementing RAG, tool use, and multimodal prompts with Claude models.",
-        "Demonstrates advanced prompt engineering patterns, structured JSON extraction, and API integration techniques using Claude 3.5 Sonnet and Haiku.",
-        "Offers production-ready reference implementations for sub-agents, citation generation, long-context handling, and evaluation workflows."
+        "Anthropic's system card for Claude Opus 5 highlights state-of-the-art benchmark gains in multi-step agentic execution, complex coding, and logical reasoning.",
+        "Safety evaluations assess cyberoffense, CBRN risks, and jailbreak resistance, detailing mitigations required under Anthropic's ASL-3 Responsible Scaling Policy framework.",
+        "Documented technical guardrails focus on reduced hallucination rates, refusal alignment precision, and robust long-context retrieval for enterprise API integration."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Jolt: running Clojure on Chez Scheme",
-      "url": "https://yogthos.net/posts/2026-07-02-jolt.html",
-      "discuss_url": "https://lobste.rs/s/btplc7",
-      "score": 17,
-      "comments": 4,
-      "author": "Yogthos",
-      "published": "2026-07-23T20:54:31Z",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/rbfmuh",
+      "discuss_url": "https://lobste.rs/s/rbfmuh",
+      "score": 7,
+      "comments": 12,
+      "author": "caius",
+      "published": "2026-07-24T14:38:42Z",
       "bullets": [
-        "Compiles Clojure semantics into Chez Scheme, bypassing the standard JVM runtime to significantly reduce memory footprint.",
-        "Provides native tail-call optimization (TCO) out-of-the-box, eliminating a long-standing JVM functional programming constraint.",
-        "Enables fast cold startups and lightweight native binary generation without relying on complex GraalVM Native Image tooling."
+        "Developers utilize weekend hours to experiment with emerging technology stacks, open-source tools, and personal software side projects.",
+        "Informal technical threads offer engineers a peer-review environment to solicit early feedback, architecture advice, and code reviews.",
+        "Prioritizing non-technical rest and avoiding system maintenance over weekends is critical to preventing developer burnout and fatigue."
       ]
     },
     {
@@ -72,13 +72,13 @@
       "url": "https://www.theguardian.com/technology/2026/jul/23/eu-fines-google-for-competition-breaches-over-search-and-apps",
       "discuss_url": "https://news.ycombinator.com/item?id=49019220",
       "score": 168,
-      "comments": 178,
+      "comments": 180,
       "author": "Stevvo",
       "published": "2026-07-23T10:07:22Z",
       "bullets": [
-        "EU regulatory penalties on Google highlight growing antitrust pressure, forcing enterprise security teams to re-evaluate single-vendor ecosystem dependencies and compliance risks.",
-        "Mandated unbundling of Android apps and services encourages third-party app stores, altering mobile threat vectors and enterprise MDM enforcement strategies.",
-        "Antitrust enforcement targeting bundled search engines and services forces security teams to audit default browser telemetry and data-sharing configurations."
+        "EU antitrust enforcement forces Google to unbundle Android services, accelerating enterprise adoption of alternative mobile software distribution channels.",
+        "Security teams should anticipate altered threat models on Android as regulatory mandates expand third-party app sideloading and app store access.",
+        "The €890M fine highlights rising regulatory scrutiny on default mobile browser telemetry, default search tie-ins, and ecosystem lock-in risks."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "GLaDER",
       "published": "2026-07-21T10:11:59Z",
       "bullets": [
-        "OpenSSH relies on matching .pub files during handshakes to derive public keys without needing to unencrypt private keys first.",
-        "Missing .pub files in CI/CD pipelines using IdentityFile directives causes unexpected git@github.com publickey authentication rejections.",
-        "Standardize on Ed25519 keypairs and ensure full key pairs (private and .pub) exist across automated deployment environments."
+        "OpenSSH relies on local .pub files to determine public key metadata and negotiate modern SHA-2 signature algorithms with GitHub.",
+        "Missing .pub companion files force OpenSSH to fallback to deprecated SHA-1 (ssh-rsa), causing GitHub to silently reject SSH connections.",
+        "Ensure .pub files exist alongside private keys or migrate to ed25519 keys to prevent unexpected SSH authentication failures."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Robot snakes searched for Venezuela earthquake survivors in collapsed buildings",
-      "url": "https://arstechnica.com/gadgets/2026/07/robot-snakes-searched-for-venezuela-earthquake-survivors-in-collapsed-buildings/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/07/robot-snakes-searched-for-venezuela-earthquake-survivors-in-collapsed-buildings/",
+      "title": "RFK Jr.'s hand-picked committee approves manufacture of peptides he uses",
+      "url": "https://arstechnica.com/health/2026/07/rfk-jr-s-hand-picked-committee-approves-manufacture-of-peptides-he-uses/",
+      "discuss_url": "https://arstechnica.com/health/2026/07/rfk-jr-s-hand-picked-committee-approves-manufacture-of-peptides-he-uses/",
       "score": null,
       "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-07-24T11:20:43Z",
+      "author": "John Timmer",
+      "published": "2026-07-24T19:10:09Z",
       "bullets": [
-        "US robotics researchers deployed modular snakebots to traverse collapsed urban structures during earthquake response efforts in Venezuela.",
-        "Hyper-redundant snakebot mobility enables traversal through narrow, unpredictable rubble voids unnavigable by traditional rescue machinery.",
-        "Real-world deployments demonstrate the practical viability of bio-inspired robotics in complex urban search and rescue (USAR) operations."
+        "An advisory committee linked to RFK Jr. approved compounding unverified peptides despite a complete lack of human clinical safety data.",
+        "The approval bypasses traditional FDA clinical trial standards, favoring deregulated, custom compounding of experimental biological compounds for public use.",
+        "Biotech and healthcare sectors face increasing regulatory ambiguity and safety compliance risks as unvalidated therapies gain formal manufacturing pathways."
       ]
     }
   ],
@@ -121,11 +121,47 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "discuss_url": "https://news.ycombinator.com/item?id=49038433",
+      "score": 762,
+      "comments": 429,
+      "author": "alvis",
+      "published": "2026-07-24T16:57:41Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Be skeptical of OpenAI's rogue hacker agent story",
+      "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
+      "discuss_url": "https://news.ycombinator.com/item?id=49038060",
+      "score": 242,
+      "comments": 98,
+      "author": "rwmj",
+      "published": "2026-07-24T16:33:31Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Hetzner is working on LLM Inference",
+      "url": "https://sliplane.io/blog/hetzner-inference",
+      "discuss_url": "https://news.ycombinator.com/item?id=49033087",
+      "score": 139,
+      "comments": 69,
+      "author": "jonas_scholz",
+      "published": "2026-07-24T09:24:44Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Claude Cookbook",
       "url": "https://platform.claude.com/cookbook/",
       "discuss_url": "https://news.ycombinator.com/item?id=49031409",
-      "score": 163,
-      "comments": 80,
+      "score": 275,
+      "comments": 142,
       "author": "saikatsg",
       "published": "2026-07-24T05:09:15Z"
     },
@@ -136,10 +172,22 @@
       "title": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
       "url": "https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china",
       "discuss_url": "https://news.ycombinator.com/item?id=49020868",
-      "score": 287,
-      "comments": 327,
+      "score": 288,
+      "comments": 330,
       "author": "yogthos",
       "published": "2026-07-23T13:00:03Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Open Weights and American AI Leadership",
+      "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/",
+      "discuss_url": "https://lobste.rs/s/gqgbrz",
+      "score": 9,
+      "comments": 2,
+      "author": "stick",
+      "published": "2026-07-24T14:01:24Z"
     },
     {
       "source": "hackernews",
@@ -148,8 +196,8 @@
       "title": "OpenAI’s accidental attack against Hugging Face is science fiction that happened",
       "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/",
       "discuss_url": "https://news.ycombinator.com/item?id=49015639",
-      "score": 546,
-      "comments": 418,
+      "score": 562,
+      "comments": 437,
       "author": "abhisek",
       "published": "2026-07-23T01:16:14Z"
     },
@@ -160,10 +208,22 @@
       "title": "Protecting our FLOSS commons from LLMs",
       "url": "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49015635",
-      "score": 196,
-      "comments": 141,
+      "score": 197,
+      "comments": 144,
       "author": "acmnrs",
       "published": "2026-07-23T01:14:53Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Petals: Run LLMs at home, BitTorrent-style",
+      "url": "https://petals.dev/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49015735",
+      "score": 135,
+      "comments": 37,
+      "author": "snorbleck",
+      "published": "2026-07-23T01:33:12Z"
     },
     {
       "source": "lobsters",
@@ -172,7 +232,7 @@
       "title": "A tour of MLIR: The Dialect Stack Everyone Depends On",
       "url": "https://hiraditya.github.io/posts/mlir-dialect-stack-for-ml/",
       "discuss_url": "https://lobste.rs/s/o9vjlt",
-      "score": 3,
+      "score": 5,
       "comments": 0,
       "author": "jado",
       "published": "2026-07-24T04:54:16Z"
@@ -184,22 +244,10 @@
       "title": "What Rose Petals Teach Us about Induction",
       "url": "https://www.oranlooney.com/post/rose-petals/",
       "discuss_url": "https://lobste.rs/s/wwelib",
-      "score": 11,
+      "score": 12,
       "comments": 0,
       "author": "calvin",
       "published": "2026-07-23T04:02:57Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Not just development, distribution of software may change as well",
-      "url": "https://antirez.com/news/170",
-      "discuss_url": "https://lobste.rs/s/wfural",
-      "score": 1,
-      "comments": 0,
-      "author": "atmosx",
-      "published": "2026-07-23T14:16:07Z"
     },
     {
       "source": "lobsters",
@@ -214,40 +262,16 @@
       "published": "2026-07-22T10:09:50Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
-      "url": "https://huggingface.co/blog/nunchaku-diffusers",
-      "discuss_url": "https://huggingface.co/blog/nunchaku-diffusers",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-23T00:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "The State of Simulation for Physical AI: An Overview",
-      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-      "discuss_url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-21T20:00:27Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Grabette: an open system to record robot-manipulation data",
-      "url": "https://huggingface.co/blog/grabette",
-      "discuss_url": "https://huggingface.co/blog/grabette",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-21T00:00:00Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/rbfmuh",
+      "discuss_url": "https://lobste.rs/s/rbfmuh",
+      "score": 7,
+      "comments": 12,
+      "author": "caius",
+      "published": "2026-07-24T14:38:42Z"
     },
     {
       "source": "lobsters",
@@ -256,8 +280,8 @@
       "title": "Jolt: running Clojure on Chez Scheme",
       "url": "https://yogthos.net/posts/2026-07-02-jolt.html",
       "discuss_url": "https://lobste.rs/s/btplc7",
-      "score": 17,
-      "comments": 4,
+      "score": 21,
+      "comments": 6,
       "author": "Yogthos",
       "published": "2026-07-23T20:54:31Z"
     },
@@ -382,18 +406,6 @@
       "published": "2026-07-20T16:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "The cost of saying yes has changed",
-      "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
-      "discuss_url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
-      "score": null,
-      "comments": null,
-      "author": "Dalia Abuadas",
-      "published": "2026-07-17T16:46:47Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
@@ -401,7 +413,7 @@
       "url": "https://www.theguardian.com/technology/2026/jul/23/eu-fines-google-for-competition-breaches-over-search-and-apps",
       "discuss_url": "https://news.ycombinator.com/item?id=49019220",
       "score": 168,
-      "comments": 178,
+      "comments": 180,
       "author": "Stevvo",
       "published": "2026-07-23T10:07:22Z"
     },
@@ -412,7 +424,7 @@
       "title": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
       "url": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/",
       "discuss_url": "https://lobste.rs/s/5nhto6",
-      "score": 87,
+      "score": 90,
       "comments": 10,
       "author": "trousers",
       "published": "2026-07-23T01:54:48Z"
@@ -421,22 +433,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "The first known runaway AI agent - or a very bad marketing stunt?",
-      "url": "https://martinalderson.com/posts/huggingface-openai-exploit/",
-      "discuss_url": "https://lobste.rs/s/nsnb4j",
-      "score": 13,
-      "comments": 20,
-      "author": "martinald",
-      "published": "2026-07-23T10:16:17Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Silent Replacement of Trusted macOS App Executables",
       "url": "https://mysk.blog/2026/07/23/macos-overwrite-app-executables/",
       "discuss_url": "https://lobste.rs/s/dxaogf",
-      "score": 18,
+      "score": 19,
       "comments": 3,
       "author": "juri",
       "published": "2026-07-23T13:37:15Z"
@@ -469,11 +469,11 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "OpenAI model breaks out of security sandbox, hacks Hugging Face for data to pass test",
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
       "discuss_url": "https://lobste.rs/s/7nrek3",
-      "score": 52,
-      "comments": 19,
+      "score": 53,
+      "comments": 39,
       "author": "dustyweb",
       "published": "2026-07-21T20:38:04Z"
     },
@@ -493,18 +493,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "RefluXFS: A Linux Kernel Local Privilege Escalation to Root in XFS (CVE-2026-64600)",
-      "url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/07/22/refluxfs-a-linux-kernel-local-privilege-escalation-to-root-in-xfs-cve-2026-64600",
-      "discuss_url": "https://lobste.rs/s/tltlwf",
-      "score": 10,
-      "comments": 3,
-      "author": "rrampage",
-      "published": "2026-07-22T20:24:10Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "432 Linux kernel CVEs published in the last 24 hours",
       "url": "https://lore.kernel.org/linux-cve-announce/",
       "discuss_url": "https://lobste.rs/s/t2jxyu",
@@ -512,6 +500,18 @@
       "comments": 14,
       "author": "Helithumper",
       "published": "2026-07-21T03:50:28Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "RefluXFS: A Linux Kernel Local Privilege Escalation to Root in XFS (CVE-2026-64600)",
+      "url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/07/22/refluxfs-a-linux-kernel-local-privilege-escalation-to-root-in-xfs-cve-2026-64600",
+      "discuss_url": "https://lobste.rs/s/tltlwf",
+      "score": 10,
+      "comments": 3,
+      "author": "rrampage",
+      "published": "2026-07-22T20:24:10Z"
     },
     {
       "source": "lobsters",
@@ -539,6 +539,18 @@
     },
     {
       "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Opaque, Interoperable Passkey Records",
+      "url": "https://words.filippo.io/passkey-record/",
+      "discuss_url": "https://lobste.rs/s/boyu9x",
+      "score": 22,
+      "comments": 1,
+      "author": "mantej",
+      "published": "2026-07-20T22:46:53Z"
+    },
+    {
+      "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "GitHub suddenly rejected my SSH key (the fix was a .pub file?!)",
@@ -562,16 +574,40 @@
       "published": "2026-07-21T18:35:19Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
+      "source": "rss",
+      "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "A deep dive into my Forgejo setup",
-      "url": "https://a.l3x.in/blog/welcome-to-my-forge/",
-      "discuss_url": "https://lobste.rs/s/jhcyuq",
-      "score": 20,
-      "comments": 2,
-      "author": "Al3xFor",
-      "published": "2026-07-20T16:40:40Z"
+      "title": "Claude Opus 5 is now available on AWS",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-24T15:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Opus 4.8, Sonnet 5, and User Activity Monitoring now available on Kiro in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/kiro-opus-sonnet-monitoring-launch-aws-govcloud-us/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/kiro-opus-sonnet-monitoring-launch-aws-govcloud-us/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-24T14:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS announces aws-bench, an open-source benchmark for AI agents on AWS",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-bench/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-bench/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-24T13:00:00Z"
     },
     {
       "source": "rss",
@@ -649,37 +685,97 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon EVS is now available in additional Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-available-in-additional-regions/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-available-in-additional-regions/",
+      "title": "Amazon EC2 I8ge instances are now generally available in additional AWS regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-i8ge-additional-regions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-i8ge-additional-regions/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-07-23T16:24:00Z"
+      "published": "2026-07-23T17:00:00Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Claude Sonnet 5 is now available on Amazon Bedrock in AWS GovCloud (US)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-sonnet-5-govcloud/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-sonnet-5-govcloud/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "RFK Jr.'s hand-picked committee approves manufacture of peptides he uses",
+      "url": "https://arstechnica.com/health/2026/07/rfk-jr-s-hand-picked-committee-approves-manufacture-of-peptides-he-uses/",
+      "discuss_url": "https://arstechnica.com/health/2026/07/rfk-jr-s-hand-picked-committee-approves-manufacture-of-peptides-he-uses/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-23T16:02:00Z"
+      "author": "John Timmer",
+      "published": "2026-07-24T19:10:09Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Announcing region expansion of G7e instances on SageMaker AI inference",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/g7e-sagemaker-ai/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/g7e-sagemaker-ai/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Judge rebuffs Trump admin demand for phone records from NYT reporters",
+      "url": "https://arstechnica.com/tech-policy/2026/07/judge-rebuffs-trump-admin-demand-for-phone-records-from-nyt-reporters/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/judge-rebuffs-trump-admin-demand-for-phone-records-from-nyt-reporters/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-23T15:04:00Z"
+      "author": "Jon Brodkin",
+      "published": "2026-07-24T18:02:21Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "European Union grants US request to restrict satellite images of Iran War region",
+      "url": "https://arstechnica.com/space/2026/07/european-union-grants-us-request-to-restrict-satellite-images-of-iran-war-region/",
+      "discuss_url": "https://arstechnica.com/space/2026/07/european-union-grants-us-request-to-restrict-satellite-images-of-iran-war-region/",
+      "score": null,
+      "comments": null,
+      "author": "Jeremy Hsu",
+      "published": "2026-07-24T17:45:05Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Team uses AlphaFold AI to redesign gene-editing proteins to make them safer",
+      "url": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/",
+      "discuss_url": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/",
+      "score": null,
+      "comments": null,
+      "author": "John Timmer",
+      "published": "2026-07-24T17:31:26Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "This is the world's most advanced robotic servicing satellite—that we know about",
+      "url": "https://arstechnica.com/space/2026/07/this-is-the-worlds-most-advanced-robotic-servicing-satellite-that-we-know-about/",
+      "discuss_url": "https://arstechnica.com/space/2026/07/this-is-the-worlds-most-advanced-robotic-servicing-satellite-that-we-know-about/",
+      "score": null,
+      "comments": null,
+      "author": "Stephen Clark",
+      "published": "2026-07-24T15:23:06Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Rocket Report: Lightning strikes in China; Starship launch on deck",
+      "url": "https://arstechnica.com/space/2026/07/rocket-report-lightning-strikes-in-china-starship-launch-on-deck/",
+      "discuss_url": "https://arstechnica.com/space/2026/07/rocket-report-lightning-strikes-in-china-starship-launch-on-deck/",
+      "score": null,
+      "comments": null,
+      "author": "Stephen Clark",
+      "published": "2026-07-24T14:34:25Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "AI firms want more data centers; Trump's EPA may give neighbors less say",
+      "url": "https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say/",
+      "score": null,
+      "comments": null,
+      "author": "Molly Taft, wired.com",
+      "published": "2026-07-24T13:49:38Z"
     },
     {
       "source": "rss",
@@ -740,90 +836,6 @@
       "comments": null,
       "author": "Jon Brodkin",
       "published": "2026-07-23T19:08:01Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Tweety gets the third degree in final Coyote vs. Acme trailer",
-      "url": "https://arstechnica.com/culture/2026/07/final-coyote-vs-acme-trailer-drops-at-sdcc/",
-      "discuss_url": "https://arstechnica.com/culture/2026/07/final-coyote-vs-acme-trailer-drops-at-sdcc/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-07-23T18:01:46Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "A woman got a UTI. Two years later, the bacteria had evolved, invaded her brain.",
-      "url": "https://arstechnica.com/health/2026/07/woman-loses-vision-in-one-eye-after-uti-bacteria-evolves-to-invade-her-brain/",
-      "discuss_url": "https://arstechnica.com/health/2026/07/woman-loses-vision-in-one-eye-after-uti-bacteria-evolves-to-invade-her-brain/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-07-23T16:58:26Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Google hit with $1 billion in fines as EU braces for Trump battle",
-      "url": "https://arstechnica.com/tech-policy/2026/07/google-hit-with-1-billion-in-fines-as-eu-braces-for-trump-battle/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/google-hit-with-1-billion-in-fines-as-eu-braces-for-trump-battle/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-07-23T16:41:36Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Sony's decision to ditch discs was practically inevitable, data shows",
-      "url": "https://arstechnica.com/gaming/2026/07/the-playstation-game-disc-was-dying-long-before-sony-pulled-the-plug/",
-      "discuss_url": "https://arstechnica.com/gaming/2026/07/the-playstation-game-disc-was-dying-long-before-sony-pulled-the-plug/",
-      "score": null,
-      "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-07-23T16:25:46Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Google just had its first negative cash flow quarter due to massive AI spending",
-      "url": "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending/",
-      "discuss_url": "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-07-23T16:04:19Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "AI arms race in line for a reckoning after OpenAI hacking incident",
-      "url": "https://arstechnica.com/ai/2026/07/ai-arms-race-in-line-for-a-reckoning-after-openai-hacking-incident/",
-      "discuss_url": "https://arstechnica.com/ai/2026/07/ai-arms-race-in-line-for-a-reckoning-after-openai-hacking-incident/",
-      "score": null,
-      "comments": null,
-      "author": "Cristina Criddle and Tom Wilson, Financial Times",
-      "published": "2026-07-23T14:45:05Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "White House report says Trump can usher in a \"new golden age\" of science",
-      "url": "https://arstechnica.com/science/2026/07/white-house-report-says-trump-can-usher-in-a-new-golden-age-of-science/",
-      "discuss_url": "https://arstechnica.com/science/2026/07/white-house-report-says-trump-can-usher-in-a-new-golden-age-of-science/",
-      "score": null,
-      "comments": null,
-      "author": "John Timmer",
-      "published": "2026-07-23T11:23:21Z"
     }
   ]
 }
