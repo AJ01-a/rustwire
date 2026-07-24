@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T02:55:13Z",
+  "updated_at": "2026-07-24T08:33:29Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
       "url": "https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china",
       "discuss_url": "https://news.ycombinator.com/item?id=49020868",
-      "score": 281,
-      "comments": 313,
+      "score": 283,
+      "comments": 321,
       "author": "yogthos",
       "published": "2026-07-23T13:00:03Z",
       "bullets": [
-        "OpenAI and Anthropic are advocating for regulatory guardrails on high-compute, open-weight models, citing existential and biological safety risks.",
-        "Closed-source vendors frame open models as security threats, potentially imposing compliance burdens that hurt open-source alternatives like Llama.",
-        "AI practitioners face emerging policy shifts threatening local deployment, fine-tuning workflows, and permissionless innovation with open-weight foundation models."
+        "Proprietary providers leverage AI safety lobbying to push strict regulatory controls and liability mandates on open-weight LLMs.",
+        "Open-weight models threaten API revenue by enabling low-cost, self-hosted deployments with total data privacy and custom fine-tuning.",
+        "Engineers should prepare for increased compliance friction and potential licensing restrictions when deploying local models like Llama."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Jolt: running Clojure on Chez Scheme",
       "url": "https://yogthos.net/posts/2026-07-02-jolt.html",
       "discuss_url": "https://lobste.rs/s/btplc7",
-      "score": 10,
-      "comments": 1,
+      "score": 14,
+      "comments": 3,
       "author": "Yogthos",
       "published": "2026-07-23T20:54:31Z",
       "bullets": [
-        "Jolt: running Clojure on Chez Scheme",
-        "Trending on lobste.rs/programming — 10 points, 1 comments.",
-        "Submitted by Yogthos on lobste.rs/programming."
+        "Jolt implements Clojure atop Chez Scheme, enabling direct native compilation and avoiding JVM runtime overhead and warmup times.",
+        "Leveraging Chez Scheme provides instant startup times, reliable tail-call optimization, and a smaller memory footprint than the JVM.",
+        "Replaces traditional Java interop with C and Scheme FFI, trading JVM ecosystem access for lightweight, standalone executable binaries."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "EU fines Google €890M for competition breaches over search and apps",
       "url": "https://www.theguardian.com/technology/2026/jul/23/eu-fines-google-for-competition-breaches-over-search-and-apps",
       "discuss_url": "https://news.ycombinator.com/item?id=49019220",
-      "score": 164,
-      "comments": 171,
+      "score": 166,
+      "comments": 172,
       "author": "Stevvo",
       "published": "2026-07-23T10:07:22Z",
       "bullets": [
-        "EU fines Google €890M for competition breaches over search and apps",
-        "Trending on news.ycombinator.com — 164 points, 171 comments.",
-        "Submitted by Stevvo on news.ycombinator.com."
+        "EU issues €890M fine against Google for anti-competitive search and app bundling, signaling tighter regulatory oversight on platform monopolies.",
+        "Mandated unbundling of Google Play and Search forces updates to Android default security frameworks, sideloading protections, and mobile app distribution.",
+        "Enterprise security teams must audit Android fleet management policies as regulatory pressure reshapes third-party app store and browser trust models."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "GLaDER",
       "published": "2026-07-21T10:11:59Z",
       "bullets": [
-        "GitHub suddenly rejected my SSH key (the fix was a .pub file?!)",
-        "Trending on lobste.rs/devops — 60 points, 18 comments.",
-        "Submitted by GLaDER on lobste.rs/devops."
+        "OpenSSH requires matching .pub files alongside private keys to extract public signatures without decrypting private keys during authentication handshakes.",
+        "GitHub's SSH authentication fails if client key negotiation cannot read public key metadata before signature validation due to missing .pub files.",
+        "Ensure CI/CD workflows and developer workstations retain matching .pub files alongside private OpenSSH keys to prevent sudden git authentication failures."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Scharon Harding",
       "published": "2026-07-23T20:47:33Z",
       "bullets": [
-        "App is installed through Windows Update when certain LG monitors connect to a PC.",
-        "Microsoft responds to LG monitors installing McAfee ads on Windows",
-        "Submitted by Scharon Harding on arstechnica.com."
+        "Windows Update automatically pushes McAfee software when specific LG monitors are connected via hardware ID triggers.",
+        "The incident highlights security concerns in Windows driver delivery, where peripheral connections silently trigger third-party app installations.",
+        "Enterprise admins can block unintended bloatware pushes by configuring strict driver installation policies via Group Policy or Intune."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
       "url": "https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china",
       "discuss_url": "https://news.ycombinator.com/item?id=49020868",
-      "score": 281,
-      "comments": 313,
+      "score": 283,
+      "comments": 321,
       "author": "yogthos",
       "published": "2026-07-23T13:00:03Z"
     },
@@ -136,8 +136,8 @@
       "title": "OpenAI’s accidental attack against Hugging Face is science fiction that happened",
       "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/",
       "discuss_url": "https://news.ycombinator.com/item?id=49015639",
-      "score": 403,
-      "comments": 328,
+      "score": 505,
+      "comments": 386,
       "author": "abhisek",
       "published": "2026-07-23T01:16:14Z"
     },
@@ -148,10 +148,22 @@
       "title": "Protecting our FLOSS commons from LLMs",
       "url": "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49015635",
-      "score": 188,
-      "comments": 140,
+      "score": 196,
+      "comments": 142,
       "author": "acmnrs",
       "published": "2026-07-23T01:14:53Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "A tour of MLIR: The Dialect Stack Everyone Depends On",
+      "url": "https://hiraditya.github.io/posts/mlir-dialect-stack-for-ml/",
+      "discuss_url": "https://lobste.rs/s/o9vjlt",
+      "score": 1,
+      "comments": 0,
+      "author": "jado",
+      "published": "2026-07-24T04:54:16Z"
     },
     {
       "source": "lobsters",
@@ -232,8 +244,8 @@
       "title": "Jolt: running Clojure on Chez Scheme",
       "url": "https://yogthos.net/posts/2026-07-02-jolt.html",
       "discuss_url": "https://lobste.rs/s/btplc7",
-      "score": 10,
-      "comments": 1,
+      "score": 14,
+      "comments": 3,
       "author": "Yogthos",
       "published": "2026-07-23T20:54:31Z"
     },
@@ -244,8 +256,8 @@
       "title": "Why care about programming languages",
       "url": "https://ebellani.github.io/blog/2026/why-care-about-programming-languages/",
       "discuss_url": "https://lobste.rs/s/lv12lc",
-      "score": 42,
-      "comments": 6,
+      "score": 43,
+      "comments": 7,
       "author": "b--man",
       "published": "2026-07-22T21:33:12Z"
     },
@@ -277,13 +289,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Minimal Git CI using hooks",
-      "url": "https://mccd.space/posts/26-06-29/simple-git-ci",
-      "discuss_url": "https://lobste.rs/s/jr72dt",
-      "score": 35,
-      "comments": 18,
-      "author": "klingtnet",
-      "published": "2026-07-20T08:28:45Z"
+      "title": "JSON5E - JSON5 for Humans",
+      "url": "https://github.com/boris-kolpackov/libpdjson5/blob/master/JSON5E.md",
+      "discuss_url": "https://lobste.rs/s/6zlnpk",
+      "score": 10,
+      "comments": 56,
+      "author": "borisk",
+      "published": "2026-07-20T09:02:49Z"
     },
     {
       "source": "lobsters",
@@ -301,34 +313,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/hq0he3",
-      "discuss_url": "https://lobste.rs/s/hq0he3",
-      "score": 16,
-      "comments": 35,
-      "author": "caius",
-      "published": "2026-07-20T08:25:33Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "JSON5E - JSON5 for Humans",
-      "url": "https://github.com/boris-kolpackov/libpdjson5/blob/master/JSON5E.md",
-      "discuss_url": "https://lobste.rs/s/6zlnpk",
-      "score": 10,
-      "comments": 56,
-      "author": "borisk",
-      "published": "2026-07-20T09:02:49Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "libei integrations in the XDG RemoteDesktop and InputCapture portals",
       "url": "http://who-t.blogspot.com/2026/07/libei-integrations-in-xdg-remotedesktop.html",
       "discuss_url": "https://lobste.rs/s/egdij3",
-      "score": 4,
+      "score": 5,
       "comments": 0,
       "author": "calvin",
       "published": "2026-07-22T07:21:31Z"
@@ -370,14 +358,38 @@
       "published": "2026-07-22T16:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "How to build interactive experiences with canvases",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+      "score": null,
+      "comments": null,
+      "author": "Jacklyn Carroll",
+      "published": "2026-07-21T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "$100 million for open source: A milestone built by the community",
+      "url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
+      "discuss_url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
+      "score": null,
+      "comments": null,
+      "author": "Stephanie Lincoln",
+      "published": "2026-07-20T16:00:00Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "EU fines Google €890M for competition breaches over search and apps",
       "url": "https://www.theguardian.com/technology/2026/jul/23/eu-fines-google-for-competition-breaches-over-search-and-apps",
       "discuss_url": "https://news.ycombinator.com/item?id=49019220",
-      "score": 164,
-      "comments": 171,
+      "score": 166,
+      "comments": 172,
       "author": "Stevvo",
       "published": "2026-07-23T10:07:22Z"
     },
@@ -388,7 +400,7 @@
       "title": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
       "url": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/",
       "discuss_url": "https://lobste.rs/s/5nhto6",
-      "score": 78,
+      "score": 83,
       "comments": 10,
       "author": "trousers",
       "published": "2026-07-23T01:54:48Z"
@@ -397,23 +409,11 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Silent Replacement of Trusted macOS App Executables",
-      "url": "https://mysk.blog/2026/07/23/macos-overwrite-app-executables/",
-      "discuss_url": "https://lobste.rs/s/dxaogf",
-      "score": 15,
-      "comments": 3,
-      "author": "juri",
-      "published": "2026-07-23T13:37:15Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "The first known runaway AI agent - or a very bad marketing stunt?",
       "url": "https://martinalderson.com/posts/huggingface-openai-exploit/",
       "discuss_url": "https://lobste.rs/s/nsnb4j",
-      "score": 11,
-      "comments": 17,
+      "score": 12,
+      "comments": 19,
       "author": "martinald",
       "published": "2026-07-23T10:16:17Z"
     },
@@ -421,13 +421,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "PyPI releases now reject new files after 14 days",
-      "url": "https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/",
-      "discuss_url": "https://lobste.rs/s/53g8f7",
-      "score": 46,
-      "comments": 11,
-      "author": "ngoldbaum",
-      "published": "2026-07-22T15:01:49Z"
+      "title": "Silent Replacement of Trusted macOS App Executables",
+      "url": "https://mysk.blog/2026/07/23/macos-overwrite-app-executables/",
+      "discuss_url": "https://lobste.rs/s/dxaogf",
+      "score": 18,
+      "comments": 3,
+      "author": "juri",
+      "published": "2026-07-23T13:37:15Z"
     },
     {
       "source": "lobsters",
@@ -440,6 +440,18 @@
       "comments": 17,
       "author": "raymii",
       "published": "2026-07-22T05:56:08Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "PyPI releases now reject new files after 14 days",
+      "url": "https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/",
+      "discuss_url": "https://lobste.rs/s/53g8f7",
+      "score": 46,
+      "comments": 11,
+      "author": "ngoldbaum",
+      "published": "2026-07-22T15:01:49Z"
     },
     {
       "source": "lobsters",
@@ -496,7 +508,7 @@
       "title": "Frag Gap (CVE-2026-53362, CVE-2026-53366)",
       "url": "https://blog.qwerty.or.kr/en/posts/cdf3008a-c1a4-4eca-a373-aa3a2bcf1489/",
       "discuss_url": "https://lobste.rs/s/uibzl8",
-      "score": 4,
+      "score": 5,
       "comments": 2,
       "author": "fro",
       "published": "2026-07-22T23:07:39Z"
@@ -589,6 +601,18 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "AWS Lambda durable execution SDK for .NET is now generally available",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambdadf-dotnet/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambdadf-dotnet/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-23T18:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon Bedrock AgentCore now delivers unified observability with traces and logs in a single log group",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-unified-observability-single-log-group/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-unified-observability-single-log-group/",
@@ -644,18 +668,6 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-07-23T15:04:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Announcing region expansion of G6 instances on SageMaker AI Inference",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/g6-sagemaker-ai-inference/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/g6-sagemaker-ai-inference/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-23T14:51:00Z"
     },
     {
       "source": "rss",
