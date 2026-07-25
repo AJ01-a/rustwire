@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T19:35:18Z",
+  "updated_at": "2026-07-25T02:54:49Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Claude Opus 5",
       "url": "https://www.anthropic.com/news/claude-opus-5",
       "discuss_url": "https://news.ycombinator.com/item?id=49038433",
-      "score": 762,
-      "comments": 429,
+      "score": 1341,
+      "comments": 728,
       "author": "alvis",
       "published": "2026-07-24T16:57:41Z",
       "bullets": [
-        "Anthropic's system card for Claude Opus 5 highlights state-of-the-art benchmark gains in multi-step agentic execution, complex coding, and logical reasoning.",
-        "Safety evaluations assess cyberoffense, CBRN risks, and jailbreak resistance, detailing mitigations required under Anthropic's ASL-3 Responsible Scaling Policy framework.",
-        "Documented technical guardrails focus on reduced hallucination rates, refusal alignment precision, and robust long-context retrieval for enterprise API integration."
+        "Anthropic released a system card detailing next-generation frontier performance across advanced reasoning, complex coding, and autonomous agent workflows.",
+        "Safety evaluations assessed risks in cyber capabilities, autonomous replication, and CBRN threats under Anthropic's AI Safety Level (ASL) framework.",
+        "Optimized for enterprise AI deployments with extended context handling, reliable structured tool execution, and improved inference efficiency."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/rbfmuh",
       "discuss_url": "https://lobste.rs/s/rbfmuh",
-      "score": 7,
-      "comments": 12,
+      "score": 11,
+      "comments": 27,
       "author": "caius",
       "published": "2026-07-24T14:38:42Z",
       "bullets": [
-        "Developers utilize weekend hours to experiment with emerging technology stacks, open-source tools, and personal software side projects.",
-        "Informal technical threads offer engineers a peer-review environment to solicit early feedback, architecture advice, and code reviews.",
-        "Prioritizing non-technical rest and avoiding system maintenance over weekends is critical to preventing developer burnout and fatigue."
+        "Developers share active side-projects, open-source contributions, and technical experiments to solicit peer review and community feedback.",
+        "Weekend coding sessions serve as informal sandboxes for testing emerging tools, libraries, and system architectures.",
+        "Community guidelines explicitly normalize downtime, recognizing rest and burnout prevention as critical components of long-term engineering health."
       ]
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "EU fines Google €890M for competition breaches over search and apps",
-      "url": "https://www.theguardian.com/technology/2026/jul/23/eu-fines-google-for-competition-breaches-over-search-and-apps",
-      "discuss_url": "https://news.ycombinator.com/item?id=49019220",
-      "score": 168,
-      "comments": 180,
-      "author": "Stevvo",
-      "published": "2026-07-23T10:07:22Z",
+      "title": "Kimi K3 exploited the latest Redis server",
+      "url": "https://twitter.com/fried_rice/status/2080059356322918777",
+      "discuss_url": "https://news.ycombinator.com/item?id=49024938",
+      "score": 149,
+      "comments": 41,
+      "author": "Alifatisk",
+      "published": "2026-07-23T17:10:02Z",
       "bullets": [
-        "EU antitrust enforcement forces Google to unbundle Android services, accelerating enterprise adoption of alternative mobile software distribution channels.",
-        "Security teams should anticipate altered threat models on Android as regulatory mandates expand third-party app sideloading and app store access.",
-        "The €890M fine highlights rising regulatory scrutiny on default mobile browser telemetry, default search tie-ins, and ecosystem lock-in risks."
+        "Reasoning models like Kimi K3 demonstrate autonomous exploitation capabilities against modern infrastructure targets like Redis servers.",
+        "Defenders face compressed vulnerability-to-exploitation timelines as AI agents automate complex attack chain discovery and payload generation.",
+        "Mitigate Redis attack surfaces by disabling risky commands like CONFIG, enforcing strict authentication ACLs, and applying robust network isolation."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "GLaDER",
       "published": "2026-07-21T10:11:59Z",
       "bullets": [
-        "OpenSSH relies on local .pub files to determine public key metadata and negotiate modern SHA-2 signature algorithms with GitHub.",
-        "Missing .pub companion files force OpenSSH to fallback to deprecated SHA-1 (ssh-rsa), causing GitHub to silently reject SSH connections.",
-        "Ensure .pub files exist alongside private keys or migrate to ed25519 keys to prevent unexpected SSH authentication failures."
+        "OpenSSH clients rely on local public key files to query supported signature algorithms like rsa-sha2-512 prior to private key handshakes.",
+        "Placing the matching .pub file next to the private key resolves unexpected GitHub SSH rejections without needing full key rotation.",
+        "Maintain both public and private key files in CI/CD pipelines and workstations to prevent silent OpenSSH algorithm negotiation failures."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "RFK Jr.'s hand-picked committee approves manufacture of peptides he uses",
-      "url": "https://arstechnica.com/health/2026/07/rfk-jr-s-hand-picked-committee-approves-manufacture-of-peptides-he-uses/",
-      "discuss_url": "https://arstechnica.com/health/2026/07/rfk-jr-s-hand-picked-committee-approves-manufacture-of-peptides-he-uses/",
+      "title": "Wildfire forces evacuation of NASA's Deep Space Network complex in Spain",
+      "url": "https://arstechnica.com/space/2026/07/wildfire-forces-evacuation-of-nasas-deep-space-network-complex-in-spain/",
+      "discuss_url": "https://arstechnica.com/space/2026/07/wildfire-forces-evacuation-of-nasas-deep-space-network-complex-in-spain/",
       "score": null,
       "comments": null,
-      "author": "John Timmer",
-      "published": "2026-07-24T19:10:09Z",
+      "author": "Stephen Clark",
+      "published": "2026-07-24T22:28:20Z",
       "bullets": [
-        "An advisory committee linked to RFK Jr. approved compounding unverified peptides despite a complete lack of human clinical safety data.",
-        "The approval bypasses traditional FDA clinical trial standards, favoring deregulated, custom compounding of experimental biological compounds for public use.",
-        "Biotech and healthcare sectors face increasing regulatory ambiguity and safety compliance risks as unvalidated therapies gain formal manufacturing pathways."
+        "\"Any potential damage will be assessed when it is safe to do so.\"",
+        "Wildfire forces evacuation of NASA's Deep Space Network complex in Spain",
+        "Submitted by Stephen Clark on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Claude Opus 5",
       "url": "https://www.anthropic.com/news/claude-opus-5",
       "discuss_url": "https://news.ycombinator.com/item?id=49038433",
-      "score": 762,
-      "comments": 429,
+      "score": 1341,
+      "comments": 728,
       "author": "alvis",
       "published": "2026-07-24T16:57:41Z"
     },
@@ -136,8 +136,8 @@
       "title": "Be skeptical of OpenAI's rogue hacker agent story",
       "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
       "discuss_url": "https://news.ycombinator.com/item?id=49038060",
-      "score": 242,
-      "comments": 98,
+      "score": 436,
+      "comments": 244,
       "author": "rwmj",
       "published": "2026-07-24T16:33:31Z"
     },
@@ -148,8 +148,8 @@
       "title": "Hetzner is working on LLM Inference",
       "url": "https://sliplane.io/blog/hetzner-inference",
       "discuss_url": "https://news.ycombinator.com/item?id=49033087",
-      "score": 139,
-      "comments": 69,
+      "score": 145,
+      "comments": 77,
       "author": "jonas_scholz",
       "published": "2026-07-24T09:24:44Z"
     },
@@ -160,8 +160,8 @@
       "title": "Claude Cookbook",
       "url": "https://platform.claude.com/cookbook/",
       "discuss_url": "https://news.ycombinator.com/item?id=49031409",
-      "score": 275,
-      "comments": 142,
+      "score": 289,
+      "comments": 155,
       "author": "saikatsg",
       "published": "2026-07-24T05:09:15Z"
     },
@@ -172,8 +172,8 @@
       "title": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
       "url": "https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china",
       "discuss_url": "https://news.ycombinator.com/item?id=49020868",
-      "score": 288,
-      "comments": 330,
+      "score": 293,
+      "comments": 331,
       "author": "yogthos",
       "published": "2026-07-23T13:00:03Z"
     },
@@ -184,46 +184,10 @@
       "title": "Open Weights and American AI Leadership",
       "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/",
       "discuss_url": "https://lobste.rs/s/gqgbrz",
-      "score": 9,
-      "comments": 2,
+      "score": 12,
+      "comments": 6,
       "author": "stick",
       "published": "2026-07-24T14:01:24Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "OpenAI’s accidental attack against Hugging Face is science fiction that happened",
-      "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49015639",
-      "score": 562,
-      "comments": 437,
-      "author": "abhisek",
-      "published": "2026-07-23T01:16:14Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Protecting our FLOSS commons from LLMs",
-      "url": "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=49015635",
-      "score": 197,
-      "comments": 144,
-      "author": "acmnrs",
-      "published": "2026-07-23T01:14:53Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Petals: Run LLMs at home, BitTorrent-style",
-      "url": "https://petals.dev/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49015735",
-      "score": 135,
-      "comments": 37,
-      "author": "snorbleck",
-      "published": "2026-07-23T01:33:12Z"
     },
     {
       "source": "lobsters",
@@ -262,16 +226,64 @@
       "published": "2026-07-22T10:09:50Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+      "url": "https://huggingface.co/blog/nunchaku-diffusers",
+      "discuss_url": "https://huggingface.co/blog/nunchaku-diffusers",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-23T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "The State of Simulation for Physical AI: An Overview",
+      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "discuss_url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-21T20:00:27Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Grabette: an open system to record robot-manipulation data",
+      "url": "https://huggingface.co/blog/grabette",
+      "discuss_url": "https://huggingface.co/blog/grabette",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-21T00:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/rbfmuh",
       "discuss_url": "https://lobste.rs/s/rbfmuh",
-      "score": 7,
-      "comments": 12,
+      "score": 11,
+      "comments": 27,
       "author": "caius",
       "published": "2026-07-24T14:38:42Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "2026 Stack Overflow Developer Survey",
+      "url": "https://take.survey.stackoverflow.co/jfe/form/SV_4GHunpL3IfJ3rRc",
+      "discuss_url": "https://lobste.rs/s/aibmo4",
+      "score": 3,
+      "comments": 0,
+      "author": "5d22b",
+      "published": "2026-07-25T00:23:02Z"
     },
     {
       "source": "lobsters",
@@ -280,7 +292,7 @@
       "title": "Jolt: running Clojure on Chez Scheme",
       "url": "https://yogthos.net/posts/2026-07-02-jolt.html",
       "discuss_url": "https://lobste.rs/s/btplc7",
-      "score": 21,
+      "score": 23,
       "comments": 6,
       "author": "Yogthos",
       "published": "2026-07-23T20:54:31Z"
@@ -289,10 +301,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Build Systems Discussion",
+      "url": "https://civboot.github.io/blog/2026-07-24-build-systems.html",
+      "discuss_url": "https://lobste.rs/s/mhumdb",
+      "score": 1,
+      "comments": 1,
+      "author": "lhearachel",
+      "published": "2026-07-24T21:11:50Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Why care about programming languages",
       "url": "https://ebellani.github.io/blog/2026/why-care-about-programming-languages/",
       "discuss_url": "https://lobste.rs/s/lv12lc",
-      "score": 43,
+      "score": 44,
       "comments": 7,
       "author": "b--man",
       "published": "2026-07-22T21:33:12Z"
@@ -328,7 +352,7 @@
       "title": "Are Emojis Allowed in XMPP Addresses?",
       "url": "https://op-co.de/blog/posts/emoji_xmpp_address/",
       "discuss_url": "https://lobste.rs/s/q4ldkf",
-      "score": 4,
+      "score": 5,
       "comments": 0,
       "author": "nicoco",
       "published": "2026-07-23T07:10:47Z"
@@ -382,28 +406,16 @@
       "published": "2026-07-22T16:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "How to build interactive experiences with canvases",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
-      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
-      "score": null,
-      "comments": null,
-      "author": "Jacklyn Carroll",
-      "published": "2026-07-21T16:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "$100 million for open source: A milestone built by the community",
-      "url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
-      "discuss_url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
-      "score": null,
-      "comments": null,
-      "author": "Stephanie Lincoln",
-      "published": "2026-07-20T16:00:00Z"
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "Kimi K3 exploited the latest Redis server",
+      "url": "https://twitter.com/fried_rice/status/2080059356322918777",
+      "discuss_url": "https://news.ycombinator.com/item?id=49024938",
+      "score": 149,
+      "comments": 41,
+      "author": "Alifatisk",
+      "published": "2026-07-23T17:10:02Z"
     },
     {
       "source": "hackernews",
@@ -412,7 +424,7 @@
       "title": "EU fines Google €890M for competition breaches over search and apps",
       "url": "https://www.theguardian.com/technology/2026/jul/23/eu-fines-google-for-competition-breaches-over-search-and-apps",
       "discuss_url": "https://news.ycombinator.com/item?id=49019220",
-      "score": 168,
+      "score": 169,
       "comments": 180,
       "author": "Stevvo",
       "published": "2026-07-23T10:07:22Z"
@@ -425,21 +437,9 @@
       "url": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/",
       "discuss_url": "https://lobste.rs/s/5nhto6",
       "score": 90,
-      "comments": 10,
+      "comments": 11,
       "author": "trousers",
       "published": "2026-07-23T01:54:48Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Silent Replacement of Trusted macOS App Executables",
-      "url": "https://mysk.blog/2026/07/23/macos-overwrite-app-executables/",
-      "discuss_url": "https://lobste.rs/s/dxaogf",
-      "score": 19,
-      "comments": 3,
-      "author": "juri",
-      "published": "2026-07-23T13:37:15Z"
     },
     {
       "source": "lobsters",
@@ -448,10 +448,22 @@
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "discuss_url": "https://lobste.rs/s/ny0yzm",
-      "score": 94,
+      "score": 95,
       "comments": 18,
       "author": "raymii",
       "published": "2026-07-22T05:56:08Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Silent Replacement of Trusted macOS App Executables",
+      "url": "https://mysk.blog/2026/07/23/macos-overwrite-app-executables/",
+      "discuss_url": "https://lobste.rs/s/dxaogf",
+      "score": 20,
+      "comments": 3,
+      "author": "juri",
+      "published": "2026-07-23T13:37:15Z"
     },
     {
       "source": "lobsters",
@@ -473,7 +485,7 @@
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
       "discuss_url": "https://lobste.rs/s/7nrek3",
       "score": 53,
-      "comments": 39,
+      "comments": 40,
       "author": "dustyweb",
       "published": "2026-07-21T20:38:04Z"
     },
@@ -529,25 +541,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Secrets Don’t Belong in Config",
-      "url": "https://secretspec.dev/blog/secrets-dont-belong-in-config/",
-      "discuss_url": "https://lobste.rs/s/iypcjj",
-      "score": 14,
-      "comments": 4,
-      "author": "alurm",
-      "published": "2026-07-21T00:09:48Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Opaque, Interoperable Passkey Records",
-      "url": "https://words.filippo.io/passkey-record/",
-      "discuss_url": "https://lobste.rs/s/boyu9x",
-      "score": 22,
-      "comments": 1,
-      "author": "mantej",
-      "published": "2026-07-20T22:46:53Z"
+      "title": "Dark Elevator: Windows Install Service Local Privilege Escalation (CVE-2026-50343)",
+      "url": "https://blog.calif.io/p/dark-elevator-windows-install-service",
+      "discuss_url": "https://lobste.rs/s/miadav",
+      "score": 2,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-07-22T18:59:00Z"
     },
     {
       "source": "lobsters",
@@ -572,6 +572,78 @@
       "comments": 4,
       "author": "robalex",
       "published": "2026-07-21T18:35:19Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Connect now supports audio optimization for Azure Virtual Desktop and Windows 365 Cloud PC",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-24T23:11:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon MWAA now supports Apache Airflow version 2.11.2",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mwaa-now-supports-apache-airflow-version-2-11-2",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mwaa-now-supports-apache-airflow-version-2-11-2",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-24T21:57:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 Dedicated Hosts now support host resource groups without self-managed licenses",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-dedicated-hosts-hrg/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-dedicated-hosts-hrg/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-24T21:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Kinesis Data Streams now supports scaling down ingest capacity with warm throughput",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/kinesis/on-demand-scale-down",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/kinesis/on-demand-scale-down",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-24T18:55:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Lambda now publishes logs for Lambda Managed Instances capacity providers",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-managed-instances-logs/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-managed-instances-logs/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-24T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon SES simplifies sending emails over SMTP using Mail Manager",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-simplified-smtp-mail-manager",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-simplified-smtp-mail-manager",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-24T15:03:00Z"
     },
     {
       "source": "rss",
@@ -623,81 +695,69 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS now supports automatic credit memo application preferences",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/credit-memo-applications/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/credit-memo-applications/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Wildfire forces evacuation of NASA's Deep Space Network complex in Spain",
+      "url": "https://arstechnica.com/space/2026/07/wildfire-forces-evacuation-of-nasas-deep-space-network-complex-in-spain/",
+      "discuss_url": "https://arstechnica.com/space/2026/07/wildfire-forces-evacuation-of-nasas-deep-space-network-complex-in-spain/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-23T18:16:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon RDS for MySQL supports MySQL 9.7 in Amazon RDS Database Preview Environment",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-mysql-long-term-9-7-rds-database-preview/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-mysql-long-term-9-7-rds-database-preview/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-23T18:05:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Lambda durable execution SDK for .NET is now generally available",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambdadf-dotnet/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambdadf-dotnet/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-23T18:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Bedrock AgentCore now delivers unified observability with traces and logs in a single log group",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-unified-observability-single-log-group/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-unified-observability-single-log-group/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-23T17:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon CloudWatch Logs now supports Application Load Balancer logs",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-logs/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-logs/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-23T17:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 I8ge instances are now generally available in additional AWS regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-i8ge-additional-regions/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-i8ge-additional-regions/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-23T17:00:00Z"
+      "author": "Stephen Clark",
+      "published": "2026-07-24T22:28:20Z"
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "RFK Jr.'s hand-picked committee approves manufacture of peptides he uses",
+      "title": "Paramount/WBD merger delayed for months as states' lawsuit moves toward trial",
+      "url": "https://arstechnica.com/tech-policy/2026/07/after-court-loss-paramount-agrees-to-delay-warner-bros-merger-until-trial/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/after-court-loss-paramount-agrees-to-delay-warner-bros-merger-until-trial/",
+      "score": null,
+      "comments": null,
+      "author": "Jon Brodkin",
+      "published": "2026-07-24T21:56:02Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Canadian legislator reads out apparent LLM response in floor speech",
+      "url": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech/",
+      "discuss_url": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech/",
+      "score": null,
+      "comments": null,
+      "author": "Kyle Orland",
+      "published": "2026-07-24T21:25:15Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Anthropic's Opus 5 is about token efficiency, not a capability leap",
+      "url": "https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap/",
+      "discuss_url": "https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap/",
+      "score": null,
+      "comments": null,
+      "author": "Samuel Axon",
+      "published": "2026-07-24T21:05:51Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Roku raises streaming stick prices by up to 60 percent",
+      "url": "https://arstechnica.com/gadgets/2026/07/roku-raises-streaming-stick-prices-by-up-to-60-percent/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/07/roku-raises-streaming-stick-prices-by-up-to-60-percent/",
+      "score": null,
+      "comments": null,
+      "author": "Scharon Harding",
+      "published": "2026-07-24T19:41:06Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "RFK Jr.'s handpicked committee approves manufacture of peptides he uses",
       "url": "https://arstechnica.com/health/2026/07/rfk-jr-s-hand-picked-committee-approves-manufacture-of-peptides-he-uses/",
       "discuss_url": "https://arstechnica.com/health/2026/07/rfk-jr-s-hand-picked-committee-approves-manufacture-of-peptides-he-uses/",
       "score": null,
@@ -776,66 +836,6 @@
       "comments": null,
       "author": "Molly Taft, wired.com",
       "published": "2026-07-24T13:49:38Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Robot snakes searched for Venezuela earthquake survivors in collapsed buildings",
-      "url": "https://arstechnica.com/gadgets/2026/07/robot-snakes-searched-for-venezuela-earthquake-survivors-in-collapsed-buildings/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/07/robot-snakes-searched-for-venezuela-earthquake-survivors-in-collapsed-buildings/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-07-24T11:20:43Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Microsoft responds to LG monitors installing McAfee ads on Windows",
-      "url": "https://arstechnica.com/gadgets/2026/07/microsoft-responds-to-lg-monitors-installing-mcafee-ads-on-windows/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/07/microsoft-responds-to-lg-monitors-installing-mcafee-ads-on-windows/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-07-23T20:47:33Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "FDA reports new outbreak of explosive diarrhea with 72 cases identified",
-      "url": "https://arstechnica.com/health/2026/07/fda-reports-new-outbreak-of-explosive-diarrhea-with-72-cases-identified/",
-      "discuss_url": "https://arstechnica.com/health/2026/07/fda-reports-new-outbreak-of-explosive-diarrhea-with-72-cases-identified/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-07-23T19:22:36Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Forgot your Google password? Now you can log in with a selfie.",
-      "url": "https://arstechnica.com/gadgets/2026/07/google-now-lets-you-log-into-your-account-with-a-selfie/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/07/google-now-lets-you-log-into-your-account-with-a-selfie/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-07-23T19:14:25Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "AI Kill Switch Act would let Trump admin order shutdown of rogue AI systems",
-      "url": "https://arstechnica.com/tech-policy/2026/07/ai-kill-switch-act-would-let-trump-admin-order-shutdown-of-rogue-ai-systems/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/ai-kill-switch-act-would-let-trump-admin-order-shutdown-of-rogue-ai-systems/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-07-23T19:08:01Z"
     }
   ]
 }
