@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T08:11:56Z",
+  "updated_at": "2026-07-25T13:43:04Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "Claude Opus 5",
       "url": "https://www.anthropic.com/news/claude-opus-5",
       "discuss_url": "https://news.ycombinator.com/item?id=49038433",
-      "score": 1510,
-      "comments": 842,
+      "score": 1662,
+      "comments": 1034,
       "author": "alvis",
       "published": "2026-07-24T16:57:41Z",
       "bullets": [
-        "Anthropic published the System Card detailing enhanced multi-step reasoning, complex coding, and agentic task benchmarks for their frontier model.",
-        "Safety evaluations focus on Cyber Capabilities, ASL-2/ASL-3 thresholds, CBRN threat mitigations, and resistance to prompt injection attacks.",
-        "Red-teaming frameworks detail deployment guardrails, automated jailbreak defenses, and safety alignment metrics for enterprise agentic AI workloads."
+        "Anthropic's system card details frontier performance in complex reasoning, multi-step coding, and agentic workflows surpassing existing industry benchmarks.",
+        "Security evaluations analyze cyberoffensive risks, CBRN threat vectors, and self-replication capabilities under Anthropic Responsible Scaling Policy frameworks.",
+        "Technical results highlight enhanced constitutional AI steering, reduced hallucination rates, and near-perfect recall across extended context windows."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "I'm running the ICFP programming contest (2026)",
-      "url": "https://eieio.games/blog/im-running-the-icfp-programming-contest/",
-      "discuss_url": "https://lobste.rs/s/yajc8q",
-      "score": 3,
-      "comments": 2,
-      "author": "abhin4v",
-      "published": "2026-07-25T05:29:51Z",
+      "title": "A shell colon does nothing. Use it anyway",
+      "url": "https://refp.se/articles/your-shell-and-the-magic-colon",
+      "discuss_url": "https://lobste.rs/s/eidh3u",
+      "score": 19,
+      "comments": 5,
+      "author": "refp",
+      "published": "2026-07-25T11:33:00Z",
       "bullets": [
-        "The ICFP Programming Contest is an annual 72-hour competition focused on solving complex algorithmic problems using functional programming principles.",
-        "Organizers typically construct custom virtual machines, domain-specific languages, or NP-hard optimization challenges for participating developer teams.",
-        "Early infrastructure planning for ICFP 2026 focuses on building automated evaluation pipelines, scoring sandboxes, and benchmark problem sets."
+        "The POSIX shell colon (`:`) builtin returns exit code 0, serving as a zero-overhead no-op for clean control flow logic.",
+        "Use `:` to safely perform parameter expansions with side effects, such as initializing default variables via `: \"${VAR:=default}\"`.",
+        "Truncate files efficiently without external processes using `: > file.txt`, or drive infinite loops via concise `while :; do` syntax."
       ]
     },
     {
@@ -71,48 +71,48 @@
       "title": "Kimi K3 exploited the latest Redis server",
       "url": "https://twitter.com/fried_rice/status/2080059356322918777",
       "discuss_url": "https://news.ycombinator.com/item?id=49024938",
-      "score": 210,
-      "comments": 57,
+      "score": 241,
+      "comments": 78,
       "author": "Alifatisk",
       "published": "2026-07-23T17:10:02Z",
       "bullets": [
-        "Autonomous AI agents like Kimi K3 demonstrate automated zero-day and N-day exploitation capabilities against core infrastructure like Redis.",
-        "Exposed database endpoints demand strict ACLs, TLS authentication, and network perimeter isolation to block non-interactive, agent-generated exploits.",
-        "DevSecOps teams should integrate agentic threat modeling and real-time behavioral monitoring to detect rapid, machine-driven attack sequences."
+        "An advanced LLM agent (Kimi K3) demonstrated autonomous exploitation capabilities against up-to-date Redis database installations.",
+        "Unauthenticated or misconfigured Redis instances remain high-value targets, now vulnerable to fully automated AI exploitation workflows.",
+        "Security teams must enforce strict network segmentation, authentication, and rapid patching as AI agents accelerate vulnerability discovery and execution."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "GitHub suddenly rejected my SSH key (the fix was a .pub file?!)",
-      "url": "https://thorsell.io/2026/07/21/github-ssh-keys.html",
-      "discuss_url": "https://lobste.rs/s/twqtlo",
-      "score": 60,
-      "comments": 18,
-      "author": "GLaDER",
-      "published": "2026-07-21T10:11:59Z",
+      "title": "Using Nagios for small business infrastructure monitoring",
+      "url": "https://tech.chrishardie.com/2026/nagios-small-business-infrastructure-monitoring/",
+      "discuss_url": "https://lobste.rs/s/wub9oc",
+      "score": 6,
+      "comments": 4,
+      "author": "robalex",
+      "published": "2026-07-21T18:35:19Z",
       "bullets": [
-        "OpenSSH clients use local .pub files to pre-flight public key algorithms; missing them causes GitHub authentication to fail.",
-        "Without matching .pub files, OpenSSH cannot advertise key types or signatures to remote hosts during initial protocol negotiation.",
-        "Regenerate missing public key files using ssh-keygen -y -f private_key to instantly resolve unexpected GitHub SSH connection rejections."
+        "Nagios Core provides lightweight, low-overhead active and passive infrastructure checks via NRPE, ideal for resource-constrained small business environments.",
+        "Static flat-file configurations and custom plugin scripts (Bash/Python) enable simple, granular monitoring without complex distributed telemetry pipelines.",
+        "Integrating Nagios with modern tools like Grafana or PagerDuty bridges legacy host polling with modern time-series dashboards and alerting workflows."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Wildfire forces evacuation of NASA's Deep Space Network complex in Spain",
-      "url": "https://arstechnica.com/space/2026/07/wildfire-forces-evacuation-of-nasas-deep-space-network-complex-in-spain/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/wildfire-forces-evacuation-of-nasas-deep-space-network-complex-in-spain/",
+      "title": "With help from data, art museums are reframing the visitor experience",
+      "url": "https://arstechnica.com/culture/2026/07/with-help-from-data-art-museums-are-reframing-the-visitor-experience/",
+      "discuss_url": "https://arstechnica.com/culture/2026/07/with-help-from-data-art-museums-are-reframing-the-visitor-experience/",
       "score": null,
       "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-07-24T22:28:20Z",
+      "author": "Mureji Fatunde-Iloeje",
+      "published": "2026-07-25T11:00:32Z",
       "bullets": [
-        "Wildfire forced evacuation of NASA's Madrid Deep Space Communications Complex, risking operational continuity for deep-space mission tracking.",
-        "Space mission communications shift to Goldstone and Canberra ground stations to maintain continuous Deep Space Network telemetry coverage.",
-        "Extreme weather threats to physical ground stations emphasize the necessity of geographically distributed failover architecture for critical infrastructure."
+        "Cultural institutions adopt IoT sensors, Bluetooth beacons, and Wi-Fi telemetry to optimize physical traffic flow and exhibit engagement.",
+        "Integrating ticketing data with cloud analytics platforms enables real-time visitor profiling, dynamic resource allocation, and data-driven collection management.",
+        "Digital transformation initiatives leverage augmented reality (AR) and edge devices to deliver interactive, personalized visitor experiences at scale."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Claude Opus 5",
       "url": "https://www.anthropic.com/news/claude-opus-5",
       "discuss_url": "https://news.ycombinator.com/item?id=49038433",
-      "score": 1510,
-      "comments": 842,
+      "score": 1662,
+      "comments": 1034,
       "author": "alvis",
       "published": "2026-07-24T16:57:41Z"
     },
@@ -136,8 +136,8 @@
       "title": "Be skeptical of OpenAI's rogue hacker agent story",
       "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
       "discuss_url": "https://news.ycombinator.com/item?id=49038060",
-      "score": 481,
-      "comments": 279,
+      "score": 502,
+      "comments": 282,
       "author": "rwmj",
       "published": "2026-07-24T16:33:31Z"
     },
@@ -148,8 +148,8 @@
       "title": "Claude Cookbook",
       "url": "https://platform.claude.com/cookbook/",
       "discuss_url": "https://news.ycombinator.com/item?id=49031409",
-      "score": 310,
-      "comments": 158,
+      "score": 317,
+      "comments": 160,
       "author": "saikatsg",
       "published": "2026-07-24T05:09:15Z"
     },
@@ -161,21 +161,9 @@
       "url": "https://sliplane.io/blog/hetzner-inference",
       "discuss_url": "https://news.ycombinator.com/item?id=49033087",
       "score": 148,
-      "comments": 79,
+      "comments": 81,
       "author": "jonas_scholz",
       "published": "2026-07-24T09:24:44Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
-      "url": "https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china",
-      "discuss_url": "https://news.ycombinator.com/item?id=49020868",
-      "score": 296,
-      "comments": 330,
-      "author": "yogthos",
-      "published": "2026-07-23T13:00:03Z"
     },
     {
       "source": "lobsters",
@@ -184,8 +172,8 @@
       "title": "Open Weights and American AI Leadership",
       "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/",
       "discuss_url": "https://lobste.rs/s/gqgbrz",
-      "score": 14,
-      "comments": 7,
+      "score": 15,
+      "comments": 10,
       "author": "stick",
       "published": "2026-07-24T14:01:24Z"
     },
@@ -263,13 +251,37 @@
     },
     {
       "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Not just development, distribution of software may change as well",
+      "url": "https://antirez.com/news/170",
+      "discuss_url": "https://lobste.rs/s/wfural",
+      "score": 0,
+      "comments": 0,
+      "author": "atmosx",
+      "published": "2026-07-23T14:16:07Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "A shell colon does nothing. Use it anyway",
+      "url": "https://refp.se/articles/your-shell-and-the-magic-colon",
+      "discuss_url": "https://lobste.rs/s/eidh3u",
+      "score": 19,
+      "comments": 5,
+      "author": "refp",
+      "published": "2026-07-25T11:33:00Z"
+    },
+    {
+      "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "I'm running the ICFP programming contest (2026)",
       "url": "https://eieio.games/blog/im-running-the-icfp-programming-contest/",
       "discuss_url": "https://lobste.rs/s/yajc8q",
-      "score": 3,
-      "comments": 2,
+      "score": 6,
+      "comments": 6,
       "author": "abhin4v",
       "published": "2026-07-25T05:29:51Z"
     },
@@ -280,8 +292,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/rbfmuh",
       "discuss_url": "https://lobste.rs/s/rbfmuh",
-      "score": 12,
-      "comments": 33,
+      "score": 14,
+      "comments": 37,
       "author": "caius",
       "published": "2026-07-24T14:38:42Z"
     },
@@ -304,7 +316,7 @@
       "title": "2026 Stack Overflow Developer Survey",
       "url": "https://take.survey.stackoverflow.co/jfe/form/SV_4GHunpL3IfJ3rRc",
       "discuss_url": "https://lobste.rs/s/aibmo4",
-      "score": 3,
+      "score": 5,
       "comments": 0,
       "author": "5d22b",
       "published": "2026-07-25T00:23:02Z"
@@ -325,18 +337,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Build Systems Discussion",
-      "url": "https://civboot.github.io/blog/2026-07-24-build-systems.html",
-      "discuss_url": "https://lobste.rs/s/mhumdb",
-      "score": 1,
-      "comments": 1,
-      "author": "lhearachel",
-      "published": "2026-07-24T21:11:50Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Unicode Variation Selector-15 and some of my tears",
       "url": "https://benjaminwil.info/weblog/variation-selector-15/",
       "discuss_url": "https://lobste.rs/s/wzncfn",
@@ -349,11 +349,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Build Systems Discussion",
+      "url": "https://civboot.github.io/blog/2026-07-24-build-systems.html",
+      "discuss_url": "https://lobste.rs/s/mhumdb",
+      "score": 1,
+      "comments": 1,
+      "author": "lhearachel",
+      "published": "2026-07-24T21:11:50Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Package Name Prefixes",
       "url": "https://nesbitt.io/2026/07/23/package-name-prefixes.html",
       "discuss_url": "https://lobste.rs/s/js37j1",
       "score": 3,
-      "comments": 2,
+      "comments": 3,
       "author": "hugoarnal",
       "published": "2026-07-23T10:20:47Z"
     },
@@ -394,40 +406,16 @@
       "published": "2026-07-23T16:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Copilot vs. raw API access: What are you actually paying for?",
-      "url": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
-      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
-      "score": null,
-      "comments": null,
-      "author": "Andrea Griffiths",
-      "published": "2026-07-22T19:00:00Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Kimi K3 exploited the latest Redis server",
       "url": "https://twitter.com/fried_rice/status/2080059356322918777",
       "discuss_url": "https://news.ycombinator.com/item?id=49024938",
-      "score": 210,
-      "comments": 57,
+      "score": 241,
+      "comments": 78,
       "author": "Alifatisk",
       "published": "2026-07-23T17:10:02Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "security",
-      "title": "EU fines Google €890M for competition breaches over search and apps",
-      "url": "https://www.theguardian.com/technology/2026/jul/23/eu-fines-google-for-competition-breaches-over-search-and-apps",
-      "discuss_url": "https://news.ycombinator.com/item?id=49019220",
-      "score": 169,
-      "comments": 180,
-      "author": "Stevvo",
-      "published": "2026-07-23T10:07:22Z"
     },
     {
       "source": "lobsters",
@@ -457,18 +445,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Silent Replacement of Trusted macOS App Executables",
-      "url": "https://mysk.blog/2026/07/23/macos-overwrite-app-executables/",
-      "discuss_url": "https://lobste.rs/s/dxaogf",
-      "score": 20,
-      "comments": 3,
-      "author": "juri",
-      "published": "2026-07-23T13:37:15Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "PyPI releases now reject new files after 14 days",
       "url": "https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/",
       "discuss_url": "https://lobste.rs/s/53g8f7",
@@ -481,6 +457,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Silent Replacement of Trusted macOS App Executables",
+      "url": "https://mysk.blog/2026/07/23/macos-overwrite-app-executables/",
+      "discuss_url": "https://lobste.rs/s/dxaogf",
+      "score": 21,
+      "comments": 3,
+      "author": "juri",
+      "published": "2026-07-23T13:37:15Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
       "discuss_url": "https://lobste.rs/s/7nrek3",
@@ -488,18 +476,6 @@
       "comments": 40,
       "author": "dustyweb",
       "published": "2026-07-21T20:38:04Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "git --end-of-options",
-      "url": "https://nesbitt.io/2026/07/21/end-of-options.html",
-      "discuss_url": "https://lobste.rs/s/cxz7vd",
-      "score": 66,
-      "comments": 11,
-      "author": "robalex",
-      "published": "2026-07-21T12:31:15Z"
     },
     {
       "source": "lobsters",
@@ -551,15 +527,27 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "GitHub suddenly rejected my SSH key (the fix was a .pub file?!)",
-      "url": "https://thorsell.io/2026/07/21/github-ssh-keys.html",
-      "discuss_url": "https://lobste.rs/s/twqtlo",
-      "score": 60,
-      "comments": 18,
-      "author": "GLaDER",
-      "published": "2026-07-21T10:11:59Z"
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Local Privilege Escalation in set-capabilities versions of snap-confine (CVE-2026-8933)",
+      "url": "https://cdn2.qualys.com/advisory/2026/07/21/snap-confine-set-capabilities.txt",
+      "discuss_url": "https://lobste.rs/s/w7qez9",
+      "score": 2,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-07-21T18:01:28Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
+      "url": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
+      "discuss_url": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-25T12:52:43Z"
     },
     {
       "source": "lobsters",
@@ -695,6 +683,42 @@
     },
     {
       "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS now supports automatic credit memo application preferences",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/credit-memo-applications/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/credit-memo-applications/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-23T18:16:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "With help from data, art museums are reframing the visitor experience",
+      "url": "https://arstechnica.com/culture/2026/07/with-help-from-data-art-museums-are-reframing-the-visitor-experience/",
+      "discuss_url": "https://arstechnica.com/culture/2026/07/with-help-from-data-art-museums-are-reframing-the-visitor-experience/",
+      "score": null,
+      "comments": null,
+      "author": "Mureji Fatunde-Iloeje",
+      "published": "2026-07-25T11:00:32Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Big Tech accused of stonewalling European social media researchers",
+      "url": "https://arstechnica.com/tech-policy/2026/07/big-tech-accused-of-stonewalling-european-social-media-researchers/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/big-tech-accused-of-stonewalling-european-social-media-researchers/",
+      "score": null,
+      "comments": null,
+      "author": "Anna Desmarais, wired.com",
+      "published": "2026-07-25T10:45:32Z"
+    },
+    {
+      "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
       "title": "Wildfire forces evacuation of NASA's Deep Space Network complex in Spain",
@@ -812,30 +836,6 @@
       "comments": null,
       "author": "Stephen Clark",
       "published": "2026-07-24T15:23:06Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Rocket Report: Lightning strikes in China; Starship launch on deck",
-      "url": "https://arstechnica.com/space/2026/07/rocket-report-lightning-strikes-in-china-starship-launch-on-deck/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/rocket-report-lightning-strikes-in-china-starship-launch-on-deck/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-07-24T14:34:25Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "AI firms want more data centers; Trump's EPA may give neighbors less say",
-      "url": "https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say/",
-      "score": null,
-      "comments": null,
-      "author": "Molly Taft, wired.com",
-      "published": "2026-07-24T13:49:38Z"
     }
   ]
 }
