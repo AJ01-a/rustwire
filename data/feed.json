@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T13:43:04Z",
+  "updated_at": "2026-07-25T19:13:02Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Claude Opus 5",
       "url": "https://www.anthropic.com/news/claude-opus-5",
       "discuss_url": "https://news.ycombinator.com/item?id=49038433",
-      "score": 1662,
-      "comments": 1034,
+      "score": 1723,
+      "comments": 1233,
       "author": "alvis",
       "published": "2026-07-24T16:57:41Z",
       "bullets": [
-        "Anthropic's system card details frontier performance in complex reasoning, multi-step coding, and agentic workflows surpassing existing industry benchmarks.",
-        "Security evaluations analyze cyberoffensive risks, CBRN threat vectors, and self-replication capabilities under Anthropic Responsible Scaling Policy frameworks.",
-        "Technical results highlight enhanced constitutional AI steering, reduced hallucination rates, and near-perfect recall across extended context windows."
+        "Anthropic's system card details enhanced multi-step reasoning, frontier coding benchmarks, and expanded context window capabilities.",
+        "Evaluates ASL-3 safety frameworks, measuring cyberattack capabilities, autonomous replication risks, and CBRN threat vectors with automated red-teaming.",
+        "Outlines updated refusal training, Constitutional AI alignment, and inference guardrails for high-autonomy agentic enterprise workflows."
       ]
     },
     {
@@ -54,65 +54,65 @@
       "title": "A shell colon does nothing. Use it anyway",
       "url": "https://refp.se/articles/your-shell-and-the-magic-colon",
       "discuss_url": "https://lobste.rs/s/eidh3u",
-      "score": 19,
-      "comments": 5,
+      "score": 52,
+      "comments": 13,
       "author": "refp",
       "published": "2026-07-25T11:33:00Z",
       "bullets": [
-        "The POSIX shell colon (`:`) builtin returns exit code 0, serving as a zero-overhead no-op for clean control flow logic.",
-        "Use `:` to safely perform parameter expansions with side effects, such as initializing default variables via `: \"${VAR:=default}\"`.",
-        "Truncate files efficiently without external processes using `: > file.txt`, or drive infinite loops via concise `while :; do` syntax."
+        "The POSIX shell colon operator is a built-in no-op returning exit status 0, avoiding subprocess creation overhead.",
+        "It safely evaluates parameter expansion side effects like `${VAR:=default}` without executing the expanded string value as a command.",
+        "Key use cases include efficient file truncation (`: > file`), lightweight infinite loops (`while :`), and conditional branch placeholders."
+      ]
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
+      "url": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/",
+      "discuss_url": "https://lobste.rs/s/5nhto6",
+      "score": 90,
+      "comments": 11,
+      "author": "trousers",
+      "published": "2026-07-23T01:54:48Z",
+      "bullets": [
+        "Attacker campaigns use fake technical take-home interviews to deliver malware hidden in project dependencies and malicious build scripts.",
+        "Executing untrusted interview code (e.g., via npm install) deploys credential stealers targeting SSH keys, browser databases, and API tokens.",
+        "Engineers must isolate interview assignments using sandboxed containers or ephemeral VMs and restrict network access before running local tests."
       ]
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
-      "category": "security",
-      "title": "Kimi K3 exploited the latest Redis server",
-      "url": "https://twitter.com/fried_rice/status/2080059356322918777",
-      "discuss_url": "https://news.ycombinator.com/item?id=49024938",
-      "score": 241,
-      "comments": 78,
-      "author": "Alifatisk",
-      "published": "2026-07-23T17:10:02Z",
-      "bullets": [
-        "An advanced LLM agent (Kimi K3) demonstrated autonomous exploitation capabilities against up-to-date Redis database installations.",
-        "Unauthenticated or misconfigured Redis instances remain high-value targets, now vulnerable to fully automated AI exploitation workflows.",
-        "Security teams must enforce strict network segmentation, authentication, and rapid patching as AI agents accelerate vulnerability discovery and execution."
-      ]
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "Using Nagios for small business infrastructure monitoring",
-      "url": "https://tech.chrishardie.com/2026/nagios-small-business-infrastructure-monitoring/",
-      "discuss_url": "https://lobste.rs/s/wub9oc",
-      "score": 6,
-      "comments": 4,
-      "author": "robalex",
-      "published": "2026-07-21T18:35:19Z",
+      "title": "Open-weight AI is having its Kubernetes moment",
+      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49048034",
+      "score": 157,
+      "comments": 106,
+      "author": "tknaup",
+      "published": "2026-07-25T14:49:49Z",
       "bullets": [
-        "Nagios Core provides lightweight, low-overhead active and passive infrastructure checks via NRPE, ideal for resource-constrained small business environments.",
-        "Static flat-file configurations and custom plugin scripts (Bash/Python) enable simple, granular monitoring without complex distributed telemetry pipelines.",
-        "Integrating Nagios with modern tools like Grafana or PagerDuty bridges legacy host polling with modern time-series dashboards and alerting workflows."
+        "Open-weight models like Llama 3 require Kubernetes-native inference engines like vLLM and KServe for scalable, automated GPU workload orchestration.",
+        "DevOps teams are standardizing AI deployments using GitOps pipelines, Helm charts, and containerized runtimes for reproducible, self-hosted inference stacks.",
+        "Self-hosting open-weight models shifts operational control from proprietary APIs to private infrastructure, optimizing GPU utilization and long-term hardware costs."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "With help from data, art museums are reframing the visitor experience",
-      "url": "https://arstechnica.com/culture/2026/07/with-help-from-data-art-museums-are-reframing-the-visitor-experience/",
-      "discuss_url": "https://arstechnica.com/culture/2026/07/with-help-from-data-art-museums-are-reframing-the-visitor-experience/",
+      "title": "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight",
+      "url": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/",
+      "discuss_url": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/",
       "score": null,
       "comments": null,
-      "author": "Mureji Fatunde-Iloeje",
-      "published": "2026-07-25T11:00:32Z",
+      "author": "Stephen Clark",
+      "published": "2026-07-25T17:47:22Z",
       "bullets": [
-        "Cultural institutions adopt IoT sensors, Bluetooth beacons, and Wi-Fi telemetry to optimize physical traffic flow and exhibit engagement.",
-        "Integrating ticketing data with cloud analytics platforms enables real-time visitor profiling, dynamic resource allocation, and data-driven collection management.",
-        "Digital transformation initiatives leverage augmented reality (AR) and edge devices to deliver interactive, personalized visitor experiences at scale."
+        "SpaceX will likely attempt to catch Starship back at the launch pad on its next flight.",
+        "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight",
+        "Submitted by Stephen Clark on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Claude Opus 5",
       "url": "https://www.anthropic.com/news/claude-opus-5",
       "discuss_url": "https://news.ycombinator.com/item?id=49038433",
-      "score": 1662,
-      "comments": 1034,
+      "score": 1723,
+      "comments": 1233,
       "author": "alvis",
       "published": "2026-07-24T16:57:41Z"
     },
@@ -136,8 +136,8 @@
       "title": "Be skeptical of OpenAI's rogue hacker agent story",
       "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
       "discuss_url": "https://news.ycombinator.com/item?id=49038060",
-      "score": 502,
-      "comments": 282,
+      "score": 516,
+      "comments": 294,
       "author": "rwmj",
       "published": "2026-07-24T16:33:31Z"
     },
@@ -148,8 +148,8 @@
       "title": "Claude Cookbook",
       "url": "https://platform.claude.com/cookbook/",
       "discuss_url": "https://news.ycombinator.com/item?id=49031409",
-      "score": 317,
-      "comments": 160,
+      "score": 325,
+      "comments": 162,
       "author": "saikatsg",
       "published": "2026-07-24T05:09:15Z"
     },
@@ -160,8 +160,8 @@
       "title": "Hetzner is working on LLM Inference",
       "url": "https://sliplane.io/blog/hetzner-inference",
       "discuss_url": "https://news.ycombinator.com/item?id=49033087",
-      "score": 148,
-      "comments": 81,
+      "score": 151,
+      "comments": 86,
       "author": "jonas_scholz",
       "published": "2026-07-24T09:24:44Z"
     },
@@ -173,9 +173,21 @@
       "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/",
       "discuss_url": "https://lobste.rs/s/gqgbrz",
       "score": 15,
-      "comments": 10,
+      "comments": 12,
       "author": "stick",
       "published": "2026-07-24T14:01:24Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Languages as designed latent spaces",
+      "url": "https://blog.jsbarretto.com/post/languages-as-latent-spaces",
+      "discuss_url": "https://lobste.rs/s/ljg2qr",
+      "score": 1,
+      "comments": 0,
+      "author": "intarga",
+      "published": "2026-07-25T15:13:27Z"
     },
     {
       "source": "lobsters",
@@ -251,25 +263,13 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Not just development, distribution of software may change as well",
-      "url": "https://antirez.com/news/170",
-      "discuss_url": "https://lobste.rs/s/wfural",
-      "score": 0,
-      "comments": 0,
-      "author": "atmosx",
-      "published": "2026-07-23T14:16:07Z"
-    },
-    {
-      "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "A shell colon does nothing. Use it anyway",
       "url": "https://refp.se/articles/your-shell-and-the-magic-colon",
       "discuss_url": "https://lobste.rs/s/eidh3u",
-      "score": 19,
-      "comments": 5,
+      "score": 52,
+      "comments": 13,
       "author": "refp",
       "published": "2026-07-25T11:33:00Z"
     },
@@ -277,11 +277,11 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "I'm running the ICFP programming contest (2026)",
+      "title": "I'm running the ICFP programming contest",
       "url": "https://eieio.games/blog/im-running-the-icfp-programming-contest/",
       "discuss_url": "https://lobste.rs/s/yajc8q",
-      "score": 6,
-      "comments": 6,
+      "score": 10,
+      "comments": 10,
       "author": "abhin4v",
       "published": "2026-07-25T05:29:51Z"
     },
@@ -292,8 +292,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/rbfmuh",
       "discuss_url": "https://lobste.rs/s/rbfmuh",
-      "score": 14,
-      "comments": 37,
+      "score": 15,
+      "comments": 42,
       "author": "caius",
       "published": "2026-07-24T14:38:42Z"
     },
@@ -316,7 +316,7 @@
       "title": "2026 Stack Overflow Developer Survey",
       "url": "https://take.survey.stackoverflow.co/jfe/form/SV_4GHunpL3IfJ3rRc",
       "discuss_url": "https://lobste.rs/s/aibmo4",
-      "score": 5,
+      "score": 6,
       "comments": 0,
       "author": "5d22b",
       "published": "2026-07-25T00:23:02Z"
@@ -337,6 +337,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Build Systems Discussion",
+      "url": "https://civboot.github.io/blog/2026-07-24-build-systems.html",
+      "discuss_url": "https://lobste.rs/s/mhumdb",
+      "score": 3,
+      "comments": 1,
+      "author": "lhearachel",
+      "published": "2026-07-24T21:11:50Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Unicode Variation Selector-15 and some of my tears",
       "url": "https://benjaminwil.info/weblog/variation-selector-15/",
       "discuss_url": "https://lobste.rs/s/wzncfn",
@@ -349,23 +361,11 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Build Systems Discussion",
-      "url": "https://civboot.github.io/blog/2026-07-24-build-systems.html",
-      "discuss_url": "https://lobste.rs/s/mhumdb",
-      "score": 1,
-      "comments": 1,
-      "author": "lhearachel",
-      "published": "2026-07-24T21:11:50Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Package Name Prefixes",
       "url": "https://nesbitt.io/2026/07/23/package-name-prefixes.html",
       "discuss_url": "https://lobste.rs/s/js37j1",
       "score": 3,
-      "comments": 3,
+      "comments": 5,
       "author": "hugoarnal",
       "published": "2026-07-23T10:20:47Z"
     },
@@ -406,18 +406,6 @@
       "published": "2026-07-23T16:00:00Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "security",
-      "title": "Kimi K3 exploited the latest Redis server",
-      "url": "https://twitter.com/fried_rice/status/2080059356322918777",
-      "discuss_url": "https://news.ycombinator.com/item?id=49024938",
-      "score": 241,
-      "comments": 78,
-      "author": "Alifatisk",
-      "published": "2026-07-23T17:10:02Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
@@ -436,7 +424,7 @@
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "discuss_url": "https://lobste.rs/s/ny0yzm",
-      "score": 95,
+      "score": 96,
       "comments": 18,
       "author": "raymii",
       "published": "2026-07-22T05:56:08Z"
@@ -457,18 +445,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Silent Replacement of Trusted macOS App Executables",
-      "url": "https://mysk.blog/2026/07/23/macos-overwrite-app-executables/",
-      "discuss_url": "https://lobste.rs/s/dxaogf",
-      "score": 21,
-      "comments": 3,
-      "author": "juri",
-      "published": "2026-07-23T13:37:15Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
       "discuss_url": "https://lobste.rs/s/7nrek3",
@@ -476,6 +452,18 @@
       "comments": 40,
       "author": "dustyweb",
       "published": "2026-07-21T20:38:04Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Silent Replacement of Trusted macOS App Executables",
+      "url": "https://mysk.blog/2026/07/23/macos-overwrite-app-executables/",
+      "discuss_url": "https://lobste.rs/s/dxaogf",
+      "score": 21,
+      "comments": 3,
+      "author": "juri",
+      "published": "2026-07-23T13:37:15Z"
     },
     {
       "source": "lobsters",
@@ -505,22 +493,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Dark Elevator: Windows Install Service Local Privilege Escalation (CVE-2026-50343)",
-      "url": "https://blog.calif.io/p/dark-elevator-windows-install-service",
-      "discuss_url": "https://lobste.rs/s/miadav",
-      "score": 2,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-07-22T18:59:00Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "CVE-2026-49176 Exploit Development: WalletService to SYSTEM",
       "url": "https://davidcarliez.github.io/blog/cve-2026-49176-walletservice-to-system/",
       "discuss_url": "https://lobste.rs/s/dxhdqx",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "fro",
       "published": "2026-07-23T17:57:50Z"
@@ -529,13 +505,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Local Privilege Escalation in set-capabilities versions of snap-confine (CVE-2026-8933)",
-      "url": "https://cdn2.qualys.com/advisory/2026/07/21/snap-confine-set-capabilities.txt",
-      "discuss_url": "https://lobste.rs/s/w7qez9",
+      "title": "Dark Elevator: Windows Install Service Local Privilege Escalation (CVE-2026-50343)",
+      "url": "https://blog.calif.io/p/dark-elevator-windows-install-service",
+      "discuss_url": "https://lobste.rs/s/miadav",
       "score": 2,
       "comments": 0,
       "author": "fro",
-      "published": "2026-07-21T18:01:28Z"
+      "published": "2026-07-22T18:59:00Z"
     },
     {
       "source": "rss",
@@ -550,16 +526,40 @@
       "published": "2026-07-25T12:52:43Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
+      "url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
+      "discuss_url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-25T10:14:26Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
+      "url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
+      "discuss_url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-25T10:14:21Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "devops",
-      "title": "Using Nagios for small business infrastructure monitoring",
-      "url": "https://tech.chrishardie.com/2026/nagios-small-business-infrastructure-monitoring/",
-      "discuss_url": "https://lobste.rs/s/wub9oc",
-      "score": 6,
-      "comments": 4,
-      "author": "robalex",
-      "published": "2026-07-21T18:35:19Z"
+      "title": "Open-weight AI is having its Kubernetes moment",
+      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49048034",
+      "score": 157,
+      "comments": 106,
+      "author": "tknaup",
+      "published": "2026-07-25T14:49:49Z"
     },
     {
       "source": "rss",
@@ -697,6 +697,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight",
+      "url": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/",
+      "discuss_url": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/",
+      "score": null,
+      "comments": null,
+      "author": "Stephen Clark",
+      "published": "2026-07-25T17:47:22Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "With help from data, art museums are reframing the visitor experience",
       "url": "https://arstechnica.com/culture/2026/07/with-help-from-data-art-museums-are-reframing-the-visitor-experience/",
       "discuss_url": "https://arstechnica.com/culture/2026/07/with-help-from-data-art-museums-are-reframing-the-visitor-experience/",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "John Timmer",
       "published": "2026-07-24T17:31:26Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "This is the world's most advanced robotic servicing satellite—that we know about",
-      "url": "https://arstechnica.com/space/2026/07/this-is-the-worlds-most-advanced-robotic-servicing-satellite-that-we-know-about/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/this-is-the-worlds-most-advanced-robotic-servicing-satellite-that-we-know-about/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-07-24T15:23:06Z"
     }
   ]
 }
