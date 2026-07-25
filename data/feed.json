@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T02:54:49Z",
+  "updated_at": "2026-07-25T08:11:56Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "Claude Opus 5",
       "url": "https://www.anthropic.com/news/claude-opus-5",
       "discuss_url": "https://news.ycombinator.com/item?id=49038433",
-      "score": 1341,
-      "comments": 728,
+      "score": 1510,
+      "comments": 842,
       "author": "alvis",
       "published": "2026-07-24T16:57:41Z",
       "bullets": [
-        "Anthropic released a system card detailing next-generation frontier performance across advanced reasoning, complex coding, and autonomous agent workflows.",
-        "Safety evaluations assessed risks in cyber capabilities, autonomous replication, and CBRN threats under Anthropic's AI Safety Level (ASL) framework.",
-        "Optimized for enterprise AI deployments with extended context handling, reliable structured tool execution, and improved inference efficiency."
+        "Anthropic published the System Card detailing enhanced multi-step reasoning, complex coding, and agentic task benchmarks for their frontier model.",
+        "Safety evaluations focus on Cyber Capabilities, ASL-2/ASL-3 thresholds, CBRN threat mitigations, and resistance to prompt injection attacks.",
+        "Red-teaming frameworks detail deployment guardrails, automated jailbreak defenses, and safety alignment metrics for enterprise agentic AI workloads."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/rbfmuh",
-      "discuss_url": "https://lobste.rs/s/rbfmuh",
-      "score": 11,
-      "comments": 27,
-      "author": "caius",
-      "published": "2026-07-24T14:38:42Z",
+      "title": "I'm running the ICFP programming contest (2026)",
+      "url": "https://eieio.games/blog/im-running-the-icfp-programming-contest/",
+      "discuss_url": "https://lobste.rs/s/yajc8q",
+      "score": 3,
+      "comments": 2,
+      "author": "abhin4v",
+      "published": "2026-07-25T05:29:51Z",
       "bullets": [
-        "Developers share active side-projects, open-source contributions, and technical experiments to solicit peer review and community feedback.",
-        "Weekend coding sessions serve as informal sandboxes for testing emerging tools, libraries, and system architectures.",
-        "Community guidelines explicitly normalize downtime, recognizing rest and burnout prevention as critical components of long-term engineering health."
+        "The ICFP Programming Contest is an annual 72-hour competition focused on solving complex algorithmic problems using functional programming principles.",
+        "Organizers typically construct custom virtual machines, domain-specific languages, or NP-hard optimization challenges for participating developer teams.",
+        "Early infrastructure planning for ICFP 2026 focuses on building automated evaluation pipelines, scoring sandboxes, and benchmark problem sets."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Kimi K3 exploited the latest Redis server",
       "url": "https://twitter.com/fried_rice/status/2080059356322918777",
       "discuss_url": "https://news.ycombinator.com/item?id=49024938",
-      "score": 149,
-      "comments": 41,
+      "score": 210,
+      "comments": 57,
       "author": "Alifatisk",
       "published": "2026-07-23T17:10:02Z",
       "bullets": [
-        "Reasoning models like Kimi K3 demonstrate autonomous exploitation capabilities against modern infrastructure targets like Redis servers.",
-        "Defenders face compressed vulnerability-to-exploitation timelines as AI agents automate complex attack chain discovery and payload generation.",
-        "Mitigate Redis attack surfaces by disabling risky commands like CONFIG, enforcing strict authentication ACLs, and applying robust network isolation."
+        "Autonomous AI agents like Kimi K3 demonstrate automated zero-day and N-day exploitation capabilities against core infrastructure like Redis.",
+        "Exposed database endpoints demand strict ACLs, TLS authentication, and network perimeter isolation to block non-interactive, agent-generated exploits.",
+        "DevSecOps teams should integrate agentic threat modeling and real-time behavioral monitoring to detect rapid, machine-driven attack sequences."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "GLaDER",
       "published": "2026-07-21T10:11:59Z",
       "bullets": [
-        "OpenSSH clients rely on local public key files to query supported signature algorithms like rsa-sha2-512 prior to private key handshakes.",
-        "Placing the matching .pub file next to the private key resolves unexpected GitHub SSH rejections without needing full key rotation.",
-        "Maintain both public and private key files in CI/CD pipelines and workstations to prevent silent OpenSSH algorithm negotiation failures."
+        "OpenSSH clients use local .pub files to pre-flight public key algorithms; missing them causes GitHub authentication to fail.",
+        "Without matching .pub files, OpenSSH cannot advertise key types or signatures to remote hosts during initial protocol negotiation.",
+        "Regenerate missing public key files using ssh-keygen -y -f private_key to instantly resolve unexpected GitHub SSH connection rejections."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Stephen Clark",
       "published": "2026-07-24T22:28:20Z",
       "bullets": [
-        "\"Any potential damage will be assessed when it is safe to do so.\"",
-        "Wildfire forces evacuation of NASA's Deep Space Network complex in Spain",
-        "Submitted by Stephen Clark on arstechnica.com."
+        "Wildfire forced evacuation of NASA's Madrid Deep Space Communications Complex, risking operational continuity for deep-space mission tracking.",
+        "Space mission communications shift to Goldstone and Canberra ground stations to maintain continuous Deep Space Network telemetry coverage.",
+        "Extreme weather threats to physical ground stations emphasize the necessity of geographically distributed failover architecture for critical infrastructure."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Claude Opus 5",
       "url": "https://www.anthropic.com/news/claude-opus-5",
       "discuss_url": "https://news.ycombinator.com/item?id=49038433",
-      "score": 1341,
-      "comments": 728,
+      "score": 1510,
+      "comments": 842,
       "author": "alvis",
       "published": "2026-07-24T16:57:41Z"
     },
@@ -136,22 +136,10 @@
       "title": "Be skeptical of OpenAI's rogue hacker agent story",
       "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
       "discuss_url": "https://news.ycombinator.com/item?id=49038060",
-      "score": 436,
-      "comments": 244,
+      "score": 481,
+      "comments": 279,
       "author": "rwmj",
       "published": "2026-07-24T16:33:31Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Hetzner is working on LLM Inference",
-      "url": "https://sliplane.io/blog/hetzner-inference",
-      "discuss_url": "https://news.ycombinator.com/item?id=49033087",
-      "score": 145,
-      "comments": 77,
-      "author": "jonas_scholz",
-      "published": "2026-07-24T09:24:44Z"
     },
     {
       "source": "hackernews",
@@ -160,10 +148,22 @@
       "title": "Claude Cookbook",
       "url": "https://platform.claude.com/cookbook/",
       "discuss_url": "https://news.ycombinator.com/item?id=49031409",
-      "score": 289,
-      "comments": 155,
+      "score": 310,
+      "comments": 158,
       "author": "saikatsg",
       "published": "2026-07-24T05:09:15Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Hetzner is working on LLM Inference",
+      "url": "https://sliplane.io/blog/hetzner-inference",
+      "discuss_url": "https://news.ycombinator.com/item?id=49033087",
+      "score": 148,
+      "comments": 79,
+      "author": "jonas_scholz",
+      "published": "2026-07-24T09:24:44Z"
     },
     {
       "source": "hackernews",
@@ -172,8 +172,8 @@
       "title": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
       "url": "https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china",
       "discuss_url": "https://news.ycombinator.com/item?id=49020868",
-      "score": 293,
-      "comments": 331,
+      "score": 296,
+      "comments": 330,
       "author": "yogthos",
       "published": "2026-07-23T13:00:03Z"
     },
@@ -184,8 +184,8 @@
       "title": "Open Weights and American AI Leadership",
       "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/",
       "discuss_url": "https://lobste.rs/s/gqgbrz",
-      "score": 12,
-      "comments": 6,
+      "score": 14,
+      "comments": 7,
       "author": "stick",
       "published": "2026-07-24T14:01:24Z"
     },
@@ -265,25 +265,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/rbfmuh",
-      "discuss_url": "https://lobste.rs/s/rbfmuh",
-      "score": 11,
-      "comments": 27,
-      "author": "caius",
-      "published": "2026-07-24T14:38:42Z"
+      "title": "I'm running the ICFP programming contest (2026)",
+      "url": "https://eieio.games/blog/im-running-the-icfp-programming-contest/",
+      "discuss_url": "https://lobste.rs/s/yajc8q",
+      "score": 3,
+      "comments": 2,
+      "author": "abhin4v",
+      "published": "2026-07-25T05:29:51Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "2026 Stack Overflow Developer Survey",
-      "url": "https://take.survey.stackoverflow.co/jfe/form/SV_4GHunpL3IfJ3rRc",
-      "discuss_url": "https://lobste.rs/s/aibmo4",
-      "score": 3,
-      "comments": 0,
-      "author": "5d22b",
-      "published": "2026-07-25T00:23:02Z"
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/rbfmuh",
+      "discuss_url": "https://lobste.rs/s/rbfmuh",
+      "score": 12,
+      "comments": 33,
+      "author": "caius",
+      "published": "2026-07-24T14:38:42Z"
     },
     {
       "source": "lobsters",
@@ -301,13 +301,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Build Systems Discussion",
-      "url": "https://civboot.github.io/blog/2026-07-24-build-systems.html",
-      "discuss_url": "https://lobste.rs/s/mhumdb",
-      "score": 1,
-      "comments": 1,
-      "author": "lhearachel",
-      "published": "2026-07-24T21:11:50Z"
+      "title": "2026 Stack Overflow Developer Survey",
+      "url": "https://take.survey.stackoverflow.co/jfe/form/SV_4GHunpL3IfJ3rRc",
+      "discuss_url": "https://lobste.rs/s/aibmo4",
+      "score": 3,
+      "comments": 0,
+      "author": "5d22b",
+      "published": "2026-07-25T00:23:02Z"
     },
     {
       "source": "lobsters",
@@ -320,6 +320,18 @@
       "comments": 7,
       "author": "b--man",
       "published": "2026-07-22T21:33:12Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Build Systems Discussion",
+      "url": "https://civboot.github.io/blog/2026-07-24-build-systems.html",
+      "discuss_url": "https://lobste.rs/s/mhumdb",
+      "score": 1,
+      "comments": 1,
+      "author": "lhearachel",
+      "published": "2026-07-24T21:11:50Z"
     },
     {
       "source": "lobsters",
@@ -394,26 +406,14 @@
       "published": "2026-07-22T19:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Next chapter: Restructuring GitHub’s bug bounty program",
-      "url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
-      "discuss_url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
-      "score": null,
-      "comments": null,
-      "author": "Catherine Cassell",
-      "published": "2026-07-22T16:00:00Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Kimi K3 exploited the latest Redis server",
       "url": "https://twitter.com/fried_rice/status/2080059356322918777",
       "discuss_url": "https://news.ycombinator.com/item?id=49024938",
-      "score": 149,
-      "comments": 41,
+      "score": 210,
+      "comments": 57,
       "author": "Alifatisk",
       "published": "2026-07-23T17:10:02Z"
     },
@@ -505,18 +505,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "432 Linux kernel CVEs published in the last 24 hours",
-      "url": "https://lore.kernel.org/linux-cve-announce/",
-      "discuss_url": "https://lobste.rs/s/t2jxyu",
-      "score": 38,
-      "comments": 14,
-      "author": "Helithumper",
-      "published": "2026-07-21T03:50:28Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "RefluXFS: A Linux Kernel Local Privilege Escalation to Root in XFS (CVE-2026-64600)",
       "url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/07/22/refluxfs-a-linux-kernel-local-privilege-escalation-to-root-in-xfs-cve-2026-64600",
       "discuss_url": "https://lobste.rs/s/tltlwf",
@@ -548,6 +536,18 @@
       "comments": 0,
       "author": "fro",
       "published": "2026-07-22T18:59:00Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "CVE-2026-49176 Exploit Development: WalletService to SYSTEM",
+      "url": "https://davidcarliez.github.io/blog/cve-2026-49176-walletservice-to-system/",
+      "discuss_url": "https://lobste.rs/s/dxhdqx",
+      "score": 1,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-07-23T17:57:50Z"
     },
     {
       "source": "lobsters",
