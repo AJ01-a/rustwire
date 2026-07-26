@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T13:37:48Z",
+  "updated_at": "2026-07-26T19:17:05Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "The new rules of context engineering for Claude 5 generation models",
       "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
       "discuss_url": "https://news.ycombinator.com/item?id=49051361",
-      "score": 381,
-      "comments": 275,
+      "score": 433,
+      "comments": 335,
       "author": "mellosouls",
       "published": "2026-07-25T20:42:35Z",
       "bullets": [
-        "Modern context engineering shifts focus from raw token stuffing to structured XML formatting and dynamic prompt assembly for Anthropic models.",
-        "Leverage Anthropic context caching and explicit system prompt boundaries to significantly reduce processing latency and API token costs.",
-        "Integrate hybrid RAG architectures with strict tool-calling schemas to mitigate attention decay across long-context, multi-turn workflows."
+        "Leverage context caching and precise system prompt boundaries to drastically reduce API latency and token costs during high-volume inference.",
+        "Use explicit XML tags and JSON schemas within context windows to reliably guide complex tool-use and multi-step agentic workflows.",
+        "Optimize long-context recall by balancing structured chunk retrieval with prompt pruning to prevent attention degradation in extended model contexts."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "A shell colon does nothing. Use it anyway",
       "url": "https://refp.se/articles/your-shell-and-the-magic-colon",
       "discuss_url": "https://lobste.rs/s/eidh3u",
-      "score": 89,
-      "comments": 35,
+      "score": 94,
+      "comments": 36,
       "author": "refp",
       "published": "2026-07-25T11:33:00Z",
       "bullets": [
-        "The POSIX shell colon builtin returns exit code 0 without spawning subprocesses, offering a lightweight alternative to external commands.",
-        "Use colon parameter expansion (${VAR:=default}) to safely set default environment variables without executing secondary commands.",
-        "Leverage colon for high-performance infinite loops (while :; do), instant file truncation (: > file), and syntactically required empty condition blocks."
+        "Use the POSIX shell colon built-in with parameter expansion like : \"${VAR:=default}\" to safely set default variables without executing output.",
+        "Truncate files without external utilities via : > file.log, or create lightweight infinite loops using while :; do.",
+        "Leverage : as a standardized, zero-overhead no-op placeholder in empty conditional blocks while ensuring an exit code of 0."
       ]
     },
     {
@@ -76,9 +76,9 @@
       "author": "trousers",
       "published": "2026-07-23T01:54:48Z",
       "bullets": [
-        "Threat actors exploit recruitment by sending candidates trojanized take-home projects containing obfuscated malware triggered via build scripts or package dependencies.",
-        "Malicious repositories commonly execute pre-install scripts (npm install, setup.py) to harvest developer credentials, browser cookies, and SSH keys.",
-        "Sandbox and inspect all untrusted interview code inside ephemeral VMs or Devcontainers before installing dependencies or executing local builds."
+        "Threat actors increasingly use fake coding assessments and take-home assignments as social engineering vectors to breach developer endpoints.",
+        "Malicious repos deliver infostealers or RATs via compromised package dependencies (NPM/PyPI), build scripts, or obfuscated setup binaries.",
+        "Safely evaluate candidate assignments or external repositories using isolated, ephemeral sandbox environments and automated dependency scanning."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "Cloudflare's new AI traffic options for customers",
       "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
       "discuss_url": "https://news.ycombinator.com/item?id=49052564",
-      "score": 145,
-      "comments": 124,
+      "score": 182,
+      "comments": 137,
       "author": "alphabetatango",
       "published": "2026-07-25T22:50:49Z",
       "bullets": [
-        "Cloudflare added edge WAF controls allowing DevOps teams to block or restrict AI web crawlers and scraping bots with one click.",
-        "New AI Audit dashboards provide real-time visibility into bot traffic, targeted endpoints, and bandwidth consumed by specific AI models.",
-        "Site operators can implement custom rate limits, enforce bot-specific policies, or monetize content access for AI model training."
+        "Cloudflare adds WAF controls enabling DevOps teams to block or rate-limit AI web crawlers like GPTBot, ClaudeBot, and Bytespider.",
+        "Edge-level scraping controls prevent unthrottled LLM bots from exhausting origin server compute, memory, and bandwidth resources.",
+        "Detailed traffic analytics let operators inspect automated AI bot behavior and enforce custom access rules without modifying application code."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Jennifer Ouellette",
       "published": "2026-07-25T20:52:30Z",
       "bullets": [
-        "Amazon's Prime Video debuted first footage of its Blade Runner 2099 series at San Diego Comic-Con.",
-        "A new teaser for Rings of Power Season 3 previews the in-universe forging of the One Ring.",
-        "SDCC announcements also featured trailers and panels for DC's Lanterns and Spaceballs: The New One."
+        "Amazon revealed initial footage for 'Blade Runner 2099,' expanding the cyberpunk franchise into a long-form television series.",
+        "San Diego Comic-Con teasers confirmed 'The Rings of Power' Season 3 will focus on the forging of the One Ring.",
+        "Major studio panels highlighted upcoming releases including DC's 'Lanterns' series trailer and Mel Brooks' 'Spaceballs' sequel."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "The new rules of context engineering for Claude 5 generation models",
       "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
       "discuss_url": "https://news.ycombinator.com/item?id=49051361",
-      "score": 381,
-      "comments": 275,
+      "score": 433,
+      "comments": 335,
       "author": "mellosouls",
       "published": "2026-07-25T20:42:35Z"
     },
@@ -136,8 +136,8 @@
       "title": "LLM Usage in Debian: Three Proposals",
       "url": "https://www.debian.org/vote/2026/vote_002",
       "discuss_url": "https://news.ycombinator.com/item?id=49050859",
-      "score": 185,
-      "comments": 161,
+      "score": 201,
+      "comments": 192,
       "author": "zdw",
       "published": "2026-07-25T19:44:39Z"
     },
@@ -148,46 +148,10 @@
       "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
       "url": "https://github.com/slvDev/esp32-ai",
       "discuss_url": "https://news.ycombinator.com/item?id=49050512",
-      "score": 231,
-      "comments": 54,
+      "score": 264,
+      "comments": 67,
       "author": "boveyking",
       "published": "2026-07-25T18:59:50Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Claude Opus 5",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "discuss_url": "https://news.ycombinator.com/item?id=49038433",
-      "score": 1754,
-      "comments": 1296,
-      "author": "alvis",
-      "published": "2026-07-24T16:57:41Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Be skeptical of OpenAI's rogue hacker agent story",
-      "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
-      "discuss_url": "https://news.ycombinator.com/item?id=49038060",
-      "score": 527,
-      "comments": 294,
-      "author": "rwmj",
-      "published": "2026-07-24T16:33:31Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Languages as designed latent spaces",
-      "url": "https://blog.jsbarretto.com/post/languages-as-latent-spaces",
-      "discuss_url": "https://lobste.rs/s/ljg2qr",
-      "score": 7,
-      "comments": 1,
-      "author": "intarga",
-      "published": "2026-07-25T15:13:27Z"
     },
     {
       "source": "lobsters",
@@ -200,6 +164,18 @@
       "comments": 13,
       "author": "stick",
       "published": "2026-07-24T14:01:24Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Languages as designed latent spaces",
+      "url": "https://blog.jsbarretto.com/post/languages-as-latent-spaces",
+      "discuss_url": "https://lobste.rs/s/ljg2qr",
+      "score": 7,
+      "comments": 1,
+      "author": "intarga",
+      "published": "2026-07-25T15:13:27Z"
     },
     {
       "source": "lobsters",
@@ -263,15 +239,39 @@
     },
     {
       "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Not just development, distribution of software may change as well",
+      "url": "https://antirez.com/news/170",
+      "discuss_url": "https://lobste.rs/s/wfural",
+      "score": 0,
+      "comments": 0,
+      "author": "atmosx",
+      "published": "2026-07-23T14:16:07Z"
+    },
+    {
+      "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "A shell colon does nothing. Use it anyway",
       "url": "https://refp.se/articles/your-shell-and-the-magic-colon",
       "discuss_url": "https://lobste.rs/s/eidh3u",
-      "score": 89,
-      "comments": 35,
+      "score": 94,
+      "comments": 36,
       "author": "refp",
       "published": "2026-07-25T11:33:00Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Forth Moving Lisp Moving Forth",
+      "url": "https://letoverlambda.com/textmode.cl/guest/chap8.html",
+      "discuss_url": "https://lobste.rs/s/exipox",
+      "score": 2,
+      "comments": 0,
+      "author": "LenFalken",
+      "published": "2026-07-26T17:39:27Z"
     },
     {
       "source": "lobsters",
@@ -281,7 +281,7 @@
       "url": "https://eieio.games/blog/im-running-the-icfp-programming-contest/",
       "discuss_url": "https://lobste.rs/s/yajc8q",
       "score": 16,
-      "comments": 15,
+      "comments": 16,
       "author": "abhin4v",
       "published": "2026-07-25T05:29:51Z"
     },
@@ -332,18 +332,6 @@
       "comments": 1,
       "author": "5d22b",
       "published": "2026-07-25T00:23:02Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Unicode Variation Selector-15 and some of my tears",
-      "url": "https://benjaminwil.info/weblog/variation-selector-15/",
-      "discuss_url": "https://lobste.rs/s/wzncfn",
-      "score": 17,
-      "comments": 6,
-      "author": "abnercoimbre",
-      "published": "2026-07-22T15:59:07Z"
     },
     {
       "source": "lobsters",
@@ -421,18 +409,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "PyPI releases now reject new files after 14 days",
-      "url": "https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/",
-      "discuss_url": "https://lobste.rs/s/53g8f7",
-      "score": 46,
-      "comments": 11,
-      "author": "ngoldbaum",
-      "published": "2026-07-22T15:01:49Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Silent Replacement of Trusted macOS App Executables",
       "url": "https://mysk.blog/2026/07/23/macos-overwrite-app-executables/",
       "discuss_url": "https://lobste.rs/s/dxaogf",
@@ -476,18 +452,6 @@
       "comments": 0,
       "author": "fro",
       "published": "2026-07-23T17:57:50Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Dark Elevator: Windows Install Service Local Privilege Escalation (CVE-2026-50343)",
-      "url": "https://blog.calif.io/p/dark-elevator-windows-install-service",
-      "discuss_url": "https://lobste.rs/s/miadav",
-      "score": 2,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-07-22T18:59:00Z"
     },
     {
       "source": "rss",
@@ -550,14 +514,38 @@
       "published": "2026-07-25T10:14:03Z"
     },
     {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
+      "url": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
+      "discuss_url": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-25T09:53:41Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
+      "url": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
+      "discuss_url": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-24T15:12:35Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Cloudflare's new AI traffic options for customers",
       "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
       "discuss_url": "https://news.ycombinator.com/item?id=49052564",
-      "score": 145,
-      "comments": 124,
+      "score": 182,
+      "comments": 137,
       "author": "alphabetatango",
       "published": "2026-07-25T22:50:49Z"
     },
@@ -568,8 +556,8 @@
       "title": "Open-weight AI is having its Kubernetes moment",
       "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
       "discuss_url": "https://news.ycombinator.com/item?id=49048034",
-      "score": 384,
-      "comments": 299,
+      "score": 394,
+      "comments": 311,
       "author": "tknaup",
       "published": "2026-07-25T14:49:49Z"
     },
