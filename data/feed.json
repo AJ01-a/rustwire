@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T08:32:28Z",
+  "updated_at": "2026-07-26T13:37:48Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "The new rules of context engineering for Claude 5 generation models",
       "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
       "discuss_url": "https://news.ycombinator.com/item?id=49051361",
-      "score": 307,
-      "comments": 189,
+      "score": 381,
+      "comments": 275,
       "author": "mellosouls",
       "published": "2026-07-25T20:42:35Z",
       "bullets": [
-        "Optimize long-context prompts using structured XML tags, system prompts, and explicit cache-control markers to reduce latency and token costs.",
-        "Leverage retrieval-augmented generation (RAG) and dynamic context pruning to keep prompt windows focused on high-density, relevant information.",
-        "Utilize systematic prompt evaluation tools to measure needle-in-a-haystack recall and maintain reasoning performance across extended contexts."
+        "Modern context engineering shifts focus from raw token stuffing to structured XML formatting and dynamic prompt assembly for Anthropic models.",
+        "Leverage Anthropic context caching and explicit system prompt boundaries to significantly reduce processing latency and API token costs.",
+        "Integrate hybrid RAG architectures with strict tool-calling schemas to mitigate attention decay across long-context, multi-turn workflows."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "A shell colon does nothing. Use it anyway",
       "url": "https://refp.se/articles/your-shell-and-the-magic-colon",
       "discuss_url": "https://lobste.rs/s/eidh3u",
-      "score": 83,
-      "comments": 32,
+      "score": 89,
+      "comments": 35,
       "author": "refp",
       "published": "2026-07-25T11:33:00Z",
       "bullets": [
-        "The POSIX shell colon (`:`) is a built-in null command that exits with status 0 while evaluating parameter side effects.",
-        "Use `:` for concise infinite loops (`while :`), safe default assignments like `: \"${VAR:=default}\"`, and truncating files (`: > file`).",
-        "Employ `:` as an explicit no-op placeholder in shell script conditional branches or to evaluate expressions without running commands."
+        "The POSIX shell colon builtin returns exit code 0 without spawning subprocesses, offering a lightweight alternative to external commands.",
+        "Use colon parameter expansion (${VAR:=default}) to safely set default environment variables without executing secondary commands.",
+        "Leverage colon for high-performance infinite loops (while :; do), instant file truncation (: > file), and syntactically required empty condition blocks."
       ]
     },
     {
@@ -76,26 +76,26 @@
       "author": "trousers",
       "published": "2026-07-23T01:54:48Z",
       "bullets": [
-        "Threat actors exploit developer recruitment by delivering trojanized take-home projects designed to compromise local workstations and steal credentials.",
-        "Malicious repositories commonly hide infostealers within pre-install scripts, obfuscated npm/PyPI packages, or malicious VS Code build tasks.",
-        "Always inspect dependencies and execute untrusted coding assignments inside ephemeral, isolated virtual machines or containers without access to production secrets."
+        "Threat actors exploit recruitment by sending candidates trojanized take-home projects containing obfuscated malware triggered via build scripts or package dependencies.",
+        "Malicious repositories commonly execute pre-install scripts (npm install, setup.py) to harvest developer credentials, browser cookies, and SSH keys.",
+        "Sandbox and inspect all untrusted interview code inside ephemeral VMs or Devcontainers before installing dependencies or executing local builds."
       ]
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
-      "title": "Open-weight AI is having its Kubernetes moment",
-      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49048034",
-      "score": 373,
-      "comments": 287,
-      "author": "tknaup",
-      "published": "2026-07-25T14:49:49Z",
+      "title": "Cloudflare's new AI traffic options for customers",
+      "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49052564",
+      "score": 145,
+      "comments": 124,
+      "author": "alphabetatango",
+      "published": "2026-07-25T22:50:49Z",
       "bullets": [
-        "Open-weight models like DeepSeek and Llama shift DevOps focus from managed SaaS APIs to self-hosted cloud-native inference infrastructure.",
-        "Standard runtimes like vLLM and KubeRay leverage Kubernetes GPU operators to unify deployment patterns across heterogeneous clusters.",
-        "Self-hosting provides platform engineering teams strict data privacy, custom latency optimization, and better control over long-term GPU costs."
+        "Cloudflare added edge WAF controls allowing DevOps teams to block or restrict AI web crawlers and scraping bots with one click.",
+        "New AI Audit dashboards provide real-time visibility into bot traffic, targeted endpoints, and bandwidth consumed by specific AI models.",
+        "Site operators can implement custom rate limits, enforce bot-specific policies, or monetize content access for AI model training."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Jennifer Ouellette",
       "published": "2026-07-25T20:52:30Z",
       "bullets": [
-        "Prime Video unveiled teaser footage for Blade Runner 2099 at San Diego Comic-Con, expanding the classic cyberpunk television franchise.",
-        "Amazon showcased a Lord of the Rings: The Rings of Power Season 3 teaser highlighting the forging of the One Ring.",
-        "San Diego Comic-Con updates featured trailer debuts for DC's Lanterns alongside a panel for Spaceballs: The New One."
+        "Amazon's Prime Video debuted first footage of its Blade Runner 2099 series at San Diego Comic-Con.",
+        "A new teaser for Rings of Power Season 3 previews the in-universe forging of the One Ring.",
+        "SDCC announcements also featured trailers and panels for DC's Lanterns and Spaceballs: The New One."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "The new rules of context engineering for Claude 5 generation models",
       "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
       "discuss_url": "https://news.ycombinator.com/item?id=49051361",
-      "score": 307,
-      "comments": 189,
+      "score": 381,
+      "comments": 275,
       "author": "mellosouls",
       "published": "2026-07-25T20:42:35Z"
     },
@@ -136,8 +136,8 @@
       "title": "LLM Usage in Debian: Three Proposals",
       "url": "https://www.debian.org/vote/2026/vote_002",
       "discuss_url": "https://news.ycombinator.com/item?id=49050859",
-      "score": 143,
-      "comments": 121,
+      "score": 185,
+      "comments": 161,
       "author": "zdw",
       "published": "2026-07-25T19:44:39Z"
     },
@@ -148,8 +148,8 @@
       "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
       "url": "https://github.com/slvDev/esp32-ai",
       "discuss_url": "https://news.ycombinator.com/item?id=49050512",
-      "score": 171,
-      "comments": 37,
+      "score": 231,
+      "comments": 54,
       "author": "boveyking",
       "published": "2026-07-25T18:59:50Z"
     },
@@ -160,8 +160,8 @@
       "title": "Claude Opus 5",
       "url": "https://www.anthropic.com/news/claude-opus-5",
       "discuss_url": "https://news.ycombinator.com/item?id=49038433",
-      "score": 1749,
-      "comments": 1286,
+      "score": 1754,
+      "comments": 1296,
       "author": "alvis",
       "published": "2026-07-24T16:57:41Z"
     },
@@ -173,21 +173,9 @@
       "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
       "discuss_url": "https://news.ycombinator.com/item?id=49038060",
       "score": 527,
-      "comments": 293,
+      "comments": 294,
       "author": "rwmj",
       "published": "2026-07-24T16:33:31Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Hetzner is working on LLM Inference",
-      "url": "https://sliplane.io/blog/hetzner-inference",
-      "discuss_url": "https://news.ycombinator.com/item?id=49033087",
-      "score": 152,
-      "comments": 87,
-      "author": "jonas_scholz",
-      "published": "2026-07-24T09:24:44Z"
     },
     {
       "source": "lobsters",
@@ -238,18 +226,6 @@
       "published": "2026-07-24T04:54:16Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Two years of vector search at Notion: 10x scale, 1/10th cost",
-      "url": "https://www.notion.com/blog/two-years-of-vector-search-at-notion",
-      "discuss_url": "https://lobste.rs/s/1xbtlo",
-      "score": 1,
-      "comments": 0,
-      "author": "JulianWgs",
-      "published": "2026-07-22T10:09:50Z"
-    },
-    {
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
@@ -262,14 +238,38 @@
       "published": "2026-07-23T00:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "The State of Simulation for Physical AI: An Overview",
+      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "discuss_url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-21T20:00:27Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Grabette: an open system to record robot-manipulation data",
+      "url": "https://huggingface.co/blog/grabette",
+      "discuss_url": "https://huggingface.co/blog/grabette",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-21T00:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "A shell colon does nothing. Use it anyway",
       "url": "https://refp.se/articles/your-shell-and-the-magic-colon",
       "discuss_url": "https://lobste.rs/s/eidh3u",
-      "score": 83,
-      "comments": 32,
+      "score": 89,
+      "comments": 35,
       "author": "refp",
       "published": "2026-07-25T11:33:00Z"
     },
@@ -281,7 +281,7 @@
       "url": "https://eieio.games/blog/im-running-the-icfp-programming-contest/",
       "discuss_url": "https://lobste.rs/s/yajc8q",
       "score": 16,
-      "comments": 14,
+      "comments": 15,
       "author": "abhin4v",
       "published": "2026-07-25T05:29:51Z"
     },
@@ -337,18 +337,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Build Systems Discussion",
-      "url": "https://civboot.github.io/blog/2026-07-24-build-systems.html",
-      "discuss_url": "https://lobste.rs/s/mhumdb",
-      "score": 4,
-      "comments": 1,
-      "author": "lhearachel",
-      "published": "2026-07-24T21:11:50Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Unicode Variation Selector-15 and some of my tears",
       "url": "https://benjaminwil.info/weblog/variation-selector-15/",
       "discuss_url": "https://lobste.rs/s/wzncfn",
@@ -356,6 +344,18 @@
       "comments": 6,
       "author": "abnercoimbre",
       "published": "2026-07-22T15:59:07Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Build Systems Discussion",
+      "url": "https://civboot.github.io/blog/2026-07-24-build-systems.html",
+      "discuss_url": "https://lobste.rs/s/mhumdb",
+      "score": 4,
+      "comments": 1,
+      "author": "lhearachel",
+      "published": "2026-07-24T21:11:50Z"
     },
     {
       "source": "lobsters",
@@ -553,11 +553,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
+      "title": "Cloudflare's new AI traffic options for customers",
+      "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49052564",
+      "score": 145,
+      "comments": 124,
+      "author": "alphabetatango",
+      "published": "2026-07-25T22:50:49Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "devops",
       "title": "Open-weight AI is having its Kubernetes moment",
       "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
       "discuss_url": "https://news.ycombinator.com/item?id=49048034",
-      "score": 373,
-      "comments": 287,
+      "score": 384,
+      "comments": 299,
       "author": "tknaup",
       "published": "2026-07-25T14:49:49Z"
     },
@@ -680,18 +692,6 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-07-23T23:46:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS now supports automatic credit memo application preferences",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/credit-memo-applications/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/credit-memo-applications/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-23T18:16:00Z"
     },
     {
       "source": "rss",
