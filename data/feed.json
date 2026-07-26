@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T19:13:02Z",
+  "updated_at": "2026-07-26T03:20:23Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Claude Opus 5",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "discuss_url": "https://news.ycombinator.com/item?id=49038433",
-      "score": 1723,
-      "comments": 1233,
-      "author": "alvis",
-      "published": "2026-07-24T16:57:41Z",
+      "title": "The new rules of context engineering for Claude 5 generation models",
+      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "discuss_url": "https://news.ycombinator.com/item?id=49051361",
+      "score": 188,
+      "comments": 130,
+      "author": "mellosouls",
+      "published": "2026-07-25T20:42:35Z",
       "bullets": [
-        "Anthropic's system card details enhanced multi-step reasoning, frontier coding benchmarks, and expanded context window capabilities.",
-        "Evaluates ASL-3 safety frameworks, measuring cyberattack capabilities, autonomous replication risks, and CBRN threat vectors with automated red-teaming.",
-        "Outlines updated refusal training, Constitutional AI alignment, and inference guardrails for high-autonomy agentic enterprise workflows."
+        "Leverage Anthropic prompt caching to drastically reduce latency and API costs when passing persistent system prompts and extensive background documents.",
+        "Structure long-context inputs with semantic XML tags and place critical system instructions near context boundaries to maximize model attention retention.",
+        "Adopt multi-agent orchestration and dynamic context pruning instead of single-prompt context dumping to avoid performance degradation in massive context windows."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "A shell colon does nothing. Use it anyway",
       "url": "https://refp.se/articles/your-shell-and-the-magic-colon",
       "discuss_url": "https://lobste.rs/s/eidh3u",
-      "score": 52,
-      "comments": 13,
+      "score": 76,
+      "comments": 30,
       "author": "refp",
       "published": "2026-07-25T11:33:00Z",
       "bullets": [
-        "The POSIX shell colon operator is a built-in no-op returning exit status 0, avoiding subprocess creation overhead.",
-        "It safely evaluates parameter expansion side effects like `${VAR:=default}` without executing the expanded string value as a command.",
-        "Key use cases include efficient file truncation (`: > file`), lightweight infinite loops (`while :`), and conditional branch placeholders."
+        "The POSIX shell colon (`:`) is a built-in no-op command that always returns a zero (success) exit status.",
+        "Use `:` to safely trigger parameter expansions like `${VAR:=default}` without executing the expanded string as a separate command.",
+        "The colon acts as a performant substitute for `true` in infinite loops (`while :`) and truncates files (`: > file`)."
       ]
     },
     {
@@ -76,9 +76,9 @@
       "author": "trousers",
       "published": "2026-07-23T01:54:48Z",
       "bullets": [
-        "Attacker campaigns use fake technical take-home interviews to deliver malware hidden in project dependencies and malicious build scripts.",
-        "Executing untrusted interview code (e.g., via npm install) deploys credential stealers targeting SSH keys, browser databases, and API tokens.",
-        "Engineers must isolate interview assignments using sandboxed containers or ephemeral VMs and restrict network access before running local tests."
+        "Threat actors deploy trojanized take-home interview repositories containing malicious dependencies to compromise developer workstations and bypass perimeter defenses.",
+        "Malicious package scripts execute obfuscated payloads during setup, performing host reconnaissance, credential harvesting, and establishing persistent backdoors.",
+        "Isolate untrusted coding assessments by running repository builds within disposable, non-networked virtual machines or containerized sandboxes."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Open-weight AI is having its Kubernetes moment",
       "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
       "discuss_url": "https://news.ycombinator.com/item?id=49048034",
-      "score": 157,
-      "comments": 106,
+      "score": 324,
+      "comments": 262,
       "author": "tknaup",
       "published": "2026-07-25T14:49:49Z",
       "bullets": [
-        "Open-weight models like Llama 3 require Kubernetes-native inference engines like vLLM and KServe for scalable, automated GPU workload orchestration.",
-        "DevOps teams are standardizing AI deployments using GitOps pipelines, Helm charts, and containerized runtimes for reproducible, self-hosted inference stacks.",
-        "Self-hosting open-weight models shifts operational control from proprietary APIs to private infrastructure, optimizing GPU utilization and long-term hardware costs."
+        "Open-weight AI is having its Kubernetes moment",
+        "Trending on news.ycombinator.com — 324 points, 262 comments.",
+        "Submitted by tknaup on news.ycombinator.com."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight",
-      "url": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/",
+      "title": "SDCC teaser gives us our first good look at Blade Runner 2099",
+      "url": "https://arstechnica.com/culture/2026/07/sdcc-teaser-gives-us-our-first-good-look-at-blade-runner-2099/",
+      "discuss_url": "https://arstechnica.com/culture/2026/07/sdcc-teaser-gives-us-our-first-good-look-at-blade-runner-2099/",
       "score": null,
       "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-07-25T17:47:22Z",
+      "author": "Jennifer Ouellette",
+      "published": "2026-07-25T20:52:30Z",
       "bullets": [
-        "SpaceX will likely attempt to catch Starship back at the launch pad on its next flight.",
-        "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight",
-        "Submitted by Stephen Clark on arstechnica.com."
+        "Also: Forging the One Ring in Rings of Power S3 teaser; new Lanterns trailer; Spaceballs: The New One panel.",
+        "SDCC teaser gives us our first good look at Blade Runner 2099",
+        "Submitted by Jennifer Ouellette on arstechnica.com."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "The new rules of context engineering for Claude 5 generation models",
+      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "discuss_url": "https://news.ycombinator.com/item?id=49051361",
+      "score": 188,
+      "comments": 130,
+      "author": "mellosouls",
+      "published": "2026-07-25T20:42:35Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Claude Opus 5",
       "url": "https://www.anthropic.com/news/claude-opus-5",
       "discuss_url": "https://news.ycombinator.com/item?id=49038433",
-      "score": 1723,
-      "comments": 1233,
+      "score": 1741,
+      "comments": 1271,
       "author": "alvis",
       "published": "2026-07-24T16:57:41Z"
     },
@@ -136,7 +148,7 @@
       "title": "Be skeptical of OpenAI's rogue hacker agent story",
       "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
       "discuss_url": "https://news.ycombinator.com/item?id=49038060",
-      "score": 516,
+      "score": 523,
       "comments": 294,
       "author": "rwmj",
       "published": "2026-07-24T16:33:31Z"
@@ -148,8 +160,8 @@
       "title": "Claude Cookbook",
       "url": "https://platform.claude.com/cookbook/",
       "discuss_url": "https://news.ycombinator.com/item?id=49031409",
-      "score": 325,
-      "comments": 162,
+      "score": 330,
+      "comments": 164,
       "author": "saikatsg",
       "published": "2026-07-24T05:09:15Z"
     },
@@ -160,22 +172,10 @@
       "title": "Hetzner is working on LLM Inference",
       "url": "https://sliplane.io/blog/hetzner-inference",
       "discuss_url": "https://news.ycombinator.com/item?id=49033087",
-      "score": 151,
-      "comments": 86,
+      "score": 152,
+      "comments": 87,
       "author": "jonas_scholz",
       "published": "2026-07-24T09:24:44Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Open Weights and American AI Leadership",
-      "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/",
-      "discuss_url": "https://lobste.rs/s/gqgbrz",
-      "score": 15,
-      "comments": 12,
-      "author": "stick",
-      "published": "2026-07-24T14:01:24Z"
     },
     {
       "source": "lobsters",
@@ -184,8 +184,8 @@
       "title": "Languages as designed latent spaces",
       "url": "https://blog.jsbarretto.com/post/languages-as-latent-spaces",
       "discuss_url": "https://lobste.rs/s/ljg2qr",
-      "score": 1,
-      "comments": 0,
+      "score": 7,
+      "comments": 1,
       "author": "intarga",
       "published": "2026-07-25T15:13:27Z"
     },
@@ -193,13 +193,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "A tour of MLIR: The Dialect Stack Everyone Depends On",
-      "url": "https://hiraditya.github.io/posts/mlir-dialect-stack-for-ml/",
-      "discuss_url": "https://lobste.rs/s/o9vjlt",
-      "score": 5,
-      "comments": 0,
-      "author": "jado",
-      "published": "2026-07-24T04:54:16Z"
+      "title": "Open Weights and American AI Leadership",
+      "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/",
+      "discuss_url": "https://lobste.rs/s/gqgbrz",
+      "score": 14,
+      "comments": 13,
+      "author": "stick",
+      "published": "2026-07-24T14:01:24Z"
     },
     {
       "source": "lobsters",
@@ -212,6 +212,18 @@
       "comments": 0,
       "author": "calvin",
       "published": "2026-07-23T04:02:57Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "A tour of MLIR: The Dialect Stack Everyone Depends On",
+      "url": "https://hiraditya.github.io/posts/mlir-dialect-stack-for-ml/",
+      "discuss_url": "https://lobste.rs/s/o9vjlt",
+      "score": 5,
+      "comments": 0,
+      "author": "jado",
+      "published": "2026-07-24T04:54:16Z"
     },
     {
       "source": "lobsters",
@@ -250,26 +262,14 @@
       "published": "2026-07-21T20:00:27Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Grabette: an open system to record robot-manipulation data",
-      "url": "https://huggingface.co/blog/grabette",
-      "discuss_url": "https://huggingface.co/blog/grabette",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-21T00:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "A shell colon does nothing. Use it anyway",
       "url": "https://refp.se/articles/your-shell-and-the-magic-colon",
       "discuss_url": "https://lobste.rs/s/eidh3u",
-      "score": 52,
-      "comments": 13,
+      "score": 76,
+      "comments": 30,
       "author": "refp",
       "published": "2026-07-25T11:33:00Z"
     },
@@ -280,8 +280,8 @@
       "title": "I'm running the ICFP programming contest",
       "url": "https://eieio.games/blog/im-running-the-icfp-programming-contest/",
       "discuss_url": "https://lobste.rs/s/yajc8q",
-      "score": 10,
-      "comments": 10,
+      "score": 15,
+      "comments": 14,
       "author": "abhin4v",
       "published": "2026-07-25T05:29:51Z"
     },
@@ -292,8 +292,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/rbfmuh",
       "discuss_url": "https://lobste.rs/s/rbfmuh",
-      "score": 15,
-      "comments": 42,
+      "score": 16,
+      "comments": 43,
       "author": "caius",
       "published": "2026-07-24T14:38:42Z"
     },
@@ -317,7 +317,7 @@
       "url": "https://take.survey.stackoverflow.co/jfe/form/SV_4GHunpL3IfJ3rRc",
       "discuss_url": "https://lobste.rs/s/aibmo4",
       "score": 6,
-      "comments": 0,
+      "comments": 1,
       "author": "5d22b",
       "published": "2026-07-25T00:23:02Z"
     },
@@ -328,7 +328,7 @@
       "title": "Why care about programming languages",
       "url": "https://ebellani.github.io/blog/2026/why-care-about-programming-languages/",
       "discuss_url": "https://lobste.rs/s/lv12lc",
-      "score": 44,
+      "score": 45,
       "comments": 7,
       "author": "b--man",
       "published": "2026-07-22T21:33:12Z"
@@ -340,7 +340,7 @@
       "title": "Build Systems Discussion",
       "url": "https://civboot.github.io/blog/2026-07-24-build-systems.html",
       "discuss_url": "https://lobste.rs/s/mhumdb",
-      "score": 3,
+      "score": 4,
       "comments": 1,
       "author": "lhearachel",
       "published": "2026-07-24T21:11:50Z"
@@ -364,8 +364,8 @@
       "title": "Package Name Prefixes",
       "url": "https://nesbitt.io/2026/07/23/package-name-prefixes.html",
       "discuss_url": "https://lobste.rs/s/js37j1",
-      "score": 3,
-      "comments": 5,
+      "score": 4,
+      "comments": 6,
       "author": "hugoarnal",
       "published": "2026-07-23T10:20:47Z"
     },
@@ -424,7 +424,7 @@
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "discuss_url": "https://lobste.rs/s/ny0yzm",
-      "score": 96,
+      "score": 97,
       "comments": 18,
       "author": "raymii",
       "published": "2026-07-22T05:56:08Z"
@@ -440,18 +440,6 @@
       "comments": 11,
       "author": "ngoldbaum",
       "published": "2026-07-22T15:01:49Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-      "discuss_url": "https://lobste.rs/s/7nrek3",
-      "score": 53,
-      "comments": 40,
-      "author": "dustyweb",
-      "published": "2026-07-21T20:38:04Z"
     },
     {
       "source": "lobsters",
@@ -517,6 +505,18 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
+      "url": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
+      "discuss_url": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-25T18:48:44Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
       "url": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
       "discuss_url": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
@@ -556,8 +556,8 @@
       "title": "Open-weight AI is having its Kubernetes moment",
       "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
       "discuss_url": "https://news.ycombinator.com/item?id=49048034",
-      "score": 157,
-      "comments": 106,
+      "score": 324,
+      "comments": 262,
       "author": "tknaup",
       "published": "2026-07-25T14:49:49Z"
     },
@@ -697,6 +697,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "SDCC teaser gives us our first good look at Blade Runner 2099",
+      "url": "https://arstechnica.com/culture/2026/07/sdcc-teaser-gives-us-our-first-good-look-at-blade-runner-2099/",
+      "discuss_url": "https://arstechnica.com/culture/2026/07/sdcc-teaser-gives-us-our-first-good-look-at-blade-runner-2099/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-07-25T20:52:30Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight",
       "url": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/",
       "discuss_url": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Jeremy Hsu",
       "published": "2026-07-24T17:45:05Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Team uses AlphaFold AI to redesign gene-editing proteins to make them safer",
-      "url": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/",
-      "discuss_url": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/",
-      "score": null,
-      "comments": null,
-      "author": "John Timmer",
-      "published": "2026-07-24T17:31:26Z"
     }
   ]
 }
