@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T19:17:05Z",
+  "updated_at": "2026-07-27T03:30:32Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "The new rules of context engineering for Claude 5 generation models",
       "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
       "discuss_url": "https://news.ycombinator.com/item?id=49051361",
-      "score": 433,
-      "comments": 335,
+      "score": 443,
+      "comments": 361,
       "author": "mellosouls",
       "published": "2026-07-25T20:42:35Z",
       "bullets": [
-        "Leverage context caching and precise system prompt boundaries to drastically reduce API latency and token costs during high-volume inference.",
-        "Use explicit XML tags and JSON schemas within context windows to reliably guide complex tool-use and multi-step agentic workflows.",
-        "Optimize long-context recall by balancing structured chunk retrieval with prompt pruning to prevent attention degradation in extended model contexts."
+        "Leverage Anthropic's prompt caching by placing static instructions and reference documents before dynamic user inputs to reduce latency and API costs.",
+        "Use explicit XML tags (e.g., <doc>, <rules>) and structured schemas to prevent attention degradation across massive context windows.",
+        "Prune historical conversation turns and prioritize dynamic RAG retrieval over raw context stuffing to maintain high needle-in-a-haystack retrieval accuracy."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "A shell colon does nothing. Use it anyway",
       "url": "https://refp.se/articles/your-shell-and-the-magic-colon",
       "discuss_url": "https://lobste.rs/s/eidh3u",
-      "score": 94,
-      "comments": 36,
+      "score": 98,
+      "comments": 39,
       "author": "refp",
       "published": "2026-07-25T11:33:00Z",
       "bullets": [
-        "Use the POSIX shell colon built-in with parameter expansion like : \"${VAR:=default}\" to safely set default variables without executing output.",
-        "Truncate files without external utilities via : > file.log, or create lightweight infinite loops using while :; do.",
-        "Leverage : as a standardized, zero-overhead no-op placeholder in empty conditional blocks while ensuring an exit code of 0."
+        "In POSIX shell, the builtin colon command functions as a zero-overhead true equivalent, optimizing infinite loops like while :; do.",
+        "It safely triggers parameter expansion side-effects like : \"${VAR:=default}\", assigning default variable values without running expanded strings.",
+        "Use colon as a clean, POSIX-compliant no-op placeholder inside empty conditional branches like if/then statements or script function stubs."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
-      "url": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/",
-      "discuss_url": "https://lobste.rs/s/5nhto6",
-      "score": 90,
-      "comments": 11,
-      "author": "trousers",
-      "published": "2026-07-23T01:54:48Z",
+      "title": "Silent Replacement of Trusted macOS App Executables",
+      "url": "https://mysk.blog/2026/07/23/macos-overwrite-app-executables/",
+      "discuss_url": "https://lobste.rs/s/dxaogf",
+      "score": 21,
+      "comments": 3,
+      "author": "juri",
+      "published": "2026-07-23T13:37:15Z",
       "bullets": [
-        "Threat actors increasingly use fake coding assessments and take-home assignments as social engineering vectors to breach developer endpoints.",
-        "Malicious repos deliver infostealers or RATs via compromised package dependencies (NPM/PyPI), build scripts, or obfuscated setup binaries.",
-        "Safely evaluate candidate assignments or external repositories using isolated, ephemeral sandbox environments and automated dependency scanning."
+        "Attackers can hijack macOS TCC permissions by overwriting binaries inside trusted `.app` bundles within user-writable directories like `~/Applications`.",
+        "Gatekeeper validates code signatures on initial launch, leaving post-installation executable swaps undetected without continuous runtime verification.",
+        "Mitigate risks by monitoring bundle modifications via Endpoint Security API and enforcing strict code-signing checks for running processes."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Cloudflare's new AI traffic options for customers",
       "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
       "discuss_url": "https://news.ycombinator.com/item?id=49052564",
-      "score": 182,
-      "comments": 137,
+      "score": 188,
+      "comments": 147,
       "author": "alphabetatango",
       "published": "2026-07-25T22:50:49Z",
       "bullets": [
-        "Cloudflare adds WAF controls enabling DevOps teams to block or rate-limit AI web crawlers like GPTBot, ClaudeBot, and Bytespider.",
-        "Edge-level scraping controls prevent unthrottled LLM bots from exhausting origin server compute, memory, and bandwidth resources.",
-        "Detailed traffic analytics let operators inspect automated AI bot behavior and enforce custom access rules without modifying application code."
+        "Cloudflare enables one-click blocking or throttling of major AI scrapers like GPTBot and ClaudeBot at the edge WAF level.",
+        "Engineers can enforce granular rate limiting and access control policies for AI bots without modifying backend application services.",
+        "Protects origin infrastructure from sudden bandwidth and compute surges caused by aggressive, unthrottled LLM training crawlers."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "SDCC teaser gives us our first good look at Blade Runner 2099",
-      "url": "https://arstechnica.com/culture/2026/07/sdcc-teaser-gives-us-our-first-good-look-at-blade-runner-2099/",
-      "discuss_url": "https://arstechnica.com/culture/2026/07/sdcc-teaser-gives-us-our-first-good-look-at-blade-runner-2099/",
+      "title": "First teaser for Apple TV's Neuromancer debuts at SDCC",
+      "url": "https://arstechnica.com/culture/2026/07/first-teaser-for-apple-tvs-neuromancer-debuts-at-sdcc/",
+      "discuss_url": "https://arstechnica.com/culture/2026/07/first-teaser-for-apple-tvs-neuromancer-debuts-at-sdcc/",
       "score": null,
       "comments": null,
       "author": "Jennifer Ouellette",
-      "published": "2026-07-25T20:52:30Z",
+      "published": "2026-07-26T19:48:43Z",
       "bullets": [
-        "Amazon revealed initial footage for 'Blade Runner 2099,' expanding the cyberpunk franchise into a long-form television series.",
-        "San Diego Comic-Con teasers confirmed 'The Rings of Power' Season 3 will focus on the forging of the One Ring.",
-        "Major studio panels highlighted upcoming releases including DC's 'Lanterns' series trailer and Mel Brooks' 'Spaceballs' sequel."
+        "Apple TV+ previewed its adaptation of William Gibson’s seminal cyberpunk work at SDCC, bringing foundational matrix-hacking lore to streaming.",
+        "The original 1984 novel introduced foundational tech culture concepts including cyberspace, AI constructs, and neural direct-connect interfaces.",
+        "Additional SDCC announcements included trailers for sci-fi series Dark Matter Season 2 alongside other major streaming genre teasers."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "The new rules of context engineering for Claude 5 generation models",
       "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
       "discuss_url": "https://news.ycombinator.com/item?id=49051361",
-      "score": 433,
-      "comments": 335,
+      "score": 443,
+      "comments": 361,
       "author": "mellosouls",
       "published": "2026-07-25T20:42:35Z"
     },
@@ -136,8 +136,8 @@
       "title": "LLM Usage in Debian: Three Proposals",
       "url": "https://www.debian.org/vote/2026/vote_002",
       "discuss_url": "https://news.ycombinator.com/item?id=49050859",
-      "score": 201,
-      "comments": 192,
+      "score": 208,
+      "comments": 204,
       "author": "zdw",
       "published": "2026-07-25T19:44:39Z"
     },
@@ -148,8 +148,8 @@
       "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
       "url": "https://github.com/slvDev/esp32-ai",
       "discuss_url": "https://news.ycombinator.com/item?id=49050512",
-      "score": 264,
-      "comments": 67,
+      "score": 271,
+      "comments": 69,
       "author": "boveyking",
       "published": "2026-07-25T18:59:50Z"
     },
@@ -161,7 +161,7 @@
       "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/",
       "discuss_url": "https://lobste.rs/s/gqgbrz",
       "score": 14,
-      "comments": 13,
+      "comments": 14,
       "author": "stick",
       "published": "2026-07-24T14:01:24Z"
     },
@@ -172,7 +172,7 @@
       "title": "Languages as designed latent spaces",
       "url": "https://blog.jsbarretto.com/post/languages-as-latent-spaces",
       "discuss_url": "https://lobste.rs/s/ljg2qr",
-      "score": 7,
+      "score": 8,
       "comments": 1,
       "author": "intarga",
       "published": "2026-07-25T15:13:27Z"
@@ -256,8 +256,8 @@
       "title": "A shell colon does nothing. Use it anyway",
       "url": "https://refp.se/articles/your-shell-and-the-magic-colon",
       "discuss_url": "https://lobste.rs/s/eidh3u",
-      "score": 94,
-      "comments": 36,
+      "score": 98,
+      "comments": 39,
       "author": "refp",
       "published": "2026-07-25T11:33:00Z"
     },
@@ -268,7 +268,7 @@
       "title": "Forth Moving Lisp Moving Forth",
       "url": "https://letoverlambda.com/textmode.cl/guest/chap8.html",
       "discuss_url": "https://lobste.rs/s/exipox",
-      "score": 2,
+      "score": 6,
       "comments": 0,
       "author": "LenFalken",
       "published": "2026-07-26T17:39:27Z"
@@ -280,7 +280,7 @@
       "title": "I'm running the ICFP programming contest",
       "url": "https://eieio.games/blog/im-running-the-icfp-programming-contest/",
       "discuss_url": "https://lobste.rs/s/yajc8q",
-      "score": 16,
+      "score": 17,
       "comments": 16,
       "author": "abhin4v",
       "published": "2026-07-25T05:29:51Z"
@@ -293,7 +293,7 @@
       "url": "https://lobste.rs/s/rbfmuh",
       "discuss_url": "https://lobste.rs/s/rbfmuh",
       "score": 16,
-      "comments": 43,
+      "comments": 44,
       "author": "caius",
       "published": "2026-07-24T14:38:42Z"
     },
@@ -313,22 +313,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Why care about programming languages",
-      "url": "https://ebellani.github.io/blog/2026/why-care-about-programming-languages/",
-      "discuss_url": "https://lobste.rs/s/lv12lc",
-      "score": 45,
-      "comments": 7,
-      "author": "b--man",
-      "published": "2026-07-22T21:33:12Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "2026 Stack Overflow Developer Survey",
       "url": "https://take.survey.stackoverflow.co/jfe/form/SV_4GHunpL3IfJ3rRc",
       "discuss_url": "https://lobste.rs/s/aibmo4",
-      "score": 6,
+      "score": 7,
       "comments": 1,
       "author": "5d22b",
       "published": "2026-07-25T00:23:02Z"
@@ -340,7 +328,7 @@
       "title": "Build Systems Discussion",
       "url": "https://civboot.github.io/blog/2026-07-24-build-systems.html",
       "discuss_url": "https://lobste.rs/s/mhumdb",
-      "score": 4,
+      "score": 6,
       "comments": 1,
       "author": "lhearachel",
       "published": "2026-07-24T21:11:50Z"
@@ -364,7 +352,7 @@
       "title": "Are Emojis Allowed in XMPP Addresses?",
       "url": "https://op-co.de/blog/posts/emoji_xmpp_address/",
       "discuss_url": "https://lobste.rs/s/q4ldkf",
-      "score": 6,
+      "score": 7,
       "comments": 0,
       "author": "nicoco",
       "published": "2026-07-23T07:10:47Z"
@@ -394,16 +382,16 @@
       "published": "2026-07-22T19:00:00Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
-      "url": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/",
-      "discuss_url": "https://lobste.rs/s/5nhto6",
-      "score": 90,
-      "comments": 11,
-      "author": "trousers",
-      "published": "2026-07-23T01:54:48Z"
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Next chapter: Restructuring GitHub’s bug bounty program",
+      "url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
+      "discuss_url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
+      "score": null,
+      "comments": null,
+      "author": "Catherine Cassell",
+      "published": "2026-07-22T16:00:00Z"
     },
     {
       "source": "lobsters",
@@ -416,30 +404,6 @@
       "comments": 3,
       "author": "juri",
       "published": "2026-07-23T13:37:15Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "RefluXFS: A Linux Kernel Local Privilege Escalation to Root in XFS (CVE-2026-64600)",
-      "url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/07/22/refluxfs-a-linux-kernel-local-privilege-escalation-to-root-in-xfs-cve-2026-64600",
-      "discuss_url": "https://lobste.rs/s/tltlwf",
-      "score": 10,
-      "comments": 3,
-      "author": "rrampage",
-      "published": "2026-07-22T20:24:10Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Frag Gap (CVE-2026-53362, CVE-2026-53366)",
-      "url": "https://blog.qwerty.or.kr/en/posts/cdf3008a-c1a4-4eca-a373-aa3a2bcf1489/",
-      "discuss_url": "https://lobste.rs/s/uibzl8",
-      "score": 5,
-      "comments": 2,
-      "author": "fro",
-      "published": "2026-07-22T23:07:39Z"
     },
     {
       "source": "lobsters",
@@ -538,14 +502,50 @@
       "published": "2026-07-24T15:12:35Z"
     },
     {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
+      "url": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
+      "discuss_url": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-24T14:15:21Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
+      "url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+      "discuss_url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-24T11:53:55Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
+      "url": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
+      "discuss_url": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-24T11:45:17Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Cloudflare's new AI traffic options for customers",
       "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
       "discuss_url": "https://news.ycombinator.com/item?id=49052564",
-      "score": 182,
-      "comments": 137,
+      "score": 188,
+      "comments": 147,
       "author": "alphabetatango",
       "published": "2026-07-25T22:50:49Z"
     },
@@ -556,8 +556,8 @@
       "title": "Open-weight AI is having its Kubernetes moment",
       "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
       "discuss_url": "https://news.ycombinator.com/item?id=49048034",
-      "score": 394,
-      "comments": 311,
+      "score": 400,
+      "comments": 313,
       "author": "tknaup",
       "published": "2026-07-25T14:49:49Z"
     },
@@ -680,6 +680,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-07-23T23:46:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "First teaser for Apple TV's Neuromancer debuts at SDCC",
+      "url": "https://arstechnica.com/culture/2026/07/first-teaser-for-apple-tvs-neuromancer-debuts-at-sdcc/",
+      "discuss_url": "https://arstechnica.com/culture/2026/07/first-teaser-for-apple-tvs-neuromancer-debuts-at-sdcc/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-07-26T19:48:43Z"
     },
     {
       "source": "rss",
@@ -812,18 +824,6 @@
       "comments": null,
       "author": "Jon Brodkin",
       "published": "2026-07-24T18:02:21Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "European Union grants US request to restrict satellite images of Iran War region",
-      "url": "https://arstechnica.com/space/2026/07/european-union-grants-us-request-to-restrict-satellite-images-of-iran-war-region/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/european-union-grants-us-request-to-restrict-satellite-images-of-iran-war-region/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-07-24T17:45:05Z"
     }
   ]
 }
