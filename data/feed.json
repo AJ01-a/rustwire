@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T03:30:32Z",
+  "updated_at": "2026-07-27T09:57:46Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "The new rules of context engineering for Claude 5 generation models",
       "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
       "discuss_url": "https://news.ycombinator.com/item?id=49051361",
-      "score": 443,
-      "comments": 361,
+      "score": 448,
+      "comments": 374,
       "author": "mellosouls",
       "published": "2026-07-25T20:42:35Z",
       "bullets": [
-        "Leverage Anthropic's prompt caching by placing static instructions and reference documents before dynamic user inputs to reduce latency and API costs.",
-        "Use explicit XML tags (e.g., <doc>, <rules>) and structured schemas to prevent attention degradation across massive context windows.",
-        "Prune historical conversation turns and prioritize dynamic RAG retrieval over raw context stuffing to maintain high needle-in-a-haystack retrieval accuracy."
+        "Structure prompts using explicit XML tags to organize complex multi-document inputs and prevent instruction drift in large context windows.",
+        "Leverage Anthropic prompt caching on static system prompts and RAG contexts to dramatically cut latency and token costs.",
+        "Position high-priority constraints and tool schemas near prompt boundaries to combat context degradation in multi-turn agent workflows."
       ]
     },
     {
@@ -59,9 +59,9 @@
       "author": "refp",
       "published": "2026-07-25T11:33:00Z",
       "bullets": [
-        "In POSIX shell, the builtin colon command functions as a zero-overhead true equivalent, optimizing infinite loops like while :; do.",
-        "It safely triggers parameter expansion side-effects like : \"${VAR:=default}\", assigning default variable values without running expanded strings.",
-        "Use colon as a clean, POSIX-compliant no-op placeholder inside empty conditional branches like if/then statements or script function stubs."
+        "The POSIX shell colon (`:`) is a builtin no-op returning exit status 0, providing syntactically required placeholders for loops and conditionals.",
+        "It safely triggers variable parameter expansions (e.g., `${VAR:=default}`) for side-effects without attempting to execute the resulting string as a command.",
+        "Redirection using `: > file` rapidly truncates files without spawning external binaries, while `: <<'EOF'` enables robust multi-line shell comments."
       ]
     },
     {
@@ -76,9 +76,9 @@
       "author": "juri",
       "published": "2026-07-23T13:37:15Z",
       "bullets": [
-        "Attackers can hijack macOS TCC permissions by overwriting binaries inside trusted `.app` bundles within user-writable directories like `~/Applications`.",
-        "Gatekeeper validates code signatures on initial launch, leaving post-installation executable swaps undetected without continuous runtime verification.",
-        "Mitigate risks by monitoring bundle modifications via Endpoint Security API and enforcing strict code-signing checks for running processes."
+        "Attackers can silently replace Mach-O binaries within trusted macOS app bundles, inheriting existing TCC entitlements without triggering Gatekeeper alerts.",
+        "Insecure file permissions on application bundles allow non-root processes to overwrite trusted executables without invalidating code signing requirements.",
+        "Detection requires monitoring macOS Endpoint Security Framework (ESF) events for unexpected write or rename operations targeting Application binaries."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "Cloudflare's new AI traffic options for customers",
       "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
       "discuss_url": "https://news.ycombinator.com/item?id=49052564",
-      "score": 188,
-      "comments": 147,
+      "score": 190,
+      "comments": 149,
       "author": "alphabetatango",
       "published": "2026-07-25T22:50:49Z",
       "bullets": [
-        "Cloudflare enables one-click blocking or throttling of major AI scrapers like GPTBot and ClaudeBot at the edge WAF level.",
-        "Engineers can enforce granular rate limiting and access control policies for AI bots without modifying backend application services.",
-        "Protects origin infrastructure from sudden bandwidth and compute surges caused by aggressive, unthrottled LLM training crawlers."
+        "Cloudflare allows teams to block AI web crawlers with a single click, protecting origin infrastructure from high-volume training scrapes.",
+        "Granular rules enable rate-limiting, allowing, or monetizing specific AI bots to optimize bandwidth usage and server capacity.",
+        "Shifting bot detection to Cloudflare's edge mitigates unthrottled scraper traffic without requiring custom edge code or origin-level rate limits."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Jennifer Ouellette",
       "published": "2026-07-26T19:48:43Z",
       "bullets": [
-        "Apple TV+ previewed its adaptation of William Gibson’s seminal cyberpunk work at SDCC, bringing foundational matrix-hacking lore to streaming.",
-        "The original 1984 novel introduced foundational tech culture concepts including cyberspace, AI constructs, and neural direct-connect interfaces.",
-        "Additional SDCC announcements included trailers for sci-fi series Dark Matter Season 2 alongside other major streaming genre teasers."
+        "Apple TV revealed a teaser for William Gibson’s Neuromancer, bringing seminal concepts of AI, cyberspace, and matrix hacking to streaming.",
+        "The adaptation highlights Apple TV+’s continued investment in prestige sci-fi IP, alongside a Dark Matter Season 2 trailer drop.",
+        "San Diego Comic-Con announcements also showcased upcoming genre projects from Mike Flanagan (Carrie), Mattel (Matchbox), and Marvel Studios."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "The new rules of context engineering for Claude 5 generation models",
       "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
       "discuss_url": "https://news.ycombinator.com/item?id=49051361",
-      "score": 443,
-      "comments": 361,
+      "score": 448,
+      "comments": 374,
       "author": "mellosouls",
       "published": "2026-07-25T20:42:35Z"
     },
@@ -136,8 +136,8 @@
       "title": "LLM Usage in Debian: Three Proposals",
       "url": "https://www.debian.org/vote/2026/vote_002",
       "discuss_url": "https://news.ycombinator.com/item?id=49050859",
-      "score": 208,
-      "comments": 204,
+      "score": 209,
+      "comments": 208,
       "author": "zdw",
       "published": "2026-07-25T19:44:39Z"
     },
@@ -148,8 +148,8 @@
       "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
       "url": "https://github.com/slvDev/esp32-ai",
       "discuss_url": "https://news.ycombinator.com/item?id=49050512",
-      "score": 271,
-      "comments": 69,
+      "score": 277,
+      "comments": 70,
       "author": "boveyking",
       "published": "2026-07-25T18:59:50Z"
     },
@@ -181,18 +181,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "What Rose Petals Teach Us about Induction",
-      "url": "https://www.oranlooney.com/post/rose-petals/",
-      "discuss_url": "https://lobste.rs/s/wwelib",
-      "score": 12,
-      "comments": 0,
-      "author": "calvin",
-      "published": "2026-07-23T04:02:57Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "A tour of MLIR: The Dialect Stack Everyone Depends On",
       "url": "https://hiraditya.github.io/posts/mlir-dialect-stack-for-ml/",
       "discuss_url": "https://lobste.rs/s/o9vjlt",
@@ -205,6 +193,18 @@
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
+      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "discuss_url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-27T09:32:20Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
       "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
       "url": "https://huggingface.co/blog/nunchaku-diffusers",
       "discuss_url": "https://huggingface.co/blog/nunchaku-diffusers",
@@ -212,18 +212,6 @@
       "comments": null,
       "author": null,
       "published": "2026-07-23T00:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "The State of Simulation for Physical AI: An Overview",
-      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-      "discuss_url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-21T20:00:27Z"
     },
     {
       "source": "rss",
@@ -346,18 +334,6 @@
       "published": "2026-07-23T10:20:47Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Are Emojis Allowed in XMPP Addresses?",
-      "url": "https://op-co.de/blog/posts/emoji_xmpp_address/",
-      "discuss_url": "https://lobste.rs/s/q4ldkf",
-      "score": 7,
-      "comments": 0,
-      "author": "nicoco",
-      "published": "2026-07-23T07:10:47Z"
-    },
-    {
       "source": "rss",
       "subsource": "github.blog",
       "category": "engineering",
@@ -394,6 +370,18 @@
       "published": "2026-07-22T16:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "How to build interactive experiences with canvases",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+      "score": null,
+      "comments": null,
+      "author": "Jacklyn Carroll",
+      "published": "2026-07-21T16:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
@@ -416,6 +404,30 @@
       "comments": 0,
       "author": "fro",
       "published": "2026-07-23T17:57:50Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
+      "url": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
+      "discuss_url": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-27T08:48:47Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption",
+      "url": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
+      "discuss_url": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-27T08:01:23Z"
     },
     {
       "source": "rss",
@@ -514,38 +526,14 @@
       "published": "2026-07-24T14:15:21Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
-      "url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
-      "discuss_url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-24T11:53:55Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
-      "url": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
-      "discuss_url": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-24T11:45:17Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Cloudflare's new AI traffic options for customers",
       "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
       "discuss_url": "https://news.ycombinator.com/item?id=49052564",
-      "score": 188,
-      "comments": 147,
+      "score": 190,
+      "comments": 149,
       "author": "alphabetatango",
       "published": "2026-07-25T22:50:49Z"
     },
@@ -556,8 +544,8 @@
       "title": "Open-weight AI is having its Kubernetes moment",
       "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
       "discuss_url": "https://news.ycombinator.com/item?id=49048034",
-      "score": 400,
-      "comments": 313,
+      "score": 402,
+      "comments": 317,
       "author": "tknaup",
       "published": "2026-07-25T14:49:49Z"
     },
