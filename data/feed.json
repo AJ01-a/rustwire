@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T14:43:41Z",
+  "updated_at": "2026-07-27T19:41:20Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "The new rules of context engineering for Claude 5 generation models",
       "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
       "discuss_url": "https://news.ycombinator.com/item?id=49051361",
-      "score": 452,
-      "comments": 381,
+      "score": 454,
+      "comments": 384,
       "author": "mellosouls",
       "published": "2026-07-25T20:42:35Z",
       "bullets": [
-        "Leverage prompt caching and dynamic context pruning to reduce API latency and token costs without degrading high-needle retrieval accuracy.",
-        "Enforce strict document boundaries using XML tags to mitigate prompt injection and context drift in long-context model sessions.",
-        "Replace monolithic system prompts with modular context pipelines that dynamically inject relevant working memory and tool definitions."
+        "Structure prompts using clear XML tags and system instructions to minimize context drift and control Claude's extended reasoning output.",
+        "Implement prompt caching strategically to cut latency and costs when feeding large codebases or documents into dynamic RAG pipelines.",
+        "Enforce structured JSON schemas and explicit tool-use definitions to ensure deterministic execution across long, multi-turn AI agent sessions."
       ]
     },
     {
@@ -59,26 +59,26 @@
       "author": "refp",
       "published": "2026-07-25T11:33:00Z",
       "bullets": [
-        "POSIX shell colon (`:`) evaluates parameter expansions like `${VAR:=default}` to set default variables without executing external binaries.",
-        "In Bash and POSIX scripts, `:` functions as a built-in alias for `true`, optimizing `while :; do` loops and placeholder branches.",
-        "Use `: > file.txt` for fast, allocation-free file truncation, or for evaluating multi-line string blocks without executing code."
+        "The POSIX shell `:` built-in evaluates arguments without execution, enabling variable default assignments like `: \"${VAR:=default}\"`.",
+        "It serves as a zero-overhead no-op placeholder for required shell syntax blocks, such as empty `if` branches or `while :` loops.",
+        "Combining `:` with redirections (`: > file`) portably truncates files while explicitly signaling intentional code execution."
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
+      "source": "rss",
+      "subsource": "thehackernews.com",
       "category": "security",
-      "title": "CVE-2026-49176 Exploit Development: WalletService to SYSTEM",
-      "url": "https://davidcarliez.github.io/blog/cve-2026-49176-walletservice-to-system/",
-      "discuss_url": "https://lobste.rs/s/dxhdqx",
-      "score": 2,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-07-23T17:57:50Z",
+      "title": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
+      "url": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
+      "discuss_url": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-27T17:16:28Z",
       "bullets": [
-        "Details a local privilege escalation vulnerability (CVE-2026-49176) affecting the Windows WalletService component.",
-        "Demonstrates functional weaponization to escalate privileges from a low-rights user context directly to NT AUTHORITY\\SYSTEM.",
-        "Security teams should audit WalletService RPC endpoints and monitor for anomalous process creation under system privileges."
+        "Dysphoria IoT botnet adapted post-JackSkid disruption by adopting decentralized blockchain name services for resilient command-and-control operations.",
+        "The malware routes command traffic through infected victim devices acting as relays, neutralizing traditional IP-based perimeter blocking and sinkholing.",
+        "Analysis by CNCERT and XLab underscores a broader trend of IoT botnets adopting peer-to-peer architectures to resist law enforcement takedowns."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Cloudflare's new AI traffic options for customers",
       "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
       "discuss_url": "https://news.ycombinator.com/item?id=49052564",
-      "score": 192,
+      "score": 193,
       "comments": 153,
       "author": "alphabetatango",
       "published": "2026-07-25T22:50:49Z",
       "bullets": [
-        "Cloudflare introduced one-click edge controls enabling teams to automatically block or rate-limit unauthorized AI scrapers and LLM web crawlers.",
-        "New AI Audit analytics provide granular visibility into bot traffic patterns, origin bandwidth consumption, and targeted URL paths.",
-        "DevOps engineers can enforce custom WAF rules or automated pay-per-crawl models to protect origin servers from aggressive indexing."
+        "Cloudflare introduced one-click WAF rules to block aggressive AI crawlers and scrapers at the edge.",
+        "A new AI Audit dashboard provides real-time visibility into AI bot requests, model training scrapers, and origin server load.",
+        "Site operators can now set granular bot management policies to rate-limit, challenge, or block automated AI agents."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "What public health professionals can learn from anti-vaccine storytelling",
-      "url": "https://arstechnica.com/health/2026/07/how-emotionally-powerful-stories-fuel-vaccine-skepticism/",
-      "discuss_url": "https://arstechnica.com/health/2026/07/how-emotionally-powerful-stories-fuel-vaccine-skepticism/",
+      "title": "Activist charged with felony after giving border agent \"duress code\" that wiped his phone",
+      "url": "https://arstechnica.com/gadgets/2026/07/activist-charged-with-felony-after-giving-border-agent-duress-code-that-wiped-his-phone/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/07/activist-charged-with-felony-after-giving-border-agent-duress-code-that-wiped-his-phone/",
       "score": null,
       "comments": null,
-      "author": "Katherine Shwetz, The Conversation",
-      "published": "2026-07-27T14:01:56Z",
+      "author": "Ryan Whitwam",
+      "published": "2026-07-27T15:58:34Z",
       "bullets": [
-        "Raw empirical data and statistical evidence frequently lose public persuasion battles against emotionally resonant, anecdotal narratives.",
-        "Anti-science messaging leverages human-centric storytelling, exploiting cognitive biases and institutional distrust more effectively than complex peer-reviewed research.",
-        "Technical communicators must pair rigorous data with compelling narrative frameworks to counter misinformation and improve stakeholder trust."
+        "US authorities filed felony charges after an individual entered a duress PIN that wiped their mobile device during border interrogation.",
+        "Executing automated anti-forensic data wipes during law enforcement searches can trigger federal obstruction of justice charges.",
+        "Security teams advising high-risk travelers must balance automated data-destruction capabilities against severe legal liabilities at ports of entry."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "The new rules of context engineering for Claude 5 generation models",
       "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
       "discuss_url": "https://news.ycombinator.com/item?id=49051361",
-      "score": 452,
-      "comments": 381,
+      "score": 454,
+      "comments": 384,
       "author": "mellosouls",
       "published": "2026-07-25T20:42:35Z"
     },
@@ -137,21 +137,9 @@
       "url": "https://www.debian.org/vote/2026/vote_002",
       "discuss_url": "https://news.ycombinator.com/item?id=49050859",
       "score": 211,
-      "comments": 211,
+      "comments": 212,
       "author": "zdw",
       "published": "2026-07-25T19:44:39Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
-      "url": "https://github.com/slvDev/esp32-ai",
-      "discuss_url": "https://news.ycombinator.com/item?id=49050512",
-      "score": 278,
-      "comments": 70,
-      "author": "boveyking",
-      "published": "2026-07-25T18:59:50Z"
     },
     {
       "source": "lobsters",
@@ -313,6 +301,30 @@
       "source": "rss",
       "subsource": "github.blog",
       "category": "engineering",
+      "title": "The harness is all you need (mostly)",
+      "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
+      "score": null,
+      "comments": null,
+      "author": "Burke Holland",
+      "published": "2026-07-27T18:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "GitHub Copilot app for Beginners: Getting started",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/",
+      "score": null,
+      "comments": null,
+      "author": "Christopher Harrison",
+      "published": "2026-07-27T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
       "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
       "url": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
       "discuss_url": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
@@ -347,39 +359,27 @@
     },
     {
       "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "How to build interactive experiences with canvases",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
-      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
+      "url": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
+      "discuss_url": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
       "score": null,
       "comments": null,
-      "author": "Jacklyn Carroll",
-      "published": "2026-07-21T16:00:00Z"
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-27T17:16:28Z"
     },
     {
       "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "$100 million for open source: A milestone built by the community",
-      "url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
-      "discuss_url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
+      "url": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
+      "discuss_url": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
       "score": null,
       "comments": null,
-      "author": "Stephanie Lincoln",
-      "published": "2026-07-20T16:00:00Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "CVE-2026-49176 Exploit Development: WalletService to SYSTEM",
-      "url": "https://davidcarliez.github.io/blog/cve-2026-49176-walletservice-to-system/",
-      "discuss_url": "https://lobste.rs/s/dxhdqx",
-      "score": 2,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-07-23T17:57:50Z"
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-27T14:40:00Z"
     },
     {
       "source": "rss",
@@ -502,40 +502,28 @@
       "published": "2026-07-25T10:14:21Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
-      "url": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
-      "discuss_url": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-25T10:14:03Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Cloudflare's new AI traffic options for customers",
       "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
       "discuss_url": "https://news.ycombinator.com/item?id=49052564",
-      "score": 192,
+      "score": 193,
       "comments": 153,
       "author": "alphabetatango",
       "published": "2026-07-25T22:50:49Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Open-weight AI is having its Kubernetes moment",
-      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49048034",
-      "score": 407,
-      "comments": 318,
-      "author": "tknaup",
-      "published": "2026-07-25T14:49:49Z"
+      "title": "AWS Elemental MediaTailor adds configurable ad timeout and concurrency controls for improved ad fill and faster startup",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/mediatail-configurable-ad-timeout-and-concurrency",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/mediatail-configurable-ad-timeout-and-concurrency",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-27T16:09:00Z"
     },
     {
       "source": "rss",
@@ -661,6 +649,30 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "Activist charged with felony after giving border agent \"duress code\" that wiped his phone",
+      "url": "https://arstechnica.com/gadgets/2026/07/activist-charged-with-felony-after-giving-border-agent-duress-code-that-wiped-his-phone/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/07/activist-charged-with-felony-after-giving-border-agent-duress-code-that-wiped-his-phone/",
+      "score": null,
+      "comments": null,
+      "author": "Ryan Whitwam",
+      "published": "2026-07-27T15:58:34Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Framework Laptop 13 Pro review: Much better battery, much worse price",
+      "url": "https://arstechnica.com/gadgets/2026/07/framework-laptop-13-pro-review-much-better-battery-much-worse-price/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/07/framework-laptop-13-pro-review-much-better-battery-much-worse-price/",
+      "score": null,
+      "comments": null,
+      "author": "Andrew Cunningham",
+      "published": "2026-07-27T15:02:45Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "What public health professionals can learn from anti-vaccine storytelling",
       "url": "https://arstechnica.com/health/2026/07/how-emotionally-powerful-stories-fuel-vaccine-skepticism/",
       "discuss_url": "https://arstechnica.com/health/2026/07/how-emotionally-powerful-stories-fuel-vaccine-skepticism/",
@@ -776,30 +788,6 @@
       "comments": null,
       "author": "Kyle Orland",
       "published": "2026-07-24T21:25:15Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Anthropic's Opus 5 is about token efficiency, not a capability leap",
-      "url": "https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap/",
-      "discuss_url": "https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap/",
-      "score": null,
-      "comments": null,
-      "author": "Samuel Axon",
-      "published": "2026-07-24T21:05:51Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Roku raises streaming stick prices by up to 60 percent",
-      "url": "https://arstechnica.com/gadgets/2026/07/roku-raises-streaming-stick-prices-by-up-to-60-percent/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/07/roku-raises-streaming-stick-prices-by-up-to-60-percent/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-07-24T19:41:06Z"
     }
   ]
 }
