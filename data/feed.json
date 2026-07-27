@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T09:57:46Z",
+  "updated_at": "2026-07-27T14:43:41Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "The new rules of context engineering for Claude 5 generation models",
       "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
       "discuss_url": "https://news.ycombinator.com/item?id=49051361",
-      "score": 448,
-      "comments": 374,
+      "score": 452,
+      "comments": 381,
       "author": "mellosouls",
       "published": "2026-07-25T20:42:35Z",
       "bullets": [
-        "Structure prompts using explicit XML tags to organize complex multi-document inputs and prevent instruction drift in large context windows.",
-        "Leverage Anthropic prompt caching on static system prompts and RAG contexts to dramatically cut latency and token costs.",
-        "Position high-priority constraints and tool schemas near prompt boundaries to combat context degradation in multi-turn agent workflows."
+        "Leverage prompt caching and dynamic context pruning to reduce API latency and token costs without degrading high-needle retrieval accuracy.",
+        "Enforce strict document boundaries using XML tags to mitigate prompt injection and context drift in long-context model sessions.",
+        "Replace monolithic system prompts with modular context pipelines that dynamically inject relevant working memory and tool definitions."
       ]
     },
     {
@@ -59,26 +59,26 @@
       "author": "refp",
       "published": "2026-07-25T11:33:00Z",
       "bullets": [
-        "The POSIX shell colon (`:`) is a builtin no-op returning exit status 0, providing syntactically required placeholders for loops and conditionals.",
-        "It safely triggers variable parameter expansions (e.g., `${VAR:=default}`) for side-effects without attempting to execute the resulting string as a command.",
-        "Redirection using `: > file` rapidly truncates files without spawning external binaries, while `: <<'EOF'` enables robust multi-line shell comments."
+        "POSIX shell colon (`:`) evaluates parameter expansions like `${VAR:=default}` to set default variables without executing external binaries.",
+        "In Bash and POSIX scripts, `:` functions as a built-in alias for `true`, optimizing `while :; do` loops and placeholder branches.",
+        "Use `: > file.txt` for fast, allocation-free file truncation, or for evaluating multi-line string blocks without executing code."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Silent Replacement of Trusted macOS App Executables",
-      "url": "https://mysk.blog/2026/07/23/macos-overwrite-app-executables/",
-      "discuss_url": "https://lobste.rs/s/dxaogf",
-      "score": 21,
-      "comments": 3,
-      "author": "juri",
-      "published": "2026-07-23T13:37:15Z",
+      "title": "CVE-2026-49176 Exploit Development: WalletService to SYSTEM",
+      "url": "https://davidcarliez.github.io/blog/cve-2026-49176-walletservice-to-system/",
+      "discuss_url": "https://lobste.rs/s/dxhdqx",
+      "score": 2,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-07-23T17:57:50Z",
       "bullets": [
-        "Attackers can silently replace Mach-O binaries within trusted macOS app bundles, inheriting existing TCC entitlements without triggering Gatekeeper alerts.",
-        "Insecure file permissions on application bundles allow non-root processes to overwrite trusted executables without invalidating code signing requirements.",
-        "Detection requires monitoring macOS Endpoint Security Framework (ESF) events for unexpected write or rename operations targeting Application binaries."
+        "Details a local privilege escalation vulnerability (CVE-2026-49176) affecting the Windows WalletService component.",
+        "Demonstrates functional weaponization to escalate privileges from a low-rights user context directly to NT AUTHORITY\\SYSTEM.",
+        "Security teams should audit WalletService RPC endpoints and monitor for anomalous process creation under system privileges."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Cloudflare's new AI traffic options for customers",
       "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
       "discuss_url": "https://news.ycombinator.com/item?id=49052564",
-      "score": 190,
-      "comments": 149,
+      "score": 192,
+      "comments": 153,
       "author": "alphabetatango",
       "published": "2026-07-25T22:50:49Z",
       "bullets": [
-        "Cloudflare allows teams to block AI web crawlers with a single click, protecting origin infrastructure from high-volume training scrapes.",
-        "Granular rules enable rate-limiting, allowing, or monetizing specific AI bots to optimize bandwidth usage and server capacity.",
-        "Shifting bot detection to Cloudflare's edge mitigates unthrottled scraper traffic without requiring custom edge code or origin-level rate limits."
+        "Cloudflare introduced one-click edge controls enabling teams to automatically block or rate-limit unauthorized AI scrapers and LLM web crawlers.",
+        "New AI Audit analytics provide granular visibility into bot traffic patterns, origin bandwidth consumption, and targeted URL paths.",
+        "DevOps engineers can enforce custom WAF rules or automated pay-per-crawl models to protect origin servers from aggressive indexing."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "First teaser for Apple TV's Neuromancer debuts at SDCC",
-      "url": "https://arstechnica.com/culture/2026/07/first-teaser-for-apple-tvs-neuromancer-debuts-at-sdcc/",
-      "discuss_url": "https://arstechnica.com/culture/2026/07/first-teaser-for-apple-tvs-neuromancer-debuts-at-sdcc/",
+      "title": "What public health professionals can learn from anti-vaccine storytelling",
+      "url": "https://arstechnica.com/health/2026/07/how-emotionally-powerful-stories-fuel-vaccine-skepticism/",
+      "discuss_url": "https://arstechnica.com/health/2026/07/how-emotionally-powerful-stories-fuel-vaccine-skepticism/",
       "score": null,
       "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-07-26T19:48:43Z",
+      "author": "Katherine Shwetz, The Conversation",
+      "published": "2026-07-27T14:01:56Z",
       "bullets": [
-        "Apple TV revealed a teaser for William Gibson’s Neuromancer, bringing seminal concepts of AI, cyberspace, and matrix hacking to streaming.",
-        "The adaptation highlights Apple TV+’s continued investment in prestige sci-fi IP, alongside a Dark Matter Season 2 trailer drop.",
-        "San Diego Comic-Con announcements also showcased upcoming genre projects from Mike Flanagan (Carrie), Mattel (Matchbox), and Marvel Studios."
+        "Raw empirical data and statistical evidence frequently lose public persuasion battles against emotionally resonant, anecdotal narratives.",
+        "Anti-science messaging leverages human-centric storytelling, exploiting cognitive biases and institutional distrust more effectively than complex peer-reviewed research.",
+        "Technical communicators must pair rigorous data with compelling narrative frameworks to counter misinformation and improve stakeholder trust."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "The new rules of context engineering for Claude 5 generation models",
       "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
       "discuss_url": "https://news.ycombinator.com/item?id=49051361",
-      "score": 448,
-      "comments": 374,
+      "score": 452,
+      "comments": 381,
       "author": "mellosouls",
       "published": "2026-07-25T20:42:35Z"
     },
@@ -136,8 +136,8 @@
       "title": "LLM Usage in Debian: Three Proposals",
       "url": "https://www.debian.org/vote/2026/vote_002",
       "discuss_url": "https://news.ycombinator.com/item?id=49050859",
-      "score": 209,
-      "comments": 208,
+      "score": 211,
+      "comments": 211,
       "author": "zdw",
       "published": "2026-07-25T19:44:39Z"
     },
@@ -148,7 +148,7 @@
       "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
       "url": "https://github.com/slvDev/esp32-ai",
       "discuss_url": "https://news.ycombinator.com/item?id=49050512",
-      "score": 277,
+      "score": 278,
       "comments": 70,
       "author": "boveyking",
       "published": "2026-07-25T18:59:50Z"
@@ -227,18 +227,6 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Not just development, distribution of software may change as well",
-      "url": "https://antirez.com/news/170",
-      "discuss_url": "https://lobste.rs/s/wfural",
-      "score": 0,
-      "comments": 0,
-      "author": "atmosx",
-      "published": "2026-07-23T14:16:07Z"
-    },
-    {
-      "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "A shell colon does nothing. Use it anyway",
@@ -248,18 +236,6 @@
       "comments": 39,
       "author": "refp",
       "published": "2026-07-25T11:33:00Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Forth Moving Lisp Moving Forth",
-      "url": "https://letoverlambda.com/textmode.cl/guest/chap8.html",
-      "discuss_url": "https://lobste.rs/s/exipox",
-      "score": 6,
-      "comments": 0,
-      "author": "LenFalken",
-      "published": "2026-07-26T17:39:27Z"
     },
     {
       "source": "lobsters",
@@ -284,6 +260,18 @@
       "comments": 44,
       "author": "caius",
       "published": "2026-07-24T14:38:42Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Forth Moving Lisp Moving Forth",
+      "url": "https://letoverlambda.com/textmode.cl/guest/chap8.html",
+      "discuss_url": "https://lobste.rs/s/exipox",
+      "score": 6,
+      "comments": 0,
+      "author": "LenFalken",
+      "published": "2026-07-26T17:39:27Z"
     },
     {
       "source": "lobsters",
@@ -320,18 +308,6 @@
       "comments": 1,
       "author": "lhearachel",
       "published": "2026-07-24T21:11:50Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Package Name Prefixes",
-      "url": "https://nesbitt.io/2026/07/23/package-name-prefixes.html",
-      "discuss_url": "https://lobste.rs/s/js37j1",
-      "score": 4,
-      "comments": 6,
-      "author": "hugoarnal",
-      "published": "2026-07-23T10:20:47Z"
     },
     {
       "source": "rss",
@@ -382,16 +358,16 @@
       "published": "2026-07-21T16:00:00Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Silent Replacement of Trusted macOS App Executables",
-      "url": "https://mysk.blog/2026/07/23/macos-overwrite-app-executables/",
-      "discuss_url": "https://lobste.rs/s/dxaogf",
-      "score": 21,
-      "comments": 3,
-      "author": "juri",
-      "published": "2026-07-23T13:37:15Z"
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "$100 million for open source: A milestone built by the community",
+      "url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
+      "discuss_url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
+      "score": null,
+      "comments": null,
+      "author": "Stephanie Lincoln",
+      "published": "2026-07-20T16:00:00Z"
     },
     {
       "source": "lobsters",
@@ -404,6 +380,54 @@
       "comments": 0,
       "author": "fro",
       "published": "2026-07-23T17:57:50Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More",
+      "url": "https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html",
+      "discuss_url": "https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-27T14:10:54Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process",
+      "url": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
+      "discuss_url": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-27T13:05:15Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
+      "url": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
+      "discuss_url": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-27T12:37:49Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware",
+      "url": "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
+      "discuss_url": "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-27T10:51:45Z"
     },
     {
       "source": "rss",
@@ -490,50 +514,14 @@
       "published": "2026-07-25T10:14:03Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
-      "url": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
-      "discuss_url": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-25T09:53:41Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
-      "url": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
-      "discuss_url": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-24T15:12:35Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
-      "url": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
-      "discuss_url": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-24T14:15:21Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Cloudflare's new AI traffic options for customers",
       "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
       "discuss_url": "https://news.ycombinator.com/item?id=49052564",
-      "score": 190,
-      "comments": 149,
+      "score": 192,
+      "comments": 153,
       "author": "alphabetatango",
       "published": "2026-07-25T22:50:49Z"
     },
@@ -544,8 +532,8 @@
       "title": "Open-weight AI is having its Kubernetes moment",
       "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
       "discuss_url": "https://news.ycombinator.com/item?id=49048034",
-      "score": 402,
-      "comments": 317,
+      "score": 407,
+      "comments": 318,
       "author": "tknaup",
       "published": "2026-07-25T14:49:49Z"
     },
@@ -673,6 +661,30 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "What public health professionals can learn from anti-vaccine storytelling",
+      "url": "https://arstechnica.com/health/2026/07/how-emotionally-powerful-stories-fuel-vaccine-skepticism/",
+      "discuss_url": "https://arstechnica.com/health/2026/07/how-emotionally-powerful-stories-fuel-vaccine-skepticism/",
+      "score": null,
+      "comments": null,
+      "author": "Katherine Shwetz, The Conversation",
+      "published": "2026-07-27T14:01:56Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Artist sues AI meme generator for selling deeply personal comic as ad template",
+      "url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template/",
+      "score": null,
+      "comments": null,
+      "author": "Ashley Belanger",
+      "published": "2026-07-27T10:50:37Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "First teaser for Apple TV's Neuromancer debuts at SDCC",
       "url": "https://arstechnica.com/culture/2026/07/first-teaser-for-apple-tvs-neuromancer-debuts-at-sdcc/",
       "discuss_url": "https://arstechnica.com/culture/2026/07/first-teaser-for-apple-tvs-neuromancer-debuts-at-sdcc/",
@@ -788,30 +800,6 @@
       "comments": null,
       "author": "Scharon Harding",
       "published": "2026-07-24T19:41:06Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "RFK Jr.'s handpicked committee approves manufacture of peptides he uses",
-      "url": "https://arstechnica.com/health/2026/07/rfk-jr-s-hand-picked-committee-approves-manufacture-of-peptides-he-uses/",
-      "discuss_url": "https://arstechnica.com/health/2026/07/rfk-jr-s-hand-picked-committee-approves-manufacture-of-peptides-he-uses/",
-      "score": null,
-      "comments": null,
-      "author": "John Timmer",
-      "published": "2026-07-24T19:10:09Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Judge rebuffs Trump admin demand for phone records from NYT reporters",
-      "url": "https://arstechnica.com/tech-policy/2026/07/judge-rebuffs-trump-admin-demand-for-phone-records-from-nyt-reporters/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/judge-rebuffs-trump-admin-demand-for-phone-records-from-nyt-reporters/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-07-24T18:02:21Z"
     }
   ]
 }
