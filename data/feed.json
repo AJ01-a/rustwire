@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T02:47:16Z",
+  "updated_at": "2026-07-28T08:39:46Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -42,9 +42,9 @@
       "author": "stick",
       "published": "2026-07-24T14:01:24Z",
       "bullets": [
-        "Open-weight releases accelerate innovation by enabling local fine-tuning, quantization, and self-hosted inference without restrictive proprietary API locks or usage costs.",
-        "Distributing open model weights establishes US-designed architectures as global standards, countering geopolitical rivals while empowering independent safety and alignment research.",
-        "Open access permits full-stack security auditing, red-teaming, and custom optimization, mitigating supply chain risks inherent in black-box commercial endpoints."
+        "Open-weight models like Meta's Llama drive global adoption, positioning open innovation as a cornerstone of U.S. AI competitiveness.",
+        "Export controls on compute like Nvidia GPUs remain the primary regulatory lever rather than restricting open software model weights.",
+        "Open weights enable enterprises to ensure data privacy, lower inference costs, and avoid lock-in from proprietary vendor APIs."
       ]
     },
     {
@@ -59,9 +59,9 @@
       "author": "refp",
       "published": "2026-07-25T11:33:00Z",
       "bullets": [
-        "Use the shell colon built-in to trigger parameter expansions like `${VAR:=default}` without executing the resulting string as a command.",
-        "Act as a POSIX-compliant no-op inside empty conditional branches or clean infinite loops such as `while :; do`.",
-        "Truncate files cleanly using `: > file.log` by supplying a valid null command to standard shell output redirections."
+        "Use `: \"${VAR:=default}\"` for clean POSIX variable default assignments without executing the evaluated result as a command.",
+        "Truncate or create empty files efficiently using `: > file.log` instead of invoking external processes like `cat /dev/null`.",
+        "Employ `:` as a performant shell built-in NOOP for infinite loops (`while :`) and placeholder stubs in conditional branches."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
       "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
       "discuss_url": "https://news.ycombinator.com/item?id=49070756",
-      "score": 137,
-      "comments": 44,
+      "score": 150,
+      "comments": 49,
       "author": "EatonZ",
       "published": "2026-07-27T15:08:16Z",
       "bullets": [
-        "API authentication flaws in the Volvo/Eicher telematics platform allowed unauthorized access to global enterprise fleet management portals and user databases.",
-        "Broken Object Level Authorization (BOLA) enabled remote tracking of vehicle GPS positions, telemetry extraction, and account takeover across all users.",
-        "Highlights systemic risks in connected automotive infrastructure, emphasizing the necessity of strict API authorization and isolated CAN bus telematics gateways."
+        "Broken API access controls in commercial telematics platforms can allow full cross-tenant account takeover and operational fleet compromise.",
+        "Inadequate endpoint authorization exposes sensitive real-time GPS tracking, vehicle diagnostic telemetry, and administrative controls across all registered user accounts.",
+        "Automotive IoT security requires strict API-level RBAC, continuous authorization checks, and isolating telematics control units from critical CAN bus networks."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "aws@amazon.com",
       "published": "2026-07-27T22:00:00Z",
       "bullets": [
-        "Amazon Neptune adds IAM tag-based access control (TBAC) and SCPs to govern data-plane `neptune-db:*` operations dynamically.",
-        "Replaces static cluster ARNs in IAM policies with resource and principal tag matching to streamline environment-level isolation at scale.",
-        "Integrates with OIDC/SAML federated session tags, automatically preventing lateral access across shared VPC environments."
+        "Neptune database integrates tag-based access control (TBAC) into AWS IAM and SCPs for dynamic cluster data-plane governance.",
+        "Policy rules evaluate IAM principal tags against cluster tags to enforce neptune-db:* actions without explicitly enumerating individual resource ARNs.",
+        "Supports federated SAML and OIDC session tags, isolating multi-tenant environments and mitigating lateral access risks inside shared VPCs."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Dan Goodin",
       "published": "2026-07-27T21:56:14Z",
       "bullets": [
-        "Microsoft announced new AI security tools, claiming superior threat detection performance and lower operational costs than competing platforms.",
-        "The offerings aim to consolidate SecOps workflows by integrating AI-driven threat hunting, incident response, and security governance.",
-        "Security teams should benchmark Microsoft Copilot for Security capabilities against incumbent XDR and SIEM solutions to assess ROI."
+        "Microsoft expanded its SecOps lineup with AI security tools, claiming lower total cost of ownership and superior detection performance.",
+        "The tools focus on accelerating incident response and automated threat analysis across integrated enterprise security ecosystems.",
+        "Security teams should benchmark these native AI features against third-party XDR vendors to evaluate actual cost and efficiency gains."
       ]
     }
   ],
@@ -140,18 +140,6 @@
       "comments": 1,
       "author": "intarga",
       "published": "2026-07-25T15:13:27Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "A tour of MLIR: The Dialect Stack Everyone Depends On",
-      "url": "https://hiraditya.github.io/posts/mlir-dialect-stack-for-ml/",
-      "discuss_url": "https://lobste.rs/s/o9vjlt",
-      "score": 5,
-      "comments": 0,
-      "author": "jado",
-      "published": "2026-07-24T04:54:16Z"
     },
     {
       "source": "rss",
@@ -328,10 +316,34 @@
       "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
       "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
       "discuss_url": "https://news.ycombinator.com/item?id=49070756",
-      "score": 137,
-      "comments": 44,
+      "score": 150,
+      "comments": 49,
       "author": "EatonZ",
       "published": "2026-07-27T15:08:16Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost",
+      "url": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
+      "discuss_url": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-28T06:07:22Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw",
+      "url": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html",
+      "discuss_url": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-28T04:43:53Z"
     },
     {
       "source": "rss",
@@ -440,30 +452,6 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-07-27T08:01:23Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
-      "url": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
-      "discuss_url": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-25T18:48:44Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
-      "url": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
-      "discuss_url": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-25T12:52:43Z"
     },
     {
       "source": "rss",
