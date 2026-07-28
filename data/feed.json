@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T14:16:01Z",
+  "updated_at": "2026-07-28T19:38:05Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -42,9 +42,9 @@
       "author": "intarga",
       "published": "2026-07-25T15:13:27Z",
       "bullets": [
-        "Human and programming languages function as discrete, engineered representations mapping complex semantic concepts into structured symbolic abstractions.",
-        "LLMs convert discrete syntax into continuous vector latent spaces, enabling geometric semantic alignment and cross-domain representation.",
-        "Designing domain-specific languages (DSLs) and structured prompts offers explicit control over an AI model's internal latent space traversal."
+        "Formal languages and DSLs function as engineered representations, constraining LLM probability distributions for improved accuracy and deterministic output execution.",
+        "Custom symbolic syntax minimizes context window consumption and optimizes tokenization efficiency compared to natural language prompts in transformer models.",
+        "Structuring synthetic datasets with tailored formal semantics improves model chain-of-thought reasoning and embedding precision during fine-tuning."
       ]
     },
     {
@@ -59,9 +59,9 @@
       "author": "refp",
       "published": "2026-07-25T11:33:00Z",
       "bullets": [
-        "The POSIX shell colon (\":\") is a built-in no-op returning exit code 0, commonly replacing \"true\" in performance-sensitive infinite loops.",
-        "Combined with parameter expansion, \":\" evaluates side effects like default variable assignment (\":${VAR:=default}\") without spawning subshells or executing external binaries.",
-        "It functions as a zero-cost syntactic placeholder in empty conditional blocks and enables multi-line comments using heredocs (\": <<'EOF'\")."
+        "POSIX shell's `:` builtin returns exit status 0, providing a portable, zero-fork alternative to `true` in infinite loops like `while :`.",
+        "Combine `:` with parameter expansion (e.g., `: \"${VAR:=default}\"`) to safely set default variables or evaluate expressions without executing commands.",
+        "Utilize `: > file.txt` for fast, zero-fork file truncation, or as a readable POSIX-compliant no-op placeholder inside empty conditional branches."
       ]
     },
     {
@@ -71,48 +71,48 @@
       "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
       "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
       "discuss_url": "https://news.ycombinator.com/item?id=49070756",
-      "score": 161,
-      "comments": 54,
+      "score": 162,
+      "comments": 57,
       "author": "EatonZ",
       "published": "2026-07-27T15:08:16Z",
       "bullets": [
-        "Critical API vulnerabilities in Volvo/Eicher telematics platforms allowed unauthenticated account takeover and full administrative access across user fleets.",
-        "Exploitation granted remote access to vehicle telematics data, real-time GPS tracking, and potentially unsafe direct vehicle command execution.",
-        "Highlighting heavy-vehicle IoT risks, automotive platforms must enforce strict API authorization (BOLA prevention) and isolate telematics control channels."
+        "Vulnerabilities in Volvo/Eicher's telematics API allowed attackers to bypass authentication and achieve complete account takeover across all fleet users.",
+        "Flaws in cloud fleet management platforms grant unauthorized actors global access to real-time tracking, vehicle telemetry, and remote control capabilities.",
+        "Mitigating automotive IoT risks requires strict API access controls, multi-tenant BOLA defenses, and isolating critical vehicle command infrastructure."
       ]
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon Neptune now supports tag-based access control for IAM",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-neptune-tbac/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-neptune-tbac/",
+      "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Mumbai) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-07-27T22:00:00Z",
+      "published": "2026-07-28T16:00:00Z",
       "bullets": [
-        "Amazon Neptune now supports IAM Tag-Based Access Control (TBAC), dynamically authorizing neptune-db:* data-plane actions using resource and principal tags.",
-        "IAM policies and SCPs can leverage SAML or OIDC session tags to govern access without manually enumerating individual cluster ARNs.",
-        "TBAC mitigates lateral access risks in shared VPCs while enabling granular permissions like neptune-db:QueryLanguage for dynamic multi-tenant isolation."
+        "AWS expanded 2nd-gen Outposts rack support to Asia Pacific (Mumbai), enabling regional hybrid cloud infrastructure deployments.",
+        "On-premises workloads in India can now run native AWS services and APIs locally for low latency and strict data residency.",
+        "Hybrid infrastructure can execute locally while maintaining centralized control planes and deployment pipelines through the Mumbai AWS region."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "As US measles cases rise, biotech firms start developing new treatments",
-      "url": "https://arstechnica.com/health/2026/07/as-us-measles-cases-rise-biotech-firms-start-developing-new-treatments/",
-      "discuss_url": "https://arstechnica.com/health/2026/07/as-us-measles-cases-rise-biotech-firms-start-developing-new-treatments/",
+      "title": "Report: Trump mad RFK Jr. hasn’t cut more vaccines or proven autism link",
+      "url": "https://arstechnica.com/health/2026/07/report-trump-mad-rfk-jr-hasnt-cut-more-vaccines-or-proven-autism-link/",
+      "discuss_url": "https://arstechnica.com/health/2026/07/report-trump-mad-rfk-jr-hasnt-cut-more-vaccines-or-proven-autism-link/",
       "score": null,
       "comments": null,
-      "author": "Emily Mullin, wired.com",
-      "published": "2026-07-28T13:32:23Z",
+      "author": "Beth Mole",
+      "published": "2026-07-28T16:16:25Z",
       "bullets": [
-        "Resurgent US measles outbreaks are shifting biotech focus toward novel post-exposure therapeutics like antiviral drugs and monoclonal antibodies.",
-        "R&D targets vulnerable populations, including infants and immunocompromised individuals, who cannot receive live-attenuated MMR vaccines.",
-        "Growing clinical focus addresses severe paramyxovirus complications as declining vaccination coverage expands susceptible host pools."
+        "Political pressure on HHS leadership targets vaccine approvals, raising concerns over scientific integrity in federal health policy.",
+        "Biotech and pharmaceutical industries face heightened regulatory risk regarding CDC immunization schedules and FDA safety evaluations.",
+        "Reinvestigating debunked vaccine-autism links threatens public health data integrity and federal medical research resource allocation."
       ]
     }
   ],
@@ -128,6 +128,30 @@
       "comments": 1,
       "author": "intarga",
       "published": "2026-07-25T15:13:27Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+      "discuss_url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-28T16:27:42Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+      "discuss_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-28T15:01:45Z"
     },
     {
       "source": "rss",
@@ -181,18 +205,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/rbfmuh",
-      "discuss_url": "https://lobste.rs/s/rbfmuh",
-      "score": 16,
-      "comments": 44,
-      "author": "caius",
-      "published": "2026-07-24T14:38:42Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Forth Moving Lisp Moving Forth",
       "url": "https://letoverlambda.com/textmode.cl/guest/chap8.html",
       "discuss_url": "https://lobste.rs/s/exipox",
@@ -224,6 +236,18 @@
       "comments": 1,
       "author": "lhearachel",
       "published": "2026-07-24T21:11:50Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Disrupting supply chain attacks on npm and GitHub Actions",
+      "url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
+      "discuss_url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
+      "score": null,
+      "comments": null,
+      "author": "Greg Ose",
+      "published": "2026-07-28T16:00:00Z"
     },
     {
       "source": "rss",
@@ -287,15 +311,15 @@
     },
     {
       "source": "rss",
-      "subsource": "github.blog",
+      "subsource": "stackoverflow.blog",
       "category": "engineering",
-      "title": "How to build interactive experiences with canvases",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
-      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+      "title": "You need reliable AI context for your site reliability​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‌​﻿​​​﻿‍‌​﻿‌​‌‍​‌‌‍​﻿​﻿‌﻿‌‍​‌​‍﻿‌‌‍‌‌‌‍​‍​﻿‌​‌‍‌‌​‍﻿‌​﻿‌​‌‍‌‍​﻿​﻿​﻿​‍​‍﻿‌​﻿‍​​﻿‍‌‌‍‌‍‌‍​‌​‍﻿‌​﻿‌‌​﻿​​‌‍‌‌​﻿‌﻿​﻿‌‍‌‍​‌​﻿​﻿‌‍‌​​﻿‍‌​﻿‌‌​﻿​﻿‌‍‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‌​﻿​​​﻿‍‌​﻿‌​‌‍​‌‌‍​﻿​﻿‌﻿‌‍​‌​‍﻿‌‌‍‌‌‌‍​‍​﻿‌​‌‍‌‌​‍﻿‌​﻿‌​‌‍‌‍​﻿​﻿​﻿​‍​‍﻿‌​﻿‍​​﻿‍‌‌‍‌‍‌‍​‌​‍﻿‌​﻿‌‌​﻿​​‌‍‌‌​﻿‌﻿​﻿‌‍‌‍​‌​﻿​﻿‌‍‌​​﻿‍‌​﻿‌‌​﻿​﻿‌‍‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/07/28/you-need-reliable-ai-context-for-your-site-reliability/",
+      "discuss_url": "https://stackoverflow.blog/2026/07/28/you-need-reliable-ai-context-for-your-site-reliability/",
       "score": null,
       "comments": null,
-      "author": "Jacklyn Carroll",
-      "published": "2026-07-21T16:00:00Z"
+      "author": "Phoebe Sajor",
+      "published": "2026-07-28T07:40:00Z"
     },
     {
       "source": "hackernews",
@@ -304,10 +328,46 @@
       "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
       "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
       "discuss_url": "https://news.ycombinator.com/item?id=49070756",
-      "score": 161,
-      "comments": 54,
+      "score": 162,
+      "comments": 57,
       "author": "EatonZ",
       "published": "2026-07-27T15:08:16Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
+      "url": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
+      "discuss_url": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-28T18:59:07Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
+      "url": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
+      "discuss_url": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-28T15:01:33Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login",
+      "url": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
+      "discuss_url": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-28T14:41:36Z"
     },
     {
       "source": "rss",
@@ -407,39 +467,51 @@
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
-      "url": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
-      "discuss_url": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Mumbai) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
       "score": null,
       "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-27T17:16:28Z"
+      "author": "aws@amazon.com",
+      "published": "2026-07-28T16:00:00Z"
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
-      "url": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
-      "discuss_url": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
       "score": null,
       "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-27T14:40:00Z"
+      "author": "aws@amazon.com",
+      "published": "2026-07-28T16:00:00Z"
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More",
-      "url": "https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html",
-      "discuss_url": "https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS DataSync Enhanced mode adds HDFS, Azure Blob, and object storage locations with Hyper-V agent support",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-datasync-hdfs-azure-blob-hyper-v/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-datasync-hdfs-azure-blob-hyper-v/",
       "score": null,
       "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-27T14:10:54Z"
+      "author": "aws@amazon.com",
+      "published": "2026-07-28T10:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon S3 Tables now support the Variant data type for Apache Iceberg V3",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-tables-variant-iceberg-v3/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-tables-variant-iceberg-v3/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-28T07:00:00Z"
     },
     {
       "source": "rss",
@@ -539,51 +611,15 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon MWAA now supports Apache Airflow version 2.11.2",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mwaa-now-supports-apache-airflow-version-2-11-2",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mwaa-now-supports-apache-airflow-version-2-11-2",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Report: Trump mad RFK Jr. hasn’t cut more vaccines or proven autism link",
+      "url": "https://arstechnica.com/health/2026/07/report-trump-mad-rfk-jr-hasnt-cut-more-vaccines-or-proven-autism-link/",
+      "discuss_url": "https://arstechnica.com/health/2026/07/report-trump-mad-rfk-jr-hasnt-cut-more-vaccines-or-proven-autism-link/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-24T21:57:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 Dedicated Hosts now support host resource groups without self-managed licenses",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-dedicated-hosts-hrg/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-dedicated-hosts-hrg/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-24T21:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Kinesis Data Streams now supports scaling down ingest capacity with warm throughput",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/kinesis/on-demand-scale-down",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/kinesis/on-demand-scale-down",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-24T18:55:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Lambda now publishes logs for Lambda Managed Instances capacity providers",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-managed-instances-logs/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-managed-instances-logs/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-24T16:00:00Z"
+      "author": "Beth Mole",
+      "published": "2026-07-28T16:16:25Z"
     },
     {
       "source": "rss",
@@ -716,18 +752,6 @@
       "comments": null,
       "author": "Kyle Orland",
       "published": "2026-07-27T16:58:46Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Activist charged with felony after giving border agent \"duress code\" that wiped his phone",
-      "url": "https://arstechnica.com/gadgets/2026/07/activist-charged-with-felony-after-giving-border-agent-duress-code-that-wiped-his-phone/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/07/activist-charged-with-felony-after-giving-border-agent-duress-code-that-wiped-his-phone/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-07-27T15:58:34Z"
     }
   ]
 }
