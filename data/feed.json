@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T08:39:46Z",
+  "updated_at": "2026-07-28T14:16:01Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Open Weights and American AI Leadership",
-      "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/",
-      "discuss_url": "https://lobste.rs/s/gqgbrz",
-      "score": 14,
-      "comments": 14,
-      "author": "stick",
-      "published": "2026-07-24T14:01:24Z",
+      "title": "Languages as designed latent spaces",
+      "url": "https://blog.jsbarretto.com/post/languages-as-latent-spaces",
+      "discuss_url": "https://lobste.rs/s/ljg2qr",
+      "score": 8,
+      "comments": 1,
+      "author": "intarga",
+      "published": "2026-07-25T15:13:27Z",
       "bullets": [
-        "Open-weight models like Meta's Llama drive global adoption, positioning open innovation as a cornerstone of U.S. AI competitiveness.",
-        "Export controls on compute like Nvidia GPUs remain the primary regulatory lever rather than restricting open software model weights.",
-        "Open weights enable enterprises to ensure data privacy, lower inference costs, and avoid lock-in from proprietary vendor APIs."
+        "Human and programming languages function as discrete, engineered representations mapping complex semantic concepts into structured symbolic abstractions.",
+        "LLMs convert discrete syntax into continuous vector latent spaces, enabling geometric semantic alignment and cross-domain representation.",
+        "Designing domain-specific languages (DSLs) and structured prompts offers explicit control over an AI model's internal latent space traversal."
       ]
     },
     {
@@ -59,9 +59,9 @@
       "author": "refp",
       "published": "2026-07-25T11:33:00Z",
       "bullets": [
-        "Use `: \"${VAR:=default}\"` for clean POSIX variable default assignments without executing the evaluated result as a command.",
-        "Truncate or create empty files efficiently using `: > file.log` instead of invoking external processes like `cat /dev/null`.",
-        "Employ `:` as a performant shell built-in NOOP for infinite loops (`while :`) and placeholder stubs in conditional branches."
+        "The POSIX shell colon (\":\") is a built-in no-op returning exit code 0, commonly replacing \"true\" in performance-sensitive infinite loops.",
+        "Combined with parameter expansion, \":\" evaluates side effects like default variable assignment (\":${VAR:=default}\") without spawning subshells or executing external binaries.",
+        "It functions as a zero-cost syntactic placeholder in empty conditional blocks and enables multi-line comments using heredocs (\": <<'EOF'\")."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
       "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
       "discuss_url": "https://news.ycombinator.com/item?id=49070756",
-      "score": 150,
-      "comments": 49,
+      "score": 161,
+      "comments": 54,
       "author": "EatonZ",
       "published": "2026-07-27T15:08:16Z",
       "bullets": [
-        "Broken API access controls in commercial telematics platforms can allow full cross-tenant account takeover and operational fleet compromise.",
-        "Inadequate endpoint authorization exposes sensitive real-time GPS tracking, vehicle diagnostic telemetry, and administrative controls across all registered user accounts.",
-        "Automotive IoT security requires strict API-level RBAC, continuous authorization checks, and isolating telematics control units from critical CAN bus networks."
+        "Critical API vulnerabilities in Volvo/Eicher telematics platforms allowed unauthenticated account takeover and full administrative access across user fleets.",
+        "Exploitation granted remote access to vehicle telematics data, real-time GPS tracking, and potentially unsafe direct vehicle command execution.",
+        "Highlighting heavy-vehicle IoT risks, automotive platforms must enforce strict API authorization (BOLA prevention) and isolate telematics control channels."
       ]
     },
     {
@@ -93,42 +93,30 @@
       "author": "aws@amazon.com",
       "published": "2026-07-27T22:00:00Z",
       "bullets": [
-        "Neptune database integrates tag-based access control (TBAC) into AWS IAM and SCPs for dynamic cluster data-plane governance.",
-        "Policy rules evaluate IAM principal tags against cluster tags to enforce neptune-db:* actions without explicitly enumerating individual resource ARNs.",
-        "Supports federated SAML and OIDC session tags, isolating multi-tenant environments and mitigating lateral access risks inside shared VPCs."
+        "Amazon Neptune now supports IAM Tag-Based Access Control (TBAC), dynamically authorizing neptune-db:* data-plane actions using resource and principal tags.",
+        "IAM policies and SCPs can leverage SAML or OIDC session tags to govern access without manually enumerating individual cluster ARNs.",
+        "TBAC mitigates lateral access risks in shared VPCs while enabling granular permissions like neptune-db:QueryLanguage for dynamic multi-tenant isolation."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Microsoft unveils AI security tools it says outperform competing platforms",
-      "url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
-      "discuss_url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
+      "title": "As US measles cases rise, biotech firms start developing new treatments",
+      "url": "https://arstechnica.com/health/2026/07/as-us-measles-cases-rise-biotech-firms-start-developing-new-treatments/",
+      "discuss_url": "https://arstechnica.com/health/2026/07/as-us-measles-cases-rise-biotech-firms-start-developing-new-treatments/",
       "score": null,
       "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-07-27T21:56:14Z",
+      "author": "Emily Mullin, wired.com",
+      "published": "2026-07-28T13:32:23Z",
       "bullets": [
-        "Microsoft expanded its SecOps lineup with AI security tools, claiming lower total cost of ownership and superior detection performance.",
-        "The tools focus on accelerating incident response and automated threat analysis across integrated enterprise security ecosystems.",
-        "Security teams should benchmark these native AI features against third-party XDR vendors to evaluate actual cost and efficiency gains."
+        "Resurgent US measles outbreaks are shifting biotech focus toward novel post-exposure therapeutics like antiviral drugs and monoclonal antibodies.",
+        "R&D targets vulnerable populations, including infants and immunocompromised individuals, who cannot receive live-attenuated MMR vaccines.",
+        "Growing clinical focus addresses severe paramyxovirus complications as declining vaccination coverage expands susceptible host pools."
       ]
     }
   ],
   "discussions": [
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Open Weights and American AI Leadership",
-      "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/",
-      "discuss_url": "https://lobste.rs/s/gqgbrz",
-      "score": 14,
-      "comments": 14,
-      "author": "stick",
-      "published": "2026-07-24T14:01:24Z"
-    },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
@@ -316,8 +304,8 @@
       "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
       "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
       "discuss_url": "https://news.ycombinator.com/item?id=49070756",
-      "score": 150,
-      "comments": 49,
+      "score": 161,
+      "comments": 54,
       "author": "EatonZ",
       "published": "2026-07-27T15:08:16Z"
     },
@@ -325,7 +313,67 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost",
+      "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
+      "url": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
+      "discuss_url": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-28T13:33:47Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
+      "url": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
+      "discuss_url": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-28T12:56:14Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays",
+      "url": "https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html",
+      "discuss_url": "https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-28T11:55:20Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
+      "url": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
+      "discuss_url": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-28T08:11:22Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit",
+      "url": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html",
+      "discuss_url": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-28T08:04:44Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost",
       "url": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
       "discuss_url": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
       "score": null,
@@ -392,66 +440,6 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-07-27T14:10:54Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process",
-      "url": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
-      "discuss_url": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-27T13:05:15Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
-      "url": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
-      "discuss_url": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-27T12:37:49Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware",
-      "url": "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
-      "discuss_url": "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-27T10:51:45Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
-      "url": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
-      "discuss_url": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-27T08:48:47Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption",
-      "url": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
-      "discuss_url": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-27T08:01:23Z"
     },
     {
       "source": "rss",
@@ -601,6 +589,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "As US measles cases rise, biotech firms start developing new treatments",
+      "url": "https://arstechnica.com/health/2026/07/as-us-measles-cases-rise-biotech-firms-start-developing-new-treatments/",
+      "discuss_url": "https://arstechnica.com/health/2026/07/as-us-measles-cases-rise-biotech-firms-start-developing-new-treatments/",
+      "score": null,
+      "comments": null,
+      "author": "Emily Mullin, wired.com",
+      "published": "2026-07-28T13:32:23Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "Microsoft unveils AI security tools it says outperform competing platforms",
       "url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
       "discuss_url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
@@ -728,18 +728,6 @@
       "comments": null,
       "author": "Ryan Whitwam",
       "published": "2026-07-27T15:58:34Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Framework Laptop 13 Pro review: Much better battery, much worse price",
-      "url": "https://arstechnica.com/gadgets/2026/07/framework-laptop-13-pro-review-much-better-battery-much-worse-price/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/07/framework-laptop-13-pro-review-much-better-battery-much-worse-price/",
-      "score": null,
-      "comments": null,
-      "author": "Andrew Cunningham",
-      "published": "2026-07-27T15:02:45Z"
     }
   ]
 }
