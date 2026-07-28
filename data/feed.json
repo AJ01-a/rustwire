@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T19:41:20Z",
+  "updated_at": "2026-07-28T02:47:16Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -31,20 +31,20 @@
   ],
   "tldr": [
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "The new rules of context engineering for Claude 5 generation models",
-      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-      "discuss_url": "https://news.ycombinator.com/item?id=49051361",
-      "score": 454,
-      "comments": 384,
-      "author": "mellosouls",
-      "published": "2026-07-25T20:42:35Z",
+      "title": "Open Weights and American AI Leadership",
+      "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/",
+      "discuss_url": "https://lobste.rs/s/gqgbrz",
+      "score": 14,
+      "comments": 14,
+      "author": "stick",
+      "published": "2026-07-24T14:01:24Z",
       "bullets": [
-        "Structure prompts using clear XML tags and system instructions to minimize context drift and control Claude's extended reasoning output.",
-        "Implement prompt caching strategically to cut latency and costs when feeding large codebases or documents into dynamic RAG pipelines.",
-        "Enforce structured JSON schemas and explicit tool-use definitions to ensure deterministic execution across long, multi-turn AI agent sessions."
+        "Open-weight releases accelerate innovation by enabling local fine-tuning, quantization, and self-hosted inference without restrictive proprietary API locks or usage costs.",
+        "Distributing open model weights establishes US-designed architectures as global standards, countering geopolitical rivals while empowering independent safety and alignment research.",
+        "Open access permits full-stack security auditing, red-teaming, and custom optimization, mitigating supply chain risks inherent in black-box commercial endpoints."
       ]
     },
     {
@@ -59,88 +59,64 @@
       "author": "refp",
       "published": "2026-07-25T11:33:00Z",
       "bullets": [
-        "The POSIX shell `:` built-in evaluates arguments without execution, enabling variable default assignments like `: \"${VAR:=default}\"`.",
-        "It serves as a zero-overhead no-op placeholder for required shell syntax blocks, such as empty `if` branches or `while :` loops.",
-        "Combining `:` with redirections (`: > file`) portably truncates files while explicitly signaling intentional code execution."
-      ]
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
-      "url": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
-      "discuss_url": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-27T17:16:28Z",
-      "bullets": [
-        "Dysphoria IoT botnet adapted post-JackSkid disruption by adopting decentralized blockchain name services for resilient command-and-control operations.",
-        "The malware routes command traffic through infected victim devices acting as relays, neutralizing traditional IP-based perimeter blocking and sinkholing.",
-        "Analysis by CNCERT and XLab underscores a broader trend of IoT botnets adopting peer-to-peer architectures to resist law enforcement takedowns."
+        "Use the shell colon built-in to trigger parameter expansions like `${VAR:=default}` without executing the resulting string as a command.",
+        "Act as a POSIX-compliant no-op inside empty conditional branches or clean infinite loops such as `while :; do`.",
+        "Truncate files cleanly using `: > file.log` by supplying a valid null command to standard shell output redirections."
       ]
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
-      "category": "devops",
-      "title": "Cloudflare's new AI traffic options for customers",
-      "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49052564",
-      "score": 193,
-      "comments": 153,
-      "author": "alphabetatango",
-      "published": "2026-07-25T22:50:49Z",
+      "category": "security",
+      "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
+      "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49070756",
+      "score": 137,
+      "comments": 44,
+      "author": "EatonZ",
+      "published": "2026-07-27T15:08:16Z",
       "bullets": [
-        "Cloudflare introduced one-click WAF rules to block aggressive AI crawlers and scrapers at the edge.",
-        "A new AI Audit dashboard provides real-time visibility into AI bot requests, model training scrapers, and origin server load.",
-        "Site operators can now set granular bot management policies to rate-limit, challenge, or block automated AI agents."
+        "API authentication flaws in the Volvo/Eicher telematics platform allowed unauthorized access to global enterprise fleet management portals and user databases.",
+        "Broken Object Level Authorization (BOLA) enabled remote tracking of vehicle GPS positions, telemetry extraction, and account takeover across all users.",
+        "Highlights systemic risks in connected automotive infrastructure, emphasizing the necessity of strict API authorization and isolated CAN bus telematics gateways."
+      ]
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Neptune now supports tag-based access control for IAM",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-neptune-tbac/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-neptune-tbac/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-27T22:00:00Z",
+      "bullets": [
+        "Amazon Neptune adds IAM tag-based access control (TBAC) and SCPs to govern data-plane `neptune-db:*` operations dynamically.",
+        "Replaces static cluster ARNs in IAM policies with resource and principal tag matching to streamline environment-level isolation at scale.",
+        "Integrates with OIDC/SAML federated session tags, automatically preventing lateral access across shared VPC environments."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Activist charged with felony after giving border agent \"duress code\" that wiped his phone",
-      "url": "https://arstechnica.com/gadgets/2026/07/activist-charged-with-felony-after-giving-border-agent-duress-code-that-wiped-his-phone/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/07/activist-charged-with-felony-after-giving-border-agent-duress-code-that-wiped-his-phone/",
+      "title": "Microsoft unveils AI security tools it says outperform competing platforms",
+      "url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
+      "discuss_url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
       "score": null,
       "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-07-27T15:58:34Z",
+      "author": "Dan Goodin",
+      "published": "2026-07-27T21:56:14Z",
       "bullets": [
-        "US authorities filed felony charges after an individual entered a duress PIN that wiped their mobile device during border interrogation.",
-        "Executing automated anti-forensic data wipes during law enforcement searches can trigger federal obstruction of justice charges.",
-        "Security teams advising high-risk travelers must balance automated data-destruction capabilities against severe legal liabilities at ports of entry."
+        "Microsoft announced new AI security tools, claiming superior threat detection performance and lower operational costs than competing platforms.",
+        "The offerings aim to consolidate SecOps workflows by integrating AI-driven threat hunting, incident response, and security governance.",
+        "Security teams should benchmark Microsoft Copilot for Security capabilities against incumbent XDR and SIEM solutions to assess ROI."
       ]
     }
   ],
   "discussions": [
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "The new rules of context engineering for Claude 5 generation models",
-      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-      "discuss_url": "https://news.ycombinator.com/item?id=49051361",
-      "score": 454,
-      "comments": 384,
-      "author": "mellosouls",
-      "published": "2026-07-25T20:42:35Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "LLM Usage in Debian: Three Proposals",
-      "url": "https://www.debian.org/vote/2026/vote_002",
-      "discuss_url": "https://news.ycombinator.com/item?id=49050859",
-      "score": 211,
-      "comments": 212,
-      "author": "zdw",
-      "published": "2026-07-25T19:44:39Z"
-    },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
@@ -202,18 +178,6 @@
       "published": "2026-07-23T00:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Grabette: an open system to record robot-manipulation data",
-      "url": "https://huggingface.co/blog/grabette",
-      "discuss_url": "https://huggingface.co/blog/grabette",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-21T00:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
@@ -260,18 +224,6 @@
       "comments": 0,
       "author": "LenFalken",
       "published": "2026-07-26T17:39:27Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Jolt: running Clojure on Chez Scheme",
-      "url": "https://yogthos.net/posts/2026-07-02-jolt.html",
-      "discuss_url": "https://lobste.rs/s/btplc7",
-      "score": 23,
-      "comments": 6,
-      "author": "Yogthos",
-      "published": "2026-07-23T20:54:31Z"
     },
     {
       "source": "lobsters",
@@ -356,6 +308,42 @@
       "comments": null,
       "author": "Catherine Cassell",
       "published": "2026-07-22T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "How to build interactive experiences with canvases",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+      "score": null,
+      "comments": null,
+      "author": "Jacklyn Carroll",
+      "published": "2026-07-21T16:00:00Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
+      "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49070756",
+      "score": 137,
+      "comments": 44,
+      "author": "EatonZ",
+      "published": "2026-07-27T15:08:16Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
+      "url": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
+      "discuss_url": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-27T18:10:05Z"
     },
     {
       "source": "rss",
@@ -479,39 +467,63 @@
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
-      "url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
-      "discuss_url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Neptune now supports tag-based access control for IAM",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-neptune-tbac/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-neptune-tbac/",
       "score": null,
       "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-25T10:14:26Z"
+      "author": "aws@amazon.com",
+      "published": "2026-07-27T22:00:00Z"
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
-      "url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
-      "discuss_url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Glue Data Quality now supports anomaly detection and writing results to the AWS Glue Data Catalog",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-catalog-anomaly-detection-write-results",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-catalog-anomaly-detection-write-results",
       "score": null,
       "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-25T10:14:21Z"
+      "author": "aws@amazon.com",
+      "published": "2026-07-27T20:45:00Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Cloudflare's new AI traffic options for customers",
-      "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49052564",
-      "score": 193,
-      "comments": 153,
-      "author": "alphabetatango",
-      "published": "2026-07-25T22:50:49Z"
+      "title": "AWS Glue Data Quality now supports distribution statistics for data profiling",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-distribution-profiling",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-distribution-profiling",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-27T20:23:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon GameLift Streams now supports Custom Aspect Ratio and Dynamic Resolution",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-27T18:58:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Security Hub MCP App brings exposure findings into your AI-assisted workflow (Preview)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-mcp-app/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-mcp-app/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-27T17:00:00Z"
     },
     {
       "source": "rss",
@@ -524,6 +536,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-07-27T16:09:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon RDS for SQL Server now supports restoring TDE databases on Mult-AZ instances",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-tde-for-maz/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-tde-for-maz/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-27T07:00:00Z"
     },
     {
       "source": "rss",
@@ -587,63 +611,123 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon SES simplifies sending emails over SMTP using Mail Manager",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-simplified-smtp-mail-manager",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-simplified-smtp-mail-manager",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Microsoft unveils AI security tools it says outperform competing platforms",
+      "url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
+      "discuss_url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-24T15:03:00Z"
+      "author": "Dan Goodin",
+      "published": "2026-07-27T21:56:14Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Claude Opus 5 is now available on AWS",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Trump admin exempts SpaceX's Starlink from FCC ban on foreign-made routers",
+      "url": "https://arstechnica.com/tech-policy/2026/07/starlink-gets-exemption-from-fcc-ban-on-routers-made-outside-the-us/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/starlink-gets-exemption-from-fcc-ban-on-routers-made-outside-the-us/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-24T15:00:00Z"
+      "author": "Jon Brodkin",
+      "published": "2026-07-27T21:40:27Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Opus 4.8, Sonnet 5, and User Activity Monitoring now available on Kiro in AWS GovCloud (US)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/kiro-opus-sonnet-monitoring-launch-aws-govcloud-us/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/kiro-opus-sonnet-monitoring-launch-aws-govcloud-us/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Epic diarrhea outbreak has 40% of Americans avoiding fruits and veggies",
+      "url": "https://arstechnica.com/health/2026/07/epic-diarrhea-outbreak-has-40-of-americans-avoiding-fruits-and-veggies/",
+      "discuss_url": "https://arstechnica.com/health/2026/07/epic-diarrhea-outbreak-has-40-of-americans-avoiding-fruits-and-veggies/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-24T14:00:00Z"
+      "author": "Beth Mole",
+      "published": "2026-07-27T20:42:13Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS announces aws-bench, an open-source benchmark for AI agents on AWS",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-bench/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-bench/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "iOS and macOS 26.6 arrive today, paving the way for iOS and macOS 27",
+      "url": "https://arstechnica.com/gadgets/2026/07/ios-and-macos-26-6-arrive-today-paving-the-way-for-ios-and-macos-27/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/07/ios-and-macos-26-6-arrive-today-paving-the-way-for-ios-and-macos-27/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-24T13:00:00Z"
+      "author": "Samuel Axon",
+      "published": "2026-07-27T20:32:45Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon ECS Service Connect now supports Zone-Aware routing",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "A missing underscore sent innocent man to prison for 18 months",
+      "url": "https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-23T23:46:00Z"
+      "author": "Nate Anderson",
+      "published": "2026-07-27T20:22:03Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "“Google and Reddit do not own the Internet,\" web scraper says after court win",
+      "url": "https://arstechnica.com/tech-policy/2026/07/google-wont-give-up-odd-war-against-ai-web-scraping-despite-court-loss/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/google-wont-give-up-odd-war-against-ai-web-scraping-despite-court-loss/",
+      "score": null,
+      "comments": null,
+      "author": "Ashley Belanger",
+      "published": "2026-07-27T20:12:42Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "5th Circuit blocks Texas law requiring websites to filter \"harmful\" speech",
+      "url": "https://arstechnica.com/tech-policy/2026/07/5th-circuit-blocks-texas-law-requiring-websites-to-filter-harmful-speech/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/5th-circuit-blocks-texas-law-requiring-websites-to-filter-harmful-speech/",
+      "score": null,
+      "comments": null,
+      "author": "Jon Brodkin",
+      "published": "2026-07-27T19:18:02Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Verizon touts $1B dark fiber deal for Google data centers as first of many",
+      "url": "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google/",
+      "discuss_url": "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google/",
+      "score": null,
+      "comments": null,
+      "author": "Jeremy Hsu",
+      "published": "2026-07-27T18:48:41Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Experts warn current Starship heat shield tech is a \"dead end\" for rapid reuse",
+      "url": "https://arstechnica.com/space/2026/07/despite-recent-successes-rapid-reuse-of-starship-remains-a-tough-nut-to-crack/",
+      "discuss_url": "https://arstechnica.com/space/2026/07/despite-recent-successes-rapid-reuse-of-starship-remains-a-tough-nut-to-crack/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-07-27T18:34:40Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "ChatGPT starts blocking direct requests to copy an author's style",
+      "url": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/",
+      "discuss_url": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/",
+      "score": null,
+      "comments": null,
+      "author": "Kyle Orland",
+      "published": "2026-07-27T16:58:46Z"
     },
     {
       "source": "rss",
@@ -668,126 +752,6 @@
       "comments": null,
       "author": "Andrew Cunningham",
       "published": "2026-07-27T15:02:45Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "What public health professionals can learn from anti-vaccine storytelling",
-      "url": "https://arstechnica.com/health/2026/07/how-emotionally-powerful-stories-fuel-vaccine-skepticism/",
-      "discuss_url": "https://arstechnica.com/health/2026/07/how-emotionally-powerful-stories-fuel-vaccine-skepticism/",
-      "score": null,
-      "comments": null,
-      "author": "Katherine Shwetz, The Conversation",
-      "published": "2026-07-27T14:01:56Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Artist sues AI meme generator for selling deeply personal comic as ad template",
-      "url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-07-27T10:50:37Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "First teaser for Apple TV's Neuromancer debuts at SDCC",
-      "url": "https://arstechnica.com/culture/2026/07/first-teaser-for-apple-tvs-neuromancer-debuts-at-sdcc/",
-      "discuss_url": "https://arstechnica.com/culture/2026/07/first-teaser-for-apple-tvs-neuromancer-debuts-at-sdcc/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-07-26T19:48:43Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "SDCC teaser gives us our first good look at Blade Runner 2099",
-      "url": "https://arstechnica.com/culture/2026/07/sdcc-teaser-gives-us-our-first-good-look-at-blade-runner-2099/",
-      "discuss_url": "https://arstechnica.com/culture/2026/07/sdcc-teaser-gives-us-our-first-good-look-at-blade-runner-2099/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-07-25T20:52:30Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight",
-      "url": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-07-25T17:47:22Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "With help from data, art museums are reframing the visitor experience",
-      "url": "https://arstechnica.com/culture/2026/07/with-help-from-data-art-museums-are-reframing-the-visitor-experience/",
-      "discuss_url": "https://arstechnica.com/culture/2026/07/with-help-from-data-art-museums-are-reframing-the-visitor-experience/",
-      "score": null,
-      "comments": null,
-      "author": "Mureji Fatunde-Iloeje",
-      "published": "2026-07-25T11:00:32Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Big Tech accused of stonewalling European social media researchers",
-      "url": "https://arstechnica.com/tech-policy/2026/07/big-tech-accused-of-stonewalling-european-social-media-researchers/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/big-tech-accused-of-stonewalling-european-social-media-researchers/",
-      "score": null,
-      "comments": null,
-      "author": "Anna Desmarais, wired.com",
-      "published": "2026-07-25T10:45:32Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Wildfire forces evacuation of NASA's Deep Space Network complex in Spain",
-      "url": "https://arstechnica.com/space/2026/07/wildfire-forces-evacuation-of-nasas-deep-space-network-complex-in-spain/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/wildfire-forces-evacuation-of-nasas-deep-space-network-complex-in-spain/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-07-24T22:28:20Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Paramount/WBD merger delayed for months as states' lawsuit moves toward trial",
-      "url": "https://arstechnica.com/tech-policy/2026/07/after-court-loss-paramount-agrees-to-delay-warner-bros-merger-until-trial/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/after-court-loss-paramount-agrees-to-delay-warner-bros-merger-until-trial/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-07-24T21:56:02Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Canadian legislator reads out apparent LLM response in floor speech",
-      "url": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech/",
-      "discuss_url": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech/",
-      "score": null,
-      "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-07-24T21:25:15Z"
     }
   ]
 }
