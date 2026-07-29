@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T02:54:08Z",
+  "updated_at": "2026-07-29T08:46:39Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Discovering Cryptographic Weaknesses with Claude",
       "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
       "discuss_url": "https://news.ycombinator.com/item?id=49087091",
-      "score": 188,
-      "comments": 129,
+      "score": 215,
+      "comments": 154,
       "author": "gslin",
       "published": "2026-07-28T17:22:16Z",
       "bullets": [
-        "Anthropic's Claude LLMs can analyze source code to identify subtle cryptographic vulnerabilities, such as weak randomness and improper padding.",
-        "LLM-assisted security auditing complements traditional SAST tools by reasoning over complex mathematical logic and cryptographic implementation flaws.",
-        "AI-driven vulnerability discovery accelerates patch management while lowering the barrier for auditing critical open-source cryptography codebases."
+        "Anthropic's Claude LLM demonstrates strong capability in automated cryptographic vulnerability discovery, detecting complex mathematical and implementation flaws.",
+        "AI-driven code analysis enhances traditional static application security testing (SAST), accelerating security audits of C and Rust cryptographic implementations.",
+        "Security teams must pair LLM vulnerability scanning with human verification to handle context window limits and eliminate hallucinated exploits."
       ]
     },
     {
@@ -59,26 +59,26 @@
       "author": "refp",
       "published": "2026-07-25T11:33:00Z",
       "bullets": [
-        "The POSIX shell colon built-in is a no-op command returning exit status 0 without spawning external subprocesses.",
-        "Pair the colon with parameter expansions like ': ${VAR:=default}' to safely set variable defaults without executing the result.",
-        "Use the colon for lightweight infinite loops ('while :; do'), script placeholders, and fast file truncation (': > file')."
+        "The POSIX shell colon command is a built-in no-op returning exit status 0, useful for clean function stubs and documentation.",
+        "Evaluate parameter expansion side-effects safely using \": \\\"${VAR:=default}\\\"\" without running the evaluated string as a command.",
+        "Implement \"while :; do\" loops and \": > file\" truncations to eliminate external process execution and subshell overhead in standard shell."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
-      "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49070756",
-      "score": 162,
-      "comments": 57,
-      "author": "EatonZ",
-      "published": "2026-07-27T15:08:16Z",
+      "title": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
+      "url": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
+      "discuss_url": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-29T07:07:23Z",
       "bullets": [
-        "API authorization vulnerabilities in Volvo/Eicher fleet management allow attackers to bypass authentication and breach centralized vehicle management systems.",
-        "Exploiting telematics endpoints grants malicious actors full access to real-time vehicle telemetry, driver PII, GPS tracking, and remote control capabilities.",
-        "Securing connected vehicle fleets requires rigorous BOLA/IDOR testing on cloud APIs, strict role-based access, and isolated command execution pipelines."
+        "Hunt.io and NetAskari tracked 170 C2 servers running the Flying Eagle Android RAT using unique control panels and certificates.",
+        "The malware poses as a fake Chinese Public Security app (公安一网通办) designed to steal payment passwords from Android devices.",
+        "Leaked source code circulating on Telegram enables threat actors to easily deploy customized variants of the Android trojan."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "aws@amazon.com",
       "published": "2026-07-28T17:18:00Z",
       "bullets": [
-        "AWS EKS Provisioned Control Plane increased Horizontal Pod Autoscaler (HPA) sync concurrency up to 40x default Kubernetes levels.",
-        "Parallel evaluation of HPA objects reduces latency between load detection and pod scaling across large-scale workloads.",
-        "The performance upgrade is automatically applied to all EKS Provisioned Control Plane clusters with zero required configuration changes."
+        "Amazon EKS boosted HPA sync concurrency up to 40x default Kubernetes limits within Provisioned Control Plane clusters.",
+        "Parallel HPA object evaluation significantly cuts scale-out latency for large-scale workloads managing hundreds or thousands of autoscalers.",
+        "This performance upgrade is automatically enabled for all EKS Provisioned Control Plane instances without requiring any configuration changes."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Reaction wheel failures leave Swift rescue mission spinning in orbit",
-      "url": "https://arstechnica.com/space/2026/07/reaction-wheel-failures-leave-swift-rescue-mission-spinning-in-orbit/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/reaction-wheel-failures-leave-swift-rescue-mission-spinning-in-orbit/",
+      "title": "Audi has a new flagship designed with the US in mind: The 2027 Q9",
+      "url": "https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/",
+      "discuss_url": "https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/",
       "score": null,
       "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-07-28T22:09:00Z",
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-07-29T01:00:36Z",
       "bullets": [
-        "Two of three reaction wheels failed on the \"Link\" spacecraft, compromising 3-axis attitude control during its orbital rescue mission.",
-        "Operating with a single functional reaction wheel prevents standard orientation control, leaving the satellite spinning and uncontrolled in orbit.",
-        "The failure highlights technical reliability risks in smallsat attitude determination and control systems (ADCS) using minimal hardware redundancy."
+        "Audi's 2027 Q9 full-size flagship SUV launches in Q4 with a base price of $87,700 tailored for the US market.",
+        "The model targets the lucrative premium three-row segment, expanding Audi's high-margin vehicle portfolio against North American rivals.",
+        "The US-centric launch highlights Volkswagen Group's regional product strategy to drive revenue in large luxury vehicle markets."
       ]
     }
   ],
@@ -124,10 +124,34 @@
       "title": "Discovering Cryptographic Weaknesses with Claude",
       "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
       "discuss_url": "https://news.ycombinator.com/item?id=49087091",
-      "score": 188,
-      "comments": 129,
+      "score": 215,
+      "comments": 154,
       "author": "gslin",
       "published": "2026-07-28T17:22:16Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "You Could Have Come Up With Kimi Delta Attention",
+      "url": "https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention",
+      "discuss_url": "https://lobste.rs/s/jjap0n",
+      "score": 6,
+      "comments": 2,
+      "author": "mitsuhiko",
+      "published": "2026-07-28T17:01:39Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Large Language Models and the Future of Programming by Peter Norvig (2023)",
+      "url": "https://www.youtube.com/watch?v=ia6aJIplmtc",
+      "discuss_url": "https://lobste.rs/s/bouq9b",
+      "score": 1,
+      "comments": 0,
+      "author": "veqq",
+      "published": "2026-07-29T06:00:21Z"
     },
     {
       "source": "lobsters",
@@ -212,18 +236,6 @@
       "comments": 39,
       "author": "refp",
       "published": "2026-07-25T11:33:00Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "I'm running the ICFP programming contest",
-      "url": "https://eieio.games/blog/im-running-the-icfp-programming-contest/",
-      "discuss_url": "https://lobste.rs/s/yajc8q",
-      "score": 17,
-      "comments": 16,
-      "author": "abhin4v",
-      "published": "2026-07-25T05:29:51Z"
     },
     {
       "source": "lobsters",
@@ -346,16 +358,40 @@
       "published": "2026-07-24T07:40:00Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
-      "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49070756",
-      "score": 162,
-      "comments": 57,
-      "author": "EatonZ",
-      "published": "2026-07-27T15:08:16Z"
+      "title": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
+      "url": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
+      "discuss_url": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-29T07:07:23Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
+      "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+      "discuss_url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-29T06:45:02Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
+      "url": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
+      "discuss_url": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-29T04:20:57Z"
     },
     {
       "source": "rss",
@@ -464,30 +500,6 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-07-28T06:07:22Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw",
-      "url": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html",
-      "discuss_url": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-28T04:43:53Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
-      "url": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
-      "discuss_url": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-27T18:10:05Z"
     },
     {
       "source": "rss",
@@ -637,6 +649,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "Audi has a new flagship designed with the US in mind: The 2027 Q9",
+      "url": "https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/",
+      "discuss_url": "https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-07-29T01:00:36Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "Reaction wheel failures leave Swift rescue mission spinning in orbit",
       "url": "https://arstechnica.com/space/2026/07/reaction-wheel-failures-leave-swift-rescue-mission-spinning-in-orbit/",
       "discuss_url": "https://arstechnica.com/space/2026/07/reaction-wheel-failures-leave-swift-rescue-mission-spinning-in-orbit/",
@@ -764,18 +788,6 @@
       "comments": null,
       "author": "Emily Mullin, wired.com",
       "published": "2026-07-28T13:32:23Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Microsoft unveils AI security tools it says outperform competing platforms",
-      "url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
-      "discuss_url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-07-27T21:56:14Z"
     }
   ]
 }
