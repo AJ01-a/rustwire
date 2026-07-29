@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T14:18:48Z",
+  "updated_at": "2026-07-29T19:22:34Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Discovering Cryptographic Weaknesses with Claude",
       "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
       "discuss_url": "https://news.ycombinator.com/item?id=49087091",
-      "score": 222,
-      "comments": 169,
+      "score": 224,
+      "comments": 176,
       "author": "gslin",
       "published": "2026-07-28T17:22:16Z",
       "bullets": [
-        "Anthropic's Claude models demonstrate advanced cryptanalysis capabilities, identifying complex implementation flaws, weak primitives, and side-channel vulnerabilities in codebases.",
-        "Prompting LLMs with cryptographic source code enables rapid detection of subtle logic errors, improper padding, and weak PRNG seeding.",
-        "Security teams can integrate AI-driven code reviews into CI/CD pipelines to automate cryptographic audit workflows and remediate vulnerabilities early."
+        "Anthropic's Claude demonstrates advanced reasoning in automated cryptanalysis, identifying subtle flaws in cryptographic algorithms and implementation logic.",
+        "Integrating LLMs into static analysis pipelines enables security teams to automate complex vulnerability auditing beyond traditional pattern-matching rules.",
+        "Emerging LLM offensive capabilities highlight growing dual-use risks, forcing teams to adopt automated AI auditing before adversarial deployment."
       ]
     },
     {
@@ -59,60 +59,60 @@
       "author": "LenFalken",
       "published": "2026-07-26T17:39:27Z",
       "bullets": [
-        "Metacompilation techniques enable mutual bootstrapping, using a minimal Forth core to host Lisp runtimes capable of compiling target Forth systems.",
-        "Unifies stack-based and S-expression paradigms, combining Forth's low-overhead execution model with Lisp's dynamic macro expansion and meta-programming capabilities.",
-        "Offers lightweight, interactive REPL environments suitable for bare-metal embedded systems without requiring heavy runtime dependencies or complex OS toolchains."
+        "Explores dual-bootstrapping techniques between Forth's stack-based execution and Lisp's tree-structured evaluation models for embedded system runtimes.",
+        "Leverages threaded code compilation and metacompilation to implement minimal, self-hosting interpreters without reliance on heavy standard libraries.",
+        "Highlights architectural trade-offs between Forth's explicit parameter stacks and Lisp's dynamic memory allocation in micro-runtime design."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
-      "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49070756",
-      "score": 162,
-      "comments": 60,
-      "author": "EatonZ",
-      "published": "2026-07-27T15:08:16Z",
+      "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+      "url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+      "discuss_url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-29T18:10:00Z",
       "bullets": [
-        "Vulnerabilities in Volvo/Eicher telematics infrastructure allow complete account takeover, exposing real-time vehicle location data and administrative controls across all fleets.",
-        "Flaws stem from broken authorization controls in central fleet management APIs, granting unauthorized access to cross-tenant organization accounts and vehicles.",
-        "Connected vehicle systems require strict API-level access controls, robust multi-tenancy isolation, and hardware-enforced CAN bus safety boundaries to prevent remote manipulation."
+        "Ruby on Rails released security patches for CVE-2026-66066, a CVSS 9.5 vulnerability impacting the Active Storage component.",
+        "The flaw allows unauthenticated attackers to execute arbitrary file reads on application servers using maliciously crafted image uploads.",
+        "Exploitation exposes process environment data and high-value secrets, including secret_key_base, Rails master keys, and cloud storage credentials."
       ]
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon EKS Provisioned Control Plane now delivers faster pod autoscaling",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-provisioned-control/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-provisioned-control/",
+      "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in GA",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-07-28T17:18:00Z",
+      "published": "2026-07-29T15:00:00Z",
       "bullets": [
-        "Amazon EKS Provisioned Control Plane increased HPA sync concurrency up to 40x over standard Kubernetes defaults to accelerate scaling.",
-        "Parallel processing of thousands of HPA objects significantly reduces control plane evaluation latency during sudden traffic spikes.",
-        "The enhancement deploys automatically across all EKS Provisioned Control Plane clusters without requiring user configuration changes."
+        "AWS Interconnect for OCI reached GA, providing managed, high-performance private cross-cloud network connections without complex DIY infrastructure.",
+        "Eliminates manual multi-layered VPN and routing setups by establishing standardized, scalable cross-cloud connectivity between AWS and Oracle Cloud.",
+        "The service leverages an open specification adopted by OCI to streamline cross-cloud data transfers, low-latency architecture, and multicloud deployments."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Google's SynthID watermark is hard to break, but it doesn't solve AI misinformation",
-      "url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game/",
-      "discuss_url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game/",
+      "title": "Google begins global rollout of age verification API in Google Play",
+      "url": "https://arstechnica.com/gadgets/2026/07/google-begins-global-rollout-of-age-verification-api-in-google-play/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/07/google-begins-global-rollout-of-age-verification-api-in-google-play/",
       "score": null,
       "comments": null,
       "author": "Ryan Whitwam",
-      "published": "2026-07-29T11:00:39Z",
+      "published": "2026-07-29T18:08:22Z",
       "bullets": [
-        "Google's SynthID embeds robust, imperceptible digital watermarks into AI-generated media during generation, surviving common edits and compression.",
-        "Watermarking proves technical provenance, but cannot prevent deepfakes created by unwatermarked open-source models or out-of-context media sharing.",
-        "Effective AI threat mitigation requires industry-wide verification standards alongside cryptographic watermarking, as detection alone cannot stop viral misinformation."
+        "Google Play is rolling out a global age verification API that uses parental age declarations configured within Google Family Link.",
+        "Android developers can query user age groups without directly collecting, storing, or processing sensitive personal identification data.",
+        "The API simplifies compliance with regional child safety laws by offloading identity verification to Google's account-level management tools."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Discovering Cryptographic Weaknesses with Claude",
       "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
       "discuss_url": "https://news.ycombinator.com/item?id=49087091",
-      "score": 222,
-      "comments": 169,
+      "score": 224,
+      "comments": 176,
       "author": "gslin",
       "published": "2026-07-28T17:22:16Z"
     },
@@ -136,8 +136,8 @@
       "title": "Now is the time to give LLMs access to the ACM digital library",
       "url": "https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library/",
       "discuss_url": "https://news.ycombinator.com/item?id=49084987",
-      "score": 183,
-      "comments": 152,
+      "score": 188,
+      "comments": 171,
       "author": "rbanffy",
       "published": "2026-07-28T15:01:12Z"
     },
@@ -148,10 +148,22 @@
       "title": "You Could Have Come Up With Kimi Delta Attention",
       "url": "https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention",
       "discuss_url": "https://lobste.rs/s/jjap0n",
-      "score": 7,
-      "comments": 2,
+      "score": 9,
+      "comments": 3,
       "author": "mitsuhiko",
       "published": "2026-07-28T17:01:39Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Writing the PHP Virtual Machine in Rust (with a lot of help from AI)",
+      "url": "https://jolicode.com/blog/writing-the-php-virtual-machine-in-rust-with-a-lot-of-help-from-ai",
+      "discuss_url": "https://lobste.rs/s/hbtqfe",
+      "score": 1,
+      "comments": 0,
+      "author": "mykiwi",
+      "published": "2026-07-29T14:02:35Z"
     },
     {
       "source": "lobsters",
@@ -164,18 +176,6 @@
       "comments": 0,
       "author": "veqq",
       "published": "2026-07-29T06:00:21Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Languages as designed latent spaces",
-      "url": "https://blog.jsbarretto.com/post/languages-as-latent-spaces",
-      "discuss_url": "https://lobste.rs/s/ljg2qr",
-      "score": 8,
-      "comments": 1,
-      "author": "intarga",
-      "published": "2026-07-25T15:13:27Z"
     },
     {
       "source": "rss",
@@ -253,6 +253,18 @@
       "source": "rss",
       "subsource": "github.blog",
       "category": "engineering",
+      "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
+      "url": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
+      "discuss_url": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
+      "score": null,
+      "comments": null,
+      "author": "Bruno Borges",
+      "published": "2026-07-29T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
       "title": "Disrupting supply chain attacks on npm and GitHub Actions",
       "url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
       "discuss_url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
@@ -296,30 +308,6 @@
       "comments": null,
       "author": "Carlin Cherry",
       "published": "2026-07-23T16:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Copilot vs. raw API access: What are you actually paying for?",
-      "url": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
-      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
-      "score": null,
-      "comments": null,
-      "author": "Andrea Griffiths",
-      "published": "2026-07-22T19:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Next chapter: Restructuring GitHub’s bug bounty program",
-      "url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
-      "discuss_url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
-      "score": null,
-      "comments": null,
-      "author": "Catherine Cassell",
-      "published": "2026-07-22T16:00:00Z"
     },
     {
       "source": "rss",
@@ -370,16 +358,64 @@
       "published": "2026-07-24T07:40:00Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
-      "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49070756",
-      "score": 162,
-      "comments": 60,
-      "author": "EatonZ",
-      "published": "2026-07-27T15:08:16Z"
+      "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+      "url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+      "discuss_url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-29T18:10:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+      "url": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
+      "discuss_url": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-29T15:39:30Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
+      "url": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
+      "discuss_url": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-29T15:31:15Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
+      "url": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
+      "discuss_url": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-29T13:48:36Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments",
+      "url": "https://thehackernews.com/2026/07/nine-year-fraud-campaign.html",
+      "discuss_url": "https://thehackernews.com/2026/07/nine-year-fraud-campaign.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-29T13:42:57Z"
     },
     {
       "source": "rss",
@@ -467,51 +503,39 @@
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
-      "url": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
-      "discuss_url": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in GA",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
       "score": null,
       "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-29T07:07:23Z"
+      "author": "aws@amazon.com",
+      "published": "2026-07-29T15:00:00Z"
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
-      "url": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
-      "discuss_url": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-efs-cross-account-replication-aws-gov-cloud-us",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-efs-cross-account-replication-aws-gov-cloud-us",
       "score": null,
       "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-29T04:20:57Z"
+      "author": "aws@amazon.com",
+      "published": "2026-07-29T12:00:00Z"
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
-      "url": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
-      "discuss_url": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS IAM Identity Center extends multi-Region support to Identity Center directory",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-iam-identity-center-extends-multi-region-support-to-identity-center-directory",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-iam-identity-center-extends-multi-region-support-to-identity-center-directory",
       "score": null,
       "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-28T18:59:07Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
-      "url": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
-      "discuss_url": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-28T15:01:33Z"
+      "author": "aws@amazon.com",
+      "published": "2026-07-29T07:00:00Z"
     },
     {
       "source": "rss",
@@ -623,45 +647,105 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon GameLift Streams now supports Custom Aspect Ratio and Dynamic Resolution",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Google begins global rollout of age verification API in Google Play",
+      "url": "https://arstechnica.com/gadgets/2026/07/google-begins-global-rollout-of-age-verification-api-in-google-play/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/07/google-begins-global-rollout-of-age-verification-api-in-google-play/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-27T18:58:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EKS now supports AWS PrivateLink for the cluster OIDC endpoint",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-oidc-endpoint-privatelink",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-oidc-endpoint-privatelink",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-27T18:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Security Hub MCP App brings exposure findings into your AI-assisted workflow (Preview)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-mcp-app/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-mcp-app/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-27T17:00:00Z"
+      "author": "Ryan Whitwam",
+      "published": "2026-07-29T18:08:22Z"
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Google's SynthID watermark is hard to break, but it doesn't solve AI misinformation",
+      "title": "Elon Musk’s xAI is trying to sue its way out of a Grok reckoning",
+      "url": "https://arstechnica.com/tech-policy/2026/07/elon-musks-xai-is-trying-to-sue-its-way-out-of-a-grok-reckoning/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/elon-musks-xai-is-trying-to-sue-its-way-out-of-a-grok-reckoning/",
+      "score": null,
+      "comments": null,
+      "author": "Ashley Belanger",
+      "published": "2026-07-29T17:58:24Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Yet more qubit tech: New quantum dot options, diamond vacancies",
+      "url": "https://arstechnica.com/science/2026/07/quantum-computing-roundup-still-more-technologies-making-waves/",
+      "discuss_url": "https://arstechnica.com/science/2026/07/quantum-computing-roundup-still-more-technologies-making-waves/",
+      "score": null,
+      "comments": null,
+      "author": "John Timmer",
+      "published": "2026-07-29T17:37:47Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Actually, Starliner might fly into space this year",
+      "url": "https://arstechnica.com/space/2026/07/actually-starliner-might-fly-into-space-this-year/",
+      "discuss_url": "https://arstechnica.com/space/2026/07/actually-starliner-might-fly-into-space-this-year/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-07-29T17:24:41Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Anthropic is finding bugs faster than Microsoft can fix them",
+      "url": "https://arstechnica.com/security/2026/07/anthropic-is-finding-bugs-faster-than-microsoft-can-fix-them/",
+      "discuss_url": "https://arstechnica.com/security/2026/07/anthropic-is-finding-bugs-faster-than-microsoft-can-fix-them/",
+      "score": null,
+      "comments": null,
+      "author": "Renee Dudley, ProPublica",
+      "published": "2026-07-29T15:52:48Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "New AMD Linux patch boosts low-end gaming performance on Steam Deck",
+      "url": "https://arstechnica.com/gaming/2026/07/new-amd-linux-patch-boosts-low-end-gaming-performance-on-steam-deck/",
+      "discuss_url": "https://arstechnica.com/gaming/2026/07/new-amd-linux-patch-boosts-low-end-gaming-performance-on-steam-deck/",
+      "score": null,
+      "comments": null,
+      "author": "Kyle Orland",
+      "published": "2026-07-29T15:33:20Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Gaming and IRL worlds collide in Jumanji: Open World trailer",
+      "url": "https://arstechnica.com/culture/2026/07/gaming-and-irl-worlds-collide-in-jumanji-open-world-trailer/",
+      "discuss_url": "https://arstechnica.com/culture/2026/07/gaming-and-irl-worlds-collide-in-jumanji-open-world-trailer/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-07-29T15:16:22Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "What happens when you put AI to work deciphering lost languages?",
+      "url": "https://arstechnica.com/science/2026/07/what-happens-when-you-put-ai-to-work-deciphering-lost-languages/",
+      "discuss_url": "https://arstechnica.com/science/2026/07/what-happens-when-you-put-ai-to-work-deciphering-lost-languages/",
+      "score": null,
+      "comments": null,
+      "author": "Jane Adkins, The Conversation",
+      "published": "2026-07-29T13:23:31Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Google's SynthID watermark is hard to break, but it doesn't solve AI disinformation",
       "url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game/",
       "discuss_url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game/",
       "score": null,
@@ -704,102 +788,6 @@
       "comments": null,
       "author": "Stephen Clark",
       "published": "2026-07-28T22:09:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "College lab class ends with 32 people on antibiotics for deadly germ exposure",
-      "url": "https://arstechnica.com/health/2026/07/college-lab-class-ends-with-32-people-on-antibiotics-for-deadly-germ-exposure/",
-      "discuss_url": "https://arstechnica.com/health/2026/07/college-lab-class-ends-with-32-people-on-antibiotics-for-deadly-germ-exposure/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-07-28T21:49:52Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
-      "url": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
-      "discuss_url": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-07-28T21:36:39Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "eBay pays $46M to journalists it targeted in bizarre harassment campaign",
-      "url": "https://arstechnica.com/tech-policy/2026/07/ebay-former-execs-pay-56m-to-settle-bloody-pig-mask-harassment-case/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/ebay-former-execs-pay-56m-to-settle-bloody-pig-mask-harassment-case/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-07-28T21:02:15Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Study: Dinosaurs were charbroiled after Chicxulub impact",
-      "url": "https://arstechnica.com/science/2026/07/dust-cloud-from-dino-killing-asteroid-charbroiled-the-earth/",
-      "discuss_url": "https://arstechnica.com/science/2026/07/dust-cloud-from-dino-killing-asteroid-charbroiled-the-earth/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-07-28T20:51:45Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Philly suburb: Sure, build that data center—but first meet our 43 demands",
-      "url": "https://arstechnica.com/tech-policy/2026/07/philly-suburb-sure-build-that-data-center-but-first-meet-our-43-demands/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/philly-suburb-sure-build-that-data-center-but-first-meet-our-43-demands/",
-      "score": null,
-      "comments": null,
-      "author": "Nate Anderson",
-      "published": "2026-07-28T20:43:19Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Despite AI hype, Google's data shows workers aren't automating themselves away",
-      "url": "https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away/",
-      "discuss_url": "https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away/",
-      "score": null,
-      "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-07-28T20:20:20Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "New airliner sets record flying 24 hrs nonstop from Australia to France",
-      "url": "https://arstechnica.com/gadgets/2026/07/new-airliner-sets-record-flying-24-hrs-nonstop-from-australia-to-france/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/07/new-airliner-sets-record-flying-24-hrs-nonstop-from-australia-to-france/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-07-28T18:43:36Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Judge blocks first state law that would have banned prediction markets",
-      "url": "https://arstechnica.com/tech-policy/2026/07/judge-blocks-first-state-law-that-would-have-banned-prediction-markets/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/judge-blocks-first-state-law-that-would-have-banned-prediction-markets/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-07-28T18:31:13Z"
     }
   ]
 }
