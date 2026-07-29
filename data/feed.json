@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T08:46:39Z",
+  "updated_at": "2026-07-29T14:18:48Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,48 +37,48 @@
       "title": "Discovering Cryptographic Weaknesses with Claude",
       "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
       "discuss_url": "https://news.ycombinator.com/item?id=49087091",
-      "score": 215,
-      "comments": 154,
+      "score": 222,
+      "comments": 169,
       "author": "gslin",
       "published": "2026-07-28T17:22:16Z",
       "bullets": [
-        "Anthropic's Claude LLM demonstrates strong capability in automated cryptographic vulnerability discovery, detecting complex mathematical and implementation flaws.",
-        "AI-driven code analysis enhances traditional static application security testing (SAST), accelerating security audits of C and Rust cryptographic implementations.",
-        "Security teams must pair LLM vulnerability scanning with human verification to handle context window limits and eliminate hallucinated exploits."
+        "Anthropic's Claude models demonstrate advanced cryptanalysis capabilities, identifying complex implementation flaws, weak primitives, and side-channel vulnerabilities in codebases.",
+        "Prompting LLMs with cryptographic source code enables rapid detection of subtle logic errors, improper padding, and weak PRNG seeding.",
+        "Security teams can integrate AI-driven code reviews into CI/CD pipelines to automate cryptographic audit workflows and remediate vulnerabilities early."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "A shell colon does nothing. Use it anyway",
-      "url": "https://refp.se/articles/your-shell-and-the-magic-colon",
-      "discuss_url": "https://lobste.rs/s/eidh3u",
-      "score": 98,
-      "comments": 39,
-      "author": "refp",
-      "published": "2026-07-25T11:33:00Z",
+      "title": "Forth Moving Lisp Moving Forth",
+      "url": "https://letoverlambda.com/textmode.cl/guest/chap8.html",
+      "discuss_url": "https://lobste.rs/s/exipox",
+      "score": 6,
+      "comments": 0,
+      "author": "LenFalken",
+      "published": "2026-07-26T17:39:27Z",
       "bullets": [
-        "The POSIX shell colon command is a built-in no-op returning exit status 0, useful for clean function stubs and documentation.",
-        "Evaluate parameter expansion side-effects safely using \": \\\"${VAR:=default}\\\"\" without running the evaluated string as a command.",
-        "Implement \"while :; do\" loops and \": > file\" truncations to eliminate external process execution and subshell overhead in standard shell."
+        "Metacompilation techniques enable mutual bootstrapping, using a minimal Forth core to host Lisp runtimes capable of compiling target Forth systems.",
+        "Unifies stack-based and S-expression paradigms, combining Forth's low-overhead execution model with Lisp's dynamic macro expansion and meta-programming capabilities.",
+        "Offers lightweight, interactive REPL environments suitable for bare-metal embedded systems without requiring heavy runtime dependencies or complex OS toolchains."
       ]
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
-      "url": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
-      "discuss_url": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-29T07:07:23Z",
+      "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
+      "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49070756",
+      "score": 162,
+      "comments": 60,
+      "author": "EatonZ",
+      "published": "2026-07-27T15:08:16Z",
       "bullets": [
-        "Hunt.io and NetAskari tracked 170 C2 servers running the Flying Eagle Android RAT using unique control panels and certificates.",
-        "The malware poses as a fake Chinese Public Security app (公安一网通办) designed to steal payment passwords from Android devices.",
-        "Leaked source code circulating on Telegram enables threat actors to easily deploy customized variants of the Android trojan."
+        "Vulnerabilities in Volvo/Eicher telematics infrastructure allow complete account takeover, exposing real-time vehicle location data and administrative controls across all fleets.",
+        "Flaws stem from broken authorization controls in central fleet management APIs, granting unauthorized access to cross-tenant organization accounts and vehicles.",
+        "Connected vehicle systems require strict API-level access controls, robust multi-tenancy isolation, and hardware-enforced CAN bus safety boundaries to prevent remote manipulation."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "aws@amazon.com",
       "published": "2026-07-28T17:18:00Z",
       "bullets": [
-        "Amazon EKS boosted HPA sync concurrency up to 40x default Kubernetes limits within Provisioned Control Plane clusters.",
-        "Parallel HPA object evaluation significantly cuts scale-out latency for large-scale workloads managing hundreds or thousands of autoscalers.",
-        "This performance upgrade is automatically enabled for all EKS Provisioned Control Plane instances without requiring any configuration changes."
+        "Amazon EKS Provisioned Control Plane increased HPA sync concurrency up to 40x over standard Kubernetes defaults to accelerate scaling.",
+        "Parallel processing of thousands of HPA objects significantly reduces control plane evaluation latency during sudden traffic spikes.",
+        "The enhancement deploys automatically across all EKS Provisioned Control Plane clusters without requiring user configuration changes."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Audi has a new flagship designed with the US in mind: The 2027 Q9",
-      "url": "https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/",
-      "discuss_url": "https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/",
+      "title": "Google's SynthID watermark is hard to break, but it doesn't solve AI misinformation",
+      "url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game/",
+      "discuss_url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game/",
       "score": null,
       "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-07-29T01:00:36Z",
+      "author": "Ryan Whitwam",
+      "published": "2026-07-29T11:00:39Z",
       "bullets": [
-        "Audi's 2027 Q9 full-size flagship SUV launches in Q4 with a base price of $87,700 tailored for the US market.",
-        "The model targets the lucrative premium three-row segment, expanding Audi's high-margin vehicle portfolio against North American rivals.",
-        "The US-centric launch highlights Volkswagen Group's regional product strategy to drive revenue in large luxury vehicle markets."
+        "Google's SynthID embeds robust, imperceptible digital watermarks into AI-generated media during generation, surviving common edits and compression.",
+        "Watermarking proves technical provenance, but cannot prevent deepfakes created by unwatermarked open-source models or out-of-context media sharing.",
+        "Effective AI threat mitigation requires industry-wide verification standards alongside cryptographic watermarking, as detection alone cannot stop viral misinformation."
       ]
     }
   ],
@@ -124,10 +124,22 @@
       "title": "Discovering Cryptographic Weaknesses with Claude",
       "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
       "discuss_url": "https://news.ycombinator.com/item?id=49087091",
-      "score": 215,
-      "comments": 154,
+      "score": 222,
+      "comments": 169,
       "author": "gslin",
       "published": "2026-07-28T17:22:16Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Now is the time to give LLMs access to the ACM digital library",
+      "url": "https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49084987",
+      "score": 183,
+      "comments": 152,
+      "author": "rbanffy",
+      "published": "2026-07-28T15:01:12Z"
     },
     {
       "source": "lobsters",
@@ -136,7 +148,7 @@
       "title": "You Could Have Come Up With Kimi Delta Attention",
       "url": "https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention",
       "discuss_url": "https://lobste.rs/s/jjap0n",
-      "score": 6,
+      "score": 7,
       "comments": 2,
       "author": "mitsuhiko",
       "published": "2026-07-28T17:01:39Z"
@@ -229,18 +241,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "A shell colon does nothing. Use it anyway",
-      "url": "https://refp.se/articles/your-shell-and-the-magic-colon",
-      "discuss_url": "https://lobste.rs/s/eidh3u",
-      "score": 98,
-      "comments": 39,
-      "author": "refp",
-      "published": "2026-07-25T11:33:00Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Forth Moving Lisp Moving Forth",
       "url": "https://letoverlambda.com/textmode.cl/guest/chap8.html",
       "discuss_url": "https://lobste.rs/s/exipox",
@@ -325,6 +325,18 @@
       "source": "rss",
       "subsource": "stackoverflow.blog",
       "category": "engineering",
+      "title": "Developers are attached to tools because tools encode trust​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍​﻿​﻿​﻿​﻿‌﻿​﻿​​‌‍‌‌​﻿‌‌​﻿‍‌​﻿‌​​‍﻿‌​﻿‌‍​﻿​​‌‍​‌​﻿‍‌​‍﻿‌​﻿‌​​﻿​‍​﻿​﻿‌‍​﻿​‍﻿‌​﻿‍​​﻿‌​​﻿​‌‌‍​‍​‍﻿‌​﻿‌​‌‍‌‌‌‍​‌​﻿​​​﻿‌﻿‌‍​‌‌‍​﻿‌‍​‍‌‍​﻿​﻿​﻿‌‍​﻿‌‍‌‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍​﻿​﻿​﻿​﻿‌﻿​﻿​​‌‍‌‌​﻿‌‌​﻿‍‌​﻿‌​​‍﻿‌​﻿‌‍​﻿​​‌‍​‌​﻿‍‌​‍﻿‌​﻿‌​​﻿​‍​﻿​﻿‌‍​﻿​‍﻿‌​﻿‍​​﻿‌​​﻿​‌‌‍​‍​‍﻿‌​﻿‌​‌‍‌‌‌‍​‌​﻿​​​﻿‌﻿‌‍​‌‌‍​﻿‌‍​‍‌‍​﻿​﻿​﻿‌‍​﻿‌‍‌‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/",
+      "discuss_url": "https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/",
+      "score": null,
+      "comments": null,
+      "author": "Ryan Donovan",
+      "published": "2026-07-29T14:06:38Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
       "title": "You need reliable AI context for your site reliability​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‌​﻿​​​﻿‍‌​﻿‌​‌‍​‌‌‍​﻿​﻿‌﻿‌‍​‌​‍﻿‌‌‍‌‌‌‍​‍​﻿‌​‌‍‌‌​‍﻿‌​﻿‌​‌‍‌‍​﻿​﻿​﻿​‍​‍﻿‌​﻿‍​​﻿‍‌‌‍‌‍‌‍​‌​‍﻿‌​﻿‌‌​﻿​​‌‍‌‌​﻿‌﻿​﻿‌‍‌‍​‌​﻿​﻿‌‍‌​​﻿‍‌​﻿‌‌​﻿​﻿‌‍‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿​‌​﻿​​​﻿‍‌​﻿‌​‌‍​‌‌‍​﻿​﻿‌﻿‌‍​‌​‍﻿‌‌‍‌‌‌‍​‍​﻿‌​‌‍‌‌​‍﻿‌​﻿‌​‌‍‌‍​﻿​﻿​﻿​‍​‍﻿‌​﻿‍​​﻿‍‌‌‍‌‍‌‍​‌​‍﻿‌​﻿‌‌​﻿​​‌‍‌‌​﻿‌﻿​﻿‌‍‌‍​‌​﻿​﻿‌‍‌​​﻿‍‌​﻿‌‌​﻿​﻿‌‍‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "url": "https://stackoverflow.blog/2026/07/28/you-need-reliable-ai-context-for-your-site-reliability/",
       "discuss_url": "https://stackoverflow.blog/2026/07/28/you-need-reliable-ai-context-for-your-site-reliability/",
@@ -358,16 +370,76 @@
       "published": "2026-07-24T07:40:00Z"
     },
     {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
+      "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49070756",
+      "score": 162,
+      "comments": 60,
+      "author": "EatonZ",
+      "published": "2026-07-27T15:08:16Z"
+    },
+    {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
-      "url": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
-      "discuss_url": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
+      "title": "Mythos Asks the Right Question. It Doesn't Answer It.",
+      "url": "https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html",
+      "discuss_url": "https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-29T07:07:23Z"
+      "published": "2026-07-29T12:15:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
+      "url": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
+      "discuss_url": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-29T11:57:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack",
+      "url": "https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html",
+      "discuss_url": "https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-29T11:13:10Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity",
+      "url": "https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html",
+      "discuss_url": "https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-29T11:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
+      "url": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html",
+      "discuss_url": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-29T08:58:27Z"
     },
     {
       "source": "rss",
@@ -379,7 +451,31 @@
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-29T06:45:02Z"
+      "published": "2026-07-29T07:51:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
+      "url": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
+      "discuss_url": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-29T07:47:19Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
+      "url": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
+      "discuss_url": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-29T07:07:23Z"
     },
     {
       "source": "rss",
@@ -419,90 +515,6 @@
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login",
-      "url": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
-      "discuss_url": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-28T14:41:36Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
-      "url": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
-      "discuss_url": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-28T13:33:47Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
-      "url": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
-      "discuss_url": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-28T12:56:14Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays",
-      "url": "https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html",
-      "discuss_url": "https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-28T11:55:20Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
-      "url": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
-      "discuss_url": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-28T08:11:22Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit",
-      "url": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html",
-      "discuss_url": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-28T08:04:44Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost",
-      "url": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
-      "discuss_url": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-28T06:07:22Z"
-    },
-    {
-      "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
       "title": "Amazon EKS Provisioned Control Plane now delivers faster pod autoscaling",
@@ -517,9 +529,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Mumbai) Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
+      "title": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -529,9 +541,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
+      "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Mumbai) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -644,6 +656,30 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-07-27T17:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Google's SynthID watermark is hard to break, but it doesn't solve AI misinformation",
+      "url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game/",
+      "discuss_url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game/",
+      "score": null,
+      "comments": null,
+      "author": "Ryan Whitwam",
+      "published": "2026-07-29T11:00:39Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Elon Musk finally launches X Money. What could possibly go wrong?",
+      "url": "https://arstechnica.com/tech-policy/2026/07/elon-musk-finally-launches-x-money-what-could-possibly-go-wrong/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/elon-musk-finally-launches-x-money-what-could-possibly-go-wrong/",
+      "score": null,
+      "comments": null,
+      "author": "Ashley Belanger",
+      "published": "2026-07-29T10:00:51Z"
     },
     {
       "source": "rss",
@@ -764,30 +800,6 @@
       "comments": null,
       "author": "Jon Brodkin",
       "published": "2026-07-28T18:31:13Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Report: Trump mad RFK Jr. hasn’t cut more vaccines or proven autism link",
-      "url": "https://arstechnica.com/health/2026/07/report-trump-mad-rfk-jr-hasnt-cut-more-vaccines-or-proven-autism-link/",
-      "discuss_url": "https://arstechnica.com/health/2026/07/report-trump-mad-rfk-jr-hasnt-cut-more-vaccines-or-proven-autism-link/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-07-28T16:16:25Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "As US measles cases rise, biotech firms start developing new treatments",
-      "url": "https://arstechnica.com/health/2026/07/as-us-measles-cases-rise-biotech-firms-start-developing-new-treatments/",
-      "discuss_url": "https://arstechnica.com/health/2026/07/as-us-measles-cases-rise-biotech-firms-start-developing-new-treatments/",
-      "score": null,
-      "comments": null,
-      "author": "Emily Mullin, wired.com",
-      "published": "2026-07-28T13:32:23Z"
     }
   ]
 }
