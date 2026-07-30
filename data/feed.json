@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T19:22:34Z",
+  "updated_at": "2026-07-30T02:39:09Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Discovering Cryptographic Weaknesses with Claude",
-      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-      "discuss_url": "https://news.ycombinator.com/item?id=49087091",
-      "score": 224,
-      "comments": 176,
-      "author": "gslin",
-      "published": "2026-07-28T17:22:16Z",
+      "title": "Claude: Elevated errors across all models – Resolved",
+      "url": "https://status.claude.com/incidents/q2kg8n613kr3",
+      "discuss_url": "https://news.ycombinator.com/item?id=49102150",
+      "score": 260,
+      "comments": 233,
+      "author": "gregsadetsky",
+      "published": "2026-07-29T19:50:42Z",
       "bullets": [
-        "Anthropic's Claude demonstrates advanced reasoning in automated cryptanalysis, identifying subtle flaws in cryptographic algorithms and implementation logic.",
-        "Integrating LLMs into static analysis pipelines enables security teams to automate complex vulnerability auditing beyond traditional pattern-matching rules.",
-        "Emerging LLM offensive capabilities highlight growing dual-use risks, forcing teams to adopt automated AI auditing before adversarial deployment."
+        "Anthropic resolved an outage causing widespread API failures across all Claude models, disrupting downstream LLM applications and automated pipelines.",
+        "Simultaneous degradation across Sonnet, Opus, and Haiku highlights critical single-point-of-failure risks in production AI system architectures.",
+        "Practitioners should deploy multi-provider fallback routing (e.g., to OpenAI or hosted open models) and client-side retry logic for resilience."
       ]
     },
     {
@@ -59,9 +59,9 @@
       "author": "LenFalken",
       "published": "2026-07-26T17:39:27Z",
       "bullets": [
-        "Explores dual-bootstrapping techniques between Forth's stack-based execution and Lisp's tree-structured evaluation models for embedded system runtimes.",
-        "Leverages threaded code compilation and metacompilation to implement minimal, self-hosting interpreters without reliance on heavy standard libraries.",
-        "Highlights architectural trade-offs between Forth's explicit parameter stacks and Lisp's dynamic memory allocation in micro-runtime design."
+        "Explores language bootstrapping, implementing minimal Lisp interpreters inside Forth environments to enable low-overhead symbolic processing.",
+        "Compares Forth's concatenative stack model with Lisp's S-expressions, highlighting efficiency gains in embedded, resource-constrained systems.",
+        "Examines metacompilation and threaded code generation to build extensible, self-hosting runtimes across dual language paradigms."
       ]
     },
     {
@@ -76,43 +76,43 @@
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-07-29T18:10:00Z",
       "bullets": [
-        "Ruby on Rails released security patches for CVE-2026-66066, a CVSS 9.5 vulnerability impacting the Active Storage component.",
-        "The flaw allows unauthenticated attackers to execute arbitrary file reads on application servers using maliciously crafted image uploads.",
-        "Exploitation exposes process environment data and high-value secrets, including secret_key_base, Rails master keys, and cloud storage credentials."
+        "Critical CVSS 9.5 flaw CVE-2026-66066 in Ruby on Rails Active Storage lets unauthenticated attackers read arbitrary server files.",
+        "Exploitation can expose process environment secrets like secret_key_base, the Rails master key, database passwords, and cloud credentials.",
+        "Development and security teams using Rails Active Storage must immediately deploy the newly released official security patches."
       ]
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in GA",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
+      "title": "Amazon EC2 Auto Scaling now supports Instance Refresh in CloudFormation",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-auto-scaling-instance-refresh-cloudformation",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-auto-scaling-instance-refresh-cloudformation",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-07-29T15:00:00Z",
+      "published": "2026-07-29T21:00:00Z",
       "bullets": [
-        "AWS Interconnect for OCI reached GA, providing managed, high-performance private cross-cloud network connections without complex DIY infrastructure.",
-        "Eliminates manual multi-layered VPN and routing setups by establishing standardized, scalable cross-cloud connectivity between AWS and Oracle Cloud.",
-        "The service leverages an open specification adopted by OCI to streamline cross-cloud data transfers, low-latency architecture, and multicloud deployments."
+        "AWS CloudFormation introduces the AutoScalingInstanceRefresh policy to automatically trigger rolling EC2 Auto Scaling updates during stack changes.",
+        "Supports advanced rollout features including launch-before-terminate, in-place root volume replacement, bake-time checkpoints, and alarm monitoring.",
+        "Active health checks and scaling policies preserve service availability throughout updates, backed by automated CloudFormation stack rollbacks."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Google begins global rollout of age verification API in Google Play",
-      "url": "https://arstechnica.com/gadgets/2026/07/google-begins-global-rollout-of-age-verification-api-in-google-play/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/07/google-begins-global-rollout-of-age-verification-api-in-google-play/",
+      "title": "Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission",
+      "url": "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/",
+      "discuss_url": "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/",
       "score": null,
       "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-07-29T18:08:22Z",
+      "author": "Dan Goodin",
+      "published": "2026-07-29T22:07:06Z",
       "bullets": [
-        "Google Play is rolling out a global age verification API that uses parental age declarations configured within Google Family Link.",
-        "Android developers can query user age groups without directly collecting, storing, or processing sensitive personal identification data.",
-        "The API simplifies compliance with regional child safety laws by offloading identity verification to Google's account-level management tools."
+        "The HAWK signature scheme, a candidate in NIST’s post-quantum cryptography evaluation, was broken by a new attack named Mythos.",
+        "Mythos exposed a fatal mathematical vulnerability in HAWK, effectively eliminating it from consideration for NIST PQC standardization.",
+        "The breakthrough underscores the risks of deploying early PQC candidates before NIST completes rigorous, multi-round cryptanalytic vetting."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Claude: Elevated errors across all models – Resolved",
+      "url": "https://status.claude.com/incidents/q2kg8n613kr3",
+      "discuss_url": "https://news.ycombinator.com/item?id=49102150",
+      "score": 260,
+      "comments": 233,
+      "author": "gregsadetsky",
+      "published": "2026-07-29T19:50:42Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Discovering Cryptographic Weaknesses with Claude",
       "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
       "discuss_url": "https://news.ycombinator.com/item?id=49087091",
-      "score": 224,
-      "comments": 176,
+      "score": 226,
+      "comments": 177,
       "author": "gslin",
       "published": "2026-07-28T17:22:16Z"
     },
@@ -137,7 +149,7 @@
       "url": "https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library/",
       "discuss_url": "https://news.ycombinator.com/item?id=49084987",
       "score": 188,
-      "comments": 171,
+      "comments": 174,
       "author": "rbanffy",
       "published": "2026-07-28T15:01:12Z"
     },
@@ -224,18 +236,6 @@
       "comments": null,
       "author": null,
       "published": "2026-07-27T00:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
-      "url": "https://huggingface.co/blog/nunchaku-diffusers",
-      "discuss_url": "https://huggingface.co/blog/nunchaku-diffusers",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-23T00:00:00Z"
     },
     {
       "source": "lobsters",
@@ -505,6 +505,54 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "Amazon EC2 Auto Scaling now supports Instance Refresh in CloudFormation",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-auto-scaling-instance-refresh-cloudformation",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-auto-scaling-instance-refresh-cloudformation",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-29T21:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Redshift Data API announces long polling, session management, and flexible batch execution",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-data-api-longpolling-listsession-flexiblebatchexecute/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-data-api-longpolling-listsession-flexiblebatchexecute/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-29T20:45:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Glue announces VPC support, filter pushdown, and partition support for the REST API connector",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-rest-connector-filtering-partitioning-vpc",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-rest-connector-filtering-partitioning-vpc",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-29T20:18:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS WAF adds pre-parse text transformations and new text transformations",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-waf/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-waf/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-29T15:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in GA",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
@@ -512,6 +560,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-07-29T15:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Connect Customer now automatically finds example agent evaluations for tailored coaching",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-example-evaluations-for-agent-coaching/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-example-evaluations-for-agent-coaching/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-29T14:00:00Z"
     },
     {
       "source": "rss",
@@ -553,9 +613,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
+      "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Mumbai) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -565,9 +625,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Mumbai) Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
+      "title": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -587,69 +647,69 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS DataSync Enhanced mode adds HDFS, Azure Blob, and object storage locations with Hyper-V agent support",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-datasync-hdfs-azure-blob-hyper-v/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-datasync-hdfs-azure-blob-hyper-v/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission",
+      "url": "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/",
+      "discuss_url": "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-28T10:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon S3 Tables now support the Variant data type for Apache Iceberg V3",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-tables-variant-iceberg-v3/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-tables-variant-iceberg-v3/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-28T07:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Neptune now supports tag-based access control for IAM",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-neptune-tbac/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-neptune-tbac/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-27T22:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Glue Data Quality now supports anomaly detection and writing results to the AWS Glue Data Catalog",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-catalog-anomaly-detection-write-results",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-catalog-anomaly-detection-write-results",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-27T20:45:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Glue Data Quality now supports distribution statistics for data profiling",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-distribution-profiling",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-distribution-profiling",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-27T20:23:00Z"
+      "author": "Dan Goodin",
+      "published": "2026-07-29T22:07:06Z"
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Google begins global rollout of age verification API in Google Play",
+      "title": "Musk went to “war,” sought jail time for X ad boycotts—but case ends with a whimper",
+      "url": "https://arstechnica.com/tech-policy/2026/07/musk-went-to-war-sought-jail-time-for-x-ad-boycotts-but-case-ends-with-a-whimper/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/musk-went-to-war-sought-jail-time-for-x-ad-boycotts-but-case-ends-with-a-whimper/",
+      "score": null,
+      "comments": null,
+      "author": "Ashley Belanger",
+      "published": "2026-07-29T20:57:35Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Who wins and who loses after US bans foreign robots?",
+      "url": "https://arstechnica.com/ai/2026/07/who-wins-and-who-loses-after-us-bans-foreign-robots/",
+      "discuss_url": "https://arstechnica.com/ai/2026/07/who-wins-and-who-loses-after-us-bans-foreign-robots/",
+      "score": null,
+      "comments": null,
+      "author": "Jeremy Hsu",
+      "published": "2026-07-29T20:03:42Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Comcast store punished low sales by smashing pies in workers' faces, lawsuit claims",
+      "url": "https://arstechnica.com/tech-policy/2026/07/comcast-store-punished-low-sales-by-smashing-pies-in-workers-faces-lawsuit-claims/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/comcast-store-punished-low-sales-by-smashing-pies-in-workers-faces-lawsuit-claims/",
+      "score": null,
+      "comments": null,
+      "author": "Jon Brodkin",
+      "published": "2026-07-29T19:33:55Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Customize Ars your way with an Ars Pro subscription",
+      "url": "https://arstechnica.com/staff/2026/07/customize-ars-your-way-with-an-ars-pro-subscription/",
+      "discuss_url": "https://arstechnica.com/staff/2026/07/customize-ars-your-way-with-an-ars-pro-subscription/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Bangeman",
+      "published": "2026-07-29T19:23:27Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Google's \"privacy-preserving\" age verification system is coming to the Play Store",
       "url": "https://arstechnica.com/gadgets/2026/07/google-begins-global-rollout-of-age-verification-api-in-google-play/",
       "discuss_url": "https://arstechnica.com/gadgets/2026/07/google-begins-global-rollout-of-age-verification-api-in-google-play/",
       "score": null,
@@ -728,66 +788,6 @@
       "comments": null,
       "author": "Jennifer Ouellette",
       "published": "2026-07-29T15:16:22Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "What happens when you put AI to work deciphering lost languages?",
-      "url": "https://arstechnica.com/science/2026/07/what-happens-when-you-put-ai-to-work-deciphering-lost-languages/",
-      "discuss_url": "https://arstechnica.com/science/2026/07/what-happens-when-you-put-ai-to-work-deciphering-lost-languages/",
-      "score": null,
-      "comments": null,
-      "author": "Jane Adkins, The Conversation",
-      "published": "2026-07-29T13:23:31Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Google's SynthID watermark is hard to break, but it doesn't solve AI disinformation",
-      "url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game/",
-      "discuss_url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-07-29T11:00:39Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Elon Musk finally launches X Money. What could possibly go wrong?",
-      "url": "https://arstechnica.com/tech-policy/2026/07/elon-musk-finally-launches-x-money-what-could-possibly-go-wrong/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/elon-musk-finally-launches-x-money-what-could-possibly-go-wrong/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-07-29T10:00:51Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Audi has a new flagship designed with the US in mind: The 2027 Q9",
-      "url": "https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/",
-      "discuss_url": "https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-07-29T01:00:36Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Reaction wheel failures leave Swift rescue mission spinning in orbit",
-      "url": "https://arstechnica.com/space/2026/07/reaction-wheel-failures-leave-swift-rescue-mission-spinning-in-orbit/",
-      "discuss_url": "https://arstechnica.com/space/2026/07/reaction-wheel-failures-leave-swift-rescue-mission-spinning-in-orbit/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-07-28T22:09:00Z"
     }
   ]
 }
