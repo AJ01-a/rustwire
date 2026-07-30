@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T02:39:09Z",
+  "updated_at": "2026-07-30T08:34:44Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Claude: Elevated errors across all models – Resolved",
-      "url": "https://status.claude.com/incidents/q2kg8n613kr3",
-      "discuss_url": "https://news.ycombinator.com/item?id=49102150",
-      "score": 260,
-      "comments": 233,
-      "author": "gregsadetsky",
-      "published": "2026-07-29T19:50:42Z",
+      "title": "LLM Honeypot",
+      "url": "https://llm2human.pages.dev/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49104117",
+      "score": 220,
+      "comments": 57,
+      "author": "8thom",
+      "published": "2026-07-29T22:51:03Z",
       "bullets": [
-        "Anthropic resolved an outage causing widespread API failures across all Claude models, disrupting downstream LLM applications and automated pipelines.",
-        "Simultaneous degradation across Sonnet, Opus, and Haiku highlights critical single-point-of-failure risks in production AI system architectures.",
-        "Practitioners should deploy multi-provider fallback routing (e.g., to OpenAI or hosted open models) and client-side retry logic for resilience."
+        "Decoy LLM interfaces capture active prompt injection, jailbreaking attempts, and unauthorized API probing to analyze attacker behavior in real time.",
+        "Honeypots help security teams map OWASP LLM vulnerabilities, observing live exploit strategies against safety guardrails without risking production data.",
+        "Logs from trapped malicious agents provide threat intelligence to refine defensive filters, fine-tune system prompts, and strengthen AI rate-limiting."
       ]
     },
     {
@@ -59,26 +59,26 @@
       "author": "LenFalken",
       "published": "2026-07-26T17:39:27Z",
       "bullets": [
-        "Explores language bootstrapping, implementing minimal Lisp interpreters inside Forth environments to enable low-overhead symbolic processing.",
-        "Compares Forth's concatenative stack model with Lisp's S-expressions, highlighting efficiency gains in embedded, resource-constrained systems.",
-        "Examines metacompilation and threaded code generation to build extensible, self-hosting runtimes across dual language paradigms."
+        "Combining stack-based Forth and homoiconic Lisp simplifies self-hosting interpreters and metacompilation on resource-constrained embedded systems.",
+        "Implementing Lisp on a Forth core provides dynamic, symbolic macro evaluation while retaining low-level memory access and micro-architecture control.",
+        "Bidirectional language bootstrapping bridges stack-machine efficiency with functional dynamic execution for custom embedded virtual machine runtimes."
       ]
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
-      "url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
-      "discuss_url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+      "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
+      "url": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
+      "discuss_url": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-29T18:10:00Z",
+      "published": "2026-07-30T07:40:48Z",
       "bullets": [
-        "Critical CVSS 9.5 flaw CVE-2026-66066 in Ruby on Rails Active Storage lets unauthenticated attackers read arbitrary server files.",
-        "Exploitation can expose process environment secrets like secret_key_base, the Rails master key, database passwords, and cloud credentials.",
-        "Development and security teams using Rails Active Storage must immediately deploy the newly released official security patches."
+        "Russian threat actors exploit a Microsoft OWA flaw to maintain persistent mailbox access despite password resets and credential rotations.",
+        "Targets include US/European government, telecom, finance, hospitality, and aerospace organizations, expanding from previous Zimbra vulnerability exploits.",
+        "Incident responders must invalidate active OWA tokens and sessions, as standard credential rotation fails to revoke attacker access."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "aws@amazon.com",
       "published": "2026-07-29T21:00:00Z",
       "bullets": [
-        "AWS CloudFormation introduces the AutoScalingInstanceRefresh policy to automatically trigger rolling EC2 Auto Scaling updates during stack changes.",
-        "Supports advanced rollout features including launch-before-terminate, in-place root volume replacement, bake-time checkpoints, and alarm monitoring.",
-        "Active health checks and scaling policies preserve service availability throughout updates, backed by automated CloudFormation stack rollbacks."
+        "AWS CloudFormation adds the AutoScalingInstanceRefresh update policy to automatically trigger rolling updates when instance properties change.",
+        "Enables launch-before-terminate, in-place root volume replacement, alarm-based monitoring, and checkpoints with bake time for safer rollouts.",
+        "Keeps health checks and scaling active during updates, using native CloudFormation stack rollback if deployment issues occur."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Dan Goodin",
       "published": "2026-07-29T22:07:06Z",
       "bullets": [
-        "The HAWK signature scheme, a candidate in NIST’s post-quantum cryptography evaluation, was broken by a new attack named Mythos.",
-        "Mythos exposed a fatal mathematical vulnerability in HAWK, effectively eliminating it from consideration for NIST PQC standardization.",
-        "The breakthrough underscores the risks of deploying early PQC candidates before NIST completes rigorous, multi-round cryptanalytic vetting."
+        "The Mythos cryptanalysis technique broke HAWK, a key signature candidate in NIST's post-quantum cryptography (PQC) standardization process.",
+        "Mythos uncovered a fatal weakness in HAWK despite the scheme enduring years of security testing without previously known critical flaws.",
+        "HAWK's failure underscores the necessity of crypto-agility in enterprise migration strategies as PQC candidates remain vulnerable to novel attacks."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "LLM Honeypot",
+      "url": "https://llm2human.pages.dev/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49104117",
+      "score": 220,
+      "comments": 57,
+      "author": "8thom",
+      "published": "2026-07-29T22:51:03Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Claude: Elevated errors across all models – Resolved",
       "url": "https://status.claude.com/incidents/q2kg8n613kr3",
       "discuss_url": "https://news.ycombinator.com/item?id=49102150",
-      "score": 260,
-      "comments": 233,
+      "score": 262,
+      "comments": 245,
       "author": "gregsadetsky",
       "published": "2026-07-29T19:50:42Z"
     },
@@ -137,7 +149,7 @@
       "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
       "discuss_url": "https://news.ycombinator.com/item?id=49087091",
       "score": 226,
-      "comments": 177,
+      "comments": 180,
       "author": "gslin",
       "published": "2026-07-28T17:22:16Z"
     },
@@ -149,7 +161,7 @@
       "url": "https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library/",
       "discuss_url": "https://news.ycombinator.com/item?id=49084987",
       "score": 188,
-      "comments": 174,
+      "comments": 175,
       "author": "rbanffy",
       "published": "2026-07-28T15:01:12Z"
     },
@@ -361,6 +373,54 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
+      "url": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
+      "discuss_url": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-30T07:40:48Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks",
+      "url": "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html",
+      "discuss_url": "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-30T07:28:43Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
+      "url": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html",
+      "discuss_url": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-30T06:05:17Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
+      "url": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
+      "discuss_url": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-30T05:08:39Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
       "url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
       "discuss_url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
@@ -452,54 +512,6 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-07-29T11:13:10Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity",
-      "url": "https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html",
-      "discuss_url": "https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-29T11:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
-      "url": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html",
-      "discuss_url": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-29T08:58:27Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
-      "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
-      "discuss_url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-29T07:51:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
-      "url": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
-      "discuss_url": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-29T07:47:19Z"
     },
     {
       "source": "rss",
