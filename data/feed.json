@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T08:55:46Z",
+  "updated_at": "2026-07-31T14:16:19Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Advancing the price-performance frontier with GPT‑5.6",
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
       "discuss_url": "https://news.ycombinator.com/item?id=49112867",
-      "score": 572,
-      "comments": 373,
+      "score": 587,
+      "comments": 387,
       "author": "tedsanders",
       "published": "2026-07-30T17:15:51Z",
       "bullets": [
-        "OpenAI's GPT-5.6 release focuses on scaling API cost-efficiency, offering lower per-token pricing for production AI workloads.",
-        "The model delivers higher inference throughput and reduced latency, outperforming prior iterations on complex reasoning and coding benchmarks.",
-        "Seamless API integration allows AI engineers to lower LLM infrastructure costs immediately without degrading task accuracy."
+        "GPT-5.6 prioritizes API inference efficiency, lowering per-token costs and latency for high-throughput, enterprise-scale AI developer workloads.",
+        "Optimizations leverage aggressive quantization and efficient KV-cache management to maximize token throughput per GPU for production deployments.",
+        "Reduced inference costs make multi-step agentic workflows and long-context processing economically viable for enterprise software pipelines."
       ]
     },
     {
@@ -59,9 +59,9 @@
       "author": "Cassidy Williams",
       "published": "2026-07-30T17:30:24Z",
       "bullets": [
-        "GitHub Copilot's stacked sessions preserve context across multi-step legacy codebase modernization tasks without prompt or session loss.",
-        "Stacked pull requests decompose massive AI-generated refactoring changes into smaller, dependent PRs for safer, incremental code reviews.",
-        "This continuous workflow streamlines complex architectural migrations while maintaining main branch stability and reducing PR review friction."
+        "Stacked PRs decompose monolithic legacy codebase modernizations into small, dependent incremental updates generated via GitHub Copilot app.",
+        "Sequential Copilot chat sessions preserve context across dependent pull requests, enabling complex multi-step refactoring workflows.",
+        "Isolating AI-generated code changes into stacked PR chains streamlines developer code reviews and reduces merge conflict risks."
       ]
     },
     {
@@ -76,26 +76,26 @@
       "author": "BrianKrebs",
       "published": "2026-07-30T16:49:00Z",
       "bullets": [
-        "Generic TV streaming boxes silently convert residential networks into unauthorized proxy nodes, renting user bandwidth to third parties.",
-        "Devices spoof mobile phone identifiers to automatically click ads on synthetic, AI-generated websites for ad-fraud operations.",
-        "The combined botnet infrastructure targets ad networks and merchants, demonstrating evolving monetization vectors for compromised IoT devices."
+        "Cheap generic streaming sticks convert home networks into unauthorized residential proxies, secretly routing third-party traffic through user connections.",
+        "Compromised devices spoof mobile phones to execute automated ad-clicking campaigns on AI-generated websites, defrauding merchants and ad networks.",
+        "Security analysts should treat budget IoT hardware as active botnet nodes capable of residential IP abuse and automated fraud."
       ]
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon SageMaker Unified Studio brings richer Git version control to all project tools",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-git/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-git/",
+      "title": "AWS CodeDeploy now available in five additional AWS regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codedeploy-five-additional-regions",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codedeploy-five-additional-regions",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-07-30T22:37:00Z",
+      "published": "2026-07-31T10:54:00Z",
       "bullets": [
-        "SageMaker Unified Studio replaces automatic sync with explicit, file-level Git version control across Notebooks, Query Editor, Visual ETL, and Workflows.",
-        "Connects projects directly to GitHub, GitLab, and Bitbucket, supporting multi-repository and multi-branch workflows in a single workspace.",
-        "Allows retroactive repository attachment and provides full terminal Git CLI access within JupyterLab and Code Editor environments."
+        "AWS CodeDeploy expanded to five new regions: New Zealand, Thailand, Taipei, Malaysia, and Mexico (Central), reaching 34 total commercial regions.",
+        "DevOps teams can automate deployments across EC2, ECS, Lambda, and on-premises servers to meet strict data residency requirements.",
+        "Local availability reduces pipeline latency and eliminates cross-region deployment overhead for large-scale containerized and serverless workloads."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "John Timmer",
       "published": "2026-07-30T15:59:37Z",
       "bullets": [
-        "Quantum advantage produces outputs exceeding classical simulation capacity, creating a critical verification challenge for complex computational results.",
-        "Validation protocols leverage interactive proofs, cross-entropy benchmarking, and classical tensor network approximations to establish trust in unverified outputs.",
-        "Verifiable quantum utility enables reliable deployment of near-term quantum algorithms across cryptography, molecular simulation, and complex optimization problems."
+        "Three approaches to the issue of quantum results that can't be verified classically.",
+        "Quantum computers outperform classical ones, with results you can trust",
+        "Submitted by John Timmer on arstechnica.com."
       ]
     }
   ],
@@ -124,22 +124,10 @@
       "title": "Advancing the price-performance frontier with GPT‑5.6",
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
       "discuss_url": "https://news.ycombinator.com/item?id=49112867",
-      "score": 572,
-      "comments": 373,
+      "score": 587,
+      "comments": 387,
       "author": "tedsanders",
       "published": "2026-07-30T17:15:51Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447",
-      "url": "https://www.bottlenecklabs.com/blog/autonomously-run-businesses",
-      "discuss_url": "https://news.ycombinator.com/item?id=49113059",
-      "score": 363,
-      "comments": 209,
-      "author": "Areibman",
-      "published": "2026-07-30T17:31:07Z"
     },
     {
       "source": "hackernews",
@@ -148,10 +136,34 @@
       "title": "Gemini Robotics 2 brings whole body intelligence to robots",
       "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
       "discuss_url": "https://news.ycombinator.com/item?id=49111237",
-      "score": 552,
-      "comments": 438,
+      "score": 589,
+      "comments": 477,
       "author": "ai2027",
       "published": "2026-07-30T15:15:48Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447",
+      "url": "https://www.bottlenecklabs.com/blog/autonomously-run-businesses",
+      "discuss_url": "https://news.ycombinator.com/item?id=49113059",
+      "score": 375,
+      "comments": 224,
+      "author": "Areibman",
+      "published": "2026-07-30T17:31:07Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+      "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+      "discuss_url": "https://news.ycombinator.com/item?id=49113599",
+      "score": 147,
+      "comments": 70,
+      "author": "cgorlla",
+      "published": "2026-07-30T18:13:06Z"
     },
     {
       "source": "hackernews",
@@ -160,7 +172,7 @@
       "title": "LLM Honeypot",
       "url": "https://llm2human.pages.dev/",
       "discuss_url": "https://news.ycombinator.com/item?id=49104117",
-      "score": 380,
+      "score": 382,
       "comments": 105,
       "author": "8thom",
       "published": "2026-07-29T22:51:03Z"
@@ -184,7 +196,7 @@
       "title": "Some thoughts about Anthropic's new cryptanalysis results",
       "url": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
       "discuss_url": "https://news.ycombinator.com/item?id=49099804",
-      "score": 185,
+      "score": 187,
       "comments": 113,
       "author": "supermatou",
       "published": "2026-07-29T16:42:20Z"
@@ -248,18 +260,6 @@
       "comments": null,
       "author": null,
       "published": "2026-07-28T16:27:42Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
-      "discuss_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-28T15:01:45Z"
     },
     {
       "source": "rss",
@@ -397,6 +397,42 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026",
+      "url": "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
+      "discuss_url": "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-31T11:24:59Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
+      "url": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
+      "discuss_url": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-31T11:21:27Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
+      "url": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
+      "discuss_url": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-31T06:41:44Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
       "url": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
       "discuss_url": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
@@ -491,39 +527,15 @@
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks",
-      "url": "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html",
-      "discuss_url": "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS CodeDeploy now available in five additional AWS regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codedeploy-five-additional-regions",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codedeploy-five-additional-regions",
       "score": null,
       "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-30T07:28:43Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
-      "url": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html",
-      "discuss_url": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-30T06:05:17Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
-      "url": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
-      "discuss_url": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-30T05:08:39Z"
+      "author": "aws@amazon.com",
+      "published": "2026-07-31T10:54:00Z"
     },
     {
       "source": "rss",
@@ -656,18 +668,6 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-07-30T07:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon OpenSearch Service now supports OpenSearch version 3.7",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-30T02:30:15Z"
     },
     {
       "source": "rss",
