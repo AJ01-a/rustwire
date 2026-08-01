@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T13:35:26Z",
+  "updated_at": "2026-08-01T19:14:05Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Tailscale didn't stop the Hugging Face intrusion",
       "url": "https://tailscale.com/blog/hugging-face-intrusion",
       "discuss_url": "https://news.ycombinator.com/item?id=49127306",
-      "score": 566,
-      "comments": 211,
+      "score": 584,
+      "comments": 214,
       "author": "bluehatbrit",
       "published": "2026-07-31T19:03:45Z",
       "bullets": [
-        "Network-level Zero Trust tools like Tailscale cannot prevent application-layer breaches caused by compromised API keys or stolen OAuth tokens.",
-        "AI platforms like Hugging Face require strict token rotation, short-lived credentials, and granular scoping to mitigate exposed model and dataset secrets.",
-        "Defense-in-depth for ML pipelines must prioritize secret scanning, app-layer identity verification, and runtime isolation over basic perimeter controls."
+        "Zero-trust network overlays like Tailscale cannot prevent breaches stemming from compromised application API tokens or developer credentials.",
+        "Hugging Face secret exposure highlights risks to hosted models; teams must enforce scoped, short-lived API keys for AI services.",
+        "Effective AI pipeline security requires defense-in-depth, combining network controls with automated secret scanning, rotation, and strict runtime auditing."
       ]
     },
     {
@@ -59,9 +59,9 @@
       "author": "Alexander Neubeck",
       "published": "2026-07-31T16:00:00Z",
       "bullets": [
-        "GitHub achieved >45 GiB/s case-folding throughput on a single CPU core, matching main memory bandwidth for code search.",
-        "Using branch-free loops and byte-space arithmetic eliminates branch mispredictions when normalizing ASCII characters at scale.",
-        "Avoiding early-exit conditionals permits uniform execution, fully saturating CPU pipelines for high-volume text ingestion."
+        "GitHub scaled code search string case-folding to over 45 GiB/s on a single CPU core.",
+        "The throughput is achieved using a branch-free loop coupled with low-level byte-space arithmetic.",
+        "Avoiding early-exit conditional branches prevents CPU pipeline stalls, allowing text transformations to match memory bandwidth."
       ]
     },
     {
@@ -76,9 +76,9 @@
       "author": "hoistbypetard",
       "published": "2026-07-30T14:36:05Z",
       "bullets": [
-        "CVE-2026-66066 is a critical RCE vulnerability in Ruby on Rails' Active Storage component targeting file handling operations.",
-        "Unauthenticated attackers can exploit unsafe file processing pipelines in Active Storage to execute arbitrary shell commands on target application servers.",
-        "Security teams should immediately patch Rails, restrict Active Storage processing backends, and audit exposure on file upload endpoints."
+        "CVE-2026-66066 poses a critical RCE risk in Ruby on Rails applications that handle file uploads via Active Storage.",
+        "Attackers exploit file processing or payload parsing within Active Storage pipelines to execute arbitrary system commands.",
+        "Security and DevOps teams should inventory Rails services, update affected gems immediately, and restrict untrusted upload endpoints."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "aws@amazon.com",
       "published": "2026-07-31T18:00:00Z",
       "bullets": [
-        "Amazon Aurora DSQL expanded active-active multi-Region clusters to Stockholm, Spain, Mumbai, and Singapore AWS Regions.",
-        "Clusters provide active-active dual-Region writable endpoints with strong consistency, ensuring high availability if an entire Region fails.",
-        "Multi-Region Aurora DSQL is now available in 16 AWS Regions, with single-Region clusters supported in 20 total Regions."
+        "Aurora DSQL expanded active-active multi-Region clusters with strong consistency to four new regions: Stockholm, Spain, Mumbai, and Singapore.",
+        "Clusters provide writable endpoints in both peered AWS regions, maintaining single-database availability and resiliency during regional failures.",
+        "Aurora DSQL multi-Region deployments now cover 16 global AWS regions, with single-Region clusters supported across 20 total regions."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "After noise complaints, judge orders Waymo to stop overnight charging in Santa Monica",
-      "url": "https://arstechnica.com/tech-policy/2026/08/after-noise-complaints-judge-orders-waymo-to-stop-overnight-charging-in-santa-monica/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/after-noise-complaints-judge-orders-waymo-to-stop-overnight-charging-in-santa-monica/",
+      "title": "Here's how engineers plan to save the satellite sent to save NASA's Swift mission",
+      "url": "https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/",
+      "discuss_url": "https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/",
       "score": null,
       "comments": null,
-      "author": "Cyrus Farivar",
-      "published": "2026-08-01T11:30:54Z",
+      "author": "Stephen Clark",
+      "published": "2026-08-01T18:20:11Z",
       "bullets": [
-        "A judge ordered Waymo to halt overnight vehicle charging at its Santa Monica facility following residential noise complaints.",
-        "The court order underscores emerging regulatory and municipal zoning challenges for 24/7 commercial autonomous vehicle fleet operations.",
-        "Waymo must reconfigure depot logistics and charging schedules, potentially increasing operational costs and fleet downtime in southern California."
+        "NASA engineers are executing emergency recovery plans for an orbital servicing spacecraft intended to assist the Neil Gehrels Swift Observatory.",
+        "Mission operators rely on autonomous proximity operations and trajectory adjustments to recover control and enable in-space capture mechanisms.",
+        "The rescue attempt highlights emerging on-orbit servicing, assembly, and manufacturing (ISAM) risks and commercial space tug capabilities."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Tailscale didn't stop the Hugging Face intrusion",
       "url": "https://tailscale.com/blog/hugging-face-intrusion",
       "discuss_url": "https://news.ycombinator.com/item?id=49127306",
-      "score": 566,
-      "comments": 211,
+      "score": 584,
+      "comments": 214,
       "author": "bluehatbrit",
       "published": "2026-07-31T19:03:45Z"
     },
@@ -137,69 +137,9 @@
       "url": "https://arxiv.org/abs/2607.27197",
       "discuss_url": "https://news.ycombinator.com/item?id=49121868",
       "score": 153,
-      "comments": 138,
+      "comments": 139,
       "author": "rahen",
       "published": "2026-07-31T11:37:12Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Advancing the price-performance frontier with GPT‑5.6",
-      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49112867",
-      "score": 600,
-      "comments": 394,
-      "author": "tedsanders",
-      "published": "2026-07-30T17:15:51Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
-      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49111237",
-      "score": 611,
-      "comments": 525,
-      "author": "ai2027",
-      "published": "2026-07-30T15:15:48Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447",
-      "url": "https://www.bottlenecklabs.com/blog/autonomously-run-businesses",
-      "discuss_url": "https://news.ycombinator.com/item?id=49113059",
-      "score": 398,
-      "comments": 235,
-      "author": "Areibman",
-      "published": "2026-07-30T17:31:07Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
-      "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
-      "discuss_url": "https://news.ycombinator.com/item?id=49113599",
-      "score": 165,
-      "comments": 72,
-      "author": "cgorlla",
-      "published": "2026-07-30T18:13:06Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "You Could Have Come Up With Kimi Delta Attention",
-      "url": "https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention",
-      "discuss_url": "https://lobste.rs/s/jjap0n",
-      "score": 9,
-      "comments": 3,
-      "author": "mitsuhiko",
-      "published": "2026-07-28T17:01:39Z"
     },
     {
       "source": "lobsters",
@@ -260,6 +200,18 @@
       "comments": null,
       "author": null,
       "published": "2026-07-28T15:01:45Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "discuss_url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-27T09:32:20Z"
     },
     {
       "source": "rss",
@@ -433,18 +385,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "The Hidden CCS2 Attack Surface on EV Chargers",
-      "url": "https://www.saiflow.com/blog/the-hidden-ccs2-attack-surface-on-ev-chargers",
-      "discuss_url": "https://lobste.rs/s/ozfe71",
-      "score": 1,
-      "comments": 0,
-      "author": "df",
-      "published": "2026-07-31T22:43:40Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Proof types in Dart: Using final classes as computational witnesses",
       "url": "https://modulovalue.com/blog/proof-types-in-dart/",
       "discuss_url": "https://lobste.rs/s/wdo7aj",
@@ -469,6 +409,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "The Hidden CCS2 Attack Surface on EV Chargers",
+      "url": "https://www.saiflow.com/blog/the-hidden-ccs2-attack-surface-on-ev-chargers",
+      "discuss_url": "https://lobste.rs/s/ozfe71",
+      "score": 1,
+      "comments": 0,
+      "author": "df",
+      "published": "2026-07-31T22:43:40Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Detection primitives for eBPF rootkits",
       "url": "https://securitylabs.datadoghq.com/articles/detection-primitives-for-ebpf-rootkits/",
       "discuss_url": "https://lobste.rs/s/72hjym",
@@ -488,6 +440,18 @@
       "comments": null,
       "author": "BrianKrebs",
       "published": "2026-07-30T16:49:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
+      "url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
+      "discuss_url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-08-01T17:17:22Z"
     },
     {
       "source": "rss",
@@ -527,18 +491,6 @@
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
-      "url": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
-      "discuss_url": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-31T18:52:04Z"
-    },
-    {
-      "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
       "title": "Amazon Aurora DSQL adds multi-Region cluster support in four more Regions",
@@ -568,6 +520,18 @@
       "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-31T14:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -671,15 +635,39 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Bedrock announces up to 80% lower prices for OpenAI GPT‑5.6 models",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-terra-luna-pricing-bedrock/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-terra-luna-pricing-bedrock/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Here's how engineers plan to save the satellite sent to save NASA's Swift mission",
+      "url": "https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/",
+      "discuss_url": "https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-30T16:18:00Z"
+      "author": "Stephen Clark",
+      "published": "2026-08-01T18:20:11Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Review: Yes, we're still arguing about Nolan's The Odyssey",
+      "url": "https://arstechnica.com/culture/2026/08/review-yes-were-still-arguing-about-nolans-the-odyssey/",
+      "discuss_url": "https://arstechnica.com/culture/2026/08/review-yes-were-still-arguing-about-nolans-the-odyssey/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-08-01T15:19:04Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews",
+      "url": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/",
+      "discuss_url": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/",
+      "score": null,
+      "comments": null,
+      "author": "Samuel Axon",
+      "published": "2026-08-01T12:30:36Z"
     },
     {
       "source": "rss",
@@ -788,42 +776,6 @@
       "comments": null,
       "author": "Jeremy Hsu",
       "published": "2026-07-31T20:21:05Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Would you get tattooed just to interview at a 7-days-a-week AI startup?",
-      "url": "https://arstechnica.com/culture/2026/07/ai-startup-admits-tattoo-for-interview-stunt-was-reckless/",
-      "discuss_url": "https://arstechnica.com/culture/2026/07/ai-startup-admits-tattoo-for-interview-stunt-was-reckless/",
-      "score": null,
-      "comments": null,
-      "author": "Nate Anderson",
-      "published": "2026-07-31T19:04:56Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "High school defends staying silent while boys made AI nudes of 59 classmates",
-      "url": "https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-07-31T18:11:55Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Researchers devise a full-color night vision goggle",
-      "url": "https://arstechnica.com/science/2026/07/see-the-heat-an-infrared-imaging-system-that-outputs-in-color/",
-      "discuss_url": "https://arstechnica.com/science/2026/07/see-the-heat-an-infrared-imaging-system-that-outputs-in-color/",
-      "score": null,
-      "comments": null,
-      "author": "Jacek Krywko",
-      "published": "2026-07-31T17:58:38Z"
     }
   ]
 }
