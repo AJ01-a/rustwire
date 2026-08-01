@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T03:18:41Z",
+  "updated_at": "2026-08-01T08:26:16Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Tailscale didn't stop the Hugging Face intrusion",
       "url": "https://tailscale.com/blog/hugging-face-intrusion",
       "discuss_url": "https://news.ycombinator.com/item?id=49127306",
-      "score": 478,
-      "comments": 188,
+      "score": 540,
+      "comments": 201,
       "author": "bluehatbrit",
       "published": "2026-07-31T19:03:45Z",
       "bullets": [
-        "Mesh VPNs like Tailscale secure network transport but cannot prevent unauthorized access from compromised API tokens or stolen developer credentials.",
-        "Hugging Face's security incident demonstrates that AI hub platforms must enforce strict secret scanning, token rotation, and granular IAM controls.",
-        "AI infrastructure teams cannot rely solely on ZTNA; internal secrets management and isolated execution environments remain critical defense layers."
+        "Perimeter tools like Tailscale do not prevent breaches caused by compromised API tokens or application-level vulnerabilities in AI infrastructure.",
+        "AI platforms require strict token revocation, automated secret scanning, and fine-grained scoped access tokens to mitigate credential compromise.",
+        "MLOps teams must implement defense-in-depth beyond mesh VPNs, enforcing container sandboxing, runtime threat detection, and key rotation."
       ]
     },
     {
@@ -59,9 +59,9 @@
       "author": "Alexander Neubeck",
       "published": "2026-07-31T16:00:00Z",
       "bullets": [
-        "How a branch-free loop and byte-space arithmetic let GitHub case-fold every byte of code search at >45 GiB/s on a single core.",
-        "The post Don’t stop early: Case-folding source code at memory speed appeared first on The GitHub Blog .",
-        "Don’t stop early: Case-folding source code at memory speed"
+        "GitHub optimized case-folding in code search to process text at >45 GiB/s on a single CPU core.",
+        "Eliminated CPU pipeline stalls by replacing conditional character logic with branch-free loop implementations.",
+        "Leveraged byte-space arithmetic to achieve memory-bandwidth throughput by avoiding early-exit optimization traps."
       ]
     },
     {
@@ -76,9 +76,9 @@
       "author": "hoistbypetard",
       "published": "2026-07-30T14:36:05Z",
       "bullets": [
-        "KindaRails2Shell - Critical RCE in Rails via Active Storage (CVE-2026-66066)",
-        "Trending on lobste.rs/security — 6 points, 4 comments.",
-        "Submitted by hoistbypetard on lobste.rs/security."
+        "A critical remote code execution vulnerability (CVE-2026-66066) affects the Ruby on Rails Active Storage component.",
+        "The exploit bypasses input validation during file upload processing, allowing unauthenticated attackers to execute arbitrary system commands.",
+        "Security teams and DevOps engineers should immediately audit Rails endpoints and apply available framework security updates."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "aws@amazon.com",
       "published": "2026-07-31T18:00:00Z",
       "bullets": [
-        "Starting today, Amazon Aurora DSQL supports multi-Region clusters in four additional AWS Regions: Europe (Stockholm), Europe (Spain), Asia Pacific (Mumbai), and Asia Pacific (Sing…",
-        "Aurora DSQL is the fastest serverless, distributed SQL database, with active-active high availability and multi-Region strong consistency.",
-        "Each multi-Region cluster provides a writable endpoint in both peered Regions, presenting a single logical database that remains available even if one Region becomes unavailable."
+        "Amazon Aurora DSQL expanded active-active multi-Region support to Stockholm, Spain, Mumbai, and Singapore, bringing multi-Region availability to 16 regions.",
+        "Multi-Region clusters feature active-active writable endpoints in peered regions with strong consistency, ensuring uninterrupted availability during regional outages.",
+        "The serverless distributed SQL database also supports single-Region clusters across 20 total AWS regions, including Free Tier access."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "John Timmer",
       "published": "2026-07-31T22:17:05Z",
       "bullets": [
-        "Some group with no modern descendants contributed a lot to our genomes.",
-        "Not just Neanderthals: Ghost lineage in Africa left its mark on our DNA",
-        "Submitted by John Timmer on arstechnica.com."
+        "Genomic sequencing reveals an extinct ghost lineage contributed 2% to 19% of modern West African genetic ancestry.",
+        "Statistical introgression modeling isolates archaic DNA signals without requiring physical reference fossils, advancing computational genomics techniques.",
+        "Advanced population genetics pipelines demonstrate human evolutionary history involved complex interbreeding across multiple distinct hominin groups."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Tailscale didn't stop the Hugging Face intrusion",
       "url": "https://tailscale.com/blog/hugging-face-intrusion",
       "discuss_url": "https://news.ycombinator.com/item?id=49127306",
-      "score": 478,
-      "comments": 188,
+      "score": 540,
+      "comments": 201,
       "author": "bluehatbrit",
       "published": "2026-07-31T19:03:45Z"
     },
@@ -136,8 +136,8 @@
       "title": "The Maxwell Conjecture Is False (GPT 5.6 Sol)",
       "url": "https://arxiv.org/abs/2607.27197",
       "discuss_url": "https://news.ycombinator.com/item?id=49121868",
-      "score": 141,
-      "comments": 135,
+      "score": 148,
+      "comments": 138,
       "author": "rahen",
       "published": "2026-07-31T11:37:12Z"
     },
@@ -148,8 +148,8 @@
       "title": "Advancing the price-performance frontier with GPT‑5.6",
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
       "discuss_url": "https://news.ycombinator.com/item?id=49112867",
-      "score": 599,
-      "comments": 392,
+      "score": 600,
+      "comments": 394,
       "author": "tedsanders",
       "published": "2026-07-30T17:15:51Z"
     },
@@ -161,7 +161,7 @@
       "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
       "discuss_url": "https://news.ycombinator.com/item?id=49111237",
       "score": 609,
-      "comments": 515,
+      "comments": 516,
       "author": "ai2027",
       "published": "2026-07-30T15:15:48Z"
     },
@@ -172,8 +172,8 @@
       "title": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447",
       "url": "https://www.bottlenecklabs.com/blog/autonomously-run-businesses",
       "discuss_url": "https://news.ycombinator.com/item?id=49113059",
-      "score": 391,
-      "comments": 233,
+      "score": 394,
+      "comments": 234,
       "author": "Areibman",
       "published": "2026-07-30T17:31:07Z"
     },
@@ -184,7 +184,7 @@
       "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
       "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
       "discuss_url": "https://news.ycombinator.com/item?id=49113599",
-      "score": 163,
+      "score": 165,
       "comments": 72,
       "author": "cgorlla",
       "published": "2026-07-30T18:13:06Z"
@@ -409,18 +409,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "The Hidden CCS2 Attack Surface on EV Chargers",
-      "url": "https://www.saiflow.com/blog/the-hidden-ccs2-attack-surface-on-ev-chargers",
-      "discuss_url": "https://lobste.rs/s/ozfe71",
-      "score": 1,
-      "comments": 0,
-      "author": "df",
-      "published": "2026-07-31T22:43:40Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Copilot will propagate a malicious worm from one Word document to another",
       "url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
       "discuss_url": "https://lobste.rs/s/rgn8u4",
@@ -440,6 +428,18 @@
       "comments": 3,
       "author": "martinald",
       "published": "2026-07-28T21:03:27Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "The Hidden CCS2 Attack Surface on EV Chargers",
+      "url": "https://www.saiflow.com/blog/the-hidden-ccs2-attack-surface-on-ev-chargers",
+      "discuss_url": "https://lobste.rs/s/ozfe71",
+      "score": 1,
+      "comments": 0,
+      "author": "df",
+      "published": "2026-07-31T22:43:40Z"
     },
     {
       "source": "lobsters",
@@ -505,6 +505,30 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
+      "url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
+      "discuss_url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-08-01T07:12:42Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
+      "url": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
+      "discuss_url": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-08-01T06:29:05Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
       "url": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
       "discuss_url": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
@@ -512,30 +536,6 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-07-31T18:52:04Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
-      "url": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
-      "discuss_url": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-31T16:39:31Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies",
-      "url": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
-      "discuss_url": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-07-31T14:45:01Z"
     },
     {
       "source": "rss",
