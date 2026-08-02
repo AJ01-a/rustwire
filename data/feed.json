@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T13:35:52Z",
+  "updated_at": "2026-08-02T19:16:17Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -31,20 +31,20 @@
   ],
   "tldr": [
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "huggingface.co",
       "category": "ai",
-      "title": "Tailscale didn't stop the Hugging Face intrusion",
-      "url": "https://tailscale.com/blog/hugging-face-intrusion",
-      "discuss_url": "https://news.ycombinator.com/item?id=49127306",
-      "score": 610,
-      "comments": 213,
-      "author": "bluehatbrit",
-      "published": "2026-07-31T19:03:45Z",
+      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "discuss_url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-07-30T15:09:09Z",
       "bullets": [
-        "Overlay networks like Tailscale cannot block unauthorized access if attackers obtain compromised Hugging Face API tokens or application secrets.",
-        "AI infrastructure security requires application-layer zero-trust controls, fine-grained token permissions, and aggressive secret scanning rather than perimeter defense.",
-        "Machine learning platforms hosting sensitive models and datasets remain vulnerable to credential theft regardless of underlying VPN or mesh networking."
+        "Idle NVIDIA H100/A100 clusters incur massive capital waste, making real-time GPU telemetry via DCGM and Prometheus critical for tracking utilization.",
+        "Dynamic orchestration using Kubernetes, Ray, or Slurm prevents idle capacity by continuously scheduling fine-tuning and inference workloads.",
+        "Leveraging NVIDIA MIG for hardware slicing and automated scale-to-zero policies maximizes compute ROI across shared enterprise AI infrastructure."
       ]
     },
     {
@@ -59,9 +59,9 @@
       "author": "Alexander Neubeck",
       "published": "2026-07-31T16:00:00Z",
       "bullets": [
-        "GitHub achieved case-folding throughput exceeding 45 GiB/s on a single CPU core for its code search engine.",
-        "Branch-free loops eliminate CPU branch misprediction penalties during high-volume text and string normalization tasks.",
-        "Byte-space arithmetic processes raw character streams directly at memory bandwidth limits without control-flow overhead."
+        "GitHub accelerated code search case-folding to over 45 GiB/s on a single CPU core using optimized byte-level operations.",
+        "The design eliminates CPU branch misprediction overhead by replacing traditional conditional checks with a fully branch-free loop execution pattern.",
+        "Using byte-space arithmetic enables continuous, uninterrupted memory processing across massive source code datasets without early exits."
       ]
     },
     {
@@ -76,9 +76,9 @@
       "author": "hoistbypetard",
       "published": "2026-07-30T14:36:05Z",
       "bullets": [
-        "Critical RCE CVE-2026-66066 impacts Ruby on Rails Active Storage, allowing attackers to execute arbitrary code via malicious file processing.",
-        "Unauthenticated remote execution stems from unsafe handling of uploaded media transformations or Active Storage parameter parsing.",
-        "DevOps and security teams should immediately patch Rails installations or restrict public-facing Active Storage file transformation endpoints."
+        "CVE-2026-66066 (KindaRails2Shell) is a critical remote code execution vulnerability affecting Ruby on Rails applications using Active Storage.",
+        "Exploitation targets Active Storage's file processing mechanisms, enabling attackers to execute arbitrary system commands on underlying host servers.",
+        "DevOps and security teams should immediately audit Rails deployments, restrict file upload parameters, and apply vendor patches once available."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "aws@amazon.com",
       "published": "2026-07-31T18:00:00Z",
       "bullets": [
-        "Aurora DSQL now supports active-active multi-Region clusters with strong consistency across Stockholm, Spain, Mumbai, and Singapore.",
-        "Multi-Region clusters provide writable endpoints in peered Regions, maintaining a single logical database during regional outages.",
-        "Amazon Aurora DSQL multi-Region clusters are now available in 16 AWS Regions, with single-Region supported in 20."
+        "Amazon Aurora DSQL expanded active-active multi-Region clusters to Stockholm, Spain, Mumbai, and Singapore, bringing the total to 16 AWS regions.",
+        "Multi-Region clusters feature dual-region writable endpoints and strong consistency, ensuring uninterrupted database availability during full regional failures.",
+        "DevOps engineers can leverage serverless distributed SQL capabilities with single-Region support in 20 total AWS regions."
       ]
     },
     {
@@ -110,49 +110,13 @@
       "author": "Stephen Clark",
       "published": "2026-08-01T18:20:11Z",
       "bullets": [
-        "Engineers are planning an in-space capture mission to stabilize and extend the operational life of NASA's aging Swift gamma-ray observatory.",
-        "The effort relies on precision rendezvous and proximity operations (RPO) to safely capture and service the orbiting satellite.",
-        "Successful execution demonstrates critical advancements in commercial space servicing, active debris removal, and in-orbit asset recovery."
+        "Engineers plan an autonomous rendezvous and capture mission to dock with NASA's decaying Neil Gehrels Swift space telescope.",
+        "The servicing satellite will attach to provide propulsion, re-boosting Swift's orbit to prevent atmospheric re-entry and extend observations.",
+        "Successful execution demonstrates commercial satellite servicing and Rendezvous and Proximity Operations (RPO) for critical orbital assets."
       ]
     }
   ],
   "discussions": [
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Tailscale didn't stop the Hugging Face intrusion",
-      "url": "https://tailscale.com/blog/hugging-face-intrusion",
-      "discuss_url": "https://news.ycombinator.com/item?id=49127306",
-      "score": 610,
-      "comments": 213,
-      "author": "bluehatbrit",
-      "published": "2026-07-31T19:03:45Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Everyone is building LLM routers, we deprecated ours",
-      "url": "https://manifest.build/blog/why-we-deprecated-our-llm-router/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49126630",
-      "score": 130,
-      "comments": 85,
-      "author": "brunaxLorax",
-      "published": "2026-07-31T18:06:39Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Writing the PHP Virtual Machine in Rust (with a lot of help from AI)",
-      "url": "https://jolicode.com/blog/writing-the-php-virtual-machine-in-rust-with-a-lot-of-help-from-ai",
-      "discuss_url": "https://lobste.rs/s/hbtqfe",
-      "score": 1,
-      "comments": 0,
-      "author": "mykiwi",
-      "published": "2026-07-29T14:02:35Z"
-    },
     {
       "source": "rss",
       "subsource": "huggingface.co",
@@ -505,9 +469,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
+      "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -517,9 +481,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
+      "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
