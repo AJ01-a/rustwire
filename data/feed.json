@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T19:14:05Z",
+  "updated_at": "2026-08-02T03:19:05Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Tailscale didn't stop the Hugging Face intrusion",
       "url": "https://tailscale.com/blog/hugging-face-intrusion",
       "discuss_url": "https://news.ycombinator.com/item?id=49127306",
-      "score": 584,
-      "comments": 214,
+      "score": 595,
+      "comments": 215,
       "author": "bluehatbrit",
       "published": "2026-07-31T19:03:45Z",
       "bullets": [
-        "Zero-trust network overlays like Tailscale cannot prevent breaches stemming from compromised application API tokens or developer credentials.",
-        "Hugging Face secret exposure highlights risks to hosted models; teams must enforce scoped, short-lived API keys for AI services.",
-        "Effective AI pipeline security requires defense-in-depth, combining network controls with automated secret scanning, rotation, and strict runtime auditing."
+        "Mesh VPNs like Tailscale secure network transport, but fail to block unauthorized access via compromised application tokens or stolen credentials.",
+        "Relying solely on zero-trust overlay networks exposes AI model hubs to application-layer attacks and compromised developer credentials.",
+        "AI teams must enforce fine-grained API token scoping, rapid secret rotation, and strict identity-based access control beyond network perimeters."
       ]
     },
     {
@@ -59,9 +59,9 @@
       "author": "Alexander Neubeck",
       "published": "2026-07-31T16:00:00Z",
       "bullets": [
-        "GitHub scaled code search string case-folding to over 45 GiB/s on a single CPU core.",
-        "The throughput is achieved using a branch-free loop coupled with low-level byte-space arithmetic.",
-        "Avoiding early-exit conditional branches prevents CPU pipeline stalls, allowing text transformations to match memory bandwidth."
+        "GitHub optimized code search case-folding to process >45 GiB/s on a single CPU core, achieving full memory bandwidth speeds.",
+        "The technique replaces conventional branching with branch-free loops and byte-space arithmetic to eliminate expensive conditional jumps.",
+        "Processing every byte uniformly without early-exit logic delivers higher throughput by preserving hardware CPU instruction pipelining."
       ]
     },
     {
@@ -76,9 +76,9 @@
       "author": "hoistbypetard",
       "published": "2026-07-30T14:36:05Z",
       "bullets": [
-        "CVE-2026-66066 poses a critical RCE risk in Ruby on Rails applications that handle file uploads via Active Storage.",
-        "Attackers exploit file processing or payload parsing within Active Storage pipelines to execute arbitrary system commands.",
-        "Security and DevOps teams should inventory Rails services, update affected gems immediately, and restrict untrusted upload endpoints."
+        "A critical vulnerability (CVE-2026-66066) in Ruby on Rails Active Storage allows unauthenticated remote attackers to achieve arbitrary code execution.",
+        "The KindaRails2Shell flaw exploits file transformation pipelines in Active Storage, echoing classic Rails execution vectors through untrusted input parsing.",
+        "Development and security teams must audit Rails services, update core dependencies, and temporarily disable Active Storage transformations if unpatched."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "aws@amazon.com",
       "published": "2026-07-31T18:00:00Z",
       "bullets": [
-        "Aurora DSQL expanded active-active multi-Region clusters with strong consistency to four new regions: Stockholm, Spain, Mumbai, and Singapore.",
-        "Clusters provide writable endpoints in both peered AWS regions, maintaining single-database availability and resiliency during regional failures.",
-        "Aurora DSQL multi-Region deployments now cover 16 global AWS regions, with single-Region clusters supported across 20 total regions."
+        "Amazon Aurora DSQL expanded multi-Region cluster support to four new AWS regions: Stockholm, Spain, Mumbai, and Singapore.",
+        "Multi-Region clusters provide active-active writable endpoints across peered regions, maintaining strong consistency for a single logical database.",
+        "The serverless architecture ensures continuous workload availability, sustaining database operations automatically if a targeted AWS region goes completely offline."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Stephen Clark",
       "published": "2026-08-01T18:20:11Z",
       "bullets": [
-        "NASA engineers are executing emergency recovery plans for an orbital servicing spacecraft intended to assist the Neil Gehrels Swift Observatory.",
-        "Mission operators rely on autonomous proximity operations and trajectory adjustments to recover control and enable in-space capture mechanisms.",
-        "The rescue attempt highlights emerging on-orbit servicing, assembly, and manufacturing (ISAM) risks and commercial space tug capabilities."
+        "\"We believe that a capture of Swift, an attempted capture of Swift, is very much in the cards.\"",
+        "Here's how engineers plan to save the satellite sent to save NASA's Swift mission",
+        "Submitted by Stephen Clark on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Tailscale didn't stop the Hugging Face intrusion",
       "url": "https://tailscale.com/blog/hugging-face-intrusion",
       "discuss_url": "https://news.ycombinator.com/item?id=49127306",
-      "score": 584,
-      "comments": 214,
+      "score": 595,
+      "comments": 215,
       "author": "bluehatbrit",
       "published": "2026-07-31T19:03:45Z"
     },
@@ -136,7 +136,7 @@
       "title": "The Maxwell Conjecture Is False (GPT 5.6 Sol)",
       "url": "https://arxiv.org/abs/2607.27197",
       "discuss_url": "https://news.ycombinator.com/item?id=49121868",
-      "score": 153,
+      "score": 155,
       "comments": 139,
       "author": "rahen",
       "published": "2026-07-31T11:37:12Z"
@@ -373,42 +373,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-      "discuss_url": "https://lobste.rs/s/pxczeo",
-      "score": 13,
-      "comments": 3,
-      "author": "martinald",
-      "published": "2026-07-28T21:03:27Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Proof types in Dart: Using final classes as computational witnesses",
-      "url": "https://modulovalue.com/blog/proof-types-in-dart/",
-      "discuss_url": "https://lobste.rs/s/wdo7aj",
-      "score": 7,
-      "comments": 1,
-      "author": "modulovalue",
-      "published": "2026-07-28T22:30:05Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "The Cipher Behind QSYRUPWD: Reconstructing IBM i Password Hashes",
-      "url": "https://blog.silentsignal.eu/2026/07/28/the-cipher-behind-qsyrupwd-reconstructing-ibm-i-password-hashes/",
-      "discuss_url": "https://lobste.rs/s/2dc0gb",
-      "score": 9,
-      "comments": 0,
-      "author": "calvin",
-      "published": "2026-07-28T19:13:36Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "The Hidden CCS2 Attack Surface on EV Chargers",
       "url": "https://www.saiflow.com/blog/the-hidden-ccs2-attack-surface-on-ev-chargers",
       "discuss_url": "https://lobste.rs/s/ozfe71",
@@ -416,18 +380,6 @@
       "comments": 0,
       "author": "df",
       "published": "2026-07-31T22:43:40Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Detection primitives for eBPF rootkits",
-      "url": "https://securitylabs.datadoghq.com/articles/detection-primitives-for-ebpf-rootkits/",
-      "discuss_url": "https://lobste.rs/s/72hjym",
-      "score": 3,
-      "comments": 0,
-      "author": "rrampage",
-      "published": "2026-07-28T20:56:58Z"
     },
     {
       "source": "rss",
@@ -491,6 +443,54 @@
     },
     {
       "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
+      "url": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
+      "discuss_url": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-31T18:52:04Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
+      "url": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
+      "discuss_url": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-31T16:39:31Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies",
+      "url": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
+      "discuss_url": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-31T14:45:01Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined",
+      "url": "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html",
+      "discuss_url": "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-07-31T12:51:52Z"
+    },
+    {
+      "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
       "title": "Amazon Aurora DSQL adds multi-Region cluster support in four more Regions",
@@ -517,9 +517,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
+      "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -529,9 +529,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
+      "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
