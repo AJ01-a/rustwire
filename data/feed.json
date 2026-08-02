@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T03:19:05Z",
+  "updated_at": "2026-08-02T08:29:41Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Tailscale didn't stop the Hugging Face intrusion",
       "url": "https://tailscale.com/blog/hugging-face-intrusion",
       "discuss_url": "https://news.ycombinator.com/item?id=49127306",
-      "score": 595,
+      "score": 602,
       "comments": 215,
       "author": "bluehatbrit",
       "published": "2026-07-31T19:03:45Z",
       "bullets": [
-        "Mesh VPNs like Tailscale secure network transport, but fail to block unauthorized access via compromised application tokens or stolen credentials.",
-        "Relying solely on zero-trust overlay networks exposes AI model hubs to application-layer attacks and compromised developer credentials.",
-        "AI teams must enforce fine-grained API token scoping, rapid secret rotation, and strict identity-based access control beyond network perimeters."
+        "Perimeter VPNs like Tailscale cannot prevent unauthorized access when attackers obtain valid application-layer API tokens or OAuth secrets.",
+        "Compromised Hugging Face tokens expose sensitive AI assets, including private model weights, proprietary datasets, and embedded environment secrets.",
+        "Secure AI deployments require automated secret scanning, strict token scoping, and continuous credential rotation over reliance on ZTNA alone."
       ]
     },
     {
@@ -59,9 +59,9 @@
       "author": "Alexander Neubeck",
       "published": "2026-07-31T16:00:00Z",
       "bullets": [
-        "GitHub optimized code search case-folding to process >45 GiB/s on a single CPU core, achieving full memory bandwidth speeds.",
-        "The technique replaces conventional branching with branch-free loops and byte-space arithmetic to eliminate expensive conditional jumps.",
-        "Processing every byte uniformly without early-exit logic delivers higher throughput by preserving hardware CPU instruction pipelining."
+        "GitHub optimized code search case-folding to process source code at >45 GiB/s on a single CPU core.",
+        "The design uses branch-free loops to eliminate CPU branch mispredictions while scanning ASCII and UTF-8 byte streams.",
+        "Byte-space arithmetic replaces costly conditional logic and lookup tables, allowing string transformation to run at memory bandwidth limits."
       ]
     },
     {
@@ -76,9 +76,9 @@
       "author": "hoistbypetard",
       "published": "2026-07-30T14:36:05Z",
       "bullets": [
-        "A critical vulnerability (CVE-2026-66066) in Ruby on Rails Active Storage allows unauthenticated remote attackers to achieve arbitrary code execution.",
-        "The KindaRails2Shell flaw exploits file transformation pipelines in Active Storage, echoing classic Rails execution vectors through untrusted input parsing.",
-        "Development and security teams must audit Rails services, update core dependencies, and temporarily disable Active Storage transformations if unpatched."
+        "CVE-2026-66066 enables unauthenticated remote code execution by exploiting unsanitized input during Active Storage file processing pipeline execution.",
+        "Attackers can achieve full arbitrary shell access on host infrastructure hosting vulnerable Ruby on Rails application instances.",
+        "DevOps and security teams should immediately audit Rails services handling file uploads and apply emergency vendor patches."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "aws@amazon.com",
       "published": "2026-07-31T18:00:00Z",
       "bullets": [
-        "Amazon Aurora DSQL expanded multi-Region cluster support to four new AWS regions: Stockholm, Spain, Mumbai, and Singapore.",
-        "Multi-Region clusters provide active-active writable endpoints across peered regions, maintaining strong consistency for a single logical database.",
-        "The serverless architecture ensures continuous workload availability, sustaining database operations automatically if a targeted AWS region goes completely offline."
+        "Amazon Aurora DSQL expanded active-active multi-Region cluster support to four new AWS Regions: Stockholm, Spain, Mumbai, and Singapore.",
+        "Multi-Region clusters deliver dual writable endpoints across peered Regions with strong consistency and single-Region outage tolerance.",
+        "Aurora DSQL multi-Region clusters now span 16 total AWS Regions, expanding options for serverless distributed SQL deployments."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Stephen Clark",
       "published": "2026-08-01T18:20:11Z",
       "bullets": [
-        "\"We believe that a capture of Swift, an attempted capture of Swift, is very much in the cards.\"",
-        "Here's how engineers plan to save the satellite sent to save NASA's Swift mission",
-        "Submitted by Stephen Clark on arstechnica.com."
+        "NASA's Swift space telescope faces accelerated orbital decay due to increased atmospheric drag from Solar Cycle 25 activity.",
+        "Proposed rescue plans rely on autonomous rendezvous and proximity operations (RPO) to capture uncooperative space hardware.",
+        "Commercial satellite servicing validates emerging low-Earth-orbit architectures for active debris removal and mission life extension."
       ]
     }
   ],
@@ -124,10 +124,22 @@
       "title": "Tailscale didn't stop the Hugging Face intrusion",
       "url": "https://tailscale.com/blog/hugging-face-intrusion",
       "discuss_url": "https://news.ycombinator.com/item?id=49127306",
-      "score": 595,
+      "score": 602,
       "comments": 215,
       "author": "bluehatbrit",
       "published": "2026-07-31T19:03:45Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Everyone is building LLM routers, we deprecated ours",
+      "url": "https://manifest.build/blog/why-we-deprecated-our-llm-router/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49126630",
+      "score": 130,
+      "comments": 85,
+      "author": "brunaxLorax",
+      "published": "2026-07-31T18:06:39Z"
     },
     {
       "source": "hackernews",
@@ -152,18 +164,6 @@
       "comments": 0,
       "author": "mykiwi",
       "published": "2026-07-29T14:02:35Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Large Language Models and the Future of Programming by Peter Norvig (2023)",
-      "url": "https://www.youtube.com/watch?v=ia6aJIplmtc",
-      "discuss_url": "https://lobste.rs/s/bouq9b",
-      "score": 1,
-      "comments": 0,
-      "author": "veqq",
-      "published": "2026-07-29T06:00:21Z"
     },
     {
       "source": "rss",
