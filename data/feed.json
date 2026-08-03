@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T09:53:50Z",
+  "updated_at": "2026-08-03T14:47:46Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-      "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
-      "discuss_url": "https://news.ycombinator.com/item?id=49150561",
-      "score": 179,
-      "comments": 81,
-      "author": "JSR_FDED",
-      "published": "2026-08-03T02:30:30Z",
+      "title": "Prevent cognitive debt by manually retyping LLM-generated code",
+      "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49153374",
+      "score": 208,
+      "comments": 155,
+      "author": "mpweiher",
+      "published": "2026-08-03T09:32:07Z",
       "bullets": [
-        "OpenAI's affiliated super PAC is reportedly funding AI-generated news outlets to publish targeted political attacks against industry and regulatory critics.",
-        "The strategy highlights how LLM-driven automated content pipelines are increasingly deployed for targeted political influence operations and astroturfing.",
-        "AI practitioners face escalating reputational and regulatory risks as foundation model vendors leverage their own technology for covert lobbying."
+        "Blindly accepting LLM code shortcuts deep comprehension, introducing silent logic errors, unvetted dependencies, and severe long-term maintenance overhead.",
+        "Manually retyping outputs from tools like GitHub Copilot or Cursor forces line-by-line mental execution and active code review.",
+        "Sustainable AI adoption requires balancing generation speed with deliberate developer synthesis to protect code quality and system security."
       ]
     },
     {
@@ -54,65 +54,65 @@
       "title": "Retries don't fix eventual consistency",
       "url": "https://var0.xyz/posts/retries-dont-fix-eventual-consistency.html",
       "discuss_url": "https://lobste.rs/s/t0cn1z",
-      "score": 2,
+      "score": 9,
       "comments": 0,
       "author": "var0xyz",
       "published": "2026-08-03T08:36:37Z",
       "bullets": [
-        "Immediate client retries hit stale cache windows or read replicas without enforcing read-after-write synchronization guarantees across distributed nodes.",
-        "Mitigate read stale-ness using session tokens for read-your-own-writes consistency or switching critical database operations to strong consistency modes.",
-        "Resolve write conflicts through optimistic concurrency control with monotonic version vectors or asynchronous outbox event processing instead of blocking retries."
+        "Client retries fail against asynchronous replication lag; querying a stale replica repeatedly yields outdated data until state propagation completes.",
+        "Enforce strong consistency or sticky session routing to primary nodes when workflows demand immediate read-your-own-writes guarantees.",
+        "Design distributed systems using idempotency keys, CRDTs, or saga patterns to handle non-deterministic and out-of-order data propagation safely."
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "The rooting, firmware analysis and hardcoded, reset-persistent credentials of the TP-Link TL-841N",
-      "url": "https://blog.juni-mp4.com/posts/42/rooting-the-tplink-tl841n-pt1/",
-      "discuss_url": "https://lobste.rs/s/pwarxx",
-      "score": 8,
-      "comments": 1,
-      "author": "raymii",
-      "published": "2026-08-02T18:32:34Z",
+      "title": "Critical CVE issued for hallucinated SQLite vulnerability",
+      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49154332",
+      "score": 384,
+      "comments": 124,
+      "author": "ymir_e",
+      "published": "2026-08-03T11:28:54Z",
       "bullets": [
-        "Firmware reverse-engineering of TP-Link TL-841N routers exposes hardcoded administrative credentials baked directly into the device filesystem.",
-        "Factory resets fail to clear these embedded credentials, leaving SOHO devices permanently compromised once exposed to local or WAN attacks.",
-        "Root access achieved via serial interfaces or firmware extraction underscores risks of legacy consumer hardware lacking secure boot mechanisms."
+        "CVE assignment processes issued a critical rating for a non-existent SQLite vulnerability generated by hallucinating AI models.",
+        "Inadequate CNA verification highlights systemic flaws in vulnerability reporting as AI-generated false positives pollute security databases.",
+        "Security teams must verify CVE alerts directly with project maintainers like SQLite before initiating emergency response workflows."
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
+      "source": "rss",
+      "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Wheels, Bottles and Images",
-      "url": "https://nesbitt.io/2026/07/30/wheels-bottles-images.html",
-      "discuss_url": "https://lobste.rs/s/mve50r",
-      "score": 1,
-      "comments": 0,
-      "author": "hongminhee",
-      "published": "2026-07-30T12:56:17Z",
+      "title": "Amazon Aurora DSQL adds multi-Region cluster support in four more Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-31T18:00:00Z",
       "bullets": [
-        "Wheels, Bottles and Images",
-        "Trending on lobste.rs/devops — 1 points, 0 comments.",
-        "Submitted by hongminhee on lobste.rs/devops."
+        "Amazon Aurora DSQL expanded active-active multi-Region clusters to Stockholm, Spain, Mumbai, and Singapore, totaling 16 supported global Regions.",
+        "Multi-Region deployments provide active-active writable endpoints and strong consistency, maintaining availability during complete single-Region outages.",
+        "Serverless Aurora DSQL single-Region clusters remain supported across 20 global Regions, with free tier eligibility for testing and deployment."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Here's how engineers plan to save the satellite sent to save NASA's Swift mission",
-      "url": "https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/",
-      "discuss_url": "https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/",
+      "title": "Trump wants the power to stop the public from suing polluters",
+      "url": "https://arstechnica.com/tech-policy/2026/08/trump-wants-the-power-to-stop-the-public-from-suing-polluters/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/trump-wants-the-power-to-stop-the-public-from-suing-polluters/",
       "score": null,
       "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-08-01T18:20:11Z",
+      "author": "Sarah J. Morath, The Conversation",
+      "published": "2026-08-03T13:33:56Z",
       "bullets": [
-        "\"We believe that a capture of Swift, an attempted capture of Swift, is very much in the cards.\"",
-        "Here's how engineers plan to save the satellite sent to save NASA's Swift mission",
-        "Submitted by Stephen Clark on arstechnica.com."
+        "DOJ positions aim to eliminate public standing to enforce environmental laws, curbing citizen-led litigation against industrial operations.",
+        "Regulatory enforcement would shift exclusively to federal agencies, altering environmental risk profiles for energy and infrastructure projects.",
+        "Industrial and tech operators may face recalibration of compliance, ESG risk modeling, and facility permitting strategies."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Prevent cognitive debt by manually retyping LLM-generated code",
+      "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49153374",
+      "score": 208,
+      "comments": 155,
+      "author": "mpweiher",
+      "published": "2026-08-03T09:32:07Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
       "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
       "discuss_url": "https://news.ycombinator.com/item?id=49150561",
-      "score": 179,
-      "comments": 81,
+      "score": 192,
+      "comments": 88,
       "author": "JSR_FDED",
       "published": "2026-08-03T02:30:30Z"
     },
@@ -136,8 +148,8 @@
       "title": "Why we write our own C and C++ inference engines",
       "url": "https://localai.io/blog/why-we-write-our-own-engines/",
       "discuss_url": "https://lobste.rs/s/t7zdif",
-      "score": 1,
-      "comments": 4,
+      "score": 2,
+      "comments": 5,
       "author": "eatonphil",
       "published": "2026-07-31T16:17:44Z"
     },
@@ -184,7 +196,7 @@
       "title": "Retries don't fix eventual consistency",
       "url": "https://var0.xyz/posts/retries-dont-fix-eventual-consistency.html",
       "discuss_url": "https://lobste.rs/s/t0cn1z",
-      "score": 2,
+      "score": 9,
       "comments": 0,
       "author": "var0xyz",
       "published": "2026-08-03T08:36:37Z"
@@ -197,7 +209,7 @@
       "url": "https://xvw.lol/en/articles/oop-refl.html",
       "discuss_url": "https://lobste.rs/s/ki0ge3",
       "score": 16,
-      "comments": 3,
+      "comments": 6,
       "author": "xvw",
       "published": "2026-08-02T13:03:14Z"
     },
@@ -224,18 +236,6 @@
       "comments": 19,
       "author": "mtlynch",
       "published": "2026-07-31T10:36:22Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Logic for Programmers",
-      "url": "https://logicforprogrammers.com/",
-      "discuss_url": "https://lobste.rs/s/l03yv1",
-      "score": 33,
-      "comments": 1,
-      "author": "natfu",
-      "published": "2026-07-30T12:24:16Z"
     },
     {
       "source": "lobsters",
@@ -322,6 +322,30 @@
       "published": "2026-07-27T18:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "GitHub Copilot app for Beginners: Getting started",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/",
+      "score": null,
+      "comments": null,
+      "author": "Christopher Harrison",
+      "published": "2026-07-27T16:00:00Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "Critical CVE issued for hallucinated SQLite vulnerability",
+      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49154332",
+      "score": 384,
+      "comments": 124,
+      "author": "ymir_e",
+      "published": "2026-08-03T11:28:54Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
@@ -356,18 +380,6 @@
       "comments": 9,
       "author": "Levitating",
       "published": "2026-07-31T22:03:47Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "KindaRails2Shell - Critical RCE in Rails via Active Storage (CVE-2026-66066)",
-      "url": "https://ethiack.com/info-hub/research/kindarails2shell-rails-rce-cve-2026-66066",
-      "discuss_url": "https://lobste.rs/s/kkobew",
-      "score": 6,
-      "comments": 4,
-      "author": "hoistbypetard",
-      "published": "2026-07-30T14:36:05Z"
     },
     {
       "source": "lobsters",
@@ -412,7 +424,7 @@
       "title": "OVSwrap: another Linux local root vulnerability",
       "url": "https://heyitsas.im/posts/ovswrap/",
       "discuss_url": "https://lobste.rs/s/dl0x6w",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "fro",
       "published": "2026-08-01T02:33:19Z"
@@ -433,49 +445,37 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable",
-      "url": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
-      "discuss_url": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
+      "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
+      "url": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
+      "discuss_url": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-03T08:05:30Z"
+      "published": "2026-08-03T14:03:11Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
-      "url": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
-      "discuss_url": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
+      "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
+      "url": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html",
+      "discuss_url": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-03T06:41:46Z"
+      "published": "2026-08-03T11:30:00Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
-      "url": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
-      "discuss_url": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
+      "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
+      "url": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
+      "discuss_url": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-03T06:40:31Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "Wheels, Bottles and Images",
-      "url": "https://nesbitt.io/2026/07/30/wheels-bottles-images.html",
-      "discuss_url": "https://lobste.rs/s/mve50r",
-      "score": 1,
-      "comments": 0,
-      "author": "hongminhee",
-      "published": "2026-07-30T12:56:17Z"
+      "published": "2026-08-03T10:49:06Z"
     },
     {
       "source": "rss",
@@ -611,6 +611,42 @@
     },
     {
       "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "IAM Policy Simulator moves to the IAM console and adds additional capabilities",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/iam-policy-simulator-iam-console/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/iam-policy-simulator-iam-console/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-07-30T17:43:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Trump wants the power to stop the public from suing polluters",
+      "url": "https://arstechnica.com/tech-policy/2026/08/trump-wants-the-power-to-stop-the-public-from-suing-polluters/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/trump-wants-the-power-to-stop-the-public-from-suing-polluters/",
+      "score": null,
+      "comments": null,
+      "author": "Sarah J. Morath, The Conversation",
+      "published": "2026-08-03T13:33:56Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "How headlights got brighter, whiter, and more blinding after dark",
+      "url": "https://arstechnica.com/cars/2026/08/how-headlights-got-brighter-whiter-and-more-blinding-after-dark/",
+      "discuss_url": "https://arstechnica.com/cars/2026/08/how-headlights-got-brighter-whiter-and-more-blinding-after-dark/",
+      "score": null,
+      "comments": null,
+      "author": "Matthew MacConnell",
+      "published": "2026-08-03T11:00:11Z"
+    },
+    {
+      "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
       "title": "Here's how engineers plan to save the satellite sent to save NASA's Swift mission",
@@ -728,30 +764,6 @@
       "comments": null,
       "author": "Ashley Belanger",
       "published": "2026-07-31T21:19:39Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Claude published malicious code to the Internet and attacked 3 real companies",
-      "url": "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account/",
-      "discuss_url": "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-07-31T20:39:14Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Google Earth risked ruin with retracted AI tool for making fake satellite pics",
-      "url": "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images/",
-      "discuss_url": "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-07-31T20:21:05Z"
     }
   ]
 }
