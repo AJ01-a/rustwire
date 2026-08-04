@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T08:43:27Z",
+  "updated_at": "2026-08-04T14:23:52Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "LLMs reward expertise",
       "url": "https://www.seangoedecke.com/llms-reward-expertise/",
       "discuss_url": "https://news.ycombinator.com/item?id=49161518",
-      "score": 883,
-      "comments": 363,
+      "score": 1137,
+      "comments": 479,
       "author": "MaxMussio",
       "published": "2026-08-03T21:13:53Z",
       "bullets": [
-        "Domain experts maximize LLM utility by accurately evaluating outputs, identifying subtle hallucinations, and enforcing architectural standards that novices miss.",
-        "Precise context framing, edge-case specification, and specialized system prompts allow senior practitioners to extract higher-quality code and reasoning from models.",
-        "Uncritical adoption by non-experts increases technical debt and security vulnerabilities, whereas expert-guided workflows significantly accelerate production-ready code generation."
+        "Domain experts extract significantly higher utility from frontier models like Claude 3.5 Sonnet through precise prompt framing and hallucination detection.",
+        "Senior engineers use LLMs to accelerate complex refactoring and architecture, whereas non-experts struggle to validate subtle code flaws.",
+        "Maximizing AI productivity requires expert-led prompt engineering, domain-specific evaluation benchmarks, and strict human-in-the-loop verification."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/foxgva",
       "discuss_url": "https://lobste.rs/s/foxgva",
-      "score": 10,
+      "score": 11,
       "comments": 13,
       "author": "caius",
       "published": "2026-08-03T15:41:38Z",
       "bullets": [
-        "Weekly developer check-ins track active work across open-source contributions, refactoring legacy systems, and shipping production feature updates.",
-        "Common engineering tasks focus on updating dependencies, optimizing CI/CD build pipelines, and evaluating emerging frameworks and developer tooling.",
-        "Community discussions highlight balancing technical velocity and maintenance work with intentional downtime to prevent developer burnout."
+        "Engineers share updates on low-level Rust and Go projects, emphasizing memory efficiency, CLI tooling, and compiler optimization work.",
+        "Community members report refactoring CI/CD pipelines, modernizing Docker builds, and managing reproducible dev environments with Nix.",
+        "Discussions cover backend performance tuning, embedded database integration with SQLite, and building local-first architecture sync mechanisms."
       ]
     },
     {
@@ -76,26 +76,26 @@
       "author": "Levitating",
       "published": "2026-07-31T22:03:47Z",
       "bullets": [
-        "Arch Linux halted orphaned package takeovers in the AUR to mitigate supply chain attacks via unmaintained user scripts.",
-        "Attackers frequently adopt abandoned repositories to inject backdoors, malware, or malicious code into downstream Linux build pipelines.",
-        "DevOps and security analysts relying on AUR PKGBUILDs should audit maintainer histories and pin critical software package versions."
+        "Orphaned Arch User Repository (AUR) packages posed severe supply chain risks through unvetted maintainer takeovers and malicious payload injection.",
+        "Self-service package adoption is now suspended on AUR to enforce strict administrative oversight before transferring maintainership.",
+        "DevOps and security teams should audit software pipelines for unmaintained AUR dependencies and evaluate internal build integrity."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "Sovereign Tech Fellowship for Rust maintenance (June-July 2026 report)",
-      "url": "https://kobzol.github.io/rust/2026/08/03/stf-june-july-2026.html",
-      "discuss_url": "https://lobste.rs/s/0zr9wr",
-      "score": 1,
+      "title": "Tests for a PDF",
+      "url": "https://blog.lvmbdv.dev/posts/tests-for-a-pdf/",
+      "discuss_url": "https://lobste.rs/s/98zvnf",
+      "score": 9,
       "comments": 0,
-      "author": "BD103",
-      "published": "2026-08-03T23:14:27Z",
+      "author": "lvmbdv",
+      "published": "2026-08-04T10:23:57Z",
       "bullets": [
-        "Dedicated funding via the Sovereign Tech Fund strengthens core Rust compiler maintenance, CI/CD infrastructure, and toolchain reliability.",
-        "Sustained maintenance reduces open-source supply chain risks for DevOps pipelines relying on critical Rust crates and native binaries.",
-        "Direct maintainer stipends address bus-factor risks and ensure backwards compatibility across Rust's core release engineering workflows."
+        "Integrate visual regression testing into CI using tools like ImageMagick or Playwright to detect subtle PDF layout and rendering regressions.",
+        "Automate content and metadata validation in build pipelines via pdftotext or PyPDF to ensure correct dynamic data injection.",
+        "Enforce PDF/UA accessibility and structural standards automatically using CLI validators like veraPDF during automated deployment stages."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Jeremy Hsu",
       "published": "2026-08-03T22:11:39Z",
       "bullets": [
-        "A $100M deal deploys US-developed AI capabilities across 50,000 low-cost Ukrainian kamikaze drones for autonomous target tracking.",
-        "Onboard computer vision enables terminal autonomous guidance, maintaining strike capability without relying on active operator radio links.",
-        "Edge-AI integration counters radio-frequency electronic warfare by allowing low-cost munitions to lock onto targets independently of manual control."
+        "A $100M deal equips 50,000 Ukrainian kamikaze drones with US-developed AI for autonomous target tracking.",
+        "On-device AI vision enables low-cost strike drones to complete terminal engagements despite heavy electronic warfare and signal jamming.",
+        "The deployment demonstrates rapid, large-scale integration of commercial AI software onto low-cost, expendable military hardware."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "LLMs reward expertise",
       "url": "https://www.seangoedecke.com/llms-reward-expertise/",
       "discuss_url": "https://news.ycombinator.com/item?id=49161518",
-      "score": 883,
-      "comments": 363,
+      "score": 1137,
+      "comments": 479,
       "author": "MaxMussio",
       "published": "2026-08-03T21:13:53Z"
     },
@@ -136,8 +136,8 @@
       "title": "SQLite Critical CVEs or LLM Slop?",
       "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
       "discuss_url": "https://news.ycombinator.com/item?id=49154332",
-      "score": 709,
-      "comments": 362,
+      "score": 715,
+      "comments": 366,
       "author": "ymir_e",
       "published": "2026-08-03T11:28:54Z"
     },
@@ -148,10 +148,22 @@
       "title": "Prevent cognitive debt by manually retyping LLM-generated code",
       "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
       "discuss_url": "https://news.ycombinator.com/item?id=49153374",
-      "score": 472,
-      "comments": 382,
+      "score": 509,
+      "comments": 421,
       "author": "mpweiher",
       "published": "2026-08-03T09:32:07Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "No Meat Proxy",
+      "url": "https://nomeatproxy.com/",
+      "discuss_url": "https://lobste.rs/s/jtgaol",
+      "score": 4,
+      "comments": 0,
+      "author": "kamila",
+      "published": "2026-08-04T12:55:43Z"
     },
     {
       "source": "hackernews",
@@ -160,7 +172,7 @@
       "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
       "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
       "discuss_url": "https://news.ycombinator.com/item?id=49150561",
-      "score": 205,
+      "score": 206,
       "comments": 106,
       "author": "JSR_FDED",
       "published": "2026-08-03T02:30:30Z"
@@ -193,18 +205,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Why Do Cognitive Scientists Hate LLMs? (2023)",
-      "url": "https://minihf.com/posts/2023-10-16-hermes-lecture-3-why-do-cognitive-scientists-hate-llms/",
-      "discuss_url": "https://lobste.rs/s/vytqfi",
-      "score": 1,
-      "comments": 0,
-      "author": "markerz",
-      "published": "2026-08-03T17:45:39Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "Why we write our own C and C++ inference engines",
       "url": "https://localai.io/blog/why-we-write-our-own-engines/",
       "discuss_url": "https://lobste.rs/s/t7zdif",
@@ -212,6 +212,18 @@
       "comments": 5,
       "author": "eatonphil",
       "published": "2026-07-31T16:17:44Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "discuss_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-08-04T13:58:29Z"
     },
     {
       "source": "rss",
@@ -238,16 +250,16 @@
       "published": "2026-07-28T16:27:42Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
-      "discuss_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-28T15:01:45Z"
+      "title": "Why Do Cognitive Scientists Hate LLMs? (2023)",
+      "url": "https://minihf.com/posts/2023-10-16-hermes-lecture-3-why-do-cognitive-scientists-hate-llms/",
+      "discuss_url": "https://lobste.rs/s/vytqfi",
+      "score": 0,
+      "comments": 0,
+      "author": "markerz",
+      "published": "2026-08-03T17:45:39Z"
     },
     {
       "source": "lobsters",
@@ -256,10 +268,34 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/foxgva",
       "discuss_url": "https://lobste.rs/s/foxgva",
-      "score": 10,
+      "score": 11,
       "comments": 13,
       "author": "caius",
       "published": "2026-08-03T15:41:38Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Retries don't fix eventual consistency",
+      "url": "https://var0.xyz/posts/retries-dont-fix-eventual-consistency.html",
+      "discuss_url": "https://lobste.rs/s/t0cn1z",
+      "score": 14,
+      "comments": 3,
+      "author": "var0xyz",
+      "published": "2026-08-03T08:36:37Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Use Task Runners for Common Coding Tasks",
+      "url": "https://hamvocke.com/blog/task-runners/",
+      "discuss_url": "https://lobste.rs/s/pcry26",
+      "score": 2,
+      "comments": 6,
+      "author": "olex",
+      "published": "2026-08-03T20:59:35Z"
     },
     {
       "source": "lobsters",
@@ -277,34 +313,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Use Task Runners for Common Coding Tasks",
-      "url": "https://hamvocke.com/blog/task-runners/",
-      "discuss_url": "https://lobste.rs/s/pcry26",
-      "score": 2,
-      "comments": 3,
-      "author": "olex",
-      "published": "2026-08-03T20:59:35Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Retries don't fix eventual consistency",
-      "url": "https://var0.xyz/posts/retries-dont-fix-eventual-consistency.html",
-      "discuss_url": "https://lobste.rs/s/t0cn1z",
-      "score": 12,
-      "comments": 2,
-      "author": "var0xyz",
-      "published": "2026-08-03T08:36:37Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Guarded methods in OCaml",
       "url": "https://xvw.lol/en/articles/oop-refl.html",
       "discuss_url": "https://lobste.rs/s/ki0ge3",
-      "score": 17,
+      "score": 18,
       "comments": 6,
       "author": "xvw",
       "published": "2026-08-02T13:03:14Z"
@@ -320,42 +332,6 @@
       "comments": 41,
       "author": "caius",
       "published": "2026-07-31T17:26:21Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Stripe Just Wants a Number",
-      "url": "https://blog.exe.dev/billable-facts",
-      "discuss_url": "https://lobste.rs/s/ri8bav",
-      "score": 34,
-      "comments": 21,
-      "author": "mtlynch",
-      "published": "2026-07-31T10:36:22Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Full flattening of nested data parallelism",
-      "url": "https://futhark-lang.org/blog/2026-07-31-full-flattening.html",
-      "discuss_url": "https://lobste.rs/s/91tzqg",
-      "score": 23,
-      "comments": 0,
-      "author": "athas",
-      "published": "2026-07-31T09:37:01Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Project-Specific clangd Configuration with a Temporary Shell",
-      "url": "https://felix-knorr.net/posts/2026-07-31-lsp-config.html",
-      "discuss_url": "https://lobste.rs/s/j04gsk",
-      "score": 2,
-      "comments": 0,
-      "author": "KnorrFG",
-      "published": "2026-07-31T12:48:45Z"
     },
     {
       "source": "rss",
@@ -394,6 +370,42 @@
       "published": "2026-07-29T16:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Disrupting supply chain attacks on npm and GitHub Actions",
+      "url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
+      "discuss_url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
+      "score": null,
+      "comments": null,
+      "author": "Greg Ose",
+      "published": "2026-07-28T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Your MVP doesn’t need a Kubernetes cluster​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿​‌‌‍‌‌​﻿​﻿‌‍​﻿​﻿‌‌‌‍‌‌​﻿​﻿​‍﻿‌​﻿​‌​﻿​‌‌‍​‍​﻿‌‌​‍﻿‌​﻿‌​‌‍​‌​﻿​‍​﻿​​​‍﻿‌​﻿‍​​﻿‌‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍‌​​﻿‍‌‌‍‌‍​﻿​﻿​﻿‍​​﻿​‍‌‍​‍​﻿​‍​﻿‍‌‌‍​﻿​﻿​‌‌‍​‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿​‌‌‍‌‌​﻿​﻿‌‍​﻿​﻿‌‌‌‍‌‌​﻿​﻿​‍﻿‌​﻿​‌​﻿​‌‌‍​‍​﻿‌‌​‍﻿‌​﻿‌​‌‍​‌​﻿​‍​﻿​​​‍﻿‌​﻿‍​​﻿‌‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍‌​​﻿‍‌‌‍‌‍​﻿​﻿​﻿‍​​﻿​‍‌‍​‍​﻿​‍​﻿‍‌‌‍​﻿​﻿​‌‌‍​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/08/04/your-mvp-doesn-t-need-a-kubernetes-cluster/",
+      "discuss_url": "https://stackoverflow.blog/2026/08/04/your-mvp-doesn-t-need-a-kubernetes-cluster/",
+      "score": null,
+      "comments": null,
+      "author": "Ryan Donovan",
+      "published": "2026-08-04T07:40:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Dispatches from O'Reilly: The best risk mitigation strategy in data? A single source of truth​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍‌‌​﻿​﻿​﻿​​‌‍​‍​﻿‌‍‌‍‌‌‌‍​‍​‍﻿‌​﻿‌‌​﻿‌​‌‍‌​​﻿​​​‍﻿‌​﻿‌​​﻿‌﻿​﻿‍‌‌‍‌‌​‍﻿‌‌‍​‍‌‍​‌‌‍​‍​﻿​﻿​‍﻿‌​﻿‌﻿​﻿​‌​﻿​﻿​﻿‍‌‌‍​‌​﻿‍‌‌‍​‍​﻿​﻿​﻿‌﻿‌‍‌​‌‍​﻿​﻿‌‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍‌‌​﻿​﻿​﻿​​‌‍​‍​﻿‌‍‌‍‌‌‌‍​‍​‍﻿‌​﻿‌‌​﻿‌​‌‍‌​​﻿​​​‍﻿‌​﻿‌​​﻿‌﻿​﻿‍‌‌‍‌‌​‍﻿‌‌‍​‍‌‍​‌‌‍​‍​﻿​﻿​‍﻿‌​﻿‌﻿​﻿​‌​﻿​﻿​﻿‍‌‌‍​‌​﻿‍‌‌‍​‍​﻿​﻿​﻿‌﻿‌‍‌​‌‍​﻿​﻿‌‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/07/31/dispatches-from-o-reilly-the-best-risk-mitigation-strategy-in-data-a-single-source-of-truth/",
+      "discuss_url": "https://stackoverflow.blog/2026/07/31/dispatches-from-o-reilly-the-best-risk-mitigation-strategy-in-data-a-single-source-of-truth/",
+      "score": null,
+      "comments": null,
+      "author": "Jeremy Arendt",
+      "published": "2026-07-31T14:08:31Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
@@ -412,7 +424,7 @@
       "title": "The rooting, firmware analysis and hardcoded, reset-persistent credentials of the TP-Link TL-841N",
       "url": "https://blog.juni-mp4.com/posts/42/rooting-the-tplink-tl841n-pt1/",
       "discuss_url": "https://lobste.rs/s/pwarxx",
-      "score": 10,
+      "score": 11,
       "comments": 1,
       "author": "raymii",
       "published": "2026-08-02T18:32:34Z"
@@ -424,7 +436,7 @@
       "title": "Apple Screen Sharing Pre-Auth RCE",
       "url": "https://warez.sl0p.foo/apple-screensharing-rce/",
       "discuss_url": "https://lobste.rs/s/t1wy9l",
-      "score": 11,
+      "score": 10,
       "comments": 7,
       "author": "fro",
       "published": "2026-08-01T19:39:20Z"
@@ -493,49 +505,61 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
-      "url": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
-      "discuss_url": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
+      "title": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks",
+      "url": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
+      "discuss_url": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-04T07:00:13Z"
+      "published": "2026-08-04T13:30:23Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
-      "url": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
-      "discuss_url": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
+      "title": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
+      "url": "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
+      "discuss_url": "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-03T18:43:53Z"
+      "published": "2026-08-04T13:11:22Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
-      "url": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
-      "discuss_url": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
+      "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
+      "url": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
+      "discuss_url": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-03T16:24:47Z"
+      "published": "2026-08-04T11:30:00Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
-      "url": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
-      "discuss_url": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
+      "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
+      "url": "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
+      "discuss_url": "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-03T16:15:13Z"
+      "published": "2026-08-04T11:16:23Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "Tests for a PDF",
+      "url": "https://blog.lvmbdv.dev/posts/tests-for-a-pdf/",
+      "discuss_url": "https://lobste.rs/s/98zvnf",
+      "score": 9,
+      "comments": 0,
+      "author": "lvmbdv",
+      "published": "2026-08-04T10:23:57Z"
     },
     {
       "source": "lobsters",
@@ -664,18 +688,6 @@
       "title": "AWS WAF now supports Miggo Security managed rule groups for emerging threats and AI/ML application protection",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-waf-miggo-managed-rule-groups",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-waf-miggo-managed-rule-groups",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-03T15:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon ECR now supports image layers up to 200 GB",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecr-image-layers/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecr-image-layers/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
