@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T02:49:44Z",
+  "updated_at": "2026-08-04T08:43:27Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "LLMs reward expertise",
       "url": "https://www.seangoedecke.com/llms-reward-expertise/",
       "discuss_url": "https://news.ycombinator.com/item?id=49161518",
-      "score": 503,
-      "comments": 222,
+      "score": 883,
+      "comments": 363,
       "author": "MaxMussio",
       "published": "2026-08-03T21:13:53Z",
       "bullets": [
-        "Domain experts leverage fine-grained system prompts, few-shot examples, and exact technical constraints to maximize output quality from models like Claude 3.5.",
-        "Evaluating LLM output requires deep subject-matter expertise to detect subtle hallucinations, security vulnerabilities, and logic flaws in generated code.",
-        "Maximizing LLM utility requires architecting advanced RAG pipelines, fine-tuning, and domain-specific benchmarks rather than relying on simple out-of-the-box prompts."
+        "Domain experts maximize LLM utility by accurately evaluating outputs, identifying subtle hallucinations, and enforcing architectural standards that novices miss.",
+        "Precise context framing, edge-case specification, and specialized system prompts allow senior practitioners to extract higher-quality code and reasoning from models.",
+        "Uncritical adoption by non-experts increases technical debt and security vulnerabilities, whereas expert-guided workflows significantly accelerate production-ready code generation."
       ]
     },
     {
@@ -55,30 +55,30 @@
       "url": "https://lobste.rs/s/foxgva",
       "discuss_url": "https://lobste.rs/s/foxgva",
       "score": 10,
-      "comments": 9,
+      "comments": 13,
       "author": "caius",
       "published": "2026-08-03T15:41:38Z",
       "bullets": [
-        "Lobsters weekly threads provide visibility into developer workflows, active open-source maintenance, and experimental side projects.",
-        "Key community themes focus on balancing technical debt refactoring, CI/CD pipeline optimization, and new feature implementation.",
-        "Prioritizing scheduled downtime and workload pacing is emphasized to prevent developer burnout during heavy release cycles."
+        "Weekly developer check-ins track active work across open-source contributions, refactoring legacy systems, and shipping production feature updates.",
+        "Common engineering tasks focus on updating dependencies, optimizing CI/CD build pipelines, and evaluating emerging frameworks and developer tooling.",
+        "Community discussions highlight balancing technical velocity and maintenance work with intentional downtime to prevent developer burnout."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "The rooting, firmware analysis and hardcoded, reset-persistent credentials of the TP-Link TL-841N",
-      "url": "https://blog.juni-mp4.com/posts/42/rooting-the-tplink-tl841n-pt1/",
-      "discuss_url": "https://lobste.rs/s/pwarxx",
-      "score": 10,
-      "comments": 1,
-      "author": "raymii",
-      "published": "2026-08-02T18:32:34Z",
+      "title": "Arch Linux disables AUR package adoption",
+      "url": "https://lwn.net/Articles/1086489/",
+      "discuss_url": "https://lobste.rs/s/0mixjj",
+      "score": 37,
+      "comments": 11,
+      "author": "Levitating",
+      "published": "2026-07-31T22:03:47Z",
       "bullets": [
-        "The rooting, firmware analysis and hardcoded, reset-persistent credentials of the TP-Link TL-841N",
-        "Trending on lobste.rs/security — 10 points, 1 comments.",
-        "Submitted by raymii on lobste.rs/security."
+        "Arch Linux halted orphaned package takeovers in the AUR to mitigate supply chain attacks via unmaintained user scripts.",
+        "Attackers frequently adopt abandoned repositories to inject backdoors, malware, or malicious code into downstream Linux build pipelines.",
+        "DevOps and security analysts relying on AUR PKGBUILDs should audit maintainer histories and pin critical software package versions."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "BD103",
       "published": "2026-08-03T23:14:27Z",
       "bullets": [
-        "Sovereign Tech Fellowship for Rust maintenance (June-July 2026 report)",
-        "Trending on lobste.rs/devops — 1 points, 0 comments.",
-        "Submitted by BD103 on lobste.rs/devops."
+        "Dedicated funding via the Sovereign Tech Fund strengthens core Rust compiler maintenance, CI/CD infrastructure, and toolchain reliability.",
+        "Sustained maintenance reduces open-source supply chain risks for DevOps pipelines relying on critical Rust crates and native binaries.",
+        "Direct maintainer stipends address bus-factor risks and ensure backwards compatibility across Rust's core release engineering workflows."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Jeremy Hsu",
       "published": "2026-08-03T22:11:39Z",
       "bullets": [
-        "$100 million deal gives 50,000 Ukrainian drones US-developed AI capabilities.",
-        "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own",
-        "Submitted by Jeremy Hsu on arstechnica.com."
+        "A $100M deal deploys US-developed AI capabilities across 50,000 low-cost Ukrainian kamikaze drones for autonomous target tracking.",
+        "Onboard computer vision enables terminal autonomous guidance, maintaining strike capability without relying on active operator radio links.",
+        "Edge-AI integration counters radio-frequency electronic warfare by allowing low-cost munitions to lock onto targets independently of manual control."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "LLMs reward expertise",
       "url": "https://www.seangoedecke.com/llms-reward-expertise/",
       "discuss_url": "https://news.ycombinator.com/item?id=49161518",
-      "score": 503,
-      "comments": 222,
+      "score": 883,
+      "comments": 363,
       "author": "MaxMussio",
       "published": "2026-08-03T21:13:53Z"
     },
@@ -136,8 +136,8 @@
       "title": "SQLite Critical CVEs or LLM Slop?",
       "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
       "discuss_url": "https://news.ycombinator.com/item?id=49154332",
-      "score": 700,
-      "comments": 352,
+      "score": 709,
+      "comments": 362,
       "author": "ymir_e",
       "published": "2026-08-03T11:28:54Z"
     },
@@ -148,8 +148,8 @@
       "title": "Prevent cognitive debt by manually retyping LLM-generated code",
       "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
       "discuss_url": "https://news.ycombinator.com/item?id=49153374",
-      "score": 398,
-      "comments": 337,
+      "score": 472,
+      "comments": 382,
       "author": "mpweiher",
       "published": "2026-08-03T09:32:07Z"
     },
@@ -161,9 +161,21 @@
       "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
       "discuss_url": "https://news.ycombinator.com/item?id=49150561",
       "score": 205,
-      "comments": 105,
+      "comments": 106,
       "author": "JSR_FDED",
       "published": "2026-08-03T02:30:30Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Categorization with NLP",
+      "url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/en/",
+      "discuss_url": "https://lobste.rs/s/vyy2jf",
+      "score": 2,
+      "comments": 0,
+      "author": "isagalaev",
+      "published": "2026-08-03T17:11:41Z"
     },
     {
       "source": "lobsters",
@@ -188,18 +200,6 @@
       "comments": 0,
       "author": "markerz",
       "published": "2026-08-03T17:45:39Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Categorization with NLP",
-      "url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/en/",
-      "discuss_url": "https://lobste.rs/s/vyy2jf",
-      "score": 1,
-      "comments": 0,
-      "author": "isagalaev",
-      "published": "2026-08-03T17:11:41Z"
     },
     {
       "source": "lobsters",
@@ -257,7 +257,7 @@
       "url": "https://lobste.rs/s/foxgva",
       "discuss_url": "https://lobste.rs/s/foxgva",
       "score": 10,
-      "comments": 9,
+      "comments": 13,
       "author": "caius",
       "published": "2026-08-03T15:41:38Z"
     },
@@ -268,10 +268,22 @@
       "title": "Asana’s fascinating Tab shortcuts",
       "url": "https://unsung.aresluna.org/asanas-fascinating-tab-shortcuts/",
       "discuss_url": "https://lobste.rs/s/nybi13",
-      "score": 3,
-      "comments": 0,
+      "score": 4,
+      "comments": 1,
       "author": "mtlynch",
       "published": "2026-08-03T20:18:36Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Use Task Runners for Common Coding Tasks",
+      "url": "https://hamvocke.com/blog/task-runners/",
+      "discuss_url": "https://lobste.rs/s/pcry26",
+      "score": 2,
+      "comments": 3,
+      "author": "olex",
+      "published": "2026-08-03T20:59:35Z"
     },
     {
       "source": "lobsters",
@@ -281,7 +293,7 @@
       "url": "https://var0.xyz/posts/retries-dont-fix-eventual-consistency.html",
       "discuss_url": "https://lobste.rs/s/t0cn1z",
       "score": 12,
-      "comments": 0,
+      "comments": 2,
       "author": "var0xyz",
       "published": "2026-08-03T08:36:37Z"
     },
@@ -317,21 +329,9 @@
       "url": "https://blog.exe.dev/billable-facts",
       "discuss_url": "https://lobste.rs/s/ri8bav",
       "score": 34,
-      "comments": 20,
+      "comments": 21,
       "author": "mtlynch",
       "published": "2026-07-31T10:36:22Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Use Task Runners for Common Coding Tasks",
-      "url": "https://hamvocke.com/blog/task-runners/",
-      "discuss_url": "https://lobste.rs/s/pcry26",
-      "score": 1,
-      "comments": 0,
-      "author": "olex",
-      "published": "2026-08-03T20:59:35Z"
     },
     {
       "source": "lobsters",
@@ -397,6 +397,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Arch Linux disables AUR package adoption",
+      "url": "https://lwn.net/Articles/1086489/",
+      "discuss_url": "https://lobste.rs/s/0mixjj",
+      "score": 37,
+      "comments": 11,
+      "author": "Levitating",
+      "published": "2026-07-31T22:03:47Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "The rooting, firmware analysis and hardcoded, reset-persistent credentials of the TP-Link TL-841N",
       "url": "https://blog.juni-mp4.com/posts/42/rooting-the-tplink-tl841n-pt1/",
       "discuss_url": "https://lobste.rs/s/pwarxx",
@@ -404,18 +416,6 @@
       "comments": 1,
       "author": "raymii",
       "published": "2026-08-02T18:32:34Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Arch Linux disables AUR package adoption",
-      "url": "https://lwn.net/Articles/1086489/",
-      "discuss_url": "https://lobste.rs/s/0mixjj",
-      "score": 37,
-      "comments": 10,
-      "author": "Levitating",
-      "published": "2026-07-31T22:03:47Z"
     },
     {
       "source": "lobsters",
@@ -493,6 +493,18 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
+      "url": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
+      "discuss_url": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-08-04T07:00:13Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
       "url": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
       "discuss_url": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
@@ -524,18 +536,6 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-08-03T16:15:13Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
-      "url": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
-      "discuss_url": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-03T14:03:11Z"
     },
     {
       "source": "lobsters",
