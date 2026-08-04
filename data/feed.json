@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T19:42:45Z",
+  "updated_at": "2026-08-04T02:49:44Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "SQLite Critical CVEs or LLM Slop?",
-      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49154332",
-      "score": 670,
-      "comments": 307,
-      "author": "ymir_e",
-      "published": "2026-08-03T11:28:54Z",
+      "title": "LLMs reward expertise",
+      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49161518",
+      "score": 503,
+      "comments": 222,
+      "author": "MaxMussio",
+      "published": "2026-08-03T21:13:53Z",
       "bullets": [
-        "Automated LLM vulnerability scanners are flooding open-source maintainers like SQLite with low-quality, AI-generated CVE reports and false positives.",
-        "Security teams using LLMs for automated bug hunting must implement human-in-the-loop validation to avoid submitting unverified security alerts.",
-        "Hallucinated vulnerabilities from AI code auditors create maintainer fatigue, highlighting the limits of uncalibrated LLM security analysis."
+        "Domain experts leverage fine-grained system prompts, few-shot examples, and exact technical constraints to maximize output quality from models like Claude 3.5.",
+        "Evaluating LLM output requires deep subject-matter expertise to detect subtle hallucinations, security vulnerabilities, and logic flaws in generated code.",
+        "Maximizing LLM utility requires architecting advanced RAG pipelines, fine-tuning, and domain-specific benchmarks rather than relying on simple out-of-the-box prompts."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/foxgva",
       "discuss_url": "https://lobste.rs/s/foxgva",
-      "score": 8,
-      "comments": 3,
+      "score": 10,
+      "comments": 9,
       "author": "caius",
       "published": "2026-08-03T15:41:38Z",
       "bullets": [
-        "Weekly community threads on Lobsters enable engineers to showcase side projects, gather peer feedback, and discover emerging open-source software tools.",
-        "Common updates center on system-level programming in Rust or Go, custom CLI development, and home lab infrastructure management.",
-        "Asynchronous developer check-ins provide visibility into self-directed learning, refactoring efforts, and personal technical debt reduction outside workplace sprints."
+        "Lobsters weekly threads provide visibility into developer workflows, active open-source maintenance, and experimental side projects.",
+        "Key community themes focus on balancing technical debt refactoring, CI/CD pipeline optimization, and new feature implementation.",
+        "Prioritizing scheduled downtime and workload pacing is emphasized to prevent developer burnout during heavy release cycles."
       ]
     },
     {
@@ -76,43 +76,43 @@
       "author": "raymii",
       "published": "2026-08-02T18:32:34Z",
       "bullets": [
-        "Firmware reverse-engineering of the TP-Link TL-841N router enables hardware-level access and root shell exploitation via local debug interfaces.",
-        "Static binary analysis revealed hardcoded backdoor credentials stored directly within the router's embedded Linux image file system.",
-        "Discovered backdoor credentials persist across standard factory resets because they reside in non-volatile, read-only flash partitions."
+        "The rooting, firmware analysis and hardcoded, reset-persistent credentials of the TP-Link TL-841N",
+        "Trending on lobste.rs/security — 10 points, 1 comments.",
+        "Submitted by raymii on lobste.rs/security."
       ]
     },
     {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "AWS Transform for full-stack Windows modernization now supports offline schema transformation to Aurora PostgreSQL",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-windows-sql-schema-aurora",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-windows-sql-schema-aurora",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-03T15:00:00Z",
+      "title": "Sovereign Tech Fellowship for Rust maintenance (June-July 2026 report)",
+      "url": "https://kobzol.github.io/rust/2026/08/03/stf-june-july-2026.html",
+      "discuss_url": "https://lobste.rs/s/0zr9wr",
+      "score": 1,
+      "comments": 0,
+      "author": "BD103",
+      "published": "2026-08-03T23:14:27Z",
       "bullets": [
-        "AWS Transform now supports offline SQL Server-to-Aurora PostgreSQL migration via uploaded DDL files without requiring live database connections.",
-        "Powered by AWS DMS, an agentic workflow automatically converts stored procedures, functions, and schemas while validating functional equivalence.",
-        "The feature refactors dependent .NET applications, automatically updating connection strings, ADO.NET, and Entity Framework code for PostgreSQL compatibility."
+        "Sovereign Tech Fellowship for Rust maintenance (June-July 2026 report)",
+        "Trending on lobste.rs/devops — 1 points, 0 comments.",
+        "Submitted by BD103 on lobste.rs/devops."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "2026 Volkswagen Jetta Sport: The cheap car isn't completely extinct yet",
-      "url": "https://arstechnica.com/cars/2026/08/2026-volkswagen-jetta-sport-the-cheap-car-isnt-completely-extinct-yet/",
-      "discuss_url": "https://arstechnica.com/cars/2026/08/2026-volkswagen-jetta-sport-the-cheap-car-isnt-completely-extinct-yet/",
+      "title": "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own",
+      "url": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
+      "discuss_url": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
       "score": null,
       "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-08-03T16:10:22Z",
+      "author": "Jeremy Hsu",
+      "published": "2026-08-03T22:11:39Z",
       "bullets": [
-        "Volkswagen's 2026 Jetta Sport starts at $25,305, serving as a rare low-cost option in an inflating automotive market.",
-        "Entry-level pricing forces strict hardware trade-offs, limiting high-end driver-assist systems (ADAS) and modern connected infotainment features.",
-        "Automotive OEMs are shifting investments toward higher-margin EVs and software-defined platforms, squeezing traditional budget ICE vehicle lineups."
+        "$100 million deal gives 50,000 Ukrainian drones US-developed AI capabilities.",
+        "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own",
+        "Submitted by Jeremy Hsu on arstechnica.com."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "LLMs reward expertise",
+      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49161518",
+      "score": 503,
+      "comments": 222,
+      "author": "MaxMussio",
+      "published": "2026-08-03T21:13:53Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "SQLite Critical CVEs or LLM Slop?",
       "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
       "discuss_url": "https://news.ycombinator.com/item?id=49154332",
-      "score": 670,
-      "comments": 307,
+      "score": 700,
+      "comments": 352,
       "author": "ymir_e",
       "published": "2026-08-03T11:28:54Z"
     },
@@ -136,8 +148,8 @@
       "title": "Prevent cognitive debt by manually retyping LLM-generated code",
       "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
       "discuss_url": "https://news.ycombinator.com/item?id=49153374",
-      "score": 315,
-      "comments": 267,
+      "score": 398,
+      "comments": 337,
       "author": "mpweiher",
       "published": "2026-08-03T09:32:07Z"
     },
@@ -148,8 +160,8 @@
       "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
       "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
       "discuss_url": "https://news.ycombinator.com/item?id=49150561",
-      "score": 202,
-      "comments": 101,
+      "score": 205,
+      "comments": 105,
       "author": "JSR_FDED",
       "published": "2026-08-03T02:30:30Z"
     },
@@ -176,6 +188,18 @@
       "comments": 0,
       "author": "markerz",
       "published": "2026-08-03T17:45:39Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Categorization with NLP",
+      "url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/en/",
+      "discuss_url": "https://lobste.rs/s/vyy2jf",
+      "score": 1,
+      "comments": 0,
+      "author": "isagalaev",
+      "published": "2026-08-03T17:11:41Z"
     },
     {
       "source": "lobsters",
@@ -232,10 +256,22 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/foxgva",
       "discuss_url": "https://lobste.rs/s/foxgva",
-      "score": 8,
-      "comments": 3,
+      "score": 10,
+      "comments": 9,
       "author": "caius",
       "published": "2026-08-03T15:41:38Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Asana’s fascinating Tab shortcuts",
+      "url": "https://unsung.aresluna.org/asanas-fascinating-tab-shortcuts/",
+      "discuss_url": "https://lobste.rs/s/nybi13",
+      "score": 3,
+      "comments": 0,
+      "author": "mtlynch",
+      "published": "2026-08-03T20:18:36Z"
     },
     {
       "source": "lobsters",
@@ -244,7 +280,7 @@
       "title": "Retries don't fix eventual consistency",
       "url": "https://var0.xyz/posts/retries-dont-fix-eventual-consistency.html",
       "discuss_url": "https://lobste.rs/s/t0cn1z",
-      "score": 9,
+      "score": 12,
       "comments": 0,
       "author": "var0xyz",
       "published": "2026-08-03T08:36:37Z"
@@ -256,7 +292,7 @@
       "title": "Guarded methods in OCaml",
       "url": "https://xvw.lol/en/articles/oop-refl.html",
       "discuss_url": "https://lobste.rs/s/ki0ge3",
-      "score": 16,
+      "score": 17,
       "comments": 6,
       "author": "xvw",
       "published": "2026-08-02T13:03:14Z"
@@ -284,6 +320,18 @@
       "comments": 20,
       "author": "mtlynch",
       "published": "2026-07-31T10:36:22Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Use Task Runners for Common Coding Tasks",
+      "url": "https://hamvocke.com/blog/task-runners/",
+      "discuss_url": "https://lobste.rs/s/pcry26",
+      "score": 1,
+      "comments": 0,
+      "author": "olex",
+      "published": "2026-08-03T20:59:35Z"
     },
     {
       "source": "lobsters",
@@ -346,30 +394,6 @@
       "published": "2026-07-29T16:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Disrupting supply chain attacks on npm and GitHub Actions",
-      "url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
-      "discuss_url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
-      "score": null,
-      "comments": null,
-      "author": "Greg Ose",
-      "published": "2026-07-28T16:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "Dispatches from O'Reilly: The best risk mitigation strategy in data? A single source of truth​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍‌‌​﻿​﻿​﻿​​‌‍​‍​﻿‌‍‌‍‌‌‌‍​‍​‍﻿‌​﻿‌‌​﻿‌​‌‍‌​​﻿​​​‍﻿‌​﻿‌​​﻿‌﻿​﻿‍‌‌‍‌‌​‍﻿‌‌‍​‍‌‍​‌‌‍​‍​﻿​﻿​‍﻿‌​﻿‌﻿​﻿​‌​﻿​﻿​﻿‍‌‌‍​‌​﻿‍‌‌‍​‍​﻿​﻿​﻿‌﻿‌‍‌​‌‍​﻿​﻿‌‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍‌‌​﻿​﻿​﻿​​‌‍​‍​﻿‌‍‌‍‌‌‌‍​‍​‍﻿‌​﻿‌‌​﻿‌​‌‍‌​​﻿​​​‍﻿‌​﻿‌​​﻿‌﻿​﻿‍‌‌‍‌‌​‍﻿‌‌‍​‍‌‍​‌‌‍​‍​﻿​﻿​‍﻿‌​﻿‌﻿​﻿​‌​﻿​﻿​﻿‍‌‌‍​‌​﻿‍‌‌‍​‍​﻿​﻿​﻿‌﻿‌‍‌​‌‍​﻿​﻿‌‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "url": "https://stackoverflow.blog/2026/07/31/dispatches-from-o-reilly-the-best-risk-mitigation-strategy-in-data-a-single-source-of-truth/",
-      "discuss_url": "https://stackoverflow.blog/2026/07/31/dispatches-from-o-reilly-the-best-risk-mitigation-strategy-in-data-a-single-source-of-truth/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Arendt",
-      "published": "2026-07-31T14:08:31Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
@@ -389,7 +413,7 @@
       "url": "https://lwn.net/Articles/1086489/",
       "discuss_url": "https://lobste.rs/s/0mixjj",
       "score": 37,
-      "comments": 9,
+      "comments": 10,
       "author": "Levitating",
       "published": "2026-07-31T22:03:47Z"
     },
@@ -514,6 +538,114 @@
       "published": "2026-08-03T14:03:11Z"
     },
     {
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "Sovereign Tech Fellowship for Rust maintenance (June-July 2026 report)",
+      "url": "https://kobzol.github.io/rust/2026/08/03/stf-june-july-2026.html",
+      "discuss_url": "https://lobste.rs/s/0zr9wr",
+      "score": 1,
+      "comments": 0,
+      "author": "BD103",
+      "published": "2026-08-03T23:14:27Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Transform continuous modernization is now generally available",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-continuous-general-available",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-continuous-general-available",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-03T21:15:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now support 1 million token context windows on Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/gpt-sol-terra-luna-long-context-bedrock",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/gpt-sol-terra-luna-long-context-bedrock",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-03T21:03:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon GameLift Streams now supports sharing streams with stream URLs",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-gamelift-streams/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-gamelift-streams/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-03T20:24:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Resilience Hub now provides recommended resilience tests",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-resilience-hub/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-resilience-hub/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-03T19:02:58Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Organizations now provides maximum account quota visibility in Service Quotas",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-organizations/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-organizations/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-03T18:54:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Lambda Provisioned Mode for Amazon SQS event source mappings now supports up to 10,000 event pollers",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-Lambda-provisioned-sqs-esm-max-pollers/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-Lambda-provisioned-sqs-esm-max-pollers/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-03T18:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 I7i instances now available in Asia Pacific (Thailand) and Israel (Tel Aviv) Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i7i-instances-in-additional-regions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i7i-instances-in-additional-regions/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-03T17:28:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon SageMaker AI serverless model customization now supports full fine-tuning",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker-fft",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker-fft",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-03T17:00:00Z"
+    },
+    {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
@@ -551,111 +683,51 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Aurora DSQL adds multi-Region cluster support in four more Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own",
+      "url": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
+      "discuss_url": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-31T18:00:00Z"
+      "author": "Jeremy Hsu",
+      "published": "2026-08-03T22:11:39Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon RDS for Oracle now offers Reserved Instances for R8i and M8i instances",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-r8i-m8i/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-r8i-m8i/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Research roundup: 6 cool science stories we almost missed",
+      "url": "https://arstechnica.com/science/2026/08/research-roundup-6-cool-science-stories-we-almost-missed-5/",
+      "discuss_url": "https://arstechnica.com/science/2026/08/research-roundup-6-cool-science-stories-we-almost-missed-5/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-31T15:00:00Z"
+      "author": "Jennifer Ouellette",
+      "published": "2026-08-03T20:13:37Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Lego deploys Hubble Space Telescope as detailed desktop model",
+      "url": "https://arstechnica.com/space/2026/08/lego-deploys-hubble-space-telescope-as-detailed-desktop-model/",
+      "discuss_url": "https://arstechnica.com/space/2026/08/lego-deploys-hubble-space-telescope-as-detailed-desktop-model/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-31T14:00:00Z"
+      "author": "Robert Pearlman",
+      "published": "2026-08-03T19:21:16Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it",
+      "url": "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
+      "discuss_url": "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-31T14:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon CloudWatch announces managed Prometheus collectors",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-managed-collectors/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-managed-collectors/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-31T13:06:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS CodeDeploy now available in five additional AWS regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codedeploy-five-additional-regions",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codedeploy-five-additional-regions",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-31T10:54:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Web Services now introduces Context Ontology Accelerator",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-context--ontology-accelarator-generally-available",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-context--ontology-accelarator-generally-available",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-31T10:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 C7i-flex instances now available in Europe (Milan) region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7i-flex-instances-MXP-region/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7i-flex-instances-MXP-region/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-31T00:21:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 C7i instances now available in additional regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7i-instances-mxp-yyc-region/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7i-instances-mxp-yyc-region/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-07-31T00:17:00Z"
+      "author": "Nate Anderson",
+      "published": "2026-08-03T19:00:50Z"
     },
     {
       "source": "rss",
@@ -752,54 +824,6 @@
       "comments": null,
       "author": "Cyrus Farivar",
       "published": "2026-08-01T11:30:54Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Defcon's new badge is a security key you can see inside",
-      "url": "https://arstechnica.com/security/2026/08/defcons-new-badge-is-a-security-key-you-can-see-inside/",
-      "discuss_url": "https://arstechnica.com/security/2026/08/defcons-new-badge-is-a-security-key-you-can-see-inside/",
-      "score": null,
-      "comments": null,
-      "author": "Kim Zetter, wired.com",
-      "published": "2026-08-01T10:05:21Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "How fruit flies chase invisible ribbons of smell to get to their source",
-      "url": "https://arstechnica.com/science/2026/08/how-fruit-flies-chase-invisible-ribbons-of-smell-to-get-to-their-source/",
-      "discuss_url": "https://arstechnica.com/science/2026/08/how-fruit-flies-chase-invisible-ribbons-of-smell-to-get-to-their-source/",
-      "score": null,
-      "comments": null,
-      "author": "Jacek Krywko",
-      "published": "2026-08-01T10:00:19Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Not just Neanderthals: Ghost lineage in Africa left its mark on our DNA",
-      "url": "https://arstechnica.com/science/2026/07/not-just-neanderthals-ghost-lineage-in-africa-left-its-mark-on-our-dna/",
-      "discuss_url": "https://arstechnica.com/science/2026/07/not-just-neanderthals-ghost-lineage-in-africa-left-its-mark-on-our-dna/",
-      "score": null,
-      "comments": null,
-      "author": "John Timmer",
-      "published": "2026-07-31T22:17:05Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Doctors took a look at man's painful shoulder—they found the joint was missing",
-      "url": "https://arstechnica.com/health/2026/07/doctors-took-a-look-at-mans-painful-shoulder-they-found-the-joint-was-missing/",
-      "discuss_url": "https://arstechnica.com/health/2026/07/doctors-took-a-look-at-mans-painful-shoulder-they-found-the-joint-was-missing/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-07-31T21:51:52Z"
     }
   ]
 }
