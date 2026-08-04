@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T14:23:52Z",
+  "updated_at": "2026-08-04T19:42:34Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "LLMs reward expertise",
-      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49161518",
-      "score": 1137,
-      "comments": 479,
-      "author": "MaxMussio",
-      "published": "2026-08-03T21:13:53Z",
+      "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+      "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49170479",
+      "score": 221,
+      "comments": 166,
+      "author": "thewebguyd",
+      "published": "2026-08-04T15:37:42Z",
       "bullets": [
-        "Domain experts extract significantly higher utility from frontier models like Claude 3.5 Sonnet through precise prompt framing and hallucination detection.",
-        "Senior engineers use LLMs to accelerate complex refactoring and architecture, whereas non-experts struggle to validate subtle code flaws.",
-        "Maximizing AI productivity requires expert-led prompt engineering, domain-specific evaluation benchmarks, and strict human-in-the-loop verification."
+        "Talent poaching between Apple and OpenAI highlights growing insider threat and IP exfiltration risks targeting proprietary AI research.",
+        "Trade secret allegations could trigger strict IP audits on OpenAI's training datasets, model architectures, and internal codebases.",
+        "AI organizations must implement strict data loss prevention (DLP) and forensic egress monitoring for departing engineering talent."
       ]
     },
     {
@@ -59,26 +59,26 @@
       "author": "caius",
       "published": "2026-08-03T15:41:38Z",
       "bullets": [
-        "Engineers share updates on low-level Rust and Go projects, emphasizing memory efficiency, CLI tooling, and compiler optimization work.",
-        "Community members report refactoring CI/CD pipelines, modernizing Docker builds, and managing reproducible dev environments with Nix.",
-        "Discussions cover backend performance tuning, embedded database integration with SQLite, and building local-first architecture sync mechanisms."
+        "Lobsters hosts a weekly developer check-in thread to share active software projects, infrastructure experiments, and technical learning.",
+        "Community members discuss ongoing work spanning systems engineering, open-source tool development, language learning, and personal projects.",
+        "The discussion provides visibility into real-world developer workflows, emerging tooling choices, and practical engineering challenges."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Arch Linux disables AUR package adoption",
-      "url": "https://lwn.net/Articles/1086489/",
-      "discuss_url": "https://lobste.rs/s/0mixjj",
-      "score": 37,
-      "comments": 11,
-      "author": "Levitating",
-      "published": "2026-07-31T22:03:47Z",
+      "title": "Security is Hard, Y’all",
+      "url": "https://textslashplain.com/2026/08/04/security-is-hard-yall/",
+      "discuss_url": "https://lobste.rs/s/qoptbx",
+      "score": 6,
+      "comments": 0,
+      "author": "kevincox",
+      "published": "2026-08-04T18:31:48Z",
       "bullets": [
-        "Orphaned Arch User Repository (AUR) packages posed severe supply chain risks through unvetted maintainer takeovers and malicious payload injection.",
-        "Self-service package adoption is now suspended on AUR to enforce strict administrative oversight before transferring maintainership.",
-        "DevOps and security teams should audit software pipelines for unmaintained AUR dependencies and evaluate internal build integrity."
+        "Secure defaults and automated guardrails outweigh manual code reviews in preventing pervasive infrastructure and application vulnerabilities.",
+        "Migrating legacy C/C++ components to memory-safe languages like Rust significantly eliminates entire classes of critical CVEs.",
+        "Implementing zero-trust architecture with short-lived tokens reduces blast radius when static API keys or credentials inevitably leak."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Tests for a PDF",
       "url": "https://blog.lvmbdv.dev/posts/tests-for-a-pdf/",
       "discuss_url": "https://lobste.rs/s/98zvnf",
-      "score": 9,
-      "comments": 0,
+      "score": 12,
+      "comments": 2,
       "author": "lvmbdv",
       "published": "2026-08-04T10:23:57Z",
       "bullets": [
-        "Integrate visual regression testing into CI using tools like ImageMagick or Playwright to detect subtle PDF layout and rendering regressions.",
-        "Automate content and metadata validation in build pipelines via pdftotext or PyPDF to ensure correct dynamic data injection.",
-        "Enforce PDF/UA accessibility and structural standards automatically using CLI validators like veraPDF during automated deployment stages."
+        "Automate visual regression testing using PDF.js or ImageMagick to catch layout and pixel-rendering regressions in CI/CD pipelines.",
+        "Validate structural integrity, text content, and metadata programmatically using extraction engines like pdfminer, Apache Tika, or Poppler.",
+        "Incorporate compliance and accessibility checks (e.g., PDF/A standards) into build pipelines using specialized validators like VeraPDF."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own",
-      "url": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
-      "discuss_url": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
+      "title": "China is Tesla's cash cow, but for how much longer?",
+      "url": "https://arstechnica.com/cars/2026/08/china-is-teslas-cash-cow-but-for-how-much-longer/",
+      "discuss_url": "https://arstechnica.com/cars/2026/08/china-is-teslas-cash-cow-but-for-how-much-longer/",
       "score": null,
       "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-08-03T22:11:39Z",
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-08-04T17:34:48Z",
       "bullets": [
-        "A $100M deal equips 50,000 Ukrainian kamikaze drones with US-developed AI for autonomous target tracking.",
-        "On-device AI vision enables low-cost strike drones to complete terminal engagements despite heavy electronic warfare and signal jamming.",
-        "The deployment demonstrates rapid, large-scale integration of commercial AI software onto low-cost, expendable military hardware."
+        "Tesla's Shanghai Gigafactory drives peak production, but rising geopolitical risks and local EV competition threaten its strategic future.",
+        "Domestic rivals like BYD are eroding Tesla’s Chinese market share with lower-cost EVs and aggressive local software integration.",
+        "Potential decoupling from Chinese manufacturing risks major supply chain disruptions and margin compression for Tesla’s global operations."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+      "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49170479",
+      "score": 221,
+      "comments": 166,
+      "author": "thewebguyd",
+      "published": "2026-08-04T15:37:42Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "LLMs reward expertise",
       "url": "https://www.seangoedecke.com/llms-reward-expertise/",
       "discuss_url": "https://news.ycombinator.com/item?id=49161518",
-      "score": 1137,
-      "comments": 479,
+      "score": 1286,
+      "comments": 533,
       "author": "MaxMussio",
       "published": "2026-08-03T21:13:53Z"
     },
@@ -136,8 +148,8 @@
       "title": "SQLite Critical CVEs or LLM Slop?",
       "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
       "discuss_url": "https://news.ycombinator.com/item?id=49154332",
-      "score": 715,
-      "comments": 366,
+      "score": 719,
+      "comments": 371,
       "author": "ymir_e",
       "published": "2026-08-03T11:28:54Z"
     },
@@ -148,22 +160,10 @@
       "title": "Prevent cognitive debt by manually retyping LLM-generated code",
       "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
       "discuss_url": "https://news.ycombinator.com/item?id=49153374",
-      "score": 509,
-      "comments": 421,
+      "score": 518,
+      "comments": 432,
       "author": "mpweiher",
       "published": "2026-08-03T09:32:07Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "No Meat Proxy",
-      "url": "https://nomeatproxy.com/",
-      "discuss_url": "https://lobste.rs/s/jtgaol",
-      "score": 4,
-      "comments": 0,
-      "author": "kamila",
-      "published": "2026-08-04T12:55:43Z"
     },
     {
       "source": "hackernews",
@@ -172,7 +172,7 @@
       "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
       "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
       "discuss_url": "https://news.ycombinator.com/item?id=49150561",
-      "score": 206,
+      "score": 210,
       "comments": 106,
       "author": "JSR_FDED",
       "published": "2026-08-03T02:30:30Z"
@@ -202,18 +202,6 @@
       "published": "2026-08-03T18:10:54Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Why we write our own C and C++ inference engines",
-      "url": "https://localai.io/blog/why-we-write-our-own-engines/",
-      "discuss_url": "https://lobste.rs/s/t7zdif",
-      "score": 2,
-      "comments": 5,
-      "author": "eatonphil",
-      "published": "2026-07-31T16:17:44Z"
-    },
-    {
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
@@ -236,18 +224,6 @@
       "comments": null,
       "author": null,
       "published": "2026-07-30T15:09:09Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
-      "discuss_url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-28T16:27:42Z"
     },
     {
       "source": "lobsters",
@@ -293,7 +269,7 @@
       "url": "https://hamvocke.com/blog/task-runners/",
       "discuss_url": "https://lobste.rs/s/pcry26",
       "score": 2,
-      "comments": 6,
+      "comments": 8,
       "author": "olex",
       "published": "2026-08-03T20:59:35Z"
     },
@@ -304,7 +280,7 @@
       "title": "Asana’s fascinating Tab shortcuts",
       "url": "https://unsung.aresluna.org/asanas-fascinating-tab-shortcuts/",
       "discuss_url": "https://lobste.rs/s/nybi13",
-      "score": 4,
+      "score": 5,
       "comments": 1,
       "author": "mtlynch",
       "published": "2026-08-03T20:18:36Z"
@@ -322,16 +298,28 @@
       "published": "2026-08-02T13:03:14Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
+      "source": "rss",
+      "subsource": "github.blog",
       "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/won0b2",
-      "discuss_url": "https://lobste.rs/s/won0b2",
-      "score": 20,
-      "comments": 41,
-      "author": "caius",
-      "published": "2026-07-31T17:26:21Z"
+      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
+      "score": null,
+      "comments": null,
+      "author": "Bria Ford",
+      "published": "2026-08-04T19:02:34Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Turn one giant AI-generated pull request to a reviewable stack",
+      "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+      "discuss_url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+      "score": null,
+      "comments": null,
+      "author": "Julia Muiruri",
+      "published": "2026-08-04T16:47:18Z"
     },
     {
       "source": "rss",
@@ -371,18 +359,6 @@
     },
     {
       "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Disrupting supply chain attacks on npm and GitHub Actions",
-      "url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
-      "discuss_url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
-      "score": null,
-      "comments": null,
-      "author": "Greg Ose",
-      "published": "2026-07-28T16:00:00Z"
-    },
-    {
-      "source": "rss",
       "subsource": "stackoverflow.blog",
       "category": "engineering",
       "title": "Your MVP doesn’t need a Kubernetes cluster​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿​‌‌‍‌‌​﻿​﻿‌‍​﻿​﻿‌‌‌‍‌‌​﻿​﻿​‍﻿‌​﻿​‌​﻿​‌‌‍​‍​﻿‌‌​‍﻿‌​﻿‌​‌‍​‌​﻿​‍​﻿​​​‍﻿‌​﻿‍​​﻿‌‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍‌​​﻿‍‌‌‍‌‍​﻿​﻿​﻿‍​​﻿​‍‌‍​‍​﻿​‍​﻿‍‌‌‍​﻿​﻿​‌‌‍​‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿​‌‌‍‌‌​﻿​﻿‌‍​﻿​﻿‌‌‌‍‌‌​﻿​﻿​‍﻿‌​﻿​‌​﻿​‌‌‍​‍​﻿‌‌​‍﻿‌​﻿‌​‌‍​‌​﻿​‍​﻿​​​‍﻿‌​﻿‍​​﻿‌‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍‌​​﻿‍‌‌‍‌‍​﻿​﻿​﻿‍​​﻿​‍‌‍​‍​﻿​‍​﻿‍‌‌‍​﻿​﻿​‌‌‍​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
@@ -404,6 +380,18 @@
       "comments": null,
       "author": "Jeremy Arendt",
       "published": "2026-07-31T14:08:31Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Security is Hard, Y’all",
+      "url": "https://textslashplain.com/2026/08/04/security-is-hard-yall/",
+      "discuss_url": "https://lobste.rs/s/qoptbx",
+      "score": 6,
+      "comments": 0,
+      "author": "kevincox",
+      "published": "2026-08-04T18:31:48Z"
     },
     {
       "source": "lobsters",
@@ -505,6 +493,18 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
+      "url": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
+      "discuss_url": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-08-04T17:27:39Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks",
       "url": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
       "discuss_url": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
@@ -526,38 +526,14 @@
       "published": "2026-08-04T13:11:22Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
-      "url": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
-      "discuss_url": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-04T11:30:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
-      "url": "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
-      "discuss_url": "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-04T11:16:23Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "Tests for a PDF",
       "url": "https://blog.lvmbdv.dev/posts/tests-for-a-pdf/",
       "discuss_url": "https://lobste.rs/s/98zvnf",
-      "score": 9,
-      "comments": 0,
+      "score": 12,
+      "comments": 2,
       "author": "lvmbdv",
       "published": "2026-08-04T10:23:57Z"
     },
@@ -572,6 +548,30 @@
       "comments": 0,
       "author": "BD103",
       "published": "2026-08-03T23:14:27Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 I8g instances now available in AWS Europe (Paris), Asia Pacific (Jakarta) regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i8g-instances-aws-paris-jakarta-regions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i8g-instances-aws-paris-jakarta-regions/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-04T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon RDS for SQL Server now support BYOM in additional commercial regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-byom-in-additional-aws-regions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-byom-in-additional-aws-regions/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-04T07:00:00Z"
     },
     {
       "source": "rss",
@@ -671,27 +671,75 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Transform for full-stack Windows modernization now supports offline schema transformation to Aurora PostgreSQL",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-windows-sql-schema-aurora",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-windows-sql-schema-aurora",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "China is Tesla's cash cow, but for how much longer?",
+      "url": "https://arstechnica.com/cars/2026/08/china-is-teslas-cash-cow-but-for-how-much-longer/",
+      "discuss_url": "https://arstechnica.com/cars/2026/08/china-is-teslas-cash-cow-but-for-how-much-longer/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-03T15:00:00Z"
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-08-04T17:34:48Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS WAF now supports Miggo Security managed rule groups for emerging threats and AI/ML application protection",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-waf-miggo-managed-rule-groups",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-waf-miggo-managed-rule-groups",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "The Pixel 11's \"glow\" feature is actually called HiLight—here's what it does",
+      "url": "https://arstechnica.com/gadgets/2026/08/the-pixel-11s-glow-feature-is-actually-called-hilight-heres-what-it-does/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/08/the-pixel-11s-glow-feature-is-actually-called-hilight-heres-what-it-does/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-03T15:00:00Z"
+      "author": "Ryan Whitwam",
+      "published": "2026-08-04T16:11:05Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Tom DeLay helped create TV ownership cap—he says Trump FCC has no authority to repeal it",
+      "url": "https://arstechnica.com/tech-policy/2026/08/can-trump-fcc-repeal-39-tv-ownership-cap-republican-who-wrote-cap-into-law-says-no/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/can-trump-fcc-repeal-39-tv-ownership-cap-republican-who-wrote-cap-into-law-says-no/",
+      "score": null,
+      "comments": null,
+      "author": "Jon Brodkin",
+      "published": "2026-08-04T15:51:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Trump admin \"aware\" of deaths in explosive diarrhea outbreak, delays reporting",
+      "url": "https://arstechnica.com/health/2026/08/trump-admin-aware-of-deaths-in-explosive-diarrhea-outbreak-delays-reporting/",
+      "discuss_url": "https://arstechnica.com/health/2026/08/trump-admin-aware-of-deaths-in-explosive-diarrhea-outbreak-delays-reporting/",
+      "score": null,
+      "comments": null,
+      "author": "Beth Mole",
+      "published": "2026-08-04T15:06:07Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "2027 Chevrolet Corvette Grand Sport X proves code is as important as hardware",
+      "url": "https://arstechnica.com/cars/2026/08/2027-chevrolet-corvette-grand-sport-x-proves-code-is-as-important-as-hardware/",
+      "discuss_url": "https://arstechnica.com/cars/2026/08/2027-chevrolet-corvette-grand-sport-x-proves-code-is-as-important-as-hardware/",
+      "score": null,
+      "comments": null,
+      "author": "Tim Stevens",
+      "published": "2026-08-04T14:45:08Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "OpenAI says Apple's trade secrets lawsuit is \"aggressive and oddly personal\"",
+      "url": "https://arstechnica.com/tech-policy/2026/08/openai-says-apples-trade-secrets-lawsuit-is-aggressive-and-oddly-personal/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/openai-says-apples-trade-secrets-lawsuit-is-aggressive-and-oddly-personal/",
+      "score": null,
+      "comments": null,
+      "author": "Jamie John, Financial Times",
+      "published": "2026-08-04T13:38:29Z"
     },
     {
       "source": "rss",
@@ -764,78 +812,6 @@
       "comments": null,
       "author": "Eric Berger",
       "published": "2026-08-03T14:41:46Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Trump wants the power to stop the public from suing polluters",
-      "url": "https://arstechnica.com/tech-policy/2026/08/trump-wants-the-power-to-stop-the-public-from-suing-polluters/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/trump-wants-the-power-to-stop-the-public-from-suing-polluters/",
-      "score": null,
-      "comments": null,
-      "author": "Sarah J. Morath, The Conversation",
-      "published": "2026-08-03T13:33:56Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "How headlights got brighter, whiter, and more blinding after dark",
-      "url": "https://arstechnica.com/cars/2026/08/how-headlights-got-brighter-whiter-and-more-blinding-after-dark/",
-      "discuss_url": "https://arstechnica.com/cars/2026/08/how-headlights-got-brighter-whiter-and-more-blinding-after-dark/",
-      "score": null,
-      "comments": null,
-      "author": "Matthew MacConnell",
-      "published": "2026-08-03T11:00:11Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Here's how engineers plan to save the satellite sent to save NASA's Swift mission",
-      "url": "https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/",
-      "discuss_url": "https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-08-01T18:20:11Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Review: Yes, we're still arguing about Nolan's The Odyssey",
-      "url": "https://arstechnica.com/culture/2026/08/review-yes-were-still-arguing-about-nolans-the-odyssey/",
-      "discuss_url": "https://arstechnica.com/culture/2026/08/review-yes-were-still-arguing-about-nolans-the-odyssey/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-08-01T15:19:04Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews",
-      "url": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/",
-      "discuss_url": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/",
-      "score": null,
-      "comments": null,
-      "author": "Samuel Axon",
-      "published": "2026-08-01T12:30:36Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "After noise complaints, judge orders Waymo to stop overnight charging in Santa Monica",
-      "url": "https://arstechnica.com/tech-policy/2026/08/after-noise-complaints-judge-orders-waymo-to-stop-overnight-charging-in-santa-monica/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/after-noise-complaints-judge-orders-waymo-to-stop-overnight-charging-in-santa-monica/",
-      "score": null,
-      "comments": null,
-      "author": "Cyrus Farivar",
-      "published": "2026-08-01T11:30:54Z"
     }
   ]
 }
