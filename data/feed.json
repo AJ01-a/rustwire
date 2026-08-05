@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T19:42:34Z",
+  "updated_at": "2026-08-05T02:47:04Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
       "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
       "discuss_url": "https://news.ycombinator.com/item?id=49170479",
-      "score": 221,
-      "comments": 166,
+      "score": 338,
+      "comments": 252,
       "author": "thewebguyd",
       "published": "2026-08-04T15:37:42Z",
       "bullets": [
-        "Talent poaching between Apple and OpenAI highlights growing insider threat and IP exfiltration risks targeting proprietary AI research.",
-        "Trade secret allegations could trigger strict IP audits on OpenAI's training datasets, model architectures, and internal codebases.",
-        "AI organizations must implement strict data loss prevention (DLP) and forensic egress monitoring for departing engineering talent."
+        "Escalating IP disputes between Apple and OpenAI highlight severe insider threat risks driven by fierce competition for frontier AI talent.",
+        "Proprietary training datasets and model architectures represent core corporate IP, making rigorous endpoint DLP critical during employee offboarding.",
+        "AI labs face growing legal and operational scrutiny over trade secret contamination when onboarding key researchers from rival tech firms."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/foxgva",
-      "discuss_url": "https://lobste.rs/s/foxgva",
-      "score": 11,
-      "comments": 13,
-      "author": "caius",
-      "published": "2026-08-03T15:41:38Z",
+      "title": "irken: A tiny hackable full-featured IRC client",
+      "url": "https://codeberg.org/dlowe/irken",
+      "discuss_url": "https://lobste.rs/s/12aef8",
+      "score": 7,
+      "comments": 2,
+      "author": "dzwdz",
+      "published": "2026-08-04T20:30:17Z",
       "bullets": [
-        "Lobsters hosts a weekly developer check-in thread to share active software projects, infrastructure experiments, and technical learning.",
-        "Community members discuss ongoing work spanning systems engineering, open-source tool development, language learning, and personal projects.",
-        "The discussion provides visibility into real-world developer workflows, emerging tooling choices, and practical engineering challenges."
+        "Provides a minimalist, modular architecture designed for easy scripting, custom protocol hooks, and lightweight event-driven automation.",
+        "Implements standard IRC RFC primitives, TLS transport encryption, and SASL authentication without the overhead of heavy GUI frameworks.",
+        "Serves as an embeddable client for CLI environments, headless infrastructure monitoring, and customized operational ChatOps integrations."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Security is Hard, Y’all",
       "url": "https://textslashplain.com/2026/08/04/security-is-hard-yall/",
       "discuss_url": "https://lobste.rs/s/qoptbx",
-      "score": 6,
-      "comments": 0,
+      "score": 54,
+      "comments": 5,
       "author": "kevincox",
       "published": "2026-08-04T18:31:48Z",
       "bullets": [
-        "Secure defaults and automated guardrails outweigh manual code reviews in preventing pervasive infrastructure and application vulnerabilities.",
-        "Migrating legacy C/C++ components to memory-safe languages like Rust significantly eliminates entire classes of critical CVEs.",
-        "Implementing zero-trust architecture with short-lived tokens reduces blast radius when static API keys or credentials inevitably leak."
+        "Defender asymmetry requires securing complex API, IAM, and supply chain dependencies, whereas attackers require only a single misconfiguration or unpatched vulnerability.",
+        "Relying on single-layer defenses fails; robust security demands defense-in-depth, strict least-privilege access, automated dependency scanning, and proactive patch management.",
+        "Security controls must integrate seamlessly into CI/CD pipelines to maintain developer velocity without introducing bypasses or unmanaged shadow infrastructure."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Tests for a PDF",
       "url": "https://blog.lvmbdv.dev/posts/tests-for-a-pdf/",
       "discuss_url": "https://lobste.rs/s/98zvnf",
-      "score": 12,
-      "comments": 2,
+      "score": 16,
+      "comments": 3,
       "author": "lvmbdv",
       "published": "2026-08-04T10:23:57Z",
       "bullets": [
-        "Automate visual regression testing using PDF.js or ImageMagick to catch layout and pixel-rendering regressions in CI/CD pipelines.",
-        "Validate structural integrity, text content, and metadata programmatically using extraction engines like pdfminer, Apache Tika, or Poppler.",
-        "Incorporate compliance and accessibility checks (e.g., PDF/A standards) into build pipelines using specialized validators like VeraPDF."
+        "Tests for a PDF",
+        "Trending on lobste.rs/devops — 16 points, 3 comments.",
+        "Submitted by lvmbdv on lobste.rs/devops."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "China is Tesla's cash cow, but for how much longer?",
-      "url": "https://arstechnica.com/cars/2026/08/china-is-teslas-cash-cow-but-for-how-much-longer/",
-      "discuss_url": "https://arstechnica.com/cars/2026/08/china-is-teslas-cash-cow-but-for-how-much-longer/",
+      "title": "Senators demand crackdown on wildfire \"prediction markets\"",
+      "url": "https://arstechnica.com/tech-policy/2026/08/senators-demand-crackdown-on-wildfire-prediction-markets/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/senators-demand-crackdown-on-wildfire-prediction-markets/",
       "score": null,
       "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-08-04T17:34:48Z",
+      "author": "Cyrus Farivar",
+      "published": "2026-08-04T21:52:31Z",
       "bullets": [
-        "Tesla's Shanghai Gigafactory drives peak production, but rising geopolitical risks and local EV competition threaten its strategic future.",
-        "Domestic rivals like BYD are eroding Tesla’s Chinese market share with lower-cost EVs and aggressive local software integration.",
-        "Potential decoupling from Chinese manufacturing risks major supply chain disruptions and margin compression for Tesla’s global operations."
+        "Fire experts warn such markets could incentivize arson.",
+        "Senators demand crackdown on wildfire \"prediction markets\"",
+        "Submitted by Cyrus Farivar on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
       "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
       "discuss_url": "https://news.ycombinator.com/item?id=49170479",
-      "score": 221,
-      "comments": 166,
+      "score": 338,
+      "comments": 252,
       "author": "thewebguyd",
       "published": "2026-08-04T15:37:42Z"
     },
@@ -136,8 +136,8 @@
       "title": "LLMs reward expertise",
       "url": "https://www.seangoedecke.com/llms-reward-expertise/",
       "discuss_url": "https://news.ycombinator.com/item?id=49161518",
-      "score": 1286,
-      "comments": 533,
+      "score": 1330,
+      "comments": 553,
       "author": "MaxMussio",
       "published": "2026-08-03T21:13:53Z"
     },
@@ -148,8 +148,8 @@
       "title": "SQLite Critical CVEs or LLM Slop?",
       "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
       "discuss_url": "https://news.ycombinator.com/item?id=49154332",
-      "score": 719,
-      "comments": 371,
+      "score": 721,
+      "comments": 370,
       "author": "ymir_e",
       "published": "2026-08-03T11:28:54Z"
     },
@@ -160,22 +160,10 @@
       "title": "Prevent cognitive debt by manually retyping LLM-generated code",
       "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
       "discuss_url": "https://news.ycombinator.com/item?id=49153374",
-      "score": 518,
-      "comments": 432,
+      "score": 527,
+      "comments": 435,
       "author": "mpweiher",
       "published": "2026-08-03T09:32:07Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-      "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
-      "discuss_url": "https://news.ycombinator.com/item?id=49150561",
-      "score": 210,
-      "comments": 106,
-      "author": "JSR_FDED",
-      "published": "2026-08-03T02:30:30Z"
     },
     {
       "source": "lobsters",
@@ -241,6 +229,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "irken: A tiny hackable full-featured IRC client",
+      "url": "https://codeberg.org/dlowe/irken",
+      "discuss_url": "https://lobste.rs/s/12aef8",
+      "score": 7,
+      "comments": 2,
+      "author": "dzwdz",
+      "published": "2026-08-04T20:30:17Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/foxgva",
       "discuss_url": "https://lobste.rs/s/foxgva",
@@ -268,22 +268,10 @@
       "title": "Use Task Runners for Common Coding Tasks",
       "url": "https://hamvocke.com/blog/task-runners/",
       "discuss_url": "https://lobste.rs/s/pcry26",
-      "score": 2,
+      "score": 3,
       "comments": 8,
       "author": "olex",
       "published": "2026-08-03T20:59:35Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Asana’s fascinating Tab shortcuts",
-      "url": "https://unsung.aresluna.org/asanas-fascinating-tab-shortcuts/",
-      "discuss_url": "https://lobste.rs/s/nybi13",
-      "score": 5,
-      "comments": 1,
-      "author": "mtlynch",
-      "published": "2026-08-03T20:18:36Z"
     },
     {
       "source": "lobsters",
@@ -296,6 +284,18 @@
       "comments": 6,
       "author": "xvw",
       "published": "2026-08-02T13:03:14Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Asana’s fascinating Tab shortcuts",
+      "url": "https://unsung.aresluna.org/asanas-fascinating-tab-shortcuts/",
+      "discuss_url": "https://lobste.rs/s/nybi13",
+      "score": 5,
+      "comments": 1,
+      "author": "mtlynch",
+      "published": "2026-08-03T20:18:36Z"
     },
     {
       "source": "rss",
@@ -370,26 +370,14 @@
       "published": "2026-08-04T07:40:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "Dispatches from O'Reilly: The best risk mitigation strategy in data? A single source of truth​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍‌‌​﻿​﻿​﻿​​‌‍​‍​﻿‌‍‌‍‌‌‌‍​‍​‍﻿‌​﻿‌‌​﻿‌​‌‍‌​​﻿​​​‍﻿‌​﻿‌​​﻿‌﻿​﻿‍‌‌‍‌‌​‍﻿‌‌‍​‍‌‍​‌‌‍​‍​﻿​﻿​‍﻿‌​﻿‌﻿​﻿​‌​﻿​﻿​﻿‍‌‌‍​‌​﻿‍‌‌‍​‍​﻿​﻿​﻿‌﻿‌‍‌​‌‍​﻿​﻿‌‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍‌‌​﻿​﻿​﻿​​‌‍​‍​﻿‌‍‌‍‌‌‌‍​‍​‍﻿‌​﻿‌‌​﻿‌​‌‍‌​​﻿​​​‍﻿‌​﻿‌​​﻿‌﻿​﻿‍‌‌‍‌‌​‍﻿‌‌‍​‍‌‍​‌‌‍​‍​﻿​﻿​‍﻿‌​﻿‌﻿​﻿​‌​﻿​﻿​﻿‍‌‌‍​‌​﻿‍‌‌‍​‍​﻿​﻿​﻿‌﻿‌‍‌​‌‍​﻿​﻿‌‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "url": "https://stackoverflow.blog/2026/07/31/dispatches-from-o-reilly-the-best-risk-mitigation-strategy-in-data-a-single-source-of-truth/",
-      "discuss_url": "https://stackoverflow.blog/2026/07/31/dispatches-from-o-reilly-the-best-risk-mitigation-strategy-in-data-a-single-source-of-truth/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Arendt",
-      "published": "2026-07-31T14:08:31Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Security is Hard, Y’all",
       "url": "https://textslashplain.com/2026/08/04/security-is-hard-yall/",
       "discuss_url": "https://lobste.rs/s/qoptbx",
-      "score": 6,
-      "comments": 0,
+      "score": 54,
+      "comments": 5,
       "author": "kevincox",
       "published": "2026-08-04T18:31:48Z"
     },
@@ -397,13 +385,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Arch Linux disables AUR package adoption",
-      "url": "https://lwn.net/Articles/1086489/",
-      "discuss_url": "https://lobste.rs/s/0mixjj",
-      "score": 37,
-      "comments": 11,
-      "author": "Levitating",
-      "published": "2026-07-31T22:03:47Z"
+      "title": "Keyv and friends compromised in npm supply chain attack",
+      "url": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+      "discuss_url": "https://lobste.rs/s/krevdg",
+      "score": 3,
+      "comments": 0,
+      "author": "dbremner",
+      "published": "2026-08-04T19:42:46Z"
     },
     {
       "source": "lobsters",
@@ -433,18 +421,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "The Hidden CCS2 Attack Surface on EV Chargers",
-      "url": "https://www.saiflow.com/blog/the-hidden-ccs2-attack-surface-on-ev-chargers",
-      "discuss_url": "https://lobste.rs/s/ozfe71",
-      "score": 4,
-      "comments": 1,
-      "author": "df",
-      "published": "2026-07-31T22:43:40Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Patch In, Exploit Out: How deepsec Reconstructed the Pwn2Own Microsoft Edge Sandbox Escape",
       "url": "http://www.darknavy.org/blog/patch_in_exploit_out_how_deepsec_reconstructed_the_pwn2own_microsoft_edge_sandbox_escape/",
       "discuss_url": "https://lobste.rs/s/znf3q8",
@@ -464,18 +440,6 @@
       "comments": 0,
       "author": "fro",
       "published": "2026-08-01T19:26:58Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "OVSwrap: another Linux local root vulnerability",
-      "url": "https://heyitsas.im/posts/ovswrap/",
-      "discuss_url": "https://lobste.rs/s/dl0x6w",
-      "score": 2,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-08-01T02:33:19Z"
     },
     {
       "source": "rss",
@@ -526,14 +490,38 @@
       "published": "2026-08-04T13:11:22Z"
     },
     {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
+      "url": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
+      "discuss_url": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-08-04T11:30:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
+      "url": "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
+      "discuss_url": "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-08-04T11:16:23Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "Tests for a PDF",
       "url": "https://blog.lvmbdv.dev/posts/tests-for-a-pdf/",
       "discuss_url": "https://lobste.rs/s/98zvnf",
-      "score": 12,
-      "comments": 2,
+      "score": 16,
+      "comments": 3,
       "author": "lvmbdv",
       "published": "2026-08-04T10:23:57Z"
     },
@@ -553,6 +541,114 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "[Preview Announcement] Re-introducing Forward Proxy as AWS Network Firewall Functionality",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-network-firewall-forward-proxy-preview/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-network-firewall-forward-proxy-preview/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-04T22:24:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Connect Customer now lets you export cases to CSV from the agent workspace",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-export-cases/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-export-cases/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-04T21:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Bedrock launches Web Search for OpenAI GPT models",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-04T20:37:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Run interactive workloads on Amazon EMR on EC2 with Spark Connect",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-emr-ec2-spark-connect/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-emr-ec2-spark-connect/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-04T20:29:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Security Hub Extended adds supply chain security as its 10th category",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-hub-extended-adds-supply-chain-security",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-hub-extended-adds-supply-chain-security",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-04T19:14:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 C8g instances now available in additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8g-instances-additional-regions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8g-instances-additional-regions/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-04T18:57:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Application and Network Load Balancers now support RFC 9151 compliant security policies",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-application-network/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-application-network/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-04T18:28:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon S3 Vectors is now available in the AWS European Sovereign Cloud (Germany) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-s3-vectors-european-sovereign-cloud-germany/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-s3-vectors-european-sovereign-cloud-germany/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-04T18:15:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Connect Customer now supports capacity planning in 15 or 30 minute intervals",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-interval-capacity-plan",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-interval-capacity-plan",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-04T17:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon EC2 I8g instances now available in AWS Europe (Paris), Asia Pacific (Jakarta) regions",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i8g-instances-aws-paris-jakarta-regions/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i8g-instances-aws-paris-jakarta-regions/",
@@ -563,111 +659,39 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon RDS for SQL Server now support BYOM in additional commercial regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-byom-in-additional-aws-regions/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-byom-in-additional-aws-regions/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Senators demand crackdown on wildfire \"prediction markets\"",
+      "url": "https://arstechnica.com/tech-policy/2026/08/senators-demand-crackdown-on-wildfire-prediction-markets/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/senators-demand-crackdown-on-wildfire-prediction-markets/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-04T07:00:00Z"
+      "author": "Cyrus Farivar",
+      "published": "2026-08-04T21:52:31Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Transform continuous modernization is now generally available",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-continuous-general-available",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-continuous-general-available",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Trump killed the Digital Equity Act, but US was forced to bring part of it back",
+      "url": "https://arstechnica.com/tech-policy/2026/08/trump-forced-to-reinstate-broadband-grants-but-court-lets-us-scrap-race-criteria/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/trump-forced-to-reinstate-broadband-grants-but-court-lets-us-scrap-race-criteria/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-03T21:15:00Z"
+      "author": "Jon Brodkin",
+      "published": "2026-08-04T21:27:05Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now support 1 million token context windows on Amazon Bedrock",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/gpt-sol-terra-luna-long-context-bedrock",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/gpt-sol-terra-luna-long-context-bedrock",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Texas halts data center connections to power grid amid overwhelming demand",
+      "url": "https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/",
+      "discuss_url": "https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-03T21:03:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon GameLift Streams now supports sharing streams with stream URLs",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-gamelift-streams/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-gamelift-streams/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-03T20:24:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Resilience Hub now provides recommended resilience tests",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-resilience-hub/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-resilience-hub/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-03T19:02:58Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Organizations now provides maximum account quota visibility in Service Quotas",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-organizations/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-organizations/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-03T18:54:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Lambda Provisioned Mode for Amazon SQS event source mappings now supports up to 10,000 event pollers",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-Lambda-provisioned-sqs-esm-max-pollers/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-Lambda-provisioned-sqs-esm-max-pollers/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-03T18:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 I7i instances now available in Asia Pacific (Thailand) and Israel (Tel Aviv) Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i7i-instances-in-additional-regions/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i7i-instances-in-additional-regions/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-03T17:28:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon SageMaker AI serverless model customization now supports full fine-tuning",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker-fft",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker-fft",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-03T17:00:00Z"
+      "author": "Jeremy Hsu",
+      "published": "2026-08-04T20:34:28Z"
     },
     {
       "source": "rss",
@@ -776,42 +800,6 @@
       "comments": null,
       "author": "Robert Pearlman",
       "published": "2026-08-03T19:21:16Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it",
-      "url": "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
-      "discuss_url": "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
-      "score": null,
-      "comments": null,
-      "author": "Nate Anderson",
-      "published": "2026-08-03T19:00:50Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "2026 Volkswagen Jetta Sport: The cheap car isn't completely extinct yet",
-      "url": "https://arstechnica.com/cars/2026/08/2026-volkswagen-jetta-sport-the-cheap-car-isnt-completely-extinct-yet/",
-      "discuss_url": "https://arstechnica.com/cars/2026/08/2026-volkswagen-jetta-sport-the-cheap-car-isnt-completely-extinct-yet/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-08-03T16:10:22Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "SpaceX is set to acquire 130,000 acres of marshland in southern Louisiana",
-      "url": "https://arstechnica.com/space/2026/08/spacex-is-set-to-acquire-130000-acres-of-marshland-in-southern-louisiana/",
-      "discuss_url": "https://arstechnica.com/space/2026/08/spacex-is-set-to-acquire-130000-acres-of-marshland-in-southern-louisiana/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-08-03T14:41:46Z"
     }
   ]
 }
