@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T08:42:45Z",
+  "updated_at": "2026-08-05T14:17:14Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
       "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
       "discuss_url": "https://news.ycombinator.com/item?id=49170479",
-      "score": 364,
-      "comments": 261,
+      "score": 376,
+      "comments": 272,
       "author": "thewebguyd",
       "published": "2026-08-04T15:37:42Z",
       "bullets": [
-        "Aggressive AI talent poaching between Apple and OpenAI highlights severe insider threat risks targeting proprietary AI IP and training pipelines.",
-        "Concerns center on departing engineers exfiltrating confidential dataset curation, model fine-tuning methods, and hardware integration details to market rivals.",
-        "Security analysts should enforce strict DLP policies, mandate endpoint forensic exit audits, and limit high-value repo access during employee offboarding."
+        "AI talent poaching heightens insider threat risks, forcing enterprises to deploy aggressive DLP and forensic audits during researcher offboarding.",
+        "Unlawful transfers of proprietary datasets or model architectures expose recipient labs like OpenAI to severe intellectual property legal liabilities.",
+        "AI engineering teams must rigorously audit training data provenance to prevent stolen external IP from contaminating proprietary model pipelines."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "irken: A tiny hackable full-featured IRC client",
-      "url": "https://codeberg.org/dlowe/irken",
-      "discuss_url": "https://lobste.rs/s/12aef8",
-      "score": 19,
-      "comments": 4,
-      "author": "dzwdz",
-      "published": "2026-08-04T20:30:17Z",
+      "title": "Faster Than Ninja",
+      "url": "https://build2.org/blog/faster-than-ninja.xhtml",
+      "discuss_url": "https://lobste.rs/s/31hk9y",
+      "score": 11,
+      "comments": 0,
+      "author": "borisk",
+      "published": "2026-08-05T10:37:51Z",
       "bullets": [
-        "Features a lightweight, modular architecture optimized for rapid customization through event-driven scripting and simple extensibility interfaces.",
-        "Implements core RFC 1459/2812 spec compliance and IRCv3 capability negotiation without heavy external framework dependencies.",
-        "Serves as a low-overhead client ideal for headless operations, terminal workflows, and embedding custom IRC automation bots."
+        "Zero-copy string parsing and memory-mapped file I/O minimize build tool initialization latency compared to standard Ninja manifest parsing.",
+        "Mitigating POSIX stat syscall bottlenecks via batched filesystem checks or caching dramatically accelerates dependency graph validation on large codebases.",
+        "Multi-threaded lock-free job queues outperform Ninja's single-threaded execution engine during parallel DAG traversal on high-core build machines."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Security is Hard, Y’all",
       "url": "https://textslashplain.com/2026/08/04/security-is-hard-yall/",
       "discuss_url": "https://lobste.rs/s/qoptbx",
-      "score": 78,
-      "comments": 7,
+      "score": 106,
+      "comments": 14,
       "author": "kevincox",
       "published": "2026-08-04T18:31:48Z",
       "bullets": [
-        "Systemic security failures stem from architectural complexity; prioritize memory-safe languages like Rust and enforce strict least-privilege access controls.",
-        "Third-party supply chain risks and cloud misconfigurations remain top attack vectors; implement automated SBOM tracking and continuous policy enforcement.",
-        "Integrate SAST, DAST, and secret scanning directly into CI/CD pipelines to catch vulnerabilities prior to production deployment."
+        "Defense-in-depth demands continuous auditing of software supply chains, third-party dependencies, and transient build pipeline permissions.",
+        "Cloud IAM misconfigurations and infrastructure-as-code drift remain primary attack vectors overriding strong cryptographic guarantees.",
+        "Secure-by-default architectures and automated zero-trust policy enforcement are essential to eliminate systemic human operational errors."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Tests for a PDF",
       "url": "https://blog.lvmbdv.dev/posts/tests-for-a-pdf/",
       "discuss_url": "https://lobste.rs/s/98zvnf",
-      "score": 17,
+      "score": 18,
       "comments": 4,
       "author": "lvmbdv",
       "published": "2026-08-04T10:23:57Z",
       "bullets": [
-        "Automate visual regression by rendering PDF pages to images via headless Chrome or Poppler and diffing outputs with ImageMagick.",
-        "Extract and assert text content, layout structures, and metadata programmatically using PyPDF or Apache Tika inside CI automated test suites.",
-        "Validate PDF/A compliance, accessibility tags, and font embedding within Dockerized pipeline steps before deploying document generation services."
+        "Automate visual regression testing for generated PDFs using headless Playwright or ImageMagick to catch layout shifts in CI pipelines.",
+        "Extract raw text and metadata using pdftotext or pdf-parse to perform deterministic automated assertions on dynamic document content.",
+        "Containerize PDF generation engines like Puppeteer or WeasyPrint in GitHub Actions to validate document rendering prior to production deployments."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Senators demand crackdown on wildfire \"prediction markets\"",
-      "url": "https://arstechnica.com/tech-policy/2026/08/senators-demand-crackdown-on-wildfire-prediction-markets/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/senators-demand-crackdown-on-wildfire-prediction-markets/",
+      "title": "Pushing the limits: Infinite Machine's Olto is barely a bicycle",
+      "url": "https://arstechnica.com/cars/2026/08/pushing-the-limits-infinite-machines-olto-is-barely-a-bicycle/",
+      "discuss_url": "https://arstechnica.com/cars/2026/08/pushing-the-limits-infinite-machines-olto-is-barely-a-bicycle/",
       "score": null,
       "comments": null,
-      "author": "Cyrus Farivar",
-      "published": "2026-08-04T21:52:31Z",
+      "author": "John Timmer",
+      "published": "2026-08-05T11:00:26Z",
       "bullets": [
-        "US lawmakers are pressing regulators to restrict speculative event contracts linked to real-world natural disaster outcomes.",
-        "Fire experts caution that disaster prediction markets introduce dangerous moral hazard, risking intentional arson to trigger financial payouts.",
-        "Trading platforms face heightened regulatory scrutiny and potential policy bans regarding high-risk, ethically contentious event markets."
+        "Infinite Machine's Olto blends a step-through scooter layout with vestigial pedals to target the emerging micro-mobility market.",
+        "The physical design severely degrades pedaling ergonomics, making human propulsion impractical compared to standard e-bike architectures.",
+        "Adding minimal pedaling functionality allows high-powered scooter designs to exploit regulatory e-bike classifications and avoid licensing."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
       "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
       "discuss_url": "https://news.ycombinator.com/item?id=49170479",
-      "score": 364,
-      "comments": 261,
+      "score": 376,
+      "comments": 272,
       "author": "thewebguyd",
       "published": "2026-08-04T15:37:42Z"
     },
@@ -136,34 +136,10 @@
       "title": "LLMs reward expertise",
       "url": "https://www.seangoedecke.com/llms-reward-expertise/",
       "discuss_url": "https://news.ycombinator.com/item?id=49161518",
-      "score": 1351,
-      "comments": 558,
+      "score": 1364,
+      "comments": 563,
       "author": "MaxMussio",
       "published": "2026-08-03T21:13:53Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "SQLite Critical CVEs or LLM Slop?",
-      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49154332",
-      "score": 721,
-      "comments": 372,
-      "author": "ymir_e",
-      "published": "2026-08-03T11:28:54Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Prevent cognitive debt by manually retyping LLM-generated code",
-      "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49153374",
-      "score": 530,
-      "comments": 436,
-      "author": "mpweiher",
-      "published": "2026-08-03T09:32:07Z"
     },
     {
       "source": "lobsters",
@@ -229,13 +205,37 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Faster Than Ninja",
+      "url": "https://build2.org/blog/faster-than-ninja.xhtml",
+      "discuss_url": "https://lobste.rs/s/31hk9y",
+      "score": 11,
+      "comments": 0,
+      "author": "borisk",
+      "published": "2026-08-05T10:37:51Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "irken: A tiny hackable full-featured IRC client",
       "url": "https://codeberg.org/dlowe/irken",
       "discuss_url": "https://lobste.rs/s/12aef8",
-      "score": 19,
-      "comments": 4,
+      "score": 33,
+      "comments": 10,
       "author": "dzwdz",
       "published": "2026-08-04T20:30:17Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Painting with Gaussians",
+      "url": "https://yogthos.net/posts/2026-08-03-splat-painter.html",
+      "discuss_url": "https://lobste.rs/s/wkujx7",
+      "score": 1,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-08-05T13:33:16Z"
     },
     {
       "source": "lobsters",
@@ -245,7 +245,7 @@
       "url": "https://lobste.rs/s/foxgva",
       "discuss_url": "https://lobste.rs/s/foxgva",
       "score": 11,
-      "comments": 13,
+      "comments": 14,
       "author": "caius",
       "published": "2026-08-03T15:41:38Z"
     },
@@ -346,40 +346,28 @@
       "published": "2026-07-30T17:30:24Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
-      "url": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
-      "discuss_url": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
-      "score": null,
-      "comments": null,
-      "author": "Bruno Borges",
-      "published": "2026-07-29T16:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "Your MVP doesn’t need a Kubernetes cluster​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿​‌‌‍‌‌​﻿​﻿‌‍​﻿​﻿‌‌‌‍‌‌​﻿​﻿​‍﻿‌​﻿​‌​﻿​‌‌‍​‍​﻿‌‌​‍﻿‌​﻿‌​‌‍​‌​﻿​‍​﻿​​​‍﻿‌​﻿‍​​﻿‌‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍‌​​﻿‍‌‌‍‌‍​﻿​﻿​﻿‍​​﻿​‍‌‍​‍​﻿​‍​﻿‍‌‌‍​﻿​﻿​‌‌‍​‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿​‌‌‍‌‌​﻿​﻿‌‍​﻿​﻿‌‌‌‍‌‌​﻿​﻿​‍﻿‌​﻿​‌​﻿​‌‌‍​‍​﻿‌‌​‍﻿‌​﻿‌​‌‍​‌​﻿​‍​﻿​​​‍﻿‌​﻿‍​​﻿‌‌‌‍‌‍​﻿‌‌​‍﻿‌‌‍‌​​﻿‍‌‌‍‌‍​﻿​﻿​﻿‍​​﻿​‍‌‍​‍​﻿​‍​﻿‍‌‌‍​﻿​﻿​‌‌‍​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "url": "https://stackoverflow.blog/2026/08/04/your-mvp-doesn-t-need-a-kubernetes-cluster/",
-      "discuss_url": "https://stackoverflow.blog/2026/08/04/your-mvp-doesn-t-need-a-kubernetes-cluster/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Donovan",
-      "published": "2026-08-04T07:40:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Security is Hard, Y’all",
       "url": "https://textslashplain.com/2026/08/04/security-is-hard-yall/",
       "discuss_url": "https://lobste.rs/s/qoptbx",
-      "score": 78,
-      "comments": 7,
+      "score": 106,
+      "comments": 14,
       "author": "kevincox",
       "published": "2026-08-04T18:31:48Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "SQLite Critical CVEs or LLM Slop?",
+      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+      "discuss_url": "https://lobste.rs/s/9nxwpi",
+      "score": 26,
+      "comments": 12,
+      "author": "ubernostrum",
+      "published": "2026-08-03T16:51:22Z"
     },
     {
       "source": "lobsters",
@@ -388,22 +376,10 @@
       "title": "Keyv and friends compromised in npm supply chain attack",
       "url": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
       "discuss_url": "https://lobste.rs/s/krevdg",
-      "score": 4,
+      "score": 5,
       "comments": 0,
       "author": "dbremner",
       "published": "2026-08-04T19:42:46Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "The rooting, firmware analysis and hardcoded, reset-persistent credentials of the TP-Link TL-841N",
-      "url": "https://blog.juni-mp4.com/posts/42/rooting-the-tplink-tl841n-pt1/",
-      "discuss_url": "https://lobste.rs/s/pwarxx",
-      "score": 11,
-      "comments": 1,
-      "author": "raymii",
-      "published": "2026-08-02T18:32:34Z"
     },
     {
       "source": "lobsters",
@@ -416,6 +392,18 @@
       "comments": 7,
       "author": "fro",
       "published": "2026-08-01T19:39:20Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "The rooting, firmware analysis and hardcoded, reset-persistent credentials of the TP-Link TL-841N",
+      "url": "https://blog.juni-mp4.com/posts/42/rooting-the-tplink-tl841n-pt1/",
+      "discuss_url": "https://lobste.rs/s/pwarxx",
+      "score": 11,
+      "comments": 1,
+      "author": "raymii",
+      "published": "2026-08-02T18:32:34Z"
     },
     {
       "source": "lobsters",
@@ -457,61 +445,49 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
-      "url": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
-      "discuss_url": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
+      "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
+      "url": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
+      "discuss_url": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-05T05:47:19Z"
+      "published": "2026-08-05T11:43:27Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
-      "url": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
-      "discuss_url": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
+      "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk",
+      "url": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
+      "discuss_url": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-04T17:27:39Z"
+      "published": "2026-08-05T11:43:19Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks",
-      "url": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
-      "discuss_url": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
+      "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+      "url": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+      "discuss_url": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-04T13:30:23Z"
+      "published": "2026-08-05T11:04:23Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
-      "url": "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
-      "discuss_url": "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
+      "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
+      "url": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
+      "discuss_url": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-04T13:11:22Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
-      "url": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
-      "discuss_url": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-04T11:30:00Z"
+      "published": "2026-08-05T10:35:29Z"
     },
     {
       "source": "lobsters",
@@ -520,7 +496,7 @@
       "title": "Tests for a PDF",
       "url": "https://blog.lvmbdv.dev/posts/tests-for-a-pdf/",
       "discuss_url": "https://lobste.rs/s/98zvnf",
-      "score": 17,
+      "score": 18,
       "comments": 4,
       "author": "lvmbdv",
       "published": "2026-08-04T10:23:57Z"
@@ -661,7 +637,19 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Senators demand crackdown on wildfire \"prediction markets\"",
+      "title": "Pushing the limits: Infinite Machine's Olto is barely a bicycle",
+      "url": "https://arstechnica.com/cars/2026/08/pushing-the-limits-infinite-machines-olto-is-barely-a-bicycle/",
+      "discuss_url": "https://arstechnica.com/cars/2026/08/pushing-the-limits-infinite-machines-olto-is-barely-a-bicycle/",
+      "score": null,
+      "comments": null,
+      "author": "John Timmer",
+      "published": "2026-08-05T11:00:26Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Senators demand crackdown on wildfire \"prediction market\" bets",
       "url": "https://arstechnica.com/tech-policy/2026/08/senators-demand-crackdown-on-wildfire-prediction-markets/",
       "discuss_url": "https://arstechnica.com/tech-policy/2026/08/senators-demand-crackdown-on-wildfire-prediction-markets/",
       "score": null,
@@ -673,7 +661,7 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Trump killed the Digital Equity Act, but US was forced to bring part of it back",
+      "title": "Trump killed the Digital Equity Act but US was forced to bring part of it back",
       "url": "https://arstechnica.com/tech-policy/2026/08/trump-forced-to-reinstate-broadband-grants-but-court-lets-us-scrap-race-criteria/",
       "discuss_url": "https://arstechnica.com/tech-policy/2026/08/trump-forced-to-reinstate-broadband-grants-but-court-lets-us-scrap-race-criteria/",
       "score": null,
@@ -788,18 +776,6 @@
       "comments": null,
       "author": "Jennifer Ouellette",
       "published": "2026-08-03T20:13:37Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Lego deploys Hubble Space Telescope as detailed desktop model",
-      "url": "https://arstechnica.com/space/2026/08/lego-deploys-hubble-space-telescope-as-detailed-desktop-model/",
-      "discuss_url": "https://arstechnica.com/space/2026/08/lego-deploys-hubble-space-telescope-as-detailed-desktop-model/",
-      "score": null,
-      "comments": null,
-      "author": "Robert Pearlman",
-      "published": "2026-08-03T19:21:16Z"
     }
   ]
 }
