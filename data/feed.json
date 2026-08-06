@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T08:43:21Z",
+  "updated_at": "2026-08-06T14:21:13Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,48 +37,48 @@
       "title": "Born Against, or why hobby programming communities are against LLM usage",
       "url": "https://blog.fogus.me/llm/born-against.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49187061",
-      "score": 252,
-      "comments": 226,
+      "score": 321,
+      "comments": 359,
       "author": "lladnar",
       "published": "2026-08-05T18:37:49Z",
       "bullets": [
-        "Hobby developers reject AI tools like GitHub Copilot to preserve intrinsic problem-solving, skill acquisition, and deep conceptual learning in programming.",
-        "LLM-generated code increases review burden on open-source maintainers due to subtle bugs, security vulnerabilities, and unverified, low-quality PR submissions.",
-        "Licensing ambiguities surrounding model training data create intellectual property and GPL/MIT compliance concerns within collaborative developer communities."
+        "Automated PR generation increases triage overhead for open-source maintainers, flooding repositories with unverified, difficult-to-audit LLM code.",
+        "Hobby programmers reject tools like GitHub Copilot because offloading synthesis undermines skill acquisition, deep learning, and personal mastery.",
+        "LLM code generation introduces subtle security risks, including hallucinated package dependencies, licensing conflicts, and unvetted logic errors."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Faster Than Ninja",
-      "url": "https://build2.org/blog/faster-than-ninja.xhtml",
-      "discuss_url": "https://lobste.rs/s/31hk9y",
-      "score": 48,
-      "comments": 4,
-      "author": "borisk",
-      "published": "2026-08-05T10:37:51Z",
+      "title": "The following is a valid DOS COM executable",
+      "url": "https://oldbytes.space/@gloriouscow/117045701876951834",
+      "discuss_url": "https://lobste.rs/s/o8ttys",
+      "score": 9,
+      "comments": 1,
+      "author": "dsr",
+      "published": "2026-08-06T11:37:30Z",
       "bullets": [
-        "Alternative build tools like n2 and samurai outperform Ninja using Rust, zero-copy parsing, and reduced heap allocations for build graphs.",
-        "Incremental build speed depends heavily on optimizing OS stat call latency, mtime caching, and minimal-overhead dependency graph evaluation.",
-        "Replacing traditional build graph processing with thread-pool-driven DAG execution cuts no-op build times down to sub-millisecond ranges."
+        "MS-DOS .COM binaries lack structured headers like PE or ELF, executing raw bytes directly at memory offset 0x0100 in 16-bit mode.",
+        "ASCII-executable polyglots exploit overlapping x86 opcode mappings with printable character sets to construct dual-purpose text and binary files.",
+        "Format ambiguity risks allow attackers to bypass file-type validation, demonstrating parser differential vulnerabilities in security scanners and legacy interpreters."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Security is Hard, Y’all",
-      "url": "https://textslashplain.com/2026/08/04/security-is-hard-yall/",
-      "discuss_url": "https://lobste.rs/s/qoptbx",
-      "score": 126,
-      "comments": 15,
-      "author": "kevincox",
-      "published": "2026-08-04T18:31:48Z",
+      "title": "tl;dv (Too Lazy; Didn't Validate): 181,874 Meetings Left Wide Open",
+      "url": "https://bobdahacker.com/blog/tldv-hack",
+      "discuss_url": "https://lobste.rs/s/97laur",
+      "score": 36,
+      "comments": 3,
+      "author": "yoelcabo",
+      "published": "2026-08-06T11:22:20Z",
       "bullets": [
-        "Defending complex systems requires asymmetric effort; implementation flaws in IAM, TLS, or memory management repeatedly invalidate upper-layer controls.",
-        "Secure-by-default architectures and paved roads mitigate human error far more effectively than manual code reviews or reactive patching.",
-        "Modern application security demands automated SBOM tracking and strict dependency pinning to mitigate compounding supply chain attack vectors."
+        "AI meeting recorder tl;dv exposed 181,874 recorded calls due to broken object-level authorization and missing API access controls.",
+        "Unauthenticated endpoints allowed external access to sensitive enterprise audio, transcripts, and metadata across Zoom, Google Meet, and Teams.",
+        "Security teams must restrict third-party AI bot integrations, audit SaaS OAuth scopes, and mandate strict API authorization testing."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Cloudflare OS: an open platform for agents, apps, and work",
       "url": "https://blog.cloudflare.com/cloudflare-os/",
       "discuss_url": "https://news.ycombinator.com/item?id=49182996",
-      "score": 550,
-      "comments": 263,
+      "score": 602,
+      "comments": 289,
       "author": "speckx",
       "published": "2026-08-05T13:58:53Z",
       "bullets": [
-        "Expands Cloudflare Workers and edge compute into a unified runtime platform for hosting autonomous AI agents and stateful micro-apps.",
-        "Replaces complex Kubernetes clusters by using Durable Objects, KV, and Vectorize for stateful agent workflows and background tasks.",
-        "Enforces V8 isolate sandboxing and Zero Trust policies across global edge nodes to secure automated AI agent tool calls."
+        "Cloudflare positions its edge network (Workers, Durable Objects, R2) as an operating system for hosting serverless applications and AI agents.",
+        "Abstracts away Kubernetes and VM management by deploying event-driven AI agent workflows directly onto Cloudflare's distributed edge infrastructure.",
+        "Reduces operational overhead by combining low-latency edge compute with native state management and event queues for distributed agentic pipelines."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers",
-      "url": "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/",
-      "discuss_url": "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/",
+      "title": "AI isn’t enough to protect social media communities from AI",
+      "url": "https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/",
       "score": null,
       "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-08-05T22:35:20Z",
+      "author": "Scharon Harding",
+      "published": "2026-08-06T11:00:44Z",
       "bullets": [
-        "Baseboard Management Controllers (BMCs) contain critical flaws allowing attackers to establish persistent, OS-independent backdoors on enterprise servers.",
-        "Widespread controller bugs across top hardware manufacturers expose physical server infrastructure to full remote compromise and firmware tampering.",
-        "Security and DevOps teams must isolate BMC interfaces on dedicated management VLANs and enforce strict firmware updates."
+        "Why humans need to moderate humans.",
+        "AI isn’t enough to protect social media communities from AI",
+        "Submitted by Scharon Harding on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Born Against, or why hobby programming communities are against LLM usage",
       "url": "https://blog.fogus.me/llm/born-against.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49187061",
-      "score": 252,
-      "comments": 226,
+      "score": 321,
+      "comments": 359,
       "author": "lladnar",
       "published": "2026-08-05T18:37:49Z"
     },
@@ -136,8 +136,8 @@
       "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
       "url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
       "discuss_url": "https://news.ycombinator.com/item?id=49186762",
-      "score": 312,
-      "comments": 76,
+      "score": 360,
+      "comments": 89,
       "author": "moonikakiss",
       "published": "2026-08-05T18:18:56Z"
     },
@@ -148,8 +148,8 @@
       "title": "Position: LLMs Can't Jump",
       "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
       "discuss_url": "https://news.ycombinator.com/item?id=49181083",
-      "score": 271,
-      "comments": 182,
+      "score": 294,
+      "comments": 195,
       "author": "theanonymousone",
       "published": "2026-08-05T11:01:37Z"
     },
@@ -193,6 +193,18 @@
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
+      "title": "Baseten on Hugging Face Inference Providers 🔥",
+      "url": "https://huggingface.co/blog/baseten",
+      "discuss_url": "https://huggingface.co/blog/baseten",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-08-06T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
       "title": "Deploy local agents everywhere with LFM2.5-2.6B",
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
       "discuss_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
@@ -229,10 +241,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "The following is a valid DOS COM executable",
+      "url": "https://oldbytes.space/@gloriouscow/117045701876951834",
+      "discuss_url": "https://lobste.rs/s/o8ttys",
+      "score": 9,
+      "comments": 1,
+      "author": "dsr",
+      "published": "2026-08-06T11:37:30Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Faster Than Ninja",
       "url": "https://build2.org/blog/faster-than-ninja.xhtml",
       "discuss_url": "https://lobste.rs/s/31hk9y",
-      "score": 48,
+      "score": 49,
       "comments": 4,
       "author": "borisk",
       "published": "2026-08-05T10:37:51Z"
@@ -245,7 +269,7 @@
       "url": "https://yogthos.net/posts/2026-08-03-splat-painter.html",
       "discuss_url": "https://lobste.rs/s/wkujx7",
       "score": 20,
-      "comments": 7,
+      "comments": 8,
       "author": "Yogthos",
       "published": "2026-08-05T13:33:16Z"
     },
@@ -256,7 +280,7 @@
       "title": "irken: A tiny hackable full-featured IRC client",
       "url": "https://codeberg.org/dlowe/irken",
       "discuss_url": "https://lobste.rs/s/12aef8",
-      "score": 45,
+      "score": 46,
       "comments": 16,
       "author": "dzwdz",
       "published": "2026-08-04T20:30:17Z"
@@ -284,18 +308,6 @@
       "comments": 3,
       "author": "var0xyz",
       "published": "2026-08-03T08:36:37Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Guarded methods in OCaml",
-      "url": "https://xvw.lol/en/articles/oop-refl.html",
-      "discuss_url": "https://lobste.rs/s/ki0ge3",
-      "score": 18,
-      "comments": 6,
-      "author": "xvw",
-      "published": "2026-08-02T13:03:14Z"
     },
     {
       "source": "lobsters",
@@ -373,10 +385,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "tl;dv (Too Lazy; Didn't Validate): 181,874 Meetings Left Wide Open",
+      "url": "https://bobdahacker.com/blog/tldv-hack",
+      "discuss_url": "https://lobste.rs/s/97laur",
+      "score": 36,
+      "comments": 3,
+      "author": "yoelcabo",
+      "published": "2026-08-06T11:22:20Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Security is Hard, Y’all",
       "url": "https://textslashplain.com/2026/08/04/security-is-hard-yall/",
       "discuss_url": "https://lobste.rs/s/qoptbx",
-      "score": 126,
+      "score": 131,
       "comments": 15,
       "author": "kevincox",
       "published": "2026-08-04T18:31:48Z"
@@ -401,7 +425,7 @@
       "url": "https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute",
       "discuss_url": "https://lobste.rs/s/tmpokv",
       "score": 0,
-      "comments": 4,
+      "comments": 5,
       "author": "ahobson",
       "published": "2026-08-05T22:02:11Z"
     },
@@ -445,73 +469,61 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
-      "url": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
-      "discuss_url": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
+      "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
+      "url": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
+      "discuss_url": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-06T08:05:22Z"
+      "published": "2026-08-06T12:16:58Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
-      "url": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
-      "discuss_url": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
+      "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
+      "url": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
+      "discuss_url": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-06T07:19:54Z"
+      "published": "2026-08-06T11:49:48Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
-      "url": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
-      "discuss_url": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
+      "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
+      "url": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
+      "discuss_url": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-06T06:51:43Z"
+      "published": "2026-08-06T11:33:08Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
-      "url": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
-      "discuss_url": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
+      "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
+      "url": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
+      "discuss_url": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-06T06:04:30Z"
+      "published": "2026-08-06T11:30:00Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
-      "url": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
-      "discuss_url": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
+      "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
+      "url": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
+      "discuss_url": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-05T18:44:31Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
-      "url": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
-      "discuss_url": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-05T18:33:47Z"
+      "published": "2026-08-06T09:19:23Z"
     },
     {
       "source": "hackernews",
@@ -520,8 +532,8 @@
       "title": "Cloudflare OS: an open platform for agents, apps, and work",
       "url": "https://blog.cloudflare.com/cloudflare-os/",
       "discuss_url": "https://news.ycombinator.com/item?id=49182996",
-      "score": 550,
-      "comments": 263,
+      "score": 602,
+      "comments": 289,
       "author": "speckx",
       "published": "2026-08-05T13:58:53Z"
     },
@@ -532,8 +544,8 @@
       "title": "Proxmox officially supports Arm, with some caveats",
       "url": "https://www.jeffgeerling.com/blog/2026/proxmox-ve-arm-official/",
       "discuss_url": "https://lobste.rs/s/wblbfk",
-      "score": 5,
-      "comments": 2,
+      "score": 8,
+      "comments": 4,
       "author": "raymii",
       "published": "2026-08-05T19:54:59Z"
     },
@@ -568,7 +580,7 @@
       "title": "Infrastructure Gravity & Domain Engineering",
       "url": "https://jackdanger.com/infrastructure-gravity/",
       "discuss_url": "https://lobste.rs/s/kkrnyc",
-      "score": 1,
+      "score": 3,
       "comments": 0,
       "author": "adsouza",
       "published": "2026-08-06T01:24:30Z"
@@ -649,13 +661,25 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS IAM Identity Center makes management of AWS account access optional for new organization instances",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-identity-center-accounts-optional/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-identity-center-accounts-optional/",
+      "title": "AWS Glue Data Catalog now supports  metadata exports to S3 Tables (Preview)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-catalog-s3-tables/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-catalog-s3-tables/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-08-05T15:12:00Z"
+      "published": "2026-08-05T15:42:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "AI isn’t enough to protect social media communities from AI",
+      "url": "https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/",
+      "score": null,
+      "comments": null,
+      "author": "Scharon Harding",
+      "published": "2026-08-06T11:00:44Z"
     },
     {
       "source": "rss",
@@ -788,18 +812,6 @@
       "comments": null,
       "author": "Scharon Harding",
       "published": "2026-08-05T17:12:39Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "EVgo starts building Tesla Superchargers under license",
-      "url": "https://arstechnica.com/cars/2026/08/evgo-starts-building-tesla-superchargers-under-license/",
-      "discuss_url": "https://arstechnica.com/cars/2026/08/evgo-starts-building-tesla-superchargers-under-license/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-08-05T17:00:38Z"
     }
   ]
 }
