@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T14:21:13Z",
+  "updated_at": "2026-08-07T00:05:23Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Born Against, or why hobby programming communities are against LLM usage",
-      "url": "https://blog.fogus.me/llm/born-against.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=49187061",
-      "score": 321,
-      "comments": 359,
-      "author": "lladnar",
-      "published": "2026-08-05T18:37:49Z",
+      "title": "Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49199357",
+      "score": 133,
+      "comments": 90,
+      "author": "tedsanders",
+      "published": "2026-08-06T17:02:04Z",
       "bullets": [
-        "Automated PR generation increases triage overhead for open-source maintainers, flooding repositories with unverified, difficult-to-audit LLM code.",
-        "Hobby programmers reject tools like GitHub Copilot because offloading synthesis undermines skill acquisition, deep learning, and personal mastery.",
-        "LLM code generation introduces subtle security risks, including hallucinated package dependencies, licensing conflicts, and unvetted logic errors."
+        "OpenAI upgraded GPT-5.6 Sol in ChatGPT, delivering performance enhancements for complex reasoning and interactive AI workflows.",
+        "Access to the optimized GPT-5.6 Luna model expands to free-tier ChatGPT users, increasing broad availability of low-latency inference.",
+        "The release reinforces OpenAI's strategy of pairing high-capability flagship models with cost-effective, high-throughput variants for mass scaling."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "The following is a valid DOS COM executable",
       "url": "https://oldbytes.space/@gloriouscow/117045701876951834",
       "discuss_url": "https://lobste.rs/s/o8ttys",
-      "score": 9,
+      "score": 20,
       "comments": 1,
       "author": "dsr",
       "published": "2026-08-06T11:37:30Z",
       "bullets": [
-        "MS-DOS .COM binaries lack structured headers like PE or ELF, executing raw bytes directly at memory offset 0x0100 in 16-bit mode.",
-        "ASCII-executable polyglots exploit overlapping x86 opcode mappings with printable character sets to construct dual-purpose text and binary files.",
-        "Format ambiguity risks allow attackers to bypass file-type validation, demonstrating parser differential vulnerabilities in security scanners and legacy interpreters."
+        "DOS COM binaries lack structural headers, starting execution at offset 0x0100, enabling polyglot files to double as valid text.",
+        "ASCII-only x86 shellcode maps printable characters to non-destructive machine instructions to craft dual-format executable payloads.",
+        "System defenders must use strict MIME validation, deep content inspection, and parser isolation instead of trusting file extensions."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "tl;dv (Too Lazy; Didn't Validate): 181,874 Meetings Left Wide Open",
       "url": "https://bobdahacker.com/blog/tldv-hack",
       "discuss_url": "https://lobste.rs/s/97laur",
-      "score": 36,
-      "comments": 3,
+      "score": 118,
+      "comments": 22,
       "author": "yoelcabo",
       "published": "2026-08-06T11:22:20Z",
       "bullets": [
-        "AI meeting recorder tl;dv exposed 181,874 recorded calls due to broken object-level authorization and missing API access controls.",
-        "Unauthenticated endpoints allowed external access to sensitive enterprise audio, transcripts, and metadata across Zoom, Google Meet, and Teams.",
-        "Security teams must restrict third-party AI bot integrations, audit SaaS OAuth scopes, and mandate strict API authorization testing."
+        "AI meeting tool tl;dv exposed 181,874 recording files and transcripts due to missing authorization validation on internal API endpoints.",
+        "Unauthenticated attackers could exploit IDOR vulnerabilities to enumerate and download private meeting video recordings, audio, and AI summaries.",
+        "Enterprise security teams should audit third-party AI meeting bots for broken access controls and unauthenticated media storage endpoints."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Cloudflare OS: an open platform for agents, apps, and work",
       "url": "https://blog.cloudflare.com/cloudflare-os/",
       "discuss_url": "https://news.ycombinator.com/item?id=49182996",
-      "score": 602,
-      "comments": 289,
+      "score": 645,
+      "comments": 318,
       "author": "speckx",
       "published": "2026-08-05T13:58:53Z",
       "bullets": [
-        "Cloudflare positions its edge network (Workers, Durable Objects, R2) as an operating system for hosting serverless applications and AI agents.",
-        "Abstracts away Kubernetes and VM management by deploying event-driven AI agent workflows directly onto Cloudflare's distributed edge infrastructure.",
-        "Reduces operational overhead by combining low-latency edge compute with native state management and event queues for distributed agentic pipelines."
+        "Cloudflare OS: an open platform for agents, apps, and work",
+        "Trending on news.ycombinator.com — 645 points, 318 comments.",
+        "Submitted by speckx on news.ycombinator.com."
       ]
     },
     {
-      "source": "rss",
-      "subsource": "arstechnica.com",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "industry",
-      "title": "AI isn’t enough to protect social media communities from AI",
-      "url": "https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-08-06T11:00:44Z",
+      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "discuss_url": "https://news.ycombinator.com/item?id=49201970",
+      "score": 301,
+      "comments": 234,
+      "author": "itvision",
+      "published": "2026-08-06T20:23:11Z",
       "bullets": [
-        "Why humans need to moderate humans.",
-        "AI isn’t enough to protect social media communities from AI",
-        "Submitted by Scharon Harding on arstechnica.com."
+        "https://ir.amd.com/news-events/press-releases/detail/1296/am...",
+        "https://chatjimmy.ai/",
+        "AMD acquires Taalas to boost inference performance by etching models in silicon"
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49199357",
+      "score": 133,
+      "comments": 90,
+      "author": "tedsanders",
+      "published": "2026-08-06T17:02:04Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Born Against, or why hobby programming communities are against LLM usage",
       "url": "https://blog.fogus.me/llm/born-against.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49187061",
-      "score": 321,
-      "comments": 359,
+      "score": 407,
+      "comments": 478,
       "author": "lladnar",
       "published": "2026-08-05T18:37:49Z"
     },
@@ -136,10 +148,22 @@
       "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
       "url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
       "discuss_url": "https://news.ycombinator.com/item?id=49186762",
-      "score": 360,
-      "comments": 89,
+      "score": 422,
+      "comments": 114,
       "author": "moonikakiss",
       "published": "2026-08-05T18:18:56Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "I’m leaving OpenAI to build telepathy",
+      "url": "https://naomibashkansky.com/blog/telepathy/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49185370",
+      "score": 133,
+      "comments": 216,
+      "author": "devanshp",
+      "published": "2026-08-05T16:45:33Z"
     },
     {
       "source": "hackernews",
@@ -148,22 +172,10 @@
       "title": "Position: LLMs Can't Jump",
       "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
       "discuss_url": "https://news.ycombinator.com/item?id=49181083",
-      "score": 294,
-      "comments": 195,
+      "score": 295,
+      "comments": 207,
       "author": "theanonymousone",
       "published": "2026-08-05T11:01:37Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
-      "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49170479",
-      "score": 384,
-      "comments": 282,
-      "author": "thewebguyd",
-      "published": "2026-08-04T15:37:42Z"
     },
     {
       "source": "lobsters",
@@ -214,18 +226,6 @@
       "published": "2026-08-04T13:58:29Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
-      "discuss_url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-07-30T15:09:09Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
@@ -244,7 +244,7 @@
       "title": "The following is a valid DOS COM executable",
       "url": "https://oldbytes.space/@gloriouscow/117045701876951834",
       "discuss_url": "https://lobste.rs/s/o8ttys",
-      "score": 9,
+      "score": 20,
       "comments": 1,
       "author": "dsr",
       "published": "2026-08-06T11:37:30Z"
@@ -256,7 +256,7 @@
       "title": "Faster Than Ninja",
       "url": "https://build2.org/blog/faster-than-ninja.xhtml",
       "discuss_url": "https://lobste.rs/s/31hk9y",
-      "score": 49,
+      "score": 51,
       "comments": 4,
       "author": "borisk",
       "published": "2026-08-05T10:37:51Z"
@@ -281,7 +281,7 @@
       "url": "https://codeberg.org/dlowe/irken",
       "discuss_url": "https://lobste.rs/s/12aef8",
       "score": 46,
-      "comments": 16,
+      "comments": 17,
       "author": "dzwdz",
       "published": "2026-08-04T20:30:17Z"
     },
@@ -304,7 +304,7 @@
       "title": "Retries don't fix eventual consistency",
       "url": "https://var0.xyz/posts/retries-dont-fix-eventual-consistency.html",
       "discuss_url": "https://lobste.rs/s/t0cn1z",
-      "score": 14,
+      "score": 13,
       "comments": 3,
       "author": "var0xyz",
       "published": "2026-08-03T08:36:37Z"
@@ -337,6 +337,30 @@
       "source": "rss",
       "subsource": "github.blog",
       "category": "engineering",
+      "title": "A guide to slash commands in the GitHub Copilot app",
+      "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
+      "score": null,
+      "comments": null,
+      "author": "Jacklyn Carroll",
+      "published": "2026-08-06T19:49:34Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "How we took malware advisories beyond npm",
+      "url": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+      "discuss_url": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+      "score": null,
+      "comments": null,
+      "author": "Ankit Kumar Honey",
+      "published": "2026-08-06T16:51:12Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
       "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
       "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
       "discuss_url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
@@ -358,40 +382,64 @@
       "published": "2026-08-04T16:47:18Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Don’t stop early: Case-folding source code at memory speed",
-      "url": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
-      "discuss_url": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
-      "score": null,
-      "comments": null,
-      "author": "Alexander Neubeck",
-      "published": "2026-07-31T16:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Stacked sessions and pull requests in the GitHub Copilot app",
-      "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
-      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
-      "score": null,
-      "comments": null,
-      "author": "Cassidy Williams",
-      "published": "2026-07-30T17:30:24Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "tl;dv (Too Lazy; Didn't Validate): 181,874 Meetings Left Wide Open",
       "url": "https://bobdahacker.com/blog/tldv-hack",
       "discuss_url": "https://lobste.rs/s/97laur",
-      "score": 36,
-      "comments": 3,
+      "score": 118,
+      "comments": 22,
       "author": "yoelcabo",
       "published": "2026-08-06T11:22:20Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "schrodingers-toctou: The binary you run is not the program you wrote",
+      "url": "https://github.com/xoreaxeaxeax/schrodingers-toctou",
+      "discuss_url": "https://lobste.rs/s/bmnusu",
+      "score": 8,
+      "comments": 8,
+      "author": "juri",
+      "published": "2026-08-06T15:47:45Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "AI-generated vulnerability patches require human review",
+      "url": "https://1password.com/blog/why-ai-generated-patches-still-require-human-review",
+      "discuss_url": "https://lobste.rs/s/rkh2ux",
+      "score": 1,
+      "comments": 1,
+      "author": "ubernostrum",
+      "published": "2026-08-06T22:37:07Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Zapscape - Guest to host escape in KVM/x86",
+      "url": "https://github.com/V4bel/Zapscape",
+      "discuss_url": "https://lobste.rs/s/2hatf3",
+      "score": 8,
+      "comments": 0,
+      "author": "rrampage",
+      "published": "2026-08-06T17:31:28Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "SCTPhantom: An 18-Year-Old SCTP ASCONF Transport Use-After-Free",
+      "url": "https://matrix.tencent.com/en/2026/08/06/sctphantom-CVE-2026-64564",
+      "discuss_url": "https://lobste.rs/s/wdnet3",
+      "score": 2,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-08-06T20:33:06Z"
     },
     {
       "source": "lobsters",
@@ -409,10 +457,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "TONTOU: On the Exploitability of Time-of-Neutralization to Time-of-Use Windows",
+      "url": "https://people.csail.mit.edu/mengjia/data/2026.USENIX.TONTOU.pdf",
+      "discuss_url": "https://lobste.rs/s/eodvvq",
+      "score": 2,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-08-06T18:29:03Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "SQLite Critical CVEs or LLM Slop?",
       "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
       "discuss_url": "https://lobste.rs/s/9nxwpi",
-      "score": 26,
+      "score": 27,
       "comments": 12,
       "author": "ubernostrum",
       "published": "2026-08-03T16:51:22Z"
@@ -424,7 +484,7 @@
       "title": "AI models shock UK testers by using fake identities to try to trick developers",
       "url": "https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute",
       "discuss_url": "https://lobste.rs/s/tmpokv",
-      "score": 0,
+      "score": 1,
       "comments": 5,
       "author": "ahobson",
       "published": "2026-08-05T22:02:11Z"
@@ -442,88 +502,28 @@
       "published": "2026-08-04T19:42:46Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "The rooting, firmware analysis and hardcoded, reset-persistent credentials of the TP-Link TL-841N",
-      "url": "https://blog.juni-mp4.com/posts/42/rooting-the-tplink-tl841n-pt1/",
-      "discuss_url": "https://lobste.rs/s/pwarxx",
-      "score": 11,
-      "comments": 1,
-      "author": "raymii",
-      "published": "2026-08-02T18:32:34Z"
-    },
-    {
       "source": "rss",
       "subsource": "krebsonsecurity.com",
       "category": "security",
-      "title": "Read This Before You Buy That TV Streaming Stick",
-      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-      "discuss_url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "discuss_url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "score": null,
       "comments": null,
       "author": "BrianKrebs",
-      "published": "2026-07-30T16:49:00Z"
+      "published": "2026-08-06T17:00:56Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
-      "url": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
-      "discuss_url": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
+      "title": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
+      "url": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
+      "discuss_url": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-06T12:16:58Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
-      "url": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
-      "discuss_url": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-06T11:49:48Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
-      "url": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
-      "discuss_url": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-06T11:33:08Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
-      "url": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
-      "discuss_url": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-06T11:30:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
-      "url": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
-      "discuss_url": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-06T09:19:23Z"
+      "published": "2026-08-06T17:58:30Z"
     },
     {
       "source": "hackernews",
@@ -532,8 +532,8 @@
       "title": "Cloudflare OS: an open platform for agents, apps, and work",
       "url": "https://blog.cloudflare.com/cloudflare-os/",
       "discuss_url": "https://news.ycombinator.com/item?id=49182996",
-      "score": 602,
-      "comments": 289,
+      "score": 645,
+      "comments": 318,
       "author": "speckx",
       "published": "2026-08-05T13:58:53Z"
     },
@@ -553,18 +553,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "How Compiler Explorer Runs on AWS in 2026",
-      "url": "https://xania.org/202608/how-compiler-explorer-runs-on-aws",
-      "discuss_url": "https://lobste.rs/s/1eie3y",
-      "score": 9,
-      "comments": 0,
-      "author": "raymii",
-      "published": "2026-08-05T16:23:32Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
       "title": "Tests for a PDF",
       "url": "https://blog.lvmbdv.dev/posts/tests-for-a-pdf/",
       "discuss_url": "https://lobste.rs/s/98zvnf",
@@ -572,6 +560,18 @@
       "comments": 5,
       "author": "lvmbdv",
       "published": "2026-08-04T10:23:57Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "How Compiler Explorer Runs on AWS in 2026",
+      "url": "https://xania.org/202608/how-compiler-explorer-runs-on-aws",
+      "discuss_url": "https://lobste.rs/s/1eie3y",
+      "score": 9,
+      "comments": 0,
+      "author": "raymii",
+      "published": "2026-08-05T16:23:32Z"
     },
     {
       "source": "lobsters",
@@ -601,217 +601,217 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Lambda announces scalable network bandwidth up to 3,000 Mbps for functions outside a VPC",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-network-bandwidth/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-network-bandwidth/",
+      "title": "Amazon ECS now supports fractional GPU scheduling with Amazon EC2 G6f instances",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-fractional-gpu/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-fractional-gpu/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-08-05T21:35:00Z"
+      "published": "2026-08-06T22:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon Keyspaces (for Apache Cassandra) is now available in the Canada West (Calgary) Region (ca-west-1)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-keyspaces-apache-cassandra-canada-west/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-keyspaces-apache-cassandra-canada-west/",
+      "title": "Amazon EC2 G7 instances are now available in the AWS Europe (Spain) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-g7-available-spain",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-g7-available-spain",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-08-05T20:06:00Z"
+      "published": "2026-08-06T20:51:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Glue Data Quality makes ETL anomaly detection free and improves anomaly predictions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-quality-anomaly-detection-free",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-quality-anomaly-detection-free",
+      "title": "Amazon ElastiCache now supports Graviton4-based M8g, R8g, and C8gn nodes",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-elasticache-graviton4-m8g-r8g-c8gn/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-elasticache-graviton4-m8g-r8g-c8gn/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-08-05T18:25:00Z"
+      "published": "2026-08-06T19:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Marketplace adds AI Insights so buyers can understand pricing before they buy",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-ai-insights/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-ai-insights/",
+      "title": "AWS Glue Schema Registry is now available in ten more AWS regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-gsr-10-more-regions",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-gsr-10-more-regions",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-08-05T17:00:00Z"
+      "published": "2026-08-06T18:56:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon DynamoDB now supports real-time vector search",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-vector-search",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-vector-search",
+      "title": "AWS Transform for migrations automates post-launch actions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-transform-for-migrations-automates-post-launch-actions",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-transform-for-migrations-automates-post-launch-actions",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-08-05T16:59:00Z"
+      "published": "2026-08-06T17:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Glue Data Catalog now supports  metadata exports to S3 Tables (Preview)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-catalog-s3-tables/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-catalog-s3-tables/",
+      "title": "AWS Security Agent now supports email-based MFA for penetration testing",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-agent-mfa/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-agent-mfa/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-08-05T15:42:00Z"
+      "published": "2026-08-06T16:54:00Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "industry",
+      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "discuss_url": "https://news.ycombinator.com/item?id=49201970",
+      "score": 301,
+      "comments": 234,
+      "author": "itvision",
+      "published": "2026-08-06T20:23:11Z"
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "AI isn’t enough to protect social media communities from AI",
-      "url": "https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-08-06T11:00:44Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers",
-      "url": "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/",
-      "discuss_url": "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-08-05T22:35:20Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Schwartz confirmed as CDC director after bungling confirmation hearing",
-      "url": "https://arstechnica.com/health/2026/08/schwartz-confirmed-as-cdc-director-after-bungling-confirmation-hearing/",
-      "discuss_url": "https://arstechnica.com/health/2026/08/schwartz-confirmed-as-cdc-director-after-bungling-confirmation-hearing/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-08-05T21:03:18Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-      "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-      "discuss_url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
+      "title": "Explosive drone found hovering near Ukrainian cargo aircraft at German airport",
+      "url": "https://arstechnica.com/gadgets/2026/08/germany-disarms-explosive-drone-found-at-airport-hunts-possible-second-drone/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/08/germany-disarms-explosive-drone-found-at-airport-hunts-possible-second-drone/",
       "score": null,
       "comments": null,
       "author": "Jeremy Hsu",
-      "published": "2026-08-05T20:47:11Z"
+      "published": "2026-08-06T22:01:55Z"
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Reddit signals ominous upcoming \"changes” for old.reddit.com",
-      "url": "https://arstechnica.com/gadgets/2026/08/reddit-signals-ominous-upcoming-changes-for-old-reddit-com/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/08/reddit-signals-ominous-upcoming-changes-for-old-reddit-com/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-08-05T20:01:32Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Hank Green found the AI problem that YouTube labels can’t catch",
-      "url": "https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/",
-      "discuss_url": "https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/",
-      "score": null,
-      "comments": null,
-      "author": "Nate Anderson",
-      "published": "2026-08-05T19:51:40Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "SpaceX claims Starlink Mobile will be better than AT&T, T-Mobile, and Verizon",
-      "url": "https://arstechnica.com/tech-policy/2026/08/spacex-claims-starlink-mobile-will-be-better-than-att-t-mobile-and-verizon/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/spacex-claims-starlink-mobile-will-be-better-than-att-t-mobile-and-verizon/",
+      "title": "X wants to keep suing advertisers, asks 5th Circuit to overrule district judge",
+      "url": "https://arstechnica.com/tech-policy/2026/08/elon-musks-x-isnt-done-suing-advertisers-asks-court-to-revive-boycott-case/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/elon-musks-x-isnt-done-suing-advertisers-asks-court-to-revive-boycott-case/",
       "score": null,
       "comments": null,
       "author": "Jon Brodkin",
-      "published": "2026-08-05T19:38:56Z"
+      "published": "2026-08-06T20:29:51Z"
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "This Atlantic hurricane season is looking like a dud, but there will be a price to pay",
-      "url": "https://arstechnica.com/science/2026/08/this-atlantic-hurricane-season-is-looking-like-a-dud-but-there-will-be-a-price-to-pay/",
-      "discuss_url": "https://arstechnica.com/science/2026/08/this-atlantic-hurricane-season-is-looking-like-a-dud-but-there-will-be-a-price-to-pay/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-08-05T19:19:04Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Google's AI shake-up: DeepMind's Hassabis steps aside, senior scientists depart",
-      "url": "https://arstechnica.com/gadgets/2026/08/googles-ai-shakeup-deepminds-hassabis-steps-aside-senior-scientists-depart/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/08/googles-ai-shakeup-deepminds-hassabis-steps-aside-senior-scientists-depart/",
+      "title": "Suno hopes to go legit with watermarks for AI-generated music",
+      "url": "https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music/",
+      "discuss_url": "https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music/",
       "score": null,
       "comments": null,
       "author": "Ryan Whitwam",
-      "published": "2026-08-05T19:05:58Z"
+      "published": "2026-08-06T20:17:36Z"
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Review: Spider-Man: Brand New Day reminds us that superhero movies can be good",
-      "url": "https://arstechnica.com/culture/2026/08/review-spider-man-brand-new-day-reminds-us-that-superhero-movies-can-be-good/",
-      "discuss_url": "https://arstechnica.com/culture/2026/08/review-spider-man-brand-new-day-reminds-us-that-superhero-movies-can-be-good/",
+      "title": "Anthropic will design its own hardware to power Claude",
+      "url": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
+      "discuss_url": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
+      "score": null,
+      "comments": null,
+      "author": "Samuel Axon",
+      "published": "2026-08-06T20:03:44Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Large genome models used to design new viruses",
+      "url": "https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/",
+      "discuss_url": "https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/",
+      "score": null,
+      "comments": null,
+      "author": "John Timmer",
+      "published": "2026-08-06T19:04:57Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Blue Origin narrowing in on root cause of catastrophic rocket accident",
+      "url": "https://arstechnica.com/space/2026/08/blue-origin-narrowing-in-on-root-cause-of-catastrophic-rocket-accident/",
+      "discuss_url": "https://arstechnica.com/space/2026/08/blue-origin-narrowing-in-on-root-cause-of-catastrophic-rocket-accident/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-08-06T18:20:32Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Parasitic zombie-ant fungus thrives in mosses, too",
+      "url": "https://arstechnica.com/science/2026/08/parasitic-zombie-fungus-thrives-in-mosses-too/",
+      "discuss_url": "https://arstechnica.com/science/2026/08/parasitic-zombie-fungus-thrives-in-mosses-too/",
       "score": null,
       "comments": null,
       "author": "Jennifer Ouellette",
-      "published": "2026-08-05T18:27:15Z"
+      "published": "2026-08-06T17:13:45Z"
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Weeks into explosive diarrhea outbreak, sluggish CDC plans response team",
-      "url": "https://arstechnica.com/health/2026/08/report-cdc-finally-plans-formal-response-team-for-explosive-diarrhea-outbreak/",
-      "discuss_url": "https://arstechnica.com/health/2026/08/report-cdc-finally-plans-formal-response-team-for-explosive-diarrhea-outbreak/",
+      "title": "Trump FCC kills TV ownership cap, claiming authority over limit set by Congress",
+      "url": "https://arstechnica.com/tech-policy/2026/08/trump-fcc-kills-tv-ownership-cap-claiming-authority-over-limit-set-by-congress/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/trump-fcc-kills-tv-ownership-cap-claiming-authority-over-limit-set-by-congress/",
+      "score": null,
+      "comments": null,
+      "author": "Jon Brodkin",
+      "published": "2026-08-06T16:40:58Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Moderna's mRNA flu shot earns FDA approval after rollercoaster review",
+      "url": "https://arstechnica.com/health/2026/08/modernas-mrna-flu-shot-earns-fda-approval-after-rollercoaster-review/",
+      "discuss_url": "https://arstechnica.com/health/2026/08/modernas-mrna-flu-shot-earns-fda-approval-after-rollercoaster-review/",
       "score": null,
       "comments": null,
       "author": "Beth Mole",
-      "published": "2026-08-05T18:11:11Z"
+      "published": "2026-08-06T16:31:06Z"
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "After jacking up prices, Disney+ and Netflix consider offering free alternatives",
-      "url": "https://arstechnica.com/gadgets/2026/08/after-jacking-up-prices-disney-and-netflix-consider-offering-free-alternatives/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/08/after-jacking-up-prices-disney-and-netflix-consider-offering-free-alternatives/",
+      "title": "Cloudflare open-sources vibe-coding platform for people who aren't coders",
+      "url": "https://arstechnica.com/ai/2026/08/cloudflare-open-sources-vibe-coding-platform-for-people-who-arent-coders/",
+      "discuss_url": "https://arstechnica.com/ai/2026/08/cloudflare-open-sources-vibe-coding-platform-for-people-who-arent-coders/",
       "score": null,
       "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-08-05T17:12:39Z"
+      "author": "Jeremy Hsu",
+      "published": "2026-08-06T16:15:30Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Ford picks \"Fathom\" for its affordable truck name, starts at $28,350",
+      "url": "https://arstechnica.com/cars/2026/08/ford-picks-fathom-for-its-affordable-truck-name-starts-at-28350/",
+      "discuss_url": "https://arstechnica.com/cars/2026/08/ford-picks-fathom-for-its-affordable-truck-name-starts-at-28350/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-08-06T13:00:44Z"
     }
   ]
 }
