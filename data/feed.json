@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T19:02:08Z",
+  "updated_at": "2026-08-08T01:51:44Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users",
       "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
       "discuss_url": "https://news.ycombinator.com/item?id=49199357",
-      "score": 300,
-      "comments": 246,
+      "score": 309,
+      "comments": 255,
       "author": "tedsanders",
       "published": "2026-08-06T17:02:04Z",
       "bullets": [
-        "OpenAI updated GPT-5.6 Sol in ChatGPT, improving performance, output quality, and system prompt adherence for subscriber workloads.",
-        "Unpaid ChatGPT users receive expanded quota for GPT-5.6 Luna, broadening access to optimized, low-latency inference.",
-        "The move reflects ongoing industry strategies to balance high-compute flagship models with cost-effective distilled variants at scale."
+        "OpenAI updated GPT-5.6 Sol in ChatGPT, optimizing inference efficiency, reasoning fidelity, and system prompt adherence for subscriber tiers.",
+        "OpenAI broadened free ChatGPT access to GPT-5.6 Luna, deploying a smaller, distilled architecture to reduce latency and serving costs.",
+        "The dual rollout highlights OpenAI's strategy of pairing compute-heavy reasoning models with efficient, high-throughput variants for lower-tier users."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/ucaatd",
       "discuss_url": "https://lobste.rs/s/ucaatd",
-      "score": 15,
-      "comments": 23,
+      "score": 22,
+      "comments": 38,
       "author": "caius",
       "published": "2026-08-07T09:38:13Z",
       "bullets": [
-        "Lobste.rs community members share open-source side projects, tooling experiments, and technical prototypes for peer feedback and collaboration.",
-        "Informal threads offer engineers opportunities to solicit early architectural feedback and test experimental languages or frameworks.",
-        "The discussion highlights developer burnout prevention by normalizing complete rest and non-technical recovery time alongside hobby hacking."
+        "Developers use weekend threads to share side-project progress, experiment with new programming languages, and test unproven software stacks.",
+        "Engineers seek asynchronous peer code reviews, architectural feedback, and technical troubleshooting on personal open-source projects.",
+        "Community discussions normalize deliberate rest alongside hobby coding to help software engineers prevent long-term professional burnout."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Framework discloses data breach via Metabase 0-day",
       "url": "https://community.frame.work/t/framework-data-breach-discussion/83939",
       "discuss_url": "https://news.ycombinator.com/item?id=49206130",
-      "score": 136,
-      "comments": 50,
+      "score": 141,
+      "comments": 53,
       "author": "RobinHirst11",
       "published": "2026-08-07T05:17:57Z",
       "bullets": [
-        "Framework Computer suffered a data breach caused by an unpatched zero-day vulnerability in their self-hosted Metabase analytics platform.",
-        "Self-hosted business intelligence tools pose severe risks because they aggregate high-value production database credentials and sensitive customer data.",
-        "Security teams should isolate BI deployments behind zero-trust proxies, enforce least-privilege DB access, and immediately audit Metabase instances."
+        "Framework suffered a data breach after attackers exploited an unpatched zero-day vulnerability in its self-hosted Metabase business intelligence deployment.",
+        "Business intelligence tools aggregate sensitive corporate data, making them high-priority targets for remote code execution and PII exfiltration.",
+        "Security teams must strictly isolate internal BI dashboards behind zero-trust access controls and prioritize immediate emergency patching for Metabase."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "raymii",
       "published": "2026-08-05T19:54:59Z",
       "bullets": [
-        "Proxmox VE now offers official ARM64 (aarch64) porting, enabling native virtualization on ARM-based enterprise servers and edge hardware.",
-        "Supports LXC containers and QEMU/KVM virtual machines on ARM, though x86 feature parity and third-party driver support remain limited.",
-        "Unlocks low-power, cost-efficient infrastructure options for edge deployment, hybrid homelabs, and ARM-native CI/CD build nodes."
+        "Proxmox VE officially expands hypervisor support to ARM64 (aarch64), enabling bare-metal deployment on ARM servers and edge devices.",
+        "Supports native QEMU/KVM virtualization and LXC containers, lowering compute costs and power consumption for high-density DevOps workloads.",
+        "Caveats include early-stage hardware compatibility, potential ZFS/Ceph limitations, and missing feature parity with x86_64 Proxmox stacks."
       ]
     },
     {
@@ -105,14 +105,14 @@
       "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
       "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
       "discuss_url": "https://news.ycombinator.com/item?id=49201970",
-      "score": 844,
-      "comments": 637,
+      "score": 888,
+      "comments": 666,
       "author": "itvision",
       "published": "2026-08-06T20:23:11Z",
       "bullets": [
-        "AMD's acquisition of Taalas advances hardwired AI silicon, baking specific model weights and architectures directly into custom ASICs.",
-        "Bypassing standard GPU HBM bottlenecks, etched-in-silicon models achieve massive reductions in latency, chip area, and inference power consumption.",
-        "The acquisition trades software reconfigurability for ultra-high-efficiency inference, directly targeting high-volume foundation model deployments against Nvidia's ecosystem."
+        "https://ir.amd.com/news-events/press-releases/detail/1296/am...",
+        "https://chatjimmy.ai/",
+        "AMD acquires Taalas to boost inference performance by etching models in silicon"
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users",
       "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
       "discuss_url": "https://news.ycombinator.com/item?id=49199357",
-      "score": 300,
-      "comments": 246,
+      "score": 309,
+      "comments": 255,
       "author": "tedsanders",
       "published": "2026-08-06T17:02:04Z"
     },
@@ -136,10 +136,22 @@
       "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
       "url": "https://www.aleksagordic.com/blog/vllm",
       "discuss_url": "https://news.ycombinator.com/item?id=49202852",
-      "score": 137,
+      "score": 142,
       "comments": 9,
       "author": "sebg",
       "published": "2026-08-06T21:30:21Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "social media rabbit holes, clusters, and the relative mixing times of random walks",
+      "url": "https://notes.hella.cheap/twitter-isnt-a-town-square-its-a-high-school-cafeteria.html",
+      "discuss_url": "https://lobste.rs/s/hmi3v1",
+      "score": 3,
+      "comments": 0,
+      "author": "bobpoekert",
+      "published": "2026-08-07T21:22:54Z"
     },
     {
       "source": "rss",
@@ -184,8 +196,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/ucaatd",
       "discuss_url": "https://lobste.rs/s/ucaatd",
-      "score": 15,
-      "comments": 23,
+      "score": 22,
+      "comments": 38,
       "author": "caius",
       "published": "2026-08-07T09:38:13Z"
     },
@@ -196,7 +208,7 @@
       "title": "From constraint models to playable puzzle games",
       "url": "https://zayenz.se/blog/post/constraint-generated-puzzle-games/",
       "discuss_url": "https://lobste.rs/s/mqzspg",
-      "score": 10,
+      "score": 14,
       "comments": 0,
       "author": "mzl",
       "published": "2026-08-07T10:54:46Z"
@@ -262,30 +274,6 @@
       "published": "2026-08-07T10:56:29Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Use Task Runners for Common Coding Tasks",
-      "url": "https://hamvocke.com/blog/task-runners/",
-      "discuss_url": "https://lobste.rs/s/pcry26",
-      "score": 4,
-      "comments": 8,
-      "author": "olex",
-      "published": "2026-08-03T20:59:35Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Asana’s fascinating Tab shortcuts",
-      "url": "https://unsung.aresluna.org/asanas-fascinating-tab-shortcuts/",
-      "discuss_url": "https://lobste.rs/s/nybi13",
-      "score": 6,
-      "comments": 1,
-      "author": "mtlynch",
-      "published": "2026-08-03T20:18:36Z"
-    },
-    {
       "source": "rss",
       "subsource": "github.blog",
       "category": "engineering",
@@ -322,14 +310,38 @@
       "published": "2026-08-04T19:02:34Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Turn one giant AI-generated pull request to a reviewable stack",
+      "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+      "discuss_url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+      "score": null,
+      "comments": null,
+      "author": "Julia Muiruri",
+      "published": "2026-08-04T16:47:18Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "How to be fearlessly AI native​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍​﻿‌‍‌​​﻿‌‍‌‍‌​​﻿‍‌​﻿‌​‌‍​‌​﻿‍​​‍﻿‌​﻿‌‍‌‍‌‌‌‍​‍​﻿‌‍​‍﻿‌​﻿‌​​﻿​‍​﻿‌​​﻿​﻿​‍﻿‌​﻿‍​‌‍‌‌‌‍‌‌​﻿​‌​‍﻿‌‌‍​‍​﻿‌‌‌‍​‍​﻿​﻿​﻿‍‌​﻿​‌‌‍‌‌‌‍‌‍​﻿​​​﻿‌​​﻿‌​​﻿​‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍​﻿‌‍‌​​﻿‌‍‌‍‌​​﻿‍‌​﻿‌​‌‍​‌​﻿‍​​‍﻿‌​﻿‌‍‌‍‌‌‌‍​‍​﻿‌‍​‍﻿‌​﻿‌​​﻿​‍​﻿‌​​﻿​﻿​‍﻿‌​﻿‍​‌‍‌‌‌‍‌‌​﻿​‌​‍﻿‌‌‍​‍​﻿‌‌‌‍​‍​﻿​﻿​﻿‍‌​﻿​‌‌‍‌‌‌‍‌‍​﻿​​​﻿‌​​﻿‌​​﻿​‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/08/07/how-to-be-fearlessly-ai-native/",
+      "discuss_url": "https://stackoverflow.blog/2026/08/07/how-to-be-fearlessly-ai-native/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-08-07T07:40:00Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Framework discloses data breach via Metabase 0-day",
       "url": "https://community.frame.work/t/framework-data-breach-discussion/83939",
       "discuss_url": "https://news.ycombinator.com/item?id=49206130",
-      "score": 136,
-      "comments": 50,
+      "score": 141,
+      "comments": 53,
       "author": "RobinHirst11",
       "published": "2026-08-07T05:17:57Z"
     },
@@ -340,8 +352,8 @@
       "title": "tl;dv (Too Lazy; Didn't Validate): 181,874 Meetings Left Wide Open",
       "url": "https://bobdahacker.com/blog/tldv-hack",
       "discuss_url": "https://lobste.rs/s/97laur",
-      "score": 179,
-      "comments": 43,
+      "score": 183,
+      "comments": 46,
       "author": "yoelcabo",
       "published": "2026-08-06T11:22:20Z"
     },
@@ -352,7 +364,7 @@
       "title": "AI-generated vulnerability patches require human review",
       "url": "https://1password.com/blog/why-ai-generated-patches-still-require-human-review",
       "discuss_url": "https://lobste.rs/s/rkh2ux",
-      "score": 12,
+      "score": 13,
       "comments": 3,
       "author": "ubernostrum",
       "published": "2026-08-06T22:37:07Z"
@@ -364,22 +376,10 @@
       "title": "schrodingers-toctou: The binary you run is not the program you wrote",
       "url": "https://github.com/xoreaxeaxeax/schrodingers-toctou",
       "discuss_url": "https://lobste.rs/s/bmnusu",
-      "score": 8,
+      "score": 9,
       "comments": 8,
       "author": "juri",
       "published": "2026-08-06T15:47:45Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Zapscape - Guest to host escape in KVM/x86",
-      "url": "https://github.com/V4bel/Zapscape",
-      "discuss_url": "https://lobste.rs/s/2hatf3",
-      "score": 13,
-      "comments": 1,
-      "author": "rrampage",
-      "published": "2026-08-06T17:31:28Z"
     },
     {
       "source": "lobsters",
@@ -397,6 +397,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Zapscape - Guest to host escape in KVM/x86",
+      "url": "https://github.com/V4bel/Zapscape",
+      "discuss_url": "https://lobste.rs/s/2hatf3",
+      "score": 13,
+      "comments": 1,
+      "author": "rrampage",
+      "published": "2026-08-06T17:31:28Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Risk-Analysis-Editor: Open-source risk analysis editor supporting EBIOS RM, GDPR DPIA (CNIL), ISO 27005 and custom methodologies",
       "url": "https://github.com/StephaneV/Risk-Analysis-Editor",
       "discuss_url": "https://lobste.rs/s/pebujw",
@@ -409,18 +421,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "SCTPhantom: An 18-Year-Old SCTP ASCONF Transport Use-After-Free",
-      "url": "https://matrix.tencent.com/en/2026/08/06/sctphantom-CVE-2026-64564",
-      "discuss_url": "https://lobste.rs/s/wdnet3",
-      "score": 2,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-08-06T20:33:06Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "AI models shock UK testers by using fake identities to try to trick developers",
       "url": "https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute",
       "discuss_url": "https://lobste.rs/s/tmpokv",
@@ -428,6 +428,18 @@
       "comments": 5,
       "author": "ahobson",
       "published": "2026-08-05T22:02:11Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "SCTPhantom: An 18-Year-Old SCTP ASCONF Transport Use-After-Free",
+      "url": "https://matrix.tencent.com/en/2026/08/06/sctphantom-CVE-2026-64564",
+      "discuss_url": "https://lobste.rs/s/wdnet3",
+      "score": 2,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-08-06T20:33:06Z"
     },
     {
       "source": "lobsters",
@@ -514,16 +526,40 @@
       "published": "2026-08-06T01:24:30Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
+      "source": "rss",
+      "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Sovereign Tech Fellowship for Rust maintenance (June-July 2026 report)",
-      "url": "https://kobzol.github.io/rust/2026/08/03/stf-june-july-2026.html",
-      "discuss_url": "https://lobste.rs/s/0zr9wr",
-      "score": 2,
-      "comments": 0,
-      "author": "BD103",
-      "published": "2026-08-03T23:14:27Z"
+      "title": "Amazon EC2 R8i and R8i-Flex instances are now available in Europe (Milan) region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-07T21:11:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Timestream for InfluxDB now supports backup and restore",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-backup-restore/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-backup-restore/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-07T19:21:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Cognito now available as a skill in the Agent Toolkit for AWS",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-auth-agent-skill/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-auth-agent-skill/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-07T18:00:48Z"
     },
     {
       "source": "rss",
@@ -541,73 +577,49 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Parallel Computing Service is now in scope for FedRAMP, SOC, ISO, CSA STAR, and PCI",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-pcs-august/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-pcs-august/",
+      "title": "Amazon Bedrock AgentCore adds memory, policy, and harness in AWS GovCloud (US-West)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-policy-harness-govcloud/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-policy-harness-govcloud/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-08-07T04:58:00Z"
+      "published": "2026-08-07T15:52:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon ECS now supports fractional GPU scheduling with Amazon EC2 G6f instances",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-fractional-gpu/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-fractional-gpu/",
+      "title": "Amazon GameLift Servers now supports 21 new EC2 instance types",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/gamelift-ec2-instance-expansion/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/gamelift-ec2-instance-expansion/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-08-06T22:00:00Z"
+      "published": "2026-08-07T08:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Lambda console extends console-to-IDE integration to Kiro and Cursor",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-ide-kiro-cursor/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-ide-kiro-cursor/",
+      "title": "Amazon OpenSearch Service announces additional upgrade runway for existing domains and support dates for additional versions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-additional-upgrade-runway-support-dates",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-additional-upgrade-runway-support-dates",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-08-06T21:53:00Z"
+      "published": "2026-08-07T07:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS WAF now supports a Salt Security managed rule group for API and MCP threat detection",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-waf-salt-security-managed-rules/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-waf-salt-security-managed-rules/",
+      "title": "Amazon SES now helps identify automated open and click events in event notifications",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-automated-email-interactions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-automated-email-interactions/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-08-06T21:10:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 G7 instances are now available in the AWS Europe (Spain) Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-g7-available-spain",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-g7-available-spain",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-06T20:51:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AgentCore runtime instances are now generally available",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-bedrock-agentcore-runtime-instances-generally-available/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-bedrock-agentcore-runtime-instances-generally-available/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-06T20:00:00Z"
+      "published": "2026-08-07T07:00:00Z"
     },
     {
       "source": "hackernews",
@@ -616,10 +628,58 @@
       "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
       "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
       "discuss_url": "https://news.ycombinator.com/item?id=49201970",
-      "score": 844,
-      "comments": 637,
+      "score": 888,
+      "comments": 666,
       "author": "itvision",
       "published": "2026-08-06T20:23:11Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Europe's free satellite service just made it easier to track wildfires",
+      "url": "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/",
+      "score": null,
+      "comments": null,
+      "author": "Jeremy Hsu",
+      "published": "2026-08-07T21:48:21Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Flesh-eating screwworms feast on humans in Mexico; human cases top 500",
+      "url": "https://arstechnica.com/health/2026/08/flesh-eating-screwworms-feast-on-humans-in-mexico-human-cases-top-500/",
+      "discuss_url": "https://arstechnica.com/health/2026/08/flesh-eating-screwworms-feast-on-humans-in-mexico-human-cases-top-500/",
+      "score": null,
+      "comments": null,
+      "author": "Beth Mole",
+      "published": "2026-08-07T21:09:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Judge rules Meta caused \"public nuisance\" and must fund mental health treatment",
+      "url": "https://arstechnica.com/tech-policy/2026/08/meta-ordered-to-pay-567m-to-treat-youth-mental-health-problems-it-helped-create/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/meta-ordered-to-pay-567m-to-treat-youth-mental-health-problems-it-helped-create/",
+      "score": null,
+      "comments": null,
+      "author": "Jon Brodkin",
+      "published": "2026-08-07T19:49:27Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "The ultimate eclipse chase: A Concorde raced against the Moon's shadow",
+      "url": "https://arstechnica.com/science/2026/08/the-ultimate-eclipse-chase-a-concorde-raced-against-the-moons-shadow/",
+      "discuss_url": "https://arstechnica.com/science/2026/08/the-ultimate-eclipse-chase-a-concorde-raced-against-the-moons-shadow/",
+      "score": null,
+      "comments": null,
+      "author": "Dhananjay Khadilkar",
+      "published": "2026-08-07T19:00:17Z"
     },
     {
       "source": "rss",
@@ -704,54 +764,6 @@
       "comments": null,
       "author": "Cyrus Farivar",
       "published": "2026-08-07T13:49:37Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "ByteDance trains massive AI model in bid to rival Anthropic",
-      "url": "https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/",
-      "discuss_url": "https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/",
-      "score": null,
-      "comments": null,
-      "author": "Zijing Wu, Financial Times",
-      "published": "2026-08-07T13:29:22Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The world's biggest solar telescope caught vortexes on the Sun's surface",
-      "url": "https://arstechnica.com/science/2026/08/the-worlds-biggest-solar-telescope-caught-vortexes-on-the-suns-surface/",
-      "discuss_url": "https://arstechnica.com/science/2026/08/the-worlds-biggest-solar-telescope-caught-vortexes-on-the-suns-surface/",
-      "score": null,
-      "comments": null,
-      "author": "Jacek Krywko",
-      "published": "2026-08-07T13:20:46Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Trump is losing his war on wind power",
-      "url": "https://arstechnica.com/science/2026/08/trump-is-losing-his-war-on-wind-power/",
-      "discuss_url": "https://arstechnica.com/science/2026/08/trump-is-losing-his-war-on-wind-power/",
-      "score": null,
-      "comments": null,
-      "author": "John Timmer",
-      "published": "2026-08-07T12:58:04Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Remembering the pre-Google web, when search was an experiment",
-      "url": "https://arstechnica.com/gadgets/2026/08/remembering-the-pre-google-web-when-search-was-an-experiment/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/08/remembering-the-pre-google-web-when-search-was-an-experiment/",
-      "score": null,
-      "comments": null,
-      "author": "Alan Bradley",
-      "published": "2026-08-07T11:00:06Z"
     }
   ]
 }
