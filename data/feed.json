@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T12:59:12Z",
+  "updated_at": "2026-08-09T18:46:17Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Timeline of the OpenAI accidental attack against Hugging Face",
       "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
       "discuss_url": "https://news.ycombinator.com/item?id=49220609",
-      "score": 401,
-      "comments": 392,
+      "score": 409,
+      "comments": 400,
       "author": "882542F3884314B",
       "published": "2026-08-08T10:57:44Z",
       "bullets": [
-        "OpenAI misconfigured automated scrapers, inadvertently launching a massive DDoS-style request spike against Hugging Face's repository infrastructure.",
-        "Unthrottled AI agent and crawler traffic overwhelmed Hugging Face endpoints, highlighting risks of automated dataset harvesting at scale.",
-        "Machine learning platforms require strict API rate limiting and active crawler coordination to defend against runaway automated AI traffic."
+        "OpenAI automated web crawlers inadvertently launched an unintentional denial-of-service against Hugging Face repositories due to aggressive rate-unlimited scraping.",
+        "High-concurrency data retrieval by LLM training pipelines can easily exceed target API limits and cause severe infrastructure outages.",
+        "AI artifact hosts must enforce strict API rate limiting, egress throttling, and User-Agent filtering to defend against unthrottled crawler traffic."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "some software talks i like",
       "url": "https://char.lt/blog/2026/08/talks-i-like/",
       "discuss_url": "https://lobste.rs/s/cmrfrj",
-      "score": 75,
+      "score": 83,
       "comments": 16,
       "author": "hugoarnal",
       "published": "2026-08-08T13:48:36Z",
       "bullets": [
-        "Essential distributed systems presentations cover Raft consensus, formal verification using TLA+, and fault tolerance in high-availability architectures.",
-        "Recommended performance talks emphasize low-level memory profiling, cache-friendly data structures, and optimizing Rust or C++ execution paths.",
-        "Core software engineering sessions focus on managing technical debt, API contract design, and operational debuggability in complex microservices."
+        "Prioritize foundational design talks like Rich Hickey’s 'Simple Made Easy' to untangle architectural complexity from mere developer familiarity.",
+        "Study distributed systems classics covering Raft consensus, vector clocks, and fault-tolerant state machine replication for reliable architectures.",
+        "Review practical systems engineering presentations on eBPF profiling, garbage collection overhead, and tail-latency reduction strategies."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "OpenSSH Key Structure Guide",
       "url": "https://sshref.dev/",
       "discuss_url": "https://lobste.rs/s/lnxdje",
-      "score": 9,
+      "score": 12,
       "comments": 6,
       "author": "BD103",
       "published": "2026-08-08T18:22:36Z",
       "bullets": [
-        "Modern OpenSSH private keys use the proprietary openssh-key-v1 format instead of legacy PEM wrappers, improving passphrase encryption resilience.",
-        "Key files comprise binary blobs containing magic bytes, cipher/KDF details (like bcrypt), public key headers, and encrypted private payloads.",
-        "The structure standardizes serialization across Ed25519, ECDSA, RSA, and hardware-backed FIDO/U2F security keys (sk-ed25519@openssh.com)."
+        "Modern OpenSSH private keys use the native `openssh-key-v1` format with bcrypt KDF key derivation to resist offline brute-force attacks.",
+        "Key files feature magic header bytes followed by packed binary wire formats encoding cipher settings, public parameters, and encrypted private blocks.",
+        "Parsing native OpenSSH key blobs requires handling length-prefixed byte arrays, salt/rounds metadata, and unpadded payload alignment for credential extraction."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "raymii",
       "published": "2026-08-05T19:54:59Z",
       "bullets": [
-        "Proxmox VE now offers ARM64 (aarch64) packages, enabling hypervisor deployments on energy-efficient hardware like Ampere Altra and Raspberry Pi.",
-        "Deployment requires pre-installing a base Debian ARM64 OS, as standalone ISO installers and full enterprise-level support are not yet available.",
-        "Unlocks low-cost edge computing, heterogeneous multi-architecture clusters, and ARM-native CI/CD runner infrastructure alongside existing x86_64 nodes."
+        "Proxmox VE introduces official ARM64 support, enabling native KVM virtualization and LXC container deployment on ARM-based server hardware.",
+        "Native ARM64 workloads achieve near bare-metal speed, whereas x86 guests require full QEMU emulation, causing significant performance overhead.",
+        "Implementation caveats include limited enterprise repository support, architecture-specific LXC template availability, and hardware-dependent UEFI boot requirements."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Jacek Krywko",
       "published": "2026-08-09T11:00:14Z",
       "bullets": [
-        "New climate modeling shows the Toba supereruption (~74,000 years ago) caused minimal global climate disruption, refuting long-held human bottleneck theories.",
-        "Geological evidence indicates regional environmental resilience, suggesting massive volcanic eruptions do not automatically trigger severe, protracted global cooling events.",
-        "Updated historical climate data prompts a reassessment of catastrophic environmental risk models and biosphere vulnerability to supervolcanic events."
+        "Paleoclimate data shows Sumatra's ancient Toba supereruption generated significantly less global cooling than long-standing catastrophe models predicted.",
+        "Findings challenge the Toba catastrophe hypothesis, indicating early human populations did not experience a volcanic winter evolutionary bottleneck.",
+        "Updated climate simulations suggest atmospheric sulfur aerosol dispersal dynamics heavily constrain the planetary cooling impact of supervolcanoes."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Timeline of the OpenAI accidental attack against Hugging Face",
       "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
       "discuss_url": "https://news.ycombinator.com/item?id=49220609",
-      "score": 401,
-      "comments": 392,
+      "score": 409,
+      "comments": 400,
       "author": "882542F3884314B",
       "published": "2026-08-08T10:57:44Z"
     },
@@ -136,8 +136,8 @@
       "title": "Message your other Claude Code sessions",
       "url": "https://code.claude.com/docs/en/cross-session-messaging",
       "discuss_url": "https://news.ycombinator.com/item?id=49222824",
-      "score": 137,
-      "comments": 60,
+      "score": 145,
+      "comments": 63,
       "author": "mfiguiere",
       "published": "2026-08-08T15:34:49Z"
     },
@@ -148,8 +148,8 @@
       "title": "Lost my phone at the office. Claude suggested tracking Bluetooth signal strength",
       "url": "https://twitter.com/un1c0rnioz/status/2084686552299634805",
       "discuss_url": "https://news.ycombinator.com/item?id=49215786",
-      "score": 278,
-      "comments": 204,
+      "score": 287,
+      "comments": 208,
       "author": "ilamont",
       "published": "2026-08-07T20:25:04Z"
     },
@@ -208,7 +208,7 @@
       "title": "some software talks i like",
       "url": "https://char.lt/blog/2026/08/talks-i-like/",
       "discuss_url": "https://lobste.rs/s/cmrfrj",
-      "score": 75,
+      "score": 83,
       "comments": 16,
       "author": "hugoarnal",
       "published": "2026-08-08T13:48:36Z"
@@ -217,13 +217,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Counting the days, revisited",
-      "url": "https://dotat.at/@/2026-08-09-rata-die.html",
-      "discuss_url": "https://lobste.rs/s/cqx6f6",
-      "score": 10,
+      "title": "On Arch Linux scripts and hooks",
+      "url": "https://devblog.archlinux.page/2026/on-scripts-and-hooks/",
+      "discuss_url": "https://lobste.rs/s/0mrntr",
+      "score": 4,
       "comments": 0,
-      "author": "fanf",
-      "published": "2026-08-09T02:32:55Z"
+      "author": "hugoarnal",
+      "published": "2026-08-09T14:46:15Z"
     },
     {
       "source": "lobsters",
@@ -232,10 +232,22 @@
       "title": "What Software is Made Of (2015)",
       "url": "https://siderea.dreamwidth.org/1219758.html",
       "discuss_url": "https://lobste.rs/s/aa229o",
-      "score": 1,
-      "comments": 0,
+      "score": 3,
+      "comments": 2,
       "author": "n3t",
       "published": "2026-08-09T12:26:37Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Counting the days, revisited",
+      "url": "https://dotat.at/@/2026-08-09-rata-die.html",
+      "discuss_url": "https://lobste.rs/s/cqx6f6",
+      "score": 16,
+      "comments": 0,
+      "author": "fanf",
+      "published": "2026-08-09T02:32:55Z"
     },
     {
       "source": "lobsters",
@@ -245,7 +257,7 @@
       "url": "https://lobste.rs/s/ucaatd",
       "discuss_url": "https://lobste.rs/s/ucaatd",
       "score": 24,
-      "comments": 59,
+      "comments": 62,
       "author": "caius",
       "published": "2026-08-07T09:38:13Z"
     },
@@ -268,7 +280,7 @@
       "title": "From constraint models to playable puzzle games",
       "url": "https://zayenz.se/blog/post/constraint-generated-puzzle-games/",
       "discuss_url": "https://lobste.rs/s/mqzspg",
-      "score": 22,
+      "score": 23,
       "comments": 0,
       "author": "mzl",
       "published": "2026-08-07T10:54:46Z"
@@ -284,18 +296,6 @@
       "comments": 1,
       "author": "dsr",
       "published": "2026-08-06T11:37:30Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Painting with Gaussians",
-      "url": "https://yogthos.net/posts/2026-08-03-splat-painter.html",
-      "discuss_url": "https://lobste.rs/s/wkujx7",
-      "score": 21,
-      "comments": 8,
-      "author": "Yogthos",
-      "published": "2026-08-05T13:33:16Z"
     },
     {
       "source": "lobsters",
@@ -352,7 +352,7 @@
       "title": "OpenSSH Key Structure Guide",
       "url": "https://sshref.dev/",
       "discuss_url": "https://lobste.rs/s/lnxdje",
-      "score": 9,
+      "score": 12,
       "comments": 6,
       "author": "BD103",
       "published": "2026-08-08T18:22:36Z"
@@ -373,6 +373,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Integrated Sensing and Communication (ISAC)",
+      "url": "https://www.ericsson.com/en/6g/isac",
+      "discuss_url": "https://lobste.rs/s/35dq6x",
+      "score": 1,
+      "comments": 0,
+      "author": "elasticdog",
+      "published": "2026-08-09T13:56:22Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "AI-generated vulnerability patches require human review",
       "url": "https://1password.com/blog/why-ai-generated-patches-still-require-human-review",
       "discuss_url": "https://lobste.rs/s/rkh2ux",
@@ -385,18 +397,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "experiments with isolation on blue pill",
-      "url": "https://l0puh.github.io/log/2026/08/04/experiments_with_isolation/",
-      "discuss_url": "https://lobste.rs/s/bbkpzc",
-      "score": 3,
-      "comments": 0,
-      "author": "kaycebasques",
-      "published": "2026-08-08T18:06:31Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "schrodingers-toctou: The binary you run is not the program you wrote",
       "url": "https://github.com/xoreaxeaxeax/schrodingers-toctou",
       "discuss_url": "https://lobste.rs/s/bmnusu",
@@ -404,6 +404,18 @@
       "comments": 8,
       "author": "juri",
       "published": "2026-08-06T15:47:45Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "experiments with isolation on blue pill",
+      "url": "https://l0puh.github.io/log/2026/08/04/experiments_with_isolation/",
+      "discuss_url": "https://lobste.rs/s/bbkpzc",
+      "score": 3,
+      "comments": 0,
+      "author": "kaycebasques",
+      "published": "2026-08-08T18:06:31Z"
     },
     {
       "source": "lobsters",
@@ -478,18 +490,6 @@
       "published": "2026-08-07T03:34:53Z"
     },
     {
-      "source": "rss",
-      "subsource": "krebsonsecurity.com",
-      "category": "security",
-      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-      "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-      "discuss_url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-      "score": null,
-      "comments": null,
-      "author": "BrianKrebs",
-      "published": "2026-08-06T17:00:56Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
@@ -500,18 +500,6 @@
       "comments": 5,
       "author": "raymii",
       "published": "2026-08-05T19:54:59Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "How Compiler Explorer Runs on AWS in 2026",
-      "url": "https://xania.org/202608/how-compiler-explorer-runs-on-aws",
-      "discuss_url": "https://lobste.rs/s/1eie3y",
-      "score": 9,
-      "comments": 0,
-      "author": "raymii",
-      "published": "2026-08-05T16:23:32Z"
     },
     {
       "source": "lobsters",
@@ -632,6 +620,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-08-07T07:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Parallel Computing Service is now in scope for FedRAMP, SOC, ISO, CSA STAR, and PCI",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-pcs-august/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-pcs-august/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-07T04:58:00Z"
     },
     {
       "source": "rss",
