@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T18:42:07Z",
+  "updated_at": "2026-08-09T01:58:57Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Timeline of the OpenAI accidental attack against Hugging Face",
       "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
       "discuss_url": "https://news.ycombinator.com/item?id=49220609",
-      "score": 210,
-      "comments": 222,
+      "score": 341,
+      "comments": 350,
       "author": "882542F3884314B",
       "published": "2026-08-08T10:57:44Z",
       "bullets": [
-        "OpenAI automated crawlers accidentally triggered an unintentional denial-of-service against Hugging Face through unthrottled model and dataset scraping.",
-        "The incident highlights the critical need for strict API rate limiting, backoff algorithms, and bot mitigation on public ML repositories.",
-        "AI infrastructure teams must enforce egress traffic throttling and safety controls on automated training pipelines to prevent accidental DDoS."
+        "OpenAI automated data scraping pipelines accidentally caused a denial-of-service against Hugging Face Hub during large-scale model dataset ingestion.",
+        "The incident highlights risks when automated AI training scrapers lack proper exponential backoff and rate-limit compliance mechanisms.",
+        "Repositories like Hugging Face Hub require strict API throttling, edge rate-limiting, and proactive bot detection against autonomous crawlers."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "some software talks i like",
       "url": "https://char.lt/blog/2026/08/talks-i-like/",
       "discuss_url": "https://lobste.rs/s/cmrfrj",
-      "score": 34,
-      "comments": 6,
+      "score": 55,
+      "comments": 13,
       "author": "hugoarnal",
       "published": "2026-08-08T13:48:36Z",
       "bullets": [
-        "Curated engineering presentations highlight core principles in distributed systems architecture, resilience engineering, and large-scale system design.",
-        "Talks cover critical technical topics including concurrency models, database internals, low-level performance optimization, and complex production debugging strategies.",
-        "Video resources offer practical insights on software maintainability, API design, and trade-offs in modern programming paradigms for senior developers."
+        "Curated software talks emphasize system simplicity, state machine replication, and distributed consensus protocols like Raft and Paxos.",
+        "Deep-dive presentations cover low-level performance engineering, CPU cache behavior, memory management, and JIT/AOT compiler optimization techniques.",
+        "Practical sessions detail real-world strategies for safely refactoring legacy monoliths, API evolution, and rigorous software testing methodologies."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Framework discloses data breach via Metabase 0-day",
-      "url": "https://community.frame.work/t/framework-data-breach-discussion/83939",
-      "discuss_url": "https://news.ycombinator.com/item?id=49206130",
-      "score": 145,
-      "comments": 54,
-      "author": "RobinHirst11",
-      "published": "2026-08-07T05:17:57Z",
+      "title": "OpenSSH Key Structure Guide",
+      "url": "https://sshref.dev/",
+      "discuss_url": "https://lobste.rs/s/lnxdje",
+      "score": 7,
+      "comments": 1,
+      "author": "BD103",
+      "published": "2026-08-08T18:22:36Z",
       "bullets": [
-        "Framework suffered a data breach exposing customer information after attackers exploited a zero-day vulnerability in business intelligence platform Metabase.",
-        "The zero-day flaw allowed unauthorized access to self-hosted Metabase instances, demonstrating high-risk exposure in internal business intelligence infrastructure.",
-        "Organizations using Metabase should apply emergency patches immediately, audit database connection credentials, and isolate analytics tools behind strict VPNs/SSO."
+        "Modern OpenSSH private keys use the openssh-key-v1 binary format, replacing legacy OpenSSL PEM structures with magic string headers and padded keypairs.",
+        "Passphrase-protected private keys employ a custom bcrypt KDF combined with AES-256-CTR symmetric encryption to mitigate offline brute-force attacks.",
+        "Public key files serialize key types (e.g., ssh-ed25519, rsa-sha2-512) and parameters using uint32 length-prefixed byte arrays in RFC 4253 wire format."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "raymii",
       "published": "2026-08-05T19:54:59Z",
       "bullets": [
-        "Proxmox VE now officially supports ARM64 (aarch64), enabling native hypervisor deployments on modern ARM server hardware like Ampere Altra.",
-        "LXC containers and KVM virtual machines run natively without emulation, optimizing density and power efficiency for edge infrastructure.",
-        "Production deployment caveats include strict UEFI/ACPI requirements and potential feature gaps compared to the mature x86_64 ecosystem."
+        "Proxmox VE expands to ARM64, enabling KVM and LXC workload deployment on Ampere servers and edge hardware.",
+        "DevOps teams can leverage ARM-based clusters for cost-effective CI/CD build nodes, Kubernetes host nodes, and low-power infrastructure.",
+        "Current caveats include limited x86_64 feature parity, restricted third-party storage driver availability, and experimental enterprise support status."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
-      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
-      "discuss_url": "https://news.ycombinator.com/item?id=49201970",
-      "score": 918,
-      "comments": 691,
-      "author": "itvision",
-      "published": "2026-08-06T20:23:11Z",
+      "title": "The first self-driving vehicle on Mars has proven to be a smashing success",
+      "url": "https://arstechnica.com/space/2026/08/the-first-self-driving-vehicle-on-mars-has-proven-to-be-a-smashing-success/",
+      "discuss_url": "https://arstechnica.com/space/2026/08/the-first-self-driving-vehicle-on-mars-has-proven-to-be-a-smashing-success/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-08-08T11:30:48Z",
       "bullets": [
-        "Hardwiring weights directly onto ASIC silicon eliminates HBM bandwidth bottlenecks, dramatically lowering LLM inference latency and unit cost.",
-        "Hardcoded model chips complement general-purpose accelerators like AMD Instinct MI300, targeting static, high-volume production models at scale.",
-        "Etching neural architectures into silicon trades post-training model flexibility for orders-of-magnitude gains in energy efficiency and token throughput."
+        "NASA's Perseverance rover completed approximately 90% of its total Martian traverse distance using on-board autonomous navigation (AutoNav).",
+        "On-board vision processing enables real-time 3D hazard avoidance, successfully mitigating extreme Earth-to-Mars communication latencies.",
+        "The mission validates high-autonomy edge compute systems for long-distance, unmapped off-road navigation in mission-critical environments."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Timeline of the OpenAI accidental attack against Hugging Face",
       "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
       "discuss_url": "https://news.ycombinator.com/item?id=49220609",
-      "score": 210,
-      "comments": 222,
+      "score": 341,
+      "comments": 350,
       "author": "882542F3884314B",
       "published": "2026-08-08T10:57:44Z"
     },
@@ -133,13 +133,25 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
-      "url": "https://www.aleksagordic.com/blog/vllm",
-      "discuss_url": "https://news.ycombinator.com/item?id=49202852",
-      "score": 145,
-      "comments": 10,
-      "author": "sebg",
-      "published": "2026-08-06T21:30:21Z"
+      "title": "Lost my phone at the office. Claude suggested tracking Bluetooth signal strength",
+      "url": "https://twitter.com/un1c0rnioz/status/2084686552299634805",
+      "discuss_url": "https://news.ycombinator.com/item?id=49215786",
+      "score": 221,
+      "comments": 162,
+      "author": "ilamont",
+      "published": "2026-08-07T20:25:04Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Revision Prompting improves industrial LLM processes",
+      "url": "https://revisionprompting.info/",
+      "discuss_url": "https://lobste.rs/s/wkx6jf",
+      "score": 2,
+      "comments": 1,
+      "author": "roberthoenig",
+      "published": "2026-08-08T20:20:42Z"
     },
     {
       "source": "lobsters",
@@ -196,8 +208,8 @@
       "title": "some software talks i like",
       "url": "https://char.lt/blog/2026/08/talks-i-like/",
       "discuss_url": "https://lobste.rs/s/cmrfrj",
-      "score": 34,
-      "comments": 6,
+      "score": 55,
+      "comments": 13,
       "author": "hugoarnal",
       "published": "2026-08-08T13:48:36Z"
     },
@@ -209,7 +221,7 @@
       "url": "https://lobste.rs/s/ucaatd",
       "discuss_url": "https://lobste.rs/s/ucaatd",
       "score": 24,
-      "comments": 60,
+      "comments": 58,
       "author": "caius",
       "published": "2026-08-07T09:38:13Z"
     },
@@ -220,7 +232,7 @@
       "title": "Program images and portable Scheme backends for Jolt",
       "url": "https://yogthos.net/posts/2026-08-07-portable-jolt.html",
       "discuss_url": "https://lobste.rs/s/2b5zzw",
-      "score": 3,
+      "score": 6,
       "comments": 0,
       "author": "Yogthos",
       "published": "2026-08-08T14:12:59Z"
@@ -260,18 +272,6 @@
       "comments": 4,
       "author": "borisk",
       "published": "2026-08-05T10:37:51Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "irken: A tiny hackable full-featured IRC client",
-      "url": "https://codeberg.org/dlowe/irken",
-      "discuss_url": "https://lobste.rs/s/12aef8",
-      "score": 46,
-      "comments": 17,
-      "author": "dzwdz",
-      "published": "2026-08-04T20:30:17Z"
     },
     {
       "source": "lobsters",
@@ -334,13 +334,37 @@
       "published": "2026-08-04T19:02:34Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Turn one giant AI-generated pull request to a reviewable stack",
+      "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+      "discuss_url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+      "score": null,
+      "comments": null,
+      "author": "Julia Muiruri",
+      "published": "2026-08-04T16:47:18Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "OpenSSH Key Structure Guide",
+      "url": "https://sshref.dev/",
+      "discuss_url": "https://lobste.rs/s/lnxdje",
+      "score": 7,
+      "comments": 1,
+      "author": "BD103",
+      "published": "2026-08-08T18:22:36Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Framework discloses data breach via Metabase 0-day",
       "url": "https://community.frame.work/t/framework-data-breach-discussion/83939",
       "discuss_url": "https://news.ycombinator.com/item?id=49206130",
-      "score": 145,
+      "score": 146,
       "comments": 54,
       "author": "RobinHirst11",
       "published": "2026-08-07T05:17:57Z"
@@ -352,22 +376,10 @@
       "title": "tl;dv (Too Lazy; Didn't Validate): 181,874 Meetings Left Wide Open",
       "url": "https://bobdahacker.com/blog/tldv-hack",
       "discuss_url": "https://lobste.rs/s/97laur",
-      "score": 187,
-      "comments": 47,
+      "score": 189,
+      "comments": 48,
       "author": "yoelcabo",
       "published": "2026-08-06T11:22:20Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "OpenSSH Key Structure Guide",
-      "url": "https://sshref.dev/",
-      "discuss_url": "https://lobste.rs/s/lnxdje",
-      "score": 1,
-      "comments": 0,
-      "author": "BD103",
-      "published": "2026-08-08T18:22:36Z"
     },
     {
       "source": "lobsters",
@@ -376,7 +388,7 @@
       "title": "experiments with isolation on blue pill",
       "url": "https://l0puh.github.io/log/2026/08/04/experiments_with_isolation/",
       "discuss_url": "https://lobste.rs/s/bbkpzc",
-      "score": 1,
+      "score": 3,
       "comments": 0,
       "author": "kaycebasques",
       "published": "2026-08-08T18:06:31Z"
@@ -457,18 +469,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Keyv and friends compromised in npm supply chain attack",
-      "url": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
-      "discuss_url": "https://lobste.rs/s/krevdg",
-      "score": 5,
-      "comments": 0,
-      "author": "dbremner",
-      "published": "2026-08-04T19:42:46Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Risk-Analysis-Editor: Open-source risk analysis editor supporting EBIOS RM, GDPR DPIA (CNIL), ISO 27005 and custom methodologies",
       "url": "https://github.com/StephaneV/Risk-Analysis-Editor",
       "discuss_url": "https://lobste.rs/s/pebujw",
@@ -476,6 +476,18 @@
       "comments": 0,
       "author": "Cassandre",
       "published": "2026-08-07T14:12:20Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "ropbot: Reimaging Code Reuse Attack Synthesis",
+      "url": "https://kylebot.net/papers/ropbot.pdf",
+      "discuss_url": "https://lobste.rs/s/dcysn8",
+      "score": 1,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-08-07T03:34:53Z"
     },
     {
       "source": "lobsters",
@@ -622,18 +634,6 @@
       "published": "2026-08-07T07:00:00Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "industry",
-      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
-      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
-      "discuss_url": "https://news.ycombinator.com/item?id=49201970",
-      "score": 918,
-      "comments": 691,
-      "author": "itvision",
-      "published": "2026-08-06T20:23:11Z"
-    },
-    {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
@@ -764,6 +764,18 @@
       "comments": null,
       "author": "Jonathan M. Gitlin",
       "published": "2026-08-07T17:13:31Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Report: White House drafting executive order linking vaccines and autism",
+      "url": "https://arstechnica.com/health/2026/08/report-white-house-drafting-executive-order-linking-vaccines-and-autism/",
+      "discuss_url": "https://arstechnica.com/health/2026/08/report-white-house-drafting-executive-order-linking-vaccines-and-autism/",
+      "score": null,
+      "comments": null,
+      "author": "Beth Mole",
+      "published": "2026-08-07T14:41:34Z"
     }
   ]
 }
