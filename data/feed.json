@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T01:58:57Z",
+  "updated_at": "2026-08-09T07:01:39Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Timeline of the OpenAI accidental attack against Hugging Face",
       "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
       "discuss_url": "https://news.ycombinator.com/item?id=49220609",
-      "score": 341,
-      "comments": 350,
+      "score": 384,
+      "comments": 371,
       "author": "882542F3884314B",
       "published": "2026-08-08T10:57:44Z",
       "bullets": [
-        "OpenAI automated data scraping pipelines accidentally caused a denial-of-service against Hugging Face Hub during large-scale model dataset ingestion.",
-        "The incident highlights risks when automated AI training scrapers lack proper exponential backoff and rate-limit compliance mechanisms.",
-        "Repositories like Hugging Face Hub require strict API throttling, edge rate-limiting, and proactive bot detection against autonomous crawlers."
+        "OpenAI automated web crawlers accidentally generated denial-of-service traffic spikes against Hugging Face while aggressively scraping public AI repositories.",
+        "Uncapped retry loops and high-concurrency ingestion pipelines highlight operational risks when AI labs ingest large-scale external model datasets.",
+        "AI engineering teams must enforce strict exponential backoff, circuit breakers, and rate limiting to prevent accidental cross-platform service outages."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "some software talks i like",
       "url": "https://char.lt/blog/2026/08/talks-i-like/",
       "discuss_url": "https://lobste.rs/s/cmrfrj",
-      "score": 55,
-      "comments": 13,
+      "score": 67,
+      "comments": 15,
       "author": "hugoarnal",
       "published": "2026-08-08T13:48:36Z",
       "bullets": [
-        "Curated software talks emphasize system simplicity, state machine replication, and distributed consensus protocols like Raft and Paxos.",
-        "Deep-dive presentations cover low-level performance engineering, CPU cache behavior, memory management, and JIT/AOT compiler optimization techniques.",
-        "Practical sessions detail real-world strategies for safely refactoring legacy monoliths, API evolution, and rigorous software testing methodologies."
+        "Essential system design talks focus on reducing state complexity using functional programming concepts and immutable, event-driven data architectures.",
+        "Performance engineering resources emphasize profiling CPU/memory bottlenecks, cache locality, and optimizing low-latency Linux backend systems.",
+        "Distributed systems discussions highlight consensus mechanisms like Raft, deterministic testing, and fault isolation in high-scale microservices."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "OpenSSH Key Structure Guide",
       "url": "https://sshref.dev/",
       "discuss_url": "https://lobste.rs/s/lnxdje",
-      "score": 7,
-      "comments": 1,
+      "score": 8,
+      "comments": 3,
       "author": "BD103",
       "published": "2026-08-08T18:22:36Z",
       "bullets": [
-        "Modern OpenSSH private keys use the openssh-key-v1 binary format, replacing legacy OpenSSL PEM structures with magic string headers and padded keypairs.",
-        "Passphrase-protected private keys employ a custom bcrypt KDF combined with AES-256-CTR symmetric encryption to mitigate offline brute-force attacks.",
-        "Public key files serialize key types (e.g., ssh-ed25519, rsa-sha2-512) and parameters using uint32 length-prefixed byte arrays in RFC 4253 wire format."
+        "Modern OpenSSH private keys use the openssh-key-v1 format, structuring public and private key pairs within length-prefixed binary blobs.",
+        "Passphrase protection relies on a custom bcrypt KDF and AES-256-CTR encryption to harden key files against offline brute-force attacks.",
+        "Understanding internal structures for Ed25519, RSA, and ECDSA keys aids in auditing, parsing, and detecting compromised SSH credentials."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "raymii",
       "published": "2026-08-05T19:54:59Z",
       "bullets": [
-        "Proxmox VE expands to ARM64, enabling KVM and LXC workload deployment on Ampere servers and edge hardware.",
-        "DevOps teams can leverage ARM-based clusters for cost-effective CI/CD build nodes, Kubernetes host nodes, and low-power infrastructure.",
-        "Current caveats include limited x86_64 feature parity, restricted third-party storage driver availability, and experimental enterprise support status."
+        "Proxmox VE adds official ARM64 support, allowing bare-metal hypervisor deployments on low-power ARM servers and edge infrastructure.",
+        "Implementation caveats include experimental package repositories, restricted enterprise support tiers, and x86 emulation overhead for non-native workloads.",
+        "DevOps engineers can now unify KVM and LXC container orchestration across mixed x86_64 and ARM64 cluster architectures."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Eric Berger",
       "published": "2026-08-08T11:30:48Z",
       "bullets": [
-        "NASA's Perseverance rover completed approximately 90% of its total Martian traverse distance using on-board autonomous navigation (AutoNav).",
-        "On-board vision processing enables real-time 3D hazard avoidance, successfully mitigating extreme Earth-to-Mars communication latencies.",
-        "The mission validates high-autonomy edge compute systems for long-distance, unmapped off-road navigation in mission-critical environments."
+        "NASA's Perseverance rover completed 90% of its Martian traverse autonomously using its upgraded AutoNav computer vision pipeline.",
+        "Onboard autonomous pathfinding bypasses Earth's 5-to-20-minute communication latency, enabling real-time hazard avoidance and faster daily routes.",
+        "Pioneers production-grade edge robotics in zero-connectivity environments, setting a benchmark for fully autonomous off-grid planetary exploration."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Timeline of the OpenAI accidental attack against Hugging Face",
       "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
       "discuss_url": "https://news.ycombinator.com/item?id=49220609",
-      "score": 341,
-      "comments": 350,
+      "score": 384,
+      "comments": 371,
       "author": "882542F3884314B",
       "published": "2026-08-08T10:57:44Z"
     },
@@ -136,22 +136,10 @@
       "title": "Lost my phone at the office. Claude suggested tracking Bluetooth signal strength",
       "url": "https://twitter.com/un1c0rnioz/status/2084686552299634805",
       "discuss_url": "https://news.ycombinator.com/item?id=49215786",
-      "score": 221,
-      "comments": 162,
+      "score": 267,
+      "comments": 193,
       "author": "ilamont",
       "published": "2026-08-07T20:25:04Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Revision Prompting improves industrial LLM processes",
-      "url": "https://revisionprompting.info/",
-      "discuss_url": "https://lobste.rs/s/wkx6jf",
-      "score": 2,
-      "comments": 1,
-      "author": "roberthoenig",
-      "published": "2026-08-08T20:20:42Z"
     },
     {
       "source": "lobsters",
@@ -208,10 +196,22 @@
       "title": "some software talks i like",
       "url": "https://char.lt/blog/2026/08/talks-i-like/",
       "discuss_url": "https://lobste.rs/s/cmrfrj",
-      "score": 55,
-      "comments": 13,
+      "score": 67,
+      "comments": 15,
       "author": "hugoarnal",
       "published": "2026-08-08T13:48:36Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Counting the days, revisited",
+      "url": "https://dotat.at/@/2026-08-09-rata-die.html",
+      "discuss_url": "https://lobste.rs/s/cqx6f6",
+      "score": 7,
+      "comments": 0,
+      "author": "fanf",
+      "published": "2026-08-09T02:32:55Z"
     },
     {
       "source": "lobsters",
@@ -232,7 +232,7 @@
       "title": "Program images and portable Scheme backends for Jolt",
       "url": "https://yogthos.net/posts/2026-08-07-portable-jolt.html",
       "discuss_url": "https://lobste.rs/s/2b5zzw",
-      "score": 6,
+      "score": 8,
       "comments": 0,
       "author": "Yogthos",
       "published": "2026-08-08T14:12:59Z"
@@ -253,18 +253,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "The following is a valid DOS COM executable",
-      "url": "https://oldbytes.space/@gloriouscow/117045701876951834",
-      "discuss_url": "https://lobste.rs/s/o8ttys",
-      "score": 29,
-      "comments": 1,
-      "author": "dsr",
-      "published": "2026-08-06T11:37:30Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Faster Than Ninja",
       "url": "https://build2.org/blog/faster-than-ninja.xhtml",
       "discuss_url": "https://lobste.rs/s/31hk9y",
@@ -272,6 +260,18 @@
       "comments": 4,
       "author": "borisk",
       "published": "2026-08-05T10:37:51Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "The following is a valid DOS COM executable",
+      "url": "https://oldbytes.space/@gloriouscow/117045701876951834",
+      "discuss_url": "https://lobste.rs/s/o8ttys",
+      "score": 29,
+      "comments": 1,
+      "author": "dsr",
+      "published": "2026-08-06T11:37:30Z"
     },
     {
       "source": "lobsters",
@@ -334,40 +334,16 @@
       "published": "2026-08-04T19:02:34Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Turn one giant AI-generated pull request to a reviewable stack",
-      "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
-      "discuss_url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
-      "score": null,
-      "comments": null,
-      "author": "Julia Muiruri",
-      "published": "2026-08-04T16:47:18Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "OpenSSH Key Structure Guide",
       "url": "https://sshref.dev/",
       "discuss_url": "https://lobste.rs/s/lnxdje",
-      "score": 7,
-      "comments": 1,
+      "score": 8,
+      "comments": 3,
       "author": "BD103",
       "published": "2026-08-08T18:22:36Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "security",
-      "title": "Framework discloses data breach via Metabase 0-day",
-      "url": "https://community.frame.work/t/framework-data-breach-discussion/83939",
-      "discuss_url": "https://news.ycombinator.com/item?id=49206130",
-      "score": 146,
-      "comments": 54,
-      "author": "RobinHirst11",
-      "published": "2026-08-07T05:17:57Z"
     },
     {
       "source": "lobsters",
@@ -376,8 +352,8 @@
       "title": "tl;dv (Too Lazy; Didn't Validate): 181,874 Meetings Left Wide Open",
       "url": "https://bobdahacker.com/blog/tldv-hack",
       "discuss_url": "https://lobste.rs/s/97laur",
-      "score": 189,
-      "comments": 48,
+      "score": 190,
+      "comments": 51,
       "author": "yoelcabo",
       "published": "2026-08-06T11:22:20Z"
     },
@@ -488,6 +464,18 @@
       "comments": 0,
       "author": "fro",
       "published": "2026-08-07T03:34:53Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "krebsonsecurity.com",
+      "category": "security",
+      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "discuss_url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "score": null,
+      "comments": null,
+      "author": "BrianKrebs",
+      "published": "2026-08-06T17:00:56Z"
     },
     {
       "source": "lobsters",
