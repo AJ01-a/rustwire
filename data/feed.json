@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T13:16:00Z",
+  "updated_at": "2026-08-10T19:01:45Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Auto mode is now the default in Claude Code",
       "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
       "discuss_url": "https://news.ycombinator.com/item?id=49239021",
-      "score": 254,
-      "comments": 262,
+      "score": 269,
+      "comments": 291,
       "author": "sbehere",
       "published": "2026-08-10T03:50:00Z",
       "bullets": [
-        "Anthropic's terminal agent now defaults to autonomous tool execution, bypassing step-by-step user confirmation prompts during tasks.",
-        "This shift boosts agentic workflow velocity, enabling seamless multi-step code editing, refactoring, and shell command execution.",
-        "AI practitioners must enforce strict local sandboxing and Git version control to mitigate unintended autonomous file system modifications."
+        "Anthropic made Auto mode the default in Claude Code CLI, executing shell commands and file edits without per-action human approval.",
+        "The default autonomous execution speeds up developer workflows but heightens security risks around unattended command and script runs.",
+        "AI engineering teams should implement OS sandboxing or permission boundaries to safely manage Anthropic's increasingly autonomous agentic CLI."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/3qwloh",
       "discuss_url": "https://lobste.rs/s/3qwloh",
-      "score": 5,
-      "comments": 1,
+      "score": 12,
+      "comments": 8,
       "author": "caius",
       "published": "2026-08-10T11:41:16Z",
       "bullets": [
-        "Weekly community check-ins offer visibility into active open-source projects, emerging tool adoption, and real-world engineering workflows.",
-        "Asynchronous developer threads facilitate early architectural feedback, side-project showcases, and peer knowledge sharing across tech stacks.",
-        "Explicitly encouraging downtime helps engineers mitigate burnout, maintaining long-term development velocity and code quality across teams."
+        "Engineers use community check-in threads to share active work on open-source projects, developer tooling, and experimental software systems.",
+        "Typical focus areas include backend architecture refactoring, Rust or Go optimization, database tuning, and infrastructure-as-code automation.",
+        "Peer discussions emphasize sustainable development pacing, encouraging engineers to balance intense coding sprints with deliberate operational downtime."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Easy Sandboxing on Linux with Bubblewrap",
-      "url": "https://bxt.rs/blog/easy-sandboxing-on-linux-with-bubblewrap/",
-      "discuss_url": "https://lobste.rs/s/stehhb",
-      "score": 2,
-      "comments": 1,
-      "author": "FedericoSchonborn",
-      "published": "2026-08-10T10:37:20Z",
+      "title": "A researcher bought noreply.net. Companies started sending him secrets",
+      "url": "https://arstechnica.com/security/2026/08/a-researcher-bought-noreply-net-companies-started-sending-him-secrets/",
+      "discuss_url": "https://lobste.rs/s/exgfc0",
+      "score": 11,
+      "comments": 2,
+      "author": "hoistbypetard",
+      "published": "2026-08-10T16:47:33Z",
       "bullets": [
-        "Bubblewrap (bwrap) leverages unprivileged Linux user and mount namespaces to isolate untrusted processes without requiring setuid root privileges.",
-        "Restricts attack surfaces by creating minimal filesystem views with bind-mounts, disabling network access via --unshare-net, and isolating IPC/PID namespaces.",
-        "Integrates with Seccomp-BPF filters to enforce strict syscall restrictions, providing a lightweight, low-overhead alternative to full container runtimes."
+        "Registering expired placeholder domains like noreply.net intercepts corporate telemetry, API tokens, and internal operational alerts via unauthenticated SMTP.",
+        "Hardcoded default email fallback settings in software often send password resets, user PII, and infrastructure metrics to third-party domain owners.",
+        "Audit systems for external fallback domains and mandate RFC 2606 reserved TLDs (.invalid, example.com) or owned domains for placeholder routing."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
       "url": "https://www.docker.com/products/docker-sandboxes/",
       "discuss_url": "https://news.ycombinator.com/item?id=49239751",
-      "score": 332,
-      "comments": 194,
+      "score": 543,
+      "comments": 321,
       "author": "etoxin",
       "published": "2026-08-10T06:02:38Z",
       "bullets": [
-        "Securely isolates autonomous AI agent code execution within ephemeral, containerized environments to protect host infrastructure and internal networks.",
-        "Enables rapid programmatic provisioning and automatic destruction of lightweight Docker instances via APIs for dynamic agent workflows.",
-        "Enforces strict per-execution resource limits, network access controls, and filesystem hygiene for untrusted, LLM-generated code."
+        "Provides secure, lightweight container isolation tailored for untrusted, LLM-generated code execution and autonomous AI agent workflows.",
+        "Enables automated ephemeral provisioning with fine-grained CPU, memory, and filesystem controls via standard Docker orchestration tooling.",
+        "Mitigates prompt injection and remote code execution threats through default-deny network egress policies and fast container teardowns."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Peer review is overwhelmed—can it survive in the AI era?",
-      "url": "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
-      "discuss_url": "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
+      "title": "Has Ford got cheap car fever? A $25K crossover is supposedly on the way.",
+      "url": "https://arstechnica.com/cars/2026/08/has-ford-got-cheap-car-fever-allegedly-a-25k-crossover-is-on-the-way/",
+      "discuss_url": "https://arstechnica.com/cars/2026/08/has-ford-got-cheap-car-fever-allegedly-a-25k-crossover-is-on-the-way/",
       "score": null,
       "comments": null,
-      "author": "Saima Sidik",
-      "published": "2026-08-10T11:00:47Z",
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-08-10T17:07:47Z",
       "bullets": [
-        "AI-assisted manuscript generation is flooding academic publishing, creating unsustainable review bottlenecks for human volunteers.",
-        "Unvetted synthetic research threatens to corrupt scientific literature, degrading the quality of future AI training data and RAG pipelines.",
-        "Publishers need automated provenance tools and strict AI usage policies to maintain peer review integrity at scale."
+        "Ford is developing an affordable $25,000 crossover sized similarly to the Escape, according to leaks from dealer briefings.",
+        "The move reflects legacy OEMs shifting focus to low-cost platforms to compete against affordable Chinese EVs and entry-level competitors.",
+        "Scaling sub-$30K vehicles will require significant battery cost reductions, architecture redesigns, and manufacturing efficiency improvements across Ford's lineup."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Auto mode is now the default in Claude Code",
       "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
       "discuss_url": "https://news.ycombinator.com/item?id=49239021",
-      "score": 254,
-      "comments": 262,
+      "score": 269,
+      "comments": 291,
       "author": "sbehere",
       "published": "2026-08-10T03:50:00Z"
     },
@@ -136,34 +136,10 @@
       "title": "How I use LLMs to learn complex topics",
       "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
       "discuss_url": "https://news.ycombinator.com/item?id=49234675",
-      "score": 710,
-      "comments": 451,
+      "score": 780,
+      "comments": 521,
       "author": "laurentiurad",
       "published": "2026-08-09T19:16:49Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "How do programming languages impact token efficiency and correctness?",
-      "url": "https://danluu.com/pl-tokens/",
-      "discuss_url": "https://lobste.rs/s/4waghh",
-      "score": 5,
-      "comments": 3,
-      "author": "ndr",
-      "published": "2026-08-10T07:47:36Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Message your other Claude Code sessions",
-      "url": "https://code.claude.com/docs/en/cross-session-messaging",
-      "discuss_url": "https://news.ycombinator.com/item?id=49222824",
-      "score": 161,
-      "comments": 67,
-      "author": "mfiguiere",
-      "published": "2026-08-08T15:34:49Z"
     },
     {
       "source": "lobsters",
@@ -176,6 +152,18 @@
       "comments": 0,
       "author": "bobpoekert",
       "published": "2026-08-07T21:22:54Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "discuss_url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-08-10T16:25:36Z"
     },
     {
       "source": "rss",
@@ -244,10 +232,22 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/3qwloh",
       "discuss_url": "https://lobste.rs/s/3qwloh",
-      "score": 5,
-      "comments": 1,
+      "score": 12,
+      "comments": 8,
       "author": "caius",
       "published": "2026-08-10T11:41:16Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Re-balancing Deflate Compression Levels (2016)",
+      "url": "https://blog.klauspost.com/rebalancing-deflate-compression-levels/",
+      "discuss_url": "https://lobste.rs/s/edtmqj",
+      "score": 3,
+      "comments": 2,
+      "author": "typesanitizer",
+      "published": "2026-08-10T14:47:28Z"
     },
     {
       "source": "lobsters",
@@ -256,7 +256,7 @@
       "title": "Undo/redo systems and collaborative editing (2024)",
       "url": "https://dev.to/isaachagoel/you-dont-know-undoredo-4hol",
       "discuss_url": "https://lobste.rs/s/wew6tz",
-      "score": 5,
+      "score": 9,
       "comments": 4,
       "author": "fractalbeauty",
       "published": "2026-08-10T03:40:35Z"
@@ -268,8 +268,8 @@
       "title": "some software talks i like",
       "url": "https://char.lt/blog/2026/08/talks-i-like/",
       "discuss_url": "https://lobste.rs/s/cmrfrj",
-      "score": 89,
-      "comments": 19,
+      "score": 91,
+      "comments": 20,
       "author": "hugoarnal",
       "published": "2026-08-08T13:48:36Z"
     },
@@ -292,7 +292,7 @@
       "title": "What Software is Made Of (2015)",
       "url": "https://siderea.dreamwidth.org/1219758.html",
       "discuss_url": "https://lobste.rs/s/aa229o",
-      "score": 7,
+      "score": 8,
       "comments": 2,
       "author": "n3t",
       "published": "2026-08-09T12:26:37Z"
@@ -325,6 +325,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Program images and portable Scheme backends for Jolt",
+      "url": "https://yogthos.net/posts/2026-08-07-portable-jolt.html",
+      "discuss_url": "https://lobste.rs/s/2b5zzw",
+      "score": 9,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-08-08T14:12:59Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "From constraint models to playable puzzle games",
       "url": "https://zayenz.se/blog/post/constraint-generated-puzzle-games/",
       "discuss_url": "https://lobste.rs/s/mqzspg",
@@ -332,18 +344,6 @@
       "comments": 0,
       "author": "mzl",
       "published": "2026-08-07T10:54:46Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Program images and portable Scheme backends for Jolt",
-      "url": "https://yogthos.net/posts/2026-08-07-portable-jolt.html",
-      "discuss_url": "https://lobste.rs/s/2b5zzw",
-      "score": 8,
-      "comments": 0,
-      "author": "Yogthos",
-      "published": "2026-08-08T14:12:59Z"
     },
     {
       "source": "lobsters",
@@ -370,16 +370,28 @@
       "published": "2026-08-06T19:49:34Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "How we took malware advisories beyond npm",
-      "url": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
-      "discuss_url": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
-      "score": null,
-      "comments": null,
-      "author": "Ankit Kumar Honey",
-      "published": "2026-08-06T16:51:12Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "A researcher bought noreply.net. Companies started sending him secrets",
+      "url": "https://arstechnica.com/security/2026/08/a-researcher-bought-noreply-net-companies-started-sending-him-secrets/",
+      "discuss_url": "https://lobste.rs/s/exgfc0",
+      "score": 11,
+      "comments": 2,
+      "author": "hoistbypetard",
+      "published": "2026-08-10T16:47:33Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "GitHub Actions needs OIDC audience constraints",
+      "url": "https://blog.yossarian.net/2026/08/10/github-actions-needs-oidc-audience-constraints",
+      "discuss_url": "https://lobste.rs/s/ipt1em",
+      "score": 25,
+      "comments": 1,
+      "author": "yossarian",
+      "published": "2026-08-10T13:30:18Z"
     },
     {
       "source": "lobsters",
@@ -388,10 +400,22 @@
       "title": "Easy Sandboxing on Linux with Bubblewrap",
       "url": "https://bxt.rs/blog/easy-sandboxing-on-linux-with-bubblewrap/",
       "discuss_url": "https://lobste.rs/s/stehhb",
-      "score": 2,
-      "comments": 1,
+      "score": 10,
+      "comments": 4,
       "author": "FedericoSchonborn",
       "published": "2026-08-10T10:37:20Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Shipping post-quantum cryptography to Python",
+      "url": "https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/",
+      "discuss_url": "https://lobste.rs/s/szvtko",
+      "score": 2,
+      "comments": 0,
+      "author": "strugee",
+      "published": "2026-08-10T16:40:22Z"
     },
     {
       "source": "lobsters",
@@ -421,18 +445,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "schrodingers-toctou: The binary you run is not the program you wrote",
-      "url": "https://github.com/xoreaxeaxeax/schrodingers-toctou",
-      "discuss_url": "https://lobste.rs/s/bmnusu",
-      "score": 8,
-      "comments": 8,
-      "author": "juri",
-      "published": "2026-08-06T15:47:45Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Integrated Sensing and Communication (ISAC)",
       "url": "https://www.ericsson.com/en/6g/isac",
       "discuss_url": "https://lobste.rs/s/35dq6x",
@@ -440,18 +452,6 @@
       "comments": 0,
       "author": "elasticdog",
       "published": "2026-08-09T13:56:22Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Zapscape - Guest to host escape in KVM/x86",
-      "url": "https://github.com/V4bel/Zapscape",
-      "discuss_url": "https://lobste.rs/s/2hatf3",
-      "score": 14,
-      "comments": 1,
-      "author": "rrampage",
-      "published": "2026-08-06T17:31:28Z"
     },
     {
       "source": "lobsters",
@@ -493,18 +493,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "TONTOU: On the Exploitability of Time-of-Neutralization to Time-of-Use Windows",
-      "url": "https://people.csail.mit.edu/mengjia/data/2026.USENIX.TONTOU.pdf",
-      "discuss_url": "https://lobste.rs/s/eodvvq",
-      "score": 2,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-08-06T18:29:03Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Risk-Analysis-Editor: Open-source risk analysis editor supporting EBIOS RM, GDPR DPIA (CNIL), ISO 27005 and custom methodologies",
       "url": "https://github.com/StephaneV/Risk-Analysis-Editor",
       "discuss_url": "https://lobste.rs/s/pebujw",
@@ -532,8 +520,8 @@
       "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
       "url": "https://www.docker.com/products/docker-sandboxes/",
       "discuss_url": "https://news.ycombinator.com/item?id=49239751",
-      "score": 332,
-      "comments": 194,
+      "score": 543,
+      "comments": 321,
       "author": "etoxin",
       "published": "2026-08-10T06:02:38Z"
     },
@@ -544,10 +532,22 @@
       "title": "The Promise None of Them Kept",
       "url": "https://webframp.com/posts/the-promise-none-of-them-kept/",
       "discuss_url": "https://lobste.rs/s/sjxzgt",
-      "score": 2,
+      "score": 1,
       "comments": 0,
       "author": "aae",
       "published": "2026-08-10T11:04:33Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Elastic Disaster Recovery now preserves UEFI boot mode for Linux servers",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-drs-linux-uefi",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-drs-linux-uefi",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-10T13:00:00Z"
     },
     {
       "source": "rss",
@@ -659,15 +659,87 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Parallel Computing Service is now in scope for FedRAMP, SOC, ISO, CSA STAR, and PCI",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-pcs-august/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-pcs-august/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Has Ford got cheap car fever? A $25K crossover is supposedly on the way.",
+      "url": "https://arstechnica.com/cars/2026/08/has-ford-got-cheap-car-fever-allegedly-a-25k-crossover-is-on-the-way/",
+      "discuss_url": "https://arstechnica.com/cars/2026/08/has-ford-got-cheap-car-fever-allegedly-a-25k-crossover-is-on-the-way/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-07T04:58:00Z"
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-08-10T17:07:47Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Taylor Farms recalls jalapeño products for Salmonella amid Cyclospora outbreak",
+      "url": "https://arstechnica.com/health/2026/08/taylor-farms-recalls-jalapeno-products-for-salmonella-amid-cyclospora-outbreak/",
+      "discuss_url": "https://arstechnica.com/health/2026/08/taylor-farms-recalls-jalapeno-products-for-salmonella-amid-cyclospora-outbreak/",
+      "score": null,
+      "comments": null,
+      "author": "Beth Mole",
+      "published": "2026-08-10T16:37:08Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Valve slowly expands SteamOS support on non-Valve hardware",
+      "url": "https://arstechnica.com/gaming/2026/08/valve-slowly-expands-steamos-support-on-non-valve-hardware/",
+      "discuss_url": "https://arstechnica.com/gaming/2026/08/valve-slowly-expands-steamos-support-on-non-valve-hardware/",
+      "score": null,
+      "comments": null,
+      "author": "Kyle Orland",
+      "published": "2026-08-10T16:01:04Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Following Epic loss, Google has started hosting rival app stores in the Play Store",
+      "url": "https://arstechnica.com/gadgets/2026/08/third-party-app-stores-are-rolling-out-in-google-play-but-theres-only-one-right-now/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/08/third-party-app-stores-are-rolling-out-in-google-play-but-theres-only-one-right-now/",
+      "score": null,
+      "comments": null,
+      "author": "Ryan Whitwam",
+      "published": "2026-08-10T15:44:45Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "One of China's workhorse rockets just exploded in flight",
+      "url": "https://arstechnica.com/space/2026/08/one-of-chinas-workhorse-rockets-just-exploded-in-flight/",
+      "discuss_url": "https://arstechnica.com/space/2026/08/one-of-chinas-workhorse-rockets-just-exploded-in-flight/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-08-10T15:05:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Dogs can tell if you're scared or sad",
+      "url": "https://arstechnica.com/science/2026/08/dogs-can-tell-if-youre-scared-or-sad/",
+      "discuss_url": "https://arstechnica.com/science/2026/08/dogs-can-tell-if-youre-scared-or-sad/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-08-10T15:00:53Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "2026 Subaru Outback review: Great interior, refined drive, divisive looks",
+      "url": "https://arstechnica.com/cars/2026/08/2026-subaru-outback-limited-review-boxy-outside-almost-premium-inside/",
+      "discuss_url": "https://arstechnica.com/cars/2026/08/2026-subaru-outback-limited-review-boxy-outside-almost-premium-inside/",
+      "score": null,
+      "comments": null,
+      "author": "Jim Resnick",
+      "published": "2026-08-10T14:49:21Z"
     },
     {
       "source": "rss",
@@ -728,90 +800,6 @@
       "comments": null,
       "author": "Jeremy Hsu",
       "published": "2026-08-07T21:48:21Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Flesh-eating screwworms feast on humans in Mexico; human cases top 500",
-      "url": "https://arstechnica.com/health/2026/08/flesh-eating-screwworms-feast-on-humans-in-mexico-human-cases-top-500/",
-      "discuss_url": "https://arstechnica.com/health/2026/08/flesh-eating-screwworms-feast-on-humans-in-mexico-human-cases-top-500/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-08-07T21:09:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Judge rules Meta caused \"public nuisance\" and must fund mental health treatment",
-      "url": "https://arstechnica.com/tech-policy/2026/08/meta-ordered-to-pay-567m-to-treat-youth-mental-health-problems-it-helped-create/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/meta-ordered-to-pay-567m-to-treat-youth-mental-health-problems-it-helped-create/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-08-07T19:49:27Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The ultimate eclipse chase: A Concorde raced against the Moon's shadow",
-      "url": "https://arstechnica.com/science/2026/08/the-ultimate-eclipse-chase-a-concorde-raced-against-the-moons-shadow/",
-      "discuss_url": "https://arstechnica.com/science/2026/08/the-ultimate-eclipse-chase-a-concorde-raced-against-the-moons-shadow/",
-      "score": null,
-      "comments": null,
-      "author": "Dhananjay Khadilkar",
-      "published": "2026-08-07T19:00:17Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "New official 30th anniversary Quake mission pack adds new maps and mechanics",
-      "url": "https://arstechnica.com/gaming/2026/08/new-official-30th-anniversary-quake-mission-pack-adds-new-maps-and-mechanics/",
-      "discuss_url": "https://arstechnica.com/gaming/2026/08/new-official-30th-anniversary-quake-mission-pack-adds-new-maps-and-mechanics/",
-      "score": null,
-      "comments": null,
-      "author": "Samuel Axon",
-      "published": "2026-08-07T18:00:02Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "DOGE's wild, unverifiable savings claims discredited in US government report",
-      "url": "https://arstechnica.com/tech-policy/2026/08/doges-inflated-wall-of-receipts-96-of-grant-savings-unverifiable-gao-says/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/doges-inflated-wall-of-receipts-96-of-grant-savings-unverifiable-gao-says/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-08-07T17:51:05Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "OpenAI’s expensive smart speaker will use moving parts to seem “more alive”",
-      "url": "https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-08-07T17:36:22Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "How snails engineer their slime",
-      "url": "https://arstechnica.com/science/2026/08/how-snails-engineer-their-slime/",
-      "discuss_url": "https://arstechnica.com/science/2026/08/how-snails-engineer-their-slime/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-08-07T17:25:20Z"
     }
   ]
 }
