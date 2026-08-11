@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T07:13:21Z",
+  "updated_at": "2026-08-11T13:13:09Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
-      "url": "https://cactuscompute.com/needle",
-      "discuss_url": "https://news.ycombinator.com/item?id=49246804",
-      "score": 292,
-      "comments": 106,
-      "author": "HenryNdubuaku",
-      "published": "2026-08-10T17:22:07Z",
+      "title": "How Claude marks AI-generated content",
+      "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+      "discuss_url": "https://news.ycombinator.com/item?id=49250109",
+      "score": 247,
+      "comments": 208,
+      "author": "mfiguiere",
+      "published": "2026-08-10T21:36:56Z",
       "bullets": [
-        "Needle 2 is a 45M-parameter, 2-bit quantized LLM operating as a 14MB binary using 28MB RAM via Simple Attention Networks.",
-        "Decodes at 500 tokens/sec on Raspberry Pi 5 and 400–1,500 tokens/sec on Meta Quest 3S and Apple Vision Pro.",
-        "Matches tool-calling benchmarks of larger models like LFM2.5 230M and Apple Foundation Model at 5x to 70x smaller sizes."
+        "Anthropic embeds subtle statistical watermarks into Claude's token sampling probabilities during text generation for automated provenance tracking.",
+        "The watermark algorithm modifies logit distributions, allowing accurate detection of Claude outputs without storing response logs or metadata.",
+        "This decoding-level marking preserves generation latency and semantic quality while resisting common light editing and paraphrasing attacks."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/3qwloh",
       "discuss_url": "https://lobste.rs/s/3qwloh",
-      "score": 15,
-      "comments": 16,
+      "score": 17,
+      "comments": 19,
       "author": "caius",
       "published": "2026-08-10T11:41:16Z",
       "bullets": [
-        "Focus on low-level systems programming, language experimentation, and developing specialized command-line developer tooling.",
-        "Allocate engineering cycles toward refactoring legacy codebases, resolving technical debt, and optimizing build pipeline performance.",
-        "Leverage asynchronous developer communities to track open-source maintenance, architectural experiments, and peer project updates."
+        "Lobsters community developers use weekly check-ins to share progress on open-source projects, systems programming, and technical experimentation.",
+        "Recurring status threads normalize sustainable engineering cadences by explicitly encouraging intentional downtime alongside active development tasks.",
+        "Asynchronous peer sharing fosters tool discovery, code review opportunities, and knowledge exchange across diverse software engineering domains."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Exploiting System Management Mode with a very long interrupt",
       "url": "https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii",
       "discuss_url": "https://news.ycombinator.com/item?id=49245491",
-      "score": 152,
-      "comments": 55,
+      "score": 172,
+      "comments": 74,
       "author": "WhiteDawn",
       "published": "2026-08-10T16:03:14Z",
       "bullets": [
-        "Extended interrupt delays exploit race conditions in x86 System Management Interrupt (SMI) handlers to corrupt firmware state during execution.",
-        "Attackers with Ring 0 access can leverage timing vulnerabilities to achieve arbitrary code execution in Ring -2 (SMM).",
-        "Mitigation requires vendor firmware patches, strict SMI handler validation, and enforcing hardware-level timing constraints on interrupt processing."
+        "Long-running x86 instructions can disrupt System Management Interrupt timing, exposing race conditions in low-level CPU SMM entry mechanisms.",
+        "Exploiting SMM timing flaws enables Ring 0 attackers to execute code in Ring -2, bypassing hypervisor restrictions and Secure Boot.",
+        "Mitigations require vendor firmware updates enforcing hardware-assisted SMI synchronization, SMRAM protection locks, and instruction execution limits."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
       "url": "https://www.docker.com/products/docker-sandboxes/",
       "discuss_url": "https://news.ycombinator.com/item?id=49239751",
-      "score": 649,
-      "comments": 359,
+      "score": 663,
+      "comments": 368,
       "author": "etoxin",
       "published": "2026-08-10T06:02:38Z",
       "bullets": [
-        "Docker Sandboxes secure infrastructure by executing untrusted, LLM-generated code within ephemeral, isolated container runtimes.",
-        "Implements strict resource limits, filesystem isolation, and rapid teardown to prevent prompt injection exploits from compromising host networks.",
-        "Streamlines DevOps orchestration by offering programmatic APIs to dynamically spawn and destroy lightweight execution environments for AI workloads."
+        "Docker Sandboxes deliver disposable, isolated runtime environments designed specifically to execute untrusted LLM-generated code and autonomous agent actions safely.",
+        "Prevents host contamination and security breaches by enforcing ephemeral lifecycles, strict resource isolation, and automatic environment destruction post-execution.",
+        "Integrates directly into existing DevOps workflows using standard Docker APIs to seamlessly manage secure, dynamic code execution for AI applications."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Ars Live: Ross Scott discusses the Stop Killing Games movement",
-      "url": "https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/",
-      "discuss_url": "https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/",
+      "title": "New Pass-ta-key attack reveals all the things we didn't know about passkeys",
+      "url": "https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/",
+      "discuss_url": "https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/",
       "score": null,
       "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-08-10T22:23:43Z",
+      "author": "Dan Goodin",
+      "published": "2026-08-11T11:30:08Z",
       "bullets": [
-        "Ross Scott's 'Stop Killing Games' movement advocates for legal mandates requiring publishers to leave games in a playable state post-support.",
-        "The initiative targets live-service shutdowns like Ubisoft's The Crew, pushing for regulatory requirements on server binaries and offline patches.",
-        "Future game architecture may require built-in end-of-life plans, including dedicated self-hosting capabilities and decoupled online authentication systems."
+        "The Pass-ta-key attack targets Windows WebAuthn implementations, allowing attackers to hijack or extract FIDO2 passkey credentials across enterprise deployments.",
+        "Windows handles passkey authentication differently than macOS or Android, exposing architectural gaps in OS-level credential vault isolation.",
+        "Security analysts must re-evaluate desktop passkey threat models, as vendor-specific Windows integrations bypass expected WebAuthn hardware boundary protections."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "How Claude marks AI-generated content",
+      "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+      "discuss_url": "https://news.ycombinator.com/item?id=49250109",
+      "score": 247,
+      "comments": 208,
+      "author": "mfiguiere",
+      "published": "2026-08-10T21:36:56Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
       "url": "https://cactuscompute.com/needle",
       "discuss_url": "https://news.ycombinator.com/item?id=49246804",
-      "score": 292,
-      "comments": 106,
+      "score": 394,
+      "comments": 147,
       "author": "HenryNdubuaku",
       "published": "2026-08-10T17:22:07Z"
     },
@@ -136,8 +148,8 @@
       "title": "Learning more about Claude's mathematical capabilities",
       "url": "https://www.anthropic.com/research/riemann-zeta",
       "discuss_url": "https://news.ycombinator.com/item?id=49247070",
-      "score": 180,
-      "comments": 122,
+      "score": 230,
+      "comments": 146,
       "author": "tosh",
       "published": "2026-08-10T17:41:13Z"
     },
@@ -148,8 +160,8 @@
       "title": "Humanising LLM Outputs Is Dumb",
       "url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
       "discuss_url": "https://news.ycombinator.com/item?id=49243474",
-      "score": 195,
-      "comments": 128,
+      "score": 217,
+      "comments": 154,
       "author": "kuberwastaken",
       "published": "2026-08-10T13:35:40Z"
     },
@@ -160,8 +172,8 @@
       "title": "Exploring Claude/GPT Knowledge Cutoffs and Pre-Training Timelines",
       "url": "https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs",
       "discuss_url": "https://news.ycombinator.com/item?id=49244085",
-      "score": 140,
-      "comments": 20,
+      "score": 147,
+      "comments": 24,
       "author": "sshh12",
       "published": "2026-08-10T14:20:41Z"
     },
@@ -172,8 +184,8 @@
       "title": "Auto mode is now the default in Claude Code",
       "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
       "discuss_url": "https://news.ycombinator.com/item?id=49239021",
-      "score": 281,
-      "comments": 305,
+      "score": 283,
+      "comments": 308,
       "author": "sbehere",
       "published": "2026-08-10T03:50:00Z"
     },
@@ -184,8 +196,8 @@
       "title": "How I use LLMs to learn complex topics",
       "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
       "discuss_url": "https://news.ycombinator.com/item?id=49234675",
-      "score": 797,
-      "comments": 530,
+      "score": 804,
+      "comments": 531,
       "author": "laurentiurad",
       "published": "2026-08-09T19:16:49Z"
     },
@@ -250,26 +262,14 @@
       "published": "2026-08-07T17:53:32Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Baseten on Hugging Face Inference Providers 🔥",
-      "url": "https://huggingface.co/blog/baseten",
-      "discuss_url": "https://huggingface.co/blog/baseten",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-08-06T00:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/3qwloh",
       "discuss_url": "https://lobste.rs/s/3qwloh",
-      "score": 15,
-      "comments": 16,
+      "score": 17,
+      "comments": 19,
       "author": "caius",
       "published": "2026-08-10T11:41:16Z"
     },
@@ -280,34 +280,10 @@
       "title": "Sonic Pi 5",
       "url": "https://www.patreon.com/samaaron/posts/sonic-pi-v5-166001392",
       "discuss_url": "https://lobste.rs/s/wbv6vk",
-      "score": 4,
+      "score": 5,
       "comments": 0,
       "author": "xyproto",
       "published": "2026-08-11T00:37:12Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "A C++ toolchain from 357 bytes in Bazel",
-      "url": "https://fzakaria.com/2026/08/01/a-c++-toolchain-from-357-bytes-in-bazel",
-      "discuss_url": "https://lobste.rs/s/pq7dtk",
-      "score": 8,
-      "comments": 0,
-      "author": "dv",
-      "published": "2026-08-10T19:18:34Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Undo/redo systems and collaborative editing (2024)",
-      "url": "https://dev.to/isaachagoel/you-dont-know-undoredo-4hol",
-      "discuss_url": "https://lobste.rs/s/wew6tz",
-      "score": 10,
-      "comments": 4,
-      "author": "fractalbeauty",
-      "published": "2026-08-10T03:40:35Z"
     },
     {
       "source": "lobsters",
@@ -325,6 +301,30 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Undo/redo systems and collaborative editing (2024)",
+      "url": "https://dev.to/isaachagoel/you-dont-know-undoredo-4hol",
+      "discuss_url": "https://lobste.rs/s/wew6tz",
+      "score": 11,
+      "comments": 5,
+      "author": "fractalbeauty",
+      "published": "2026-08-10T03:40:35Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "A C++ toolchain from 357 bytes in Bazel",
+      "url": "https://fzakaria.com/2026/08/01/a-c++-toolchain-from-357-bytes-in-bazel",
+      "discuss_url": "https://lobste.rs/s/pq7dtk",
+      "score": 8,
+      "comments": 0,
+      "author": "dv",
+      "published": "2026-08-10T19:18:34Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Re-balancing Deflate Compression Levels (2016)",
       "url": "https://blog.klauspost.com/rebalancing-deflate-compression-levels/",
       "discuss_url": "https://lobste.rs/s/edtmqj",
@@ -332,18 +332,6 @@
       "comments": 2,
       "author": "typesanitizer",
       "published": "2026-08-10T14:47:28Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/ucaatd",
-      "discuss_url": "https://lobste.rs/s/ucaatd",
-      "score": 24,
-      "comments": 62,
-      "author": "caius",
-      "published": "2026-08-07T09:38:13Z"
     },
     {
       "source": "lobsters",
@@ -373,18 +361,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "From constraint models to playable puzzle games",
-      "url": "https://zayenz.se/blog/post/constraint-generated-puzzle-games/",
-      "discuss_url": "https://lobste.rs/s/mqzspg",
-      "score": 23,
-      "comments": 0,
-      "author": "mzl",
-      "published": "2026-08-07T10:54:46Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Program images and portable Scheme backends for Jolt",
       "url": "https://yogthos.net/posts/2026-08-07-portable-jolt.html",
       "discuss_url": "https://lobste.rs/s/2b5zzw",
@@ -406,14 +382,38 @@
       "published": "2026-08-09T14:46:15Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Using the GitHub Copilot SDK for Java",
+      "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
+      "discuss_url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
+      "score": null,
+      "comments": null,
+      "author": "Edward Burns",
+      "published": "2026-08-10T19:30:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "A guide to slash commands in the GitHub Copilot app",
+      "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
+      "score": null,
+      "comments": null,
+      "author": "Jacklyn Carroll",
+      "published": "2026-08-06T19:49:34Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Exploiting System Management Mode with a very long interrupt",
       "url": "https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii",
       "discuss_url": "https://news.ycombinator.com/item?id=49245491",
-      "score": 152,
-      "comments": 55,
+      "score": 172,
+      "comments": 74,
       "author": "WhiteDawn",
       "published": "2026-08-10T16:03:14Z"
     },
@@ -424,8 +424,8 @@
       "title": "A researcher bought noreply.net. Companies started sending him secrets",
       "url": "https://arstechnica.com/security/2026/08/a-researcher-bought-noreply-net-companies-started-sending-him-secrets/",
       "discuss_url": "https://lobste.rs/s/exgfc0",
-      "score": 40,
-      "comments": 6,
+      "score": 56,
+      "comments": 10,
       "author": "hoistbypetard",
       "published": "2026-08-10T16:47:33Z"
     },
@@ -436,8 +436,8 @@
       "title": "GitHub Actions needs OIDC audience constraints",
       "url": "https://blog.yossarian.net/2026/08/10/github-actions-needs-oidc-audience-constraints",
       "discuss_url": "https://lobste.rs/s/ipt1em",
-      "score": 39,
-      "comments": 9,
+      "score": 43,
+      "comments": 10,
       "author": "yossarian",
       "published": "2026-08-10T13:30:18Z"
     },
@@ -448,8 +448,8 @@
       "title": "Easy Sandboxing on Linux with Bubblewrap",
       "url": "https://bxt.rs/blog/easy-sandboxing-on-linux-with-bubblewrap/",
       "discuss_url": "https://lobste.rs/s/stehhb",
-      "score": 13,
-      "comments": 9,
+      "score": 16,
+      "comments": 11,
       "author": "FedericoSchonborn",
       "published": "2026-08-10T10:37:20Z"
     },
@@ -556,10 +556,22 @@
       "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
       "url": "https://www.docker.com/products/docker-sandboxes/",
       "discuss_url": "https://news.ycombinator.com/item?id=49239751",
-      "score": 649,
-      "comments": 359,
+      "score": 663,
+      "comments": 368,
       "author": "etoxin",
       "published": "2026-08-10T06:02:38Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "An inter-mesh deployment pipeline",
+      "url": "https://blog.zm.is/an-inter-mesh-deployment-pipeline/",
+      "discuss_url": "https://lobste.rs/s/xoivjb",
+      "score": 2,
+      "comments": 0,
+      "author": "sy",
+      "published": "2026-08-11T10:11:38Z"
     },
     {
       "source": "lobsters",
@@ -683,15 +695,15 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Timestream for InfluxDB now supports backup and restore",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-backup-restore/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-backup-restore/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "New Pass-ta-key attack reveals all the things we didn't know about passkeys",
+      "url": "https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/",
+      "discuss_url": "https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-07T19:21:00Z"
+      "author": "Dan Goodin",
+      "published": "2026-08-11T11:30:08Z"
     },
     {
       "source": "rss",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Eric Berger",
       "published": "2026-08-10T15:05:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Dogs can tell if you're scared or sad",
-      "url": "https://arstechnica.com/science/2026/08/dogs-can-tell-if-youre-scared-or-sad/",
-      "discuss_url": "https://arstechnica.com/science/2026/08/dogs-can-tell-if-youre-scared-or-sad/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-08-10T15:00:53Z"
     }
   ]
 }
