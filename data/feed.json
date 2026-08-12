@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T02:11:34Z",
+  "updated_at": "2026-08-12T07:37:58Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
       "url": "https://stolen-thoughts.com/",
       "discuss_url": "https://news.ycombinator.com/item?id=49257876",
-      "score": 501,
-      "comments": 209,
+      "score": 598,
+      "comments": 271,
       "author": "quantumgarbage",
       "published": "2026-08-11T13:22:00Z",
       "bullets": [
-        "Adversaries exploit API outputs and distillation techniques to extract hidden Chain-of-Thought reasoning traces from proprietary frontier models.",
-        "Extracted reasoning data allows attackers to fine-tune open-weight models, replicating complex multi-step logic at a fraction of pre-training costs.",
-        "Model providers must enforce strict output sanitization, trace redacting, and access monitoring to prevent unauthorized intellectual property extraction."
+        "Hidden Chain-of-Thought (CoT) reasoning traces in proprietary APIs can be extracted using specific prompt injection and side-channel techniques.",
+        "Extracted traces facilitate low-cost model distillation, allowing attackers to replicate proprietary reasoning architectures without expensive baseline training.",
+        "Providers must implement rigorous output sanitization and log monitoring to prevent unauthorized exposure of intermediate model reasoning steps."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Mojo 1.0 is here",
       "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
       "discuss_url": "https://lobste.rs/s/r8qb5p",
-      "score": 12,
+      "score": 13,
       "comments": 0,
       "author": "dayanruben",
       "published": "2026-08-11T16:59:09Z",
       "bullets": [
-        "Modular's Mojo language combines Python-like syntax with C-level performance, leveraging MLIR for high-throughput AI and systems engineering.",
-        "It incorporates Rust-inspired memory ownership, strict typing, and native SIMD vectorization to optimize CPU and GPU hardware utilization.",
-        "Engineers can directly import C and Python packages, enabling immediate acceleration for existing PyTorch and NumPy ML pipelines."
+        "Modular released Mojo 1.0, combining Python's syntax with C-level performance using an MLIR-based compiler architecture.",
+        "Implements Rust-like memory ownership, compile-time metaprogramming, and explicit hardware vectorization for low-level performance control.",
+        "Provides seamless Python library interoperability, eliminating the two-language problem in production AI and machine learning pipelines."
       ]
     },
     {
@@ -71,31 +71,31 @@
       "title": "Exploiting System Management Mode with a very long interrupt",
       "url": "https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii",
       "discuss_url": "https://news.ycombinator.com/item?id=49245491",
-      "score": 181,
+      "score": 182,
       "comments": 77,
       "author": "WhiteDawn",
       "published": "2026-08-10T16:03:14Z",
       "bullets": [
-        "Extended hardware interrupts can exploit timing windows during x86 System Management Interrupt (SMI) handlers to trigger race conditions.",
-        "Bypassing SMM protections enables arbitrary Ring -2 code execution, granting persistent access below the hypervisor and operating system.",
-        "Firmware mitigations require atomic interrupt masking, strict SMI handler state validation, and secure Local APIC configurations."
+        "SMI latency and extended interrupt handling expose race conditions inside x86 firmware before SMM context protection seals.",
+        "Successful exploitation grants arbitrary execution in SMM (Ring -2), bypassing Secure Boot, OS kernel defenses, and hypervisor isolation.",
+        "Firmware vendors must enforce strict hardware SMI locking, validate interrupt timing, and implement Intel/AMD firmware resilience checks."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
-      "url": "https://www.docker.com/products/docker-sandboxes/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49239751",
-      "score": 678,
-      "comments": 390,
-      "author": "etoxin",
-      "published": "2026-08-10T06:02:38Z",
+      "title": "An inter-mesh deployment pipeline",
+      "url": "https://blog.zm.is/an-inter-mesh-deployment-pipeline/",
+      "discuss_url": "https://lobste.rs/s/xoivjb",
+      "score": 2,
+      "comments": 0,
+      "author": "sy",
+      "published": "2026-08-11T10:11:38Z",
       "bullets": [
-        "Executes untrusted AI-generated code inside ephemeral Docker containers, protecting host infrastructure and production clusters from compromised workloads.",
-        "Mitigates remote code execution (RCE) and data exfiltration risks in agentic workflows using strict, automated container-level isolation.",
-        "Simplifies DevOps integration by automating sandbox lifecycle management, strict resource limits, and rapid teardown after task completion."
+        "Automate deployments across federated service meshes like Istio using multi-cluster ingress gateways and cross-mesh mTLS routing capabilities.",
+        "Synchronize traffic-shifting CRDs via GitOps toolchains like ArgoCD to orchestrate progressive rollouts across isolated Kubernetes cluster boundaries.",
+        "Standardize cross-mesh service identities using SPIFFE/SPIRE to enforce zero-trust access controls and unified telemetry across disparate mesh control planes."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Cyrus Farivar",
       "published": "2026-08-12T00:08:40Z",
       "bullets": [
-        "FBI Atlanta is investigating a rogue Wi-Fi hotspot attack on a Delta flight allegedly involving DEF CON attendees.",
-        "Rogue access point attacks exploit client auto-connect behaviors to intercept unencrypted traffic and harvest user credentials on in-flight Wi-Fi.",
-        "No arrests have been made, underscoring persistent transit security risks and the necessity of strict VPN usage."
+        "FBI Atlanta is investigating a rogue Wi-Fi access point attack targeting passengers on a Delta flight returning from DEF CON.",
+        "Federal authorities suspect DEF CON attendees deployed the fake hotspot, though no suspects have been formally charged or arrested.",
+        "The incident underscores persistent in-flight wireless security risks and rogue AP vulnerabilities facing security professionals traveling from major conferences."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
       "url": "https://stolen-thoughts.com/",
       "discuss_url": "https://news.ycombinator.com/item?id=49257876",
-      "score": 501,
-      "comments": 209,
+      "score": 598,
+      "comments": 271,
       "author": "quantumgarbage",
       "published": "2026-08-11T13:22:00Z"
     },
@@ -136,8 +136,8 @@
       "title": "OpenAI’s head of ethics leaves less than a year after joining",
       "url": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
       "discuss_url": "https://news.ycombinator.com/item?id=49257160",
-      "score": 288,
-      "comments": 345,
+      "score": 397,
+      "comments": 399,
       "author": "ilamont",
       "published": "2026-08-11T12:23:07Z"
     },
@@ -148,7 +148,7 @@
       "title": "Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp",
       "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
       "discuss_url": "https://news.ycombinator.com/item?id=49259339",
-      "score": 288,
+      "score": 290,
       "comments": 43,
       "author": "frabonacci",
       "published": "2026-08-11T14:50:33Z"
@@ -160,8 +160,8 @@
       "title": "How Claude marks AI-generated content",
       "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
       "discuss_url": "https://news.ycombinator.com/item?id=49250109",
-      "score": 421,
-      "comments": 391,
+      "score": 431,
+      "comments": 395,
       "author": "mfiguiere",
       "published": "2026-08-10T21:36:56Z"
     },
@@ -172,22 +172,10 @@
       "title": "Text Watermarking for Non-Academics",
       "url": "https://blog.gaborkoos.com/posts/2026-08-12-Text-Watermarking-for-Non-Academics/",
       "discuss_url": "https://lobste.rs/s/glicgx",
-      "score": 2,
-      "comments": 3,
+      "score": 7,
+      "comments": 6,
       "author": "gkoos",
       "published": "2026-08-12T00:29:31Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Compression is prediction",
-      "url": "https://ngrok.com/blog/compression-is-prediction",
-      "discuss_url": "https://lobste.rs/s/gixxh0",
-      "score": 10,
-      "comments": 4,
-      "author": "gmem",
-      "published": "2026-08-11T19:35:12Z"
     },
     {
       "source": "hackernews",
@@ -196,8 +184,8 @@
       "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
       "url": "https://cactuscompute.com/needle",
       "discuss_url": "https://news.ycombinator.com/item?id=49246804",
-      "score": 508,
-      "comments": 171,
+      "score": 514,
+      "comments": 172,
       "author": "HenryNdubuaku",
       "published": "2026-08-10T17:22:07Z"
     },
@@ -208,8 +196,8 @@
       "title": "Learning more about Claude's mathematical capabilities",
       "url": "https://www.anthropic.com/research/riemann-zeta",
       "discuss_url": "https://news.ycombinator.com/item?id=49247070",
-      "score": 262,
-      "comments": 168,
+      "score": 268,
+      "comments": 173,
       "author": "tosh",
       "published": "2026-08-10T17:41:13Z"
     },
@@ -221,21 +209,21 @@
       "url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
       "discuss_url": "https://news.ycombinator.com/item?id=49243474",
       "score": 227,
-      "comments": 166,
+      "comments": 171,
       "author": "kuberwastaken",
       "published": "2026-08-10T13:35:40Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Auto mode is now the default in Claude Code",
-      "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
-      "discuss_url": "https://news.ycombinator.com/item?id=49239021",
-      "score": 288,
-      "comments": 310,
-      "author": "sbehere",
-      "published": "2026-08-10T03:50:00Z"
+      "title": "Compression is prediction",
+      "url": "https://ngrok.com/blog/compression-is-prediction",
+      "discuss_url": "https://lobste.rs/s/gixxh0",
+      "score": 13,
+      "comments": 5,
+      "author": "gmem",
+      "published": "2026-08-11T19:35:12Z"
     },
     {
       "source": "hackernews",
@@ -262,13 +250,25 @@
       "published": "2026-08-11T19:00:18Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "discuss_url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-08-11T13:37:10Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Mojo 1.0 is here",
       "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
       "discuss_url": "https://lobste.rs/s/r8qb5p",
-      "score": 12,
+      "score": 13,
       "comments": 0,
       "author": "dayanruben",
       "published": "2026-08-11T16:59:09Z"
@@ -304,7 +304,7 @@
       "title": "Making Need For Speed 2015 with Game Maker",
       "url": "https://www.youtube.com/watch?v=ffGqjOBowIc",
       "discuss_url": "https://lobste.rs/s/kwo9cn",
-      "score": 5,
+      "score": 6,
       "comments": 2,
       "author": "linkdd",
       "published": "2026-08-10T21:47:24Z"
@@ -325,6 +325,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "A C++ toolchain from 357 bytes in Bazel",
+      "url": "https://fzakaria.com/2026/08/01/a-c++-toolchain-from-357-bytes-in-bazel",
+      "discuss_url": "https://lobste.rs/s/pq7dtk",
+      "score": 10,
+      "comments": 0,
+      "author": "dv",
+      "published": "2026-08-10T19:18:34Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Sonic Pi 5",
       "url": "https://www.patreon.com/samaaron/posts/sonic-pi-v5-166001392",
       "discuss_url": "https://lobste.rs/s/wbv6vk",
@@ -332,18 +344,6 @@
       "comments": 0,
       "author": "xyproto",
       "published": "2026-08-11T00:37:12Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "A C++ toolchain from 357 bytes in Bazel",
-      "url": "https://fzakaria.com/2026/08/01/a-c++-toolchain-from-357-bytes-in-bazel",
-      "discuss_url": "https://lobste.rs/s/pq7dtk",
-      "score": 9,
-      "comments": 0,
-      "author": "dv",
-      "published": "2026-08-10T19:18:34Z"
     },
     {
       "source": "lobsters",
@@ -412,7 +412,7 @@
       "title": "Exploiting System Management Mode with a very long interrupt",
       "url": "https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii",
       "discuss_url": "https://news.ycombinator.com/item?id=49245491",
-      "score": 181,
+      "score": 182,
       "comments": 77,
       "author": "WhiteDawn",
       "published": "2026-08-10T16:03:14Z"
@@ -424,7 +424,7 @@
       "title": "A researcher bought noreply.net. Companies started sending him secrets",
       "url": "https://arstechnica.com/security/2026/08/a-researcher-bought-noreply-net-companies-started-sending-him-secrets/",
       "discuss_url": "https://lobste.rs/s/exgfc0",
-      "score": 64,
+      "score": 65,
       "comments": 18,
       "author": "hoistbypetard",
       "published": "2026-08-10T16:47:33Z"
@@ -548,18 +548,6 @@
       "comments": null,
       "author": "BrianKrebs",
       "published": "2026-08-06T17:00:56Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "devops",
-      "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
-      "url": "https://www.docker.com/products/docker-sandboxes/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49239751",
-      "score": 678,
-      "comments": 390,
-      "author": "etoxin",
-      "published": "2026-08-10T06:02:38Z"
     },
     {
       "source": "lobsters",
@@ -692,6 +680,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-08-11T08:54:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "FLUX.2-small-decoder and gemma-4-12B-it models now available on Amazon SageMaker JumpStart",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/flux.2-small-decoder-gemma-4-12B-it-on-sagemaker-jumpstart/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/flux.2-small-decoder-gemma-4-12B-it-on-sagemaker-jumpstart/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-10T23:08:00Z"
     },
     {
       "source": "rss",
