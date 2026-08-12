@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T19:05:59Z",
+  "updated_at": "2026-08-12T02:11:34Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,34 +34,34 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
-      "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
-      "discuss_url": "https://news.ycombinator.com/item?id=49259339",
-      "score": 223,
-      "comments": 32,
-      "author": "frabonacci",
-      "published": "2026-08-11T14:50:33Z",
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "url": "https://stolen-thoughts.com/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49257876",
+      "score": 501,
+      "comments": 209,
+      "author": "quantumgarbage",
+      "published": "2026-08-11T13:22:00Z",
       "bullets": [
-        "Metal GPU passthrough in macOS virtual machines dramatically improves llama.cpp execution speed, achieving 11–16× higher inference throughput.",
-        "Proper GPU virtualization eliminates CPU fallback bottlenecks, bringing VM-based LLM performance close to bare-metal Apple Silicon speed.",
-        "Leverages Apple's Virtualization framework and llama.cpp Metal backend to enable efficient unified memory access across guest OS boundaries."
+        "Adversaries exploit API outputs and distillation techniques to extract hidden Chain-of-Thought reasoning traces from proprietary frontier models.",
+        "Extracted reasoning data allows attackers to fine-tune open-weight models, replicating complex multi-step logic at a fraction of pre-training costs.",
+        "Model providers must enforce strict output sanitization, trace redacting, and access monitoring to prevent unauthorized intellectual property extraction."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/3qwloh",
-      "discuss_url": "https://lobste.rs/s/3qwloh",
-      "score": 18,
-      "comments": 26,
-      "author": "caius",
-      "published": "2026-08-10T11:41:16Z",
+      "title": "Mojo 1.0 is here",
+      "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+      "discuss_url": "https://lobste.rs/s/r8qb5p",
+      "score": 12,
+      "comments": 0,
+      "author": "dayanruben",
+      "published": "2026-08-11T16:59:09Z",
       "bullets": [
-        "Lobsters' weekly thread highlights active engineering work across open-source maintainership, systems programming, and internal developer tooling.",
-        "Developers share progress on projects involving Rust, Go, database query optimization, compiler design, and self-hosted infrastructure.",
-        "Community status threads offer practical architecture feedback, technical accountability, and early visibility into emerging developer utilities."
+        "Modular's Mojo language combines Python-like syntax with C-level performance, leveraging MLIR for high-throughput AI and systems engineering.",
+        "It incorporates Rust-inspired memory ownership, strict typing, and native SIMD vectorization to optimize CPU and GPU hardware utilization.",
+        "Engineers can directly import C and Python packages, enabling immediate acceleration for existing PyTorch and NumPy ML pipelines."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Exploiting System Management Mode with a very long interrupt",
       "url": "https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii",
       "discuss_url": "https://news.ycombinator.com/item?id=49245491",
-      "score": 178,
-      "comments": 76,
+      "score": 181,
+      "comments": 77,
       "author": "WhiteDawn",
       "published": "2026-08-10T16:03:14Z",
       "bullets": [
-        "Delays in System Management Interrupt (SMI) handling create race conditions, allowing attackers to manipulate memory during x86 SMM state transitions.",
-        "Successful exploitation bypasses Ring 0/hypervisor defenses, granting arbitrary code execution inside high-privilege SMRAM (Ring -2) firmware environments.",
-        "Defense demands hardware-enforced SMRAM locking, vendor BIOS/UEFI updates, and proper Advanced Programmable Interrupt Controller (APIC) timing validations."
+        "Extended hardware interrupts can exploit timing windows during x86 System Management Interrupt (SMI) handlers to trigger race conditions.",
+        "Bypassing SMM protections enables arbitrary Ring -2 code execution, granting persistent access below the hypervisor and operating system.",
+        "Firmware mitigations require atomic interrupt masking, strict SMI handler state validation, and secure Local APIC configurations."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
       "url": "https://www.docker.com/products/docker-sandboxes/",
       "discuss_url": "https://news.ycombinator.com/item?id=49239751",
-      "score": 674,
-      "comments": 377,
+      "score": 678,
+      "comments": 390,
       "author": "etoxin",
       "published": "2026-08-10T06:02:38Z",
       "bullets": [
-        "Docker Sandboxes offer disposable container isolation to safely execute unpredictable, LLM-generated code and autonomous AI agent tasks.",
-        "Scoping AI execution to short-lived containers prevents host compromise, data leaks, and arbitrary command execution from malicious prompt injections.",
-        "Simplifies DevOps pipelines by using standard Docker APIs to automate provisioning, resource limiting, and rapid cleanup of agent environments."
+        "Executes untrusted AI-generated code inside ephemeral Docker containers, protecting host infrastructure and production clusters from compromised workloads.",
+        "Mitigates remote code execution (RCE) and data exfiltration risks in agentic workflows using strict, automated container-level isolation.",
+        "Simplifies DevOps integration by automating sandbox lifecycle management, strict resource limits, and rapid teardown after task completion."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Less than 2.5% of Taylor Farms' recalled lettuce went to Taco Bells",
-      "url": "https://arstechnica.com/health/2026/08/less-than-2-5-of-taylor-farms-recalled-lettuce-went-to-taco-bells/",
-      "discuss_url": "https://arstechnica.com/health/2026/08/less-than-2-5-of-taylor-farms-recalled-lettuce-went-to-taco-bells/",
+      "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
+      "url": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
+      "discuss_url": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
       "score": null,
       "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-08-11T18:00:14Z",
+      "author": "Cyrus Farivar",
+      "published": "2026-08-12T00:08:40Z",
       "bullets": [
-        "FDA data reveals over 97.5% of Taylor Farms' recalled produce went to undisclosed institutional and commercial foodservice partners.",
-        "The recall exposes critical visibility gaps in B2B agricultural supply chains, delaying targeted containment during widespread pathogen outbreaks.",
-        "Fragmented distribution tracking underscores the need for standardized digital traceability protocols across multi-tier food production networks."
+        "FBI Atlanta is investigating a rogue Wi-Fi hotspot attack on a Delta flight allegedly involving DEF CON attendees.",
+        "Rogue access point attacks exploit client auto-connect behaviors to intercept unencrypted traffic and harvest user credentials on in-flight Wi-Fi.",
+        "No arrests have been made, underscoring persistent transit security risks and the necessity of strict VPN usage."
       ]
     }
   ],
@@ -121,25 +121,37 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
-      "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
-      "discuss_url": "https://news.ycombinator.com/item?id=49259339",
-      "score": 223,
-      "comments": 32,
-      "author": "frabonacci",
-      "published": "2026-08-11T14:50:33Z"
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "url": "https://stolen-thoughts.com/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49257876",
+      "score": 501,
+      "comments": 209,
+      "author": "quantumgarbage",
+      "published": "2026-08-11T13:22:00Z"
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
-      "url": "https://stolen-thoughts.com/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49257876",
-      "score": 295,
-      "comments": 107,
-      "author": "quantumgarbage",
-      "published": "2026-08-11T13:22:00Z"
+      "title": "OpenAI’s head of ethics leaves less than a year after joining",
+      "url": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
+      "discuss_url": "https://news.ycombinator.com/item?id=49257160",
+      "score": 288,
+      "comments": 345,
+      "author": "ilamont",
+      "published": "2026-08-11T12:23:07Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp",
+      "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+      "discuss_url": "https://news.ycombinator.com/item?id=49259339",
+      "score": 288,
+      "comments": 43,
+      "author": "frabonacci",
+      "published": "2026-08-11T14:50:33Z"
     },
     {
       "source": "hackernews",
@@ -148,10 +160,34 @@
       "title": "How Claude marks AI-generated content",
       "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
       "discuss_url": "https://news.ycombinator.com/item?id=49250109",
-      "score": 386,
-      "comments": 360,
+      "score": 421,
+      "comments": 391,
       "author": "mfiguiere",
       "published": "2026-08-10T21:36:56Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Text Watermarking for Non-Academics",
+      "url": "https://blog.gaborkoos.com/posts/2026-08-12-Text-Watermarking-for-Non-Academics/",
+      "discuss_url": "https://lobste.rs/s/glicgx",
+      "score": 2,
+      "comments": 3,
+      "author": "gkoos",
+      "published": "2026-08-12T00:29:31Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Compression is prediction",
+      "url": "https://ngrok.com/blog/compression-is-prediction",
+      "discuss_url": "https://lobste.rs/s/gixxh0",
+      "score": 10,
+      "comments": 4,
+      "author": "gmem",
+      "published": "2026-08-11T19:35:12Z"
     },
     {
       "source": "hackernews",
@@ -160,8 +196,8 @@
       "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
       "url": "https://cactuscompute.com/needle",
       "discuss_url": "https://news.ycombinator.com/item?id=49246804",
-      "score": 488,
-      "comments": 162,
+      "score": 508,
+      "comments": 171,
       "author": "HenryNdubuaku",
       "published": "2026-08-10T17:22:07Z"
     },
@@ -172,8 +208,8 @@
       "title": "Learning more about Claude's mathematical capabilities",
       "url": "https://www.anthropic.com/research/riemann-zeta",
       "discuss_url": "https://news.ycombinator.com/item?id=49247070",
-      "score": 257,
-      "comments": 161,
+      "score": 262,
+      "comments": 168,
       "author": "tosh",
       "published": "2026-08-10T17:41:13Z"
     },
@@ -184,8 +220,8 @@
       "title": "Humanising LLM Outputs Is Dumb",
       "url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
       "discuss_url": "https://news.ycombinator.com/item?id=49243474",
-      "score": 226,
-      "comments": 161,
+      "score": 227,
+      "comments": 166,
       "author": "kuberwastaken",
       "published": "2026-08-10T13:35:40Z"
     },
@@ -196,22 +232,10 @@
       "title": "Auto mode is now the default in Claude Code",
       "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
       "discuss_url": "https://news.ycombinator.com/item?id=49239021",
-      "score": 286,
-      "comments": 309,
+      "score": 288,
+      "comments": 310,
       "author": "sbehere",
       "published": "2026-08-10T03:50:00Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "How I use LLMs to learn complex topics",
-      "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49234675",
-      "score": 813,
-      "comments": 532,
-      "author": "laurentiurad",
-      "published": "2026-08-09T19:16:49Z"
     },
     {
       "source": "hackernews",
@@ -220,34 +244,10 @@
       "title": "Exploring Claude/GPT Knowledge Cutoffs and Pre-Training Timelines",
       "url": "https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs",
       "discuss_url": "https://news.ycombinator.com/item?id=49244085",
-      "score": 154,
+      "score": 156,
       "comments": 24,
       "author": "sshh12",
       "published": "2026-08-10T14:20:41Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Mojo 1.0 is here",
-      "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
-      "discuss_url": "https://lobste.rs/s/r8qb5p",
-      "score": 3,
-      "comments": 0,
-      "author": "dayanruben",
-      "published": "2026-08-11T16:59:09Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Black Hat USA 2026: The 'Breaking' News: The OpenAI–Hugging Face Incident",
-      "url": "https://youtu.be/87DyyMV0kCY",
-      "discuss_url": "https://lobste.rs/s/ahonc7",
-      "score": 1,
-      "comments": 1,
-      "author": "jjasghar",
-      "published": "2026-08-11T16:50:09Z"
     },
     {
       "source": "lobsters",
@@ -265,13 +265,37 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Mojo 1.0 is here",
+      "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+      "discuss_url": "https://lobste.rs/s/r8qb5p",
+      "score": 12,
+      "comments": 0,
+      "author": "dayanruben",
+      "published": "2026-08-11T16:59:09Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/3qwloh",
       "discuss_url": "https://lobste.rs/s/3qwloh",
       "score": 18,
-      "comments": 26,
+      "comments": 27,
       "author": "caius",
       "published": "2026-08-10T11:41:16Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "some software talks i like",
+      "url": "https://char.lt/blog/2026/08/talks-i-like/",
+      "discuss_url": "https://lobste.rs/s/cmrfrj",
+      "score": 92,
+      "comments": 22,
+      "author": "hugoarnal",
+      "published": "2026-08-08T13:48:36Z"
     },
     {
       "source": "lobsters",
@@ -289,13 +313,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "some software talks i like",
-      "url": "https://char.lt/blog/2026/08/talks-i-like/",
-      "discuss_url": "https://lobste.rs/s/cmrfrj",
-      "score": 91,
-      "comments": 22,
-      "author": "hugoarnal",
-      "published": "2026-08-08T13:48:36Z"
+      "title": "Undo/redo systems and collaborative editing (2024)",
+      "url": "https://dev.to/isaachagoel/you-dont-know-undoredo-4hol",
+      "discuss_url": "https://lobste.rs/s/wew6tz",
+      "score": 11,
+      "comments": 5,
+      "author": "fractalbeauty",
+      "published": "2026-08-10T03:40:35Z"
     },
     {
       "source": "lobsters",
@@ -313,18 +337,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Undo/redo systems and collaborative editing (2024)",
-      "url": "https://dev.to/isaachagoel/you-dont-know-undoredo-4hol",
-      "discuss_url": "https://lobste.rs/s/wew6tz",
-      "score": 11,
-      "comments": 5,
-      "author": "fractalbeauty",
-      "published": "2026-08-10T03:40:35Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "A C++ toolchain from 357 bytes in Bazel",
       "url": "https://fzakaria.com/2026/08/01/a-c++-toolchain-from-357-bytes-in-bazel",
       "discuss_url": "https://lobste.rs/s/pq7dtk",
@@ -337,6 +349,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Counting the days, revisited",
+      "url": "https://dotat.at/@/2026-08-09-rata-die.html",
+      "discuss_url": "https://lobste.rs/s/cqx6f6",
+      "score": 24,
+      "comments": 1,
+      "author": "fanf",
+      "published": "2026-08-09T02:32:55Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Re-balancing Deflate Compression Levels (2016)",
       "url": "https://blog.klauspost.com/rebalancing-deflate-compression-levels/",
       "discuss_url": "https://lobste.rs/s/edtmqj",
@@ -344,18 +368,6 @@
       "comments": 2,
       "author": "typesanitizer",
       "published": "2026-08-10T14:47:28Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Counting the days, revisited",
-      "url": "https://dotat.at/@/2026-08-09-rata-die.html",
-      "discuss_url": "https://lobste.rs/s/cqx6f6",
-      "score": 23,
-      "comments": 1,
-      "author": "fanf",
-      "published": "2026-08-09T02:32:55Z"
     },
     {
       "source": "lobsters",
@@ -394,26 +406,14 @@
       "published": "2026-08-09T14:46:15Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "From coder to orchestrator: How agents shift the role of a developer",
-      "url": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
-      "discuss_url": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
-      "score": null,
-      "comments": null,
-      "author": "Natalie Guevara",
-      "published": "2026-08-11T18:38:17Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Exploiting System Management Mode with a very long interrupt",
       "url": "https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii",
       "discuss_url": "https://news.ycombinator.com/item?id=49245491",
-      "score": 178,
-      "comments": 76,
+      "score": 181,
+      "comments": 77,
       "author": "WhiteDawn",
       "published": "2026-08-10T16:03:14Z"
     },
@@ -424,8 +424,8 @@
       "title": "A researcher bought noreply.net. Companies started sending him secrets",
       "url": "https://arstechnica.com/security/2026/08/a-researcher-bought-noreply-net-companies-started-sending-him-secrets/",
       "discuss_url": "https://lobste.rs/s/exgfc0",
-      "score": 60,
-      "comments": 16,
+      "score": 64,
+      "comments": 18,
       "author": "hoistbypetard",
       "published": "2026-08-10T16:47:33Z"
     },
@@ -436,7 +436,7 @@
       "title": "GitHub Actions needs OIDC audience constraints",
       "url": "https://blog.yossarian.net/2026/08/10/github-actions-needs-oidc-audience-constraints",
       "discuss_url": "https://lobste.rs/s/ipt1em",
-      "score": 45,
+      "score": 47,
       "comments": 14,
       "author": "yossarian",
       "published": "2026-08-10T13:30:18Z"
@@ -493,18 +493,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Integrated Sensing and Communication (ISAC)",
-      "url": "https://www.ericsson.com/en/6g/isac",
-      "discuss_url": "https://lobste.rs/s/35dq6x",
-      "score": 2,
-      "comments": 0,
-      "author": "elasticdog",
-      "published": "2026-08-09T13:56:22Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "experiments with isolation on blue pill",
       "url": "https://l0puh.github.io/log/2026/08/04/experiments_with_isolation/",
       "discuss_url": "https://lobste.rs/s/bbkpzc",
@@ -512,6 +500,18 @@
       "comments": 0,
       "author": "kaycebasques",
       "published": "2026-08-08T18:06:31Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Integrated Sensing and Communication (ISAC)",
+      "url": "https://www.ericsson.com/en/6g/isac",
+      "discuss_url": "https://lobste.rs/s/35dq6x",
+      "score": 2,
+      "comments": 0,
+      "author": "elasticdog",
+      "published": "2026-08-09T13:56:22Z"
     },
     {
       "source": "lobsters",
@@ -529,6 +529,18 @@
       "source": "rss",
       "subsource": "krebsonsecurity.com",
       "category": "security",
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "url": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "discuss_url": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "score": null,
+      "comments": null,
+      "author": "BrianKrebs",
+      "published": "2026-08-11T21:28:35Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "krebsonsecurity.com",
+      "category": "security",
       "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "discuss_url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
@@ -538,26 +550,14 @@
       "published": "2026-08-06T17:00:56Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
-      "url": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
-      "discuss_url": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-11T18:36:47Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
       "url": "https://www.docker.com/products/docker-sandboxes/",
       "discuss_url": "https://news.ycombinator.com/item?id=49239751",
-      "score": 674,
-      "comments": 377,
+      "score": 678,
+      "comments": 390,
       "author": "etoxin",
       "published": "2026-08-10T06:02:38Z"
     },
@@ -584,6 +584,30 @@
       "comments": 1,
       "author": "aae",
       "published": "2026-08-10T11:04:33Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 R8a instances are now available in Canada (Central) region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8a-instances-canada-central/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8a-instances-canada-central/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-11T22:03:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Bedrock expands IAM principal cost allocation to the bedrock-mantle endpoint",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-expands-iam-principal-cost-allocation-bedrock-mantle/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-expands-iam-principal-cost-allocation-bedrock-mantle/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-11T20:25:00Z"
     },
     {
       "source": "rss",
@@ -625,6 +649,18 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "AWS Secrets Manager adds managed external secrets support for Jenkins and SonarQube",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-integration-jenkins-sonarqube/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-integration-jenkins-sonarqube/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-11T14:57:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon Connect Customer launches performance dashboard for Cases",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-dashboard/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-dashboard/",
@@ -632,6 +668,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-08-11T13:30:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Clean Rooms supports exporting privacy-enhanced analysis logs for SQL",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-export-analysis-log-sql",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-export-analysis-log-sql",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-11T12:00:00Z"
     },
     {
       "source": "rss",
@@ -647,51 +695,87 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "FLUX.2-small-decoder and gemma-4-12B-it models now available on Amazon SageMaker JumpStart",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/flux.2-small-decoder-gemma-4-12B-it-on-sagemaker-jumpstart/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/flux.2-small-decoder-gemma-4-12B-it-on-sagemaker-jumpstart/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
+      "url": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
+      "discuss_url": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-10T23:08:00Z"
+      "author": "Cyrus Farivar",
+      "published": "2026-08-12T00:08:40Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "langcache-embed-v3-small, Mellum2-12B-A2.5B-Thinking, and LightOnOCR-2-1B models now available on Amazon SageMaker JumpStart",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/langcache-embed-v3-small-mellum2-12B-A2.5B-thinking-lightOnOCR-2-1B-on-sagemaker-jumpstart/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/langcache-embed-v3-small-mellum2-12B-A2.5B-thinking-lightOnOCR-2-1B-on-sagemaker-jumpstart/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Trump wants Big Pharma to split MMR vaccine; Big Pharma thinks it's idiotic",
+      "url": "https://arstechnica.com/health/2026/08/trump-wants-big-pharma-to-split-mmr-vaccine-big-pharma-thinks-its-idiotic/",
+      "discuss_url": "https://arstechnica.com/health/2026/08/trump-wants-big-pharma-to-split-mmr-vaccine-big-pharma-thinks-its-idiotic/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-10T23:05:00Z"
+      "author": "Beth Mole",
+      "published": "2026-08-11T22:31:45Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 High Memory U7i instances now available in AWS South America (São Paulo) region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-high-memory-u7i-south-america",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-high-memory-u7i-south-america",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Russian drones found near vital European offshore gas site, get blown up",
+      "url": "https://arstechnica.com/gadgets/2026/08/romania-destroys-russian-drones-drifting-near-vital-european-offshore-gas-site/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/08/romania-destroys-russian-drones-drifting-near-vital-european-offshore-gas-site/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-10T23:02:00Z"
+      "author": "Jeremy Hsu",
+      "published": "2026-08-11T21:20:11Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "GLM-5.2 FP8, NVIDIA-Nemotron-Nano-12B-v2 and GLM-OCR models now available on Amazon SageMaker JumpStart",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/glm-5.2-fp8-nemotron-nano-12b-v2-glm-ocr-on-sagemaker-jumpstart/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/glm-5.2-fp8-nemotron-nano-12b-v2-glm-ocr-on-sagemaker-jumpstart/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Chrome adopts what may be the best protection yet against account takeovers",
+      "url": "https://arstechnica.com/security/2026/08/chrome-adopts-what-may-be-the-best-protection-yet-against-account-takeovers/",
+      "discuss_url": "https://arstechnica.com/security/2026/08/chrome-adopts-what-may-be-the-best-protection-yet-against-account-takeovers/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-10T23:02:00Z"
+      "author": "Dan Goodin",
+      "published": "2026-08-11T20:59:52Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Meta can't stop states' $1.4 trillion lawsuit from going to trial",
+      "url": "https://arstechnica.com/tech-policy/2026/08/meta-cant-stop-states-1-4-trillion-lawsuit-from-going-to-trial/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/meta-cant-stop-states-1-4-trillion-lawsuit-from-going-to-trial/",
+      "score": null,
+      "comments": null,
+      "author": "Jon Brodkin",
+      "published": "2026-08-11T20:27:16Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Gemini becomes Google's fastest-growing product ever as it hits 1B users",
+      "url": "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
+      "discuss_url": "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
+      "score": null,
+      "comments": null,
+      "author": "Ryan Whitwam",
+      "published": "2026-08-11T19:48:12Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Used EV buying guide: The $30,000 edition",
+      "url": "https://arstechnica.com/cars/2026/08/used-ev-buying-guide-the-30000-edition/",
+      "discuss_url": "https://arstechnica.com/cars/2026/08/used-ev-buying-guide-the-30000-edition/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-08-11T18:31:53Z"
     },
     {
       "source": "rss",
@@ -752,90 +836,6 @@
       "comments": null,
       "author": "Nicole M. Bennett, The Conversation",
       "published": "2026-08-11T13:15:24Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "New Pass-ta-key attack reveals all the things we didn't know about passkeys",
-      "url": "https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/",
-      "discuss_url": "https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-08-11T11:30:08Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Ars Live: Ross Scott discusses the Stop Killing Games movement",
-      "url": "https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/",
-      "discuss_url": "https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/",
-      "score": null,
-      "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-08-10T22:23:43Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "With new open models, Meta pitches another reboot of its struggling AI strategy",
-      "url": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/",
-      "discuss_url": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/",
-      "score": null,
-      "comments": null,
-      "author": "Samuel Axon",
-      "published": "2026-08-10T22:13:03Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Trump signs bonkers order that cuts vaccines, promotes ones that don't exist",
-      "url": "https://arstechnica.com/health/2026/08/trump-signs-bonkers-order-that-cuts-vaccines-promotes-ones-that-dont-exist/",
-      "discuss_url": "https://arstechnica.com/health/2026/08/trump-signs-bonkers-order-that-cuts-vaccines-promotes-ones-that-dont-exist/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-08-10T21:42:56Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Developer Cold Iron Studios shuts down cloud version of $60 game with no refunds",
-      "url": "https://arstechnica.com/gadgets/2026/08/players-lose-access-to-aliens-fireteam-elite-on-nintendo-switch-without-refunds/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/08/players-lose-access-to-aliens-fireteam-elite-on-nintendo-switch-without-refunds/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-08-10T21:26:38Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Amazon backs power plant that may become top source of US climate pollution",
-      "url": "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-08-10T20:45:52Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Zuckerberg’s superyacht ignored emergency channel, failed to aid stranded boat",
-      "url": "https://arstechnica.com/gadgets/2026/08/zuckerbergs-super-yacht-stood-by-while-stranded-boaters-looked-for-help/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/08/zuckerbergs-super-yacht-stood-by-while-stranded-boaters-looked-for-help/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-08-10T20:01:15Z"
     }
   ]
 }
