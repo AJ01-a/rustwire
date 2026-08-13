@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T02:14:19Z",
+  "updated_at": "2026-08-13T07:40:10Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
       "url": "https://knownagents.com/insights",
       "discuss_url": "https://news.ycombinator.com/item?id=49272569",
-      "score": 236,
-      "comments": 173,
+      "score": 267,
+      "comments": 200,
       "author": "gavinhking",
       "published": "2026-08-12T14:02:46Z",
       "bullets": [
-        "Attackers are spoofing AI crawler identities like Anthropic’s ClaudeBot to evade firewalls and perform mass vulnerability scanning on web servers.",
-        "Simple User-Agent allowlists and robots.txt fail to stop malicious scans; teams must enforce published IP range verification and reverse DNS checks.",
-        "Unverified AI bot traffic poses data scraping and exploit risks, requiring security teams to apply strict behavior-based WAF rate limits."
+        "Threat actors spoof AI crawler User-Agents like ClaudeBot to bypass perimeter rate limits and execute automated web vulnerability scans.",
+        "User-Agent filtering is insufficient; security teams must enforce reverse DNS checks, IP allowlists, and behavioral analysis to block malicious traffic.",
+        "Differentiating real LLM scrapers from spoofed attacks is critical to maintaining application security without disrupting legitimate AI indexing."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Mindful coding: Purpose and intention",
-      "url": "https://var0.xyz/posts/mindful-coding-purpose-and-intention.html",
-      "discuss_url": "https://lobste.rs/s/864m3v",
-      "score": 13,
+      "title": "Hacking in the 'nameOf'",
+      "url": "https://committing-crimes.com/articles/2026-08-04-java-nameof",
+      "discuss_url": "https://lobste.rs/s/bcfzer",
+      "score": 10,
       "comments": 1,
-      "author": "var0xyz",
-      "published": "2026-08-12T12:59:17Z",
+      "author": "abnercoimbre",
+      "published": "2026-08-12T16:03:22Z",
       "bullets": [
-        "Prioritize upfront domain modeling and explicit system architecture over hasty implementation to prevent technical debt and refactoring churn.",
-        "Write self-documenting code with explicit abstractions, error handling, and minimal third-party dependencies to reduce cognitive overhead.",
-        "Optimize developer workflows and code reviews around asynchronous communication to reduce context switching and sustain long-term software quality."
+        "Compile-time nameof operators eliminate fragile hardcoded string literals in logging, refactoring, and API parameter validation.",
+        "Type-safe identifier extraction reduces runtime reflection overhead while maintaining symbol renaming compatibility with IDE refactoring tools.",
+        "Advanced metaprogramming tricks utilize nameof to generate static metadata, ORM mappings, and type-checked domain-specific language expressions."
       ]
     },
     {
@@ -71,31 +71,31 @@
       "title": "My Homelab Got Hacked - A Postmortem",
       "url": "https://phunky.cafe/my-homelab-got-hacked/",
       "discuss_url": "https://lobste.rs/s/ugkhor",
-      "score": 32,
-      "comments": 3,
+      "score": 40,
+      "comments": 7,
       "author": "colindean",
       "published": "2026-08-12T15:50:16Z",
       "bullets": [
-        "Unrestricted WAN exposure of management interfaces and unpatched self-hosted services remain primary homelab initial compromise vectors.",
-        "Eliminate direct port forwarding by enforcing Zero Trust overlay networks like Tailscale, WireGuard, or Cloudflare Tunnels for remote management.",
-        "Isolate homelab services using VLANs and firewall rules to restrict lateral movement and protect core personal networks upon compromise."
+        "Publicly exposing self-hosted administrative interfaces without multi-factor authentication or strict network controls creates high-risk initial access vectors.",
+        "Inadequate network segmentation between lab workloads and IoT devices enables rapid lateral movement following an initial perimeter breach.",
+        "Centralized log aggregation and immutable offsite backups are essential for accurate post-incident forensic timeline reconstruction and reliable recovery."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "An inter-mesh deployment pipeline",
-      "url": "https://blog.zm.is/an-inter-mesh-deployment-pipeline/",
-      "discuss_url": "https://lobste.rs/s/xoivjb",
-      "score": 2,
+      "title": "beszel",
+      "url": "https://github.com/henrygd/beszel",
+      "discuss_url": "https://lobste.rs/s/6dw7pl",
+      "score": 1,
       "comments": 0,
-      "author": "sy",
-      "published": "2026-08-11T10:11:38Z",
+      "author": "indigo",
+      "published": "2026-08-13T03:28:15Z",
       "bullets": [
-        "Inter-mesh pipelines automate cross-cluster service discovery and mTLS, enabling secure traffic routing across isolated Kubernetes service meshes.",
-        "Progressive rollout controllers coordinate multi-mesh canary deployments with automated rollback triggers to minimize cross-region blast radius.",
-        "Unified control planes synchronize policy enforcement, telemetry, and traffic-splitting rules across interconnected Istio, Linkerd, or Consul instances."
+        "Lightweight, self-hosted server monitoring hub and agent tracking host system metrics and per-container Docker resource utilization.",
+        "Collects CPU, RAM, disk, network, and GPU telemetry with low overhead, featuring automated alert notifications via webhooks.",
+        "Provides a low-footprint alternative to complex Prometheus and Grafana stacks, rapidly deployable using Docker Compose across multiple nodes."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Beth Mole",
       "published": "2026-08-12T22:31:19Z",
       "bullets": [
-        "Atypical early symptoms in Naegleria fowleri cases highlight the need for updated clinical decision frameworks to enable rapid, targeted therapeutic intervention.",
-        "Integrating rare pathogen symptom profiles into diagnostic EHR workflows aids early detection before irreversible neurological damage occurs.",
-        "Early utilization of CSF PCR assays and metagenomic sequencing is critical when patients exhibit rapid neurological decline despite standard treatments."
+        "Diagnostic protocols for rare amoebic infections must incorporate non-standard early symptoms to reduce critical time-to-treatment.",
+        "Amoebic CNS infections require rapid cerebrospinal fluid testing due to high mortality rates once symptoms manifest.",
+        "Documenting atypical clinical presentations improves diagnostic decision trees and alert systems for rare, rapidly fatal pathogens."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
       "url": "https://knownagents.com/insights",
       "discuss_url": "https://news.ycombinator.com/item?id=49272569",
-      "score": 236,
-      "comments": 173,
+      "score": 267,
+      "comments": 200,
       "author": "gavinhking",
       "published": "2026-08-12T14:02:46Z"
     },
@@ -136,8 +136,8 @@
       "title": "What sort of maths are LLMs good at?",
       "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
       "discuss_url": "https://news.ycombinator.com/item?id=49270022",
-      "score": 238,
-      "comments": 134,
+      "score": 254,
+      "comments": 143,
       "author": "ColinWright",
       "published": "2026-08-12T10:04:25Z"
     },
@@ -148,8 +148,8 @@
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
       "url": "https://stolen-thoughts.com/",
       "discuss_url": "https://news.ycombinator.com/item?id=49257876",
-      "score": 683,
-      "comments": 300,
+      "score": 684,
+      "comments": 301,
       "author": "quantumgarbage",
       "published": "2026-08-11T13:22:00Z"
     },
@@ -160,8 +160,8 @@
       "title": "OpenAI’s head of ethics leaves less than a year after joining",
       "url": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
       "discuss_url": "https://news.ycombinator.com/item?id=49257160",
-      "score": 506,
-      "comments": 472,
+      "score": 510,
+      "comments": 477,
       "author": "ilamont",
       "published": "2026-08-11T12:23:07Z"
     },
@@ -184,7 +184,7 @@
       "title": "AI companies destroy physical books — let’s scan rare books before it’s too late",
       "url": "https://fr.annas-archive.gl/blog/physical-destruction.html",
       "discuss_url": "https://lobste.rs/s/g32zwm",
-      "score": 8,
+      "score": 9,
       "comments": 0,
       "author": "kerollmops",
       "published": "2026-08-11T19:00:18Z"
@@ -197,9 +197,21 @@
       "url": "https://youtu.be/87DyyMV0kCY",
       "discuss_url": "https://lobste.rs/s/ahonc7",
       "score": 1,
-      "comments": 4,
+      "comments": 5,
       "author": "jjasghar",
       "published": "2026-08-11T16:50:09Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Introducing chestnut",
+      "url": "https://blog.comma.ai/chestnut/",
+      "discuss_url": "https://lobste.rs/s/m0ure0",
+      "score": 0,
+      "comments": 1,
+      "author": "matts",
+      "published": "2026-08-13T02:43:46Z"
     },
     {
       "source": "rss",
@@ -250,37 +262,13 @@
       "published": "2026-08-10T16:25:36Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-      "discuss_url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-08-10T10:05:36Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Mindful coding: Purpose and intention",
-      "url": "https://var0.xyz/posts/mindful-coding-purpose-and-intention.html",
-      "discuss_url": "https://lobste.rs/s/864m3v",
-      "score": 13,
-      "comments": 1,
-      "author": "var0xyz",
-      "published": "2026-08-12T12:59:17Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Hacking in the 'nameOf'",
       "url": "https://committing-crimes.com/articles/2026-08-04-java-nameof",
       "discuss_url": "https://lobste.rs/s/bcfzer",
-      "score": 7,
+      "score": 10,
       "comments": 1,
       "author": "abnercoimbre",
       "published": "2026-08-12T16:03:22Z"
@@ -289,11 +277,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Mindful coding: Purpose and intention",
+      "url": "https://var0.xyz/posts/mindful-coding-purpose-and-intention.html",
+      "discuss_url": "https://lobste.rs/s/864m3v",
+      "score": 15,
+      "comments": 1,
+      "author": "var0xyz",
+      "published": "2026-08-12T12:59:17Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Compression is prediction",
       "url": "https://ngrok.com/blog/compression-is-prediction",
       "discuss_url": "https://lobste.rs/s/gixxh0",
-      "score": 35,
-      "comments": 9,
+      "score": 36,
+      "comments": 11,
       "author": "gmem",
       "published": "2026-08-11T19:35:12Z"
     },
@@ -349,6 +349,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Making Need For Speed 2015 with Game Maker",
+      "url": "https://www.youtube.com/watch?v=ffGqjOBowIc",
+      "discuss_url": "https://lobste.rs/s/kwo9cn",
+      "score": 6,
+      "comments": 2,
+      "author": "linkdd",
+      "published": "2026-08-10T21:47:24Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "A C++ toolchain from 357 bytes in Bazel",
       "url": "https://fzakaria.com/2026/08/01/a-c++-toolchain-from-357-bytes-in-bazel",
       "discuss_url": "https://lobste.rs/s/pq7dtk",
@@ -356,18 +368,6 @@
       "comments": 0,
       "author": "dv",
       "published": "2026-08-10T19:18:34Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Counting the days, revisited",
-      "url": "https://dotat.at/@/2026-08-09-rata-die.html",
-      "discuss_url": "https://lobste.rs/s/cqx6f6",
-      "score": 25,
-      "comments": 1,
-      "author": "fanf",
-      "published": "2026-08-09T02:32:55Z"
     },
     {
       "source": "lobsters",
@@ -412,8 +412,8 @@
       "title": "My Homelab Got Hacked - A Postmortem",
       "url": "https://phunky.cafe/my-homelab-got-hacked/",
       "discuss_url": "https://lobste.rs/s/ugkhor",
-      "score": 32,
-      "comments": 3,
+      "score": 40,
+      "comments": 7,
       "author": "colindean",
       "published": "2026-08-12T15:50:16Z"
     },
@@ -424,7 +424,7 @@
       "title": "Decrypting Flume Water Monitor Traffic",
       "url": "https://lithostech.com/2026/08/decrypting-flume-water-monitor-traffic/",
       "discuss_url": "https://lobste.rs/s/g94aro",
-      "score": 6,
+      "score": 10,
       "comments": 0,
       "author": "hibachrach",
       "published": "2026-08-12T16:40:35Z"
@@ -445,18 +445,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "I found a KVM guest-to-host heap corruption bug and someone else got there first",
-      "url": "https://blog.himanshuanand.com/2026/08/i-found-a-kvm-guest-to-host-heap-corruption-bug-and-someone-else-got-there-first/",
-      "discuss_url": "https://lobste.rs/s/octplv",
-      "score": 3,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-08-12T18:05:37Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "GitHub Actions needs OIDC audience constraints",
       "url": "https://blog.yossarian.net/2026/08/10/github-actions-needs-oidc-audience-constraints",
       "discuss_url": "https://lobste.rs/s/ipt1em",
@@ -464,6 +452,18 @@
       "comments": 14,
       "author": "yossarian",
       "published": "2026-08-10T13:30:18Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "I found a KVM guest-to-host heap corruption bug and someone else got there first",
+      "url": "https://blog.himanshuanand.com/2026/08/i-found-a-kvm-guest-to-host-heap-corruption-bug-and-someone-else-got-there-first/",
+      "discuss_url": "https://lobste.rs/s/octplv",
+      "score": 4,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-08-12T18:05:37Z"
     },
     {
       "source": "lobsters",
@@ -484,7 +484,7 @@
       "title": "Bypassing Android Hardware Attestation from the Analyst's Chair",
       "url": "https://blog.quarkslab.com/bypassing-android-hardware-attestation.html",
       "discuss_url": "https://lobste.rs/s/lbaw4d",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "rrampage",
       "published": "2026-08-12T13:39:39Z"
@@ -553,13 +553,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "An inter-mesh deployment pipeline",
-      "url": "https://blog.zm.is/an-inter-mesh-deployment-pipeline/",
-      "discuss_url": "https://lobste.rs/s/xoivjb",
-      "score": 2,
+      "title": "beszel",
+      "url": "https://github.com/henrygd/beszel",
+      "discuss_url": "https://lobste.rs/s/6dw7pl",
+      "score": 1,
       "comments": 0,
-      "author": "sy",
-      "published": "2026-08-11T10:11:38Z"
+      "author": "indigo",
+      "published": "2026-08-13T03:28:15Z"
     },
     {
       "source": "lobsters",
@@ -572,6 +572,18 @@
       "comments": 1,
       "author": "aae",
       "published": "2026-08-10T11:04:33Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "An inter-mesh deployment pipeline",
+      "url": "https://blog.zm.is/an-inter-mesh-deployment-pipeline/",
+      "discuss_url": "https://lobste.rs/s/xoivjb",
+      "score": 2,
+      "comments": 0,
+      "author": "sy",
+      "published": "2026-08-11T10:11:38Z"
     },
     {
       "source": "rss",
@@ -680,18 +692,6 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-08-11T20:25:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "LocateAnything-3B, Qwen-AgentWorld-35B-A3B, and Qwen3.5-122B-A10B models now available on Amazon SageMaker JumpStart",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/locateAnything-3B-qwen-agentworld-35B-A3B-qwen3.5-122B-A10B-on-sagemaker-jumpstart/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/locateAnything-3B-qwen-agentworld-35B-A3B-qwen3.5-122B-A10B-on-sagemaker-jumpstart/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-11T15:22:00Z"
     },
     {
       "source": "rss",
