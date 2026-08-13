@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T19:05:09Z",
+  "updated_at": "2026-08-13T02:14:19Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "What sort of maths are LLMs good at?",
-      "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49270022",
-      "score": 205,
-      "comments": 105,
-      "author": "ColinWright",
-      "published": "2026-08-12T10:04:25Z",
+      "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+      "url": "https://knownagents.com/insights",
+      "discuss_url": "https://news.ycombinator.com/item?id=49272569",
+      "score": 236,
+      "comments": 173,
+      "author": "gavinhking",
+      "published": "2026-08-12T14:02:46Z",
       "bullets": [
-        "LLMs excel at symbolic manipulation, pattern matching, and translating word problems into code using libraries like Python or SymPy.",
-        "Exact multi-digit arithmetic requires programmatic tool execution via REPLs, as autoregressive transformers struggle with token-level state tracking.",
-        "High-level mathematical performance relies on pairing models with formal verifiers like Lean 4 or structured Chain-of-Thought reasoning techniques."
+        "Attackers are spoofing AI crawler identities like Anthropic’s ClaudeBot to evade firewalls and perform mass vulnerability scanning on web servers.",
+        "Simple User-Agent allowlists and robots.txt fail to stop malicious scans; teams must enforce published IP range verification and reverse DNS checks.",
+        "Unverified AI bot traffic poses data scraping and exploit risks, requiring security teams to apply strict behavior-based WAF rate limits."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Mindful coding: Purpose and intention",
       "url": "https://var0.xyz/posts/mindful-coding-purpose-and-intention.html",
       "discuss_url": "https://lobste.rs/s/864m3v",
-      "score": 8,
-      "comments": 0,
+      "score": 13,
+      "comments": 1,
       "author": "var0xyz",
       "published": "2026-08-12T12:59:17Z",
       "bullets": [
-        "Write code with explicit intent, favoring clear semantics and well-defined architecture over hasty, speculative implementation or premature optimization.",
-        "Prioritize understanding system constraints before modifying codebases to minimize technical debt, unnecessary abstractions, and cognitive overhead for maintainers.",
-        "Apply deliberate practice to testing, code reviews, and dependency selection to ensure all software changes directly fulfill functional requirements."
+        "Prioritize upfront domain modeling and explicit system architecture over hasty implementation to prevent technical debt and refactoring churn.",
+        "Write self-documenting code with explicit abstractions, error handling, and minimal third-party dependencies to reduce cognitive overhead.",
+        "Optimize developer workflows and code reviews around asynchronous communication to reduce context switching and sustain long-term software quality."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "My Homelab Got Hacked - A Postmortem",
       "url": "https://phunky.cafe/my-homelab-got-hacked/",
       "discuss_url": "https://lobste.rs/s/ugkhor",
-      "score": 8,
-      "comments": 1,
+      "score": 32,
+      "comments": 3,
       "author": "colindean",
       "published": "2026-08-12T15:50:16Z",
       "bullets": [
-        "Exposing unauthenticated Docker sockets or raw SSH ports to the internet invites automated compromise via credential stuffing and known exploits.",
-        "Eliminate port forwarding by enforcing zero-trust mesh VPNs like Tailscale or WireGuard paired with multi-factor authentication for remote access.",
-        "Segment network traffic using VLANs and deploy CrowdSec or Fail2ban to automatically detect, alert, and block malicious scanning traffic."
+        "Unrestricted WAN exposure of management interfaces and unpatched self-hosted services remain primary homelab initial compromise vectors.",
+        "Eliminate direct port forwarding by enforcing Zero Trust overlay networks like Tailscale, WireGuard, or Cloudflare Tunnels for remote management.",
+        "Isolate homelab services using VLANs and firewall rules to restrict lateral movement and protect core personal networks upon compromise."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "sy",
       "published": "2026-08-11T10:11:38Z",
       "bullets": [
-        "Automating deployments across multi-cluster service meshes requires federated architectures using Istio or Linkerd for cross-boundary traffic routing.",
-        "Secure inter-mesh CI/CD pipelines rely on SPIFFE/SPIRE identity federation to enforce cross-domain mTLS and zero-trust policy controls.",
-        "Progressive delivery controllers like Argo Rollouts orchestrate inter-mesh traffic splitting and canary deployments via ingress gateway policies."
+        "Inter-mesh pipelines automate cross-cluster service discovery and mTLS, enabling secure traffic routing across isolated Kubernetes service meshes.",
+        "Progressive rollout controllers coordinate multi-mesh canary deployments with automated rollback triggers to minimize cross-region blast radius.",
+        "Unified control planes synchronize policy enforcement, telemetry, and traffic-splitting rules across interconnected Istio, Linkerd, or Consul instances."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Two hydrogen-burning engines powered this car to a new land speed record",
-      "url": "https://arstechnica.com/cars/2026/08/jcb-sets-a-new-406-mph-speed-record-for-hydrogen-powered-cars/",
-      "discuss_url": "https://arstechnica.com/cars/2026/08/jcb-sets-a-new-406-mph-speed-record-for-hydrogen-powered-cars/",
+      "title": "Toddler's tragic death from brain-destroying amoeba offers lessons for doctors",
+      "url": "https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/",
+      "discuss_url": "https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/",
       "score": null,
       "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-08-12T17:01:11Z",
+      "author": "Beth Mole",
+      "published": "2026-08-12T22:31:19Z",
       "bullets": [
-        "JCB set a land speed record using dual hydrogen-burning internal combustion engines, demonstrating high-output, zero-carbon alternative powertrain capabilities.",
-        "The milestone validates hydrogen combustion as a viable alternative to fuel cells for heavy machinery and commercial transport applications.",
-        "Hydrogen ICE technology enables industrial decarbonization using existing manufacturing supply chains, avoiding the battery mass penalty of heavy EVs."
+        "Atypical early symptoms in Naegleria fowleri cases highlight the need for updated clinical decision frameworks to enable rapid, targeted therapeutic intervention.",
+        "Integrating rare pathogen symptom profiles into diagnostic EHR workflows aids early detection before irreversible neurological damage occurs.",
+        "Early utilization of CSF PCR assays and metagenomic sequencing is critical when patients exhibit rapid neurological decline despite standard treatments."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+      "url": "https://knownagents.com/insights",
+      "discuss_url": "https://news.ycombinator.com/item?id=49272569",
+      "score": 236,
+      "comments": 173,
+      "author": "gavinhking",
+      "published": "2026-08-12T14:02:46Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "What sort of maths are LLMs good at?",
       "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
       "discuss_url": "https://news.ycombinator.com/item?id=49270022",
-      "score": 205,
-      "comments": 105,
+      "score": 238,
+      "comments": 134,
       "author": "ColinWright",
       "published": "2026-08-12T10:04:25Z"
     },
@@ -136,8 +148,8 @@
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
       "url": "https://stolen-thoughts.com/",
       "discuss_url": "https://news.ycombinator.com/item?id=49257876",
-      "score": 676,
-      "comments": 299,
+      "score": 683,
+      "comments": 300,
       "author": "quantumgarbage",
       "published": "2026-08-11T13:22:00Z"
     },
@@ -148,8 +160,8 @@
       "title": "OpenAI’s head of ethics leaves less than a year after joining",
       "url": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
       "discuss_url": "https://news.ycombinator.com/item?id=49257160",
-      "score": 500,
-      "comments": 461,
+      "score": 506,
+      "comments": 472,
       "author": "ilamont",
       "published": "2026-08-11T12:23:07Z"
     },
@@ -160,34 +172,10 @@
       "title": "Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp",
       "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
       "discuss_url": "https://news.ycombinator.com/item?id=49259339",
-      "score": 300,
+      "score": 302,
       "comments": 43,
       "author": "frabonacci",
       "published": "2026-08-11T14:50:33Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "How Claude marks AI-generated content",
-      "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
-      "discuss_url": "https://news.ycombinator.com/item?id=49250109",
-      "score": 441,
-      "comments": 403,
-      "author": "mfiguiere",
-      "published": "2026-08-10T21:36:56Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Tabs, Spaces, Hand Tools, and Seat Belts",
-      "url": "https://newsletter.powderworks.dev/p/tabs-spaces-hand-tools-and-seat-belts",
-      "discuss_url": "https://lobste.rs/s/xvezmx",
-      "score": 1,
-      "comments": 0,
-      "author": "zmaril",
-      "published": "2026-08-12T18:20:17Z"
     },
     {
       "source": "lobsters",
@@ -196,7 +184,7 @@
       "title": "AI companies destroy physical books — let’s scan rare books before it’s too late",
       "url": "https://fr.annas-archive.gl/blog/physical-destruction.html",
       "discuss_url": "https://lobste.rs/s/g32zwm",
-      "score": 7,
+      "score": 8,
       "comments": 0,
       "author": "kerollmops",
       "published": "2026-08-11T19:00:18Z"
@@ -262,14 +250,26 @@
       "published": "2026-08-10T16:25:36Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "discuss_url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-08-10T10:05:36Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Mindful coding: Purpose and intention",
       "url": "https://var0.xyz/posts/mindful-coding-purpose-and-intention.html",
       "discuss_url": "https://lobste.rs/s/864m3v",
-      "score": 8,
-      "comments": 0,
+      "score": 13,
+      "comments": 1,
       "author": "var0xyz",
       "published": "2026-08-12T12:59:17Z"
     },
@@ -280,22 +280,10 @@
       "title": "Hacking in the 'nameOf'",
       "url": "https://committing-crimes.com/articles/2026-08-04-java-nameof",
       "discuss_url": "https://lobste.rs/s/bcfzer",
-      "score": 3,
-      "comments": 0,
+      "score": 7,
+      "comments": 1,
       "author": "abnercoimbre",
       "published": "2026-08-12T16:03:22Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "New Delphi Community Edition \"Florence\"",
-      "url": "https://blog.marcocantu.com/blog/2026-august-delphi-ce-florence.html",
-      "discuss_url": "https://lobste.rs/s/pxca92",
-      "score": 4,
-      "comments": 1,
-      "author": "raymii",
-      "published": "2026-08-12T12:43:02Z"
     },
     {
       "source": "lobsters",
@@ -304,7 +292,7 @@
       "title": "Compression is prediction",
       "url": "https://ngrok.com/blog/compression-is-prediction",
       "discuss_url": "https://lobste.rs/s/gixxh0",
-      "score": 34,
+      "score": 35,
       "comments": 9,
       "author": "gmem",
       "published": "2026-08-11T19:35:12Z"
@@ -313,13 +301,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Mojo 1.0 is here",
-      "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
-      "discuss_url": "https://lobste.rs/s/r8qb5p",
-      "score": 18,
-      "comments": 0,
-      "author": "dayanruben",
-      "published": "2026-08-11T16:59:09Z"
+      "title": "New Delphi Community Edition \"Florence\"",
+      "url": "https://blog.marcocantu.com/blog/2026-august-delphi-ce-florence.html",
+      "discuss_url": "https://lobste.rs/s/pxca92",
+      "score": 6,
+      "comments": 1,
+      "author": "raymii",
+      "published": "2026-08-12T12:43:02Z"
     },
     {
       "source": "lobsters",
@@ -337,6 +325,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Mojo 1.0 is here",
+      "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+      "discuss_url": "https://lobste.rs/s/r8qb5p",
+      "score": 18,
+      "comments": 0,
+      "author": "dayanruben",
+      "published": "2026-08-11T16:59:09Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Undo/redo systems and collaborative editing (2024)",
       "url": "https://dev.to/isaachagoel/you-dont-know-undoredo-4hol",
       "discuss_url": "https://lobste.rs/s/wew6tz",
@@ -344,18 +344,6 @@
       "comments": 5,
       "author": "fractalbeauty",
       "published": "2026-08-10T03:40:35Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Making Need For Speed 2015 with Game Maker",
-      "url": "https://www.youtube.com/watch?v=ffGqjOBowIc",
-      "discuss_url": "https://lobste.rs/s/kwo9cn",
-      "score": 6,
-      "comments": 2,
-      "author": "linkdd",
-      "published": "2026-08-10T21:47:24Z"
     },
     {
       "source": "lobsters",
@@ -373,6 +361,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Counting the days, revisited",
+      "url": "https://dotat.at/@/2026-08-09-rata-die.html",
+      "discuss_url": "https://lobste.rs/s/cqx6f6",
+      "score": 25,
+      "comments": 1,
+      "author": "fanf",
+      "published": "2026-08-09T02:32:55Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Sonic Pi 5",
       "url": "https://www.patreon.com/samaaron/posts/sonic-pi-v5-166001392",
       "discuss_url": "https://lobste.rs/s/wbv6vk",
@@ -380,18 +380,6 @@
       "comments": 0,
       "author": "xyproto",
       "published": "2026-08-11T00:37:12Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Counting the days, revisited",
-      "url": "https://dotat.at/@/2026-08-09-rata-die.html",
-      "discuss_url": "https://lobste.rs/s/cqx6f6",
-      "score": 24,
-      "comments": 1,
-      "author": "fanf",
-      "published": "2026-08-09T02:32:55Z"
     },
     {
       "source": "lobsters",
@@ -407,13 +395,25 @@
     },
     {
       "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Re-balancing Deflate Compression Levels (2016)",
+      "url": "https://blog.klauspost.com/rebalancing-deflate-compression-levels/",
+      "discuss_url": "https://lobste.rs/s/edtmqj",
+      "score": 3,
+      "comments": 2,
+      "author": "typesanitizer",
+      "published": "2026-08-10T14:47:28Z"
+    },
+    {
+      "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "My Homelab Got Hacked - A Postmortem",
       "url": "https://phunky.cafe/my-homelab-got-hacked/",
       "discuss_url": "https://lobste.rs/s/ugkhor",
-      "score": 8,
-      "comments": 1,
+      "score": 32,
+      "comments": 3,
       "author": "colindean",
       "published": "2026-08-12T15:50:16Z"
     },
@@ -424,34 +424,10 @@
       "title": "Decrypting Flume Water Monitor Traffic",
       "url": "https://lithostech.com/2026/08/decrypting-flume-water-monitor-traffic/",
       "discuss_url": "https://lobste.rs/s/g94aro",
-      "score": 2,
+      "score": 6,
       "comments": 0,
       "author": "hibachrach",
       "published": "2026-08-12T16:40:35Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "BAD_GARBAGE.c: The AF_UNIX Container Escape That Resurrected Twice - Part I",
-      "url": "https://www.linkedin.com/pulse/badgarbagec-afunix-container-escape-resurrected-twice-oldani-sicvf",
-      "discuss_url": "https://lobste.rs/s/hffexh",
-      "score": 1,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-08-12T18:07:18Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "I found a KVM guest-to-host heap corruption bug and someone else got there first",
-      "url": "https://blog.himanshuanand.com/2026/08/i-found-a-kvm-guest-to-host-heap-corruption-bug-and-someone-else-got-there-first/",
-      "discuss_url": "https://lobste.rs/s/octplv",
-      "score": 1,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-08-12T18:05:37Z"
     },
     {
       "source": "lobsters",
@@ -469,13 +445,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Bypassing Android Hardware Attestation from the Analyst's Chair",
-      "url": "https://blog.quarkslab.com/bypassing-android-hardware-attestation.html",
-      "discuss_url": "https://lobste.rs/s/lbaw4d",
-      "score": 2,
+      "title": "I found a KVM guest-to-host heap corruption bug and someone else got there first",
+      "url": "https://blog.himanshuanand.com/2026/08/i-found-a-kvm-guest-to-host-heap-corruption-bug-and-someone-else-got-there-first/",
+      "discuss_url": "https://lobste.rs/s/octplv",
+      "score": 3,
       "comments": 0,
-      "author": "rrampage",
-      "published": "2026-08-12T13:39:39Z"
+      "author": "fro",
+      "published": "2026-08-12T18:05:37Z"
     },
     {
       "source": "lobsters",
@@ -493,18 +469,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Apple Limits Bug Bounty Submissions After a Barrage of AI Entries",
-      "url": "https://www.pcmag.com/news/apple-limits-bug-bounty-submissions-after-a-barrage-of-ai-entries",
-      "discuss_url": "https://lobste.rs/s/uyyfhi",
-      "score": 1,
-      "comments": 0,
-      "author": "mempko",
-      "published": "2026-08-12T15:50:07Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Easy Sandboxing on Linux with Bubblewrap",
       "url": "https://bxt.rs/blog/easy-sandboxing-on-linux-with-bubblewrap/",
       "discuss_url": "https://lobste.rs/s/stehhb",
@@ -517,13 +481,37 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Bypassing Android Hardware Attestation from the Analyst's Chair",
+      "url": "https://blog.quarkslab.com/bypassing-android-hardware-attestation.html",
+      "discuss_url": "https://lobste.rs/s/lbaw4d",
+      "score": 2,
+      "comments": 0,
+      "author": "rrampage",
+      "published": "2026-08-12T13:39:39Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Updated GPG key for signing Firefox and Thunderbird Releases",
       "url": "https://blog.mozilla.org/security/2026/08/10/updated-gpg-key-for-signing-firefox-and-thunderbird-releases/",
       "discuss_url": "https://lobste.rs/s/vj2erc",
-      "score": 4,
+      "score": 5,
       "comments": 1,
       "author": "7tehdt3cnw6kir6o",
       "published": "2026-08-11T07:09:59Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Apple Limits Bug Bounty Submissions After a Barrage of AI Entries",
+      "url": "https://www.pcmag.com/news/apple-limits-bug-bounty-submissions-after-a-barrage-of-ai-entries",
+      "discuss_url": "https://lobste.rs/s/uyyfhi",
+      "score": 1,
+      "comments": 0,
+      "author": "mempko",
+      "published": "2026-08-12T15:50:07Z"
     },
     {
       "source": "lobsters",
@@ -551,6 +539,18 @@
     },
     {
       "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Crashing Through Defenses: Exploiting Segfaults and Chaining around Intel CET",
+      "url": "https://github.com/signal-sfop/sfop/blob/main/SFOP_s%26p_paper.pdf",
+      "discuss_url": "https://lobste.rs/s/sh2bax",
+      "score": 1,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-08-09T23:49:30Z"
+    },
+    {
+      "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "An inter-mesh deployment pipeline",
@@ -572,6 +572,78 @@
       "comments": 1,
       "author": "aae",
       "published": "2026-08-10T11:04:33Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Global View now offers an interactive map view for AWS Regions and AWS Local Zones",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-global-view-map-view/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-global-view-map-view/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-12T22:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS IAM now provides role manager to set up IAM roles automatically",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-role-manager",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-role-manager",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-12T18:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EKS now supports advanced Kubernetes control plane configuration parameters",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-control-plane-configuration-parameters",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-control-plane-configuration-parameters",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-12T18:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Quick adds deny by default for custom permissions",
+      "url": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-deny-by-default-permissions/",
+      "discuss_url": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-deny-by-default-permissions/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-12T17:15:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Connect Customer supports manual assignment of queued agent-first callbacks",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-agent-callbacks/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-agent-callbacks/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-12T17:15:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Quick now supports data loss prevention with Microsoft Purview",
+      "url": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-dlp-purview/",
+      "discuss_url": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-dlp-purview/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-12T17:09:00Z"
     },
     {
       "source": "rss",
@@ -623,75 +695,87 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "NVIDIA Nemotron 3.5 Lightning model is now available on Amazon SageMaker JumpStart",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-lightning-on-sagemaker-jumpstart/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-lightning-on-sagemaker-jumpstart/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Toddler's tragic death from brain-destroying amoeba offers lessons for doctors",
+      "url": "https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/",
+      "discuss_url": "https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-11T15:21:00Z"
+      "author": "Beth Mole",
+      "published": "2026-08-12T22:31:19Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Glue adds one-click access to SageMaker Unified Studio from the AWS console",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/smus-glue-access",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/smus-glue-access",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "The web’s newest weapon against AI scrapers is a font",
+      "url": "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/",
+      "discuss_url": "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-11T14:57:00Z"
+      "author": "Kyle Orland",
+      "published": "2026-08-12T22:02:25Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Secrets Manager adds managed external secrets support for Jenkins and SonarQube",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-integration-jenkins-sonarqube/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-integration-jenkins-sonarqube/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Terabytes of credentials leaked in massive supply-chain attack",
+      "url": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
+      "discuss_url": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-11T14:57:00Z"
+      "author": "Dan Goodin",
+      "published": "2026-08-12T21:43:21Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Connect Customer launches performance dashboard for Cases",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-dashboard/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-dashboard/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Have physicists finally discovered glueballs? New evidence points to yes.",
+      "url": "https://arstechnica.com/science/2026/08/have-physicists-finally-discovered-glueballs-new-evidence-points-to-yes/",
+      "discuss_url": "https://arstechnica.com/science/2026/08/have-physicists-finally-discovered-glueballs-new-evidence-points-to-yes/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-11T13:30:00Z"
+      "author": "Jennifer Ouellette",
+      "published": "2026-08-12T21:13:39Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Clean Rooms supports exporting privacy-enhanced analysis logs for SQL",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-export-analysis-log-sql",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-export-analysis-log-sql",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Twitch content has trained Amazon AI for years, but users can opt out now",
+      "url": "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/",
+      "discuss_url": "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-11T12:00:00Z"
+      "author": "Scharon Harding",
+      "published": "2026-08-12T21:00:30Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon RDS for MariaDB now supports MariaDB 12.3",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-mariadb-1232-available/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-mariadb-1232-available/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Trump sued over \"brazen\" scheme to sell Truth Social API access for $100K a month",
+      "url": "https://arstechnica.com/tech-policy/2026/08/trump-sued-over-brazen-scheme-to-sell-truth-social-api-access-for-100k-a-month/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/trump-sued-over-brazen-scheme-to-sell-truth-social-api-access-for-100k-a-month/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-11T08:54:00Z"
+      "author": "Jon Brodkin",
+      "published": "2026-08-12T20:20:52Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "US boosts drone surveillance as flesh-eating screwworms spread in Texas",
+      "url": "https://arstechnica.com/gadgets/2026/08/us-boosts-drone-surveillance-as-flesh-eating-screwworms-spread-in-texas/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/08/us-boosts-drone-surveillance-as-flesh-eating-screwworms-spread-in-texas/",
+      "score": null,
+      "comments": null,
+      "author": "Jeremy Hsu",
+      "published": "2026-08-12T19:40:46Z"
     },
     {
       "source": "rss",
@@ -752,90 +836,6 @@
       "comments": null,
       "author": "Lily Hay Newman, wired.com",
       "published": "2026-08-12T13:37:12Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Formula E finds a new home on Disney+, ESPN+",
-      "url": "https://arstechnica.com/cars/2026/08/formula-e-finds-a-new-home-on-disney-espn/",
-      "discuss_url": "https://arstechnica.com/cars/2026/08/formula-e-finds-a-new-home-on-disney-espn/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-08-12T13:35:30Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Did poop enable the evolution of complex animals?",
-      "url": "https://arstechnica.com/science/2026/08/feces-fueled-a-flurry-of-evolution-during-the-cambrian-study-suggests/",
-      "discuss_url": "https://arstechnica.com/science/2026/08/feces-fueled-a-flurry-of-evolution-during-the-cambrian-study-suggests/",
-      "score": null,
-      "comments": null,
-      "author": "Kiona N. Smith",
-      "published": "2026-08-12T12:34:38Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
-      "url": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
-      "discuss_url": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
-      "score": null,
-      "comments": null,
-      "author": "Cyrus Farivar",
-      "published": "2026-08-12T00:08:40Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Trump wants Big Pharma to split MMR vaccine; Big Pharma thinks it's idiotic",
-      "url": "https://arstechnica.com/health/2026/08/trump-wants-big-pharma-to-split-mmr-vaccine-big-pharma-thinks-its-idiotic/",
-      "discuss_url": "https://arstechnica.com/health/2026/08/trump-wants-big-pharma-to-split-mmr-vaccine-big-pharma-thinks-its-idiotic/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-08-11T22:31:45Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Russian drones found near vital European offshore gas site, get blown up",
-      "url": "https://arstechnica.com/gadgets/2026/08/romania-destroys-russian-drones-drifting-near-vital-european-offshore-gas-site/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/08/romania-destroys-russian-drones-drifting-near-vital-european-offshore-gas-site/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-08-11T21:20:11Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Chrome adopts what may be the best protection yet against account takeovers",
-      "url": "https://arstechnica.com/security/2026/08/chrome-adopts-what-may-be-the-best-protection-yet-against-account-takeovers/",
-      "discuss_url": "https://arstechnica.com/security/2026/08/chrome-adopts-what-may-be-the-best-protection-yet-against-account-takeovers/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-08-11T20:59:52Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Meta can't stop states' $1.4 trillion lawsuit from going to trial",
-      "url": "https://arstechnica.com/tech-policy/2026/08/meta-cant-stop-states-1-4-trillion-lawsuit-from-going-to-trial/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/meta-cant-stop-states-1-4-trillion-lawsuit-from-going-to-trial/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-08-11T20:27:16Z"
     }
   ]
 }
