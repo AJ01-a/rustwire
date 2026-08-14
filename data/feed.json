@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T07:37:06Z",
+  "updated_at": "2026-08-14T13:15:00Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "Gemini 3.7 Flash",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
       "discuss_url": "https://news.ycombinator.com/item?id=49289112",
-      "score": 782,
-      "comments": 409,
+      "score": 896,
+      "comments": 451,
       "author": "thisisauserid",
       "published": "2026-08-13T17:23:22Z",
       "bullets": [
-        "Google expands its Gemini API family, prioritizing high-speed, low-latency multimodal inference and cost-efficient token throughput.",
-        "Available via Google AI Studio and Vertex AI, optimized for real-time developer workflows, structured outputs, and function calling.",
-        "Delivers competitive reasoning and coding capabilities designed for scalable agentic applications without the compute overhead of flagship models."
+        "Google introduces Gemini 3.7 Flash on Google AI Studio, targeting high-throughput multimodal reasoning with reduced latency.",
+        "Features controllable reasoning budgets, allowing developers to dynamically balance inference cost, response speed, and deep chain-of-thought verification.",
+        "Optimized for production agent architectures and coding workflows, reducing token overhead compared to larger frontier models."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "C3 0.8.3 Feature flags",
-      "url": "https://c3-lang.org/blog/c3_0_8_3_feature_flags/",
-      "discuss_url": "https://lobste.rs/s/e9v9qi",
-      "score": 7,
-      "comments": 4,
-      "author": "LowByteFox",
-      "published": "2026-08-13T19:07:37Z",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/n3pkuh",
+      "discuss_url": "https://lobste.rs/s/n3pkuh",
+      "score": 6,
+      "comments": 8,
+      "author": "caius",
+      "published": "2026-08-14T10:39:05Z",
       "bullets": [
-        "C3 0.8.3 introduces native feature flags, enabling structured compile-time conditional compilation without relying on legacy C preprocessor macros.",
-        "The mechanism provides granular control over modular builds, target architectures, and optional language extensions during compilation.",
-        "Enhances build-time ergonomics and maintainability for systems programmers seeking modern C alternatives with full C ABI compatibility."
+        "Community thread for engineers to share active weekend side projects, experimental tooling, and architectural ideas.",
+        "Serves as an open forum to solicit technical feedback, troubleshoot hobbyist codebases, and explore new programming languages.",
+        "Emphasizes balancing continuous technical skill development with deliberate rest to mitigate engineering burnout."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Unlocking _everything_ on the CPU with DRAM scrambling",
       "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
       "discuss_url": "https://lobste.rs/s/a4zifd",
-      "score": 37,
-      "comments": 10,
+      "score": 43,
+      "comments": 15,
       "author": "radex",
       "published": "2026-08-13T16:06:04Z",
       "bullets": [
-        "Weak CPU DRAM scrambling implementations can be reverse-engineered, exposing plaintext memory to physical bus-sniffing and data-remanence attacks.",
-        "Hardware DRAM scramblers mitigate signal integrity issues rather than providing cryptographic confidentiality like Intel TME or AMD SME.",
-        "Bypassing DRAM scrambling enables physical adversaries to alter execution flows, compromise secure enclaves, and extract sensitive cryptographic keys."
+        "DRAM bus scrambling can be reverse-engineered, undermining hardware-level memory obfuscation designed to prevent physical bus probing and cold-boot extraction.",
+        "Attackers exploiting weak or deterministic PRNGs in memory controllers can reconstruct plaintext data directly from physical DRAM interfaces.",
+        "Highlights enclave vulnerabilities (Intel SGX, AMD SEV), proving bus scrambling cannot substitute for authenticated, cryptographically secure memory encryption engines."
       ]
     },
     {
@@ -88,13 +88,13 @@
       "title": "Kubernetes on Oxide: How customer needs shaped our integrations",
       "url": "https://oxide.computer/blog/kubernetes-on-oxide",
       "discuss_url": "https://news.ycombinator.com/item?id=49286485",
-      "score": 183,
-      "comments": 78,
+      "score": 191,
+      "comments": 82,
       "author": "stevehipwell",
       "published": "2026-08-13T14:26:41Z",
       "bullets": [
         "Kubernetes on Oxide: How customer needs shaped our integrations",
-        "Trending on news.ycombinator.com — 183 points, 78 comments.",
+        "Trending on news.ycombinator.com — 191 points, 82 comments.",
         "Submitted by stevehipwell on news.ycombinator.com."
       ]
     },
@@ -102,17 +102,17 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "US wait times for cancer surgeries are getting longer and longer",
-      "url": "https://arstechnica.com/health/2026/08/us-wait-times-for-cancer-surgeries-are-getting-longer-and-longer/",
-      "discuss_url": "https://arstechnica.com/health/2026/08/us-wait-times-for-cancer-surgeries-are-getting-longer-and-longer/",
+      "title": "Rocket Report: Rocket Lab shows off its flexibility; Blue Origin's two-pad plan",
+      "url": "https://arstechnica.com/space/2026/08/rocket-report-rocket-lab-shows-off-its-flexibility-blue-origins-two-pad-plan/",
+      "discuss_url": "https://arstechnica.com/space/2026/08/rocket-report-rocket-lab-shows-off-its-flexibility-blue-origins-two-pad-plan/",
       "score": null,
       "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-08-13T22:17:29Z",
+      "author": "Eric Berger",
+      "published": "2026-08-14T11:00:49Z",
       "bullets": [
-        "Study finds wait times for cancer surgeries hit 10-year high.",
-        "US wait times for cancer surgeries are getting longer and longer",
-        "Submitted by Beth Mole on arstechnica.com."
+        "\"We’ve never seen launch capacity so constrained.\"",
+        "Rocket Report: Rocket Lab shows off its flexibility; Blue Origin's two-pad plan",
+        "Submitted by Eric Berger on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Gemini 3.7 Flash",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
       "discuss_url": "https://news.ycombinator.com/item?id=49289112",
-      "score": 782,
-      "comments": 409,
+      "score": 896,
+      "comments": 451,
       "author": "thisisauserid",
       "published": "2026-08-13T17:23:22Z"
     },
@@ -136,8 +136,8 @@
       "title": "Accelerating GPT-5.6 Sol Ultrafast",
       "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
       "discuss_url": "https://news.ycombinator.com/item?id=49289844",
-      "score": 550,
-      "comments": 231,
+      "score": 650,
+      "comments": 253,
       "author": "pr337h4m",
       "published": "2026-08-13T18:10:02Z"
     },
@@ -148,8 +148,8 @@
       "title": "Choosing an AI model: one prompt, 11 models, different results",
       "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/",
       "discuss_url": "https://news.ycombinator.com/item?id=49285327",
-      "score": 198,
-      "comments": 83,
+      "score": 208,
+      "comments": 88,
       "author": "toddmorey",
       "published": "2026-08-13T13:05:29Z"
     },
@@ -161,33 +161,9 @@
       "url": "https://knownagents.com/insights",
       "discuss_url": "https://news.ycombinator.com/item?id=49272569",
       "score": 301,
-      "comments": 225,
+      "comments": 226,
       "author": "gavinhking",
       "published": "2026-08-12T14:02:46Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "What sort of maths are LLMs good at?",
-      "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49270022",
-      "score": 259,
-      "comments": 156,
-      "author": "ColinWright",
-      "published": "2026-08-12T10:04:25Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "AI companies destroy physical books — let’s scan rare books before it’s too late",
-      "url": "https://fr.annas-archive.gl/blog/physical-destruction.html",
-      "discuss_url": "https://lobste.rs/s/g32zwm",
-      "score": 12,
-      "comments": 0,
-      "author": "kerollmops",
-      "published": "2026-08-11T19:00:18Z"
     },
     {
       "source": "lobsters",
@@ -196,22 +172,10 @@
       "title": "The 'Breaking' News: The OpenAI–Hugging Face Incident",
       "url": "https://youtu.be/87DyyMV0kCY",
       "discuss_url": "https://lobste.rs/s/ahonc7",
-      "score": 1,
+      "score": 0,
       "comments": 8,
       "author": "jjasghar",
       "published": "2026-08-11T16:50:09Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Introducing chestnut",
-      "url": "https://blog.comma.ai/chestnut/",
-      "discuss_url": "https://lobste.rs/s/m0ure0",
-      "score": 0,
-      "comments": 1,
-      "author": "matts",
-      "published": "2026-08-13T02:43:46Z"
     },
     {
       "source": "rss",
@@ -262,16 +226,76 @@
       "published": "2026-08-12T14:00:51Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "discuss_url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-08-11T13:37:10Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "discuss_url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-08-10T16:25:36Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "discuss_url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-08-10T10:05:36Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/n3pkuh",
+      "discuss_url": "https://lobste.rs/s/n3pkuh",
+      "score": 6,
+      "comments": 8,
+      "author": "caius",
+      "published": "2026-08-14T10:39:05Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "C3 0.8.3 Feature flags",
       "url": "https://c3-lang.org/blog/c3_0_8_3_feature_flags/",
       "discuss_url": "https://lobste.rs/s/e9v9qi",
-      "score": 7,
+      "score": 9,
       "comments": 4,
       "author": "LowByteFox",
       "published": "2026-08-13T19:07:37Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Compression is prediction",
+      "url": "https://ngrok.com/blog/compression-is-prediction",
+      "discuss_url": "https://lobste.rs/s/gixxh0",
+      "score": 40,
+      "comments": 14,
+      "author": "gmem",
+      "published": "2026-08-11T19:35:12Z"
     },
     {
       "source": "lobsters",
@@ -289,18 +313,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Compression is prediction",
-      "url": "https://ngrok.com/blog/compression-is-prediction",
-      "discuss_url": "https://lobste.rs/s/gixxh0",
-      "score": 39,
-      "comments": 14,
-      "author": "gmem",
-      "published": "2026-08-11T19:35:12Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Hacking in the 'nameOf'",
       "url": "https://committing-crimes.com/articles/2026-08-04-java-nameof",
       "discuss_url": "https://lobste.rs/s/bcfzer",
@@ -308,18 +320,6 @@
       "comments": 2,
       "author": "abnercoimbre",
       "published": "2026-08-12T16:03:22Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/3qwloh",
-      "discuss_url": "https://lobste.rs/s/3qwloh",
-      "score": 18,
-      "comments": 27,
-      "author": "caius",
-      "published": "2026-08-10T11:41:16Z"
     },
     {
       "source": "lobsters",
@@ -349,22 +349,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Making Need For Speed 2015 with Game Maker",
-      "url": "https://www.youtube.com/watch?v=ffGqjOBowIc",
-      "discuss_url": "https://lobste.rs/s/kwo9cn",
-      "score": 6,
-      "comments": 2,
-      "author": "linkdd",
-      "published": "2026-08-10T21:47:24Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "A C++ toolchain from 357 bytes in Bazel",
       "url": "https://fzakaria.com/2026/08/01/a-c++-toolchain-from-357-bytes-in-bazel",
       "discuss_url": "https://lobste.rs/s/pq7dtk",
-      "score": 10,
+      "score": 11,
       "comments": 0,
       "author": "dv",
       "published": "2026-08-10T19:18:34Z"
@@ -406,28 +394,28 @@
       "published": "2026-08-13T19:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "What 50 open source projects taught us about security in the AI era",
+      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "discuss_url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "score": null,
+      "comments": null,
+      "author": "Gregg Cochran",
+      "published": "2026-08-13T16:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Unlocking _everything_ on the CPU with DRAM scrambling",
       "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
       "discuss_url": "https://lobste.rs/s/a4zifd",
-      "score": 37,
-      "comments": 10,
+      "score": 43,
+      "comments": 15,
       "author": "radex",
       "published": "2026-08-13T16:06:04Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "OWASP Top 10 CI/CD Security Risks",
-      "url": "https://owasp.org/www-project-top-10-ci-cd-security-risks/",
-      "discuss_url": "https://lobste.rs/s/qhxzrd",
-      "score": 2,
-      "comments": 0,
-      "author": "typesanitizer",
-      "published": "2026-08-14T05:26:16Z"
     },
     {
       "source": "lobsters",
@@ -436,10 +424,22 @@
       "title": "My Homelab Got Hacked - A Postmortem",
       "url": "https://phunky.cafe/my-homelab-got-hacked/",
       "discuss_url": "https://lobste.rs/s/ugkhor",
-      "score": 67,
+      "score": 68,
       "comments": 18,
       "author": "colindean",
       "published": "2026-08-12T15:50:16Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Adopting Memory-Safety and Fine-Grained Compartmentalisation with CHERI",
+      "url": "https://www.infoq.com/presentations/cheri-memory-safety-compartmentalization/",
+      "discuss_url": "https://lobste.rs/s/lt89di",
+      "score": 9,
+      "comments": 1,
+      "author": "fanf",
+      "published": "2026-08-13T14:30:59Z"
     },
     {
       "source": "lobsters",
@@ -457,13 +457,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Adopting Memory-Safety and Fine-Grained Compartmentalisation with CHERI",
-      "url": "https://www.infoq.com/presentations/cheri-memory-safety-compartmentalization/",
-      "discuss_url": "https://lobste.rs/s/lt89di",
-      "score": 7,
+      "title": "OWASP Top 10 CI/CD Security Risks",
+      "url": "https://owasp.org/www-project-top-10-ci-cd-security-risks/",
+      "discuss_url": "https://lobste.rs/s/qhxzrd",
+      "score": 2,
       "comments": 0,
-      "author": "fanf",
-      "published": "2026-08-13T14:30:59Z"
+      "author": "typesanitizer",
+      "published": "2026-08-14T05:26:16Z"
     },
     {
       "source": "lobsters",
@@ -517,18 +517,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Easy Sandboxing on Linux with Bubblewrap",
-      "url": "https://bxt.rs/blog/easy-sandboxing-on-linux-with-bubblewrap/",
-      "discuss_url": "https://lobste.rs/s/stehhb",
-      "score": 18,
-      "comments": 11,
-      "author": "FedericoSchonborn",
-      "published": "2026-08-10T10:37:20Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Bypassing Android Hardware Attestation from the Analyst's Chair",
       "url": "https://blog.quarkslab.com/bypassing-android-hardware-attestation.html",
       "discuss_url": "https://lobste.rs/s/lbaw4d",
@@ -550,14 +538,26 @@
       "published": "2026-08-11T07:09:59Z"
     },
     {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Shipping post-quantum cryptography to Python",
+      "url": "https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/",
+      "discuss_url": "https://lobste.rs/s/szvtko",
+      "score": 3,
+      "comments": 0,
+      "author": "strugee",
+      "published": "2026-08-10T16:40:22Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Kubernetes on Oxide: How customer needs shaped our integrations",
       "url": "https://oxide.computer/blog/kubernetes-on-oxide",
       "discuss_url": "https://news.ycombinator.com/item?id=49286485",
-      "score": 183,
-      "comments": 78,
+      "score": 191,
+      "comments": 82,
       "author": "stevehipwell",
       "published": "2026-08-13T14:26:41Z"
     },
@@ -572,18 +572,6 @@
       "comments": 1,
       "author": "indigo",
       "published": "2026-08-13T03:28:15Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "The Promise None of Them Kept",
-      "url": "https://webframp.com/posts/the-promise-none-of-them-kept/",
-      "discuss_url": "https://lobste.rs/s/sjxzgt",
-      "score": 2,
-      "comments": 1,
-      "author": "aae",
-      "published": "2026-08-10T11:04:33Z"
     },
     {
       "source": "lobsters",
@@ -695,6 +683,54 @@
     },
     {
       "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Clean Rooms supports minimum aggregation thresholds in custom analysis rules",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-minimum-aggregation-custom-analysis-rules",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-minimum-aggregation-custom-analysis-rules",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-13T12:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Rocket Report: Rocket Lab shows off its flexibility; Blue Origin's two-pad plan",
+      "url": "https://arstechnica.com/space/2026/08/rocket-report-rocket-lab-shows-off-its-flexibility-blue-origins-two-pad-plan/",
+      "discuss_url": "https://arstechnica.com/space/2026/08/rocket-report-rocket-lab-shows-off-its-flexibility-blue-origins-two-pad-plan/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-08-14T11:00:49Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Samsung Galaxy Z Fold 8 Ultra review: The ultra foldable with an ultra price",
+      "url": "https://arstechnica.com/gadgets/2026/08/samsung-galaxy-z-fold-8-ultra-review-the-ultra-foldable-with-an-ultra-price/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/08/samsung-galaxy-z-fold-8-ultra-review-the-ultra-foldable-with-an-ultra-price/",
+      "score": null,
+      "comments": null,
+      "author": "Ryan Whitwam",
+      "published": "2026-08-14T11:00:05Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Organic-looking brake assemblies debut on new Czinger 21C Spyder",
+      "url": "https://arstechnica.com/cars/2026/08/czinger-debuts-topology-optimized-brakes-with-21c-spyder/",
+      "discuss_url": "https://arstechnica.com/cars/2026/08/czinger-debuts-topology-optimized-brakes-with-21c-spyder/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-08-14T07:01:15Z"
+    },
+    {
+      "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
       "title": "US wait times for cancer surgeries are getting longer and longer",
@@ -800,42 +836,6 @@
       "comments": null,
       "author": "Jonathan M. Gitlin",
       "published": "2026-08-13T14:00:57Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Anthropic could be worth $2 trillion when it goes public",
-      "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
-      "discuss_url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
-      "score": null,
-      "comments": null,
-      "author": "George Hammond, Financial Times",
-      "published": "2026-08-13T13:58:56Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "We've flown a radiation-blocking vest to the Moon and back, and it worked",
-      "url": "https://arstechnica.com/science/2026/08/weve-flown-a-radiation-blocking-vest-to-the-moon-and-back-and-it-worked/",
-      "discuss_url": "https://arstechnica.com/science/2026/08/weve-flown-a-radiation-blocking-vest-to-the-moon-and-back-and-it-worked/",
-      "score": null,
-      "comments": null,
-      "author": "Jacek Krywko",
-      "published": "2026-08-13T13:48:55Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Claude's new Scarlet Letter watermark is invisible—for now",
-      "url": "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-08-13T11:10:18Z"
     }
   ]
 }
