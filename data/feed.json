@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T13:15:00Z",
+  "updated_at": "2026-08-14T19:00:40Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Gemini 3.7 Flash",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
       "discuss_url": "https://news.ycombinator.com/item?id=49289112",
-      "score": 896,
-      "comments": 451,
+      "score": 938,
+      "comments": 478,
       "author": "thisisauserid",
       "published": "2026-08-13T17:23:22Z",
       "bullets": [
-        "Google introduces Gemini 3.7 Flash on Google AI Studio, targeting high-throughput multimodal reasoning with reduced latency.",
-        "Features controllable reasoning budgets, allowing developers to dynamically balance inference cost, response speed, and deep chain-of-thought verification.",
-        "Optimized for production agent architectures and coding workflows, reducing token overhead compared to larger frontier models."
+        "Google launched Gemini 3.7 Flash, a hybrid reasoning model combining instant responses with extended chain-of-thought capabilities.",
+        "Developers can configure dynamic thinking token budgets via API to balance reasoning depth, latency, and operational cost.",
+        "The model targets complex coding, agentic tasks, and multimodal workflows across Google AI Studio and Vertex AI."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/n3pkuh",
       "discuss_url": "https://lobste.rs/s/n3pkuh",
-      "score": 6,
-      "comments": 8,
+      "score": 11,
+      "comments": 20,
       "author": "caius",
       "published": "2026-08-14T10:39:05Z",
       "bullets": [
-        "Community thread for engineers to share active weekend side projects, experimental tooling, and architectural ideas.",
-        "Serves as an open forum to solicit technical feedback, troubleshoot hobbyist codebases, and explore new programming languages.",
-        "Emphasizes balancing continuous technical skill development with deliberate rest to mitigate engineering burnout."
+        "Engineers use community threads to showcase side projects, prototype experimental tools, and test emerging languages outside production constraints.",
+        "Participants exchange peer code reviews, architectural feedback, and troubleshooting advice across diverse personal software development stacks.",
+        "Discussions emphasize sustainable engineering workflows, balancing technical tinkering with structured downtime to prevent long-term developer burnout."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Unlocking _everything_ on the CPU with DRAM scrambling",
       "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
       "discuss_url": "https://lobste.rs/s/a4zifd",
-      "score": 43,
-      "comments": 15,
+      "score": 48,
+      "comments": 16,
       "author": "radex",
       "published": "2026-08-13T16:06:04Z",
       "bullets": [
-        "DRAM bus scrambling can be reverse-engineered, undermining hardware-level memory obfuscation designed to prevent physical bus probing and cold-boot extraction.",
-        "Attackers exploiting weak or deterministic PRNGs in memory controllers can reconstruct plaintext data directly from physical DRAM interfaces.",
-        "Highlights enclave vulnerabilities (Intel SGX, AMD SEV), proving bus scrambling cannot substitute for authenticated, cryptographically secure memory encryption engines."
+        "Reversing memory controller DRAM scrambling enables attackers to decode raw bus signals and manipulate data integrity across CPU boundaries.",
+        "Physical probing attacks on scrambled DRAM buses can compromise secure enclaves, hypervisors, and firmware without triggering hardware defenses.",
+        "Security teams must distinguish between EMI-focused bus scrambling and true cryptographic memory encryption like Intel TME or AMD SME."
       ]
     },
     {
@@ -88,13 +88,13 @@
       "title": "Kubernetes on Oxide: How customer needs shaped our integrations",
       "url": "https://oxide.computer/blog/kubernetes-on-oxide",
       "discuss_url": "https://news.ycombinator.com/item?id=49286485",
-      "score": 191,
-      "comments": 82,
+      "score": 194,
+      "comments": 90,
       "author": "stevehipwell",
       "published": "2026-08-13T14:26:41Z",
       "bullets": [
         "Kubernetes on Oxide: How customer needs shaped our integrations",
-        "Trending on news.ycombinator.com — 191 points, 82 comments.",
+        "Trending on news.ycombinator.com — 194 points, 90 comments.",
         "Submitted by stevehipwell on news.ycombinator.com."
       ]
     },
@@ -102,17 +102,17 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Rocket Report: Rocket Lab shows off its flexibility; Blue Origin's two-pad plan",
-      "url": "https://arstechnica.com/space/2026/08/rocket-report-rocket-lab-shows-off-its-flexibility-blue-origins-two-pad-plan/",
-      "discuss_url": "https://arstechnica.com/space/2026/08/rocket-report-rocket-lab-shows-off-its-flexibility-blue-origins-two-pad-plan/",
+      "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
+      "url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
+      "discuss_url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
       "score": null,
       "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-08-14T11:00:49Z",
+      "author": "Dan Goodin",
+      "published": "2026-08-14T18:32:14Z",
       "bullets": [
-        "\"We’ve never seen launch capacity so constrained.\"",
-        "Rocket Report: Rocket Lab shows off its flexibility; Blue Origin's two-pad plan",
-        "Submitted by Eric Berger on arstechnica.com."
+        "Screen-sharing bug lets remote hackers log in without a password.",
+        "Vulnerability giving attackers full control of Macs is under active exploitation",
+        "Submitted by Dan Goodin on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Gemini 3.7 Flash",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
       "discuss_url": "https://news.ycombinator.com/item?id=49289112",
-      "score": 896,
-      "comments": 451,
+      "score": 938,
+      "comments": 478,
       "author": "thisisauserid",
       "published": "2026-08-13T17:23:22Z"
     },
@@ -136,8 +136,8 @@
       "title": "Accelerating GPT-5.6 Sol Ultrafast",
       "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
       "discuss_url": "https://news.ycombinator.com/item?id=49289844",
-      "score": 650,
-      "comments": 253,
+      "score": 691,
+      "comments": 269,
       "author": "pr337h4m",
       "published": "2026-08-13T18:10:02Z"
     },
@@ -148,22 +148,10 @@
       "title": "Choosing an AI model: one prompt, 11 models, different results",
       "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/",
       "discuss_url": "https://news.ycombinator.com/item?id=49285327",
-      "score": 208,
-      "comments": 88,
+      "score": 212,
+      "comments": 94,
       "author": "toddmorey",
       "published": "2026-08-13T13:05:29Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
-      "url": "https://knownagents.com/insights",
-      "discuss_url": "https://news.ycombinator.com/item?id=49272569",
-      "score": 301,
-      "comments": 226,
-      "author": "gavinhking",
-      "published": "2026-08-12T14:02:46Z"
     },
     {
       "source": "lobsters",
@@ -176,6 +164,18 @@
       "comments": 8,
       "author": "jjasghar",
       "published": "2026-08-11T16:50:09Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "State of Open Models: Summer 2026 Observations",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "discuss_url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-08-14T00:00:00Z"
     },
     {
       "source": "rss",
@@ -268,10 +268,22 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/n3pkuh",
       "discuss_url": "https://lobste.rs/s/n3pkuh",
-      "score": 6,
-      "comments": 8,
+      "score": 11,
+      "comments": 20,
       "author": "caius",
       "published": "2026-08-14T10:39:05Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "There Is Still No Silver Bullet",
+      "url": "https://cekrem.github.io/posts/there-is-still-no-silver-bullet/",
+      "discuss_url": "https://lobste.rs/s/pf0hfr",
+      "score": 4,
+      "comments": 1,
+      "author": "gered",
+      "published": "2026-08-14T15:18:11Z"
     },
     {
       "source": "lobsters",
@@ -281,9 +293,21 @@
       "url": "https://c3-lang.org/blog/c3_0_8_3_feature_flags/",
       "discuss_url": "https://lobste.rs/s/e9v9qi",
       "score": 9,
-      "comments": 4,
+      "comments": 6,
       "author": "LowByteFox",
       "published": "2026-08-13T19:07:37Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Mindful coding: Purpose and intention",
+      "url": "https://var0.xyz/posts/mindful-coding-purpose-and-intention.html",
+      "discuss_url": "https://lobste.rs/s/864m3v",
+      "score": 19,
+      "comments": 8,
+      "author": "var0xyz",
+      "published": "2026-08-12T12:59:17Z"
     },
     {
       "source": "lobsters",
@@ -296,18 +320,6 @@
       "comments": 14,
       "author": "gmem",
       "published": "2026-08-11T19:35:12Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Mindful coding: Purpose and intention",
-      "url": "https://var0.xyz/posts/mindful-coding-purpose-and-intention.html",
-      "discuss_url": "https://lobste.rs/s/864m3v",
-      "score": 18,
-      "comments": 7,
-      "author": "var0xyz",
-      "published": "2026-08-12T12:59:17Z"
     },
     {
       "source": "lobsters",
@@ -370,16 +382,16 @@
       "published": "2026-08-11T00:37:12Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
+      "source": "rss",
+      "subsource": "github.blog",
       "category": "engineering",
-      "title": "Re-balancing Deflate Compression Levels (2016)",
-      "url": "https://blog.klauspost.com/rebalancing-deflate-compression-levels/",
-      "discuss_url": "https://lobste.rs/s/edtmqj",
-      "score": 3,
-      "comments": 2,
-      "author": "typesanitizer",
-      "published": "2026-08-10T14:47:28Z"
+      "title": "How to bring your software delivery workflow into GitHub with agent apps",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
+      "score": null,
+      "comments": null,
+      "author": "Sam Zhang",
+      "published": "2026-08-14T16:00:00Z"
     },
     {
       "source": "rss",
@@ -394,26 +406,14 @@
       "published": "2026-08-13T19:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "What 50 open source projects taught us about security in the AI era",
-      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
-      "discuss_url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
-      "score": null,
-      "comments": null,
-      "author": "Gregg Cochran",
-      "published": "2026-08-13T16:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Unlocking _everything_ on the CPU with DRAM scrambling",
       "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
       "discuss_url": "https://lobste.rs/s/a4zifd",
-      "score": 43,
-      "comments": 15,
+      "score": 48,
+      "comments": 16,
       "author": "radex",
       "published": "2026-08-13T16:06:04Z"
     },
@@ -460,34 +460,10 @@
       "title": "OWASP Top 10 CI/CD Security Risks",
       "url": "https://owasp.org/www-project-top-10-ci-cd-security-risks/",
       "discuss_url": "https://lobste.rs/s/qhxzrd",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "typesanitizer",
       "published": "2026-08-14T05:26:16Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "A researcher bought noreply.net. Companies started sending him secrets",
-      "url": "https://arstechnica.com/security/2026/08/a-researcher-bought-noreply-net-companies-started-sending-him-secrets/",
-      "discuss_url": "https://lobste.rs/s/exgfc0",
-      "score": 67,
-      "comments": 19,
-      "author": "hoistbypetard",
-      "published": "2026-08-10T16:47:33Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "GitHub Actions needs OIDC audience constraints",
-      "url": "https://blog.yossarian.net/2026/08/10/github-actions-needs-oidc-audience-constraints",
-      "discuss_url": "https://lobste.rs/s/ipt1em",
-      "score": 46,
-      "comments": 14,
-      "author": "yossarian",
-      "published": "2026-08-10T13:30:18Z"
     },
     {
       "source": "lobsters",
@@ -541,13 +517,37 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Shipping post-quantum cryptography to Python",
-      "url": "https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/",
-      "discuss_url": "https://lobste.rs/s/szvtko",
-      "score": 3,
+      "title": "Deadbugz: Currently Active MCP Supply-Chain Campaign",
+      "url": "https://www.pillar.security/blog/deadbugz-currently-active-mcp-supply-chain-campaign",
+      "discuss_url": "https://lobste.rs/s/wjiyxu",
+      "score": 1,
       "comments": 0,
-      "author": "strugee",
-      "published": "2026-08-10T16:40:22Z"
+      "author": "afogel",
+      "published": "2026-08-12T11:29:26Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "krebsonsecurity.com",
+      "category": "security",
+      "title": "Who’s Tracking You? Use This New Service to Find Out",
+      "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "discuss_url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "score": null,
+      "comments": null,
+      "author": "BrianKrebs",
+      "published": "2026-08-14T11:24:35Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "krebsonsecurity.com",
+      "category": "security",
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "url": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "discuss_url": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "score": null,
+      "comments": null,
+      "author": "BrianKrebs",
+      "published": "2026-08-11T21:28:35Z"
     },
     {
       "source": "hackernews",
@@ -556,8 +556,8 @@
       "title": "Kubernetes on Oxide: How customer needs shaped our integrations",
       "url": "https://oxide.computer/blog/kubernetes-on-oxide",
       "discuss_url": "https://news.ycombinator.com/item?id=49286485",
-      "score": 191,
-      "comments": 82,
+      "score": 194,
+      "comments": 90,
       "author": "stevehipwell",
       "published": "2026-08-13T14:26:41Z"
     },
@@ -608,6 +608,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-08-13T20:49:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes in AWS GovCloud (US) Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-adds-rg-large-12xlarge-aws-govcloud-regions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-adds-rg-large-12xlarge-aws-govcloud-regions/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-13T19:34:00Z"
     },
     {
       "source": "rss",
@@ -683,15 +695,135 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Clean Rooms supports minimum aggregation thresholds in custom analysis rules",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-minimum-aggregation-custom-analysis-rules",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-minimum-aggregation-custom-analysis-rules",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
+      "url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
+      "discuss_url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-13T12:00:00Z"
+      "author": "Dan Goodin",
+      "published": "2026-08-14T18:32:14Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "First test flight of largest all-electric aircraft used just $5 of electricity",
+      "url": "https://arstechnica.com/gadgets/2026/08/first-test-flight-of-largest-all-electric-aircraft-used-just-5-of-electricity/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/08/first-test-flight-of-largest-all-electric-aircraft-used-just-5-of-electricity/",
+      "score": null,
+      "comments": null,
+      "author": "Jeremy Hsu",
+      "published": "2026-08-14T18:00:23Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+      "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+      "score": null,
+      "comments": null,
+      "author": "Ashley Belanger",
+      "published": "2026-08-14T17:26:53Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "State judge orders Kalshi to stop offering sports bets and other wagers",
+      "url": "https://arstechnica.com/tech-policy/2026/08/state-judge-orders-kalshi-to-stop-offering-sports-bets-and-other-wagers/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/state-judge-orders-kalshi-to-stop-offering-sports-bets-and-other-wagers/",
+      "score": null,
+      "comments": null,
+      "author": "Jon Brodkin",
+      "published": "2026-08-14T17:13:14Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "PBS station fears losing 50TB of data after being ghosted by cloud storage provider",
+      "url": "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
+      "discuss_url": "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
+      "score": null,
+      "comments": null,
+      "author": "Scharon Harding",
+      "published": "2026-08-14T17:03:54Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Policy experts: Europe stuck between \"rock and a hard place\" on launch",
+      "url": "https://arstechnica.com/space/2026/08/policy-experts-europe-stuck-between-rock-and-a-hard-place-on-launch/",
+      "discuss_url": "https://arstechnica.com/space/2026/08/policy-experts-europe-stuck-between-rock-and-a-hard-place-on-launch/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-08-14T16:29:21Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Ars Live recap: How can we stop publishers from killing their own games?",
+      "url": "https://arstechnica.com/gaming/2026/08/ars-live-recap-how-can-we-stop-publishers-from-killing-their-own-games/",
+      "discuss_url": "https://arstechnica.com/gaming/2026/08/ars-live-recap-how-can-we-stop-publishers-from-killing-their-own-games/",
+      "score": null,
+      "comments": null,
+      "author": "Kyle Orland",
+      "published": "2026-08-14T16:11:37Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Judge gives Google one week to fix \"anticompetitive\" app store download in Google Play",
+      "url": "https://arstechnica.com/gadgets/2026/08/google-ordered-to-make-it-easier-to-download-alternative-android-app-stores/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/08/google-ordered-to-make-it-easier-to-download-alternative-android-app-stores/",
+      "score": null,
+      "comments": null,
+      "author": "Ryan Whitwam",
+      "published": "2026-08-14T15:46:40Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "R-rated director's cut of X-Files film restores Chris Carter's original horror vision",
+      "url": "https://arstechnica.com/culture/2026/08/r-rated-directors-cut-of-x-files-film-restores-chris-carters-original-horror-vision/",
+      "discuss_url": "https://arstechnica.com/culture/2026/08/r-rated-directors-cut-of-x-files-film-restores-chris-carters-original-horror-vision/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-08-14T15:18:22Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Taylor Farms' connections to Trump admin spurs probe into Cyclospora response",
+      "url": "https://arstechnica.com/health/2026/08/taylor-farms-connections-to-trump-admin-spurs-probe-into-cyclospora-response/",
+      "discuss_url": "https://arstechnica.com/health/2026/08/taylor-farms-connections-to-trump-admin-spurs-probe-into-cyclospora-response/",
+      "score": null,
+      "comments": null,
+      "author": "Beth Mole",
+      "published": "2026-08-14T15:03:16Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+      "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+      "discuss_url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+      "score": null,
+      "comments": null,
+      "author": "Jamie John",
+      "published": "2026-08-14T14:27:14Z"
     },
     {
       "source": "rss",
@@ -704,138 +836,6 @@
       "comments": null,
       "author": "Eric Berger",
       "published": "2026-08-14T11:00:49Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Samsung Galaxy Z Fold 8 Ultra review: The ultra foldable with an ultra price",
-      "url": "https://arstechnica.com/gadgets/2026/08/samsung-galaxy-z-fold-8-ultra-review-the-ultra-foldable-with-an-ultra-price/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/08/samsung-galaxy-z-fold-8-ultra-review-the-ultra-foldable-with-an-ultra-price/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-08-14T11:00:05Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Organic-looking brake assemblies debut on new Czinger 21C Spyder",
-      "url": "https://arstechnica.com/cars/2026/08/czinger-debuts-topology-optimized-brakes-with-21c-spyder/",
-      "discuss_url": "https://arstechnica.com/cars/2026/08/czinger-debuts-topology-optimized-brakes-with-21c-spyder/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-08-14T07:01:15Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "US wait times for cancer surgeries are getting longer and longer",
-      "url": "https://arstechnica.com/health/2026/08/us-wait-times-for-cancer-surgeries-are-getting-longer-and-longer/",
-      "discuss_url": "https://arstechnica.com/health/2026/08/us-wait-times-for-cancer-surgeries-are-getting-longer-and-longer/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-08-13T22:17:29Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Private security firms will soon be allowed to hack overseas cybercriminals",
-      "url": "https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/",
-      "discuss_url": "https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-08-13T19:38:58Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Virgin Galactic wants your help naming its new Delta class spaceship",
-      "url": "https://arstechnica.com/space/2026/08/virgin-galactic-wants-your-help-naming-its-new-delta-class-spaceship/",
-      "discuss_url": "https://arstechnica.com/space/2026/08/virgin-galactic-wants-your-help-naming-its-new-delta-class-spaceship/",
-      "score": null,
-      "comments": null,
-      "author": "Robert Pearlman",
-      "published": "2026-08-13T19:12:15Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Ukrainian drones wipe out entire US tank brigade in live war game",
-      "url": "https://arstechnica.com/gadgets/2026/08/ukrainian-drones-wipe-out-entire-us-tank-brigade-in-live-war-game/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/08/ukrainian-drones-wipe-out-entire-us-tank-brigade-in-live-war-game/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-08-13T18:31:56Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Flock “can’t tech its way out” of the stalker cop problem, experts say",
-      "url": "https://arstechnica.com/tech-policy/2026/08/flock-cant-tech-its-way-out-of-the-stalker-cop-problem-experts-say/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/flock-cant-tech-its-way-out-of-the-stalker-cop-problem-experts-say/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-08-13T18:10:14Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Pet owners say smart pet feeder outage led to furry ones going unfed",
-      "url": "https://arstechnica.com/gadgets/2026/08/pet-owners-say-smart-pet-feeder-outage-led-to-furry-ones-going-unfed/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/08/pet-owners-say-smart-pet-feeder-outage-led-to-furry-ones-going-unfed/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-08-13T17:53:53Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The new Instagram logo is the perfect embodiment of AI slop",
-      "url": "https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop/",
-      "discuss_url": "https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop/",
-      "score": null,
-      "comments": null,
-      "author": "Aurich Lawson",
-      "published": "2026-08-13T17:32:10Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Google announces Gemini 3.7 Flash just three weeks after previous release",
-      "url": "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/",
-      "discuss_url": "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-08-13T17:00:13Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Rivian's 2027 changes include its No. 1 most-requested feature",
-      "url": "https://arstechnica.com/cars/2026/08/rivian-tweaks-its-r1-range-for-model-year-2027/",
-      "discuss_url": "https://arstechnica.com/cars/2026/08/rivian-tweaks-its-r1-range-for-model-year-2027/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-08-13T14:00:57Z"
     }
   ]
 }
