@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T06:42:37Z",
+  "updated_at": "2026-08-15T12:48:47Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Maximizing the value of your Claude Code sessions",
       "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
       "discuss_url": "https://news.ycombinator.com/item?id=49300800",
-      "score": 181,
-      "comments": 113,
+      "score": 259,
+      "comments": 139,
       "author": "twapi",
       "published": "2026-08-14T16:15:21Z",
       "bullets": [
-        "Maximizing the value of your Claude Code sessions",
-        "Trending on news.ycombinator.com — 181 points, 113 comments.",
-        "Submitted by twapi on news.ycombinator.com."
+        "Maintain a CLAUDE.md file in your repository root to establish architecture, testing workflows, and style conventions across CLI sessions.",
+        "Use the compact command frequently and restrict task scopes to control context window bloat and optimize token expenditure.",
+        "Pair automated terminal tool execution with structured unit tests to reliably validate multi-step agentic code edits before committing."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/n3pkuh",
       "discuss_url": "https://lobste.rs/s/n3pkuh",
-      "score": 18,
-      "comments": 39,
+      "score": 19,
+      "comments": 42,
       "author": "caius",
       "published": "2026-08-14T10:39:05Z",
       "bullets": [
-        "Feel free to tell what you plan on doing this weekend and even ask for help or feedback.",
-        "Please keep in mind it’s more than OK to do nothing at all too!",
-        "What are you doing this weekend?"
+        "Community weekend threads offer visibility into grassroots developer experimentation, emerging languages, and side projects outside enterprise constraints.",
+        "Informal peer check-ins serve as low-stakes avenues for requesting technical architectural feedback and collaborative troubleshooting.",
+        "Explicit normalization of downtime alongside weekend hacking highlights an industry-wide focus on sustainable engineering and avoiding burnout."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Unlocking _everything_ on the CPU with DRAM scrambling",
       "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
       "discuss_url": "https://lobste.rs/s/a4zifd",
-      "score": 53,
+      "score": 54,
       "comments": 17,
       "author": "radex",
       "published": "2026-08-13T16:06:04Z",
       "bullets": [
-        "Unlocking _everything_ on the CPU with DRAM scrambling",
-        "Trending on lobste.rs/security — 53 points, 17 comments.",
-        "Submitted by radex on lobste.rs/security."
+        "DRAM scrambling algorithms, designed for EMI reduction, can be reversed to manipulate memory contents and bypass architectural access controls.",
+        "Weak PRNG-based scrambling enables physical memory fault injection, exposing secure enclaves and platform firmware keys to physical attackers.",
+        "Defenses require authenticated, cryptographic memory encryption like Intel TME or AMD SME rather than reliance on pseudo-random DRAM scrambling."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Kubernetes on Oxide: How customer needs shaped our integrations",
       "url": "https://oxide.computer/blog/kubernetes-on-oxide",
       "discuss_url": "https://news.ycombinator.com/item?id=49286485",
-      "score": 196,
+      "score": 197,
       "comments": 92,
       "author": "stevehipwell",
       "published": "2026-08-13T14:26:41Z",
       "bullets": [
-        "Kubernetes on Oxide: How customer needs shaped our integrations",
-        "Trending on news.ycombinator.com — 196 points, 92 comments.",
-        "Submitted by stevehipwell on news.ycombinator.com."
+        "Oxide built dedicated Cluster API (CAPI) and Cloud Controller Manager plugins to automate Kubernetes cluster provisioning on its rack-scale hardware.",
+        "Custom CSI and VPC-integrated CNI drivers enable dynamic persistent volume attachment and native routing across Oxide's software-defined networking layer.",
+        "The integration bridges on-prem rack infrastructure with public-cloud ergonomics, eliminating manual hypervisor, storage, and switch management for platform teams."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
-      "url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
-      "discuss_url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
+      "title": "So much solar: Digging into the list of every US power plant that went online this year",
+      "url": "https://arstechnica.com/science/2026/08/so-much-solar-digging-into-the-list-of-every-us-power-plant-that-went-online-this-year/",
+      "discuss_url": "https://arstechnica.com/science/2026/08/so-much-solar-digging-into-the-list-of-every-us-power-plant-that-went-online-this-year/",
       "score": null,
       "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-08-14T18:32:14Z",
+      "author": "Dan Gearino, Inside Climate News",
+      "published": "2026-08-15T11:09:57Z",
       "bullets": [
-        "Screen-sharing bug lets remote hackers log in without a password.",
-        "Vulnerability giving attackers full control of Macs is under active exploitation",
-        "Submitted by Dan Goodin on arstechnica.com."
+        "Utility-scale solar installations represent the overwhelming majority of newly commissioned US power generation capacity this year.",
+        "Battery energy storage systems ranked second in new additions, reflecting accelerated BESS deployment for grid stabilization and co-location.",
+        "New fossil fuel plant interconnections dropped sharply, trailing substantially behind renewables and battery storage in added nameplate capacity."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Maximizing the value of your Claude Code sessions",
       "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
       "discuss_url": "https://news.ycombinator.com/item?id=49300800",
-      "score": 181,
-      "comments": 113,
+      "score": 259,
+      "comments": 139,
       "author": "twapi",
       "published": "2026-08-14T16:15:21Z"
     },
@@ -136,8 +136,8 @@
       "title": "Gemini 3.7 Flash",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
       "discuss_url": "https://news.ycombinator.com/item?id=49289112",
-      "score": 951,
-      "comments": 483,
+      "score": 954,
+      "comments": 484,
       "author": "thisisauserid",
       "published": "2026-08-13T17:23:22Z"
     },
@@ -148,7 +148,7 @@
       "title": "Accelerating GPT-5.6 Sol Ultrafast",
       "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
       "discuss_url": "https://news.ycombinator.com/item?id=49289844",
-      "score": 699,
+      "score": 701,
       "comments": 272,
       "author": "pr337h4m",
       "published": "2026-08-13T18:10:02Z"
@@ -268,8 +268,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/n3pkuh",
       "discuss_url": "https://lobste.rs/s/n3pkuh",
-      "score": 18,
-      "comments": 39,
+      "score": 19,
+      "comments": 42,
       "author": "caius",
       "published": "2026-08-14T10:39:05Z"
     },
@@ -280,8 +280,8 @@
       "title": "There Is Still No Silver Bullet",
       "url": "https://cekrem.github.io/posts/there-is-still-no-silver-bullet/",
       "discuss_url": "https://lobste.rs/s/pf0hfr",
-      "score": 12,
-      "comments": 14,
+      "score": 15,
+      "comments": 15,
       "author": "gered",
       "published": "2026-08-14T15:18:11Z"
     },
@@ -289,10 +289,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "How 2004 RuneScape fit a multiplayer RPG into 56k dial-up · jkm.dev",
+      "title": "How 2004 RuneScape fit a multiplayer RPG into 56k dial-up",
       "url": "https://jkm.dev/posts/how-2004-runescape-fit-a-multiplayer-rpg-into-56k-dialup/",
       "discuss_url": "https://lobste.rs/s/bedqru",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "Yogthos",
       "published": "2026-08-15T04:45:34Z"
@@ -340,7 +340,7 @@
       "title": "Hacking in the 'nameOf'",
       "url": "https://committing-crimes.com/articles/2026-08-04-java-nameof",
       "discuss_url": "https://lobste.rs/s/bcfzer",
-      "score": 14,
+      "score": 15,
       "comments": 2,
       "author": "abnercoimbre",
       "published": "2026-08-12T16:03:22Z"
@@ -412,7 +412,7 @@
       "title": "Unlocking _everything_ on the CPU with DRAM scrambling",
       "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
       "discuss_url": "https://lobste.rs/s/a4zifd",
-      "score": 53,
+      "score": 54,
       "comments": 17,
       "author": "radex",
       "published": "2026-08-13T16:06:04Z"
@@ -505,18 +505,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Updated GPG key for signing Firefox and Thunderbird Releases",
-      "url": "https://blog.mozilla.org/security/2026/08/10/updated-gpg-key-for-signing-firefox-and-thunderbird-releases/",
-      "discuss_url": "https://lobste.rs/s/vj2erc",
-      "score": 6,
-      "comments": 1,
-      "author": "7tehdt3cnw6kir6o",
-      "published": "2026-08-11T07:09:59Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Deadbugz: Currently Active MCP Supply-Chain Campaign",
       "url": "https://www.pillar.security/blog/deadbugz-currently-active-mcp-supply-chain-campaign",
       "discuss_url": "https://lobste.rs/s/wjiyxu",
@@ -550,13 +538,25 @@
       "published": "2026-08-11T21:28:35Z"
     },
     {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
+      "url": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
+      "discuss_url": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-08-13T06:09:48Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Kubernetes on Oxide: How customer needs shaped our integrations",
       "url": "https://oxide.computer/blog/kubernetes-on-oxide",
       "discuss_url": "https://news.ycombinator.com/item?id=49286485",
-      "score": 196,
+      "score": 197,
       "comments": 92,
       "author": "stevehipwell",
       "published": "2026-08-13T14:26:41Z"
@@ -568,22 +568,10 @@
       "title": "beszel",
       "url": "https://github.com/henrygd/beszel",
       "discuss_url": "https://lobste.rs/s/6dw7pl",
-      "score": 10,
+      "score": 11,
       "comments": 1,
       "author": "indigo",
       "published": "2026-08-13T03:28:15Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "An inter-mesh deployment pipeline",
-      "url": "https://blog.zm.is/an-inter-mesh-deployment-pipeline/",
-      "discuss_url": "https://lobste.rs/s/xoivjb",
-      "score": 2,
-      "comments": 0,
-      "author": "sy",
-      "published": "2026-08-11T10:11:38Z"
     },
     {
       "source": "rss",
@@ -692,6 +680,30 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-08-13T16:12:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Certificate Manager supports switching from e-mail to DNS validation",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/AWS-Certificate-Manager-Email-DNS-Switch",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/AWS-Certificate-Manager-Email-DNS-Switch",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-13T15:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "So much solar: Digging into the list of every US power plant that went online this year",
+      "url": "https://arstechnica.com/science/2026/08/so-much-solar-digging-into-the-list-of-every-us-power-plant-that-went-online-this-year/",
+      "discuss_url": "https://arstechnica.com/science/2026/08/so-much-solar-digging-into-the-list-of-every-us-power-plant-that-went-online-this-year/",
+      "score": null,
+      "comments": null,
+      "author": "Dan Gearino, Inside Climate News",
+      "published": "2026-08-15T11:09:57Z"
     },
     {
       "source": "rss",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Jamie John",
       "published": "2026-08-14T14:27:14Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Rocket Report: Rocket Lab shows off its flexibility; Blue Origin's two-pad plan",
-      "url": "https://arstechnica.com/space/2026/08/rocket-report-rocket-lab-shows-off-its-flexibility-blue-origins-two-pad-plan/",
-      "discuss_url": "https://arstechnica.com/space/2026/08/rocket-report-rocket-lab-shows-off-its-flexibility-blue-origins-two-pad-plan/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-08-14T11:00:49Z"
     }
   ]
 }
