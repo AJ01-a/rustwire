@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T01:26:42Z",
+  "updated_at": "2026-08-17T07:01:27Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
       "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
       "discuss_url": "https://news.ycombinator.com/item?id=49324087",
-      "score": 143,
-      "comments": 151,
+      "score": 176,
+      "comments": 174,
       "author": "ropbear",
       "published": "2026-08-16T21:53:43Z",
       "bullets": [
-        "Anthropic's output watermarking in Claude alters token probability distributions or injects hidden markers to trace synthetic text generation.",
-        "Technologists argue statistical watermarking degrades language nuance, reduces prompt adherence, and silently compromises prose and code outputs.",
-        "The controversy highlights growing pushback against LLM fingerprinting methods prone to evasion via paraphrasing or model switching."
+        "Anthropic's Claude uses statistical watermarking, subtly biasing next-token sampling distributions to embed detectable mathematical signatures in generated text.",
+        "Critics contend green-list/red-list token watermarking degrades natural prose cadence, introduces subtle stylistic artifacts, and compromises overall output quality.",
+        "While designed for provenance and AI detection compliance, these embedded watermarks remain vulnerable to paraphrasing attacks and multi-model editing pipelines."
       ]
     },
     {
@@ -54,13 +54,13 @@
       "title": "I thought I was building a C replacement. I was wrong",
       "url": "https://c3-lang.org/blog/i_thought_i_was_building_a_c_replacement/",
       "discuss_url": "https://lobste.rs/s/wpyhdh",
-      "score": 63,
-      "comments": 36,
+      "score": 71,
+      "comments": 40,
       "author": "clerno",
       "published": "2026-08-16T14:05:05Z",
       "bullets": [
         "I thought I was building a C replacement. I was wrong",
-        "Trending on lobste.rs/programming — 63 points, 36 comments.",
+        "Trending on lobste.rs/programming — 71 points, 40 comments.",
         "Submitted by clerno on lobste.rs/programming."
       ]
     },
@@ -88,8 +88,8 @@
       "title": "Tell HN: Cloudflare silently injects its analytics when you switch nameservers",
       "url": "https://news.ycombinator.com/item?id=49322107",
       "discuss_url": "https://news.ycombinator.com/item?id=49322107",
-      "score": 275,
-      "comments": 64,
+      "score": 422,
+      "comments": 107,
       "author": "stagas",
       "published": "2026-08-16T17:49:46Z",
       "bullets": [
@@ -124,10 +124,22 @@
       "title": "Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
       "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
       "discuss_url": "https://news.ycombinator.com/item?id=49324087",
-      "score": 143,
-      "comments": 151,
+      "score": 176,
+      "comments": 174,
       "author": "ropbear",
       "published": "2026-08-16T21:53:43Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49323686",
+      "score": 190,
+      "comments": 86,
+      "author": "root-parent",
+      "published": "2026-08-16T21:07:10Z"
     },
     {
       "source": "hackernews",
@@ -136,8 +148,8 @@
       "title": "Claude: System Prompts",
       "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
       "discuss_url": "https://news.ycombinator.com/item?id=49319556",
-      "score": 535,
-      "comments": 224,
+      "score": 622,
+      "comments": 248,
       "author": "tosh",
       "published": "2026-08-16T12:48:21Z"
     },
@@ -148,22 +160,10 @@
       "title": "What happens when an LLM never sees material beyond fifth grade?",
       "url": "https://littlelearner-ll.github.io/",
       "discuss_url": "https://news.ycombinator.com/item?id=49317760",
-      "score": 234,
-      "comments": 205,
+      "score": 239,
+      "comments": 206,
       "author": "porridgeraisin",
       "published": "2026-08-16T07:37:53Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Show HN: ThoughtDAG – An editable context graph for LLM conversations",
-      "url": "https://chenxiachan.github.io/thoughtdag/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49307700",
-      "score": 132,
-      "comments": 59,
-      "author": "chatchan",
-      "published": "2026-08-15T04:42:07Z"
     },
     {
       "source": "lobsters",
@@ -268,8 +268,8 @@
       "title": "I thought I was building a C replacement. I was wrong",
       "url": "https://c3-lang.org/blog/i_thought_i_was_building_a_c_replacement/",
       "discuss_url": "https://lobste.rs/s/wpyhdh",
-      "score": 63,
-      "comments": 36,
+      "score": 71,
+      "comments": 40,
       "author": "clerno",
       "published": "2026-08-16T14:05:05Z"
     },
@@ -280,7 +280,7 @@
       "title": "Pony's Arena Allocator",
       "url": "https://www.ponylang.io/blog/2026/08/ponys-arena-allocator/",
       "discuss_url": "https://lobste.rs/s/vnpw9j",
-      "score": 4,
+      "score": 7,
       "comments": 0,
       "author": "sanxiyn",
       "published": "2026-08-16T23:48:45Z"
@@ -292,7 +292,7 @@
       "title": "Recap: Software Should Work 2026",
       "url": "https://bencornia.com/blog/recap-software-should-work-2026",
       "discuss_url": "https://lobste.rs/s/khcojf",
-      "score": 25,
+      "score": 26,
       "comments": 2,
       "author": "rmpr",
       "published": "2026-08-15T20:01:21Z"
@@ -308,18 +308,6 @@
       "comments": 52,
       "author": "caius",
       "published": "2026-08-14T10:39:05Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Software Engineering fundamentals matter more than ever",
-      "url": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/",
-      "discuss_url": "https://lobste.rs/s/iuqkgi",
-      "score": 8,
-      "comments": 0,
-      "author": "Yogthos",
-      "published": "2026-08-16T05:21:04Z"
     },
     {
       "source": "lobsters",
@@ -349,13 +337,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "On Knowledge Representation",
-      "url": "https://sifter.org/~simon/journal/20130713.h.html",
-      "discuss_url": "https://lobste.rs/s/fk1u5s",
-      "score": 3,
+      "title": "Software Engineering fundamentals matter more than ever",
+      "url": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/",
+      "discuss_url": "https://lobste.rs/s/iuqkgi",
+      "score": 8,
       "comments": 0,
-      "author": "zzkt",
-      "published": "2026-08-16T07:54:16Z"
+      "author": "Yogthos",
+      "published": "2026-08-16T05:21:04Z"
     },
     {
       "source": "lobsters",
@@ -368,6 +356,18 @@
       "comments": 3,
       "author": "Vaelatern",
       "published": "2026-08-14T07:27:13Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "On Knowledge Representation",
+      "url": "https://sifter.org/~simon/journal/20130713.h.html",
+      "discuss_url": "https://lobste.rs/s/fk1u5s",
+      "score": 3,
+      "comments": 0,
+      "author": "zzkt",
+      "published": "2026-08-16T07:54:16Z"
     },
     {
       "source": "lobsters",
@@ -556,8 +556,8 @@
       "title": "Tell HN: Cloudflare silently injects its analytics when you switch nameservers",
       "url": "https://news.ycombinator.com/item?id=49322107",
       "discuss_url": "https://news.ycombinator.com/item?id=49322107",
-      "score": 275,
-      "comments": 64,
+      "score": 422,
+      "comments": 107,
       "author": "stagas",
       "published": "2026-08-16T17:49:46Z"
     },
@@ -568,22 +568,10 @@
       "title": "Cloudflare's AI Psychosis",
       "url": "https://opensauce.it/cloudflare-ai-psychosis/",
       "discuss_url": "https://news.ycombinator.com/item?id=49310719",
-      "score": 115,
-      "comments": 97,
+      "score": 116,
+      "comments": 98,
       "author": "gregzeng95",
       "published": "2026-08-15T14:08:40Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "beszel",
-      "url": "https://github.com/henrygd/beszel",
-      "discuss_url": "https://lobste.rs/s/6dw7pl",
-      "score": 12,
-      "comments": 3,
-      "author": "indigo",
-      "published": "2026-08-13T03:28:15Z"
     },
     {
       "source": "rss",
@@ -692,6 +680,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-08-13T16:12:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Certificate Manager supports switching from e-mail to DNS validation",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/AWS-Certificate-Manager-Email-DNS-Switch",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/AWS-Certificate-Manager-Email-DNS-Switch",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-13T15:00:00Z"
     },
     {
       "source": "rss",
