@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T06:48:50Z",
+  "updated_at": "2026-08-18T12:57:39Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "GPT-5.6 Sol Pricing Cut by 50%",
       "url": "https://openrouter.ai/openai/gpt-5.6-sol",
       "discuss_url": "https://news.ycombinator.com/item?id=49337602",
-      "score": 345,
-      "comments": 180,
+      "score": 516,
+      "comments": 331,
       "author": "Topfi",
       "published": "2026-08-17T21:03:18Z",
       "bullets": [
-        "API token costs for GPT-5.6 Sol dropped by half, substantially reducing production deployment and multi-turn agentic workflow expenses.",
-        "The 50% price reduction improves unit economics for high-throughput batch processing, automated evaluations, and extended context applications.",
-        "Aggressive pricing cuts on frontier variants intensify cost competition across LLM providers, accelerating large-scale enterprise integration."
+        "Halving API token pricing significantly reduces unit costs for high-throughput LLM pipelines, complex workflows, and autonomous agent deployments.",
+        "The 50% reduction intensifies price competition against competing proprietary frontier models and self-hosted open-weight inference infrastructure.",
+        "Teams should audit token budgets and evaluate migrating heavy reasoning workloads to leverage improved cost-to-performance efficiency."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Does it make sense to switch to a Github Alternative ?",
       "url": "https://lobste.rs/s/0zdh32",
       "discuss_url": "https://lobste.rs/s/0zdh32",
-      "score": 64,
-      "comments": 72,
+      "score": 76,
+      "comments": 77,
       "author": "dhruvp",
       "published": "2026-08-17T14:03:05Z",
       "bullets": [
-        "Github has been down consistently over the last few months - does it make sense to switch to alternatives now?",
-        "When do you think majority will switch?",
-        "Edit : My thoughts on this - https://dhruv2038.bearblog.dev/github-has-an-availability-problem-is-it-time-to-look-elsewhere/"
+        "Recurring GitHub availability issues are driving engineering teams to re-evaluate single-vendor dependencies for mission-critical code hosting and CI/CD.",
+        "Self-hosted alternatives like Forgejo, Gitea, and GitLab mitigate central platform outages but introduce non-trivial internal operational and maintenance overhead.",
+        "High switching friction stems primarily from proprietary workflows like GitHub Actions and PR reviews rather than underlying Git repository portability."
       ]
     },
     {
@@ -71,13 +71,13 @@
       "title": "Passphrase-less reboots using kexec under NixOS",
       "url": "https://www.bevuta.com/en/blog/passphraseless-reboots-using-kexec/",
       "discuss_url": "https://lobste.rs/s/nrnwc6",
-      "score": 24,
-      "comments": 16,
+      "score": 26,
+      "comments": 17,
       "author": "sjamaan",
       "published": "2026-08-17T09:53:54Z",
       "bullets": [
         "Passphrase-less reboots using kexec under NixOS",
-        "Trending on lobste.rs/security — 24 points, 16 comments.",
+        "Trending on lobste.rs/security — 26 points, 17 comments.",
         "Submitted by sjamaan on lobste.rs/security."
       ]
     },
@@ -88,31 +88,31 @@
       "title": "Tell HN: Cloudflare silently injects its analytics when you switch nameservers",
       "url": "https://news.ycombinator.com/item?id=49322107",
       "discuss_url": "https://news.ycombinator.com/item?id=49322107",
-      "score": 626,
-      "comments": 193,
+      "score": 631,
+      "comments": 196,
       "author": "stagas",
       "published": "2026-08-16T17:49:46Z",
       "bullets": [
-        "A few hours ago I switched my nameservers to Cloudflare in order to enable R2 bucket serving through my own subdomain, and I found out that it silently had injected a JS analytics…",
-        "I find this approach entirely invasive, you should opt-in to features like that not have to opt-out.",
-        "Just a warning out there to folks who might not be aware of this."
+        "Cloudflare automatically injects client-side JavaScript analytics snippets into proxied HTML responses by default upon nameserver migration.",
+        "Automatic script injection alters origin responses, potentially breaking JS-free architectures, integrity checks, or strict Content Security Policies (CSP).",
+        "Disabling the tracking snippet requires navigating to the Cloudflare Analytics dashboard and explicitly opting out per domain."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Theban tomb reveals how Egyptian burial trends evolved in time",
-      "url": "https://arstechnica.com/science/2026/08/theban-tomb-reveals-how-egyptian-burial-trends-evolved-in-time/",
-      "discuss_url": "https://arstechnica.com/science/2026/08/theban-tomb-reveals-how-egyptian-burial-trends-evolved-in-time/",
+      "title": "As temperatures get hotter, pesticides are more dangerous to farmworkers",
+      "url": "https://arstechnica.com/science/2026/08/as-temperatures-get-hotter-pesticides-are-more-dangerous-to-farmworkers/",
+      "discuss_url": "https://arstechnica.com/science/2026/08/as-temperatures-get-hotter-pesticides-are-more-dangerous-to-farmworkers/",
       "score": null,
       "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-08-18T04:00:40Z",
+      "author": "Amy Green, Inside Climate News",
+      "published": "2026-08-18T11:07:49Z",
       "bullets": [
-        "Practices shifted from individuals buried in coffins to reusing sites for later mummy interments.",
-        "Theban tomb reveals how Egyptian burial trends evolved in time",
-        "Submitted by Jennifer Ouellette on arstechnica.com."
+        "Research shows heat amplifies the dangers of pesticides.",
+        "As temperatures get hotter, pesticides are more dangerous to farmworkers",
+        "Submitted by Amy Green, Inside Climate News on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "GPT-5.6 Sol Pricing Cut by 50%",
       "url": "https://openrouter.ai/openai/gpt-5.6-sol",
       "discuss_url": "https://news.ycombinator.com/item?id=49337602",
-      "score": 345,
-      "comments": 180,
+      "score": 516,
+      "comments": 331,
       "author": "Topfi",
       "published": "2026-08-17T21:03:18Z"
     },
@@ -136,8 +136,8 @@
       "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
       "url": "https://blog.roboflow.com/openai-gpt-5-6/",
       "discuss_url": "https://news.ycombinator.com/item?id=49329575",
-      "score": 328,
-      "comments": 158,
+      "score": 350,
+      "comments": 164,
       "author": "plurby",
       "published": "2026-08-17T12:09:42Z"
     },
@@ -148,8 +148,8 @@
       "title": "Anthropic's War on open source AI",
       "url": "https://twitter.com/TheAhmadOsman/status/2065307070044234186",
       "discuss_url": "https://news.ycombinator.com/item?id=49332564",
-      "score": 142,
-      "comments": 57,
+      "score": 147,
+      "comments": 58,
       "author": "bilsbie",
       "published": "2026-08-17T15:24:34Z"
     },
@@ -160,8 +160,8 @@
       "title": "Anthropic's ‘watermark’ text adulteration in Claude is a perversion of writing",
       "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
       "discuss_url": "https://news.ycombinator.com/item?id=49324087",
-      "score": 782,
-      "comments": 687,
+      "score": 797,
+      "comments": 697,
       "author": "ropbear",
       "published": "2026-08-16T21:53:43Z"
     },
@@ -173,33 +173,9 @@
       "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
       "discuss_url": "https://news.ycombinator.com/item?id=49323686",
       "score": 245,
-      "comments": 152,
+      "comments": 151,
       "author": "root-parent",
       "published": "2026-08-16T21:07:10Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Claude: System Prompts",
-      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
-      "discuss_url": "https://news.ycombinator.com/item?id=49319556",
-      "score": 745,
-      "comments": 280,
-      "author": "tosh",
-      "published": "2026-08-16T12:48:21Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "What happens when an LLM never sees material beyond fifth grade?",
-      "url": "https://littlelearner-ll.github.io/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49317760",
-      "score": 244,
-      "comments": 209,
-      "author": "porridgeraisin",
-      "published": "2026-08-16T07:37:53Z"
     },
     {
       "source": "lobsters",
@@ -208,8 +184,8 @@
       "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
       "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
       "discuss_url": "https://lobste.rs/s/flcpeu",
-      "score": 9,
-      "comments": 7,
+      "score": 24,
+      "comments": 14,
       "author": "alcides",
       "published": "2026-08-17T17:54:19Z"
     },
@@ -262,14 +238,38 @@
       "published": "2026-08-13T17:16:04Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "What We Learned by Reproducing 2,200 papers from ICML",
+      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "discuss_url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-08-13T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "discuss_url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-08-12T16:14:36Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Does it make sense to switch to a Github Alternative ?",
       "url": "https://lobste.rs/s/0zdh32",
       "discuss_url": "https://lobste.rs/s/0zdh32",
-      "score": 64,
-      "comments": 72,
+      "score": 76,
+      "comments": 77,
       "author": "dhruvp",
       "published": "2026-08-17T14:03:05Z"
     },
@@ -280,8 +280,8 @@
       "title": "I thought I was building a C replacement. I was wrong",
       "url": "https://c3-lang.org/blog/i_thought_i_was_building_a_c_replacement/",
       "discuss_url": "https://lobste.rs/s/wpyhdh",
-      "score": 115,
-      "comments": 102,
+      "score": 116,
+      "comments": 106,
       "author": "clerno",
       "published": "2026-08-16T14:05:05Z"
     },
@@ -292,8 +292,8 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/5p0kgt",
       "discuss_url": "https://lobste.rs/s/5p0kgt",
-      "score": 12,
-      "comments": 25,
+      "score": 13,
+      "comments": 28,
       "author": "caius",
       "published": "2026-08-17T07:30:46Z"
     },
@@ -304,7 +304,7 @@
       "title": "Programming Pearl: Sampling Unique (x, y) Pairs",
       "url": "https://pagedout.institute/webview.php?issue=9&page=50&article=Programming+Pearl%3A+Sampling+Unique+%28x%2Cy%29+Pairs",
       "discuss_url": "https://lobste.rs/s/kely6n",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "abhin4v",
       "published": "2026-08-18T05:20:25Z"
@@ -325,6 +325,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Self Extracting Tar Files",
+      "url": "https://www.vinnie.work/blog/2024-05-24-self-extracting-tarfiles",
+      "discuss_url": "https://lobste.rs/s/g74nil",
+      "score": 3,
+      "comments": 0,
+      "author": "dv",
+      "published": "2026-08-17T21:50:49Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Recap: Software Should Work 2026",
       "url": "https://bencornia.com/blog/recap-software-should-work-2026",
       "discuss_url": "https://lobste.rs/s/khcojf",
@@ -337,22 +349,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/n3pkuh",
-      "discuss_url": "https://lobste.rs/s/n3pkuh",
-      "score": 21,
-      "comments": 52,
-      "author": "caius",
-      "published": "2026-08-14T10:39:05Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "There Is Still No Silver Bullet",
       "url": "https://cekrem.github.io/posts/there-is-still-no-silver-bullet/",
       "discuss_url": "https://lobste.rs/s/pf0hfr",
-      "score": 20,
+      "score": 21,
       "comments": 18,
       "author": "gered",
       "published": "2026-08-14T15:18:11Z"
@@ -373,18 +373,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Self Extracting Tar Files",
-      "url": "https://www.vinnie.work/blog/2024-05-24-self-extracting-tarfiles",
-      "discuss_url": "https://lobste.rs/s/g74nil",
-      "score": 1,
-      "comments": 0,
-      "author": "dv",
-      "published": "2026-08-17T21:50:49Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Software Engineering fundamentals matter more than ever",
       "url": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/",
       "discuss_url": "https://lobste.rs/s/iuqkgi",
@@ -397,13 +385,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "I Made the World's First \"Link Compressor\"",
-      "url": "https://www.youtube.com/watch?v=TOr1Vvji6jA",
-      "discuss_url": "https://lobste.rs/s/ybo5gr",
-      "score": 13,
-      "comments": 3,
-      "author": "Vaelatern",
-      "published": "2026-08-14T07:27:13Z"
+      "title": "On Knowledge Representation",
+      "url": "https://sifter.org/~simon/journal/20130713.h.html",
+      "discuss_url": "https://lobste.rs/s/fk1u5s",
+      "score": 4,
+      "comments": 0,
+      "author": "zzkt",
+      "published": "2026-08-16T07:54:16Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "ESP32 Firmware Development with Docker Sandboxes",
+      "url": "https://www.docker.com/blog/reproducible-esp32-firmware-development-with-docker-and-docker-sandboxes/",
+      "discuss_url": "https://lobste.rs/s/pnt80b",
+      "score": 1,
+      "comments": 0,
+      "author": "pfmaggi",
+      "published": "2026-08-17T13:16:09Z"
     },
     {
       "source": "lobsters",
@@ -412,8 +412,8 @@
       "title": "Passphrase-less reboots using kexec under NixOS",
       "url": "https://www.bevuta.com/en/blog/passphraseless-reboots-using-kexec/",
       "discuss_url": "https://lobste.rs/s/nrnwc6",
-      "score": 24,
-      "comments": 16,
+      "score": 26,
+      "comments": 17,
       "author": "sjamaan",
       "published": "2026-08-17T09:53:54Z"
     },
@@ -469,6 +469,54 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
+      "url": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+      "discuss_url": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-08-18T11:40:06Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
+      "url": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
+      "discuss_url": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-08-18T11:30:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
+      "url": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
+      "discuss_url": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-08-18T09:10:45Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
+      "url": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
+      "discuss_url": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-08-18T06:34:20Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
       "url": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
       "discuss_url": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
@@ -502,62 +550,14 @@
       "published": "2026-08-17T18:22:09Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
-      "url": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
-      "discuss_url": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-17T17:41:06Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
-      "url": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
-      "discuss_url": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-17T13:23:51Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "How MCP Servers Can Expose Enterprise Secrets",
-      "url": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
-      "discuss_url": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-17T11:58:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
-      "url": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
-      "discuss_url": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-17T10:52:34Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Tell HN: Cloudflare silently injects its analytics when you switch nameservers",
       "url": "https://news.ycombinator.com/item?id=49322107",
       "discuss_url": "https://news.ycombinator.com/item?id=49322107",
-      "score": 626,
-      "comments": 193,
+      "score": 631,
+      "comments": 196,
       "author": "stagas",
       "published": "2026-08-16T17:49:46Z"
     },
@@ -697,6 +697,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "As temperatures get hotter, pesticides are more dangerous to farmworkers",
+      "url": "https://arstechnica.com/science/2026/08/as-temperatures-get-hotter-pesticides-are-more-dangerous-to-farmworkers/",
+      "discuss_url": "https://arstechnica.com/science/2026/08/as-temperatures-get-hotter-pesticides-are-more-dangerous-to-farmworkers/",
+      "score": null,
+      "comments": null,
+      "author": "Amy Green, Inside Climate News",
+      "published": "2026-08-18T11:07:49Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "Theban tomb reveals how Egyptian burial trends evolved in time",
       "url": "https://arstechnica.com/science/2026/08/theban-tomb-reveals-how-egyptian-burial-trends-evolved-in-time/",
       "discuss_url": "https://arstechnica.com/science/2026/08/theban-tomb-reveals-how-egyptian-burial-trends-evolved-in-time/",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Kiona N. Smith",
       "published": "2026-08-17T13:41:35Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Satellite operators are in panic mode due to a worsening launch crisis",
-      "url": "https://arstechnica.com/space/2026/08/theres-a-huge-launch-crunch-right-now-and-it-will-probably-get-worse/",
-      "discuss_url": "https://arstechnica.com/space/2026/08/theres-a-huge-launch-crunch-right-now-and-it-will-probably-get-worse/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-08-17T11:00:26Z"
     }
   ]
 }
