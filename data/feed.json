@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T01:24:23Z",
+  "updated_at": "2026-08-18T06:48:50Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Anthropic's War on open source AI",
-      "url": "https://twitter.com/TheAhmadOsman/status/2065307070044234186",
-      "discuss_url": "https://news.ycombinator.com/item?id=49332564",
-      "score": 134,
-      "comments": 57,
-      "author": "bilsbie",
-      "published": "2026-08-17T15:24:34Z",
+      "title": "GPT-5.6 Sol Pricing Cut by 50%",
+      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "discuss_url": "https://news.ycombinator.com/item?id=49337602",
+      "score": 345,
+      "comments": 180,
+      "author": "Topfi",
+      "published": "2026-08-17T21:03:18Z",
       "bullets": [
-        "Anthropic faces criticism for safety lobbying and policy proposals that developers argue could restrict open-weight foundation model releases.",
-        "Regulatory proposals pushing strict compute thresholds and liability disproportionately impact open-source ecosystems like Meta Llama and Mistral.",
-        "Advocates warn proprietary frontier lab lobbying risks regulatory capture, threatening independent security auditing and self-hosted deployments."
+        "API token costs for GPT-5.6 Sol dropped by half, substantially reducing production deployment and multi-turn agentic workflow expenses.",
+        "The 50% price reduction improves unit economics for high-throughput batch processing, automated evaluations, and extended context applications.",
+        "Aggressive pricing cuts on frontier variants intensify cost competition across LLM providers, accelerating large-scale enterprise integration."
       ]
     },
     {
@@ -54,8 +54,8 @@
       "title": "Does it make sense to switch to a Github Alternative ?",
       "url": "https://lobste.rs/s/0zdh32",
       "discuss_url": "https://lobste.rs/s/0zdh32",
-      "score": 62,
-      "comments": 67,
+      "score": 64,
+      "comments": 72,
       "author": "dhruvp",
       "published": "2026-08-17T14:03:05Z",
       "bullets": [
@@ -72,12 +72,12 @@
       "url": "https://www.bevuta.com/en/blog/passphraseless-reboots-using-kexec/",
       "discuss_url": "https://lobste.rs/s/nrnwc6",
       "score": 24,
-      "comments": 15,
+      "comments": 16,
       "author": "sjamaan",
       "published": "2026-08-17T09:53:54Z",
       "bullets": [
         "Passphrase-less reboots using kexec under NixOS",
-        "Trending on lobste.rs/security — 24 points, 15 comments.",
+        "Trending on lobste.rs/security — 24 points, 16 comments.",
         "Submitted by sjamaan on lobste.rs/security."
       ]
     },
@@ -88,31 +88,31 @@
       "title": "Tell HN: Cloudflare silently injects its analytics when you switch nameservers",
       "url": "https://news.ycombinator.com/item?id=49322107",
       "discuss_url": "https://news.ycombinator.com/item?id=49322107",
-      "score": 622,
+      "score": 626,
       "comments": 193,
       "author": "stagas",
       "published": "2026-08-16T17:49:46Z",
       "bullets": [
-        "Cloudflare automatically injects its JavaScript Web Analytics snippet into proxied HTML responses by default upon migrating domain nameservers.",
-        "Unexpected client-side script injection risks violating strict Content Security Policies (CSP) and altering intended JS-free static edge delivery.",
-        "Remediation requires manually provisioning the site within the Cloudflare Analytics dashboard to access and disable the default opt-out toggle."
+        "A few hours ago I switched my nameservers to Cloudflare in order to enable R2 bucket serving through my own subdomain, and I found out that it silently had injected a JS analytics…",
+        "I find this approach entirely invasive, you should opt-in to features like that not have to opt-out.",
+        "Just a warning out there to folks who might not be aware of this."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "US vaccination rates fall again as exemptions continue to rise, CDC data shows",
-      "url": "https://arstechnica.com/health/2026/08/us-vaccination-rates-fall-again-as-exemptions-continue-to-rise-cdc-data-shows/",
-      "discuss_url": "https://arstechnica.com/health/2026/08/us-vaccination-rates-fall-again-as-exemptions-continue-to-rise-cdc-data-shows/",
+      "title": "Theban tomb reveals how Egyptian burial trends evolved in time",
+      "url": "https://arstechnica.com/science/2026/08/theban-tomb-reveals-how-egyptian-burial-trends-evolved-in-time/",
+      "discuss_url": "https://arstechnica.com/science/2026/08/theban-tomb-reveals-how-egyptian-burial-trends-evolved-in-time/",
       "score": null,
       "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-08-17T22:08:47Z",
+      "author": "Jennifer Ouellette",
+      "published": "2026-08-18T04:00:40Z",
       "bullets": [
-        "Again, the CDC did not publish a full report and instead simply put the data online.",
-        "US vaccination rates fall again as exemptions continue to rise, CDC data shows",
-        "Submitted by Beth Mole on arstechnica.com."
+        "Practices shifted from individuals buried in coffins to reusing sites for later mummy interments.",
+        "Theban tomb reveals how Egyptian burial trends evolved in time",
+        "Submitted by Jennifer Ouellette on arstechnica.com."
       ]
     }
   ],
@@ -121,13 +121,13 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Anthropic's War on open source AI",
-      "url": "https://twitter.com/TheAhmadOsman/status/2065307070044234186",
-      "discuss_url": "https://news.ycombinator.com/item?id=49332564",
-      "score": 134,
-      "comments": 57,
-      "author": "bilsbie",
-      "published": "2026-08-17T15:24:34Z"
+      "title": "GPT-5.6 Sol Pricing Cut by 50%",
+      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "discuss_url": "https://news.ycombinator.com/item?id=49337602",
+      "score": 345,
+      "comments": 180,
+      "author": "Topfi",
+      "published": "2026-08-17T21:03:18Z"
     },
     {
       "source": "hackernews",
@@ -136,10 +136,22 @@
       "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
       "url": "https://blog.roboflow.com/openai-gpt-5-6/",
       "discuss_url": "https://news.ycombinator.com/item?id=49329575",
-      "score": 300,
-      "comments": 152,
+      "score": 328,
+      "comments": 158,
       "author": "plurby",
       "published": "2026-08-17T12:09:42Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Anthropic's War on open source AI",
+      "url": "https://twitter.com/TheAhmadOsman/status/2065307070044234186",
+      "discuss_url": "https://news.ycombinator.com/item?id=49332564",
+      "score": 142,
+      "comments": 57,
+      "author": "bilsbie",
+      "published": "2026-08-17T15:24:34Z"
     },
     {
       "source": "hackernews",
@@ -148,8 +160,8 @@
       "title": "Anthropic's ‘watermark’ text adulteration in Claude is a perversion of writing",
       "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
       "discuss_url": "https://news.ycombinator.com/item?id=49324087",
-      "score": 762,
-      "comments": 673,
+      "score": 782,
+      "comments": 687,
       "author": "ropbear",
       "published": "2026-08-16T21:53:43Z"
     },
@@ -160,8 +172,8 @@
       "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
       "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
       "discuss_url": "https://news.ycombinator.com/item?id=49323686",
-      "score": 243,
-      "comments": 151,
+      "score": 245,
+      "comments": 152,
       "author": "root-parent",
       "published": "2026-08-16T21:07:10Z"
     },
@@ -172,22 +184,10 @@
       "title": "Claude: System Prompts",
       "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
       "discuss_url": "https://news.ycombinator.com/item?id=49319556",
-      "score": 739,
-      "comments": 281,
+      "score": 745,
+      "comments": 280,
       "author": "tosh",
       "published": "2026-08-16T12:48:21Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
-      "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
-      "discuss_url": "https://lobste.rs/s/flcpeu",
-      "score": 7,
-      "comments": 5,
-      "author": "alcides",
-      "published": "2026-08-17T17:54:19Z"
     },
     {
       "source": "hackernews",
@@ -196,10 +196,22 @@
       "title": "What happens when an LLM never sees material beyond fifth grade?",
       "url": "https://littlelearner-ll.github.io/",
       "discuss_url": "https://news.ycombinator.com/item?id=49317760",
-      "score": 243,
-      "comments": 208,
+      "score": 244,
+      "comments": 209,
       "author": "porridgeraisin",
       "published": "2026-08-16T07:37:53Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+      "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+      "discuss_url": "https://lobste.rs/s/flcpeu",
+      "score": 9,
+      "comments": 7,
+      "author": "alcides",
+      "published": "2026-08-17T17:54:19Z"
     },
     {
       "source": "lobsters",
@@ -250,26 +262,14 @@
       "published": "2026-08-13T17:16:04Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "What We Learned by Reproducing 2,200 papers from ICML",
-      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
-      "discuss_url": "https://huggingface.co/blog/icml-2026-open-reproductions",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-08-13T00:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Does it make sense to switch to a Github Alternative ?",
       "url": "https://lobste.rs/s/0zdh32",
       "discuss_url": "https://lobste.rs/s/0zdh32",
-      "score": 62,
-      "comments": 67,
+      "score": 64,
+      "comments": 72,
       "author": "dhruvp",
       "published": "2026-08-17T14:03:05Z"
     },
@@ -280,8 +280,8 @@
       "title": "I thought I was building a C replacement. I was wrong",
       "url": "https://c3-lang.org/blog/i_thought_i_was_building_a_c_replacement/",
       "discuss_url": "https://lobste.rs/s/wpyhdh",
-      "score": 112,
-      "comments": 101,
+      "score": 115,
+      "comments": 102,
       "author": "clerno",
       "published": "2026-08-16T14:05:05Z"
     },
@@ -292,7 +292,7 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/5p0kgt",
       "discuss_url": "https://lobste.rs/s/5p0kgt",
-      "score": 11,
+      "score": 12,
       "comments": 25,
       "author": "caius",
       "published": "2026-08-17T07:30:46Z"
@@ -301,25 +301,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Pony's Arena Allocator",
-      "url": "https://www.ponylang.io/blog/2026/08/ponys-arena-allocator/",
-      "discuss_url": "https://lobste.rs/s/vnpw9j",
-      "score": 18,
+      "title": "Programming Pearl: Sampling Unique (x, y) Pairs",
+      "url": "https://pagedout.institute/webview.php?issue=9&page=50&article=Programming+Pearl%3A+Sampling+Unique+%28x%2Cy%29+Pairs",
+      "discuss_url": "https://lobste.rs/s/kely6n",
+      "score": 1,
       "comments": 0,
-      "author": "sanxiyn",
-      "published": "2026-08-16T23:48:45Z"
+      "author": "abhin4v",
+      "published": "2026-08-18T05:20:25Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Self Extracting Tar Files",
-      "url": "https://www.vinnie.work/blog/2024-05-24-self-extracting-tarfiles",
-      "discuss_url": "https://lobste.rs/s/g74nil",
-      "score": 1,
+      "title": "Pony's Arena Allocator",
+      "url": "https://www.ponylang.io/blog/2026/08/ponys-arena-allocator/",
+      "discuss_url": "https://lobste.rs/s/vnpw9j",
+      "score": 19,
       "comments": 0,
-      "author": "dv",
-      "published": "2026-08-17T21:50:49Z"
+      "author": "sanxiyn",
+      "published": "2026-08-16T23:48:45Z"
     },
     {
       "source": "lobsters",
@@ -373,6 +373,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Self Extracting Tar Files",
+      "url": "https://www.vinnie.work/blog/2024-05-24-self-extracting-tarfiles",
+      "discuss_url": "https://lobste.rs/s/g74nil",
+      "score": 1,
+      "comments": 0,
+      "author": "dv",
+      "published": "2026-08-17T21:50:49Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Software Engineering fundamentals matter more than ever",
       "url": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/",
       "discuss_url": "https://lobste.rs/s/iuqkgi",
@@ -395,25 +407,13 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "ESP32 Firmware Development with Docker Sandboxes",
-      "url": "https://www.docker.com/blog/reproducible-esp32-firmware-development-with-docker-and-docker-sandboxes/",
-      "discuss_url": "https://lobste.rs/s/pnt80b",
-      "score": 1,
-      "comments": 0,
-      "author": "pfmaggi",
-      "published": "2026-08-17T13:16:09Z"
-    },
-    {
-      "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Passphrase-less reboots using kexec under NixOS",
       "url": "https://www.bevuta.com/en/blog/passphraseless-reboots-using-kexec/",
       "discuss_url": "https://lobste.rs/s/nrnwc6",
       "score": 24,
-      "comments": 15,
+      "comments": 16,
       "author": "sjamaan",
       "published": "2026-08-17T09:53:54Z"
     },
@@ -440,18 +440,6 @@
       "comments": 0,
       "author": "ohrv",
       "published": "2026-08-17T16:06:51Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "OWASP Top 10 CI/CD Security Risks",
-      "url": "https://owasp.org/www-project-top-10-ci-cd-security-risks/",
-      "discuss_url": "https://lobste.rs/s/qhxzrd",
-      "score": 5,
-      "comments": 1,
-      "author": "typesanitizer",
-      "published": "2026-08-14T05:26:16Z"
     },
     {
       "source": "rss",
@@ -550,13 +538,25 @@
       "published": "2026-08-17T11:58:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
+      "url": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+      "discuss_url": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-08-17T10:52:34Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Tell HN: Cloudflare silently injects its analytics when you switch nameservers",
       "url": "https://news.ycombinator.com/item?id=49322107",
       "discuss_url": "https://news.ycombinator.com/item?id=49322107",
-      "score": 622,
+      "score": 626,
       "comments": 193,
       "author": "stagas",
       "published": "2026-08-16T17:49:46Z"
@@ -697,6 +697,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "Theban tomb reveals how Egyptian burial trends evolved in time",
+      "url": "https://arstechnica.com/science/2026/08/theban-tomb-reveals-how-egyptian-burial-trends-evolved-in-time/",
+      "discuss_url": "https://arstechnica.com/science/2026/08/theban-tomb-reveals-how-egyptian-burial-trends-evolved-in-time/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-08-18T04:00:40Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "US vaccination rates fall again as exemptions continue to rise, CDC data shows",
       "url": "https://arstechnica.com/health/2026/08/us-vaccination-rates-fall-again-as-exemptions-continue-to-rise-cdc-data-shows/",
       "discuss_url": "https://arstechnica.com/health/2026/08/us-vaccination-rates-fall-again-as-exemptions-continue-to-rise-cdc-data-shows/",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Eric Berger",
       "published": "2026-08-17T11:00:26Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Wildfire smoke now bigger prenatal threat than human sources of air pollution",
-      "url": "https://arstechnica.com/science/2026/08/wildfire-smoke-now-bigger-prenatal-threat-than-human-sources-of-air-pollution/",
-      "discuss_url": "https://arstechnica.com/science/2026/08/wildfire-smoke-now-bigger-prenatal-threat-than-human-sources-of-air-pollution/",
-      "score": null,
-      "comments": null,
-      "author": "Liza Gross",
-      "published": "2026-08-16T10:00:59Z"
     }
   ]
 }
