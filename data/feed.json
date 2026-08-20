@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T06:51:41Z",
+  "updated_at": "2026-08-20T12:57:33Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -31,20 +31,20 @@
   ],
   "tldr": [
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Norway should buy OpenAI",
-      "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
-      "discuss_url": "https://news.ycombinator.com/item?id=49351330",
-      "score": 256,
-      "comments": 268,
-      "author": "alexeigannon",
-      "published": "2026-08-18T19:30:29Z",
+      "title": "If this is true, the hyperscalers are toast",
+      "url": "https://klementoninvesting.substack.com/p/if-this-is-true-the-hyperscalers",
+      "discuss_url": "https://lobste.rs/s/xgxp9m",
+      "score": 3,
+      "comments": 1,
+      "author": "mattofr",
+      "published": "2026-08-20T11:53:16Z",
       "bullets": [
-        "Norway’s $1.7T sovereign wealth fund possesses the capital to fund OpenAI’s $157B valuation, challenging traditional Silicon Valley venture dynamics.",
-        "Proponents advocate turning frontier model development into public digital infrastructure to prevent proprietary lock-in by Microsoft and hyperscalers.",
-        "Sovereign ownership could pivot OpenAI toward open-source foundation model releases, long-term public safety research, and European compute autonomy."
+        "Small Language Models (SLMs) shift inference to edge devices and on-prem hardware, reducing reliance on hyperscaler cloud GPU clusters.",
+        "Model distillation and domain-specific fine-tuning enable compact models (1B–8B parameters) to match massive LLM task accuracy cost-effectively.",
+        "Commoditized local execution threatens hyperscaler revenue moats by lowering barriers to self-hosted, private, low-latency AI deployments."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "Sing-song: a speakable encoding for long numbers and keys",
       "url": "https://blog.vrypan.net/2026/08/19/260819-sing-song/",
       "discuss_url": "https://lobste.rs/s/wvwqro",
-      "score": 10,
-      "comments": 12,
+      "score": 15,
+      "comments": 21,
       "author": "vrypan",
       "published": "2026-08-19T20:28:07Z",
       "bullets": [
-        "Sing-song: a speakable encoding for long numbers and keys",
-        "Trending on lobste.rs/programming — 10 points, 12 comments.",
-        "Submitted by vrypan on lobste.rs/programming."
+        "Encodes raw binary data and cryptographic keys into structured, speakable phonetic syllables to simplify human voice transmission and memorability.",
+        "Offers an alternative to Proquints or BIP-39 by optimizing phonetic distinctiveness to minimize transcription errors over audio channels.",
+        "Facilitates air-gapped device provisioning, voice-verified multi-party handshakes, and out-of-band public key fingerprint validation."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "CSS: the bomb inside your inbox",
-      "url": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
-      "discuss_url": "https://lobste.rs/s/qo7eyx",
-      "score": 56,
-      "comments": 12,
-      "author": "refp",
-      "published": "2026-08-18T13:30:46Z",
+      "title": "Rust Supply-Chain Attack: arrayref 0.3.10 and the proc-macro1 Typosquat",
+      "url": "https://www.stepsecurity.io/blog/arrayref-rust-crate-supply-chain-attack",
+      "discuss_url": "https://lobste.rs/s/dns8du",
+      "score": 8,
+      "comments": 1,
+      "author": "ohrv",
+      "published": "2026-08-20T09:54:06Z",
       "bullets": [
-        "CSS: the bomb inside your inbox",
-        "Trending on lobste.rs/security — 56 points, 12 comments.",
-        "Submitted by refp on lobste.rs/security."
+        "Rust Supply-Chain Attack: arrayref 0.3.10 and the proc-macro1 Typosquat",
+        "Trending on lobste.rs/security — 8 points, 1 comments.",
+        "Submitted by ohrv on lobste.rs/security."
       ]
     },
     {
@@ -118,14 +118,38 @@
   ],
   "discussions": [
     {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "If this is true, the hyperscalers are toast",
+      "url": "https://klementoninvesting.substack.com/p/if-this-is-true-the-hyperscalers",
+      "discuss_url": "https://lobste.rs/s/xgxp9m",
+      "score": 3,
+      "comments": 1,
+      "author": "mattofr",
+      "published": "2026-08-20T11:53:16Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Extensible Software in the age of LLMs",
+      "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49363668",
+      "score": 158,
+      "comments": 67,
+      "author": "coloneltcb",
+      "published": "2026-08-19T16:26:05Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
       "title": "Norway should buy OpenAI",
       "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
       "discuss_url": "https://news.ycombinator.com/item?id=49351330",
-      "score": 256,
-      "comments": 268,
+      "score": 257,
+      "comments": 269,
       "author": "alexeigannon",
       "published": "2026-08-18T19:30:29Z"
     },
@@ -137,21 +161,9 @@
       "url": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
       "discuss_url": "https://news.ycombinator.com/item?id=49348751",
       "score": 292,
-      "comments": 260,
+      "comments": 261,
       "author": "tyre",
       "published": "2026-08-18T17:02:15Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Claude writing a macOS driver for my obscure HP printer built only for Windows",
-      "url": "https://twitter.com/kuberwastaken/status/2089377982536388964",
-      "discuss_url": "https://news.ycombinator.com/item?id=49344643",
-      "score": 318,
-      "comments": 219,
-      "author": "porridgeraisin",
-      "published": "2026-08-18T12:22:58Z"
     },
     {
       "source": "lobsters",
@@ -161,7 +173,7 @@
       "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
       "discuss_url": "https://lobste.rs/s/flcpeu",
       "score": 55,
-      "comments": 48,
+      "comments": 49,
       "author": "alcides",
       "published": "2026-08-17T17:54:19Z"
     },
@@ -181,6 +193,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
+      "title": "Liquid Types as a behavioural sandbox for agents",
+      "url": "https://wiki.alcidesfonseca.com/blog/aeonbox-logical-guardrails-for-agents/",
+      "discuss_url": "https://lobste.rs/s/9oy4ao",
+      "score": 3,
+      "comments": 0,
+      "author": "alcides",
+      "published": "2026-08-19T10:16:54Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
       "title": "AscendNPU-IR: MLIR for Ascend",
       "url": "https://gitcode.com/Ascend/AscendNPU-IR",
       "discuss_url": "https://lobste.rs/s/zpk6cj",
@@ -188,18 +212,6 @@
       "comments": 0,
       "author": "sanxiyn",
       "published": "2026-08-19T23:47:50Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Liquid Types as a behavioural sandbox for agents",
-      "url": "https://wiki.alcidesfonseca.com/blog/aeonbox-logical-guardrails-for-agents/",
-      "discuss_url": "https://lobste.rs/s/9oy4ao",
-      "score": 2,
-      "comments": 0,
-      "author": "alcides",
-      "published": "2026-08-19T10:16:54Z"
     },
     {
       "source": "rss",
@@ -250,26 +262,14 @@
       "published": "2026-08-17T19:46:21Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "State of Open Models: Summer 2026 Observations",
-      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "discuss_url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-08-14T00:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Sing-song: a speakable encoding for long numbers and keys",
       "url": "https://blog.vrypan.net/2026/08/19/260819-sing-song/",
       "discuss_url": "https://lobste.rs/s/wvwqro",
-      "score": 10,
-      "comments": 12,
+      "score": 15,
+      "comments": 21,
       "author": "vrypan",
       "published": "2026-08-19T20:28:07Z"
     },
@@ -280,10 +280,22 @@
       "title": "a filename when none exists",
       "url": "https://daniel.haxx.se/blog/2024/08/19/a-filename-when-none-exists/",
       "discuss_url": "https://lobste.rs/s/xftgtd",
-      "score": 23,
+      "score": 25,
       "comments": 14,
       "author": "lvmbdv",
       "published": "2026-08-19T07:29:33Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "AI didn't erase the junior's value. It increased it",
+      "url": "https://franciscotrindade.me/blog/the-kids-are-really-alright/",
+      "discuss_url": "https://lobste.rs/s/otifxs",
+      "score": 1,
+      "comments": 0,
+      "author": "dhruvp",
+      "published": "2026-08-20T12:39:27Z"
     },
     {
       "source": "lobsters",
@@ -313,18 +325,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Geolocating Random Islet Image Using Geometry & CUDA GPU Programming",
-      "url": "https://yassa9.github.io/osint/gralhix-004/",
-      "discuss_url": "https://lobste.rs/s/th7q3y",
-      "score": 8,
-      "comments": 0,
-      "author": "dhruvp",
-      "published": "2026-08-19T14:17:38Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "I thought I was building a C replacement. I was wrong",
       "url": "https://c3-lang.org/blog/i_thought_i_was_building_a_c_replacement/",
       "discuss_url": "https://lobste.rs/s/wpyhdh",
@@ -332,6 +332,18 @@
       "comments": 112,
       "author": "clerno",
       "published": "2026-08-16T14:05:05Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Geolocating Random Islet Image Using Geometry & CUDA GPU Programming",
+      "url": "https://yassa9.github.io/osint/gralhix-004/",
+      "discuss_url": "https://lobste.rs/s/th7q3y",
+      "score": 8,
+      "comments": 0,
+      "author": "dhruvp",
+      "published": "2026-08-19T14:17:38Z"
     },
     {
       "source": "lobsters",
@@ -349,18 +361,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Easy to use Entity Component System (ECS) crafted with Odin",
-      "url": "https://github.com/helioscout/moecs",
-      "discuss_url": "https://lobste.rs/s/hdef54",
-      "score": 2,
-      "comments": 0,
-      "author": "modev",
-      "published": "2026-08-19T20:59:50Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/5p0kgt",
       "discuss_url": "https://lobste.rs/s/5p0kgt",
@@ -368,6 +368,30 @@
       "comments": 28,
       "author": "caius",
       "published": "2026-08-17T07:30:46Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Rewriting in Rust: Performance, Failures, 2026 Reality Check",
+      "url": "https://blog.jetbrains.com/rust/2026/08/10/rewriting-in-rust/",
+      "discuss_url": "https://lobste.rs/s/bmdiuz",
+      "score": 1,
+      "comments": 0,
+      "author": "lvmbdv",
+      "published": "2026-08-20T07:11:55Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Easy to use Entity Component System (ECS) crafted with Odin",
+      "url": "https://github.com/helioscout/moecs",
+      "discuss_url": "https://lobste.rs/s/hdef54",
+      "score": 2,
+      "comments": 0,
+      "author": "modev",
+      "published": "2026-08-19T20:59:50Z"
     },
     {
       "source": "lobsters",
@@ -383,27 +407,27 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Self Extracting Tar Files",
-      "url": "https://www.vinnie.work/blog/2024-05-24-self-extracting-tarfiles",
-      "discuss_url": "https://lobste.rs/s/g74nil",
-      "score": 3,
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Rust Supply-Chain Attack: arrayref 0.3.10 and the proc-macro1 Typosquat",
+      "url": "https://www.stepsecurity.io/blog/arrayref-rust-crate-supply-chain-attack",
+      "discuss_url": "https://lobste.rs/s/dns8du",
+      "score": 8,
       "comments": 1,
-      "author": "dv",
-      "published": "2026-08-17T21:50:49Z"
+      "author": "ohrv",
+      "published": "2026-08-20T09:54:06Z"
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Programming Pearl: Sampling Unique (x, y) Pairs",
-      "url": "https://pagedout.institute/webview.php?issue=9&page=50&article=Programming+Pearl%3A+Sampling+Unique+%28x%2Cy%29+Pairs",
-      "discuss_url": "https://lobste.rs/s/kely6n",
-      "score": 4,
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "How a joke domain purchase turned into geopolitical warfare",
+      "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
+      "discuss_url": "https://lobste.rs/s/sfi9te",
+      "score": 1,
       "comments": 0,
-      "author": "abhin4v",
-      "published": "2026-08-18T05:20:25Z"
+      "author": "zzkt",
+      "published": "2026-08-20T12:21:41Z"
     },
     {
       "source": "lobsters",
@@ -421,6 +445,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "When str.lower() is a security vulnerability in Python",
+      "url": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
+      "discuss_url": "https://lobste.rs/s/ap9w8i",
+      "score": 16,
+      "comments": 4,
+      "author": "ubernostrum",
+      "published": "2026-08-18T22:57:41Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Packing Malware in Rosetta 2",
       "url": "https://kernelkennel.com/blog/summercon2026-rosetta/",
       "discuss_url": "https://lobste.rs/s/ppvyr1",
@@ -428,18 +464,6 @@
       "comments": 0,
       "author": "ombredog",
       "published": "2026-08-19T22:05:09Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "When str.lower() is a security vulnerability in Python",
-      "url": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
-      "discuss_url": "https://lobste.rs/s/ap9w8i",
-      "score": 15,
-      "comments": 4,
-      "author": "ubernostrum",
-      "published": "2026-08-18T22:57:41Z"
     },
     {
       "source": "lobsters",
@@ -460,7 +484,7 @@
       "title": "Open Source & Security",
       "url": "https://jrfom.com/posts/2026/04/08/oss-security/",
       "discuss_url": "https://lobste.rs/s/xbbyw5",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "thang",
       "published": "2026-08-20T02:43:00Z"
@@ -517,37 +541,13 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
-      "url": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
-      "discuss_url": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
+      "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
+      "url": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
+      "discuss_url": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-20T06:04:34Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
-      "url": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
-      "discuss_url": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-19T19:02:40Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
-      "url": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
-      "discuss_url": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-19T18:06:44Z"
+      "published": "2026-08-20T11:05:11Z"
     },
     {
       "source": "lobsters",
@@ -637,6 +637,18 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "Amazon CloudWatch pipelines adds GeoIP, RDS, and XML processors",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/cloudwatch-geoip-rds-xml/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/cloudwatch-geoip-rds-xml/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-19T20:13:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "AWS Cost Anomaly Detection supports third-party models on Amazon Bedrock",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cost-anomaly-detection-bedrock-3P/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cost-anomaly-detection-bedrock-3P/",
@@ -680,18 +692,6 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-08-19T17:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Lambda MicroVMs is now available in 5 additional AWS regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-microvms-5-additional-regions",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-microvms-5-additional-regions",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-19T16:14:00Z"
     },
     {
       "source": "rss",
