@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T12:57:33Z",
+  "updated_at": "2026-08-20T18:44:17Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -31,20 +31,20 @@
   ],
   "tldr": [
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "If this is true, the hyperscalers are toast",
-      "url": "https://klementoninvesting.substack.com/p/if-this-is-true-the-hyperscalers",
-      "discuss_url": "https://lobste.rs/s/xgxp9m",
-      "score": 3,
-      "comments": 1,
-      "author": "mattofr",
-      "published": "2026-08-20T11:53:16Z",
+      "title": "Extensible Software in the age of LLMs",
+      "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49363668",
+      "score": 164,
+      "comments": 74,
+      "author": "coloneltcb",
+      "published": "2026-08-19T16:26:05Z",
       "bullets": [
-        "Small Language Models (SLMs) shift inference to edge devices and on-prem hardware, reducing reliance on hyperscaler cloud GPU clusters.",
-        "Model distillation and domain-specific fine-tuning enable compact models (1B–8B parameters) to match massive LLM task accuracy cost-effectively.",
-        "Commoditized local execution threatens hyperscaler revenue moats by lowering barriers to self-hosted, private, low-latency AI deployments."
+        "LLMs shift software extensibility from rigid plugin architectures to dynamic runtime tool-calling driven by natural language intent and structured schemas.",
+        "Modern systems increasingly standardize on interfaces like Model Context Protocol (MCP) and sandboxed WASM runtimes for secure LLM integration.",
+        "Developers must implement deterministic API contracts, granular permission boundaries, and schema validation to safely expose application state to AI agents."
       ]
     },
     {
@@ -54,30 +54,30 @@
       "title": "Sing-song: a speakable encoding for long numbers and keys",
       "url": "https://blog.vrypan.net/2026/08/19/260819-sing-song/",
       "discuss_url": "https://lobste.rs/s/wvwqro",
-      "score": 15,
-      "comments": 21,
+      "score": 21,
+      "comments": 24,
       "author": "vrypan",
       "published": "2026-08-19T20:28:07Z",
       "bullets": [
-        "Encodes raw binary data and cryptographic keys into structured, speakable phonetic syllables to simplify human voice transmission and memorability.",
-        "Offers an alternative to Proquints or BIP-39 by optimizing phonetic distinctiveness to minimize transcription errors over audio channels.",
-        "Facilitates air-gapped device provisioning, voice-verified multi-party handshakes, and out-of-band public key fingerprint validation."
+        "Sing-song: a speakable encoding for long numbers and keys",
+        "Trending on lobste.rs/programming — 21 points, 24 comments.",
+        "Submitted by vrypan on lobste.rs/programming."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Rust Supply-Chain Attack: arrayref 0.3.10 and the proc-macro1 Typosquat",
-      "url": "https://www.stepsecurity.io/blog/arrayref-rust-crate-supply-chain-attack",
+      "title": "Supply chain attack on arrayref",
+      "url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
       "discuss_url": "https://lobste.rs/s/dns8du",
-      "score": 8,
-      "comments": 1,
+      "score": 40,
+      "comments": 21,
       "author": "ohrv",
       "published": "2026-08-20T09:54:06Z",
       "bullets": [
-        "Rust Supply-Chain Attack: arrayref 0.3.10 and the proc-macro1 Typosquat",
-        "Trending on lobste.rs/security — 8 points, 1 comments.",
+        "Supply chain attack on arrayref",
+        "Trending on lobste.rs/security — 40 points, 21 comments.",
         "Submitted by ohrv on lobste.rs/security."
       ]
     },
@@ -99,36 +99,24 @@
       ]
     },
     {
-      "source": "rss",
-      "subsource": "arstechnica.com",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "industry",
-      "title": "NASA calls off mission to rescue Swift gamma-ray observatory",
-      "url": "https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory/",
-      "discuss_url": "https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-08-20T00:18:48Z",
+      "title": "Stwipe Acquires OpenWouter",
+      "url": "https://stwipe.com/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49374738",
+      "score": 186,
+      "comments": 24,
+      "author": "eatonphil",
+      "published": "2026-08-20T14:04:46Z",
       "bullets": [
-        "Without a rescue, NASA's Swift Observatory is expected to reenter the atmosphere later this year.",
-        "NASA calls off mission to rescue Swift gamma-ray observatory",
-        "Submitted by Stephen Clark on arstechnica.com."
+        "Stwipe Acquires OpenWouter",
+        "Trending on news.ycombinator.com — 186 points, 24 comments.",
+        "Submitted by eatonphil on news.ycombinator.com."
       ]
     }
   ],
   "discussions": [
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "If this is true, the hyperscalers are toast",
-      "url": "https://klementoninvesting.substack.com/p/if-this-is-true-the-hyperscalers",
-      "discuss_url": "https://lobste.rs/s/xgxp9m",
-      "score": 3,
-      "comments": 1,
-      "author": "mattofr",
-      "published": "2026-08-20T11:53:16Z"
-    },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
@@ -136,8 +124,8 @@
       "title": "Extensible Software in the age of LLMs",
       "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
       "discuss_url": "https://news.ycombinator.com/item?id=49363668",
-      "score": 158,
-      "comments": 67,
+      "score": 164,
+      "comments": 74,
       "author": "coloneltcb",
       "published": "2026-08-19T16:26:05Z"
     },
@@ -148,34 +136,10 @@
       "title": "Norway should buy OpenAI",
       "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
       "discuss_url": "https://news.ycombinator.com/item?id=49351330",
-      "score": 257,
-      "comments": 269,
+      "score": 258,
+      "comments": 271,
       "author": "alexeigannon",
       "published": "2026-08-18T19:30:29Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Claude Code May–August 2026 weekly limits promotion",
-      "url": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
-      "discuss_url": "https://news.ycombinator.com/item?id=49348751",
-      "score": 292,
-      "comments": 261,
-      "author": "tyre",
-      "published": "2026-08-18T17:02:15Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
-      "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
-      "discuss_url": "https://lobste.rs/s/flcpeu",
-      "score": 55,
-      "comments": 49,
-      "author": "alcides",
-      "published": "2026-08-17T17:54:19Z"
     },
     {
       "source": "lobsters",
@@ -193,18 +157,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Liquid Types as a behavioural sandbox for agents",
-      "url": "https://wiki.alcidesfonseca.com/blog/aeonbox-logical-guardrails-for-agents/",
-      "discuss_url": "https://lobste.rs/s/9oy4ao",
-      "score": 3,
-      "comments": 0,
-      "author": "alcides",
-      "published": "2026-08-19T10:16:54Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "AscendNPU-IR: MLIR for Ascend",
       "url": "https://gitcode.com/Ascend/AscendNPU-IR",
       "discuss_url": "https://lobste.rs/s/zpk6cj",
@@ -217,13 +169,13 @@
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
-      "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
-      "url": "https://huggingface.co/blog/LiquidAI/qad",
-      "discuss_url": "https://huggingface.co/blog/LiquidAI/qad",
+      "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "discuss_url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
       "score": null,
       "comments": null,
       "author": null,
-      "published": "2026-08-19T13:48:49Z"
+      "published": "2026-08-20T16:52:57Z"
     },
     {
       "source": "rss",
@@ -262,14 +214,26 @@
       "published": "2026-08-17T19:46:21Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "State of Open Models: Summer 2026 Observations",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "discuss_url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-08-14T00:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Sing-song: a speakable encoding for long numbers and keys",
       "url": "https://blog.vrypan.net/2026/08/19/260819-sing-song/",
       "discuss_url": "https://lobste.rs/s/wvwqro",
-      "score": 15,
-      "comments": 21,
+      "score": 21,
+      "comments": 24,
       "author": "vrypan",
       "published": "2026-08-19T20:28:07Z"
     },
@@ -280,22 +244,10 @@
       "title": "a filename when none exists",
       "url": "https://daniel.haxx.se/blog/2024/08/19/a-filename-when-none-exists/",
       "discuss_url": "https://lobste.rs/s/xftgtd",
-      "score": 25,
-      "comments": 14,
+      "score": 26,
+      "comments": 15,
       "author": "lvmbdv",
       "published": "2026-08-19T07:29:33Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "AI didn't erase the junior's value. It increased it",
-      "url": "https://franciscotrindade.me/blog/the-kids-are-really-alright/",
-      "discuss_url": "https://lobste.rs/s/otifxs",
-      "score": 1,
-      "comments": 0,
-      "author": "dhruvp",
-      "published": "2026-08-20T12:39:27Z"
     },
     {
       "source": "lobsters",
@@ -325,13 +277,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "I thought I was building a C replacement. I was wrong",
-      "url": "https://c3-lang.org/blog/i_thought_i_was_building_a_c_replacement/",
-      "discuss_url": "https://lobste.rs/s/wpyhdh",
-      "score": 118,
-      "comments": 112,
-      "author": "clerno",
-      "published": "2026-08-16T14:05:05Z"
+      "title": "The Idea Processor, or “What is the use case?”",
+      "url": "https://forum.malleable.systems/t/the-idea-processor-or-what-is-the-use-case/357",
+      "discuss_url": "https://lobste.rs/s/fsd1mf",
+      "score": 1,
+      "comments": 0,
+      "author": "amirouche",
+      "published": "2026-08-20T14:43:45Z"
     },
     {
       "source": "lobsters",
@@ -349,18 +301,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "If You Have Users, You Have to Market Your Programming Language",
-      "url": "https://c3-lang.org/blog/you_have_to_market_your_programming_language/",
-      "discuss_url": "https://lobste.rs/s/rg0rlr",
-      "score": 7,
-      "comments": 4,
-      "author": "ugur",
-      "published": "2026-08-18T17:08:57Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/5p0kgt",
       "discuss_url": "https://lobste.rs/s/5p0kgt",
@@ -373,13 +313,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Rewriting in Rust: Performance, Failures, 2026 Reality Check",
-      "url": "https://blog.jetbrains.com/rust/2026/08/10/rewriting-in-rust/",
-      "discuss_url": "https://lobste.rs/s/bmdiuz",
-      "score": 1,
-      "comments": 0,
-      "author": "lvmbdv",
-      "published": "2026-08-20T07:11:55Z"
+      "title": "If You Have Users, You Have to Market Your Programming Language",
+      "url": "https://c3-lang.org/blog/you_have_to_market_your_programming_language/",
+      "discuss_url": "https://lobste.rs/s/rg0rlr",
+      "score": 7,
+      "comments": 4,
+      "author": "ugur",
+      "published": "2026-08-18T17:08:57Z"
     },
     {
       "source": "lobsters",
@@ -397,6 +337,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Rewriting in Rust: Performance, Failures, 2026 Reality Check",
+      "url": "https://blog.jetbrains.com/rust/2026/08/10/rewriting-in-rust/",
+      "discuss_url": "https://lobste.rs/s/bmdiuz",
+      "score": 1,
+      "comments": 0,
+      "author": "lvmbdv",
+      "published": "2026-08-20T07:11:55Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Pony's Arena Allocator",
       "url": "https://www.ponylang.io/blog/2026/08/ponys-arena-allocator/",
       "discuss_url": "https://lobste.rs/s/vnpw9j",
@@ -407,13 +359,25 @@
     },
     {
       "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Self Extracting Tar Files",
+      "url": "https://www.vinnie.work/blog/2024-05-24-self-extracting-tarfiles",
+      "discuss_url": "https://lobste.rs/s/g74nil",
+      "score": 3,
+      "comments": 1,
+      "author": "dv",
+      "published": "2026-08-17T21:50:49Z"
+    },
+    {
+      "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Rust Supply-Chain Attack: arrayref 0.3.10 and the proc-macro1 Typosquat",
-      "url": "https://www.stepsecurity.io/blog/arrayref-rust-crate-supply-chain-attack",
+      "title": "Supply chain attack on arrayref",
+      "url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
       "discuss_url": "https://lobste.rs/s/dns8du",
-      "score": 8,
-      "comments": 1,
+      "score": 40,
+      "comments": 21,
       "author": "ohrv",
       "published": "2026-08-20T09:54:06Z"
     },
@@ -424,10 +388,22 @@
       "title": "How a joke domain purchase turned into geopolitical warfare",
       "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
       "discuss_url": "https://lobste.rs/s/sfi9te",
-      "score": 1,
-      "comments": 0,
+      "score": 35,
+      "comments": 2,
       "author": "zzkt",
       "published": "2026-08-20T12:21:41Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Open-sourcing OpenPubkey SSH (OPKSSH): integrating single sign-on with SSH",
+      "url": "https://www.ethanheilman.com/x/33/index.html",
+      "discuss_url": "https://lobste.rs/s/n7kpm6",
+      "score": 6,
+      "comments": 2,
+      "author": "EthanHeilman",
+      "published": "2026-08-20T15:24:43Z"
     },
     {
       "source": "lobsters",
@@ -436,7 +412,7 @@
       "title": "CSS: the bomb inside your inbox",
       "url": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
       "discuss_url": "https://lobste.rs/s/qo7eyx",
-      "score": 56,
+      "score": 57,
       "comments": 12,
       "author": "refp",
       "published": "2026-08-18T13:30:46Z"
@@ -457,18 +433,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Packing Malware in Rosetta 2",
-      "url": "https://kernelkennel.com/blog/summercon2026-rosetta/",
-      "discuss_url": "https://lobste.rs/s/ppvyr1",
-      "score": 5,
-      "comments": 0,
-      "author": "ombredog",
-      "published": "2026-08-19T22:05:09Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Passphrase-less reboots using kexec under NixOS",
       "url": "https://www.bevuta.com/en/blog/passphraseless-reboots-using-kexec/",
       "discuss_url": "https://lobste.rs/s/nrnwc6",
@@ -476,6 +440,18 @@
       "comments": 26,
       "author": "sjamaan",
       "published": "2026-08-17T09:53:54Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Packing Malware in Rosetta 2",
+      "url": "https://kernelkennel.com/blog/summercon2026-rosetta/",
+      "discuss_url": "https://lobste.rs/s/ppvyr1",
+      "score": 5,
+      "comments": 0,
+      "author": "ombredog",
+      "published": "2026-08-19T22:05:09Z"
     },
     {
       "source": "lobsters",
@@ -538,18 +514,6 @@
       "published": "2026-08-14T11:24:35Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
-      "url": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
-      "discuss_url": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-20T11:05:11Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
@@ -589,6 +553,42 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "Generative AI Inference Recommendation for Amazon SageMaker now available in the SageMaker AI Studio",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/generative-ai-inference-recommendation-for-amazon-sagemaker-now-available-in-the-sagemaker-ai-studio",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/generative-ai-inference-recommendation-for-amazon-sagemaker-now-available-in-the-sagemaker-ai-studio",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-20T17:25:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Direct Connect introduces inbound prefix controls and higher prefix scale",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-direct-connect-new-prefix-controls",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-direct-connect-new-prefix-controls",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-20T15:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Marketplace now supports category-based notifications and multi-channel delivery for partners",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-20T00:06:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Launching External Web Access for Web Search on Amazon Bedrock",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web-access-web-search/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web-access-web-search/",
@@ -608,6 +608,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-08-19T22:55:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 enables AMI creation with local snapshots from instances on Outposts",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/ec2-create-image-local-snapshot-outpost",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/ec2-create-image-local-snapshot-outpost",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-19T21:30:00Z"
     },
     {
       "source": "rss",
@@ -646,52 +658,64 @@
       "published": "2026-08-19T20:13:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Cost Anomaly Detection supports third-party models on Amazon Bedrock",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cost-anomaly-detection-bedrock-3P/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cost-anomaly-detection-bedrock-3P/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-19T17:57:00Z"
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "industry",
+      "title": "Stwipe Acquires OpenWouter",
+      "url": "https://stwipe.com/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49374738",
+      "score": 186,
+      "comments": 24,
+      "author": "eatonphil",
+      "published": "2026-08-20T14:04:46Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon OpenSearch Ingestion is now available in GovCloud Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-ingestion-available-govcloud-regions",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-ingestion-available-govcloud-regions",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Genesis joins the giant electric SUV club with new GV90",
+      "url": "https://arstechnica.com/cars/2026/08/genesis-joins-the-giant-electric-suv-club-with-new-gv90/",
+      "discuss_url": "https://arstechnica.com/cars/2026/08/genesis-joins-the-giant-electric-suv-club-with-new-gv90/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-19T17:54:00Z"
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-08-20T14:35:58Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Marketplace launches support for Amazon Lightsail",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-launch-ami-amazon-lightsail",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-launch-ami-amazon-lightsail",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "SpaceX’s orbital data centers would create a new category of e-waste",
+      "url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/",
+      "discuss_url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-19T17:04:00Z"
+      "author": "Scott K. Johnson",
+      "published": "2026-08-20T13:59:50Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS announces a new Availability Zone in the Europe (London) Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-new-availability-zone-europe/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-new-availability-zone-europe/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Reverse-lookup service exposed millions of photos of people’s faces",
+      "url": "https://arstechnica.com/gadgets/2026/08/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/08/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-19T17:00:00Z"
+      "author": "lily Hay Newman, Matt Burgess, WIRED.com",
+      "published": "2026-08-20T13:29:54Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Grok exfiltrates user data when malicious instructions are encrypted",
+      "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+      "discuss_url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+      "score": null,
+      "comments": null,
+      "author": "Dan Goodin",
+      "published": "2026-08-20T13:00:35Z"
     },
     {
       "source": "rss",
@@ -776,66 +800,6 @@
       "comments": null,
       "author": "Jennifer Ouellette",
       "published": "2026-08-19T17:06:06Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "mRNA cancer vaccine succeeded in Phase 3 melanoma trial, Moderna and Merck say",
-      "url": "https://arstechnica.com/health/2026/08/mrna-cancer-vaccine-succeeded-in-phase-3-melanoma-trial-moderna-and-merck-say/",
-      "discuss_url": "https://arstechnica.com/health/2026/08/mrna-cancer-vaccine-succeeded-in-phase-3-melanoma-trial-moderna-and-merck-say/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-08-19T16:53:56Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Google Pixel 11 series review: Is the magic fading?",
-      "url": "https://arstechnica.com/gadgets/2026/08/google-pixel-11-series-review-is-the-magic-fading/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/08/google-pixel-11-series-review-is-the-magic-fading/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-08-19T16:11:30Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Scientists find closest star to the Milky Way's central black hole",
-      "url": "https://arstechnica.com/science/2026/08/scientists-find-closest-star-to-the-milky-ways-central-black-hole/",
-      "discuss_url": "https://arstechnica.com/science/2026/08/scientists-find-closest-star-to-the-milky-ways-central-black-hole/",
-      "score": null,
-      "comments": null,
-      "author": "John Timmer",
-      "published": "2026-08-19T15:56:56Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Meta ran ads for an app promising to nudify female politicians",
-      "url": "https://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
-      "discuss_url": "https://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
-      "score": null,
-      "comments": null,
-      "author": "Vittoria Elliott, Matt Burgess",
-      "published": "2026-08-19T15:45:29Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Trump expected to pick conservative policy wonk Heidi Overton to lead FDA",
-      "url": "https://arstechnica.com/health/2026/08/trump-expected-to-pick-conservative-policy-wonk-heidi-overton-to-lead-fda/",
-      "discuss_url": "https://arstechnica.com/health/2026/08/trump-expected-to-pick-conservative-policy-wonk-heidi-overton-to-lead-fda/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-08-19T13:54:36Z"
     }
   ]
 }
