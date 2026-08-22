@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T01:23:04Z",
+  "updated_at": "2026-08-22T06:46:18Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
       "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
       "discuss_url": "https://news.ycombinator.com/item?id=49388752",
-      "score": 199,
-      "comments": 136,
+      "score": 242,
+      "comments": 172,
       "author": "aakil",
       "published": "2026-08-21T14:31:52Z",
       "bullets": [
-        "Claudette: Make Claude stop talking like a BuzzFeed article",
-        "Trending on news.ycombinator.com — 199 points, 136 comments.",
-        "Submitted by aakil on news.ycombinator.com."
+        "Provides targeted system prompting and API wrappers to eliminate Anthropic Claude's conversational fluff, sycophancy, and sensationalist tone.",
+        "Optimizes LLM token efficiency and output density by stripping unnecessary conversational preambles, disclaimers, and boilerplate text.",
+        "Addresses developer friction with default model personas, streamlining Claude 3.5 Sonnet outputs for programmatic and technical workflows."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Better Batteries",
       "url": "https://matklad.github.io/2026/08/20/better-batteries.html",
       "discuss_url": "https://lobste.rs/s/qxvz7f",
-      "score": 62,
-      "comments": 12,
+      "score": 66,
+      "comments": 13,
       "author": "olex",
       "published": "2026-08-21T07:47:50Z",
       "bullets": [
-        "Better Batteries",
-        "Trending on lobste.rs/programming — 62 points, 12 comments.",
-        "Submitted by olex on lobste.rs/programming."
+        "Standard library 'batteries-included' architectures face maintenance debt, prompting shifts toward modular, independently versioned core ecosystems.",
+        "Over-reliance on third-party package registries increases supply-chain vulnerabilities compared to vetted, first-party standard utilities.",
+        "Modern runtime design balances minimal core language distributions with officially maintained utility modules to sustain velocity."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
       "url": "https://lina.sh/blog/hijacking-e164-arpa",
       "discuss_url": "https://lobste.rs/s/dyswyz",
-      "score": 115,
+      "score": 130,
       "comments": 5,
       "author": "taavi",
       "published": "2026-08-21T12:05:00Z",
       "bullets": [
-        "I accidentally logged hundreds of thousands of phone calls to military bases",
-        "Trending on lobste.rs/security — 115 points, 5 comments.",
-        "Submitted by taavi on lobste.rs/security."
+        "Telecom misconfigurations and misdialed routing prefixes can redirect massive volumes of sensitive military PBX and VoIP traffic to unauthorized servers.",
+        "Inadvertent collection of call metadata like timestamps, caller IDs, and base extensions creates severe OPSEC vulnerabilities and operational intelligence leaks.",
+        "Organizations must audit SIP trunks, enforce mutual TLS, and implement anomaly detection to catch stray or hijacked telecommunications traffic."
       ]
     },
     {
@@ -88,13 +88,13 @@
       "title": "Codex on AWS bedrock bug causing 10x charges",
       "url": "https://github.com/openai/codex/issues/37674",
       "discuss_url": "https://news.ycombinator.com/item?id=49383326",
-      "score": 145,
+      "score": 146,
       "comments": 62,
       "author": "TheP1000",
       "published": "2026-08-21T03:17:43Z",
       "bullets": [
         "Codex on AWS bedrock bug causing 10x charges",
-        "Trending on news.ycombinator.com — 145 points, 62 comments.",
+        "Trending on news.ycombinator.com — 146 points, 62 comments.",
         "Submitted by TheP1000 on news.ycombinator.com."
       ]
     },
@@ -124,22 +124,10 @@
       "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
       "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
       "discuss_url": "https://news.ycombinator.com/item?id=49388752",
-      "score": 199,
-      "comments": 136,
+      "score": 242,
+      "comments": 172,
       "author": "aakil",
       "published": "2026-08-21T14:31:52Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Felony Bench: Be AI, Do Crime",
-      "url": "https://www.felonybench.com/",
-      "discuss_url": "https://lobste.rs/s/pywde0",
-      "score": 29,
-      "comments": 2,
-      "author": "pushcx",
-      "published": "2026-08-21T17:23:02Z"
     },
     {
       "source": "hackernews",
@@ -148,10 +136,22 @@
       "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
       "url": "https://github.com/zachahn/vomit",
       "discuss_url": "https://news.ycombinator.com/item?id=49375996",
-      "score": 295,
-      "comments": 290,
+      "score": 297,
+      "comments": 291,
       "author": "Bluestein",
       "published": "2026-08-20T15:26:02Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Felony Bench: Be AI, Do Crime",
+      "url": "https://www.felonybench.com/",
+      "discuss_url": "https://lobste.rs/s/pywde0",
+      "score": 33,
+      "comments": 3,
+      "author": "pushcx",
+      "published": "2026-08-21T17:23:02Z"
     },
     {
       "source": "lobsters",
@@ -244,8 +244,8 @@
       "title": "Better Batteries",
       "url": "https://matklad.github.io/2026/08/20/better-batteries.html",
       "discuss_url": "https://lobste.rs/s/qxvz7f",
-      "score": 62,
-      "comments": 12,
+      "score": 66,
+      "comments": 13,
       "author": "olex",
       "published": "2026-08-21T07:47:50Z"
     },
@@ -256,8 +256,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/ittn74",
       "discuss_url": "https://lobste.rs/s/ittn74",
-      "score": 11,
-      "comments": 21,
+      "score": 13,
+      "comments": 29,
       "author": "caius",
       "published": "2026-08-21T11:47:03Z"
     },
@@ -268,7 +268,7 @@
       "title": "Unfortunately you sometimes need to do the thing",
       "url": "https://griffinberlste.in/blog/do-the-thing/",
       "discuss_url": "https://lobste.rs/s/ry92nr",
-      "score": 8,
+      "score": 9,
       "comments": 0,
       "author": "pgn",
       "published": "2026-08-21T16:15:41Z"
@@ -281,7 +281,7 @@
       "url": "https://blog.vrypan.net/2026/08/19/260819-sing-song/",
       "discuss_url": "https://lobste.rs/s/wvwqro",
       "score": 30,
-      "comments": 30,
+      "comments": 31,
       "author": "vrypan",
       "published": "2026-08-19T20:28:07Z"
     },
@@ -388,7 +388,7 @@
       "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
       "url": "https://lina.sh/blog/hijacking-e164-arpa",
       "discuss_url": "https://lobste.rs/s/dyswyz",
-      "score": 115,
+      "score": 130,
       "comments": 5,
       "author": "taavi",
       "published": "2026-08-21T12:05:00Z"
@@ -400,8 +400,8 @@
       "title": "Supply chain attack on arrayref",
       "url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
       "discuss_url": "https://lobste.rs/s/dns8du",
-      "score": 85,
-      "comments": 50,
+      "score": 86,
+      "comments": 51,
       "author": "ohrv",
       "published": "2026-08-20T09:54:06Z"
     },
@@ -412,10 +412,22 @@
       "title": "How a joke domain purchase turned into geopolitical warfare",
       "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
       "discuss_url": "https://lobste.rs/s/sfi9te",
-      "score": 135,
+      "score": 139,
       "comments": 6,
       "author": "zzkt",
       "published": "2026-08-20T12:21:41Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Emacs Arbitrary Code Execution Returns",
+      "url": "https://eshelyaron.com/posts/2026-08-06-emacs-arbitrary-code-execution-returns.html",
+      "discuss_url": "https://lobste.rs/s/jdjb2a",
+      "score": 1,
+      "comments": 0,
+      "author": "rrampage",
+      "published": "2026-08-22T05:42:55Z"
     },
     {
       "source": "lobsters",
@@ -514,25 +526,13 @@
       "published": "2026-08-21T18:53:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
-      "url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
-      "discuss_url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-21T15:52:10Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Codex on AWS bedrock bug causing 10x charges",
       "url": "https://github.com/openai/codex/issues/37674",
       "discuss_url": "https://news.ycombinator.com/item?id=49383326",
-      "score": 145,
+      "score": 146,
       "comments": 62,
       "author": "TheP1000",
       "published": "2026-08-21T03:17:43Z"
@@ -572,6 +572,18 @@
       "comments": 0,
       "author": "wmurra",
       "published": "2026-08-20T02:50:44Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Bedrock announces reduced pricing for OpenAI GPT-5.6 Sol",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-openai-gpt-56-sol-reduced-pricing/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-openai-gpt-56-sol-reduced-pricing/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-21T20:11:00Z"
     },
     {
       "source": "rss",
@@ -652,18 +664,6 @@
       "title": "Amazon Timestream for InfluxDB now supports customer managed keys",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-cmk/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-cmk/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-20T20:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 C8gd, M8gd and R8gd instances are now available in additional AWS Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gd-m8gd/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gd-m8gd/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
