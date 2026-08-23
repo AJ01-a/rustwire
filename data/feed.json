@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T12:46:27Z",
+  "updated_at": "2026-08-23T18:34:03Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "Why your local LLM feels dumber than it is",
       "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
       "discuss_url": "https://news.ycombinator.com/item?id=49402232",
-      "score": 388,
-      "comments": 151,
+      "score": 417,
+      "comments": 171,
       "author": "felineflock",
       "published": "2026-08-22T18:14:16Z",
       "bullets": [
-        "Incorrect chat templates and missing special tokens (e.g., ChatML, Llama-3 tokens) silently break instruction-following and steerability in local runtimes.",
-        "Suboptimal sampling parameters—such as uncalibrated temperature, min_p, or context length clipping—severely degrade reasoning compared to API-hosted equivalents.",
-        "Aggressive quantization (e.g., 3-bit/4-bit GGUF or EXL2) disproportionately impairs complex reasoning and math compared to unquantized BF16 baselines."
+        "Chat template mismatches and missing special tokens in runtimes like llama.cpp drastically degrade model coherence and instruction-following.",
+        "Sub-4-bit quantization (e.g., GGUF Q4/Q3) disproportionately damages multi-step reasoning, context recall, and structured JSON output reliability.",
+        "Suboptimal sampler defaults—like aggressive repetition penalties or misconfigured temperature and min_p settings—artificially corrupt generation quality."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Are there any decent programs for pdf viewing and editing for Linux that replace Adobe Acrobat?",
-      "url": "https://lobste.rs/s/kxualw",
-      "discuss_url": "https://lobste.rs/s/kxualw",
-      "score": 1,
-      "comments": 0,
-      "author": "oceanhaiyang",
-      "published": "2026-08-23T12:08:25Z",
+      "title": "My favorite Computer Science books, and why",
+      "url": "https://backtracking.github.io/en/2020/02/20/cs-books.html",
+      "discuss_url": "https://lobste.rs/s/gybcec",
+      "score": 13,
+      "comments": 4,
+      "author": "jeanthomas",
+      "published": "2026-08-23T14:45:46Z",
       "bullets": [
-        "Linux lacks a comprehensive native Adobe Acrobat replacement that unifies viewing with inline image editing and outline management.",
-        "Existing desktop tooling on Linux typically isolates viewing and basic page manipulation from deep, content-level document editing.",
-        "PDF4QT offers partial support for advanced outline and image manipulation, but complete Acrobat feature parity remains absent on Linux."
+        "Foundational texts like SICP and CLRS reinforce essential algorithmic abstractions and computational thinking over transient framework-specific syntax.",
+        "Systems architecture books, including Kleppmann's DDIA, provide critical mental models for distributed reliability, consensus, and storage engines.",
+        "Deep dives into compilers, operating systems, and language theory provide higher long-term career ROI than chasing ephemeral software trends."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "And then the men with guns tell you to do it anyway",
       "url": "https://shkspr.mobi/blog/2026/08/and-then-the-men-with-guns-tell-you-to-do-it-anyway/",
       "discuss_url": "https://lobste.rs/s/u7v2sn",
-      "score": 4,
-      "comments": 0,
+      "score": 51,
+      "comments": 8,
       "author": "rrampage",
       "published": "2026-08-23T12:15:54Z",
       "bullets": [
-        "Cryptographic controls and technical safeguards fail when state actors apply direct legal compulsion, physical coercion, or regulatory enforcement mandates.",
-        "Threat modeling must encompass rubber-hose cryptanalysis, national security letters, and lawful intercept requirements alongside technical vulnerabilities.",
-        "Mitigating sovereign and physical coercion requires zero-knowledge architectures, decentralized key management, and ephemeral data retention policies."
+        "Technical threat models frequently fail by prioritizing mathematical cryptography over physical coercion and state-level legal authority.",
+        "Government compulsion and lawful interception bypass technical access controls whenever organizations retain administrative custody or escrowed encryption keys.",
+        "Zero-knowledge architectures and client-side encryption mitigate coercion risks by ensuring operators are technically incapable of complying with compelled decryption."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "wmurra",
       "published": "2026-08-20T02:50:44Z",
       "bullets": [
-        "Identifies undeclared host dependencies and environment leaks across Bazel build action graphs to enforce strict build hermeticity.",
-        "Helps CI/CD pipelines prevent non-reproducible artifacts caused by implicit host binaries, ambient network access, or untracked state.",
-        "Complements Bazel sandboxing and remote execution by automating audits of custom rules and toolchains for cross-platform reproducibility."
+        "Ahab: Hermeticity Analyzer for Bazel",
+        "Trending on lobste.rs/devops — 1 points, 0 comments.",
+        "Submitted by wmurra on lobste.rs/devops."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Volcanoes that made history",
-      "url": "https://arstechnica.com/science/2026/08/volcanoes-that-made-history/",
-      "discuss_url": "https://arstechnica.com/science/2026/08/volcanoes-that-made-history/",
+      "title": "Due to need for 'absolute success,' China delays critical Moon launch to 2027",
+      "url": "https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027/",
+      "discuss_url": "https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027/",
       "score": null,
       "comments": null,
-      "author": "Alexandra Witze, Knowable Magazine",
-      "published": "2026-08-23T11:02:54Z",
+      "author": "Eric Berger",
+      "published": "2026-08-23T14:30:16Z",
       "bullets": [
-        "Enormous eruptions altered Earth’s climate and societies all over the globe.",
-        "Volcanoes that made history",
-        "Submitted by Alexandra Witze, Knowable Magazine on arstechnica.com."
+        "\"The Chang’e 7 mission does not meet the conditions for launch.\"",
+        "Due to need for 'absolute success,' China delays critical Moon launch to 2027",
+        "Submitted by Eric Berger on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Why your local LLM feels dumber than it is",
       "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
       "discuss_url": "https://news.ycombinator.com/item?id=49402232",
-      "score": 388,
-      "comments": 151,
+      "score": 417,
+      "comments": 171,
       "author": "felineflock",
       "published": "2026-08-22T18:14:16Z"
     },
@@ -136,8 +136,8 @@
       "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
       "url": "https://twitter.com/argofowl/status/2091150597374537729",
       "discuss_url": "https://news.ycombinator.com/item?id=49401549",
-      "score": 195,
-      "comments": 174,
+      "score": 196,
+      "comments": 175,
       "author": "matthieu_bl",
       "published": "2026-08-22T16:58:49Z"
     },
@@ -148,22 +148,10 @@
       "title": "A week of using Codex more than Claude",
       "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
       "discuss_url": "https://news.ycombinator.com/item?id=49393051",
-      "score": 214,
-      "comments": 236,
+      "score": 230,
+      "comments": 244,
       "author": "speckx",
       "published": "2026-08-21T19:51:48Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
-      "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
-      "discuss_url": "https://news.ycombinator.com/item?id=49388752",
-      "score": 352,
-      "comments": 235,
-      "author": "aakil",
-      "published": "2026-08-21T14:31:52Z"
     },
     {
       "source": "lobsters",
@@ -172,7 +160,7 @@
       "title": "Robot comment classifier",
       "url": "https://entropicthoughts.com/ai-comment-classifier",
       "discuss_url": "https://lobste.rs/s/ilfiqa",
-      "score": 7,
+      "score": 8,
       "comments": 5,
       "author": "kqr",
       "published": "2026-08-22T10:18:39Z"
@@ -265,11 +253,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "My favorite Computer Science books, and why",
+      "url": "https://backtracking.github.io/en/2020/02/20/cs-books.html",
+      "discuss_url": "https://lobste.rs/s/gybcec",
+      "score": 13,
+      "comments": 4,
+      "author": "jeanthomas",
+      "published": "2026-08-23T14:45:46Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Are there any decent programs for pdf viewing and editing for Linux that replace Adobe Acrobat?",
       "url": "https://lobste.rs/s/kxualw",
       "discuss_url": "https://lobste.rs/s/kxualw",
-      "score": 1,
-      "comments": 0,
+      "score": 15,
+      "comments": 10,
       "author": "oceanhaiyang",
       "published": "2026-08-23T12:08:25Z"
     },
@@ -280,7 +280,7 @@
       "title": "Better Batteries",
       "url": "https://matklad.github.io/2026/08/20/better-batteries.html",
       "discuss_url": "https://lobste.rs/s/qxvz7f",
-      "score": 74,
+      "score": 77,
       "comments": 20,
       "author": "olex",
       "published": "2026-08-21T07:47:50Z"
@@ -337,18 +337,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Geolocating Random Islet Image Using Geometry & CUDA GPU Programming",
-      "url": "https://yassa9.github.io/osint/gralhix-004/",
-      "discuss_url": "https://lobste.rs/s/th7q3y",
-      "score": 8,
-      "comments": 0,
-      "author": "dhruvp",
-      "published": "2026-08-19T14:17:38Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Rewriting in Rust: Performance, Failures, 2026 Reality Check",
       "url": "https://blog.jetbrains.com/rust/2026/08/10/rewriting-in-rust/",
       "discuss_url": "https://lobste.rs/s/bmdiuz",
@@ -356,18 +344,6 @@
       "comments": 0,
       "author": "lvmbdv",
       "published": "2026-08-20T07:11:55Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Declarative systems and sources of truth",
-      "url": "https://byronsharman.com/blog/declarative-systems-and-sources-of-truth",
-      "discuss_url": "https://lobste.rs/s/tuhmlb",
-      "score": 3,
-      "comments": 0,
-      "author": "elijahpotter",
-      "published": "2026-08-19T14:22:02Z"
     },
     {
       "source": "lobsters",
@@ -406,14 +382,26 @@
       "published": "2026-08-19T17:50:23Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
+      "score": null,
+      "comments": null,
+      "author": "Ayan Gupta",
+      "published": "2026-08-17T16:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "And then the men with guns tell you to do it anyway",
       "url": "https://shkspr.mobi/blog/2026/08/and-then-the-men-with-guns-tell-you-to-do-it-anyway/",
       "discuss_url": "https://lobste.rs/s/u7v2sn",
-      "score": 4,
-      "comments": 0,
+      "score": 51,
+      "comments": 8,
       "author": "rrampage",
       "published": "2026-08-23T12:15:54Z"
     },
@@ -424,7 +412,7 @@
       "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
       "url": "https://lina.sh/blog/hijacking-e164-arpa",
       "discuss_url": "https://lobste.rs/s/dyswyz",
-      "score": 167,
+      "score": 169,
       "comments": 6,
       "author": "taavi",
       "published": "2026-08-21T12:05:00Z"
@@ -697,6 +685,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "Due to need for 'absolute success,' China delays critical Moon launch to 2027",
+      "url": "https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027/",
+      "discuss_url": "https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-08-23T14:30:16Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "Volcanoes that made history",
       "url": "https://arstechnica.com/science/2026/08/volcanoes-that-made-history/",
       "discuss_url": "https://arstechnica.com/science/2026/08/volcanoes-that-made-history/",
@@ -824,18 +824,6 @@
       "comments": null,
       "author": "Ashley Belanger",
       "published": "2026-08-21T16:38:25Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
-      "url": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/",
-      "discuss_url": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/",
-      "score": null,
-      "comments": null,
-      "author": "Rafe Rosner Uddin and Michael Taffe, Financial Times",
-      "published": "2026-08-21T13:11:35Z"
     }
   ]
 }
