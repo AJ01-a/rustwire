@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T01:36:42Z",
+  "updated_at": "2026-08-23T06:46:20Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Why your local LLM feels dumber than it is",
       "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
       "discuss_url": "https://news.ycombinator.com/item?id=49402232",
-      "score": 176,
-      "comments": 58,
+      "score": 280,
+      "comments": 92,
       "author": "felineflock",
       "published": "2026-08-22T18:14:16Z",
       "bullets": [
-        "Why your local LLM feels dumber than it is",
-        "Trending on news.ycombinator.com — 176 points, 58 comments.",
-        "Submitted by felineflock on news.ycombinator.com."
+        "Aggressive 3-bit and 4-bit quantizations like GGUF or AWQ significantly degrade complex reasoning compared to full FP16/BF16 precision.",
+        "Mismatched chat templates or missing special tokenizer tokens silently corrupt prompt formatting, severely breaking instruction-following behavior.",
+        "Suboptimal runtime sampler configs, such as aggressive repetition penalties and low context window limits, artificially cripple output quality."
       ]
     },
     {
@@ -55,12 +55,12 @@
       "url": "https://matklad.github.io/2026/08/20/better-batteries.html",
       "discuss_url": "https://lobste.rs/s/qxvz7f",
       "score": 74,
-      "comments": 19,
+      "comments": 20,
       "author": "olex",
       "published": "2026-08-21T07:47:50Z",
       "bullets": [
         "Better Batteries",
-        "Trending on lobste.rs/programming — 74 points, 19 comments.",
+        "Trending on lobste.rs/programming — 74 points, 20 comments.",
         "Submitted by olex on lobste.rs/programming."
       ]
     },
@@ -71,31 +71,31 @@
       "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
       "url": "https://lina.sh/blog/hijacking-e164-arpa",
       "discuss_url": "https://lobste.rs/s/dyswyz",
-      "score": 162,
+      "score": 164,
       "comments": 6,
       "author": "taavi",
       "published": "2026-08-21T12:05:00Z",
       "bullets": [
         "I accidentally logged hundreds of thousands of phone calls to military bases",
-        "Trending on lobste.rs/security — 162 points, 6 comments.",
+        "Trending on lobste.rs/security — 164 points, 6 comments.",
         "Submitted by taavi on lobste.rs/security."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "Codex on AWS bedrock bug causing 10x charges",
-      "url": "https://github.com/openai/codex/issues/37674",
-      "discuss_url": "https://news.ycombinator.com/item?id=49383326",
-      "score": 148,
-      "comments": 64,
-      "author": "TheP1000",
-      "published": "2026-08-21T03:17:43Z",
+      "title": "Ahab: Hermeticity Analyzer for Bazel",
+      "url": "https://markkarpov.com/post/announcing-ahab",
+      "discuss_url": "https://lobste.rs/s/lt0cqn",
+      "score": 1,
+      "comments": 0,
+      "author": "wmurra",
+      "published": "2026-08-20T02:50:44Z",
       "bullets": [
-        "Codex on AWS bedrock bug causing 10x charges",
-        "Trending on news.ycombinator.com — 148 points, 64 comments.",
-        "Submitted by TheP1000 on news.ycombinator.com."
+        "Ahab: Hermeticity Analyzer for Bazel",
+        "Trending on lobste.rs/devops — 1 points, 0 comments.",
+        "Submitted by wmurra on lobste.rs/devops."
       ]
     },
     {
@@ -124,8 +124,8 @@
       "title": "Why your local LLM feels dumber than it is",
       "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
       "discuss_url": "https://news.ycombinator.com/item?id=49402232",
-      "score": 176,
-      "comments": 58,
+      "score": 280,
+      "comments": 92,
       "author": "felineflock",
       "published": "2026-08-22T18:14:16Z"
     },
@@ -136,22 +136,10 @@
       "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
       "url": "https://twitter.com/argofowl/status/2091150597374537729",
       "discuss_url": "https://news.ycombinator.com/item?id=49401549",
-      "score": 163,
-      "comments": 154,
+      "score": 181,
+      "comments": 166,
       "author": "matthieu_bl",
       "published": "2026-08-22T16:58:49Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
-      "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
-      "discuss_url": "https://news.ycombinator.com/item?id=49388752",
-      "score": 347,
-      "comments": 232,
-      "author": "aakil",
-      "published": "2026-08-21T14:31:52Z"
     },
     {
       "source": "hackernews",
@@ -160,10 +148,22 @@
       "title": "A week of using Codex more than Claude",
       "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
       "discuss_url": "https://news.ycombinator.com/item?id=49393051",
-      "score": 130,
-      "comments": 130,
+      "score": 179,
+      "comments": 194,
       "author": "speckx",
       "published": "2026-08-21T19:51:48Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
+      "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+      "discuss_url": "https://news.ycombinator.com/item?id=49388752",
+      "score": 350,
+      "comments": 233,
+      "author": "aakil",
+      "published": "2026-08-21T14:31:52Z"
     },
     {
       "source": "lobsters",
@@ -172,8 +172,8 @@
       "title": "Robot comment classifier",
       "url": "https://entropicthoughts.com/ai-comment-classifier",
       "discuss_url": "https://lobste.rs/s/ilfiqa",
-      "score": 4,
-      "comments": 2,
+      "score": 7,
+      "comments": 4,
       "author": "kqr",
       "published": "2026-08-22T10:18:39Z"
     },
@@ -269,7 +269,7 @@
       "url": "https://matklad.github.io/2026/08/20/better-batteries.html",
       "discuss_url": "https://lobste.rs/s/qxvz7f",
       "score": 74,
-      "comments": 19,
+      "comments": 20,
       "author": "olex",
       "published": "2026-08-21T07:47:50Z"
     },
@@ -292,7 +292,7 @@
       "title": "Unfortunately you sometimes need to do the thing",
       "url": "https://griffinberlste.in/blog/do-the-thing/",
       "discuss_url": "https://lobste.rs/s/ry92nr",
-      "score": 19,
+      "score": 20,
       "comments": 2,
       "author": "pgn",
       "published": "2026-08-21T16:15:41Z"
@@ -412,22 +412,10 @@
       "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
       "url": "https://lina.sh/blog/hijacking-e164-arpa",
       "discuss_url": "https://lobste.rs/s/dyswyz",
-      "score": 162,
+      "score": 164,
       "comments": 6,
       "author": "taavi",
       "published": "2026-08-21T12:05:00Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "InjectionBunny, a NTFS3 SUID injection for privilege escalation",
-      "url": "https://lore.kernel.org/ntfs3/CAGBKPgPiXyKWtjgYSACnugmG1XPs=mPg-Zu-xQziUZ1k921+qA@mail.gmail.com/T/#mc251816dfcb7d4dcbf07368f0d288dbfb1b8e1c9",
-      "discuss_url": "https://lobste.rs/s/2mvgzt",
-      "score": 4,
-      "comments": 2,
-      "author": "alemi",
-      "published": "2026-08-22T15:25:07Z"
     },
     {
       "source": "lobsters",
@@ -448,7 +436,7 @@
       "title": "How a joke domain purchase turned into geopolitical warfare",
       "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
       "discuss_url": "https://lobste.rs/s/sfi9te",
-      "score": 144,
+      "score": 146,
       "comments": 7,
       "author": "zzkt",
       "published": "2026-08-20T12:21:41Z"
@@ -457,10 +445,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "InjectionBunny, a NTFS3 SUID injection for privilege escalation",
+      "url": "https://lore.kernel.org/ntfs3/CAGBKPgPiXyKWtjgYSACnugmG1XPs=mPg-Zu-xQziUZ1k921+qA@mail.gmail.com/T/#mc251816dfcb7d4dcbf07368f0d288dbfb1b8e1c9",
+      "discuss_url": "https://lobste.rs/s/2mvgzt",
+      "score": 3,
+      "comments": 2,
+      "author": "alemi",
+      "published": "2026-08-22T15:25:07Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Open-sourcing OpenPubkey SSH (OPKSSH): integrating single sign-on with SSH",
       "url": "https://www.ethanheilman.com/x/33/index.html",
       "discuss_url": "https://lobste.rs/s/n7kpm6",
-      "score": 21,
+      "score": 24,
       "comments": 16,
       "author": "EthanHeilman",
       "published": "2026-08-20T15:24:43Z"
@@ -472,10 +472,22 @@
       "title": "Stalking the Wily Hacker: 40 years later",
       "url": "https://youtu.be/656058JxTM0",
       "discuss_url": "https://lobste.rs/s/r77bda",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "gir",
       "published": "2026-08-22T13:48:24Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Emacs Arbitrary Code Execution Returns",
+      "url": "https://eshelyaron.com/posts/2026-08-06-emacs-arbitrary-code-execution-returns.html",
+      "discuss_url": "https://lobste.rs/s/jdjb2a",
+      "score": 2,
+      "comments": 0,
+      "author": "rrampage",
+      "published": "2026-08-22T05:42:55Z"
     },
     {
       "source": "lobsters",
@@ -488,18 +500,6 @@
       "comments": 0,
       "author": "ombredog",
       "published": "2026-08-19T22:05:09Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Emacs Arbitrary Code Execution Returns",
-      "url": "https://eshelyaron.com/posts/2026-08-06-emacs-arbitrary-code-execution-returns.html",
-      "discuss_url": "https://lobste.rs/s/jdjb2a",
-      "score": 1,
-      "comments": 0,
-      "author": "rrampage",
-      "published": "2026-08-22T05:42:55Z"
     },
     {
       "source": "lobsters",
@@ -548,30 +548,6 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-08-21T18:53:00Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "devops",
-      "title": "Codex on AWS bedrock bug causing 10x charges",
-      "url": "https://github.com/openai/codex/issues/37674",
-      "discuss_url": "https://news.ycombinator.com/item?id=49383326",
-      "score": 148,
-      "comments": 64,
-      "author": "TheP1000",
-      "published": "2026-08-21T03:17:43Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "Fargate Is Not Firecracker (2024)",
-      "url": "https://justingarrison.com/blog/2024-02-08-fargate-is-not-firecracker/",
-      "discuss_url": "https://lobste.rs/s/qrbu3o",
-      "score": 15,
-      "comments": 1,
-      "author": "frogulis",
-      "published": "2026-08-19T06:42:07Z"
     },
     {
       "source": "lobsters",
@@ -692,6 +668,30 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-08-20T20:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 P6-B300 instances are now available in the Asia Pacific (Seoul) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-p6-b300/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-p6-b300/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-20T18:31:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EKS now supports certificate authority (CA) rotation with automated lifecycle management",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-08-20T18:30:00Z"
     },
     {
       "source": "rss",
