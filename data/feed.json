@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T06:46:20Z",
+  "updated_at": "2026-08-23T12:46:27Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,48 +37,48 @@
       "title": "Why your local LLM feels dumber than it is",
       "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
       "discuss_url": "https://news.ycombinator.com/item?id=49402232",
-      "score": 280,
-      "comments": 92,
+      "score": 388,
+      "comments": 151,
       "author": "felineflock",
       "published": "2026-08-22T18:14:16Z",
       "bullets": [
-        "Aggressive 3-bit and 4-bit quantizations like GGUF or AWQ significantly degrade complex reasoning compared to full FP16/BF16 precision.",
-        "Mismatched chat templates or missing special tokenizer tokens silently corrupt prompt formatting, severely breaking instruction-following behavior.",
-        "Suboptimal runtime sampler configs, such as aggressive repetition penalties and low context window limits, artificially cripple output quality."
+        "Incorrect chat templates and missing special tokens (e.g., ChatML, Llama-3 tokens) silently break instruction-following and steerability in local runtimes.",
+        "Suboptimal sampling parameters—such as uncalibrated temperature, min_p, or context length clipping—severely degrade reasoning compared to API-hosted equivalents.",
+        "Aggressive quantization (e.g., 3-bit/4-bit GGUF or EXL2) disproportionately impairs complex reasoning and math compared to unquantized BF16 baselines."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Better Batteries",
-      "url": "https://matklad.github.io/2026/08/20/better-batteries.html",
-      "discuss_url": "https://lobste.rs/s/qxvz7f",
-      "score": 74,
-      "comments": 20,
-      "author": "olex",
-      "published": "2026-08-21T07:47:50Z",
+      "title": "Are there any decent programs for pdf viewing and editing for Linux that replace Adobe Acrobat?",
+      "url": "https://lobste.rs/s/kxualw",
+      "discuss_url": "https://lobste.rs/s/kxualw",
+      "score": 1,
+      "comments": 0,
+      "author": "oceanhaiyang",
+      "published": "2026-08-23T12:08:25Z",
       "bullets": [
-        "Better Batteries",
-        "Trending on lobste.rs/programming — 74 points, 20 comments.",
-        "Submitted by olex on lobste.rs/programming."
+        "Linux lacks a comprehensive native Adobe Acrobat replacement that unifies viewing with inline image editing and outline management.",
+        "Existing desktop tooling on Linux typically isolates viewing and basic page manipulation from deep, content-level document editing.",
+        "PDF4QT offers partial support for advanced outline and image manipulation, but complete Acrobat feature parity remains absent on Linux."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
-      "url": "https://lina.sh/blog/hijacking-e164-arpa",
-      "discuss_url": "https://lobste.rs/s/dyswyz",
-      "score": 164,
-      "comments": 6,
-      "author": "taavi",
-      "published": "2026-08-21T12:05:00Z",
+      "title": "And then the men with guns tell you to do it anyway",
+      "url": "https://shkspr.mobi/blog/2026/08/and-then-the-men-with-guns-tell-you-to-do-it-anyway/",
+      "discuss_url": "https://lobste.rs/s/u7v2sn",
+      "score": 4,
+      "comments": 0,
+      "author": "rrampage",
+      "published": "2026-08-23T12:15:54Z",
       "bullets": [
-        "I accidentally logged hundreds of thousands of phone calls to military bases",
-        "Trending on lobste.rs/security — 164 points, 6 comments.",
-        "Submitted by taavi on lobste.rs/security."
+        "Cryptographic controls and technical safeguards fail when state actors apply direct legal compulsion, physical coercion, or regulatory enforcement mandates.",
+        "Threat modeling must encompass rubber-hose cryptanalysis, national security letters, and lawful intercept requirements alongside technical vulnerabilities.",
+        "Mitigating sovereign and physical coercion requires zero-knowledge architectures, decentralized key management, and ephemeral data retention policies."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "wmurra",
       "published": "2026-08-20T02:50:44Z",
       "bullets": [
-        "Ahab: Hermeticity Analyzer for Bazel",
-        "Trending on lobste.rs/devops — 1 points, 0 comments.",
-        "Submitted by wmurra on lobste.rs/devops."
+        "Identifies undeclared host dependencies and environment leaks across Bazel build action graphs to enforce strict build hermeticity.",
+        "Helps CI/CD pipelines prevent non-reproducible artifacts caused by implicit host binaries, ambient network access, or untracked state.",
+        "Complements Bazel sandboxing and remote execution by automating audits of custom rules and toolchains for cross-platform reproducibility."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Putting mice into hibernation causes a major loss of synapses",
-      "url": "https://arstechnica.com/science/2026/08/memories-stick-around-even-after-half-the-synapses-are-gone/",
-      "discuss_url": "https://arstechnica.com/science/2026/08/memories-stick-around-even-after-half-the-synapses-are-gone/",
+      "title": "Volcanoes that made history",
+      "url": "https://arstechnica.com/science/2026/08/volcanoes-that-made-history/",
+      "discuss_url": "https://arstechnica.com/science/2026/08/volcanoes-that-made-history/",
       "score": null,
       "comments": null,
-      "author": "Jacek Krywko",
-      "published": "2026-08-22T11:22:32Z",
+      "author": "Alexandra Witze, Knowable Magazine",
+      "published": "2026-08-23T11:02:54Z",
       "bullets": [
-        "Hibernation cuts down on synapses, but mice seem to retain memories anyway.",
-        "Putting mice into hibernation causes a major loss of synapses",
-        "Submitted by Jacek Krywko on arstechnica.com."
+        "Enormous eruptions altered Earth’s climate and societies all over the globe.",
+        "Volcanoes that made history",
+        "Submitted by Alexandra Witze, Knowable Magazine on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Why your local LLM feels dumber than it is",
       "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
       "discuss_url": "https://news.ycombinator.com/item?id=49402232",
-      "score": 280,
-      "comments": 92,
+      "score": 388,
+      "comments": 151,
       "author": "felineflock",
       "published": "2026-08-22T18:14:16Z"
     },
@@ -136,8 +136,8 @@
       "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
       "url": "https://twitter.com/argofowl/status/2091150597374537729",
       "discuss_url": "https://news.ycombinator.com/item?id=49401549",
-      "score": 181,
-      "comments": 166,
+      "score": 195,
+      "comments": 174,
       "author": "matthieu_bl",
       "published": "2026-08-22T16:58:49Z"
     },
@@ -148,8 +148,8 @@
       "title": "A week of using Codex more than Claude",
       "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
       "discuss_url": "https://news.ycombinator.com/item?id=49393051",
-      "score": 179,
-      "comments": 194,
+      "score": 214,
+      "comments": 236,
       "author": "speckx",
       "published": "2026-08-21T19:51:48Z"
     },
@@ -160,8 +160,8 @@
       "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
       "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
       "discuss_url": "https://news.ycombinator.com/item?id=49388752",
-      "score": 350,
-      "comments": 233,
+      "score": 352,
+      "comments": 235,
       "author": "aakil",
       "published": "2026-08-21T14:31:52Z"
     },
@@ -173,7 +173,7 @@
       "url": "https://entropicthoughts.com/ai-comment-classifier",
       "discuss_url": "https://lobste.rs/s/ilfiqa",
       "score": 7,
-      "comments": 4,
+      "comments": 5,
       "author": "kqr",
       "published": "2026-08-22T10:18:39Z"
     },
@@ -265,6 +265,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Are there any decent programs for pdf viewing and editing for Linux that replace Adobe Acrobat?",
+      "url": "https://lobste.rs/s/kxualw",
+      "discuss_url": "https://lobste.rs/s/kxualw",
+      "score": 1,
+      "comments": 0,
+      "author": "oceanhaiyang",
+      "published": "2026-08-23T12:08:25Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Better Batteries",
       "url": "https://matklad.github.io/2026/08/20/better-batteries.html",
       "discuss_url": "https://lobste.rs/s/qxvz7f",
@@ -308,18 +320,6 @@
       "comments": 32,
       "author": "vrypan",
       "published": "2026-08-19T20:28:07Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "a filename when none exists",
-      "url": "https://daniel.haxx.se/blog/2024/08/19/a-filename-when-none-exists/",
-      "discuss_url": "https://lobste.rs/s/xftgtd",
-      "score": 27,
-      "comments": 15,
-      "author": "lvmbdv",
-      "published": "2026-08-19T07:29:33Z"
     },
     {
       "source": "lobsters",
@@ -409,10 +409,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "And then the men with guns tell you to do it anyway",
+      "url": "https://shkspr.mobi/blog/2026/08/and-then-the-men-with-guns-tell-you-to-do-it-anyway/",
+      "discuss_url": "https://lobste.rs/s/u7v2sn",
+      "score": 4,
+      "comments": 0,
+      "author": "rrampage",
+      "published": "2026-08-23T12:15:54Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
       "url": "https://lina.sh/blog/hijacking-e164-arpa",
       "discuss_url": "https://lobste.rs/s/dyswyz",
-      "score": 164,
+      "score": 167,
       "comments": 6,
       "author": "taavi",
       "published": "2026-08-21T12:05:00Z"
@@ -424,7 +436,7 @@
       "title": "Supply chain attack on arrayref",
       "url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
       "discuss_url": "https://lobste.rs/s/dns8du",
-      "score": 88,
+      "score": 89,
       "comments": 56,
       "author": "ohrv",
       "published": "2026-08-20T09:54:06Z"
@@ -445,18 +457,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "InjectionBunny, a NTFS3 SUID injection for privilege escalation",
-      "url": "https://lore.kernel.org/ntfs3/CAGBKPgPiXyKWtjgYSACnugmG1XPs=mPg-Zu-xQziUZ1k921+qA@mail.gmail.com/T/#mc251816dfcb7d4dcbf07368f0d288dbfb1b8e1c9",
-      "discuss_url": "https://lobste.rs/s/2mvgzt",
-      "score": 3,
-      "comments": 2,
-      "author": "alemi",
-      "published": "2026-08-22T15:25:07Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Open-sourcing OpenPubkey SSH (OPKSSH): integrating single sign-on with SSH",
       "url": "https://www.ethanheilman.com/x/33/index.html",
       "discuss_url": "https://lobste.rs/s/n7kpm6",
@@ -464,6 +464,18 @@
       "comments": 16,
       "author": "EthanHeilman",
       "published": "2026-08-20T15:24:43Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "InjectionBunny, a NTFS3 SUID injection for privilege escalation",
+      "url": "https://lore.kernel.org/ntfs3/CAGBKPgPiXyKWtjgYSACnugmG1XPs=mPg-Zu-xQziUZ1k921+qA@mail.gmail.com/T/#mc251816dfcb7d4dcbf07368f0d288dbfb1b8e1c9",
+      "discuss_url": "https://lobste.rs/s/2mvgzt",
+      "score": 2,
+      "comments": 2,
+      "author": "alemi",
+      "published": "2026-08-22T15:25:07Z"
     },
     {
       "source": "lobsters",
@@ -512,18 +524,6 @@
       "comments": 0,
       "author": "thang",
       "published": "2026-08-20T02:43:00Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Bypassing Signature Verification in U-Boot SPL",
-      "url": "https://www.binarly.io/blog/signature-verification-bypass-in-u-boot-spl",
-      "discuss_url": "https://lobste.rs/s/luokuk",
-      "score": 1,
-      "comments": 0,
-      "author": "ombredog",
-      "published": "2026-08-19T07:57:09Z"
     },
     {
       "source": "rss",
@@ -697,6 +697,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "Volcanoes that made history",
+      "url": "https://arstechnica.com/science/2026/08/volcanoes-that-made-history/",
+      "discuss_url": "https://arstechnica.com/science/2026/08/volcanoes-that-made-history/",
+      "score": null,
+      "comments": null,
+      "author": "Alexandra Witze, Knowable Magazine",
+      "published": "2026-08-23T11:02:54Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "Putting mice into hibernation causes a major loss of synapses",
       "url": "https://arstechnica.com/science/2026/08/memories-stick-around-even-after-half-the-synapses-are-gone/",
       "discuss_url": "https://arstechnica.com/science/2026/08/memories-stick-around-even-after-half-the-synapses-are-gone/",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Rafe Rosner Uddin and Michael Taffe, Financial Times",
       "published": "2026-08-21T13:11:35Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "As demand for Meta AI glasses explodes, it’s harder to avoid creepy recordings",
-      "url": "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-08-21T11:00:53Z"
     }
   ]
 }
