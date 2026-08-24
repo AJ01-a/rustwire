@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T18:34:03Z",
+  "updated_at": "2026-08-24T01:36:07Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -42,9 +42,9 @@
       "author": "felineflock",
       "published": "2026-08-22T18:14:16Z",
       "bullets": [
-        "Chat template mismatches and missing special tokens in runtimes like llama.cpp drastically degrade model coherence and instruction-following.",
-        "Sub-4-bit quantization (e.g., GGUF Q4/Q3) disproportionately damages multi-step reasoning, context recall, and structured JSON output reliability.",
-        "Suboptimal sampler defaults—like aggressive repetition penalties or misconfigured temperature and min_p settings—artificially corrupt generation quality."
+        "Mismatched chat templates (e.g., ChatML vs. Llama 3 syntax) silently degrade local model reasoning compared to cloud API defaults.",
+        "Aggressive sub-4-bit quantization (Q2_K/Q3_K) breaks complex reasoning; maintain at least Q4_K_M or Q8_0 precision for production tasks.",
+        "Misconfigured sampling parameters, improper RoPE context scaling, and missing system prompts frequently cripple local inference quality in llama.cpp."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "My favorite Computer Science books, and why",
       "url": "https://backtracking.github.io/en/2020/02/20/cs-books.html",
       "discuss_url": "https://lobste.rs/s/gybcec",
-      "score": 13,
-      "comments": 4,
+      "score": 23,
+      "comments": 8,
       "author": "jeanthomas",
       "published": "2026-08-23T14:45:46Z",
       "bullets": [
-        "Foundational texts like SICP and CLRS reinforce essential algorithmic abstractions and computational thinking over transient framework-specific syntax.",
-        "Systems architecture books, including Kleppmann's DDIA, provide critical mental models for distributed reliability, consensus, and storage engines.",
-        "Deep dives into compilers, operating systems, and language theory provide higher long-term career ROI than chasing ephemeral software trends."
+        "Foundational texts emphasize core distributed systems, operating system internals, and compiler design over transient, framework-specific documentation.",
+        "Seminal works like DDIA, SICP, and Crafting Interpreters bridge abstract computer science theory with scalable production engineering.",
+        "Prioritizing algorithmic complexity, database internals, and concurrency primitives accelerates long-term technical problem-solving and architectural decision-making."
       ]
     },
     {
@@ -71,31 +71,31 @@
       "title": "And then the men with guns tell you to do it anyway",
       "url": "https://shkspr.mobi/blog/2026/08/and-then-the-men-with-guns-tell-you-to-do-it-anyway/",
       "discuss_url": "https://lobste.rs/s/u7v2sn",
-      "score": 51,
-      "comments": 8,
+      "score": 76,
+      "comments": 17,
       "author": "rrampage",
       "published": "2026-08-23T12:15:54Z",
       "bullets": [
-        "Technical threat models frequently fail by prioritizing mathematical cryptography over physical coercion and state-level legal authority.",
-        "Government compulsion and lawful interception bypass technical access controls whenever organizations retain administrative custody or escrowed encryption keys.",
-        "Zero-knowledge architectures and client-side encryption mitigate coercion risks by ensuring operators are technically incapable of complying with compelled decryption."
+        "Cryptographic security models fundamentally fail against state-level physical coercion, legal compulsion, and sovereign jurisdictional mandates.",
+        "Mitigate single-point coercion risks by implementing threshold cryptography, multi-party computation, and zero-knowledge architectures that prevent unilateral key access.",
+        "Threat modeling must encompass legal risk, warrant canaries, and out-of-band regulatory backdoors alongside conventional adversarial attack vectors."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "Ahab: Hermeticity Analyzer for Bazel",
-      "url": "https://markkarpov.com/post/announcing-ahab",
-      "discuss_url": "https://lobste.rs/s/lt0cqn",
-      "score": 1,
+      "title": "Wild AI-related reliability incidents are coming",
+      "url": "https://surfingcomplexity.blog/2026/08/22/wild-ai-related-reliability-incidents-are-coming/",
+      "discuss_url": "https://lobste.rs/s/jzr2ey",
+      "score": 9,
       "comments": 0,
-      "author": "wmurra",
-      "published": "2026-08-20T02:50:44Z",
+      "author": "nolan",
+      "published": "2026-08-23T19:04:41Z",
       "bullets": [
-        "Ahab: Hermeticity Analyzer for Bazel",
-        "Trending on lobste.rs/devops — 1 points, 0 comments.",
-        "Submitted by wmurra on lobste.rs/devops."
+        "Wild AI-related reliability incidents are coming",
+        "Trending on lobste.rs/devops — 9 points, 0 comments.",
+        "Submitted by nolan on lobste.rs/devops."
       ]
     },
     {
@@ -142,18 +142,6 @@
       "published": "2026-08-22T16:58:49Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "A week of using Codex more than Claude",
-      "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49393051",
-      "score": 230,
-      "comments": 244,
-      "author": "speckx",
-      "published": "2026-08-21T19:51:48Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
@@ -164,30 +152,6 @@
       "comments": 5,
       "author": "kqr",
       "published": "2026-08-22T10:18:39Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Bongard Problems",
-      "url": "https://matthodges.com/posts/2026-08-19-bongard-problems/",
-      "discuss_url": "https://lobste.rs/s/q6atrp",
-      "score": 4,
-      "comments": 0,
-      "author": "df",
-      "published": "2026-08-19T22:12:09Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "AscendNPU-IR: MLIR for Ascend",
-      "url": "https://gitcode.com/Ascend/AscendNPU-IR",
-      "discuss_url": "https://lobste.rs/s/zpk6cj",
-      "score": 1,
-      "comments": 0,
-      "author": "sanxiyn",
-      "published": "2026-08-19T23:47:50Z"
     },
     {
       "source": "rss",
@@ -256,8 +220,8 @@
       "title": "My favorite Computer Science books, and why",
       "url": "https://backtracking.github.io/en/2020/02/20/cs-books.html",
       "discuss_url": "https://lobste.rs/s/gybcec",
-      "score": 13,
-      "comments": 4,
+      "score": 23,
+      "comments": 8,
       "author": "jeanthomas",
       "published": "2026-08-23T14:45:46Z"
     },
@@ -268,8 +232,8 @@
       "title": "Are there any decent programs for pdf viewing and editing for Linux that replace Adobe Acrobat?",
       "url": "https://lobste.rs/s/kxualw",
       "discuss_url": "https://lobste.rs/s/kxualw",
-      "score": 15,
-      "comments": 10,
+      "score": 24,
+      "comments": 16,
       "author": "oceanhaiyang",
       "published": "2026-08-23T12:08:25Z"
     },
@@ -313,18 +277,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Sing-song: a speakable encoding for long numbers and keys",
-      "url": "https://blog.vrypan.net/2026/08/19/260819-sing-song/",
-      "discuss_url": "https://lobste.rs/s/wvwqro",
-      "score": 30,
-      "comments": 32,
-      "author": "vrypan",
-      "published": "2026-08-19T20:28:07Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "The August 17 outage, and the work ahead",
       "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
       "discuss_url": "https://lobste.rs/s/cflfsl",
@@ -344,18 +296,6 @@
       "comments": 0,
       "author": "lvmbdv",
       "published": "2026-08-20T07:11:55Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Easy to use Entity Component System (ECS) crafted with Odin",
-      "url": "https://github.com/helioscout/moecs",
-      "discuss_url": "https://lobste.rs/s/hdef54",
-      "score": 2,
-      "comments": 0,
-      "author": "modev",
-      "published": "2026-08-19T20:59:50Z"
     },
     {
       "source": "lobsters",
@@ -394,16 +334,64 @@
       "published": "2026-08-17T16:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Dispatches from O'Reilly: The right amount of spec for agentic development",
+      "url": "https://stackoverflow.blog/2026/08/21/dispatches-from-o-reilly-the-right-amount-of-spec-for-agentic-development/",
+      "discuss_url": "https://stackoverflow.blog/2026/08/21/dispatches-from-o-reilly-the-right-amount-of-spec-for-agentic-development/",
+      "score": null,
+      "comments": null,
+      "author": "Markus Eisele",
+      "published": "2026-08-21T14:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Get rid of your CAPTCHA, the future of the web is bots",
+      "url": "https://stackoverflow.blog/2026/08/21/get-rid-of-your-captcha-the-future-of-the-web-is-bots/",
+      "discuss_url": "https://stackoverflow.blog/2026/08/21/get-rid-of-your-captcha-the-future-of-the-web-is-bots/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-08-21T07:40:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "And then the men with guns tell you to do it anyway",
       "url": "https://shkspr.mobi/blog/2026/08/and-then-the-men-with-guns-tell-you-to-do-it-anyway/",
       "discuss_url": "https://lobste.rs/s/u7v2sn",
-      "score": 51,
-      "comments": 8,
+      "score": 76,
+      "comments": 17,
       "author": "rrampage",
       "published": "2026-08-23T12:15:54Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "tmp.0ut volume 5",
+      "url": "https://tmpout.sh/5/",
+      "discuss_url": "https://lobste.rs/s/xiwynb",
+      "score": 7,
+      "comments": 2,
+      "author": "ehamberg",
+      "published": "2026-08-23T18:49:26Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Critical Coldcard flaw: what happened, who is affected, and what to do",
+      "url": "https://wizardsardine.com/blog/coldcard-rng-vulnerability/",
+      "discuss_url": "https://lobste.rs/s/vni2id",
+      "score": 1,
+      "comments": 0,
+      "author": "janus",
+      "published": "2026-08-24T00:26:14Z"
     },
     {
       "source": "lobsters",
@@ -413,7 +401,7 @@
       "url": "https://lina.sh/blog/hijacking-e164-arpa",
       "discuss_url": "https://lobste.rs/s/dyswyz",
       "score": 169,
-      "comments": 6,
+      "comments": 7,
       "author": "taavi",
       "published": "2026-08-21T12:05:00Z"
     },
@@ -425,7 +413,7 @@
       "url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
       "discuss_url": "https://lobste.rs/s/dns8du",
       "score": 89,
-      "comments": 56,
+      "comments": 57,
       "author": "ohrv",
       "published": "2026-08-20T09:54:06Z"
     },
@@ -448,7 +436,7 @@
       "title": "Open-sourcing OpenPubkey SSH (OPKSSH): integrating single sign-on with SSH",
       "url": "https://www.ethanheilman.com/x/33/index.html",
       "discuss_url": "https://lobste.rs/s/n7kpm6",
-      "score": 24,
+      "score": 25,
       "comments": 16,
       "author": "EthanHeilman",
       "published": "2026-08-20T15:24:43Z"
@@ -484,22 +472,10 @@
       "title": "Emacs Arbitrary Code Execution Returns",
       "url": "https://eshelyaron.com/posts/2026-08-06-emacs-arbitrary-code-execution-returns.html",
       "discuss_url": "https://lobste.rs/s/jdjb2a",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "rrampage",
       "published": "2026-08-22T05:42:55Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Packing Malware in Rosetta 2",
-      "url": "https://kernelkennel.com/blog/summercon2026-rosetta/",
-      "discuss_url": "https://lobste.rs/s/ppvyr1",
-      "score": 6,
-      "comments": 0,
-      "author": "ombredog",
-      "published": "2026-08-19T22:05:09Z"
     },
     {
       "source": "lobsters",
@@ -526,16 +502,16 @@
       "published": "2026-08-22T14:32:41Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
-      "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
-      "discuss_url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-08-21T18:53:00Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "Wild AI-related reliability incidents are coming",
+      "url": "https://surfingcomplexity.blog/2026/08/22/wild-ai-related-reliability-incidents-are-coming/",
+      "discuss_url": "https://lobste.rs/s/jzr2ey",
+      "score": 9,
+      "comments": 0,
+      "author": "nolan",
+      "published": "2026-08-23T19:04:41Z"
     },
     {
       "source": "lobsters",
@@ -668,18 +644,6 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-08-20T18:31:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EKS now supports certificate authority (CA) rotation with automated lifecycle management",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-08-20T18:30:00Z"
     },
     {
       "source": "rss",
