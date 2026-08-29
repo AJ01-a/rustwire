@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T16:27:40Z",
+  "updated_at": "2026-08-29T20:41:36Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "I accidentally turned LLM memory into program analysis",
       "url": "https://pwning.systems/posts/llm-memory-program-analysis/",
       "discuss_url": "https://news.ycombinator.com/item?id=49485416",
-      "score": 224,
-      "comments": 65,
+      "score": 263,
+      "comments": 71,
       "author": "matt_d",
       "published": "2026-08-28T23:27:45Z",
       "bullets": [
-        "I accidentally turned LLM memory into program analysis",
-        "Trending on news.ycombinator.com — 224 points, 65 comments.",
-        "Submitted by matt_d on news.ycombinator.com."
+        "LLM context state and attention maps can implicitly model program dataflow, control-flow graphs, and variable scopes across execution traces.",
+        "Leveraging transformer memory representations provides lightweight static analysis capabilities without building bespoke compiler AST parsing pipelines.",
+        "Blending neural KV-cache tracking with formal verification improves code reasoning, taint analysis, and automated vulnerability discovery in complex codebases."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Parsing the Infamous Japanese Postal CSV",
-      "url": "https://www.dampfkraft.com/posuto.html",
-      "discuss_url": "https://lobste.rs/s/k9uxu5",
-      "score": 23,
-      "comments": 2,
-      "author": "lim",
-      "published": "2026-08-29T08:10:10Z",
+      "title": "Wrapping GTK4 in 800 lines of Clojure with Jolt",
+      "url": "https://yogthos.net/posts/2026-08-29-glimmer-ui.html",
+      "discuss_url": "https://lobste.rs/s/svga6q",
+      "score": 3,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-08-29T19:56:09Z",
       "bullets": [
-        "Parsing the Infamous Japanese Postal CSV",
-        "Trending on lobste.rs/programming — 23 points, 2 comments.",
-        "Submitted by lim on lobste.rs/programming."
+        "Leverages modern Java FFM interop via Jolt to bind native GTK4 C libraries directly to Clojure without JNI.",
+        "Achieves functional native desktop UI bindings in just 800 LOC by minimizing foreign function interface overhead.",
+        "Demonstrates practical Project Panama adoption for creating lightweight Clojure wrappers around complex native GUI toolkits."
       ]
     },
     {
@@ -71,31 +71,31 @@
       "title": "Just the rumour of a bug is enough to find an exploit these days",
       "url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
       "discuss_url": "https://news.ycombinator.com/item?id=49480466",
-      "score": 360,
-      "comments": 115,
+      "score": 374,
+      "comments": 118,
       "author": "avsm",
       "published": "2026-08-28T15:58:46Z",
       "bullets": [
-        "Just the rumour of a bug is enough to find an exploit these days",
-        "Trending on news.ycombinator.com — 360 points, 115 comments.",
-        "Submitted by avsm on news.ycombinator.com."
+        "Public commit diffs, changelogs, and vulnerability rumors allow adversaries to rapidly reverse-engineer and synthesize working zero-day exploits.",
+        "Automated fuzzing, binary diffing, and LLM-assisted code analysis have compressed the time-to-exploit window from weeks to hours.",
+        "Defenders must implement immediate virtual patching and runtime controls rather than relying on delayed advisory and patch rollout cycles."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "I used AWS cognito for a startup. I wouldn't do it again",
-      "url": "https://joshkaramuth.com/blog/aws-cognito-authentication-startup-nightmare/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49478091",
-      "score": 183,
-      "comments": 129,
-      "author": "speckx",
-      "published": "2026-08-28T13:21:03Z",
+      "title": "Creepy crawlies",
+      "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
+      "discuss_url": "https://lobste.rs/s/nbjo0i",
+      "score": 28,
+      "comments": 5,
+      "author": "gmem",
+      "published": "2026-08-29T16:25:31Z",
       "bullets": [
-        "I used AWS cognito for a startup. I wouldn't do it again",
-        "Trending on news.ycombinator.com — 183 points, 129 comments.",
-        "Submitted by speckx on news.ycombinator.com."
+        "Aggressive web crawlers and AI scrapers generate unexpected load, requiring edge rate limiting, Cloudflare WAF rules, and strict robots.txt enforcement.",
+        "Automated vulnerability crawlers constantly probe exposed endpoints; configure Envoy/NGINX anomaly detection and fail2ban to mitigate abusive source IPs.",
+        "Uncontrolled crawler traffic inflates cloud egress costs and degrades caches; isolate public endpoints using CDNs and bot protection layers."
       ]
     },
     {
@@ -105,14 +105,14 @@
       "title": "Our decision on Cursor following its acquisition by SpaceX",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
       "discuss_url": "https://news.ycombinator.com/item?id=49486172",
-      "score": 696,
-      "comments": 418,
+      "score": 770,
+      "comments": 471,
       "author": "meetpateltech",
       "published": "2026-08-29T01:47:53Z",
       "bullets": [
-        "Our decision on Cursor following its acquisition by SpaceX",
-        "Trending on news.ycombinator.com — 696 points, 418 comments.",
-        "Submitted by meetpateltech on news.ycombinator.com."
+        "Vendor ownership shifts trigger strict enterprise compliance reviews around telemetry, code privacy, and proprietary codebase indexing.",
+        "Engineering organizations evaluate switching from Cursor's VS Code fork to alternatives like Continue, Copilot, or self-hosted models.",
+        "Defense-linked parentage introduces severe IP sovereignty, export control, and competitive conflict risks for third-party development teams."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "I accidentally turned LLM memory into program analysis",
       "url": "https://pwning.systems/posts/llm-memory-program-analysis/",
       "discuss_url": "https://news.ycombinator.com/item?id=49485416",
-      "score": 224,
-      "comments": 65,
+      "score": 263,
+      "comments": 71,
       "author": "matt_d",
       "published": "2026-08-28T23:27:45Z"
     },
@@ -136,10 +136,22 @@
       "title": "Judge rules Trump administration’s blacklisting of Anthropic was illegal",
       "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49473522",
-      "score": 592,
+      "score": 601,
       "comments": 420,
       "author": "jbegley",
       "published": "2026-08-28T02:03:38Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Canonical-basis realignment for Transformer LLMs: every hidden axis becomes independently measurable and controllable",
+      "url": "https://github.com/todotge/canonical-basis",
+      "discuss_url": "https://lobste.rs/s/wg65qn",
+      "score": 2,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-08-29T20:16:54Z"
     },
     {
       "source": "hackernews",
@@ -152,30 +164,6 @@
       "comments": 3,
       "author": "softwaredoug",
       "published": "2026-08-28T11:25:30Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Gemini Omni 1.1 Flash",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49467922",
-      "score": 296,
-      "comments": 233,
-      "author": "saretup",
-      "published": "2026-08-27T17:06:32Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Gemini-3.5-Transcribe",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49468818",
-      "score": 360,
-      "comments": 125,
-      "author": "k9294",
-      "published": "2026-08-27T18:03:42Z"
     },
     {
       "source": "lobsters",
@@ -253,11 +241,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Parsing the Infamous Japanese Postal CSV",
+      "title": "Wrapping GTK4 in 800 lines of Clojure with Jolt",
+      "url": "https://yogthos.net/posts/2026-08-29-glimmer-ui.html",
+      "discuss_url": "https://lobste.rs/s/svga6q",
+      "score": 3,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-08-29T19:56:09Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Parsing the Infamous Japanese Postal CSV (2020)",
       "url": "https://www.dampfkraft.com/posuto.html",
       "discuss_url": "https://lobste.rs/s/k9uxu5",
-      "score": 23,
-      "comments": 2,
+      "score": 29,
+      "comments": 4,
       "author": "lim",
       "published": "2026-08-29T08:10:10Z"
     },
@@ -268,8 +268,8 @@
       "title": "Any true alternatives to electron JavaScript?",
       "url": "https://lobste.rs/s/vji9aj",
       "discuss_url": "https://lobste.rs/s/vji9aj",
-      "score": 8,
-      "comments": 7,
+      "score": 10,
+      "comments": 11,
       "author": "dhruvp",
       "published": "2026-08-29T03:11:59Z"
     },
@@ -280,8 +280,8 @@
       "title": "GUIs should be fully keyboard-driven",
       "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
       "discuss_url": "https://lobste.rs/s/qlpiur",
-      "score": 20,
-      "comments": 10,
+      "score": 27,
+      "comments": 12,
       "author": "an_origamian",
       "published": "2026-08-28T18:47:26Z"
     },
@@ -293,7 +293,7 @@
       "url": "https://lobste.rs/s/oveaa3",
       "discuss_url": "https://lobste.rs/s/oveaa3",
       "score": 17,
-      "comments": 54,
+      "comments": 56,
       "author": "caius",
       "published": "2026-08-28T13:03:44Z"
     },
@@ -382,26 +382,14 @@
       "published": "2026-08-26T09:11:16Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Performing Digital Surgery to Fix MIDIs for My Hardware (and Then Discovering the Entire Premise of My Post Was Wrong)",
-      "url": "http://mistys-internet.website/blog/blog/2026/08/25/how-i-fixed-an-mt-32-midi-soundtrack-for-the-hardware-i-use",
-      "discuss_url": "https://lobste.rs/s/um5ko2",
-      "score": 5,
-      "comments": 0,
-      "author": "calvin",
-      "published": "2026-08-25T19:09:20Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Just the rumour of a bug is enough to find an exploit these days",
       "url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
       "discuss_url": "https://news.ycombinator.com/item?id=49480466",
-      "score": 360,
-      "comments": 115,
+      "score": 374,
+      "comments": 118,
       "author": "avsm",
       "published": "2026-08-28T15:58:46Z"
     },
@@ -412,8 +400,8 @@
       "title": "Stopping the smart TV from being used against you",
       "url": "https://www.s-config.com/stopping-a-smart-tv-from-being-used-against-you/",
       "discuss_url": "https://lobste.rs/s/nfvukc",
-      "score": 10,
-      "comments": 7,
+      "score": 14,
+      "comments": 9,
       "author": "FedericoSchonborn",
       "published": "2026-08-28T19:32:48Z"
     },
@@ -469,6 +457,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "TCRF taken offline by DDoS attack after Claude user ban",
+      "url": "https://kotaku.com/ddos-attack-breaks-beloved-video-game-wiki-after-ai-bro-was-banned-2000729335",
+      "discuss_url": "https://lobste.rs/s/birquu",
+      "score": 4,
+      "comments": 0,
+      "author": "stilic",
+      "published": "2026-08-28T21:26:45Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "What's in a tag name? JavaScript, apparently",
       "url": "https://portswigger.net/research/whats-in-a-tag-name-javascript-apparently",
       "discuss_url": "https://lobste.rs/s/lbsvk7",
@@ -476,18 +476,6 @@
       "comments": 11,
       "author": "freddyb",
       "published": "2026-08-26T06:36:10Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "TCRF taken offline by DDoS attack after Claude user ban",
-      "url": "https://kotaku.com/ddos-attack-breaks-beloved-video-game-wiki-after-ai-bro-was-banned-2000729335",
-      "discuss_url": "https://lobste.rs/s/birquu",
-      "score": 3,
-      "comments": 0,
-      "author": "stilic",
-      "published": "2026-08-28T21:26:45Z"
     },
     {
       "source": "lobsters",
@@ -502,16 +490,16 @@
       "published": "2026-08-26T20:26:24Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
+      "source": "rss",
+      "subsource": "thehackernews.com",
       "category": "security",
-      "title": "A Tale of Two SOCs: Insights From Two Red Team Assessments",
-      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a",
-      "discuss_url": "https://lobste.rs/s/hloege",
-      "score": 1,
-      "comments": 0,
-      "author": "7tehdt3cnw6kir6o",
-      "published": "2026-08-25T16:31:26Z"
+      "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+      "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+      "discuss_url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-08-29T16:25:03Z"
     },
     {
       "source": "rss",
@@ -538,28 +526,28 @@
       "published": "2026-08-28T20:38:47Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "devops",
-      "title": "I used AWS cognito for a startup. I wouldn't do it again",
-      "url": "https://joshkaramuth.com/blog/aws-cognito-authentication-startup-nightmare/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49478091",
-      "score": 183,
-      "comments": 129,
-      "author": "speckx",
-      "published": "2026-08-28T13:21:03Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "Creepy crawlies",
       "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
       "discuss_url": "https://lobste.rs/s/nbjo0i",
-      "score": 1,
-      "comments": 0,
+      "score": 28,
+      "comments": 5,
       "author": "gmem",
       "published": "2026-08-29T16:25:31Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "devops",
+      "title": "I used AWS cognito for a startup. I wouldn't do it again",
+      "url": "https://joshkaramuth.com/blog/aws-cognito-authentication-startup-nightmare/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49478091",
+      "score": 186,
+      "comments": 130,
+      "author": "speckx",
+      "published": "2026-08-28T13:21:03Z"
     },
     {
       "source": "rss",
@@ -688,8 +676,8 @@
       "title": "Our decision on Cursor following its acquisition by SpaceX",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
       "discuss_url": "https://news.ycombinator.com/item?id=49486172",
-      "score": 696,
-      "comments": 418,
+      "score": 770,
+      "comments": 471,
       "author": "meetpateltech",
       "published": "2026-08-29T01:47:53Z"
     },
