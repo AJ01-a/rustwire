@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T20:41:36Z",
+  "updated_at": "2026-08-30T04:41:19Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "I accidentally turned LLM memory into program analysis",
       "url": "https://pwning.systems/posts/llm-memory-program-analysis/",
       "discuss_url": "https://news.ycombinator.com/item?id=49485416",
-      "score": 263,
-      "comments": 71,
+      "score": 281,
+      "comments": 75,
       "author": "matt_d",
       "published": "2026-08-28T23:27:45Z",
       "bullets": [
-        "LLM context state and attention maps can implicitly model program dataflow, control-flow graphs, and variable scopes across execution traces.",
-        "Leveraging transformer memory representations provides lightweight static analysis capabilities without building bespoke compiler AST parsing pipelines.",
-        "Blending neural KV-cache tracking with formal verification improves code reasoning, taint analysis, and automated vulnerability discovery in complex codebases."
+        "I accidentally turned LLM memory into program analysis",
+        "Trending on news.ycombinator.com — 281 points, 75 comments.",
+        "Submitted by matt_d on news.ycombinator.com."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Wrapping GTK4 in 800 lines of Clojure with Jolt",
-      "url": "https://yogthos.net/posts/2026-08-29-glimmer-ui.html",
-      "discuss_url": "https://lobste.rs/s/svga6q",
-      "score": 3,
-      "comments": 0,
-      "author": "Yogthos",
-      "published": "2026-08-29T19:56:09Z",
+      "title": "Parsing the Infamous Japanese Postal CSV (2020)",
+      "url": "https://www.dampfkraft.com/posuto.html",
+      "discuss_url": "https://lobste.rs/s/k9uxu5",
+      "score": 34,
+      "comments": 6,
+      "author": "lim",
+      "published": "2026-08-29T08:10:10Z",
       "bullets": [
-        "Leverages modern Java FFM interop via Jolt to bind native GTK4 C libraries directly to Clojure without JNI.",
-        "Achieves functional native desktop UI bindings in just 800 LOC by minimizing foreign function interface overhead.",
-        "Demonstrates practical Project Panama adoption for creating lightweight Clojure wrappers around complex native GUI toolkits."
+        "Parsing the Infamous Japanese Postal CSV (2020)",
+        "Trending on lobste.rs/programming — 34 points, 6 comments.",
+        "Submitted by lim on lobste.rs/programming."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Just the rumour of a bug is enough to find an exploit these days",
       "url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
       "discuss_url": "https://news.ycombinator.com/item?id=49480466",
-      "score": 374,
-      "comments": 118,
+      "score": 381,
+      "comments": 123,
       "author": "avsm",
       "published": "2026-08-28T15:58:46Z",
       "bullets": [
-        "Public commit diffs, changelogs, and vulnerability rumors allow adversaries to rapidly reverse-engineer and synthesize working zero-day exploits.",
-        "Automated fuzzing, binary diffing, and LLM-assisted code analysis have compressed the time-to-exploit window from weeks to hours.",
-        "Defenders must implement immediate virtual patching and runtime controls rather than relying on delayed advisory and patch rollout cycles."
+        "Just the rumour of a bug is enough to find an exploit these days",
+        "Trending on news.ycombinator.com — 381 points, 123 comments.",
+        "Submitted by avsm on news.ycombinator.com."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "Creepy crawlies",
       "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
       "discuss_url": "https://lobste.rs/s/nbjo0i",
-      "score": 28,
-      "comments": 5,
+      "score": 59,
+      "comments": 17,
       "author": "gmem",
       "published": "2026-08-29T16:25:31Z",
       "bullets": [
-        "Aggressive web crawlers and AI scrapers generate unexpected load, requiring edge rate limiting, Cloudflare WAF rules, and strict robots.txt enforcement.",
-        "Automated vulnerability crawlers constantly probe exposed endpoints; configure Envoy/NGINX anomaly detection and fail2ban to mitigate abusive source IPs.",
-        "Uncontrolled crawler traffic inflates cloud egress costs and degrades caches; isolate public endpoints using CDNs and bot protection layers."
+        "Creepy crawlies",
+        "Trending on lobste.rs/devops — 59 points, 17 comments.",
+        "Submitted by gmem on lobste.rs/devops."
       ]
     },
     {
@@ -105,14 +105,14 @@
       "title": "Our decision on Cursor following its acquisition by SpaceX",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
       "discuss_url": "https://news.ycombinator.com/item?id=49486172",
-      "score": 770,
-      "comments": 471,
+      "score": 805,
+      "comments": 493,
       "author": "meetpateltech",
       "published": "2026-08-29T01:47:53Z",
       "bullets": [
-        "Vendor ownership shifts trigger strict enterprise compliance reviews around telemetry, code privacy, and proprietary codebase indexing.",
-        "Engineering organizations evaluate switching from Cursor's VS Code fork to alternatives like Continue, Copilot, or self-hosted models.",
-        "Defense-linked parentage introduces severe IP sovereignty, export control, and competitive conflict risks for third-party development teams."
+        "Our decision on Cursor following its acquisition by SpaceX",
+        "Trending on news.ycombinator.com — 805 points, 493 comments.",
+        "Submitted by meetpateltech on news.ycombinator.com."
       ]
     }
   ],
@@ -124,34 +124,10 @@
       "title": "I accidentally turned LLM memory into program analysis",
       "url": "https://pwning.systems/posts/llm-memory-program-analysis/",
       "discuss_url": "https://news.ycombinator.com/item?id=49485416",
-      "score": 263,
-      "comments": 71,
+      "score": 281,
+      "comments": 75,
       "author": "matt_d",
       "published": "2026-08-28T23:27:45Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Judge rules Trump administration’s blacklisting of Anthropic was illegal",
-      "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=49473522",
-      "score": 601,
-      "comments": 420,
-      "author": "jbegley",
-      "published": "2026-08-28T02:03:38Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Canonical-basis realignment for Transformer LLMs: every hidden axis becomes independently measurable and controllable",
-      "url": "https://github.com/todotge/canonical-basis",
-      "discuss_url": "https://lobste.rs/s/wg65qn",
-      "score": 2,
-      "comments": 0,
-      "author": "Yogthos",
-      "published": "2026-08-29T20:16:54Z"
     },
     {
       "source": "hackernews",
@@ -241,10 +217,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Parsing the Infamous Japanese Postal CSV (2020)",
+      "url": "https://www.dampfkraft.com/posuto.html",
+      "discuss_url": "https://lobste.rs/s/k9uxu5",
+      "score": 34,
+      "comments": 6,
+      "author": "lim",
+      "published": "2026-08-29T08:10:10Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Wrapping GTK4 in 800 lines of Clojure with Jolt",
       "url": "https://yogthos.net/posts/2026-08-29-glimmer-ui.html",
       "discuss_url": "https://lobste.rs/s/svga6q",
-      "score": 3,
+      "score": 9,
       "comments": 0,
       "author": "Yogthos",
       "published": "2026-08-29T19:56:09Z"
@@ -253,23 +241,11 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Parsing the Infamous Japanese Postal CSV (2020)",
-      "url": "https://www.dampfkraft.com/posuto.html",
-      "discuss_url": "https://lobste.rs/s/k9uxu5",
-      "score": 29,
-      "comments": 4,
-      "author": "lim",
-      "published": "2026-08-29T08:10:10Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Any true alternatives to electron JavaScript?",
       "url": "https://lobste.rs/s/vji9aj",
       "discuss_url": "https://lobste.rs/s/vji9aj",
-      "score": 10,
-      "comments": 11,
+      "score": 15,
+      "comments": 12,
       "author": "dhruvp",
       "published": "2026-08-29T03:11:59Z"
     },
@@ -280,8 +256,8 @@
       "title": "GUIs should be fully keyboard-driven",
       "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
       "discuss_url": "https://lobste.rs/s/qlpiur",
-      "score": 27,
-      "comments": 12,
+      "score": 31,
+      "comments": 13,
       "author": "an_origamian",
       "published": "2026-08-28T18:47:26Z"
     },
@@ -293,7 +269,7 @@
       "url": "https://lobste.rs/s/oveaa3",
       "discuss_url": "https://lobste.rs/s/oveaa3",
       "score": 17,
-      "comments": 56,
+      "comments": 60,
       "author": "caius",
       "published": "2026-08-28T13:03:44Z"
     },
@@ -304,7 +280,7 @@
       "title": "InferenceFS: Never worry about data again! (Again!)",
       "url": "https://github.com/philipl/inferencefs/",
       "discuss_url": "https://lobste.rs/s/jwicvz",
-      "score": 4,
+      "score": 5,
       "comments": 1,
       "author": "linkdd",
       "published": "2026-08-29T09:00:30Z"
@@ -388,8 +364,8 @@
       "title": "Just the rumour of a bug is enough to find an exploit these days",
       "url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
       "discuss_url": "https://news.ycombinator.com/item?id=49480466",
-      "score": 374,
-      "comments": 118,
+      "score": 381,
+      "comments": 123,
       "author": "avsm",
       "published": "2026-08-28T15:58:46Z"
     },
@@ -400,8 +376,8 @@
       "title": "Stopping the smart TV from being used against you",
       "url": "https://www.s-config.com/stopping-a-smart-tv-from-being-used-against-you/",
       "discuss_url": "https://lobste.rs/s/nfvukc",
-      "score": 14,
-      "comments": 9,
+      "score": 15,
+      "comments": 12,
       "author": "FedericoSchonborn",
       "published": "2026-08-28T19:32:48Z"
     },
@@ -433,18 +409,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
-      "url": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-      "discuss_url": "https://lobste.rs/s/1vymfa",
-      "score": 3,
-      "comments": 1,
-      "author": "robey",
-      "published": "2026-08-28T22:20:08Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Getting a Cease and Desist from Waffle House (2025)",
       "url": "https://www.jack.bio/blog/wafflehouse",
       "discuss_url": "https://lobste.rs/s/erm1zp",
@@ -457,13 +421,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "TCRF taken offline by DDoS attack after Claude user ban",
-      "url": "https://kotaku.com/ddos-attack-breaks-beloved-video-game-wiki-after-ai-bro-was-banned-2000729335",
-      "discuss_url": "https://lobste.rs/s/birquu",
-      "score": 4,
-      "comments": 0,
-      "author": "stilic",
-      "published": "2026-08-28T21:26:45Z"
+      "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
+      "url": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
+      "discuss_url": "https://lobste.rs/s/1vymfa",
+      "score": 3,
+      "comments": 1,
+      "author": "robey",
+      "published": "2026-08-28T22:20:08Z"
     },
     {
       "source": "lobsters",
@@ -481,10 +445,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "TCRF taken offline by DDoS attack after Claude user ban",
+      "url": "https://kotaku.com/ddos-attack-breaks-beloved-video-game-wiki-after-ai-bro-was-banned-2000729335",
+      "discuss_url": "https://lobste.rs/s/birquu",
+      "score": 4,
+      "comments": 0,
+      "author": "stilic",
+      "published": "2026-08-28T21:26:45Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
       "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
       "discuss_url": "https://lobste.rs/s/v4l5ub",
-      "score": 4,
+      "score": 5,
       "comments": 1,
       "author": "saulshanabrook",
       "published": "2026-08-26T20:26:24Z"
@@ -532,8 +508,8 @@
       "title": "Creepy crawlies",
       "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
       "discuss_url": "https://lobste.rs/s/nbjo0i",
-      "score": 28,
-      "comments": 5,
+      "score": 59,
+      "comments": 17,
       "author": "gmem",
       "published": "2026-08-29T16:25:31Z"
     },
@@ -544,7 +520,7 @@
       "title": "I used AWS cognito for a startup. I wouldn't do it again",
       "url": "https://joshkaramuth.com/blog/aws-cognito-authentication-startup-nightmare/",
       "discuss_url": "https://news.ycombinator.com/item?id=49478091",
-      "score": 186,
+      "score": 189,
       "comments": 130,
       "author": "speckx",
       "published": "2026-08-28T13:21:03Z"
@@ -613,9 +589,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
+      "title": "Amazon CloudWatch agent adds support for journald logs",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -625,9 +601,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon CloudWatch agent adds support for journald logs",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/",
+      "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -676,8 +652,8 @@
       "title": "Our decision on Cursor following its acquisition by SpaceX",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
       "discuss_url": "https://news.ycombinator.com/item?id=49486172",
-      "score": 770,
-      "comments": 471,
+      "score": 805,
+      "comments": 493,
       "author": "meetpateltech",
       "published": "2026-08-29T01:47:53Z"
     },
