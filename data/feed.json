@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T16:15:05Z",
+  "updated_at": "2026-09-02T20:46:28Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Gemini 3.8 Flash",
-      "url": "https://deepmind.google/models/model-cards/gemini-3-8-flash/",
+      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
       "discuss_url": "https://news.ycombinator.com/item?id=49537553",
-      "score": 197,
-      "comments": 103,
+      "score": 671,
+      "comments": 397,
       "author": "bratao",
       "published": "2026-09-02T15:12:40Z",
       "bullets": [
-        "Gemini 3.8 Flash",
-        "Trending on news.ycombinator.com — 197 points, 103 comments.",
-        "Submitted by bratao on news.ycombinator.com."
+        "Google DeepMind released Gemini 3.8 Flash and 3.8 Flash Cyber, offering a specialized model variant optimized for infosec workflows.",
+        "The lightweight Flash architecture focuses on reduced token costs and low-latency inference for high-throughput, real-time agentic pipelines.",
+        "3.8 Flash Cyber specifically targets automated vulnerability analysis, threat intelligence ingestion, and SOC alert triage over general-purpose LLMs."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "A bicycle for the mind",
       "url": "https://pulkomandy.tk/_/_Life/_A%20bicycle%20for%20the%20mind",
       "discuss_url": "https://lobste.rs/s/y58e86",
-      "score": 27,
+      "score": 28,
       "comments": 17,
       "author": "waddlesplash",
       "published": "2026-09-01T13:52:12Z",
       "bullets": [
-        "A bicycle for the mind",
-        "Trending on lobste.rs/programming — 27 points, 17 comments.",
-        "Submitted by waddlesplash on lobste.rs/programming."
+        "Developer tooling should prioritize cognitive leverage and user agency, augmenting human problem-solving rather than blindly automating complex engineering workflows.",
+        "Interactive environments benefit from Smalltalk- and Lisp-inspired runtime inspection, tight REPL feedback loops, and deeply malleable, user-extensible architectures.",
+        "Modern software design increasingly revisits personal computing ideals, favoring deterministic local-first tools over opaque, non-deterministic cloud abstractions."
       ]
     },
     {
@@ -76,43 +76,43 @@
       "author": "eugeny",
       "published": "2026-08-31T10:38:12Z",
       "bullets": [
-        "curl: a CVE dispute",
-        "Trending on lobste.rs/security — 99 points, 34 comments.",
-        "Submitted by eugeny on lobste.rs/security."
+        "Curl maintainers dispute bogus CVE assignments issued by third-party CNAs without upstream coordination or genuine security impact.",
+        "Unverified CVEs degrade vulnerability scanner fidelity, driving alert fatigue and wasted remediation cycles for enterprise security teams.",
+        "The dispute underscores systemic governance flaws across the CVE and NVD ecosystem regarding CNA accountability and dispute resolution."
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
+      "source": "rss",
+      "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Creepy crawlies",
-      "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
-      "discuss_url": "https://lobste.rs/s/nbjo0i",
-      "score": 138,
-      "comments": 60,
-      "author": "gmem",
-      "published": "2026-08-29T16:25:31Z",
+      "title": "Web Search on Amazon Bedrock is now available in AWS GovCloud (US-West)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-web-aws-govcloud/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-web-aws-govcloud/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-02T17:52:00Z",
       "bullets": [
-        "Creepy crawlies",
-        "Trending on lobste.rs/devops — 138 points, 60 comments.",
-        "Submitted by gmem on lobste.rs/devops."
+        "Bedrock’s managed Web Search tool is now available in AWS GovCloud (US-West) for compliance-regulated LLM grounding.",
+        "Removes infrastructure overhead by eliminating self-hosted search indices, web crawlers, and custom agent tool-calling loops.",
+        "Governed via native AWS IAM and Organization policies, keeping query traffic restricted to Amazon-managed boundaries."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Toyohiro Akiyama, first Japanese citizen and journalist in space, dies at 84",
-      "url": "https://arstechnica.com/space/2026/09/toyohiro-akiyama-first-japanese-citizen-and-journalist-in-space-dies-at-84/",
-      "discuss_url": "https://arstechnica.com/space/2026/09/toyohiro-akiyama-first-japanese-citizen-and-journalist-in-space-dies-at-84/",
+      "title": "Wary of Artemis IV timeline, NASA is changing lunar spacesuit design",
+      "url": "https://arstechnica.com/space/2026/09/wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design/",
+      "discuss_url": "https://arstechnica.com/space/2026/09/wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design/",
       "score": null,
       "comments": null,
-      "author": "Robert Pearlman",
-      "published": "2026-09-02T14:47:42Z",
+      "author": "Eric Berger",
+      "published": "2026-09-02T19:37:08Z",
       "bullets": [
-        "He reported from space that only \"fat\" Japanese tree frogs enjoyed weightlessness.",
-        "Toyohiro Akiyama, first Japanese citizen and journalist in space, dies at 84",
-        "Submitted by Robert Pearlman on arstechnica.com."
+        "NASA is altering lunar spacesuit specifications to mitigate schedule delays and meet compressed Artemis IV launch targets.",
+        "Requirement adjustments streamline development, focusing Axiom Space's AxEMU suit strictly on essential near-term surface extravehicular activity needs.",
+        "NASA is trading long-term architecture flexibility for simplified qualification testing to preserve the Artemis program's crewed flight cadence."
       ]
     }
   ],
@@ -121,13 +121,25 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Gemini 3.8 Flash",
-      "url": "https://deepmind.google/models/model-cards/gemini-3-8-flash/",
+      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
       "discuss_url": "https://news.ycombinator.com/item?id=49537553",
-      "score": 197,
-      "comments": 103,
+      "score": 671,
+      "comments": 397,
       "author": "bratao",
       "published": "2026-09-02T15:12:40Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Quasar 438B: Europe's Leading AI Model",
+      "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
+      "discuss_url": "https://news.ycombinator.com/item?id=49534132",
+      "score": 153,
+      "comments": 99,
+      "author": "amunozo",
+      "published": "2026-09-02T10:02:41Z"
     },
     {
       "source": "hackernews",
@@ -136,8 +148,8 @@
       "title": "The Emergent Symbolic Structure of Artificial Neural Networks",
       "url": "https://arxiv.org/abs/2608.29530",
       "discuss_url": "https://news.ycombinator.com/item?id=49531651",
-      "score": 238,
-      "comments": 83,
+      "score": 266,
+      "comments": 92,
       "author": "schmuhblaster",
       "published": "2026-09-02T04:15:56Z"
     },
@@ -148,8 +160,8 @@
       "title": "Claude Fable 5.1 and Claude Mythos 5.1",
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
       "discuss_url": "https://news.ycombinator.com/item?id=49525378",
-      "score": 1350,
-      "comments": 1305,
+      "score": 1369,
+      "comments": 1319,
       "author": "denysvitali",
       "published": "2026-09-01T17:53:53Z"
     },
@@ -160,8 +172,8 @@
       "title": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit",
       "url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/",
       "discuss_url": "https://news.ycombinator.com/item?id=49527573",
-      "score": 232,
-      "comments": 171,
+      "score": 239,
+      "comments": 183,
       "author": "colinprince",
       "published": "2026-09-01T20:19:11Z"
     },
@@ -172,8 +184,8 @@
       "title": "The efficient frontier of LLM inference",
       "url": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/",
       "discuss_url": "https://news.ycombinator.com/item?id=49529898",
-      "score": 145,
-      "comments": 40,
+      "score": 146,
+      "comments": 41,
       "author": "philipkiely",
       "published": "2026-09-01T23:48:05Z"
     },
@@ -184,10 +196,22 @@
       "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
       "url": "https://mvakde.github.io/blog/44-on-arc-1/",
       "discuss_url": "https://news.ycombinator.com/item?id=49519939",
-      "score": 640,
-      "comments": 158,
+      "score": 649,
+      "comments": 161,
       "author": "porridgeraisin",
       "published": "2026-09-01T09:52:45Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Researchers use AI to ‘democratize’ 3D printing of crucial metal alloy",
+      "url": "https://news.wsu.edu/news/2026/08/24/researchers-use-ai-to-democratize-3d-printing-of-crucial-metal-alloy/",
+      "discuss_url": "https://lobste.rs/s/em1whz",
+      "score": 3,
+      "comments": 3,
+      "author": "mempko",
+      "published": "2026-09-01T22:42:12Z"
     },
     {
       "source": "lobsters",
@@ -200,18 +224,6 @@
       "comments": 0,
       "author": "355E3B",
       "published": "2026-09-02T11:52:23Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Researchers use AI to ‘democratize’ 3D printing of crucial metal alloy",
-      "url": "https://news.wsu.edu/news/2026/08/24/researchers-use-ai-to-democratize-3d-printing-of-crucial-metal-alloy/",
-      "discuss_url": "https://lobste.rs/s/em1whz",
-      "score": 2,
-      "comments": 3,
-      "author": "mempko",
-      "published": "2026-09-01T22:42:12Z"
     },
     {
       "source": "rss",
@@ -250,28 +262,28 @@
       "published": "2026-09-01T00:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-      "discuss_url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-08-28T00:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "A bicycle for the mind",
       "url": "https://pulkomandy.tk/_/_Life/_A%20bicycle%20for%20the%20mind",
       "discuss_url": "https://lobste.rs/s/y58e86",
-      "score": 27,
+      "score": 28,
       "comments": 17,
       "author": "waddlesplash",
       "published": "2026-09-01T13:52:12Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Let's build a compressor from scratch",
+      "url": "https://ochagavia.nl/blog/lets-build-a-compressor-from-scratch/",
+      "discuss_url": "https://lobste.rs/s/3y9lbw",
+      "score": 1,
+      "comments": 0,
+      "author": "wofo",
+      "published": "2026-09-02T19:54:21Z"
     },
     {
       "source": "lobsters",
@@ -293,7 +305,7 @@
       "url": "https://lobste.rs/s/vb1jgu",
       "discuss_url": "https://lobste.rs/s/vb1jgu",
       "score": 10,
-      "comments": 37,
+      "comments": 38,
       "author": "caius",
       "published": "2026-08-31T14:06:11Z"
     },
@@ -316,8 +328,8 @@
       "title": "Radical Decentralization, Radical Empowerment, and Dynamicland (2022)",
       "url": "https://dynamicland.org/2022/Radical_Decentralization.pdf",
       "discuss_url": "https://lobste.rs/s/3fnrm3",
-      "score": 2,
-      "comments": 1,
+      "score": 3,
+      "comments": 2,
       "author": "calvin",
       "published": "2026-09-01T23:23:50Z"
     },
@@ -337,6 +349,18 @@
       "source": "rss",
       "subsource": "github.blog",
       "category": "engineering",
+      "title": "How we make AI coding more cost efficient without sacrificing task quality",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+      "score": null,
+      "comments": null,
+      "author": "Erik Kristensen",
+      "published": "2026-09-02T18:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
       "title": "OpenClaw went viral. Meet the maintainers building and securing it.",
       "url": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
       "discuss_url": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
@@ -344,18 +368,6 @@
       "comments": null,
       "author": "Gregg Cochran",
       "published": "2026-08-27T16:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/",
-      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/",
-      "score": null,
-      "comments": null,
-      "author": "Christopher Harrison",
-      "published": "2026-08-26T20:12:53Z"
     },
     {
       "source": "rss",
@@ -421,6 +433,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "The Vulnpocalypse Is Repricing the Bug Bounty Economy",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/vulnpocalypse-repricing-bug-bounty-economy",
+      "discuss_url": "https://lobste.rs/s/ta0fg1",
+      "score": 3,
+      "comments": 0,
+      "author": "freddyb",
+      "published": "2026-09-02T04:21:49Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Any user process can escalate to root",
       "url": "https://www.vesto.me/2026/08/31/any-process-escalate-root.html",
       "discuss_url": "https://lobste.rs/s/q2zziq",
@@ -428,18 +452,6 @@
       "comments": 4,
       "author": "ntietz",
       "published": "2026-08-31T13:46:41Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "The Vulnpocalypse Is Repricing the Bug Bounty Economy",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/vulnpocalypse-repricing-bug-bounty-economy",
-      "discuss_url": "https://lobste.rs/s/ta0fg1",
-      "score": 2,
-      "comments": 0,
-      "author": "freddyb",
-      "published": "2026-09-02T04:21:49Z"
     },
     {
       "source": "lobsters",
@@ -464,6 +476,30 @@
       "comments": null,
       "author": "BrianKrebs",
       "published": "2026-09-01T22:40:28Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
+      "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+      "discuss_url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-09-02T18:27:49Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Fake Software Installers Disable Windows Update and Weaken Microsoft Defender",
+      "url": "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
+      "discuss_url": "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-09-02T16:41:06Z"
     },
     {
       "source": "rss",
@@ -503,39 +539,87 @@
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
-      "url": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
-      "discuss_url": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Web Search on Amazon Bedrock is now available in AWS GovCloud (US-West)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-web-aws-govcloud/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-web-aws-govcloud/",
       "score": null,
       "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-09-02T12:22:02Z"
+      "author": "aws@amazon.com",
+      "published": "2026-09-02T17:52:00Z"
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
-      "url": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
-      "discuss_url": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Connect Customer expands automated performance evaluations to Malay",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-automated-evaluations-malay/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-automated-evaluations-malay/",
       "score": null,
       "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-09-02T11:30:00Z"
+      "author": "aws@amazon.com",
+      "published": "2026-09-02T17:00:00Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
+      "source": "rss",
+      "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Creepy crawlies",
-      "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
-      "discuss_url": "https://lobste.rs/s/nbjo0i",
-      "score": 138,
-      "comments": 60,
-      "author": "gmem",
-      "published": "2026-08-29T16:25:31Z"
+      "title": "Amazon Quick adds new tool settings and Model Context Protocol (MCP) sync support for connectors",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-adds-tool-settings-mcp-sync/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-adds-tool-settings-mcp-sync/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-02T16:54:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Connect Customer announces general availability of agentic CX designer",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-02T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Second-generation AWS Outposts racks now in the AWS GovCloud (US) Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-outposts-govcloud-us-regions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-outposts-govcloud-us-regions/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-02T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Config now supports 60 new resource types",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-config-new-resource-types/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-config-new-resource-types/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-02T15:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS User Experience Customization (UXC) is now available in all commercial AWS Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-uxc-aws-regions",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-uxc-aws-regions",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-02T13:00:00Z"
     },
     {
       "source": "rss",
@@ -548,6 +632,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-09-02T09:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon RDS for SQL Server supports additional SQL trace flags",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/rds-sqlserver-supports-additional-trace-flags/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/rds-sqlserver-supports-additional-trace-flags/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-02T07:00:00Z"
     },
     {
       "source": "rss",
@@ -587,87 +683,51 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Kinesis Data Streams now supports a dry run feature to validate API requests",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-kinesis-data-streams-api/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-kinesis-data-streams-api/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Wary of Artemis IV timeline, NASA is changing lunar spacesuit design",
+      "url": "https://arstechnica.com/space/2026/09/wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design/",
+      "discuss_url": "https://arstechnica.com/space/2026/09/wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-01T19:00:00Z"
+      "author": "Eric Berger",
+      "published": "2026-09-02T19:37:08Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Backup now supports protecting more than 1,000 Amazon S3 buckets per account",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
+      "url": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
+      "discuss_url": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-01T18:00:00Z"
+      "author": "Ryan Whitwam",
+      "published": "2026-09-02T18:13:54Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Connect Customer dashboards now support compact mode",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-dashboards-compact-mode/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-dashboards-compact-mode/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Trump may be forced to reveal secret rules feds use for AI safety testing",
+      "url": "https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-01T17:00:00Z"
+      "author": "Ashley Belanger",
+      "published": "2026-09-02T17:58:33Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon MWAA supports Apache Airflow version 3.3.1",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-apache-airflow-3-3-1/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-apache-airflow-3-3-1/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "US court rules Google will not have to sell ad exchange after losing antitrust case",
+      "url": "https://arstechnica.com/gadgets/2026/09/us-court-rules-google-will-not-have-to-sell-ad-exchange-after-losing-antitrust-case/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/09/us-court-rules-google-will-not-have-to-sell-ad-exchange-after-losing-antitrust-case/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-01T15:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Claude Fable 5.1, Anthropic's new frontier model is now available on AWS",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-fable-5-1-aws/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-fable-5-1-aws/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-01T14:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Claude Fable 5.1, Anthropic's new frontier model is now available on AWS GovCloud (US)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-fable-5-1-aws-govcloud/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-fable-5-1-aws-govcloud/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-01T14:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon CloudWatch now supports warm-up periods for alarms",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-alarms-warmup-period",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-alarms-warmup-period",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-01T08:00:00Z"
+      "author": "Ryan Whitwam",
+      "published": "2026-09-02T16:30:11Z"
     },
     {
       "source": "rss",
@@ -764,54 +824,6 @@
       "comments": null,
       "author": "Ryan Whitwam",
       "published": "2026-09-01T18:00:02Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "FTC alleges Amazon illegally made $20 billion by rigging billions of ad auctions",
-      "url": "https://arstechnica.com/tech-policy/2026/09/ftc-alleges-amazon-illegally-made-20-billion-by-rigging-billions-of-ad-auctions/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/09/ftc-alleges-amazon-illegally-made-20-billion-by-rigging-billions-of-ad-auctions/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-09-01T17:51:17Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "This is what a supercar was like a century ago",
-      "url": "https://arstechnica.com/cars/2026/09/this-is-what-a-supercar-was-like-a-century-ago/",
-      "discuss_url": "https://arstechnica.com/cars/2026/09/this-is-what-a-supercar-was-like-a-century-ago/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-09-01T17:34:16Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "It turns out that Orion's much-maligned heat shield performed really well",
-      "url": "https://arstechnica.com/space/2026/09/it-turns-out-that-orions-much-maligned-heat-shield-performed-really-well/",
-      "discuss_url": "https://arstechnica.com/space/2026/09/it-turns-out-that-orions-much-maligned-heat-shield-performed-really-well/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-09-01T14:46:28Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Without new landers or rovers, it's helicopters or bust for NASA's Mars program",
-      "url": "https://arstechnica.com/space/2026/09/without-new-landers-or-rovers-its-helicopters-or-bust-for-nasas-mars-program/",
-      "discuss_url": "https://arstechnica.com/space/2026/09/without-new-landers-or-rovers-its-helicopters-or-bust-for-nasas-mars-program/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-09-01T11:00:35Z"
     }
   ]
 }
