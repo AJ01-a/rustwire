@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T16:00:27Z",
+  "updated_at": "2026-09-04T20:30:54Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Discovery of a new OpenAI agent message board",
       "url": "https://collusion.wiki/",
       "discuss_url": "https://news.ycombinator.com/item?id=49563355",
-      "score": 678,
-      "comments": 473,
+      "score": 1243,
+      "comments": 1016,
       "author": "moultano",
       "published": "2026-09-04T11:54:53Z",
       "bullets": [
-        "OpenAI testbeds indicate a shift toward asynchronous multi-agent message boards for decentralized agent coordination and task handover.",
-        "Message board architectures solve context window constraints by enabling persistent, threaded agent memory and collective reasoning among autonomous models.",
-        "Shared agent communication spaces present significant alignment and security risks, including autonomous prompt injection propagation across collaborating models."
+        "Unsecured inter-agent message boards expose autonomous OpenAI agent workflows to hijacking, rogue coordination, and unauthorized command-and-control exploitation.",
+        "Multi-agent communication protocols lack standardized mutual authentication, enabling prompt injection payloads to propagate across interconnected agent instances.",
+        "Engineers deploying agentic systems must enforce strict network isolation, message signing, and egress controls on inter-agent messaging channels."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/ku30xf",
       "discuss_url": "https://lobste.rs/s/ku30xf",
-      "score": 12,
-      "comments": 44,
+      "score": 13,
+      "comments": 55,
       "author": "caius",
       "published": "2026-09-04T09:26:25Z",
       "bullets": [
-        "Lobsters community thread highlights developer weekend side projects, tooling prototypes, and experimental coding outside enterprise production environments.",
-        "Participants typically share homelab configurations, open-source contributions, and experimentation with systems languages like Rust, Zig, or Go.",
-        "Thread provides informal peer review for architectural hurdles and early-stage prototypes while explicitly encouraging downtime to mitigate developer burnout."
+        "Engineers often use weekend side projects to test emerging stacks like Rust, Zig, or Go away from production constraints.",
+        "Common community efforts include homelab maintenance, self-hosting services, and contributing patches to open-source software libraries.",
+        "Discussions consistently emphasize scheduled downtime and stepping away from code to mitigate engineering burnout and fatigue."
       ]
     },
     {
@@ -76,43 +76,43 @@
       "author": "df",
       "published": "2026-09-03T03:20:07Z",
       "bullets": [
-        "Commercial refrigeration controllers frequently expose vulnerable Modbus, BACnet, or unauthenticated web management interfaces directly to the public internet.",
-        "Tampering with IoT cold-chain setpoints causes direct physical spoilage and operational disruption while easily evading traditional IT-focused intrusion detection.",
-        "Facilities must isolate OT/ICS networks, eliminate unvetted vendor remote-access channels, and alert on anomalous HVAC and refrigeration telemetry overrides."
+        "Cold-chain BMS and ICS controllers often lack basic authentication, leaving commercial refrigeration systems vulnerable to unauthorized remote parameter manipulation.",
+        "Unsegmented vendor remote-access portals and exposed BACnet or Modbus endpoints bridge external attackers directly into sensitive operational technology environments.",
+        "Targeting auxiliary OT infrastructure like refrigeration disrupts cold-chain integrity, impacting operational readiness without needing to breach hardened core networks."
       ]
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Transfer Family SFTP Connectors now support continuing file transfers during credential rotation",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
+      "title": "AWS MCP Server adds a serverless capability for AWS Lambda functions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-09-04T08:00:00Z",
+      "published": "2026-09-04T16:31:00Z",
       "bullets": [
-        "AWS Transfer Family SFTP Connectors now continue running file transfers while you rotate the credentials used to authenticate with remote SFTP servers.",
-        "You no longer need to update the connector to point to a new secret version each time a credential rotates, removing a manual step and helping avoid failed transfers during the ro…",
-        "Connectors can now retrieve credentials from an ordered list of AWS Secrets Manager version stages, such as the current and previous versions, during authentication."
+        "AWS MCP Server enables AI agents like Claude Code and Kiro to inspect and diagnose live AWS Lambda functions.",
+        "Provides automated cross-resource tracing across API Gateway, EventBridge, S3, DynamoDB, SNS, SQS, and Step Functions.",
+        "Aggregates infrastructure telemetry into single calls, minimizing token consumption while correlating anomalies against a 7-day baseline."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Rocket Report: Engines installed for Artemis III; Long March 6C breakup in LEO",
-      "url": "https://arstechnica.com/space/2026/09/rocket-report-china-debuts-yet-another-new-rocket-nasa-considers-bulk-buys/",
-      "discuss_url": "https://arstechnica.com/space/2026/09/rocket-report-china-debuts-yet-another-new-rocket-nasa-considers-bulk-buys/",
+      "title": "Medieval manuscripts are \"biological time capsules\" for deadly sheeppox virus",
+      "url": "https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus/",
+      "discuss_url": "https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus/",
       "score": null,
       "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-09-04T12:48:36Z",
+      "author": "Jennifer Ouellette",
+      "published": "2026-09-04T19:01:02Z",
       "bullets": [
-        "Two of Europe's leading launch startups announced new fundraising this week.",
-        "Rocket Report: Engines installed for Artemis III; Long March 6C breakup in LEO",
-        "Submitted by Stephen Clark on arstechnica.com."
+        "Metagenomic sequencing of animal-skin parchment recovers viable aDNA, turning library archives into unconventional biological data repositories.",
+        "Paleogenomic extraction pipelines successfully reconstructed ancient sheeppox viral genomes, aiding comparative genomics and evolutionary pathogen tracking.",
+        "The technique establishes novel historical biosurveillance methods, expanding epidemiological threat modeling across centuries of physical manuscripts."
       ]
     }
   ],
@@ -124,10 +124,22 @@
       "title": "Discovery of a new OpenAI agent message board",
       "url": "https://collusion.wiki/",
       "discuss_url": "https://news.ycombinator.com/item?id=49563355",
-      "score": 678,
-      "comments": 473,
+      "score": 1243,
+      "comments": 1016,
       "author": "moultano",
       "published": "2026-09-04T11:54:53Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Nobody is saying why OpenAI and Anthropic had outages",
+      "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49567594",
+      "score": 185,
+      "comments": 2,
+      "author": "jslakro",
+      "published": "2026-09-04T17:29:22Z"
     },
     {
       "source": "hackernews",
@@ -136,8 +148,8 @@
       "title": "GPT-6 Astra",
       "url": "https://openai.com/index/gpt-6-astra/",
       "discuss_url": "https://news.ycombinator.com/item?id=49554643",
-      "score": 2015,
-      "comments": 1833,
+      "score": 2123,
+      "comments": 1929,
       "author": "kibae",
       "published": "2026-09-03T18:41:05Z"
     },
@@ -148,22 +160,10 @@
       "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
       "url": "https://armature.tech/blog/which-tools-coding-agents-install",
       "discuss_url": "https://news.ycombinator.com/item?id=49557206",
-      "score": 272,
-      "comments": 128,
+      "score": 286,
+      "comments": 142,
       "author": "screm",
       "published": "2026-09-03T21:20:34Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "OpenAI begins rolling out GPT-6 Astra",
-      "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=49554273",
-      "score": 273,
-      "comments": 251,
-      "author": "maskil",
-      "published": "2026-09-03T18:18:22Z"
     },
     {
       "source": "hackernews",
@@ -172,10 +172,22 @@
       "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?",
       "url": "https://news.ycombinator.com/item?id=49551096",
       "discuss_url": "https://news.ycombinator.com/item?id=49551096",
-      "score": 384,
-      "comments": 547,
+      "score": 389,
+      "comments": 669,
       "author": "halcdev",
       "published": "2026-09-03T15:07:01Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "OpenAI begins rolling out GPT-6 Astra",
+      "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
+      "discuss_url": "https://news.ycombinator.com/item?id=49554273",
+      "score": 275,
+      "comments": 253,
+      "author": "maskil",
+      "published": "2026-09-03T18:18:22Z"
     },
     {
       "source": "hackernews",
@@ -184,8 +196,8 @@
       "title": "OpenAI's GPT-6 Astra on ARC-AGI-3",
       "url": "https://arcprize.org/blog/astra",
       "discuss_url": "https://news.ycombinator.com/item?id=49555691",
-      "score": 223,
-      "comments": 136,
+      "score": 231,
+      "comments": 142,
       "author": "vignesh_warar",
       "published": "2026-09-03T19:45:00Z"
     },
@@ -196,8 +208,8 @@
       "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
       "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
       "discuss_url": "https://news.ycombinator.com/item?id=49550375",
-      "score": 341,
-      "comments": 116,
+      "score": 363,
+      "comments": 125,
       "author": "rabahs",
       "published": "2026-09-03T14:28:18Z"
     },
@@ -220,8 +232,8 @@
       "title": "Nvidia to acquire Hugging Face",
       "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49548952",
-      "score": 321,
-      "comments": 101,
+      "score": 323,
+      "comments": 104,
       "author": "tosh",
       "published": "2026-09-03T12:10:33Z"
     },
@@ -233,7 +245,7 @@
       "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/#core-takeaways-about-this-incident",
       "discuss_url": "https://news.ycombinator.com/item?id=49543841",
       "score": 122,
-      "comments": 103,
+      "comments": 104,
       "author": "stikit",
       "published": "2026-09-02T23:08:47Z"
     },
@@ -251,25 +263,13 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "The Hugging Face incident and the road ahead",
-      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
-      "discuss_url": "https://lobste.rs/s/r8a3w9",
-      "score": 1,
-      "comments": 1,
-      "author": "ebababi",
-      "published": "2026-09-04T11:06:19Z"
-    },
-    {
-      "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/ku30xf",
       "discuss_url": "https://lobste.rs/s/ku30xf",
-      "score": 12,
-      "comments": 44,
+      "score": 13,
+      "comments": 55,
       "author": "caius",
       "published": "2026-09-04T09:26:25Z"
     },
@@ -280,7 +280,7 @@
       "title": "Revo Programming language",
       "url": "https://revo.lung.fyi/",
       "discuss_url": "https://lobste.rs/s/towfrz",
-      "score": 81,
+      "score": 86,
       "comments": 11,
       "author": "Drakonis",
       "published": "2026-09-03T13:21:37Z"
@@ -292,22 +292,10 @@
       "title": "Dynamic linking best practices (2021)",
       "url": "https://begriffs.com/posts/2021-07-04-shared-libraries.html",
       "discuss_url": "https://lobste.rs/s/nkzapz",
-      "score": 3,
+      "score": 4,
       "comments": 1,
       "author": "abhin4v",
       "published": "2026-09-04T09:19:06Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Let's build a compressor from scratch",
-      "url": "https://ochagavia.nl/blog/lets-build-a-compressor-from-scratch/",
-      "discuss_url": "https://lobste.rs/s/3y9lbw",
-      "score": 16,
-      "comments": 2,
-      "author": "wofo",
-      "published": "2026-09-02T19:54:21Z"
     },
     {
       "source": "lobsters",
@@ -325,6 +313,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Let's build a compressor from scratch",
+      "url": "https://ochagavia.nl/blog/lets-build-a-compressor-from-scratch/",
+      "discuss_url": "https://lobste.rs/s/3y9lbw",
+      "score": 16,
+      "comments": 2,
+      "author": "wofo",
+      "published": "2026-09-02T19:54:21Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Radical Decentralization, Radical Empowerment, and Dynamicland (2022)",
       "url": "https://dynamicland.org/2022/Radical_Decentralization.pdf",
       "discuss_url": "https://lobste.rs/s/3fnrm3",
@@ -332,6 +332,18 @@
       "comments": 2,
       "author": "calvin",
       "published": "2026-09-01T23:23:50Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "score": null,
+      "comments": null,
+      "author": "GitHub Staff",
+      "published": "2026-09-04T16:04:14Z"
     },
     {
       "source": "rss",
@@ -394,18 +406,6 @@
       "published": "2026-09-03T16:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "The economics of agent scale: tokens, ROI, and building platforms for AI-first teams (Part 2)",
-      "url": "https://stackoverflow.blog/2026/09/03/the-economics-of-agent-scale/",
-      "discuss_url": "https://stackoverflow.blog/2026/09/03/the-economics-of-agent-scale/",
-      "score": null,
-      "comments": null,
-      "author": "Eira May",
-      "published": "2026-09-03T07:40:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
@@ -433,6 +433,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Stop Telling People Not To Click Links",
+      "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/26/stop-telling-people-not-to-click-links/",
+      "discuss_url": "https://lobste.rs/s/kvfua1",
+      "score": 3,
+      "comments": 2,
+      "author": "typesanitizer",
+      "published": "2026-09-03T21:56:06Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Hillingar - MirageOS Unikernels on NixOS",
       "url": "https://ryan.freumh.org/hillingar.html",
       "discuss_url": "https://lobste.rs/s/ifyeuo",
@@ -440,18 +452,6 @@
       "comments": 0,
       "author": "sjamaan",
       "published": "2026-09-04T09:17:21Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Stop Telling People Not To Click Links",
-      "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/26/stop-telling-people-not-to-click-links/",
-      "discuss_url": "https://lobste.rs/s/kvfua1",
-      "score": 2,
-      "comments": 2,
-      "author": "typesanitizer",
-      "published": "2026-09-03T21:56:06Z"
     },
     {
       "source": "lobsters",
@@ -493,6 +493,30 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
+      "url": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
+      "discuss_url": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-09-04T15:57:15Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
+      "url": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
+      "discuss_url": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-09-04T15:20:19Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
       "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
       "discuss_url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
@@ -527,27 +551,27 @@
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
-      "url": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
-      "discuss_url": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS MCP Server adds a serverless capability for AWS Lambda functions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
       "score": null,
       "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-09-04T07:18:47Z"
+      "author": "aws@amazon.com",
+      "published": "2026-09-04T16:31:00Z"
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
-      "url": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
-      "discuss_url": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 C8g instances now available in additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-c8g-instances-additional-regions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-c8g-instances-additional-regions/",
       "score": null,
       "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-09-04T06:47:52Z"
+      "author": "aws@amazon.com",
+      "published": "2026-09-04T14:06:00Z"
     },
     {
       "source": "rss",
@@ -565,6 +589,18 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "Amazon EC2 C9g and C9gd instances are now available in Asia Pacific (Tokyo) region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-c9g-c9gd-asia-pacific-tokyo/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-c9g-c9gd-asia-pacific-tokyo/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-03T23:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon ECS Managed Daemons now support non-critical daemons",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ecs-managed-daemons-non-critical/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ecs-managed-daemons-non-critical/",
@@ -572,6 +608,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-09-03T22:01:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 M9g and M9gd instances are now available in four additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-m9g-m9gd-four-regions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-m9g-m9gd-four-regions/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-03T21:00:00Z"
     },
     {
       "source": "rss",
@@ -647,51 +695,111 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Redshift rg.large instances now support single-node clusters",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/redshift-rg-large-single-node",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/redshift-rg-large-single-node",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Medieval manuscripts are \"biological time capsules\" for deadly sheeppox virus",
+      "url": "https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus/",
+      "discuss_url": "https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-03T16:03:00Z"
+      "author": "Jennifer Ouellette",
+      "published": "2026-09-04T19:01:02Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Aurora MySQL 8.4.8 (compatible with MySQL 8.4.8) is now generally available",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-mysql-848-available/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-mysql-848-available/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs",
+      "url": "https://arstechnica.com/information-technology/2026/09/trust-not-features-is-the-real-deficit-vmware-tries-to-appease-smbs/",
+      "discuss_url": "https://arstechnica.com/information-technology/2026/09/trust-not-features-is-the-real-deficit-vmware-tries-to-appease-smbs/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-03T16:01:00Z"
+      "author": "Scharon Harding",
+      "published": "2026-09-04T17:35:02Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Aurora MySQL now supports multi-source replication and delayed replication",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-mysql-multisourcerep-delayedrep/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-mysql-multisourcerep-delayedrep/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+      "url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
+      "discuss_url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-03T16:00:00Z"
+      "author": "Dan Goodin",
+      "published": "2026-09-04T17:18:12Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon SageMaker Unified Studio Workflows support Python and Bash operators",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-workflows-python-bash/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-workflows-python-bash/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Pentagon rescinds new testosterone screening policy without explanation",
+      "url": "https://arstechnica.com/health/2026/09/pentagon-releases-then-quickly-removes-testosterone-screening-policy/",
+      "discuss_url": "https://arstechnica.com/health/2026/09/pentagon-releases-then-quickly-removes-testosterone-screening-policy/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-03T15:00:00Z"
+      "author": "Beth Mole",
+      "published": "2026-09-04T16:57:24Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "A ratings board wouldn't let Valve release a trailer. It \"leaked\" it instead.",
+      "url": "https://arstechnica.com/gaming/2026/09/valve-secretly-leaked-a-left-4-dead-2-trailer-to-dodge-the-esrb/",
+      "discuss_url": "https://arstechnica.com/gaming/2026/09/valve-secretly-leaked-a-left-4-dead-2-trailer-to-dodge-the-esrb/",
+      "score": null,
+      "comments": null,
+      "author": "Kyle Orland",
+      "published": "2026-09-04T16:42:53Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Second complete map of a fruit fly brain completed",
+      "url": "https://arstechnica.com/science/2026/09/brain-of-a-male-fly-completely-mapped-joins-earlier-map-of-a-female-brain/",
+      "discuss_url": "https://arstechnica.com/science/2026/09/brain-of-a-male-fly-completely-mapped-joins-earlier-map-of-a-female-brain/",
+      "score": null,
+      "comments": null,
+      "author": "John Timmer",
+      "published": "2026-09-04T16:24:24Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Anthropic’s $2 trillion IPO puts powerful external trustees in spotlight",
+      "url": "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight/",
+      "discuss_url": "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight/",
+      "score": null,
+      "comments": null,
+      "author": "Madhumita Murgia, Financial Times",
+      "published": "2026-09-04T16:22:18Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Musk wins court order to block use of “Twitter,” but not “tweet” and bird logo",
+      "url": "https://arstechnica.com/tech-policy/2026/09/musk-wins-court-order-to-block-use-of-twitter-but-not-tweet-and-bird-logo/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/09/musk-wins-court-order-to-block-use-of-twitter-but-not-tweet-and-bird-logo/",
+      "score": null,
+      "comments": null,
+      "author": "Ashley Belanger",
+      "published": "2026-09-04T15:59:47Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Trump White House just tossed a grenade into international space relations",
+      "url": "https://arstechnica.com/space/2026/09/why-did-us-space-companies-pull-out-of-a-french-space-meeting-its-complicated/",
+      "discuss_url": "https://arstechnica.com/space/2026/09/why-did-us-space-companies-pull-out-of-a-french-space-meeting-its-complicated/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-09-04T15:46:33Z"
     },
     {
       "source": "rss",
@@ -709,7 +817,7 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Nearly impossible? How Fairphone built the ethical, repairable Fairphone Gen 6+.",
+      "title": "Nearly impossible? How Fairphone built the ethical, repairable Fairphone Gen 6+",
       "url": "https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6/",
       "discuss_url": "https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6/",
       "score": null,
@@ -728,114 +836,6 @@
       "comments": null,
       "author": "Beth Mole",
       "published": "2026-09-03T22:13:50Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Xbox imposes harsh new time limits for Game Pass game streaming",
-      "url": "https://arstechnica.com/gaming/2026/09/xbox-imposes-harsh-new-time-limits-for-game-pass-game-streaming/",
-      "discuss_url": "https://arstechnica.com/gaming/2026/09/xbox-imposes-harsh-new-time-limits-for-game-pass-game-streaming/",
-      "score": null,
-      "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-09-03T21:10:59Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "150 research primates got diarrhea, flooding lab with priceless vaccine data",
-      "url": "https://arstechnica.com/health/2026/09/150-research-primates-got-diarrhea-flooding-lab-with-priceless-vaccine-data/",
-      "discuss_url": "https://arstechnica.com/health/2026/09/150-research-primates-got-diarrhea-flooding-lab-with-priceless-vaccine-data/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-09-03T20:14:48Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Confused about which VPN is right, US senator asks the NSA for guidance",
-      "url": "https://arstechnica.com/security/2026/09/us-senator-calls-on-the-nsa-to-give-guidance-for-use-of-vpns/",
-      "discuss_url": "https://arstechnica.com/security/2026/09/us-senator-calls-on-the-nsa-to-give-guidance-for-use-of-vpns/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-09-03T19:52:06Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Supreme Court urged to let states regulate sports bets on prediction markets",
-      "url": "https://arstechnica.com/tech-policy/2026/09/nj-urges-scotus-to-rule-that-kalshi-sports-bets-are-gambling-not-swaps/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/09/nj-urges-scotus-to-rule-that-kalshi-sports-bets-are-gambling-not-swaps/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-09-03T19:42:02Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "VMware migration reduces Tottenham Hotspur's licensing fees by 85 percent",
-      "url": "https://arstechnica.com/information-technology/2026/09/vmware-migration-reduces-tottenham-hotspurs-licensing-fees-by-85-percent/",
-      "discuss_url": "https://arstechnica.com/information-technology/2026/09/vmware-migration-reduces-tottenham-hotspurs-licensing-fees-by-85-percent/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-09-03T18:58:31Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Just like a fruit fly, a new algorithm never forgets old scents",
-      "url": "https://arstechnica.com/science/2026/09/just-like-a-fruit-fly-a-new-algorithm-never-forgets-old-scents/",
-      "discuss_url": "https://arstechnica.com/science/2026/09/just-like-a-fruit-fly-a-new-algorithm-never-forgets-old-scents/",
-      "score": null,
-      "comments": null,
-      "author": "Federica Sgorbissa",
-      "published": "2026-09-03T18:22:52Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Four major AI models suffer rare overlapping downtime",
-      "url": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime/",
-      "discuss_url": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime/",
-      "score": null,
-      "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-09-03T18:10:19Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Trump’s 100% tariff on drones will be disaster for the US, critics warn",
-      "url": "https://arstechnica.com/tech-policy/2026/09/trumps-100-drone-tariff-has-cops-and-firefighters-panicking/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/09/trumps-100-drone-tariff-has-cops-and-firefighters-panicking/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-09-03T17:08:09Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Meet the 2026 Ig Nobel Prize winners",
-      "url": "https://arstechnica.com/science/2026/09/meet-the-2026-ig-nobel-prize-winners/",
-      "discuss_url": "https://arstechnica.com/science/2026/09/meet-the-2026-ig-nobel-prize-winners/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-09-03T17:00:37Z"
     }
   ]
 }
