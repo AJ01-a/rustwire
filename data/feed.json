@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T10:54:42Z",
+  "updated_at": "2026-09-04T16:00:27Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "GPT-6 Astra",
-      "url": "https://openai.com/index/gpt-6-astra/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49554643",
-      "score": 1852,
-      "comments": 1644,
-      "author": "kibae",
-      "published": "2026-09-03T18:41:05Z",
+      "title": "Discovery of a new OpenAI agent message board",
+      "url": "https://collusion.wiki/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49563355",
+      "score": 678,
+      "comments": 473,
+      "author": "moultano",
+      "published": "2026-09-04T11:54:53Z",
       "bullets": [
-        "OpenAI released GPT-6 Astra alongside a deployment safety system card detailing updated risk mitigations and capability evaluations.",
-        "Early benchmark discussions highlight evaluated performance leaps on the frontier abstract reasoning suite, ARC-AGI-3.",
-        "Reported metrics show significant advances on the Artificial Analysis Coding Agent Index, targeting autonomous software engineering workflows."
+        "OpenAI testbeds indicate a shift toward asynchronous multi-agent message boards for decentralized agent coordination and task handover.",
+        "Message board architectures solve context window constraints by enabling persistent, threaded agent memory and collective reasoning among autonomous models.",
+        "Shared agent communication spaces present significant alignment and security risks, including autonomous prompt injection propagation across collaborating models."
       ]
     },
     {
@@ -54,65 +54,65 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/ku30xf",
       "discuss_url": "https://lobste.rs/s/ku30xf",
-      "score": 2,
-      "comments": 3,
+      "score": 12,
+      "comments": 44,
       "author": "caius",
       "published": "2026-09-04T09:26:25Z",
       "bullets": [
-        "Feel free to tell what you plan on doing this weekend and even ask for help or feedback.",
-        "Please keep in mind it’s more than OK to do nothing at all too!",
-        "What are you doing this weekend?"
+        "Lobsters community thread highlights developer weekend side projects, tooling prototypes, and experimental coding outside enterprise production environments.",
+        "Participants typically share homelab configurations, open-source contributions, and experimentation with systems languages like Rust, Zig, or Go.",
+        "Thread provides informal peer review for architectural hurdles and early-stage prototypes while explicitly encouraging downtime to mitigate developer burnout."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Hillingar - MirageOS Unikernels on NixOS",
-      "url": "https://ryan.freumh.org/hillingar.html",
-      "discuss_url": "https://lobste.rs/s/ifyeuo",
-      "score": 2,
-      "comments": 0,
-      "author": "sjamaan",
-      "published": "2026-09-04T09:17:21Z",
+      "title": "I Think the Military Commissary Freezers Were Hacked",
+      "url": "https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary",
+      "discuss_url": "https://lobste.rs/s/ygjo0g",
+      "score": 47,
+      "comments": 17,
+      "author": "df",
+      "published": "2026-09-03T03:20:07Z",
       "bullets": [
-        "Hillingar - MirageOS Unikernels on NixOS",
-        "Trending on lobste.rs/security — 2 points, 0 comments.",
-        "Submitted by sjamaan on lobste.rs/security."
+        "Commercial refrigeration controllers frequently expose vulnerable Modbus, BACnet, or unauthenticated web management interfaces directly to the public internet.",
+        "Tampering with IoT cold-chain setpoints causes direct physical spoilage and operational disruption while easily evading traditional IT-focused intrusion detection.",
+        "Facilities must isolate OT/ICS networks, eliminate unvetted vendor remote-access channels, and alert on anomalous HVAC and refrigeration telemetry overrides."
       ]
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon ECS Managed Daemons now support non-critical daemons",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ecs-managed-daemons-non-critical/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ecs-managed-daemons-non-critical/",
+      "title": "AWS Transfer Family SFTP Connectors now support continuing file transfers during credential rotation",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-09-03T22:01:00Z",
+      "published": "2026-09-04T08:00:00Z",
       "bullets": [
-        "Amazon Elastic Container Service (Amazon ECS) now support non-critical Managed Daemons for ECS Managed Instances .",
-        "You can configure a daemon as non-critical so that your mission-critical application tasks continue running uninterrupted, even when a daemon fails, stops, or becomes unhealthy.",
-        "Amazon ECS Managed Daemons lets you centrally deploy and manage software agents independently of application deployments to ensure consistent coverage and compliance across your c…"
+        "AWS Transfer Family SFTP Connectors now continue running file transfers while you rotate the credentials used to authenticate with remote SFTP servers.",
+        "You no longer need to update the connector to point to a new secret version each time a credential rotates, removing a manual step and helping avoid failed transfers during the ro…",
+        "Connectors can now retrieve credentials from an ordered list of AWS Secrets Manager version stages, such as the current and previous versions, during authentication."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Reports: RFK Jr. ordered measles deaths deletion; CDC still secretly counts them",
-      "url": "https://arstechnica.com/health/2026/09/reports-rfk-jr-ordered-measles-deaths-deletion-cdc-still-secretly-counts-them/",
-      "discuss_url": "https://arstechnica.com/health/2026/09/reports-rfk-jr-ordered-measles-deaths-deletion-cdc-still-secretly-counts-them/",
+      "title": "Rocket Report: Engines installed for Artemis III; Long March 6C breakup in LEO",
+      "url": "https://arstechnica.com/space/2026/09/rocket-report-china-debuts-yet-another-new-rocket-nasa-considers-bulk-buys/",
+      "discuss_url": "https://arstechnica.com/space/2026/09/rocket-report-china-debuts-yet-another-new-rocket-nasa-considers-bulk-buys/",
       "score": null,
       "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-09-03T22:13:50Z",
+      "author": "Stephen Clark",
+      "published": "2026-09-04T12:48:36Z",
       "bullets": [
-        "CDC staff had already accepted the measles death reports when RFK Jr.",
-        "meddled.",
-        "Reports: RFK Jr. ordered measles deaths deletion; CDC still secretly counts them"
+        "Two of Europe's leading launch startups announced new fundraising this week.",
+        "Rocket Report: Engines installed for Artemis III; Long March 6C breakup in LEO",
+        "Submitted by Stephen Clark on arstechnica.com."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Discovery of a new OpenAI agent message board",
+      "url": "https://collusion.wiki/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49563355",
+      "score": 678,
+      "comments": 473,
+      "author": "moultano",
+      "published": "2026-09-04T11:54:53Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "GPT-6 Astra",
       "url": "https://openai.com/index/gpt-6-astra/",
       "discuss_url": "https://news.ycombinator.com/item?id=49554643",
-      "score": 1852,
-      "comments": 1644,
+      "score": 2015,
+      "comments": 1833,
       "author": "kibae",
       "published": "2026-09-03T18:41:05Z"
     },
@@ -136,8 +148,8 @@
       "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
       "url": "https://armature.tech/blog/which-tools-coding-agents-install",
       "discuss_url": "https://news.ycombinator.com/item?id=49557206",
-      "score": 230,
-      "comments": 106,
+      "score": 272,
+      "comments": 128,
       "author": "screm",
       "published": "2026-09-03T21:20:34Z"
     },
@@ -148,22 +160,10 @@
       "title": "OpenAI begins rolling out GPT-6 Astra",
       "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49554273",
-      "score": 267,
-      "comments": 246,
+      "score": 273,
+      "comments": 251,
       "author": "maskil",
       "published": "2026-09-03T18:18:22Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "OpenAI's GPT-6 Astra on ARC-AGI-3",
-      "url": "https://arcprize.org/blog/astra",
-      "discuss_url": "https://news.ycombinator.com/item?id=49555691",
-      "score": 214,
-      "comments": 126,
-      "author": "vignesh_warar",
-      "published": "2026-09-03T19:45:00Z"
     },
     {
       "source": "hackernews",
@@ -172,10 +172,22 @@
       "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?",
       "url": "https://news.ycombinator.com/item?id=49551096",
       "discuss_url": "https://news.ycombinator.com/item?id=49551096",
-      "score": 373,
-      "comments": 535,
+      "score": 384,
+      "comments": 547,
       "author": "halcdev",
       "published": "2026-09-03T15:07:01Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "OpenAI's GPT-6 Astra on ARC-AGI-3",
+      "url": "https://arcprize.org/blog/astra",
+      "discuss_url": "https://news.ycombinator.com/item?id=49555691",
+      "score": 223,
+      "comments": 136,
+      "author": "vignesh_warar",
+      "published": "2026-09-03T19:45:00Z"
     },
     {
       "source": "hackernews",
@@ -184,8 +196,8 @@
       "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
       "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
       "discuss_url": "https://news.ycombinator.com/item?id=49550375",
-      "score": 301,
-      "comments": 99,
+      "score": 341,
+      "comments": 116,
       "author": "rabahs",
       "published": "2026-09-03T14:28:18Z"
     },
@@ -208,8 +220,8 @@
       "title": "Nvidia to acquire Hugging Face",
       "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49548952",
-      "score": 313,
-      "comments": 99,
+      "score": 321,
+      "comments": 101,
       "author": "tosh",
       "published": "2026-09-03T12:10:33Z"
     },
@@ -217,49 +229,37 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49537553",
-      "score": 1144,
-      "comments": 657,
-      "author": "bratao",
-      "published": "2026-09-02T15:12:40Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Check if a file was made with Claude",
-      "url": "https://claude.com/check-content",
-      "discuss_url": "https://news.ycombinator.com/item?id=49535201",
-      "score": 182,
-      "comments": 132,
-      "author": "frexs",
-      "published": "2026-09-02T12:23:20Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
-      "url": "https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero",
-      "discuss_url": "https://news.ycombinator.com/item?id=49536114",
-      "score": 178,
-      "comments": 65,
-      "author": "goobreee",
-      "published": "2026-09-02T13:43:14Z"
+      "title": "METR Report on OpenAI / Hugging Face Hacking Incident",
+      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/#core-takeaways-about-this-incident",
+      "discuss_url": "https://news.ycombinator.com/item?id=49543841",
+      "score": 122,
+      "comments": 103,
+      "author": "stikit",
+      "published": "2026-09-02T23:08:47Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "LLMs and self-referentiality",
-      "url": "https://scottaaronson.blog/?p=10046",
-      "discuss_url": "https://lobste.rs/s/jato3y",
-      "score": 2,
-      "comments": 3,
-      "author": "carlana",
-      "published": "2026-09-03T13:39:13Z"
+      "title": "Using machine learning on my Guitar Hero Controller",
+      "url": "https://p0ly.com/ml_strummer.html",
+      "discuss_url": "https://lobste.rs/s/hhogjo",
+      "score": 1,
+      "comments": 0,
+      "author": "jakob",
+      "published": "2026-09-04T15:23:26Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "The Hugging Face incident and the road ahead",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+      "discuss_url": "https://lobste.rs/s/r8a3w9",
+      "score": 1,
+      "comments": 1,
+      "author": "ebababi",
+      "published": "2026-09-04T11:06:19Z"
     },
     {
       "source": "lobsters",
@@ -268,8 +268,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/ku30xf",
       "discuss_url": "https://lobste.rs/s/ku30xf",
-      "score": 2,
-      "comments": 3,
+      "score": 12,
+      "comments": 44,
       "author": "caius",
       "published": "2026-09-04T09:26:25Z"
     },
@@ -280,8 +280,8 @@
       "title": "Revo Programming language",
       "url": "https://revo.lung.fyi/",
       "discuss_url": "https://lobste.rs/s/towfrz",
-      "score": 78,
-      "comments": 9,
+      "score": 81,
+      "comments": 11,
       "author": "Drakonis",
       "published": "2026-09-03T13:21:37Z"
     },
@@ -292,8 +292,8 @@
       "title": "Dynamic linking best practices (2021)",
       "url": "https://begriffs.com/posts/2021-07-04-shared-libraries.html",
       "discuss_url": "https://lobste.rs/s/nkzapz",
-      "score": 1,
-      "comments": 0,
+      "score": 3,
+      "comments": 1,
       "author": "abhin4v",
       "published": "2026-09-04T09:19:06Z"
     },
@@ -320,30 +320,6 @@
       "comments": 17,
       "author": "waddlesplash",
       "published": "2026-09-01T13:52:12Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/vb1jgu",
-      "discuss_url": "https://lobste.rs/s/vb1jgu",
-      "score": 10,
-      "comments": 38,
-      "author": "caius",
-      "published": "2026-08-31T14:06:11Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Cancelation Terminology",
-      "url": "https://matklad.github.io/2026/08/31/cancelation-terminology.html",
-      "discuss_url": "https://lobste.rs/s/49hbhi",
-      "score": 35,
-      "comments": 4,
-      "author": "vulcan",
-      "published": "2026-08-31T14:19:48Z"
     },
     {
       "source": "lobsters",
@@ -397,6 +373,18 @@
       "source": "rss",
       "subsource": "stackoverflow.blog",
       "category": "engineering",
+      "title": "How to build a secure-by-default AI coding agent",
+      "url": "https://stackoverflow.blog/2026/09/04/how-to-build-a-secure-by-default-ai-coding-agent/",
+      "discuss_url": "https://stackoverflow.blog/2026/09/04/how-to-build-a-secure-by-default-ai-coding-agent/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-09-04T07:40:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
       "title": "Elevating security, control, and accessibility: Stack Internal 2026.6",
       "url": "https://stackoverflow.blog/2026/09/03/security-control-and-accessibility-si-2026-6/",
       "discuss_url": "https://stackoverflow.blog/2026/09/03/security-control-and-accessibility-si-2026-6/",
@@ -406,16 +394,16 @@
       "published": "2026-09-03T16:00:00Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Hillingar - MirageOS Unikernels on NixOS",
-      "url": "https://ryan.freumh.org/hillingar.html",
-      "discuss_url": "https://lobste.rs/s/ifyeuo",
-      "score": 2,
-      "comments": 0,
-      "author": "sjamaan",
-      "published": "2026-09-04T09:17:21Z"
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "The economics of agent scale: tokens, ROI, and building platforms for AI-first teams (Part 2)",
+      "url": "https://stackoverflow.blog/2026/09/03/the-economics-of-agent-scale/",
+      "discuss_url": "https://stackoverflow.blog/2026/09/03/the-economics-of-agent-scale/",
+      "score": null,
+      "comments": null,
+      "author": "Eira May",
+      "published": "2026-09-03T07:40:00Z"
     },
     {
       "source": "lobsters",
@@ -445,13 +433,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Upcoming C-tor security release - 0.4.9.12",
-      "url": "https://forum.torproject.org/t/tor-dev-upcoming-c-tor-security-release-0-4-9-12/22075",
-      "discuss_url": "https://lobste.rs/s/hveyuq",
+      "title": "Hillingar - MirageOS Unikernels on NixOS",
+      "url": "https://ryan.freumh.org/hillingar.html",
+      "discuss_url": "https://lobste.rs/s/ifyeuo",
       "score": 2,
-      "comments": 1,
-      "author": "legoktm",
-      "published": "2026-09-03T16:27:19Z"
+      "comments": 0,
+      "author": "sjamaan",
+      "published": "2026-09-04T09:17:21Z"
     },
     {
       "source": "lobsters",
@@ -460,8 +448,8 @@
       "title": "Stop Telling People Not To Click Links",
       "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/26/stop-telling-people-not-to-click-links/",
       "discuss_url": "https://lobste.rs/s/kvfua1",
-      "score": 1,
-      "comments": 1,
+      "score": 2,
+      "comments": 2,
       "author": "typesanitizer",
       "published": "2026-09-03T21:56:06Z"
     },
@@ -469,25 +457,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Any user process can escalate to root",
-      "url": "https://www.vesto.me/2026/08/31/any-process-escalate-root.html",
-      "discuss_url": "https://lobste.rs/s/q2zziq",
-      "score": 10,
-      "comments": 4,
-      "author": "ntietz",
-      "published": "2026-08-31T13:46:41Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Privilege escalation from IIS AppPool to NT Authority/SYSTEM",
-      "url": "https://www.mannulinux.org/2026/08/Privilege-escalation-from-IIS-AppPool-to-NT-AuthoritySYSTEM-via-AD-CS-RPC-endpoint.html",
-      "discuss_url": "https://lobste.rs/s/gqk57d",
-      "score": 9,
-      "comments": 3,
-      "author": "hoistbypetard",
-      "published": "2026-08-31T12:36:17Z"
+      "title": "Upcoming C-tor security release - 0.4.9.12",
+      "url": "https://forum.torproject.org/t/tor-dev-upcoming-c-tor-security-release-0-4-9-12/22075",
+      "discuss_url": "https://lobste.rs/s/hveyuq",
+      "score": 2,
+      "comments": 1,
+      "author": "legoktm",
+      "published": "2026-09-03T16:27:19Z"
     },
     {
       "source": "lobsters",
@@ -512,6 +488,18 @@
       "comments": null,
       "author": "BrianKrebs",
       "published": "2026-09-01T22:40:28Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
+      "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+      "discuss_url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-09-04T14:51:13Z"
     },
     {
       "source": "rss",
@@ -548,6 +536,30 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-09-04T07:18:47Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
+      "url": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
+      "discuss_url": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-09-04T06:47:52Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Transfer Family SFTP Connectors now support continuing file transfers during credential rotation",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-04T08:00:00Z"
     },
     {
       "source": "rss",
@@ -683,15 +695,27 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon MWAA adds built-in monitoring with Amazon CloudWatch",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-cloudwatch-monitoring/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-cloudwatch-monitoring/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Rocket Report: Engines installed for Artemis III; Long March 6C breakup in LEO",
+      "url": "https://arstechnica.com/space/2026/09/rocket-report-china-debuts-yet-another-new-rocket-nasa-considers-bulk-buys/",
+      "discuss_url": "https://arstechnica.com/space/2026/09/rocket-report-china-debuts-yet-another-new-rocket-nasa-considers-bulk-buys/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-03T15:00:00Z"
+      "author": "Stephen Clark",
+      "published": "2026-09-04T12:48:36Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Nearly impossible? How Fairphone built the ethical, repairable Fairphone Gen 6+.",
+      "url": "https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6/",
+      "score": null,
+      "comments": null,
+      "author": "Ryan Whitwam",
+      "published": "2026-09-04T11:00:05Z"
     },
     {
       "source": "rss",
@@ -812,30 +836,6 @@
       "comments": null,
       "author": "Jennifer Ouellette",
       "published": "2026-09-03T17:00:37Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Nvidia buys Hugging Face, the GitHub of AI, for $13 billion",
-      "url": "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion/",
-      "discuss_url": "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion/",
-      "score": null,
-      "comments": null,
-      "author": "Michael Acton, Financial Times",
-      "published": "2026-09-03T13:34:13Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Spending deal comes with a bonus: Blocking political control of grants",
-      "url": "https://arstechnica.com/science/2026/09/budget-deal-puts-political-control-of-grants-on-hold-until-december/",
-      "discuss_url": "https://arstechnica.com/science/2026/09/budget-deal-puts-political-control-of-grants-on-hold-until-december/",
-      "score": null,
-      "comments": null,
-      "author": "John Timmer",
-      "published": "2026-09-02T21:20:03Z"
     }
   ]
 }
