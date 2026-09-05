@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T20:30:54Z",
+  "updated_at": "2026-09-05T03:40:24Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Discovery of a new OpenAI agent message board",
-      "url": "https://collusion.wiki/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49563355",
-      "score": 1243,
-      "comments": 1016,
-      "author": "moultano",
-      "published": "2026-09-04T11:54:53Z",
+      "title": "GPT-6 Astra on OpenRouter",
+      "url": "https://openrouter.ai/openai/gpt-6-astra",
+      "discuss_url": "https://news.ycombinator.com/item?id=49570545",
+      "score": 145,
+      "comments": 75,
+      "author": "Topfi",
+      "published": "2026-09-04T21:39:19Z",
       "bullets": [
-        "Unsecured inter-agent message boards expose autonomous OpenAI agent workflows to hijacking, rogue coordination, and unauthorized command-and-control exploitation.",
-        "Multi-agent communication protocols lack standardized mutual authentication, enabling prompt injection payloads to propagate across interconnected agent instances.",
-        "Engineers deploying agentic systems must enforce strict network isolation, message signing, and egress controls on inter-agent messaging channels."
+        "OpenRouter listed an unverified model endpoint dubbed 'GPT-6 Astra,' prompting technical speculation regarding unannounced frontier checkpoints or benchmarking experiments.",
+        "Unconfirmed listings on model routing platforms often represent fine-tunes, reverse-proxied internal tests, or community stunts rather than genuine generational leaps.",
+        "AI practitioners should validate upstream API provenance and evaluate independent benchmark metrics before adopting unverified aggregator endpoints into production pipelines."
       ]
     },
     {
@@ -55,64 +55,64 @@
       "url": "https://lobste.rs/s/ku30xf",
       "discuss_url": "https://lobste.rs/s/ku30xf",
       "score": 13,
-      "comments": 55,
+      "comments": 61,
       "author": "caius",
       "published": "2026-09-04T09:26:25Z",
       "bullets": [
-        "Engineers often use weekend side projects to test emerging stacks like Rust, Zig, or Go away from production constraints.",
-        "Common community efforts include homelab maintenance, self-hosting services, and contributing patches to open-source software libraries.",
-        "Discussions consistently emphasize scheduled downtime and stepping away from code to mitigate engineering burnout and fatigue."
+        "Recurring community forum showcases active developer side projects, toolchain experimentation, and exploratory software development outside day jobs.",
+        "Common topics span niche language exploration, personal homelab infrastructure maintenance, open-source library contributions, and architecture prototyping.",
+        "Discussions emphasize sustainable engineering practices, validating complete rest and time away from code to counter persistent tech industry burnout."
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "I Think the Military Commissary Freezers Were Hacked",
-      "url": "https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary",
-      "discuss_url": "https://lobste.rs/s/ygjo0g",
-      "score": 47,
-      "comments": 17,
-      "author": "df",
-      "published": "2026-09-03T03:20:07Z",
+      "title": "Actively exploited sandbox RCE in all Chromium versions",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
+      "discuss_url": "https://news.ycombinator.com/item?id=49570669",
+      "score": 307,
+      "comments": 171,
+      "author": "negura",
+      "published": "2026-09-04T21:52:01Z",
       "bullets": [
-        "Cold-chain BMS and ICS controllers often lack basic authentication, leaving commercial refrigeration systems vulnerable to unauthorized remote parameter manipulation.",
-        "Unsegmented vendor remote-access portals and exposed BACnet or Modbus endpoints bridge external attackers directly into sensitive operational technology environments.",
-        "Targeting auxiliary OT infrastructure like refrigeration disrupts cold-chain integrity, impacting operational readiness without needing to breach hardened core networks."
+        "Actively exploited sandbox RCE in all Chromium versions",
+        "Trending on news.ycombinator.com — 307 points, 171 comments.",
+        "Submitted by negura on news.ycombinator.com."
       ]
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS MCP Server adds a serverless capability for AWS Lambda functions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
+      "title": "Amazon Bedrock Managed Knowledge Base introduces user-managed setup for SharePoint, OneDrive, and Confluence data sources",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-user-managed-setup-sharepoint-onedrive-confluence/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-user-managed-setup-sharepoint-onedrive-confluence/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-09-04T16:31:00Z",
+      "published": "2026-09-04T21:29:00Z",
       "bullets": [
-        "AWS MCP Server enables AI agents like Claude Code and Kiro to inspect and diagnose live AWS Lambda functions.",
-        "Provides automated cross-resource tracing across API Gateway, EventBridge, S3, DynamoDB, SNS, SQS, and Step Functions.",
-        "Aggregates infrastructure telemetry into single calls, minimizing token consumption while correlating anomalies against a 7-day baseline."
+        "AWS announces user-managed setup (3LO) for SharePoint, OneDrive, and Confluence data sources in Amazon Bedrock Managed Knowledge Base.",
+        "Previously, configuring these data sources required generating 2LO credentials on the third-party side, which could be time-consuming and inaccessible for users who lack admin-lev…",
+        "With user-managed setup, you simply sign in with your existing third-party credentials, and Amazon Bedrock Managed Knowledge Base handles authentication—allowing you to complete d…"
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Medieval manuscripts are \"biological time capsules\" for deadly sheeppox virus",
-      "url": "https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus/",
-      "discuss_url": "https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus/",
+      "title": "After 8 years, Europe's BepiColombo mission is on final approach to Mercury",
+      "url": "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/",
+      "discuss_url": "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/",
       "score": null,
       "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-09-04T19:01:02Z",
+      "author": "Stephen Clark",
+      "published": "2026-09-04T22:49:17Z",
       "bullets": [
-        "Metagenomic sequencing of animal-skin parchment recovers viable aDNA, turning library archives into unconventional biological data repositories.",
-        "Paleogenomic extraction pipelines successfully reconstructed ancient sheeppox viral genomes, aiding comparative genomics and evolutionary pathogen tracking.",
-        "The technique establishes novel historical biosurveillance methods, expanding epidemiological threat modeling across centuries of physical manuscripts."
+        "\"Fundamentally, we want to learn about the origins of this planet and how it came to be like it is.\"",
+        "After 8 years, Europe's BepiColombo mission is on final approach to Mercury",
+        "Submitted by Stephen Clark on arstechnica.com."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "GPT-6 Astra on OpenRouter",
+      "url": "https://openrouter.ai/openai/gpt-6-astra",
+      "discuss_url": "https://news.ycombinator.com/item?id=49570545",
+      "score": 145,
+      "comments": 75,
+      "author": "Topfi",
+      "published": "2026-09-04T21:39:19Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Discovery of a new OpenAI agent message board",
       "url": "https://collusion.wiki/",
       "discuss_url": "https://news.ycombinator.com/item?id=49563355",
-      "score": 1243,
-      "comments": 1016,
+      "score": 1531,
+      "comments": 1220,
       "author": "moultano",
       "published": "2026-09-04T11:54:53Z"
     },
@@ -136,8 +148,8 @@
       "title": "Nobody is saying why OpenAI and Anthropic had outages",
       "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
       "discuss_url": "https://news.ycombinator.com/item?id=49567594",
-      "score": 185,
-      "comments": 2,
+      "score": 193,
+      "comments": 3,
       "author": "jslakro",
       "published": "2026-09-04T17:29:22Z"
     },
@@ -148,8 +160,8 @@
       "title": "GPT-6 Astra",
       "url": "https://openai.com/index/gpt-6-astra/",
       "discuss_url": "https://news.ycombinator.com/item?id=49554643",
-      "score": 2123,
-      "comments": 1929,
+      "score": 2159,
+      "comments": 1975,
       "author": "kibae",
       "published": "2026-09-03T18:41:05Z"
     },
@@ -160,8 +172,8 @@
       "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
       "url": "https://armature.tech/blog/which-tools-coding-agents-install",
       "discuss_url": "https://news.ycombinator.com/item?id=49557206",
-      "score": 286,
-      "comments": 142,
+      "score": 290,
+      "comments": 145,
       "author": "screm",
       "published": "2026-09-03T21:20:34Z"
     },
@@ -172,8 +184,8 @@
       "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?",
       "url": "https://news.ycombinator.com/item?id=49551096",
       "discuss_url": "https://news.ycombinator.com/item?id=49551096",
-      "score": 389,
-      "comments": 669,
+      "score": 393,
+      "comments": 682,
       "author": "halcdev",
       "published": "2026-09-03T15:07:01Z"
     },
@@ -184,7 +196,7 @@
       "title": "OpenAI begins rolling out GPT-6 Astra",
       "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49554273",
-      "score": 275,
+      "score": 276,
       "comments": 253,
       "author": "maskil",
       "published": "2026-09-03T18:18:22Z"
@@ -196,8 +208,8 @@
       "title": "OpenAI's GPT-6 Astra on ARC-AGI-3",
       "url": "https://arcprize.org/blog/astra",
       "discuss_url": "https://news.ycombinator.com/item?id=49555691",
-      "score": 231,
-      "comments": 142,
+      "score": 232,
+      "comments": 146,
       "author": "vignesh_warar",
       "published": "2026-09-03T19:45:00Z"
     },
@@ -208,10 +220,22 @@
       "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
       "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
       "discuss_url": "https://news.ycombinator.com/item?id=49550375",
-      "score": 363,
-      "comments": 125,
+      "score": 366,
+      "comments": 129,
       "author": "rabahs",
       "published": "2026-09-03T14:28:18Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Nvidia to acquire Hugging Face",
+      "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
+      "discuss_url": "https://news.ycombinator.com/item?id=49548952",
+      "score": 324,
+      "comments": 106,
+      "author": "tosh",
+      "published": "2026-09-03T12:10:33Z"
     },
     {
       "source": "hackernews",
@@ -226,40 +250,16 @@
       "published": "2026-09-03T13:29:12Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Nvidia to acquire Hugging Face",
-      "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=49548952",
-      "score": 323,
-      "comments": 104,
-      "author": "tosh",
-      "published": "2026-09-03T12:10:33Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "METR Report on OpenAI / Hugging Face Hacking Incident",
-      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/#core-takeaways-about-this-incident",
-      "discuss_url": "https://news.ycombinator.com/item?id=49543841",
-      "score": 122,
-      "comments": 104,
-      "author": "stikit",
-      "published": "2026-09-02T23:08:47Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Using machine learning on my Guitar Hero Controller",
-      "url": "https://p0ly.com/ml_strummer.html",
-      "discuss_url": "https://lobste.rs/s/hhogjo",
-      "score": 1,
-      "comments": 0,
-      "author": "jakob",
-      "published": "2026-09-04T15:23:26Z"
+      "title": "LLMs and self-referentiality",
+      "url": "https://scottaaronson.blog/?p=10046",
+      "discuss_url": "https://lobste.rs/s/jato3y",
+      "score": 3,
+      "comments": 4,
+      "author": "carlana",
+      "published": "2026-09-03T13:39:13Z"
     },
     {
       "source": "lobsters",
@@ -269,7 +269,7 @@
       "url": "https://lobste.rs/s/ku30xf",
       "discuss_url": "https://lobste.rs/s/ku30xf",
       "score": 13,
-      "comments": 55,
+      "comments": 61,
       "author": "caius",
       "published": "2026-09-04T09:26:25Z"
     },
@@ -280,10 +280,22 @@
       "title": "Revo Programming language",
       "url": "https://revo.lung.fyi/",
       "discuss_url": "https://lobste.rs/s/towfrz",
-      "score": 86,
+      "score": 87,
       "comments": 11,
       "author": "Drakonis",
       "published": "2026-09-03T13:21:37Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Exploring Mojo’s raw pointer type",
+      "url": "https://melodyogonna.substack.com/p/exploring-mojos-raw-pointer-type",
+      "discuss_url": "https://lobste.rs/s/f4jtaf",
+      "score": 4,
+      "comments": 0,
+      "author": "melodyogonna",
+      "published": "2026-09-04T21:02:11Z"
     },
     {
       "source": "lobsters",
@@ -293,7 +305,7 @@
       "url": "https://begriffs.com/posts/2021-07-04-shared-libraries.html",
       "discuss_url": "https://lobste.rs/s/nkzapz",
       "score": 4,
-      "comments": 1,
+      "comments": 2,
       "author": "abhin4v",
       "published": "2026-09-04T09:19:06Z"
     },
@@ -394,16 +406,16 @@
       "published": "2026-09-04T07:40:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "Elevating security, control, and accessibility: Stack Internal 2026.6",
-      "url": "https://stackoverflow.blog/2026/09/03/security-control-and-accessibility-si-2026-6/",
-      "discuss_url": "https://stackoverflow.blog/2026/09/03/security-control-and-accessibility-si-2026-6/",
-      "score": null,
-      "comments": null,
-      "author": "Carrie Koos",
-      "published": "2026-09-03T16:00:00Z"
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "Actively exploited sandbox RCE in all Chromium versions",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
+      "discuss_url": "https://news.ycombinator.com/item?id=49570669",
+      "score": 307,
+      "comments": 171,
+      "author": "negura",
+      "published": "2026-09-04T21:52:01Z"
     },
     {
       "source": "lobsters",
@@ -436,7 +448,7 @@
       "title": "Stop Telling People Not To Click Links",
       "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/26/stop-telling-people-not-to-click-links/",
       "discuss_url": "https://lobste.rs/s/kvfua1",
-      "score": 3,
+      "score": 4,
       "comments": 2,
       "author": "typesanitizer",
       "published": "2026-09-03T21:56:06Z"
@@ -539,15 +551,63 @@
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
-      "url": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
-      "discuss_url": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Bedrock Managed Knowledge Base introduces user-managed setup for SharePoint, OneDrive, and Confluence data sources",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-user-managed-setup-sharepoint-onedrive-confluence/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-user-managed-setup-sharepoint-onedrive-confluence/",
       "score": null,
       "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-09-04T07:35:14Z"
+      "author": "aws@amazon.com",
+      "published": "2026-09-04T21:29:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Bedrock Managed Knowledge Base now supports ServiceNow as a native data source connector",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-servicenow-native-data-source-connector/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-servicenow-native-data-source-connector/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-04T21:14:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Bedrock Managed Knowledge Base now supports automatic sync scheduling for data source connectors",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-automatic-sync-scheduling-data-source-connectors/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-automatic-sync-scheduling-data-source-connectors/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-04T21:01:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 now supports specifying compatible instance types on AMIs",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-images-supported-instances",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-images-supported-instances",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-04T19:26:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon ECS introduces Early Success Criteria for service deployments",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-04T17:00:00Z"
     },
     {
       "source": "rss",
@@ -580,6 +640,18 @@
       "title": "AWS Transfer Family SFTP Connectors now support continuing file transfers during credential rotation",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-04T08:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon SageMaker AI Batch Transform now supports G6e instances",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -623,75 +695,51 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 P6-B200 instances are now available in the AWS Asia Pacific (Hyderabad) Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-p6-b200-instances-available-asia-pacific-hyderabad",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-p6-b200-instances-available-asia-pacific-hyderabad",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "After 8 years, Europe's BepiColombo mission is on final approach to Mercury",
+      "url": "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/",
+      "discuss_url": "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-03T19:14:00Z"
+      "author": "Stephen Clark",
+      "published": "2026-09-04T22:49:17Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 P6-B300 instances are now available in the AWS Asia Pacific (Jakarta) Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-p6-b300-instances-available-asia-pacific-jakarta",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-p6-b300-instances-available-asia-pacific-jakarta",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+      "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+      "discuss_url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-03T19:03:00Z"
+      "author": "Dan Goodin",
+      "published": "2026-09-04T22:17:36Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon CloudFront announces API support for flat-rate pricing plans",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudfront-flat-rate-pricing-plans-api/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudfront-flat-rate-pricing-plans-api/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Measles killed 6-week-old baby, coroner confirms after RFK Jr. disputed deaths",
+      "url": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/",
+      "discuss_url": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-03T18:00:00Z"
+      "author": "Beth Mole",
+      "published": "2026-09-04T20:22:41Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Introducing Amazon Quick Max: 5x the usage for power users who want the most out of Quick",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-max-5x-usage-power-users/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-max-5x-usage-power-users/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Trump admin fights ABC lawsuit as watchdogs worry Disney will settle with FCC",
+      "url": "https://arstechnica.com/tech-policy/2026/09/trump-admin-fights-abc-lawsuit-as-watchdogs-worry-disney-will-settle-with-fcc/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/09/trump-admin-fights-abc-lawsuit-as-watchdogs-worry-disney-will-settle-with-fcc/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-03T17:17:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Gateway Load Balancer now supports TCP Reset for faster failure recovery",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-gateway-load-balancer-tcp-reset/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-gateway-load-balancer-tcp-reset/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-03T17:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon WorkSpaces Applications adds support for NVIDIA Blackwell GPU instances",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-nvidia-blackwell-gpu-instances/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-nvidia-blackwell-gpu-instances/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-03T17:00:00Z"
+      "author": "Jon Brodkin",
+      "published": "2026-09-04T19:46:34Z"
     },
     {
       "source": "rss",
@@ -788,54 +836,6 @@
       "comments": null,
       "author": "Ashley Belanger",
       "published": "2026-09-04T15:59:47Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Trump White House just tossed a grenade into international space relations",
-      "url": "https://arstechnica.com/space/2026/09/why-did-us-space-companies-pull-out-of-a-french-space-meeting-its-complicated/",
-      "discuss_url": "https://arstechnica.com/space/2026/09/why-did-us-space-companies-pull-out-of-a-french-space-meeting-its-complicated/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-09-04T15:46:33Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Rocket Report: Engines installed for Artemis III; Long March 6C breakup in LEO",
-      "url": "https://arstechnica.com/space/2026/09/rocket-report-china-debuts-yet-another-new-rocket-nasa-considers-bulk-buys/",
-      "discuss_url": "https://arstechnica.com/space/2026/09/rocket-report-china-debuts-yet-another-new-rocket-nasa-considers-bulk-buys/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-09-04T12:48:36Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Nearly impossible? How Fairphone built the ethical, repairable Fairphone Gen 6+",
-      "url": "https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-09-04T11:00:05Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Reports: RFK Jr. ordered measles deaths deletion; CDC still secretly counts them",
-      "url": "https://arstechnica.com/health/2026/09/reports-rfk-jr-ordered-measles-deaths-deletion-cdc-still-secretly-counts-them/",
-      "discuss_url": "https://arstechnica.com/health/2026/09/reports-rfk-jr-ordered-measles-deaths-deletion-cdc-still-secretly-counts-them/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-09-03T22:13:50Z"
     }
   ]
 }
