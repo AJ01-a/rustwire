@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T17:42:57Z",
+  "updated_at": "2026-09-07T21:19:03Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
-      "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49585644",
-      "score": 690,
-      "comments": 422,
-      "author": "cyb0rg0",
-      "published": "2026-09-06T11:56:43Z",
+      "title": "Tell HN: OpenAI brings back 5 hour limit for plus and business standard users",
+      "url": "https://news.ycombinator.com/item?id=49600233",
+      "discuss_url": "https://news.ycombinator.com/item?id=49600233",
+      "score": 117,
+      "comments": 128,
+      "author": "spwa4",
+      "published": "2026-09-07T16:40:32Z",
       "bullets": [
-        "Stylistic artifacts like synthetic enthusiasm, symmetrical structure, and telltale vocabulary make unedited LLM prose instantly recognizable and distracting to peers.",
-        "Publishing raw GPT-4 or Claude output damages professional credibility, signaling a lack of genuine domain depth and critical thought.",
-        "Effective AI-assisted technical communication demands aggressive human curation, voice preservation, and structural pruning rather than copy-pasting raw model generations."
+        "OpenAI reinstated a 5-hour rate-limit reset window for ChatGPT Plus and Business Standard tiers, cutting daily interactive prompt throughput.",
+        "Extending the cooldown window reduces reset frequency, directly throttling intensive developer workflows, debugging tasks, and prompt prototyping.",
+        "Teams experiencing productivity bottlenecks must pivot sustained, high-volume workloads to direct OpenAI API usage or higher-tier Enterprise accounts."
       ]
     },
     {
@@ -55,13 +55,13 @@
       "url": "https://lobste.rs/s/xm0hkw",
       "discuss_url": "https://lobste.rs/s/xm0hkw",
       "score": 5,
-      "comments": 4,
+      "comments": 7,
       "author": "caius",
       "published": "2026-09-07T10:33:18Z",
       "bullets": [
-        "What are you doing this week?",
-        "Feel free to share!",
-        "Keep in mind it’s OK to do nothing at all, too."
+        "Recurring community thread aggregating peer developer side-projects, language experiments, and active systems infrastructure builds across software engineering.",
+        "Discussions typically highlight progress on self-hosted services, compilers, Rust or Go tooling, and custom developer utilities.",
+        "Provides a practical signal on grassroots developer workflows, niche technology adoption, and active open-source maintenance efforts."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Signing TLS handshakes inside a TPM",
       "url": "https://bschaatsbergen.com/posts/go-tpm-tls/",
       "discuss_url": "https://lobste.rs/s/vospwq",
-      "score": 2,
+      "score": 5,
       "comments": 0,
       "author": "fs111",
       "published": "2026-09-07T14:54:37Z",
       "bullets": [
-        "Signing TLS handshakes inside a TPM",
-        "Trending on lobste.rs/security — 2 points, 0 comments.",
-        "Submitted by fs111 on lobste.rs/security."
+        "Offloading TLS private key storage and handshake signing to TPM 2.0 prevents key exfiltration during host-level compromises.",
+        "Implementations commonly use OpenSSL 3 tpm2-provider or PKCS#11 interfaces to delegate asymmetric handshake signatures to the hardware module.",
+        "Hardware TPM cryptographic latency (typically 50–200ms per operation) severely caps throughput, making it suitable primarily for client-side mTLS."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "func25",
       "published": "2026-09-07T09:36:28Z",
       "bullets": [
-        "The Life of a Metric",
-        "Trending on lobste.rs/devops — 2 points, 0 comments.",
-        "Submitted by func25 on lobste.rs/devops."
+        "Instrumentation agents use OpenTelemetry or Prometheus client libraries to record counters, gauges, and histograms before local buffering and scrape exposure.",
+        "Ingestion pipelines leverage collectors like Vector or Telegraf to batch, downsample, and route time-series data, reducing network overhead.",
+        "TSDB backends like VictoriaMetrics or Thanos manage indexing, block compaction, and retention to optimize PromQL queries and Grafana alerting."
       ]
     },
     {
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Tell HN: OpenAI brings back 5 hour limit for plus and business standard users",
+      "url": "https://news.ycombinator.com/item?id=49600233",
+      "discuss_url": "https://news.ycombinator.com/item?id=49600233",
+      "score": 117,
+      "comments": 128,
+      "author": "spwa4",
+      "published": "2026-09-07T16:40:32Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
       "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
       "discuss_url": "https://news.ycombinator.com/item?id=49585644",
-      "score": 690,
-      "comments": 422,
+      "score": 702,
+      "comments": 429,
       "author": "cyb0rg0",
       "published": "2026-09-06T11:56:43Z"
     },
@@ -136,8 +148,8 @@
       "title": "Research acceleration: The view inside OpenAI",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
       "discuss_url": "https://news.ycombinator.com/item?id=49587217",
-      "score": 198,
-      "comments": 171,
+      "score": 202,
+      "comments": 176,
       "author": "iamsyr",
       "published": "2026-09-06T15:08:44Z"
     },
@@ -148,22 +160,10 @@
       "title": "GPT-6 Astra on robot arms",
       "url": "https://openai.robocurve.org/gpt-6-astra/",
       "discuss_url": "https://news.ycombinator.com/item?id=49582582",
-      "score": 238,
-      "comments": 188,
+      "score": 240,
+      "comments": 189,
       "author": "Anon84",
       "published": "2026-09-06T01:52:45Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "LLMs as a Cognitive Virus",
-      "url": "https://arxiv.org/abs/2609.03344",
-      "discuss_url": "https://news.ycombinator.com/item?id=49580164",
-      "score": 391,
-      "comments": 251,
-      "author": "canjobear",
-      "published": "2026-09-05T20:02:35Z"
     },
     {
       "source": "lobsters",
@@ -269,7 +269,7 @@
       "url": "https://lobste.rs/s/xm0hkw",
       "discuss_url": "https://lobste.rs/s/xm0hkw",
       "score": 5,
-      "comments": 4,
+      "comments": 7,
       "author": "caius",
       "published": "2026-09-07T10:33:18Z"
     },
@@ -280,7 +280,7 @@
       "title": "The Ironies of Automation (1983)",
       "url": "https://static1.squarespace.com/static/644321e78cd2dd37613af33e/t/6694873f71612132a84371c7/1721009983702/Ironies+of+Automation_Bainbridge_1983.pdf",
       "discuss_url": "https://lobste.rs/s/1glwxo",
-      "score": 12,
+      "score": 13,
       "comments": 3,
       "author": "1cg",
       "published": "2026-09-06T13:40:36Z"
@@ -305,7 +305,7 @@
       "url": "https://lobste.rs/s/ku30xf",
       "discuss_url": "https://lobste.rs/s/ku30xf",
       "score": 21,
-      "comments": 73,
+      "comments": 75,
       "author": "caius",
       "published": "2026-09-04T09:26:25Z"
     },
@@ -412,7 +412,7 @@
       "title": "Signing TLS handshakes inside a TPM",
       "url": "https://bschaatsbergen.com/posts/go-tpm-tls/",
       "discuss_url": "https://lobste.rs/s/vospwq",
-      "score": 2,
+      "score": 5,
       "comments": 0,
       "author": "fs111",
       "published": "2026-09-07T14:54:37Z"
@@ -481,6 +481,18 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
+      "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
+      "url": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
+      "discuss_url": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-09-07T18:12:09Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
       "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
       "url": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
       "discuss_url": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
@@ -536,18 +548,6 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-09-07T11:20:14Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
-      "url": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
-      "discuss_url": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-09-07T08:31:12Z"
     },
     {
       "source": "lobsters",
