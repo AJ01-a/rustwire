@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T21:19:03Z",
+  "updated_at": "2026-09-08T03:46:50Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Tell HN: OpenAI brings back 5 hour limit for plus and business standard users",
       "url": "https://news.ycombinator.com/item?id=49600233",
       "discuss_url": "https://news.ycombinator.com/item?id=49600233",
-      "score": 117,
-      "comments": 128,
+      "score": 122,
+      "comments": 135,
       "author": "spwa4",
       "published": "2026-09-07T16:40:32Z",
       "bullets": [
-        "OpenAI reinstated a 5-hour rate-limit reset window for ChatGPT Plus and Business Standard tiers, cutting daily interactive prompt throughput.",
-        "Extending the cooldown window reduces reset frequency, directly throttling intensive developer workflows, debugging tasks, and prompt prototyping.",
-        "Teams experiencing productivity bottlenecks must pivot sustained, high-volume workloads to direct OpenAI API usage or higher-tier Enterprise accounts."
+        "OpenAI reinstated a 5-hour rolling usage limit window for ChatGPT Plus and Business Standard subscription tiers.",
+        "The extended cooldown reduces effective message throughput and slows quota resets compared to previous three-hour windows.",
+        "Practitioners facing web-interface throttling should transition heavy prototyping or production workflows to pay-as-you-go API endpoints."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/xm0hkw",
       "discuss_url": "https://lobste.rs/s/xm0hkw",
-      "score": 5,
-      "comments": 7,
+      "score": 7,
+      "comments": 10,
       "author": "caius",
       "published": "2026-09-07T10:33:18Z",
       "bullets": [
-        "Recurring community thread aggregating peer developer side-projects, language experiments, and active systems infrastructure builds across software engineering.",
-        "Discussions typically highlight progress on self-hosted services, compilers, Rust or Go tooling, and custom developer utilities.",
-        "Provides a practical signal on grassroots developer workflows, niche technology adoption, and active open-source maintenance efforts."
+        "Weekly engineering forums serve as real-time tracking for emerging tooling, peer workflows, and open-source project developments.",
+        "Lobsters check-in threads typically surface active experimentation across systems languages like Rust, Go, self-hosting setups, and developer utilities.",
+        "Practitioners use these community threads for informal peer review, architectural feedback, and early-stage library discovery across diverse stacks."
       ]
     },
     {
@@ -71,31 +71,31 @@
       "title": "Signing TLS handshakes inside a TPM",
       "url": "https://bschaatsbergen.com/posts/go-tpm-tls/",
       "discuss_url": "https://lobste.rs/s/vospwq",
-      "score": 5,
+      "score": 6,
       "comments": 0,
       "author": "fs111",
       "published": "2026-09-07T14:54:37Z",
       "bullets": [
-        "Offloading TLS private key storage and handshake signing to TPM 2.0 prevents key exfiltration during host-level compromises.",
-        "Implementations commonly use OpenSSL 3 tpm2-provider or PKCS#11 interfaces to delegate asymmetric handshake signatures to the hardware module.",
-        "Hardware TPM cryptographic latency (typically 50–200ms per operation) severely caps throughput, making it suitable primarily for client-side mTLS."
+        "Signing TLS handshakes inside a TPM",
+        "Trending on lobste.rs/security — 6 points, 0 comments.",
+        "Submitted by fs111 on lobste.rs/security."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "The Life of a Metric",
-      "url": "https://victoriametrics.com/blog/the-life-of-a-metric/",
-      "discuss_url": "https://lobste.rs/s/hwzvik",
-      "score": 2,
+      "title": "Hardening Container Images",
+      "url": "https://www.grepular.com/Hardening_Container_Images",
+      "discuss_url": "https://lobste.rs/s/8hz82r",
+      "score": 9,
       "comments": 0,
-      "author": "func25",
-      "published": "2026-09-07T09:36:28Z",
+      "author": "pushcx",
+      "published": "2026-09-07T21:39:21Z",
       "bullets": [
-        "Instrumentation agents use OpenTelemetry or Prometheus client libraries to record counters, gauges, and histograms before local buffering and scrape exposure.",
-        "Ingestion pipelines leverage collectors like Vector or Telegraf to batch, downsample, and route time-series data, reducing network overhead.",
-        "TSDB backends like VictoriaMetrics or Thanos manage indexing, block compaction, and retention to optimize PromQL queries and Grafana alerting."
+        "Hardening Container Images",
+        "Trending on lobste.rs/devops — 9 points, 0 comments.",
+        "Submitted by pushcx on lobste.rs/devops."
       ]
     },
     {
@@ -124,8 +124,8 @@
       "title": "Tell HN: OpenAI brings back 5 hour limit for plus and business standard users",
       "url": "https://news.ycombinator.com/item?id=49600233",
       "discuss_url": "https://news.ycombinator.com/item?id=49600233",
-      "score": 117,
-      "comments": 128,
+      "score": 122,
+      "comments": 135,
       "author": "spwa4",
       "published": "2026-09-07T16:40:32Z"
     },
@@ -136,8 +136,8 @@
       "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
       "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
       "discuss_url": "https://news.ycombinator.com/item?id=49585644",
-      "score": 702,
-      "comments": 429,
+      "score": 713,
+      "comments": 433,
       "author": "cyb0rg0",
       "published": "2026-09-06T11:56:43Z"
     },
@@ -148,22 +148,10 @@
       "title": "Research acceleration: The view inside OpenAI",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
       "discuss_url": "https://news.ycombinator.com/item?id=49587217",
-      "score": 202,
-      "comments": 176,
+      "score": 209,
+      "comments": 180,
       "author": "iamsyr",
       "published": "2026-09-06T15:08:44Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "GPT-6 Astra on robot arms",
-      "url": "https://openai.robocurve.org/gpt-6-astra/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49582582",
-      "score": 240,
-      "comments": 189,
-      "author": "Anon84",
-      "published": "2026-09-06T01:52:45Z"
     },
     {
       "source": "lobsters",
@@ -250,28 +238,28 @@
       "published": "2026-09-01T21:39:07Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "url": "https://huggingface.co/blog/webgpu-kernels",
-      "discuss_url": "https://huggingface.co/blog/webgpu-kernels",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-09-01T00:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/xm0hkw",
       "discuss_url": "https://lobste.rs/s/xm0hkw",
-      "score": 5,
-      "comments": 7,
+      "score": 7,
+      "comments": 10,
       "author": "caius",
       "published": "2026-09-07T10:33:18Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Bespoke: A Programming Language for People Who Say Please",
+      "url": "https://blog.hofstede.it/bespoke-a-programming-language-for-people-who-say-please/",
+      "discuss_url": "https://lobste.rs/s/duuz8z",
+      "score": 42,
+      "comments": 22,
+      "author": "Larvitz",
+      "published": "2026-09-05T07:13:32Z"
     },
     {
       "source": "lobsters",
@@ -289,23 +277,11 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Bespoke: A Programming Language for People Who Say Please",
-      "url": "https://blog.hofstede.it/bespoke-a-programming-language-for-people-who-say-please/",
-      "discuss_url": "https://lobste.rs/s/duuz8z",
-      "score": 42,
-      "comments": 21,
-      "author": "Larvitz",
-      "published": "2026-09-05T07:13:32Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/ku30xf",
       "discuss_url": "https://lobste.rs/s/ku30xf",
       "score": 21,
-      "comments": 75,
+      "comments": 76,
       "author": "caius",
       "published": "2026-09-04T09:26:25Z"
     },
@@ -412,22 +388,10 @@
       "title": "Signing TLS handshakes inside a TPM",
       "url": "https://bschaatsbergen.com/posts/go-tpm-tls/",
       "discuss_url": "https://lobste.rs/s/vospwq",
-      "score": 5,
+      "score": 6,
       "comments": 0,
       "author": "fs111",
       "published": "2026-09-07T14:54:37Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Have the frontier labs mixed up AI safety and security?",
-      "url": "https://martinalderson.com/posts/ai-safety-vs-security/",
-      "discuss_url": "https://lobste.rs/s/uu3hhz",
-      "score": 11,
-      "comments": 3,
-      "author": "martinald",
-      "published": "2026-09-06T20:47:52Z"
     },
     {
       "source": "lobsters",
@@ -445,13 +409,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Stop Telling People Not To Click Links",
-      "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/26/stop-telling-people-not-to-click-links/",
-      "discuss_url": "https://lobste.rs/s/kvfua1",
-      "score": 5,
+      "title": "Have the frontier labs mixed up AI safety and security?",
+      "url": "https://martinalderson.com/posts/ai-safety-vs-security/",
+      "discuss_url": "https://lobste.rs/s/uu3hhz",
+      "score": 12,
       "comments": 2,
-      "author": "typesanitizer",
-      "published": "2026-09-03T21:56:06Z"
+      "author": "martinald",
+      "published": "2026-09-06T20:47:52Z"
     },
     {
       "source": "lobsters",
@@ -550,13 +514,37 @@
       "published": "2026-09-07T11:20:14Z"
     },
     {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
+      "url": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+      "discuss_url": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-09-07T08:31:12Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "Hardening Container Images",
+      "url": "https://www.grepular.com/Hardening_Container_Images",
+      "discuss_url": "https://lobste.rs/s/8hz82r",
+      "score": 9,
+      "comments": 0,
+      "author": "pushcx",
+      "published": "2026-09-07T21:39:21Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "The Life of a Metric",
       "url": "https://victoriametrics.com/blog/the-life-of-a-metric/",
       "discuss_url": "https://lobste.rs/s/hwzvik",
-      "score": 2,
+      "score": 4,
       "comments": 0,
       "author": "func25",
       "published": "2026-09-07T09:36:28Z"
@@ -680,18 +668,6 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-09-03T23:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon ECS Managed Daemons now support non-critical daemons",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ecs-managed-daemons-non-critical/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ecs-managed-daemons-non-critical/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-03T22:01:00Z"
     },
     {
       "source": "rss",
