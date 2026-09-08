@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T16:25:49Z",
+  "updated_at": "2026-09-08T20:54:10Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -31,20 +31,20 @@
   ],
   "tldr": [
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "huggingface.co",
       "category": "ai",
-      "title": "Tell HN: OpenAI brings back 5 hour limit for plus and business standard users",
-      "url": "https://news.ycombinator.com/item?id=49600233",
-      "discuss_url": "https://news.ycombinator.com/item?id=49600233",
-      "score": 127,
-      "comments": 143,
-      "author": "spwa4",
-      "published": "2026-09-07T16:40:32Z",
+      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "discuss_url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-09-08T14:23:07Z",
       "bullets": [
-        "OpenAI reinstated a 5-hour rate limit reset window for ChatGPT Plus and Business Standard tiers, replacing shorter reset intervals.",
-        "The extended duration effectively decreases overall prompt throughput and diminishes the value of frequent quota refreshes for power users.",
-        "Engineering workflows heavily dependent on interactive web sessions for models like GPT-4o face increased throttling pressure versus direct API usage."
+        "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+        "Posted via huggingface.co; full context at the source link.",
+        "(no further detail available)"
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "x86 evolution for segmentation and paging",
       "url": "https://inbox.sourceware.org/binutils/CAKSQd8XJVf3jq8boOJcOE_GzcNvcqMUHeW-whbw3uGnVE2iN_w@mail.gmail.com/",
       "discuss_url": "https://lobste.rs/s/1baq3m",
-      "score": 6,
-      "comments": 3,
+      "score": 9,
+      "comments": 7,
       "author": "goliath",
       "published": "2026-09-08T10:22:13Z",
       "bullets": [
-        "x86 shifted from 16-bit real-mode segment bases to 32-bit protected-mode descriptors, eventually deprecating hardware segmentation in x86-64 long mode.",
-        "Paging matured from 80386 two-level 4KB schemes into 36-bit PAE and 48-bit four-level page tables (PML4) for 64-bit virtual memory.",
-        "Modern extensions add 5-level paging (PML5) for 57-bit addressing, standardizing 2MB/1GB huge pages while relying purely on paging for memory isolation."
+        "x86 evolution for segmentation and paging",
+        "Trending on lobste.rs/programming — 9 points, 7 comments.",
+        "Submitted by goliath on lobste.rs/programming."
       ]
     },
     {
@@ -71,13 +71,13 @@
       "title": "Switching Password Managers in 2026",
       "url": "https://rmondello.com/2026/09/07/switching-password-managers-2026/",
       "discuss_url": "https://lobste.rs/s/ikzvtv",
-      "score": 19,
-      "comments": 1,
+      "score": 43,
+      "comments": 10,
       "author": "soulcutter",
       "published": "2026-09-08T13:55:09Z",
       "bullets": [
         "Switching Password Managers in 2026",
-        "Trending on lobste.rs/security — 19 points, 1 comments.",
+        "Trending on lobste.rs/security — 43 points, 10 comments.",
         "Submitted by soulcutter on lobste.rs/security."
       ]
     },
@@ -88,47 +88,35 @@
       "title": "Among European Companies That Use a CDN, Nearly 9 in 10 Use Cloudflare",
       "url": "https://ciphercue.com/blog/european-cdn-concentration-cloudflare-nine-in-ten",
       "discuss_url": "https://news.ycombinator.com/item?id=49607443",
-      "score": 349,
-      "comments": 305,
+      "score": 371,
+      "comments": 338,
       "author": "adulion",
       "published": "2026-09-08T08:42:56Z",
       "bullets": [
-        "Among European Companies That Use a CDN, Nearly 9 in 10 Use Cloudflare",
-        "Trending on news.ycombinator.com — 349 points, 305 comments.",
-        "Submitted by adulion on news.ycombinator.com."
+        "Severe edge centralization creates widespread blast radius risks for DNS, DDoS mitigation, and traffic routing during major Cloudflare outages.",
+        "Deep integration with Cloudflare-specific edge primitives (Workers, WAF, KV) creates friction when architecting multi-CDN strategies with Fastly or Akamai.",
+        "Heavy European adoption complicates GDPR compliance and data sovereignty posture due to US-headquartered ownership and TLS termination at the edge."
       ]
     },
     {
-      "source": "rss",
-      "subsource": "arstechnica.com",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "industry",
-      "title": "EV batteries last longer than drivers feared",
-      "url": "https://arstechnica.com/cars/2026/09/ev-batteries-last-longer-than-drivers-feared/",
-      "discuss_url": "https://arstechnica.com/cars/2026/09/ev-batteries-last-longer-than-drivers-feared/",
-      "score": null,
-      "comments": null,
-      "author": "Kana Inagaki and Clara Murray in London",
-      "published": "2026-09-08T13:56:38Z",
+      "title": "Paramount Caught Using 'Astroturf' Group to Drum Up Fake Support for Merger",
+      "url": "https://www.techdirt.com/2026/09/08/paramount-caught-using-astroturf-group-to-drum-up-fake-support-for-merger/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49610900",
+      "score": 293,
+      "comments": 98,
+      "author": "hn_acker",
+      "published": "2026-09-08T14:33:52Z",
       "bullets": [
-        "Study suggests used vehicles can retain about 90% of original usable battery capacity after 150,000 km.",
-        "EV batteries last longer than drivers feared",
-        "Submitted by Kana Inagaki and Clara Murray in London on arstechnica.com."
+        "Paramount Caught Using 'Astroturf' Group to Drum Up Fake Support for Merger",
+        "Trending on news.ycombinator.com — 293 points, 98 comments.",
+        "Submitted by hn_acker on news.ycombinator.com."
       ]
     }
   ],
   "discussions": [
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Tell HN: OpenAI brings back 5 hour limit for plus and business standard users",
-      "url": "https://news.ycombinator.com/item?id=49600233",
-      "discuss_url": "https://news.ycombinator.com/item?id=49600233",
-      "score": 127,
-      "comments": 143,
-      "author": "spwa4",
-      "published": "2026-09-07T16:40:32Z"
-    },
     {
       "source": "rss",
       "subsource": "huggingface.co",
@@ -220,8 +208,8 @@
       "title": "x86 evolution for segmentation and paging",
       "url": "https://inbox.sourceware.org/binutils/CAKSQd8XJVf3jq8boOJcOE_GzcNvcqMUHeW-whbw3uGnVE2iN_w@mail.gmail.com/",
       "discuss_url": "https://lobste.rs/s/1baq3m",
-      "score": 6,
-      "comments": 3,
+      "score": 9,
+      "comments": 7,
       "author": "goliath",
       "published": "2026-09-08T10:22:13Z"
     },
@@ -364,8 +352,8 @@
       "title": "Switching Password Managers in 2026",
       "url": "https://rmondello.com/2026/09/07/switching-password-managers-2026/",
       "discuss_url": "https://lobste.rs/s/ikzvtv",
-      "score": 19,
-      "comments": 1,
+      "score": 43,
+      "comments": 10,
       "author": "soulcutter",
       "published": "2026-09-08T13:55:09Z"
     },
@@ -376,7 +364,7 @@
       "title": "I’ve factored the RSA keys of a Certificate Authority…from the 90s",
       "url": "https://mcpherrin.ca/2026/09/07/rsa.html",
       "discuss_url": "https://lobste.rs/s/wl0mln",
-      "score": 26,
+      "score": 33,
       "comments": 0,
       "author": "zg",
       "published": "2026-09-08T04:05:34Z"
@@ -428,6 +416,18 @@
       "comments": null,
       "author": "BrianKrebs",
       "published": "2026-09-01T22:40:28Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
+      "url": "https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html",
+      "discuss_url": "https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-09-08T16:20:23Z"
     },
     {
       "source": "rss",
@@ -490,26 +490,14 @@
       "published": "2026-09-08T11:49:02Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
-      "url": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
-      "discuss_url": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-09-08T11:22:07Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Among European Companies That Use a CDN, Nearly 9 in 10 Use Cloudflare",
       "url": "https://ciphercue.com/blog/european-cdn-concentration-cloudflare-nine-in-ten",
       "discuss_url": "https://news.ycombinator.com/item?id=49607443",
-      "score": 349,
-      "comments": 305,
+      "score": 371,
+      "comments": 338,
       "author": "adulion",
       "published": "2026-09-08T08:42:56Z"
     },
@@ -520,8 +508,8 @@
       "title": "Hardening Container Images",
       "url": "https://www.grepular.com/Hardening_Container_Images",
       "discuss_url": "https://lobste.rs/s/8hz82r",
-      "score": 15,
-      "comments": 4,
+      "score": 20,
+      "comments": 5,
       "author": "pushcx",
       "published": "2026-09-07T21:39:21Z"
     },
@@ -536,6 +524,66 @@
       "comments": 0,
       "author": "func25",
       "published": "2026-09-07T09:36:28Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mariadb-community-versions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mariadb-community-versions/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-08T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Bedrock AgentCore Memory now supports direct ingestion to long-term memory",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentcore-memory-direct-ingest",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentcore-memory-direct-ingest",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-08T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Dynamic Image Transformation for Amazon CloudFront adds four new features",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/dynamic-image-transfromation-adds-new-features/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/dynamic-image-transfromation-adds-new-features/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-08T14:32:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Builder ID adds recovery options and multi-factor authentication for third-party logins",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-builder-id-recovery-mfa-third-party/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-builder-id-recovery-mfa-third-party/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-08T08:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon MWAA Serverless is now available in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-serverless-aws-govcloud/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-serverless-aws-govcloud/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-04T22:00:00Z"
     },
     {
       "source": "rss",
@@ -586,64 +634,124 @@
       "published": "2026-09-04T19:26:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon GuardDuty adds optional threat detection rules",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/guardduty-optional-detection-rules/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/guardduty-optional-detection-rules/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-04T17:01:00Z"
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "industry",
+      "title": "Paramount Caught Using 'Astroturf' Group to Drum Up Fake Support for Merger",
+      "url": "https://www.techdirt.com/2026/09/08/paramount-caught-using-astroturf-group-to-drum-up-fake-support-for-merger/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49610900",
+      "score": 293,
+      "comments": 98,
+      "author": "hn_acker",
+      "published": "2026-09-08T14:33:52Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon ECS introduces Early Success Criteria for service deployments",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Supreme Court forces TV stations to sell more election ads at steep discounts",
+      "url": "https://arstechnica.com/tech-policy/2026/09/supreme-court-forces-tv-stations-to-sell-more-election-ads-at-steep-discounts/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/09/supreme-court-forces-tv-stations-to-sell-more-election-ads-at-steep-discounts/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-04T17:00:00Z"
+      "author": "Jon Brodkin",
+      "published": "2026-09-08T19:50:00Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS MCP Server adds a serverless capability for AWS Lambda functions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Top chipmakers embrace ASML’s $400M machines, agree to crucial chipmaking change",
+      "url": "https://arstechnica.com/gadgets/2026/09/top-chipmakers-embrace-asmls-400m-machines-agree-to-crucial-chipmaking-change/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/09/top-chipmakers-embrace-asmls-400m-machines-agree-to-crucial-chipmaking-change/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-04T16:31:00Z"
+      "author": "Jeremy Hsu",
+      "published": "2026-09-08T19:12:53Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 C8g instances now available in additional regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-c8g-instances-additional-regions/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-c8g-instances-additional-regions/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Godzilla Minus Zero IMAX trailer teases King Ghidorah",
+      "url": "https://arstechnica.com/culture/2026/09/godzilla-minus-zero-imax-trailer-teases-king-ghidorah/",
+      "discuss_url": "https://arstechnica.com/culture/2026/09/godzilla-minus-zero-imax-trailer-teases-king-ghidorah/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-04T14:06:00Z"
+      "author": "Jennifer Ouellette",
+      "published": "2026-09-08T18:53:23Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Transfer Family SFTP Connectors now support continuing file transfers during credential rotation",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "“This is the AI men actually use”: Meta ads pushed apps nudifying real teens",
+      "url": "https://arstechnica.com/tech-policy/2026/09/real-photos-of-young-girls-were-in-nudify-app-ads-on-facebook-instagram/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/09/real-photos-of-young-girls-were-in-nudify-app-ads-on-facebook-instagram/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-04T08:00:00Z"
+      "author": "Ashley Belanger",
+      "published": "2026-09-08T18:43:09Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Update to Google’s AI weather model improves forecast accuracy",
+      "url": "https://arstechnica.com/science/2026/09/googles-ai-weather-model-now-uses-more-raw-satellite-data/",
+      "discuss_url": "https://arstechnica.com/science/2026/09/googles-ai-weather-model-now-uses-more-raw-satellite-data/",
+      "score": null,
+      "comments": null,
+      "author": "Scott K. Johnson",
+      "published": "2026-09-08T18:00:56Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Google complies with EU rules for travel searches, says the new results stink",
+      "url": "https://arstechnica.com/gadgets/2026/09/google-says-europe-is-making-it-roll-out-degraded-travel-search-results/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/09/google-says-europe-is-making-it-roll-out-degraded-travel-search-results/",
+      "score": null,
+      "comments": null,
+      "author": "Ryan Whitwam",
+      "published": "2026-09-08T16:49:55Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "The White House made a \"Tetris\" clone. The Tetris Company was not amused.",
+      "url": "https://arstechnica.com/gaming/2026/09/the-white-house-made-a-tetris-clone-the-tetris-company-was-not-amused/",
+      "discuss_url": "https://arstechnica.com/gaming/2026/09/the-white-house-made-a-tetris-clone-the-tetris-company-was-not-amused/",
+      "score": null,
+      "comments": null,
+      "author": "Kyle Orland",
+      "published": "2026-09-08T16:31:21Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "The secret to protecting next-gen spacecraft might be eggshells",
+      "url": "https://arstechnica.com/science/2026/09/how-eggshells-can-protect-spacecraft-from-space-debris/",
+      "discuss_url": "https://arstechnica.com/science/2026/09/how-eggshells-can-protect-spacecraft-from-space-debris/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-09-08T16:20:58Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "The combat demo for Free Stars: Children of Infinity is out, and it's free",
+      "url": "https://arstechnica.com/gaming/2026/09/the-official-sequel-to-the-ur-quan-masters-releases-its-free-demo-today/",
+      "discuss_url": "https://arstechnica.com/gaming/2026/09/the-official-sequel-to-the-ur-quan-masters-releases-its-free-demo-today/",
+      "score": null,
+      "comments": null,
+      "author": "Lee Hutchinson",
+      "published": "2026-09-08T16:05:32Z"
     },
     {
       "source": "rss",
@@ -654,7 +762,7 @@
       "discuss_url": "https://arstechnica.com/cars/2026/09/ev-batteries-last-longer-than-drivers-feared/",
       "score": null,
       "comments": null,
-      "author": "Kana Inagaki and Clara Murray in London",
+      "author": "Kana Inagaki and Clara Murray, Financial Times",
       "published": "2026-09-08T13:56:38Z"
     },
     {
@@ -668,126 +776,6 @@
       "comments": null,
       "author": "Eric Berger",
       "published": "2026-09-08T12:29:18Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The complex corporate web behind a $3.2 billion AI data center",
-      "url": "https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/",
-      "discuss_url": "https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/",
-      "score": null,
-      "comments": null,
-      "author": "Petala Ironcloud",
-      "published": "2026-09-07T11:00:03Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "German company becomes first in Europe to launch fully commercial orbital rocket",
-      "url": "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/",
-      "discuss_url": "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-09-06T11:55:26Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Farmed salmon may not be as nutritious as it once was, new research suggests",
-      "url": "https://arstechnica.com/science/2026/09/farmed-salmon-may-not-be-as-nutritious-as-it-once-was-new-research-suggests/",
-      "discuss_url": "https://arstechnica.com/science/2026/09/farmed-salmon-may-not-be-as-nutritious-as-it-once-was-new-research-suggests/",
-      "score": null,
-      "comments": null,
-      "author": "Georgina Gustin, Inside Climate News",
-      "published": "2026-09-06T10:00:35Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Tesla’s Cybercab has been deployed, and it’s already under investigation",
-      "url": "https://arstechnica.com/cars/2026/09/teslas-cybercab-has-been-deployed-and-its-already-under-investigation/",
-      "discuss_url": "https://arstechnica.com/cars/2026/09/teslas-cybercab-has-been-deployed-and-its-already-under-investigation/",
-      "score": null,
-      "comments": null,
-      "author": "Aarian Marshall, WIRED.COM",
-      "published": "2026-09-05T15:17:36Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "After 8 years, Europe's BepiColombo mission is on final approach to Mercury",
-      "url": "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/",
-      "discuss_url": "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-09-04T22:49:17Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
-      "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
-      "discuss_url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-09-04T22:17:36Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Measles killed 6-week-old baby, coroner confirms after RFK Jr. disputed deaths",
-      "url": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/",
-      "discuss_url": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-09-04T20:22:41Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Trump admin fights ABC lawsuit as watchdogs worry Disney will settle with FCC",
-      "url": "https://arstechnica.com/tech-policy/2026/09/trump-admin-fights-abc-lawsuit-as-watchdogs-worry-disney-will-settle-with-fcc/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/09/trump-admin-fights-abc-lawsuit-as-watchdogs-worry-disney-will-settle-with-fcc/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-09-04T19:46:34Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Medieval manuscripts are \"biological time capsules\" for deadly sheeppox virus",
-      "url": "https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus/",
-      "discuss_url": "https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-09-04T19:01:02Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs",
-      "url": "https://arstechnica.com/information-technology/2026/09/trust-not-features-is-the-real-deficit-vmware-tries-to-appease-smbs/",
-      "discuss_url": "https://arstechnica.com/information-technology/2026/09/trust-not-features-is-the-real-deficit-vmware-tries-to-appease-smbs/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-09-04T17:35:02Z"
     }
   ]
 }
