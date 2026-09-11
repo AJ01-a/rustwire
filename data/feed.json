@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T16:13:44Z",
+  "updated_at": "2026-09-11T20:41:41Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Claude is only available to people over 18 years",
       "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
       "discuss_url": "https://news.ycombinator.com/item?id=49656225",
-      "score": 300,
-      "comments": 374,
+      "score": 484,
+      "comments": 528,
       "author": "Muhammad523",
       "published": "2026-09-11T10:48:00Z",
       "bullets": [
-        "Anthropic restricts Claude access strictly to users 18+, contrasting with OpenAI's 13+ threshold requiring parental consent.",
-        "Mounting regulatory scrutiny under COPPA and EU GDPR drives strict age gating to minimize child safety liability.",
-        "K-12 edtech stacks and student workflows must default to OpenAI, Google Gemini, or open weights like Meta's Llama."
+        "Claude is only available to people over 18 years",
+        "Trending on news.ycombinator.com — 484 points, 528 comments.",
+        "Submitted by Muhammad523 on news.ycombinator.com."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "Feeling sad about AI",
       "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
       "discuss_url": "https://lobste.rs/s/7guove",
-      "score": 54,
-      "comments": 15,
+      "score": 95,
+      "comments": 37,
       "author": "andybalaam",
       "published": "2026-09-11T12:33:20Z",
       "bullets": [
-        "Engineers increasingly report loss of craftsmanship joy as workflows shift from creative problem-solving to auditing and reviewing LLM-generated code.",
-        "Widespread adoption of AI coding assistants drives technical debt, introducing subtle hallucinations and low-quality automated PRs into codebases.",
-        "Senior practitioners face systemic shifts from hands-on software architecture toward prompt verification and supervisory code review triage."
+        "Feeling sad about AI",
+        "Trending on lobste.rs/programming — 95 points, 37 comments.",
+        "Submitted by andybalaam on lobste.rs/programming."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Forgejo <=16.0.3 Critical RCE",
-      "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
-      "discuss_url": "https://news.ycombinator.com/item?id=49645907",
-      "score": 202,
-      "comments": 80,
-      "author": "weierstass",
-      "published": "2026-09-10T15:57:40Z",
+      "title": "ChiPass Release 2026.09.0",
+      "url": "https://codeberg.org/ChiPass/ChiPass/releases/tag/v2026.09.0",
+      "discuss_url": "https://lobste.rs/s/mcioou",
+      "score": 12,
+      "comments": 1,
+      "author": "FedericoSchonborn",
+      "published": "2026-09-11T16:35:40Z",
       "bullets": [
-        "A critical remote code execution vulnerability impacts Forgejo instances running version 16.0.3 and earlier, risking full host compromise.",
-        "Exploitation allows adversaries to compromise self-hosted Git repositories, hijack CI/CD pipelines, and exfiltrate connected deployment secrets.",
-        "Security teams must upgrade Forgejo deployments immediately and audit web access logs for indicators of unauthorized remote execution."
+        "ChiPass Release 2026.09.0",
+        "Trending on lobste.rs/security — 12 points, 1 comments.",
+        "Submitted by FedericoSchonborn on lobste.rs/security."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "pushcx",
       "published": "2026-09-07T21:39:21Z",
       "bullets": [
-        "Use minimal base images like distroless or Chainguard alongside multi-stage builds to eliminate package managers, shells, and build-time dependencies.",
-        "Enforce non-root execution via USER directives and configure containers with read-only root filesystems and dropped Linux capabilities.",
-        "Integrate automated vulnerability scanners like Trivy or Grype into CI pipelines, generate SBOMs, and sign verified artifacts using Sigstore Cosign."
+        "Hardening Container Images",
+        "Trending on lobste.rs/devops — 23 points, 6 comments.",
+        "Submitted by pushcx on lobste.rs/devops."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Claude users found ways around safeguards for bioweapons research",
-      "url": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/",
-      "discuss_url": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/",
+      "title": "Scientists unlock secrets of ancient Egyptian materials with proteomics",
+      "url": "https://arstechnica.com/science/2026/09/scientists-unlock-secrets-of-ancient-egyptian-materials-with-proteomics/",
+      "discuss_url": "https://arstechnica.com/science/2026/09/scientists-unlock-secrets-of-ancient-egyptian-materials-with-proteomics/",
       "score": null,
       "comments": null,
-      "author": "Zehra Munir, Financial Times",
-      "published": "2026-09-11T13:02:35Z",
+      "author": "Jennifer Ouellette",
+      "published": "2026-09-11T18:49:39Z",
       "bullets": [
-        "Users successfully bypassed Anthropic's Claude guardrails to access sensitive biological data, exposing ongoing gaps in frontier model alignment.",
-        "Dual-use biology challenges safety classifiers because legitimate virology and pharmaceutical protocols closely mirror dangerous pathogen synthesis vectors.",
-        "AI vendors face growing regulatory pressure to implement stricter chemical and biological hazard barriers without breaking valid research workflows."
+        "Analysis revealed seed proteins from sesame and moringa, which held religious and symbolic significance.",
+        "Scientists unlock secrets of ancient Egyptian materials with proteomics",
+        "Submitted by Jennifer Ouellette on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Claude is only available to people over 18 years",
       "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
       "discuss_url": "https://news.ycombinator.com/item?id=49656225",
-      "score": 300,
-      "comments": 374,
+      "score": 484,
+      "comments": 528,
       "author": "Muhammad523",
       "published": "2026-09-11T10:48:00Z"
     },
@@ -136,8 +136,8 @@
       "title": "OpenAI Agents API",
       "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
       "discuss_url": "https://news.ycombinator.com/item?id=49649213",
-      "score": 317,
-      "comments": 166,
+      "score": 337,
+      "comments": 178,
       "author": "aquir",
       "published": "2026-09-10T19:43:22Z"
     },
@@ -148,8 +148,8 @@
       "title": "OpenAI’s Navier-Stokes release included a Lean 4 formal proof",
       "url": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/",
       "discuss_url": "https://news.ycombinator.com/item?id=49650326",
-      "score": 172,
-      "comments": 174,
+      "score": 175,
+      "comments": 177,
       "author": "ibobev",
       "published": "2026-09-10T21:22:59Z"
     },
@@ -160,8 +160,8 @@
       "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
       "url": "https://cognition.com/blog/swe-2",
       "discuss_url": "https://news.ycombinator.com/item?id=49645443",
-      "score": 433,
-      "comments": 186,
+      "score": 437,
+      "comments": 188,
       "author": "seelos",
       "published": "2026-09-10T15:29:47Z"
     },
@@ -172,8 +172,8 @@
       "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
       "url": "https://news.ycombinator.com/item?id=49643556",
       "discuss_url": "https://news.ycombinator.com/item?id=49643556",
-      "score": 465,
-      "comments": 183,
+      "score": 468,
+      "comments": 184,
       "author": "jacquesm",
       "published": "2026-09-10T13:39:53Z"
     },
@@ -184,8 +184,8 @@
       "title": "More questions about whether researchers can trust OpenAI with unpublished math",
       "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
       "discuss_url": "https://news.ycombinator.com/item?id=49639408",
-      "score": 850,
-      "comments": 787,
+      "score": 854,
+      "comments": 796,
       "author": "pred_",
       "published": "2026-09-10T06:49:43Z"
     },
@@ -214,16 +214,16 @@
       "published": "2026-09-10T04:19:48Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
-      "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
-      "discuss_url": "https://news.ycombinator.com/item?id=49630026",
-      "score": 234,
-      "comments": 93,
-      "author": "wsxiaoys",
-      "published": "2026-09-09T17:24:28Z"
+      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+      "url": "https://eiln.github.io/posts/ane.html",
+      "discuss_url": "https://lobste.rs/s/mzgtjg",
+      "score": 1,
+      "comments": 0,
+      "author": "calvin",
+      "published": "2026-09-11T17:23:45Z"
     },
     {
       "source": "lobsters",
@@ -268,10 +268,22 @@
       "title": "Feeling sad about AI",
       "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
       "discuss_url": "https://lobste.rs/s/7guove",
-      "score": 54,
-      "comments": 15,
+      "score": 95,
+      "comments": 37,
       "author": "andybalaam",
       "published": "2026-09-11T12:33:20Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/vc0brm",
+      "discuss_url": "https://lobste.rs/s/vc0brm",
+      "score": 7,
+      "comments": 5,
+      "author": "caius",
+      "published": "2026-09-11T16:40:41Z"
     },
     {
       "source": "lobsters",
@@ -337,6 +349,18 @@
       "source": "rss",
       "subsource": "github.blog",
       "category": "engineering",
+      "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
+      "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
+      "score": null,
+      "comments": null,
+      "author": "Tomoko Tanaka",
+      "published": "2026-09-11T18:26:10Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
       "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
       "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
       "discuss_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
@@ -382,28 +406,28 @@
       "published": "2026-09-10T18:01:54Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "Java’s age is its AI superpower",
-      "url": "https://stackoverflow.blog/2026/09/09/java-s-age-is-its-ai-superpower/",
-      "discuss_url": "https://stackoverflow.blog/2026/09/09/java-s-age-is-its-ai-superpower/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Donovan",
-      "published": "2026-09-09T04:45:00Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "ChiPass Release 2026.09.0",
+      "url": "https://codeberg.org/ChiPass/ChiPass/releases/tag/v2026.09.0",
+      "discuss_url": "https://lobste.rs/s/mcioou",
+      "score": 12,
+      "comments": 1,
+      "author": "FedericoSchonborn",
+      "published": "2026-09-11T16:35:40Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "Scaling your money safely with AI",
-      "url": "https://stackoverflow.blog/2026/09/08/scaling-your-money-safely-with-ai/",
-      "discuss_url": "https://stackoverflow.blog/2026/09/08/scaling-your-money-safely-with-ai/",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-09-08T07:40:00Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Models Don't Go Rogue",
+      "url": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
+      "discuss_url": "https://lobste.rs/s/0i492m",
+      "score": 40,
+      "comments": 41,
+      "author": "Yogthos",
+      "published": "2026-09-11T03:37:10Z"
     },
     {
       "source": "hackernews",
@@ -413,21 +437,9 @@
       "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
       "discuss_url": "https://news.ycombinator.com/item?id=49645907",
       "score": 202,
-      "comments": 80,
+      "comments": 81,
       "author": "weierstass",
       "published": "2026-09-10T15:57:40Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Models Don't Go Rogue",
-      "url": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
-      "discuss_url": "https://lobste.rs/s/0i492m",
-      "score": 34,
-      "comments": 10,
-      "author": "Yogthos",
-      "published": "2026-09-11T03:37:10Z"
     },
     {
       "source": "lobsters",
@@ -436,8 +448,8 @@
       "title": "A rant about phishing: It's not the user's fault (and not DNS either)",
       "url": "https://maurycyz.com/misc/domains/",
       "discuss_url": "https://lobste.rs/s/9szn91",
-      "score": 83,
-      "comments": 23,
+      "score": 87,
+      "comments": 26,
       "author": "maurycy",
       "published": "2026-09-10T15:14:48Z"
     },
@@ -448,7 +460,7 @@
       "title": "An untrusted site can freeze a Mac using WebGPU",
       "url": "https://auberon.xyz/blog/posts/deathray/",
       "discuss_url": "https://lobste.rs/s/l0sqnt",
-      "score": 21,
+      "score": 30,
       "comments": 4,
       "author": "hoistbypetard",
       "published": "2026-09-11T00:04:53Z"
@@ -460,8 +472,8 @@
       "title": "How CHERIoT Provides Strong and Usable Isolation Without an MMU",
       "url": "https://queue.acm.org/doi/10.1145/3831361",
       "discuss_url": "https://lobste.rs/s/gtvx0w",
-      "score": 32,
-      "comments": 12,
+      "score": 34,
+      "comments": 16,
       "author": "rrampage",
       "published": "2026-09-10T14:59:03Z"
     },
@@ -505,6 +517,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Countering misuse of AI: September 2026 / Anthropic",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "discuss_url": "https://lobste.rs/s/gmewyf",
+      "score": 1,
+      "comments": 0,
+      "author": "GrayGnome",
+      "published": "2026-09-11T09:46:41Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Bulk AbuseIPDB reporting using command-line tools",
       "url": "https://blog.mbirth.uk/2026/08/30/bulk-abuseipdb-reporting-using-command-line-tools.html",
       "discuss_url": "https://lobste.rs/s/vjds7h",
@@ -527,30 +551,6 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Why Johnny Can't Encrypt: A Usability Evaluation of PGP 5.0 (1999)",
-      "url": "https://www.usenix.org/legacy/events/sec99/full_papers/whitten/whitten_html/index.html",
-      "discuss_url": "https://lobste.rs/s/ojyeqg",
-      "score": 3,
-      "comments": 0,
-      "author": "typesanitizer",
-      "published": "2026-09-09T06:47:58Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Knowledge Retention & Sharing in DF/IR",
-      "url": "http://windowsir.blogspot.com/2026/09/knowledge-retention-sharing-in-dfir.html",
-      "discuss_url": "https://lobste.rs/s/hdgysn",
-      "score": 1,
-      "comments": 0,
-      "author": "7tehdt3cnw6kir6o",
-      "published": "2026-09-10T09:06:21Z"
-    },
-    {
-      "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "Hardening Container Images",
@@ -560,6 +560,78 @@
       "comments": 6,
       "author": "pushcx",
       "published": "2026-09-07T21:39:21Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EC2 X2idn instances are now available in Asia Pacific (Hong Kong)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-11T18:35:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon SageMaker HyperPod now supports model caching for faster inference autoscaling and reduced cold starts",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-11T18:25:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Bedrock Managed Knowledge Base now supports multimodal embeddings for video, audio, and image content with TwelveLabs Marengo 3.0",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-multimodal-embeddings-twelvelabs-marengo/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-multimodal-embeddings-twelvelabs-marengo/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-11T15:13:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-realtime-run-metrics/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-realtime-run-metrics/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-11T15:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS DevOps Agent adds support for bidirectional Slack communication",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-bidirectional-slack-communication",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-bidirectional-slack-communication",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-11T15:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon RDS for Oracle now supports Supplemental Patch Bundle for July 2026 Release Update",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-oracle-supports-spatial-patch-bundle-jul-2026-ru/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-oracle-supports-spatial-patch-bundle-jul-2026-ru/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-11T07:12:00Z"
     },
     {
       "source": "rss",
@@ -623,75 +695,39 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Announcing second-generation single-rack AWS Outposts",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/single-rack-aws-outposts/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/single-rack-aws-outposts/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Scientists unlock secrets of ancient Egyptian materials with proteomics",
+      "url": "https://arstechnica.com/science/2026/09/scientists-unlock-secrets-of-ancient-egyptian-materials-with-proteomics/",
+      "discuss_url": "https://arstechnica.com/science/2026/09/scientists-unlock-secrets-of-ancient-egyptian-materials-with-proteomics/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-10T17:58:00Z"
+      "author": "Jennifer Ouellette",
+      "published": "2026-09-11T18:49:39Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon OpenSearch Serverless is now available on v0 by Vercel",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-opensearch-serverless-available-V0-vercel/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-opensearch-serverless-available-V0-vercel/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Oracle tries to appease Stargate data center opponents with renewables push",
+      "url": "https://arstechnica.com/gadgets/2026/09/oracle-promises-2-gw-of-renewables-to-match-stargate-data-center-emissions/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/09/oracle-promises-2-gw-of-renewables-to-match-stargate-data-center-emissions/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-10T17:00:00Z"
+      "author": "Jeremy Hsu",
+      "published": "2026-09-11T18:22:22Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon ECS expands IAM condition key support for RunTask and StartTask APIs",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-expands-condition-key-support/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-expands-condition-key-support/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "NASA moving at warp speed to set up US Space Academy",
+      "url": "https://arstechnica.com/space/2026/09/nasa-moving-at-warp-speed-to-set-up-us-space-academy/",
+      "discuss_url": "https://arstechnica.com/space/2026/09/nasa-moving-at-warp-speed-to-set-up-us-space-academy/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-10T16:52:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Redshift RG instances now available in Europe (Zurich) Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-redshift-rg-available-zurich",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-redshift-rg-available-zurich",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-10T16:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon CloudWatch now supports network health indicator for TGW inter-Region peering using synthetic monitors",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudwatch-network-monitoring-tgw-support/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudwatch-network-monitoring-tgw-support/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-10T11:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Elemental Inference now generates contextual metadata from live video in real time",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/elemental-inference-contextual-metadata/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/elemental-inference-contextual-metadata/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-10T08:00:00Z"
+      "author": "Eric Berger",
+      "published": "2026-09-11T16:20:43Z"
     },
     {
       "source": "rss",
@@ -800,42 +836,6 @@
       "comments": null,
       "author": "Ryan Whitwam",
       "published": "2026-09-10T18:41:09Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Panic builds over bankrupt Spirit’s looming data sale to Google",
-      "url": "https://arstechnica.com/tech-policy/2026/09/panic-builds-over-bankrupt-spirits-looming-data-sale-to-google/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/09/panic-builds-over-bankrupt-spirits-looming-data-sale-to-google/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-09-10T18:14:14Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Physicist does the math on Star Trek’s “Picard maneuver”",
-      "url": "https://arstechnica.com/science/2026/09/physicist-does-the-math-on-star-treks-picard-maneuver/",
-      "discuss_url": "https://arstechnica.com/science/2026/09/physicist-does-the-math-on-star-treks-picard-maneuver/",
-      "score": null,
-      "comments": null,
-      "author": "Matt von Hippel",
-      "published": "2026-09-10T17:54:33Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Kimmel's ABC show won't air interview with Democrat because of Trump FCC threats",
-      "url": "https://arstechnica.com/tech-policy/2026/09/kimmels-abc-show-wont-air-interview-with-democrat-because-of-trump-fcc-threats/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/09/kimmels-abc-show-wont-air-interview-with-democrat-because-of-trump-fcc-threats/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-09-10T17:30:09Z"
     }
   ]
 }
