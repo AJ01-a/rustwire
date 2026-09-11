@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T10:57:56Z",
+  "updated_at": "2026-09-11T16:13:44Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,34 +34,34 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "OpenAI Agents API",
-      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
-      "discuss_url": "https://news.ycombinator.com/item?id=49649213",
-      "score": 272,
-      "comments": 150,
-      "author": "aquir",
-      "published": "2026-09-10T19:43:22Z",
+      "title": "Claude is only available to people over 18 years",
+      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+      "discuss_url": "https://news.ycombinator.com/item?id=49656225",
+      "score": 300,
+      "comments": 374,
+      "author": "Muhammad523",
+      "published": "2026-09-11T10:48:00Z",
       "bullets": [
-        "Provides native primitives for multi-turn agentic workflows, automated function calling, and structured handoffs between specialized sub-agents.",
-        "Evolves beyond the Assistants API by offering deeper developer control over state management, execution loops, and context persistence.",
-        "Directly competes with third-party orchestration frameworks like LangChain, AutoGen, and CrewAI for building multi-agent AI architectures."
+        "Anthropic restricts Claude access strictly to users 18+, contrasting with OpenAI's 13+ threshold requiring parental consent.",
+        "Mounting regulatory scrutiny under COPPA and EU GDPR drives strict age gating to minimize child safety liability.",
+        "K-12 edtech stacks and student workflows must default to OpenAI, Google Gemini, or open weights like Meta's Llama."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Why Function Arguments Are Not Function Colors",
-      "url": "https://jerf.org/iri/post/2026/func_args_are_not_colors/",
-      "discuss_url": "https://lobste.rs/s/tsfs3w",
-      "score": 21,
-      "comments": 14,
-      "author": "abhin4v",
-      "published": "2026-09-09T04:13:05Z",
+      "title": "Feeling sad about AI",
+      "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
+      "discuss_url": "https://lobste.rs/s/7guove",
+      "score": 54,
+      "comments": 15,
+      "author": "andybalaam",
+      "published": "2026-09-11T12:33:20Z",
       "bullets": [
-        "Function coloring (e.g., async/await) fractures execution stacks and composability, whereas explicit arguments like contexts or allocators only alter signatures.",
-        "Threading parameters like Go's context.Context or Zig allocators preserves synchronous execution semantics without requiring split runtime dispatch mechanisms.",
-        "Unlike colored functions, argument-passing avoids infectious viral propagation through higher-order wrappers and standard interface abstractions."
+        "Engineers increasingly report loss of craftsmanship joy as workflows shift from creative problem-solving to auditing and reviewing LLM-generated code.",
+        "Widespread adoption of AI coding assistants drives technical debt, introducing subtle hallucinations and low-quality automated PRs into codebases.",
+        "Senior practitioners face systemic shifts from hands-on software architecture toward prompt verification and supervisory code review triage."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Forgejo <=16.0.3 Critical RCE",
       "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
       "discuss_url": "https://news.ycombinator.com/item?id=49645907",
-      "score": 191,
-      "comments": 70,
+      "score": 202,
+      "comments": 80,
       "author": "weierstass",
       "published": "2026-09-10T15:57:40Z",
       "bullets": [
-        "Critical vulnerability allows remote code execution across Forgejo deployments <=16.0.3, exposing underlying host systems to arbitrary command execution.",
-        "Self-hosted Git environments face host takeover, risking proprietary source code leakage, CI/CD supply chain tampering, and lateral network movement.",
-        "DevOps and security teams must upgrade affected instances immediately, restrict network exposure, and inspect logs for unauthorized execution attempts."
+        "A critical remote code execution vulnerability impacts Forgejo instances running version 16.0.3 and earlier, risking full host compromise.",
+        "Exploitation allows adversaries to compromise self-hosted Git repositories, hijack CI/CD pipelines, and exfiltrate connected deployment secrets.",
+        "Security teams must upgrade Forgejo deployments immediately and audit web access logs for indicators of unauthorized remote execution."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "pushcx",
       "published": "2026-09-07T21:39:21Z",
       "bullets": [
-        "Adopt minimal base images like Chainguard or Distroless to eliminate package managers, shells, and reduce base CVE exposure.",
-        "Enforce non-root execution via explicit USER directives and drop unnecessary Linux capabilities to restrict container breakout risks.",
-        "Integrate scanners like Trivy or Grype and sign artifacts using Cosign to validate SBOMs and supply chain integrity."
+        "Use minimal base images like distroless or Chainguard alongside multi-stage builds to eliminate package managers, shells, and build-time dependencies.",
+        "Enforce non-root execution via USER directives and configure containers with read-only root filesystems and dropped Linux capabilities.",
+        "Integrate automated vulnerability scanners like Trivy or Grype into CI pipelines, generate SBOMs, and sign verified artifacts using Sigstore Cosign."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Shopify acquires Tailwind",
-      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
-      "discuss_url": "https://news.ycombinator.com/item?id=49626190",
-      "score": 1126,
-      "comments": 440,
-      "author": "EdwinHoksberg",
-      "published": "2026-09-09T13:27:11Z",
+      "title": "Claude users found ways around safeguards for bioweapons research",
+      "url": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/",
+      "discuss_url": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/",
+      "score": null,
+      "comments": null,
+      "author": "Zehra Munir, Financial Times",
+      "published": "2026-09-11T13:02:35Z",
       "bullets": [
-        "Tailwind Labs joins Shopify, keeping Tailwind CSS open-source under MIT while transitioning the core development team into Shopify's front-end ecosystem.",
-        "The deal signals tighter native Tailwind integration into Shopify developer tooling, including Polaris design systems, Liquid themes, and Hydrogen headless frameworks.",
-        "The acquisition shifts Tailwind from independent commercial products (Tailwind UI, Catalyst) to enterprise-backed funding, securing long-term core framework maintenance."
+        "Users successfully bypassed Anthropic's Claude guardrails to access sensitive biological data, exposing ongoing gaps in frontier model alignment.",
+        "Dual-use biology challenges safety classifiers because legitimate virology and pharmaceutical protocols closely mirror dangerous pathogen synthesis vectors.",
+        "AI vendors face growing regulatory pressure to implement stricter chemical and biological hazard barriers without breaking valid research workflows."
       ]
     }
   ],
@@ -121,13 +121,37 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Claude is only available to people over 18 years",
+      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+      "discuss_url": "https://news.ycombinator.com/item?id=49656225",
+      "score": 300,
+      "comments": 374,
+      "author": "Muhammad523",
+      "published": "2026-09-11T10:48:00Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "OpenAI Agents API",
       "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
       "discuss_url": "https://news.ycombinator.com/item?id=49649213",
-      "score": 272,
-      "comments": 150,
+      "score": 317,
+      "comments": 166,
       "author": "aquir",
       "published": "2026-09-10T19:43:22Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "OpenAI’s Navier-Stokes release included a Lean 4 formal proof",
+      "url": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49650326",
+      "score": 172,
+      "comments": 174,
+      "author": "ibobev",
+      "published": "2026-09-10T21:22:59Z"
     },
     {
       "source": "hackernews",
@@ -136,8 +160,8 @@
       "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
       "url": "https://cognition.com/blog/swe-2",
       "discuss_url": "https://news.ycombinator.com/item?id=49645443",
-      "score": 419,
-      "comments": 175,
+      "score": 433,
+      "comments": 186,
       "author": "seelos",
       "published": "2026-09-10T15:29:47Z"
     },
@@ -148,8 +172,8 @@
       "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
       "url": "https://news.ycombinator.com/item?id=49643556",
       "discuss_url": "https://news.ycombinator.com/item?id=49643556",
-      "score": 456,
-      "comments": 179,
+      "score": 465,
+      "comments": 183,
       "author": "jacquesm",
       "published": "2026-09-10T13:39:53Z"
     },
@@ -160,8 +184,8 @@
       "title": "More questions about whether researchers can trust OpenAI with unpublished math",
       "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
       "discuss_url": "https://news.ycombinator.com/item?id=49639408",
-      "score": 822,
-      "comments": 752,
+      "score": 850,
+      "comments": 787,
       "author": "pred_",
       "published": "2026-09-10T06:49:43Z"
     },
@@ -172,7 +196,7 @@
       "title": "Another researcher says OpenAI trained on conversations, then claimed breakthrou",
       "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
       "discuss_url": "https://news.ycombinator.com/item?id=49643112",
-      "score": 257,
+      "score": 259,
       "comments": 15,
       "author": "ColinWright",
       "published": "2026-09-10T13:07:14Z"
@@ -193,34 +217,10 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
-      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-      "discuss_url": "https://news.ycombinator.com/item?id=49627370",
-      "score": 511,
-      "comments": 161,
-      "author": "ModelForge",
-      "published": "2026-09-09T14:37:47Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Anthropic Is Building a Predictive Surveillance System to Monitor Activists",
-      "url": "https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49628704",
-      "score": 311,
-      "comments": 175,
-      "author": "dn2k",
-      "published": "2026-09-09T16:01:41Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
       "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
       "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
       "discuss_url": "https://news.ycombinator.com/item?id=49630026",
-      "score": 233,
+      "score": 234,
       "comments": 93,
       "author": "wsxiaoys",
       "published": "2026-09-09T17:24:28Z"
@@ -265,10 +265,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Feeling sad about AI",
+      "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
+      "discuss_url": "https://lobste.rs/s/7guove",
+      "score": 54,
+      "comments": 15,
+      "author": "andybalaam",
+      "published": "2026-09-11T12:33:20Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Why Function Arguments Are Not Function Colors",
       "url": "https://jerf.org/iri/post/2026/func_args_are_not_colors/",
       "discuss_url": "https://lobste.rs/s/tsfs3w",
-      "score": 21,
+      "score": 22,
       "comments": 14,
       "author": "abhin4v",
       "published": "2026-09-09T04:13:05Z"
@@ -280,7 +292,7 @@
       "title": "Occlusion with Bells On",
       "url": "https://acko.net/blog/occlusion-with-bells-on/",
       "discuss_url": "https://lobste.rs/s/nvrxk9",
-      "score": 3,
+      "score": 4,
       "comments": 0,
       "author": "slightknack",
       "published": "2026-09-10T22:01:58Z"
@@ -347,18 +359,6 @@
     },
     {
       "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
-      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-      "score": null,
-      "comments": null,
-      "author": "GitHub Staff",
-      "published": "2026-09-04T16:04:14Z"
-    },
-    {
-      "source": "rss",
       "subsource": "stackoverflow.blog",
       "category": "engineering",
       "title": "AI cybersecurity is a cat and mouse game",
@@ -412,22 +412,10 @@
       "title": "Forgejo <=16.0.3 Critical RCE",
       "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
       "discuss_url": "https://news.ycombinator.com/item?id=49645907",
-      "score": 191,
-      "comments": 70,
+      "score": 202,
+      "comments": 80,
       "author": "weierstass",
       "published": "2026-09-10T15:57:40Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "A rant about phishing: It's not the user's fault (and not DNS either)",
-      "url": "https://maurycyz.com/misc/domains/",
-      "discuss_url": "https://lobste.rs/s/9szn91",
-      "score": 68,
-      "comments": 19,
-      "author": "maurycy",
-      "published": "2026-09-10T15:14:48Z"
     },
     {
       "source": "lobsters",
@@ -436,8 +424,8 @@
       "title": "Models Don't Go Rogue",
       "url": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
       "discuss_url": "https://lobste.rs/s/0i492m",
-      "score": 12,
-      "comments": 0,
+      "score": 34,
+      "comments": 10,
       "author": "Yogthos",
       "published": "2026-09-11T03:37:10Z"
     },
@@ -445,13 +433,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "How CHERIoT Provides Strong and Usable Isolation Without an MMU",
-      "url": "https://queue.acm.org/doi/10.1145/3831361",
-      "discuss_url": "https://lobste.rs/s/gtvx0w",
-      "score": 25,
-      "comments": 9,
-      "author": "rrampage",
-      "published": "2026-09-10T14:59:03Z"
+      "title": "A rant about phishing: It's not the user's fault (and not DNS either)",
+      "url": "https://maurycyz.com/misc/domains/",
+      "discuss_url": "https://lobste.rs/s/9szn91",
+      "score": 83,
+      "comments": 23,
+      "author": "maurycy",
+      "published": "2026-09-10T15:14:48Z"
     },
     {
       "source": "lobsters",
@@ -460,10 +448,22 @@
       "title": "An untrusted site can freeze a Mac using WebGPU",
       "url": "https://auberon.xyz/blog/posts/deathray/",
       "discuss_url": "https://lobste.rs/s/l0sqnt",
-      "score": 11,
-      "comments": 1,
+      "score": 21,
+      "comments": 4,
       "author": "hoistbypetard",
       "published": "2026-09-11T00:04:53Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "How CHERIoT Provides Strong and Usable Isolation Without an MMU",
+      "url": "https://queue.acm.org/doi/10.1145/3831361",
+      "discuss_url": "https://lobste.rs/s/gtvx0w",
+      "score": 32,
+      "comments": 12,
+      "author": "rrampage",
+      "published": "2026-09-10T14:59:03Z"
     },
     {
       "source": "lobsters",
@@ -472,7 +472,7 @@
       "title": "Making Social Media Social",
       "url": "https://tante.cc/2026/09/10/making-social-media-social/",
       "discuss_url": "https://lobste.rs/s/39c9xe",
-      "score": 16,
+      "score": 17,
       "comments": 1,
       "author": "itamarst",
       "published": "2026-09-10T16:30:14Z"
@@ -517,18 +517,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Signing TLS handshakes inside a TPM",
-      "url": "https://bschaatsbergen.com/posts/go-tpm-tls/",
-      "discuss_url": "https://lobste.rs/s/vospwq",
-      "score": 10,
-      "comments": 1,
-      "author": "fs111",
-      "published": "2026-09-07T14:54:37Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "An alignment assessment of recent cybersecurity incidents",
       "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
       "discuss_url": "https://lobste.rs/s/xokuhi",
@@ -548,6 +536,18 @@
       "comments": 0,
       "author": "typesanitizer",
       "published": "2026-09-09T06:47:58Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Knowledge Retention & Sharing in DF/IR",
+      "url": "http://windowsir.blogspot.com/2026/09/knowledge-retention-sharing-in-dfir.html",
+      "discuss_url": "https://lobste.rs/s/hdgysn",
+      "score": 1,
+      "comments": 0,
+      "author": "7tehdt3cnw6kir6o",
+      "published": "2026-09-10T09:06:21Z"
     },
     {
       "source": "lobsters",
@@ -694,16 +694,64 @@
       "published": "2026-09-10T08:00:00Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Shopify acquires Tailwind",
-      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
-      "discuss_url": "https://news.ycombinator.com/item?id=49626190",
-      "score": 1126,
-      "comments": 440,
-      "author": "EdwinHoksberg",
-      "published": "2026-09-09T13:27:11Z"
+      "title": "Claude users found ways around safeguards for bioweapons research",
+      "url": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/",
+      "discuss_url": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/",
+      "score": null,
+      "comments": null,
+      "author": "Zehra Munir, Financial Times",
+      "published": "2026-09-11T13:02:35Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "ClickFix attacks infecting PCs and Macs are going viral",
+      "url": "https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral/",
+      "discuss_url": "https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral/",
+      "score": null,
+      "comments": null,
+      "author": "Dan Goodin",
+      "published": "2026-09-11T11:30:58Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "What happens when quantum mechanics and relativity meet?",
+      "url": "https://arstechnica.com/science/2026/09/what-happens-when-quantum-mechanics-and-relativity-meet/",
+      "discuss_url": "https://arstechnica.com/science/2026/09/what-happens-when-quantum-mechanics-and-relativity-meet/",
+      "score": null,
+      "comments": null,
+      "author": "Jacek Krywko",
+      "published": "2026-09-11T11:20:02Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Could United Launch Alliance's money problems finally force its owners to sell?",
+      "url": "https://arstechnica.com/space/2026/09/could-united-launch-alliances-money-problems-finally-force-its-owners-to-sell/",
+      "discuss_url": "https://arstechnica.com/space/2026/09/could-united-launch-alliances-money-problems-finally-force-its-owners-to-sell/",
+      "score": null,
+      "comments": null,
+      "author": "Stephen Clark",
+      "published": "2026-09-11T11:00:44Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Rocket Report: Europe joins the commercial launch club; a Ravn X sighting?",
+      "url": "https://arstechnica.com/space/2026/09/rocket-report-europe-joins-the-commercial-launch-club-a-ravn-x-sighting/",
+      "discuss_url": "https://arstechnica.com/space/2026/09/rocket-report-europe-joins-the-commercial-launch-club-a-ravn-x-sighting/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-09-11T11:00:30Z"
     },
     {
       "source": "rss",
@@ -788,54 +836,6 @@
       "comments": null,
       "author": "Jon Brodkin",
       "published": "2026-09-10T17:30:09Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "China’s drone supremacy shows in airlifting bodies and food after Nepal flood disaster",
-      "url": "https://arstechnica.com/gadgets/2026/09/drones-deliver-food-and-remove-bodies-after-nepals-flood-disaster/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/09/drones-deliver-food-and-remove-bodies-after-nepals-flood-disaster/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-09-10T16:53:52Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Artemis II commander and pilot become NASA's first astronaut emeriti",
-      "url": "https://arstechnica.com/space/2026/09/artemis-ii-commander-and-pilot-become-nasas-first-astronaut-emeriti/",
-      "discuss_url": "https://arstechnica.com/space/2026/09/artemis-ii-commander-and-pilot-become-nasas-first-astronaut-emeriti/",
-      "score": null,
-      "comments": null,
-      "author": "Robert Pearlman",
-      "published": "2026-09-10T11:30:42Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Four groups caught using the same Chrome and Windows exploit kit",
-      "url": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
-      "discuss_url": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-09-09T20:55:02Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Europe may finally have found a space entrepreneur who is meeting the moment",
-      "url": "https://arstechnica.com/space/2026/09/as-europe-flounders-in-space-a-rising-french-star-may-show-the-way/",
-      "discuss_url": "https://arstechnica.com/space/2026/09/as-europe-flounders-in-space-a-rising-french-star-may-show-the-way/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-09-09T20:27:40Z"
     }
   ]
 }
