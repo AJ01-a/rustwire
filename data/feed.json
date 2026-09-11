@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T03:46:55Z",
+  "updated_at": "2026-09-11T10:57:56Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,48 +37,48 @@
       "title": "OpenAI Agents API",
       "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
       "discuss_url": "https://news.ycombinator.com/item?id=49649213",
-      "score": 171,
-      "comments": 104,
+      "score": 272,
+      "comments": 150,
       "author": "aquir",
       "published": "2026-09-10T19:43:22Z",
       "bullets": [
-        "OpenAI Agents API",
-        "Trending on news.ycombinator.com — 171 points, 104 comments.",
-        "Submitted by aquir on news.ycombinator.com."
+        "Provides native primitives for multi-turn agentic workflows, automated function calling, and structured handoffs between specialized sub-agents.",
+        "Evolves beyond the Assistants API by offering deeper developer control over state management, execution loops, and context persistence.",
+        "Directly competes with third-party orchestration frameworks like LangChain, AutoGen, and CrewAI for building multi-agent AI architectures."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "It's not the YAML spec's fault, but",
-      "url": "https://slugcat.systems/post/26-09-10-yaml-spec/",
-      "discuss_url": "https://lobste.rs/s/bsvc7a",
-      "score": 22,
-      "comments": 6,
-      "author": "calvin",
-      "published": "2026-09-10T17:04:10Z",
+      "title": "Why Function Arguments Are Not Function Colors",
+      "url": "https://jerf.org/iri/post/2026/func_args_are_not_colors/",
+      "discuss_url": "https://lobste.rs/s/tsfs3w",
+      "score": 21,
+      "comments": 14,
+      "author": "abhin4v",
+      "published": "2026-09-09T04:13:05Z",
       "bullets": [
-        "It's not the YAML spec's fault, but",
-        "Trending on lobste.rs/programming — 22 points, 6 comments.",
-        "Submitted by calvin on lobste.rs/programming."
+        "Function coloring (e.g., async/await) fractures execution stacks and composability, whereas explicit arguments like contexts or allocators only alter signatures.",
+        "Threading parameters like Go's context.Context or Zig allocators preserves synchronous execution semantics without requiring split runtime dispatch mechanisms.",
+        "Unlike colored functions, argument-passing avoids infectious viral propagation through higher-order wrappers and standard interface abstractions."
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "A rant about phishing: It's not the user's fault (and not DNS either)",
-      "url": "https://maurycyz.com/misc/domains/",
-      "discuss_url": "https://lobste.rs/s/9szn91",
-      "score": 58,
-      "comments": 15,
-      "author": "maurycy",
-      "published": "2026-09-10T15:14:48Z",
+      "title": "Forgejo <=16.0.3 Critical RCE",
+      "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
+      "discuss_url": "https://news.ycombinator.com/item?id=49645907",
+      "score": 191,
+      "comments": 70,
+      "author": "weierstass",
+      "published": "2026-09-10T15:57:40Z",
       "bullets": [
-        "A rant about phishing: It's not the user's fault (and not DNS either)",
-        "Trending on lobste.rs/security — 58 points, 15 comments.",
-        "Submitted by maurycy on lobste.rs/security."
+        "Critical vulnerability allows remote code execution across Forgejo deployments <=16.0.3, exposing underlying host systems to arbitrary command execution.",
+        "Self-hosted Git environments face host takeover, risking proprietary source code leakage, CI/CD supply chain tampering, and lateral network movement.",
+        "DevOps and security teams must upgrade affected instances immediately, restrict network exposure, and inspect logs for unauthorized execution attempts."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "pushcx",
       "published": "2026-09-07T21:39:21Z",
       "bullets": [
-        "Hardening Container Images",
-        "Trending on lobste.rs/devops — 23 points, 6 comments.",
-        "Submitted by pushcx on lobste.rs/devops."
+        "Adopt minimal base images like Chainguard or Distroless to eliminate package managers, shells, and reduce base CVE exposure.",
+        "Enforce non-root execution via explicit USER directives and drop unnecessary Linux capabilities to restrict container breakout risks.",
+        "Integrate scanners like Trivy or Grype and sign artifacts using Cosign to validate SBOMs and supply chain integrity."
       ]
     },
     {
@@ -105,14 +105,14 @@
       "title": "Shopify acquires Tailwind",
       "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
       "discuss_url": "https://news.ycombinator.com/item?id=49626190",
-      "score": 1123,
-      "comments": 439,
+      "score": 1126,
+      "comments": 440,
       "author": "EdwinHoksberg",
       "published": "2026-09-09T13:27:11Z",
       "bullets": [
-        "Shopify acquires Tailwind",
-        "Trending on news.ycombinator.com — 1123 points, 439 comments.",
-        "Submitted by EdwinHoksberg on news.ycombinator.com."
+        "Tailwind Labs joins Shopify, keeping Tailwind CSS open-source under MIT while transitioning the core development team into Shopify's front-end ecosystem.",
+        "The deal signals tighter native Tailwind integration into Shopify developer tooling, including Polaris design systems, Liquid themes, and Hydrogen headless frameworks.",
+        "The acquisition shifts Tailwind from independent commercial products (Tailwind UI, Catalyst) to enterprise-backed funding, securing long-term core framework maintenance."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "OpenAI Agents API",
       "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
       "discuss_url": "https://news.ycombinator.com/item?id=49649213",
-      "score": 171,
-      "comments": 104,
+      "score": 272,
+      "comments": 150,
       "author": "aquir",
       "published": "2026-09-10T19:43:22Z"
     },
@@ -136,8 +136,8 @@
       "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
       "url": "https://cognition.com/blog/swe-2",
       "discuss_url": "https://news.ycombinator.com/item?id=49645443",
-      "score": 366,
-      "comments": 155,
+      "score": 419,
+      "comments": 175,
       "author": "seelos",
       "published": "2026-09-10T15:29:47Z"
     },
@@ -148,8 +148,8 @@
       "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
       "url": "https://news.ycombinator.com/item?id=49643556",
       "discuss_url": "https://news.ycombinator.com/item?id=49643556",
-      "score": 438,
-      "comments": 178,
+      "score": 456,
+      "comments": 179,
       "author": "jacquesm",
       "published": "2026-09-10T13:39:53Z"
     },
@@ -160,8 +160,8 @@
       "title": "More questions about whether researchers can trust OpenAI with unpublished math",
       "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
       "discuss_url": "https://news.ycombinator.com/item?id=49639408",
-      "score": 730,
-      "comments": 673,
+      "score": 822,
+      "comments": 752,
       "author": "pred_",
       "published": "2026-09-10T06:49:43Z"
     },
@@ -172,7 +172,7 @@
       "title": "Another researcher says OpenAI trained on conversations, then claimed breakthrou",
       "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
       "discuss_url": "https://news.ycombinator.com/item?id=49643112",
-      "score": 256,
+      "score": 257,
       "comments": 15,
       "author": "ColinWright",
       "published": "2026-09-10T13:07:14Z"
@@ -184,7 +184,7 @@
       "title": "OpenAI might have stolen another major proof",
       "url": "https://twitter.com/ValerioCapraro/status/2097791836269977996",
       "discuss_url": "https://news.ycombinator.com/item?id=49638353",
-      "score": 290,
+      "score": 294,
       "comments": 10,
       "author": "tamnd",
       "published": "2026-09-10T04:19:48Z"
@@ -193,22 +193,10 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Claude, change the “Add to Cart” button to blue",
-      "url": "https://opusfived.dev/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49623754",
-      "score": 1167,
-      "comments": 447,
-      "author": "matthieu_bl",
-      "published": "2026-09-09T09:39:46Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
       "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
       "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
       "discuss_url": "https://news.ycombinator.com/item?id=49627370",
-      "score": 506,
+      "score": 511,
       "comments": 161,
       "author": "ModelForge",
       "published": "2026-09-09T14:37:47Z"
@@ -220,7 +208,7 @@
       "title": "Anthropic Is Building a Predictive Surveillance System to Monitor Activists",
       "url": "https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists/",
       "discuss_url": "https://news.ycombinator.com/item?id=49628704",
-      "score": 307,
+      "score": 311,
       "comments": 175,
       "author": "dn2k",
       "published": "2026-09-09T16:01:41Z"
@@ -241,18 +229,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Models Don't Go Rogue",
-      "url": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
-      "discuss_url": "https://lobste.rs/s/0i492m",
-      "score": 1,
-      "comments": 0,
-      "author": "Yogthos",
-      "published": "2026-09-11T03:37:10Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "Better AI code comment detector",
       "url": "https://entropicthoughts.com/better-ai-comment-classifier",
       "discuss_url": "https://lobste.rs/s/o9cyiv",
@@ -263,15 +239,27 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "It's not the YAML spec's fault, but",
-      "url": "https://slugcat.systems/post/26-09-10-yaml-spec/",
-      "discuss_url": "https://lobste.rs/s/bsvc7a",
-      "score": 22,
-      "comments": 6,
-      "author": "calvin",
-      "published": "2026-09-10T17:04:10Z"
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Efficient and accurate systems for querying unstructured data",
+      "url": "https://stacks.stanford.edu/file/fk030tb6783/thesis-augmented.pdf",
+      "discuss_url": "https://lobste.rs/s/v8atna",
+      "score": 3,
+      "comments": 1,
+      "author": "typesanitizer",
+      "published": "2026-09-09T20:38:35Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "url": "https://huggingface.co/blog/gradio-workflow-1111",
+      "discuss_url": "https://huggingface.co/blog/gradio-workflow-1111",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-09-10T00:00:00Z"
     },
     {
       "source": "lobsters",
@@ -289,13 +277,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Package Manager Trends",
-      "url": "https://nesbitt.io/2026/09/10/package-manager-trends.html",
-      "discuss_url": "https://lobste.rs/s/qwbyxh",
+      "title": "Occlusion with Bells On",
+      "url": "https://acko.net/blog/occlusion-with-bells-on/",
+      "discuss_url": "https://lobste.rs/s/nvrxk9",
       "score": 3,
       "comments": 0,
-      "author": "hugoarnal",
-      "published": "2026-09-10T12:30:44Z"
+      "author": "slightknack",
+      "published": "2026-09-10T22:01:58Z"
     },
     {
       "source": "lobsters",
@@ -313,25 +301,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Occlusion with Bells On",
-      "url": "https://acko.net/blog/occlusion-with-bells-on/",
-      "discuss_url": "https://lobste.rs/s/nvrxk9",
-      "score": 1,
+      "title": "Package Manager Trends",
+      "url": "https://nesbitt.io/2026/09/10/package-manager-trends.html",
+      "discuss_url": "https://lobste.rs/s/qwbyxh",
+      "score": 3,
       "comments": 0,
-      "author": "slightknack",
-      "published": "2026-09-10T22:01:58Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/xm0hkw",
-      "discuss_url": "https://lobste.rs/s/xm0hkw",
-      "score": 8,
-      "comments": 15,
-      "author": "caius",
-      "published": "2026-09-07T10:33:18Z"
+      "author": "hugoarnal",
+      "published": "2026-09-10T12:30:44Z"
     },
     {
       "source": "lobsters",
@@ -385,6 +361,18 @@
       "source": "rss",
       "subsource": "stackoverflow.blog",
       "category": "engineering",
+      "title": "AI cybersecurity is a cat and mouse game",
+      "url": "https://stackoverflow.blog/2026/09/11/ai-cybersecurity-is-a-cat-and-mouse-game/",
+      "discuss_url": "https://stackoverflow.blog/2026/09/11/ai-cybersecurity-is-a-cat-and-mouse-game/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-09-11T07:40:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
       "title": "(Re)introducing Developer Story",
       "url": "https://stackoverflow.blog/2026/09/10/re-introducing-developer-story/",
       "discuss_url": "https://stackoverflow.blog/2026/09/10/re-introducing-developer-story/",
@@ -406,14 +394,38 @@
       "published": "2026-09-09T04:45:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Scaling your money safely with AI",
+      "url": "https://stackoverflow.blog/2026/09/08/scaling-your-money-safely-with-ai/",
+      "discuss_url": "https://stackoverflow.blog/2026/09/08/scaling-your-money-safely-with-ai/",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-09-08T07:40:00Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "Forgejo <=16.0.3 Critical RCE",
+      "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
+      "discuss_url": "https://news.ycombinator.com/item?id=49645907",
+      "score": 191,
+      "comments": 70,
+      "author": "weierstass",
+      "published": "2026-09-10T15:57:40Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "A rant about phishing: It's not the user's fault (and not DNS either)",
       "url": "https://maurycyz.com/misc/domains/",
       "discuss_url": "https://lobste.rs/s/9szn91",
-      "score": 58,
-      "comments": 15,
+      "score": 68,
+      "comments": 19,
       "author": "maurycy",
       "published": "2026-09-10T15:14:48Z"
     },
@@ -421,13 +433,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Forgejo 16.0.4 has a critical security bug fix (RCE - Remote Code Execution)",
-      "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
-      "discuss_url": "https://lobste.rs/s/b3cqyr",
-      "score": 25,
-      "comments": 12,
-      "author": "brn",
-      "published": "2026-09-10T17:40:19Z"
+      "title": "Models Don't Go Rogue",
+      "url": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
+      "discuss_url": "https://lobste.rs/s/0i492m",
+      "score": 12,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-09-11T03:37:10Z"
     },
     {
       "source": "lobsters",
@@ -436,8 +448,8 @@
       "title": "How CHERIoT Provides Strong and Usable Isolation Without an MMU",
       "url": "https://queue.acm.org/doi/10.1145/3831361",
       "discuss_url": "https://lobste.rs/s/gtvx0w",
-      "score": 23,
-      "comments": 8,
+      "score": 25,
+      "comments": 9,
       "author": "rrampage",
       "published": "2026-09-10T14:59:03Z"
     },
@@ -448,8 +460,8 @@
       "title": "An untrusted site can freeze a Mac using WebGPU",
       "url": "https://auberon.xyz/blog/posts/deathray/",
       "discuss_url": "https://lobste.rs/s/l0sqnt",
-      "score": 4,
-      "comments": 0,
+      "score": 11,
+      "comments": 1,
       "author": "hoistbypetard",
       "published": "2026-09-11T00:04:53Z"
     },
@@ -460,8 +472,8 @@
       "title": "Making Social Media Social",
       "url": "https://tante.cc/2026/09/10/making-social-media-social/",
       "discuss_url": "https://lobste.rs/s/39c9xe",
-      "score": 13,
-      "comments": 0,
+      "score": 16,
+      "comments": 1,
       "author": "itamarst",
       "published": "2026-09-10T16:30:14Z"
     },
@@ -517,6 +529,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "An alignment assessment of recent cybersecurity incidents",
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "discuss_url": "https://lobste.rs/s/xokuhi",
+      "score": 3,
+      "comments": 0,
+      "author": "ni5arga",
+      "published": "2026-09-09T20:54:41Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Why Johnny Can't Encrypt: A Usability Evaluation of PGP 5.0 (1999)",
       "url": "https://www.usenix.org/legacy/events/sec99/full_papers/whitten/whitten_html/index.html",
       "discuss_url": "https://lobste.rs/s/ojyeqg",
@@ -524,30 +548,6 @@
       "comments": 0,
       "author": "typesanitizer",
       "published": "2026-09-09T06:47:58Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Knowledge Retention & Sharing in DF/IR",
-      "url": "http://windowsir.blogspot.com/2026/09/knowledge-retention-sharing-in-dfir.html",
-      "discuss_url": "https://lobste.rs/s/hdgysn",
-      "score": 1,
-      "comments": 0,
-      "author": "7tehdt3cnw6kir6o",
-      "published": "2026-09-10T09:06:21Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "krebsonsecurity.com",
-      "category": "security",
-      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
-      "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
-      "discuss_url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
-      "score": null,
-      "comments": null,
-      "author": "BrianKrebs",
-      "published": "2026-09-08T21:44:22Z"
     },
     {
       "source": "lobsters",
@@ -560,18 +560,6 @@
       "comments": 6,
       "author": "pushcx",
       "published": "2026-09-07T21:39:21Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "The Life of a Metric",
-      "url": "https://victoriametrics.com/blog/the-life-of-a-metric/",
-      "discuss_url": "https://lobste.rs/s/hwzvik",
-      "score": 4,
-      "comments": 0,
-      "author": "func25",
-      "published": "2026-09-07T09:36:28Z"
     },
     {
       "source": "rss",
@@ -694,14 +682,26 @@
       "published": "2026-09-10T11:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Elemental Inference now generates contextual metadata from live video in real time",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/elemental-inference-contextual-metadata/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/elemental-inference-contextual-metadata/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-10T08:00:00Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "industry",
       "title": "Shopify acquires Tailwind",
       "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
       "discuss_url": "https://news.ycombinator.com/item?id=49626190",
-      "score": 1123,
-      "comments": 439,
+      "score": 1126,
+      "comments": 440,
       "author": "EdwinHoksberg",
       "published": "2026-09-09T13:27:11Z"
     },
