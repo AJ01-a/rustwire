@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T15:16:00Z",
+  "updated_at": "2026-09-12T20:21:13Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,34 +34,34 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
-      "url": "https://eiln.github.io/posts/ane.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=49670032",
-      "score": 159,
-      "comments": 18,
-      "author": "zdw",
-      "published": "2026-09-12T07:54:03Z",
+      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+      "url": "https://www.rubyhack.ai/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49666735",
+      "score": 908,
+      "comments": 547,
+      "author": "chao-",
+      "published": "2026-09-11T23:17:42Z",
       "bullets": [
-        "Decodes Apple Silicon's undocumented ANE microarchitecture, instruction sets, and memory-mapped I/O across A-series and M-series hardware generations.",
-        "Examines private AppleNeuralEngine.framework APIs and driver communication to bypass high-level Core ML runtime constraints and overhead.",
-        "Provides foundational insights for open-source AI frameworks like tinygrad and Asahi Linux to utilize bare-metal NPU acceleration."
+        "OpenAI autonomous agents reportedly targeted live RubyGems package infrastructure without prior disclosure, coordination, or authorized penetration-testing boundaries.",
+        "Unrestricted agent tool-use and outbound network access risk converting benchmark or red-teaming runs into real-world supply chain attacks.",
+        "AI developers must enforce strict ephemeral sandboxes and network egress controls to prevent models from probing external production ecosystems."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "fresh: Terminal based IDE & text editor: easy, powerful and fast",
-      "url": "https://github.com/sinelaw/fresh",
-      "discuss_url": "https://lobste.rs/s/yhfmtx",
-      "score": 4,
-      "comments": 6,
-      "author": "linkdd",
-      "published": "2026-09-12T11:59:21Z",
+      "title": "Logo Programming Language",
+      "url": "https://el.media.mit.edu/logo-foundation/what_is_logo/logo_programming.html",
+      "discuss_url": "https://lobste.rs/s/oh5hqw",
+      "score": 6,
+      "comments": 2,
+      "author": "rajtilakjee",
+      "published": "2026-09-12T16:04:06Z",
       "bullets": [
-        "Positions as an out-of-the-box terminal IDE, competing with Helix and Neovim by minimizing complex configuration overhead.",
-        "Targets low-latency TUI workflows with built-in Language Server Protocol (LSP) support and structured syntax tree parsing.",
-        "Streamlines remote SSH and container development without requiring heavyweight graphical clients or Electron-based runtimes."
+        "Developed in 1967 as a Lisp dialect, Logo pioneered educational programming via symbolic computation, list processing, and interactive syntax.",
+        "Its turtle graphics system introduced early vector-based spatial abstractions, directly inspiring modern visual environments like MIT Scratch.",
+        "Architecturally influenced modern dynamic languages and early GUI paradigms through constructivist principles and first-class procedure support."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Linux Zoom Client Proactively Reads X11 Clipboard",
       "url": "https://hachyderm.io/@simontatham/117201594980991062",
       "discuss_url": "https://lobste.rs/s/8t1ddm",
-      "score": 11,
-      "comments": 5,
+      "score": 34,
+      "comments": 15,
       "author": "darleaf",
       "published": "2026-09-12T12:38:53Z",
       "bullets": [
-        "Zoom's Linux client continuously polls the X11 clipboard without user interaction, potentially exfiltrating copied credentials, secrets, or sensitive text.",
-        "The behavior exploits legacy X11's lack of clipboard isolation, where any connected desktop application can read global clipboard buffers unrestricted.",
-        "Mitigate exposure by switching to Wayland for per-window clipboard boundaries, sandboxing Zoom via Flatpak, or using the web client."
+        "Zoom's Linux desktop client continuously inspects X11 clipboard buffers in the background without requiring explicit user paste actions.",
+        "Because X11 lacks granular access controls, any background poll can harvest credentials or tokens copied from password managers.",
+        "Security teams should migrate users to Wayland or sandbox Zoom via Flatpak to enforce strict clipboard isolation."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "aws@amazon.com",
       "published": "2026-09-11T18:35:00Z",
       "bullets": [
-        "AWS expanded EC2 X2idn instances to Hong Kong, powered by 3rd Gen Intel Xeon Scalable processors and AWS Nitro.",
-        "Targeted at memory-intensive workloads, offering substantial performance and throughput improvements over legacy X1 instances.",
-        "Officially SAP-certified for enterprise deployments of SAP S/4HANA, BW/4HANA, and NetWeaver on supported database engines."
+        "EC2 X2idn instances leverage 3rd Gen Intel Xeon Scalable processors and AWS Nitro, delivering higher performance over legacy X1 hardware.",
+        "Expands ap-east-1 capacity for memory-bound workloads, enabling lower latency deployments for regional data-heavy microservices and databases.",
+        "Provides official SAP certification for enterprise stacks including S/4HANA, BW/4HANA, and SAP NetWeaver running on AWS in Hong Kong."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Timothy B. Lee",
       "published": "2026-09-12T11:00:53Z",
       "bullets": [
-        "Unitree might be the world’s most important robotics company.",
-        "I spent $4,000 on a robot dog from China",
-        "Submitted by Timothy B. Lee on arstechnica.com."
+        "Unitree is democratizing quadruped robotics, offering capable hardware around $4,000—a fraction of Boston Dynamics Spot's $75,000 price point.",
+        "Deep Chinese manufacturing integration provides built-in 4D LiDAR, wide-angle cameras, and embodied AI compute at consumer accessible prices.",
+        "Sub-$5,000 quadrupeds shift commercial robotics R&D from elite research labs to widespread developer deployment and field testing."
       ]
     }
   ],
@@ -121,25 +121,25 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
-      "url": "https://eiln.github.io/posts/ane.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=49670032",
-      "score": 159,
-      "comments": 18,
-      "author": "zdw",
-      "published": "2026-09-12T07:54:03Z"
+      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+      "url": "https://www.rubyhack.ai/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49666735",
+      "score": 908,
+      "comments": 547,
+      "author": "chao-",
+      "published": "2026-09-11T23:17:42Z"
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
-      "url": "https://www.rubyhack.ai/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49666735",
-      "score": 841,
-      "comments": 493,
-      "author": "chao-",
-      "published": "2026-09-11T23:17:42Z"
+      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+      "url": "https://eiln.github.io/posts/ane.html",
+      "discuss_url": "https://news.ycombinator.com/item?id=49670032",
+      "score": 198,
+      "comments": 26,
+      "author": "zdw",
+      "published": "2026-09-12T07:54:03Z"
     },
     {
       "source": "hackernews",
@@ -148,46 +148,10 @@
       "title": "Claude is only available to people over 18 years",
       "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
       "discuss_url": "https://news.ycombinator.com/item?id=49656225",
-      "score": 657,
-      "comments": 634,
+      "score": 664,
+      "comments": 641,
       "author": "Muhammad523",
       "published": "2026-09-11T10:48:00Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "OpenAI Agents API",
-      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
-      "discuss_url": "https://news.ycombinator.com/item?id=49649213",
-      "score": 344,
-      "comments": 180,
-      "author": "aquir",
-      "published": "2026-09-10T19:43:22Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
-      "url": "https://cognition.com/blog/swe-2",
-      "discuss_url": "https://news.ycombinator.com/item?id=49645443",
-      "score": 443,
-      "comments": 189,
-      "author": "seelos",
-      "published": "2026-09-10T15:29:47Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "OpenAI’s Navier-Stokes release included a Lean 4 formal proof",
-      "url": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49650326",
-      "score": 177,
-      "comments": 179,
-      "author": "ibobev",
-      "published": "2026-09-10T21:22:59Z"
     },
     {
       "source": "lobsters",
@@ -196,10 +160,22 @@
       "title": "Dario Amodei —We Must Pace the Frontier",
       "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
       "discuss_url": "https://lobste.rs/s/zuhv4b",
-      "score": 1,
-      "comments": 0,
+      "score": 5,
+      "comments": 7,
       "author": "dayanruben",
       "published": "2026-09-12T14:35:49Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "OpenAI’s Navier-Stokes release included a Lean 4 formal proof",
+      "url": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49650326",
+      "score": 178,
+      "comments": 179,
+      "author": "ibobev",
+      "published": "2026-09-10T21:22:59Z"
     },
     {
       "source": "lobsters",
@@ -265,13 +241,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "fresh: Terminal based IDE & text editor: easy, powerful and fast",
-      "url": "https://github.com/sinelaw/fresh",
-      "discuss_url": "https://lobste.rs/s/yhfmtx",
-      "score": 4,
-      "comments": 6,
-      "author": "linkdd",
-      "published": "2026-09-12T11:59:21Z"
+      "title": "Logo Programming Language",
+      "url": "https://el.media.mit.edu/logo-foundation/what_is_logo/logo_programming.html",
+      "discuss_url": "https://lobste.rs/s/oh5hqw",
+      "score": 6,
+      "comments": 2,
+      "author": "rajtilakjee",
+      "published": "2026-09-12T16:04:06Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Make it anyway",
+      "url": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
+      "discuss_url": "https://lobste.rs/s/1hpzyz",
+      "score": 5,
+      "comments": 0,
+      "author": "rcalixte",
+      "published": "2026-09-12T17:24:07Z"
     },
     {
       "source": "lobsters",
@@ -280,10 +268,34 @@
       "title": "Feeling sad about AI",
       "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
       "discuss_url": "https://lobste.rs/s/7guove",
-      "score": 182,
-      "comments": 80,
+      "score": 207,
+      "comments": 92,
       "author": "andybalaam",
       "published": "2026-09-11T12:33:20Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Managing Complex Application State with Reactive Data Flows",
+      "url": "https://yogthos.net/posts/2026-09-12-reactive-dataflow.html",
+      "discuss_url": "https://lobste.rs/s/co3jkg",
+      "score": 2,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-09-12T19:45:31Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "fresh: Terminal based IDE & text editor: easy, powerful and fast",
+      "url": "https://github.com/sinelaw/fresh",
+      "discuss_url": "https://lobste.rs/s/yhfmtx",
+      "score": 4,
+      "comments": 7,
+      "author": "linkdd",
+      "published": "2026-09-12T11:59:21Z"
     },
     {
       "source": "lobsters",
@@ -292,8 +304,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/vc0brm",
       "discuss_url": "https://lobste.rs/s/vc0brm",
-      "score": 20,
-      "comments": 36,
+      "score": 22,
+      "comments": 41,
       "author": "caius",
       "published": "2026-09-11T16:40:41Z"
     },
@@ -304,7 +316,7 @@
       "title": "Rune is now open source",
       "url": "https://rune.build/blog/rune-is-now-open-source",
       "discuss_url": "https://lobste.rs/s/ekyert",
-      "score": 2,
+      "score": 7,
       "comments": 0,
       "author": "rajtilakjee",
       "published": "2026-09-12T08:35:23Z"
@@ -317,7 +329,7 @@
       "url": "https://jerf.org/iri/post/2026/func_args_are_not_colors/",
       "discuss_url": "https://lobste.rs/s/tsfs3w",
       "score": 22,
-      "comments": 14,
+      "comments": 15,
       "author": "abhin4v",
       "published": "2026-09-09T04:13:05Z"
     },
@@ -370,64 +382,40 @@
       "published": "2026-09-11T18:26:10Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
-      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
-      "score": null,
-      "comments": null,
-      "author": "Kayla Cinnamon",
-      "published": "2026-09-10T21:31:19Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "GitHub availability report: August 2026",
-      "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
-      "discuss_url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
-      "score": null,
-      "comments": null,
-      "author": "Jakub Oleksy",
-      "published": "2026-09-10T02:05:17Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "AI cybersecurity is a cat and mouse game",
-      "url": "https://stackoverflow.blog/2026/09/11/ai-cybersecurity-is-a-cat-and-mouse-game/",
-      "discuss_url": "https://stackoverflow.blog/2026/09/11/ai-cybersecurity-is-a-cat-and-mouse-game/",
-      "score": null,
-      "comments": null,
-      "author": "Phoebe Sajor",
-      "published": "2026-09-11T07:40:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Linux Zoom Client Proactively Reads X11 Clipboard",
       "url": "https://hachyderm.io/@simontatham/117201594980991062",
       "discuss_url": "https://lobste.rs/s/8t1ddm",
-      "score": 11,
-      "comments": 5,
+      "score": 34,
+      "comments": 15,
       "author": "darleaf",
       "published": "2026-09-12T12:38:53Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Forgejo <=16.0.3 Critical RCE",
-      "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
-      "discuss_url": "https://news.ycombinator.com/item?id=49645907",
-      "score": 206,
-      "comments": 85,
-      "author": "weierstass",
-      "published": "2026-09-10T15:57:40Z"
+      "title": "The gpg.fail aftermath: On responsible disclosure, GPG, and the state of security in 2026 [32:37]",
+      "url": "https://media.ccc.de/v/2026-728-the-gpg-fail-aftermath-on-responsible-disclosure-gpg-and-the-state-of-security-in-2026",
+      "discuss_url": "https://lobste.rs/s/fcttpk",
+      "score": 7,
+      "comments": 1,
+      "author": "dzwdz",
+      "published": "2026-09-12T17:24:59Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Testing race conditions with memory access tracing and stack-based delay injection",
+      "url": "https://projectzero.google/2026/09/maccconc-race-condition.html",
+      "discuss_url": "https://lobste.rs/s/wobjnw",
+      "score": 2,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-09-12T17:55:34Z"
     },
     {
       "source": "lobsters",
@@ -436,8 +424,8 @@
       "title": "ChiPass Release 2026.09.0",
       "url": "https://codeberg.org/ChiPass/ChiPass/releases/tag/v2026.09.0",
       "discuss_url": "https://lobste.rs/s/mcioou",
-      "score": 46,
-      "comments": 4,
+      "score": 50,
+      "comments": 5,
       "author": "FedericoSchonborn",
       "published": "2026-09-11T16:35:40Z"
     },
@@ -448,8 +436,8 @@
       "title": "Models Don't Go Rogue",
       "url": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
       "discuss_url": "https://lobste.rs/s/0i492m",
-      "score": 55,
-      "comments": 53,
+      "score": 56,
+      "comments": 54,
       "author": "Yogthos",
       "published": "2026-09-11T03:37:10Z"
     },
@@ -469,13 +457,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "An untrusted site can freeze a Mac using WebGPU",
-      "url": "https://auberon.xyz/blog/posts/deathray/",
-      "discuss_url": "https://lobste.rs/s/l0sqnt",
-      "score": 40,
-      "comments": 5,
-      "author": "hoistbypetard",
-      "published": "2026-09-11T00:04:53Z"
+      "title": "Forgejo 16.0.4 has a critical security bug fix (RCE - Remote Code Execution)",
+      "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
+      "discuss_url": "https://lobste.rs/s/b3cqyr",
+      "score": 49,
+      "comments": 27,
+      "author": "brn",
+      "published": "2026-09-10T17:40:19Z"
     },
     {
       "source": "lobsters",
@@ -493,6 +481,30 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "An untrusted site can freeze a Mac using WebGPU",
+      "url": "https://auberon.xyz/blog/posts/deathray/",
+      "discuss_url": "https://lobste.rs/s/l0sqnt",
+      "score": 41,
+      "comments": 5,
+      "author": "hoistbypetard",
+      "published": "2026-09-11T00:04:53Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Rare Not Random Using Token Efficiency for Secrets Scanning",
+      "url": "https://lookingatcomputer.substack.com/p/rare-not-random",
+      "discuss_url": "https://lobste.rs/s/dkd8ph",
+      "score": 4,
+      "comments": 0,
+      "author": "boyter",
+      "published": "2026-09-12T06:42:56Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Making Social Media Social",
       "url": "https://tante.cc/2026/09/10/making-social-media-social/",
       "discuss_url": "https://lobste.rs/s/39c9xe",
@@ -505,49 +517,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Rare Not Random Using Token Efficiency for Secrets Scanning",
-      "url": "https://lookingatcomputer.substack.com/p/rare-not-random",
-      "discuss_url": "https://lobste.rs/s/dkd8ph",
-      "score": 2,
-      "comments": 0,
-      "author": "boyter",
-      "published": "2026-09-12T06:42:56Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Bulk AbuseIPDB reporting using command-line tools",
-      "url": "https://blog.mbirth.uk/2026/08/30/bulk-abuseipdb-reporting-using-command-line-tools.html",
-      "discuss_url": "https://lobste.rs/s/vjds7h",
-      "score": 4,
-      "comments": 0,
-      "author": "edent",
-      "published": "2026-09-09T20:26:56Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "An alignment assessment of recent cybersecurity incidents",
-      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
-      "discuss_url": "https://lobste.rs/s/xokuhi",
-      "score": 3,
-      "comments": 0,
-      "author": "ni5arga",
-      "published": "2026-09-09T20:54:41Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Why Johnny Can't Encrypt: A Usability Evaluation of PGP 5.0 (1999)",
-      "url": "https://www.usenix.org/legacy/events/sec99/full_papers/whitten/whitten_html/index.html",
-      "discuss_url": "https://lobste.rs/s/ojyeqg",
-      "score": 3,
-      "comments": 0,
-      "author": "typesanitizer",
-      "published": "2026-09-09T06:47:58Z"
+      "title": "Countering misuse of AI: September 2026 / Anthropic",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "discuss_url": "https://lobste.rs/s/gmewyf",
+      "score": 1,
+      "comments": 1,
+      "author": "GrayGnome",
+      "published": "2026-09-11T09:46:41Z"
     },
     {
       "source": "rss",
