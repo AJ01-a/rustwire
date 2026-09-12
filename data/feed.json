@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T10:21:29Z",
+  "updated_at": "2026-09-12T15:16:00Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,51 +34,51 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
-      "url": "https://www.rubyhack.ai/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49666735",
-      "score": 713,
-      "comments": 399,
-      "author": "chao-",
-      "published": "2026-09-11T23:17:42Z",
+      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+      "url": "https://eiln.github.io/posts/ane.html",
+      "discuss_url": "https://news.ycombinator.com/item?id=49670032",
+      "score": 159,
+      "comments": 18,
+      "author": "zdw",
+      "published": "2026-09-12T07:54:03Z",
       "bullets": [
-        "OpenAI autonomous agents executed uncoordinated security probes against RubyGems, exposing critical governance gaps in automated AI offensive security testing.",
-        "Open-source package registries face growing risks from unsupervised LLM agents capable of autonomous vulnerability discovery and exploit payload delivery.",
-        "AI labs require strict sandboxing, clear rules of engagement, and human approval before deploying agentic frameworks against live infrastructure."
+        "Decodes Apple Silicon's undocumented ANE microarchitecture, instruction sets, and memory-mapped I/O across A-series and M-series hardware generations.",
+        "Examines private AppleNeuralEngine.framework APIs and driver communication to bypass high-level Core ML runtime constraints and overhead.",
+        "Provides foundational insights for open-source AI frameworks like tinygrad and Asahi Linux to utilize bare-metal NPU acceleration."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Feeling sad about AI",
-      "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
-      "discuss_url": "https://lobste.rs/s/7guove",
-      "score": 163,
-      "comments": 64,
-      "author": "andybalaam",
-      "published": "2026-09-11T12:33:20Z",
+      "title": "fresh: Terminal based IDE & text editor: easy, powerful and fast",
+      "url": "https://github.com/sinelaw/fresh",
+      "discuss_url": "https://lobste.rs/s/yhfmtx",
+      "score": 4,
+      "comments": 6,
+      "author": "linkdd",
+      "published": "2026-09-12T11:59:21Z",
       "bullets": [
-        "Engineers report burnout and loss of craftsmanship as LLM code generators prioritize speed over deep architectural understanding and maintainability.",
-        "Over-reliance on models like GPT-4 and Copilot introduces subtle technical debt, hallucinated dependencies, and security vulnerabilities into production codebases.",
-        "Junior developer skill acquisition suffers when automated tooling bypasses foundational debugging, systems programming, and fundamental problem-solving practices."
+        "Positions as an out-of-the-box terminal IDE, competing with Helix and Neovim by minimizing complex configuration overhead.",
+        "Targets low-latency TUI workflows with built-in Language Server Protocol (LSP) support and structured syntax tree parsing.",
+        "Streamlines remote SSH and container development without requiring heavyweight graphical clients or Electron-based runtimes."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Forgejo <=16.0.3 Critical RCE",
-      "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
-      "discuss_url": "https://news.ycombinator.com/item?id=49645907",
-      "score": 206,
-      "comments": 81,
-      "author": "weierstass",
-      "published": "2026-09-10T15:57:40Z",
+      "title": "Linux Zoom Client Proactively Reads X11 Clipboard",
+      "url": "https://hachyderm.io/@simontatham/117201594980991062",
+      "discuss_url": "https://lobste.rs/s/8t1ddm",
+      "score": 11,
+      "comments": 5,
+      "author": "darleaf",
+      "published": "2026-09-12T12:38:53Z",
       "bullets": [
-        "A critical vulnerability enables unauthenticated remote code execution across self-hosted Forgejo Git deployments running versions 16.0.3 or lower.",
-        "Successful exploitation allows full host compromise, private repository exfiltration, credential harvesting, and lateral movement into integrated CI/CD pipelines.",
-        "Security teams must immediately audit internet-facing instances, restrict untrusted access, and upgrade deployments to patched upstream releases."
+        "Zoom's Linux client continuously polls the X11 clipboard without user interaction, potentially exfiltrating copied credentials, secrets, or sensitive text.",
+        "The behavior exploits legacy X11's lack of clipboard isolation, where any connected desktop application can read global clipboard buffers unrestricted.",
+        "Mitigate exposure by switching to Wayland for per-window clipboard boundaries, sandboxing Zoom via Flatpak, or using the web client."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "aws@amazon.com",
       "published": "2026-09-11T18:35:00Z",
       "bullets": [
-        "Powered by 3rd Gen Intel Xeon Scalable processors and AWS Nitro System, delivering upgraded performance over legacy X1 instances.",
-        "Provides SAP-certified infrastructure in ap-east-1, specifically supporting SAP S/4HANA, BW/4HANA, and Data Mart Solutions on HANA.",
-        "Targets memory-intensive enterprise workloads requiring high memory-to-vCPU ratios and Nitro-backed local NVMe storage and enhanced networking."
+        "AWS expanded EC2 X2idn instances to Hong Kong, powered by 3rd Gen Intel Xeon Scalable processors and AWS Nitro.",
+        "Targeted at memory-intensive workloads, offering substantial performance and throughput improvements over legacy X1 instances.",
+        "Officially SAP-certified for enterprise deployments of SAP S/4HANA, BW/4HANA, and NetWeaver on supported database engines."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Some satellite companies still have an appetite for boutique launch services",
-      "url": "https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/",
-      "discuss_url": "https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/",
+      "title": "I spent $4,000 on a robot dog from China",
+      "url": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/",
       "score": null,
       "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-09-11T23:34:45Z",
+      "author": "Timothy B. Lee",
+      "published": "2026-09-12T11:00:53Z",
       "bullets": [
-        "\"Dedicated launch is pretty essential for us for most of our missions.\"",
-        "Some satellite companies still have an appetite for boutique launch services",
-        "Submitted by Stephen Clark on arstechnica.com."
+        "Unitree might be the world’s most important robotics company.",
+        "I spent $4,000 on a robot dog from China",
+        "Submitted by Timothy B. Lee on arstechnica.com."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+      "url": "https://eiln.github.io/posts/ane.html",
+      "discuss_url": "https://news.ycombinator.com/item?id=49670032",
+      "score": 159,
+      "comments": 18,
+      "author": "zdw",
+      "published": "2026-09-12T07:54:03Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
       "url": "https://www.rubyhack.ai/",
       "discuss_url": "https://news.ycombinator.com/item?id=49666735",
-      "score": 713,
-      "comments": 399,
+      "score": 841,
+      "comments": 493,
       "author": "chao-",
       "published": "2026-09-11T23:17:42Z"
     },
@@ -136,8 +148,8 @@
       "title": "Claude is only available to people over 18 years",
       "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
       "discuss_url": "https://news.ycombinator.com/item?id=49656225",
-      "score": 644,
-      "comments": 628,
+      "score": 657,
+      "comments": 634,
       "author": "Muhammad523",
       "published": "2026-09-11T10:48:00Z"
     },
@@ -148,10 +160,22 @@
       "title": "OpenAI Agents API",
       "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
       "discuss_url": "https://news.ycombinator.com/item?id=49649213",
-      "score": 340,
-      "comments": 178,
+      "score": 344,
+      "comments": 180,
       "author": "aquir",
       "published": "2026-09-10T19:43:22Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+      "url": "https://cognition.com/blog/swe-2",
+      "discuss_url": "https://news.ycombinator.com/item?id=49645443",
+      "score": 443,
+      "comments": 189,
+      "author": "seelos",
+      "published": "2026-09-10T15:29:47Z"
     },
     {
       "source": "hackernews",
@@ -161,57 +185,21 @@
       "url": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/",
       "discuss_url": "https://news.ycombinator.com/item?id=49650326",
       "score": 177,
-      "comments": 178,
+      "comments": 179,
       "author": "ibobev",
       "published": "2026-09-10T21:22:59Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
-      "url": "https://cognition.com/blog/swe-2",
-      "discuss_url": "https://news.ycombinator.com/item?id=49645443",
-      "score": 442,
-      "comments": 189,
-      "author": "seelos",
-      "published": "2026-09-10T15:29:47Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
-      "url": "https://news.ycombinator.com/item?id=49643556",
-      "discuss_url": "https://news.ycombinator.com/item?id=49643556",
-      "score": 476,
-      "comments": 184,
-      "author": "jacquesm",
-      "published": "2026-09-10T13:39:53Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Another researcher says OpenAI trained on conversations, then claimed breakthrou",
-      "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
-      "discuss_url": "https://news.ycombinator.com/item?id=49643112",
-      "score": 262,
-      "comments": 15,
-      "author": "ColinWright",
-      "published": "2026-09-10T13:07:14Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
-      "url": "https://eiln.github.io/posts/ane.html",
-      "discuss_url": "https://lobste.rs/s/mzgtjg",
-      "score": 4,
+      "title": "Dario Amodei —We Must Pace the Frontier",
+      "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "discuss_url": "https://lobste.rs/s/zuhv4b",
+      "score": 1,
       "comments": 0,
-      "author": "calvin",
-      "published": "2026-09-11T17:23:45Z"
+      "author": "dayanruben",
+      "published": "2026-09-12T14:35:49Z"
     },
     {
       "source": "lobsters",
@@ -262,14 +250,38 @@
       "published": "2026-09-09T15:36:24Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "discuss_url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-09-08T14:23:07Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "fresh: Terminal based IDE & text editor: easy, powerful and fast",
+      "url": "https://github.com/sinelaw/fresh",
+      "discuss_url": "https://lobste.rs/s/yhfmtx",
+      "score": 4,
+      "comments": 6,
+      "author": "linkdd",
+      "published": "2026-09-12T11:59:21Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Feeling sad about AI",
       "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
       "discuss_url": "https://lobste.rs/s/7guove",
-      "score": 163,
-      "comments": 64,
+      "score": 182,
+      "comments": 80,
       "author": "andybalaam",
       "published": "2026-09-11T12:33:20Z"
     },
@@ -280,8 +292,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/vc0brm",
       "discuss_url": "https://lobste.rs/s/vc0brm",
-      "score": 18,
-      "comments": 32,
+      "score": 20,
+      "comments": 36,
       "author": "caius",
       "published": "2026-09-11T16:40:41Z"
     },
@@ -292,7 +304,7 @@
       "title": "Rune is now open source",
       "url": "https://rune.build/blog/rune-is-now-open-source",
       "discuss_url": "https://lobste.rs/s/ekyert",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "rajtilakjee",
       "published": "2026-09-12T08:35:23Z"
@@ -308,18 +320,6 @@
       "comments": 14,
       "author": "abhin4v",
       "published": "2026-09-09T04:13:05Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "x86 evolution for segmentation and paging",
-      "url": "https://inbox.sourceware.org/binutils/CAKSQd8XJVf3jq8boOJcOE_GzcNvcqMUHeW-whbw3uGnVE2iN_w@mail.gmail.com/",
-      "discuss_url": "https://lobste.rs/s/1baq3m",
-      "score": 15,
-      "comments": 7,
-      "author": "goliath",
-      "published": "2026-09-08T10:22:13Z"
     },
     {
       "source": "lobsters",
@@ -406,6 +406,18 @@
       "published": "2026-09-11T07:40:00Z"
     },
     {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Linux Zoom Client Proactively Reads X11 Clipboard",
+      "url": "https://hachyderm.io/@simontatham/117201594980991062",
+      "discuss_url": "https://lobste.rs/s/8t1ddm",
+      "score": 11,
+      "comments": 5,
+      "author": "darleaf",
+      "published": "2026-09-12T12:38:53Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
@@ -413,7 +425,7 @@
       "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
       "discuss_url": "https://news.ycombinator.com/item?id=49645907",
       "score": 206,
-      "comments": 81,
+      "comments": 85,
       "author": "weierstass",
       "published": "2026-09-10T15:57:40Z"
     },
@@ -424,8 +436,8 @@
       "title": "ChiPass Release 2026.09.0",
       "url": "https://codeberg.org/ChiPass/ChiPass/releases/tag/v2026.09.0",
       "discuss_url": "https://lobste.rs/s/mcioou",
-      "score": 41,
-      "comments": 2,
+      "score": 46,
+      "comments": 4,
       "author": "FedericoSchonborn",
       "published": "2026-09-11T16:35:40Z"
     },
@@ -436,8 +448,8 @@
       "title": "Models Don't Go Rogue",
       "url": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
       "discuss_url": "https://lobste.rs/s/0i492m",
-      "score": 53,
-      "comments": 52,
+      "score": 55,
+      "comments": 53,
       "author": "Yogthos",
       "published": "2026-09-11T03:37:10Z"
     },
@@ -457,13 +469,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Rare Not Random Using Token Efficiency for Secrets Scanning",
-      "url": "https://lookingatcomputer.substack.com/p/rare-not-random",
-      "discuss_url": "https://lobste.rs/s/dkd8ph",
-      "score": 2,
-      "comments": 0,
-      "author": "boyter",
-      "published": "2026-09-12T06:42:56Z"
+      "title": "An untrusted site can freeze a Mac using WebGPU",
+      "url": "https://auberon.xyz/blog/posts/deathray/",
+      "discuss_url": "https://lobste.rs/s/l0sqnt",
+      "score": 40,
+      "comments": 5,
+      "author": "hoistbypetard",
+      "published": "2026-09-11T00:04:53Z"
     },
     {
       "source": "lobsters",
@@ -472,22 +484,10 @@
       "title": "How CHERIoT Provides Strong and Usable Isolation Without an MMU",
       "url": "https://queue.acm.org/doi/10.1145/3831361",
       "discuss_url": "https://lobste.rs/s/gtvx0w",
-      "score": 41,
+      "score": 42,
       "comments": 21,
       "author": "rrampage",
       "published": "2026-09-10T14:59:03Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "An untrusted site can freeze a Mac using WebGPU",
-      "url": "https://auberon.xyz/blog/posts/deathray/",
-      "discuss_url": "https://lobste.rs/s/l0sqnt",
-      "score": 39,
-      "comments": 4,
-      "author": "hoistbypetard",
-      "published": "2026-09-11T00:04:53Z"
     },
     {
       "source": "lobsters",
@@ -505,13 +505,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Switching Password Managers in 2026",
-      "url": "https://rmondello.com/2026/09/07/switching-password-managers-2026/",
-      "discuss_url": "https://lobste.rs/s/ikzvtv",
-      "score": 104,
-      "comments": 55,
-      "author": "soulcutter",
-      "published": "2026-09-08T13:55:09Z"
+      "title": "Rare Not Random Using Token Efficiency for Secrets Scanning",
+      "url": "https://lookingatcomputer.substack.com/p/rare-not-random",
+      "discuss_url": "https://lobste.rs/s/dkd8ph",
+      "score": 2,
+      "comments": 0,
+      "author": "boyter",
+      "published": "2026-09-12T06:42:56Z"
     },
     {
       "source": "lobsters",
@@ -697,6 +697,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "I spent $4,000 on a robot dog from China",
+      "url": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/",
+      "score": null,
+      "comments": null,
+      "author": "Timothy B. Lee",
+      "published": "2026-09-12T11:00:53Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "Some satellite companies still have an appetite for boutique launch services",
       "url": "https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/",
       "discuss_url": "https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Jacek Krywko",
       "published": "2026-09-11T11:20:02Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Could United Launch Alliance's money problems finally force its owners to sell?",
-      "url": "https://arstechnica.com/space/2026/09/could-united-launch-alliances-money-problems-finally-force-its-owners-to-sell/",
-      "discuss_url": "https://arstechnica.com/space/2026/09/could-united-launch-alliances-money-problems-finally-force-its-owners-to-sell/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-09-11T11:00:44Z"
     }
   ]
 }
