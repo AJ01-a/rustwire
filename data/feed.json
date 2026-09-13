@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T15:52:39Z",
+  "updated_at": "2026-09-13T20:31:10Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,34 +34,34 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
-      "url": "https://withspecific.com/benchmarks/real-swe",
-      "discuss_url": "https://news.ycombinator.com/item?id=49676820",
-      "score": 256,
-      "comments": 140,
-      "author": "theanonymousone",
-      "published": "2026-09-12T20:25:48Z",
+      "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
+      "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
+      "discuss_url": "https://news.ycombinator.com/item?id=49685991",
+      "score": 155,
+      "comments": 115,
+      "author": "kolanos",
+      "published": "2026-09-13T16:52:33Z",
       "bullets": [
-        "Real-SWE evaluates coding agents on closed, enterprise repositories, countering public SWE-bench data contamination and synthetic task bias.",
-        "Tests agent performance against proprietary tooling, complex monorepos, internal APIs, and undocumented legacy code common in production environments.",
-        "Establishes realistic baseline metrics for enterprise AI adoption, measuring actual bug resolution rates outside curated open-source GitHub environments."
+        "White House AI advisor David Sacks argues market dynamics, not federal mandates, should pace frontier model training at OpenAI and Anthropic.",
+        "The stance opposes government-enforced compute thresholds, mandatory model licensing, and statutory safety delays on next-generation LLM releases.",
+        "Deregulatory policy prioritizes rapid capability scaling over institutional pauses, leaving model safety evaluations to voluntary lab commitments."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Feeling sad about AI",
-      "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
-      "discuss_url": "https://lobste.rs/s/7guove",
-      "score": 225,
-      "comments": 103,
-      "author": "andybalaam",
-      "published": "2026-09-11T12:33:20Z",
+      "title": "Golang developers should try Odin",
+      "url": "https://rm4n0s.github.io/posts/2-go-devs-should-learn-odin/",
+      "discuss_url": "https://lobste.rs/s/ytc27d",
+      "score": 12,
+      "comments": 20,
+      "author": "cgrinds",
+      "published": "2026-09-13T15:23:41Z",
       "bullets": [
-        "Widespread adoption of LLM coding tools shifts software development from creative problem-solving to tedious review, driving engineering alienation and deskilling.",
-        "AI-generated code increases technical debt and cognitive load, forcing engineers to spend more time debugging opaque, hallucinated edge cases.",
-        "Enterprise push for automated code generation risks eroding junior engineer pipelines, fundamentally disrupting traditional mentorship and mastery paths in engineering."
+        "Odin mirrors Go's clean syntax, multiple return values, and fast compilation, offering Go developers a familiar, low-friction learning curve.",
+        "Unlike Go's garbage-collected runtime, Odin provides manual memory management with custom allocators and a built-in context system for systems-level control.",
+        "Odin targets high-performance domains like game development and embedded systems without hidden runtime overhead or C/C++ tooling complexity."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Revolut confirms customer data breach through fake government requests",
       "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
       "discuss_url": "https://news.ycombinator.com/item?id=49682087",
-      "score": 119,
-      "comments": 78,
+      "score": 160,
+      "comments": 114,
       "author": "tdrz",
       "published": "2026-09-13T09:59:58Z",
       "bullets": [
-        "Revolut confirms customer data breach through fake government requests",
-        "Trending on news.ycombinator.com — 119 points, 78 comments.",
-        "Submitted by tdrz on news.ycombinator.com."
+        "Attackers weaponized fraudulent emergency data requests (EDRs), likely via compromised law enforcement email accounts, to illicitly extract Revolut customer data.",
+        "Fraudulent EDR abuse poses an escalating threat to fintechs, bypassing technical perimeter defenses by exploiting trusted legal compliance workflows.",
+        "Security and compliance teams must implement cryptographic validation and rigorous out-of-band verification protocols for all law enforcement requests."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "aws@amazon.com",
       "published": "2026-09-12T08:00:00Z",
       "bullets": [
-        "AWS Elemental MediaLive now supports Video Aligned Locking, a new feature to synchronize video pipelines without requiring timecode from the source.",
-        "Previously, achieving frame-accurate locking across video outputs required investing in specialized hardware or managing complex, external synchronization workflows.",
-        "While timecode is generally standard for highly produced, traditional broadcast content, it is often unavailable and difficult to manage in typical digital streaming workflows."
+        "AWS Elemental MediaLive's Video Aligned Locking uses visual signatures to synchronize video pipelines without requiring source timecodes.",
+        "Enables frame-accurate input switching across standard channels and linked cross-region single pipelines without specialized synchronization hardware.",
+        "Supports downstream streaming workflows using HLS, AWS Elemental MediaPackage, CMAF Ingest, UDP, and SRT protocols."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Boone Ashworth, WIRED.com",
       "published": "2026-09-13T11:00:41Z",
       "bullets": [
-        "The manufacturer has a service that lets owners repair their own equipment.",
-        "I fixed a tractor using John Deere’s self-repair service. Farmers aren’t sold on it.",
-        "Submitted by Boone Ashworth, WIRED.com on arstechnica.com."
+        "John Deere's Customer Service ADVISOR enables basic diagnostics, but high subscription fees and cloud dependency hinder widespread independent adoption.",
+        "Proprietary software locks and part-pairing still require authorized dealer tools, preventing complete customer repairs despite self-service offerings.",
+        "Right-to-repair advocates criticize the model as a half-measure that monetizes diagnostic data without relinquishing control over vehicle firmware."
       ]
     }
   ],
@@ -121,25 +121,25 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
+      "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
+      "discuss_url": "https://news.ycombinator.com/item?id=49685991",
+      "score": 155,
+      "comments": 115,
+      "author": "kolanos",
+      "published": "2026-09-13T16:52:33Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
       "url": "https://withspecific.com/benchmarks/real-swe",
       "discuss_url": "https://news.ycombinator.com/item?id=49676820",
-      "score": 256,
-      "comments": 140,
+      "score": 264,
+      "comments": 146,
       "author": "theanonymousone",
       "published": "2026-09-12T20:25:48Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "After Math",
-      "url": "https://terrytao.wordpress.com/2026/09/12/after-math/",
-      "discuss_url": "https://lobste.rs/s/ojls0p",
-      "score": 4,
-      "comments": 2,
-      "author": "mseri",
-      "published": "2026-09-13T12:59:09Z"
     },
     {
       "source": "hackernews",
@@ -148,8 +148,8 @@
       "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
       "url": "https://www.rubyhack.ai/",
       "discuss_url": "https://news.ycombinator.com/item?id=49666735",
-      "score": 943,
-      "comments": 585,
+      "score": 949,
+      "comments": 592,
       "author": "chao-",
       "published": "2026-09-11T23:17:42Z"
     },
@@ -160,7 +160,7 @@
       "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
       "url": "https://eiln.github.io/posts/ane.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49670032",
-      "score": 231,
+      "score": 232,
       "comments": 32,
       "author": "zdw",
       "published": "2026-09-12T07:54:03Z"
@@ -173,21 +173,9 @@
       "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
       "discuss_url": "https://lobste.rs/s/zuhv4b",
       "score": 9,
-      "comments": 29,
+      "comments": 30,
       "author": "dayanruben",
       "published": "2026-09-12T14:35:49Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Better AI code comment detector",
-      "url": "https://entropicthoughts.com/better-ai-comment-classifier",
-      "discuss_url": "https://lobste.rs/s/o9cyiv",
-      "score": 9,
-      "comments": 2,
-      "author": "kqr",
-      "published": "2026-09-09T18:27:24Z"
     },
     {
       "source": "lobsters",
@@ -241,11 +229,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Golang developers should try Odin",
+      "url": "https://rm4n0s.github.io/posts/2-go-devs-should-learn-odin/",
+      "discuss_url": "https://lobste.rs/s/ytc27d",
+      "score": 12,
+      "comments": 20,
+      "author": "cgrinds",
+      "published": "2026-09-13T15:23:41Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Feeling sad about AI",
       "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
       "discuss_url": "https://lobste.rs/s/7guove",
-      "score": 225,
-      "comments": 103,
+      "score": 224,
+      "comments": 112,
       "author": "andybalaam",
       "published": "2026-09-11T12:33:20Z"
     },
@@ -256,22 +256,10 @@
       "title": "Make it anyway",
       "url": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
       "discuss_url": "https://lobste.rs/s/1hpzyz",
-      "score": 27,
+      "score": 31,
       "comments": 0,
       "author": "rcalixte",
       "published": "2026-09-12T17:24:07Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Logo Programming Language",
-      "url": "https://el.media.mit.edu/logo-foundation/what_is_logo/logo_programming.html",
-      "discuss_url": "https://lobste.rs/s/oh5hqw",
-      "score": 11,
-      "comments": 3,
-      "author": "rajtilakjee",
-      "published": "2026-09-12T16:04:06Z"
     },
     {
       "source": "lobsters",
@@ -289,11 +277,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Logo Programming Language",
+      "url": "https://el.media.mit.edu/logo-foundation/what_is_logo/logo_programming.html",
+      "discuss_url": "https://lobste.rs/s/oh5hqw",
+      "score": 11,
+      "comments": 3,
+      "author": "rajtilakjee",
+      "published": "2026-09-12T16:04:06Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "fresh: Terminal based IDE & text editor: easy, powerful and fast",
       "url": "https://github.com/sinelaw/fresh",
       "discuss_url": "https://lobste.rs/s/yhfmtx",
       "score": 5,
-      "comments": 7,
+      "comments": 8,
       "author": "linkdd",
       "published": "2026-09-12T11:59:21Z"
     },
@@ -370,26 +370,14 @@
       "published": "2026-09-10T21:31:19Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "GitHub availability report: August 2026",
-      "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
-      "discuss_url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
-      "score": null,
-      "comments": null,
-      "author": "Jakub Oleksy",
-      "published": "2026-09-10T02:05:17Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Revolut confirms customer data breach through fake government requests",
       "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
       "discuss_url": "https://news.ycombinator.com/item?id=49682087",
-      "score": 119,
-      "comments": 78,
+      "score": 160,
+      "comments": 114,
       "author": "tdrz",
       "published": "2026-09-13T09:59:58Z"
     },
@@ -400,7 +388,7 @@
       "title": "Linux Zoom Client Proactively Reads X11 Clipboard",
       "url": "https://hachyderm.io/@simontatham/117201594980991062",
       "discuss_url": "https://lobste.rs/s/8t1ddm",
-      "score": 58,
+      "score": 66,
       "comments": 36,
       "author": "darleaf",
       "published": "2026-09-12T12:38:53Z"
@@ -412,7 +400,7 @@
       "title": "The gpg.fail aftermath: On responsible disclosure, GPG, and the state of security in 2026 [32:37]",
       "url": "https://media.ccc.de/v/2026-728-the-gpg-fail-aftermath-on-responsible-disclosure-gpg-and-the-state-of-security-in-2026",
       "discuss_url": "https://lobste.rs/s/fcttpk",
-      "score": 23,
+      "score": 29,
       "comments": 6,
       "author": "dzwdz",
       "published": "2026-09-12T17:24:59Z"
@@ -484,7 +472,7 @@
       "title": "An untrusted site can freeze a Mac using WebGPU",
       "url": "https://auberon.xyz/blog/posts/deathray/",
       "discuss_url": "https://lobste.rs/s/l0sqnt",
-      "score": 42,
+      "score": 43,
       "comments": 5,
       "author": "hoistbypetard",
       "published": "2026-09-11T00:04:53Z"
