@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T11:21:34Z",
+  "updated_at": "2026-09-13T15:52:39Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
       "url": "https://withspecific.com/benchmarks/real-swe",
       "discuss_url": "https://news.ycombinator.com/item?id=49676820",
-      "score": 247,
-      "comments": 137,
+      "score": 256,
+      "comments": 140,
       "author": "theanonymousone",
       "published": "2026-09-12T20:25:48Z",
       "bullets": [
-        "Addresses SWE-bench data leakage by testing AI models on private enterprise repositories unavailable in public training corpora.",
-        "Exposes realistic performance gaps caused by proprietary dependencies, complex monorepos, and internal architectures absent from public GitHub benchmarks.",
-        "Provides enterprise practitioners a truer signal for deploying coding agents like Claude 3.5 Sonnet and GPT-4o internally."
+        "Real-SWE evaluates coding agents on closed, enterprise repositories, countering public SWE-bench data contamination and synthetic task bias.",
+        "Tests agent performance against proprietary tooling, complex monorepos, internal APIs, and undocumented legacy code common in production environments.",
+        "Establishes realistic baseline metrics for enterprise AI adoption, measuring actual bug resolution rates outside curated open-source GitHub environments."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "Feeling sad about AI",
       "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
       "discuss_url": "https://lobste.rs/s/7guove",
-      "score": 221,
-      "comments": 102,
+      "score": 225,
+      "comments": 103,
       "author": "andybalaam",
       "published": "2026-09-11T12:33:20Z",
       "bullets": [
-        "Generative AI tools shift engineering workflows from core systems architecture and craftsmanship toward passive, high-cognitive-load code review.",
-        "Over-reliance on LLM-assisted generation threatens foundational debugging competencies and degrades mentorship pipelines for junior developers.",
-        "Open-source ecosystems face operational strain from low-effort AI-generated pull requests, hallucinated dependencies, and polluted documentation indexes."
+        "Widespread adoption of LLM coding tools shifts software development from creative problem-solving to tedious review, driving engineering alienation and deskilling.",
+        "AI-generated code increases technical debt and cognitive load, forcing engineers to spend more time debugging opaque, hallucinated edge cases.",
+        "Enterprise push for automated code generation risks eroding junior engineer pipelines, fundamentally disrupting traditional mentorship and mastery paths in engineering."
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "Linux Zoom Client Proactively Reads X11 Clipboard",
-      "url": "https://hachyderm.io/@simontatham/117201594980991062",
-      "discuss_url": "https://lobste.rs/s/8t1ddm",
-      "score": 53,
-      "comments": 34,
-      "author": "darleaf",
-      "published": "2026-09-12T12:38:53Z",
+      "title": "Revolut confirms customer data breach through fake government requests",
+      "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49682087",
+      "score": 119,
+      "comments": 78,
+      "author": "tdrz",
+      "published": "2026-09-13T09:59:58Z",
       "bullets": [
-        "Linux Zoom Client Proactively Reads X11 Clipboard",
-        "Trending on lobste.rs/security — 53 points, 34 comments.",
-        "Submitted by darleaf on lobste.rs/security."
+        "Revolut confirms customer data breach through fake government requests",
+        "Trending on news.ycombinator.com — 119 points, 78 comments.",
+        "Submitted by tdrz on news.ycombinator.com."
       ]
     },
     {
@@ -102,17 +102,17 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "I spent $4,000 on a robot dog from China",
-      "url": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/",
+      "title": "I fixed a tractor using John Deere’s self-repair service. Farmers aren’t sold on it.",
+      "url": "https://arstechnica.com/gadgets/2026/09/i-fixed-a-tractor-using-john-deeres-self-repair-service-farmers-arent-sold-on-it/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/09/i-fixed-a-tractor-using-john-deeres-self-repair-service-farmers-arent-sold-on-it/",
       "score": null,
       "comments": null,
-      "author": "Timothy B. Lee",
-      "published": "2026-09-12T11:00:53Z",
+      "author": "Boone Ashworth, WIRED.com",
+      "published": "2026-09-13T11:00:41Z",
       "bullets": [
-        "Unitree might be the world’s most important robotics company.",
-        "I spent $4,000 on a robot dog from China",
-        "Submitted by Timothy B. Lee on arstechnica.com."
+        "The manufacturer has a service that lets owners repair their own equipment.",
+        "I fixed a tractor using John Deere’s self-repair service. Farmers aren’t sold on it.",
+        "Submitted by Boone Ashworth, WIRED.com on arstechnica.com."
       ]
     }
   ],
@@ -124,10 +124,22 @@
       "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
       "url": "https://withspecific.com/benchmarks/real-swe",
       "discuss_url": "https://news.ycombinator.com/item?id=49676820",
-      "score": 247,
-      "comments": 137,
+      "score": 256,
+      "comments": 140,
       "author": "theanonymousone",
       "published": "2026-09-12T20:25:48Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "After Math",
+      "url": "https://terrytao.wordpress.com/2026/09/12/after-math/",
+      "discuss_url": "https://lobste.rs/s/ojls0p",
+      "score": 4,
+      "comments": 2,
+      "author": "mseri",
+      "published": "2026-09-13T12:59:09Z"
     },
     {
       "source": "hackernews",
@@ -136,22 +148,10 @@
       "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
       "url": "https://www.rubyhack.ai/",
       "discuss_url": "https://news.ycombinator.com/item?id=49666735",
-      "score": 935,
-      "comments": 582,
+      "score": 943,
+      "comments": 585,
       "author": "chao-",
       "published": "2026-09-11T23:17:42Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Everyone should slow down AI development except for me",
-      "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-      "discuss_url": "https://lobste.rs/s/fmkm3v",
-      "score": 38,
-      "comments": 3,
-      "author": "classichasclass",
-      "published": "2026-09-13T00:53:30Z"
     },
     {
       "source": "hackernews",
@@ -160,7 +160,7 @@
       "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
       "url": "https://eiln.github.io/posts/ane.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49670032",
-      "score": 230,
+      "score": 231,
       "comments": 32,
       "author": "zdw",
       "published": "2026-09-12T07:54:03Z"
@@ -172,8 +172,8 @@
       "title": "We Must Pace the Frontier",
       "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
       "discuss_url": "https://lobste.rs/s/zuhv4b",
-      "score": 8,
-      "comments": 23,
+      "score": 9,
+      "comments": 29,
       "author": "dayanruben",
       "published": "2026-09-12T14:35:49Z"
     },
@@ -244,8 +244,8 @@
       "title": "Feeling sad about AI",
       "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
       "discuss_url": "https://lobste.rs/s/7guove",
-      "score": 221,
-      "comments": 102,
+      "score": 225,
+      "comments": 103,
       "author": "andybalaam",
       "published": "2026-09-11T12:33:20Z"
     },
@@ -256,7 +256,7 @@
       "title": "Make it anyway",
       "url": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
       "discuss_url": "https://lobste.rs/s/1hpzyz",
-      "score": 23,
+      "score": 27,
       "comments": 0,
       "author": "rcalixte",
       "published": "2026-09-12T17:24:07Z"
@@ -268,7 +268,7 @@
       "title": "Logo Programming Language",
       "url": "https://el.media.mit.edu/logo-foundation/what_is_logo/logo_programming.html",
       "discuss_url": "https://lobste.rs/s/oh5hqw",
-      "score": 10,
+      "score": 11,
       "comments": 3,
       "author": "rajtilakjee",
       "published": "2026-09-12T16:04:06Z"
@@ -305,7 +305,7 @@
       "url": "https://yogthos.net/posts/2026-09-12-reactive-dataflow.html",
       "discuss_url": "https://lobste.rs/s/co3jkg",
       "score": 4,
-      "comments": 1,
+      "comments": 2,
       "author": "Yogthos",
       "published": "2026-09-12T19:45:31Z"
     },
@@ -382,14 +382,26 @@
       "published": "2026-09-10T02:05:17Z"
     },
     {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "Revolut confirms customer data breach through fake government requests",
+      "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49682087",
+      "score": 119,
+      "comments": 78,
+      "author": "tdrz",
+      "published": "2026-09-13T09:59:58Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Linux Zoom Client Proactively Reads X11 Clipboard",
       "url": "https://hachyderm.io/@simontatham/117201594980991062",
       "discuss_url": "https://lobste.rs/s/8t1ddm",
-      "score": 53,
-      "comments": 34,
+      "score": 58,
+      "comments": 36,
       "author": "darleaf",
       "published": "2026-09-12T12:38:53Z"
     },
@@ -400,7 +412,7 @@
       "title": "The gpg.fail aftermath: On responsible disclosure, GPG, and the state of security in 2026 [32:37]",
       "url": "https://media.ccc.de/v/2026-728-the-gpg-fail-aftermath-on-responsible-disclosure-gpg-and-the-state-of-security-in-2026",
       "discuss_url": "https://lobste.rs/s/fcttpk",
-      "score": 21,
+      "score": 23,
       "comments": 6,
       "author": "dzwdz",
       "published": "2026-09-12T17:24:59Z"
@@ -424,7 +436,7 @@
       "title": "ChiPass Release 2026.09.0",
       "url": "https://codeberg.org/ChiPass/ChiPass/releases/tag/v2026.09.0",
       "discuss_url": "https://lobste.rs/s/mcioou",
-      "score": 52,
+      "score": 53,
       "comments": 7,
       "author": "FedericoSchonborn",
       "published": "2026-09-11T16:35:40Z"
@@ -437,7 +449,7 @@
       "url": "https://maurycyz.com/misc/domains/",
       "discuss_url": "https://lobste.rs/s/9szn91",
       "score": 90,
-      "comments": 28,
+      "comments": 29,
       "author": "maurycy",
       "published": "2026-09-10T15:14:48Z"
     },
@@ -472,7 +484,7 @@
       "title": "An untrusted site can freeze a Mac using WebGPU",
       "url": "https://auberon.xyz/blog/posts/deathray/",
       "discuss_url": "https://lobste.rs/s/l0sqnt",
-      "score": 41,
+      "score": 42,
       "comments": 5,
       "author": "hoistbypetard",
       "published": "2026-09-11T00:04:53Z"
@@ -512,18 +524,6 @@
       "comments": 0,
       "author": "fro",
       "published": "2026-09-12T17:55:34Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Countering misuse of AI: September 2026 / Anthropic",
-      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
-      "discuss_url": "https://lobste.rs/s/gmewyf",
-      "score": 1,
-      "comments": 1,
-      "author": "GrayGnome",
-      "published": "2026-09-11T09:46:41Z"
     },
     {
       "source": "rss",
@@ -673,6 +673,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "I fixed a tractor using John Deere’s self-repair service. Farmers aren’t sold on it.",
+      "url": "https://arstechnica.com/gadgets/2026/09/i-fixed-a-tractor-using-john-deeres-self-repair-service-farmers-arent-sold-on-it/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/09/i-fixed-a-tractor-using-john-deeres-self-repair-service-farmers-arent-sold-on-it/",
+      "score": null,
+      "comments": null,
+      "author": "Boone Ashworth, WIRED.com",
+      "published": "2026-09-13T11:00:41Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "I spent $4,000 on a robot dog from China",
       "url": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/",
       "discuss_url": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/",
@@ -800,18 +812,6 @@
       "comments": null,
       "author": "Dan Goodin",
       "published": "2026-09-11T11:30:58Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "What happens when quantum mechanics and relativity meet?",
-      "url": "https://arstechnica.com/science/2026/09/what-happens-when-quantum-mechanics-and-relativity-meet/",
-      "discuss_url": "https://arstechnica.com/science/2026/09/what-happens-when-quantum-mechanics-and-relativity-meet/",
-      "score": null,
-      "comments": null,
-      "author": "Jacek Krywko",
-      "published": "2026-09-11T11:20:02Z"
     }
   ]
 }
