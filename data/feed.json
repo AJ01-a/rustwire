@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T03:58:42Z",
+  "updated_at": "2026-09-13T11:21:34Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
       "url": "https://withspecific.com/benchmarks/real-swe",
       "discuss_url": "https://news.ycombinator.com/item?id=49676820",
-      "score": 157,
-      "comments": 81,
+      "score": 247,
+      "comments": 137,
       "author": "theanonymousone",
       "published": "2026-09-12T20:25:48Z",
       "bullets": [
-        "Addresses SWE-bench contamination by evaluating AI coding agents on private, unindexed enterprise codebases rather than public GitHub repositories.",
-        "Tests models against complex proprietary dependencies, private APIs, and enterprise monorepos that reflect true production developer workflows.",
-        "Provides realistic evaluation metrics, highlighting performance drops when state-of-the-art models encounter unseen, closed-source corporate architectures."
+        "Addresses SWE-bench data leakage by testing AI models on private enterprise repositories unavailable in public training corpora.",
+        "Exposes realistic performance gaps caused by proprietary dependencies, complex monorepos, and internal architectures absent from public GitHub benchmarks.",
+        "Provides enterprise practitioners a truer signal for deploying coding agents like Claude 3.5 Sonnet and GPT-4o internally."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Feeling sad about AI",
       "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
       "discuss_url": "https://lobste.rs/s/7guove",
-      "score": 217,
-      "comments": 101,
+      "score": 221,
+      "comments": 102,
       "author": "andybalaam",
       "published": "2026-09-11T12:33:20Z",
       "bullets": [
-        "Engineers report diminishing satisfaction as coding shifts from problem-solving craft to prompt engineering and reviewing LLM-generated boilerplate.",
-        "Proliferation of generative AI degrades open-source ecosystems with hallucinated code, low-quality pull requests, and polluted technical documentation.",
-        "Heavy reliance on tools like GitHub Copilot risks junior developer skill atrophy, unvetted vulnerabilities, and compounding production technical debt."
+        "Generative AI tools shift engineering workflows from core systems architecture and craftsmanship toward passive, high-cognitive-load code review.",
+        "Over-reliance on LLM-assisted generation threatens foundational debugging competencies and degrades mentorship pipelines for junior developers.",
+        "Open-source ecosystems face operational strain from low-effort AI-generated pull requests, hallucinated dependencies, and polluted documentation indexes."
       ]
     },
     {
@@ -71,13 +71,13 @@
       "title": "Linux Zoom Client Proactively Reads X11 Clipboard",
       "url": "https://hachyderm.io/@simontatham/117201594980991062",
       "discuss_url": "https://lobste.rs/s/8t1ddm",
-      "score": 43,
-      "comments": 27,
+      "score": 53,
+      "comments": 34,
       "author": "darleaf",
       "published": "2026-09-12T12:38:53Z",
       "bullets": [
         "Linux Zoom Client Proactively Reads X11 Clipboard",
-        "Trending on lobste.rs/security — 43 points, 27 comments.",
+        "Trending on lobste.rs/security — 53 points, 34 comments.",
         "Submitted by darleaf on lobste.rs/security."
       ]
     },
@@ -124,8 +124,8 @@
       "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
       "url": "https://withspecific.com/benchmarks/real-swe",
       "discuss_url": "https://news.ycombinator.com/item?id=49676820",
-      "score": 157,
-      "comments": 81,
+      "score": 247,
+      "comments": 137,
       "author": "theanonymousone",
       "published": "2026-09-12T20:25:48Z"
     },
@@ -136,22 +136,10 @@
       "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
       "url": "https://www.rubyhack.ai/",
       "discuss_url": "https://news.ycombinator.com/item?id=49666735",
-      "score": 927,
-      "comments": 579,
+      "score": 935,
+      "comments": 582,
       "author": "chao-",
       "published": "2026-09-11T23:17:42Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
-      "url": "https://eiln.github.io/posts/ane.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=49670032",
-      "score": 225,
-      "comments": 32,
-      "author": "zdw",
-      "published": "2026-09-12T07:54:03Z"
     },
     {
       "source": "lobsters",
@@ -160,8 +148,8 @@
       "title": "Everyone should slow down AI development except for me",
       "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
       "discuss_url": "https://lobste.rs/s/fmkm3v",
-      "score": 10,
-      "comments": 0,
+      "score": 38,
+      "comments": 3,
       "author": "classichasclass",
       "published": "2026-09-13T00:53:30Z"
     },
@@ -169,13 +157,13 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Claude is only available to people over 18 years",
-      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
-      "discuss_url": "https://news.ycombinator.com/item?id=49656225",
-      "score": 665,
-      "comments": 645,
-      "author": "Muhammad523",
-      "published": "2026-09-11T10:48:00Z"
+      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+      "url": "https://eiln.github.io/posts/ane.html",
+      "discuss_url": "https://news.ycombinator.com/item?id=49670032",
+      "score": 230,
+      "comments": 32,
+      "author": "zdw",
+      "published": "2026-09-12T07:54:03Z"
     },
     {
       "source": "lobsters",
@@ -184,8 +172,8 @@
       "title": "We Must Pace the Frontier",
       "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
       "discuss_url": "https://lobste.rs/s/zuhv4b",
-      "score": 10,
-      "comments": 17,
+      "score": 8,
+      "comments": 23,
       "author": "dayanruben",
       "published": "2026-09-12T14:35:49Z"
     },
@@ -256,8 +244,8 @@
       "title": "Feeling sad about AI",
       "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
       "discuss_url": "https://lobste.rs/s/7guove",
-      "score": 217,
-      "comments": 101,
+      "score": 221,
+      "comments": 102,
       "author": "andybalaam",
       "published": "2026-09-11T12:33:20Z"
     },
@@ -268,7 +256,7 @@
       "title": "Make it anyway",
       "url": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
       "discuss_url": "https://lobste.rs/s/1hpzyz",
-      "score": 16,
+      "score": 23,
       "comments": 0,
       "author": "rcalixte",
       "published": "2026-09-12T17:24:07Z"
@@ -280,22 +268,10 @@
       "title": "Logo Programming Language",
       "url": "https://el.media.mit.edu/logo-foundation/what_is_logo/logo_programming.html",
       "discuss_url": "https://lobste.rs/s/oh5hqw",
-      "score": 7,
+      "score": 10,
       "comments": 3,
       "author": "rajtilakjee",
       "published": "2026-09-12T16:04:06Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "fresh: Terminal based IDE & text editor: easy, powerful and fast",
-      "url": "https://github.com/sinelaw/fresh",
-      "discuss_url": "https://lobste.rs/s/yhfmtx",
-      "score": 5,
-      "comments": 7,
-      "author": "linkdd",
-      "published": "2026-09-12T11:59:21Z"
     },
     {
       "source": "lobsters",
@@ -313,11 +289,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "fresh: Terminal based IDE & text editor: easy, powerful and fast",
+      "url": "https://github.com/sinelaw/fresh",
+      "discuss_url": "https://lobste.rs/s/yhfmtx",
+      "score": 5,
+      "comments": 7,
+      "author": "linkdd",
+      "published": "2026-09-12T11:59:21Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Managing Complex Application State with Reactive Data Flows",
       "url": "https://yogthos.net/posts/2026-09-12-reactive-dataflow.html",
       "discuss_url": "https://lobste.rs/s/co3jkg",
-      "score": 3,
-      "comments": 0,
+      "score": 4,
+      "comments": 1,
       "author": "Yogthos",
       "published": "2026-09-12T19:45:31Z"
     },
@@ -328,22 +316,10 @@
       "title": "Rune is now open source",
       "url": "https://rune.build/blog/rune-is-now-open-source",
       "discuss_url": "https://lobste.rs/s/ekyert",
-      "score": 7,
+      "score": 8,
       "comments": 0,
       "author": "rajtilakjee",
       "published": "2026-09-12T08:35:23Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Why Function Arguments Are Not Function Colors",
-      "url": "https://jerf.org/iri/post/2026/func_args_are_not_colors/",
-      "discuss_url": "https://lobste.rs/s/tsfs3w",
-      "score": 23,
-      "comments": 15,
-      "author": "abhin4v",
-      "published": "2026-09-09T04:13:05Z"
     },
     {
       "source": "lobsters",
@@ -370,18 +346,6 @@
       "published": "2026-09-10T12:30:44Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Patchwork-26: A malleable, collaborative, local-first workspace",
-      "url": "https://youtu.be/4UxGijnuXEs",
-      "discuss_url": "https://lobste.rs/s/mbzhlq",
-      "score": 3,
-      "comments": 0,
-      "author": "typesanitizer",
-      "published": "2026-09-09T05:22:01Z"
-    },
-    {
       "source": "rss",
       "subsource": "github.blog",
       "category": "engineering",
@@ -394,14 +358,38 @@
       "published": "2026-09-11T18:26:10Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
+      "score": null,
+      "comments": null,
+      "author": "Kayla Cinnamon",
+      "published": "2026-09-10T21:31:19Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "GitHub availability report: August 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
+      "discuss_url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
+      "score": null,
+      "comments": null,
+      "author": "Jakub Oleksy",
+      "published": "2026-09-10T02:05:17Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Linux Zoom Client Proactively Reads X11 Clipboard",
       "url": "https://hachyderm.io/@simontatham/117201594980991062",
       "discuss_url": "https://lobste.rs/s/8t1ddm",
-      "score": 43,
-      "comments": 27,
+      "score": 53,
+      "comments": 34,
       "author": "darleaf",
       "published": "2026-09-12T12:38:53Z"
     },
@@ -412,10 +400,22 @@
       "title": "The gpg.fail aftermath: On responsible disclosure, GPG, and the state of security in 2026 [32:37]",
       "url": "https://media.ccc.de/v/2026-728-the-gpg-fail-aftermath-on-responsible-disclosure-gpg-and-the-state-of-security-in-2026",
       "discuss_url": "https://lobste.rs/s/fcttpk",
-      "score": 14,
-      "comments": 3,
+      "score": 21,
+      "comments": 6,
       "author": "dzwdz",
       "published": "2026-09-12T17:24:59Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Models Don't Go Rogue",
+      "url": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
+      "discuss_url": "https://lobste.rs/s/0i492m",
+      "score": 56,
+      "comments": 56,
+      "author": "Yogthos",
+      "published": "2026-09-11T03:37:10Z"
     },
     {
       "source": "lobsters",
@@ -433,23 +433,11 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Models Don't Go Rogue",
-      "url": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
-      "discuss_url": "https://lobste.rs/s/0i492m",
-      "score": 56,
-      "comments": 54,
-      "author": "Yogthos",
-      "published": "2026-09-11T03:37:10Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "A rant about phishing: It's not the user's fault (and not DNS either)",
       "url": "https://maurycyz.com/misc/domains/",
       "discuss_url": "https://lobste.rs/s/9szn91",
       "score": 90,
-      "comments": 26,
+      "comments": 28,
       "author": "maurycy",
       "published": "2026-09-10T15:14:48Z"
     },
@@ -493,18 +481,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Testing race conditions with memory access tracing and stack-based delay injection",
-      "url": "https://projectzero.google/2026/09/maccconc-race-condition.html",
-      "discuss_url": "https://lobste.rs/s/wobjnw",
-      "score": 2,
-      "comments": 0,
-      "author": "fro",
-      "published": "2026-09-12T17:55:34Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Making Social Media Social",
       "url": "https://tante.cc/2026/09/10/making-social-media-social/",
       "discuss_url": "https://lobste.rs/s/39c9xe",
@@ -524,6 +500,18 @@
       "comments": 0,
       "author": "boyter",
       "published": "2026-09-12T06:42:56Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Testing race conditions with memory access tracing and stack-based delay injection",
+      "url": "https://projectzero.google/2026/09/maccconc-race-condition.html",
+      "discuss_url": "https://lobste.rs/s/wobjnw",
+      "score": 2,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-09-12T17:55:34Z"
     },
     {
       "source": "lobsters",
