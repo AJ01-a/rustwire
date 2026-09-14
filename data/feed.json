@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T04:05:59Z",
+  "updated_at": "2026-09-14T12:17:42Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
       "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
       "discuss_url": "https://news.ycombinator.com/item?id=49685991",
-      "score": 284,
-      "comments": 209,
+      "score": 310,
+      "comments": 229,
       "author": "kolanos",
       "published": "2026-09-13T16:52:33Z",
       "bullets": [
-        "Sacks contends market dynamics and compute costs naturally pace frontier model development, rejecting statutory limits on AI model scaling.",
-        "The pushback targets framework proposals like SB 1047 that mandate hardware kill switches, strict developer liability, and mandatory safety audits.",
-        "Opponents argue self-regulation by OpenAI and Anthropic risks catastrophic safety oversights when commercial incentives clash with alignment research."
+        "Sacks opposes federal compute thresholds and licensing, arguing frontier developers like OpenAI and Anthropic should innovate without government pacing.",
+        "The stance challenges self-imposed Responsible Scaling Policies, framing mandatory safety caps as incumbent regulatory capture that suppresses industry competition.",
+        "Deregulation signals a push against state-level oversight like California's SB 1047, favoring unconstrained compute scaling and competitive open-source releases."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Anecdotally, programmers dislike \"reduce\"",
       "url": "https://evanhahn.com/posts/2026-09-13-programmers-dislike-reduce/",
       "discuss_url": "https://lobste.rs/s/dhn991",
-      "score": 17,
-      "comments": 16,
+      "score": 50,
+      "comments": 50,
       "author": "aphaelion",
       "published": "2026-09-13T23:59:05Z",
       "bullets": [
-        "Developers often avoid reduce because complex accumulator logic obscures intent compared to explicit loops or chained map and filter pipelines.",
-        "Accumulating state with object spreads in JavaScript frequently introduces hidden O(n^2) runtime complexity and excessive garbage collection overhead.",
-        "Modern idioms favor specialized combinators, explicit for loops, or comprehensions to simplify step-debugging and long-term codebase maintainability."
+        "Developers often find reduce obscures intent; explicit for loops or specialized methods like filter and map offer superior readability.",
+        "Accumulator mutations and complex branching inside reduce callbacks hinder step-through debugging and complicate code reviews across teams.",
+        "Ecosystems reflect this friction: Python demoted reduce to functools, while many modern JavaScript teams enforce linter bans against it."
       ]
     },
     {
@@ -71,13 +71,13 @@
       "title": "Revolut confirms customer data breach through fake government requests",
       "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
       "discuss_url": "https://news.ycombinator.com/item?id=49682087",
-      "score": 170,
-      "comments": 117,
+      "score": 179,
+      "comments": 120,
       "author": "tdrz",
       "published": "2026-09-13T09:59:58Z",
       "bullets": [
         "Revolut confirms customer data breach through fake government requests",
-        "Trending on news.ycombinator.com — 170 points, 117 comments.",
+        "Trending on news.ycombinator.com — 179 points, 120 comments.",
         "Submitted by tdrz on news.ycombinator.com."
       ]
     },
@@ -124,8 +124,8 @@
       "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
       "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
       "discuss_url": "https://news.ycombinator.com/item?id=49685991",
-      "score": 284,
-      "comments": 209,
+      "score": 310,
+      "comments": 229,
       "author": "kolanos",
       "published": "2026-09-13T16:52:33Z"
     },
@@ -136,22 +136,10 @@
       "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
       "url": "https://withspecific.com/benchmarks/real-swe",
       "discuss_url": "https://news.ycombinator.com/item?id=49676820",
-      "score": 269,
-      "comments": 149,
+      "score": 271,
+      "comments": 151,
       "author": "theanonymousone",
       "published": "2026-09-12T20:25:48Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
-      "url": "https://eiln.github.io/posts/ane.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=49670032",
-      "score": 232,
-      "comments": 33,
-      "author": "zdw",
-      "published": "2026-09-12T07:54:03Z"
     },
     {
       "source": "lobsters",
@@ -160,10 +148,34 @@
       "title": "We Must Pace the Frontier",
       "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
       "discuss_url": "https://lobste.rs/s/zuhv4b",
-      "score": 9,
-      "comments": 31,
+      "score": 11,
+      "comments": 32,
       "author": "dayanruben",
       "published": "2026-09-12T14:35:49Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+      "url": "https://eiln.github.io/posts/ane.html",
+      "discuss_url": "https://lobste.rs/s/mzgtjg",
+      "score": 5,
+      "comments": 0,
+      "author": "calvin",
+      "published": "2026-09-11T17:23:45Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+      "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "discuss_url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-09-10T00:00:00Z"
     },
     {
       "source": "rss",
@@ -208,10 +220,22 @@
       "title": "Anecdotally, programmers dislike \"reduce\"",
       "url": "https://evanhahn.com/posts/2026-09-13-programmers-dislike-reduce/",
       "discuss_url": "https://lobste.rs/s/dhn991",
-      "score": 17,
-      "comments": 16,
+      "score": 50,
+      "comments": 50,
       "author": "aphaelion",
       "published": "2026-09-13T23:59:05Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/0inlyw",
+      "discuss_url": "https://lobste.rs/s/0inlyw",
+      "score": 4,
+      "comments": 8,
+      "author": "caius",
+      "published": "2026-09-14T07:47:47Z"
     },
     {
       "source": "lobsters",
@@ -220,8 +244,8 @@
       "title": "Golang developers should try Odin",
       "url": "https://rm4n0s.github.io/posts/2-go-devs-should-learn-odin/",
       "discuss_url": "https://lobste.rs/s/ytc27d",
-      "score": 18,
-      "comments": 26,
+      "score": 22,
+      "comments": 30,
       "author": "cgrinds",
       "published": "2026-09-13T15:23:41Z"
     },
@@ -232,10 +256,22 @@
       "title": "Purely Functional Operating Systems",
       "url": "https://eighty-twenty.org/2022/06/23/henderson-functional-operating-systems-1982",
       "discuss_url": "https://lobste.rs/s/jlmeib",
-      "score": 6,
+      "score": 22,
       "comments": 0,
       "author": "andyc",
       "published": "2026-09-14T00:03:38Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Mergiraf: A syntax-aware git merge driver for a growing collection of programming languages and file formats",
+      "url": "https://codeberg.org/mergiraf/mergiraf",
+      "discuss_url": "https://lobste.rs/s/gslcz7",
+      "score": 1,
+      "comments": 0,
+      "author": "hongminhee",
+      "published": "2026-09-14T11:16:14Z"
     },
     {
       "source": "lobsters",
@@ -245,9 +281,21 @@
       "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
       "discuss_url": "https://lobste.rs/s/7guove",
       "score": 229,
-      "comments": 118,
+      "comments": 119,
       "author": "andybalaam",
       "published": "2026-09-11T12:33:20Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "We are all Product Engineers now",
+      "url": "https://seldo.com/posts/we-are-all-product-engineers-now/",
+      "discuss_url": "https://lobste.rs/s/agbpkq",
+      "score": 1,
+      "comments": 0,
+      "author": "voutilad",
+      "published": "2026-09-14T10:52:45Z"
     },
     {
       "source": "lobsters",
@@ -256,8 +304,8 @@
       "title": "Make it anyway",
       "url": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
       "discuss_url": "https://lobste.rs/s/1hpzyz",
-      "score": 34,
-      "comments": 1,
+      "score": 35,
+      "comments": 2,
       "author": "rcalixte",
       "published": "2026-09-12T17:24:07Z"
     },
@@ -280,8 +328,8 @@
       "title": "Logo Programming Language",
       "url": "https://el.media.mit.edu/logo-foundation/what_is_logo/logo_programming.html",
       "discuss_url": "https://lobste.rs/s/oh5hqw",
-      "score": 12,
-      "comments": 3,
+      "score": 11,
+      "comments": 4,
       "author": "rajtilakjee",
       "published": "2026-09-12T16:04:06Z"
     },
@@ -310,50 +358,14 @@
       "published": "2026-09-12T19:45:31Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Rune is now open source",
-      "url": "https://rune.build/blog/rune-is-now-open-source",
-      "discuss_url": "https://lobste.rs/s/ekyert",
-      "score": 8,
-      "comments": 0,
-      "author": "rajtilakjee",
-      "published": "2026-09-12T08:35:23Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Occlusion with Bells On",
-      "url": "https://acko.net/blog/occlusion-with-bells-on/",
-      "discuss_url": "https://lobste.rs/s/nvrxk9",
-      "score": 4,
-      "comments": 0,
-      "author": "slightknack",
-      "published": "2026-09-10T22:01:58Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Package Manager Trends",
-      "url": "https://nesbitt.io/2026/09/10/package-manager-trends.html",
-      "discuss_url": "https://lobste.rs/s/qwbyxh",
-      "score": 3,
-      "comments": 0,
-      "author": "hugoarnal",
-      "published": "2026-09-10T12:30:44Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Revolut confirms customer data breach through fake government requests",
       "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
       "discuss_url": "https://news.ycombinator.com/item?id=49682087",
-      "score": 170,
-      "comments": 117,
+      "score": 179,
+      "comments": 120,
       "author": "tdrz",
       "published": "2026-09-13T09:59:58Z"
     },
@@ -364,8 +376,8 @@
       "title": "Linux Zoom Client Proactively Reads X11 Clipboard",
       "url": "https://hachyderm.io/@simontatham/117201594980991062",
       "discuss_url": "https://lobste.rs/s/8t1ddm",
-      "score": 68,
-      "comments": 36,
+      "score": 69,
+      "comments": 37,
       "author": "darleaf",
       "published": "2026-09-12T12:38:53Z"
     },
@@ -389,7 +401,7 @@
       "url": "https://media.ccc.de/v/2026-728-the-gpg-fail-aftermath-on-responsible-disclosure-gpg-and-the-state-of-security-in-2026",
       "discuss_url": "https://lobste.rs/s/fcttpk",
       "score": 29,
-      "comments": 6,
+      "comments": 8,
       "author": "dzwdz",
       "published": "2026-09-12T17:24:59Z"
     },
@@ -400,7 +412,7 @@
       "title": "Models Don't Go Rogue",
       "url": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
       "discuss_url": "https://lobste.rs/s/0i492m",
-      "score": 56,
+      "score": 57,
       "comments": 56,
       "author": "Yogthos",
       "published": "2026-09-11T03:37:10Z"
@@ -412,8 +424,8 @@
       "title": "ChiPass Release 2026.09.0",
       "url": "https://codeberg.org/ChiPass/ChiPass/releases/tag/v2026.09.0",
       "discuss_url": "https://lobste.rs/s/mcioou",
-      "score": 53,
-      "comments": 7,
+      "score": 54,
+      "comments": 9,
       "author": "FedericoSchonborn",
       "published": "2026-09-11T16:35:40Z"
     },
@@ -424,7 +436,7 @@
       "title": "A rant about phishing: It's not the user's fault (and not DNS either)",
       "url": "https://maurycyz.com/misc/domains/",
       "discuss_url": "https://lobste.rs/s/9szn91",
-      "score": 91,
+      "score": 92,
       "comments": 29,
       "author": "maurycy",
       "published": "2026-09-10T15:14:48Z"
@@ -472,7 +484,7 @@
       "title": "Making Social Media Social",
       "url": "https://tante.cc/2026/09/10/making-social-media-social/",
       "discuss_url": "https://lobste.rs/s/39c9xe",
-      "score": 18,
+      "score": 20,
       "comments": 5,
       "author": "itamarst",
       "published": "2026-09-10T16:30:14Z"
