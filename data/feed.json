@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T20:31:10Z",
+  "updated_at": "2026-09-14T04:05:59Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
       "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
       "discuss_url": "https://news.ycombinator.com/item?id=49685991",
-      "score": 155,
-      "comments": 115,
+      "score": 284,
+      "comments": 209,
       "author": "kolanos",
       "published": "2026-09-13T16:52:33Z",
       "bullets": [
-        "White House AI advisor David Sacks argues market dynamics, not federal mandates, should pace frontier model training at OpenAI and Anthropic.",
-        "The stance opposes government-enforced compute thresholds, mandatory model licensing, and statutory safety delays on next-generation LLM releases.",
-        "Deregulatory policy prioritizes rapid capability scaling over institutional pauses, leaving model safety evaluations to voluntary lab commitments."
+        "Sacks contends market dynamics and compute costs naturally pace frontier model development, rejecting statutory limits on AI model scaling.",
+        "The pushback targets framework proposals like SB 1047 that mandate hardware kill switches, strict developer liability, and mandatory safety audits.",
+        "Opponents argue self-regulation by OpenAI and Anthropic risks catastrophic safety oversights when commercial incentives clash with alignment research."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Golang developers should try Odin",
-      "url": "https://rm4n0s.github.io/posts/2-go-devs-should-learn-odin/",
-      "discuss_url": "https://lobste.rs/s/ytc27d",
-      "score": 12,
-      "comments": 20,
-      "author": "cgrinds",
-      "published": "2026-09-13T15:23:41Z",
+      "title": "Anecdotally, programmers dislike \"reduce\"",
+      "url": "https://evanhahn.com/posts/2026-09-13-programmers-dislike-reduce/",
+      "discuss_url": "https://lobste.rs/s/dhn991",
+      "score": 17,
+      "comments": 16,
+      "author": "aphaelion",
+      "published": "2026-09-13T23:59:05Z",
       "bullets": [
-        "Odin mirrors Go's clean syntax, multiple return values, and fast compilation, offering Go developers a familiar, low-friction learning curve.",
-        "Unlike Go's garbage-collected runtime, Odin provides manual memory management with custom allocators and a built-in context system for systems-level control.",
-        "Odin targets high-performance domains like game development and embedded systems without hidden runtime overhead or C/C++ tooling complexity."
+        "Developers often avoid reduce because complex accumulator logic obscures intent compared to explicit loops or chained map and filter pipelines.",
+        "Accumulating state with object spreads in JavaScript frequently introduces hidden O(n^2) runtime complexity and excessive garbage collection overhead.",
+        "Modern idioms favor specialized combinators, explicit for loops, or comprehensions to simplify step-debugging and long-term codebase maintainability."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Revolut confirms customer data breach through fake government requests",
       "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
       "discuss_url": "https://news.ycombinator.com/item?id=49682087",
-      "score": 160,
-      "comments": 114,
+      "score": 170,
+      "comments": 117,
       "author": "tdrz",
       "published": "2026-09-13T09:59:58Z",
       "bullets": [
-        "Attackers weaponized fraudulent emergency data requests (EDRs), likely via compromised law enforcement email accounts, to illicitly extract Revolut customer data.",
-        "Fraudulent EDR abuse poses an escalating threat to fintechs, bypassing technical perimeter defenses by exploiting trusted legal compliance workflows.",
-        "Security and compliance teams must implement cryptographic validation and rigorous out-of-band verification protocols for all law enforcement requests."
+        "Revolut confirms customer data breach through fake government requests",
+        "Trending on news.ycombinator.com — 170 points, 117 comments.",
+        "Submitted by tdrz on news.ycombinator.com."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "aws@amazon.com",
       "published": "2026-09-12T08:00:00Z",
       "bullets": [
-        "AWS Elemental MediaLive's Video Aligned Locking uses visual signatures to synchronize video pipelines without requiring source timecodes.",
-        "Enables frame-accurate input switching across standard channels and linked cross-region single pipelines without specialized synchronization hardware.",
-        "Supports downstream streaming workflows using HLS, AWS Elemental MediaPackage, CMAF Ingest, UDP, and SRT protocols."
+        "AWS Elemental MediaLive now supports Video Aligned Locking, a new feature to synchronize video pipelines without requiring timecode from the source.",
+        "Previously, achieving frame-accurate locking across video outputs required investing in specialized hardware or managing complex, external synchronization workflows.",
+        "While timecode is generally standard for highly produced, traditional broadcast content, it is often unavailable and difficult to manage in typical digital streaming workflows."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "I fixed a tractor using John Deere’s self-repair service. Farmers aren’t sold on it.",
-      "url": "https://arstechnica.com/gadgets/2026/09/i-fixed-a-tractor-using-john-deeres-self-repair-service-farmers-arent-sold-on-it/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/09/i-fixed-a-tractor-using-john-deeres-self-repair-service-farmers-arent-sold-on-it/",
+      "title": "Unvaccinated Pennsylvania woman died of measles complications, coroner says",
+      "url": "https://arstechnica.com/health/2026/09/unvaccinated-pennsylvania-woman-died-of-measles-complications-coroner-says/",
+      "discuss_url": "https://arstechnica.com/health/2026/09/unvaccinated-pennsylvania-woman-died-of-measles-complications-coroner-says/",
       "score": null,
       "comments": null,
-      "author": "Boone Ashworth, WIRED.com",
-      "published": "2026-09-13T11:00:41Z",
+      "author": "Beth Mole",
+      "published": "2026-09-13T21:56:52Z",
       "bullets": [
-        "John Deere's Customer Service ADVISOR enables basic diagnostics, but high subscription fees and cloud dependency hinder widespread independent adoption.",
-        "Proprietary software locks and part-pairing still require authorized dealer tools, preventing complete customer repairs despite self-service offerings.",
-        "Right-to-repair advocates criticize the model as a half-measure that monetizes diagnostic data without relinquishing control over vehicle firmware."
+        "The 40-year-old unvaccinated woman reportedly had underlying health conditions.",
+        "Unvaccinated Pennsylvania woman died of measles complications, coroner says",
+        "Submitted by Beth Mole on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
       "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
       "discuss_url": "https://news.ycombinator.com/item?id=49685991",
-      "score": 155,
-      "comments": 115,
+      "score": 284,
+      "comments": 209,
       "author": "kolanos",
       "published": "2026-09-13T16:52:33Z"
     },
@@ -136,22 +136,10 @@
       "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
       "url": "https://withspecific.com/benchmarks/real-swe",
       "discuss_url": "https://news.ycombinator.com/item?id=49676820",
-      "score": 264,
-      "comments": 146,
+      "score": 269,
+      "comments": 149,
       "author": "theanonymousone",
       "published": "2026-09-12T20:25:48Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
-      "url": "https://www.rubyhack.ai/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49666735",
-      "score": 949,
-      "comments": 592,
-      "author": "chao-",
-      "published": "2026-09-11T23:17:42Z"
     },
     {
       "source": "hackernews",
@@ -161,7 +149,7 @@
       "url": "https://eiln.github.io/posts/ane.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49670032",
       "score": 232,
-      "comments": 32,
+      "comments": 33,
       "author": "zdw",
       "published": "2026-09-12T07:54:03Z"
     },
@@ -173,21 +161,9 @@
       "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
       "discuss_url": "https://lobste.rs/s/zuhv4b",
       "score": 9,
-      "comments": 30,
+      "comments": 31,
       "author": "dayanruben",
       "published": "2026-09-12T14:35:49Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Efficient and accurate systems for querying unstructured data",
-      "url": "https://stacks.stanford.edu/file/fk030tb6783/thesis-augmented.pdf",
-      "discuss_url": "https://lobste.rs/s/v8atna",
-      "score": 3,
-      "comments": 1,
-      "author": "typesanitizer",
-      "published": "2026-09-09T20:38:35Z"
     },
     {
       "source": "rss",
@@ -229,13 +205,37 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Anecdotally, programmers dislike \"reduce\"",
+      "url": "https://evanhahn.com/posts/2026-09-13-programmers-dislike-reduce/",
+      "discuss_url": "https://lobste.rs/s/dhn991",
+      "score": 17,
+      "comments": 16,
+      "author": "aphaelion",
+      "published": "2026-09-13T23:59:05Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Golang developers should try Odin",
       "url": "https://rm4n0s.github.io/posts/2-go-devs-should-learn-odin/",
       "discuss_url": "https://lobste.rs/s/ytc27d",
-      "score": 12,
-      "comments": 20,
+      "score": 18,
+      "comments": 26,
       "author": "cgrinds",
       "published": "2026-09-13T15:23:41Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Purely Functional Operating Systems",
+      "url": "https://eighty-twenty.org/2022/06/23/henderson-functional-operating-systems-1982",
+      "discuss_url": "https://lobste.rs/s/jlmeib",
+      "score": 6,
+      "comments": 0,
+      "author": "andyc",
+      "published": "2026-09-14T00:03:38Z"
     },
     {
       "source": "lobsters",
@@ -244,8 +244,8 @@
       "title": "Feeling sad about AI",
       "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
       "discuss_url": "https://lobste.rs/s/7guove",
-      "score": 224,
-      "comments": 112,
+      "score": 229,
+      "comments": 118,
       "author": "andybalaam",
       "published": "2026-09-11T12:33:20Z"
     },
@@ -256,8 +256,8 @@
       "title": "Make it anyway",
       "url": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
       "discuss_url": "https://lobste.rs/s/1hpzyz",
-      "score": 31,
-      "comments": 0,
+      "score": 34,
+      "comments": 1,
       "author": "rcalixte",
       "published": "2026-09-12T17:24:07Z"
     },
@@ -280,7 +280,7 @@
       "title": "Logo Programming Language",
       "url": "https://el.media.mit.edu/logo-foundation/what_is_logo/logo_programming.html",
       "discuss_url": "https://lobste.rs/s/oh5hqw",
-      "score": 11,
+      "score": 12,
       "comments": 3,
       "author": "rajtilakjee",
       "published": "2026-09-12T16:04:06Z"
@@ -346,38 +346,14 @@
       "published": "2026-09-10T12:30:44Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
-      "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
-      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
-      "score": null,
-      "comments": null,
-      "author": "Tomoko Tanaka",
-      "published": "2026-09-11T18:26:10Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
-      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
-      "score": null,
-      "comments": null,
-      "author": "Kayla Cinnamon",
-      "published": "2026-09-10T21:31:19Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Revolut confirms customer data breach through fake government requests",
       "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
       "discuss_url": "https://news.ycombinator.com/item?id=49682087",
-      "score": 160,
-      "comments": 114,
+      "score": 170,
+      "comments": 117,
       "author": "tdrz",
       "published": "2026-09-13T09:59:58Z"
     },
@@ -388,10 +364,22 @@
       "title": "Linux Zoom Client Proactively Reads X11 Clipboard",
       "url": "https://hachyderm.io/@simontatham/117201594980991062",
       "discuss_url": "https://lobste.rs/s/8t1ddm",
-      "score": 66,
+      "score": 68,
       "comments": 36,
       "author": "darleaf",
       "published": "2026-09-12T12:38:53Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+      "url": "https://www.rubyhack.ai/",
+      "discuss_url": "https://lobste.rs/s/wajtsa",
+      "score": 123,
+      "comments": 50,
+      "author": "xavdid",
+      "published": "2026-09-11T23:41:50Z"
     },
     {
       "source": "lobsters",
@@ -436,7 +424,7 @@
       "title": "A rant about phishing: It's not the user's fault (and not DNS either)",
       "url": "https://maurycyz.com/misc/domains/",
       "discuss_url": "https://lobste.rs/s/9szn91",
-      "score": 90,
+      "score": 91,
       "comments": 29,
       "author": "maurycy",
       "published": "2026-09-10T15:14:48Z"
@@ -460,7 +448,7 @@
       "title": "How CHERIoT Provides Strong and Usable Isolation Without an MMU",
       "url": "https://queue.acm.org/doi/10.1145/3831361",
       "discuss_url": "https://lobste.rs/s/gtvx0w",
-      "score": 42,
+      "score": 43,
       "comments": 21,
       "author": "rrampage",
       "published": "2026-09-10T14:59:03Z"
@@ -493,22 +481,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Rare Not Random Using Token Efficiency for Secrets Scanning",
-      "url": "https://lookingatcomputer.substack.com/p/rare-not-random",
-      "discuss_url": "https://lobste.rs/s/dkd8ph",
-      "score": 4,
-      "comments": 0,
-      "author": "boyter",
-      "published": "2026-09-12T06:42:56Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Testing race conditions with memory access tracing and stack-based delay injection",
       "url": "https://projectzero.google/2026/09/maccconc-race-condition.html",
       "discuss_url": "https://lobste.rs/s/wobjnw",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "fro",
       "published": "2026-09-12T17:55:34Z"
@@ -661,6 +637,18 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
+      "title": "Unvaccinated Pennsylvania woman died of measles complications, coroner says",
+      "url": "https://arstechnica.com/health/2026/09/unvaccinated-pennsylvania-woman-died-of-measles-complications-coroner-says/",
+      "discuss_url": "https://arstechnica.com/health/2026/09/unvaccinated-pennsylvania-woman-died-of-measles-complications-coroner-says/",
+      "score": null,
+      "comments": null,
+      "author": "Beth Mole",
+      "published": "2026-09-13T21:56:52Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
       "title": "I fixed a tractor using John Deere’s self-repair service. Farmers aren’t sold on it.",
       "url": "https://arstechnica.com/gadgets/2026/09/i-fixed-a-tractor-using-john-deeres-self-repair-service-farmers-arent-sold-on-it/",
       "discuss_url": "https://arstechnica.com/gadgets/2026/09/i-fixed-a-tractor-using-john-deeres-self-repair-service-farmers-arent-sold-on-it/",
@@ -788,18 +776,6 @@
       "comments": null,
       "author": "Zehra Munir, Financial Times",
       "published": "2026-09-11T13:02:35Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "ClickFix attacks infecting PCs and Macs are going viral",
-      "url": "https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral/",
-      "discuss_url": "https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-09-11T11:30:58Z"
     }
   ]
 }
