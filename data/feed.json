@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T03:51:45Z",
+  "updated_at": "2026-09-19T10:34:17Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
       "url": "https://code.claude.com/docs/en/changelog",
       "discuss_url": "https://news.ycombinator.com/item?id=49760187",
-      "score": 554,
-      "comments": 201,
+      "score": 657,
+      "comments": 236,
       "author": "datadrivenangel",
       "published": "2026-09-18T21:00:32Z",
       "bullets": [
-        "Anthropic's Claude Code CLI adopts an AGENTS.md fallback, aligning context injection behavior with multi-agent ecosystem conventions.",
-        "AGENTS.md serves as an emerging tool-agnostic standard for defining build commands, architectural constraints, and repo guidelines across AI agents.",
-        "Developers can reduce configuration sprawl by maintaining a unified agent instruction file rather than tool-specific artifacts like CLAUDE.md."
+        "Anthropic's Claude Code CLI now falls back to AGENTS.md, establishing cross-tool compatibility for repository-level AI agent instructions.",
+        "Teams can maintain a single vendor-neutral instruction file rather than duplicating context across proprietary configs like CLAUDE.md.",
+        "Signals broader industry convergence toward AGENTS.md as the de facto standard for repository context across AI developer tools."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Typst makes big strides",
       "url": "https://lwn.net/Articles/1092993/",
       "discuss_url": "https://lobste.rs/s/j4oyxa",
-      "score": 75,
-      "comments": 10,
+      "score": 89,
+      "comments": 11,
       "author": "isuffix",
       "published": "2026-09-18T13:14:17Z",
       "bullets": [
-        "Typst makes big strides",
-        "Trending on lobste.rs/programming — 75 points, 10 comments.",
-        "Submitted by isuffix on lobste.rs/programming."
+        "Rust-based Typst gains traction as a faster LaTeX alternative with instant incremental compilation and a streamlined markup syntax.",
+        "Ongoing developments emphasize native PDF/A compliance, emerging HTML export features, and an expanding community package ecosystem.",
+        "Typst's integrated scripting and clean layout engine simplify document automation pipelines compared to complex legacy TeX distributions."
       ]
     },
     {
@@ -71,13 +71,13 @@
       "title": "Korea raises data breach fines to 10% of revenue",
       "url": "https://www.koreajoongangdaily.com/business/korea-raises-data-breach-fines-to-10-of-revenue/12869899",
       "discuss_url": "https://news.ycombinator.com/item?id=49759466",
-      "score": 290,
-      "comments": 90,
+      "score": 308,
+      "comments": 105,
       "author": "throw7",
       "published": "2026-09-18T20:02:54Z",
       "bullets": [
         "Korea raises data breach fines to 10% of revenue",
-        "Trending on news.ycombinator.com — 290 points, 90 comments.",
+        "Trending on news.ycombinator.com — 308 points, 105 comments.",
         "Submitted by throw7 on news.ycombinator.com."
       ]
     },
@@ -88,13 +88,13 @@
       "title": "Cloudflare Quick Tunnels",
       "url": "https://try.cloudflare.com/",
       "discuss_url": "https://news.ycombinator.com/item?id=49754785",
-      "score": 621,
-      "comments": 260,
+      "score": 710,
+      "comments": 285,
       "author": "jcbhmr",
       "published": "2026-09-18T14:18:41Z",
       "bullets": [
         "Cloudflare Quick Tunnels",
-        "Trending on news.ycombinator.com — 621 points, 260 comments.",
+        "Trending on news.ycombinator.com — 710 points, 285 comments.",
         "Submitted by jcbhmr on news.ycombinator.com."
       ]
     },
@@ -124,8 +124,8 @@
       "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
       "url": "https://code.claude.com/docs/en/changelog",
       "discuss_url": "https://news.ycombinator.com/item?id=49760187",
-      "score": 554,
-      "comments": 201,
+      "score": 657,
+      "comments": 236,
       "author": "datadrivenangel",
       "published": "2026-09-18T21:00:32Z"
     },
@@ -136,8 +136,8 @@
       "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
       "url": "https://www.hacktron.ai/blog/hacking-openai",
       "discuss_url": "https://news.ycombinator.com/item?id=49749656",
-      "score": 473,
-      "comments": 197,
+      "score": 477,
+      "comments": 200,
       "author": "Handy-Man",
       "published": "2026-09-18T02:47:24Z"
     },
@@ -148,8 +148,8 @@
       "title": "How to Write with an LLM",
       "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
       "discuss_url": "https://news.ycombinator.com/item?id=49747070",
-      "score": 420,
-      "comments": 289,
+      "score": 495,
+      "comments": 335,
       "author": "joeriddles",
       "published": "2026-09-17T21:48:38Z"
     },
@@ -160,10 +160,22 @@
       "title": "I Don't Like LLMs",
       "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49740834",
-      "score": 231,
+      "score": 234,
       "comments": 264,
       "author": "TangerineDream",
       "published": "2026-09-17T13:57:07Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+      "url": "https://spectrum.ieee.org/llms-for-chip-design",
+      "discuss_url": "https://lobste.rs/s/7knhjd",
+      "score": 1,
+      "comments": 0,
+      "author": "vaultdmn",
+      "published": "2026-09-19T09:52:30Z"
     },
     {
       "source": "lobsters",
@@ -208,8 +220,8 @@
       "title": "Typst makes big strides",
       "url": "https://lwn.net/Articles/1092993/",
       "discuss_url": "https://lobste.rs/s/j4oyxa",
-      "score": 75,
-      "comments": 10,
+      "score": 89,
+      "comments": 11,
       "author": "isuffix",
       "published": "2026-09-18T13:14:17Z"
     },
@@ -220,8 +232,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/e1xglz",
       "discuss_url": "https://lobste.rs/s/e1xglz",
-      "score": 20,
-      "comments": 24,
+      "score": 21,
+      "comments": 26,
       "author": "caius",
       "published": "2026-09-18T08:15:23Z"
     },
@@ -233,7 +245,7 @@
       "url": "https://alexwlchan.net/2026/cat-confusion/",
       "discuss_url": "https://lobste.rs/s/lox1su",
       "score": 28,
-      "comments": 28,
+      "comments": 29,
       "author": "gavinmorrow",
       "published": "2026-09-16T22:55:11Z"
     },
@@ -248,18 +260,6 @@
       "comments": 28,
       "author": "bugsmith",
       "published": "2026-09-15T20:50:57Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Coreutils - rejected feature requests",
-      "url": "https://www.gnu.org/software/coreutils/rejected_requests.html",
-      "discuss_url": "https://lobste.rs/s/zbcua4",
-      "score": 72,
-      "comments": 24,
-      "author": "ryan-duve",
-      "published": "2026-09-15T09:06:36Z"
     },
     {
       "source": "lobsters",
@@ -284,18 +284,6 @@
       "comments": 0,
       "author": "carlana",
       "published": "2026-09-17T17:35:20Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "The terminal should not own the work",
-      "url": "https://lezli01.is-a.dev/vincent/docs/why/the-terminal-should-not-own-the-work.html",
-      "discuss_url": "https://lobste.rs/s/m1zfy8",
-      "score": 6,
-      "comments": 15,
-      "author": "sspaeti",
-      "published": "2026-09-15T08:55:35Z"
     },
     {
       "source": "lobsters",
@@ -346,14 +334,38 @@
       "published": "2026-09-18T08:42:48Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
+      "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
+      "discuss_url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
+      "score": null,
+      "comments": null,
+      "author": "GPS",
+      "published": "2026-09-18T15:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+      "discuss_url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+      "score": null,
+      "comments": null,
+      "author": "Stephen Toub",
+      "published": "2026-09-17T00:26:43Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Korea raises data breach fines to 10% of revenue",
       "url": "https://www.koreajoongangdaily.com/business/korea-raises-data-breach-fines-to-10-of-revenue/12869899",
       "discuss_url": "https://news.ycombinator.com/item?id=49759466",
-      "score": 290,
-      "comments": 90,
+      "score": 308,
+      "comments": 105,
       "author": "throw7",
       "published": "2026-09-18T20:02:54Z"
     },
@@ -364,8 +376,8 @@
       "title": "I don't like passkeys",
       "url": "https://hawksley.dev/blog/i-dont-like-passkeys",
       "discuss_url": "https://lobste.rs/s/4a7qly",
-      "score": 46,
-      "comments": 23,
+      "score": 57,
+      "comments": 33,
       "author": "eduard",
       "published": "2026-09-18T12:52:18Z"
     },
@@ -376,8 +388,8 @@
       "title": "Be alert: targeted attacks on prominent Rustaceans",
       "url": "https://blog.rust-lang.org/2026/09/17/targeted-attacks/",
       "discuss_url": "https://lobste.rs/s/uz30ed",
-      "score": 92,
-      "comments": 27,
+      "score": 95,
+      "comments": 31,
       "author": "itamarst",
       "published": "2026-09-17T18:10:52Z"
     },
@@ -388,7 +400,7 @@
       "title": "Flock cameras are riddled with security vulnerabilities and hard-coded credentials",
       "url": "https://micahflee.com/flock-cameras-are-riddled-with-security-vulnerabilities-and-hard-coded-credentials/",
       "discuss_url": "https://lobste.rs/s/eyg3oe",
-      "score": 98,
+      "score": 102,
       "comments": 8,
       "author": "robey",
       "published": "2026-09-17T21:21:18Z"
@@ -397,10 +409,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "The Implications of Linguistic Illegibility for LLM Security",
+      "url": "https://arxiv.org/abs/2609.02852",
+      "discuss_url": "https://lobste.rs/s/bkjmjg",
+      "score": 1,
+      "comments": 2,
+      "author": "Corbin",
+      "published": "2026-09-19T05:34:15Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "sudo and OpenDoas timestamp files (2020)",
       "url": "https://π.duncano.de/sudo-doas-timestamp-files",
       "discuss_url": "https://lobste.rs/s/9njxl2",
-      "score": 2,
+      "score": 4,
       "comments": 4,
       "author": "dzwdz",
       "published": "2026-09-18T19:36:19Z"
@@ -413,7 +437,7 @@
       "url": "https://seclists.org/oss-sec/2026/q3/822",
       "discuss_url": "https://lobste.rs/s/7d3zs8",
       "score": 7,
-      "comments": 3,
+      "comments": 5,
       "author": "buherator",
       "published": "2026-09-18T07:57:04Z"
     },
@@ -478,40 +502,16 @@
       "published": "2026-09-16T11:20:06Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "The skb that wasn't freed - the Fragnesia primitive via Open vSwitch",
-      "url": "https://blog.doyensec.com/2026/09/17/ovs.html",
-      "discuss_url": "https://lobste.rs/s/q6f60y",
-      "score": 1,
-      "comments": 0,
-      "author": "buherator",
-      "published": "2026-09-17T08:39:34Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Cloudflare Quick Tunnels",
       "url": "https://try.cloudflare.com/",
       "discuss_url": "https://news.ycombinator.com/item?id=49754785",
-      "score": 621,
-      "comments": 260,
+      "score": 710,
+      "comments": 285,
       "author": "jcbhmr",
       "published": "2026-09-18T14:18:41Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "devops",
-      "title": "Cloudflare/Security-Audit-Skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "discuss_url": "https://news.ycombinator.com/item?id=49736466",
-      "score": 208,
-      "comments": 38,
-      "author": "donk8r",
-      "published": "2026-09-17T04:36:55Z"
     },
     {
       "source": "lobsters",
@@ -520,7 +520,7 @@
       "title": "awesome-tunneling: List of tunneling software and services",
       "url": "https://github.com/anderspitman/awesome-tunneling",
       "discuss_url": "https://lobste.rs/s/myuake",
-      "score": 9,
+      "score": 10,
       "comments": 0,
       "author": "vaultdmn",
       "published": "2026-09-18T16:25:19Z"
@@ -632,6 +632,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-09-18T07:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Transfer Family now supports source IP preservation for SFTP servers behind a Network Load Balancer (NLB)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-source-ip-nlb/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-source-ip-nlb/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-17T19:00:00Z"
     },
     {
       "source": "rss",
