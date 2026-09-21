@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T20:32:33Z",
+  "updated_at": "2026-09-21T04:05:39Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Pirate Face Rescues LLM Models from Deletion",
       "url": "https://pirateface.co/",
       "discuss_url": "https://news.ycombinator.com/item?id=49776699",
-      "score": 320,
-      "comments": 113,
+      "score": 482,
+      "comments": 140,
       "author": "skepticalgenius",
       "published": "2026-09-20T15:16:07Z",
       "bullets": [
-        "Community initiative Pirate Face archives deleted open-weight models, mitigating model loss from sudden Hugging Face repository takedowns.",
-        "Decentralized preservation efforts protect LLM weights and training artifacts against copyright claims, author removals, and platform moderation.",
-        "Production AI pipelines relying on external hubs risk supply chain breakage; practitioners should maintain verifiable local mirrors and weight hashes."
+        "Archival initiatives mirror open-weight LLMs to prevent permanent loss from deletions, licensing disputes, and DMCA takedowns on Hugging Face.",
+        "Centralized model hubs create single points of failure, driving community adoption of torrent-based and decentralized distribution for weights.",
+        "ML engineering teams should implement self-hosted artifact registries and local weight mirrors rather than relying on upstream public repository availability."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Software sandboxing: The basics (2025)",
       "url": "https://blog.emilua.org/2025/01/12/software-sandboxing-basics/",
       "discuss_url": "https://lobste.rs/s/brptxb",
-      "score": 19,
-      "comments": 2,
+      "score": 33,
+      "comments": 6,
       "author": "vinipsmaker",
       "published": "2026-09-20T14:13:11Z",
       "bullets": [
-        "Modern Linux sandboxing relies on seccomp-bpf for syscall filtering, namespaces for resource isolation, and Landlock for unprivileged filesystem access control.",
-        "Production environments balance security and overhead using runtime approaches ranging from Bubblewrap and gVisor to hardware-virtualized Firecracker microVMs.",
-        "Emerging designs increasingly leverage WebAssembly runtimes to achieve cross-platform, memory-safe process isolation while minimizing kernel attack surface exposure."
+        "Linux sandboxing fundamentally relies on seccomp-bpf to filter system calls, combined with namespaces and cgroups for process resource isolation.",
+        "Modern unprivileged sandboxing leverages the Landlock LSM for granular filesystem and network restrictions without requiring root privileges.",
+        "Production boundaries increasingly adopt WebAssembly runtimes or microVMs like Firecracker and gVisor to prevent kernel exploit escapes."
       ]
     },
     {
@@ -71,13 +71,13 @@
       "title": "we have a year to fix security everywhere",
       "url": "https://jyn.dev/a-year-to-fix-security/",
       "discuss_url": "https://lobste.rs/s/re9wk8",
-      "score": 50,
-      "comments": 44,
+      "score": 53,
+      "comments": 52,
       "author": "apropos",
       "published": "2026-09-19T19:27:46Z",
       "bullets": [
         "we have a year to fix security everywhere",
-        "Trending on lobste.rs/security — 50 points, 44 comments.",
+        "Trending on lobste.rs/security — 53 points, 52 comments.",
         "Submitted by apropos on lobste.rs/security."
       ]
     },
@@ -124,10 +124,22 @@
       "title": "Pirate Face Rescues LLM Models from Deletion",
       "url": "https://pirateface.co/",
       "discuss_url": "https://news.ycombinator.com/item?id=49776699",
-      "score": 320,
-      "comments": 113,
+      "score": 482,
+      "comments": 140,
       "author": "skepticalgenius",
       "published": "2026-09-20T15:16:07Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "The LLMentalist Effect (2023)",
+      "url": "https://softwarecrisis.dev/letters/llmentalist/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49775104",
+      "score": 165,
+      "comments": 252,
+      "author": "jalev",
+      "published": "2026-09-20T12:20:13Z"
     },
     {
       "source": "hackernews",
@@ -136,8 +148,8 @@
       "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
       "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49763697",
-      "score": 638,
-      "comments": 251,
+      "score": 643,
+      "comments": 255,
       "author": "emigre",
       "published": "2026-09-19T05:48:50Z"
     },
@@ -148,46 +160,10 @@
       "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
       "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
       "discuss_url": "https://news.ycombinator.com/item?id=49763987",
-      "score": 385,
-      "comments": 176,
+      "score": 389,
+      "comments": 177,
       "author": "nsoonhui",
       "published": "2026-09-19T06:41:44Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
-      "url": "https://code.claude.com/docs/en/changelog",
-      "discuss_url": "https://news.ycombinator.com/item?id=49760187",
-      "score": 726,
-      "comments": 273,
-      "author": "datadrivenangel",
-      "published": "2026-09-18T21:00:32Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
-      "url": "https://spectrum.ieee.org/llms-for-chip-design",
-      "discuss_url": "https://news.ycombinator.com/item?id=49761432",
-      "score": 201,
-      "comments": 136,
-      "author": "maxall4",
-      "published": "2026-09-18T23:04:17Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
-      "url": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
-      "discuss_url": "https://news.ycombinator.com/item?id=49761840",
-      "score": 150,
-      "comments": 22,
-      "author": "yogthos",
-      "published": "2026-09-18T23:54:42Z"
     },
     {
       "source": "lobsters",
@@ -214,6 +190,18 @@
       "published": "2026-09-19T16:31:05Z"
     },
     {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+      "url": "https://spectrum.ieee.org/llms-for-chip-design",
+      "discuss_url": "https://lobste.rs/s/7knhjd",
+      "score": 3,
+      "comments": 0,
+      "author": "vaultdmn",
+      "published": "2026-09-19T09:52:30Z"
+    },
+    {
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
@@ -232,8 +220,8 @@
       "title": "Software sandboxing: The basics (2025)",
       "url": "https://blog.emilua.org/2025/01/12/software-sandboxing-basics/",
       "discuss_url": "https://lobste.rs/s/brptxb",
-      "score": 19,
-      "comments": 2,
+      "score": 33,
+      "comments": 6,
       "author": "vinipsmaker",
       "published": "2026-09-20T14:13:11Z"
     },
@@ -244,8 +232,8 @@
       "title": "Using non-breakable spaces in test method names",
       "url": "https://mnapoli.fr/using-non-breakable-spaces-in-test-method-names",
       "discuss_url": "https://lobste.rs/s/bvsaiy",
-      "score": 8,
-      "comments": 3,
+      "score": 10,
+      "comments": 4,
       "author": "edent",
       "published": "2026-09-20T10:04:37Z"
     },
@@ -256,7 +244,7 @@
       "title": "Don’t Let Architecture Astronauts Scare You (2001)",
       "url": "https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/",
       "discuss_url": "https://lobste.rs/s/3xfxnj",
-      "score": 41,
+      "score": 44,
       "comments": 22,
       "author": "koala",
       "published": "2026-09-19T12:08:52Z"
@@ -268,22 +256,10 @@
       "title": "V Language Review (2023)",
       "url": "https://n-skvortsov-1997.github.io/reviews/",
       "discuss_url": "https://lobste.rs/s/1rjyeh",
-      "score": 24,
-      "comments": 3,
+      "score": 30,
+      "comments": 4,
       "author": "lr0",
       "published": "2026-09-19T22:36:30Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "What's been going on in w64devkit the past year",
-      "url": "https://nullprogram.com/blog/2026/09/20/",
-      "discuss_url": "https://lobste.rs/s/ilqm2u",
-      "score": 3,
-      "comments": 0,
-      "author": "dalvrosa",
-      "published": "2026-09-20T15:31:09Z"
     },
     {
       "source": "lobsters",
@@ -301,6 +277,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "What's been going on in w64devkit the past year",
+      "url": "https://nullprogram.com/blog/2026/09/20/",
+      "discuss_url": "https://lobste.rs/s/ilqm2u",
+      "score": 4,
+      "comments": 0,
+      "author": "dalvrosa",
+      "published": "2026-09-20T15:31:09Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/e1xglz",
       "discuss_url": "https://lobste.rs/s/e1xglz",
@@ -308,18 +296,6 @@
       "comments": 32,
       "author": "caius",
       "published": "2026-09-18T08:15:23Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Why .tar.gz files can't be combined with cat",
-      "url": "https://alexwlchan.net/2026/cat-confusion/",
-      "discuss_url": "https://lobste.rs/s/lox1su",
-      "score": 29,
-      "comments": 30,
-      "author": "gavinmorrow",
-      "published": "2026-09-16T22:55:11Z"
     },
     {
       "source": "lobsters",
@@ -370,14 +346,26 @@
       "published": "2026-09-18T15:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+      "discuss_url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+      "score": null,
+      "comments": null,
+      "author": "Stephen Toub",
+      "published": "2026-09-17T00:26:43Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "we have a year to fix security everywhere",
       "url": "https://jyn.dev/a-year-to-fix-security/",
       "discuss_url": "https://lobste.rs/s/re9wk8",
-      "score": 50,
-      "comments": 44,
+      "score": 53,
+      "comments": 52,
       "author": "apropos",
       "published": "2026-09-19T19:27:46Z"
     },
@@ -388,8 +376,8 @@
       "title": "HEIF Heist",
       "url": "https://heif-heist.com",
       "discuss_url": "https://lobste.rs/s/qpbblx",
-      "score": 6,
-      "comments": 5,
+      "score": 10,
+      "comments": 6,
       "author": "atmosx",
       "published": "2026-09-20T05:56:25Z"
     },
@@ -400,7 +388,7 @@
       "title": "I don't like passkeys",
       "url": "https://hawksley.dev/blog/i-dont-like-passkeys",
       "discuss_url": "https://lobste.rs/s/4a7qly",
-      "score": 76,
+      "score": 78,
       "comments": 56,
       "author": "eduard",
       "published": "2026-09-18T12:52:18Z"
@@ -457,6 +445,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "ZK-JPEG: Zero-knowledge Image Editing and Compression",
+      "url": "https://eprint.iacr.org/2026/2039",
+      "discuss_url": "https://lobste.rs/s/cvqxkk",
+      "score": 4,
+      "comments": 0,
+      "author": "vaultdmn",
+      "published": "2026-09-19T23:38:01Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "The Implications of Linguistic Illegibility for LLM Security",
       "url": "https://arxiv.org/abs/2609.02852",
       "discuss_url": "https://lobste.rs/s/bkjmjg",
@@ -476,18 +476,6 @@
       "comments": 0,
       "author": "freddyb",
       "published": "2026-09-18T10:26:42Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "ZK-JPEG: Zero-knowledge Image Editing and Compression",
-      "url": "https://eprint.iacr.org/2026/2039",
-      "discuss_url": "https://lobste.rs/s/cvqxkk",
-      "score": 2,
-      "comments": 0,
-      "author": "vaultdmn",
-      "published": "2026-09-19T23:38:01Z"
     },
     {
       "source": "lobsters",
