@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T04:05:39Z",
+  "updated_at": "2026-09-21T12:28:43Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Pirate Face Rescues LLM Models from Deletion",
       "url": "https://pirateface.co/",
       "discuss_url": "https://news.ycombinator.com/item?id=49776699",
-      "score": 482,
-      "comments": 140,
+      "score": 537,
+      "comments": 143,
       "author": "skepticalgenius",
       "published": "2026-09-20T15:16:07Z",
       "bullets": [
-        "Archival initiatives mirror open-weight LLMs to prevent permanent loss from deletions, licensing disputes, and DMCA takedowns on Hugging Face.",
-        "Centralized model hubs create single points of failure, driving community adoption of torrent-based and decentralized distribution for weights.",
-        "ML engineering teams should implement self-hosted artifact registries and local weight mirrors rather than relying on upstream public repository availability."
+        "Centralized hubs like Hugging Face risk model disappearance from DMCA takedowns, licensing shifts, and author deletions, threatening research reproducibility.",
+        "Pirate Face archives threatened open-weights LLMs using BitTorrent and decentralized storage, ensuring permanent access to deprecated or censored checkpoints.",
+        "Production pipelines relying on upstream hub URLs need self-hosted artifact registries or torrent-backed mirrors to mitigate sudden dependency loss."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "Software sandboxing: The basics (2025)",
       "url": "https://blog.emilua.org/2025/01/12/software-sandboxing-basics/",
       "discuss_url": "https://lobste.rs/s/brptxb",
-      "score": 33,
-      "comments": 6,
+      "score": 43,
+      "comments": 19,
       "author": "vinipsmaker",
       "published": "2026-09-20T14:13:11Z",
       "bullets": [
-        "Linux sandboxing fundamentally relies on seccomp-bpf to filter system calls, combined with namespaces and cgroups for process resource isolation.",
-        "Modern unprivileged sandboxing leverages the Landlock LSM for granular filesystem and network restrictions without requiring root privileges.",
-        "Production boundaries increasingly adopt WebAssembly runtimes or microVMs like Firecracker and gVisor to prevent kernel exploit escapes."
+        "Linux sandboxing relies on seccomp-bpf for syscall filtering, alongside namespaces, cgroups, and Landlock LSM for fine-grained process isolation.",
+        "Modern implementations increasingly favor WebAssembly (WASI) runtimes or microVMs like Firecracker over traditional chroots to safely isolate untrusted workloads.",
+        "Effective sandboxing balances kernel attack surface reduction against IPC serialization overhead, filesystem broker complexity, and privilege separation boundaries."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "we have a year to fix security everywhere",
-      "url": "https://jyn.dev/a-year-to-fix-security/",
-      "discuss_url": "https://lobste.rs/s/re9wk8",
-      "score": 53,
-      "comments": 52,
-      "author": "apropos",
-      "published": "2026-09-19T19:27:46Z",
+      "title": "What happened to the Snowden archive",
+      "url": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
+      "discuss_url": "https://lobste.rs/s/vqsefk",
+      "score": 15,
+      "comments": 2,
+      "author": "dimonomid",
+      "published": "2026-09-21T08:56:58Z",
       "bullets": [
-        "we have a year to fix security everywhere",
-        "Trending on lobste.rs/security — 53 points, 52 comments.",
-        "Submitted by apropos on lobste.rs/security."
+        "The Intercept closed internal access to Snowden's ~1.7M NSA/GCHQ documents in 2019, leaving most files permanently unanalyzed and unpublished.",
+        "Security analysts lose visibility into historical SIGINT capabilities as institutional funding shifts and legal liabilities stall further cataloging efforts.",
+        "Remaining materials stay fragmented among original reporting partners, highlighting long-term digital preservation and governance risks for major whistleblower archives."
       ]
     },
     {
@@ -88,13 +88,13 @@
       "title": "awesome-tunneling: List of tunneling software and services",
       "url": "https://github.com/anderspitman/awesome-tunneling",
       "discuss_url": "https://lobste.rs/s/myuake",
-      "score": 14,
+      "score": 15,
       "comments": 0,
       "author": "vaultdmn",
       "published": "2026-09-18T16:25:19Z",
       "bullets": [
         "awesome-tunneling: List of tunneling software and services",
-        "Trending on lobste.rs/devops — 14 points, 0 comments.",
+        "Trending on lobste.rs/devops — 15 points, 0 comments.",
         "Submitted by vaultdmn on lobste.rs/devops."
       ]
     },
@@ -124,8 +124,8 @@
       "title": "Pirate Face Rescues LLM Models from Deletion",
       "url": "https://pirateface.co/",
       "discuss_url": "https://news.ycombinator.com/item?id=49776699",
-      "score": 482,
-      "comments": 140,
+      "score": 537,
+      "comments": 143,
       "author": "skepticalgenius",
       "published": "2026-09-20T15:16:07Z"
     },
@@ -136,34 +136,22 @@
       "title": "The LLMentalist Effect (2023)",
       "url": "https://softwarecrisis.dev/letters/llmentalist/",
       "discuss_url": "https://news.ycombinator.com/item?id=49775104",
-      "score": 165,
-      "comments": 252,
+      "score": 200,
+      "comments": 276,
       "author": "jalev",
       "published": "2026-09-20T12:20:13Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
-      "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=49763697",
-      "score": 643,
-      "comments": 255,
-      "author": "emigre",
-      "published": "2026-09-19T05:48:50Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
-      "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-      "discuss_url": "https://news.ycombinator.com/item?id=49763987",
-      "score": 389,
-      "comments": 177,
-      "author": "nsoonhui",
-      "published": "2026-09-19T06:41:44Z"
+      "title": "ChatGPT now knows what you do on other websites via ad collector",
+      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+      "discuss_url": "https://lobste.rs/s/jbnmj9",
+      "score": 50,
+      "comments": 3,
+      "author": "jrgtt",
+      "published": "2026-09-20T17:43:10Z"
     },
     {
       "source": "lobsters",
@@ -172,7 +160,7 @@
       "title": "I Built Non-Autoregressive Decision Models a Year Ago. Then a Frontier Lab Called It a \"Breakthrough\"",
       "url": "https://dev.to/nandakishor_m_6cc0adfde9f/i-built-non-autoregressive-decision-models-a-year-ago-then-a-frontier-lab-called-it-a-18me",
       "discuss_url": "https://lobste.rs/s/kaqsr5",
-      "score": 58,
+      "score": 59,
       "comments": 6,
       "author": "Yogthos",
       "published": "2026-09-19T13:41:57Z"
@@ -220,8 +208,8 @@
       "title": "Software sandboxing: The basics (2025)",
       "url": "https://blog.emilua.org/2025/01/12/software-sandboxing-basics/",
       "discuss_url": "https://lobste.rs/s/brptxb",
-      "score": 33,
-      "comments": 6,
+      "score": 43,
+      "comments": 19,
       "author": "vinipsmaker",
       "published": "2026-09-20T14:13:11Z"
     },
@@ -232,10 +220,22 @@
       "title": "Using non-breakable spaces in test method names",
       "url": "https://mnapoli.fr/using-non-breakable-spaces-in-test-method-names",
       "discuss_url": "https://lobste.rs/s/bvsaiy",
-      "score": 10,
-      "comments": 4,
+      "score": 15,
+      "comments": 11,
       "author": "edent",
       "published": "2026-09-20T10:04:37Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "V Language Review (2023)",
+      "url": "https://n-skvortsov-1997.github.io/reviews/",
+      "discuss_url": "https://lobste.rs/s/1rjyeh",
+      "score": 31,
+      "comments": 8,
+      "author": "lr0",
+      "published": "2026-09-19T22:36:30Z"
     },
     {
       "source": "lobsters",
@@ -245,21 +245,9 @@
       "url": "https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/",
       "discuss_url": "https://lobste.rs/s/3xfxnj",
       "score": 44,
-      "comments": 22,
+      "comments": 24,
       "author": "koala",
       "published": "2026-09-19T12:08:52Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "V Language Review (2023)",
-      "url": "https://n-skvortsov-1997.github.io/reviews/",
-      "discuss_url": "https://lobste.rs/s/1rjyeh",
-      "score": 30,
-      "comments": 4,
-      "author": "lr0",
-      "published": "2026-09-19T22:36:30Z"
     },
     {
       "source": "lobsters",
@@ -268,22 +256,10 @@
       "title": "Typst makes big strides",
       "url": "https://lwn.net/Articles/1092993/",
       "discuss_url": "https://lobste.rs/s/j4oyxa",
-      "score": 118,
+      "score": 119,
       "comments": 20,
       "author": "isuffix",
       "published": "2026-09-18T13:14:17Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "What's been going on in w64devkit the past year",
-      "url": "https://nullprogram.com/blog/2026/09/20/",
-      "discuss_url": "https://lobste.rs/s/ilqm2u",
-      "score": 4,
-      "comments": 0,
-      "author": "dalvrosa",
-      "published": "2026-09-20T15:31:09Z"
     },
     {
       "source": "lobsters",
@@ -296,6 +272,18 @@
       "comments": 32,
       "author": "caius",
       "published": "2026-09-18T08:15:23Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "What's been going on in w64devkit the past year",
+      "url": "https://nullprogram.com/blog/2026/09/20/",
+      "discuss_url": "https://lobste.rs/s/ilqm2u",
+      "score": 6,
+      "comments": 0,
+      "author": "dalvrosa",
+      "published": "2026-09-20T15:31:09Z"
     },
     {
       "source": "lobsters",
@@ -361,11 +349,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "What happened to the Snowden archive",
+      "url": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
+      "discuss_url": "https://lobste.rs/s/vqsefk",
+      "score": 15,
+      "comments": 2,
+      "author": "dimonomid",
+      "published": "2026-09-21T08:56:58Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "we have a year to fix security everywhere",
       "url": "https://jyn.dev/a-year-to-fix-security/",
       "discuss_url": "https://lobste.rs/s/re9wk8",
-      "score": 53,
-      "comments": 52,
+      "score": 56,
+      "comments": 57,
       "author": "apropos",
       "published": "2026-09-19T19:27:46Z"
     },
@@ -376,8 +376,8 @@
       "title": "HEIF Heist",
       "url": "https://heif-heist.com",
       "discuss_url": "https://lobste.rs/s/qpbblx",
-      "score": 10,
-      "comments": 6,
+      "score": 12,
+      "comments": 7,
       "author": "atmosx",
       "published": "2026-09-20T05:56:25Z"
     },
@@ -388,7 +388,7 @@
       "title": "I don't like passkeys",
       "url": "https://hawksley.dev/blog/i-dont-like-passkeys",
       "discuss_url": "https://lobste.rs/s/4a7qly",
-      "score": 78,
+      "score": 79,
       "comments": 56,
       "author": "eduard",
       "published": "2026-09-18T12:52:18Z"
@@ -401,7 +401,7 @@
       "url": "https://blog.rust-lang.org/2026/09/17/targeted-attacks/",
       "discuss_url": "https://lobste.rs/s/uz30ed",
       "score": 98,
-      "comments": 36,
+      "comments": 37,
       "author": "itamarst",
       "published": "2026-09-17T18:10:52Z"
     },
@@ -412,7 +412,7 @@
       "title": "Flock cameras are riddled with security vulnerabilities and hard-coded credentials",
       "url": "https://micahflee.com/flock-cameras-are-riddled-with-security-vulnerabilities-and-hard-coded-credentials/",
       "discuss_url": "https://lobste.rs/s/eyg3oe",
-      "score": 112,
+      "score": 113,
       "comments": 9,
       "author": "robey",
       "published": "2026-09-17T21:21:18Z"
@@ -445,6 +445,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "The Implications of Linguistic Illegibility for LLM Security",
+      "url": "https://arxiv.org/abs/2609.02852",
+      "discuss_url": "https://lobste.rs/s/bkjmjg",
+      "score": 4,
+      "comments": 2,
+      "author": "Corbin",
+      "published": "2026-09-19T05:34:15Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "ZK-JPEG: Zero-knowledge Image Editing and Compression",
       "url": "https://eprint.iacr.org/2026/2039",
       "discuss_url": "https://lobste.rs/s/cvqxkk",
@@ -452,18 +464,6 @@
       "comments": 0,
       "author": "vaultdmn",
       "published": "2026-09-19T23:38:01Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "The Implications of Linguistic Illegibility for LLM Security",
-      "url": "https://arxiv.org/abs/2609.02852",
-      "discuss_url": "https://lobste.rs/s/bkjmjg",
-      "score": 3,
-      "comments": 2,
-      "author": "Corbin",
-      "published": "2026-09-19T05:34:15Z"
     },
     {
       "source": "lobsters",
@@ -491,39 +491,27 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Secure VMs for Kubernetes: Hardening Kata containers",
-      "url": "https://srcreigh.ca/posts/auditable-kata/",
-      "discuss_url": "https://lobste.rs/s/yfz406",
-      "score": 1,
-      "comments": 0,
-      "author": "srcreigh",
-      "published": "2026-09-19T17:11:45Z"
-    },
-    {
-      "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "awesome-tunneling: List of tunneling software and services",
       "url": "https://github.com/anderspitman/awesome-tunneling",
       "discuss_url": "https://lobste.rs/s/myuake",
-      "score": 14,
+      "score": 15,
       "comments": 0,
       "author": "vaultdmn",
       "published": "2026-09-18T16:25:19Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
+      "source": "rss",
+      "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Backups aren't simple",
-      "url": "https://filipovski.net/2026/09/16/backups-arent-simple.html",
-      "discuss_url": "https://lobste.rs/s/uwbgby",
-      "score": 9,
-      "comments": 0,
-      "author": "eduard",
-      "published": "2026-09-17T07:48:17Z"
+      "title": "Amazon EC2 X8i instances are now available in the South America (São Paulo) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x8i-south-america-sao-paulo/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x8i-south-america-sao-paulo/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-18T22:16:00Z"
     },
     {
       "source": "rss",
