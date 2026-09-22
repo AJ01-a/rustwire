@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T21:51:39Z",
+  "updated_at": "2026-09-22T04:02:38Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
       "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
       "discuss_url": "https://news.ycombinator.com/item?id=49787535",
-      "score": 195,
-      "comments": 86,
+      "score": 217,
+      "comments": 105,
       "author": "ano-ther",
       "published": "2026-09-21T14:10:49Z",
       "bullets": [
-        "Apple Intelligence automatically provisions multi-gigabyte local generative models, creating severe disk overhead on storage-constrained 256GB Mac systems.",
-        "Disabling model downloads requires targeted MDM configuration profiles, blocking asset server domains, or modifying system daemon property lists.",
-        "Underlines growing friction in edge AI deployment as operating systems increasingly mandate persistent multi-gigabyte local model weights."
+        "Apple Intelligence enforces multi-gigabyte local model downloads, prompting workarounds to reclaim SSD space on base-tier Mac hardware.",
+        "Techniques involve disabling daemons like modelmanagerd or blocking Apple asset endpoints to suppress automated on-device weight retrieval.",
+        "Reflects rising developer friction over mandatory OS-level SLMs competing with container images and local build caches on constrained drives."
       ]
     },
     {
@@ -55,7 +55,7 @@
       "url": "https://lobste.rs/s/fyngrv",
       "discuss_url": "https://lobste.rs/s/fyngrv",
       "score": 16,
-      "comments": 32,
+      "comments": 35,
       "author": "caius",
       "published": "2026-09-21T12:30:37Z",
       "bullets": [
@@ -68,17 +68,17 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
-      "url": "https://projectzero.google/2026/09/windows-dangling-com.html",
-      "discuss_url": "https://lobste.rs/s/1somoo",
+      "title": "stack unwinding can lead to leakless code execution",
+      "url": "https://pepsipu.com/blog/2026-09-dwarf/",
+      "discuss_url": "https://lobste.rs/s/0d6gcs",
       "score": 3,
-      "comments": 0,
-      "author": "ni5arga",
-      "published": "2026-09-21T18:21:25Z",
+      "comments": 1,
+      "author": "jado",
+      "published": "2026-09-21T23:01:34Z",
       "bullets": [
-        "Orphaned CLSID entries pointing to non-existent binaries or user-writable paths enable COM hijacking for local privilege escalation and persistence.",
-        "High-integrity Windows services invoking missing InprocServer32 or LocalServer32 handlers via CoCreateInstance can execute arbitrary code under elevated privileges.",
-        "Defenders must audit HKCU overrides and orphaned HKLM registry paths to identify vulnerable COM classes loaded by privileged processes."
+        "stack unwinding can lead to leakless code execution",
+        "Trending on lobste.rs/security — 3 points, 1 comments.",
+        "Submitted by jado on lobste.rs/security."
       ]
     },
     {
@@ -102,17 +102,17 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Google confirms Gemini models hacked three companies in May 2026",
-      "url": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
-      "discuss_url": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
+      "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+      "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+      "discuss_url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
       "score": null,
       "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-09-21T16:57:26Z",
+      "author": "Dan Goodin",
+      "published": "2026-09-21T22:24:38Z",
       "bullets": [
-        "A third-party cybersecurity firm accidentally gave experimental Gemini models access to the Internet.",
-        "Google confirms Gemini models hacked three companies in May 2026",
-        "Submitted by Ryan Whitwam on arstechnica.com."
+        "A simple ClickFix attack is only one way to completely hijack the new agent.",
+        "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+        "Submitted by Dan Goodin on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
       "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
       "discuss_url": "https://news.ycombinator.com/item?id=49787535",
-      "score": 195,
-      "comments": 86,
+      "score": 217,
+      "comments": 105,
       "author": "ano-ther",
       "published": "2026-09-21T14:10:49Z"
     },
@@ -136,8 +136,8 @@
       "title": "Pirate Face Rescues LLM Models from Deletion",
       "url": "https://pirateface.co/",
       "discuss_url": "https://news.ycombinator.com/item?id=49776699",
-      "score": 545,
-      "comments": 144,
+      "score": 548,
+      "comments": 146,
       "author": "skepticalgenius",
       "published": "2026-09-20T15:16:07Z"
     },
@@ -148,7 +148,7 @@
       "title": "The LLMentalist Effect (2023)",
       "url": "https://softwarecrisis.dev/letters/llmentalist/",
       "discuss_url": "https://news.ycombinator.com/item?id=49775104",
-      "score": 222,
+      "score": 224,
       "comments": 304,
       "author": "jalev",
       "published": "2026-09-20T12:20:13Z"
@@ -160,10 +160,22 @@
       "title": "ChatGPT now knows what you do on other websites via ad collector",
       "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
       "discuss_url": "https://lobste.rs/s/jbnmj9",
-      "score": 59,
+      "score": 60,
       "comments": 7,
       "author": "jrgtt",
       "published": "2026-09-20T17:43:10Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "I Built Non-Autoregressive Decision Models a Year Ago. Then a Frontier Lab Called It a \"Breakthrough\"",
+      "url": "https://dev.to/nandakishor_m_6cc0adfde9f/i-built-non-autoregressive-decision-models-a-year-ago-then-a-frontier-lab-called-it-a-18me",
+      "discuss_url": "https://lobste.rs/s/kaqsr5",
+      "score": 60,
+      "comments": 6,
+      "author": "Yogthos",
+      "published": "2026-09-19T13:41:57Z"
     },
     {
       "source": "lobsters",
@@ -176,18 +188,6 @@
       "comments": 0,
       "author": "Yogthos",
       "published": "2026-09-21T17:22:31Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "I Built Non-Autoregressive Decision Models a Year Ago. Then a Frontier Lab Called It a \"Breakthrough\"",
-      "url": "https://dev.to/nandakishor_m_6cc0adfde9f/i-built-non-autoregressive-decision-models-a-year-ago-then-a-frontier-lab-called-it-a-18me",
-      "discuss_url": "https://lobste.rs/s/kaqsr5",
-      "score": 59,
-      "comments": 6,
-      "author": "Yogthos",
-      "published": "2026-09-19T13:41:57Z"
     },
     {
       "source": "lobsters",
@@ -251,13 +251,25 @@
     },
     {
       "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "LLMs Are Too Big. My Log Router Doesn't Need to Sing",
+      "url": "https://www.distributedthoughts.org/my-log-router-doesnt-need-to-sing/",
+      "discuss_url": "https://lobste.rs/s/hoyynp",
+      "score": 0,
+      "comments": 0,
+      "author": "pgr0ss",
+      "published": "2026-09-21T22:53:19Z"
+    },
+    {
+      "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/fyngrv",
       "discuss_url": "https://lobste.rs/s/fyngrv",
       "score": 16,
-      "comments": 32,
+      "comments": 35,
       "author": "caius",
       "published": "2026-09-21T12:30:37Z"
     },
@@ -268,7 +280,7 @@
       "title": "Textbook review: Is Parallel Programming Hard, And, If So, What Can You Do About It?",
       "url": "https://ahelwer.ca/post/2026-09-21-concurrency-textbook/",
       "discuss_url": "https://lobste.rs/s/73ei6g",
-      "score": 25,
+      "score": 33,
       "comments": 0,
       "author": "ahelwer",
       "published": "2026-09-21T14:28:38Z"
@@ -281,7 +293,7 @@
       "url": "https://blog.emilua.org/2025/01/12/software-sandboxing-basics/",
       "discuss_url": "https://lobste.rs/s/brptxb",
       "score": 51,
-      "comments": 29,
+      "comments": 33,
       "author": "vinipsmaker",
       "published": "2026-09-20T14:13:11Z"
     },
@@ -316,7 +328,7 @@
       "title": "V Language Review (2023)",
       "url": "https://n-skvortsov-1997.github.io/reviews/",
       "discuss_url": "https://lobste.rs/s/1rjyeh",
-      "score": 32,
+      "score": 31,
       "comments": 10,
       "author": "lr0",
       "published": "2026-09-19T22:36:30Z"
@@ -397,13 +409,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
-      "url": "https://projectzero.google/2026/09/windows-dangling-com.html",
-      "discuss_url": "https://lobste.rs/s/1somoo",
+      "title": "stack unwinding can lead to leakless code execution",
+      "url": "https://pepsipu.com/blog/2026-09-dwarf/",
+      "discuss_url": "https://lobste.rs/s/0d6gcs",
       "score": 3,
-      "comments": 0,
-      "author": "ni5arga",
-      "published": "2026-09-21T18:21:25Z"
+      "comments": 1,
+      "author": "jado",
+      "published": "2026-09-21T23:01:34Z"
     },
     {
       "source": "lobsters",
@@ -412,10 +424,22 @@
       "title": "we have a year to fix security everywhere",
       "url": "https://jyn.dev/a-year-to-fix-security/",
       "discuss_url": "https://lobste.rs/s/re9wk8",
-      "score": 59,
+      "score": 60,
       "comments": 58,
       "author": "apropos",
       "published": "2026-09-19T19:27:46Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
+      "url": "https://projectzero.google/2026/09/windows-dangling-com.html",
+      "discuss_url": "https://lobste.rs/s/1somoo",
+      "score": 4,
+      "comments": 0,
+      "author": "ni5arga",
+      "published": "2026-09-21T18:21:25Z"
     },
     {
       "source": "lobsters",
@@ -526,18 +550,6 @@
       "published": "2026-09-19T17:11:45Z"
     },
     {
-      "source": "rss",
-      "subsource": "krebsonsecurity.com",
-      "category": "security",
-      "title": "Data Broker Radaris Loses Domains in Privacy Fight",
-      "url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
-      "discuss_url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
-      "score": null,
-      "comments": null,
-      "author": "BrianKrebs",
-      "published": "2026-09-16T18:14:22Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
@@ -548,6 +560,30 @@
       "comments": 0,
       "author": "vaultdmn",
       "published": "2026-09-18T16:25:19Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-console-deployment-observability/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-console-deployment-observability/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-21T20:05:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon EVS now in scope for FedRAMP Class C",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-evs-fedramp-class-c/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-evs-fedramp-class-c/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-21T19:08:00Z"
     },
     {
       "source": "rss",
@@ -659,27 +695,39 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS PrivateLink announces Tunnel Endpoints to access network segments",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/9/privatelink-tunnel-endpoint/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/9/privatelink-tunnel-endpoint/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+      "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+      "discuss_url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-18T07:00:00Z"
+      "author": "Dan Goodin",
+      "published": "2026-09-21T22:24:38Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Transfer Family now supports source IP preservation for SFTP servers behind a Network Load Balancer (NLB)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-source-ip-nlb/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-source-ip-nlb/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Military milestone: Ukrainian naval drone sinks Russian kamikaze drone boat",
+      "url": "https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-17T19:00:00Z"
+      "author": "Jeremy Hsu",
+      "published": "2026-09-21T21:07:05Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Saudi Arabia wants a car industry, launches Ceer with two EVs",
+      "url": "https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/",
+      "discuss_url": "https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/",
+      "score": null,
+      "comments": null,
+      "author": "Chad Kirchner",
+      "published": "2026-09-21T20:55:36Z"
     },
     {
       "source": "rss",
@@ -788,42 +836,6 @@
       "comments": null,
       "author": "Jonathan M. Gitlin",
       "published": "2026-09-20T10:00:02Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "T. rex teeth indicate it ran as warm as an elephant",
-      "url": "https://arstechnica.com/science/2026/09/t-rex-teeth-indicate-it-ran-as-warm-as-an-elephant/",
-      "discuss_url": "https://arstechnica.com/science/2026/09/t-rex-teeth-indicate-it-ran-as-warm-as-an-elephant/",
-      "score": null,
-      "comments": null,
-      "author": "Jacek Krywko",
-      "published": "2026-09-20T09:00:11Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Learning another language may be one of the best ways to keep your brain healthy",
-      "url": "https://arstechnica.com/science/2026/09/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy/",
-      "discuss_url": "https://arstechnica.com/science/2026/09/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy/",
-      "score": null,
-      "comments": null,
-      "author": "Karen Stollznow, The Conversation",
-      "published": "2026-09-19T11:10:43Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Rings around a tiny body have changed over the past decade",
-      "url": "https://arstechnica.com/science/2026/09/rings-around-a-tiny-body-have-changed-over-the-past-decade/",
-      "discuss_url": "https://arstechnica.com/science/2026/09/rings-around-a-tiny-body-have-changed-over-the-past-decade/",
-      "score": null,
-      "comments": null,
-      "author": "Jacek Krywko",
-      "published": "2026-09-19T10:00:06Z"
     }
   ]
 }
