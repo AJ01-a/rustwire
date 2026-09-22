@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T04:02:38Z",
+  "updated_at": "2026-09-22T11:13:35Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,31 +37,31 @@
       "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
       "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
       "discuss_url": "https://news.ycombinator.com/item?id=49787535",
-      "score": 217,
-      "comments": 105,
+      "score": 230,
+      "comments": 113,
       "author": "ano-ther",
       "published": "2026-09-21T14:10:49Z",
       "bullets": [
-        "Apple Intelligence enforces multi-gigabyte local model downloads, prompting workarounds to reclaim SSD space on base-tier Mac hardware.",
-        "Techniques involve disabling daemons like modelmanagerd or blocking Apple asset endpoints to suppress automated on-device weight retrieval.",
-        "Reflects rising developer friction over mandatory OS-level SLMs competing with container images and local build caches on constrained drives."
+        "Apple Intelligence automatically provisions multi-gigabyte on-device foundation models, severely impacting storage on base-tier 256GB Mac configurations.",
+        "Workarounds target MobileAsset background daemons and system toggles to block automated staging of generative model weights.",
+        "Underscores operational friction in consumer edge AI, where silent OS-level LLM distribution competes with local developer workloads for SSD space."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/fyngrv",
-      "discuss_url": "https://lobste.rs/s/fyngrv",
-      "score": 16,
-      "comments": 35,
-      "author": "caius",
-      "published": "2026-09-21T12:30:37Z",
+      "title": "Arguing about arguments",
+      "url": "https://steveklabnik.com/writing/arguing-about-arguments/",
+      "discuss_url": "https://lobste.rs/s/bvrhgq",
+      "score": 3,
+      "comments": 5,
+      "author": "abhin4v",
+      "published": "2026-09-22T04:29:12Z",
       "bullets": [
-        "What are you doing this week?",
-        "Feel free to share!",
-        "Keep in mind it’s OK to do nothing at all, too."
+        "Function signature design debates positional parameters versus keyword arguments, balancing concise call-sites against long-term readability and refactoring safety.",
+        "High parameter arity introduces subtle invocation bugs; consolidating arguments into typed structs or builder patterns improves API maintainability.",
+        "CLI argument parsing requires choosing between POSIX flags and GNU long options, impacting script portability and user error rates."
       ]
     },
     {
@@ -71,13 +71,13 @@
       "title": "stack unwinding can lead to leakless code execution",
       "url": "https://pepsipu.com/blog/2026-09-dwarf/",
       "discuss_url": "https://lobste.rs/s/0d6gcs",
-      "score": 3,
+      "score": 5,
       "comments": 1,
       "author": "jado",
       "published": "2026-09-21T23:01:34Z",
       "bullets": [
         "stack unwinding can lead to leakless code execution",
-        "Trending on lobste.rs/security — 3 points, 1 comments.",
+        "Trending on lobste.rs/security — 5 points, 1 comments.",
         "Submitted by jado on lobste.rs/security."
       ]
     },
@@ -85,17 +85,17 @@
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "awesome-tunneling: List of tunneling software and services",
-      "url": "https://github.com/anderspitman/awesome-tunneling",
-      "discuss_url": "https://lobste.rs/s/myuake",
-      "score": 15,
+      "title": "Cheap and easy throwaway VPN server",
+      "url": "https://a.l3x.in/blog/throwaway-vpn/",
+      "discuss_url": "https://lobste.rs/s/npjb02",
+      "score": 5,
       "comments": 0,
-      "author": "vaultdmn",
-      "published": "2026-09-18T16:25:19Z",
+      "author": "Al3xFor",
+      "published": "2026-09-22T06:56:57Z",
       "bullets": [
-        "awesome-tunneling: List of tunneling software and services",
-        "Trending on lobste.rs/devops — 15 points, 0 comments.",
-        "Submitted by vaultdmn on lobste.rs/devops."
+        "Cheap and easy throwaway VPN server",
+        "Trending on lobste.rs/devops — 5 points, 0 comments.",
+        "Submitted by Al3xFor on lobste.rs/devops."
       ]
     },
     {
@@ -124,8 +124,8 @@
       "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
       "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
       "discuss_url": "https://news.ycombinator.com/item?id=49787535",
-      "score": 217,
-      "comments": 105,
+      "score": 230,
+      "comments": 113,
       "author": "ano-ther",
       "published": "2026-09-21T14:10:49Z"
     },
@@ -136,7 +136,7 @@
       "title": "Pirate Face Rescues LLM Models from Deletion",
       "url": "https://pirateface.co/",
       "discuss_url": "https://news.ycombinator.com/item?id=49776699",
-      "score": 548,
+      "score": 551,
       "comments": 146,
       "author": "skepticalgenius",
       "published": "2026-09-20T15:16:07Z"
@@ -148,10 +148,22 @@
       "title": "The LLMentalist Effect (2023)",
       "url": "https://softwarecrisis.dev/letters/llmentalist/",
       "discuss_url": "https://news.ycombinator.com/item?id=49775104",
-      "score": 224,
+      "score": 226,
       "comments": 304,
       "author": "jalev",
       "published": "2026-09-20T12:20:13Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+      "discuss_url": "https://lobste.rs/s/2f2rrp",
+      "score": 1,
+      "comments": 0,
+      "author": "erick",
+      "published": "2026-09-22T10:36:43Z"
     },
     {
       "source": "lobsters",
@@ -172,7 +184,7 @@
       "title": "I Built Non-Autoregressive Decision Models a Year Ago. Then a Frontier Lab Called It a \"Breakthrough\"",
       "url": "https://dev.to/nandakishor_m_6cc0adfde9f/i-built-non-autoregressive-decision-models-a-year-ago-then-a-frontier-lab-called-it-a-18me",
       "discuss_url": "https://lobste.rs/s/kaqsr5",
-      "score": 60,
+      "score": 61,
       "comments": 6,
       "author": "Yogthos",
       "published": "2026-09-19T13:41:57Z"
@@ -196,7 +208,7 @@
       "title": "Laya — 33ms Multilingual System 1 Decision Engine",
       "url": "https://laya.convaiinnovations.com/",
       "discuss_url": "https://lobste.rs/s/ojukrw",
-      "score": 8,
+      "score": 7,
       "comments": 3,
       "author": "elbart",
       "published": "2026-09-19T16:31:05Z"
@@ -217,6 +229,30 @@
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
+      "title": "Transformers now runs llama.cpp quants",
+      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "discuss_url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-09-22T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+      "url": "https://huggingface.co/blog/omlx",
+      "discuss_url": "https://huggingface.co/blog/omlx",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-09-22T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
       "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
       "discuss_url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
@@ -226,40 +262,16 @@
       "published": "2026-09-21T13:44:34Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "tokenizers v1: encode, decode and scaling, measured",
-      "url": "https://huggingface.co/blog/tokenizers-v1",
-      "discuss_url": "https://huggingface.co/blog/tokenizers-v1",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-09-21T00:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Your Agent Aced the Task. Will It Do It Again?",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-      "discuss_url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-09-15T16:00:44Z"
-    },
-    {
       "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "LLMs Are Too Big. My Log Router Doesn't Need to Sing",
-      "url": "https://www.distributedthoughts.org/my-log-router-doesnt-need-to-sing/",
-      "discuss_url": "https://lobste.rs/s/hoyynp",
-      "score": 0,
-      "comments": 0,
-      "author": "pgr0ss",
-      "published": "2026-09-21T22:53:19Z"
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Arguing about arguments",
+      "url": "https://steveklabnik.com/writing/arguing-about-arguments/",
+      "discuss_url": "https://lobste.rs/s/bvrhgq",
+      "score": 3,
+      "comments": 5,
+      "author": "abhin4v",
+      "published": "2026-09-22T04:29:12Z"
     },
     {
       "source": "lobsters",
@@ -269,7 +281,7 @@
       "url": "https://lobste.rs/s/fyngrv",
       "discuss_url": "https://lobste.rs/s/fyngrv",
       "score": 16,
-      "comments": 35,
+      "comments": 41,
       "author": "caius",
       "published": "2026-09-21T12:30:37Z"
     },
@@ -280,7 +292,7 @@
       "title": "Textbook review: Is Parallel Programming Hard, And, If So, What Can You Do About It?",
       "url": "https://ahelwer.ca/post/2026-09-21-concurrency-textbook/",
       "discuss_url": "https://lobste.rs/s/73ei6g",
-      "score": 33,
+      "score": 40,
       "comments": 0,
       "author": "ahelwer",
       "published": "2026-09-21T14:28:38Z"
@@ -292,8 +304,8 @@
       "title": "Software sandboxing: The basics (2025)",
       "url": "https://blog.emilua.org/2025/01/12/software-sandboxing-basics/",
       "discuss_url": "https://lobste.rs/s/brptxb",
-      "score": 51,
-      "comments": 33,
+      "score": 53,
+      "comments": 35,
       "author": "vinipsmaker",
       "published": "2026-09-20T14:13:11Z"
     },
@@ -329,7 +341,7 @@
       "url": "https://n-skvortsov-1997.github.io/reviews/",
       "discuss_url": "https://lobste.rs/s/1rjyeh",
       "score": 31,
-      "comments": 10,
+      "comments": 11,
       "author": "lr0",
       "published": "2026-09-19T22:36:30Z"
     },
@@ -349,18 +361,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/e1xglz",
-      "discuss_url": "https://lobste.rs/s/e1xglz",
-      "score": 23,
-      "comments": 32,
-      "author": "caius",
-      "published": "2026-09-18T08:15:23Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "What's been going on in w64devkit the past year",
       "url": "https://nullprogram.com/blog/2026/09/20/",
       "discuss_url": "https://lobste.rs/s/ilqm2u",
@@ -368,18 +368,6 @@
       "comments": 0,
       "author": "dalvrosa",
       "published": "2026-09-20T15:31:09Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Flet : Build cross-platform apps in Python",
-      "url": "https://flet.dev/",
-      "discuss_url": "https://lobste.rs/s/eeykfl",
-      "score": 1,
-      "comments": 1,
-      "author": "dhruvp",
-      "published": "2026-09-18T08:42:48Z"
     },
     {
       "source": "rss",
@@ -395,15 +383,27 @@
     },
     {
       "source": "rss",
-      "subsource": "github.blog",
+      "subsource": "stackoverflow.blog",
       "category": "engineering",
-      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
-      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
-      "discuss_url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+      "title": "Haters think AI agents can't write GPU code? This'll ROCm",
+      "url": "https://stackoverflow.blog/2026/09/22/haters-think-ai-can-t-gpu-code-this-ll-rocm/",
+      "discuss_url": "https://stackoverflow.blog/2026/09/22/haters-think-ai-can-t-gpu-code-this-ll-rocm/",
       "score": null,
       "comments": null,
-      "author": "Stephen Toub",
-      "published": "2026-09-17T00:26:43Z"
+      "author": "Phoebe Sajor",
+      "published": "2026-09-22T07:40:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "The AI magic words",
+      "url": "https://stackoverflow.blog/2026/09/17/the-ai-magic-words/",
+      "discuss_url": "https://stackoverflow.blog/2026/09/17/the-ai-magic-words/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-09-17T07:40:00Z"
     },
     {
       "source": "lobsters",
@@ -412,7 +412,7 @@
       "title": "stack unwinding can lead to leakless code execution",
       "url": "https://pepsipu.com/blog/2026-09-dwarf/",
       "discuss_url": "https://lobste.rs/s/0d6gcs",
-      "score": 3,
+      "score": 5,
       "comments": 1,
       "author": "jado",
       "published": "2026-09-21T23:01:34Z"
@@ -433,18 +433,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
-      "url": "https://projectzero.google/2026/09/windows-dangling-com.html",
-      "discuss_url": "https://lobste.rs/s/1somoo",
-      "score": 4,
-      "comments": 0,
-      "author": "ni5arga",
-      "published": "2026-09-21T18:21:25Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "I don't like passkeys",
       "url": "https://hawksley.dev/blog/i-dont-like-passkeys",
       "discuss_url": "https://lobste.rs/s/4a7qly",
@@ -452,6 +440,18 @@
       "comments": 56,
       "author": "eduard",
       "published": "2026-09-18T12:52:18Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
+      "url": "https://projectzero.google/2026/09/windows-dangling-com.html",
+      "discuss_url": "https://lobste.rs/s/1somoo",
+      "score": 5,
+      "comments": 0,
+      "author": "ni5arga",
+      "published": "2026-09-21T18:21:25Z"
     },
     {
       "source": "lobsters",
@@ -481,18 +481,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "A quartet of Linux local root vulns: DirtyAH6, PPPoEject, TUNderflow, and DiagSpill",
-      "url": "https://seclists.org/oss-sec/2026/q3/822",
-      "discuss_url": "https://lobste.rs/s/7d3zs8",
-      "score": 7,
-      "comments": 5,
-      "author": "buherator",
-      "published": "2026-09-18T07:57:04Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "The Implications of Linguistic Illegibility for LLM Security",
       "url": "https://arxiv.org/abs/2609.02852",
       "discuss_url": "https://lobste.rs/s/bkjmjg",
@@ -500,18 +488,6 @@
       "comments": 2,
       "author": "Corbin",
       "published": "2026-09-19T05:34:15Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Hacking OpenAI",
-      "url": "https://www.hacktron.ai/blog/hacking-openai",
-      "discuss_url": "https://lobste.rs/s/htziuj",
-      "score": 13,
-      "comments": 0,
-      "author": "freddyb",
-      "published": "2026-09-18T10:26:42Z"
     },
     {
       "source": "lobsters",
@@ -529,18 +505,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Not In My Git Yard: Catching Backdoors at Commit and Release Time",
-      "url": "https://arxiv.org/abs/2607.26719",
-      "discuss_url": "https://lobste.rs/s/tvrnbv",
-      "score": 6,
-      "comments": 0,
-      "author": "7tehdt3cnw6kir6o",
-      "published": "2026-09-18T08:14:44Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Secure VMs for Kubernetes: Hardening Kata containers",
       "url": "https://srcreigh.ca/posts/auditable-kata/",
       "discuss_url": "https://lobste.rs/s/yfz406",
@@ -548,6 +512,54 @@
       "comments": 0,
       "author": "srcreigh",
       "published": "2026-09-19T17:11:45Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "krebsonsecurity.com",
+      "category": "security",
+      "title": "Data Broker Radaris Loses Domains in Privacy Fight",
+      "url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
+      "discuss_url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
+      "score": null,
+      "comments": null,
+      "author": "BrianKrebs",
+      "published": "2026-09-16T18:14:22Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
+      "url": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
+      "discuss_url": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-09-22T09:38:18Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+      "url": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+      "discuss_url": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-09-22T07:52:03Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "Cheap and easy throwaway VPN server",
+      "url": "https://a.l3x.in/blog/throwaway-vpn/",
+      "discuss_url": "https://lobste.rs/s/npjb02",
+      "score": 5,
+      "comments": 0,
+      "author": "Al3xFor",
+      "published": "2026-09-22T06:56:57Z"
     },
     {
       "source": "lobsters",
@@ -680,18 +692,6 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-09-18T15:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "The new AgentCore Runtime is now available in Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/new-agentcore-runtime-generally-available",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/new-agentcore-runtime-generally-available",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-18T13:25:00Z"
     },
     {
       "source": "rss",
