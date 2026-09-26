@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T16:04:14Z",
+  "updated_at": "2026-09-26T20:51:28Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
       "url": "https://swarmtraces.org/",
       "discuss_url": "https://news.ycombinator.com/item?id=49849985",
-      "score": 605,
-      "comments": 387,
+      "score": 676,
+      "comments": 431,
       "author": "specked-citrus",
       "published": "2026-09-25T21:09:27Z",
       "bullets": [
-        "Autonomous LLM-driven agents orchestrated multi-step penetration testing chains to identify and exploit infrastructure vulnerabilities across Hugging Face's platform.",
-        "Exploits targeted Spaces container isolation, insecure token handling, and environment misconfigurations through iterative, automated reconnaissance and payload generation.",
-        "Demonstrates rapid maturation of autonomous offensive AI, urging teams to harden sandbox boundaries and enforce strict least-privilege API scoping."
+        "Autonomous LLM agents chained multi-step offensive exploits to discover and compromise vulnerabilities in Hugging Face platform infrastructure.",
+        "Techniques targeted container escapes, exposed environment tokens, and unsafe artifact deserialization across shared multi-tenant AI hosting environments.",
+        "Demonstrates offensive agent maturation, underscoring urgent needs for strict sandbox isolation, ephemeral credentials, and automated adversarial threat detection."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "Keep if clauses side-effect free",
       "url": "https://www.teamten.com/lawrence/programming/keep-if-clauses-side-effect-free.html",
       "discuss_url": "https://lobste.rs/s/buroqq",
-      "score": 10,
-      "comments": 12,
+      "score": 15,
+      "comments": 13,
       "author": "gavinmorrow",
       "published": "2026-09-26T03:45:44Z",
       "bullets": [
-        "Embedding state mutations inside conditional expressions obscures intent and introduces subtle bugs via short-circuit evaluation order.",
-        "Separate queries from commands by extracting mutating logic or I/O into explicit variables before evaluating conditional branches.",
-        "Pure predicate functions improve code readability, simplify unit testing, and enable safer compiler optimizations and static analysis."
+        "Embedding mutations or I/O in branch conditions introduces subtle bugs, especially when combined with short-circuiting operators like && and ||.",
+        "Pure boolean expressions enhance testability, simplify debugging, and allow compilers and static analysis tools to reason about control flow effectively.",
+        "Assign variables or execute state changes explicitly before the conditional statement rather than coupling execution to branch evaluation."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "SourceHut account takeover via build logs (XSS in ansi2html.py)",
-      "url": "https://blog.arusekk.pl/posts/srht-account-takeover/",
-      "discuss_url": "https://lobste.rs/s/ky1cr0",
-      "score": 95,
-      "comments": 18,
-      "author": "winter",
-      "published": "2026-09-24T20:38:32Z",
+      "title": "Dissecting House of Apple 2 on modern glibc",
+      "url": "https://jazho76.github.io/house_of_apple_2/",
+      "discuss_url": "https://lobste.rs/s/uhlr9z",
+      "score": 2,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-09-26T19:31:45Z",
       "bullets": [
-        "SourceHut account takeover via build logs (XSS in ansi2html.py)",
-        "Trending on lobste.rs/security — 95 points, 18 comments.",
-        "Submitted by winter on lobste.rs/security."
+        "Exploits glibc _IO_FILE wide-character vtables like _IO_wfile_overflow, circumventing the removal of __malloc_hook and __free_hook in glibc 2.34+.",
+        "Requires a heap leak and arbitrary write primitive to construct fake IO structures and hijack execution during process termination.",
+        "Provides a resilient File Stream Oriented Programming (FSOP) blueprint against modern Linux heap hardening and pointer mangling defenses."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "aws@amazon.com",
       "published": "2026-09-25T19:19:00Z",
       "bullets": [
-        "Amazon Transcribe now lets you encrypt your custom vocabularies, custom vocabulary filters, and custom language models at rest with a customer-managed AWS KMS key that you own and…",
-        "Previously, these custom resources were always encrypted with an AWS owned key.",
-        "Now you can supply your own symmetric AWS KMS key when you create or update these resources, so the artifacts Transcribe stores on your behalf are encrypted under a key in your ac…"
+        "Amazon Transcribe now supports symmetric customer-managed AWS KMS keys for custom vocabularies, filters, and language models at rest.",
+        "Key usage logs directly to AWS CloudTrail, enabling continuous compliance auditing, granular IAM policies, and immediate cryptographic access revocation.",
+        "The feature is opt-in across all Transcribe regions, preserving backward compatibility via default AWS-owned keys if unconfigured."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Can Trump ever be wrong? His pick to lead FDA refused to say.",
-      "url": "https://arstechnica.com/health/2026/09/can-trump-ever-be-wrong-his-pick-to-lead-fda-refused-to-say/",
-      "discuss_url": "https://arstechnica.com/health/2026/09/can-trump-ever-be-wrong-his-pick-to-lead-fda-refused-to-say/",
+      "title": "Tesla’s big electric truck faces an even bigger infrastructure challenge",
+      "url": "https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/",
+      "discuss_url": "https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/",
       "score": null,
       "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-09-25T23:00:26Z",
+      "author": "Aarian Marshall, wired.com",
+      "published": "2026-09-26T10:45:09Z",
       "bullets": [
-        "Heidi Overton faced questions focused on vaccines, birth control, and vapes.",
-        "Can Trump ever be wrong? His pick to lead FDA refused to say.",
-        "Submitted by Beth Mole on arstechnica.com."
+        "The 500-mile Semi arrives as charging gaps still limit electric trucking.",
+        "Tesla’s big electric truck faces an even bigger infrastructure challenge",
+        "Submitted by Aarian Marshall, wired.com on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
       "url": "https://swarmtraces.org/",
       "discuss_url": "https://news.ycombinator.com/item?id=49849985",
-      "score": 605,
-      "comments": 387,
+      "score": 676,
+      "comments": 431,
       "author": "specked-citrus",
       "published": "2026-09-25T21:09:27Z"
     },
@@ -136,8 +136,8 @@
       "title": "A single function Jev-like wrapper for LLMs, including vision models",
       "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49853175",
-      "score": 114,
-      "comments": 31,
+      "score": 130,
+      "comments": 40,
       "author": "allanrbo",
       "published": "2026-09-26T04:20:58Z"
     },
@@ -148,22 +148,10 @@
       "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
       "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49845977",
-      "score": 471,
-      "comments": 812,
+      "score": 481,
+      "comments": 844,
       "author": "cramer4next",
       "published": "2026-09-25T15:29:25Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Meta's Muse appears to use an OpenAI model labeled muse-special",
-      "url": "https://mouse.dev/blog/muse-special/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49848095",
-      "score": 138,
-      "comments": 48,
-      "author": "Aeroi",
-      "published": "2026-09-25T18:18:06Z"
     },
     {
       "source": "hackernews",
@@ -172,8 +160,8 @@
       "title": "Classified estimates show the NSA is paying billions to test AI models",
       "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
       "discuss_url": "https://news.ycombinator.com/item?id=49845952",
-      "score": 172,
-      "comments": 102,
+      "score": 173,
+      "comments": 103,
       "author": "rdmuser",
       "published": "2026-09-25T15:27:35Z"
     },
@@ -181,13 +169,13 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
-      "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
-      "discuss_url": "https://news.ycombinator.com/item?id=49835531",
-      "score": 168,
-      "comments": 43,
-      "author": "benbreen",
-      "published": "2026-09-24T19:14:27Z"
+      "title": "Meta's Muse appears to use an OpenAI model labeled muse-special",
+      "url": "https://mouse.dev/blog/muse-special/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49848095",
+      "score": 141,
+      "comments": 49,
+      "author": "Aeroi",
+      "published": "2026-09-25T18:18:06Z"
     },
     {
       "source": "lobsters",
@@ -196,10 +184,22 @@
       "title": "Goodbye Google",
       "url": "https://robert.ocallahan.org/2026/09/goodbye-google.html",
       "discuss_url": "https://lobste.rs/s/sxlf4a",
-      "score": 94,
-      "comments": 21,
+      "score": 97,
+      "comments": 25,
       "author": "classichasclass",
       "published": "2026-09-25T05:51:12Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "A Brief Perspective on Deep Learning Using Common Lisp",
+      "url": "https://www.youtube.com/watch?v=Yo4eqoRC1o0",
+      "discuss_url": "https://lobste.rs/s/ibpgio",
+      "score": 1,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-09-26T17:34:14Z"
     },
     {
       "source": "lobsters",
@@ -268,22 +268,10 @@
       "title": "Keep if clauses side-effect free",
       "url": "https://www.teamten.com/lawrence/programming/keep-if-clauses-side-effect-free.html",
       "discuss_url": "https://lobste.rs/s/buroqq",
-      "score": 10,
-      "comments": 12,
+      "score": 15,
+      "comments": 13,
       "author": "gavinmorrow",
       "published": "2026-09-26T03:45:44Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Who Is Open Source About?",
-      "url": "https://blog.glyph.im/2026/09/who-is-open-source-about.html",
-      "discuss_url": "https://lobste.rs/s/5gqorv",
-      "score": 32,
-      "comments": 24,
-      "author": "carlana",
-      "published": "2026-09-25T10:57:30Z"
     },
     {
       "source": "lobsters",
@@ -292,10 +280,34 @@
       "title": "A Roman name for software",
       "url": "https://marcosmagueta.com/blog/a-roman-name-for-software/",
       "discuss_url": "https://lobste.rs/s/5yy6pd",
-      "score": 2,
-      "comments": 1,
+      "score": 5,
+      "comments": 4,
       "author": "schonfinkel",
       "published": "2026-09-26T11:21:13Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Who Is Open Source About?",
+      "url": "https://blog.glyph.im/2026/09/who-is-open-source-about.html",
+      "discuss_url": "https://lobste.rs/s/5gqorv",
+      "score": 33,
+      "comments": 27,
+      "author": "carlana",
+      "published": "2026-09-25T10:57:30Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Rusty thoughts on \"Parse, don't validate\"",
+      "url": "https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate/",
+      "discuss_url": "https://lobste.rs/s/uvmajz",
+      "score": 1,
+      "comments": 0,
+      "author": "carlana",
+      "published": "2026-09-26T20:45:24Z"
     },
     {
       "source": "lobsters",
@@ -313,22 +325,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Three Lenses on Coordination",
-      "url": "https://jhellerstein.github.io/blog/three-specs-on-specs/",
-      "discuss_url": "https://lobste.rs/s/ylw6qp",
-      "score": 3,
-      "comments": 1,
-      "author": "pushcx",
-      "published": "2026-09-25T19:34:55Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "From Thin Air to Bootable Images: The tine Build System",
       "url": "https://amutable.com/blog/tine-build-system",
       "discuss_url": "https://lobste.rs/s/c3t81d",
-      "score": 15,
+      "score": 16,
       "comments": 2,
       "author": "Levitating",
       "published": "2026-09-24T13:24:33Z"
@@ -337,13 +337,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Why do common Rust packages depend on C code? (2023)",
-      "url": "https://langdev.stackexchange.com/questions/3233/why-do-common-rust-packages-depend-on-c-code/3237#3237",
-      "discuss_url": "https://lobste.rs/s/itqeag",
-      "score": 8,
+      "title": "Three Lenses on Coordination",
+      "url": "https://jhellerstein.github.io/blog/three-specs-on-specs/",
+      "discuss_url": "https://lobste.rs/s/ylw6qp",
+      "score": 3,
       "comments": 1,
-      "author": "squadette",
-      "published": "2026-09-22T20:42:02Z"
+      "author": "pushcx",
+      "published": "2026-09-25T19:34:55Z"
     },
     {
       "source": "lobsters",
@@ -409,13 +409,37 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Dissecting House of Apple 2 on modern glibc",
+      "url": "https://jazho76.github.io/house_of_apple_2/",
+      "discuss_url": "https://lobste.rs/s/uhlr9z",
+      "score": 2,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-09-26T19:31:45Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "SourceHut account takeover via build logs (XSS in ansi2html.py)",
       "url": "https://blog.arusekk.pl/posts/srht-account-takeover/",
       "discuss_url": "https://lobste.rs/s/ky1cr0",
       "score": 95,
-      "comments": 18,
+      "comments": 19,
       "author": "winter",
       "published": "2026-09-24T20:38:32Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "How I Found a $113,337 AF_ALG Linux Local Privilege Escalation Before Copy Fail",
+      "url": "https://idnsec.com/research/linux-local-privilege-escalation-with-af-alg/",
+      "discuss_url": "https://lobste.rs/s/j1nvpt",
+      "score": 1,
+      "comments": 0,
+      "author": "fro",
+      "published": "2026-09-26T19:29:50Z"
     },
     {
       "source": "lobsters",
@@ -425,7 +449,7 @@
       "url": "https://inoti.fyi/",
       "discuss_url": "https://lobste.rs/s/x6yjrc",
       "score": 33,
-      "comments": 6,
+      "comments": 8,
       "author": "sneela",
       "published": "2026-09-25T02:50:41Z"
     },
@@ -436,7 +460,7 @@
       "title": "Radicle: Disclosure of Vulnerability in the Network Protocol",
       "url": "https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol.html",
       "discuss_url": "https://lobste.rs/s/ad5vwg",
-      "score": 144,
+      "score": 145,
       "comments": 62,
       "author": "tuxes",
       "published": "2026-09-23T14:34:37Z"
@@ -457,13 +481,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Understanding NvPCRs in systemd v262",
-      "url": "https://katexochen.aro.bz/posts/systemd-v262-nvpcrs/",
-      "discuss_url": "https://lobste.rs/s/ya3cl7",
-      "score": 9,
-      "comments": 0,
-      "author": "katexochen",
-      "published": "2026-09-25T08:26:44Z"
+      "title": "SAML: A fractal of bad design",
+      "url": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+      "discuss_url": "https://lobste.rs/s/4uqtta",
+      "score": 38,
+      "comments": 3,
+      "author": "fanf",
+      "published": "2026-09-23T10:58:54Z"
     },
     {
       "source": "lobsters",
@@ -481,13 +505,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "SAML: A fractal of bad design",
-      "url": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
-      "discuss_url": "https://lobste.rs/s/4uqtta",
-      "score": 38,
-      "comments": 3,
-      "author": "fanf",
-      "published": "2026-09-23T10:58:54Z"
+      "title": "Understanding NvPCRs in systemd v262",
+      "url": "https://katexochen.aro.bz/posts/systemd-v262-nvpcrs/",
+      "discuss_url": "https://lobste.rs/s/ya3cl7",
+      "score": 8,
+      "comments": 0,
+      "author": "katexochen",
+      "published": "2026-09-25T08:26:44Z"
     },
     {
       "source": "lobsters",
@@ -524,30 +548,6 @@
       "comments": 2,
       "author": "fanf",
       "published": "2026-09-23T11:55:38Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Fifty Years of Open Source Software Supply Chain Security (2025)",
-      "url": "https://queue.acm.org/doi/10.1145/3722542",
-      "discuss_url": "https://lobste.rs/s/9jjplv",
-      "score": 4,
-      "comments": 1,
-      "author": "linkdd",
-      "published": "2026-09-22T21:08:55Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "krebsonsecurity.com",
-      "category": "security",
-      "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
-      "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
-      "discuss_url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
-      "score": null,
-      "comments": null,
-      "author": "BrianKrebs",
-      "published": "2026-09-25T21:44:40Z"
     },
     {
       "source": "rss",
@@ -637,9 +637,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS End User Messaging now supports voice calling on WhatsApp",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-voice-calling-whatsapp",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-voice-calling-whatsapp",
+      "title": "AWS End User Messaging and Amazon SES now offer AI agent skills for the AWS MCP Server",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -649,9 +649,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS End User Messaging and Amazon SES now offer AI agent skills for the AWS MCP Server",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server/",
+      "title": "AWS End User Messaging now supports voice calling on WhatsApp",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-voice-calling-whatsapp",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-voice-calling-whatsapp",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -692,6 +692,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-09-24T18:29:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Tesla’s big electric truck faces an even bigger infrastructure challenge",
+      "url": "https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/",
+      "discuss_url": "https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/",
+      "score": null,
+      "comments": null,
+      "author": "Aarian Marshall, wired.com",
+      "published": "2026-09-26T10:45:09Z"
     },
     {
       "source": "rss",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Jonathan M. Gitlin",
       "published": "2026-09-25T15:21:55Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "With PRIMA, NASA will try to build a billion-dollar space telescope in record time",
-      "url": "https://arstechnica.com/space/2026/09/nasa-green-lights-billion-dollar-infrared-observatory-for-launch-in-early-2030s/",
-      "discuss_url": "https://arstechnica.com/space/2026/09/nasa-green-lights-billion-dollar-infrared-observatory-for-launch-in-early-2030s/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-09-25T14:07:46Z"
     }
   ]
 }
