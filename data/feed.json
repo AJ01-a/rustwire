@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T11:03:36Z",
+  "updated_at": "2026-09-26T16:04:14Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
       "url": "https://swarmtraces.org/",
       "discuss_url": "https://news.ycombinator.com/item?id=49849985",
-      "score": 505,
-      "comments": 310,
+      "score": 605,
+      "comments": 387,
       "author": "specked-citrus",
       "published": "2026-09-25T21:09:27Z",
       "bullets": [
-        "Autonomous LLM agents executed multi-step exploit chains against Hugging Face, demonstrating viable automated penetration testing without human intervention.",
-        "The attack leveraged dynamic tool use and reconnaissance to target shared model-hosting environments and privilege escalation pathways.",
-        "Emphasizes urgent need for robust tenant isolation, token protection, and runtime sandboxing across hosted AI infrastructure and model registries."
+        "Autonomous LLM-driven agents orchestrated multi-step penetration testing chains to identify and exploit infrastructure vulnerabilities across Hugging Face's platform.",
+        "Exploits targeted Spaces container isolation, insecure token handling, and environment misconfigurations through iterative, automated reconnaissance and payload generation.",
+        "Demonstrates rapid maturation of autonomous offensive AI, urging teams to harden sandbox boundaries and enforce strict least-privilege API scoping."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Keep if clauses side-effect free",
       "url": "https://www.teamten.com/lawrence/programming/keep-if-clauses-side-effect-free.html",
       "discuss_url": "https://lobste.rs/s/buroqq",
-      "score": 5,
-      "comments": 6,
+      "score": 10,
+      "comments": 12,
       "author": "gavinmorrow",
       "published": "2026-09-26T03:45:44Z",
       "bullets": [
-        "Isolating state mutations from boolean predicates prevents hidden state changes and simplifies step-through debugging during incident triage.",
-        "Short-circuit evaluation operators make embedded side effects conditionally skip execution, causing subtle, order-dependent runtime bugs.",
-        "Assign function returns and I/O calls to descriptive local variables before branching to improve static analysis and test coverage."
+        "Embedding state mutations inside conditional expressions obscures intent and introduces subtle bugs via short-circuit evaluation order.",
+        "Separate queries from commands by extracting mutating logic or I/O into explicit variables before evaluating conditional branches.",
+        "Pure predicate functions improve code readability, simplify unit testing, and enable safer compiler optimizations and static analysis."
       ]
     },
     {
@@ -72,12 +72,12 @@
       "url": "https://blog.arusekk.pl/posts/srht-account-takeover/",
       "discuss_url": "https://lobste.rs/s/ky1cr0",
       "score": 95,
-      "comments": 17,
+      "comments": 18,
       "author": "winter",
       "published": "2026-09-24T20:38:32Z",
       "bullets": [
         "SourceHut account takeover via build logs (XSS in ansi2html.py)",
-        "Trending on lobste.rs/security — 95 points, 17 comments.",
+        "Trending on lobste.rs/security — 95 points, 18 comments.",
         "Submitted by winter on lobste.rs/security."
       ]
     },
@@ -124,10 +124,22 @@
       "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
       "url": "https://swarmtraces.org/",
       "discuss_url": "https://news.ycombinator.com/item?id=49849985",
-      "score": 505,
-      "comments": 310,
+      "score": 605,
+      "comments": 387,
       "author": "specked-citrus",
       "published": "2026-09-25T21:09:27Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "A single function Jev-like wrapper for LLMs, including vision models",
+      "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+      "discuss_url": "https://news.ycombinator.com/item?id=49853175",
+      "score": 114,
+      "comments": 31,
+      "author": "allanrbo",
+      "published": "2026-09-26T04:20:58Z"
     },
     {
       "source": "hackernews",
@@ -136,8 +148,8 @@
       "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
       "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49845977",
-      "score": 448,
-      "comments": 777,
+      "score": 471,
+      "comments": 812,
       "author": "cramer4next",
       "published": "2026-09-25T15:29:25Z"
     },
@@ -148,8 +160,8 @@
       "title": "Meta's Muse appears to use an OpenAI model labeled muse-special",
       "url": "https://mouse.dev/blog/muse-special/",
       "discuss_url": "https://news.ycombinator.com/item?id=49848095",
-      "score": 133,
-      "comments": 47,
+      "score": 138,
+      "comments": 48,
       "author": "Aeroi",
       "published": "2026-09-25T18:18:06Z"
     },
@@ -160,8 +172,8 @@
       "title": "Classified estimates show the NSA is paying billions to test AI models",
       "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
       "discuss_url": "https://news.ycombinator.com/item?id=49845952",
-      "score": 171,
-      "comments": 101,
+      "score": 172,
+      "comments": 102,
       "author": "rdmuser",
       "published": "2026-09-25T15:27:35Z"
     },
@@ -172,22 +184,10 @@
       "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
       "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
       "discuss_url": "https://news.ycombinator.com/item?id=49835531",
-      "score": 167,
+      "score": 168,
       "comments": 43,
       "author": "benbreen",
       "published": "2026-09-24T19:14:27Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Best LLM for every budget, updated daily",
-      "url": "https://bestmodelforyourbudget.terrydjony.com/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49830866",
-      "score": 180,
-      "comments": 111,
-      "author": "terryds",
-      "published": "2026-09-24T14:09:57Z"
     },
     {
       "source": "lobsters",
@@ -196,22 +196,10 @@
       "title": "Goodbye Google",
       "url": "https://robert.ocallahan.org/2026/09/goodbye-google.html",
       "discuss_url": "https://lobste.rs/s/sxlf4a",
-      "score": 89,
-      "comments": 16,
+      "score": 94,
+      "comments": 21,
       "author": "classichasclass",
       "published": "2026-09-25T05:51:12Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Hackers influence ChatGPT and Gemini to direct users to scam centers",
-      "url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
-      "discuss_url": "https://news.ycombinator.com/item?id=49829387",
-      "score": 141,
-      "comments": 52,
-      "author": "ArielSimon",
-      "published": "2026-09-24T11:54:38Z"
     },
     {
       "source": "lobsters",
@@ -262,14 +250,26 @@
       "published": "2026-09-22T00:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Transformers now runs llama.cpp quants",
+      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "discuss_url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-09-22T00:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Keep if clauses side-effect free",
       "url": "https://www.teamten.com/lawrence/programming/keep-if-clauses-side-effect-free.html",
       "discuss_url": "https://lobste.rs/s/buroqq",
-      "score": 5,
-      "comments": 6,
+      "score": 10,
+      "comments": 12,
       "author": "gavinmorrow",
       "published": "2026-09-26T03:45:44Z"
     },
@@ -280,10 +280,22 @@
       "title": "Who Is Open Source About?",
       "url": "https://blog.glyph.im/2026/09/who-is-open-source-about.html",
       "discuss_url": "https://lobste.rs/s/5gqorv",
-      "score": 31,
-      "comments": 16,
+      "score": 32,
+      "comments": 24,
       "author": "carlana",
       "published": "2026-09-25T10:57:30Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "A Roman name for software",
+      "url": "https://marcosmagueta.com/blog/a-roman-name-for-software/",
+      "discuss_url": "https://lobste.rs/s/5yy6pd",
+      "score": 2,
+      "comments": 1,
+      "author": "schonfinkel",
+      "published": "2026-09-26T11:21:13Z"
     },
     {
       "source": "lobsters",
@@ -292,8 +304,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/bubfjf",
       "discuss_url": "https://lobste.rs/s/bubfjf",
-      "score": 8,
-      "comments": 25,
+      "score": 10,
+      "comments": 28,
       "author": "caius",
       "published": "2026-09-25T09:13:44Z"
     },
@@ -304,7 +316,7 @@
       "title": "Three Lenses on Coordination",
       "url": "https://jhellerstein.github.io/blog/three-specs-on-specs/",
       "discuss_url": "https://lobste.rs/s/ylw6qp",
-      "score": 2,
+      "score": 3,
       "comments": 1,
       "author": "pushcx",
       "published": "2026-09-25T19:34:55Z"
@@ -316,7 +328,7 @@
       "title": "From Thin Air to Bootable Images: The tine Build System",
       "url": "https://amutable.com/blog/tine-build-system",
       "discuss_url": "https://lobste.rs/s/c3t81d",
-      "score": 14,
+      "score": 15,
       "comments": 2,
       "author": "Levitating",
       "published": "2026-09-24T13:24:33Z"
@@ -394,18 +406,6 @@
       "published": "2026-09-24T18:26:12Z"
     },
     {
-      "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "Rendering huge pull requests in the GitHub Copilot app",
-      "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
-      "discuss_url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
-      "score": null,
-      "comments": null,
-      "author": "Alberto Gimeno",
-      "published": "2026-09-23T18:29:49Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
@@ -413,7 +413,7 @@
       "url": "https://blog.arusekk.pl/posts/srht-account-takeover/",
       "discuss_url": "https://lobste.rs/s/ky1cr0",
       "score": 95,
-      "comments": 17,
+      "comments": 18,
       "author": "winter",
       "published": "2026-09-24T20:38:32Z"
     },
@@ -424,8 +424,8 @@
       "title": "File Notification Attacks: Side-Channel Leakage from the File-Notification System on Linux, Android, Windows, and macOS",
       "url": "https://inoti.fyi/",
       "discuss_url": "https://lobste.rs/s/x6yjrc",
-      "score": 32,
-      "comments": 5,
+      "score": 33,
+      "comments": 6,
       "author": "sneela",
       "published": "2026-09-25T02:50:41Z"
     },
@@ -529,25 +529,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "EvilVM: Forth shellcode (2019)",
-      "url": "https://web.archive.org/web/20250418124519/http://evilvm.ninja/",
-      "discuss_url": "https://lobste.rs/s/vhbyvk",
-      "score": 7,
+      "title": "Fifty Years of Open Source Software Supply Chain Security (2025)",
+      "url": "https://queue.acm.org/doi/10.1145/3722542",
+      "discuss_url": "https://lobste.rs/s/9jjplv",
+      "score": 4,
       "comments": 1,
-      "author": "vinipsmaker",
-      "published": "2026-09-22T14:10:07Z"
+      "author": "linkdd",
+      "published": "2026-09-22T21:08:55Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
+      "source": "rss",
+      "subsource": "krebsonsecurity.com",
       "category": "security",
-      "title": "Reviving TEMPEST Attacks With An Injected Signal",
-      "url": "https://hackaday.com/2026/09/20/reviving-tempest-attacks-with-an-injected-signal/",
-      "discuss_url": "https://lobste.rs/s/ub3vw7",
-      "score": 7,
-      "comments": 1,
-      "author": "hoistbypetard",
-      "published": "2026-09-22T12:25:27Z"
+      "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
+      "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
+      "discuss_url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
+      "score": null,
+      "comments": null,
+      "author": "BrianKrebs",
+      "published": "2026-09-25T21:44:40Z"
     },
     {
       "source": "rss",
