@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T23:03:58Z",
+  "updated_at": "2026-09-29T04:59:14Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Prompting Claude Opus 5.5",
-      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
-      "discuss_url": "https://news.ycombinator.com/item?id=49874728",
-      "score": 194,
-      "comments": 218,
-      "author": "Michelangelo11",
-      "published": "2026-09-28T07:33:29Z",
+      "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+      "url": "https://stateofutopia.com/experiments/microllmlab/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49882781",
+      "score": 182,
+      "comments": 68,
+      "author": "logicallee",
+      "published": "2026-09-28T18:58:53Z",
       "bullets": [
-        "Speculative discourse focuses on steering advanced frontier reasoning models using layered metaprompting, role-enforcement, and automated verification loops.",
-        "Practitioners highlight prompt engineering shifts toward multi-turn cognitive scaffolding, dynamic system prompt modulation, and mitigating agentic goal drift.",
-        "Community debates frontier model steerability, arguing complex natural language prompting increasingly functions as deterministic programmatic control flow."
+        "Executes client-side inference via WebGPU and Wasm to run sub-billion parameter SLMs locally, eliminating server compute costs and cloud latency.",
+        "Enables comparative testing across seven lightweight architectures (e.g., SmolLM, Qwen2.5-0.5B) under constrained in-browser memory and execution limits.",
+        "Demonstrates practical viability for edge AI, offline-first web apps, and private on-device generation without sending sensitive prompts to external APIs."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/hgmgp2",
       "discuss_url": "https://lobste.rs/s/hgmgp2",
-      "score": 11,
-      "comments": 17,
+      "score": 14,
+      "comments": 19,
       "author": "caius",
       "published": "2026-09-28T12:42:17Z",
       "bullets": [
-        "Engineers share weekly progress across side projects, open-source tool development, production system refactoring, and infrastructure maintenance.",
-        "Discussions highlight practical experimentation with emerging language ecosystems, automation scripts, and targeted technical debt reduction.",
-        "The thread emphasizes engineering sustainability, explicitly normalizing operational downtime and rest alongside active sprint tasks."
+        "Lobsters weekly check-in threads surface grassroots developer tooling experiments, language adoption trends, and active open-source side project implementations.",
+        "Community updates provide practical visibility into low-level debugging, infrastructure migrations, and everyday engineering hurdles across diverse tech stacks.",
+        "Peer discussions reflect ground-level practitioner sentiment and architectural tradeoffs without the polish or bias of vendor case studies."
       ]
     },
     {
@@ -71,48 +71,48 @@
       "title": "HardenedBSD August / September 2026 Status Report",
       "url": "https://hardenedbsd.org/article/shawn-webb/2026-09-27/hardenedbsd-august-september-2026-status-report",
       "discuss_url": "https://lobste.rs/s/roo5hm",
-      "score": 12,
+      "score": 14,
       "comments": 0,
       "author": "lattera",
       "published": "2026-09-28T16:14:23Z",
       "bullets": [
-        "Tracks FreeBSD upstream synchronization alongside enhancements to PaX-derived exploit mitigations, including fine-grained ASLR and Clang Control Flow Integrity.",
-        "Details package builds enforcing SafeStack, non-executable stacks, and strict compiler hardening across base system and ports collections.",
-        "Highlights kernel self-protection updates, Secadm integrity framework improvements, and ongoing LibreSSL integration across the security-focused OS."
+        "HardenedBSD August / September 2026 Status Report",
+        "Trending on lobste.rs/security — 14 points, 0 comments.",
+        "Submitted by lattera on lobste.rs/security."
       ]
     },
     {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "devops",
-      "title": "Amazon EC2 Future-dated Capacity Reservations Now Supports Postponing Start Dates",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-fcr-postpone-start-date/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-fcr-postpone-start-date/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-28T21:17:00Z",
+      "title": "Cf: The Agentic CLI for the Cloudflare API",
+      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49879577",
+      "score": 139,
+      "comments": 60,
+      "author": "macleos",
+      "published": "2026-09-28T15:28:13Z",
       "bullets": [
-        "EC2 future-dated capacity reservations, booked up to 120 days ahead, now allow rescheduling start dates prior to delivery.",
-        "Postponing start dates generates a revised quote that may increase the required commitment duration based on request timing.",
-        "Teams must explicitly review and accept the updated quote to finalize schedule changes in supported AWS regions."
+        "Cf: The Agentic CLI for the Cloudflare API",
+        "Trending on news.ycombinator.com — 139 points, 60 comments.",
+        "Submitted by macleos on news.ycombinator.com."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Experts worry about Nvidia's AI chip sales in China and influence over Trump",
-      "url": "https://arstechnica.com/tech-policy/2026/09/nvidia-may-sell-more-chips-in-china-as-jensen-huangs-influence-over-trump-grows/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/09/nvidia-may-sell-more-chips-in-china-as-jensen-huangs-influence-over-trump-grows/",
+      "title": "Boeing \"incredibly excited\" to serve as nation's only astronaut transportation",
+      "url": "https://arstechnica.com/space/2026/09/boeing-incredibly-excited-to-serve-as-nations-only-astronaut-transportation/",
+      "discuss_url": "https://arstechnica.com/space/2026/09/boeing-incredibly-excited-to-serve-as-nations-only-astronaut-transportation/",
       "score": null,
       "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-09-28T21:49:10Z",
+      "author": "Eric Berger",
+      "published": "2026-09-28T22:24:33Z",
       "bullets": [
-        "China reportedly weighs allowing Alibaba and ByteDance to procure restricted Nvidia AI accelerators despite existing trade sanctions.",
-        "Security experts flag Nvidia's lobbying efforts targeting the Trump administration to relax semiconductor export controls to Beijing.",
-        "Hyperscalers like ByteDance continue prioritizing Nvidia architecture for advanced LLM training over domestic silicon alternatives."
+        "\"We couldn't provide detailed pricing to the CLD suppliers.\"",
+        "Boeing \"incredibly excited\" to serve as nation's only astronaut transportation",
+        "Submitted by Eric Berger on arstechnica.com."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+      "url": "https://stateofutopia.com/experiments/microllmlab/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49882781",
+      "score": 182,
+      "comments": 68,
+      "author": "logicallee",
+      "published": "2026-09-28T18:58:53Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Prompting Claude Opus 5.5",
       "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
       "discuss_url": "https://news.ycombinator.com/item?id=49874728",
-      "score": 194,
-      "comments": 218,
+      "score": 201,
+      "comments": 220,
       "author": "Michelangelo11",
       "published": "2026-09-28T07:33:29Z"
     },
@@ -148,7 +160,7 @@
       "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
       "url": "https://www.youtube.com/watch?v=-Nvne3LzBls",
       "discuss_url": "https://news.ycombinator.com/item?id=49868831",
-      "score": 191,
+      "score": 192,
       "comments": 103,
       "author": "CharlesW",
       "published": "2026-09-27T17:32:02Z"
@@ -160,7 +172,7 @@
       "title": "It’s Time to Investigate the AI Labs",
       "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
       "discuss_url": "https://lobste.rs/s/ir1emf",
-      "score": 18,
+      "score": 22,
       "comments": 2,
       "author": "j11g",
       "published": "2026-09-28T13:56:41Z"
@@ -226,50 +238,14 @@
       "published": "2026-09-23T18:41:40Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
-      "url": "https://huggingface.co/blog/evaleval-aisi",
-      "discuss_url": "https://huggingface.co/blog/evaleval-aisi",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-09-22T00:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Transformers now runs llama.cpp quants",
-      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "discuss_url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-09-22T00:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
-      "url": "https://huggingface.co/blog/omlx",
-      "discuss_url": "https://huggingface.co/blog/omlx",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-09-22T00:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/hgmgp2",
       "discuss_url": "https://lobste.rs/s/hgmgp2",
-      "score": 11,
-      "comments": 17,
+      "score": 14,
+      "comments": 19,
       "author": "caius",
       "published": "2026-09-28T12:42:17Z"
     },
@@ -280,7 +256,7 @@
       "title": "Rickrolling with a Pharmacy cross",
       "url": "https://hugoarnal.com/blog/rickroll-pharmacy-cross/",
       "discuss_url": "https://lobste.rs/s/6p91by",
-      "score": 25,
+      "score": 27,
       "comments": 1,
       "author": "hugoarnal",
       "published": "2026-09-28T07:52:23Z"
@@ -292,7 +268,7 @@
       "title": "Ten Lines Of Code That Changed My World",
       "url": "https://pixelambacht.nl/2026/ten-lines-of-code/",
       "discuss_url": "https://lobste.rs/s/fpk9gq",
-      "score": 59,
+      "score": 63,
       "comments": 14,
       "author": "carlana",
       "published": "2026-09-27T13:05:28Z"
@@ -304,7 +280,7 @@
       "title": "Packing Binary Is Fun, Actually",
       "url": "https://hereticpleb.vercel.app/blog/packing-binary-is-fun-actually/",
       "discuss_url": "https://lobste.rs/s/uawtno",
-      "score": 7,
+      "score": 9,
       "comments": 3,
       "author": "coffee",
       "published": "2026-09-28T09:26:36Z"
@@ -412,7 +388,7 @@
       "title": "HardenedBSD August / September 2026 Status Report",
       "url": "https://hardenedbsd.org/article/shawn-webb/2026-09-27/hardenedbsd-august-september-2026-status-report",
       "discuss_url": "https://lobste.rs/s/roo5hm",
-      "score": 12,
+      "score": 14,
       "comments": 0,
       "author": "lattera",
       "published": "2026-09-28T16:14:23Z"
@@ -436,22 +412,10 @@
       "title": "Honeypot on the boykisser forum",
       "url": "https://blog.boykisser.nl/2026/09/26/honeypot-on-the-boykisser-forum/",
       "discuss_url": "https://lobste.rs/s/0rcuoj",
-      "score": 5,
+      "score": 7,
       "comments": 13,
       "author": "FedericoSchonborn",
       "published": "2026-09-27T00:18:05Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "File Notification Attacks: Side-Channel Leakage from the File-Notification System on Linux, Android, Windows, and macOS",
-      "url": "https://inoti.fyi/",
-      "discuss_url": "https://lobste.rs/s/x6yjrc",
-      "score": 37,
-      "comments": 9,
-      "author": "sneela",
-      "published": "2026-09-25T02:50:41Z"
     },
     {
       "source": "lobsters",
@@ -484,7 +448,7 @@
       "title": "Understanding NvPCRs in systemd v262",
       "url": "https://katexochen.aro.bz/posts/systemd-v262-nvpcrs/",
       "discuss_url": "https://lobste.rs/s/ya3cl7",
-      "score": 9,
+      "score": 10,
       "comments": 1,
       "author": "katexochen",
       "published": "2026-09-25T08:26:44Z"
@@ -548,6 +512,30 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-09-28T19:18:01Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
+      "url": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
+      "discuss_url": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-09-28T18:35:42Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "devops",
+      "title": "Cf: The Agentic CLI for the Cloudflare API",
+      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49879577",
+      "score": 139,
+      "comments": 60,
+      "author": "macleos",
+      "published": "2026-09-28T15:28:13Z"
     },
     {
       "source": "rss",
@@ -625,6 +613,30 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-retryable-writes/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-retryable-writes/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-28T08:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 5 MongoDB aggregation stages and change stream capabilities in version 8.0.2",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-8-0-2/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-8-0-2/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-09-28T08:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "AWS Backup adds logically air-gapped vault support for Amazon FSx for NetApp ONTAP",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-air-gapped-vault-fsx-ontap/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-air-gapped-vault-fsx-ontap/",
@@ -659,39 +671,15 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Boeing \"incredibly excited\" to serve as nation's only astronaut transportation",
+      "url": "https://arstechnica.com/space/2026/09/boeing-incredibly-excited-to-serve-as-nations-only-astronaut-transportation/",
+      "discuss_url": "https://arstechnica.com/space/2026/09/boeing-incredibly-excited-to-serve-as-nations-only-astronaut-transportation/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-25T18:37:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon EC2 C8i and C8i-flex instances are now available in additional regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-25T18:09:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS IAM outbound identity federation now supports interface VPC endpoints for OIDC discovery",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-09-25T17:54:00Z"
+      "author": "Eric Berger",
+      "published": "2026-09-28T22:24:33Z"
     },
     {
       "source": "rss",
@@ -824,18 +812,6 @@
       "comments": null,
       "author": "Kyle Orland",
       "published": "2026-09-28T16:43:18Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "NASA 'troubleshooting' transporter for space station's robotic arm [Updated]",
-      "url": "https://arstechnica.com/space/2026/09/nasa-for-the-time-being-is-unable-to-move-the-space-stations-large-robotic-armthe-large-robotic-arm-on-the-international-space-station-has-stopped-working/",
-      "discuss_url": "https://arstechnica.com/space/2026/09/nasa-for-the-time-being-is-unable-to-move-the-space-stations-large-robotic-armthe-large-robotic-arm-on-the-international-space-station-has-stopped-working/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-09-28T16:03:50Z"
     }
   ]
 }
