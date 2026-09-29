@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T04:59:14Z",
+  "updated_at": "2026-09-29T12:25:38Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
       "url": "https://stateofutopia.com/experiments/microllmlab/",
       "discuss_url": "https://news.ycombinator.com/item?id=49882781",
-      "score": 182,
-      "comments": 68,
+      "score": 257,
+      "comments": 89,
       "author": "logicallee",
       "published": "2026-09-28T18:58:53Z",
       "bullets": [
-        "Executes client-side inference via WebGPU and Wasm to run sub-billion parameter SLMs locally, eliminating server compute costs and cloud latency.",
-        "Enables comparative testing across seven lightweight architectures (e.g., SmolLM, Qwen2.5-0.5B) under constrained in-browser memory and execution limits.",
-        "Demonstrates practical viability for edge AI, offline-first web apps, and private on-device generation without sending sensitive prompts to external APIs."
+        "Leverages WebGPU and Wasm to execute sub-1B quantized models client-side, eliminating backend inference costs and enabling offline, privacy-preserving execution.",
+        "Enables side-by-side benchmarking of modern tiny architectures like SmolLM, TinyLlama, and Qwen variants directly within client browser runtimes.",
+        "Highlights viability of lightweight models for browser-based agents, balanced against client memory limits, quantization degradation, and platform WebGPU support."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/hgmgp2",
       "discuss_url": "https://lobste.rs/s/hgmgp2",
-      "score": 14,
+      "score": 16,
       "comments": 19,
       "author": "caius",
       "published": "2026-09-28T12:42:17Z",
       "bullets": [
-        "Lobsters weekly check-in threads surface grassroots developer tooling experiments, language adoption trends, and active open-source side project implementations.",
-        "Community updates provide practical visibility into low-level debugging, infrastructure migrations, and everyday engineering hurdles across diverse tech stacks.",
-        "Peer discussions reflect ground-level practitioner sentiment and architectural tradeoffs without the polish or bias of vendor case studies."
+        "What are you doing this week?",
+        "Feel free to share!",
+        "Keep in mind it’s OK to do nothing at all, too."
       ]
     },
     {
@@ -71,13 +71,13 @@
       "title": "HardenedBSD August / September 2026 Status Report",
       "url": "https://hardenedbsd.org/article/shawn-webb/2026-09-27/hardenedbsd-august-september-2026-status-report",
       "discuss_url": "https://lobste.rs/s/roo5hm",
-      "score": 14,
+      "score": 17,
       "comments": 0,
       "author": "lattera",
       "published": "2026-09-28T16:14:23Z",
       "bullets": [
         "HardenedBSD August / September 2026 Status Report",
-        "Trending on lobste.rs/security — 14 points, 0 comments.",
+        "Trending on lobste.rs/security — 17 points, 0 comments.",
         "Submitted by lattera on lobste.rs/security."
       ]
     },
@@ -88,13 +88,13 @@
       "title": "Cf: The Agentic CLI for the Cloudflare API",
       "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
       "discuss_url": "https://news.ycombinator.com/item?id=49879577",
-      "score": 139,
-      "comments": 60,
+      "score": 157,
+      "comments": 79,
       "author": "macleos",
       "published": "2026-09-28T15:28:13Z",
       "bullets": [
         "Cf: The Agentic CLI for the Cloudflare API",
-        "Trending on news.ycombinator.com — 139 points, 60 comments.",
+        "Trending on news.ycombinator.com — 157 points, 79 comments.",
         "Submitted by macleos on news.ycombinator.com."
       ]
     },
@@ -124,8 +124,8 @@
       "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
       "url": "https://stateofutopia.com/experiments/microllmlab/",
       "discuss_url": "https://news.ycombinator.com/item?id=49882781",
-      "score": 182,
-      "comments": 68,
+      "score": 257,
+      "comments": 89,
       "author": "logicallee",
       "published": "2026-09-28T18:58:53Z"
     },
@@ -136,22 +136,22 @@
       "title": "Prompting Claude Opus 5.5",
       "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
       "discuss_url": "https://news.ycombinator.com/item?id=49874728",
-      "score": 201,
-      "comments": 220,
+      "score": 204,
+      "comments": 221,
       "author": "Michelangelo11",
       "published": "2026-09-28T07:33:29Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
-      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49863864",
-      "score": 626,
-      "comments": 612,
-      "author": "papergirl",
-      "published": "2026-09-27T06:19:33Z"
+      "title": "AI Didn’t Make Programming Easier. It Just Made It Differently Difficult",
+      "url": "https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/",
+      "discuss_url": "https://lobste.rs/s/qhszda",
+      "score": 4,
+      "comments": 0,
+      "author": "remmelt",
+      "published": "2026-09-29T09:40:33Z"
     },
     {
       "source": "hackernews",
@@ -164,42 +164,6 @@
       "comments": 103,
       "author": "CharlesW",
       "published": "2026-09-27T17:32:02Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "It’s Time to Investigate the AI Labs",
-      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
-      "discuss_url": "https://lobste.rs/s/ir1emf",
-      "score": 22,
-      "comments": 2,
-      "author": "j11g",
-      "published": "2026-09-28T13:56:41Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Goodbye Google",
-      "url": "https://robert.ocallahan.org/2026/09/goodbye-google.html",
-      "discuss_url": "https://lobste.rs/s/sxlf4a",
-      "score": 107,
-      "comments": 31,
-      "author": "classichasclass",
-      "published": "2026-09-25T05:51:12Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "GPU Glossary",
-      "url": "https://modal.com/gpu-glossary",
-      "discuss_url": "https://lobste.rs/s/8aztzt",
-      "score": 2,
-      "comments": 0,
-      "author": "mattyw",
-      "published": "2026-09-28T11:43:38Z"
     },
     {
       "source": "rss",
@@ -244,7 +208,7 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/hgmgp2",
       "discuss_url": "https://lobste.rs/s/hgmgp2",
-      "score": 14,
+      "score": 16,
       "comments": 19,
       "author": "caius",
       "published": "2026-09-28T12:42:17Z"
@@ -256,7 +220,7 @@
       "title": "Rickrolling with a Pharmacy cross",
       "url": "https://hugoarnal.com/blog/rickroll-pharmacy-cross/",
       "discuss_url": "https://lobste.rs/s/6p91by",
-      "score": 27,
+      "score": 34,
       "comments": 1,
       "author": "hugoarnal",
       "published": "2026-09-28T07:52:23Z"
@@ -268,22 +232,10 @@
       "title": "Ten Lines Of Code That Changed My World",
       "url": "https://pixelambacht.nl/2026/ten-lines-of-code/",
       "discuss_url": "https://lobste.rs/s/fpk9gq",
-      "score": 63,
+      "score": 65,
       "comments": 14,
       "author": "carlana",
       "published": "2026-09-27T13:05:28Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Packing Binary Is Fun, Actually",
-      "url": "https://hereticpleb.vercel.app/blog/packing-binary-is-fun-actually/",
-      "discuss_url": "https://lobste.rs/s/uawtno",
-      "score": 9,
-      "comments": 3,
-      "author": "coffee",
-      "published": "2026-09-28T09:26:36Z"
     },
     {
       "source": "lobsters",
@@ -301,6 +253,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Packing Binary Is Fun, Actually",
+      "url": "https://hereticpleb.vercel.app/blog/packing-binary-is-fun-actually/",
+      "discuss_url": "https://lobste.rs/s/uawtno",
+      "score": 9,
+      "comments": 3,
+      "author": "coffee",
+      "published": "2026-09-28T09:26:36Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "Keep if clauses side-effect free",
       "url": "https://www.teamten.com/lawrence/programming/keep-if-clauses-side-effect-free.html",
       "discuss_url": "https://lobste.rs/s/buroqq",
@@ -308,30 +272,6 @@
       "comments": 15,
       "author": "gavinmorrow",
       "published": "2026-09-26T03:45:44Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Who Is Open Source About?",
-      "url": "https://blog.glyph.im/2026/09/who-is-open-source-about.html",
-      "discuss_url": "https://lobste.rs/s/5gqorv",
-      "score": 34,
-      "comments": 29,
-      "author": "carlana",
-      "published": "2026-09-25T10:57:30Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/bubfjf",
-      "discuss_url": "https://lobste.rs/s/bubfjf",
-      "score": 10,
-      "comments": 33,
-      "author": "caius",
-      "published": "2026-09-25T09:13:44Z"
     },
     {
       "source": "lobsters",
@@ -382,13 +322,37 @@
       "published": "2026-09-28T19:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "Highlights from Git 2.56",
+      "url": "https://github.blog/open-source/git/highlights-from-git-2-56/",
+      "discuss_url": "https://github.blog/open-source/git/highlights-from-git-2-56/",
+      "score": null,
+      "comments": null,
+      "author": "Elijah Newren",
+      "published": "2026-09-28T17:23:33Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+      "score": null,
+      "comments": null,
+      "author": "Kayla Cinnamon",
+      "published": "2026-09-25T18:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "HardenedBSD August / September 2026 Status Report",
       "url": "https://hardenedbsd.org/article/shawn-webb/2026-09-27/hardenedbsd-august-september-2026-status-report",
       "discuss_url": "https://lobste.rs/s/roo5hm",
-      "score": 14,
+      "score": 17,
       "comments": 0,
       "author": "lattera",
       "published": "2026-09-28T16:14:23Z"
@@ -400,7 +364,7 @@
       "title": "LuaRocks Security Incident September 2026",
       "url": "https://luarocks.org/security-incident-september-2026",
       "discuss_url": "https://lobste.rs/s/apoyxs",
-      "score": 31,
+      "score": 32,
       "comments": 6,
       "author": "derp_alert",
       "published": "2026-09-27T13:58:57Z"
@@ -412,7 +376,7 @@
       "title": "Honeypot on the boykisser forum",
       "url": "https://blog.boykisser.nl/2026/09/26/honeypot-on-the-boykisser-forum/",
       "discuss_url": "https://lobste.rs/s/0rcuoj",
-      "score": 7,
+      "score": 8,
       "comments": 13,
       "author": "FedericoSchonborn",
       "published": "2026-09-27T00:18:05Z"
@@ -440,18 +404,6 @@
       "comments": 1,
       "author": "pushcx",
       "published": "2026-09-25T14:30:37Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Understanding NvPCRs in systemd v262",
-      "url": "https://katexochen.aro.bz/posts/systemd-v262-nvpcrs/",
-      "discuss_url": "https://lobste.rs/s/ya3cl7",
-      "score": 10,
-      "comments": 1,
-      "author": "katexochen",
-      "published": "2026-09-25T08:26:44Z"
     },
     {
       "source": "lobsters",
@@ -505,25 +457,37 @@
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
-      "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
-      "discuss_url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+      "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
+      "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
+      "discuss_url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-09-28T19:18:01Z"
+      "published": "2026-09-29T08:35:10Z"
     },
     {
       "source": "rss",
       "subsource": "thehackernews.com",
       "category": "security",
-      "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
-      "url": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
-      "discuss_url": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
+      "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
+      "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+      "discuss_url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
       "score": null,
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-09-28T18:35:42Z"
+      "published": "2026-09-29T06:08:25Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
+      "url": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+      "discuss_url": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-09-29T05:12:32Z"
     },
     {
       "source": "hackernews",
@@ -532,8 +496,8 @@
       "title": "Cf: The Agentic CLI for the Cloudflare API",
       "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
       "discuss_url": "https://news.ycombinator.com/item?id=49879577",
-      "score": 139,
-      "comments": 60,
+      "score": 157,
+      "comments": 79,
       "author": "macleos",
       "published": "2026-09-28T15:28:13Z"
     },
@@ -613,9 +577,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-retryable-writes/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-retryable-writes/",
+      "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 5 MongoDB aggregation stages and change stream capabilities in version 8.0.2",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-8-0-2/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-8-0-2/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -625,9 +589,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 5 MongoDB aggregation stages and change stream capabilities in version 8.0.2",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-8-0-2/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-8-0-2/",
+      "title": "Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-retryable-writes/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-retryable-writes/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
