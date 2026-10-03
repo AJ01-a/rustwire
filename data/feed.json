@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T04:31:55Z",
+  "updated_at": "2026-10-03T11:19:37Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "From the creator of Redis; run LLM locally with ds4",
       "url": "https://dwarfstar.sh/",
       "discuss_url": "https://news.ycombinator.com/item?id=49936575",
-      "score": 185,
-      "comments": 53,
+      "score": 258,
+      "comments": 68,
       "author": "fibo",
       "published": "2026-10-02T18:01:16Z",
       "bullets": [
-        "Redis creator Salvatore Sanfilippo (antirez) released ds4, a minimalist runtime designed to execute LLMs locally without heavyweight dependencies.",
-        "Emphasizes ultra-low-overhead, hackable architecture reminiscent of Redis, bypassing complex framework stacks like PyTorch for local model inference.",
-        "Offers engineers a lightweight, transparent alternative to runtimes like llama.cpp and Ollama for edge and consumer hardware deployments."
+        "Salvatore Sanfilippo (antirez) released ds4, a minimalist local LLM execution engine focused on pure C efficiency with zero bloat.",
+        "Provides streamlined 4-bit model quantization and inference as a lightweight alternative to larger runtimes like llama.cpp or Ollama.",
+        "Enables AI engineers to embed and inspect open-weights model inference directly without complex Python framework dependencies."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/hfmcxi",
       "discuss_url": "https://lobste.rs/s/hfmcxi",
-      "score": 20,
-      "comments": 59,
+      "score": 21,
+      "comments": 67,
       "author": "caius",
       "published": "2026-10-02T08:18:01Z",
       "bullets": [
-        "Lobsters community members share progress on personal side-projects, open-source tools, and experimental systems programming over the weekend.",
-        "Engineers leverage the informal forum to solicit architectural feedback, debugging assistance, and code reviews on prototype software.",
-        "Discussions highlight intentional downtime alongside tinkering, normalizing non-coding time to mitigate developer burnout."
+        "Developers leverage weekend hacking cycles for side-project prototyping, systems programming experiments, and exploring emerging languages outside production constraints.",
+        "Open-floor community threads serve as informal review hubs to troubleshoot architectural roadblocks and gather feedback on nascent open-source tools.",
+        "Practitioners increasingly normalize complete disconnects from coding to prevent cognitive fatigue and mitigate long-term engineering burnout."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Updates to Full Disk Access in macOS",
-      "url": "https://developer.apple.com/news/?id=p6zjojqw",
-      "discuss_url": "https://lobste.rs/s/9ipypq",
-      "score": 9,
-      "comments": 13,
-      "author": "videah",
-      "published": "2026-10-02T20:10:26Z",
+      "title": "I got targeted: Trying to get your credentials via a git post-checkout hook",
+      "url": "https://frankwiles.com/posts/i-got-targeted/",
+      "discuss_url": "https://lobste.rs/s/cd5gdk",
+      "score": 57,
+      "comments": 14,
+      "author": "frankwiles",
+      "published": "2026-10-02T22:19:02Z",
       "bullets": [
-        "Apple continues tightening TCC controls, restricting synthetic events, script-based escalations, and unprivileged access to Full Disk Access protected paths.",
-        "MDM-managed PPPC profiles remain critical for pre-approving FDA for EDR agents without triggering disruptive Sequoia-era recurring user consent prompts.",
-        "Security teams must monitor system TCC.db modifications and binary entitlement changes to detect unauthorized privilege escalation and persistence techniques."
+        "I got targeted: Trying to get your credentials via a git post-checkout hook",
+        "Trending on lobste.rs/security — 57 points, 14 comments.",
+        "Submitted by frankwiles on lobste.rs/security."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "gVisor is being donated to CNCF",
       "url": "https://gvisor.dev/blog/2026/10/02/gvisor-cncf/",
       "discuss_url": "https://lobste.rs/s/asoxjl",
-      "score": 4,
-      "comments": 0,
+      "score": 15,
+      "comments": 2,
       "author": "carlana",
       "published": "2026-10-03T02:41:38Z",
       "bullets": [
-        "Google transfers governance to the CNCF, standardizing the sandboxed container runtime alongside Kubernetes and containerd ecosystem projects.",
-        "The Go-based user-space kernel (`runsc`) intercepts Linux syscalls, enforcing secure isolation for untrusted and multi-tenant container workloads.",
-        "Neutral stewardship will accelerate third-party cloud integrations and tooling for mitigation against host kernel container escapes."
+        "gVisor is being donated to CNCF",
+        "Trending on lobste.rs/devops — 15 points, 2 comments.",
+        "Submitted by carlana on lobste.rs/devops."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Dan Goodin",
       "published": "2026-10-02T23:03:16Z",
       "bullets": [
-        "Apple is tightening macOS Full Disk Access (FDA) controls to prevent autonomous AI agents from scraping sensitive local user databases.",
-        "The move follows friction with Meta regarding its Muse assistant, which sought access to local message databases on macOS.",
-        "Security teams must adapt desktop AI workflows as Apple enforces strict, granular TCC boundaries over broad filesystem permissions."
+        "Meta says FDA isn't sufficient to Muse reading messages.",
+        "Apple begs to differ.",
+        "Apple changes full-disk access permissions to curb abuse from AI agents"
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "From the creator of Redis; run LLM locally with ds4",
       "url": "https://dwarfstar.sh/",
       "discuss_url": "https://news.ycombinator.com/item?id=49936575",
-      "score": 185,
-      "comments": 53,
+      "score": 258,
+      "comments": 68,
       "author": "fibo",
       "published": "2026-10-02T18:01:16Z"
     },
@@ -136,8 +136,8 @@
       "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
       "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
       "discuss_url": "https://news.ycombinator.com/item?id=49929391",
-      "score": 200,
-      "comments": 52,
+      "score": 246,
+      "comments": 77,
       "author": "usernomdeguerre",
       "published": "2026-10-02T02:51:27Z"
     },
@@ -148,22 +148,22 @@
       "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
       "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49921050",
-      "score": 208,
+      "score": 210,
       "comments": 159,
       "author": "dgellow",
       "published": "2026-10-01T13:00:55Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
-      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
-      "discuss_url": "https://news.ycombinator.com/item?id=49919910",
-      "score": 186,
-      "comments": 111,
-      "author": "giuliomagnifico",
-      "published": "2026-10-01T10:21:36Z"
+      "title": "AI ‘godfather’ Yann LeCun has ‘zero concerns’ about human extinction, says Anthropic CEO Dario Amodei is ‘deluded’",
+      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+      "discuss_url": "https://lobste.rs/s/r7o4jc",
+      "score": 1,
+      "comments": 0,
+      "author": "mempko",
+      "published": "2026-10-02T18:48:24Z"
     },
     {
       "source": "lobsters",
@@ -251,25 +251,13 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "AI ‘godfather’ Yann LeCun has ‘zero concerns’ about human extinction, says Anthropic CEO Dario Amodei is ‘deluded’",
-      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
-      "discuss_url": "https://lobste.rs/s/r7o4jc",
-      "score": 0,
-      "comments": 0,
-      "author": "mempko",
-      "published": "2026-10-02T18:48:24Z"
-    },
-    {
-      "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/hfmcxi",
       "discuss_url": "https://lobste.rs/s/hfmcxi",
-      "score": 20,
-      "comments": 59,
+      "score": 21,
+      "comments": 67,
       "author": "caius",
       "published": "2026-10-02T08:18:01Z"
     },
@@ -280,8 +268,8 @@
       "title": "The hidden design compromises of Docker layers",
       "url": "https://loige.co/hidden-design-compromises-of-docker-layers/",
       "discuss_url": "https://lobste.rs/s/uuu6us",
-      "score": 11,
-      "comments": 10,
+      "score": 15,
+      "comments": 11,
       "author": "loige",
       "published": "2026-10-02T08:29:47Z"
     },
@@ -409,25 +397,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Updates to Full Disk Access in macOS",
-      "url": "https://developer.apple.com/news/?id=p6zjojqw",
-      "discuss_url": "https://lobste.rs/s/9ipypq",
-      "score": 9,
-      "comments": 13,
-      "author": "videah",
-      "published": "2026-10-02T20:10:26Z"
+      "title": "I got targeted: Trying to get your credentials via a git post-checkout hook",
+      "url": "https://frankwiles.com/posts/i-got-targeted/",
+      "discuss_url": "https://lobste.rs/s/cd5gdk",
+      "score": 57,
+      "comments": 14,
+      "author": "frankwiles",
+      "published": "2026-10-02T22:19:02Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "I got targeted: Trying to get your credentials via a git post-checkout hook",
-      "url": "https://frankwiles.com/posts/i-got-targeted/",
-      "discuss_url": "https://lobste.rs/s/cd5gdk",
-      "score": 22,
-      "comments": 0,
-      "author": "frankwiles",
-      "published": "2026-10-02T22:19:02Z"
+      "title": "Updates to Full Disk Access in macOS",
+      "url": "https://developer.apple.com/news/?id=p6zjojqw",
+      "discuss_url": "https://lobste.rs/s/9ipypq",
+      "score": 13,
+      "comments": 19,
+      "author": "videah",
+      "published": "2026-10-02T20:10:26Z"
     },
     {
       "source": "lobsters",
@@ -556,8 +544,8 @@
       "title": "gVisor is being donated to CNCF",
       "url": "https://gvisor.dev/blog/2026/10/02/gvisor-cncf/",
       "discuss_url": "https://lobste.rs/s/asoxjl",
-      "score": 4,
-      "comments": 0,
+      "score": 15,
+      "comments": 2,
       "author": "carlana",
       "published": "2026-10-03T02:41:38Z"
     },
@@ -568,7 +556,7 @@
       "title": "Cloudflare K2: serverless event streams",
       "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
       "discuss_url": "https://news.ycombinator.com/item?id=49921923",
-      "score": 282,
+      "score": 283,
       "comments": 111,
       "author": "elffjs",
       "published": "2026-10-01T14:09:10Z"
