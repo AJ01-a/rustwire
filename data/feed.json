@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T11:19:37Z",
+  "updated_at": "2026-10-03T15:57:56Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "From the creator of Redis; run LLM locally with ds4",
-      "url": "https://dwarfstar.sh/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49936575",
-      "score": 258,
-      "comments": 68,
-      "author": "fibo",
-      "published": "2026-10-02T18:01:16Z",
+      "title": "Kolibri is an open-weight LLM from Aleph Alpha for German and English",
+      "url": "https://tej.as/blog/aleph-alpha-kolibri",
+      "discuss_url": "https://news.ycombinator.com/item?id=49943034",
+      "score": 245,
+      "comments": 112,
+      "author": "tejaskumar__",
+      "published": "2026-10-03T10:43:51Z",
       "bullets": [
-        "Salvatore Sanfilippo (antirez) released ds4, a minimalist local LLM execution engine focused on pure C efficiency with zero bloat.",
-        "Provides streamlined 4-bit model quantization and inference as a lightweight alternative to larger runtimes like llama.cpp or Ollama.",
-        "Enables AI engineers to embed and inspect open-weights model inference directly without complex Python framework dependencies."
+        "Provides European developers transparent model weights optimized for bilingual German-English tokenization efficiency and enterprise document processing.",
+        "Facilitates sovereign, on-premises deployment to comply with stringent EU AI Act, GDPR, and localized data governance requirements.",
+        "Challenges US hyperscalers and Mistral by offering locally governed open-weight foundations for regulated enterprise AI workflows."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/hfmcxi",
       "discuss_url": "https://lobste.rs/s/hfmcxi",
-      "score": 21,
-      "comments": 67,
+      "score": 22,
+      "comments": 73,
       "author": "caius",
       "published": "2026-10-02T08:18:01Z",
       "bullets": [
-        "Developers leverage weekend hacking cycles for side-project prototyping, systems programming experiments, and exploring emerging languages outside production constraints.",
-        "Open-floor community threads serve as informal review hubs to troubleshoot architectural roadblocks and gather feedback on nascent open-source tools.",
-        "Practitioners increasingly normalize complete disconnects from coding to prevent cognitive fatigue and mitigate long-term engineering burnout."
+        "Community engineers collaborate on weekend side projects, focusing on systems programming, self-hosted infrastructure, and novel language exploration.",
+        "Participants leverage peer feedback for debugging, architecture validation, and tooling choices across early-stage open-source utilities.",
+        "The forum reinforces healthy boundaries between discretionary technical skill-building and intentional downtime to avoid developer burnout."
       ]
     },
     {
@@ -71,48 +71,48 @@
       "title": "I got targeted: Trying to get your credentials via a git post-checkout hook",
       "url": "https://frankwiles.com/posts/i-got-targeted/",
       "discuss_url": "https://lobste.rs/s/cd5gdk",
-      "score": 57,
-      "comments": 14,
+      "score": 80,
+      "comments": 25,
       "author": "frankwiles",
       "published": "2026-10-02T22:19:02Z",
       "bullets": [
-        "I got targeted: Trying to get your credentials via a git post-checkout hook",
-        "Trending on lobste.rs/security — 57 points, 14 comments.",
-        "Submitted by frankwiles on lobste.rs/security."
+        "Attackers weaponize Git post-checkout hooks to trigger silent arbitrary code execution and exfiltrate SSH keys, environment variables, and tokens.",
+        "Attacks often leverage submodules, repo templates, or path traversals to plant executable scripts into the target's local .git/hooks directory.",
+        "Mitigate hook abuse by overriding core.hooksPath globally, inspecting untrusted repos before checkout, and monitoring Git credential helper activity."
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "devops",
-      "title": "gVisor is being donated to CNCF",
-      "url": "https://gvisor.dev/blog/2026/10/02/gvisor-cncf/",
-      "discuss_url": "https://lobste.rs/s/asoxjl",
-      "score": 15,
-      "comments": 2,
-      "author": "carlana",
-      "published": "2026-10-03T02:41:38Z",
+      "title": "Cloudflare OHTTP gateway",
+      "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49941091",
+      "score": 142,
+      "comments": 59,
+      "author": "est",
+      "published": "2026-10-03T03:15:05Z",
       "bullets": [
-        "gVisor is being donated to CNCF",
-        "Trending on lobste.rs/devops — 15 points, 2 comments.",
-        "Submitted by carlana on lobste.rs/devops."
+        "Cloudflare OHTTP gateway",
+        "Trending on news.ycombinator.com — 142 points, 59 comments.",
+        "Submitted by est on news.ycombinator.com."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
-      "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-      "discuss_url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+      "title": "The dawn of the age of the exoskeleton",
+      "url": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/",
+      "discuss_url": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/",
       "score": null,
       "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-10-02T23:03:16Z",
+      "author": "Ildar Farkhatdinov, The Conversation",
+      "published": "2026-10-03T11:15:33Z",
       "bullets": [
-        "Meta says FDA isn't sufficient to Muse reading messages.",
-        "Apple begs to differ.",
-        "Apple changes full-disk access permissions to curb abuse from AI agents"
+        "The devices continue to show noticeable benefits for users in various real-world tasks.",
+        "The dawn of the age of the exoskeleton",
+        "Submitted by Ildar Farkhatdinov, The Conversation on arstechnica.com."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Kolibri is an open-weight LLM from Aleph Alpha for German and English",
+      "url": "https://tej.as/blog/aleph-alpha-kolibri",
+      "discuss_url": "https://news.ycombinator.com/item?id=49943034",
+      "score": 245,
+      "comments": 112,
+      "author": "tejaskumar__",
+      "published": "2026-10-03T10:43:51Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "From the creator of Redis; run LLM locally with ds4",
       "url": "https://dwarfstar.sh/",
       "discuss_url": "https://news.ycombinator.com/item?id=49936575",
-      "score": 258,
-      "comments": 68,
+      "score": 300,
+      "comments": 89,
       "author": "fibo",
       "published": "2026-10-02T18:01:16Z"
     },
@@ -136,22 +148,10 @@
       "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
       "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
       "discuss_url": "https://news.ycombinator.com/item?id=49929391",
-      "score": 246,
-      "comments": 77,
+      "score": 283,
+      "comments": 107,
       "author": "usernomdeguerre",
       "published": "2026-10-02T02:51:27Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
-      "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=49921050",
-      "score": 210,
-      "comments": 159,
-      "author": "dgellow",
-      "published": "2026-10-01T13:00:55Z"
     },
     {
       "source": "lobsters",
@@ -256,8 +256,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/hfmcxi",
       "discuss_url": "https://lobste.rs/s/hfmcxi",
-      "score": 21,
-      "comments": 67,
+      "score": 22,
+      "comments": 73,
       "author": "caius",
       "published": "2026-10-02T08:18:01Z"
     },
@@ -268,8 +268,8 @@
       "title": "The hidden design compromises of Docker layers",
       "url": "https://loige.co/hidden-design-compromises-of-docker-layers/",
       "discuss_url": "https://lobste.rs/s/uuu6us",
-      "score": 15,
-      "comments": 11,
+      "score": 20,
+      "comments": 12,
       "author": "loige",
       "published": "2026-10-02T08:29:47Z"
     },
@@ -400,10 +400,22 @@
       "title": "I got targeted: Trying to get your credentials via a git post-checkout hook",
       "url": "https://frankwiles.com/posts/i-got-targeted/",
       "discuss_url": "https://lobste.rs/s/cd5gdk",
-      "score": 57,
-      "comments": 14,
+      "score": 80,
+      "comments": 25,
       "author": "frankwiles",
       "published": "2026-10-02T22:19:02Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "How to Hack Time, With C2PA",
+      "url": "https://www.da.vidbuchanan.co.uk/blog/hacking-time.html",
+      "discuss_url": "https://lobste.rs/s/u8uvlr",
+      "score": 7,
+      "comments": 0,
+      "author": "retr0id",
+      "published": "2026-10-03T11:58:14Z"
     },
     {
       "source": "lobsters",
@@ -412,8 +424,8 @@
       "title": "Updates to Full Disk Access in macOS",
       "url": "https://developer.apple.com/news/?id=p6zjojqw",
       "discuss_url": "https://lobste.rs/s/9ipypq",
-      "score": 13,
-      "comments": 19,
+      "score": 19,
+      "comments": 29,
       "author": "videah",
       "published": "2026-10-02T20:10:26Z"
     },
@@ -526,16 +538,16 @@
       "published": "2026-09-30T04:05:15Z"
     },
     {
-      "source": "rss",
-      "subsource": "krebsonsecurity.com",
-      "category": "security",
-      "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
-      "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
-      "discuss_url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
-      "score": null,
-      "comments": null,
-      "author": "BrianKrebs",
-      "published": "2026-09-28T15:08:57Z"
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "devops",
+      "title": "Cloudflare OHTTP gateway",
+      "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49941091",
+      "score": 142,
+      "comments": 59,
+      "author": "est",
+      "published": "2026-10-03T03:15:05Z"
     },
     {
       "source": "lobsters",
@@ -544,22 +556,10 @@
       "title": "gVisor is being donated to CNCF",
       "url": "https://gvisor.dev/blog/2026/10/02/gvisor-cncf/",
       "discuss_url": "https://lobste.rs/s/asoxjl",
-      "score": 15,
-      "comments": 2,
+      "score": 26,
+      "comments": 6,
       "author": "carlana",
       "published": "2026-10-03T02:41:38Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "devops",
-      "title": "Cloudflare K2: serverless event streams",
-      "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49921923",
-      "score": 283,
-      "comments": 111,
-      "author": "elffjs",
-      "published": "2026-10-01T14:09:10Z"
     },
     {
       "source": "rss",
@@ -680,6 +680,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-10-01T20:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "The dawn of the age of the exoskeleton",
+      "url": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/",
+      "discuss_url": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/",
+      "score": null,
+      "comments": null,
+      "author": "Ildar Farkhatdinov, The Conversation",
+      "published": "2026-10-03T11:15:33Z"
     },
     {
       "source": "rss",
@@ -812,18 +824,6 @@
       "comments": null,
       "author": "Jonathan M. Gitlin",
       "published": "2026-10-02T16:05:26Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The 7-year-old Nvidia Shield TV is now $100 more expensive due to AI",
-      "url": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-10-02T14:52:16Z"
     }
   ]
 }
