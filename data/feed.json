@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T21:58:55Z",
+  "updated_at": "2026-10-03T04:31:55Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
-      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
-      "discuss_url": "https://news.ycombinator.com/item?id=49929391",
-      "score": 134,
-      "comments": 27,
-      "author": "usernomdeguerre",
-      "published": "2026-10-02T02:51:27Z",
+      "title": "From the creator of Redis; run LLM locally with ds4",
+      "url": "https://dwarfstar.sh/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49936575",
+      "score": 185,
+      "comments": 53,
+      "author": "fibo",
+      "published": "2026-10-02T18:01:16Z",
       "bullets": [
-        "Linux maintainer GKH highlights the surge of low-quality, LLM-generated bug reports and bogus CVE submissions straining kernel development teams.",
-        "AI code generation introduces subtle vulnerabilities and hallucinations into patches, demanding strict human-in-the-loop review before upstream kernel acceptance.",
-        "While LLMs aid automated vulnerability scanning, their inability to understand architectural context currently makes them net-negative for open-source kernel security."
+        "Redis creator Salvatore Sanfilippo (antirez) released ds4, a minimalist runtime designed to execute LLMs locally without heavyweight dependencies.",
+        "Emphasizes ultra-low-overhead, hackable architecture reminiscent of Redis, bypassing complex framework stacks like PyTorch for local model inference.",
+        "Offers engineers a lightweight, transparent alternative to runtimes like llama.cpp and Ollama for edge and consumer hardware deployments."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/hfmcxi",
       "discuss_url": "https://lobste.rs/s/hfmcxi",
-      "score": 19,
-      "comments": 54,
+      "score": 20,
+      "comments": 59,
       "author": "caius",
       "published": "2026-10-02T08:18:01Z",
       "bullets": [
-        "Lobsters community thread highlights developer side projects, ranging from systems programming experiments to homelab infrastructure deployments across 54 responses.",
-        "Participants exchange early-stage architectures, solicit peer feedback, and troubleshoot tooling across ecosystems like Rust, Go, and Linux environments.",
-        "Engineers emphasize balancing self-directed skill acquisition and open-source hacking with intentional downtime to combat industry burnout."
+        "Lobsters community members share progress on personal side-projects, open-source tools, and experimental systems programming over the weekend.",
+        "Engineers leverage the informal forum to solicit architectural feedback, debugging assistance, and code reviews on prototype software.",
+        "Discussions highlight intentional downtime alongside tinkering, normalizing non-coding time to mitigate developer burnout."
       ]
     },
     {
@@ -71,48 +71,48 @@
       "title": "Updates to Full Disk Access in macOS",
       "url": "https://developer.apple.com/news/?id=p6zjojqw",
       "discuss_url": "https://lobste.rs/s/9ipypq",
-      "score": 7,
-      "comments": 8,
+      "score": 9,
+      "comments": 13,
       "author": "videah",
       "published": "2026-10-02T20:10:26Z",
       "bullets": [
-        "Updates to Full Disk Access in macOS",
-        "Trending on lobste.rs/security — 7 points, 8 comments.",
-        "Submitted by videah on lobste.rs/security."
+        "Apple continues tightening TCC controls, restricting synthetic events, script-based escalations, and unprivileged access to Full Disk Access protected paths.",
+        "MDM-managed PPPC profiles remain critical for pre-approving FDA for EDR agents without triggering disruptive Sequoia-era recurring user consent prompts.",
+        "Security teams must monitor system TCC.db modifications and binary entitlement changes to detect unauthorized privilege escalation and persistence techniques."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
       "category": "devops",
-      "title": "Cloudflare K2: serverless event streams",
-      "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49921923",
-      "score": 281,
-      "comments": 111,
-      "author": "elffjs",
-      "published": "2026-10-01T14:09:10Z",
+      "title": "gVisor is being donated to CNCF",
+      "url": "https://gvisor.dev/blog/2026/10/02/gvisor-cncf/",
+      "discuss_url": "https://lobste.rs/s/asoxjl",
+      "score": 4,
+      "comments": 0,
+      "author": "carlana",
+      "published": "2026-10-03T02:41:38Z",
       "bullets": [
-        "Provides serverless, distributed event streaming natively integrated with Cloudflare Workers and R2 for low-latency edge data pipelines.",
-        "Serves as an operational alternative to Kafka and Kinesis, eliminating broker management, manual partition scaling, and infrastructure provisioning.",
-        "Enables real-time log ingestion, telemetry aggregation, and event-driven architectures directly at global edge points of presence."
+        "Google transfers governance to the CNCF, standardizing the sandboxed container runtime alongside Kubernetes and containerd ecosystem projects.",
+        "The Go-based user-space kernel (`runsc`) intercepts Linux syscalls, enforcing secure isolation for untrusted and multi-tenant container workloads.",
+        "Neutral stewardship will accelerate third-party cloud integrations and tooling for mitigation against host kernel container escapes."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
-      "url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
+      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+      "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+      "discuss_url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
       "score": null,
       "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-10-02T20:30:27Z",
+      "author": "Dan Goodin",
+      "published": "2026-10-02T23:03:16Z",
       "bullets": [
-        "Amazon committed $1B and ended non-disclosure agreements with municipalities, yet faces criticism over data center resource transparency.",
-        "Environmental advocates argue the fund downplays hyperscale data centers' rising emissions, fossil fuel reliance, and strained local water supplies.",
-        "Hyperscalers face growing regulatory resistance, forcing operators to balance aggressive AI infrastructure expansion with verifiable sustainability reporting."
+        "Apple is tightening macOS Full Disk Access (FDA) controls to prevent autonomous AI agents from scraping sensitive local user databases.",
+        "The move follows friction with Meta regarding its Muse assistant, which sought access to local message databases on macOS.",
+        "Security teams must adapt desktop AI workflows as Apple enforces strict, granular TCC boundaries over broad filesystem permissions."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "From the creator of Redis; run LLM locally with ds4",
+      "url": "https://dwarfstar.sh/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49936575",
+      "score": 185,
+      "comments": 53,
+      "author": "fibo",
+      "published": "2026-10-02T18:01:16Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
       "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
       "discuss_url": "https://news.ycombinator.com/item?id=49929391",
-      "score": 134,
-      "comments": 27,
+      "score": 200,
+      "comments": 52,
       "author": "usernomdeguerre",
       "published": "2026-10-02T02:51:27Z"
     },
@@ -136,7 +148,7 @@
       "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
       "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49921050",
-      "score": 207,
+      "score": 208,
       "comments": 159,
       "author": "dgellow",
       "published": "2026-10-01T13:00:55Z"
@@ -256,8 +268,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/hfmcxi",
       "discuss_url": "https://lobste.rs/s/hfmcxi",
-      "score": 19,
-      "comments": 54,
+      "score": 20,
+      "comments": 59,
       "author": "caius",
       "published": "2026-10-02T08:18:01Z"
     },
@@ -268,7 +280,7 @@
       "title": "The hidden design compromises of Docker layers",
       "url": "https://loige.co/hidden-design-compromises-of-docker-layers/",
       "discuss_url": "https://lobste.rs/s/uuu6us",
-      "score": 8,
+      "score": 11,
       "comments": 10,
       "author": "loige",
       "published": "2026-10-02T08:29:47Z"
@@ -400,10 +412,22 @@
       "title": "Updates to Full Disk Access in macOS",
       "url": "https://developer.apple.com/news/?id=p6zjojqw",
       "discuss_url": "https://lobste.rs/s/9ipypq",
-      "score": 7,
-      "comments": 8,
+      "score": 9,
+      "comments": 13,
       "author": "videah",
       "published": "2026-10-02T20:10:26Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "I got targeted: Trying to get your credentials via a git post-checkout hook",
+      "url": "https://frankwiles.com/posts/i-got-targeted/",
+      "discuss_url": "https://lobste.rs/s/cd5gdk",
+      "score": 22,
+      "comments": 0,
+      "author": "frankwiles",
+      "published": "2026-10-02T22:19:02Z"
     },
     {
       "source": "lobsters",
@@ -445,18 +469,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Branch Target Reuse: Spectre-v2 Attacks in JIT Engines",
-      "url": "https://www.vusec.net/projects/btr/",
-      "discuss_url": "https://lobste.rs/s/y3ppje",
-      "score": 11,
-      "comments": 1,
-      "author": "fro",
-      "published": "2026-09-30T18:06:19Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Getting root on OnePlus 15 from an untrusted app",
       "url": "https://blog.nns.ee/2026/09/24/oneplus-root/",
       "discuss_url": "https://lobste.rs/s/a5rcxy",
@@ -464,6 +476,18 @@
       "comments": 4,
       "author": "lknuth",
       "published": "2026-09-29T17:25:55Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Branch Target Reuse: Spectre-v2 Attacks in JIT Engines",
+      "url": "https://www.vusec.net/projects/btr/",
+      "discuss_url": "https://lobste.rs/s/y3ppje",
+      "score": 11,
+      "comments": 1,
+      "author": "fro",
+      "published": "2026-09-30T18:06:19Z"
     },
     {
       "source": "lobsters",
@@ -526,16 +550,16 @@
       "published": "2026-09-28T15:08:57Z"
     },
     {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
-      "url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
-      "discuss_url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-10-02T17:33:31Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "gVisor is being donated to CNCF",
+      "url": "https://gvisor.dev/blog/2026/10/02/gvisor-cncf/",
+      "discuss_url": "https://lobste.rs/s/asoxjl",
+      "score": 4,
+      "comments": 0,
+      "author": "carlana",
+      "published": "2026-10-03T02:41:38Z"
     },
     {
       "source": "hackernews",
@@ -544,10 +568,22 @@
       "title": "Cloudflare K2: serverless event streams",
       "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
       "discuss_url": "https://news.ycombinator.com/item?id=49921923",
-      "score": 281,
+      "score": 282,
       "comments": 111,
       "author": "elffjs",
       "published": "2026-10-01T14:09:10Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-02T20:18:00Z"
     },
     {
       "source": "rss",
@@ -659,27 +695,27 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Redshift now supports cross-Region queries for your data lake",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-cross-Region-queries-for-data-lake",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-cross-Region-queries-for-data-lake",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+      "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+      "discuss_url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-01T18:41:00Z"
+      "author": "Dan Goodin",
+      "published": "2026-10-02T23:03:16Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon DynamoDB introduces filtered export to Amazon S3",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-introduces-filtered-export/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-introduces-filtered-export/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Someone got Doom in an SQL database",
+      "url": "https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/",
+      "discuss_url": "https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-01T17:00:00Z"
+      "author": "Kyle Orland",
+      "published": "2026-10-02T21:19:05Z"
     },
     {
       "source": "rss",
@@ -800,30 +836,6 @@
       "comments": null,
       "author": "Ryan Whitwam",
       "published": "2026-10-02T14:52:16Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Rocket Report: SpaceX completes launch triple-header; Rocket Lab nets big contract",
-      "url": "https://arstechnica.com/space/2026/10/rocket-report-spacex-completes-launch-triple-header-rocket-lab-nets-big-contract/",
-      "discuss_url": "https://arstechnica.com/space/2026/10/rocket-report-spacex-completes-launch-triple-header-rocket-lab-nets-big-contract/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-10-02T13:54:34Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "TCL is right to question Samsung’s use of the term “Mini LED”",
-      "url": "https://arstechnica.com/gadgets/2026/10/tcl-is-right-to-question-samsungs-use-of-the-term-mini-led/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/10/tcl-is-right-to-question-samsungs-use-of-the-term-mini-led/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-10-02T10:30:11Z"
     }
   ]
 }
