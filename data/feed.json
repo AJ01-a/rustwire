@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T05:01:42Z",
+  "updated_at": "2026-10-04T12:00:23Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
-      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
-      "discuss_url": "https://news.ycombinator.com/item?id=49948332",
-      "score": 256,
-      "comments": 3,
-      "author": "jethronethro",
-      "published": "2026-10-03T22:18:13Z",
+      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49946567",
+      "score": 221,
+      "comments": 152,
+      "author": "saikatsg",
+      "published": "2026-10-03T18:29:30Z",
       "bullets": [
-        "Senior departure highlights escalating friction between OpenAI's accelerated commercial deployment timelines and rigorous frontier model safety evaluations.",
-        "Continued talent drain from alignment teams raises risks for enterprise compliance, safety governance, and independent oversight of proprietary foundation models.",
-        "AI practitioners should anticipate increased regulatory scrutiny and stricter third-party red teaming requirements following recurring internal lab whistleblowing."
+        "Optimize complex refactoring and agentic tasks using Anthropic's Claude Code CLI with structured system prompts and extended context windows.",
+        "Leverage prompt caching and automated tool-calling patterns to minimize API latency and token costs during large-scale code synthesis.",
+        "Deploy sub-agent architectures separating high-reasoning Opus models from faster models to manage token limits and avoid context degradation."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Why I recommend Renovate over any other dependency update tools (2024)",
       "url": "https://www.jvt.me/posts/2024/04/12/use-renovate/",
       "discuss_url": "https://lobste.rs/s/kt0yxd",
-      "score": 3,
-      "comments": 1,
+      "score": 7,
+      "comments": 2,
       "author": "janus",
       "published": "2026-10-03T22:54:52Z",
       "bullets": [
-        "Why I recommend Renovate over any other dependency update tools (2024)",
-        "Trending on lobste.rs/programming — 3 points, 1 comments.",
-        "Submitted by janus on lobste.rs/programming."
+        "Renovate supports multi-platform hosting (GitLab, GitHub, Bitbucket), monorepos, and custom regex managers for non-standard dependency files beyond native manifests.",
+        "Granular scheduling, PR batching, and customizable automerge policies drastically reduce CI/CD runner compute costs and developer notification fatigue.",
+        "Shareable JSON/JSON5 configuration presets enable organization-wide governance, automated semantic commit formatting, and precise lockfile maintenance without vendor lock-in."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "I got targeted: Trying to get your credentials via a git post-checkout hook",
       "url": "https://frankwiles.com/posts/i-got-targeted/",
       "discuss_url": "https://lobste.rs/s/cd5gdk",
-      "score": 110,
+      "score": 121,
       "comments": 37,
       "author": "frankwiles",
       "published": "2026-10-02T22:19:02Z",
       "bullets": [
-        "I got targeted: Trying to get your credentials via a git post-checkout hook",
-        "Trending on lobste.rs/security — 110 points, 37 comments.",
-        "Submitted by frankwiles on lobste.rs/security."
+        "Attackers distribute malicious repositories exploiting Git hooks, like post-checkout, to achieve automatic code execution during routine developer workflows.",
+        "Targeted payloads focus on developer credential harvesting, scanning environment variables, SSH keys, cloud configs, and local secret stores for exfiltration.",
+        "Mitigate by patching Git against hook-execution flaws like CVE-2024-32002, restricting unvetted clones to sandboxes, and auditing core.hooksPath settings."
       ]
     },
     {
@@ -88,13 +88,13 @@
       "title": "We want you to build the next Git platform on Cloudflare",
       "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
       "discuss_url": "https://news.ycombinator.com/item?id=49947051",
-      "score": 112,
-      "comments": 105,
+      "score": 145,
+      "comments": 126,
       "author": "geoffbp",
       "published": "2026-10-03T19:33:16Z",
       "bullets": [
         "We want you to build the next Git platform on Cloudflare",
-        "Trending on news.ycombinator.com — 112 points, 105 comments.",
+        "Trending on news.ycombinator.com — 145 points, 126 comments.",
         "Submitted by geoffbp on news.ycombinator.com."
       ]
     },
@@ -121,23 +121,11 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
-      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
-      "discuss_url": "https://news.ycombinator.com/item?id=49948332",
-      "score": 256,
-      "comments": 3,
-      "author": "jethronethro",
-      "published": "2026-10-03T22:18:13Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
       "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
       "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
       "discuss_url": "https://news.ycombinator.com/item?id=49946567",
-      "score": 195,
-      "comments": 133,
+      "score": 221,
+      "comments": 152,
       "author": "saikatsg",
       "published": "2026-10-03T18:29:30Z"
     },
@@ -148,10 +136,22 @@
       "title": "I quit OpenAI because its culture is broken",
       "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
       "discuss_url": "https://news.ycombinator.com/item?id=49944227",
-      "score": 118,
-      "comments": 366,
+      "score": 265,
+      "comments": 511,
       "author": "Brajeshwar",
       "published": "2026-10-03T13:46:34Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "discuss_url": "https://news.ycombinator.com/item?id=49948332",
+      "score": 263,
+      "comments": 3,
+      "author": "jethronethro",
+      "published": "2026-10-03T22:18:13Z"
     },
     {
       "source": "hackernews",
@@ -160,8 +160,8 @@
       "title": "Aleph Alpha Kolibri: How the sovereign German LLM works",
       "url": "https://tej.as/blog/aleph-alpha-kolibri",
       "discuss_url": "https://news.ycombinator.com/item?id=49943034",
-      "score": 410,
-      "comments": 11,
+      "score": 413,
+      "comments": 12,
       "author": "tejaskumar__",
       "published": "2026-10-03T10:43:51Z"
     },
@@ -172,8 +172,8 @@
       "title": "From the creator of Redis; run LLM locally with ds4",
       "url": "https://dwarfstar.sh/",
       "discuss_url": "https://news.ycombinator.com/item?id=49936575",
-      "score": 345,
-      "comments": 98,
+      "score": 351,
+      "comments": 99,
       "author": "fibo",
       "published": "2026-10-02T18:01:16Z"
     },
@@ -268,8 +268,8 @@
       "title": "Why I recommend Renovate over any other dependency update tools (2024)",
       "url": "https://www.jvt.me/posts/2024/04/12/use-renovate/",
       "discuss_url": "https://lobste.rs/s/kt0yxd",
-      "score": 3,
-      "comments": 1,
+      "score": 7,
+      "comments": 2,
       "author": "janus",
       "published": "2026-10-03T22:54:52Z"
     },
@@ -281,7 +281,7 @@
       "url": "https://lobste.rs/s/hfmcxi",
       "discuss_url": "https://lobste.rs/s/hfmcxi",
       "score": 23,
-      "comments": 81,
+      "comments": 82,
       "author": "caius",
       "published": "2026-10-02T08:18:01Z"
     },
@@ -292,7 +292,7 @@
       "title": "The hidden design compromises of Docker layers",
       "url": "https://loige.co/hidden-design-compromises-of-docker-layers/",
       "discuss_url": "https://lobste.rs/s/uuu6us",
-      "score": 23,
+      "score": 24,
       "comments": 12,
       "author": "loige",
       "published": "2026-10-02T08:29:47Z"
@@ -305,7 +305,7 @@
       "url": "https://comonad.com/reader/2026/turbo-haskell/",
       "discuss_url": "https://lobste.rs/s/j7kltq",
       "score": 32,
-      "comments": 4,
+      "comments": 5,
       "author": "carbolymer",
       "published": "2026-09-30T13:35:52Z"
     },
@@ -412,7 +412,7 @@
       "title": "I got targeted: Trying to get your credentials via a git post-checkout hook",
       "url": "https://frankwiles.com/posts/i-got-targeted/",
       "discuss_url": "https://lobste.rs/s/cd5gdk",
-      "score": 110,
+      "score": 121,
       "comments": 37,
       "author": "frankwiles",
       "published": "2026-10-02T22:19:02Z"
@@ -421,10 +421,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "A Mere Mortal's Introduction to JIT Vulnerabilities in JavaScript Engines",
+      "url": "https://trustfoundry.net/blog/jit-vulnerabilities-javascript-engines",
+      "discuss_url": "https://lobste.rs/s/hucih9",
+      "score": 1,
+      "comments": 0,
+      "author": "juliethefoxcoon",
+      "published": "2026-10-04T11:53:51Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "How to Hack Time, With C2PA",
       "url": "https://www.da.vidbuchanan.co.uk/blog/hacking-time.html",
       "discuss_url": "https://lobste.rs/s/u8uvlr",
-      "score": 18,
+      "score": 21,
       "comments": 2,
       "author": "retr0id",
       "published": "2026-10-03T11:58:14Z"
@@ -436,8 +448,8 @@
       "title": "Updates to Full Disk Access in macOS",
       "url": "https://developer.apple.com/news/?id=p6zjojqw",
       "discuss_url": "https://lobste.rs/s/9ipypq",
-      "score": 24,
-      "comments": 31,
+      "score": 25,
+      "comments": 32,
       "author": "videah",
       "published": "2026-10-02T20:10:26Z"
     },
@@ -457,18 +469,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "BSides Orlando 2026 Badge",
-      "url": "https://github.com/bsidesorlando/2026-badge",
-      "discuss_url": "https://lobste.rs/s/opwgtj",
-      "score": 3,
-      "comments": 0,
-      "author": "Helithumper",
-      "published": "2026-10-03T18:57:32Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Is sandboxing sufficient to contain rogue agents?",
       "url": "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/",
       "discuss_url": "https://lobste.rs/s/zcr7in",
@@ -481,18 +481,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "The Cuckoo's Egg",
-      "url": "https://en.wikipedia.org/wiki/The_Cuckoo%27s_Egg_(book)",
-      "discuss_url": "https://lobste.rs/s/nicozi",
-      "score": 59,
-      "comments": 25,
-      "author": "atmosx",
-      "published": "2026-09-30T08:48:43Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Major rsync upgrade in Debian because of 33 CVEs",
       "url": "https://lobste.rs/s/sqyhgt",
       "discuss_url": "https://lobste.rs/s/sqyhgt",
@@ -500,6 +488,18 @@
       "comments": 12,
       "author": "janus",
       "published": "2026-10-01T00:02:09Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "BSides Orlando 2026 Badge",
+      "url": "https://github.com/bsidesorlando/2026-badge",
+      "discuss_url": "https://lobste.rs/s/opwgtj",
+      "score": 3,
+      "comments": 0,
+      "author": "Helithumper",
+      "published": "2026-10-03T18:57:32Z"
     },
     {
       "source": "lobsters",
@@ -556,8 +556,8 @@
       "title": "We want you to build the next Git platform on Cloudflare",
       "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
       "discuss_url": "https://news.ycombinator.com/item?id=49947051",
-      "score": 112,
-      "comments": 105,
+      "score": 145,
+      "comments": 126,
       "author": "geoffbp",
       "published": "2026-10-03T19:33:16Z"
     },
@@ -568,8 +568,8 @@
       "title": "Cloudflare OHTTP gateway",
       "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
       "discuss_url": "https://news.ycombinator.com/item?id=49941091",
-      "score": 190,
-      "comments": 90,
+      "score": 195,
+      "comments": 92,
       "author": "est",
       "published": "2026-10-03T03:15:05Z"
     },
@@ -580,7 +580,7 @@
       "title": "gVisor is being donated to CNCF",
       "url": "https://gvisor.dev/blog/2026/10/02/gvisor-cncf/",
       "discuss_url": "https://lobste.rs/s/asoxjl",
-      "score": 41,
+      "score": 44,
       "comments": 7,
       "author": "carlana",
       "published": "2026-10-03T02:41:38Z"
@@ -613,9 +613,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
+      "title": "Amazon Aurora DSQL now supports partial indexes",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -625,9 +625,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon Aurora DSQL now supports partial indexes",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
+      "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
