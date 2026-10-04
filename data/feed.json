@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T20:47:47Z",
+  "updated_at": "2026-10-04T05:01:42Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,34 +34,34 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Aleph Alpha Kolibri: How the sovereign German LLM works",
-      "url": "https://tej.as/blog/aleph-alpha-kolibri",
-      "discuss_url": "https://news.ycombinator.com/item?id=49943034",
-      "score": 407,
-      "comments": 11,
-      "author": "tejaskumar__",
-      "published": "2026-10-03T10:43:51Z",
+      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "discuss_url": "https://news.ycombinator.com/item?id=49948332",
+      "score": 256,
+      "comments": 3,
+      "author": "jethronethro",
+      "published": "2026-10-03T22:18:13Z",
       "bullets": [
-        "Aleph Alpha launched Kolibri, a sovereign European foundation model suite trained on EU infrastructure prioritizing GDPR and EU AI Act compliance.",
-        "The architecture emphasizes multilingual performance across European languages, verifiable data lineage, and native explainability mechanisms for audited environments.",
-        "Kolibri supports on-premise and sovereign cloud deployment, eliminating foreign jurisdictional risks and proprietary API dependency for regulated enterprises."
+        "Senior departure highlights escalating friction between OpenAI's accelerated commercial deployment timelines and rigorous frontier model safety evaluations.",
+        "Continued talent drain from alignment teams raises risks for enterprise compliance, safety governance, and independent oversight of proprietary foundation models.",
+        "AI practitioners should anticipate increased regulatory scrutiny and stricter third-party red teaming requirements following recurring internal lab whistleblowing."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/hfmcxi",
-      "discuss_url": "https://lobste.rs/s/hfmcxi",
-      "score": 22,
-      "comments": 80,
-      "author": "caius",
-      "published": "2026-10-02T08:18:01Z",
+      "title": "Why I recommend Renovate over any other dependency update tools (2024)",
+      "url": "https://www.jvt.me/posts/2024/04/12/use-renovate/",
+      "discuss_url": "https://lobste.rs/s/kt0yxd",
+      "score": 3,
+      "comments": 1,
+      "author": "janus",
+      "published": "2026-10-03T22:54:52Z",
       "bullets": [
-        "Lobsters' weekend threads highlight developer side projects, focusing on language experimentation, personal tooling, and soliciting technical peer review.",
-        "Common engineer activities in recurring community check-ins include home lab maintenance, NixOS/Linux configuration, and self-hosted infrastructure testing.",
-        "Community norms explicitly normalize complete detachment from coding over weekends to mitigate persistent burnout across technical teams."
+        "Why I recommend Renovate over any other dependency update tools (2024)",
+        "Trending on lobste.rs/programming — 3 points, 1 comments.",
+        "Submitted by janus on lobste.rs/programming."
       ]
     },
     {
@@ -71,48 +71,48 @@
       "title": "I got targeted: Trying to get your credentials via a git post-checkout hook",
       "url": "https://frankwiles.com/posts/i-got-targeted/",
       "discuss_url": "https://lobste.rs/s/cd5gdk",
-      "score": 95,
-      "comments": 32,
+      "score": 110,
+      "comments": 37,
       "author": "frankwiles",
       "published": "2026-10-02T22:19:02Z",
       "bullets": [
-        "Threat actors weaponize git post-checkout hooks, abusing submodules or setup scripts, to execute arbitrary code automatically upon branch switching.",
-        "Injected scripts systematically exfiltrate developer secrets, specifically targeting ~/.aws credentials, SSH private keys, environment variables, and git credential helpers.",
-        "Mitigate hook-based execution globally by configuring `core.hooksPath` to /dev/null and isolating untrusted repository inspection inside sandboxed containers."
+        "I got targeted: Trying to get your credentials via a git post-checkout hook",
+        "Trending on lobste.rs/security — 110 points, 37 comments.",
+        "Submitted by frankwiles on lobste.rs/security."
       ]
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
-      "title": "Cloudflare OHTTP gateway",
-      "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49941091",
-      "score": 176,
-      "comments": 81,
-      "author": "est",
-      "published": "2026-10-03T03:15:05Z",
+      "title": "We want you to build the next Git platform on Cloudflare",
+      "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49947051",
+      "score": 112,
+      "comments": 105,
+      "author": "geoffbp",
+      "published": "2026-10-03T19:33:16Z",
       "bullets": [
-        "Cloudflare implements RFC 9458 Oblivious HTTP, separating client IP metadata from application payloads using HPKE-encrypted requests routed through intermediary relays.",
-        "Enables teams to ingest client telemetry, analytics, and metrics at scale without logging or processing sensitive end-user IP addresses.",
-        "The gateway terminates HPKE encryption before proxying plain HTTP to origins, reducing compliance burden for privacy-focused edge infrastructure."
+        "We want you to build the next Git platform on Cloudflare",
+        "Trending on news.ycombinator.com — 112 points, 105 comments.",
+        "Submitted by geoffbp on news.ycombinator.com."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "The dawn of the age of the exoskeleton",
-      "url": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/",
-      "discuss_url": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/",
+      "title": "Milt Windler, NASA flight director who helped save Apollo 13, dies at 94",
+      "url": "https://arstechnica.com/space/2026/10/milt-windler-nasa-flight-director-who-helped-save-apollo-13-dies-at-94/",
+      "discuss_url": "https://arstechnica.com/space/2026/10/milt-windler-nasa-flight-director-who-helped-save-apollo-13-dies-at-94/",
       "score": null,
       "comments": null,
-      "author": "Ildar Farkhatdinov, The Conversation",
-      "published": "2026-10-03T11:15:33Z",
+      "author": "Robert Pearlman",
+      "published": "2026-10-03T19:45:17Z",
       "bullets": [
-        "The devices continue to show noticeable benefits for users in various real-world tasks.",
-        "The dawn of the age of the exoskeleton",
-        "Submitted by Ildar Farkhatdinov, The Conversation on arstechnica.com."
+        "\"...we were making history.\"",
+        "Milt Windler, NASA flight director who helped save Apollo 13, dies at 94",
+        "Submitted by Robert Pearlman on arstechnica.com."
       ]
     }
   ],
@@ -121,10 +121,46 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "discuss_url": "https://news.ycombinator.com/item?id=49948332",
+      "score": 256,
+      "comments": 3,
+      "author": "jethronethro",
+      "published": "2026-10-03T22:18:13Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49946567",
+      "score": 195,
+      "comments": 133,
+      "author": "saikatsg",
+      "published": "2026-10-03T18:29:30Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "I quit OpenAI because its culture is broken",
+      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
+      "discuss_url": "https://news.ycombinator.com/item?id=49944227",
+      "score": 118,
+      "comments": 366,
+      "author": "Brajeshwar",
+      "published": "2026-10-03T13:46:34Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Aleph Alpha Kolibri: How the sovereign German LLM works",
       "url": "https://tej.as/blog/aleph-alpha-kolibri",
       "discuss_url": "https://news.ycombinator.com/item?id=49943034",
-      "score": 407,
+      "score": 410,
       "comments": 11,
       "author": "tejaskumar__",
       "published": "2026-10-03T10:43:51Z"
@@ -136,22 +172,22 @@
       "title": "From the creator of Redis; run LLM locally with ds4",
       "url": "https://dwarfstar.sh/",
       "discuss_url": "https://news.ycombinator.com/item?id=49936575",
-      "score": 335,
-      "comments": 95,
+      "score": 345,
+      "comments": 98,
       "author": "fibo",
       "published": "2026-10-02T18:01:16Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "huggingface.co",
       "category": "ai",
-      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
-      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
-      "discuss_url": "https://news.ycombinator.com/item?id=49929391",
-      "score": 318,
-      "comments": 115,
-      "author": "usernomdeguerre",
-      "published": "2026-10-02T02:51:27Z"
+      "title": "The Agent Said It Was Done. The Database Disagreed.",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "discuss_url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-03T22:56:48Z"
     },
     {
       "source": "rss",
@@ -229,11 +265,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
+      "title": "Why I recommend Renovate over any other dependency update tools (2024)",
+      "url": "https://www.jvt.me/posts/2024/04/12/use-renovate/",
+      "discuss_url": "https://lobste.rs/s/kt0yxd",
+      "score": 3,
+      "comments": 1,
+      "author": "janus",
+      "published": "2026-10-03T22:54:52Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/hfmcxi",
       "discuss_url": "https://lobste.rs/s/hfmcxi",
-      "score": 22,
-      "comments": 80,
+      "score": 23,
+      "comments": 81,
       "author": "caius",
       "published": "2026-10-02T08:18:01Z"
     },
@@ -244,7 +292,7 @@
       "title": "The hidden design compromises of Docker layers",
       "url": "https://loige.co/hidden-design-compromises-of-docker-layers/",
       "discuss_url": "https://lobste.rs/s/uuu6us",
-      "score": 22,
+      "score": 23,
       "comments": 12,
       "author": "loige",
       "published": "2026-10-02T08:29:47Z"
@@ -358,26 +406,14 @@
       "published": "2026-09-30T17:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "Anyone can start building verified knowledge with Stack Internal",
-      "url": "https://stackoverflow.blog/2026/09/30/anyone-can-start-building-verified-knowledge-with-stack-internal/",
-      "discuss_url": "https://stackoverflow.blog/2026/09/30/anyone-can-start-building-verified-knowledge-with-stack-internal/",
-      "score": null,
-      "comments": null,
-      "author": "Caroline Thomas",
-      "published": "2026-09-30T16:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "I got targeted: Trying to get your credentials via a git post-checkout hook",
       "url": "https://frankwiles.com/posts/i-got-targeted/",
       "discuss_url": "https://lobste.rs/s/cd5gdk",
-      "score": 95,
-      "comments": 32,
+      "score": 110,
+      "comments": 37,
       "author": "frankwiles",
       "published": "2026-10-02T22:19:02Z"
     },
@@ -388,8 +424,8 @@
       "title": "How to Hack Time, With C2PA",
       "url": "https://www.da.vidbuchanan.co.uk/blog/hacking-time.html",
       "discuss_url": "https://lobste.rs/s/u8uvlr",
-      "score": 12,
-      "comments": 0,
+      "score": 18,
+      "comments": 2,
       "author": "retr0id",
       "published": "2026-10-03T11:58:14Z"
     },
@@ -400,10 +436,22 @@
       "title": "Updates to Full Disk Access in macOS",
       "url": "https://developer.apple.com/news/?id=p6zjojqw",
       "discuss_url": "https://lobste.rs/s/9ipypq",
-      "score": 21,
-      "comments": 29,
+      "score": 24,
+      "comments": 31,
       "author": "videah",
       "published": "2026-10-02T20:10:26Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Security in the LLM Age",
+      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+      "discuss_url": "https://lobste.rs/s/rghh9w",
+      "score": 9,
+      "comments": 0,
+      "author": "dimonomid",
+      "published": "2026-10-03T11:57:02Z"
     },
     {
       "source": "lobsters",
@@ -412,7 +460,7 @@
       "title": "BSides Orlando 2026 Badge",
       "url": "https://github.com/bsidesorlando/2026-badge",
       "discuss_url": "https://lobste.rs/s/opwgtj",
-      "score": 1,
+      "score": 3,
       "comments": 0,
       "author": "Helithumper",
       "published": "2026-10-03T18:57:32Z"
@@ -433,18 +481,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Major rsync upgrade in Debian because of 33 CVEs",
-      "url": "https://lobste.rs/s/sqyhgt",
-      "discuss_url": "https://lobste.rs/s/sqyhgt",
-      "score": 39,
-      "comments": 12,
-      "author": "janus",
-      "published": "2026-10-01T00:02:09Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "The Cuckoo's Egg",
       "url": "https://en.wikipedia.org/wiki/The_Cuckoo%27s_Egg_(book)",
       "discuss_url": "https://lobste.rs/s/nicozi",
@@ -452,6 +488,18 @@
       "comments": 25,
       "author": "atmosx",
       "published": "2026-09-30T08:48:43Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Major rsync upgrade in Debian because of 33 CVEs",
+      "url": "https://lobste.rs/s/sqyhgt",
+      "discuss_url": "https://lobste.rs/s/sqyhgt",
+      "score": 39,
+      "comments": 12,
+      "author": "janus",
+      "published": "2026-10-01T00:02:09Z"
     },
     {
       "source": "lobsters",
@@ -502,16 +550,16 @@
       "published": "2026-10-01T13:41:13Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Fake Express Packages on npm Spread a Linux Worm",
-      "url": "https://safedep.io/dirtyblanket-express-impersonation-npm",
-      "discuss_url": "https://lobste.rs/s/e2gxro",
-      "score": 3,
-      "comments": 0,
-      "author": "Yogthos",
-      "published": "2026-09-30T04:05:15Z"
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "devops",
+      "title": "We want you to build the next Git platform on Cloudflare",
+      "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+      "discuss_url": "https://news.ycombinator.com/item?id=49947051",
+      "score": 112,
+      "comments": 105,
+      "author": "geoffbp",
+      "published": "2026-10-03T19:33:16Z"
     },
     {
       "source": "hackernews",
@@ -520,8 +568,8 @@
       "title": "Cloudflare OHTTP gateway",
       "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
       "discuss_url": "https://news.ycombinator.com/item?id=49941091",
-      "score": 176,
-      "comments": 81,
+      "score": 190,
+      "comments": 90,
       "author": "est",
       "published": "2026-10-03T03:15:05Z"
     },
@@ -532,8 +580,8 @@
       "title": "gVisor is being donated to CNCF",
       "url": "https://gvisor.dev/blog/2026/10/02/gvisor-cncf/",
       "discuss_url": "https://lobste.rs/s/asoxjl",
-      "score": 31,
-      "comments": 6,
+      "score": 41,
+      "comments": 7,
       "author": "carlana",
       "published": "2026-10-03T02:41:38Z"
     },
@@ -647,15 +695,15 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Well-Architected Agent is now available in preview",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Milt Windler, NASA flight director who helped save Apollo 13, dies at 94",
+      "url": "https://arstechnica.com/space/2026/10/milt-windler-nasa-flight-director-who-helped-save-apollo-13-dies-at-94/",
+      "discuss_url": "https://arstechnica.com/space/2026/10/milt-windler-nasa-flight-director-who-helped-save-apollo-13-dies-at-94/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-01T20:00:00Z"
+      "author": "Robert Pearlman",
+      "published": "2026-10-03T19:45:17Z"
     },
     {
       "source": "rss",
@@ -788,18 +836,6 @@
       "comments": null,
       "author": "Jeremy Hsu",
       "published": "2026-10-02T17:20:21Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Cybertruck sales in free fall as Tesla reports mediocre sales for Q3",
-      "url": "https://arstechnica.com/cars/2026/10/tesla-sales-drop-2-percent-in-underwhelming-q3-2026/",
-      "discuss_url": "https://arstechnica.com/cars/2026/10/tesla-sales-drop-2-percent-in-underwhelming-q3-2026/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-10-02T16:05:26Z"
     }
   ]
 }
