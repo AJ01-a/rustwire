@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T21:02:46Z",
+  "updated_at": "2026-10-05T04:48:40Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Religious scholars met with Anthropic",
       "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49950052",
-      "score": 152,
-      "comments": 381,
+      "score": 158,
+      "comments": 408,
       "author": "bookofjoe",
       "published": "2026-10-04T02:34:22Z",
       "bullets": [
-        "Anthropic consulted theologians to inform Constitutional AI guidelines, examining how religious and ethical traditions shape model behavioral principles.",
-        "The engagement aims to broaden normative inputs for Claude's RLAIF constitutions beyond predominantly secular, Western, and engineering-centric frameworks.",
-        "Reflects a wider frontier-lab trend integrating multidisciplinary ethical governance to address existential risk, human value alignment, and societal impact."
+        "Anthropic convened theologians and religious scholars to explore spiritual, ethical, and metaphysical frameworks for governing frontier AI models.",
+        "Discussions focused on expanding AI alignment and Constitutional AI principles beyond standard secular and Western human rights frameworks.",
+        "The engagement signals frontier labs seeking broad normative consensus on AGI risks, moral agency, and autonomous decision-making."
       ]
     },
     {
@@ -59,9 +59,9 @@
       "author": "janus",
       "published": "2026-10-03T22:54:52Z",
       "bullets": [
-        "Renovate supports cross-platform hosting across GitHub, GitLab, and Bitbucket, offering superior flexibility compared to platform-bound alternatives like Dependabot.",
-        "Advanced scheduling and intelligent dependency grouping via `renovate.json` significantly mitigate PR fatigue compared to default one-PR-per-package tooling.",
-        "Native monorepo support, custom regex managers, and robust automerge capabilities provide granular control over enterprise dependency lifecycles."
+        "Renovate offers superior monorepo support, flexible PR grouping, and custom regex managers via renovate.json compared to GitHub Dependabot.",
+        "It supports self-hosting across GitHub, GitLab, and Gitea, scanning diverse ecosystems including Dockerfiles, Helm charts, and custom dependencies.",
+        "Granular scheduling, noise-reducing package grouping, and configurable automerge dramatically reduce PR fatigue compared to alternatives like Dependabot."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "I got targeted: Trying to get your credentials via a git post-checkout hook",
       "url": "https://frankwiles.com/posts/i-got-targeted/",
       "discuss_url": "https://lobste.rs/s/cd5gdk",
-      "score": 126,
+      "score": 129,
       "comments": 39,
       "author": "frankwiles",
       "published": "2026-10-02T22:19:02Z",
       "bullets": [
-        "Attackers weaponize Git post-checkout hooks to automatically execute arbitrary shell scripts targeting developer environment variables, SSH keys, and cloud credentials.",
-        "Payloads trigger seamlessly during branch switching or checkout operations, bypassing traditional static file scanning focused solely on source code.",
-        "Defenders should override default hook directories via core.hooksPath or isolate untrusted repository clones within sandboxed containers or ephemeral VMs."
+        "Attackers weaponize Git post-checkout hooks within cloned repositories or submodules to trigger silent, automated credential exfiltration upon branch switching.",
+        "Untrusted repositories target developer workstations to harvest sensitive secrets, including local SSH keys, cloud provider tokens, and Git credential caches.",
+        "Mitigate hook execution vectors by auditing .git/hooks, setting core.hooksPath to an empty directory, and isolating untrusted code in containers."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "We want you to build the next Git platform on Cloudflare",
       "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
       "discuss_url": "https://news.ycombinator.com/item?id=49947051",
-      "score": 207,
-      "comments": 185,
+      "score": 216,
+      "comments": 196,
       "author": "geoffbp",
       "published": "2026-10-03T19:33:16Z",
       "bullets": [
-        "Cloudflare positions Workers, Durable Objects, and R2 as serverless infrastructure for hosting scalable, geo-distributed Git repositories at the edge.",
-        "Implementing the Git HTTP smart protocol requires handling packfile parsing in R2 and atomic branch ref updates via Durable Objects.",
-        "Serverless edge Git architectures could minimize clone latency for distributed CI/CD runners, challenging monolithic self-hosted platforms like GitLab."
+        "We want you to build the next Git platform on Cloudflare",
+        "Trending on news.ycombinator.com — 216 points, 196 comments.",
+        "Submitted by geoffbp on news.ycombinator.com."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Jennifer Ouellette",
       "published": "2026-10-04T15:34:14Z",
       "bullets": [
-        "National Geographic launched its new natural history documentary series, Africa: Earth's Wild Home, narrated by actor Wunmi Mosaku.",
-        "Modern wildlife productions increasingly rely on ultra-high-definition remote camera traps, stabilized drone systems, and specialized digital sensors.",
-        "Major streaming networks continue funding high-budget unscripted natural history content to drive global subscriber retention and catalog differentiation."
+        "Wunmi Mosaku ( Sinners, Loki ) narrates NatGeo's new documentary Africa: Earth's Wild Home",
+        "Lions and cheetahs and chimps, oh my: a spotlight on Africa's diverse wildlife",
+        "Submitted by Jennifer Ouellette on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Religious scholars met with Anthropic",
       "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
       "discuss_url": "https://news.ycombinator.com/item?id=49950052",
-      "score": 152,
-      "comments": 381,
+      "score": 158,
+      "comments": 408,
       "author": "bookofjoe",
       "published": "2026-10-04T02:34:22Z"
     },
@@ -136,8 +136,8 @@
       "title": "I quit OpenAI because its culture is broken",
       "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
       "discuss_url": "https://news.ycombinator.com/item?id=49944227",
-      "score": 443,
-      "comments": 745,
+      "score": 464,
+      "comments": 781,
       "author": "Brajeshwar",
       "published": "2026-10-03T13:46:34Z"
     },
@@ -148,8 +148,8 @@
       "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
       "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
       "discuss_url": "https://news.ycombinator.com/item?id=49946567",
-      "score": 230,
-      "comments": 155,
+      "score": 232,
+      "comments": 157,
       "author": "saikatsg",
       "published": "2026-10-03T18:29:30Z"
     },
@@ -412,7 +412,7 @@
       "title": "I got targeted: Trying to get your credentials via a git post-checkout hook",
       "url": "https://frankwiles.com/posts/i-got-targeted/",
       "discuss_url": "https://lobste.rs/s/cd5gdk",
-      "score": 126,
+      "score": 129,
       "comments": 39,
       "author": "frankwiles",
       "published": "2026-10-02T22:19:02Z"
@@ -424,8 +424,8 @@
       "title": "Updates to Full Disk Access in macOS",
       "url": "https://developer.apple.com/news/?id=p6zjojqw",
       "discuss_url": "https://lobste.rs/s/9ipypq",
-      "score": 27,
-      "comments": 37,
+      "score": 28,
+      "comments": 39,
       "author": "videah",
       "published": "2026-10-02T20:10:26Z"
     },
@@ -437,7 +437,7 @@
       "url": "https://www.da.vidbuchanan.co.uk/blog/hacking-time.html",
       "discuss_url": "https://lobste.rs/s/u8uvlr",
       "score": 25,
-      "comments": 2,
+      "comments": 3,
       "author": "retr0id",
       "published": "2026-10-03T11:58:14Z"
     },
@@ -469,18 +469,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Major rsync upgrade in Debian because of 33 CVEs",
-      "url": "https://lobste.rs/s/sqyhgt",
-      "discuss_url": "https://lobste.rs/s/sqyhgt",
-      "score": 39,
-      "comments": 12,
-      "author": "janus",
-      "published": "2026-10-01T00:02:09Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "BSides Orlando 2026 Badge",
       "url": "https://github.com/bsidesorlando/2026-badge",
       "discuss_url": "https://lobste.rs/s/opwgtj",
@@ -500,18 +488,6 @@
       "comments": 0,
       "author": "juliethefoxcoon",
       "published": "2026-10-04T11:53:51Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "ESXi Exploitation in the Wild",
-      "url": "https://www.huntress.com/blog/esxi-vm-escape-exploit",
-      "discuss_url": "https://lobste.rs/s/f6dogm",
-      "score": 5,
-      "comments": 0,
-      "author": "juliethefoxcoon",
-      "published": "2026-10-01T02:30:14Z"
     },
     {
       "source": "lobsters",
@@ -550,28 +526,40 @@
       "published": "2026-10-04T07:22:05Z"
     },
     {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+      "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+      "discuss_url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-10-04T07:20:32Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
+      "url": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
+      "discuss_url": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-10-03T14:38:46Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "We want you to build the next Git platform on Cloudflare",
       "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
       "discuss_url": "https://news.ycombinator.com/item?id=49947051",
-      "score": 207,
-      "comments": 185,
+      "score": 216,
+      "comments": 196,
       "author": "geoffbp",
       "published": "2026-10-03T19:33:16Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "devops",
-      "title": "Cloudflare OHTTP gateway",
-      "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
-      "discuss_url": "https://news.ycombinator.com/item?id=49941091",
-      "score": 201,
-      "comments": 95,
-      "author": "est",
-      "published": "2026-10-03T03:15:05Z"
     },
     {
       "source": "lobsters",
@@ -580,8 +568,8 @@
       "title": "gVisor is being donated to CNCF",
       "url": "https://gvisor.dev/blog/2026/10/02/gvisor-cncf/",
       "discuss_url": "https://lobste.rs/s/asoxjl",
-      "score": 50,
-      "comments": 12,
+      "score": 53,
+      "comments": 13,
       "author": "carlana",
       "published": "2026-10-03T02:41:38Z"
     },
@@ -692,6 +680,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-10-02T03:35:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Well-Architected Agent is now available in preview",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-01T20:00:00Z"
     },
     {
       "source": "rss",
