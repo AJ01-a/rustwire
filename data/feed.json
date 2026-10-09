@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T05:19:49Z",
+  "updated_at": "2026-10-09T12:52:12Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "OpenAI annualised revenues $20B less than previously signalled",
-      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=50008187",
-      "score": 372,
-      "comments": 246,
-      "author": "mfiguiere",
-      "published": "2026-10-08T16:45:58Z",
+      "title": "OpenAI, the Partition Principle, and Mathematics",
+      "url": "https://karagila.org/2026/openai-pp/",
+      "discuss_url": "https://news.ycombinator.com/item?id=50013902",
+      "score": 141,
+      "comments": 220,
+      "author": "md224",
+      "published": "2026-10-08T23:29:43Z",
       "bullets": [
-        "Revised revenue figures underscore the widening gap between massive training/inference infrastructure costs and actual commercial monetization.",
-        "Heightened scrutiny on OpenAI's operational cash burn may accelerate shifts toward enterprise API margin optimization and tighter tier limits.",
-        "Heavy reliance on Microsoft Azure compute commitments and multi-billion-dollar operating losses challenge aggressive scaling and long-term valuation models."
+        "Explores using frontier LLM reasoning systems to tackle open foundational set theory problems, specifically whether the Partition Principle implies Choice.",
+        "Assesses AI capabilities in formal mathematics, contrasting syntactic proof generation in systems like Lean against deep semantic mathematical breakthroughs.",
+        "Highlights current model limitations: LLMs excel at search and local lemma verification but struggle with novel global proof strategies in ZFC."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Anti-Patterns in Software Blogging",
       "url": "https://refactoringenglish.com/blog/anti-patterns-software-blogging/",
       "discuss_url": "https://lobste.rs/s/rwdufq",
-      "score": 132,
-      "comments": 50,
+      "score": 142,
+      "comments": 52,
       "author": "mtlynch",
       "published": "2026-10-07T13:09:33Z",
       "bullets": [
-        "Publishing trivial 'Hello World' tutorials or regurgitated documentation fails to provide value without addressing production failure modes or edge cases.",
-        "Recommending novel frameworks or architectures without publishing reproducible benchmarks, migration trade-offs, or real-world operational costs misleads technical decision-makers.",
-        "SEO-driven content padding and low-effort generative AI summaries dilute engineering discourse compared to postmortems featuring real stack traces and metrics."
+        "Surface-level 'Hello World' tutorials and unverified AI-generated code snippets degrade credibility and ignore real production trade-offs.",
+        "Omitting benchmarks, failure modes, and architectural edge cases limits utility for engineers evaluating frameworks or system designs.",
+        "Paywalls, disabled RSS feeds, bloated JavaScript frameworks, and aggressive popups alienate developers seeking reproducible, lightweight technical writeups."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "64-Day Certificate Lifetimes Coming Feb 2027",
       "url": "https://letsencrypt.org/2026/10/07/64-day-certs.html",
       "discuss_url": "https://lobste.rs/s/dcrosf",
-      "score": 14,
-      "comments": 2,
+      "score": 26,
+      "comments": 9,
       "author": "fanf",
       "published": "2026-10-08T19:06:25Z",
       "bullets": [
-        "Public Web PKI TLS certificate validity drops to 64 days by February 2027, continuing browser-driven lifetime reduction initiatives.",
-        "Organizations must transition manual renewals to automated ACME pipelines via tools like Certbot or HashiCorp Vault to prevent production outages.",
-        "Shorter lifespans limit exposure windows for compromised private keys while reducing operational reliance on fragile CRL and OCSP revocation checks."
+        "TLS certificate validity drops from 398 to 64 days in Feb 2027, driven by browser root program policy updates.",
+        "Manual rotations become unviable; organizations must adopt automated issuance protocols like ACME via Certbot or HashiCorp Vault.",
+        "Dramatically reduces exposure windows for compromised private keys and minimizes reliance on ineffective OCSP and CRL revocation checks."
       ]
     },
     {
@@ -88,13 +88,13 @@
       "title": "Docker Agent",
       "url": "https://github.com/docker/docker-agent",
       "discuss_url": "https://news.ycombinator.com/item?id=49996259",
-      "score": 299,
-      "comments": 137,
+      "score": 300,
+      "comments": 141,
       "author": "saikatsg",
       "published": "2026-10-07T17:48:38Z",
       "bullets": [
         "Docker Agent",
-        "Trending on news.ycombinator.com — 299 points, 137 comments.",
+        "Trending on news.ycombinator.com — 300 points, 141 comments.",
         "Submitted by saikatsg on news.ycombinator.com."
       ]
     },
@@ -102,17 +102,17 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "SpaceX calls for better coordination in orbit after near-misses with Starlink",
-      "url": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/",
-      "discuss_url": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/",
+      "title": "Rocket Report: A rare Falcon 9 scrub; is it just about Vulcan's time to shine?",
+      "url": "https://arstechnica.com/space/2026/10/rocket-report-a-rare-falcon-9-scrub-is-it-just-about-vulcans-time-to-shine/",
+      "discuss_url": "https://arstechnica.com/space/2026/10/rocket-report-a-rare-falcon-9-scrub-is-it-just-about-vulcans-time-to-shine/",
       "score": null,
       "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-10-08T21:37:32Z",
+      "author": "Eric Berger",
+      "published": "2026-10-09T11:00:57Z",
       "bullets": [
-        "\"These led to conjunctions of tens of meters to hundreds of meters.",
-        "Way too close to comfort.\"",
-        "SpaceX calls for better coordination in orbit after near-misses with Starlink"
+        "\"I can say we’re weeks away from launching on Vulcan.\"",
+        "Rocket Report: A rare Falcon 9 scrub; is it just about Vulcan's time to shine?",
+        "Submitted by Eric Berger on arstechnica.com."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "OpenAI, the Partition Principle, and Mathematics",
+      "url": "https://karagila.org/2026/openai-pp/",
+      "discuss_url": "https://news.ycombinator.com/item?id=50013902",
+      "score": 141,
+      "comments": 220,
+      "author": "md224",
+      "published": "2026-10-08T23:29:43Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "OpenAI annualised revenues $20B less than previously signalled",
       "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
       "discuss_url": "https://news.ycombinator.com/item?id=50008187",
-      "score": 372,
-      "comments": 246,
+      "score": 405,
+      "comments": 277,
       "author": "mfiguiere",
       "published": "2026-10-08T16:45:58Z"
     },
@@ -136,10 +148,22 @@
       "title": "OpenAI withdraws three mathematical results",
       "url": "https://twitter.com/danintheory/status/2108065033070789090",
       "discuss_url": "https://news.ycombinator.com/item?id=50002650",
-      "score": 270,
-      "comments": 554,
+      "score": 334,
+      "comments": 584,
       "author": "sashank_1509",
       "published": "2026-10-08T07:05:40Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
+      "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
+      "discuss_url": "https://news.ycombinator.com/item?id=50002665",
+      "score": 215,
+      "comments": 100,
+      "author": "pyduan",
+      "published": "2026-10-08T07:07:34Z"
     },
     {
       "source": "hackernews",
@@ -148,8 +172,8 @@
       "title": "Claude Haiku 5.5",
       "url": "https://www.anthropic.com/claude-haiku-5-5",
       "discuss_url": "https://news.ycombinator.com/item?id=49996437",
-      "score": 1035,
-      "comments": 482,
+      "score": 1039,
+      "comments": 485,
       "author": "sfkgtbor",
       "published": "2026-10-07T18:01:32Z"
     },
@@ -160,34 +184,10 @@
       "title": "GPT‑6 and Intelligent UI for everyone",
       "url": "https://openai.com/index/gpt-6-for-everyone/",
       "discuss_url": "https://news.ycombinator.com/item?id=49996425",
-      "score": 747,
-      "comments": 452,
+      "score": 749,
+      "comments": 456,
       "author": "joshuawright11",
       "published": "2026-10-07T18:00:58Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
-      "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
-      "discuss_url": "https://news.ycombinator.com/item?id=50002665",
-      "score": 124,
-      "comments": 54,
-      "author": "pyduan",
-      "published": "2026-10-08T07:07:34Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "OpenAI Withdraws 3 Math Papers",
-      "url": "https://github.com/openai/math/blob/main/history.md",
-      "discuss_url": "https://news.ycombinator.com/item?id=50003107",
-      "score": 338,
-      "comments": 3,
-      "author": "theemathas",
-      "published": "2026-10-08T08:08:37Z"
     },
     {
       "source": "hackernews",
@@ -196,10 +196,22 @@
       "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
       "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
       "discuss_url": "https://news.ycombinator.com/item?id=49997161",
-      "score": 368,
+      "score": 370,
       "comments": 381,
       "author": "speckx",
       "published": "2026-10-07T18:49:40Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "OpenAI Withdraws 3 Math Papers",
+      "url": "https://github.com/openai/math/blob/main/history.md",
+      "discuss_url": "https://news.ycombinator.com/item?id=50003107",
+      "score": 341,
+      "comments": 3,
+      "author": "theemathas",
+      "published": "2026-10-08T08:08:37Z"
     },
     {
       "source": "lobsters",
@@ -212,6 +224,18 @@
       "comments": 4,
       "author": "dtsdwarak",
       "published": "2026-10-07T14:12:02Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Whistle: Speech to Text in 16.9 MB",
+      "url": "https://cactuscompute.com/blog/whistle",
+      "discuss_url": "https://lobste.rs/s/lpomuo",
+      "score": 1,
+      "comments": 0,
+      "author": "rajtilakjee",
+      "published": "2026-10-09T05:35:51Z"
     },
     {
       "source": "lobsters",
@@ -238,38 +262,14 @@
       "published": "2026-10-08T00:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Multimodal open d1 decision models for the edge",
-      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
-      "discuss_url": "https://huggingface.co/blog/LiquidAI/open-d1",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-07T16:54:33Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Introducing Falcon ASR",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
-      "discuss_url": "https://huggingface.co/blog/tiiuae/falcon-asr",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-07T13:21:03Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Anti-Patterns in Software Blogging",
       "url": "https://refactoringenglish.com/blog/anti-patterns-software-blogging/",
       "discuss_url": "https://lobste.rs/s/rwdufq",
-      "score": 132,
-      "comments": 50,
+      "score": 142,
+      "comments": 52,
       "author": "mtlynch",
       "published": "2026-10-07T13:09:33Z"
     },
@@ -320,18 +320,6 @@
       "comments": 0,
       "author": "wofo",
       "published": "2026-10-08T12:29:50Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Reverse Engineering Comanche Terrain Maps",
-      "url": "https://pikuma.com/blog/comanche-maps-reverse-engineering",
-      "discuss_url": "https://lobste.rs/s/qcafwq",
-      "score": 12,
-      "comments": 2,
-      "author": "gustavo-pezzi",
-      "published": "2026-10-05T10:45:51Z"
     },
     {
       "source": "lobsters",
@@ -406,16 +394,40 @@
       "published": "2026-10-02T15:00:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Taking a look under your agent’s hood",
+      "url": "https://stackoverflow.blog/2026/10/09/taking-a-look-under-your-agent-s-hood/",
+      "discuss_url": "https://stackoverflow.blog/2026/10/09/taking-a-look-under-your-agent-s-hood/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-10-09T07:40:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "64-Day Certificate Lifetimes Coming Feb 2027",
       "url": "https://letsencrypt.org/2026/10/07/64-day-certs.html",
       "discuss_url": "https://lobste.rs/s/dcrosf",
-      "score": 14,
-      "comments": 2,
+      "score": 26,
+      "comments": 9,
       "author": "fanf",
       "published": "2026-10-08T19:06:25Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "en-html.org is a Scam Site",
+      "url": "https://etbe.coker.com.au/2026/10/09/en-html-org-scam-site/",
+      "discuss_url": "https://lobste.rs/s/85k8am",
+      "score": 3,
+      "comments": 1,
+      "author": "edwintorok",
+      "published": "2026-10-09T07:37:38Z"
     },
     {
       "source": "lobsters",
@@ -424,7 +436,7 @@
       "title": "Calling a function in C without naming it",
       "url": "https://wiro.world/posts/calling-c-func-without-naming-it/",
       "discuss_url": "https://lobste.rs/s/ucwapn",
-      "score": 67,
+      "score": 69,
       "comments": 17,
       "author": "mrnossiom",
       "published": "2026-10-07T18:15:02Z"
@@ -433,25 +445,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Zeroization, part 1: Wiping can make things worse",
-      "url": "https://00f.net/2026/10/06/zeroization-1/",
-      "discuss_url": "https://lobste.rs/s/4hxxad",
-      "score": 23,
-      "comments": 12,
-      "author": "olliej",
-      "published": "2026-10-07T16:22:50Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Twenty-two pending curl vulnerabilities",
-      "url": "https://daniel.haxx.se/blog/2026/10/07/twenty-two-pending-curl-vulnerabilities/",
-      "discuss_url": "https://lobste.rs/s/lu8hl9",
-      "score": 28,
-      "comments": 10,
-      "author": "kiwec",
-      "published": "2026-10-07T15:04:10Z"
+      "title": "Telegram Desktop: one-click account takeover via IPC injection",
+      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+      "discuss_url": "https://lobste.rs/s/vq6ly4",
+      "score": 1,
+      "comments": 0,
+      "author": "ni5arga",
+      "published": "2026-10-09T11:26:00Z"
     },
     {
       "source": "lobsters",
@@ -464,6 +464,30 @@
       "comments": 21,
       "author": "jeanthomas",
       "published": "2026-10-06T20:16:33Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Twenty-two pending curl vulnerabilities",
+      "url": "https://daniel.haxx.se/blog/2026/10/07/twenty-two-pending-curl-vulnerabilities/",
+      "discuss_url": "https://lobste.rs/s/lu8hl9",
+      "score": 30,
+      "comments": 10,
+      "author": "kiwec",
+      "published": "2026-10-07T15:04:10Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Zeroization, part 1: Wiping can make things worse",
+      "url": "https://00f.net/2026/10/06/zeroization-1/",
+      "discuss_url": "https://lobste.rs/s/4hxxad",
+      "score": 23,
+      "comments": 12,
+      "author": "olliej",
+      "published": "2026-10-07T16:22:50Z"
     },
     {
       "source": "lobsters",
@@ -526,52 +550,16 @@
       "published": "2026-10-05T23:03:17Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Hello, my name is Orca",
-      "url": "https://linnemanlabs.com/posts/hello-my-name-is-orca/",
-      "discuss_url": "https://lobste.rs/s/ffn6sm",
-      "score": 2,
-      "comments": 0,
-      "author": "goldstein",
-      "published": "2026-10-07T17:28:43Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "From: anyone@icloud.com - Spoofing Arbitrary Apple iCloud Identities",
-      "url": "https://sec-consult.com/blog/detail/from-anyoneicloudcom-spoofing-arbitrary-apple-icloud-identities/",
-      "discuss_url": "https://lobste.rs/s/jpwrmk",
-      "score": 7,
-      "comments": 0,
-      "author": "ni5arga",
-      "published": "2026-10-05T06:50:55Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Docker Agent",
       "url": "https://github.com/docker/docker-agent",
       "discuss_url": "https://news.ycombinator.com/item?id=49996259",
-      "score": 299,
-      "comments": 137,
+      "score": 300,
+      "comments": 141,
       "author": "saikatsg",
       "published": "2026-10-07T17:48:38Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "Using docker-compose with Podman rootless",
-      "url": "https://elou.world/en/tutorial/podman-docker-compose",
-      "discuss_url": "https://lobste.rs/s/tpxwfe",
-      "score": 15,
-      "comments": 13,
-      "author": "Exagone313",
-      "published": "2026-10-05T09:51:28Z"
     },
     {
       "source": "rss",
@@ -695,6 +683,42 @@
     },
     {
       "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Batch now publishes job metrics to Amazon CloudWatch",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-job-cloudwatch-metrics/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-job-cloudwatch-metrics/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-06T17:30:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Rocket Report: A rare Falcon 9 scrub; is it just about Vulcan's time to shine?",
+      "url": "https://arstechnica.com/space/2026/10/rocket-report-a-rare-falcon-9-scrub-is-it-just-about-vulcans-time-to-shine/",
+      "discuss_url": "https://arstechnica.com/space/2026/10/rocket-report-a-rare-falcon-9-scrub-is-it-just-about-vulcans-time-to-shine/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-10-09T11:00:57Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Volkswagen's replacement for the ID.4 crossover is here",
+      "url": "https://arstechnica.com/cars/2026/10/volkswagens-replacement-for-the-id-4-crossover-is-here/",
+      "discuss_url": "https://arstechnica.com/cars/2026/10/volkswagens-replacement-for-the-id-4-crossover-is-here/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-10-09T10:00:59Z"
+    },
+    {
+      "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
       "title": "SpaceX calls for better coordination in orbit after near-misses with Starlink",
@@ -812,30 +836,6 @@
       "comments": null,
       "author": "Ryan Whitwam",
       "published": "2026-10-08T16:32:46Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Amazon builds 1,000th satellite, will launch space internet service by end of year",
-      "url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/",
-      "discuss_url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-10-08T15:28:36Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Internal files add to evidence of an ExxonMobil climate deception campaign",
-      "url": "https://arstechnica.com/tech-policy/2026/10/exxonmobils-own-scientists-doubted-climate-fixes-the-company-hyped/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/10/exxonmobils-own-scientists-doubted-climate-fixes-the-company-hyped/",
-      "score": null,
-      "comments": null,
-      "author": "Nicholas Kusnetz, Inside Climate News",
-      "published": "2026-10-08T14:04:42Z"
     }
   ]
 }
