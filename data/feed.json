@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T05:03:52Z",
+  "updated_at": "2026-10-10T12:09:01Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
-      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50018350",
-      "score": 326,
-      "comments": 207,
-      "author": "trakkstar",
-      "published": "2026-10-09T10:00:26Z",
+      "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
+      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+      "discuss_url": "https://news.ycombinator.com/item?id=50027118",
+      "score": 175,
+      "comments": 127,
+      "author": "Zambyte",
+      "published": "2026-10-09T22:00:35Z",
       "bullets": [
-        "OpenAI terminated three safety researchers over alleged unauthorized disclosure and mishandling of proprietary frontier model research.",
-        "The dismissals highlight escalating friction between internal alignment teams and commercial leadership over safety governance and transparency.",
-        "Frontier labs are tightening data loss prevention (DLP), internal access tiers, and NDA enforcement around unreleased AI architectures."
+        "Autonomous Claude agent pipelines risk weaponizing hallucinations by directly interacting with public tip lines and law enforcement forms without human review.",
+        "Highlights critical safety gaps in agentic tool-use, where unverified model inferences trigger real-world legal and municipal service disruptions.",
+        "Deployments using Anthropic APIs require strict guardrails, human-in-the-loop verification, and rate limits before executing irreversible external communication workflows."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/t3xjln",
       "discuss_url": "https://lobste.rs/s/t3xjln",
-      "score": 12,
-      "comments": 27,
+      "score": 13,
+      "comments": 35,
       "author": "caius",
       "published": "2026-10-09T12:53:09Z",
       "bullets": [
-        "Feel free to tell what you plan on doing this weekend and even ask for help or feedback.",
-        "Please keep in mind it’s more than OK to do nothing at all too!",
-        "What are you doing this weekend?"
+        "Lobsters community check-in focused on engineers sharing active side projects, custom tooling prototypes, and open-source contributions.",
+        "Community discussions typically highlight experiments in systems languages like Rust or Zig, homelab infrastructure, and niche tooling.",
+        "Serves as a peer-review forum for technical feedback on hobbyist code alongside discussions emphasizing developer burnout mitigation."
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "64-Day Certificate Lifetimes Coming Feb 2027",
-      "url": "https://letsencrypt.org/2026/10/07/64-day-certs.html",
-      "discuss_url": "https://lobste.rs/s/dcrosf",
-      "score": 36,
-      "comments": 20,
-      "author": "fanf",
-      "published": "2026-10-08T19:06:25Z",
+      "title": "`123456' password used in Danish CPR data breach",
+      "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
+      "discuss_url": "https://news.ycombinator.com/item?id=50031269",
+      "score": 134,
+      "comments": 83,
+      "author": "baal80spam",
+      "published": "2026-10-10T09:51:49Z",
       "bullets": [
-        "64-Day Certificate Lifetimes Coming Feb 2027",
-        "Trending on lobste.rs/security — 36 points, 20 comments.",
-        "Submitted by fanf on lobste.rs/security."
+        "Critical Danish CPR records were exposed via an account secured with '123456', highlighting catastrophic basic credential hygiene failures.",
+        "The breach reflects a systemic absence of enforced multi-factor authentication (MFA) and automated password complexity checks on sensitive PII stores.",
+        "Organizations managing national identity registries must mandate continuous credential audits, brute-force throttling, and conditional access to prevent trivial unauthorized access."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "Cloudflare acquires Deno",
       "url": "https://deno.com/blog/cloudflare",
       "discuss_url": "https://news.ycombinator.com/item?id=50019911",
-      "score": 1130,
-      "comments": 579,
+      "score": 1261,
+      "comments": 638,
       "author": "ilreb",
       "published": "2026-10-09T13:03:48Z",
       "bullets": [
-        "Cloudflare acquires Deno",
-        "Trending on news.ycombinator.com — 1130 points, 579 comments.",
-        "Submitted by ilreb on news.ycombinator.com."
+        "Merges Deno Deploy with Cloudflare Workers, consolidating V8 isolate-based edge runtimes and WinterCG-compliant serverless infrastructure globally.",
+        "Integrates Deno's native TypeScript support, modern package resolution, and granular permission flags directly into Cloudflare's edge deployment pipelines.",
+        "Accelerates Node.js API compatibility across Cloudflare's serverless fleet, simplifying multi-cloud migration and local-to-edge development workflows."
       ]
     },
     {
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
+      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+      "discuss_url": "https://news.ycombinator.com/item?id=50027118",
+      "score": 175,
+      "comments": 127,
+      "author": "Zambyte",
+      "published": "2026-10-09T22:00:35Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
       "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
       "discuss_url": "https://news.ycombinator.com/item?id=50018350",
-      "score": 326,
-      "comments": 207,
+      "score": 342,
+      "comments": 213,
       "author": "trakkstar",
       "published": "2026-10-09T10:00:26Z"
     },
@@ -136,8 +148,8 @@
       "title": "OpenAI, the Partition Principle, and Mathematics",
       "url": "https://karagila.org/2026/openai-pp/",
       "discuss_url": "https://news.ycombinator.com/item?id=50013902",
-      "score": 198,
-      "comments": 300,
+      "score": 203,
+      "comments": 304,
       "author": "md224",
       "published": "2026-10-08T23:29:43Z"
     },
@@ -148,46 +160,22 @@
       "title": "OpenAI annualised revenues $20B less than previously signalled",
       "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
       "discuss_url": "https://news.ycombinator.com/item?id=50008187",
-      "score": 422,
-      "comments": 298,
+      "score": 424,
+      "comments": 300,
       "author": "mfiguiere",
       "published": "2026-10-08T16:45:58Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "OpenAI withdraws three mathematical results",
-      "url": "https://twitter.com/danintheory/status/2108065033070789090",
-      "discuss_url": "https://news.ycombinator.com/item?id=50002650",
-      "score": 373,
-      "comments": 607,
-      "author": "sashank_1509",
-      "published": "2026-10-08T07:05:40Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
-      "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
-      "discuss_url": "https://news.ycombinator.com/item?id=50002665",
-      "score": 269,
-      "comments": 128,
-      "author": "pyduan",
-      "published": "2026-10-08T07:07:34Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "OpenAI Withdraws 3 Math Papers",
-      "url": "https://github.com/openai/math/blob/main/history.md",
-      "discuss_url": "https://news.ycombinator.com/item?id=50003107",
-      "score": 342,
-      "comments": 3,
-      "author": "theemathas",
-      "published": "2026-10-08T08:08:37Z"
+      "title": "Voxlocal: a minimal voice agent written in Rust",
+      "url": "https://samkhawase.com/blog/voxlocal-minimal-voice-agent/",
+      "discuss_url": "https://lobste.rs/s/gqaqgq",
+      "score": 1,
+      "comments": 1,
+      "author": "flyingsnake",
+      "published": "2026-10-10T08:42:06Z"
     },
     {
       "source": "lobsters",
@@ -205,18 +193,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Whistle: Speech to Text in 16.9 MB",
-      "url": "https://cactuscompute.com/blog/whistle",
-      "discuss_url": "https://lobste.rs/s/lpomuo",
-      "score": 2,
-      "comments": 0,
-      "author": "rajtilakjee",
-      "published": "2026-10-09T05:35:51Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
       "title": "Burn 0.22.0: Faster Builds, Easier Extensions, and Smarter Autotuning",
       "url": "https://tracel.ai/blog/release-0.22.0/",
       "discuss_url": "https://lobste.rs/s/cme2vx",
@@ -224,6 +200,18 @@
       "comments": 3,
       "author": "nrposner",
       "published": "2026-10-06T23:57:25Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Whistle: Speech to Text in 16.9 MB",
+      "url": "https://cactuscompute.com/blog/whistle",
+      "discuss_url": "https://lobste.rs/s/lpomuo",
+      "score": 2,
+      "comments": 0,
+      "author": "rajtilakjee",
+      "published": "2026-10-09T05:35:51Z"
     },
     {
       "source": "rss",
@@ -262,14 +250,26 @@
       "published": "2026-10-07T16:54:33Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Introducing Falcon ASR",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "discuss_url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-07T13:21:03Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/t3xjln",
       "discuss_url": "https://lobste.rs/s/t3xjln",
-      "score": 12,
-      "comments": 27,
+      "score": 13,
+      "comments": 35,
       "author": "caius",
       "published": "2026-10-09T12:53:09Z"
     },
@@ -281,7 +281,7 @@
       "url": "https://refactoringenglish.com/blog/anti-patterns-software-blogging/",
       "discuss_url": "https://lobste.rs/s/rwdufq",
       "score": 145,
-      "comments": 52,
+      "comments": 53,
       "author": "mtlynch",
       "published": "2026-10-07T13:09:33Z"
     },
@@ -301,18 +301,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "How To Write Shared Libraries (2011)",
-      "url": "https://www.cs.dartmouth.edu/sergey/cs108/ABI/UlrichDrepper-How-To-Write-Shared-Libraries.pdf",
-      "discuss_url": "https://lobste.rs/s/tenn7k",
-      "score": 2,
-      "comments": 0,
-      "author": "calvin",
-      "published": "2026-10-09T18:47:32Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "When random is not actually random enough",
       "url": "https://ersc.io/blog/when-random-isnt-random-enough",
       "discuss_url": "https://lobste.rs/s/njjwgr",
@@ -320,6 +308,18 @@
       "comments": 8,
       "author": "fanf",
       "published": "2026-10-07T00:43:47Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "How To Write Shared Libraries (2011)",
+      "url": "https://www.cs.dartmouth.edu/sergey/cs108/ABI/UlrichDrepper-How-To-Write-Shared-Libraries.pdf",
+      "discuss_url": "https://lobste.rs/s/tenn7k",
+      "score": 2,
+      "comments": 0,
+      "author": "calvin",
+      "published": "2026-10-09T18:47:32Z"
     },
     {
       "source": "lobsters",
@@ -406,14 +406,50 @@
       "published": "2026-10-09T14:59:04Z"
     },
     {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "`123456' password used in Danish CPR data breach",
+      "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
+      "discuss_url": "https://news.ycombinator.com/item?id=50031269",
+      "score": 134,
+      "comments": 83,
+      "author": "baal80spam",
+      "published": "2026-10-10T09:51:49Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+      "discuss_url": "https://news.ycombinator.com/item?id=50029123",
+      "score": 213,
+      "comments": 103,
+      "author": "g-b-r",
+      "published": "2026-10-10T03:02:47Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "1-click MMI execution in Android",
+      "url": "https://karansaini.com/mmi-android/",
+      "discuss_url": "https://lobste.rs/s/txa6dj",
+      "score": 3,
+      "comments": 1,
+      "author": "rrampage",
+      "published": "2026-10-10T07:20:53Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "64-Day Certificate Lifetimes Coming Feb 2027",
       "url": "https://letsencrypt.org/2026/10/07/64-day-certs.html",
       "discuss_url": "https://lobste.rs/s/dcrosf",
-      "score": 36,
-      "comments": 20,
+      "score": 39,
+      "comments": 21,
       "author": "fanf",
       "published": "2026-10-08T19:06:25Z"
     },
@@ -437,7 +473,7 @@
       "url": "https://blog.scrt.ch/2026/10/06/a-practical-guide-to-plugpwn-for-pentesters-and-defenders/",
       "discuss_url": "https://lobste.rs/s/yrcmjj",
       "score": 3,
-      "comments": 0,
+      "comments": 1,
       "author": "7tehdt3cnw6kir6o",
       "published": "2026-10-09T20:25:21Z"
     },
@@ -481,18 +517,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Telegram Desktop: one-click account takeover via IPC injection",
-      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-      "discuss_url": "https://lobste.rs/s/vq6ly4",
-      "score": 3,
-      "comments": 0,
-      "author": "ni5arga",
-      "published": "2026-10-09T11:26:00Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "en-html.org is a Scam Site",
       "url": "https://etbe.coker.com.au/2026/10/09/en-html-org-scam-site/",
       "discuss_url": "https://lobste.rs/s/85k8am",
@@ -517,18 +541,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Two arm64-specific miscompiles induce bugs in curl",
-      "url": "https://mastodon.social/@bagder/117392573268225646",
-      "discuss_url": "https://lobste.rs/s/fu57cb",
-      "score": 8,
-      "comments": 2,
-      "author": "addison",
-      "published": "2026-10-06T07:52:24Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Chrome's Response to Recent ccTLD Registry Hijacks",
       "url": "https://blog.google/security/chromes-response-to-recent-cctld-registry-hijacks/",
       "discuss_url": "https://lobste.rs/s/4fop73",
@@ -538,26 +550,14 @@
       "published": "2026-10-06T18:00:33Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "How to fix a bug in a fix",
-      "url": "https://projectzero.google/2026/10/emergency-patching.html",
-      "discuss_url": "https://lobste.rs/s/d0cthg",
-      "score": 4,
-      "comments": 1,
-      "author": "freddyb",
-      "published": "2026-10-06T20:33:01Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Cloudflare acquires Deno",
       "url": "https://deno.com/blog/cloudflare",
       "discuss_url": "https://news.ycombinator.com/item?id=50019911",
-      "score": 1130,
-      "comments": 579,
+      "score": 1261,
+      "comments": 638,
       "author": "ilreb",
       "published": "2026-10-09T13:03:48Z"
     },
