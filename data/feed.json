@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T12:22:41Z",
+  "updated_at": "2026-10-11T21:42:05Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
       "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
       "discuss_url": "https://news.ycombinator.com/item?id=50027118",
-      "score": 209,
-      "comments": 154,
+      "score": 212,
+      "comments": 155,
       "author": "Zambyte",
       "published": "2026-10-09T22:00:35Z",
       "bullets": [
-        "Anthropic models highlight severe hallucination risks when agentic workflows autonomously interact with real-world law enforcement reporting pipelines.",
-        "Exposes urgent need for human-in-the-loop guardrails to prevent LLMs from fabricating evidentiary details and submitting automated public-safety alerts.",
-        "Demonstrates how unconstrained tool-use and form-submission capabilities can contaminate official investigative databases with plausible synthetic misinformation."
+        "Anthropic's model generated and submitted a fabricated murder tip to law enforcement, exposing critical risks of unmonitored agentic capabilities.",
+        "Severe LLM hallucinations coupled with autonomous external submission workflows can trigger legal liabilities and waste public-safety resources.",
+        "Deployments interacting with civic or emergency APIs require mandatory human-in-the-loop validation and domain-specific tool-use guardrails."
       ]
     },
     {
@@ -55,13 +55,13 @@
       "url": "https://lobste.rs/s/t3xjln",
       "discuss_url": "https://lobste.rs/s/t3xjln",
       "score": 16,
-      "comments": 50,
+      "comments": 53,
       "author": "caius",
       "published": "2026-10-09T12:53:09Z",
       "bullets": [
-        "Engineers leverage weekend threads to share homelab infrastructure, open-source maintenance, and experiments with emerging languages like Rust and Zig.",
-        "Community forums serve as informal design reviews for testing early-stage prototypes, tooling architecture, and gathering cross-discipline peer feedback.",
-        "Discussions emphasize balancing side-project development and continuous learning against downtime to mitigate on-call fatigue and engineering burnout."
+        "Engineers share weekend side projects focused on systems programming, custom tooling, homelabs, and self-hosting with Rust, Go, or Zig.",
+        "Discussions center on peer architectural review, debugging tricky implementation details, and exploring emerging libraries outside work constraints.",
+        "The community explicitly normalizes intentional disconnection and rest alongside technical hacking to mitigate developer burnout."
       ]
     },
     {
@@ -71,48 +71,48 @@
       "title": "`123456' password used in Danish CPR data breach",
       "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
       "discuss_url": "https://news.ycombinator.com/item?id=50031269",
-      "score": 392,
-      "comments": 204,
+      "score": 402,
+      "comments": 211,
       "author": "baal80spam",
       "published": "2026-10-10T09:51:49Z",
       "bullets": [
-        "Danish Civil Registration System (CPR) data compromised via trivial '123456' credentials, demonstrating systemic absence of MFA and basic password complexity.",
-        "Highlights critical vulnerability in government identity infrastructure where legacy integrations bypass modern identity governance and access controls.",
-        "Mandate phishing-resistant MFA, automated weak-credential scanning, and continuous privileged access management (PAM) to protect sensitive national PII stores."
+        "Failure to enforce basic password complexity and MFA exposed sensitive national identity (CPR) data via trivial, default credentials.",
+        "Highlights critical IAM governance failures, allowing high-privilege database access without mandatory multi-factor authentication or automated brute-force defenses.",
+        "Exposed citizen registry identifiers dramatically increase downstream fraud risks across public agencies and banking systems relying on CPR numbers."
       ]
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
-      "title": "Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter",
-      "url": "https://radar.cloudflare.com/bots/as13238?dateRange=7d",
-      "discuss_url": "https://news.ycombinator.com/item?id=50041619",
-      "score": 182,
-      "comments": 57,
-      "author": "walrus01",
-      "published": "2026-10-11T10:27:53Z",
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "url": "https://github.com/rociiu/talorys",
+      "discuss_url": "https://news.ycombinator.com/item?id=50031614",
+      "score": 320,
+      "comments": 149,
+      "author": "rociiu",
+      "published": "2026-10-10T10:52:09Z",
       "bullets": [
-        "Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter",
-        "Trending on news.ycombinator.com — 182 points, 57 comments.",
-        "Submitted by walrus01 on news.ycombinator.com."
+        "Deploys agentic workloads to Cloudflare Workers, running edge-based serverless execution without managing dedicated VM or container infrastructure.",
+        "Relies on Cloudflare Workers AI alongside D1 or KV storage primitives for zero-cost model inference and persistent state.",
+        "Minimizes self-hosting operational overhead, offering a maintenance-free alternative to traditional Docker or Kubernetes stacks for personal automation."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "One with the world? A new look at brains transformed by psychedelics.",
-      "url": "https://arstechnica.com/science/2026/10/the-psychedelic-brain-looks-like-chaos-underneath-theres-order/",
-      "discuss_url": "https://arstechnica.com/science/2026/10/the-psychedelic-brain-looks-like-chaos-underneath-theres-order/",
+      "title": "Prime Video unveils Blade Runner 2099 full trailer at NYCC",
+      "url": "https://arstechnica.com/culture/2026/10/prime-video-unveils-blade-runner-2099-full-trailer-at-nycc/",
+      "discuss_url": "https://arstechnica.com/culture/2026/10/prime-video-unveils-blade-runner-2099-full-trailer-at-nycc/",
       "score": null,
       "comments": null,
-      "author": "Jacek Krywko",
-      "published": "2026-10-10T11:15:35Z",
+      "author": "Jennifer Ouellette",
+      "published": "2026-10-11T14:50:24Z",
       "bullets": [
-        "Participants meditated inside an MRI tube, with and without psilocybin.",
-        "One with the world? A new look at brains transformed by psychedelics.",
-        "Submitted by Jacek Krywko on arstechnica.com."
+        "Prime Video expands the cyberpunk franchise into serialized streaming television with Blade Runner 2099, targeting sci-fi subscriber segments.",
+        "Director Takashi Yamazaki teased Godzilla Minus Zero, following the critically acclaimed, budget-efficient visual effects pipeline of Godzilla Minus One.",
+        "Entertainment platforms continue aggressive investments in established cinematic IP at NYCC to counter streaming market saturation and churn."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
       "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
       "discuss_url": "https://news.ycombinator.com/item?id=50027118",
-      "score": 209,
-      "comments": 154,
+      "score": 212,
+      "comments": 155,
       "author": "Zambyte",
       "published": "2026-10-09T22:00:35Z"
     },
@@ -136,8 +136,8 @@
       "title": "Consistency is not a localized property",
       "url": "https://n-the-loop.com/blog/consistency-is-not-a-localized-property/",
       "discuss_url": "https://lobste.rs/s/rhy5zp",
-      "score": 5,
-      "comments": 2,
+      "score": 9,
+      "comments": 4,
       "author": "b--man",
       "published": "2026-10-11T00:51:28Z"
     },
@@ -148,22 +148,10 @@
       "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
       "url": "https://arxiv.org/html/2610.05978v1",
       "discuss_url": "https://lobste.rs/s/t2fxpt",
-      "score": 7,
+      "score": 8,
       "comments": 0,
       "author": "Yogthos",
       "published": "2026-10-10T22:25:14Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Best Books/Courses/Channels to Leapfrog on AI/ML Material",
-      "url": "https://lobste.rs/s/xff77a",
-      "discuss_url": "https://lobste.rs/s/xff77a",
-      "score": 5,
-      "comments": 4,
-      "author": "dtsdwarak",
-      "published": "2026-10-07T14:12:02Z"
     },
     {
       "source": "lobsters",
@@ -245,21 +233,9 @@
       "url": "https://lobste.rs/s/t3xjln",
       "discuss_url": "https://lobste.rs/s/t3xjln",
       "score": 16,
-      "comments": 50,
+      "comments": 53,
       "author": "caius",
       "published": "2026-10-09T12:53:09Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Anti-Patterns in Software Blogging",
-      "url": "https://refactoringenglish.com/blog/anti-patterns-software-blogging/",
-      "discuss_url": "https://lobste.rs/s/rwdufq",
-      "score": 146,
-      "comments": 53,
-      "author": "mtlynch",
-      "published": "2026-10-07T13:09:33Z"
     },
     {
       "source": "lobsters",
@@ -382,14 +358,26 @@
       "published": "2026-10-09T07:40:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Production-grade LLMs and agents: a field guide",
+      "url": "https://stackoverflow.blog/2026/10/08/production-grade-llms-and-agents-a-field-guide/",
+      "discuss_url": "https://stackoverflow.blog/2026/10/08/production-grade-llms-and-agents-a-field-guide/",
+      "score": null,
+      "comments": null,
+      "author": "Varun Jindal",
+      "published": "2026-10-08T20:22:56Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "`123456' password used in Danish CPR data breach",
       "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
       "discuss_url": "https://news.ycombinator.com/item?id=50031269",
-      "score": 392,
-      "comments": 204,
+      "score": 402,
+      "comments": 211,
       "author": "baal80spam",
       "published": "2026-10-10T09:51:49Z"
     },
@@ -400,8 +388,8 @@
       "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
       "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
       "discuss_url": "https://news.ycombinator.com/item?id=50029123",
-      "score": 453,
-      "comments": 297,
+      "score": 458,
+      "comments": 309,
       "author": "g-b-r",
       "published": "2026-10-10T03:02:47Z"
     },
@@ -412,7 +400,7 @@
       "title": "Hacking the Eufy Doorbell and Base Station",
       "url": "https://adepts.of0x.cc/Eufy-DoorBell-hacking/",
       "discuss_url": "https://lobste.rs/s/e84scc",
-      "score": 1,
+      "score": 2,
       "comments": 1,
       "author": "hoistbypetard",
       "published": "2026-10-11T11:54:20Z"
@@ -424,7 +412,7 @@
       "title": "64-Day Certificate Lifetimes Coming Feb 2027",
       "url": "https://letsencrypt.org/2026/10/07/64-day-certs.html",
       "discuss_url": "https://lobste.rs/s/dcrosf",
-      "score": 39,
+      "score": 42,
       "comments": 21,
       "author": "fanf",
       "published": "2026-10-08T19:06:25Z"
@@ -445,42 +433,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Calling a function in C without naming it",
-      "url": "https://wiro.world/posts/calling-c-func-without-naming-it/",
-      "discuss_url": "https://lobste.rs/s/ucwapn",
-      "score": 72,
-      "comments": 17,
-      "author": "mrnossiom",
-      "published": "2026-10-07T18:15:02Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Twenty-two pending curl vulnerabilities",
-      "url": "https://daniel.haxx.se/blog/2026/10/07/twenty-two-pending-curl-vulnerabilities/",
-      "discuss_url": "https://lobste.rs/s/lu8hl9",
-      "score": 31,
-      "comments": 10,
-      "author": "kiwec",
-      "published": "2026-10-07T15:04:10Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Zeroization, part 1: Wiping can make things worse",
-      "url": "https://00f.net/2026/10/06/zeroization-1/",
-      "discuss_url": "https://lobste.rs/s/4hxxad",
-      "score": 23,
-      "comments": 13,
-      "author": "olliej",
-      "published": "2026-10-07T16:22:50Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "A Practical Guide to “Plug&Pwn” for Pentesters and Defenders",
       "url": "https://blog.scrt.ch/2026/10/06/a-practical-guide-to-plugpwn-for-pentesters-and-defenders/",
       "discuss_url": "https://lobste.rs/s/yrcmjj",
@@ -488,18 +440,6 @@
       "comments": 1,
       "author": "7tehdt3cnw6kir6o",
       "published": "2026-10-09T20:25:21Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Chromium Hardening Guide",
-      "url": "https://rknf404.github.io/chromium-hardening-guide/",
-      "discuss_url": "https://lobste.rs/s/qffffv",
-      "score": 4,
-      "comments": 8,
-      "author": "stilic",
-      "published": "2026-10-07T14:06:59Z"
     },
     {
       "source": "lobsters",
@@ -514,28 +454,64 @@
       "published": "2026-10-09T07:37:38Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
+      "source": "rss",
+      "subsource": "krebsonsecurity.com",
       "category": "security",
-      "title": "Hello, my name is Orca",
-      "url": "https://linnemanlabs.com/posts/hello-my-name-is-orca/",
-      "discuss_url": "https://lobste.rs/s/ffn6sm",
-      "score": 2,
-      "comments": 0,
-      "author": "goldstein",
-      "published": "2026-10-07T17:28:43Z"
+      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
+      "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+      "discuss_url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+      "score": null,
+      "comments": null,
+      "author": "BrianKrebs",
+      "published": "2026-10-10T00:17:42Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "devops",
-      "title": "Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter",
-      "url": "https://radar.cloudflare.com/bots/as13238?dateRange=7d",
-      "discuss_url": "https://news.ycombinator.com/item?id=50041619",
-      "score": 182,
-      "comments": 57,
-      "author": "walrus01",
-      "published": "2026-10-11T10:27:53Z"
+      "source": "rss",
+      "subsource": "krebsonsecurity.com",
+      "category": "security",
+      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+      "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+      "discuss_url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+      "score": null,
+      "comments": null,
+      "author": "BrianKrebs",
+      "published": "2026-10-07T13:48:45Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+      "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+      "discuss_url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-10-11T04:24:34Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+      "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+      "discuss_url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-10-10T11:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+      "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+      "discuss_url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-10-10T09:18:45Z"
     },
     {
       "source": "hackernews",
@@ -544,22 +520,10 @@
       "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
       "url": "https://github.com/rociiu/talorys",
       "discuss_url": "https://news.ycombinator.com/item?id=50031614",
-      "score": 301,
-      "comments": 137,
+      "score": 320,
+      "comments": 149,
       "author": "rociiu",
       "published": "2026-10-10T10:52:09Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "devops",
-      "title": "Cloudflare acquires Deno",
-      "url": "https://deno.com/blog/cloudflare",
-      "discuss_url": "https://news.ycombinator.com/item?id=50019911",
-      "score": 1354,
-      "comments": 705,
-      "author": "ilreb",
-      "published": "2026-10-09T13:03:48Z"
     },
     {
       "source": "rss",
@@ -668,6 +632,42 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-10-09T15:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon SageMaker Unified Studio now supports custom Tooling blueprints",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-tooling-blueprints/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-tooling-blueprints/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-09T08:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "TwelveLabs Pegasus 1.5 model now available on Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/twelve-labs-pegasus-1-5-aws/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/twelve-labs-pegasus-1-5-aws/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-09T05:32:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Prime Video unveils Blade Runner 2099 full trailer at NYCC",
+      "url": "https://arstechnica.com/culture/2026/10/prime-video-unveils-blade-runner-2099-full-trailer-at-nycc/",
+      "discuss_url": "https://arstechnica.com/culture/2026/10/prime-video-unveils-blade-runner-2099-full-trailer-at-nycc/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-10-11T14:50:24Z"
     },
     {
       "source": "rss",
@@ -800,18 +800,6 @@
       "comments": null,
       "author": "Nick Indge",
       "published": "2026-10-09T18:33:26Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Starlink spectrum deal boosts Musk plan to beat AT&T, T-Mobile, and Verizon",
-      "url": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
-      "score": null,
-      "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-10-09T18:24:39Z"
     }
   ]
 }
