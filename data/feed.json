@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T05:02:14Z",
+  "updated_at": "2026-10-11T12:22:41Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
       "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
       "discuss_url": "https://news.ycombinator.com/item?id=50027118",
-      "score": 208,
-      "comments": 153,
+      "score": 209,
+      "comments": 154,
       "author": "Zambyte",
       "published": "2026-10-09T22:00:35Z",
       "bullets": [
-        "Anthropic's LLM generated a false homicide tip sent to police, exposing severe risks in agentic workflows interacting with real-world reporting systems.",
-        "Unsupervised tool use and web-form submissions enable hallucinated accusations, creating legal liability and wasting critical public safety resources.",
-        "Practitioners must enforce strict human-in-the-loop verification on outbound API actions, especially those touching civic infrastructure and law enforcement reporting."
+        "Anthropic models highlight severe hallucination risks when agentic workflows autonomously interact with real-world law enforcement reporting pipelines.",
+        "Exposes urgent need for human-in-the-loop guardrails to prevent LLMs from fabricating evidentiary details and submitting automated public-safety alerts.",
+        "Demonstrates how unconstrained tool-use and form-submission capabilities can contaminate official investigative databases with plausible synthetic misinformation."
       ]
     },
     {
@@ -59,9 +59,9 @@
       "author": "caius",
       "published": "2026-10-09T12:53:09Z",
       "bullets": [
-        "Community threads highlight engineers prototyping side projects, testing emerging languages, and hacking on personal infrastructure outside production constraints.",
-        "Discussions center on low-level systems programming in Rust and Go, self-hosted tooling, retrocomputing, and open-source contributions.",
-        "Engineers explicitly normalize deliberate rest and stepping away from keyboards to mitigate technical burnout and sustain long-term productivity."
+        "Engineers leverage weekend threads to share homelab infrastructure, open-source maintenance, and experiments with emerging languages like Rust and Zig.",
+        "Community forums serve as informal design reviews for testing early-stage prototypes, tooling architecture, and gathering cross-discipline peer feedback.",
+        "Discussions emphasize balancing side-project development and continuous learning against downtime to mitigate on-call fatigue and engineering burnout."
       ]
     },
     {
@@ -71,31 +71,31 @@
       "title": "`123456' password used in Danish CPR data breach",
       "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
       "discuss_url": "https://news.ycombinator.com/item?id=50031269",
-      "score": 382,
-      "comments": 194,
+      "score": 392,
+      "comments": 204,
       "author": "baal80spam",
       "published": "2026-10-10T09:51:49Z",
       "bullets": [
-        "Denmark's national CPR civil registration data was compromised via an account secured only by the trivial password '123456'.",
-        "The incident underscores critical IAM governance failures, showing sensitive citizen identity databases lacked basic multi-factor authentication (MFA) enforcement.",
-        "Security teams must enforce automated password complexity checks, brute-force protections, and mandatory FIDO2/MFA across all sensitive PII endpoints."
+        "Danish Civil Registration System (CPR) data compromised via trivial '123456' credentials, demonstrating systemic absence of MFA and basic password complexity.",
+        "Highlights critical vulnerability in government identity infrastructure where legacy integrations bypass modern identity governance and access controls.",
+        "Mandate phishing-resistant MFA, automated weak-credential scanning, and continuous privileged access management (PAM) to protect sensitive national PII stores."
       ]
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
-      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
-      "url": "https://github.com/rociiu/talorys",
-      "discuss_url": "https://news.ycombinator.com/item?id=50031614",
-      "score": 270,
-      "comments": 124,
-      "author": "rociiu",
-      "published": "2026-10-10T10:52:09Z",
+      "title": "Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter",
+      "url": "https://radar.cloudflare.com/bots/as13238?dateRange=7d",
+      "discuss_url": "https://news.ycombinator.com/item?id=50041619",
+      "score": 182,
+      "comments": 57,
+      "author": "walrus01",
+      "published": "2026-10-11T10:27:53Z",
       "bullets": [
-        "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
-        "Trending on news.ycombinator.com — 270 points, 124 comments.",
-        "Submitted by rociiu on news.ycombinator.com."
+        "Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter",
+        "Trending on news.ycombinator.com — 182 points, 57 comments.",
+        "Submitted by walrus01 on news.ycombinator.com."
       ]
     },
     {
@@ -124,8 +124,8 @@
       "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
       "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
       "discuss_url": "https://news.ycombinator.com/item?id=50027118",
-      "score": 208,
-      "comments": 153,
+      "score": 209,
+      "comments": 154,
       "author": "Zambyte",
       "published": "2026-10-09T22:00:35Z"
     },
@@ -136,22 +136,10 @@
       "title": "Consistency is not a localized property",
       "url": "https://n-the-loop.com/blog/consistency-is-not-a-localized-property/",
       "discuss_url": "https://lobste.rs/s/rhy5zp",
-      "score": 4,
+      "score": 5,
       "comments": 2,
       "author": "b--man",
       "published": "2026-10-11T00:51:28Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
-      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50018350",
-      "score": 358,
-      "comments": 219,
-      "author": "trakkstar",
-      "published": "2026-10-09T10:00:26Z"
     },
     {
       "source": "lobsters",
@@ -160,7 +148,7 @@
       "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
       "url": "https://arxiv.org/html/2610.05978v1",
       "discuss_url": "https://lobste.rs/s/t2fxpt",
-      "score": 5,
+      "score": 7,
       "comments": 0,
       "author": "Yogthos",
       "published": "2026-10-10T22:25:14Z"
@@ -280,7 +268,7 @@
       "title": "Voxlocal: a minimal voice agent written in Rust",
       "url": "https://samkhawase.com/blog/voxlocal-minimal-voice-agent/",
       "discuss_url": "https://lobste.rs/s/gqaqgq",
-      "score": 4,
+      "score": 5,
       "comments": 1,
       "author": "flyingsnake",
       "published": "2026-10-10T08:42:06Z"
@@ -400,8 +388,8 @@
       "title": "`123456' password used in Danish CPR data breach",
       "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
       "discuss_url": "https://news.ycombinator.com/item?id=50031269",
-      "score": 382,
-      "comments": 194,
+      "score": 392,
+      "comments": 204,
       "author": "baal80spam",
       "published": "2026-10-10T09:51:49Z"
     },
@@ -412,8 +400,8 @@
       "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
       "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
       "discuss_url": "https://news.ycombinator.com/item?id=50029123",
-      "score": 435,
-      "comments": 277,
+      "score": 453,
+      "comments": 297,
       "author": "g-b-r",
       "published": "2026-10-10T03:02:47Z"
     },
@@ -421,13 +409,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "1-click MMI execution in Android",
-      "url": "https://karansaini.com/mmi-android/",
-      "discuss_url": "https://lobste.rs/s/txa6dj",
-      "score": 10,
+      "title": "Hacking the Eufy Doorbell and Base Station",
+      "url": "https://adepts.of0x.cc/Eufy-DoorBell-hacking/",
+      "discuss_url": "https://lobste.rs/s/e84scc",
+      "score": 1,
       "comments": 1,
-      "author": "rrampage",
-      "published": "2026-10-10T07:20:53Z"
+      "author": "hoistbypetard",
+      "published": "2026-10-11T11:54:20Z"
     },
     {
       "source": "lobsters",
@@ -445,6 +433,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "1-click MMI execution in Android",
+      "url": "https://karansaini.com/mmi-android/",
+      "discuss_url": "https://lobste.rs/s/txa6dj",
+      "score": 12,
+      "comments": 1,
+      "author": "rrampage",
+      "published": "2026-10-10T07:20:53Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Calling a function in C without naming it",
       "url": "https://wiro.world/posts/calling-c-func-without-naming-it/",
       "discuss_url": "https://lobste.rs/s/ucwapn",
@@ -452,18 +452,6 @@
       "comments": 17,
       "author": "mrnossiom",
       "published": "2026-10-07T18:15:02Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "A Practical Guide to “Plug&Pwn” for Pentesters and Defenders",
-      "url": "https://blog.scrt.ch/2026/10/06/a-practical-guide-to-plugpwn-for-pentesters-and-defenders/",
-      "discuss_url": "https://lobste.rs/s/yrcmjj",
-      "score": 6,
-      "comments": 1,
-      "author": "7tehdt3cnw6kir6o",
-      "published": "2026-10-09T20:25:21Z"
     },
     {
       "source": "lobsters",
@@ -488,6 +476,18 @@
       "comments": 13,
       "author": "olliej",
       "published": "2026-10-07T16:22:50Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "A Practical Guide to “Plug&Pwn” for Pentesters and Defenders",
+      "url": "https://blog.scrt.ch/2026/10/06/a-practical-guide-to-plugpwn-for-pentesters-and-defenders/",
+      "discuss_url": "https://lobste.rs/s/yrcmjj",
+      "score": 6,
+      "comments": 1,
+      "author": "7tehdt3cnw6kir6o",
+      "published": "2026-10-09T20:25:21Z"
     },
     {
       "source": "lobsters",
@@ -526,16 +526,16 @@
       "published": "2026-10-07T17:28:43Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Inside the Advisory Database and what happens when vulnerability volume breaks records",
-      "url": "https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records/",
-      "discuss_url": "https://lobste.rs/s/0z17kf",
-      "score": 1,
-      "comments": 0,
-      "author": "ni5arga",
-      "published": "2026-10-07T13:39:28Z"
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "devops",
+      "title": "Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter",
+      "url": "https://radar.cloudflare.com/bots/as13238?dateRange=7d",
+      "discuss_url": "https://news.ycombinator.com/item?id=50041619",
+      "score": 182,
+      "comments": 57,
+      "author": "walrus01",
+      "published": "2026-10-11T10:27:53Z"
     },
     {
       "source": "hackernews",
@@ -544,8 +544,8 @@
       "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
       "url": "https://github.com/rociiu/talorys",
       "discuss_url": "https://news.ycombinator.com/item?id=50031614",
-      "score": 270,
-      "comments": 124,
+      "score": 301,
+      "comments": 137,
       "author": "rociiu",
       "published": "2026-10-10T10:52:09Z"
     },
@@ -556,8 +556,8 @@
       "title": "Cloudflare acquires Deno",
       "url": "https://deno.com/blog/cloudflare",
       "discuss_url": "https://news.ycombinator.com/item?id=50019911",
-      "score": 1345,
-      "comments": 695,
+      "score": 1354,
+      "comments": 705,
       "author": "ilreb",
       "published": "2026-10-09T13:03:48Z"
     },
@@ -668,18 +668,6 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-10-09T15:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon SageMaker Unified Studio now supports custom Tooling blueprints",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-tooling-blueprints/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-tooling-blueprints/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-09T08:00:00Z"
     },
     {
       "source": "rss",
