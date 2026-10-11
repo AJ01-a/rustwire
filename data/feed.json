@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T21:23:22Z",
+  "updated_at": "2026-10-11T05:02:14Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
       "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
       "discuss_url": "https://news.ycombinator.com/item?id=50027118",
-      "score": 205,
-      "comments": 148,
+      "score": 208,
+      "comments": 153,
       "author": "Zambyte",
       "published": "2026-10-09T22:00:35Z",
       "bullets": [
-        "Anthropic's Claude generated fabricated murder case details, exposing severe risks when autonomous model outputs interact with public safety reporting.",
-        "Emphasizes critical failure modes in agentic workflows lacking human-in-the-loop verification before triggering external web actions or API calls.",
-        "Teams deploying tool-augmented LLMs must implement strict guardrails, provenance verification, and access controls around high-stakes real-world endpoints."
+        "Anthropic's LLM generated a false homicide tip sent to police, exposing severe risks in agentic workflows interacting with real-world reporting systems.",
+        "Unsupervised tool use and web-form submissions enable hallucinated accusations, creating legal liability and wasting critical public safety resources.",
+        "Practitioners must enforce strict human-in-the-loop verification on outbound API actions, especially those touching civic infrastructure and law enforcement reporting."
       ]
     },
     {
@@ -55,13 +55,13 @@
       "url": "https://lobste.rs/s/t3xjln",
       "discuss_url": "https://lobste.rs/s/t3xjln",
       "score": 16,
-      "comments": 49,
+      "comments": 50,
       "author": "caius",
       "published": "2026-10-09T12:53:09Z",
       "bullets": [
-        "Community discussion thread where developers share weekend side projects, personal tooling experimentation, and language learning goals.",
-        "Platform for engineers to solicit informal peer feedback, architecture advice, and debugging help on non-commercial technical builds.",
-        "Reinforces balancing active hacking with intentional rest to prevent burnout and maintain long-term developer productivity."
+        "Community threads highlight engineers prototyping side projects, testing emerging languages, and hacking on personal infrastructure outside production constraints.",
+        "Discussions center on low-level systems programming in Rust and Go, self-hosted tooling, retrocomputing, and open-source contributions.",
+        "Engineers explicitly normalize deliberate rest and stepping away from keyboards to mitigate technical burnout and sustain long-term productivity."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "`123456' password used in Danish CPR data breach",
       "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
       "discuss_url": "https://news.ycombinator.com/item?id=50031269",
-      "score": 362,
-      "comments": 188,
+      "score": 382,
+      "comments": 194,
       "author": "baal80spam",
       "published": "2026-10-10T09:51:49Z",
       "bullets": [
-        "Trivial '123456' credentials compromised Danish CPR registries, exposing critical national identity numbers due to fundamental Identity and Access Management failures.",
-        "The incident underscores an absence of mandatory multi-factor authentication and baseline password complexity enforcement guarding high-value citizen PII.",
-        "Security teams must enforce automated credential auditing, brute-force rate limiting, and NIST-aligned password blocklists across all public-sector access portals."
+        "Denmark's national CPR civil registration data was compromised via an account secured only by the trivial password '123456'.",
+        "The incident underscores critical IAM governance failures, showing sensitive citizen identity databases lacked basic multi-factor authentication (MFA) enforcement.",
+        "Security teams must enforce automated password complexity checks, brute-force protections, and mandatory FIDO2/MFA across all sensitive PII endpoints."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
       "url": "https://github.com/rociiu/talorys",
       "discuss_url": "https://news.ycombinator.com/item?id=50031614",
-      "score": 212,
-      "comments": 109,
+      "score": 270,
+      "comments": 124,
       "author": "rociiu",
       "published": "2026-10-10T10:52:09Z",
       "bullets": [
-        "Deploys personal AI agents entirely on Cloudflare Workers and Workers AI, eliminating container and VM infrastructure management overhead.",
-        "Leverages Cloudflare serverless primitives—such as D1, Vectorize, and KV—to manage persistent agent state and lightweight RAG workloads.",
-        "Enables zero-cost edge operations, replacing traditional Kubernetes or VM-based hosting for low-volume personal and internal automation tasks."
+        "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+        "Trending on news.ycombinator.com — 270 points, 124 comments.",
+        "Submitted by rociiu on news.ycombinator.com."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Jacek Krywko",
       "published": "2026-10-10T11:15:35Z",
       "bullets": [
-        "fMRI neuroimaging studies track functional connectivity changes in subjects combining meditation with psilocybin to map ego dissolution mechanisms.",
-        "Clinical research aims to quantify default mode network disruption, aiding therapeutic protocol development for neuropsychiatric applications.",
-        "Objective neuroimaging data provides biotech and neurotechnology sectors actionable biomarkers for psychedelic-assisted mental health therapies."
+        "Participants meditated inside an MRI tube, with and without psilocybin.",
+        "One with the world? A new look at brains transformed by psychedelics.",
+        "Submitted by Jacek Krywko on arstechnica.com."
       ]
     }
   ],
@@ -124,10 +124,22 @@
       "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
       "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
       "discuss_url": "https://news.ycombinator.com/item?id=50027118",
-      "score": 205,
-      "comments": 148,
+      "score": 208,
+      "comments": 153,
       "author": "Zambyte",
       "published": "2026-10-09T22:00:35Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Consistency is not a localized property",
+      "url": "https://n-the-loop.com/blog/consistency-is-not-a-localized-property/",
+      "discuss_url": "https://lobste.rs/s/rhy5zp",
+      "score": 4,
+      "comments": 2,
+      "author": "b--man",
+      "published": "2026-10-11T00:51:28Z"
     },
     {
       "source": "hackernews",
@@ -136,34 +148,22 @@
       "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
       "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
       "discuss_url": "https://news.ycombinator.com/item?id=50018350",
-      "score": 354,
-      "comments": 216,
+      "score": 358,
+      "comments": 219,
       "author": "trakkstar",
       "published": "2026-10-09T10:00:26Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "OpenAI, the Partition Principle, and Mathematics",
-      "url": "https://karagila.org/2026/openai-pp/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50013902",
-      "score": 206,
-      "comments": 310,
-      "author": "md224",
-      "published": "2026-10-08T23:29:43Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Voxlocal: a minimal voice agent written in Rust",
-      "url": "https://samkhawase.com/blog/voxlocal-minimal-voice-agent/",
-      "discuss_url": "https://lobste.rs/s/gqaqgq",
-      "score": 2,
-      "comments": 1,
-      "author": "flyingsnake",
-      "published": "2026-10-10T08:42:06Z"
+      "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
+      "url": "https://arxiv.org/html/2610.05978v1",
+      "discuss_url": "https://lobste.rs/s/t2fxpt",
+      "score": 5,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-10-10T22:25:14Z"
     },
     {
       "source": "lobsters",
@@ -176,18 +176,6 @@
       "comments": 4,
       "author": "dtsdwarak",
       "published": "2026-10-07T14:12:02Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Burn 0.22.0: Faster Builds, Easier Extensions, and Smarter Autotuning",
-      "url": "https://tracel.ai/blog/release-0.22.0/",
-      "discuss_url": "https://lobste.rs/s/cme2vx",
-      "score": 4,
-      "comments": 3,
-      "author": "nrposner",
-      "published": "2026-10-06T23:57:25Z"
     },
     {
       "source": "lobsters",
@@ -269,7 +257,7 @@
       "url": "https://lobste.rs/s/t3xjln",
       "discuss_url": "https://lobste.rs/s/t3xjln",
       "score": 16,
-      "comments": 49,
+      "comments": 50,
       "author": "caius",
       "published": "2026-10-09T12:53:09Z"
     },
@@ -289,13 +277,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "When random is not actually random enough",
-      "url": "https://ersc.io/blog/when-random-isnt-random-enough",
-      "discuss_url": "https://lobste.rs/s/njjwgr",
-      "score": 11,
-      "comments": 8,
-      "author": "fanf",
-      "published": "2026-10-07T00:43:47Z"
+      "title": "Voxlocal: a minimal voice agent written in Rust",
+      "url": "https://samkhawase.com/blog/voxlocal-minimal-voice-agent/",
+      "discuss_url": "https://lobste.rs/s/gqaqgq",
+      "score": 4,
+      "comments": 1,
+      "author": "flyingsnake",
+      "published": "2026-10-10T08:42:06Z"
     },
     {
       "source": "lobsters",
@@ -412,8 +400,8 @@
       "title": "`123456' password used in Danish CPR data breach",
       "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
       "discuss_url": "https://news.ycombinator.com/item?id=50031269",
-      "score": 362,
-      "comments": 188,
+      "score": 382,
+      "comments": 194,
       "author": "baal80spam",
       "published": "2026-10-10T09:51:49Z"
     },
@@ -424,8 +412,8 @@
       "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
       "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
       "discuss_url": "https://news.ycombinator.com/item?id=50029123",
-      "score": 379,
-      "comments": 214,
+      "score": 435,
+      "comments": 277,
       "author": "g-b-r",
       "published": "2026-10-10T03:02:47Z"
     },
@@ -436,7 +424,7 @@
       "title": "1-click MMI execution in Android",
       "url": "https://karansaini.com/mmi-android/",
       "discuss_url": "https://lobste.rs/s/txa6dj",
-      "score": 7,
+      "score": 10,
       "comments": 1,
       "author": "rrampage",
       "published": "2026-10-10T07:20:53Z"
@@ -556,8 +544,8 @@
       "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
       "url": "https://github.com/rociiu/talorys",
       "discuss_url": "https://news.ycombinator.com/item?id=50031614",
-      "score": 212,
-      "comments": 109,
+      "score": 270,
+      "comments": 124,
       "author": "rociiu",
       "published": "2026-10-10T10:52:09Z"
     },
@@ -568,8 +556,8 @@
       "title": "Cloudflare acquires Deno",
       "url": "https://deno.com/blog/cloudflare",
       "discuss_url": "https://news.ycombinator.com/item?id=50019911",
-      "score": 1331,
-      "comments": 686,
+      "score": 1345,
+      "comments": 695,
       "author": "ilreb",
       "published": "2026-10-09T13:03:48Z"
     },
