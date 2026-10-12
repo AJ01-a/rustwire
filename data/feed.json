@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T21:42:05Z",
+  "updated_at": "2026-10-12T05:07:56Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
-      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50027118",
-      "score": 212,
-      "comments": 155,
-      "author": "Zambyte",
-      "published": "2026-10-09T22:00:35Z",
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "discuss_url": "https://news.ycombinator.com/item?id=50047422",
+      "score": 347,
+      "comments": 517,
+      "author": "albertzeyer",
+      "published": "2026-10-11T20:20:52Z",
       "bullets": [
-        "Anthropic's model generated and submitted a fabricated murder tip to law enforcement, exposing critical risks of unmonitored agentic capabilities.",
-        "Severe LLM hallucinations coupled with autonomous external submission workflows can trigger legal liabilities and waste public-safety resources.",
-        "Deployments interacting with civic or emergency APIs require mandatory human-in-the-loop validation and domain-specific tool-use guardrails."
+        "Frontier models like Claude 3.5 Sonnet and OpenAI o1 widen the divide between advanced agentic engineering and casual chat usage.",
+        "Standard benchmarks like MMLU mask real-world utility; practical gains depend heavily on structured tool use and context orchestration.",
+        "Enterprise adoption lags because non-practitioners evaluate raw chatbot interfaces rather than programmatic pipelines with deterministic validation."
       ]
     },
     {
@@ -59,9 +59,9 @@
       "author": "caius",
       "published": "2026-10-09T12:53:09Z",
       "bullets": [
-        "Engineers share weekend side projects focused on systems programming, custom tooling, homelabs, and self-hosting with Rust, Go, or Zig.",
-        "Discussions center on peer architectural review, debugging tricky implementation details, and exploring emerging libraries outside work constraints.",
-        "The community explicitly normalizes intentional disconnection and rest alongside technical hacking to mitigate developer burnout."
+        "Engineers leverage weekend threads to prototype side projects, test experimental compilers, and vet new tools outside production constraints.",
+        "Common independent development focuses on systems programming in Rust and Zig, homelab automation, and self-hosted infrastructure stacks.",
+        "Peer discussions provide lightweight code feedback while actively encouraging deliberate downtime to prevent professional developer burnout."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "`123456' password used in Danish CPR data breach",
       "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
       "discuss_url": "https://news.ycombinator.com/item?id=50031269",
-      "score": 402,
-      "comments": 211,
+      "score": 407,
+      "comments": 216,
       "author": "baal80spam",
       "published": "2026-10-10T09:51:49Z",
       "bullets": [
-        "Failure to enforce basic password complexity and MFA exposed sensitive national identity (CPR) data via trivial, default credentials.",
-        "Highlights critical IAM governance failures, allowing high-privilege database access without mandatory multi-factor authentication or automated brute-force defenses.",
-        "Exposed citizen registry identifiers dramatically increase downstream fraud risks across public agencies and banking systems relying on CPR numbers."
+        "Critical systems hosting national CPR identity data lacked basic password complexity enforcement and multi-factor authentication.",
+        "Trivial credentials exposed sensitive Danish citizen registry identifiers, highlighting severe gaps in privileged access management and auditing.",
+        "Mandate automated credential audits, brute-force rate limiting, and zero-trust identity verification across all environments handling national ID records."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
       "url": "https://github.com/rociiu/talorys",
       "discuss_url": "https://news.ycombinator.com/item?id=50031614",
-      "score": 320,
-      "comments": 149,
+      "score": 323,
+      "comments": 150,
       "author": "rociiu",
       "published": "2026-10-10T10:52:09Z",
       "bullets": [
-        "Deploys agentic workloads to Cloudflare Workers, running edge-based serverless execution without managing dedicated VM or container infrastructure.",
-        "Relies on Cloudflare Workers AI alongside D1 or KV storage primitives for zero-cost model inference and persistent state.",
-        "Minimizes self-hosting operational overhead, offering a maintenance-free alternative to traditional Docker or Kubernetes stacks for personal automation."
+        "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+        "Trending on news.ycombinator.com — 323 points, 150 comments.",
+        "Submitted by rociiu on news.ycombinator.com."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Prime Video unveils Blade Runner 2099 full trailer at NYCC",
-      "url": "https://arstechnica.com/culture/2026/10/prime-video-unveils-blade-runner-2099-full-trailer-at-nycc/",
-      "discuss_url": "https://arstechnica.com/culture/2026/10/prime-video-unveils-blade-runner-2099-full-trailer-at-nycc/",
+      "title": "Review: 4-hour Musk documentary feels like two different films",
+      "url": "https://arstechnica.com/culture/2026/10/review-4-hour-musk-documentary-feels-like-two-different-films/",
+      "discuss_url": "https://arstechnica.com/culture/2026/10/review-4-hour-musk-documentary-feels-like-two-different-films/",
       "score": null,
       "comments": null,
       "author": "Jennifer Ouellette",
-      "published": "2026-10-11T14:50:24Z",
+      "published": "2026-10-11T18:10:54Z",
       "bullets": [
-        "Prime Video expands the cyberpunk franchise into serialized streaming television with Blade Runner 2099, targeting sci-fi subscriber segments.",
-        "Director Takashi Yamazaki teased Godzilla Minus Zero, following the critically acclaimed, budget-efficient visual effects pipeline of Godzilla Minus One.",
-        "Entertainment platforms continue aggressive investments in established cinematic IP at NYCC to counter streaming market saturation and churn."
+        "Alex Gibney's provocative film is compelling but overlong, and there's not much new here for Ars readers.",
+        "Review: 4-hour Musk documentary feels like two different films",
+        "Submitted by Jennifer Ouellette on arstechnica.com."
       ]
     }
   ],
@@ -121,13 +121,13 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
-      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50027118",
-      "score": 212,
-      "comments": 155,
-      "author": "Zambyte",
-      "published": "2026-10-09T22:00:35Z"
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "discuss_url": "https://news.ycombinator.com/item?id=50047422",
+      "score": 347,
+      "comments": 517,
+      "author": "albertzeyer",
+      "published": "2026-10-11T20:20:52Z"
     },
     {
       "source": "lobsters",
@@ -136,8 +136,8 @@
       "title": "Consistency is not a localized property",
       "url": "https://n-the-loop.com/blog/consistency-is-not-a-localized-property/",
       "discuss_url": "https://lobste.rs/s/rhy5zp",
-      "score": 9,
-      "comments": 4,
+      "score": 10,
+      "comments": 6,
       "author": "b--man",
       "published": "2026-10-11T00:51:28Z"
     },
@@ -160,7 +160,7 @@
       "title": "Whistle: Speech to Text in 16.9 MB",
       "url": "https://cactuscompute.com/blog/whistle",
       "discuss_url": "https://lobste.rs/s/lpomuo",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "rajtilakjee",
       "published": "2026-10-09T05:35:51Z"
@@ -376,22 +376,10 @@
       "title": "`123456' password used in Danish CPR data breach",
       "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
       "discuss_url": "https://news.ycombinator.com/item?id=50031269",
-      "score": 402,
-      "comments": 211,
+      "score": 407,
+      "comments": 216,
       "author": "baal80spam",
       "published": "2026-10-10T09:51:49Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "security",
-      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
-      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50029123",
-      "score": 458,
-      "comments": 309,
-      "author": "g-b-r",
-      "published": "2026-10-10T03:02:47Z"
     },
     {
       "source": "lobsters",
@@ -400,7 +388,7 @@
       "title": "Hacking the Eufy Doorbell and Base Station",
       "url": "https://adepts.of0x.cc/Eufy-DoorBell-hacking/",
       "discuss_url": "https://lobste.rs/s/e84scc",
-      "score": 2,
+      "score": 3,
       "comments": 1,
       "author": "hoistbypetard",
       "published": "2026-10-11T11:54:20Z"
@@ -440,6 +428,18 @@
       "comments": 1,
       "author": "7tehdt3cnw6kir6o",
       "published": "2026-10-09T20:25:21Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Telegram Desktop: one-click account takeover via IPC injection",
+      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+      "discuss_url": "https://lobste.rs/s/vq6ly4",
+      "score": 5,
+      "comments": 0,
+      "author": "ni5arga",
+      "published": "2026-10-09T11:26:00Z"
     },
     {
       "source": "lobsters",
@@ -520,10 +520,22 @@
       "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
       "url": "https://github.com/rociiu/talorys",
       "discuss_url": "https://news.ycombinator.com/item?id=50031614",
-      "score": 320,
-      "comments": 149,
+      "score": 323,
+      "comments": 150,
       "author": "rociiu",
       "published": "2026-10-10T10:52:09Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/devops",
+      "category": "devops",
+      "title": "3-2-1 Backup Strategy with restic and Backblaze B2",
+      "url": "https://chuck.is/paranoid/",
+      "discuss_url": "https://lobste.rs/s/9zcxev",
+      "score": 1,
+      "comments": 0,
+      "author": "zk",
+      "published": "2026-10-12T04:21:09Z"
     },
     {
       "source": "rss",
@@ -647,15 +659,15 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "TwelveLabs Pegasus 1.5 model now available on Amazon Bedrock",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/twelve-labs-pegasus-1-5-aws/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/twelve-labs-pegasus-1-5-aws/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Review: 4-hour Musk documentary feels like two different films",
+      "url": "https://arstechnica.com/culture/2026/10/review-4-hour-musk-documentary-feels-like-two-different-films/",
+      "discuss_url": "https://arstechnica.com/culture/2026/10/review-4-hour-musk-documentary-feels-like-two-different-films/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-09T05:32:00Z"
+      "author": "Jennifer Ouellette",
+      "published": "2026-10-11T18:10:54Z"
     },
     {
       "source": "rss",
@@ -788,18 +800,6 @@
       "comments": null,
       "author": "Jennifer Ouellette",
       "published": "2026-10-09T18:44:06Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Your artwork could be featured in the next Debian release",
-      "url": "https://arstechnica.com/gadgets/2026/10/your-artwork-could-be-featured-in-the-next-debian-release/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/10/your-artwork-could-be-featured-in-the-next-debian-release/",
-      "score": null,
-      "comments": null,
-      "author": "Nick Indge",
-      "published": "2026-10-09T18:33:26Z"
     }
   ]
 }
