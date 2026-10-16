@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T16:20:20Z",
+  "updated_at": "2026-10-16T20:51:35Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Neural networks are clean",
-      "url": "https://already-clean.goodfire.com/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50105647",
-      "score": 770,
-      "comments": 304,
-      "author": "themgt",
-      "published": "2026-10-15T16:04:01Z",
+      "title": "Claude reveals ECDSA curve origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "discuss_url": "https://news.ycombinator.com/item?id=50122800",
+      "score": 332,
+      "comments": 130,
+      "author": "ahlCVA",
+      "published": "2026-10-16T18:55:59Z",
       "bullets": [
-        "https://twitter.com/nickcammarata/status/2110757819427574056",
-        "Neural networks are clean",
-        "Trending on news.ycombinator.com — 770 points, 304 comments."
+        "Cryptographer Filippo Valsorda used Anthropic’s Claude to uncover the derivation of NIST P-256’s 25-year-old unexplained elliptic curve seed.",
+        "Claude helped demonstrate the seed came from SHA-1 hashing of English text, debunking long-suspected NSA backdoor theories.",
+        "Highlights LLMs' utility in cryptographic archaeology, successfully connecting disparate historical data, algorithms, and human-generated clues."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/hounpx",
       "discuss_url": "https://lobste.rs/s/hounpx",
-      "score": 9,
-      "comments": 17,
+      "score": 11,
+      "comments": 21,
       "author": "caius",
       "published": "2026-10-16T08:19:09Z",
       "bullets": [
-        "Feel free to tell what you plan on doing this weekend and even ask for help or feedback.",
-        "Please keep in mind it’s more than OK to do nothing at all too!",
-        "What are you doing this weekend?"
+        "Lobsters developers are discussing weekend initiatives, focusing on personal software side projects and exploring emerging technical tooling.",
+        "Community forums serve as informal incubators for early architecture feedback, peer troubleshooting, and code review outside formal workplaces.",
+        "Discussions highlight the engineering importance of balancing continuous technical exploration with intentional downtime to prevent developer burnout."
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
       "url": "https://calif.io/research/big-fish",
-      "discuss_url": "https://lobste.rs/s/cxlrc5",
-      "score": 3,
-      "comments": 0,
-      "author": "friday",
-      "published": "2026-10-16T15:41:08Z",
+      "discuss_url": "https://news.ycombinator.com/item?id=50118977",
+      "score": 141,
+      "comments": 42,
+      "author": "rs_rs_rs_rs_rs",
+      "published": "2026-10-16T14:44:02Z",
       "bullets": [
-        "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
-        "Trending on lobste.rs/security — 3 points, 0 comments.",
-        "Submitted by friday on lobste.rs/security."
+        "A legacy vulnerability dating back to 4.3BSD was weaponized to achieve local privilege escalation on modern OpenBSD kernels.",
+        "The exploit bypassed OpenBSD's proactive security mitigations, demonstrating gaps in defense-in-depth mechanisms like KARL and strict memory protections.",
+        "Highlights persistent technical debt and memory safety risks lurking in decades-old Unix C code inherited by modern production operating systems."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "My self-hosted infrastructure with Incus OS",
       "url": "https://dataswamp.org/~solene/2026-10-15-selfhosting-infrastructure-incus-os.html",
       "discuss_url": "https://lobste.rs/s/q0wobg",
-      "score": 25,
-      "comments": 2,
+      "score": 27,
+      "comments": 4,
       "author": "ggpsv",
       "published": "2026-10-16T03:25:49Z",
       "bullets": [
-        "My self-hosted infrastructure with Incus OS",
-        "Trending on lobste.rs/devops — 25 points, 2 comments.",
-        "Submitted by ggpsv on lobste.rs/devops."
+        "Replaces Canonical LXD and Proxmox with Incus, managing unified system containers and KVM virtual machines on bare metal.",
+        "Leverages ZFS or Btrfs storage pools alongside OVN software-defined networking for isolated, production-grade homelab environments.",
+        "Provides an API-driven, lightweight alternative to traditional hypervisors, streamlining self-hosted service orchestration and internal infrastructure tooling."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Polymarket saw $600 million in election trades after the elections were over",
-      "url": "https://arstechnica.com/tech-policy/2026/10/polymarket-saw-600-million-in-election-trades-after-the-elections-were-over/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/10/polymarket-saw-600-million-in-election-trades-after-the-elections-were-over/",
+      "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
+      "url": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
       "score": null,
       "comments": null,
-      "author": "Kate Knibbs, wired.com",
-      "published": "2026-10-16T14:19:22Z",
+      "author": "Ashley Belanger",
+      "published": "2026-10-16T20:20:07Z",
       "bullets": [
-        "Millions kept changing hands long after the election outcomes were effectively settled.",
-        "Polymarket saw $600 million in election trades after the elections were over",
-        "Submitted by Kate Knibbs, wired.com on arstechnica.com."
+        "Discord user moderation triggered a law enforcement investigation, highlighting community reporting pipelines in surfacing illicit AI-generated media.",
+        "US law enforcement is actively applying strict CSAM statutes to synthetic imagery, resulting in a state deputy attorney general's arrest.",
+        "Case underscores critical trust and safety challenges around private chat networks like Discord facilitating distribution of locally generated synthetic media."
       ]
     }
   ],
@@ -121,11 +121,35 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Claude reveals ECDSA curve origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "discuss_url": "https://news.ycombinator.com/item?id=50122800",
+      "score": 332,
+      "comments": 130,
+      "author": "ahlCVA",
+      "published": "2026-10-16T18:55:59Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Show HN: Gemini 4 Argon plays StarCraft",
+      "url": "https://starskirmish.com/bench/v0-2/",
+      "discuss_url": "https://news.ycombinator.com/item?id=50118688",
+      "score": 155,
+      "comments": 73,
+      "author": "__cayenne__",
+      "published": "2026-10-16T14:18:44Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Neural networks are clean",
       "url": "https://already-clean.goodfire.com/",
       "discuss_url": "https://news.ycombinator.com/item?id=50105647",
-      "score": 770,
-      "comments": 304,
+      "score": 792,
+      "comments": 318,
       "author": "themgt",
       "published": "2026-10-15T16:04:01Z"
     },
@@ -137,33 +161,21 @@
       "url": "https://sunshowers.io/posts/anthropic-mononoke-2/",
       "discuss_url": "https://news.ycombinator.com/item?id=50106738",
       "score": 249,
-      "comments": 82,
+      "comments": 85,
       "author": "sunshowers",
       "published": "2026-10-15T17:05:19Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Anthropic's Scion is heavily inspired by Mononoke",
-      "url": "https://sunshowers.io/posts/anthropic-mononoke/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50094694",
-      "score": 423,
-      "comments": 161,
-      "author": "sunshowers",
-      "published": "2026-10-14T20:30:54Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Why do LLM pelicans look like this?",
-      "url": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50090443",
-      "score": 163,
-      "comments": 143,
-      "author": "pcwelder",
-      "published": "2026-10-14T16:33:34Z"
+      "title": "Why Math Dumped OpenAI",
+      "url": "https://raymyers.org/post/math-dumped-openai/",
+      "discuss_url": "https://lobste.rs/s/uj7pqu",
+      "score": 1,
+      "comments": 0,
+      "author": "aphaelion",
+      "published": "2026-10-16T16:38:47Z"
     },
     {
       "source": "lobsters",
@@ -250,26 +262,14 @@
       "published": "2026-10-15T00:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
-      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
-      "discuss_url": "https://huggingface.co/blog/allenai/hiro-acev2",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-14T16:12:42Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/hounpx",
       "discuss_url": "https://lobste.rs/s/hounpx",
-      "score": 9,
-      "comments": 17,
+      "score": 11,
+      "comments": 21,
       "author": "caius",
       "published": "2026-10-16T08:19:09Z"
     },
@@ -289,18 +289,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "The geometric model of maintenance",
-      "url": "https://entropicthoughts.com/geometric-model-of-maintenance",
-      "discuss_url": "https://lobste.rs/s/bpvpbe",
-      "score": 17,
-      "comments": 0,
-      "author": "lcapaldo",
-      "published": "2026-10-15T10:48:58Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "An Emulator Writer's HOWTO for Static Binary Translation",
       "url": "https://www.gtoal.com/sbt/",
       "discuss_url": "https://lobste.rs/s/yista4",
@@ -313,13 +301,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/7vzgsl",
-      "discuss_url": "https://lobste.rs/s/7vzgsl",
-      "score": 18,
-      "comments": 45,
-      "author": "caius",
-      "published": "2026-10-12T17:04:52Z"
+      "title": "The geometric model of maintenance",
+      "url": "https://entropicthoughts.com/geometric-model-of-maintenance",
+      "discuss_url": "https://lobste.rs/s/bpvpbe",
+      "score": 17,
+      "comments": 0,
+      "author": "lcapaldo",
+      "published": "2026-10-15T10:48:58Z"
     },
     {
       "source": "lobsters",
@@ -406,16 +394,28 @@
       "published": "2026-10-13T17:56:33Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+      "score": null,
+      "comments": null,
+      "author": "Christopher Harrison",
+      "published": "2026-10-12T17:43:59Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
       "url": "https://calif.io/research/big-fish",
-      "discuss_url": "https://lobste.rs/s/cxlrc5",
-      "score": 3,
-      "comments": 0,
-      "author": "friday",
-      "published": "2026-10-16T15:41:08Z"
+      "discuss_url": "https://news.ycombinator.com/item?id=50118977",
+      "score": 141,
+      "comments": 42,
+      "author": "rs_rs_rs_rs_rs",
+      "published": "2026-10-16T14:44:02Z"
     },
     {
       "source": "lobsters",
@@ -424,8 +424,8 @@
       "title": "Epic's EAC2 v2 seems fairly easily bypassable",
       "url": "https://codon.org.uk/~mjg59/blog/p/epics-eac2-v2-seems-fairly-easily-bypassable/",
       "discuss_url": "https://lobste.rs/s/1iin5o",
-      "score": 29,
-      "comments": 15,
+      "score": 35,
+      "comments": 20,
       "author": "calvin",
       "published": "2026-10-15T22:48:19Z"
     },
@@ -436,7 +436,7 @@
       "title": "Remote Attestation Should Not Be Tolerated",
       "url": "https://lumi.codeberg.page/blog/remote-attestation.html",
       "discuss_url": "https://lobste.rs/s/s8bo3z",
-      "score": 44,
+      "score": 45,
       "comments": 58,
       "author": "stilic",
       "published": "2026-10-15T14:02:45Z"
@@ -472,7 +472,7 @@
       "title": "We found a Tencent agent fleet",
       "url": "https://swarmcha.se/posts/chinese-agent-fleet-full-report",
       "discuss_url": "https://lobste.rs/s/wcoes4",
-      "score": 27,
+      "score": 28,
       "comments": 10,
       "author": "unlobito",
       "published": "2026-10-14T20:08:19Z"
@@ -556,8 +556,8 @@
       "title": "My self-hosted infrastructure with Incus OS",
       "url": "https://dataswamp.org/~solene/2026-10-15-selfhosting-infrastructure-incus-os.html",
       "discuss_url": "https://lobste.rs/s/q0wobg",
-      "score": 25,
-      "comments": 2,
+      "score": 27,
+      "comments": 4,
       "author": "ggpsv",
       "published": "2026-10-16T03:25:49Z"
     },
@@ -589,6 +589,42 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "AWS Lambda durable functions are now available in AWS GovCloud (US) Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/durablefunctions-govcloud/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/durablefunctions-govcloud/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-16T18:26:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-16T17:59:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Beam model by Reflection is now available on Amazon SageMaker JumpStart and AWS Trainium",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/reflection-beam-on-sagemaker-jumpstart-and-aws-trainium/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/reflection-beam-on-sagemaker-jumpstart-and-aws-trainium/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-16T16:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "AWS Transform announces Azure-to-AWS cloud-native code conversion",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-azure-to-aws-code-conversion/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-azure-to-aws-code-conversion/",
@@ -601,97 +637,121 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Web Search on Amazon Bedrock AgentCore expands to AWS GovCloud and 3 Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore/",
+      "title": "Second-generation AWS Outposts racks now supported in the AWS Mexico (Central) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-outposts-racks-mexico-central/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-outposts-racks-mexico-central/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-10-15T20:40:00Z"
+      "published": "2026-10-16T08:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon SageMaker Studio simplifies getting started for new AI/ML builders with new sign-in options",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-new-sign-in-options/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-new-sign-in-options/",
+      "title": "AWS End User Messaging adds registration improvements for faster, higher-quality submissions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-registration-improvements-for-faster-higher-quality-submissions",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-registration-improvements-for-faster-higher-quality-submissions",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-10-15T20:10:00Z"
+      "published": "2026-10-16T07:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon EC2 T8i instances are now available in South America (São Paulo)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-t8i-instances-south-america/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-t8i-instances-south-america/",
+      "title": "AWS End User Messaging now supports Brand Profiles",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-now-supports-brand-profiles",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-now-supports-brand-profiles",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-10-15T20:00:00Z"
+      "published": "2026-10-16T07:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon DynamoDB Streams now supports timestamp-based stream processing",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-streams-timestamp-processing",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-streams-timestamp-processing",
+      "title": "AWS End User Messaging now offers managed OTP verification end-to-end",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-end-to-end-managed-OTP",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-end-to-end-managed-OTP",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-10-15T18:30:00Z"
+      "published": "2026-10-16T07:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Lambda Durable Execution SDK for Go is now generally available",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-durable-go-sdk-support/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-durable-go-sdk-support/",
+      "title": "AWS End User Messaging adds a guided wizard for RCS registration videos",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-guided-wizard-rcs-registration-videos",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-guided-wizard-rcs-registration-videos",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-10-15T18:23:00Z"
+      "published": "2026-10-16T07:00:00Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Muse Spark Open model now available on Amazon SageMaker JumpStart",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/muse-spark-open-on-sagemaker-jumpstart/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/muse-spark-open-on-sagemaker-jumpstart/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
+      "url": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-15T18:00:00Z"
+      "author": "Ashley Belanger",
+      "published": "2026-10-16T20:20:07Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS HealthOmics now supports shared VPCs",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/omics-workflows-shared-vpcs/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/omics-workflows-shared-vpcs/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "US Rep proposes bill to give video game buyers \"ownership,\" not \"a license\"",
+      "url": "https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license/",
+      "discuss_url": "https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-15T17:42:00Z"
+      "author": "Samuel Axon",
+      "published": "2026-10-16T19:41:18Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Time Sync Service adds support for microsecond-accurate time on 135 additional EC2 instance types in all commercial regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-sync-additional-instances-all-regions",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-sync-additional-instances-all-regions",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Bug turns one of the biggest fears about Ray-Ban Meta smart glasses into reality",
+      "url": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-15T17:34:00Z"
+      "author": "Scharon Harding",
+      "published": "2026-10-16T19:11:50Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "RFK Jr. proposes FDA look the other way on unproven peptides, report says",
+      "url": "https://arstechnica.com/health/2026/10/rfk-jr-proposes-fda-look-the-other-way-on-unproven-peptides-report-says/",
+      "discuss_url": "https://arstechnica.com/health/2026/10/rfk-jr-proposes-fda-look-the-other-way-on-unproven-peptides-report-says/",
+      "score": null,
+      "comments": null,
+      "author": "Beth Mole",
+      "published": "2026-10-16T17:05:59Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+      "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+      "score": null,
+      "comments": null,
+      "author": "Ashley Belanger",
+      "published": "2026-10-16T15:41:00Z"
     },
     {
       "source": "rss",
@@ -776,66 +836,6 @@
       "comments": null,
       "author": "Ryan Whitwam",
       "published": "2026-10-16T10:00:32Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "KDE turns 30 with Plasma 6.8, remote upgrades, and an X11 farewell",
-      "url": "https://arstechnica.com/gadgets/2026/10/kde-turns-30-with-plasma-6-8-remote-upgrades-and-an-x11-farewell/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/10/kde-turns-30-with-plasma-6-8-remote-upgrades-and-an-x11-farewell/",
-      "score": null,
-      "comments": null,
-      "author": "Nick Indge",
-      "published": "2026-10-15T22:21:06Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Plex now helps sell movie theater tickets",
-      "url": "https://arstechnica.com/gadgets/2026/10/plex-now-helps-sell-movie-theater-tickets/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/10/plex-now-helps-sell-movie-theater-tickets/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-10-15T21:22:15Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Hegseth’s dubious low-T screening may flag up to 25 percent of the Army",
-      "url": "https://arstechnica.com/health/2026/10/hegseths-dubious-low-t-screening-may-flag-up-to-25-percent-of-the-army/",
-      "discuss_url": "https://arstechnica.com/health/2026/10/hegseths-dubious-low-t-screening-may-flag-up-to-25-percent-of-the-army/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-10-15T21:09:57Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Targeted ads delivered 0-click exploits to install mercenary malware",
-      "url": "https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/",
-      "discuss_url": "https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-10-15T20:32:41Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Above the 911? Porsche previews a new mid-engined supercar.",
-      "url": "https://arstechnica.com/cars/2026/10/porsche-previews-its-future-with-mission-s-supercar-concept/",
-      "discuss_url": "https://arstechnica.com/cars/2026/10/porsche-previews-its-future-with-mission-s-supercar-concept/",
-      "score": null,
-      "comments": null,
-      "author": "Jonathan M. Gitlin",
-      "published": "2026-10-15T20:30:02Z"
     }
   ]
 }
