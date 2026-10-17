@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T15:14:51Z",
+  "updated_at": "2026-10-17T20:24:04Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
-      "url": "https://llmspeed.dev/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50127979",
-      "score": 168,
-      "comments": 54,
-      "author": "albinstman",
-      "published": "2026-10-17T04:36:53Z",
+      "title": "OpenAI discloses four more rogue incidents",
+      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+      "discuss_url": "https://news.ycombinator.com/item?id=50132502",
+      "score": 106,
+      "comments": 114,
+      "author": "DASD",
+      "published": "2026-10-17T16:31:12Z",
       "bullets": [
-        "Simulates interactive tokens-per-second streaming speeds for local models across specific GPU and Apple Silicon hardware tiers prior to purchase.",
-        "Helps engineers evaluate memory bandwidth bottlenecks, VRAM capacity, and quantization trade-offs (GGUF, AWQ) for targeted open-weight models.",
-        "Bridges procurement gaps by previewing real-time generation latency against local inference runtimes like Ollama, llama.cpp, or vLLM."
+        "OpenAI identified distinct threat clusters abusing API access for vulnerability research, spear-phishing scripting, and automated reconnaissance tasks.",
+        "Disclosures highlight state-backed actors leveraging frontier LLMs to accelerate operational cyber workflows rather than generating novel zero-day exploits.",
+        "AI teams must enforce strict behavioral anomaly detection and threat-intelligence sharing to mitigate automated adversarial tooling across public APIs."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Intuitive concurrent programming in any language",
       "url": "https://www.lf-lang.org/",
       "discuss_url": "https://lobste.rs/s/srao9u",
-      "score": 6,
-      "comments": 1,
+      "score": 18,
+      "comments": 8,
       "author": "mpweiher",
       "published": "2026-10-17T12:17:20Z",
       "bullets": [
-        "Structured concurrency binds asynchronous task lifetimes to lexical scopes, automatically preventing orphaned processes and simplifying cross-thread error propagation.",
-        "Adopting CSP channels or the Actor model eliminates shared mutable state, replacing lock contention and race conditions with explicit message passing.",
-        "Lightweight cooperative coroutines and virtual threads offer high-throughput I/O concurrency without the heavy memory footprint of native OS threads."
+        "Structured concurrency binds task lifecycles to lexical scope, drastically reducing thread leaks and unhandled exceptions across diverse language runtimes.",
+        "Message-passing paradigms like CSP or actor models prevent shared-state race conditions and simplify deadlocks compared to explicit mutex locking.",
+        "Universal concurrency patterns prioritize explicit cancellation tokens, unified error propagation, and bounded task pools over unconstrained async spawning."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
       "url": "https://calif.io/research/big-fish",
       "discuss_url": "https://news.ycombinator.com/item?id=50118977",
-      "score": 189,
-      "comments": 63,
+      "score": 191,
+      "comments": 65,
       "author": "rs_rs_rs_rs_rs",
       "published": "2026-10-16T14:44:02Z",
       "bullets": [
-        "A 37-year-old kernel flaw originating in legacy 4.3BSD code enables local privilege escalation against modern, fully-patched OpenBSD systems.",
-        "The exploit successfully bypasses OpenBSD's strict defense-in-depth mitigations, such as Kernel Address Randomized Link (KARL) and W^X memory protections.",
-        "Exposes persistent attack surface in foundational Unix heritage code, proving decades of manual audits still overlook deep architectural bugs."
+        "A 37-year-old BSD kernel flaw demonstrates that foundational, decades-old code in hardened OSs like OpenBSD remains vulnerable to modern exploitation.",
+        "Attackers achieved local privilege escalation by bypassing OpenBSD's kernel mitigations, highlighting persistent memory corruption risks in legacy C.",
+        "Organizations running BSD variants must audit inherited base system primitives and patch kernel vulnerabilities proactively."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "My self-hosted infrastructure with Incus OS",
       "url": "https://dataswamp.org/~solene/2026-10-15-selfhosting-infrastructure-incus-os.html",
       "discuss_url": "https://lobste.rs/s/q0wobg",
-      "score": 30,
+      "score": 31,
       "comments": 5,
       "author": "ggpsv",
       "published": "2026-10-16T03:25:49Z",
       "bullets": [
-        "Replaces Proxmox or Canonical LXD with Incus for managing combined LXC system containers and KVM virtual machines via unified APIs.",
-        "Leverages ZFS or Btrfs storage pools alongside OVN-backed virtual networks for modular, production-grade self-hosted workload isolation.",
-        "Provides a lightweight alternative to heavyweight hypervisors, simplifying GitOps-driven container lifecycle automation and snapshot-based disaster recovery."
+        "Incus provides an open-source, LXD-compatible virtualization daemon managing both system containers and KVM virtual machines without heavyweight hypervisors.",
+        "Self-hosted setups typically integrate Incus with ZFS or Ceph storage backends and OVN for software-defined multi-host networking.",
+        "Offers lightweight resource utilization and automated cloud-init provisioning, serving as a modular alternative to Proxmox VE for homelab infrastructure."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Lesley Evans Ogden, Knowable Magazine",
       "published": "2026-10-17T11:15:11Z",
       "bullets": [
-        "Dominant manager monologues suppress critical engineering feedback, reducing team psychological safety and collective problem-solving capabilities during technical discussions.",
-        "Cutting unstructured, aimless status meetings minimizes context-switching overhead, directly boosting focused development time for engineering and operations teams.",
-        "Leadership shifts toward active listening and asynchronous updates demonstrably improve technical team alignment, retention, and execution efficiency."
+        "Studies indicate managers over-communicating stifles team input; leaders listening more directly improves problem discovery and engineering collaboration.",
+        "Auditing recurring syncs and eliminating aimless sessions mitigates meeting fatigue and recovers uninterrupted deep-work hours for technical teams.",
+        "Teams benefit from adopting strict agendas, asynchronous status updates, and decentralized decision-making over manager-led synchronous monologues."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "OpenAI discloses four more rogue incidents",
+      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+      "discuss_url": "https://news.ycombinator.com/item?id=50132502",
+      "score": 106,
+      "comments": 114,
+      "author": "DASD",
+      "published": "2026-10-17T16:31:12Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
       "url": "https://llmspeed.dev/",
       "discuss_url": "https://news.ycombinator.com/item?id=50127979",
-      "score": 168,
-      "comments": 54,
+      "score": 216,
+      "comments": 71,
       "author": "albinstman",
       "published": "2026-10-17T04:36:53Z"
     },
@@ -136,8 +148,8 @@
       "title": "Claude reveals ECDSA curve origins",
       "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
       "discuss_url": "https://news.ycombinator.com/item?id=50122800",
-      "score": 953,
-      "comments": 343,
+      "score": 1008,
+      "comments": 372,
       "author": "ahlCVA",
       "published": "2026-10-16T18:55:59Z"
     },
@@ -148,10 +160,22 @@
       "title": "How the Claude Code team does code review",
       "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
       "discuss_url": "https://news.ycombinator.com/item?id=50122951",
-      "score": 418,
-      "comments": 397,
+      "score": 448,
+      "comments": 438,
       "author": "pretext",
       "published": "2026-10-16T19:04:47Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Abolish AI! Manifesto",
+      "url": "https://abolish-ai.net/abolish-ai-a-manifesto/",
+      "discuss_url": "https://lobste.rs/s/1kesjm",
+      "score": 6,
+      "comments": 0,
+      "author": "janus",
+      "published": "2026-10-17T18:25:58Z"
     },
     {
       "source": "hackernews",
@@ -160,8 +184,8 @@
       "title": "Anthropic assigned highest junk credit rating in June",
       "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
       "discuss_url": "https://news.ycombinator.com/item?id=50122112",
-      "score": 272,
-      "comments": 83,
+      "score": 280,
+      "comments": 86,
       "author": "JumpCrisscross",
       "published": "2026-10-16T18:11:42Z"
     },
@@ -172,8 +196,8 @@
       "title": "Show HN: Gemini 4 Argon plays StarCraft",
       "url": "https://starskirmish.com/bench/v0-2/",
       "discuss_url": "https://news.ycombinator.com/item?id=50118688",
-      "score": 232,
-      "comments": 104,
+      "score": 241,
+      "comments": 105,
       "author": "__cayenne__",
       "published": "2026-10-16T14:18:44Z"
     },
@@ -184,70 +208,22 @@
       "title": "Designing more efficient quantum circuits with Claude",
       "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
       "discuss_url": "https://news.ycombinator.com/item?id=50121939",
-      "score": 158,
-      "comments": 33,
+      "score": 168,
+      "comments": 36,
       "author": "pretext",
       "published": "2026-10-16T18:00:18Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Neural networks are clean",
+      "title": "Neural Networks Are Already Clean",
       "url": "https://already-clean.goodfire.com/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50105647",
-      "score": 805,
-      "comments": 330,
-      "author": "themgt",
-      "published": "2026-10-15T16:04:01Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "More on Anthropic's Scion ripping off Mononoke",
-      "url": "https://sunshowers.io/posts/anthropic-mononoke-2/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50106738",
-      "score": 253,
-      "comments": 89,
-      "author": "sunshowers",
-      "published": "2026-10-15T17:05:19Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "OpenFatigue™ — Open is the new closed",
-      "url": "https://openfatigue.ai/",
-      "discuss_url": "https://lobste.rs/s/plbei0",
-      "score": 27,
-      "comments": 3,
-      "author": "kngl",
-      "published": "2026-10-14T11:24:24Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Why Math Dumped OpenAI",
-      "url": "https://raymyers.org/post/math-dumped-openai/",
-      "discuss_url": "https://lobste.rs/s/uj7pqu",
-      "score": 2,
-      "comments": 0,
-      "author": "aphaelion",
-      "published": "2026-10-16T16:38:47Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Running RAG with a (small) language model in the browser",
-      "url": "https://bart.degoe.de/rag-with-a-small-language-model-in-the-browser/",
-      "discuss_url": "https://lobste.rs/s/nsjjo3",
-      "score": 3,
-      "comments": 0,
-      "author": "bart",
-      "published": "2026-10-13T15:56:29Z"
+      "discuss_url": "https://lobste.rs/s/enjlpn",
+      "score": 4,
+      "comments": 1,
+      "author": "Yogthos",
+      "published": "2026-10-15T22:25:03Z"
     },
     {
       "source": "rss",
@@ -262,14 +238,38 @@
       "published": "2026-10-16T01:44:47Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "discuss_url": "https://huggingface.co/blog/reflection-beam",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-16T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "discuss_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-15T20:34:01Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Intuitive concurrent programming in any language",
       "url": "https://www.lf-lang.org/",
       "discuss_url": "https://lobste.rs/s/srao9u",
-      "score": 6,
-      "comments": 1,
+      "score": 18,
+      "comments": 8,
       "author": "mpweiher",
       "published": "2026-10-17T12:17:20Z"
     },
@@ -281,7 +281,7 @@
       "url": "https://lobste.rs/s/hounpx",
       "discuss_url": "https://lobste.rs/s/hounpx",
       "score": 17,
-      "comments": 38,
+      "comments": 42,
       "author": "caius",
       "published": "2026-10-16T08:19:09Z"
     },
@@ -412,10 +412,22 @@
       "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
       "url": "https://calif.io/research/big-fish",
       "discuss_url": "https://news.ycombinator.com/item?id=50118977",
-      "score": 189,
-      "comments": 63,
+      "score": 191,
+      "comments": 65,
       "author": "rs_rs_rs_rs_rs",
       "published": "2026-10-16T14:44:02Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
+      "url": "https://pwn.ai/blog/pwnescape",
+      "discuss_url": "https://lobste.rs/s/np84oh",
+      "score": 3,
+      "comments": 0,
+      "author": "munksgaard",
+      "published": "2026-10-17T18:24:39Z"
     },
     {
       "source": "lobsters",
@@ -424,7 +436,7 @@
       "title": "Someone on Torrent Sites Kept Fucking With My Sonarr",
       "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
       "discuss_url": "https://lobste.rs/s/1zknyw",
-      "score": 15,
+      "score": 17,
       "comments": 5,
       "author": "maximilian",
       "published": "2026-10-16T20:47:02Z"
@@ -436,8 +448,8 @@
       "title": "Epic's EAC2 v2 seems fairly easily bypassable",
       "url": "https://codon.org.uk/~mjg59/blog/p/epics-eac2-v2-seems-fairly-easily-bypassable/",
       "discuss_url": "https://lobste.rs/s/1iin5o",
-      "score": 38,
-      "comments": 22,
+      "score": 39,
+      "comments": 25,
       "author": "calvin",
       "published": "2026-10-15T22:48:19Z"
     },
@@ -448,8 +460,8 @@
       "title": "Remote Attestation Should Not Be Tolerated",
       "url": "https://lumi.codeberg.page/blog/remote-attestation.html",
       "discuss_url": "https://lobste.rs/s/s8bo3z",
-      "score": 48,
-      "comments": 59,
+      "score": 49,
+      "comments": 60,
       "author": "stilic",
       "published": "2026-10-15T14:02:45Z"
     },
@@ -484,7 +496,7 @@
       "title": "sslx: A fast, modern alternative to OpenSSL's CLI",
       "url": "https://github.com/glincker/sslx",
       "discuss_url": "https://lobste.rs/s/p7tf7i",
-      "score": 16,
+      "score": 15,
       "comments": 6,
       "author": "gmem",
       "published": "2026-10-15T10:02:33Z"
@@ -539,24 +551,12 @@
     },
     {
       "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Linux Lockdown and Hibernation (again)",
-      "url": "https://codon.org.uk/~mjg59/blog/p/linux-lockdown-and-hibernation-again/",
-      "discuss_url": "https://lobste.rs/s/rrazyb",
-      "score": 14,
-      "comments": 0,
-      "author": "binjip978",
-      "published": "2026-10-14T08:52:30Z"
-    },
-    {
-      "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "My self-hosted infrastructure with Incus OS",
       "url": "https://dataswamp.org/~solene/2026-10-15-selfhosting-infrastructure-incus-os.html",
       "discuss_url": "https://lobste.rs/s/q0wobg",
-      "score": 30,
+      "score": 31,
       "comments": 5,
       "author": "ggpsv",
       "published": "2026-10-16T03:25:49Z"
@@ -673,9 +673,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS End User Messaging adds a guided wizard for RCS registration videos",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-guided-wizard-rcs-registration-videos",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-guided-wizard-rcs-registration-videos",
+      "title": "AWS End User Messaging now offers managed OTP verification end-to-end",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-end-to-end-managed-OTP",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-end-to-end-managed-OTP",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -685,9 +685,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS End User Messaging now offers managed OTP verification end-to-end",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-end-to-end-managed-OTP",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-end-to-end-managed-OTP",
+      "title": "AWS End User Messaging adds a guided wizard for RCS registration videos",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-guided-wizard-rcs-registration-videos",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-guided-wizard-rcs-registration-videos",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
