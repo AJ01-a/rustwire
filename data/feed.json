@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T03:45:27Z",
+  "updated_at": "2026-10-18T10:41:48Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "OpenAI discloses four more rogue incidents",
-      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50132502",
-      "score": 121,
-      "comments": 145,
-      "author": "DASD",
-      "published": "2026-10-17T16:31:12Z",
+      "title": "Claude reveals ECDSA curve origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "discuss_url": "https://news.ycombinator.com/item?id=50122800",
+      "score": 1037,
+      "comments": 383,
+      "author": "ahlCVA",
+      "published": "2026-10-16T18:55:59Z",
       "bullets": [
-        "OpenAI discloses four more rogue incidents",
-        "Trending on news.ycombinator.com — 121 points, 145 comments.",
-        "Submitted by DASD on news.ycombinator.com."
+        "Anthropic's Claude helped identify the origins of NIST ECDSA curve seeds (FIPS 186-2), resolving decades-old suspicions regarding curve generation.",
+        "Demonstrates LLMs' surprising utility in cryptographic archaeology, matching obscure historical texts and algorithms against SHA-1 seed preimages.",
+        "Shows AI can assist in auditing legacy cryptographic standards, confirming deterministic derivation rather than malicious NSA backdoors."
       ]
     },
     {
@@ -59,9 +59,9 @@
       "author": "Martin Woodward",
       "published": "2026-10-15T19:39:27Z",
       "bullets": [
-        "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building.",
-        "The post The next developer interface is ambient intelligence appeared first on The GitHub Blog .",
-        "The next developer interface is ambient intelligence"
+        "GitHub highlights developer UX moving toward ambient AI, combining voice, hardware, and autonomous agents to execute tasks from intent.",
+        "Workflows shift from manual IDE and CLI tool operation to background agentic systems managing routine engineering overhead.",
+        "Intent-driven development minimizes cognitive load by delegating context-switching tasks to integrated, persistent AI assistants across environments."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
       "url": "https://calif.io/research/big-fish",
       "discuss_url": "https://news.ycombinator.com/item?id=50118977",
-      "score": 191,
-      "comments": 66,
+      "score": 193,
+      "comments": 67,
       "author": "rs_rs_rs_rs_rs",
       "published": "2026-10-16T14:44:02Z",
       "bullets": [
-        "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
-        "Trending on news.ycombinator.com — 191 points, 66 comments.",
-        "Submitted by rs_rs_rs_rs_rs on news.ycombinator.com."
+        "Ancient logic flaw inherited from 4.3BSD code permits arbitrary kernel memory corruption and local privilege escalation in OpenBSD.",
+        "Attackers must chain precise memory spraying to overcome OpenBSD's aggressive mitigations, including kernel ASLR and guard pages.",
+        "Demonstrates that even mitigation-centric operating systems remain vulnerable to decades-old, inherited C memory safety flaws."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "aws@amazon.com",
       "published": "2026-10-16T20:04:00Z",
       "bullets": [
-        "Amazon CloudWatch log centralization is now available in AWS GovCloud (US) and 13 additional commercial Regions.",
-        "CloudWatch log centralization copies log data from multiple AWS accounts and Regions into a single destination account, integrating with AWS Organizations for efficient aggregatio…",
-        "With this launch, organizations in the AWS GovCloud (US) partition and commercial partition can each centralize logs across their accounts and Regions for centralized monitoring."
+        "Centralizes multi-account, cross-Region logs into one destination account via AWS Organizations integration, eliminating custom log-shipping pipelines.",
+        "Automatically retains source context across replicated log events through CloudWatch enriched system metadata fields.",
+        "Expands native centralization support to AWS GovCloud (US-East/West) and 13 additional commercial regions."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Lesley Evans Ogden, Knowable Magazine",
       "published": "2026-10-17T11:15:11Z",
       "bullets": [
-        "Research suggests listening more while talking less.",
-        "Killing aimless meetings can help, too.",
-        "Science says your boss should talk less in meetings"
+        "Studies link dominant managerial talk-time to reduced psychological safety, suppressing critical technical dissent and proactive risk reporting.",
+        "Eliminating recurring status meetings directly preserves engineering deep-work blocks and curbs productivity losses from frequent context switching.",
+        "Transitioning syncs to asynchronous, document-first updates improves decision quality while minimizing wasted developer hours."
       ]
     }
   ],
@@ -121,13 +121,13 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "OpenAI discloses four more rogue incidents",
-      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50132502",
-      "score": 121,
-      "comments": 145,
-      "author": "DASD",
-      "published": "2026-10-17T16:31:12Z"
+      "title": "Claude reveals ECDSA curve origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "discuss_url": "https://news.ycombinator.com/item?id=50122800",
+      "score": 1037,
+      "comments": 383,
+      "author": "ahlCVA",
+      "published": "2026-10-16T18:55:59Z"
     },
     {
       "source": "hackernews",
@@ -136,22 +136,10 @@
       "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
       "url": "https://llmspeed.dev/",
       "discuss_url": "https://news.ycombinator.com/item?id=50127979",
-      "score": 262,
-      "comments": 77,
+      "score": 297,
+      "comments": 82,
       "author": "albinstman",
       "published": "2026-10-17T04:36:53Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Claude reveals ECDSA curve origins",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "discuss_url": "https://news.ycombinator.com/item?id=50122800",
-      "score": 1027,
-      "comments": 378,
-      "author": "ahlCVA",
-      "published": "2026-10-16T18:55:59Z"
     },
     {
       "source": "hackernews",
@@ -160,8 +148,8 @@
       "title": "How the Claude Code team does code review",
       "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
       "discuss_url": "https://news.ycombinator.com/item?id=50122951",
-      "score": 456,
-      "comments": 456,
+      "score": 460,
+      "comments": 465,
       "author": "pretext",
       "published": "2026-10-16T19:04:47Z"
     },
@@ -172,7 +160,7 @@
       "title": "Anthropic assigned highest junk credit rating in June",
       "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
       "discuss_url": "https://news.ycombinator.com/item?id=50122112",
-      "score": 287,
+      "score": 290,
       "comments": 86,
       "author": "JumpCrisscross",
       "published": "2026-10-16T18:11:42Z"
@@ -184,8 +172,8 @@
       "title": "Show HN: Gemini 4 Argon plays StarCraft",
       "url": "https://starskirmish.com/bench/v0-2/",
       "discuss_url": "https://news.ycombinator.com/item?id=50118688",
-      "score": 242,
-      "comments": 108,
+      "score": 244,
+      "comments": 110,
       "author": "__cayenne__",
       "published": "2026-10-16T14:18:44Z"
     },
@@ -260,6 +248,18 @@
       "comments": null,
       "author": null,
       "published": "2026-10-15T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "discuss_url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-14T16:12:42Z"
     },
     {
       "source": "rss",
@@ -412,8 +412,8 @@
       "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
       "url": "https://calif.io/research/big-fish",
       "discuss_url": "https://news.ycombinator.com/item?id=50118977",
-      "score": 191,
-      "comments": 66,
+      "score": 193,
+      "comments": 67,
       "author": "rs_rs_rs_rs_rs",
       "published": "2026-10-16T14:44:02Z"
     },
@@ -440,6 +440,18 @@
       "comments": null,
       "author": "BrianKrebs",
       "published": "2026-10-13T23:24:53Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "thehackernews.com",
+      "category": "security",
+      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+      "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+      "discuss_url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+      "score": null,
+      "comments": null,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-10-18T08:23:02Z"
     },
     {
       "source": "rss",
@@ -536,18 +548,6 @@
       "comments": null,
       "author": "info@thehackernews.com (The Hacker News)",
       "published": "2026-10-16T06:55:55Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
-      "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
-      "discuss_url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-10-16T06:53:09Z"
     },
     {
       "source": "rss",
