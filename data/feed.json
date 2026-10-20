@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T16:46:47Z",
+  "updated_at": "2026-10-20T21:27:38Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Publish fake stats, get cited in LLMs",
       "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
       "discuss_url": "https://news.ycombinator.com/item?id=50165801",
-      "score": 162,
-      "comments": 90,
+      "score": 294,
+      "comments": 166,
       "author": "robtherobber",
       "published": "2026-10-20T13:06:22Z",
       "bullets": [
-        "Web-grounded LLMs and search-augmented systems uncritically ingest and cite fabricated online statistics, exposing severe data provenance vulnerabilities.",
-        "Attackers exploit retrieval pipelines via Generative Engine Optimization (GEO), using SEO tactics to poison RAG sources and establish fake authority.",
-        "Mitigating web-scale data poisoning requires enterprise RAG to enforce multi-source consensus, domain whitelisting, and automated fact-checking guardrails."
+        "LLMs and search-grounded models ingest unverified web data, allowing fabricated statistics to penetrate RAG pipelines and training corpora.",
+        "Manipulating targeted SEO allows adversaries to easily poison citations returned by tools like Perplexity, Bing Copilot, and Google AI Overviews.",
+        "Reliable RAG architectures require automated fact-checking, domain-reputation filtering, and multi-source consensus verification rather than relying on raw web indexers."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "In Context",
       "url": "https://www.youtube.com/watch?v=P5eO7BNyJao",
       "discuss_url": "https://lobste.rs/s/b36ixw",
-      "score": 32,
+      "score": 34,
       "comments": 10,
       "author": "veqq",
       "published": "2026-10-19T18:25:48Z",
       "bullets": [
-        "Use explicit context propagation to enforce deterministic request deadlines, structured concurrency, and resource cleanup across asynchronous execution boundaries.",
-        "Avoid treating context objects as untyped global state; pass domain dependencies via typed function signatures rather than generic key-value bags.",
-        "Isolate context payloads strictly to cross-cutting concerns, such as distributed tracing spans, cancellation signals, and security authentication tokens."
+        "Pass explicit context instances down call trees to reliably propagate cancellation signals, deadlines, and timeouts across network boundaries.",
+        "Avoid using context value stores as implicit parameter bags; restrict storage to cross-cutting concerns like trace IDs and auth tokens.",
+        "Structured concurrency models offer safer alternatives to ad-hoc context propagation by tying asynchronous task lifecycles to lexical execution scopes."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Protecting Firefox users following the compromise of eMudhra intermediate certificates",
       "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/",
       "discuss_url": "https://lobste.rs/s/gqyvn5",
-      "score": 45,
-      "comments": 20,
+      "score": 94,
+      "comments": 41,
       "author": "freddyb",
       "published": "2026-10-20T13:00:50Z",
       "bullets": [
-        "Mozilla blocked compromised eMudhra intermediate CAs via OneCRL/CRLite updates to mitigate potential man-in-the-middle attacks against Firefox users.",
-        "The compromise of an intermediate CA undermines TLS trust chains, enabling rogue certificate issuance without full root CA revocation.",
-        "Security teams must audit enterprise trust stores and verify client revocation mechanisms (CRL, OCSP, OneCRL) for affected eMudhra certificates."
+        "Compromised intermediate CA private keys at Indian CA eMudhra exposed users to potential TLS man-in-the-middle spoofing attacks.",
+        "Mozilla blocked affected subordinate certificates remotely across Firefox clients using OneCRL and CRLite push-revocation mechanisms.",
+        "Security teams should verify OS and enterprise trust stores, ensuring rogue eMudhra intermediates are revoked and Certificate Transparency logs monitored."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Show HN: WhatsApp MCP running free on Cloudflare",
       "url": "https://github.com/finereli/whatsapp-mcp",
       "discuss_url": "https://news.ycombinator.com/item?id=50145715",
-      "score": 152,
+      "score": 154,
       "comments": 81,
       "author": "zoozla",
       "published": "2026-10-18T21:36:10Z",
       "bullets": [
-        "Implements a Model Context Protocol (MCP) server on Cloudflare Workers, eliminating dedicated server infrastructure typically required for WhatsApp automation.",
-        "Bridges personal WhatsApp accounts with Google Contacts API to resolve contact names and enable search for Claude AI agents.",
-        "Requires single-user self-hosted deployment due to WhatsApp terms-of-service gray areas and sensitive personal credential management."
+        "Implements an open-source Model Context Protocol (MCP) server on Cloudflare Workers free tier, replacing stateful, dedicated Baileys hosting.",
+        "Integrates Google Contacts API alongside WhatsApp to resolve phone numbers to names, enhancing search fidelity for connected LLM agents.",
+        "Employs a serverless, single-tenant deployment model on Cloudflare to minimize hosting overhead and isolate private credentials."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
-      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
-      "discuss_url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "title": "JustWatch, which tackles streaming fragmentation, launches own streaming service",
+      "url": "https://arstechnica.com/gadgets/2026/10/justwatch-which-tackles-streaming-fragmentation-launches-own-streaming-service/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/10/justwatch-which-tackles-streaming-fragmentation-launches-own-streaming-service/",
       "score": null,
       "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-10-20T12:33:13Z",
+      "author": "Scharon Harding",
+      "published": "2026-10-20T20:20:12Z",
       "bullets": [
-        "Meta Muse shared chat sessions are publicly discoverable via basic search queries due to missing access controls and indexing restrictions.",
-        "Thousands of exposed conversations leak sensitive corporate secrets, proprietary business logic, and private personal data from user prompts.",
-        "Security teams must audit AI prompt-sharing workflows, enforce noindex policies, and restrict third-party generative AI URL generation enterprise-wide."
+        "Streaming aggregator JustWatch vertically integrates into direct distribution, pivoting from third-party search and discovery to native content hosting.",
+        "The platform challenges recurring SVOD subscription models by offering a one-time lifetime purchase option for ad-free playback.",
+        "The pivot allows the metadata engine to capture viewer runtime directly instead of relying solely on affiliate referral traffic."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Publish fake stats, get cited in LLMs",
       "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
       "discuss_url": "https://news.ycombinator.com/item?id=50165801",
-      "score": 162,
-      "comments": 90,
+      "score": 294,
+      "comments": 166,
       "author": "robtherobber",
       "published": "2026-10-20T13:06:22Z"
     },
@@ -136,10 +136,22 @@
       "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
       "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
       "discuss_url": "https://news.ycombinator.com/item?id=50159341",
-      "score": 666,
-      "comments": 186,
+      "score": 703,
+      "comments": 203,
       "author": "ds",
       "published": "2026-10-19T23:22:18Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Sign language to text",
+      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "discuss_url": "https://lobste.rs/s/0jsjaz",
+      "score": 3,
+      "comments": 0,
+      "author": "kaycebasques",
+      "published": "2026-10-20T20:15:05Z"
     },
     {
       "source": "hackernews",
@@ -148,34 +160,22 @@
       "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
       "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
       "discuss_url": "https://news.ycombinator.com/item?id=50148855",
-      "score": 161,
-      "comments": 123,
+      "score": 165,
+      "comments": 125,
       "author": "ankitg12",
       "published": "2026-10-19T05:55:31Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-      "url": "https://arxiv.org/abs/2610.18861",
-      "discuss_url": "https://news.ycombinator.com/item?id=50145337",
-      "score": 511,
-      "comments": 238,
-      "author": "allinonai",
-      "published": "2026-10-18T20:48:14Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
-      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50145507",
-      "score": 298,
-      "comments": 213,
-      "author": "amrrs",
-      "published": "2026-10-18T21:09:12Z"
+      "title": "Why I’m no longer updating this repository",
+      "url": "https://po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository",
+      "discuss_url": "https://lobste.rs/s/rejqgl",
+      "score": 1,
+      "comments": 0,
+      "author": "aaronmallen",
+      "published": "2026-10-20T20:58:34Z"
     },
     {
       "source": "lobsters",
@@ -184,10 +184,22 @@
       "title": "Timestral: Mistral's time-series foundation models",
       "url": "https://mistral.ai/news/timestral/",
       "discuss_url": "https://lobste.rs/s/7r9dcc",
-      "score": 8,
+      "score": 9,
       "comments": 1,
       "author": "mxey",
       "published": "2026-10-19T11:47:04Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "discuss_url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-20T18:17:47Z"
     },
     {
       "source": "rss",
@@ -250,25 +262,13 @@
       "published": "2026-10-20T00:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-      "url": "https://huggingface.co/blog/hf-torchneuron",
-      "discuss_url": "https://huggingface.co/blog/hf-torchneuron",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-19T00:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "In Context",
       "url": "https://www.youtube.com/watch?v=P5eO7BNyJao",
       "discuss_url": "https://lobste.rs/s/b36ixw",
-      "score": 32,
+      "score": 34,
       "comments": 10,
       "author": "veqq",
       "published": "2026-10-19T18:25:48Z"
@@ -280,8 +280,8 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/vyfegx",
       "discuss_url": "https://lobste.rs/s/vyfegx",
-      "score": 26,
-      "comments": 46,
+      "score": 28,
+      "comments": 48,
       "author": "caius",
       "published": "2026-10-19T12:09:29Z"
     },
@@ -383,18 +383,6 @@
     },
     {
       "source": "rss",
-      "subsource": "github.blog",
-      "category": "engineering",
-      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
-      "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
-      "discuss_url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
-      "score": null,
-      "comments": null,
-      "author": "Batu Ozturkler",
-      "published": "2026-10-13T17:56:33Z"
-    },
-    {
-      "source": "rss",
       "subsource": "stackoverflow.blog",
       "category": "engineering",
       "title": "Don't forget about the UI for AI",
@@ -406,16 +394,52 @@
       "published": "2026-10-20T07:40:00Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Production-grade LLMs and agents: a field guide",
+      "url": "https://stackoverflow.blog/2026/10/19/production-grade-llms-and-agents-a-field-guide/",
+      "discuss_url": "https://stackoverflow.blog/2026/10/19/production-grade-llms-and-agents-a-field-guide/",
+      "score": null,
+      "comments": null,
+      "author": "Varun Jindal",
+      "published": "2026-10-19T15:32:01Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Protecting Firefox users following the compromise of eMudhra intermediate certificates",
       "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/",
       "discuss_url": "https://lobste.rs/s/gqyvn5",
-      "score": 45,
-      "comments": 20,
+      "score": 94,
+      "comments": 41,
       "author": "freddyb",
       "published": "2026-10-20T13:00:50Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "How I got over 300 Tor exit nodes removed",
+      "url": "https://kaba.cx/posts/20261020_Tor/",
+      "discuss_url": "https://lobste.rs/s/9h14un",
+      "score": 23,
+      "comments": 0,
+      "author": "atmosx",
+      "published": "2026-10-20T18:44:42Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Do minor curl vulnerabilities in the open",
+      "url": "https://daniel.haxx.se/blog/2026/10/20/do-minor-curl-vulnerabilities-in-the-open/",
+      "discuss_url": "https://lobste.rs/s/nryxzd",
+      "score": 7,
+      "comments": 0,
+      "author": "robalex",
+      "published": "2026-10-20T19:47:54Z"
     },
     {
       "source": "lobsters",
@@ -424,8 +448,8 @@
       "title": "Setting up SSH keys on macOS with Touch ID",
       "url": "https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/",
       "discuss_url": "https://lobste.rs/s/d7m5j1",
-      "score": 34,
-      "comments": 15,
+      "score": 46,
+      "comments": 18,
       "author": "nmattia",
       "published": "2026-10-20T10:23:58Z"
     },
@@ -436,8 +460,8 @@
       "title": "Plex vulnerabilities being exploited in the wild to drop a cryptominer",
       "url": "http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
       "discuss_url": "https://news.ycombinator.com/item?id=50152321",
-      "score": 210,
-      "comments": 103,
+      "score": 213,
+      "comments": 107,
       "author": "mindracer",
       "published": "2026-10-19T13:36:43Z"
     },
@@ -448,7 +472,7 @@
       "title": "Tor VPN Beta: What we've learned building our own VPN for Android from scratch",
       "url": "https://blog.torproject.org/tor-vpn-beta/",
       "discuss_url": "https://lobste.rs/s/s3w7hd",
-      "score": 39,
+      "score": 40,
       "comments": 6,
       "author": "confusedalex",
       "published": "2026-10-19T08:27:55Z"
@@ -460,7 +484,7 @@
       "title": "CVE-2026-106173: FortiSIEM gRPC Path Traversal to RCE",
       "url": "https://horizon3.ai/attack-research/cve-2026-106173-deep-dive-fortisiem-grpc-path-traversal-file-write-rce/",
       "discuss_url": "https://lobste.rs/s/d0bbhd",
-      "score": 1,
+      "score": 3,
       "comments": 0,
       "author": "buherator",
       "published": "2026-10-20T14:10:39Z"
@@ -517,37 +541,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Someone on Torrent Sites Kept Fucking With My Sonarr",
-      "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
-      "discuss_url": "https://lobste.rs/s/1zknyw",
-      "score": 18,
-      "comments": 5,
-      "author": "maximilian",
-      "published": "2026-10-16T20:47:02Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "A response to claims about flatpak being insecure (2023)",
       "url": "https://oro.gay/posts/flatpak-an-insecurity-nightmare/",
       "discuss_url": "https://lobste.rs/s/jdjtqt",
-      "score": 5,
+      "score": 6,
       "comments": 0,
       "author": "juliethefoxcoon",
       "published": "2026-10-19T04:02:34Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "krebsonsecurity.com",
-      "category": "security",
-      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-      "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-      "discuss_url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-      "score": null,
-      "comments": null,
-      "author": "BrianKrebs",
-      "published": "2026-10-19T13:48:56Z"
     },
     {
       "source": "hackernews",
@@ -556,7 +556,7 @@
       "title": "Show HN: WhatsApp MCP running free on Cloudflare",
       "url": "https://github.com/finereli/whatsapp-mcp",
       "discuss_url": "https://news.ycombinator.com/item?id=50145715",
-      "score": 152,
+      "score": 154,
       "comments": 81,
       "author": "zoozla",
       "published": "2026-10-18T21:36:10Z"
@@ -572,6 +572,78 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-10-20T15:32:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS announces TorchNeuron: Native PyTorch Support for AWS Trainium (Public Beta)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-native-pytorch-support-trainium",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-native-pytorch-support-trainium",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-20T15:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Structured outputs for Claude models available on Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-structured-outputs-bedrock/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-structured-outputs-bedrock/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-20T14:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Clean Rooms now supports Databricks as a data source",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-clean-rooms-supports-databricks",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-clean-rooms-supports-databricks",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-20T12:23:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS IAM Identity Center simplifies identity source changes from Active Directory",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/iam-identity-center-chg-id-src-from-ad/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/iam-identity-center-chg-id-src-from-ad/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-20T08:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Partner Central launches Program Navigator, Case Study Generator, and streamlined specialization review",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/partner-central-program-navigator/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/partner-central-program-navigator/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-20T08:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Transform for migrations expands support for existing landing zones",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-migrations-landing-zones/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-migrations-landing-zones/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-20T08:00:00Z"
     },
     {
       "source": "rss",
@@ -623,75 +695,135 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Grok 4.7 is now available on Amazon Bedrock in AWS GovCloud (US)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-grok-4-7-govcloud/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-grok-4-7-govcloud/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "JustWatch, which tackles streaming fragmentation, launches own streaming service",
+      "url": "https://arstechnica.com/gadgets/2026/10/justwatch-which-tackles-streaming-fragmentation-launches-own-streaming-service/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/10/justwatch-which-tackles-streaming-fragmentation-launches-own-streaming-service/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-19T13:00:00Z"
+      "author": "Scharon Harding",
+      "published": "2026-10-20T20:20:12Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS IAM Identity Center now supports optimistic locking for users and groups in its identity store",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/iam-identity-store-optimistic-locking/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/iam-identity-store-optimistic-locking/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
+      "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-19T08:00:00Z"
+      "author": "Ashley Belanger",
+      "published": "2026-10-20T20:07:58Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Elemental MediaConnect Router now supports high bitrate mode",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/mediaconnect-router-high-bitrate/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/mediaconnect-router-high-bitrate/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Gemini's Personal Intelligence is coming to cars",
+      "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
+      "discuss_url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-19T08:00:00Z"
+      "author": "Ryan Whitwam",
+      "published": "2026-10-20T20:00:33Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon RDS Custom now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-custom-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-custom-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "OpenBSD 8.0 arrives with security record still intact",
+      "url": "https://arstechnica.com/gadgets/2026/10/openbsd-8-0-lands-with-intel-arc-graphics-support/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/10/openbsd-8-0-lands-with-intel-arc-graphics-support/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-19T07:30:00Z"
+      "author": "Nick Indge",
+      "published": "2026-10-20T19:57:18Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon RDS for SQL Server now supports snapshots on read replicas",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/rds-sqlserver-supports-snapshots-on-read-replicas",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/rds-sqlserver-supports-snapshots-on-read-replicas",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
+      "url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
+      "discuss_url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-19T07:01:00Z"
+      "author": "Dan Goodin",
+      "published": "2026-10-20T19:47:35Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Partner Central adds Solution Matching Engine performance insights",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/solution-matching-engine-performance",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/solution-matching-engine-performance",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "TP-Link tries to appease Trump admin with pledge to assemble routers in US",
+      "url": "https://arstechnica.com/tech-policy/2026/10/tp-link-tries-to-appease-trump-admin-with-pledge-to-assemble-routers-in-us/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/10/tp-link-tries-to-appease-trump-admin-with-pledge-to-assemble-routers-in-us/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-17T03:00:00Z"
+      "author": "Jon Brodkin",
+      "published": "2026-10-20T19:25:14Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Does anyone actually want to win the medium-lift race in the United States?",
+      "url": "https://arstechnica.com/space/2026/10/does-anyone-actually-want-to-win-the-medium-lift-race-in-the-united-states/",
+      "discuss_url": "https://arstechnica.com/space/2026/10/does-anyone-actually-want-to-win-the-medium-lift-race-in-the-united-states/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Berger",
+      "published": "2026-10-20T19:13:31Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice",
+      "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/",
+      "score": null,
+      "comments": null,
+      "author": "Jeremy Hsu",
+      "published": "2026-10-20T18:22:54Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Quantum error correction goes well beyond breakeven",
+      "url": "https://arstechnica.com/science/2026/10/quantum-error-correction-goes-well-beyond-breakeven/",
+      "discuss_url": "https://arstechnica.com/science/2026/10/quantum-error-correction-goes-well-beyond-breakeven/",
+      "score": null,
+      "comments": null,
+      "author": "John Timmer",
+      "published": "2026-10-20T18:08:57Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Meta tries to scapegoat staff who downloaded torrents to spare execs",
+      "url": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
+      "score": null,
+      "comments": null,
+      "author": "Ashley Belanger",
+      "published": "2026-10-20T17:40:20Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Polestar tries to quantify what it’s like to drive a performance car",
+      "url": "https://arstechnica.com/cars/2026/10/polestar-tries-to-quantify-what-its-like-to-drive-a-performance-car/",
+      "discuss_url": "https://arstechnica.com/cars/2026/10/polestar-tries-to-quantify-what-its-like-to-drive-a-performance-car/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan M. Gitlin",
+      "published": "2026-10-20T14:53:07Z"
     },
     {
       "source": "rss",
@@ -704,138 +836,6 @@
       "comments": null,
       "author": "Dan Goodin",
       "published": "2026-10-20T12:33:13Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Visiting Slate’s first showroom as its $25,000 electric truck nears production",
-      "url": "https://arstechnica.com/cars/2026/10/visiting-slates-first-showroom-as-its-25000-electric-truck-nears-production/",
-      "discuss_url": "https://arstechnica.com/cars/2026/10/visiting-slates-first-showroom-as-its-25000-electric-truck-nears-production/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Bangeman",
-      "published": "2026-10-20T11:00:16Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Japan launches mission to bring home a piece of the Martian moon Phobos",
-      "url": "https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos/",
-      "discuss_url": "https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-10-20T05:59:56Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Pennsylvania issues alert on congenital measles—something US hasn't seen for decades",
-      "url": "https://arstechnica.com/health/2026/10/pennsylvania-issues-alert-on-congenital-measles-something-us-hasnt-seen-for-decades/",
-      "discuss_url": "https://arstechnica.com/health/2026/10/pennsylvania-issues-alert-on-congenital-measles-something-us-hasnt-seen-for-decades/",
-      "score": null,
-      "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-10-19T22:44:26Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Russian spacecraft maneuvers in \"extreme proximity\" to satellite used by Ukraine",
-      "url": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/",
-      "discuss_url": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-10-19T20:54:17Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
-      "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-10-19T20:21:53Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Batteries help reduce emissions, but how do we reduce their emissions?",
-      "url": "https://arstechnica.com/science/2026/10/batteries-have-a-small-carbon-footprint-we-can-make-it-smaller/",
-      "discuss_url": "https://arstechnica.com/science/2026/10/batteries-have-a-small-carbon-footprint-we-can-make-it-smaller/",
-      "score": null,
-      "comments": null,
-      "author": "Scott K. Johnson",
-      "published": "2026-10-19T20:03:55Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "PSA: Patch your Plex media server before someone hacks it",
-      "url": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/",
-      "discuss_url": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-10-19T19:39:19Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Startup taps underwater volcano as energy source in \"proof point\" test",
-      "url": "https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/",
-      "discuss_url": "https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-10-19T19:27:24Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "ReactOS reaches major milestone with NTFS install support",
-      "url": "https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/",
-      "discuss_url": "https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/",
-      "score": null,
-      "comments": null,
-      "author": "Nick Indge",
-      "published": "2026-10-19T18:30:56Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "AI game clones are making indie developers afraid to show their work",
-      "url": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
-      "discuss_url": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
-      "score": null,
-      "comments": null,
-      "author": "Kyle Orland",
-      "published": "2026-10-19T16:59:22Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Florida DMV hacked after police dept insecurely stored login info",
-      "url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
-      "score": null,
-      "comments": null,
-      "author": "Ashley Belanger",
-      "published": "2026-10-19T16:38:13Z"
     }
   ]
 }
