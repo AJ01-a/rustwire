@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T04:06:51Z",
+  "updated_at": "2026-10-20T16:46:47Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
-      "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50148855",
-      "score": 152,
-      "comments": 115,
-      "author": "ankitg12",
-      "published": "2026-10-19T05:55:31Z",
+      "title": "Publish fake stats, get cited in LLMs",
+      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+      "discuss_url": "https://news.ycombinator.com/item?id=50165801",
+      "score": 162,
+      "comments": 90,
+      "author": "robtherobber",
+      "published": "2026-10-20T13:06:22Z",
       "bullets": [
-        "Developers use tmux send-keys to automate and orchestrate Anthropic's Claude Code CLI across persistent, headless terminal sessions.",
-        "Multiplexing sessions enables parallelized agentic coding loops and automated REPL interactions without requiring continuous manual terminal inputs.",
-        "Workflow ceilings emerge from rapid token consumption, context window degradation, API rate limits, and fragile state synchronization across unattended runs."
+        "Web-grounded LLMs and search-augmented systems uncritically ingest and cite fabricated online statistics, exposing severe data provenance vulnerabilities.",
+        "Attackers exploit retrieval pipelines via Generative Engine Optimization (GEO), using SEO tactics to poison RAG sources and establish fake authority.",
+        "Mitigating web-scale data poisoning requires enterprise RAG to enforce multi-source consensus, domain whitelisting, and automated fact-checking guardrails."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "In Context",
       "url": "https://www.youtube.com/watch?v=P5eO7BNyJao",
       "discuss_url": "https://lobste.rs/s/b36ixw",
-      "score": 16,
-      "comments": 6,
+      "score": 32,
+      "comments": 10,
       "author": "veqq",
       "published": "2026-10-19T18:25:48Z",
       "bullets": [
-        "In Context",
-        "Trending on lobste.rs/programming — 16 points, 6 comments.",
-        "Submitted by veqq on lobste.rs/programming."
+        "Use explicit context propagation to enforce deterministic request deadlines, structured concurrency, and resource cleanup across asynchronous execution boundaries.",
+        "Avoid treating context objects as untyped global state; pass domain dependencies via typed function signatures rather than generic key-value bags.",
+        "Isolate context payloads strictly to cross-cutting concerns, such as distributed tracing spans, cancellation signals, and security authentication tokens."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Plex vulnerabilities being exploited in the wild to drop a cryptominer",
-      "url": "http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=50152321",
-      "score": 169,
-      "comments": 84,
-      "author": "mindracer",
-      "published": "2026-10-19T13:36:43Z",
+      "title": "Protecting Firefox users following the compromise of eMudhra intermediate certificates",
+      "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/",
+      "discuss_url": "https://lobste.rs/s/gqyvn5",
+      "score": 45,
+      "comments": 20,
+      "author": "freddyb",
+      "published": "2026-10-20T13:00:50Z",
       "bullets": [
-        "Plex vulnerabilities being exploited in the wild to drop a cryptominer",
-        "Trending on news.ycombinator.com — 169 points, 84 comments.",
-        "Submitted by mindracer on news.ycombinator.com."
+        "Mozilla blocked compromised eMudhra intermediate CAs via OneCRL/CRLite updates to mitigate potential man-in-the-middle attacks against Firefox users.",
+        "The compromise of an intermediate CA undermines TLS trust chains, enabling rogue certificate issuance without full root CA revocation.",
+        "Security teams must audit enterprise trust stores and verify client revocation mechanisms (CRL, OCSP, OneCRL) for affected eMudhra certificates."
       ]
     },
     {
@@ -88,31 +88,31 @@
       "title": "Show HN: WhatsApp MCP running free on Cloudflare",
       "url": "https://github.com/finereli/whatsapp-mcp",
       "discuss_url": "https://news.ycombinator.com/item?id=50145715",
-      "score": 146,
-      "comments": 79,
+      "score": 152,
+      "comments": 81,
       "author": "zoozla",
       "published": "2026-10-18T21:36:10Z",
       "bullets": [
-        "I wanted my humble Claude on mobile to access my WhatsApp messages but the only options I could find either required WhatsApp Business or an actual server to run Baileys on.",
-        "I wanted to run it for free on ClaudeFlare and with my personal WhatsApp account, so I built this.",
-        "Important feature - it connects to your Google account as well as WhatsApp to grab the names of all your WhatsApp contacts, otherwise you get only phone numbers for many of them a…"
+        "Implements a Model Context Protocol (MCP) server on Cloudflare Workers, eliminating dedicated server infrastructure typically required for WhatsApp automation.",
+        "Bridges personal WhatsApp accounts with Google Contacts API to resolve contact names and enable search for Claude AI agents.",
+        "Requires single-user self-hosted deployment due to WhatsApp terms-of-service gray areas and sensitive personal credential management."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Pennsylvania issues alert on congenital measles—something US hasn't seen for decades",
-      "url": "https://arstechnica.com/health/2026/10/pennsylvania-issues-alert-on-congenital-measles-something-us-hasnt-seen-for-decades/",
-      "discuss_url": "https://arstechnica.com/health/2026/10/pennsylvania-issues-alert-on-congenital-measles-something-us-hasnt-seen-for-decades/",
+      "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "discuss_url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
       "score": null,
       "comments": null,
-      "author": "Beth Mole",
-      "published": "2026-10-19T22:44:26Z",
+      "author": "Dan Goodin",
+      "published": "2026-10-20T12:33:13Z",
       "bullets": [
-        "Congenital measles can be fatal, and survivors require monitoring for years.",
-        "Pennsylvania issues alert on congenital measles—something US hasn't seen for decades",
-        "Submitted by Beth Mole on arstechnica.com."
+        "Meta Muse shared chat sessions are publicly discoverable via basic search queries due to missing access controls and indexing restrictions.",
+        "Thousands of exposed conversations leak sensitive corporate secrets, proprietary business logic, and private personal data from user prompts.",
+        "Security teams must audit AI prompt-sharing workflows, enforce noindex policies, and restrict third-party generative AI URL generation enterprise-wide."
       ]
     }
   ],
@@ -121,11 +121,35 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Publish fake stats, get cited in LLMs",
+      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+      "discuss_url": "https://news.ycombinator.com/item?id=50165801",
+      "score": 162,
+      "comments": 90,
+      "author": "robtherobber",
+      "published": "2026-10-20T13:06:22Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "discuss_url": "https://news.ycombinator.com/item?id=50159341",
+      "score": 666,
+      "comments": 186,
+      "author": "ds",
+      "published": "2026-10-19T23:22:18Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
       "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
       "discuss_url": "https://news.ycombinator.com/item?id=50148855",
-      "score": 152,
-      "comments": 115,
+      "score": 161,
+      "comments": 123,
       "author": "ankitg12",
       "published": "2026-10-19T05:55:31Z"
     },
@@ -136,8 +160,8 @@
       "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
       "url": "https://arxiv.org/abs/2610.18861",
       "discuss_url": "https://news.ycombinator.com/item?id=50145337",
-      "score": 503,
-      "comments": 236,
+      "score": 511,
+      "comments": 238,
       "author": "allinonai",
       "published": "2026-10-18T20:48:14Z"
     },
@@ -148,34 +172,10 @@
       "title": "If you don't run your own LLM proxy, how do you know whats going on?",
       "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
       "discuss_url": "https://news.ycombinator.com/item?id=50145507",
-      "score": 295,
-      "comments": 210,
+      "score": 298,
+      "comments": 213,
       "author": "amrrs",
       "published": "2026-10-18T21:09:12Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-      "discuss_url": "https://news.ycombinator.com/item?id=50141429",
-      "score": 170,
-      "comments": 166,
-      "author": "f-serif",
-      "published": "2026-10-18T14:30:27Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "How employment is changing at Anthropic",
-      "url": "https://www.anthropic.com/research/employment-at-anthropic",
-      "discuss_url": "https://news.ycombinator.com/item?id=50139873",
-      "score": 152,
-      "comments": 251,
-      "author": "theanonymousone",
-      "published": "2026-10-18T10:49:26Z"
     },
     {
       "source": "lobsters",
@@ -184,10 +184,70 @@
       "title": "Timestral: Mistral's time-series foundation models",
       "url": "https://mistral.ai/news/timestral/",
       "discuss_url": "https://lobste.rs/s/7r9dcc",
-      "score": 6,
+      "score": 8,
       "comments": 1,
       "author": "mxey",
       "published": "2026-10-19T11:47:04Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "discuss_url": "https://huggingface.co/blog/allenai/fairstress",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-20T16:09:19Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "discuss_url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-20T15:19:48Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "discuss_url": "https://huggingface.co/blog/hf-torchtpu",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-20T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "discuss_url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-20T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "MPS in PyTorch 2.15",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "discuss_url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-20T00:00:00Z"
     },
     {
       "source": "rss",
@@ -202,74 +262,14 @@
       "published": "2026-10-19T00:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
-      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-      "discuss_url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-16T01:44:47Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
-      "url": "https://huggingface.co/blog/reflection-beam",
-      "discuss_url": "https://huggingface.co/blog/reflection-beam",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-16T00:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-      "discuss_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-15T20:34:01Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Apertus 1.5 Release Notes",
-      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-      "discuss_url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-15T09:08:45Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-      "url": "https://huggingface.co/blog/meta-muse-spark-open",
-      "discuss_url": "https://huggingface.co/blog/meta-muse-spark-open",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-15T00:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "In Context",
       "url": "https://www.youtube.com/watch?v=P5eO7BNyJao",
       "discuss_url": "https://lobste.rs/s/b36ixw",
-      "score": 16,
-      "comments": 6,
+      "score": 32,
+      "comments": 10,
       "author": "veqq",
       "published": "2026-10-19T18:25:48Z"
     },
@@ -280,8 +280,8 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/vyfegx",
       "discuss_url": "https://lobste.rs/s/vyfegx",
-      "score": 23,
-      "comments": 39,
+      "score": 26,
+      "comments": 46,
       "author": "caius",
       "published": "2026-10-19T12:09:29Z"
     },
@@ -301,18 +301,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/hounpx",
-      "discuss_url": "https://lobste.rs/s/hounpx",
-      "score": 19,
-      "comments": 51,
-      "author": "caius",
-      "published": "2026-10-16T08:19:09Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Algorithmic Sound Design with L-Systems and Granular Synthesis",
       "url": "https://nathanho.me/posts/evograin/",
       "discuss_url": "https://lobste.rs/s/kiq0si",
@@ -322,16 +310,16 @@
       "published": "2026-10-18T12:06:05Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
+      "source": "rss",
+      "subsource": "github.blog",
       "category": "engineering",
-      "title": "Writing stateful effect handlers in EYG",
-      "url": "https://eyg.run/guides/advanced-effects",
-      "discuss_url": "https://lobste.rs/s/shs3xv",
-      "score": 4,
-      "comments": 0,
-      "author": "crowdhailer",
-      "published": "2026-10-16T09:28:51Z"
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+      "discuss_url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+      "score": null,
+      "comments": null,
+      "author": "Julien Dubois",
+      "published": "2026-10-20T16:05:03Z"
     },
     {
       "source": "rss",
@@ -406,14 +394,50 @@
       "published": "2026-10-13T17:56:33Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "Don't forget about the UI for AI",
+      "url": "https://stackoverflow.blog/2026/10/20/don-t-forget-about-the-ui-for-ai/",
+      "discuss_url": "https://stackoverflow.blog/2026/10/20/don-t-forget-about-the-ui-for-ai/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-10-20T07:40:00Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Protecting Firefox users following the compromise of eMudhra intermediate certificates",
+      "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/",
+      "discuss_url": "https://lobste.rs/s/gqyvn5",
+      "score": 45,
+      "comments": 20,
+      "author": "freddyb",
+      "published": "2026-10-20T13:00:50Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Setting up SSH keys on macOS with Touch ID",
+      "url": "https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/",
+      "discuss_url": "https://lobste.rs/s/d7m5j1",
+      "score": 34,
+      "comments": 15,
+      "author": "nmattia",
+      "published": "2026-10-20T10:23:58Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Plex vulnerabilities being exploited in the wild to drop a cryptominer",
       "url": "http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
       "discuss_url": "https://news.ycombinator.com/item?id=50152321",
-      "score": 169,
-      "comments": 84,
+      "score": 210,
+      "comments": 103,
       "author": "mindracer",
       "published": "2026-10-19T13:36:43Z"
     },
@@ -424,8 +448,8 @@
       "title": "Tor VPN Beta: What we've learned building our own VPN for Android from scratch",
       "url": "https://blog.torproject.org/tor-vpn-beta/",
       "discuss_url": "https://lobste.rs/s/s3w7hd",
-      "score": 33,
-      "comments": 5,
+      "score": 39,
+      "comments": 6,
       "author": "confusedalex",
       "published": "2026-10-19T08:27:55Z"
     },
@@ -433,13 +457,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Go will reject certificate chains containing eight distrusted SPKIs",
-      "url": "https://github.com/golang/go/commit/90617fb7ceb59cf08bee7826bb51b8c8fb8c11de",
-      "discuss_url": "https://lobste.rs/s/vze0kx",
+      "title": "CVE-2026-106173: FortiSIEM gRPC Path Traversal to RCE",
+      "url": "https://horizon3.ai/attack-research/cve-2026-106173-deep-dive-fortisiem-grpc-path-traversal-file-write-rce/",
+      "discuss_url": "https://lobste.rs/s/d0bbhd",
       "score": 1,
       "comments": 0,
-      "author": "mendy",
-      "published": "2026-10-20T03:10:23Z"
+      "author": "buherator",
+      "published": "2026-10-20T14:10:39Z"
     },
     {
       "source": "lobsters",
@@ -448,8 +472,8 @@
       "title": "Crawlers, floods and fleets: a year of keeping our digital collections open",
       "url": "https://stacks.wellcomecollection.org/crawlers-floods-and-fleets-a-year-of-keeping-our-digital-collections-open-10af777199c4",
       "discuss_url": "https://lobste.rs/s/4sgimt",
-      "score": 6,
-      "comments": 1,
+      "score": 8,
+      "comments": 4,
       "author": "objectif_lune",
       "published": "2026-10-19T06:44:48Z"
     },
@@ -481,18 +505,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "A response to claims about flatpak being insecure (2023)",
-      "url": "https://oro.gay/posts/flatpak-an-insecurity-nightmare/",
-      "discuss_url": "https://lobste.rs/s/jdjtqt",
-      "score": 5,
-      "comments": 0,
-      "author": "juliethefoxcoon",
-      "published": "2026-10-19T04:02:34Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "It's time to talk about TEEs",
       "url": "https://alinush.github.io//tee",
       "discuss_url": "https://lobste.rs/s/edli0x",
@@ -517,13 +529,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
-      "url": "https://calif.io/research/big-fish",
-      "discuss_url": "https://lobste.rs/s/cxlrc5",
-      "score": 38,
+      "title": "A response to claims about flatpak being insecure (2023)",
+      "url": "https://oro.gay/posts/flatpak-an-insecurity-nightmare/",
+      "discuss_url": "https://lobste.rs/s/jdjtqt",
+      "score": 5,
       "comments": 0,
-      "author": "friday",
-      "published": "2026-10-16T15:41:08Z"
+      "author": "juliethefoxcoon",
+      "published": "2026-10-19T04:02:34Z"
     },
     {
       "source": "rss",
@@ -538,28 +550,28 @@
       "published": "2026-10-19T13:48:56Z"
     },
     {
-      "source": "rss",
-      "subsource": "krebsonsecurity.com",
-      "category": "security",
-      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
-      "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
-      "discuss_url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
-      "score": null,
-      "comments": null,
-      "author": "BrianKrebs",
-      "published": "2026-10-14T14:22:49Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
       "title": "Show HN: WhatsApp MCP running free on Cloudflare",
       "url": "https://github.com/finereli/whatsapp-mcp",
       "discuss_url": "https://news.ycombinator.com/item?id=50145715",
-      "score": 146,
-      "comments": 79,
+      "score": 152,
+      "comments": 81,
       "author": "zoozla",
       "published": "2026-10-18T21:36:10Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Polly Generative engine upgraded with more natural speech, 14 new voices, and 2 new languages",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/polly-generative/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/polly-generative/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-20T15:32:00Z"
     },
     {
       "source": "rss",
@@ -683,15 +695,39 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon CloudWatch log centralization now available in AWS GovCloud and additional commercial Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-centralization-region-expansion",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-centralization-region-expansion",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "discuss_url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-16T20:04:00Z"
+      "author": "Dan Goodin",
+      "published": "2026-10-20T12:33:13Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Visiting Slate’s first showroom as its $25,000 electric truck nears production",
+      "url": "https://arstechnica.com/cars/2026/10/visiting-slates-first-showroom-as-its-25000-electric-truck-nears-production/",
+      "discuss_url": "https://arstechnica.com/cars/2026/10/visiting-slates-first-showroom-as-its-25000-electric-truck-nears-production/",
+      "score": null,
+      "comments": null,
+      "author": "Eric Bangeman",
+      "published": "2026-10-20T11:00:16Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Japan launches mission to bring home a piece of the Martian moon Phobos",
+      "url": "https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos/",
+      "discuss_url": "https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos/",
+      "score": null,
+      "comments": null,
+      "author": "Stephen Clark",
+      "published": "2026-10-20T05:59:56Z"
     },
     {
       "source": "rss",
@@ -800,42 +836,6 @@
       "comments": null,
       "author": "Ashley Belanger",
       "published": "2026-10-19T16:38:13Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Disney found a way to buy Character.AI without buying its lawsuits",
-      "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
-      "score": null,
-      "comments": null,
-      "author": "Maddy Varner",
-      "published": "2026-10-19T14:45:43Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "A Chinese rocket deorbited over Minnesota and left this in a farmer's cornfield",
-      "url": "https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/",
-      "discuss_url": "https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/",
-      "score": null,
-      "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-10-19T14:35:01Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Review: Lanterns is a truly unique twist on the superhero genre",
-      "url": "https://arstechnica.com/culture/2026/10/review-lanterns-is-a-truly-unique-twist-on-the-superhero-genre/",
-      "discuss_url": "https://arstechnica.com/culture/2026/10/review-lanterns-is-a-truly-unique-twist-on-the-superhero-genre/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-10-19T13:31:08Z"
     }
   ]
 }
