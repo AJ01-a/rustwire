@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T22:09:33Z",
+  "updated_at": "2026-10-20T04:06:51Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
       "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
       "discuss_url": "https://news.ycombinator.com/item?id=50148855",
-      "score": 145,
-      "comments": 107,
+      "score": 152,
+      "comments": 115,
       "author": "ankitg12",
       "published": "2026-10-19T05:55:31Z",
       "bullets": [
-        "Orchestrating Anthropic's Claude Code via tmux send-keys enables scriptable, asynchronous multi-session agent workflows directly inside terminal environments.",
-        "Programmatic CLI automation struggles with non-deterministic output parsing, interactive prompt blocking, and fragile session state management across detached panes.",
-        "Terminal multiplexing hits a ceiling for autonomous agents, exposing the need for structured tool-calling APIs over simulated keystroke interfaces."
+        "Developers use tmux send-keys to automate and orchestrate Anthropic's Claude Code CLI across persistent, headless terminal sessions.",
+        "Multiplexing sessions enables parallelized agentic coding loops and automated REPL interactions without requiring continuous manual terminal inputs.",
+        "Workflow ceilings emerge from rapid token consumption, context window degradation, API rate limits, and fragile state synchronization across unattended runs."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "In Context",
       "url": "https://www.youtube.com/watch?v=P5eO7BNyJao",
       "discuss_url": "https://lobste.rs/s/b36ixw",
-      "score": 10,
-      "comments": 5,
+      "score": 16,
+      "comments": 6,
       "author": "veqq",
       "published": "2026-10-19T18:25:48Z",
       "bullets": [
-        "Thread cancellation and request deadlines explicitly through call stacks rather than relying on global state or ambient execution contexts.",
-        "Restrict context values strictly to cross-cutting concerns like trace IDs and authentication tokens, avoiding business-logic parameter smuggling.",
-        "Treat context termination as non-blocking, ensuring resource cleanup and goroutine termination propagate reliably under high concurrency."
+        "In Context",
+        "Trending on lobste.rs/programming — 16 points, 6 comments.",
+        "Submitted by veqq on lobste.rs/programming."
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "Tor VPN Beta: What we've learned building our own VPN for Android from scratch",
-      "url": "https://blog.torproject.org/tor-vpn-beta/",
-      "discuss_url": "https://lobste.rs/s/s3w7hd",
-      "score": 29,
-      "comments": 5,
-      "author": "confusedalex",
-      "published": "2026-10-19T08:27:55Z",
+      "title": "Plex vulnerabilities being exploited in the wild to drop a cryptominer",
+      "url": "http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
+      "discuss_url": "https://news.ycombinator.com/item?id=50152321",
+      "score": 169,
+      "comments": 84,
+      "author": "mindracer",
+      "published": "2026-10-19T13:36:43Z",
       "bullets": [
-        "Implements system-level Android VpnService using Arti (Rust), routing device traffic through onion circuits via a local TUN-to-SOCKS translation layer.",
-        "Addresses Tor's TCP-only limitation at the virtual interface layer by actively mitigating or dropping UDP traffic to prevent IP leaks.",
-        "Utilizes per-app split tunneling to isolate deanonymizing mobile OS telemetry from sensitive application traffic over independent Tor circuits."
+        "Plex vulnerabilities being exploited in the wild to drop a cryptominer",
+        "Trending on news.ycombinator.com — 169 points, 84 comments.",
+        "Submitted by mindracer on news.ycombinator.com."
       ]
     },
     {
@@ -89,30 +89,30 @@
       "url": "https://github.com/finereli/whatsapp-mcp",
       "discuss_url": "https://news.ycombinator.com/item?id=50145715",
       "score": 146,
-      "comments": 78,
+      "comments": 79,
       "author": "zoozla",
       "published": "2026-10-18T21:36:10Z",
       "bullets": [
-        "Deploys an MCP server on Cloudflare's serverless tier, eliminating dedicated host requirements for running Baileys WhatsApp automation.",
-        "Integrates the Google Contacts API alongside WhatsApp to map phone numbers to names for Claude's tool calling context.",
-        "Uses a single-tenant deployment model to isolate private session state while avoiding WhatsApp Business API costs and constraints."
+        "I wanted my humble Claude on mobile to access my WhatsApp messages but the only options I could find either required WhatsApp Business or an actual server to run Baileys on.",
+        "I wanted to run it for free on ClaudeFlare and with my personal WhatsApp account, so I built this.",
+        "Important feature - it connects to your Google account as well as WhatsApp to grab the names of all your WhatsApp contacts, otherwise you get only phone numbers for many of them a…"
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Russian spacecraft maneuvers in \"extreme proximity\" to satellite used by Ukraine",
-      "url": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/",
-      "discuss_url": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/",
+      "title": "Pennsylvania issues alert on congenital measles—something US hasn't seen for decades",
+      "url": "https://arstechnica.com/health/2026/10/pennsylvania-issues-alert-on-congenital-measles-something-us-hasnt-seen-for-decades/",
+      "discuss_url": "https://arstechnica.com/health/2026/10/pennsylvania-issues-alert-on-congenital-measles-something-us-hasnt-seen-for-decades/",
       "score": null,
       "comments": null,
-      "author": "Stephen Clark",
-      "published": "2026-10-19T20:54:17Z",
+      "author": "Beth Mole",
+      "published": "2026-10-19T22:44:26Z",
       "bullets": [
-        "Russia's Kosmos 2612 maneuvered from hundreds of kilometers away into extreme proximity with Ukraine-contracted radar satellite ICEYE-X36.",
-        "ICEYE-X36 provides commercial synthetic aperture radar (SAR) earth observation imagery, crucial for Ukrainian battlefield intelligence and targeting.",
-        "The incident underscores rising counter-space risks and rendezvous/proximity operations (RPO) targeting commercial orbital infrastructure during active conflicts."
+        "Congenital measles can be fatal, and survivors require monitoring for years.",
+        "Pennsylvania issues alert on congenital measles—something US hasn't seen for decades",
+        "Submitted by Beth Mole on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
       "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
       "discuss_url": "https://news.ycombinator.com/item?id=50148855",
-      "score": 145,
-      "comments": 107,
+      "score": 152,
+      "comments": 115,
       "author": "ankitg12",
       "published": "2026-10-19T05:55:31Z"
     },
@@ -136,8 +136,8 @@
       "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
       "url": "https://arxiv.org/abs/2610.18861",
       "discuss_url": "https://news.ycombinator.com/item?id=50145337",
-      "score": 501,
-      "comments": 235,
+      "score": 503,
+      "comments": 236,
       "author": "allinonai",
       "published": "2026-10-18T20:48:14Z"
     },
@@ -148,8 +148,8 @@
       "title": "If you don't run your own LLM proxy, how do you know whats going on?",
       "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
       "discuss_url": "https://news.ycombinator.com/item?id=50145507",
-      "score": 292,
-      "comments": 203,
+      "score": 295,
+      "comments": 210,
       "author": "amrrs",
       "published": "2026-10-18T21:09:12Z"
     },
@@ -172,22 +172,10 @@
       "title": "How employment is changing at Anthropic",
       "url": "https://www.anthropic.com/research/employment-at-anthropic",
       "discuss_url": "https://news.ycombinator.com/item?id=50139873",
-      "score": 151,
-      "comments": 247,
+      "score": 152,
+      "comments": 251,
       "author": "theanonymousone",
       "published": "2026-10-18T10:49:26Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "I built a programming language that LLMs can't use",
-      "url": "https://blog.picheta.me/post/killswitch-lang/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50135762",
-      "score": 269,
-      "comments": 207,
-      "author": "dom96",
-      "published": "2026-10-17T22:26:47Z"
     },
     {
       "source": "lobsters",
@@ -196,22 +184,10 @@
       "title": "Timestral: Mistral's time-series foundation models",
       "url": "https://mistral.ai/news/timestral/",
       "discuss_url": "https://lobste.rs/s/7r9dcc",
-      "score": 7,
+      "score": 6,
       "comments": 1,
       "author": "mxey",
       "published": "2026-10-19T11:47:04Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Neural Networks Are Already Clean",
-      "url": "https://already-clean.goodfire.com/",
-      "discuss_url": "https://lobste.rs/s/enjlpn",
-      "score": 5,
-      "comments": 1,
-      "author": "Yogthos",
-      "published": "2026-10-15T22:25:03Z"
     },
     {
       "source": "rss",
@@ -262,14 +238,38 @@
       "published": "2026-10-15T20:34:01Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Apertus 1.5 Release Notes",
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "discuss_url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-15T09:08:45Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "discuss_url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-15T00:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "In Context",
       "url": "https://www.youtube.com/watch?v=P5eO7BNyJao",
       "discuss_url": "https://lobste.rs/s/b36ixw",
-      "score": 10,
-      "comments": 5,
+      "score": 16,
+      "comments": 6,
       "author": "veqq",
       "published": "2026-10-19T18:25:48Z"
     },
@@ -280,8 +280,8 @@
       "title": "What are you doing this week?",
       "url": "https://lobste.rs/s/vyfegx",
       "discuss_url": "https://lobste.rs/s/vyfegx",
-      "score": 22,
-      "comments": 36,
+      "score": 23,
+      "comments": 39,
       "author": "caius",
       "published": "2026-10-19T12:09:29Z"
     },
@@ -301,18 +301,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Algorithmic Sound Design with L-Systems and Granular Synthesis",
-      "url": "https://nathanho.me/posts/evograin/",
-      "discuss_url": "https://lobste.rs/s/kiq0si",
-      "score": 13,
-      "comments": 0,
-      "author": "chrisl",
-      "published": "2026-10-18T12:06:05Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/hounpx",
       "discuss_url": "https://lobste.rs/s/hounpx",
@@ -320,6 +308,18 @@
       "comments": 51,
       "author": "caius",
       "published": "2026-10-16T08:19:09Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Algorithmic Sound Design with L-Systems and Granular Synthesis",
+      "url": "https://nathanho.me/posts/evograin/",
+      "discuss_url": "https://lobste.rs/s/kiq0si",
+      "score": 13,
+      "comments": 0,
+      "author": "chrisl",
+      "published": "2026-10-18T12:06:05Z"
     },
     {
       "source": "lobsters",
@@ -406,16 +406,40 @@
       "published": "2026-10-13T17:56:33Z"
     },
     {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "Plex vulnerabilities being exploited in the wild to drop a cryptominer",
+      "url": "http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
+      "discuss_url": "https://news.ycombinator.com/item?id=50152321",
+      "score": 169,
+      "comments": 84,
+      "author": "mindracer",
+      "published": "2026-10-19T13:36:43Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Tor VPN Beta: What we've learned building our own VPN for Android from scratch",
       "url": "https://blog.torproject.org/tor-vpn-beta/",
       "discuss_url": "https://lobste.rs/s/s3w7hd",
-      "score": 29,
+      "score": 33,
       "comments": 5,
       "author": "confusedalex",
       "published": "2026-10-19T08:27:55Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Go will reject certificate chains containing eight distrusted SPKIs",
+      "url": "https://github.com/golang/go/commit/90617fb7ceb59cf08bee7826bb51b8c8fb8c11de",
+      "discuss_url": "https://lobste.rs/s/vze0kx",
+      "score": 1,
+      "comments": 0,
+      "author": "mendy",
+      "published": "2026-10-20T03:10:23Z"
     },
     {
       "source": "lobsters",
@@ -436,22 +460,10 @@
       "title": "How Discover-Tech turned targeted ads into a pipeline for zero-click spywares",
       "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
       "discuss_url": "https://lobste.rs/s/zytoux",
-      "score": 13,
+      "score": 14,
       "comments": 1,
       "author": "ache",
       "published": "2026-10-18T20:55:02Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "A response to claims about flatpak being insecure (2023)",
-      "url": "https://oro.gay/posts/flatpak-an-insecurity-nightmare/",
-      "discuss_url": "https://lobste.rs/s/jdjtqt",
-      "score": 5,
-      "comments": 0,
-      "author": "juliethefoxcoon",
-      "published": "2026-10-19T04:02:34Z"
     },
     {
       "source": "lobsters",
@@ -469,13 +481,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Epic's EAC2 v2 seems fairly easily bypassable",
-      "url": "https://codon.org.uk/~mjg59/blog/p/epics-eac2-v2-seems-fairly-easily-bypassable/",
-      "discuss_url": "https://lobste.rs/s/1iin5o",
-      "score": 41,
-      "comments": 27,
-      "author": "calvin",
-      "published": "2026-10-15T22:48:19Z"
+      "title": "A response to claims about flatpak being insecure (2023)",
+      "url": "https://oro.gay/posts/flatpak-an-insecurity-nightmare/",
+      "discuss_url": "https://lobste.rs/s/jdjtqt",
+      "score": 5,
+      "comments": 0,
+      "author": "juliethefoxcoon",
+      "published": "2026-10-19T04:02:34Z"
     },
     {
       "source": "lobsters",
@@ -538,18 +550,6 @@
       "published": "2026-10-14T14:22:49Z"
     },
     {
-      "source": "rss",
-      "subsource": "krebsonsecurity.com",
-      "category": "security",
-      "title": "Microsoft Patches More Than 1,400 Security Flaws",
-      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-      "discuss_url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-      "score": null,
-      "comments": null,
-      "author": "BrianKrebs",
-      "published": "2026-10-13T23:24:53Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "devops",
@@ -557,21 +557,9 @@
       "url": "https://github.com/finereli/whatsapp-mcp",
       "discuss_url": "https://news.ycombinator.com/item?id=50145715",
       "score": 146,
-      "comments": 78,
+      "comments": 79,
       "author": "zoozla",
       "published": "2026-10-18T21:36:10Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/devops",
-      "category": "devops",
-      "title": "My self-hosted infrastructure with Incus OS",
-      "url": "https://dataswamp.org/~solene/2026-10-15-selfhosting-infrastructure-incus-os.html",
-      "discuss_url": "https://lobste.rs/s/q0wobg",
-      "score": 32,
-      "comments": 5,
-      "author": "ggpsv",
-      "published": "2026-10-16T03:25:49Z"
     },
     {
       "source": "rss",
@@ -649,6 +637,18 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "AWS Elemental MediaConnect Router now supports high bitrate mode",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/mediaconnect-router-high-bitrate/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/mediaconnect-router-high-bitrate/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-19T08:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon RDS Custom now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-custom-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-custom-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
@@ -692,6 +692,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-10-16T20:04:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Pennsylvania issues alert on congenital measles—something US hasn't seen for decades",
+      "url": "https://arstechnica.com/health/2026/10/pennsylvania-issues-alert-on-congenital-measles-something-us-hasnt-seen-for-decades/",
+      "discuss_url": "https://arstechnica.com/health/2026/10/pennsylvania-issues-alert-on-congenital-measles-something-us-hasnt-seen-for-decades/",
+      "score": null,
+      "comments": null,
+      "author": "Beth Mole",
+      "published": "2026-10-19T22:44:26Z"
     },
     {
       "source": "rss",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Jennifer Ouellette",
       "published": "2026-10-19T13:31:08Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "DIY VR: How to build your own headset, and why you probably won't want to",
-      "url": "https://arstechnica.com/gadgets/2026/10/diy-vr-how-to-build-your-own-headset-and-why-you-probably-wont-want-to/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/10/diy-vr-how-to-build-your-own-headset-and-why-you-probably-wont-want-to/",
-      "score": null,
-      "comments": null,
-      "author": "Tim Stevens",
-      "published": "2026-10-19T12:33:34Z"
     }
   ]
 }
