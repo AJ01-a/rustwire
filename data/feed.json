@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T11:25:40Z",
+  "updated_at": "2026-10-21T16:52:24Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Publish fake stats, get cited in LLMs",
       "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
       "discuss_url": "https://news.ycombinator.com/item?id=50165801",
-      "score": 344,
-      "comments": 198,
+      "score": 353,
+      "comments": 201,
       "author": "robtherobber",
       "published": "2026-10-20T13:06:22Z",
       "bullets": [
-        "Web-grounded LLMs and RAG systems readily ingest and amplify fabricated web statistics due to reliance on unverified search index results.",
-        "Search engines and models like ChatGPT or Perplexity lack epistemic verification, treating indexed, SEO-optimized fake citations as authoritative ground truth.",
-        "Defenses require source-reputation scoring, cross-domain consensus validation, and strict provenance tracking in downstream retrieval pipelines to mitigate deliberate poisoning."
+        "Publish fake stats, get cited in LLMs",
+        "Trending on news.ycombinator.com — 353 points, 201 comments.",
+        "Submitted by robtherobber on news.ycombinator.com."
       ]
     },
     {
@@ -55,30 +55,30 @@
       "url": "https://lobste.rs/s/vyfegx",
       "discuss_url": "https://lobste.rs/s/vyfegx",
       "score": 28,
-      "comments": 51,
+      "comments": 53,
       "author": "caius",
       "published": "2026-10-19T12:09:29Z",
       "bullets": [
-        "Developers highlight personal systems programming projects, focusing on custom tooling, compilers, and libraries built with Rust, Zig, or Go.",
-        "Discussions center on developer infrastructure, including Nix configurations, self-hosted homelabs, Linux kernel tuning, and automated deployment pipelines.",
-        "Participants exchange technical feedback on database engine optimizations, backend service refactoring, and maintaining niche open-source software libraries."
+        "What are you doing this week?",
+        "Feel free to share!",
+        "Keep in mind it’s OK to do nothing at all, too."
       ]
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
-      "url": "https://news-web.php.net/php.announce/509",
-      "discuss_url": "https://news.ycombinator.com/item?id=50172041",
-      "score": 997,
-      "comments": 404,
-      "author": "xd",
-      "published": "2026-10-20T20:15:50Z",
+      "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "discuss_url": "https://news.ycombinator.com/item?id=50180836",
+      "score": 363,
+      "comments": 121,
+      "author": "danlark1",
+      "published": "2026-10-21T13:43:19Z",
       "bullets": [
-        "CERT-EU alerted on upcoming critical PHP core patches addressing CVE-2026-109618 and CVE-2026-109619, indicating serious pre-disclosure vulnerabilities.",
-        "Critical severity suggests potential remote code execution or memory corruption risks across web servers and runtime environments running vulnerable PHP versions.",
-        "DevOps and SecOps teams should audit active PHP deployments and ready out-of-band patching pipelines for immediate release."
+        "https://www.php2shell.com/",
+        "PHP2Shell: AI uncovers critical RCE in PHP",
+        "Trending on news.ycombinator.com — 363 points, 121 comments."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "aws@amazon.com",
       "published": "2026-10-20T23:26:00Z",
       "bullets": [
-        "Dynamically provisions, scales, and tears down AWS Application Load Balancers directly within your account based on ECS service demand.",
-        "Enables host-based routing allowing up to 25 ECS services to share a single ALB, providing distinct DNS hostnames per service.",
-        "Centralizes cluster ingress governance, letting platform teams define networking standards that application teams inherit without managing load balancer infrastructure."
+        "AWS announces Amazon Elastic Container Service (Amazon ECS) Gateway, a new resource that simplifies ingress networking for containerized applications by dynamically provisioning a…",
+        "With ECS Gateway, platform teams define organizational networking standards once on a gateway and associate it with one or more clusters, giving organizations a centralized way to…",
+        "Application teams simply opt in to inherit those standards without requiring networking expertise."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Dan Goodin",
       "published": "2026-10-21T02:12:18Z",
       "bullets": [
-        "PHP maintainers scheduled two emergency out-of-band patches targeting an unconfirmed remote code execution vulnerability dubbed PHP2Shell.",
-        "The purported PHP2Shell exploit allegedly enables arbitrary remote code execution across standard internet-facing PHP server deployments.",
-        "Sysadmins and DevOps teams should inventory active PHP runtimes and prepare immediate staging and patching pipelines."
+        "Unconfirmed report claims PHP2Shell exploit remotely executes code on PHP sites.",
+        "PHP warns it plans to release 2 emergency patches imminently",
+        "Submitted by Dan Goodin on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Publish fake stats, get cited in LLMs",
       "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
       "discuss_url": "https://news.ycombinator.com/item?id=50165801",
-      "score": 344,
-      "comments": 198,
+      "score": 353,
+      "comments": 201,
       "author": "robtherobber",
       "published": "2026-10-20T13:06:22Z"
     },
@@ -136,8 +136,8 @@
       "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
       "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
       "discuss_url": "https://news.ycombinator.com/item?id=50159341",
-      "score": 729,
-      "comments": 208,
+      "score": 735,
+      "comments": 212,
       "author": "ds",
       "published": "2026-10-19T23:22:18Z"
     },
@@ -157,13 +157,37 @@
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
-      "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
-      "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
-      "discuss_url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "discuss_url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
       "score": null,
       "comments": null,
       "author": null,
-      "published": "2026-10-21T10:59:42Z"
+      "published": "2026-10-21T16:04:43Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "discuss_url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-21T14:58:18Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
+      "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
+      "discuss_url": "https://huggingface.co/blog/nvidia/kumo-forecast",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-21T12:51:24Z"
     },
     {
       "source": "rss",
@@ -238,30 +262,6 @@
       "published": "2026-10-19T00:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
-      "url": "https://huggingface.co/blog/reflection-beam",
-      "discuss_url": "https://huggingface.co/blog/reflection-beam",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-16T00:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-      "discuss_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-15T20:34:01Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
@@ -269,7 +269,7 @@
       "url": "https://lobste.rs/s/vyfegx",
       "discuss_url": "https://lobste.rs/s/vyfegx",
       "score": 28,
-      "comments": 51,
+      "comments": 53,
       "author": "caius",
       "published": "2026-10-19T12:09:29Z"
     },
@@ -289,18 +289,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Intuitive concurrent programming in any language",
-      "url": "https://www.lf-lang.org/",
-      "discuss_url": "https://lobste.rs/s/srao9u",
-      "score": 24,
-      "comments": 10,
-      "author": "mpweiher",
-      "published": "2026-10-17T12:17:20Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "Algorithmic Sound Design with L-Systems and Granular Synthesis",
       "url": "https://nathanho.me/posts/evograin/",
       "discuss_url": "https://lobste.rs/s/kiq0si",
@@ -308,6 +296,18 @@
       "comments": 0,
       "author": "chrisl",
       "published": "2026-10-18T12:06:05Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "github.blog",
+      "category": "engineering",
+      "title": "The bridge to agent-scale Git infrastructure",
+      "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+      "discuss_url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+      "score": null,
+      "comments": null,
+      "author": "Eleanor White",
+      "published": "2026-10-21T16:00:00Z"
     },
     {
       "source": "rss",
@@ -385,25 +385,37 @@
       "source": "rss",
       "subsource": "stackoverflow.blog",
       "category": "engineering",
-      "title": "Don't forget about the UI for AI",
-      "url": "https://stackoverflow.blog/2026/10/20/don-t-forget-about-the-ui-for-ai/",
-      "discuss_url": "https://stackoverflow.blog/2026/10/20/don-t-forget-about-the-ui-for-ai/",
+      "title": "Building Immersive Virtual Economies: An Introduction to KursarScript (KSPL)",
+      "url": "https://stackoverflow.blog/2026/10/21/building-immersive-virtual-economies-an-introduction-to-kursarscript-kspl/",
+      "discuss_url": "https://stackoverflow.blog/2026/10/21/building-immersive-virtual-economies-an-introduction-to-kursarscript-kspl/",
       "score": null,
       "comments": null,
-      "author": "Phoebe Sajor",
-      "published": "2026-10-20T07:40:00Z"
+      "author": "Dr. Ahmad Mateen Ishanzai",
+      "published": "2026-10-21T16:26:42Z"
     },
     {
       "source": "rss",
       "subsource": "stackoverflow.blog",
       "category": "engineering",
-      "title": "Production-grade LLMs and agents: a field guide",
-      "url": "https://stackoverflow.blog/2026/10/19/production-grade-llms-and-agents-a-field-guide/",
-      "discuss_url": "https://stackoverflow.blog/2026/10/19/production-grade-llms-and-agents-a-field-guide/",
+      "title": "Survey Says: You'll swap the model, but everything you build around it is staying put",
+      "url": "https://stackoverflow.blog/2026/10/21/survey-says-you-ll-swap-the-model-but-everything-you-build-around-it-is-staying-put/",
+      "discuss_url": "https://stackoverflow.blog/2026/10/21/survey-says-you-ll-swap-the-model-but-everything-you-build-around-it-is-staying-put/",
       "score": null,
       "comments": null,
-      "author": "Varun Jindal",
-      "published": "2026-10-19T15:32:01Z"
+      "author": "Craig McLuckie",
+      "published": "2026-10-21T14:00:00Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "discuss_url": "https://news.ycombinator.com/item?id=50180836",
+      "score": 363,
+      "comments": 121,
+      "author": "danlark1",
+      "published": "2026-10-21T13:43:19Z"
     },
     {
       "source": "hackernews",
@@ -412,10 +424,46 @@
       "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
       "url": "https://news-web.php.net/php.announce/509",
       "discuss_url": "https://news.ycombinator.com/item?id=50172041",
-      "score": 997,
-      "comments": 404,
+      "score": 1459,
+      "comments": 615,
       "author": "xd",
       "published": "2026-10-20T20:15:50Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "PHP session.upload_progress heap UAF (CVE-2026-109618 / -109619)",
+      "url": "https://jackalsyn.com/posts/php-up-2026.html",
+      "discuss_url": "https://news.ycombinator.com/item?id=50176077",
+      "score": 182,
+      "comments": 61,
+      "author": "rfarley04",
+      "published": "2026-10-21T04:26:56Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "discuss_url": "https://lobste.rs/s/ebsqsp",
+      "score": 12,
+      "comments": 2,
+      "author": "pims",
+      "published": "2026-10-21T13:50:10Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Node.js — Wednesday, October 21, 2026 Security Releases",
+      "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+      "discuss_url": "https://lobste.rs/s/gu7bow",
+      "score": 5,
+      "comments": 0,
+      "author": "easrng",
+      "published": "2026-10-21T15:53:37Z"
     },
     {
       "source": "lobsters",
@@ -424,8 +472,8 @@
       "title": "Upcoming Critical PHP Security Release",
       "url": "https://www.php.net/archive/2026.php#2026-10-20-1",
       "discuss_url": "https://lobste.rs/s/ekxoyt",
-      "score": 89,
-      "comments": 36,
+      "score": 144,
+      "comments": 91,
       "author": "pushcx",
       "published": "2026-10-20T22:23:54Z"
     },
@@ -436,8 +484,8 @@
       "title": "Tell HN: 2x PHP RCE CVEs with CVSS 10.0 Incoming",
       "url": "https://news.ycombinator.com/item?id=50167754",
       "discuss_url": "https://news.ycombinator.com/item?id=50167754",
-      "score": 226,
-      "comments": 35,
+      "score": 258,
+      "comments": 41,
       "author": "petecooper",
       "published": "2026-10-20T15:20:35Z"
     },
@@ -448,10 +496,22 @@
       "title": "Protecting Firefox users following the compromise of eMudhra intermediate certificates",
       "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/",
       "discuss_url": "https://lobste.rs/s/gqyvn5",
-      "score": 152,
-      "comments": 56,
+      "score": 158,
+      "comments": 64,
       "author": "freddyb",
       "published": "2026-10-20T13:00:50Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Your AI agent fixed the bug, but what else did it change?",
+      "url": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/",
+      "discuss_url": "https://lobste.rs/s/17bp4z",
+      "score": 2,
+      "comments": 0,
+      "author": "sarciszewski",
+      "published": "2026-10-21T16:07:01Z"
     },
     {
       "source": "lobsters",
@@ -460,7 +520,7 @@
       "title": "Firefox security patch tests are now private for at least a week",
       "url": "https://groups.google.com/a/mozilla.org/g/firefox-dev/c/4I1HSPtVyrI/m/giGra4ZzAQAJ",
       "discuss_url": "https://lobste.rs/s/othohc",
-      "score": 4,
+      "score": 12,
       "comments": 1,
       "author": "strugee",
       "published": "2026-10-21T07:13:16Z"
@@ -472,22 +532,10 @@
       "title": "Setting up SSH keys on macOS with Touch ID",
       "url": "https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/",
       "discuss_url": "https://lobste.rs/s/d7m5j1",
-      "score": 59,
-      "comments": 24,
+      "score": 65,
+      "comments": 26,
       "author": "nmattia",
       "published": "2026-10-20T10:23:58Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "security",
-      "title": "Plex vulnerabilities being exploited in the wild to drop a cryptominer",
-      "url": "http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=50152321",
-      "score": 217,
-      "comments": 113,
-      "author": "mindracer",
-      "published": "2026-10-19T13:36:43Z"
     },
     {
       "source": "lobsters",
@@ -496,58 +544,10 @@
       "title": "How I got over 300 Tor exit nodes removed",
       "url": "https://kaba.cx/posts/20261020_Tor/",
       "discuss_url": "https://lobste.rs/s/9h14un",
-      "score": 44,
-      "comments": 1,
+      "score": 54,
+      "comments": 3,
       "author": "atmosx",
       "published": "2026-10-20T18:44:42Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Do minor curl vulnerabilities in the open",
-      "url": "https://daniel.haxx.se/blog/2026/10/20/do-minor-curl-vulnerabilities-in-the-open/",
-      "discuss_url": "https://lobste.rs/s/nryxzd",
-      "score": 34,
-      "comments": 0,
-      "author": "robalex",
-      "published": "2026-10-20T19:47:54Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Unauthorized Access to PingCAP Cloud Resources",
-      "url": "https://www.pingcap.com/trust-hub/security/security-update-october-2026/",
-      "discuss_url": "https://lobste.rs/s/x7codz",
-      "score": 5,
-      "comments": 3,
-      "author": "eatonphil",
-      "published": "2026-10-21T00:44:49Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Tor VPN Beta: What we've learned building our own VPN for Android from scratch",
-      "url": "https://blog.torproject.org/tor-vpn-beta/",
-      "discuss_url": "https://lobste.rs/s/s3w7hd",
-      "score": 41,
-      "comments": 6,
-      "author": "confusedalex",
-      "published": "2026-10-19T08:27:55Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Crawlers, floods and fleets: a year of keeping our digital collections open",
-      "url": "https://stacks.wellcomecollection.org/crawlers-floods-and-fleets-a-year-of-keeping-our-digital-collections-open-10af777199c4",
-      "discuss_url": "https://lobste.rs/s/4sgimt",
-      "score": 8,
-      "comments": 4,
-      "author": "objectif_lune",
-      "published": "2026-10-19T06:44:48Z"
     },
     {
       "source": "rss",
