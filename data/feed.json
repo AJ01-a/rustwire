@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T03:58:51Z",
+  "updated_at": "2026-10-21T11:25:40Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Publish fake stats, get cited in LLMs",
       "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
       "discuss_url": "https://news.ycombinator.com/item?id=50165801",
-      "score": 327,
-      "comments": 192,
+      "score": 344,
+      "comments": 198,
       "author": "robtherobber",
       "published": "2026-10-20T13:06:22Z",
       "bullets": [
-        "LLM pretraining and RAG scrapers lack epistemic verification, allowing fabricated web statistics to enter training sets and search-augmented answers.",
-        "Adversaries exploit SEO and automated indexing to conduct citation laundering, tricking search-based models like Perplexity and Google AI Overviews.",
-        "Production RAG architectures must enforce domain whitelisting, consensus cross-referencing, and source-reputation scoring rather than trusting unverified public web data."
+        "Web-grounded LLMs and RAG systems readily ingest and amplify fabricated web statistics due to reliance on unverified search index results.",
+        "Search engines and models like ChatGPT or Perplexity lack epistemic verification, treating indexed, SEO-optimized fake citations as authoritative ground truth.",
+        "Defenses require source-reputation scoring, cross-domain consensus validation, and strict provenance tracking in downstream retrieval pipelines to mitigate deliberate poisoning."
       ]
     },
     {
@@ -55,30 +55,30 @@
       "url": "https://lobste.rs/s/vyfegx",
       "discuss_url": "https://lobste.rs/s/vyfegx",
       "score": 28,
-      "comments": 49,
+      "comments": 51,
       "author": "caius",
       "published": "2026-10-19T12:09:29Z",
       "bullets": [
-        "Lobsters community check-in highlights active peer projects across systems programming, open-source maintenance, and personal infrastructure builds.",
-        "Discussions typically explore language ecosystems like Rust, Go, and OCaml for custom developer utilities, compilers, and homelab automation.",
-        "Offers a practical pulse check on grassroots tooling adoption, hobbyist hardware, and experimental architectures outside enterprise production constraints."
+        "Developers highlight personal systems programming projects, focusing on custom tooling, compilers, and libraries built with Rust, Zig, or Go.",
+        "Discussions center on developer infrastructure, including Nix configurations, self-hosted homelabs, Linux kernel tuning, and automated deployment pipelines.",
+        "Participants exchange technical feedback on database engine optimizations, backend service refactoring, and maintaining niche open-source software libraries."
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "Upcoming Critical PHP Security Release",
-      "url": "https://www.php.net/archive/2026.php#2026-10-20-1",
-      "discuss_url": "https://lobste.rs/s/ekxoyt",
-      "score": 33,
-      "comments": 6,
-      "author": "pushcx",
-      "published": "2026-10-20T22:23:54Z",
+      "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
+      "url": "https://news-web.php.net/php.announce/509",
+      "discuss_url": "https://news.ycombinator.com/item?id=50172041",
+      "score": 997,
+      "comments": 404,
+      "author": "xd",
+      "published": "2026-10-20T20:15:50Z",
       "bullets": [
-        "Upcoming Critical PHP Security Release",
-        "Trending on lobste.rs/security — 33 points, 6 comments.",
-        "Submitted by pushcx on lobste.rs/security."
+        "CERT-EU alerted on upcoming critical PHP core patches addressing CVE-2026-109618 and CVE-2026-109619, indicating serious pre-disclosure vulnerabilities.",
+        "Critical severity suggests potential remote code execution or memory corruption risks across web servers and runtime environments running vulnerable PHP versions.",
+        "DevOps and SecOps teams should audit active PHP deployments and ready out-of-band patching pipelines for immediate release."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "aws@amazon.com",
       "published": "2026-10-20T23:26:00Z",
       "bullets": [
-        "AWS announces Amazon Elastic Container Service (Amazon ECS) Gateway, a new resource that simplifies ingress networking for containerized applications by dynamically provisioning a…",
-        "With ECS Gateway, platform teams define organizational networking standards once on a gateway and associate it with one or more clusters, giving organizations a centralized way to…",
-        "Application teams simply opt in to inherit those standards without requiring networking expertise."
+        "Dynamically provisions, scales, and tears down AWS Application Load Balancers directly within your account based on ECS service demand.",
+        "Enables host-based routing allowing up to 25 ECS services to share a single ALB, providing distinct DNS hostnames per service.",
+        "Centralizes cluster ingress governance, letting platform teams define networking standards that application teams inherit without managing load balancer infrastructure."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Dan Goodin",
       "published": "2026-10-21T02:12:18Z",
       "bullets": [
-        "PHP maintainers announced two imminent emergency security updates to remediate critical vulnerabilities across supported runtime versions.",
-        "Patches address unconfirmed reports of \"PHP2Shell,\" a zero-day exploit allegedly facilitating remote code execution on PHP web deployments.",
-        "DevOps and security teams should inventory PHP deployments and prepare for immediate out-of-band patching upon public release."
+        "PHP maintainers scheduled two emergency out-of-band patches targeting an unconfirmed remote code execution vulnerability dubbed PHP2Shell.",
+        "The purported PHP2Shell exploit allegedly enables arbitrary remote code execution across standard internet-facing PHP server deployments.",
+        "Sysadmins and DevOps teams should inventory active PHP runtimes and prepare immediate staging and patching pipelines."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Publish fake stats, get cited in LLMs",
       "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
       "discuss_url": "https://news.ycombinator.com/item?id=50165801",
-      "score": 327,
-      "comments": 192,
+      "score": 344,
+      "comments": 198,
       "author": "robtherobber",
       "published": "2026-10-20T13:06:22Z"
     },
@@ -136,7 +136,7 @@
       "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
       "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
       "discuss_url": "https://news.ycombinator.com/item?id=50159341",
-      "score": 716,
+      "score": 729,
       "comments": 208,
       "author": "ds",
       "published": "2026-10-19T23:22:18Z"
@@ -157,13 +157,13 @@
       "source": "rss",
       "subsource": "huggingface.co",
       "category": "ai",
-      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
-      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
-      "discuss_url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
+      "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+      "discuss_url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
       "score": null,
       "comments": null,
       "author": null,
-      "published": "2026-10-20T18:17:47Z"
+      "published": "2026-10-21T10:59:42Z"
     },
     {
       "source": "rss",
@@ -269,7 +269,7 @@
       "url": "https://lobste.rs/s/vyfegx",
       "discuss_url": "https://lobste.rs/s/vyfegx",
       "score": 28,
-      "comments": 49,
+      "comments": 51,
       "author": "caius",
       "published": "2026-10-19T12:09:29Z"
     },
@@ -406,16 +406,40 @@
       "published": "2026-10-19T15:32:01Z"
     },
     {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
+      "url": "https://news-web.php.net/php.announce/509",
+      "discuss_url": "https://news.ycombinator.com/item?id=50172041",
+      "score": 997,
+      "comments": 404,
+      "author": "xd",
+      "published": "2026-10-20T20:15:50Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Upcoming Critical PHP Security Release",
       "url": "https://www.php.net/archive/2026.php#2026-10-20-1",
       "discuss_url": "https://lobste.rs/s/ekxoyt",
-      "score": 33,
-      "comments": 6,
+      "score": 89,
+      "comments": 36,
       "author": "pushcx",
       "published": "2026-10-20T22:23:54Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "Tell HN: 2x PHP RCE CVEs with CVSS 10.0 Incoming",
+      "url": "https://news.ycombinator.com/item?id=50167754",
+      "discuss_url": "https://news.ycombinator.com/item?id=50167754",
+      "score": 226,
+      "comments": 35,
+      "author": "petecooper",
+      "published": "2026-10-20T15:20:35Z"
     },
     {
       "source": "lobsters",
@@ -424,8 +448,8 @@
       "title": "Protecting Firefox users following the compromise of eMudhra intermediate certificates",
       "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/",
       "discuss_url": "https://lobste.rs/s/gqyvn5",
-      "score": 128,
-      "comments": 46,
+      "score": 152,
+      "comments": 56,
       "author": "freddyb",
       "published": "2026-10-20T13:00:50Z"
     },
@@ -433,13 +457,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "How I got over 300 Tor exit nodes removed",
-      "url": "https://kaba.cx/posts/20261020_Tor/",
-      "discuss_url": "https://lobste.rs/s/9h14un",
-      "score": 28,
+      "title": "Firefox security patch tests are now private for at least a week",
+      "url": "https://groups.google.com/a/mozilla.org/g/firefox-dev/c/4I1HSPtVyrI/m/giGra4ZzAQAJ",
+      "discuss_url": "https://lobste.rs/s/othohc",
+      "score": 4,
       "comments": 1,
-      "author": "atmosx",
-      "published": "2026-10-20T18:44:42Z"
+      "author": "strugee",
+      "published": "2026-10-21T07:13:16Z"
     },
     {
       "source": "lobsters",
@@ -448,34 +472,10 @@
       "title": "Setting up SSH keys on macOS with Touch ID",
       "url": "https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/",
       "discuss_url": "https://lobste.rs/s/d7m5j1",
-      "score": 53,
-      "comments": 22,
+      "score": 59,
+      "comments": 24,
       "author": "nmattia",
       "published": "2026-10-20T10:23:58Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Unauthorized Access to PingCAP Cloud Resources",
-      "url": "https://www.pingcap.com/trust-hub/security/security-update-october-2026/",
-      "discuss_url": "https://lobste.rs/s/x7codz",
-      "score": 4,
-      "comments": 1,
-      "author": "eatonphil",
-      "published": "2026-10-21T00:44:49Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Do minor curl vulnerabilities in the open",
-      "url": "https://daniel.haxx.se/blog/2026/10/20/do-minor-curl-vulnerabilities-in-the-open/",
-      "discuss_url": "https://lobste.rs/s/nryxzd",
-      "score": 19,
-      "comments": 0,
-      "author": "robalex",
-      "published": "2026-10-20T19:47:54Z"
     },
     {
       "source": "hackernews",
@@ -484,10 +484,46 @@
       "title": "Plex vulnerabilities being exploited in the wild to drop a cryptominer",
       "url": "http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
       "discuss_url": "https://news.ycombinator.com/item?id=50152321",
-      "score": 215,
-      "comments": 110,
+      "score": 217,
+      "comments": 113,
       "author": "mindracer",
       "published": "2026-10-19T13:36:43Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "How I got over 300 Tor exit nodes removed",
+      "url": "https://kaba.cx/posts/20261020_Tor/",
+      "discuss_url": "https://lobste.rs/s/9h14un",
+      "score": 44,
+      "comments": 1,
+      "author": "atmosx",
+      "published": "2026-10-20T18:44:42Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Do minor curl vulnerabilities in the open",
+      "url": "https://daniel.haxx.se/blog/2026/10/20/do-minor-curl-vulnerabilities-in-the-open/",
+      "discuss_url": "https://lobste.rs/s/nryxzd",
+      "score": 34,
+      "comments": 0,
+      "author": "robalex",
+      "published": "2026-10-20T19:47:54Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Unauthorized Access to PingCAP Cloud Resources",
+      "url": "https://www.pingcap.com/trust-hub/security/security-update-october-2026/",
+      "discuss_url": "https://lobste.rs/s/x7codz",
+      "score": 5,
+      "comments": 3,
+      "author": "eatonphil",
+      "published": "2026-10-21T00:44:49Z"
     },
     {
       "source": "lobsters",
@@ -505,18 +541,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "CVE-2026-106173: FortiSIEM gRPC Path Traversal to RCE",
-      "url": "https://horizon3.ai/attack-research/cve-2026-106173-deep-dive-fortisiem-grpc-path-traversal-file-write-rce/",
-      "discuss_url": "https://lobste.rs/s/d0bbhd",
-      "score": 3,
-      "comments": 0,
-      "author": "buherator",
-      "published": "2026-10-20T14:10:39Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Crawlers, floods and fleets: a year of keeping our digital collections open",
       "url": "https://stacks.wellcomecollection.org/crawlers-floods-and-fleets-a-year-of-keeping-our-digital-collections-open-10af777199c4",
       "discuss_url": "https://lobste.rs/s/4sgimt",
@@ -524,30 +548,6 @@
       "comments": 4,
       "author": "objectif_lune",
       "published": "2026-10-19T06:44:48Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "How Discover-Tech turned targeted ads into a pipeline for zero-click spywares",
-      "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
-      "discuss_url": "https://lobste.rs/s/zytoux",
-      "score": 14,
-      "comments": 1,
-      "author": "ache",
-      "published": "2026-10-18T20:55:02Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
-      "url": "https://pwn.ai/blog/pwnescape",
-      "discuss_url": "https://lobste.rs/s/np84oh",
-      "score": 11,
-      "comments": 6,
-      "author": "munksgaard",
-      "published": "2026-10-17T18:24:39Z"
     },
     {
       "source": "rss",
@@ -637,9 +637,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon Bedrock Guardrails now supports Standard tier for contextual grounding checks",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-guardrails-grounding-standard/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-guardrails-grounding-standard/",
+      "title": "AWS Partner Central launches Program Navigator, Case Study Generator, and streamlined specialization review",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/partner-central-program-navigator/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/partner-central-program-navigator/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -649,9 +649,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Partner Central launches Program Navigator, Case Study Generator, and streamlined specialization review",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/partner-central-program-navigator/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/partner-central-program-navigator/",
+      "title": "Amazon Bedrock Guardrails now supports Standard tier for contextual grounding checks",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-guardrails-grounding-standard/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-guardrails-grounding-standard/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -685,13 +685,13 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon ElastiCache Serverless for Valkey now supports online migration with zero downtime",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-serverless-valkey-online-migration/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-serverless-valkey-online-migration/",
+      "title": "Amazon CloudWatch Alarms now supports tags in alarm actions payload",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-tags-on-alarm-actions-payload",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-tags-on-alarm-actions-payload",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-10-20T07:00:00Z"
+      "published": "2026-10-20T08:00:00Z"
     },
     {
       "source": "rss",
