@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T03:55:34Z",
+  "updated_at": "2026-10-22T16:54:23Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Claude Duet",
-      "url": "https://claude.com/product/claude-duet",
-      "discuss_url": "https://news.ycombinator.com/item?id=50186037",
-      "score": 329,
-      "comments": 296,
-      "author": "kuberwastaken",
-      "published": "2026-10-21T19:14:01Z",
+      "title": "OpenAI CLI",
+      "url": "https://github.com/openai/openai-cli",
+      "discuss_url": "https://news.ycombinator.com/item?id=50191507",
+      "score": 209,
+      "comments": 98,
+      "author": "armcat",
+      "published": "2026-10-22T05:23:11Z",
       "bullets": [
-        "Claude Duet",
-        "Trending on news.ycombinator.com — 329 points, 296 comments.",
-        "Submitted by kuberwastaken on news.ycombinator.com."
+        "Pipes shell stdin/stdout directly to OpenAI models like GPT-4o for inline log analysis, code generation, and terminal automation.",
+        "Leverages standard OPENAI_API_KEY authentication, simplifying LLM integration into bash scripts and CI/CD pipelines without custom SDK boilerplate.",
+        "Provides streaming responses, custom model parameters, and token tracking from the command line for fast developer prototyping."
       ]
     },
     {
@@ -59,60 +59,60 @@
       "author": "caius",
       "published": "2026-10-19T12:09:29Z",
       "bullets": [
-        "What are you doing this week?",
-        "Feel free to share!",
-        "Keep in mind it’s OK to do nothing at all, too."
+        "Recurring Lobsters community check-ins track active developer side projects, compiler experiments, and open-source systems contributions.",
+        "Discussions highlight practical implementation hurdles across low-level programming, self-hosted homelabs, Linux tooling, and database optimization.",
+        "Engineers leverage peer check-ins to evaluate ergonomics, architectural trade-offs, and emerging language tooling like Rust, Zig, and Go."
       ]
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "There isn't an easy exploit for this PHP vulnerability",
-      "url": "https://eliastaylor.com/noexploit/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50188948",
-      "score": 258,
-      "comments": 129,
-      "author": "zkldi",
-      "published": "2026-10-21T23:13:27Z",
+      "title": "Amazon identifies Oct 17 PHP2Shell exploitation prior to public disclosure",
+      "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+      "discuss_url": "https://news.ycombinator.com/item?id=50194070",
+      "score": 193,
+      "comments": 54,
+      "author": "cubefox",
+      "published": "2026-10-22T11:50:36Z",
       "bullets": [
-        "There isn't an easy exploit for this PHP vulnerability",
-        "Trending on news.ycombinator.com — 258 points, 129 comments.",
-        "Submitted by zkldi on news.ycombinator.com."
+        "Amazon threat researchers detected in-the-wild exploitation dubbed PHP2Shell on October 17, well before public vulnerability disclosure.",
+        "The campaign targeted PHP web servers to drop shells, demonstrating zero-day weaponization before security advisories and patches were published.",
+        "Security teams should audit perimeter PHP execution environments, review mid-October access logs, and enforce strict web root write protections."
       ]
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Transform adds storage migration assessments for Amazon S3, EBS, EFS, and FSx",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/transform-assess-s3-ebs-efs-fsx/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/transform-assess-s3-ebs-efs-fsx/",
+      "title": "AWS announces AWS Interconnect - last mile preview with Megaport",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announces-AWS-interconnect-last-mile-megaport-preview/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announces-AWS-interconnect-last-mile-megaport-preview/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-10-21T19:10:00Z",
+      "published": "2026-10-22T12:00:00Z",
       "bullets": [
-        "Migration assessments in AWS Transform now evaluate on-premises storage for migration to AWS.",
-        "Instead of manually analyzing thousands of volumes across protocols, capacity, and performance, you upload a storage inventory and AWS Transform does the mapping for you.",
-        "It matches each workload to the best-fit service, sizes the recommendation, and projects costs to produce a total cost of ownership business case."
+        "Automates hybrid networking setup by handling BGP peering, VLAN configuration, and ASN assignment natively through the AWS Management Console.",
+        "Integrates with Megaport's SDN across 1,200+ data centers, linking on-premises sites using Direct Connect Gateway IDs and activation keys.",
+        "Enables dynamically scalable private bandwidth from 1 Gbps to 100 Gbps between remote branches, data centers, and AWS Regions."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "FCC chair warns media not to run the \"fake polls\" Trump keeps complaining about",
-      "url": "https://arstechnica.com/tech-policy/2026/10/fcc-chair-warns-media-not-to-run-the-fake-polls-trump-keeps-complaining-about/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/10/fcc-chair-warns-media-not-to-run-the-fake-polls-trump-keeps-complaining-about/",
+      "title": "Forget \"Malaise 2.0,\" GM says it's still all-in on EVs and autonomy",
+      "url": "https://arstechnica.com/cars/2026/10/forget-malaise-2-0-gm-says-its-still-all-in-on-evs-and-autonomy/",
+      "discuss_url": "https://arstechnica.com/cars/2026/10/forget-malaise-2-0-gm-says-its-still-all-in-on-evs-and-autonomy/",
       "score": null,
       "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-10-21T22:17:50Z",
+      "author": "Chad Kirchner",
+      "published": "2026-10-22T13:04:32Z",
       "bullets": [
-        "Ex-FCC chairs say Brendan Carr aims to scare broadcasters into self-censorship.",
-        "FCC chair warns media not to run the \"fake polls\" Trump keeps complaining about",
-        "Submitted by Jon Brodkin on arstechnica.com."
+        "GM reaffirms commitment to its Ultium EV platform despite past battery assembly bottlenecks, software glitches, and cooling consumer demand.",
+        "Autonomy roadmap centers on rebuilding Cruise robotaxis after safety incidents while expanding hands-free Super Cruise ADAS capabilities across models.",
+        "Success hinges on proprietary software-defined vehicle architectures and customer trust, especially following the controversial phaseout of Apple CarPlay."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "OpenAI CLI",
+      "url": "https://github.com/openai/openai-cli",
+      "discuss_url": "https://news.ycombinator.com/item?id=50191507",
+      "score": 209,
+      "comments": 98,
+      "author": "armcat",
+      "published": "2026-10-22T05:23:11Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Claude Duet",
       "url": "https://claude.com/product/claude-duet",
       "discuss_url": "https://news.ycombinator.com/item?id=50186037",
-      "score": 329,
-      "comments": 296,
+      "score": 510,
+      "comments": 474,
       "author": "kuberwastaken",
       "published": "2026-10-21T19:14:01Z"
     },
@@ -136,8 +148,8 @@
       "title": "OpenAI models are coming to Google Cloud",
       "url": "https://openai.com/index/openai-models-google-cloud/",
       "discuss_url": "https://news.ycombinator.com/item?id=50180079",
-      "score": 258,
-      "comments": 107,
+      "score": 316,
+      "comments": 139,
       "author": "armcat",
       "published": "2026-10-21T12:53:11Z"
     },
@@ -145,13 +157,25 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Publish fake stats, get cited in LLMs",
-      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-      "discuss_url": "https://news.ycombinator.com/item?id=50165801",
-      "score": 363,
-      "comments": 202,
-      "author": "robtherobber",
-      "published": "2026-10-20T13:06:22Z"
+      "title": "Using LLM for confidence scoring is a bad idea",
+      "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
+      "discuss_url": "https://news.ycombinator.com/item?id=50176082",
+      "score": 175,
+      "comments": 94,
+      "author": "jimauthors",
+      "published": "2026-10-21T04:27:51Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Anthropic logged net loss of over $80B in first half of 2026",
+      "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/",
+      "discuss_url": "https://news.ycombinator.com/item?id=50171966",
+      "score": 188,
+      "comments": 95,
+      "author": "throwa356262",
+      "published": "2026-10-20T20:09:46Z"
     },
     {
       "source": "lobsters",
@@ -161,7 +185,7 @@
       "url": "https://elonlit.com/scrivings/how-to-run-turing-complete-malware-in-pytorchs-backward-pass/",
       "discuss_url": "https://lobste.rs/s/urfgc9",
       "score": 3,
-      "comments": 0,
+      "comments": 1,
       "author": "rrampage",
       "published": "2026-10-21T21:06:35Z"
     },
@@ -176,6 +200,30 @@
       "comments": 1,
       "author": "mxey",
       "published": "2026-10-19T11:47:04Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "discuss_url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-22T16:11:31Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "discuss_url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-22T07:51:31Z"
     },
     {
       "source": "rss",
@@ -214,54 +262,6 @@
       "published": "2026-10-21T16:04:43Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
-      "discuss_url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-21T14:58:18Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-      "url": "https://huggingface.co/blog/allenai/fairstress",
-      "discuss_url": "https://huggingface.co/blog/allenai/fairstress",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-20T16:09:19Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "discuss_url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-20T15:19:48Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
-      "url": "https://huggingface.co/blog/hf-torchtpu",
-      "discuss_url": "https://huggingface.co/blog/hf-torchtpu",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-20T00:00:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
@@ -284,18 +284,6 @@
       "comments": 10,
       "author": "veqq",
       "published": "2026-10-19T18:25:48Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Algorithmic Sound Design with L-Systems and Granular Synthesis",
-      "url": "https://nathanho.me/posts/evograin/",
-      "discuss_url": "https://lobste.rs/s/kiq0si",
-      "score": 13,
-      "comments": 0,
-      "author": "chrisl",
-      "published": "2026-10-18T12:06:05Z"
     },
     {
       "source": "rss",
@@ -406,16 +394,64 @@
       "published": "2026-10-19T15:32:01Z"
     },
     {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
+      "title": "AI says you’re right, formal methods say you’re wrong",
+      "url": "https://stackoverflow.blog/2026/10/16/formal-methods-say-you-re-wrong/",
+      "discuss_url": "https://stackoverflow.blog/2026/10/16/formal-methods-say-you-re-wrong/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-10-16T07:40:00Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "Amazon identifies Oct 17 PHP2Shell exploitation prior to public disclosure",
+      "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+      "discuss_url": "https://news.ycombinator.com/item?id=50194070",
+      "score": 193,
+      "comments": 54,
+      "author": "cubefox",
+      "published": "2026-10-22T11:50:36Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-111943",
+      "discuss_url": "https://news.ycombinator.com/item?id=50192900",
+      "score": 327,
+      "comments": 114,
+      "author": "keks24",
+      "published": "2026-10-22T08:51:31Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "There isn't an easy exploit for this PHP vulnerability",
       "url": "https://eliastaylor.com/noexploit/",
       "discuss_url": "https://news.ycombinator.com/item?id=50188948",
-      "score": 258,
-      "comments": 129,
+      "score": 595,
+      "comments": 387,
       "author": "zkldi",
       "published": "2026-10-21T23:13:27Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "jailbreaking the switch 2",
+      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+      "discuss_url": "https://lobste.rs/s/me75ey",
+      "score": 30,
+      "comments": 0,
+      "author": "kwas",
+      "published": "2026-10-22T12:10:48Z"
     },
     {
       "source": "hackernews",
@@ -424,10 +460,34 @@
       "title": "PHP2Shell: AI uncovers critical RCE in PHP",
       "url": "https://www.wiz.io/blog/php2shell-php-rce",
       "discuss_url": "https://news.ycombinator.com/item?id=50180836",
-      "score": 439,
-      "comments": 173,
+      "score": 445,
+      "comments": 183,
       "author": "danlark1",
       "published": "2026-10-21T13:43:19Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Header Accordions: QPACK amplification attacks against HTTP/3 servers",
+      "url": "https://foxio.io/blog/header-accordions-qpack-amplification-attacks-against-http-3-servers",
+      "discuss_url": "https://lobste.rs/s/l2l50n",
+      "score": 3,
+      "comments": 0,
+      "author": "typesanitizer",
+      "published": "2026-10-22T15:15:44Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "security",
+      "title": "PHP session.upload_progress heap UAF (CVE-2026-109618 / -109619)",
+      "url": "https://jackalsyn.com/posts/php-up-2026.html",
+      "discuss_url": "https://news.ycombinator.com/item?id=50176077",
+      "score": 185,
+      "comments": 62,
+      "author": "rfarley04",
+      "published": "2026-10-21T04:26:56Z"
     },
     {
       "source": "lobsters",
@@ -436,10 +496,34 @@
       "title": "Passkeys Attestation Trap",
       "url": "https://mjtsai.com/blog/2026/10/15/passkeys-attestation-trap/",
       "discuss_url": "https://lobste.rs/s/cdnepk",
-      "score": 16,
-      "comments": 21,
+      "score": 25,
+      "comments": 64,
       "author": "kaimac",
       "published": "2026-10-21T18:16:22Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "discuss_url": "https://lobste.rs/s/ebsqsp",
+      "score": 68,
+      "comments": 24,
+      "author": "pims",
+      "published": "2026-10-21T13:50:10Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Upcoming Critical PHP Security Release",
+      "url": "https://www.php.net/archive/2026.php#2026-10-20-1",
+      "discuss_url": "https://lobste.rs/s/ekxoyt",
+      "score": 192,
+      "comments": 145,
+      "author": "pushcx",
+      "published": "2026-10-20T22:23:54Z"
     },
     {
       "source": "lobsters",
@@ -448,8 +532,8 @@
       "title": "Railway Security Disclosure: Wednesday October 21st",
       "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
       "discuss_url": "https://lobste.rs/s/wi4nnl",
-      "score": 11,
-      "comments": 2,
+      "score": 19,
+      "comments": 8,
       "author": "veverkap",
       "published": "2026-10-21T22:31:11Z"
     },
@@ -460,94 +544,22 @@
       "title": "CVE-2026-107891: musl libc: multiple integer overflow in regcomp, possibly leading to incorrect allocation sizes and out-of-bounds heap writes",
       "url": "https://www.openwall.com/lists/oss-security/2026/10/21/18",
       "discuss_url": "https://lobste.rs/s/dldfel",
-      "score": 26,
+      "score": 44,
       "comments": 5,
       "author": "dzwdz",
       "published": "2026-10-21T17:40:17Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
-      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
-      "discuss_url": "https://lobste.rs/s/ebsqsp",
-      "score": 44,
-      "comments": 10,
-      "author": "pims",
-      "published": "2026-10-21T13:50:10Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "GitLab Critical Patch Release",
-      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
-      "discuss_url": "https://lobste.rs/s/pnpcso",
-      "score": 10,
-      "comments": 2,
-      "author": "dzwdz",
-      "published": "2026-10-21T20:48:24Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Upcoming Critical PHP Security Release",
-      "url": "https://www.php.net/archive/2026.php#2026-10-20-1",
-      "discuss_url": "https://lobste.rs/s/ekxoyt",
-      "score": 183,
-      "comments": 119,
-      "author": "pushcx",
-      "published": "2026-10-20T22:23:54Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "security",
-      "title": "Tell HN: 2x PHP RCE CVEs with CVSS 10.0 Incoming",
-      "url": "https://news.ycombinator.com/item?id=50167754",
-      "discuss_url": "https://news.ycombinator.com/item?id=50167754",
-      "score": 273,
-      "comments": 60,
-      "author": "petecooper",
-      "published": "2026-10-20T15:20:35Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Protecting Firefox users following the compromise of eMudhra intermediate certificates",
-      "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/",
-      "discuss_url": "https://lobste.rs/s/gqyvn5",
-      "score": 168,
-      "comments": 69,
-      "author": "freddyb",
-      "published": "2026-10-20T13:00:50Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Node.js — Wednesday, October 21, 2026 Security Releases",
-      "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
-      "discuss_url": "https://lobste.rs/s/gu7bow",
-      "score": 14,
-      "comments": 1,
-      "author": "easrng",
-      "published": "2026-10-21T15:53:37Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
-      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor",
-      "discuss_url": "https://lobste.rs/s/2czsv4",
-      "score": 5,
-      "comments": 0,
-      "author": "atmosx",
-      "published": "2026-10-21T21:32:29Z"
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS announces AWS Interconnect - last mile preview with Megaport",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announces-AWS-interconnect-last-mile-megaport-preview/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announces-AWS-interconnect-last-mile-megaport-preview/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-22T12:00:00Z"
     },
     {
       "source": "rss",
@@ -673,25 +685,49 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Announcing Amazon ECS Gateway, a managed ingress solution for your ECS services",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/announcing-amazon-ecs-gateway/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/announcing-amazon-ecs-gateway/",
+      "title": "AWS Transform now builds new networks and modernizes security groups",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-new-networks/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-new-networks/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-10-20T23:26:00Z"
+      "published": "2026-10-21T08:00:00Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon DynamoDB global tables now support disassociating replicas",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/dynamodb-global-tables-disassociate/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/dynamodb-global-tables-disassociate/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Forget \"Malaise 2.0,\" GM says it's still all-in on EVs and autonomy",
+      "url": "https://arstechnica.com/cars/2026/10/forget-malaise-2-0-gm-says-its-still-all-in-on-evs-and-autonomy/",
+      "discuss_url": "https://arstechnica.com/cars/2026/10/forget-malaise-2-0-gm-says-its-still-all-in-on-evs-and-autonomy/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-20T23:00:00Z"
+      "author": "Chad Kirchner",
+      "published": "2026-10-22T13:04:32Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "333 Tor exit nodes hijacked to intercept SSH traffic and retrieve plaintext email",
+      "url": "https://arstechnica.com/information-technology/2026/10/300-tor-exit-nodes-hijacked-to-intercept-ssh-traffic-and-retrieve-plaintext-email/",
+      "discuss_url": "https://arstechnica.com/information-technology/2026/10/300-tor-exit-nodes-hijacked-to-intercept-ssh-traffic-and-retrieve-plaintext-email/",
+      "score": null,
+      "comments": null,
+      "author": "Dan Goodin",
+      "published": "2026-10-22T11:30:33Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "UN says we're going to blow past 1.5º warming, offers a \"now what?\" answer",
+      "url": "https://arstechnica.com/science/2026/10/un-accepts-the-obvious-were-not-going-to-avoid-a-1-5o-c-warming/",
+      "discuss_url": "https://arstechnica.com/science/2026/10/un-accepts-the-obvious-were-not-going-to-avoid-a-1-5o-c-warming/",
+      "score": null,
+      "comments": null,
+      "author": "John Timmer",
+      "published": "2026-10-22T11:15:36Z"
     },
     {
       "source": "rss",
@@ -800,42 +836,6 @@
       "comments": null,
       "author": "Ashley Belanger",
       "published": "2026-10-21T18:20:40Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Does opting out of smart TV tracking work? Research finds “suspicious” traffic.",
-      "url": "https://arstechnica.com/gadgets/2026/10/does-opting-out-of-smart-tv-tracking-work-research-finds-suspicious-traffic/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/10/does-opting-out-of-smart-tv-tracking-work-research-finds-suspicious-traffic/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-10-21T18:00:37Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "SpaceX to attempt Starship catch on next flight, with eye on rapid cadence increase",
-      "url": "https://arstechnica.com/space/2026/10/spacex-will-attempt-to-reach-weekly-starship-launches-by-early-2027/",
-      "discuss_url": "https://arstechnica.com/space/2026/10/spacex-will-attempt-to-reach-weekly-starship-launches-by-early-2027/",
-      "score": null,
-      "comments": null,
-      "author": "Eric Berger",
-      "published": "2026-10-21T16:46:19Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "The $15 billion ad-powered AI startup your doctor may already be using",
-      "url": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/",
-      "discuss_url": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/",
-      "score": null,
-      "comments": null,
-      "author": "Rafe Rosner-Uddin, Financial Times",
-      "published": "2026-10-21T15:14:07Z"
     }
   ]
 }
