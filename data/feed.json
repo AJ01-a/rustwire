@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T03:53:33Z",
+  "updated_at": "2026-10-24T10:43:21Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Swedish government offices to ban ChatGPT and Claude",
       "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
       "discuss_url": "https://news.ycombinator.com/item?id=50207405",
-      "score": 315,
-      "comments": 118,
+      "score": 320,
+      "comments": 119,
       "author": "armcat",
       "published": "2026-10-23T11:39:54Z",
       "bullets": [
-        "Swedish government offices to ban ChatGPT and Claude",
-        "Trending on news.ycombinator.com — 315 points, 118 comments.",
-        "Submitted by armcat on news.ycombinator.com."
+        "Sweden restricts government agency use of OpenAI ChatGPT and Anthropic Claude over data confidentiality, privacy, and third-party vendor risks.",
+        "The ban reflects broader European scrutiny over US CLOUD Act exposure, GDPR non-compliance, and sensitive data ingestion by commercial APIs.",
+        "Policy shifts like this accelerate public sector demand for sovereign, air-gapped infrastructure running self-hosted open-weight models like Mistral or Llama."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "How close can pure FP get to C?",
       "url": "https://rtfeldman.com/fp-vs-c",
       "discuss_url": "https://lobste.rs/s/7me8wm",
-      "score": 36,
-      "comments": 9,
+      "score": 39,
+      "comments": 12,
       "author": "pyfisch",
       "published": "2026-10-23T11:37:22Z",
       "bullets": [
-        "How close can pure FP get to C?",
-        "Trending on lobste.rs/programming — 36 points, 9 comments.",
-        "Submitted by pyfisch on lobste.rs/programming."
+        "Pure FP bottlenecks versus C stem from heavy heap allocation, GC pauses, and cache-unfriendly pointer indirection from boxed values.",
+        "Optimizations like stream fusion, worker-wrapper transforms, and aggressive unboxing narrow gaps by compiling away intermediate algebraic data structures.",
+        "Modern memory techniques like Perceus reference counting and uniqueness typing allow deterministic in-place mutation, pushing pure languages toward C-level speed."
       ]
     },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry",
-      "url": "https://news.ycombinator.com/item?id=50193416",
-      "discuss_url": "https://news.ycombinator.com/item?id=50193416",
-      "score": 720,
-      "comments": 254,
-      "author": "petecooper",
-      "published": "2026-10-22T10:11:44Z",
+      "title": "Evolving Threat: http2shell is an RCE in Node, Python, and more",
+      "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
+      "discuss_url": "https://news.ycombinator.com/item?id=50216791",
+      "score": 168,
+      "comments": 88,
+      "author": "cowlevel",
+      "published": "2026-10-23T23:30:17Z",
       "bullets": [
-        "I posted here about the then-upcoming PHP RCEs related to CVE-2026-109618 & CVE-2026-109619.",
-        "I appreciate this has had considerable knock-on effects with the schedule for co-ordinated disclosure, and created additional workload.",
-        "I am truly sorry."
+        "The http2shell vulnerability enables remote code execution across multiple runtimes, actively threatening environments running Node.js and Python web stacks.",
+        "Flaws likely stem from protocol-level HTTP/2 frame parsing and stream multiplexing logic, permitting unauthenticated remote payload execution.",
+        "Security teams should audit internet-facing endpoints, temporarily disable vulnerable HTTP/2 listeners, and apply runtime-specific vendor patches immediately."
       ]
     },
     {
@@ -88,14 +88,14 @@
       "title": "Docker is weird",
       "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
       "discuss_url": "https://news.ycombinator.com/item?id=50202681",
-      "score": 829,
-      "comments": 351,
+      "score": 844,
+      "comments": 360,
       "author": "psxuaw",
       "published": "2026-10-22T23:45:56Z",
       "bullets": [
-        "Docker is weird",
-        "Trending on news.ycombinator.com — 829 points, 351 comments.",
-        "Submitted by psxuaw on news.ycombinator.com."
+        "Docker silently overrides host iptables rules, often bypassing UFW or firewalld and exposing container ports directly to the public network.",
+        "PID 1 container execution breaks standard SIGTERM handling and zombie process reaping unless mitigated with init systems like tini.",
+        "The monolithic root daemon introduces security escalations via the socket, accelerating migrations toward rootless runtimes like Podman or containerd."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Eric Berger",
       "published": "2026-10-23T22:48:25Z",
       "bullets": [
-        "\"We have the mandate, we have the resources, and the support from our stakeholders.\"",
-        "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
-        "Submitted by Eric Berger on arstechnica.com."
+        "NASA resolved the Orion heat shield erosion root cause from Artemis I, clearing modified re-entry trajectories for crewed Artemis II flights.",
+        "Human Landing System milestone updates adjust uncrewed test schedules and mission architecture for SpaceX Starship and Blue Origin landers.",
+        "Clearing Orion’s heat shield enables NASA to maintain Artemis III and IV crewed lunar surface landing timelines toward 2026–2028."
       ]
     }
   ],
@@ -124,10 +124,22 @@
       "title": "Swedish government offices to ban ChatGPT and Claude",
       "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
       "discuss_url": "https://news.ycombinator.com/item?id=50207405",
-      "score": 315,
-      "comments": 118,
+      "score": 320,
+      "comments": 119,
       "author": "armcat",
       "published": "2026-10-23T11:39:54Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+      "url": "https://news.ycombinator.com/item?id=50200997",
+      "discuss_url": "https://news.ycombinator.com/item?id=50200997",
+      "score": 621,
+      "comments": 693,
+      "author": "ex-aws-dude",
+      "published": "2026-10-22T21:03:55Z"
     },
     {
       "source": "hackernews",
@@ -136,8 +148,8 @@
       "title": "LLMs are making formal software verification feasible at a much larger scale",
       "url": "https://www.anthropic.com/research/formal-verification",
       "discuss_url": "https://news.ycombinator.com/item?id=50202217",
-      "score": 442,
-      "comments": 287,
+      "score": 450,
+      "comments": 292,
       "author": "johnbender",
       "published": "2026-10-22T22:54:43Z"
     },
@@ -148,22 +160,10 @@
       "title": "Every AI model has the same \"controversial\" take on humans",
       "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
       "discuss_url": "https://news.ycombinator.com/item?id=50197313",
-      "score": 619,
-      "comments": 594,
+      "score": 633,
+      "comments": 604,
       "author": "rakannimer",
       "published": "2026-10-22T16:08:00Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "OpenAI CLI",
-      "url": "https://github.com/openai/openai-cli",
-      "discuss_url": "https://news.ycombinator.com/item?id=50191507",
-      "score": 242,
-      "comments": 111,
-      "author": "armcat",
-      "published": "2026-10-22T05:23:11Z"
     },
     {
       "source": "lobsters",
@@ -172,7 +172,7 @@
       "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
       "url": "https://arxiv.org/abs/2610.14162",
       "discuss_url": "https://lobste.rs/s/d1snfg",
-      "score": 3,
+      "score": 2,
       "comments": 0,
       "author": "Yogthos",
       "published": "2026-10-23T17:25:34Z"
@@ -268,22 +268,10 @@
       "title": "How close can pure FP get to C?",
       "url": "https://rtfeldman.com/fp-vs-c",
       "discuss_url": "https://lobste.rs/s/7me8wm",
-      "score": 36,
-      "comments": 9,
+      "score": 39,
+      "comments": 12,
       "author": "pyfisch",
       "published": "2026-10-23T11:37:22Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Incremental Computation Graphs",
-      "url": "https://dziban.net/posts/incremental-computation-graph/",
-      "discuss_url": "https://lobste.rs/s/6utrvz",
-      "score": 5,
-      "comments": 3,
-      "author": "marcecoll",
-      "published": "2026-10-23T21:35:45Z"
     },
     {
       "source": "lobsters",
@@ -292,10 +280,22 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/crqz1g",
       "discuss_url": "https://lobste.rs/s/crqz1g",
-      "score": 19,
-      "comments": 41,
+      "score": 20,
+      "comments": 45,
       "author": "caius",
       "published": "2026-10-23T08:43:10Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Incremental Computation Graphs",
+      "url": "https://dziban.net/posts/incremental-computation-graph/",
+      "discuss_url": "https://lobste.rs/s/6utrvz",
+      "score": 9,
+      "comments": 3,
+      "author": "marcecoll",
+      "published": "2026-10-23T21:35:45Z"
     },
     {
       "source": "lobsters",
@@ -304,8 +304,8 @@
       "title": "a neat trick i found for reusing physical memory",
       "url": "https://sebsite.pw/w/20260728-cow.html",
       "discuss_url": "https://lobste.rs/s/bhqvxq",
-      "score": 17,
-      "comments": 3,
+      "score": 20,
+      "comments": 5,
       "author": "signal-11",
       "published": "2026-10-23T13:40:30Z"
     },
@@ -409,13 +409,37 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry",
-      "url": "https://news.ycombinator.com/item?id=50193416",
-      "discuss_url": "https://news.ycombinator.com/item?id=50193416",
-      "score": 720,
-      "comments": 254,
-      "author": "petecooper",
-      "published": "2026-10-22T10:11:44Z"
+      "title": "Evolving Threat: http2shell is an RCE in Node, Python, and more",
+      "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
+      "discuss_url": "https://news.ycombinator.com/item?id=50216791",
+      "score": 168,
+      "comments": 88,
+      "author": "cowlevel",
+      "published": "2026-10-23T23:30:17Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "I want my Wednesday back",
+      "url": "https://blog.luitjes.it/posts/i-want-my-wednesday-back/",
+      "discuss_url": "https://lobste.rs/s/xgih2x",
+      "score": 9,
+      "comments": 0,
+      "author": "lucasluitjes",
+      "published": "2026-10-24T10:09:28Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Indian government sites are serving revoked eMudhra certificates",
+      "url": "https://captnemo.in/blog/2026/10/23/emsign-revoked-gov-in/",
+      "discuss_url": "https://lobste.rs/s/zug8xv",
+      "score": 15,
+      "comments": 2,
+      "author": "adityaathalye",
+      "published": "2026-10-24T04:06:06Z"
     },
     {
       "source": "hackernews",
@@ -424,22 +448,10 @@
       "title": "Amazon identifies Oct 17 PHP2Shell exploitation prior to public disclosure",
       "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
       "discuss_url": "https://news.ycombinator.com/item?id=50194070",
-      "score": 268,
-      "comments": 99,
+      "score": 269,
+      "comments": 97,
       "author": "cubefox",
       "published": "2026-10-22T11:50:36Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "security",
-      "title": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
-      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-111943",
-      "discuss_url": "https://news.ycombinator.com/item?id=50192900",
-      "score": 336,
-      "comments": 123,
-      "author": "keks24",
-      "published": "2026-10-22T08:51:31Z"
     },
     {
       "source": "lobsters",
@@ -460,7 +472,7 @@
       "title": "Expose only share links of a private service with caddy",
       "url": "https://dataswamp.org/~solene/2026-10-21-caddy-forward-auth-public-share-links.html",
       "discuss_url": "https://lobste.rs/s/tu5ynp",
-      "score": 39,
+      "score": 40,
       "comments": 6,
       "author": "ggpsv",
       "published": "2026-10-22T16:30:14Z"
@@ -472,7 +484,7 @@
       "title": "Upcoming Critical PHP Security Release",
       "url": "https://www.php.net/archive/2026.php#2026-10-20-1",
       "discuss_url": "https://lobste.rs/s/ekxoyt",
-      "score": 197,
+      "score": 198,
       "comments": 146,
       "author": "pushcx",
       "published": "2026-10-20T22:23:54Z"
@@ -481,22 +493,10 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Distributed data, centralized fixes",
-      "url": "https://miren.dev/blog/distributed-data-centralized-fixes",
-      "discuss_url": "https://lobste.rs/s/qc1ahp",
-      "score": 2,
-      "comments": 1,
-      "author": "pgr0ss",
-      "published": "2026-10-23T19:50:52Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
       "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
       "discuss_url": "https://lobste.rs/s/ebsqsp",
-      "score": 82,
+      "score": 84,
       "comments": 31,
       "author": "pims",
       "published": "2026-10-21T13:50:10Z"
@@ -556,8 +556,8 @@
       "title": "Docker is weird",
       "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
       "discuss_url": "https://news.ycombinator.com/item?id=50202681",
-      "score": 829,
-      "comments": 351,
+      "score": 844,
+      "comments": 360,
       "author": "psxuaw",
       "published": "2026-10-22T23:45:56Z"
     },
