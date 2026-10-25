@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T20:30:33Z",
+  "updated_at": "2026-10-25T03:55:08Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Swedish government offices to ban ChatGPT and Claude",
       "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
       "discuss_url": "https://news.ycombinator.com/item?id=50207405",
-      "score": 321,
-      "comments": 120,
+      "score": 322,
+      "comments": 122,
       "author": "armcat",
       "published": "2026-10-23T11:39:54Z",
       "bullets": [
-        "Swedish government offices restrict ChatGPT and Claude, citing data privacy, GDPR compliance, and security risks from US-hosted LLM endpoints.",
-        "The ban accelerates public-sector demand for EU-sovereign infrastructure, on-premises deployments, and self-hosted open-weight models like Mistral or Llama.",
-        "Security teams face heightened requirements for strict DLP filtering and endpoint egress blocking against external commercial AI provider APIs."
+        "Sweden's public administration restricts US-hosted AI SaaS tools (OpenAI, Anthropic) over foreign espionage risks, GDPR compliance, and classified data leakage.",
+        "The move accelerates public sector shifts toward self-hosted open-weight LLMs (e.g., Mistral, Llama) deployed on sovereign on-prem infrastructure.",
+        "Security teams handling European public contracts must increasingly avoid multi-tenant third-party APIs for processing sensitive operational data."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "How to run a city builder on 16 MHz",
       "url": "https://larstofus.com/2025/11/16/how-to-run-a-city-builder-on-12-5-mhz/",
       "discuss_url": "https://lobste.rs/s/qzfohf",
-      "score": 7,
-      "comments": 8,
+      "score": 9,
+      "comments": 13,
       "author": "Yogthos",
       "published": "2026-10-24T14:18:48Z",
       "bullets": [
-        "Bit-pack simulation grids and use cellular automata to minimize memory footprint within strict microcontroller SRAM limits (e.g., 2 KB).",
-        "Replace floating-point logic with fixed-point math and lookup tables to process pathfinding and economic growth on resource-constrained microprocessors.",
-        "Decouple low-frequency simulation ticks from tilemap rendering pipelines to maintain responsive frame rates under severe 16 MHz cycle budgets."
+        "Developing simulations on 16 MHz chips requires fixed-point arithmetic and strict cycle budgeting to bypass absent hardware floating-point units.",
+        "Severe RAM constraints demand aggressive bit-packing, lean data structures, and streaming map tiles directly from flash or external storage.",
+        "Playable rendering relies on dirty-rectangle updates, minimal framebuffers, and spreading cellular-automata simulation ticks across multiple display frames."
       ]
     },
     {
@@ -71,31 +71,31 @@
       "title": "I want my Wednesday back",
       "url": "https://blog.luitjes.it/posts/i-want-my-wednesday-back/",
       "discuss_url": "https://lobste.rs/s/xgih2x",
-      "score": 87,
-      "comments": 26,
+      "score": 97,
+      "comments": 30,
       "author": "lucasluitjes",
       "published": "2026-10-24T10:09:28Z",
       "bullets": [
-        "Post-Patch Tuesday remediation frequently derails engineering schedules when vendor updates introduce unvetted regressions into critical production environments.",
-        "Implementing staged deployment rings and automated canary testing mitigates widespread operational disruptions caused by flawed vendor security hotfixes.",
-        "Security teams must balance aggressive CVE mitigation timelines against operational stability by standardizing automated patch validation and rollback mechanisms."
+        "I want my Wednesday back",
+        "Trending on lobste.rs/security — 97 points, 30 comments.",
+        "Submitted by lucasluitjes on lobste.rs/security."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Docker is weird",
-      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
-      "discuss_url": "https://news.ycombinator.com/item?id=50202681",
-      "score": 859,
-      "comments": 367,
-      "author": "psxuaw",
-      "published": "2026-10-22T23:45:56Z",
+      "title": "Web Search on Amazon Bedrock now supports domain filtering and user location controls",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-23T21:04:00Z",
       "bullets": [
-        "Docker directly manipulates iptables, silently bypassing UFW host firewall rules by default unless `--iptables=false` is configured in daemon.json.",
-        "Containers share host kernel state; without user namespaces enabled, container root mappings create significant privilege escalation risks.",
-        "Default bridge networking and orphaned overlay2 storage layers frequently cause host subnet routing collisions and silent disk exhaustion."
+        "Web Search on Amazon Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location.",
+        "Both are configured directly on the web_search tool in your existing OpenAI Responses API request.",
+        "With domain filtering, you can restrict Web Search results to a set of domains you choose."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Tereza Ondráčková, wired.com",
       "published": "2026-10-24T11:50:28Z",
       "bullets": [
-        "Atmospheric models of Mars' 1,000-mile Arsia Mons cloud reveal novel water-ice nucleation dynamics unique to low-density carbon dioxide environments.",
-        "Mesoscale orographic gravity waves loft moisture rapidly, triggering microphysical ice-crystal formation mechanisms unobserved in terrestrial physics.",
-        "New microphysical simulation data refines non-terrestrial fluid dynamics models and predictive atmospheric entry calculations for Mars missions."
+        "A new model suggests Mars may host ice-forming physics never directly observed before.",
+        "A 1,000-mile cloud on Mars may reveal physics never seen in nature",
+        "Submitted by Tereza Ondráčková, wired.com on arstechnica.com."
       ]
     }
   ],
@@ -124,34 +124,10 @@
       "title": "Swedish government offices to ban ChatGPT and Claude",
       "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
       "discuss_url": "https://news.ycombinator.com/item?id=50207405",
-      "score": 321,
-      "comments": 120,
+      "score": 322,
+      "comments": 122,
       "author": "armcat",
       "published": "2026-10-23T11:39:54Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
-      "url": "https://news.ycombinator.com/item?id=50200997",
-      "discuss_url": "https://news.ycombinator.com/item?id=50200997",
-      "score": 643,
-      "comments": 728,
-      "author": "ex-aws-dude",
-      "published": "2026-10-22T21:03:55Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "LLMs are making formal software verification feasible at a much larger scale",
-      "url": "https://www.anthropic.com/research/formal-verification",
-      "discuss_url": "https://news.ycombinator.com/item?id=50202217",
-      "score": 455,
-      "comments": 302,
-      "author": "johnbender",
-      "published": "2026-10-22T22:54:43Z"
     },
     {
       "source": "lobsters",
@@ -262,14 +238,38 @@
       "published": "2026-10-21T16:04:43Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "discuss_url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-21T14:58:18Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "discuss_url": "https://huggingface.co/blog/hf-torchtpu",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-20T00:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "How to run a city builder on 16 MHz",
       "url": "https://larstofus.com/2025/11/16/how-to-run-a-city-builder-on-12-5-mhz/",
       "discuss_url": "https://lobste.rs/s/qzfohf",
-      "score": 7,
-      "comments": 8,
+      "score": 9,
+      "comments": 13,
       "author": "Yogthos",
       "published": "2026-10-24T14:18:48Z"
     },
@@ -280,10 +280,22 @@
       "title": "How close can pure FP get to C?",
       "url": "https://rtfeldman.com/fp-vs-c",
       "discuss_url": "https://lobste.rs/s/7me8wm",
-      "score": 46,
+      "score": 49,
       "comments": 19,
       "author": "pyfisch",
       "published": "2026-10-23T11:37:22Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Docker is weird",
+      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+      "discuss_url": "https://lobste.rs/s/xsz9sc",
+      "score": 100,
+      "comments": 48,
+      "author": "nick4",
+      "published": "2026-10-22T20:09:22Z"
     },
     {
       "source": "lobsters",
@@ -293,7 +305,7 @@
       "url": "https://lobste.rs/s/crqz1g",
       "discuss_url": "https://lobste.rs/s/crqz1g",
       "score": 23,
-      "comments": 58,
+      "comments": 59,
       "author": "caius",
       "published": "2026-10-23T08:43:10Z"
     },
@@ -316,7 +328,7 @@
       "title": "Incremental Computation Graphs",
       "url": "https://dziban.net/posts/incremental-computation-graph/",
       "discuss_url": "https://lobste.rs/s/6utrvz",
-      "score": 10,
+      "score": 11,
       "comments": 3,
       "author": "marcecoll",
       "published": "2026-10-23T21:35:45Z"
@@ -328,7 +340,7 @@
       "title": "Mojo v1.2.0",
       "url": "https://mojolang.org/releases/v1.2.0/",
       "discuss_url": "https://lobste.rs/s/famrid",
-      "score": 5,
+      "score": 6,
       "comments": 1,
       "author": "melodyogonna",
       "published": "2026-10-22T19:28:41Z"
@@ -394,26 +406,14 @@
       "published": "2026-10-23T07:40:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "The Regression Tests Nobody Writes: Capturing How Software Actually Behaves",
-      "url": "https://stackoverflow.blog/2026/10/22/the-regression-tests-nobody-writes-capturing-how-software-actually-behaves/",
-      "discuss_url": "https://stackoverflow.blog/2026/10/22/the-regression-tests-nobody-writes-capturing-how-software-actually-behaves/",
-      "score": null,
-      "comments": null,
-      "author": "Sancharini Panda",
-      "published": "2026-10-22T19:37:29Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "I want my Wednesday back",
       "url": "https://blog.luitjes.it/posts/i-want-my-wednesday-back/",
       "discuss_url": "https://lobste.rs/s/xgih2x",
-      "score": 87,
-      "comments": 26,
+      "score": 97,
+      "comments": 30,
       "author": "lucasluitjes",
       "published": "2026-10-24T10:09:28Z"
     },
@@ -425,7 +425,7 @@
       "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
       "discuss_url": "https://news.ycombinator.com/item?id=50216791",
       "score": 182,
-      "comments": 96,
+      "comments": 97,
       "author": "cowlevel",
       "published": "2026-10-23T23:30:17Z"
     },
@@ -436,8 +436,8 @@
       "title": "Indian government sites are serving revoked eMudhra certificates",
       "url": "https://captnemo.in/blog/2026/10/23/emsign-revoked-gov-in/",
       "discuss_url": "https://lobste.rs/s/zug8xv",
-      "score": 51,
-      "comments": 10,
+      "score": 59,
+      "comments": 13,
       "author": "adityaathalye",
       "published": "2026-10-24T04:06:06Z"
     },
@@ -448,34 +448,10 @@
       "title": "This week's \"node2shell\" Brotli vulnerability (CVE-2026-111497) is exploitable in Python, other consumers of Brotli",
       "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
       "discuss_url": "https://lobste.rs/s/al3yyf",
-      "score": 6,
-      "comments": 5,
+      "score": 8,
+      "comments": 10,
       "author": "hoistbypetard",
       "published": "2026-10-24T11:01:27Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Upcoming Critical PHP Security Release",
-      "url": "https://www.php.net/archive/2026.php#2026-10-20-1",
-      "discuss_url": "https://lobste.rs/s/ekxoyt",
-      "score": 198,
-      "comments": 146,
-      "author": "pushcx",
-      "published": "2026-10-20T22:23:54Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Railway Preliminary Report: Oct 21st Security Incident",
-      "url": "https://blog.railway.com/p/preliminary-report-october-security-incident",
-      "discuss_url": "https://lobste.rs/s/hq3tu8",
-      "score": 4,
-      "comments": 9,
-      "author": "insom",
-      "published": "2026-10-23T18:35:24Z"
     },
     {
       "source": "lobsters",
@@ -517,11 +493,23 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Railway Preliminary Report: Oct 21st Security Incident",
+      "url": "https://blog.railway.com/p/preliminary-report-october-security-incident",
+      "discuss_url": "https://lobste.rs/s/hq3tu8",
+      "score": 4,
+      "comments": 9,
+      "author": "insom",
+      "published": "2026-10-23T18:35:24Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "CVE-2026-107891: musl libc: multiple integer overflow in regcomp, possibly leading to incorrect allocation sizes and out-of-bounds heap writes",
       "url": "https://www.openwall.com/lists/oss-security/2026/10/21/18",
       "discuss_url": "https://lobste.rs/s/dldfel",
       "score": 59,
-      "comments": 6,
+      "comments": 7,
       "author": "dzwdz",
       "published": "2026-10-21T17:40:17Z"
     },
@@ -550,16 +538,16 @@
       "published": "2026-10-21T20:48:24Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "devops",
-      "title": "Docker is weird",
-      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
-      "discuss_url": "https://news.ycombinator.com/item?id=50202681",
-      "score": 859,
-      "comments": 367,
-      "author": "psxuaw",
-      "published": "2026-10-22T23:45:56Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Firefox security patch tests are now private for at least a week",
+      "url": "https://groups.google.com/a/mozilla.org/g/firefox-dev/c/4I1HSPtVyrI/m/giGra4ZzAQAJ",
+      "discuss_url": "https://lobste.rs/s/othohc",
+      "score": 21,
+      "comments": 3,
+      "author": "strugee",
+      "published": "2026-10-21T07:13:16Z"
     },
     {
       "source": "rss",
@@ -692,6 +680,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-10-22T17:30:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon SageMaker AI announces training session APIs for serverless model customization",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/training-session-apis-on-sagemaker-ai",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/training-session-apis-on-sagemaker-ai",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-22T16:30:00Z"
     },
     {
       "source": "rss",
