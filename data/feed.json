@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T11:11:14Z",
+  "updated_at": "2026-10-25T15:58:22Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Cerebras Deploys Trillion-Parameter AI Models",
       "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
       "discuss_url": "https://news.ycombinator.com/item?id=50227356",
-      "score": 185,
-      "comments": 61,
+      "score": 271,
+      "comments": 90,
       "author": "gmays",
       "published": "2026-10-25T01:33:49Z",
       "bullets": [
-        "Cerebras scales its Wafer-Scale Engine architecture to support trillion-parameter models without conventional, brittle multi-node tensor-parallelism sharding schemes.",
-        "Decoupled compute and MemoryX storage stream weights dynamically, enabling single-cluster execution for dense and MoE architectures exceeding 1T parameters.",
-        "Challenges Nvidia H100 and B200 clusters by slashing inter-node networking overhead and simplifying distributed training pipelines for frontier-scale models."
+        "Cerebras Deploys Trillion-Parameter AI Models",
+        "Trending on news.ycombinator.com — 271 points, 90 comments.",
+        "Submitted by gmays on news.ycombinator.com."
       ]
     },
     {
@@ -54,31 +54,31 @@
       "title": "How to run a city builder on 16 MHz",
       "url": "https://larstofus.com/2025/11/16/how-to-run-a-city-builder-on-12-5-mhz/",
       "discuss_url": "https://lobste.rs/s/qzfohf",
-      "score": 13,
+      "score": 18,
       "comments": 15,
       "author": "Yogthos",
       "published": "2026-10-24T14:18:48Z",
       "bullets": [
-        "Microcontrollers clocked at 16 MHz demand aggressive memory optimization, using bit-packing and sparse arrays to store map state in minimal RAM.",
-        "Decoupling 60 Hz tile-based rendering from lower-frequency simulation ticks preserves critical execution cycles on cycle-constrained hardware.",
-        "Replacing floating-point math with integer lookup tables and fixed-point arithmetic prevents severe CPU bottlenecks on low-power 8-bit or 16-bit processors."
+        "How to run a city builder on 16 MHz",
+        "Trending on lobste.rs/programming — 18 points, 15 comments.",
+        "Submitted by Yogthos on lobste.rs/programming."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "I want my Wednesday back",
-      "url": "https://blog.luitjes.it/posts/i-want-my-wednesday-back/",
-      "discuss_url": "https://lobste.rs/s/xgih2x",
-      "score": 104,
-      "comments": 31,
-      "author": "lucasluitjes",
-      "published": "2026-10-24T10:09:28Z",
+      "title": "POSIX wordexp(3) is dangerous",
+      "url": "https://yossarian.net/til/post/posix-wordexp-3-is-dangerous/",
+      "discuss_url": "https://lobste.rs/s/tbbiqb",
+      "score": 7,
+      "comments": 1,
+      "author": "yossarian",
+      "published": "2026-10-25T15:09:29Z",
       "bullets": [
-        "Post-Patch Tuesday remediation and emergency vulnerability firefighting consistently disrupt scheduled development cycles and drain security engineering bandwidth.",
-        "Fragile system dependencies and rushed vendor patches turn routine vulnerability triage into prolonged, high-stress operational outages.",
-        "Invest in automated regression testing, staged canary rollouts, and robust rollback workflows to protect engineering teams from emergency disruptions."
+        "POSIX wordexp(3) is dangerous",
+        "Trending on lobste.rs/security — 7 points, 1 comments.",
+        "Submitted by yossarian on lobste.rs/security."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "aws@amazon.com",
       "published": "2026-10-23T21:04:00Z",
       "bullets": [
-        "Bedrock's web_search tool adds domain filtering, supporting up to 100 allowed_domains or blocked_domains to enforce trusted grounding sources.",
-        "New user location parameters enable region-specific web search grounding for geography-dependent LLM workflows and local service queries.",
-        "Available across US East (N. Virginia, Ohio), US West (Oregon), and AWS GovCloud (US-West) regions via standard Bedrock tooling."
+        "Web Search on Amazon Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location.",
+        "Both are configured directly on the web_search tool in your existing OpenAI Responses API request.",
+        "With domain filtering, you can restrict Web Search results to a set of domains you choose."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Tereza Ondráčková, wired.com",
       "published": "2026-10-24T11:50:28Z",
       "bullets": [
-        "New atmospheric models simulate Mars' 1,000-mile orographic cloud, revealing novel ice-nucleation microphysics under extreme low-pressure conditions.",
-        "High-altitude Martian gravity waves trigger rapid water-ice condensation pathways previously unobserved in terrestrial atmospheric science.",
-        "Findings push computational fluid dynamics beyond standard terrestrial thermodynamic assumptions, necessitating updated climate models for extreme environments."
+        "A new model suggests Mars may host ice-forming physics never directly observed before.",
+        "A 1,000-mile cloud on Mars may reveal physics never seen in nature",
+        "Submitted by Tereza Ondráčková, wired.com on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Cerebras Deploys Trillion-Parameter AI Models",
       "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
       "discuss_url": "https://news.ycombinator.com/item?id=50227356",
-      "score": 185,
-      "comments": 61,
+      "score": 271,
+      "comments": 90,
       "author": "gmays",
       "published": "2026-10-25T01:33:49Z"
     },
@@ -133,25 +133,13 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Swedish government offices to ban ChatGPT and Claude",
-      "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
-      "discuss_url": "https://news.ycombinator.com/item?id=50207405",
-      "score": 322,
-      "comments": 122,
-      "author": "armcat",
-      "published": "2026-10-23T11:39:54Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
-      "url": "https://arxiv.org/abs/2610.14162",
-      "discuss_url": "https://lobste.rs/s/d1snfg",
-      "score": 3,
-      "comments": 0,
-      "author": "Yogthos",
-      "published": "2026-10-23T17:25:34Z"
+      "title": "Neural chip decodes interactions between brain regions",
+      "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+      "discuss_url": "https://news.ycombinator.com/item?id=50222525",
+      "score": 126,
+      "comments": 46,
+      "author": "giuliomagnifico",
+      "published": "2026-10-24T15:57:17Z"
     },
     {
       "source": "lobsters",
@@ -164,6 +152,18 @@
       "comments": 1,
       "author": "rrampage",
       "published": "2026-10-21T21:06:35Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+      "url": "https://arxiv.org/abs/2610.14162",
+      "discuss_url": "https://lobste.rs/s/d1snfg",
+      "score": 3,
+      "comments": 0,
+      "author": "Yogthos",
+      "published": "2026-10-23T17:25:34Z"
     },
     {
       "source": "rss",
@@ -268,10 +268,22 @@
       "title": "How to run a city builder on 16 MHz",
       "url": "https://larstofus.com/2025/11/16/how-to-run-a-city-builder-on-12-5-mhz/",
       "discuss_url": "https://lobste.rs/s/qzfohf",
-      "score": 13,
+      "score": 18,
       "comments": 15,
       "author": "Yogthos",
       "published": "2026-10-24T14:18:48Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "When a glibc update accidentally breaks Chromium's audio (2021)",
+      "url": "https://refi64.dev/posts/chromium-audio-break.html",
+      "discuss_url": "https://lobste.rs/s/5ullyu",
+      "score": 1,
+      "comments": 0,
+      "author": "seb",
+      "published": "2026-10-25T15:34:21Z"
     },
     {
       "source": "lobsters",
@@ -281,7 +293,7 @@
       "url": "https://rtfeldman.com/fp-vs-c",
       "discuss_url": "https://lobste.rs/s/7me8wm",
       "score": 51,
-      "comments": 20,
+      "comments": 21,
       "author": "pyfisch",
       "published": "2026-10-23T11:37:22Z"
     },
@@ -304,8 +316,8 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/crqz1g",
       "discuss_url": "https://lobste.rs/s/crqz1g",
-      "score": 23,
-      "comments": 59,
+      "score": 24,
+      "comments": 60,
       "author": "caius",
       "published": "2026-10-23T08:43:10Z"
     },
@@ -328,7 +340,7 @@
       "title": "Incremental Computation Graphs",
       "url": "https://dziban.net/posts/incremental-computation-graph/",
       "discuss_url": "https://lobste.rs/s/6utrvz",
-      "score": 12,
+      "score": 13,
       "comments": 3,
       "author": "marcecoll",
       "published": "2026-10-23T21:35:45Z"
@@ -394,28 +406,16 @@
       "published": "2026-10-19T18:47:22Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "Rumors of the SaaS demise are greatly exaggerated",
-      "url": "https://stackoverflow.blog/2026/10/23/rumors-of-the-saas-demise-are-greatly-exaggerated/",
-      "discuss_url": "https://stackoverflow.blog/2026/10/23/rumors-of-the-saas-demise-are-greatly-exaggerated/",
-      "score": null,
-      "comments": null,
-      "author": "Phoebe Sajor",
-      "published": "2026-10-23T07:40:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "I want my Wednesday back",
-      "url": "https://blog.luitjes.it/posts/i-want-my-wednesday-back/",
-      "discuss_url": "https://lobste.rs/s/xgih2x",
-      "score": 104,
-      "comments": 31,
-      "author": "lucasluitjes",
-      "published": "2026-10-24T10:09:28Z"
+      "title": "POSIX wordexp(3) is dangerous",
+      "url": "https://yossarian.net/til/post/posix-wordexp-3-is-dangerous/",
+      "discuss_url": "https://lobste.rs/s/tbbiqb",
+      "score": 7,
+      "comments": 1,
+      "author": "yossarian",
+      "published": "2026-10-25T15:09:29Z"
     },
     {
       "source": "hackernews",
@@ -424,7 +424,7 @@
       "title": "Evolving Threat: http2shell is an RCE in Node, Python, and more",
       "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
       "discuss_url": "https://news.ycombinator.com/item?id=50216791",
-      "score": 183,
+      "score": 184,
       "comments": 97,
       "author": "cowlevel",
       "published": "2026-10-23T23:30:17Z"
@@ -433,10 +433,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "I want my Wednesday back",
+      "url": "https://blog.luitjes.it/posts/i-want-my-wednesday-back/",
+      "discuss_url": "https://lobste.rs/s/xgih2x",
+      "score": 110,
+      "comments": 31,
+      "author": "lucasluitjes",
+      "published": "2026-10-24T10:09:28Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Indian government sites are serving revoked eMudhra certificates",
       "url": "https://captnemo.in/blog/2026/10/23/emsign-revoked-gov-in/",
       "discuss_url": "https://lobste.rs/s/zug8xv",
-      "score": 65,
+      "score": 68,
       "comments": 13,
       "author": "adityaathalye",
       "published": "2026-10-24T04:06:06Z"
@@ -448,34 +460,10 @@
       "title": "This week's \"node2shell\" Brotli vulnerability (CVE-2026-111497) is exploitable in Python, other consumers of Brotli",
       "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
       "discuss_url": "https://lobste.rs/s/al3yyf",
-      "score": 11,
-      "comments": 10,
+      "score": 12,
+      "comments": 11,
       "author": "hoistbypetard",
       "published": "2026-10-24T11:01:27Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
-      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
-      "discuss_url": "https://lobste.rs/s/ebsqsp",
-      "score": 84,
-      "comments": 31,
-      "author": "pims",
-      "published": "2026-10-21T13:50:10Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Expose only share links of a private service with caddy",
-      "url": "https://dataswamp.org/~solene/2026-10-21-caddy-forward-auth-public-share-links.html",
-      "discuss_url": "https://lobste.rs/s/tu5ynp",
-      "score": 41,
-      "comments": 6,
-      "author": "ggpsv",
-      "published": "2026-10-22T16:30:14Z"
     },
     {
       "source": "lobsters",
@@ -493,13 +481,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Railway Preliminary Report: Oct 21st Security Incident",
-      "url": "https://blog.railway.com/p/preliminary-report-october-security-incident",
-      "discuss_url": "https://lobste.rs/s/hq3tu8",
-      "score": 4,
-      "comments": 9,
-      "author": "insom",
-      "published": "2026-10-23T18:35:24Z"
+      "title": "Expose only share links of a private service with caddy",
+      "url": "https://dataswamp.org/~solene/2026-10-21-caddy-forward-auth-public-share-links.html",
+      "discuss_url": "https://lobste.rs/s/tu5ynp",
+      "score": 41,
+      "comments": 6,
+      "author": "ggpsv",
+      "published": "2026-10-22T16:30:14Z"
     },
     {
       "source": "lobsters",
@@ -517,10 +505,22 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "Railway Preliminary Report: Oct 21st Security Incident",
+      "url": "https://blog.railway.com/p/preliminary-report-october-security-incident",
+      "discuss_url": "https://lobste.rs/s/hq3tu8",
+      "score": 4,
+      "comments": 9,
+      "author": "insom",
+      "published": "2026-10-23T18:35:24Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "Railway Security Disclosure: Wednesday October 21st",
       "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
       "discuss_url": "https://lobste.rs/s/wi4nnl",
-      "score": 25,
+      "score": 26,
       "comments": 10,
       "author": "veverkap",
       "published": "2026-10-21T22:31:11Z"
