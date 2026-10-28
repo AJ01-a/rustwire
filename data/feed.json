@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T22:06:32Z",
+  "updated_at": "2026-10-28T04:48:18Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,17 +34,17 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
-      "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50260814",
-      "score": 367,
-      "comments": 199,
-      "author": "car",
-      "published": "2026-10-27T15:28:26Z",
+      "title": "Early progress on accelerating drug development with Claude",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "discuss_url": "https://news.ycombinator.com/item?id=50265609",
+      "score": 174,
+      "comments": 159,
+      "author": "dataking",
+      "published": "2026-10-27T20:50:42Z",
       "bullets": [
-        "Anthropic faces scrutiny over Claude training data allegedly sourced from pirated shadow libraries containing copyrighted academic works.",
-        "Litigation risks challenge LLM fair-use defenses, increasing legal exposure for commercial models trained on scraped or unvetted text corpora.",
-        "AI practitioners must prioritize pre-training data provenance and rigorous filtering pipelines to mitigate downstream copyright liabilities."
+        "Anthropic explores deploying Claude to accelerate target identification, molecular design, and protocol generation across preclinical workflows.",
+        "Focus centers on multimodal reasoning across chemical datasets and biomedical literature while enforcing biosecurity and dual-use guardrails.",
+        "Demonstrates frontier LLMs shifting into pharmaceutical pipelines, augmenting wet-lab automation, clinical documentation, and drug candidate screening."
       ]
     },
     {
@@ -59,60 +59,60 @@
       "author": "caius",
       "published": "2026-10-26T11:35:18Z",
       "bullets": [
-        "Recurring community check-ins track grassroots developer trends, frequently highlighting hobbyist compiler construction, Rust tooling, and independent open-source maintenance.",
-        "Discussions reveal real-world engineering experiments across self-hosted infrastructure, emerging languages, and side projects unconstrained by enterprise production roadmaps.",
-        "Community norms explicitly encouraging downtime reflect growing awareness of sustainable pacing and burnout prevention among active software practitioners."
+        "Lobsters developers share weekly progress on open-source initiatives, systems software, and personal side-project architecture.",
+        "Discussions commonly feature low-level experimentation in Rust, Go, or Zig, custom compilers, and database engine development.",
+        "Engineers exchange pragmatic implementation notes on self-hosted infrastructure, local developer tooling, and performance optimization."
       ]
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "An Evening with Berferd: In Which a Cracker is Lured, Endured, and Studied (1992)",
-      "url": "https://www.cheswick.com/ches/papers/berferd.pdf",
-      "discuss_url": "https://lobste.rs/s/7bbzjf",
-      "score": 4,
-      "comments": 0,
-      "author": "calvin",
-      "published": "2026-10-27T18:48:45Z",
+      "title": "PHP2Shell: Exploitation attempts and remediation trends",
+      "url": "https://www.wiz.io/blog/php2shell-exploitation-so-far",
+      "discuss_url": "https://news.ycombinator.com/item?id=50259343",
+      "score": 185,
+      "comments": 59,
+      "author": "acossta",
+      "published": "2026-10-27T13:52:12Z",
       "bullets": [
-        "Cheswick's seminal 1992 paper pioneered honeypots, using chroot jails and simulated Unix environments to safely trap and study attackers.",
-        "Details an intrusion exploiting Sendmail debugging flaws, monitored in real time via modified network services and session logging.",
-        "Established modern deception defense, proving the value of observing attacker tradecraft instead of immediately severing unauthorized access."
+        "Threat actors actively target PHP remote code execution flaws, weaponizing argument injection and input parsing bugs into persistent interactive webshells.",
+        "Payload telemetry reveals widespread use of obfuscated eval and system calls paired with reverse tunnels to bypass perimeter security.",
+        "Mitigation requires patching vulnerable PHP runtimes, disabling dangerous functions in php.ini, and deploying behavioral WAF rules against shell spawning."
       ]
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon Aurora serverless now supports up to 384 ACUs",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-serverless-supports-384-acu/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-serverless-supports-384-acu/",
+      "title": "Amazon ECS now supports GPU sharing with NVIDIA Multi-Process Service (MPS)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-gpu-sharing-nvidia-mps/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-gpu-sharing-nvidia-mps/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-10-27T16:00:00Z",
+      "published": "2026-10-27T23:31:00Z",
       "bullets": [
-        "Aurora PostgreSQL Serverless now scales to 384 ACUs, delivering up to 768 GiB RAM with corresponding compute and network capacity.",
-        "Maintains automatic scale-to-zero functionality, cutting idle costs for bursty, spiky workloads such as agentic AI backend databases.",
-        "Adoption requires Platform Version 4 and supported Aurora PostgreSQL engine versions before adjusting the maximum capacity setting."
+        "ECS now uses NVIDIA MPS to pack multiple container tasks onto single GPUs with granular memory and compute share limits.",
+        "Available on ECS on EC2 and ECS Managed Instances, cutting infrastructure costs for lightweight inference without requiring application code changes.",
+        "ECS Managed Instances automatically monitor the host MPS daemon, replacing unhealthy instances and rescheduling affected tasks to maintain workload uptime."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Code-execution flaw in UEFI firmware threatens most servers on planet Earth",
-      "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
-      "discuss_url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+      "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
+      "url": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
+      "discuss_url": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
       "score": null,
       "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-10-27T20:25:55Z",
+      "author": "Samuel Axon",
+      "published": "2026-10-27T22:37:30Z",
       "bullets": [
-        "A critical vulnerability in open-source EDK2 UEFI firmware enables arbitrary pre-boot code execution on enterprise servers globally.",
-        "Exploitation bypasses Secure Boot and OS defenses, enabling deep persistence below the hypervisor and standard endpoint security tooling.",
-        "Mitigation demands low-level firmware flashing across affected server fleets, complicating patching cycles for enterprise data centers and clouds."
+        "Apple refreshed the iMac and entry-level MacBook Pro lineups, moving base hardware tiers to the next-generation M6 silicon.",
+        "New models incorporate Apple's N1 networking chip, adding native support for high-throughput Wi-Fi 7 and Bluetooth 6 standards.",
+        "The update modernizes desktop and mobile professional baselines, prioritizing upgraded system-on-chip performance alongside next-gen wireless infrastructure."
       ]
     }
   ],
@@ -121,11 +121,35 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Early progress on accelerating drug development with Claude",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "discuss_url": "https://news.ycombinator.com/item?id=50265609",
+      "score": 174,
+      "comments": 159,
+      "author": "dataking",
+      "published": "2026-10-27T20:50:42Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "url": "https://www.brangus.io/survival-llm",
+      "discuss_url": "https://news.ycombinator.com/item?id=50264853",
+      "score": 243,
+      "comments": 118,
+      "author": "Luc",
+      "published": "2026-10-27T19:55:06Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
       "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
       "discuss_url": "https://news.ycombinator.com/item?id=50260814",
-      "score": 367,
-      "comments": 199,
+      "score": 495,
+      "comments": 269,
       "author": "car",
       "published": "2026-10-27T15:28:26Z"
     },
@@ -136,8 +160,8 @@
       "title": "Anthropic S-1",
       "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
       "discuss_url": "https://news.ycombinator.com/item?id=50242939",
-      "score": 1685,
-      "comments": 1642,
+      "score": 1692,
+      "comments": 1656,
       "author": "SiNTEx",
       "published": "2026-10-26T13:04:50Z"
     },
@@ -148,22 +172,22 @@
       "title": "GPT-6.1 Terra",
       "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
       "discuss_url": "https://news.ycombinator.com/item?id=50248124",
-      "score": 621,
-      "comments": 416,
+      "score": 628,
+      "comments": 421,
       "author": "meetpateltech",
       "published": "2026-10-26T18:01:17Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
-      "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
-      "discuss_url": "https://lobste.rs/s/rswyzt",
-      "score": 8,
-      "comments": 0,
-      "author": "ni5arga",
-      "published": "2026-10-27T19:08:23Z"
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "discuss_url": "https://news.ycombinator.com/item?id=50252159",
+      "score": 178,
+      "comments": 78,
+      "author": "wondersky",
+      "published": "2026-10-26T22:41:48Z"
     },
     {
       "source": "hackernews",
@@ -172,10 +196,22 @@
       "title": "Concerning behavior from a popular open-weight AI model",
       "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
       "discuss_url": "https://news.ycombinator.com/item?id=50246658",
-      "score": 321,
-      "comments": 124,
+      "score": 325,
+      "comments": 127,
       "author": "matthieu_bl",
       "published": "2026-10-26T16:35:44Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
+      "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
+      "discuss_url": "https://lobste.rs/s/rswyzt",
+      "score": 11,
+      "comments": 3,
+      "author": "ni5arga",
+      "published": "2026-10-27T19:08:23Z"
     },
     {
       "source": "rss",
@@ -226,42 +262,6 @@
       "published": "2026-10-22T22:24:34Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Ensemble forecasting with IBM Granite time-series models",
-      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
-      "discuss_url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-22T07:51:31Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
-      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
-      "discuss_url": "https://huggingface.co/blog/nvidia/kumo-relational",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-21T18:26:30Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
-      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-      "discuss_url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-21T17:35:36Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
@@ -272,18 +272,6 @@
       "comments": 35,
       "author": "caius",
       "published": "2026-10-26T11:35:18Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Heavenly delights of hashing numbers under EQUALP",
-      "url": "https://turtleware.eu/posts/Heavenly-delights-of-hashing-numbers-under-EQUALP.html",
-      "discuss_url": "https://lobste.rs/s/0ta2mv",
-      "score": 12,
-      "comments": 0,
-      "author": "jackdaniel",
-      "published": "2026-10-26T15:40:59Z"
     },
     {
       "source": "lobsters",
@@ -304,10 +292,22 @@
       "title": "How to run a city builder on 16 MHz",
       "url": "https://larstofus.com/2025/11/16/how-to-run-a-city-builder-on-12-5-mhz/",
       "discuss_url": "https://lobste.rs/s/qzfohf",
-      "score": 25,
+      "score": 26,
       "comments": 15,
       "author": "Yogthos",
       "published": "2026-10-24T14:18:48Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Heavenly delights of hashing numbers under EQUALP",
+      "url": "https://turtleware.eu/posts/Heavenly-delights-of-hashing-numbers-under-EQUALP.html",
+      "discuss_url": "https://lobste.rs/s/0ta2mv",
+      "score": 12,
+      "comments": 0,
+      "author": "jackdaniel",
+      "published": "2026-10-26T15:40:59Z"
     },
     {
       "source": "rss",
@@ -394,28 +394,28 @@
       "published": "2026-10-21T14:00:00Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "security",
-      "title": "An Evening with Berferd: In Which a Cracker is Lured, Endured, and Studied (1992)",
-      "url": "https://www.cheswick.com/ches/papers/berferd.pdf",
-      "discuss_url": "https://lobste.rs/s/7bbzjf",
-      "score": 4,
-      "comments": 0,
-      "author": "calvin",
-      "published": "2026-10-27T18:48:45Z"
+      "title": "PHP2Shell: Exploitation attempts and remediation trends",
+      "url": "https://www.wiz.io/blog/php2shell-exploitation-so-far",
+      "discuss_url": "https://news.ycombinator.com/item?id=50259343",
+      "score": 185,
+      "comments": 59,
+      "author": "acossta",
+      "published": "2026-10-27T13:52:12Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "The next circle of security hell",
-      "url": "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/",
-      "discuss_url": "https://lobste.rs/s/f3jpq3",
-      "score": 2,
-      "comments": 0,
-      "author": "luca",
-      "published": "2026-10-27T20:10:56Z"
+      "title": "This is not sustainable",
+      "url": "https://www.netmeister.org/blog/defense-ddos.html",
+      "discuss_url": "https://lobste.rs/s/cpaibp",
+      "score": 3,
+      "comments": 1,
+      "author": "binjip978",
+      "published": "2026-10-28T03:56:49Z"
     },
     {
       "source": "lobsters",
@@ -424,7 +424,7 @@
       "title": "About the compromised eMudhra intermediate CAs",
       "url": "https://support.apple.com/en-us/149555",
       "discuss_url": "https://lobste.rs/s/xzp4m0",
-      "score": 58,
+      "score": 59,
       "comments": 34,
       "author": "freddyb",
       "published": "2026-10-26T09:58:55Z"
@@ -433,13 +433,37 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "An Evening with Berferd: In Which a Cracker is Lured, Endured, and Studied (1992)",
+      "url": "https://www.cheswick.com/ches/papers/berferd.pdf",
+      "discuss_url": "https://lobste.rs/s/7bbzjf",
+      "score": 6,
+      "comments": 0,
+      "author": "calvin",
+      "published": "2026-10-27T18:48:45Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "POSIX wordexp(3) is dangerous",
       "url": "https://yossarian.net/til/post/posix-wordexp-3-is-dangerous/",
       "discuss_url": "https://lobste.rs/s/tbbiqb",
-      "score": 87,
-      "comments": 20,
+      "score": 88,
+      "comments": 21,
       "author": "yossarian",
       "published": "2026-10-25T15:09:29Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "The next circle of security hell",
+      "url": "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/",
+      "discuss_url": "https://lobste.rs/s/f3jpq3",
+      "score": 3,
+      "comments": 0,
+      "author": "luca",
+      "published": "2026-10-27T20:10:56Z"
     },
     {
       "source": "lobsters",
@@ -457,18 +481,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Indian government sites are serving revoked eMudhra certificates",
-      "url": "https://captnemo.in/blog/2026/10/23/emsign-revoked-gov-in/",
-      "discuss_url": "https://lobste.rs/s/zug8xv",
-      "score": 74,
-      "comments": 19,
-      "author": "adityaathalye",
-      "published": "2026-10-24T04:06:06Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Web Page Crawler Revealed - tracking down requests from Contabo GmbH",
       "url": "https://bruceediger.com/posts/contabo-crawler/",
       "discuss_url": "https://lobste.rs/s/eyrbup",
@@ -481,18 +493,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "The Limits of Fingerprint Blocklists: A Reproducible Java Certificate Bypass",
-      "url": "https://www.sonatype.com/blog/the-limits-of-fingerprint-blocklists-a-reproducible-java-certificate-bypass",
-      "discuss_url": "https://lobste.rs/s/aszhzo",
-      "score": 6,
-      "comments": 0,
-      "author": "hanno",
-      "published": "2026-10-26T20:33:16Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "This week's \"node2shell\" Brotli vulnerability (CVE-2026-111497) is exploitable in Python, other consumers of Brotli",
       "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
       "discuss_url": "https://lobste.rs/s/al3yyf",
@@ -500,6 +500,18 @@
       "comments": 13,
       "author": "hoistbypetard",
       "published": "2026-10-24T11:01:27Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "The Limits of Fingerprint Blocklists: A Reproducible Java Certificate Bypass",
+      "url": "https://www.sonatype.com/blog/the-limits-of-fingerprint-blocklists-a-reproducible-java-certificate-bypass",
+      "discuss_url": "https://lobste.rs/s/aszhzo",
+      "score": 6,
+      "comments": 0,
+      "author": "hanno",
+      "published": "2026-10-26T20:33:16Z"
     },
     {
       "source": "rss",
@@ -527,15 +539,27 @@
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
-      "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
-      "discuss_url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon ECS now supports GPU sharing with NVIDIA Multi-Process Service (MPS)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-gpu-sharing-nvidia-mps/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-gpu-sharing-nvidia-mps/",
       "score": null,
       "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-10-27T13:59:48Z"
+      "author": "aws@amazon.com",
+      "published": "2026-10-27T23:31:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "SageMaker MLflow Apps now support MLflow 3.16",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/mflow-version-3-16/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/mflow-version-3-16/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-27T20:40:00Z"
     },
     {
       "source": "rss",
@@ -553,6 +577,18 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "Amazon ElastiCache for Valkey now supports changing durability on existing clusters",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/elasticache-changing-durability/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/elasticache-changing-durability/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-27T15:21:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon Corretto October 2026 Patch Updates",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-corretto-oct-2026-patch-updates",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-corretto-oct-2026-patch-updates",
@@ -560,6 +596,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-10-27T14:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon Neptune now supports online index rebuild to reclaim storage",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/neptune-online-index-rebuild/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/neptune-online-index-rebuild/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-27T08:00:00Z"
     },
     {
       "source": "rss",
@@ -635,57 +683,69 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Connect Customer now lets you view metrics by customer lifetime value and repeat-caller status",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-boma-segment/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-boma-segment/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
+      "url": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
+      "discuss_url": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-26T13:47:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Connect Customer now measures the outcomes that drive retention and revenue",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-boma-metrics/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-boma-metrics/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-26T13:31:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS IAM Identity Center now supports cross-Region trusted identity propagation",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-iam-identity-center-cross-region-tip/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-iam-identity-center-cross-region-tip/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-26T08:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Key Management Service now supports ML-KEM for post-quantum key encapsulation",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-26T08:00:00Z"
+      "author": "Samuel Axon",
+      "published": "2026-10-27T22:37:30Z"
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Code-execution flaw in UEFI firmware threatens most servers on planet Earth",
+      "title": "South Carolina's measles outbreak jumped to Washington state 5 times in 2 weeks",
+      "url": "https://arstechnica.com/health/2026/10/domestic-travel-poses-growing-risk-for-measles-and-a-new-challenge-for-states/",
+      "discuss_url": "https://arstechnica.com/health/2026/10/domestic-travel-poses-growing-risk-for-measles-and-a-new-challenge-for-states/",
+      "score": null,
+      "comments": null,
+      "author": "Beth Mole",
+      "published": "2026-10-27T22:22:32Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "China's top-secret spaceplane can't hide in low-Earth orbit",
+      "url": "https://arstechnica.com/space/2026/10/chinas-top-secret-spaceplane-cant-hide-in-low-earth-orbit/",
+      "discuss_url": "https://arstechnica.com/space/2026/10/chinas-top-secret-spaceplane-cant-hide-in-low-earth-orbit/",
+      "score": null,
+      "comments": null,
+      "author": "Stephen Clark",
+      "published": "2026-10-27T22:04:50Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
+      "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+      "discuss_url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+      "score": null,
+      "comments": null,
+      "author": "Jon Brodkin",
+      "published": "2026-10-27T21:50:04Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+      "discuss_url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+      "score": null,
+      "comments": null,
+      "author": "Kyle Orland",
+      "published": "2026-10-27T21:31:14Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
       "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
       "discuss_url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
       "score": null,
@@ -764,66 +824,6 @@
       "comments": null,
       "author": "Scharon Harding",
       "published": "2026-10-27T15:50:19Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Apple iPhone Duo review: Two screens, two experiences, two thousand dollars",
-      "url": "https://arstechnica.com/gadgets/2026/10/apple-iphone-duo-review-two-screens-two-experiences-two-thousand-dollars/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/10/apple-iphone-duo-review-two-screens-two-experiences-two-thousand-dollars/",
-      "score": null,
-      "comments": null,
-      "author": "Andrew Cunningham",
-      "published": "2026-10-27T14:20:26Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Some iPhone Duo screens are already failing, Apple says only a \"small number\" are affected",
-      "url": "https://arstechnica.com/gadgets/2026/10/some-iphone-duo-screens-are-already-failing/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/10/some-iphone-duo-screens-are-already-failing/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-10-27T14:00:49Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Sculpture re-creates odd optical effects of famed Lycurgus Cup",
-      "url": "https://arstechnica.com/science/2026/10/scientists-recreate-the-1600-year-old-recipe-of-lycurgus-cup/",
-      "discuss_url": "https://arstechnica.com/science/2026/10/scientists-recreate-the-1600-year-old-recipe-of-lycurgus-cup/",
-      "score": null,
-      "comments": null,
-      "author": "Jennifer Ouellette",
-      "published": "2026-10-27T13:32:35Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "US officials want Section 702 renewed before damaging court ruling goes public",
-      "url": "https://arstechnica.com/tech-policy/2026/10/us-officials-want-section-702-renewed-before-damaging-court-ruling-goes-public/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/10/us-officials-want-section-702-renewed-before-damaging-court-ruling-goes-public/",
-      "score": null,
-      "comments": null,
-      "author": "Dell Cameron, wired.com",
-      "published": "2026-10-27T13:22:16Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Microsoft offers to buy out a quarter of its workforce",
-      "url": "https://arstechnica.com/gadgets/2026/10/microsoft-offers-voluntary-buyouts-to-60000-employees/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/10/microsoft-offers-voluntary-buyouts-to-60000-employees/",
-      "score": null,
-      "comments": null,
-      "author": "Nick Indge",
-      "published": "2026-10-26T22:36:06Z"
     }
   ]
 }
