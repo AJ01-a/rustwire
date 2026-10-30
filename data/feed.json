@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T22:45:17Z",
+  "updated_at": "2026-10-30T05:07:22Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "LLM Voice",
       "url": "https://martinfowler.com/bliki/LLM-Voice.html",
       "discuss_url": "https://news.ycombinator.com/item?id=50290177",
-      "score": 292,
-      "comments": 156,
+      "score": 388,
+      "comments": 207,
       "author": "ibobev",
       "published": "2026-10-29T14:57:55Z",
       "bullets": [
-        "Speech-to-speech systems increasingly transition from cascaded STT-LLM-TTS pipelines to native multimodal models, drastically reducing conversational latency.",
-        "Real-time implementations leverage WebRTC streaming, voice activity detection, and chunked inference to drive end-to-end response times below 500ms.",
-        "Open-source architectures combine Whisper, local Ollama backends, and lightweight TTS engines like Kokoro or Piper for private edge deployments."
+        "Native speech-to-speech architectures are displacing cascaded STT-LLM-TTS pipelines, capturing emotion and inflection while eliminating intermediate text serialization latency.",
+        "Sub-500ms real-time conversational voice loops require bidirectional WebRTC/WebSocket streaming, voice activity detection (VAD), and low-latency audio token generation.",
+        "Developers evaluate proprietary options like OpenAI Realtime API against open-source full-duplex alternatives like Kyutai Moshi and fast TTS engines like Kokoro."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Nim version 2.4.0 released",
       "url": "https://nim-lang.org/blog/2026/10/28/nim-240.html",
       "discuss_url": "https://lobste.rs/s/vfllme",
-      "score": 9,
+      "score": 11,
       "comments": 0,
       "author": "durrendal",
       "published": "2026-10-29T12:07:26Z",
       "bullets": [
-        "Brings compiler optimizations, stricter type-system checks, and improved compile-time macro execution to Nim's toolchain.",
-        "Refines default ARC and ORC deterministic memory management, reducing runtime overhead and improving cycle collector performance.",
-        "Enhances C, C++, and JavaScript code generation backends while expanding standard library modules and tooling support."
+        "Delivers stability refinements to ARC/ORC deterministic memory management, optimizing cycle collection latency and runtime execution overhead.",
+        "Enhances compiler code generation across C and C++ backends, improving incremental compilation speeds and C++ interoperability.",
+        "Continues standard library modularization and cleanup, deprecating legacy APIs while expanding native cross-platform system bindings."
       ]
     },
     {
@@ -71,31 +71,31 @@
       "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
       "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
       "discuss_url": "https://news.ycombinator.com/item?id=50286987",
-      "score": 255,
-      "comments": 123,
+      "score": 308,
+      "comments": 151,
       "author": "882542F3884314B",
       "published": "2026-10-29T10:42:41Z",
       "bullets": [
-        "Attackers chained an unauthenticated PHP remote code execution vector with local privilege escalation to achieve root access across target hosts.",
-        "The campaign compromised 25 systems, actively escalating privileges on critical infrastructure, including US federal government servers.",
-        "Defenders should patch public-facing PHP runtimes, isolate web server service accounts, and inspect endpoints for unauthorized root persistence mechanisms."
+        "Attackers chained a PHP remote execution flaw with local privilege escalation to gain root access across 25 enterprise and government systems.",
+        "The multi-stage exploit transitions initial web server context into arbitrary root execution, bypassing standard web application sandboxing.",
+        "Mitigate by auditing public-facing PHP deployments, applying immediate runtime patches, and hardening host environments against local privilege escalation."
       ]
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon RDS for Oracle and SQL Server now support storage autoscaling on additional storage volumes",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-sqlserver-autoscaling-additional-storage-volumes",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-sqlserver-autoscaling-additional-storage-volumes",
+      "title": "AWS Marketplace now enables partners to list once and sell through multiple subsidiary accounts",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-marketplace-subsidiary-account-authorization",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-marketplace-subsidiary-account-authorization",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-10-29T18:06:00Z",
+      "published": "2026-10-29T20:12:00Z",
       "bullets": [
-        "RDS for Oracle and SQL Server supports zero-downtime autoscaling across up to three additional storage volumes, reaching 256 TiB capacity.",
-        "Replaces manual provisioning on secondary volumes; engineers set a maximum threshold per volume, allowing dynamic expansion as storage consumption grows.",
-        "Available on new and existing database instances at no extra charge, preventing over-provisioning costs and disk-full application downtime."
+        "Primary AWS Marketplace accounts can centrally publish listings, eliminating duplicate catalog pipelines across subsidiary AWS accounts.",
+        "Subsidiary accounts execute private offers using local tax IDs and currencies while primary accounts enforce product and country permissions.",
+        "Consolidated Marketplace insights aggregate agreements and renewals, while authorization revocation halts new offers without affecting active contracts."
       ]
     },
     {
@@ -106,13 +106,13 @@
       "url": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27/",
       "discuss_url": "https://news.ycombinator.com/item?id=50272145",
       "score": 240,
-      "comments": 105,
+      "comments": 106,
       "author": "noptd",
       "published": "2026-10-28T11:54:23Z",
       "bullets": [
-        "Acquisition secures Globalstar's licensed L-band and S-band (Band n53) spectrum, positioning Amazon Leo for direct-to-cell satellite services.",
-        "The $11.5B buyout escalates competition with SpaceX's Starlink Direct-to-Cell and AST SpaceMobile across global telecom operator integrations.",
-        "Amazon gains control over Apple's primary satellite SOS infrastructure partner, potentially reshaping mobile handset and enterprise IoT connectivity."
+        "Amazon gains Globalstar’s licensed S-band (Band 53) and L-band spectrum, accelerating direct-to-device mobile connectivity for its LEO satellite fleet.",
+        "The cleared $11.5B deal intensifies rivalry against SpaceX Starlink and AST SpaceMobile for direct satellite-to-cellular broadband market share.",
+        "The move impacts Apple's satellite ecosystem, which heavily relies on Globalstar's network for iPhone Emergency SOS functionality."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "LLM Voice",
       "url": "https://martinfowler.com/bliki/LLM-Voice.html",
       "discuss_url": "https://news.ycombinator.com/item?id=50290177",
-      "score": 292,
-      "comments": 156,
+      "score": 388,
+      "comments": 207,
       "author": "ibobev",
       "published": "2026-10-29T14:57:55Z"
     },
@@ -136,7 +136,7 @@
       "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
       "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
       "discuss_url": "https://news.ycombinator.com/item?id=50288019",
-      "score": 324,
+      "score": 329,
       "comments": 240,
       "author": "theHocineSaad",
       "published": "2026-10-29T12:41:56Z"
@@ -148,8 +148,8 @@
       "title": "Claude Code regularly sends each background agent’s transcript to its model",
       "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
       "discuss_url": "https://news.ycombinator.com/item?id=50284255",
-      "score": 556,
-      "comments": 223,
+      "score": 563,
+      "comments": 228,
       "author": "NikZaal",
       "published": "2026-10-29T03:33:42Z"
     },
@@ -160,8 +160,8 @@
       "title": "Gemini 4 Carbon",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
       "discuss_url": "https://news.ycombinator.com/item?id=50276792",
-      "score": 998,
-      "comments": 793,
+      "score": 1003,
+      "comments": 796,
       "author": "acossta",
       "published": "2026-10-28T17:01:23Z"
     },
@@ -172,8 +172,8 @@
       "title": "Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5",
       "url": "https://divagr.com/blog/qwenputer",
       "discuss_url": "https://lobste.rs/s/zftely",
-      "score": 37,
-      "comments": 3,
+      "score": 42,
+      "comments": 5,
       "author": "ndr",
       "published": "2026-10-29T10:00:04Z"
     },
@@ -268,7 +268,7 @@
       "title": "Nim version 2.4.0 released",
       "url": "https://nim-lang.org/blog/2026/10/28/nim-240.html",
       "discuss_url": "https://lobste.rs/s/vfllme",
-      "score": 9,
+      "score": 11,
       "comments": 0,
       "author": "durrendal",
       "published": "2026-10-29T12:07:26Z"
@@ -280,7 +280,7 @@
       "title": "Billion-query-per-second lookup tables in C++",
       "url": "https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/",
       "discuss_url": "https://lobste.rs/s/d3ubhd",
-      "score": 25,
+      "score": 26,
       "comments": 8,
       "author": "signal-11",
       "published": "2026-10-28T09:47:41Z"
@@ -412,8 +412,8 @@
       "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
       "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
       "discuss_url": "https://news.ycombinator.com/item?id=50286987",
-      "score": 255,
-      "comments": 123,
+      "score": 308,
+      "comments": 151,
       "author": "882542F3884314B",
       "published": "2026-10-29T10:42:41Z"
     },
@@ -424,8 +424,8 @@
       "title": "Shared password manager for families?",
       "url": "https://lobste.rs/s/eccbci",
       "discuss_url": "https://lobste.rs/s/eccbci",
-      "score": 23,
-      "comments": 27,
+      "score": 29,
+      "comments": 38,
       "author": "icefox",
       "published": "2026-10-29T14:39:51Z"
     },
@@ -436,7 +436,7 @@
       "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
       "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
       "discuss_url": "https://news.ycombinator.com/item?id=50282544",
-      "score": 247,
+      "score": 249,
       "comments": 120,
       "author": "sashk",
       "published": "2026-10-28T23:45:46Z"
@@ -448,10 +448,22 @@
       "title": "C2PA's eMudhra Moment",
       "url": "https://www.da.vidbuchanan.co.uk/blog/c2pa-four.html",
       "discuss_url": "https://lobste.rs/s/2matgw",
-      "score": 4,
-      "comments": 0,
+      "score": 13,
+      "comments": 1,
       "author": "retr0id",
       "published": "2026-10-29T20:33:44Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "XSS in yarr RSS reader",
+      "url": "https://0x67673068.me/xss-in-yarr/",
+      "discuss_url": "https://lobste.rs/s/1r7enm",
+      "score": 5,
+      "comments": 0,
+      "author": "zk",
+      "published": "2026-10-29T23:55:54Z"
     },
     {
       "source": "lobsters",
@@ -460,7 +472,7 @@
       "title": "This is not sustainable",
       "url": "https://www.netmeister.org/blog/defense-ddos.html",
       "discuss_url": "https://lobste.rs/s/cpaibp",
-      "score": 147,
+      "score": 149,
       "comments": 43,
       "author": "binjip978",
       "published": "2026-10-28T03:56:49Z"
@@ -493,18 +505,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "A single malformed WAP Push SMS crashes com.android.phone on Android, dropping active calls (including emergency calls)",
-      "url": "https://smsofdeath.com/",
-      "discuss_url": "https://lobste.rs/s/udg9co",
-      "score": 4,
-      "comments": 1,
-      "author": "benjoffe",
-      "published": "2026-10-29T07:22:37Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Scalable Vector Grief",
       "url": "https://portswigger.net/research/scalable-vector-grief",
       "discuss_url": "https://lobste.rs/s/vekgyd",
@@ -529,6 +529,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
+      "title": "A single malformed WAP Push SMS crashes com.android.phone on Android, dropping active calls (including emergency calls)",
+      "url": "https://smsofdeath.com/",
+      "discuss_url": "https://lobste.rs/s/udg9co",
+      "score": 4,
+      "comments": 1,
+      "author": "benjoffe",
+      "published": "2026-10-29T07:22:37Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
       "title": "The next circle of security hell",
       "url": "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/",
       "discuss_url": "https://lobste.rs/s/f3jpq3",
@@ -538,16 +550,16 @@
       "published": "2026-10-27T20:10:56Z"
     },
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "ACLs don’t (2009)",
-      "url": "https://shiftleft.com/mirrors/www.hpl.hp.com/techreports/2009/HPL-2009-20.pdf",
-      "discuss_url": "https://lobste.rs/s/9h6lc4",
-      "score": 5,
-      "comments": 0,
-      "author": "fanf",
-      "published": "2026-10-29T04:13:20Z"
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Marketplace now enables partners to list once and sell through multiple subsidiary accounts",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-marketplace-subsidiary-account-authorization",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-marketplace-subsidiary-account-authorization",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-29T20:12:00Z"
     },
     {
       "source": "rss",
@@ -577,13 +589,13 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS DataSync Enhanced mode now supports Amazon FSx for Windows File Server, FSx for NetApp ONTAP, and Red Hat OpenShift Virtualization",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/datasync-enhanced-fsx-openshift/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/datasync-enhanced-fsx-openshift/",
+      "title": "Amazon MSK Connect now supports updating connector plugins and worker configurations",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-connect-update-plugin-worker-configurations",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-connect-update-plugin-worker-configurations",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-10-29T08:00:00Z"
+      "published": "2026-10-29T15:00:00Z"
     },
     {
       "source": "rss",
@@ -613,9 +625,45 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "Amazon Managed Grafana now supports in-place upgrade to Grafana version 13.2",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/managed-grafana-upgrade-version-13-2/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/managed-grafana-upgrade-version-13-2/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-29T08:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS DataSync Enhanced mode now supports Amazon FSx for Windows File Server, FSx for NetApp ONTAP, and Red Hat OpenShift Virtualization",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/datasync-enhanced-fsx-openshift/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/datasync-enhanced-fsx-openshift/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-29T08:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "ACM now supports ACME for public certificates in AWS GovCloud (US)",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/acm-acme-support-govcloud-us/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/acm-acme-support-govcloud-us/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-29T08:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon SageMaker AI now supports SOCI-indexed images to start training jobs in seconds",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-ai-soci-images-training/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-ai-soci-images-training/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -646,54 +694,6 @@
       "published": "2026-10-28T21:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon Bedrock AgentCore CLI version 1.0 is now available",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore-cli-version-1-0-available/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore-cli-version-1-0-available/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-28T20:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Public endpoints for Amazon ElastiCache Serverless now in AWS GovCloud (US)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-serverless-public-endpoints-govcloud/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-serverless-public-endpoints-govcloud/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-28T19:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS Lambda supports Seekable OCI (SOCI) lazy loading for Lambda Managed Instances",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-seekable-oci-soci/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-seekable-oci-soci/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-28T18:44:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Introducing time series collections for the next generation of Amazon OpenSearch Serverless",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-series-collection-next-generation-opensearch-serverless/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-series-collection-next-generation-opensearch-serverless/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-10-28T18:35:00Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "industry",
@@ -701,7 +701,7 @@
       "url": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27/",
       "discuss_url": "https://news.ycombinator.com/item?id=50272145",
       "score": 240,
-      "comments": 105,
+      "comments": 106,
       "author": "noptd",
       "published": "2026-10-28T11:54:23Z"
     },
@@ -709,7 +709,19 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Windows 11 gets right-click menu improvements as PC revenue slides",
+      "title": "Reddit is moving to “a logged-in-only experience,” CEO says",
+      "url": "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/",
+      "score": null,
+      "comments": null,
+      "author": "Scharon Harding",
+      "published": "2026-10-29T21:47:57Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Microsoft fixes a Windows 11 annoyance as PC revenue declines",
       "url": "https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-slides/",
       "discuss_url": "https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-slides/",
       "score": null,
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Stephen Clark",
       "published": "2026-10-28T22:51:15Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "As US ties fray, Europe plans first undersea cable link to Greenland",
-      "url": "https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-10-28T22:35:50Z"
     }
   ]
 }
