@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T05:07:22Z",
+  "updated_at": "2026-10-30T12:38:22Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,34 +34,34 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "LLM Voice",
-      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
-      "discuss_url": "https://news.ycombinator.com/item?id=50290177",
-      "score": 388,
-      "comments": 207,
-      "author": "ibobev",
-      "published": "2026-10-29T14:57:55Z",
+      "title": "Backdoors in official Claude Code extensions",
+      "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+      "discuss_url": "https://news.ycombinator.com/item?id=50302334",
+      "score": 220,
+      "comments": 50,
+      "author": "dsr_",
+      "published": "2026-10-30T11:05:53Z",
       "bullets": [
-        "Native speech-to-speech architectures are displacing cascaded STT-LLM-TTS pipelines, capturing emotion and inflection while eliminating intermediate text serialization latency.",
-        "Sub-500ms real-time conversational voice loops require bidirectional WebRTC/WebSocket streaming, voice activity detection (VAD), and low-latency audio token generation.",
-        "Developers evaluate proprietary options like OpenAI Realtime API against open-source full-duplex alternatives like Kyutai Moshi and fast TTS engines like Kokoro."
+        "Anthropic's official Claude Code IDE extensions reportedly contained backdoors, posing severe supply-chain risks to developer machines and proprietary codebases.",
+        "The incident highlights how privileged agentic coding tools with terminal access can serve as vectors for credential exfiltration and arbitrary execution.",
+        "DevOps and security teams must sandbox CLI-level AI agents, audit extension permissions, and monitor outbound network telemetry from developer workstations."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "Nim version 2.4.0 released",
-      "url": "https://nim-lang.org/blog/2026/10/28/nim-240.html",
-      "discuss_url": "https://lobste.rs/s/vfllme",
-      "score": 11,
-      "comments": 0,
-      "author": "durrendal",
-      "published": "2026-10-29T12:07:26Z",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/u7dsbx",
+      "discuss_url": "https://lobste.rs/s/u7dsbx",
+      "score": 5,
+      "comments": 6,
+      "author": "caius",
+      "published": "2026-10-30T09:55:20Z",
       "bullets": [
-        "Delivers stability refinements to ARC/ORC deterministic memory management, optimizing cycle collection latency and runtime execution overhead.",
-        "Enhances compiler code generation across C and C++ backends, improving incremental compilation speeds and C++ interoperability.",
-        "Continues standard library modularization and cleanup, deprecating legacy APIs while expanding native cross-platform system bindings."
+        "Lobsters community thread serves as an informal peer review forum for weekend hacking, side projects, and open-source development.",
+        "Engineers regularly use recurring open check-ins to solicit technical feedback on novel tooling, architecture, or home lab deployments.",
+        "Thread norms explicitly encourage burnout mitigation by validating complete downtime alongside discretionary weekend programming and experimentation."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
       "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
       "discuss_url": "https://news.ycombinator.com/item?id=50286987",
-      "score": 308,
-      "comments": 151,
+      "score": 315,
+      "comments": 155,
       "author": "882542F3884314B",
       "published": "2026-10-29T10:42:41Z",
       "bullets": [
-        "Attackers chained a PHP remote execution flaw with local privilege escalation to gain root access across 25 enterprise and government systems.",
-        "The multi-stage exploit transitions initial web server context into arbitrary root execution, bypassing standard web application sandboxing.",
-        "Mitigate by auditing public-facing PHP deployments, applying immediate runtime patches, and hardening host environments against local privilege escalation."
+        "Attackers chained PHP remote code execution with local privilege escalation vulnerabilities to obtain unauthorized root access across targeted Linux hosts.",
+        "The campaign successfully compromised 25 servers, highlighting critical visibility gaps across internet-facing US federal agency web assets.",
+        "Defend by decoupling web services from root privileges, auditing PHP execution runtimes, and patching known local kernel escalation paths."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "aws@amazon.com",
       "published": "2026-10-29T20:12:00Z",
       "bullets": [
-        "Primary AWS Marketplace accounts can centrally publish listings, eliminating duplicate catalog pipelines across subsidiary AWS accounts.",
-        "Subsidiary accounts execute private offers using local tax IDs and currencies while primary accounts enforce product and country permissions.",
-        "Consolidated Marketplace insights aggregate agreements and renewals, while authorization revocation halts new offers without affecting active contracts."
+        "Primary AWS Marketplace accounts can now centrally publish listings while delegating direct private offer sales to subsidiary accounts.",
+        "Subsidiary accounts manage localized tax IDs, currencies, and disbursements independently, while primary accounts govern product distribution rights by country.",
+        "Centralized AWS Marketplace insights reports aggregate offers and renewals; revocation immediately blocks new offers without disrupting active buyer agreements."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar",
-      "url": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50272145",
-      "score": 240,
-      "comments": 106,
-      "author": "noptd",
-      "published": "2026-10-28T11:54:23Z",
+      "title": "Reddit is moving to “a logged-in-only experience,” CEO says",
+      "url": "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/",
+      "score": null,
+      "comments": null,
+      "author": "Scharon Harding",
+      "published": "2026-10-29T21:47:57Z",
       "bullets": [
-        "Amazon gains Globalstar’s licensed S-band (Band 53) and L-band spectrum, accelerating direct-to-device mobile connectivity for its LEO satellite fleet.",
-        "The cleared $11.5B deal intensifies rivalry against SpaceX Starlink and AST SpaceMobile for direct satellite-to-cellular broadband market share.",
-        "The move impacts Apple's satellite ecosystem, which heavily relies on Globalstar's network for iPhone Emergency SOS functionality."
+        "Reddit plans to transition to a mandatory logged-in experience, walling off unauthenticated access to platform content.",
+        "The strategy follows a significant drop in organic search referral traffic, impacting Reddit's visibility across external search engines.",
+        "Enforcing authentication curbs unauthorized AI scrapers while tightening platform control over proprietary training data and ad telemetry."
       ]
     }
   ],
@@ -121,11 +121,35 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Backdoors in official Claude Code extensions",
+      "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+      "discuss_url": "https://news.ycombinator.com/item?id=50302334",
+      "score": 220,
+      "comments": 50,
+      "author": "dsr_",
+      "published": "2026-10-30T11:05:53Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Anthropic hacked to deliver remote access trojan",
+      "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+      "discuss_url": "https://news.ycombinator.com/item?id=50301983",
+      "score": 164,
+      "comments": 29,
+      "author": "bashtoni",
+      "published": "2026-10-30T10:22:51Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "LLM Voice",
       "url": "https://martinfowler.com/bliki/LLM-Voice.html",
       "discuss_url": "https://news.ycombinator.com/item?id=50290177",
-      "score": 388,
-      "comments": 207,
+      "score": 503,
+      "comments": 264,
       "author": "ibobev",
       "published": "2026-10-29T14:57:55Z"
     },
@@ -136,8 +160,8 @@
       "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
       "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
       "discuss_url": "https://news.ycombinator.com/item?id=50288019",
-      "score": 329,
-      "comments": 240,
+      "score": 336,
+      "comments": 242,
       "author": "theHocineSaad",
       "published": "2026-10-29T12:41:56Z"
     },
@@ -148,8 +172,8 @@
       "title": "Claude Code regularly sends each background agent’s transcript to its model",
       "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
       "discuss_url": "https://news.ycombinator.com/item?id=50284255",
-      "score": 563,
-      "comments": 228,
+      "score": 568,
+      "comments": 232,
       "author": "NikZaal",
       "published": "2026-10-29T03:33:42Z"
     },
@@ -160,8 +184,8 @@
       "title": "Gemini 4 Carbon",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
       "discuss_url": "https://news.ycombinator.com/item?id=50276792",
-      "score": 1003,
-      "comments": 796,
+      "score": 1007,
+      "comments": 799,
       "author": "acossta",
       "published": "2026-10-28T17:01:23Z"
     },
@@ -172,8 +196,8 @@
       "title": "Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5",
       "url": "https://divagr.com/blog/qwenputer",
       "discuss_url": "https://lobste.rs/s/zftely",
-      "score": 42,
-      "comments": 5,
+      "score": 41,
+      "comments": 8,
       "author": "ndr",
       "published": "2026-10-29T10:00:04Z"
     },
@@ -238,28 +262,16 @@
       "published": "2026-10-29T00:00:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-      "discuss_url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-28T14:58:17Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "huggingface.co",
-      "category": "ai",
-      "title": "Build specialized multimodal models with LFM3",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
-      "discuss_url": "https://huggingface.co/blog/LiquidAI/lfm3",
-      "score": null,
-      "comments": null,
-      "author": null,
-      "published": "2026-10-27T17:16:52Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/u7dsbx",
+      "discuss_url": "https://lobste.rs/s/u7dsbx",
+      "score": 5,
+      "comments": 6,
+      "author": "caius",
+      "published": "2026-10-30T09:55:20Z"
     },
     {
       "source": "lobsters",
@@ -268,8 +280,8 @@
       "title": "Nim version 2.4.0 released",
       "url": "https://nim-lang.org/blog/2026/10/28/nim-240.html",
       "discuss_url": "https://lobste.rs/s/vfllme",
-      "score": 11,
-      "comments": 0,
+      "score": 13,
+      "comments": 1,
       "author": "durrendal",
       "published": "2026-10-29T12:07:26Z"
     },
@@ -284,18 +296,6 @@
       "comments": 8,
       "author": "signal-11",
       "published": "2026-10-28T09:47:41Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/xxdda9",
-      "discuss_url": "https://lobste.rs/s/xxdda9",
-      "score": 19,
-      "comments": 38,
-      "author": "caius",
-      "published": "2026-10-26T11:35:18Z"
     },
     {
       "source": "lobsters",
@@ -349,6 +349,18 @@
       "source": "rss",
       "subsource": "stackoverflow.blog",
       "category": "engineering",
+      "title": "It’s ok that computers are (sometimes) better than us",
+      "url": "https://stackoverflow.blog/2026/10/30/it-s-ok-that-computers-are-sometimes-better-than-us/",
+      "discuss_url": "https://stackoverflow.blog/2026/10/30/it-s-ok-that-computers-are-sometimes-better-than-us/",
+      "score": null,
+      "comments": null,
+      "author": "Phoebe Sajor",
+      "published": "2026-10-30T07:40:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
       "title": "The reports of Stack Overflow's death are greatly exaggerated",
       "url": "https://stackoverflow.blog/2026/10/29/the-reports-of-stack-overflow-s-death-are-greatly-exaggerated/",
       "discuss_url": "https://stackoverflow.blog/2026/10/29/the-reports-of-stack-overflow-s-death-are-greatly-exaggerated/",
@@ -394,40 +406,16 @@
       "published": "2026-10-27T07:40:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "Rumors of the SaaS demise are greatly exaggerated",
-      "url": "https://stackoverflow.blog/2026/10/23/rumors-of-the-saas-demise-are-greatly-exaggerated/",
-      "discuss_url": "https://stackoverflow.blog/2026/10/23/rumors-of-the-saas-demise-are-greatly-exaggerated/",
-      "score": null,
-      "comments": null,
-      "author": "Phoebe Sajor",
-      "published": "2026-10-23T07:40:00Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
       "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
       "discuss_url": "https://news.ycombinator.com/item?id=50286987",
-      "score": 308,
-      "comments": 151,
+      "score": 315,
+      "comments": 155,
       "author": "882542F3884314B",
       "published": "2026-10-29T10:42:41Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Shared password manager for families?",
-      "url": "https://lobste.rs/s/eccbci",
-      "discuss_url": "https://lobste.rs/s/eccbci",
-      "score": 29,
-      "comments": 38,
-      "author": "icefox",
-      "published": "2026-10-29T14:39:51Z"
     },
     {
       "source": "hackernews",
@@ -436,10 +424,22 @@
       "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
       "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
       "discuss_url": "https://news.ycombinator.com/item?id=50282544",
-      "score": 249,
-      "comments": 120,
+      "score": 253,
+      "comments": 121,
       "author": "sashk",
       "published": "2026-10-28T23:45:46Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Shared password manager for families?",
+      "url": "https://lobste.rs/s/eccbci",
+      "discuss_url": "https://lobste.rs/s/eccbci",
+      "score": 39,
+      "comments": 46,
+      "author": "icefox",
+      "published": "2026-10-29T14:39:51Z"
     },
     {
       "source": "lobsters",
@@ -448,8 +448,8 @@
       "title": "C2PA's eMudhra Moment",
       "url": "https://www.da.vidbuchanan.co.uk/blog/c2pa-four.html",
       "discuss_url": "https://lobste.rs/s/2matgw",
-      "score": 13,
-      "comments": 1,
+      "score": 21,
+      "comments": 4,
       "author": "retr0id",
       "published": "2026-10-29T20:33:44Z"
     },
@@ -457,13 +457,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "XSS in yarr RSS reader",
-      "url": "https://0x67673068.me/xss-in-yarr/",
-      "discuss_url": "https://lobste.rs/s/1r7enm",
-      "score": 5,
+      "title": "arm64e pointer authentication: PAC keys, PACIASP, A12",
+      "url": "https://sigreturn.com/blog/pointer-authentication-arm64e/",
+      "discuss_url": "https://lobste.rs/s/ruq2us",
+      "score": 3,
       "comments": 0,
-      "author": "zk",
-      "published": "2026-10-29T23:55:54Z"
+      "author": "olliej",
+      "published": "2026-10-30T07:39:04Z"
     },
     {
       "source": "lobsters",
@@ -472,10 +472,22 @@
       "title": "This is not sustainable",
       "url": "https://www.netmeister.org/blog/defense-ddos.html",
       "discuss_url": "https://lobste.rs/s/cpaibp",
-      "score": 149,
-      "comments": 43,
+      "score": 151,
+      "comments": 44,
       "author": "binjip978",
       "published": "2026-10-28T03:56:49Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "XSS in yarr RSS reader",
+      "url": "https://0x67673068.me/xss-in-yarr/",
+      "discuss_url": "https://lobste.rs/s/1r7enm",
+      "score": 9,
+      "comments": 0,
+      "author": "zk",
+      "published": "2026-10-29T23:55:54Z"
     },
     {
       "source": "lobsters",
@@ -484,7 +496,7 @@
       "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
       "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
       "discuss_url": "https://lobste.rs/s/0gomue",
-      "score": 36,
+      "score": 37,
       "comments": 19,
       "author": "aCaB",
       "published": "2026-10-28T09:18:31Z"
@@ -496,10 +508,22 @@
       "title": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
       "url": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/",
       "discuss_url": "https://lobste.rs/s/ansfvi",
-      "score": 33,
+      "score": 34,
       "comments": 3,
       "author": "polywolf",
       "published": "2026-10-28T13:34:06Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "A single malformed WAP Push SMS crashes com.android.phone on Android, dropping active calls (including emergency calls)",
+      "url": "https://smsofdeath.com/",
+      "discuss_url": "https://lobste.rs/s/udg9co",
+      "score": 5,
+      "comments": 2,
+      "author": "benjoffe",
+      "published": "2026-10-29T07:22:37Z"
     },
     {
       "source": "lobsters",
@@ -512,30 +536,6 @@
       "comments": 3,
       "author": "buherator",
       "published": "2026-10-28T07:26:03Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "About the compromised eMudhra intermediate CAs",
-      "url": "https://support.apple.com/en-us/149555",
-      "discuss_url": "https://lobste.rs/s/xzp4m0",
-      "score": 64,
-      "comments": 36,
-      "author": "freddyb",
-      "published": "2026-10-26T09:58:55Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "A single malformed WAP Push SMS crashes com.android.phone on Android, dropping active calls (including emergency calls)",
-      "url": "https://smsofdeath.com/",
-      "discuss_url": "https://lobste.rs/s/udg9co",
-      "score": 4,
-      "comments": 1,
-      "author": "benjoffe",
-      "published": "2026-10-29T07:22:37Z"
     },
     {
       "source": "lobsters",
@@ -625,9 +625,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon Managed Grafana now supports in-place upgrade to Grafana version 13.2",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/managed-grafana-upgrade-version-13-2/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/managed-grafana-upgrade-version-13-2/",
+      "title": "ACM now supports ACME for public certificates in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/acm-acme-support-govcloud-us/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/acm-acme-support-govcloud-us/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -649,9 +649,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "ACM now supports ACME for public certificates in AWS GovCloud (US)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/acm-acme-support-govcloud-us/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/acm-acme-support-govcloud-us/",
+      "title": "Amazon SageMaker AI now supports SOCI-indexed images to start training jobs in seconds",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-ai-soci-images-training/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-ai-soci-images-training/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -661,9 +661,9 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon SageMaker AI now supports SOCI-indexed images to start training jobs in seconds",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-ai-soci-images-training/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-ai-soci-images-training/",
+      "title": "Amazon Managed Grafana now supports in-place upgrade to Grafana version 13.2",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/managed-grafana-upgrade-version-13-2/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/managed-grafana-upgrade-version-13-2/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -692,18 +692,6 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-10-28T21:00:00Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "industry",
-      "title": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar",
-      "url": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50272145",
-      "score": 240,
-      "comments": 106,
-      "author": "noptd",
-      "published": "2026-10-28T11:54:23Z"
     },
     {
       "source": "rss",
@@ -836,6 +824,18 @@
       "comments": null,
       "author": "Stephen Clark",
       "published": "2026-10-28T22:51:15Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "As US ties fray, Europe plans first undersea cable link to Greenland",
+      "url": "https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland/",
+      "score": null,
+      "comments": null,
+      "author": "Jeremy Hsu",
+      "published": "2026-10-28T22:35:50Z"
     }
   ]
 }
