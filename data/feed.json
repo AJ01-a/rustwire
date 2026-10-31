@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T17:10:18Z",
+  "updated_at": "2026-10-31T21:14:11Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,34 +34,34 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "OpenAI raises less than half of $30B target",
-      "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-      "discuss_url": "https://news.ycombinator.com/item?id=50312922",
-      "score": 173,
-      "comments": 167,
-      "author": "timr",
-      "published": "2026-10-31T03:22:44Z",
+      "title": "Malware uses LLMs to rank victims by how much they're worth",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "discuss_url": "https://news.ycombinator.com/item?id=50316531",
+      "score": 214,
+      "comments": 116,
+      "author": "khalidkhair",
+      "published": "2026-10-31T14:29:03Z",
       "bullets": [
-        "Funding shortfalls constrain compute expansion plans, threatening multi-gigawatt data center roadmaps and upfront Nvidia Blackwell GPU procurement.",
-        "OpenAI faces immediate pressure to boost enterprise API margins, accelerate monetization, and prioritize cost-efficient inference via model distillation.",
-        "The shortfall reinforces strategic dependence on hyperscalers like Microsoft Azure for subsidizing capital-intensive frontier model training and infrastructure."
+        "Threat actors integrate API-driven or quantized local LLMs into C2 frameworks to automate post-exploitation reconnaissance and target triage.",
+        "LLMs analyze exfiltrated corporate records, financials, and Active Directory data to algorithmically calculate optimal extortion pricing and victim ranking.",
+        "Signals a shift toward agentic offensive operations, requiring telemetry monitoring for unexpected outbound LLM API traffic and local inference execution."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "The Secret of Fast Programming: Stop Thinking »",
-      "url": "https://www.codesimplicity.com/post/the-secret-of-fast-programming-stop-thinking/",
-      "discuss_url": "https://lobste.rs/s/mzqjdm",
-      "score": 3,
-      "comments": 2,
-      "author": "jkoppel",
-      "published": "2026-10-31T10:20:48Z",
+      "title": "Avoid Public Functions Calling Other Public Functions",
+      "url": "https://matklad.github.io/2026/10/29/pub-calls-pub.html",
+      "discuss_url": "https://lobste.rs/s/k508we",
+      "score": 19,
+      "comments": 4,
+      "author": "telemachus",
+      "published": "2026-10-31T18:05:03Z",
       "bullets": [
-        "The Secret of Fast Programming: Stop Thinking »",
-        "Trending on lobste.rs/programming — 3 points, 2 comments.",
-        "Submitted by jkoppel on lobste.rs/programming."
+        "Avoid Public Functions Calling Other Public Functions",
+        "Trending on lobste.rs/programming — 19 points, 4 comments.",
+        "Submitted by telemachus on lobste.rs/programming."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Tell HN: Scribd Breached",
       "url": "https://news.ycombinator.com/item?id=50312756",
       "discuss_url": "https://news.ycombinator.com/item?id=50312756",
-      "score": 304,
-      "comments": 112,
+      "score": 331,
+      "comments": 119,
       "author": "x______________",
       "published": "2026-10-31T02:46:36Z",
       "bullets": [
-        "Not seeing anything posted about this anywhere, received on Monday, 26th of Oct 2026: Subject: Notice of Security Incident This notice is being sent on behalf of Scribd, Inc., the…",
-        "Hello, We are writing to let you know that Scribd, Inc.",
-        "recently experienced a security incident that may have affected your data."
+        "Scribd disclosed a breach affecting user data across Scribd, SlideShare, Everand, and Fable via notification partner Epiq.",
+        "Compromised data includes user emails, payment history, and partial payment card details including expiration dates, issuers, and last four digits.",
+        "Security teams should anticipate spear-phishing campaigns impersonating Scribd subsidiaries that leverage the exposed customer and transaction metadata."
       ]
     },
     {
@@ -88,13 +88,13 @@
       "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
       "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
       "discuss_url": "https://news.ycombinator.com/item?id=50301854",
-      "score": 327,
-      "comments": 59,
+      "score": 331,
+      "comments": 60,
       "author": "swq115",
       "published": "2026-10-30T10:06:15Z",
       "bullets": [
         "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
-        "Trending on news.ycombinator.com — 327 points, 59 comments.",
+        "Trending on news.ycombinator.com — 331 points, 60 comments.",
         "Submitted by swq115 on news.ycombinator.com."
       ]
     },
@@ -107,12 +107,12 @@
       "discuss_url": "https://arstechnica.com/science/2026/10/seabirds-racing-home-over-the-ocean-can-get-jet-lagged/",
       "score": null,
       "comments": null,
-      "author": "John Timmer",
+      "author": "Jacek Krywko",
       "published": "2026-10-31T11:15:26Z",
       "bullets": [
         "A long flight home from feeding grounds messes with birds' internal clocks.",
         "Seabirds racing home over the ocean can get jet-lagged",
-        "Submitted by John Timmer on arstechnica.com."
+        "Submitted by Jacek Krywko on arstechnica.com."
       ]
     }
   ],
@@ -121,11 +121,23 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
+      "title": "Malware uses LLMs to rank victims by how much they're worth",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "discuss_url": "https://news.ycombinator.com/item?id=50316531",
+      "score": 214,
+      "comments": 116,
+      "author": "khalidkhair",
+      "published": "2026-10-31T14:29:03Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
       "title": "OpenAI raises less than half of $30B target",
       "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
       "discuss_url": "https://news.ycombinator.com/item?id=50312922",
-      "score": 173,
-      "comments": 167,
+      "score": 177,
+      "comments": 179,
       "author": "timr",
       "published": "2026-10-31T03:22:44Z"
     },
@@ -136,8 +148,8 @@
       "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
       "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
       "discuss_url": "https://news.ycombinator.com/item?id=50307219",
-      "score": 318,
-      "comments": 267,
+      "score": 322,
+      "comments": 280,
       "author": "petethomas",
       "published": "2026-10-30T17:27:25Z"
     },
@@ -148,8 +160,8 @@
       "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
       "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
       "discuss_url": "https://news.ycombinator.com/item?id=50300683",
-      "score": 948,
-      "comments": 541,
+      "score": 963,
+      "comments": 546,
       "author": "_chall",
       "published": "2026-10-30T07:09:12Z"
     },
@@ -172,7 +184,7 @@
       "title": "Let’s Build a Brain",
       "url": "https://aatishb.com/myriad/lets-build-a-brain/",
       "discuss_url": "https://lobste.rs/s/bmmj1e",
-      "score": 2,
+      "score": 5,
       "comments": 1,
       "author": "signal-11",
       "published": "2026-10-31T15:09:27Z"
@@ -200,18 +212,6 @@
       "comments": 9,
       "author": "ndr",
       "published": "2026-10-29T10:00:04Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
-      "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
-      "discuss_url": "https://lobste.rs/s/rswyzt",
-      "score": 21,
-      "comments": 4,
-      "author": "ni5arga",
-      "published": "2026-10-27T19:08:23Z"
     },
     {
       "source": "lobsters",
@@ -265,13 +265,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "The Secret of Fast Programming: Stop Thinking »",
-      "url": "https://www.codesimplicity.com/post/the-secret-of-fast-programming-stop-thinking/",
-      "discuss_url": "https://lobste.rs/s/mzqjdm",
-      "score": 3,
-      "comments": 2,
-      "author": "jkoppel",
-      "published": "2026-10-31T10:20:48Z"
+      "title": "Avoid Public Functions Calling Other Public Functions",
+      "url": "https://matklad.github.io/2026/10/29/pub-calls-pub.html",
+      "discuss_url": "https://lobste.rs/s/k508we",
+      "score": 19,
+      "comments": 4,
+      "author": "telemachus",
+      "published": "2026-10-31T18:05:03Z"
     },
     {
       "source": "lobsters",
@@ -280,10 +280,22 @@
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/u7dsbx",
       "discuss_url": "https://lobste.rs/s/u7dsbx",
-      "score": 22,
-      "comments": 42,
+      "score": 23,
+      "comments": 48,
       "author": "caius",
       "published": "2026-10-30T09:55:20Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "The Secret of Fast Programming: Stop Thinking »",
+      "url": "https://www.codesimplicity.com/post/the-secret-of-fast-programming-stop-thinking/",
+      "discuss_url": "https://lobste.rs/s/mzqjdm",
+      "score": 4,
+      "comments": 2,
+      "author": "jkoppel",
+      "published": "2026-10-31T10:20:48Z"
     },
     {
       "source": "lobsters",
@@ -400,8 +412,8 @@
       "title": "Tell HN: Scribd Breached",
       "url": "https://news.ycombinator.com/item?id=50312756",
       "discuss_url": "https://news.ycombinator.com/item?id=50312756",
-      "score": 304,
-      "comments": 112,
+      "score": 331,
+      "comments": 119,
       "author": "x______________",
       "published": "2026-10-31T02:46:36Z"
     },
@@ -412,8 +424,8 @@
       "title": "Northflank Breached",
       "url": "https://status.northflank.com",
       "discuss_url": "https://news.ycombinator.com/item?id=50305025",
-      "score": 463,
-      "comments": 343,
+      "score": 471,
+      "comments": 352,
       "author": "js4ever",
       "published": "2026-10-30T15:10:31Z"
     },
@@ -424,7 +436,7 @@
       "title": "Shared password manager for families?",
       "url": "https://lobste.rs/s/eccbci",
       "discuss_url": "https://lobste.rs/s/eccbci",
-      "score": 55,
+      "score": 56,
       "comments": 64,
       "author": "icefox",
       "published": "2026-10-29T14:39:51Z"
@@ -436,7 +448,7 @@
       "title": "Defending the patch gap against automated attackers",
       "url": "https://blog.mozilla.org/en/firefox/privacy-security/defending-patch-gap/",
       "discuss_url": "https://lobste.rs/s/dtvr7y",
-      "score": 8,
+      "score": 9,
       "comments": 3,
       "author": "alcortazzo",
       "published": "2026-10-30T21:06:04Z"
@@ -448,7 +460,7 @@
       "title": "Protecting against CVE-2026-98432",
       "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
       "discuss_url": "https://lobste.rs/s/mp8yqt",
-      "score": 12,
+      "score": 15,
       "comments": 1,
       "author": "func25",
       "published": "2026-10-30T17:54:52Z"
@@ -484,7 +496,7 @@
       "title": "GitLab security incident: attempted exploitation of CVE-2026-97229",
       "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
       "discuss_url": "https://lobste.rs/s/2zsjwt",
-      "score": 49,
+      "score": 50,
       "comments": 8,
       "author": "durrendal",
       "published": "2026-10-28T23:01:26Z"
@@ -544,8 +556,8 @@
       "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
       "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
       "discuss_url": "https://news.ycombinator.com/item?id=50301854",
-      "score": 327,
-      "comments": 59,
+      "score": 331,
+      "comments": 60,
       "author": "swq115",
       "published": "2026-10-30T10:06:15Z"
     },
@@ -690,7 +702,7 @@
       "discuss_url": "https://arstechnica.com/science/2026/10/seabirds-racing-home-over-the-ocean-can-get-jet-lagged/",
       "score": null,
       "comments": null,
-      "author": "John Timmer",
+      "author": "Jacek Krywko",
       "published": "2026-10-31T11:15:26Z"
     },
     {
