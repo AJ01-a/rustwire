@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T05:07:45Z",
+  "updated_at": "2026-11-01T13:03:02Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Anthropic blocks users for anything touching training larger models",
       "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
       "discuss_url": "https://news.ycombinator.com/item?id=50319358",
-      "score": 276,
-      "comments": 149,
+      "score": 391,
+      "comments": 222,
       "author": "pretext",
       "published": "2026-10-31T19:39:19Z",
       "bullets": [
-        "Anthropic blocks users for anything touching training larger models",
-        "Trending on news.ycombinator.com — 276 points, 149 comments.",
-        "Submitted by pretext on news.ycombinator.com."
+        "Anthropic is actively terminating accounts using Claude outputs for synthetic data generation, model distillation, or downstream LLM training.",
+        "Strict Terms of Service enforcement targets automated data pipelines, even when outputs train specialized domain models rather than direct Claude competitors.",
+        "Teams distilling models must decouple workflows from Claude APIs, pivoting toward open-weight alternatives like Llama 3 for synthetic data generation."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Avoid Public Functions Calling Other Public Functions",
       "url": "https://matklad.github.io/2026/10/29/pub-calls-pub.html",
       "discuss_url": "https://lobste.rs/s/k508we",
-      "score": 47,
-      "comments": 8,
+      "score": 65,
+      "comments": 12,
       "author": "telemachus",
       "published": "2026-10-31T18:05:03Z",
       "bullets": [
-        "Avoid Public Functions Calling Other Public Functions",
-        "Trending on lobste.rs/programming — 47 points, 8 comments.",
-        "Submitted by telemachus on lobste.rs/programming."
+        "Internal calls between public methods bypass proxy-based middleware like logging, validation, and transaction managers such as Spring's @Transactional.",
+        "Chaining public APIs entangles external contracts with internal logic, making refactoring, mocking in unit tests, and deprecation significantly harder.",
+        "Extract shared core logic into private helper functions so public methods serve strictly as clean, decoupled entry points."
       ]
     },
     {
@@ -71,31 +71,31 @@
       "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
       "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
       "discuss_url": "https://news.ycombinator.com/item?id=50319143",
-      "score": 419,
-      "comments": 194,
+      "score": 551,
+      "comments": 255,
       "author": "oger",
       "published": "2026-10-31T19:16:30Z",
       "bullets": [
-        "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
-        "Trending on news.ycombinator.com — 419 points, 194 comments.",
-        "Submitted by oger on news.ycombinator.com."
+        "A critical CVSS 9.8 use-after-free vulnerability in the TCP stack enables unauthenticated remote code execution via malformed network packets.",
+        "Flaws in TCP connection state transitions and socket teardown trigger heap corruption at the operating system kernel level.",
+        "Security teams must immediately apply upstream OS kernel patches and configure edge firewalls to inspect anomalous TCP packet sequences."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "rss",
+      "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
-      "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
-      "discuss_url": "https://news.ycombinator.com/item?id=50301854",
-      "score": 333,
-      "comments": 60,
-      "author": "swq115",
-      "published": "2026-10-30T10:06:15Z",
+      "title": "Amazon Bedrock expands API support and introduces Cross-Region Inferencing for OpenAI models in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-openai-runtime-govcloud/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-openai-runtime-govcloud/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-30T20:43:00Z",
       "bullets": [
-        "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
-        "Trending on news.ycombinator.com — 333 points, 60 comments.",
-        "Submitted by swq115 on news.ycombinator.com."
+        "Amazon Bedrock deployed OpenAI GPT-5.6 (Terra and Luna) to AWS GovCloud (US) via Responses, Converse, and Chat Completions APIs.",
+        "Cross-Region Inference automatically balances traffic across GovCloud regions for higher throughput and redundancy without manual multi-region capacity management.",
+        "Inference integrates natively with Bedrock model invocation logging and existing account controls while maintaining strict US data sovereignty compliance."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Jacek Krywko",
       "published": "2026-10-31T11:15:26Z",
       "bullets": [
-        "A long flight home from feeding grounds messes with birds' internal clocks.",
-        "Seabirds racing home over the ocean can get jet-lagged",
-        "Submitted by Jacek Krywko on arstechnica.com."
+        "Biologging and telemetry reveal pelagic seabirds experience measurable circadian desynchronization after rapid trans-meridian flights across multiple time zones.",
+        "Rapid eastward or westward migration disrupts avian physiological clocks, temporarily impairing foraging efficiency and post-transit behavioral recovery.",
+        "The findings advance chronobiology and bio-inspired navigation models studying how sustained transit alters performance under shifting solar cues."
       ]
     }
   ],
@@ -124,10 +124,22 @@
       "title": "Anthropic blocks users for anything touching training larger models",
       "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
       "discuss_url": "https://news.ycombinator.com/item?id=50319358",
-      "score": 276,
-      "comments": 149,
+      "score": 391,
+      "comments": 222,
       "author": "pretext",
       "published": "2026-10-31T19:39:19Z"
+    },
+    {
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
+      "category": "ai",
+      "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+      "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+      "discuss_url": "https://news.ycombinator.com/item?id=50320255",
+      "score": 156,
+      "comments": 98,
+      "author": "firesteelrain",
+      "published": "2026-10-31T21:07:58Z"
     },
     {
       "source": "hackernews",
@@ -136,8 +148,8 @@
       "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
       "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
       "discuss_url": "https://news.ycombinator.com/item?id=50318871",
-      "score": 162,
-      "comments": 177,
+      "score": 173,
+      "comments": 184,
       "author": "ryanmadden",
       "published": "2026-10-31T18:50:34Z"
     },
@@ -148,8 +160,8 @@
       "title": "Malware uses LLMs to rank victims by how much they're worth",
       "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
       "discuss_url": "https://news.ycombinator.com/item?id=50316531",
-      "score": 238,
-      "comments": 130,
+      "score": 249,
+      "comments": 131,
       "author": "khalidkhair",
       "published": "2026-10-31T14:29:03Z"
     },
@@ -160,8 +172,8 @@
       "title": "OpenAI raises less than half of $30B target",
       "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
       "discuss_url": "https://news.ycombinator.com/item?id=50312922",
-      "score": 182,
-      "comments": 188,
+      "score": 184,
+      "comments": 192,
       "author": "timr",
       "published": "2026-10-31T03:22:44Z"
     },
@@ -173,45 +185,9 @@
       "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
       "discuss_url": "https://news.ycombinator.com/item?id=50307219",
       "score": 323,
-      "comments": 288,
+      "comments": 290,
       "author": "petethomas",
       "published": "2026-10-30T17:27:25Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50300683",
-      "score": 972,
-      "comments": 547,
-      "author": "_chall",
-      "published": "2026-10-30T07:09:12Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Backdoors in official Claude Code extensions",
-      "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
-      "discuss_url": "https://news.ycombinator.com/item?id=50302334",
-      "score": 656,
-      "comments": 17,
-      "author": "dsr_",
-      "published": "2026-10-30T11:05:53Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Claude Code VS Code extension with backdoor released on Cursor marketplace",
-      "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
-      "discuss_url": "https://news.ycombinator.com/item?id=50301983",
-      "score": 399,
-      "comments": 1,
-      "author": "bashtoni",
-      "published": "2026-10-30T10:22:51Z"
     },
     {
       "source": "lobsters",
@@ -220,7 +196,7 @@
       "title": "Let’s Build a Brain",
       "url": "https://aatishb.com/myriad/lets-build-a-brain/",
       "discuss_url": "https://lobste.rs/s/bmmj1e",
-      "score": 9,
+      "score": 14,
       "comments": 1,
       "author": "signal-11",
       "published": "2026-10-31T15:09:27Z"
@@ -244,7 +220,7 @@
       "title": "Building fine-grained version control for agents with Rust and Durable Objects",
       "url": "https://delta.dev/blog/fine-grained-version-control-for-agents",
       "discuss_url": "https://lobste.rs/s/cctbcu",
-      "score": 1,
+      "score": 2,
       "comments": 0,
       "author": "tomhoule",
       "published": "2026-10-30T16:50:44Z"
@@ -262,14 +238,38 @@
       "published": "2026-10-30T17:57:24Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "discuss_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-29T13:37:07Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "discuss_url": "https://huggingface.co/blog/announcing-project-protostar",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-29T00:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Avoid Public Functions Calling Other Public Functions",
       "url": "https://matklad.github.io/2026/10/29/pub-calls-pub.html",
       "discuss_url": "https://lobste.rs/s/k508we",
-      "score": 47,
-      "comments": 8,
+      "score": 65,
+      "comments": 12,
       "author": "telemachus",
       "published": "2026-10-31T18:05:03Z"
     },
@@ -296,18 +296,6 @@
       "comments": 4,
       "author": "jkoppel",
       "published": "2026-10-31T10:20:48Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Billion-query-per-second lookup tables in C++",
-      "url": "https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/",
-      "discuss_url": "https://lobste.rs/s/d3ubhd",
-      "score": 26,
-      "comments": 8,
-      "author": "signal-11",
-      "published": "2026-10-28T09:47:41Z"
     },
     {
       "source": "lobsters",
@@ -412,8 +400,8 @@
       "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
       "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
       "discuss_url": "https://news.ycombinator.com/item?id=50319143",
-      "score": 419,
-      "comments": 194,
+      "score": 551,
+      "comments": 255,
       "author": "oger",
       "published": "2026-10-31T19:16:30Z"
     },
@@ -424,7 +412,7 @@
       "title": "Tell HN: Scribd Breached",
       "url": "https://news.ycombinator.com/item?id=50312756",
       "discuss_url": "https://news.ycombinator.com/item?id=50312756",
-      "score": 337,
+      "score": 344,
       "comments": 121,
       "author": "x______________",
       "published": "2026-10-31T02:46:36Z"
@@ -436,10 +424,22 @@
       "title": "Northflank Breached",
       "url": "https://status.northflank.com",
       "discuss_url": "https://news.ycombinator.com/item?id=50305025",
-      "score": 473,
-      "comments": 355,
+      "score": 475,
+      "comments": 359,
       "author": "js4ever",
       "published": "2026-10-30T15:10:31Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Backdoors in Claude Code for VS, Cursor official extensions",
+      "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+      "discuss_url": "https://lobste.rs/s/ttp7aq",
+      "score": 167,
+      "comments": 41,
+      "author": "dsr",
+      "published": "2026-10-30T11:04:55Z"
     },
     {
       "source": "lobsters",
@@ -448,7 +448,7 @@
       "title": "Shared password manager for families?",
       "url": "https://lobste.rs/s/eccbci",
       "discuss_url": "https://lobste.rs/s/eccbci",
-      "score": 56,
+      "score": 58,
       "comments": 64,
       "author": "icefox",
       "published": "2026-10-29T14:39:51Z"
@@ -469,18 +469,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Protecting against CVE-2026-98432",
-      "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
-      "discuss_url": "https://lobste.rs/s/mp8yqt",
-      "score": 15,
-      "comments": 1,
-      "author": "func25",
-      "published": "2026-10-30T17:54:52Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "C2PA's eMudhra Moment",
       "url": "https://www.da.vidbuchanan.co.uk/blog/c2pa-four.html",
       "discuss_url": "https://lobste.rs/s/2matgw",
@@ -493,13 +481,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "The Duty of a Scholar",
-      "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
-      "discuss_url": "https://lobste.rs/s/vo4337",
-      "score": 1,
-      "comments": 0,
-      "author": "krinkle",
-      "published": "2026-11-01T00:46:07Z"
+      "title": "Protecting against CVE-2026-98432",
+      "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
+      "discuss_url": "https://lobste.rs/s/mp8yqt",
+      "score": 15,
+      "comments": 1,
+      "author": "func25",
+      "published": "2026-10-30T17:54:52Z"
     },
     {
       "source": "lobsters",
@@ -512,18 +500,6 @@
       "comments": 8,
       "author": "durrendal",
       "published": "2026-10-28T23:01:26Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
-      "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
-      "discuss_url": "https://lobste.rs/s/0gomue",
-      "score": 37,
-      "comments": 19,
-      "author": "aCaB",
-      "published": "2026-10-28T09:18:31Z"
     },
     {
       "source": "lobsters",
@@ -550,16 +526,16 @@
       "published": "2026-10-28T13:34:06Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "devops",
-      "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
-      "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
-      "discuss_url": "https://news.ycombinator.com/item?id=50301854",
-      "score": 333,
-      "comments": 60,
-      "author": "swq115",
-      "published": "2026-10-30T10:06:15Z"
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "The Duty of a Scholar",
+      "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
+      "discuss_url": "https://lobste.rs/s/vo4337",
+      "score": 1,
+      "comments": 0,
+      "author": "krinkle",
+      "published": "2026-11-01T00:46:07Z"
     },
     {
       "source": "rss",
@@ -688,6 +664,18 @@
       "title": "AWS Glue Data Catalog now supports Apache Iceberg table optimization in the US West (N. California) Region",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-data-catalog-optimizers-us-west-1/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-data-catalog-optimizers-us-west-1/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-10-30T08:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon SageMaker AI inference now supports GPU partitioning for real-time endpoints",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-gpu-partitioning/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-gpu-partitioning/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
