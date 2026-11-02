@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T21:50:38Z",
+  "updated_at": "2026-11-02T05:22:25Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -31,20 +31,20 @@
   ],
   "tldr": [
     {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
+      "source": "hackernews",
+      "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "so i guess everyone uses llms to think now",
-      "url": "https://eva.ac/blog/llms",
-      "discuss_url": "https://lobste.rs/s/ikfsgt",
-      "score": 6,
-      "comments": 0,
-      "author": "xyzeva",
-      "published": "2026-11-01T21:13:55Z",
+      "title": "Anthropic blocks users for anything touching training larger models",
+      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "discuss_url": "https://news.ycombinator.com/item?id=50319358",
+      "score": 459,
+      "comments": 256,
+      "author": "pretext",
+      "published": "2026-10-31T19:39:19Z",
       "bullets": [
-        "so i guess everyone uses llms to think now",
-        "Trending on lobste.rs/ai — 6 points, 0 comments.",
-        "Submitted by xyzeva on lobste.rs/ai."
+        "Anthropic aggressively enforces terms of service, banning API accounts that use Claude outputs for synthetic data generation or model distillation.",
+        "Distillation pipelines leveraging Claude 3.5 Sonnet face immediate disruption, exposing severe vendor lock-in and operational risks for AI builders.",
+        "Strict non-compete clauses in proprietary LLM APIs are accelerating developer migration to open-weight models like Llama 3 for training data."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "Avoid Public Functions Calling Other Public Functions",
       "url": "https://matklad.github.io/2026/10/29/pub-calls-pub.html",
       "discuss_url": "https://lobste.rs/s/k508we",
-      "score": 85,
+      "score": 90,
       "comments": 20,
       "author": "telemachus",
       "published": "2026-10-31T18:05:03Z",
       "bullets": [
-        "Avoid Public Functions Calling Other Public Functions",
-        "Trending on lobste.rs/programming — 85 points, 20 comments.",
-        "Submitted by telemachus on lobste.rs/programming."
+        "Chaining public methods internally couples API contracts and frequently triggers redundant input validation or unexpected state transitions.",
+        "Delegate shared logic to private helper functions, keeping public interfaces as thin orchestration layers over reusable internal implementations.",
+        "Internal public calls harm extensibility in object-oriented systems, causing fragile base classes and making mocking or overriding unpredictable."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Frontier Airlines Likely Breached",
       "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
       "discuss_url": "https://news.ycombinator.com/item?id=50327266",
-      "score": 144,
-      "comments": 41,
+      "score": 192,
+      "comments": 75,
       "author": "999900000999",
       "published": "2026-11-01T16:46:33Z",
       "bullets": [
-        "Frontier Airlines Likely Breached",
-        "Trending on news.ycombinator.com — 144 points, 41 comments.",
-        "Submitted by 999900000999 on news.ycombinator.com."
+        "Reports indicate compromised customer PII and loyalty data, pointing toward potential credential stuffing or exposed booking portal API vulnerabilities.",
+        "Airline attacks typically target frequent-flyer accounts, reservation systems, or third-party cloud data infrastructure for illicit sale on dark-web forums.",
+        "SecOps teams should audit external authentication endpoints, mandate multi-factor authentication on reward portals, and monitor telemetry for abnormal credential use."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "aws@amazon.com",
       "published": "2026-10-30T20:43:00Z",
       "bullets": [
-        "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Terra and Luna) on the bedrock-runtime endpoint, with support for the Responses, Converse, and Chat Completions APIs in AWS…",
-        "It also adds support for Cross-Region Inference, allowing customers to use Cross-Region Inference within AWS GovCloud (US) regions to access higher throughput and increased redund…",
-        "Cross-Region Inference automatically routes inference requests across both AWS GovCloud (US) Regions to give you higher throughput, without you needing to manage capacity across m…"
+        "Bedrock now hosts OpenAI GPT-5.6 (Terra, Luna) in AWS GovCloud (US) via bedrock-runtime, Chat Completions, and Converse APIs.",
+        "Cross-Region Inference automates dynamic traffic routing across both GovCloud regions, enhancing redundancy and throughput while preserving US data sovereignty.",
+        "Deployments inherit existing Bedrock account-level controls, IAM policies, and invocation logging directly without custom infrastructure or proxy layers."
       ]
     },
     {
@@ -110,25 +110,13 @@
       "author": "Jacek Krywko",
       "published": "2026-10-31T11:15:26Z",
       "bullets": [
-        "A long flight home from feeding grounds messes with birds' internal clocks.",
-        "Seabirds racing home over the ocean can get jet-lagged",
-        "Submitted by Jacek Krywko on arstechnica.com."
+        "Telemetry tracking reveals trans-oceanic seabirds suffer circadian desynchrony when crossing multiple longitudinal time zones rapidly during foraging migrations.",
+        "Circadian disruption impairs metabolic efficiency and navigational performance, showing physiological limits in natural long-range aerial trajectory management.",
+        "Advances in lightweight biologging sensors enable precise multi-day behavioral and temporal tracking in extreme maritime environments."
       ]
     }
   ],
   "discussions": [
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "so i guess everyone uses llms to think now",
-      "url": "https://eva.ac/blog/llms",
-      "discuss_url": "https://lobste.rs/s/ikfsgt",
-      "score": 6,
-      "comments": 0,
-      "author": "xyzeva",
-      "published": "2026-11-01T21:13:55Z"
-    },
     {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
@@ -136,8 +124,8 @@
       "title": "Anthropic blocks users for anything touching training larger models",
       "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
       "discuss_url": "https://news.ycombinator.com/item?id=50319358",
-      "score": 443,
-      "comments": 247,
+      "score": 459,
+      "comments": 256,
       "author": "pretext",
       "published": "2026-10-31T19:39:19Z"
     },
@@ -148,8 +136,8 @@
       "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
       "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
       "discuss_url": "https://news.ycombinator.com/item?id=50320255",
-      "score": 178,
-      "comments": 112,
+      "score": 182,
+      "comments": 113,
       "author": "firesteelrain",
       "published": "2026-10-31T21:07:58Z"
     },
@@ -172,46 +160,10 @@
       "title": "Malware uses LLMs to rank victims by how much they're worth",
       "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
       "discuss_url": "https://news.ycombinator.com/item?id=50316531",
-      "score": 253,
-      "comments": 135,
+      "score": 259,
+      "comments": 137,
       "author": "khalidkhair",
       "published": "2026-10-31T14:29:03Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "An easy way to try local AI with braindead-local-intelligence",
-      "url": "https://dataswamp.org/~solene/2026-11-01-braindead-local-intelligence.html",
-      "discuss_url": "https://lobste.rs/s/rlmrfy",
-      "score": 3,
-      "comments": 0,
-      "author": "msangi",
-      "published": "2026-11-01T20:26:47Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "OpenAI raises less than half of $30B target",
-      "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-      "discuss_url": "https://news.ycombinator.com/item?id=50312922",
-      "score": 185,
-      "comments": 200,
-      "author": "timr",
-      "published": "2026-10-31T03:22:44Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Anthropic to receive high 'junk' rating from credit agencies following IPO",
-      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50311311",
-      "score": 102,
-      "comments": 78,
-      "author": "jnord",
-      "published": "2026-10-30T23:08:12Z"
     },
     {
       "source": "lobsters",
@@ -241,6 +193,18 @@
       "source": "lobsters",
       "subsource": "lobste.rs/ai",
       "category": "ai",
+      "title": "An easy way to try local AI with braindead-local-intelligence",
+      "url": "https://dataswamp.org/~solene/2026-11-01-braindead-local-intelligence.html",
+      "discuss_url": "https://lobste.rs/s/rlmrfy",
+      "score": 1,
+      "comments": 0,
+      "author": "msangi",
+      "published": "2026-11-01T20:26:47Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
       "title": "Building fine-grained version control for agents with Rust and Durable Objects",
       "url": "https://delta.dev/blog/fine-grained-version-control-for-agents",
       "discuss_url": "https://lobste.rs/s/cctbcu",
@@ -262,13 +226,49 @@
       "published": "2026-10-30T17:57:24Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "discuss_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-29T13:37:07Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "discuss_url": "https://huggingface.co/blog/announcing-project-protostar",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-29T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "discuss_url": "https://huggingface.co/blog/mistral-large4",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-10-29T00:00:00Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "Avoid Public Functions Calling Other Public Functions",
       "url": "https://matklad.github.io/2026/10/29/pub-calls-pub.html",
       "discuss_url": "https://lobste.rs/s/k508we",
-      "score": 85,
+      "score": 90,
       "comments": 20,
       "author": "telemachus",
       "published": "2026-10-31T18:05:03Z"
@@ -412,8 +412,8 @@
       "title": "Frontier Airlines Likely Breached",
       "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
       "discuss_url": "https://news.ycombinator.com/item?id=50327266",
-      "score": 144,
-      "comments": 41,
+      "score": 192,
+      "comments": 75,
       "author": "999900000999",
       "published": "2026-11-01T16:46:33Z"
     },
@@ -424,22 +424,10 @@
       "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
       "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
       "discuss_url": "https://news.ycombinator.com/item?id=50319143",
-      "score": 669,
-      "comments": 320,
+      "score": 708,
+      "comments": 328,
       "author": "oger",
       "published": "2026-10-31T19:16:30Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "security",
-      "title": "Tell HN: Scribd Breached",
-      "url": "https://news.ycombinator.com/item?id=50312756",
-      "discuss_url": "https://news.ycombinator.com/item?id=50312756",
-      "score": 347,
-      "comments": 122,
-      "author": "x______________",
-      "published": "2026-10-31T02:46:36Z"
     },
     {
       "source": "lobsters",
@@ -493,18 +481,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "GitLab security incident: attempted exploitation of CVE-2026-97229",
-      "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
-      "discuss_url": "https://lobste.rs/s/2zsjwt",
-      "score": 50,
-      "comments": 8,
-      "author": "durrendal",
-      "published": "2026-10-28T23:01:26Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Protecting against CVE-2026-98432",
       "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
       "discuss_url": "https://lobste.rs/s/mp8yqt",
@@ -548,6 +524,30 @@
       "comments": 2,
       "author": "benjoffe",
       "published": "2026-10-29T07:22:37Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "arm64e pointer authentication: PAC keys, PACIASP, A12",
+      "url": "https://sigreturn.com/blog/pointer-authentication-arm64e/",
+      "discuss_url": "https://lobste.rs/s/ruq2us",
+      "score": 3,
+      "comments": 0,
+      "author": "olliej",
+      "published": "2026-10-30T07:39:04Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Azure’s Weakest Link - Five Full Cross-Tenant Compromises",
+      "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+      "discuss_url": "https://lobste.rs/s/gttasf",
+      "score": 2,
+      "comments": 0,
+      "author": "ohrv",
+      "published": "2026-10-29T14:57:21Z"
     },
     {
       "source": "rss",
