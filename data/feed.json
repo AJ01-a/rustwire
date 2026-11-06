@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T23:31:15Z",
+  "updated_at": "2026-11-06T05:46:03Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Claude Code sends your email address to websites",
       "url": "https://github.com/anthropics/claude-code/issues/107757",
       "discuss_url": "https://news.ycombinator.com/item?id=50385272",
-      "score": 171,
-      "comments": 41,
+      "score": 803,
+      "comments": 269,
       "author": "motoroco",
       "published": "2026-11-05T22:17:15Z",
       "bullets": [
-        "Anthropic's Claude Code CLI leaks authenticated user email addresses in outbound HTTP request headers when fetching external web resources.",
-        "External web servers receive developer PII during agentic browsing tasks, creating immediate compliance, privacy, and opsec risks.",
-        "Organizations deploying autonomous AI coding agents must audit egress network traffic and sanitize request headers to prevent credential and PII leakage."
+        "Anthropic's Claude Code CLI tool was found transmitting user email addresses in outbound HTTP headers while fetching external web pages.",
+        "Target websites logged identifiable developer PII during automated documentation lookups and agentic web-scraping workflows without explicit user consent.",
+        "DevOps and security teams should monitor agentic coding tools for unintended outbound PII leakage and enforce proxy-level header sanitization."
       ]
     },
     {
@@ -71,13 +71,13 @@
       "title": "MS Paint Remote Code Execution Vulnerability",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
       "discuss_url": "https://news.ycombinator.com/item?id=50384233",
-      "score": 223,
-      "comments": 58,
+      "score": 418,
+      "comments": 155,
       "author": "kuberwastaken",
       "published": "2026-11-05T20:43:42Z",
       "bullets": [
         "MS Paint Remote Code Execution Vulnerability",
-        "Trending on news.ycombinator.com — 223 points, 58 comments.",
+        "Trending on news.ycombinator.com — 418 points, 155 comments.",
         "Submitted by kuberwastaken on news.ycombinator.com."
       ]
     },
@@ -102,17 +102,17 @@
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Sony revives the original Walkman headphones, adds USB-C",
-      "url": "https://arstechnica.com/gadgets/2026/11/sony-adds-usb-c-to-its-70s-era-mdr-3-walkman-headphones/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/11/sony-adds-usb-c-to-its-70s-era-mdr-3-walkman-headphones/",
+      "title": "Blue Origin says it is building a higher-performing rocket engine at 1/4 the cost",
+      "url": "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/",
+      "discuss_url": "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/",
       "score": null,
       "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-11-05T21:56:36Z",
+      "author": "Eric Berger",
+      "published": "2026-11-06T00:17:06Z",
       "bullets": [
-        "Orange ear cushions included.",
-        "Sony revives the original Walkman headphones, adds USB-C",
-        "Submitted by Scharon Harding on arstechnica.com."
+        "\"This is going to be a game-changer.\"",
+        "Blue Origin says it is building a higher-performing rocket engine at 1/4 the cost",
+        "Submitted by Eric Berger on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Claude Code sends your email address to websites",
       "url": "https://github.com/anthropics/claude-code/issues/107757",
       "discuss_url": "https://news.ycombinator.com/item?id=50385272",
-      "score": 171,
-      "comments": 41,
+      "score": 803,
+      "comments": 269,
       "author": "motoroco",
       "published": "2026-11-05T22:17:15Z"
     },
@@ -136,22 +136,10 @@
       "title": "GPT-6 Astra covertly underperforms on safety research",
       "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
       "discuss_url": "https://news.ycombinator.com/item?id=50376313",
-      "score": 273,
-      "comments": 143,
+      "score": 315,
+      "comments": 173,
       "author": "lucrbvi",
       "published": "2026-11-05T07:44:30Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Software Line Specialist",
-      "url": "https://lovro-bikic.github.io/software-line-specialist/",
-      "discuss_url": "https://lobste.rs/s/yoywed",
-      "score": 29,
-      "comments": 2,
-      "author": "lovro-bikic",
-      "published": "2026-11-05T16:32:29Z"
     },
     {
       "source": "hackernews",
@@ -160,8 +148,8 @@
       "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
       "url": "https://news.ycombinator.com/item?id=50363461",
       "discuss_url": "https://news.ycombinator.com/item?id=50363461",
-      "score": 705,
-      "comments": 182,
+      "score": 713,
+      "comments": 186,
       "author": "jameslk",
       "published": "2026-11-04T10:10:27Z"
     },
@@ -173,7 +161,7 @@
       "url": "https://openai.com/index/openai-to-acquire-pierre/",
       "discuss_url": "https://news.ycombinator.com/item?id=50366863",
       "score": 261,
-      "comments": 90,
+      "comments": 91,
       "author": "itunpredictable",
       "published": "2026-11-04T15:21:21Z"
     },
@@ -256,6 +244,18 @@
       "title": "CWE-bench v2: More coverage, quality, and transparency",
       "url": "https://huggingface.co/blog/cwe-bench",
       "discuss_url": "https://huggingface.co/blog/cwe-bench",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-11-03T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Transformers Model Integration Contracts",
+      "url": "https://huggingface.co/blog/transformers-mic",
+      "discuss_url": "https://huggingface.co/blog/transformers-mic",
       "score": null,
       "comments": null,
       "author": null,
@@ -361,6 +361,18 @@
       "source": "rss",
       "subsource": "stackoverflow.blog",
       "category": "engineering",
+      "title": "Welcome to life in the chip age",
+      "url": "https://stackoverflow.blog/2026/11/06/welcome-to-life-in-the-chip-age/",
+      "discuss_url": "https://stackoverflow.blog/2026/11/06/welcome-to-life-in-the-chip-age/",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-11-06T08:40:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "stackoverflow.blog",
+      "category": "engineering",
       "title": "Don’t Build the Reusable Component Yet",
       "url": "https://stackoverflow.blog/2026/11/05/don-t-build-the-reusable-component-yet/",
       "discuss_url": "https://stackoverflow.blog/2026/11/05/don-t-build-the-reusable-component-yet/",
@@ -394,40 +406,16 @@
       "published": "2026-11-03T08:40:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "It’s ok that computers are (sometimes) better than us",
-      "url": "https://stackoverflow.blog/2026/10/30/it-s-ok-that-computers-are-sometimes-better-than-us/",
-      "discuss_url": "https://stackoverflow.blog/2026/10/30/it-s-ok-that-computers-are-sometimes-better-than-us/",
-      "score": null,
-      "comments": null,
-      "author": "Phoebe Sajor",
-      "published": "2026-10-30T07:40:00Z"
-    },
-    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "security",
       "title": "MS Paint Remote Code Execution Vulnerability",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
       "discuss_url": "https://news.ycombinator.com/item?id=50384233",
-      "score": 223,
-      "comments": 58,
+      "score": 418,
+      "comments": 155,
       "author": "kuberwastaken",
       "published": "2026-11-05T20:43:42Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "security",
-      "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
-      "url": "https://hachyderm.io/@damienmiller/117563026759098135",
-      "discuss_url": "https://news.ycombinator.com/item?id=50377221",
-      "score": 172,
-      "comments": 82,
-      "author": "Animux",
-      "published": "2026-11-05T09:46:17Z"
     },
     {
       "source": "lobsters",
@@ -436,8 +424,8 @@
       "title": "sshhole",
       "url": "https://sshhole.com/",
       "discuss_url": "https://lobste.rs/s/oq5pem",
-      "score": 126,
-      "comments": 31,
+      "score": 141,
+      "comments": 33,
       "author": "serce",
       "published": "2026-11-05T12:24:42Z"
     },
@@ -448,7 +436,7 @@
       "title": "SourceHut disabled registration bypass | CVE-2026-121728",
       "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
       "discuss_url": "https://lobste.rs/s/x2hcss",
-      "score": 18,
+      "score": 27,
       "comments": 0,
       "author": "mhm",
       "published": "2026-11-05T18:34:41Z"
@@ -460,7 +448,7 @@
       "title": "Man-in-the-middle arbitrary code execution in Debian’s apt",
       "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
       "discuss_url": "https://lobste.rs/s/h7bvma",
-      "score": 48,
+      "score": 50,
       "comments": 8,
       "author": "gnyeki",
       "published": "2026-11-04T13:36:43Z"
@@ -472,8 +460,8 @@
       "title": "Residential Proxies Detected on White House Network",
       "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
       "discuss_url": "https://lobste.rs/s/253two",
-      "score": 18,
-      "comments": 2,
+      "score": 21,
+      "comments": 4,
       "author": "drmorr",
       "published": "2026-11-05T00:30:40Z"
     },
@@ -551,6 +539,18 @@
     },
     {
       "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Pulling the right strings for RCE on a Puppet",
+      "url": "https://neodyme.io/en/blog/puppet_rce",
+      "discuss_url": "https://lobste.rs/s/sfzkeb",
+      "score": 4,
+      "comments": 0,
+      "author": "buherator",
+      "published": "2026-11-04T07:39:20Z"
+    },
+    {
+      "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "My reflex of assuming our servers need ever-growing amounts of RAM",
@@ -560,6 +560,18 @@
       "comments": 10,
       "author": "davidklassen",
       "published": "2026-11-02T10:33:02Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Security Hub now provides an SBOM inventory for your compute resources",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-11-06T00:30:00Z"
     },
     {
       "source": "rss",
@@ -584,6 +596,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-11-05T20:56:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Network Load Balancer is now available in the AWS Phoenix Local Zone",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-nlb-available-phx-local-zone/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-nlb-available-phx-local-zone/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-11-05T20:00:00Z"
     },
     {
       "source": "rss",
@@ -625,6 +649,30 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
+      "title": "Amazon OpenSearch Service optimized engine now supports agent traces",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-support-traces",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-support-traces",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-11-05T17:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "Amazon FSx for Lustre delivers 16x higher metadata IOPS on Intelligent-Tiering file systems",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-fsx-for-lustre-intelligent-tiering-16x-higher-metadata-iops",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-fsx-for-lustre-intelligent-tiering-16x-higher-metadata-iops",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-11-05T15:39:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
       "title": "Amazon RDS for Oracle now supports Kerberos authentication with self-managed Active Directory",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-kerberos-self-managed-ad/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-kerberos-self-managed-ad/",
@@ -647,51 +695,39 @@
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon SageMaker AI Studio Now Supports IAM Identity Center Multi-Region Replication",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-ai-studio-iam/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-ai-studio-iam/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Blue Origin says it is building a higher-performing rocket engine at 1/4 the cost",
+      "url": "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/",
+      "discuss_url": "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-11-05T08:00:00Z"
+      "author": "Eric Berger",
+      "published": "2026-11-06T00:17:06Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "AWS WAF AI traffic monetization now supports fiat payouts through Stripe",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-waf-stripe-fiat-payouts/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-waf-stripe-fiat-payouts/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+      "url": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+      "discuss_url": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-11-05T08:00:00Z"
+      "author": "Dan Goodin",
+      "published": "2026-11-05T23:09:36Z"
     },
     {
       "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "﻿﻿AWS Systems Manager Parameter Store now allows organization and validation with built-in data types",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-ssm-parameter-store-allows-organization-validation-with-new-data-types/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-ssm-parameter-store-allows-organization-validation-with-new-data-types/",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "NASA unveils mysterious X-70 experimental aircraft using AI-generated image",
+      "url": "https://arstechnica.com/gadgets/2026/11/nasas-experimental-x-70-aircraft-is-a-big-question-mark/",
+      "discuss_url": "https://arstechnica.com/gadgets/2026/11/nasas-experimental-x-70-aircraft-is-a-big-question-mark/",
       "score": null,
       "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-11-05T05:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
-      "title": "Amazon MWAA now supports cost allocation tags",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-mwaa-cost-allocation-tags/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-mwaa-cost-allocation-tags/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-11-04T23:00:00Z"
+      "author": "Jeremy Hsu",
+      "published": "2026-11-05T22:49:03Z"
     },
     {
       "source": "rss",
@@ -800,42 +836,6 @@
       "comments": null,
       "author": "Dan Gearino, Inside Climate News",
       "published": "2026-11-05T15:59:51Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Motorola's new Signature 27 has it all if you can stomach the $1,600 price tag",
-      "url": "https://arstechnica.com/gadgets/2026/11/motorolas-new-signature-27-has-it-all-if-you-can-stomach-the-1600-price-tag/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/11/motorolas-new-signature-27-has-it-all-if-you-can-stomach-the-1600-price-tag/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Whitwam",
-      "published": "2026-11-05T13:00:56Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
-      "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
-      "discuss_url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
-      "score": null,
-      "comments": null,
-      "author": "Jeremy Hsu",
-      "published": "2026-11-05T12:00:41Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "2026 iPad mini review: Maximizing the mini",
-      "url": "https://arstechnica.com/gadgets/2026/11/ipad-mini-2026-review-maximizing-the-mini/",
-      "discuss_url": "https://arstechnica.com/gadgets/2026/11/ipad-mini-2026-review-maximizing-the-mini/",
-      "score": null,
-      "comments": null,
-      "author": "Scharon Harding",
-      "published": "2026-11-05T12:00:01Z"
     }
   ]
 }
