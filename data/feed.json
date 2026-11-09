@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T22:02:01Z",
+  "updated_at": "2026-11-09T05:37:10Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -34,34 +34,34 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
       "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
       "discuss_url": "https://news.ycombinator.com/item?id=50415628",
-      "score": 432,
-      "comments": 266,
+      "score": 680,
+      "comments": 383,
       "author": "TheWiggles",
       "published": "2026-11-08T18:16:07Z",
       "bullets": [
-        "Anthropic's CLI-based Claude Code faces enterprise rollbacks over data exfiltration risks and regulatory compliance concerns outside core engineering teams.",
-        "Regulated institutions are strictly limiting terminal-level autonomous agents with local filesystem and execution privileges away from business end-users.",
-        "The move highlights enterprise friction regarding autonomous developer tools that lack centralized DLP governance, auditability, and fine-grained access controls."
+        "Goldman Sachs restricted Anthropic's agentic CLI tool Claude Code, revoking access across non-engineering roles including bankers and traders.",
+        "Agentic terminal tools introduce heightened security and data leakage risks by executing local commands and accessing sensitive financial files.",
+        "Regulated enterprises are tightening AI guardrails, limiting autonomous agentic workflows where compliance (FINRA/SEC) and proprietary IP risk outpace productivity gains."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "PHP2Shell — Deep Dive",
-      "url": "https://djad04.github.io/php2shell-deep-dive/",
-      "discuss_url": "https://lobste.rs/s/d8dgav",
-      "score": 7,
-      "comments": 1,
-      "author": "hoistbypetard",
-      "published": "2026-11-08T05:51:54Z",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/jmdchp",
+      "discuss_url": "https://lobste.rs/s/jmdchp",
+      "score": 25,
+      "comments": 52,
+      "author": "caius",
+      "published": "2026-11-06T09:15:23Z",
       "bullets": [
-        "Examines escalation pathways from arbitrary PHP code injection vulnerabilities to stable, interactive reverse shells in constrained production environments.",
-        "Focuses on bypassing runtime mitigations like disable_functions and open_basedir using functions like proc_open or dynamic linker hijacking.",
-        "Mitigate by hardening php.ini directives, enforcing read-only application containers, and strictly restricting outbound server egress traffic."
+        "Lobsters engineers share side-project work, commonly focusing on self-hosted infrastructure, homelabs, and systems-level tooling.",
+        "Typical projects discussed span custom compilers, Rust-based utilities, embedded firmware, and lightweight web micro-frameworks.",
+        "Community weekend threads provide informal peer reviews for early architecture decisions, toolchain choices, and stubborn debugging bugs."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Unattended reboots with encrypted disks",
       "url": "https://jmmv.dev/2026/11/zkeys-intro.html",
       "discuss_url": "https://lobste.rs/s/urg4yu",
-      "score": 4,
-      "comments": 3,
+      "score": 10,
+      "comments": 9,
       "author": "jmmv",
       "published": "2026-11-08T16:58:03Z",
       "bullets": [
-        "Bind LUKS keyslots to TPM2 PCR measurements using systemd-cryptenroll to automate local unsealing while preserving platform integrity checks.",
-        "Deploy Network-Bound Disk Encryption (NBDE) using Clevis and Tang to restrict unattended decryption to authorized corporate or data-center subnets.",
-        "Integrate Dropbear SSH into initramfs to enable out-of-band manual passphrase entry when automated hardware or network attestation fails."
+        "Leverage TPM 2.0 and systemd-cryptenroll with PCR binding to automatically release LUKS keys only on untampered system boots.",
+        "Deploy Network-Bound Disk Encryption (NBDE) via Clevis and Tang to provision decryption keys conditionally over trusted internal networks.",
+        "Use kexec for in-memory reboots to bypass disk locking, or embed Dropbear SSH in initramfs for secure remote unlocking."
       ]
     },
     {
@@ -93,9 +93,9 @@
       "author": "aws@amazon.com",
       "published": "2026-11-06T22:47:00Z",
       "bullets": [
-        "Moonshot AI's Kimi K3.1 Pro, an open-weight 3T-parameter-class model with a 1M-token context window, is now available on Amazon Bedrock.",
-        "Features high output tokens per second (OTPS) and supports cross-Region inference across all available AWS Bedrock regions.",
-        "Integrates explicit prompt caching within the Bedrock security boundary to significantly lower input costs and latency for agentic pipelines."
+        "Today, Kimi K3.1 Pro from Moonshot AI is available on Amazon Bedrock, expanding our open weight model portfolio with the security and governance that customers rely on.",
+        "Customers using Amazon Bedrock can now run agentic use cases such as coding and document processing on Kimi K3.1 Pro (Highspeed), which delivers high output tokens per second (OTP…",
+        "According to Moonshot AI, Kimi K3.1 Pro is an open-weight, natively multimodal agentic model with a 1-million-token context window, and its most capable 3-trillion-parameter-class…"
       ]
     },
     {
@@ -110,9 +110,9 @@
       "author": "Jacek Krywko",
       "published": "2026-11-08T12:15:31Z",
       "bullets": [
-        "Shot noise measurements detect Cooper pairing by directly revealing carrier charges, distinguishing single electrons from doubled, charge-2e pairs.",
-        "The technique clarifies pseudogap states in unconventional superconductors, confirming pre-formed electron pairs exist above critical transition temperatures.",
-        "Precision noise spectroscopy offers advanced diagnostic capabilities for engineering and evaluating novel quantum materials and future superconducting hardware."
+        "Tuning in to electronic noise can tell us whether electrons have paired up or not.",
+        "Physicists listened to electrical noise to crack a superconductor mystery",
+        "Submitted by Jacek Krywko on arstechnica.com."
       ]
     }
   ],
@@ -121,11 +121,11 @@
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
       "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
       "discuss_url": "https://news.ycombinator.com/item?id=50415628",
-      "score": 432,
-      "comments": 266,
+      "score": 680,
+      "comments": 383,
       "author": "TheWiggles",
       "published": "2026-11-08T18:16:07Z"
     },
@@ -136,8 +136,8 @@
       "title": "OpenAI raises $11B at a $1.25T valuation",
       "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
       "discuss_url": "https://news.ycombinator.com/item?id=50413822",
-      "score": 176,
-      "comments": 195,
+      "score": 185,
+      "comments": 204,
       "author": "armcat",
       "published": "2026-11-08T14:49:23Z"
     },
@@ -148,8 +148,8 @@
       "title": "Why I will not be using LLMs in my coding",
       "url": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
       "discuss_url": "https://news.ycombinator.com/item?id=50412591",
-      "score": 100,
-      "comments": 211,
+      "score": 109,
+      "comments": 225,
       "author": "Risse",
       "published": "2026-11-08T12:14:10Z"
     },
@@ -160,8 +160,8 @@
       "title": "Goodbye Claude, hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
       "discuss_url": "https://news.ycombinator.com/item?id=50410107",
-      "score": 643,
-      "comments": 410,
+      "score": 721,
+      "comments": 446,
       "author": "karagenit",
       "published": "2026-11-08T03:11:48Z"
     },
@@ -172,8 +172,8 @@
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
       "discuss_url": "https://news.ycombinator.com/item?id=50407882",
-      "score": 555,
-      "comments": 387,
+      "score": 598,
+      "comments": 406,
       "author": "shmulc",
       "published": "2026-11-07T20:45:32Z"
     },
@@ -184,8 +184,8 @@
       "title": "What can I realistically do with local AI on a Mac mini M5 Pro (48GB)?",
       "url": "https://lobste.rs/s/umsitb",
       "discuss_url": "https://lobste.rs/s/umsitb",
-      "score": 7,
-      "comments": 4,
+      "score": 14,
+      "comments": 5,
       "author": "napolux",
       "published": "2026-11-08T17:07:51Z"
     },
@@ -208,7 +208,7 @@
       "title": "Catching prompt injections hidden in PDFs",
       "url": "https://tomclancy.info/joshua-judges-ruth.html",
       "discuss_url": "https://lobste.rs/s/hreu0b",
-      "score": 3,
+      "score": 4,
       "comments": 2,
       "author": "tclancy",
       "published": "2026-11-07T19:34:01Z"
@@ -265,18 +265,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "PHP2Shell — Deep Dive",
-      "url": "https://djad04.github.io/php2shell-deep-dive/",
-      "discuss_url": "https://lobste.rs/s/d8dgav",
-      "score": 7,
-      "comments": 1,
-      "author": "hoistbypetard",
-      "published": "2026-11-08T05:51:54Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/jmdchp",
       "discuss_url": "https://lobste.rs/s/jmdchp",
@@ -284,6 +272,18 @@
       "comments": 52,
       "author": "caius",
       "published": "2026-11-06T09:15:23Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "PHP2Shell — Deep Dive",
+      "url": "https://djad04.github.io/php2shell-deep-dive/",
+      "discuss_url": "https://lobste.rs/s/d8dgav",
+      "score": 7,
+      "comments": 1,
+      "author": "hoistbypetard",
+      "published": "2026-11-08T05:51:54Z"
     },
     {
       "source": "rss",
@@ -388,8 +388,8 @@
       "title": "Unattended reboots with encrypted disks",
       "url": "https://jmmv.dev/2026/11/zkeys-intro.html",
       "discuss_url": "https://lobste.rs/s/urg4yu",
-      "score": 4,
-      "comments": 3,
+      "score": 10,
+      "comments": 9,
       "author": "jmmv",
       "published": "2026-11-08T16:58:03Z"
     },
@@ -400,10 +400,22 @@
       "title": "I’m not a fan of Deno’s security model (2024)",
       "url": "https://goldstein.lol/posts/deno-security/",
       "discuss_url": "https://lobste.rs/s/sh62d1",
-      "score": 38,
-      "comments": 12,
+      "score": 40,
+      "comments": 15,
       "author": "ThinkChaos",
       "published": "2026-11-07T23:19:53Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "unlocking any car from X brand in most of the world",
+      "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
+      "discuss_url": "https://lobste.rs/s/kbrpx3",
+      "score": 1,
+      "comments": 0,
+      "author": "markerz",
+      "published": "2026-11-09T04:43:15Z"
     },
     {
       "source": "lobsters",
@@ -412,8 +424,8 @@
       "title": "Dear Open Source Developers: It's OK not to embargo",
       "url": "https://opensourcesecurity.io/2026/10-embargo/",
       "discuss_url": "https://lobste.rs/s/lhovnm",
-      "score": 32,
-      "comments": 2,
+      "score": 33,
+      "comments": 3,
       "author": "liberty",
       "published": "2026-11-07T23:31:05Z"
     },
@@ -500,18 +512,6 @@
       "comments": 0,
       "author": "cameron",
       "published": "2026-11-07T06:18:48Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
-      "title": "Residential Proxies Detected on White House Network",
-      "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
-      "discuss_url": "https://lobste.rs/s/253two",
-      "score": 23,
-      "comments": 8,
-      "author": "drmorr",
-      "published": "2026-11-05T00:30:40Z"
     },
     {
       "source": "lobsters",
