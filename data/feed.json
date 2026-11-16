@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T22:48:12Z",
+  "updated_at": "2026-11-16T05:43:36Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -37,14 +37,14 @@
       "title": "Understanding Positional Embeddings in Modern LLMs",
       "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
       "discuss_url": "https://news.ycombinator.com/item?id=50506376",
-      "score": 183,
-      "comments": 23,
+      "score": 223,
+      "comments": 27,
       "author": "vismit2000",
       "published": "2026-11-15T12:14:06Z",
       "bullets": [
-        "Rotary Position Embeddings (RoPE) dominate modern architectures like LLaMA and Mistral, encoding relative distance directly via 2D query/key vector rotations.",
-        "ALiBi injects linear biases into attention scores based on token distance, offering robust zero-shot length extrapolation without learned positional parameters.",
-        "Context extension relies on RoPE interpolation techniques like NTK-aware scaling and YaRN to mitigate out-of-distribution frequency collapse at high sequence lengths."
+        "Modern LLMs shifted from absolute sinusoidal embeddings to relative mechanisms like RoPE and ALiBi to improve sequence length generalization.",
+        "RoPE injects positional information via rotation matrices in attention query-key products, powering architectures like Llama 3, Mistral, and Qwen.",
+        "Context extension techniques like YaRN and NTK-aware scaling manipulate RoPE frequencies to expand context windows beyond original pretraining limits."
       ]
     },
     {
@@ -54,14 +54,14 @@
       "title": "All AI-generated code should be Open Source",
       "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
       "discuss_url": "https://lobste.rs/s/ek4fkg",
-      "score": 24,
-      "comments": 9,
+      "score": 45,
+      "comments": 14,
       "author": "Yogthos",
       "published": "2026-11-15T16:04:01Z",
       "bullets": [
-        "US copyright rulings deny authorship to non-humans, legally pushing unassisted synthetic output into the public domain by default.",
-        "Models trained on copyleft repositories risk license contamination when emitting verbatim GPL code directly into proprietary software projects.",
-        "Engineering teams require robust provenance tracking and SCA tooling to detect untracked synthetic code and mitigate IP exposure."
+        "Current USCO precedent denies copyright to machine output, placing purely AI-generated code functionally into the public domain.",
+        "Models trained on open-source code risk GPL license-laundering unless synthesized outputs carry mandatory permissive or copyleft disclosure terms.",
+        "Mandating open access for generated code improves supply-chain auditability, letting engineering teams systematically scan synthetic dependencies for security defects."
       ]
     },
     {
@@ -71,14 +71,14 @@
       "title": "Blog: Preventing Cross-Service UDP Loops in QUIC",
       "url": "https://bughunters.google.com/blog/preventing-cross-service-udp-loops-in-quic",
       "discuss_url": "https://lobste.rs/s/om6v89",
-      "score": 4,
+      "score": 7,
       "comments": 0,
       "author": "freddyb",
       "published": "2026-11-15T20:34:37Z",
       "bullets": [
-        "UDP loop vulnerabilities trigger infinite packet ping-pong between QUIC endpoints and other UDP services exchanging error or reset packets.",
-        "Mitigate loops by dropping responses targeting well-known UDP service ports and strictly rate-limiting Stateless Reset and Version Negotiation packets.",
-        "Enforce RFC 9000 3x anti-amplification limits and require minimum 1200-byte client datagrams before responding to unverified IP addresses."
+        "Blog: Preventing Cross-Service UDP Loops in QUIC",
+        "Trending on lobste.rs/security — 7 points, 0 comments.",
+        "Submitted by freddyb on lobste.rs/security."
       ]
     },
     {
@@ -93,26 +93,26 @@
       "author": "aws@amazon.com",
       "published": "2026-11-13T16:00:00Z",
       "bullets": [
-        "CloudFormation's AWS::RDS::DBCluster resource adds the withExpressConfiguration property to accelerate Aurora PostgreSQL IaC provisioning.",
-        "A single property defines both cluster and primary instance, eliminating the need to manage separate AWS::RDS::DBInstance resources.",
-        "Enables automated IaC deployment of Aurora Serverless clusters that provision and become queryable in seconds across supported regions."
+        "Aurora PostgreSQL now supports express configuration in AWS CloudFormation for infrastructure as code deployment.",
+        "This launch enables you to automate the infrastructure deployment of your Aurora clusters through CloudFormation templates while benefiting from the speed of express configuration.",
+        "Aurora PostgreSQL clusters created with express configuration allow you to create and query an Aurora serverless database in seconds."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "How the world’s fires changed while humanity hit pause",
-      "url": "https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/",
-      "discuss_url": "https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/",
+      "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
+      "url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+      "discuss_url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
       "score": null,
       "comments": null,
-      "author": "Yook Ji Hun",
-      "published": "2026-11-15T12:07:34Z",
+      "author": "Stephen Clark",
+      "published": "2026-11-15T23:11:54Z",
       "bullets": [
-        "COVID-19 lockdowns drove an immediate 12.3% drop in global fire activity, isolating anthropogenic ignition factors from natural baseline occurrences.",
-        "Satellite Earth observation datasets provide a rare natural experiment to recalibrate predictive fire risk and air quality algorithms.",
-        "Environmental and climate risk analytics must integrate dynamic human mobility data alongside climatological telemetry for accurate disaster forecasting."
+        "This was the first total mission failure in United Launch Alliance's 20-year history.",
+        "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
+        "Submitted by Stephen Clark on arstechnica.com."
       ]
     }
   ],
@@ -124,8 +124,8 @@
       "title": "Understanding Positional Embeddings in Modern LLMs",
       "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
       "discuss_url": "https://news.ycombinator.com/item?id=50506376",
-      "score": 183,
-      "comments": 23,
+      "score": 223,
+      "comments": 27,
       "author": "vismit2000",
       "published": "2026-11-15T12:14:06Z"
     },
@@ -136,22 +136,22 @@
       "title": "The Claude Delusion",
       "url": "https://www.netmeister.org/blog/claude-delusion.html",
       "discuss_url": "https://news.ycombinator.com/item?id=50496921",
-      "score": 151,
+      "score": 152,
       "comments": 199,
       "author": "janvdberg",
       "published": "2026-11-14T13:36:17Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Claude Meetings",
-      "url": "https://claude.com/resources/articles/claude-meetings",
-      "discuss_url": "https://news.ycombinator.com/item?id=50491097",
-      "score": 111,
-      "comments": 88,
-      "author": "hmokiguess",
-      "published": "2026-11-13T22:39:15Z"
+      "title": "Designing nextest's install scripts",
+      "url": "https://sunshowers.io/posts/nextest-install-scripts/",
+      "discuss_url": "https://lobste.rs/s/tbpfcn",
+      "score": 2,
+      "comments": 0,
+      "author": "soareschen",
+      "published": "2026-11-16T00:14:56Z"
     },
     {
       "source": "lobsters",
@@ -184,7 +184,7 @@
       "title": "You could have invented transformers from memory",
       "url": "https://alexwang.ai/posts/associative-memory/",
       "discuss_url": "https://lobste.rs/s/u2h9as",
-      "score": 4,
+      "score": 5,
       "comments": 1,
       "author": "GrayGnome",
       "published": "2026-11-14T04:49:47Z"
@@ -268,10 +268,34 @@
       "title": "All AI-generated code should be Open Source",
       "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
       "discuss_url": "https://lobste.rs/s/ek4fkg",
-      "score": 24,
-      "comments": 9,
+      "score": 45,
+      "comments": 14,
       "author": "Yogthos",
       "published": "2026-11-15T16:04:01Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Paint in the memory of other programs",
+      "url": "https://citrons.xyz/journal/2026-04-13",
+      "discuss_url": "https://lobste.rs/s/thiekk",
+      "score": 5,
+      "comments": 0,
+      "author": "gavinmorrow",
+      "published": "2026-11-16T03:37:36Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Migrating from GitHub to Codeberg",
+      "url": "https://yorickpeterse.com/articles/migrating-from-github-to-codeberg/",
+      "discuss_url": "https://lobste.rs/s/rhoopo",
+      "score": 1,
+      "comments": 0,
+      "author": "yorickpeterse",
+      "published": "2026-11-16T05:10:34Z"
     },
     {
       "source": "lobsters",
@@ -281,21 +305,9 @@
       "url": "https://bvisness.me/periodic-oriented-programming/",
       "discuss_url": "https://lobste.rs/s/bwjt1b",
       "score": 20,
-      "comments": 2,
+      "comments": 3,
       "author": "robalex",
       "published": "2026-11-15T03:16:42Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "Reintroducing Spaces",
-      "url": "https://dholms.leaflet.pub/3mu3p3ldwrc26",
-      "discuss_url": "https://lobste.rs/s/dwd6xu",
-      "score": 16,
-      "comments": 1,
-      "author": "carlana",
-      "published": "2026-11-15T02:34:44Z"
     },
     {
       "source": "lobsters",
@@ -304,10 +316,22 @@
       "title": "Terminal borders that don't cost a cell",
       "url": "https://www.joshka.net/cell-borders/",
       "discuss_url": "https://lobste.rs/s/akdy9z",
-      "score": 62,
-      "comments": 60,
+      "score": 63,
+      "comments": 63,
       "author": "joshka",
       "published": "2026-11-13T12:03:19Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Reintroducing Spaces",
+      "url": "https://dholms.leaflet.pub/3mu3p3ldwrc26",
+      "discuss_url": "https://lobste.rs/s/dwd6xu",
+      "score": 17,
+      "comments": 1,
+      "author": "carlana",
+      "published": "2026-11-15T02:34:44Z"
     },
     {
       "source": "lobsters",
@@ -382,37 +406,13 @@
       "published": "2026-11-13T08:40:00Z"
     },
     {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "How do you hire a human? Q&A with Tom Harvey, Stack Overflow technical recruiter",
-      "url": "https://stackoverflow.blog/2026/11/12/how-do-you-hire-a-human-q-and-a-with-tom-harvey-stack-overflow-technical-recruiter/",
-      "discuss_url": "https://stackoverflow.blog/2026/11/12/how-do-you-hire-a-human-q-and-a-with-tom-harvey-stack-overflow-technical-recruiter/",
-      "score": null,
-      "comments": null,
-      "author": "Ryan Donovan",
-      "published": "2026-11-12T16:16:25Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "stackoverflow.blog",
-      "category": "engineering",
-      "title": "Customer support is the gnarliest AI problem",
-      "url": "https://stackoverflow.blog/2026/11/10/customer-support-is-the-gnarliest-ai-problem/",
-      "discuss_url": "https://stackoverflow.blog/2026/11/10/customer-support-is-the-gnarliest-ai-problem/",
-      "score": null,
-      "comments": null,
-      "author": "Phoebe Sajor",
-      "published": "2026-11-10T08:40:00Z"
-    },
-    {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
       "title": "Blog: Preventing Cross-Service UDP Loops in QUIC",
       "url": "https://bughunters.google.com/blog/preventing-cross-service-udp-loops-in-quic",
       "discuss_url": "https://lobste.rs/s/om6v89",
-      "score": 4,
+      "score": 7,
       "comments": 0,
       "author": "freddyb",
       "published": "2026-11-15T20:34:37Z"
@@ -421,25 +421,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Someone's impersonating this blog",
-      "url": "https://mattbee.mataroa.blog/p/someones-impersonating-this-blog/",
-      "discuss_url": "https://lobste.rs/s/wqml56",
-      "score": 52,
-      "comments": 3,
-      "author": "classichasclass",
-      "published": "2026-11-13T20:39:53Z"
+      "title": "Universal XSS in uBlock Origin from website-driven element picker",
+      "url": "https://iter.ca/post/ubo-uxss/",
+      "discuss_url": "https://lobste.rs/s/x0ykkw",
+      "score": 1,
+      "comments": 0,
+      "author": "pgr0ss",
+      "published": "2026-11-16T05:12:27Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Don't bother patching: multiple remote code execution vulnerabilities in Danfoss AK-SM800A",
-      "url": "https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a",
-      "discuss_url": "https://lobste.rs/s/rpd05t",
-      "score": 9,
-      "comments": 1,
-      "author": "gir",
-      "published": "2026-11-13T20:26:34Z"
+      "title": "Someone's impersonating this blog",
+      "url": "https://mattbee.mataroa.blog/p/someones-impersonating-this-blog/",
+      "discuss_url": "https://lobste.rs/s/wqml56",
+      "score": 53,
+      "comments": 3,
+      "author": "classichasclass",
+      "published": "2026-11-13T20:39:53Z"
     },
     {
       "source": "lobsters",
@@ -452,6 +452,18 @@
       "comments": 1,
       "author": "calvin",
       "published": "2026-11-13T07:50:10Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
+      "category": "security",
+      "title": "Don't bother patching: multiple remote code execution vulnerabilities in Danfoss AK-SM800A",
+      "url": "https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a",
+      "discuss_url": "https://lobste.rs/s/rpd05t",
+      "score": 9,
+      "comments": 1,
+      "author": "gir",
+      "published": "2026-11-13T20:26:34Z"
     },
     {
       "source": "lobsters",
@@ -539,18 +551,6 @@
     },
     {
       "source": "rss",
-      "subsource": "thehackernews.com",
-      "category": "security",
-      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
-      "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
-      "discuss_url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
-      "score": null,
-      "comments": null,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-11-13T16:53:08Z"
-    },
-    {
-      "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
       "title": "Aurora PostgreSQL with express configuration now supported in CloudFormation",
@@ -613,18 +613,6 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Batch on Amazon EKS adds Linux capabilities, seccomp, and pod-level settings",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/",
-      "score": null,
-      "comments": null,
-      "author": "aws@amazon.com",
-      "published": "2026-11-13T08:00:00Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "aws.amazon.com",
-      "category": "devops",
       "title": "AWS Secrets Manager now supports cross-account replication",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-cross-account/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-cross-account/",
@@ -640,6 +628,18 @@
       "title": "Amazon SageMaker Unified Studio now supports layout customization for designations",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-studio-layout-customization/",
       "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-studio-layout-customization/",
+      "score": null,
+      "comments": null,
+      "author": "aws@amazon.com",
+      "published": "2026-11-13T08:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "aws.amazon.com",
+      "category": "devops",
+      "title": "AWS Batch on Amazon EKS adds Linux capabilities, seccomp, and pod-level settings",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
@@ -692,6 +692,18 @@
       "comments": null,
       "author": "aws@amazon.com",
       "published": "2026-11-12T19:02:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
+      "url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+      "discuss_url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+      "score": null,
+      "comments": null,
+      "author": "Stephen Clark",
+      "published": "2026-11-15T23:11:54Z"
     },
     {
       "source": "rss",
@@ -824,18 +836,6 @@
       "comments": null,
       "author": "Kyle Orland",
       "published": "2026-11-13T17:25:45Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
-      "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
-      "discuss_url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-11-13T16:26:32Z"
     }
   ]
 }
