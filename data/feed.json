@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T23:48:30Z",
+  "updated_at": "2026-11-22T05:54:45Z",
   "generator": "techpulse-pipeline/1.0",
   "niche": "Tech professionals",
   "categories": [
@@ -31,54 +31,54 @@
   ],
   "tldr": [
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
       "category": "ai",
-      "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
-      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-      "discuss_url": "https://news.ycombinator.com/item?id=50574383",
-      "score": 189,
-      "comments": 225,
-      "author": "cdrnsf",
-      "published": "2026-11-20T13:29:59Z",
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "discuss_url": "https://lobste.rs/s/32rhzb",
+      "score": 6,
+      "comments": 1,
+      "author": "itamarst",
+      "published": "2026-11-22T02:03:46Z",
       "bullets": [
-        "Anthropic's public debut highlights intensifying market skepticism over whether generative AI revenue can justify historic infrastructure and training capex.",
-        "Broad AI equity pullbacks signal tightening enterprise budgets and sharper scrutiny on LLM unit economics, adoption rates, and tangible ROI.",
-        "Frontier model developers face mounting pressure to prioritize inference cost optimization and sustainable margins over raw compute scaling."
+        "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
+        "Trending on lobste.rs/ai — 6 points, 1 comments.",
+        "Submitted by itamarst on lobste.rs/ai."
       ]
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/hneb5m",
-      "discuss_url": "https://lobste.rs/s/hneb5m",
-      "score": 13,
-      "comments": 21,
-      "author": "caius",
-      "published": "2026-11-20T10:05:29Z",
+      "title": "Changes on freedesktop.org",
+      "url": "https://blog.tenstral.net/2026/11/new-fdo-website.html",
+      "discuss_url": "https://lobste.rs/s/p5zsx4",
+      "score": 8,
+      "comments": 4,
+      "author": "hugoarnal",
+      "published": "2026-11-21T11:41:23Z",
       "bullets": [
-        "Lobsters community check-ins serve as informal incubators for developer side projects spanning compilers, self-hosted infrastructure, and systems programming experiments.",
-        "Open forums offer engineers low-stakes avenues to crowdsource architectural feedback, debug edge cases, and discover nascent open-source tooling.",
-        "Explicit cultural normalization of non-coding downtime addresses persistent engineering burnout risks common across high-output technical communities."
+        "Changes on freedesktop.org",
+        "Trending on lobste.rs/programming — 8 points, 4 comments.",
+        "Submitted by hugoarnal on lobste.rs/programming."
       ]
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
-      "url": "https://github.com/openssl/openssl/pull/33652",
-      "discuss_url": "https://news.ycombinator.com/item?id=50569226",
-      "score": 364,
-      "comments": 328,
-      "author": "JacobHenner",
-      "published": "2026-11-20T02:01:09Z",
+      "title": "GhostScript CVE 2026-125396: \"Upload2Shell\"",
+      "url": "https://pwn.ai/upload2shell/research.html",
+      "discuss_url": "https://lobste.rs/s/n5i1ds",
+      "score": 2,
+      "comments": 1,
+      "author": "hoistbypetard",
+      "published": "2026-11-22T00:52:23Z",
       "bullets": [
-        "Critical CVSS 9.8 buffer overflow in OpenSSL's EVP_EncodeBlock() base64 encoding function poses severe arbitrary memory corruption and RCE risks.",
-        "The flaw typically stems from improper output buffer length calculations, exposing network services accepting user-controlled data to unauthenticated attacks.",
-        "Prioritize patching OpenSSL across TLS proxies, custom application builds, and container images to remediate CVE-2026-121481 immediately."
+        "Here's the NVD page for the CVE with some additional useful context .",
+        "GhostScript CVE 2026-125396: \"Upload2Shell\"",
+        "Trending on lobste.rs/security — 2 points, 1 comments."
       ]
     },
     {
@@ -88,94 +88,58 @@
       "title": "OpenRun v1.0 - declarative deployments for internal tools on Docker or Kubernetes",
       "url": "https://openrun.dev/blog/openrun-1.0/",
       "discuss_url": "https://lobste.rs/s/t9wxzg",
-      "score": 1,
+      "score": 0,
       "comments": 2,
       "author": "ajayvk",
       "published": "2026-11-19T18:46:21Z",
       "bullets": [
-        "OpenRun v1.0 introduces a unified declarative framework for provisioning and operating internal tooling across infrastructure environments.",
-        "Supports both standalone Docker and Kubernetes backends, bridging simple single-node hosts and production container orchestration clusters.",
-        "Streamlines platform engineering workflows by reducing deployment boilerplate compared to managing raw Helm charts or Docker Compose configurations."
+        "OpenRun v1.0 - declarative deployments for internal tools on Docker or Kubernetes",
+        "Trending on lobste.rs/devops — 0 points, 2 comments.",
+        "Submitted by ajayvk on lobste.rs/devops."
       ]
     },
     {
       "source": "rss",
       "subsource": "arstechnica.com",
       "category": "industry",
-      "title": "Trump FCC declares California isn't allowed to enforce phone service rules",
-      "url": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/",
-      "discuss_url": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/",
+      "title": "Review: Godzilla Minus Zero joins the list of truly stellar sequels",
+      "url": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/",
+      "discuss_url": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/",
       "score": null,
       "comments": null,
-      "author": "Jon Brodkin",
-      "published": "2026-11-20T22:28:24Z",
+      "author": "Jennifer Ouellette",
+      "published": "2026-11-21T22:12:41Z",
       "bullets": [
-        "According to Ars Technica, the FCC preempted California regulations requiring AT&T to maintain legacy copper landline phone service.",
-        "The decision accelerates carrier phase-out of POTS infrastructure, enabling capital reallocation toward fiber-optic and mobile broadband networks.",
-        "Opponents and state regulators cite rural connectivity gaps, whereas carriers emphasize high maintenance costs for underutilized legacy wireline systems."
+        "Director Takashi Yamazaki ups the ante by pitting Godzilla against one of the monster's greatest foes",
+        "Review: Godzilla Minus Zero joins the list of truly stellar sequels",
+        "Submitted by Jennifer Ouellette on arstechnica.com."
       ]
     }
   ],
   "discussions": [
     {
+      "source": "lobsters",
+      "subsource": "lobste.rs/ai",
+      "category": "ai",
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "discuss_url": "https://lobste.rs/s/32rhzb",
+      "score": 6,
+      "comments": 1,
+      "author": "itamarst",
+      "published": "2026-11-22T02:03:46Z"
+    },
+    {
       "source": "hackernews",
       "subsource": "news.ycombinator.com",
       "category": "ai",
-      "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
       "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
       "discuss_url": "https://news.ycombinator.com/item?id=50574383",
-      "score": 189,
-      "comments": 225,
+      "score": 507,
+      "comments": 886,
       "author": "cdrnsf",
       "published": "2026-11-20T13:29:59Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Anthropic’s Nasdaq debut",
-      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50562754",
-      "score": 1130,
-      "comments": 2290,
-      "author": "wslh",
-      "published": "2026-11-19T17:02:40Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
-      "url": "https://git-aarvin.github.io/mei/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50568130",
-      "score": 364,
-      "comments": 240,
-      "author": "hn-aarvin",
-      "published": "2026-11-19T23:35:35Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Claude solves two open problems in the physics of black holes",
-      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
-      "discuss_url": "https://news.ycombinator.com/item?id=50563148",
-      "score": 551,
-      "comments": 270,
-      "author": "cybermango",
-      "published": "2026-11-19T17:30:44Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "ai",
-      "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
-      "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50554374",
-      "score": 255,
-      "comments": 78,
-      "author": "seizethecheese",
-      "published": "2026-11-19T00:29:45Z"
     },
     {
       "source": "lobsters",
@@ -184,22 +148,10 @@
       "title": "Rebuilding my local voice assistant pipeline",
       "url": "https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline",
       "discuss_url": "https://lobste.rs/s/gn5qb1",
-      "score": 10,
+      "score": 12,
       "comments": 0,
       "author": "blacklight",
       "published": "2026-11-19T19:50:25Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/ai",
-      "category": "ai",
-      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
-      "url": "https://arxiv.org/abs/2607.02512",
-      "discuss_url": "https://lobste.rs/s/qkalae",
-      "score": 16,
-      "comments": 6,
-      "author": "lr0",
-      "published": "2026-11-17T12:55:46Z"
     },
     {
       "source": "lobsters",
@@ -220,7 +172,7 @@
       "title": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
       "url": "https://energy-based-reasoners.github.io/",
       "discuss_url": "https://lobste.rs/s/8mbnbd",
-      "score": 2,
+      "score": 3,
       "comments": 0,
       "author": "xyproto",
       "published": "2026-11-18T14:45:20Z"
@@ -262,14 +214,74 @@
       "published": "2026-11-18T19:54:56Z"
     },
     {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "discuss_url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-11-18T18:53:43Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "discuss_url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-11-18T15:00:23Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+      "url": "https://huggingface.co/blog/moe-expert-streaming",
+      "discuss_url": "https://huggingface.co/blog/moe-expert-streaming",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-11-18T00:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "huggingface.co",
+      "category": "ai",
+      "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+      "url": "https://huggingface.co/blog/rumble-2-flash",
+      "discuss_url": "https://huggingface.co/blog/rumble-2-flash",
+      "score": null,
+      "comments": null,
+      "author": null,
+      "published": "2026-11-18T00:00:00Z"
+    },
+    {
+      "source": "lobsters",
+      "subsource": "lobste.rs/programming",
+      "category": "engineering",
+      "title": "Changes on freedesktop.org",
+      "url": "https://blog.tenstral.net/2026/11/new-fdo-website.html",
+      "discuss_url": "https://lobste.rs/s/p5zsx4",
+      "score": 8,
+      "comments": 4,
+      "author": "hugoarnal",
+      "published": "2026-11-21T11:41:23Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/programming",
       "category": "engineering",
       "title": "What are you doing this weekend?",
       "url": "https://lobste.rs/s/hneb5m",
       "discuss_url": "https://lobste.rs/s/hneb5m",
-      "score": 13,
-      "comments": 21,
+      "score": 16,
+      "comments": 32,
       "author": "caius",
       "published": "2026-11-20T10:05:29Z"
     },
@@ -280,22 +292,10 @@
       "title": "Supporting FOSS projects to transition to memory safe tech",
       "url": "https://tweedegolf.nl/en/blog/243/supporting-foss-projects-to-transition-to-memory-safe-tech/",
       "discuss_url": "https://lobste.rs/s/naiy6x",
-      "score": 12,
-      "comments": 6,
+      "score": 14,
+      "comments": 12,
       "author": "wofo",
       "published": "2026-11-19T18:39:29Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/programming",
-      "category": "engineering",
-      "title": "C’s designated initializers give us named arguments",
-      "url": "https://quuxplusone.github.io/blog/2026/11/16/named-arguments-in-c/",
-      "discuss_url": "https://lobste.rs/s/kktn5b",
-      "score": 14,
-      "comments": 10,
-      "author": "nytpu",
-      "published": "2026-11-17T15:58:44Z"
     },
     {
       "source": "lobsters",
@@ -394,28 +394,16 @@
       "published": "2026-11-17T08:40:00Z"
     },
     {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
+      "source": "lobsters",
+      "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
-      "url": "https://github.com/openssl/openssl/pull/33652",
-      "discuss_url": "https://news.ycombinator.com/item?id=50569226",
-      "score": 364,
-      "comments": 328,
-      "author": "JacobHenner",
-      "published": "2026-11-20T02:01:09Z"
-    },
-    {
-      "source": "hackernews",
-      "subsource": "news.ycombinator.com",
-      "category": "security",
-      "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
-      "url": "https://verialabs.com/ruby2shell/",
-      "discuss_url": "https://news.ycombinator.com/item?id=50556287",
-      "score": 402,
-      "comments": 184,
-      "author": "jdns",
-      "published": "2026-11-19T05:09:11Z"
+      "title": "GhostScript CVE 2026-125396: \"Upload2Shell\"",
+      "url": "https://pwn.ai/upload2shell/research.html",
+      "discuss_url": "https://lobste.rs/s/n5i1ds",
+      "score": 2,
+      "comments": 1,
+      "author": "hoistbypetard",
+      "published": "2026-11-22T00:52:23Z"
     },
     {
       "source": "lobsters",
@@ -445,13 +433,13 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Upcoming Critical PHP Security Release (18 Nov 2026)",
-      "url": "https://www.php.net/index.php#2026-11-18-1",
-      "discuss_url": "https://lobste.rs/s/zr0hkw",
-      "score": 31,
-      "comments": 14,
-      "author": "luke8086",
-      "published": "2026-11-18T19:44:06Z"
+      "title": "Ruby2Shell (GHSA-34m4-m9fh-gqp5)",
+      "url": "https://verialabs.com/ruby2shell/",
+      "discuss_url": "https://lobste.rs/s/usdf7t",
+      "score": 30,
+      "comments": 6,
+      "author": "bezdomni",
+      "published": "2026-11-19T10:50:28Z"
     },
     {
       "source": "lobsters",
@@ -469,25 +457,25 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Java4Shell: Write once, RCE everywhere",
-      "url": "https://calif.io/java4shell/",
-      "discuss_url": "https://lobste.rs/s/g0bf9i",
-      "score": 60,
-      "comments": 30,
-      "author": "unlobito",
-      "published": "2026-11-17T21:16:11Z"
+      "title": "Upcoming Critical PHP Security Release (18 Nov 2026)",
+      "url": "https://www.php.net/index.php#2026-11-18-1",
+      "discuss_url": "https://lobste.rs/s/zr0hkw",
+      "score": 31,
+      "comments": 14,
+      "author": "luke8086",
+      "published": "2026-11-18T19:44:06Z"
     },
     {
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Phrack 73",
-      "url": "https://phrack.org/issues/73/introduction_md.html",
-      "discuss_url": "https://lobste.rs/s/xu4ajj",
-      "score": 69,
-      "comments": 4,
-      "author": "lattera",
-      "published": "2026-11-17T17:40:32Z"
+      "title": "GnuPG Security Advisory for GPGME (T8557,CVE-2026-129975)",
+      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+      "discuss_url": "https://lobste.rs/s/vxokkj",
+      "score": 3,
+      "comments": 0,
+      "author": "rw-rw-rw-",
+      "published": "2026-11-21T10:09:19Z"
     },
     {
       "source": "lobsters",
@@ -517,18 +505,6 @@
       "source": "lobsters",
       "subsource": "lobste.rs/security",
       "category": "security",
-      "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
-      "url": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
-      "discuss_url": "https://lobste.rs/s/qmofba",
-      "score": 12,
-      "comments": 1,
-      "author": "dasm",
-      "published": "2026-11-17T14:38:24Z"
-    },
-    {
-      "source": "lobsters",
-      "subsource": "lobste.rs/security",
-      "category": "security",
       "title": "Crafting Targeted MP4 Fuzzers",
       "url": "https://atredis.com/blog/2026/11/16/crafting-targeted-mp4-fuzzers/",
       "discuss_url": "https://lobste.rs/s/yd2dkh",
@@ -538,13 +514,37 @@
       "published": "2026-11-20T10:52:02Z"
     },
     {
+      "source": "rss",
+      "subsource": "krebsonsecurity.com",
+      "category": "security",
+      "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+      "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "discuss_url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "score": null,
+      "comments": null,
+      "author": "BrianKrebs",
+      "published": "2026-11-21T00:36:39Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "krebsonsecurity.com",
+      "category": "security",
+      "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+      "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+      "discuss_url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+      "score": null,
+      "comments": null,
+      "author": "BrianKrebs",
+      "published": "2026-11-18T02:52:04Z"
+    },
+    {
       "source": "lobsters",
       "subsource": "lobste.rs/devops",
       "category": "devops",
       "title": "OpenRun v1.0 - declarative deployments for internal tools on Docker or Kubernetes",
       "url": "https://openrun.dev/blog/openrun-1.0/",
       "discuss_url": "https://lobste.rs/s/t9wxzg",
-      "score": 1,
+      "score": 0,
       "comments": 2,
       "author": "ajayvk",
       "published": "2026-11-19T18:46:21Z"
@@ -553,133 +553,157 @@
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon CloudWatch extends the PromQL query window to 30 days",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-promql-query-30days/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-promql-query-30days/",
+      "title": "AWS Quick now supports plugins to bundle agents, skills, connectors and flows",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-plugins-bundle-agents-skills-connectors-flows/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-plugins-bundle-agents-skills-connectors-flows/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-11-20T21:23:00Z"
+      "published": "2026-11-21T02:58:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon CloudWatch EKS Container Insights now offers built-in monitoring for open source Kubernetes tools",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-kubernetes-tools/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-kubernetes-tools/",
+      "title": "Amazon CloudWatch Omni now supports Microsoft Azure platform logs, metrics and traces",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-microsoft-azure",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-microsoft-azure",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-11-20T20:47:00Z"
+      "published": "2026-11-21T01:10:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Quick now supports group assignments for custom permissions and limit profiles",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-group-assignments-custom-permissions-limit-profiles/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-group-assignments-custom-permissions-limit-profiles/",
+      "title": "AWS Quick launches a new web experience with updated browser extension and Microsoft 365 add-ins",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-launches-new-web-experience-updated-browser-extension-microsoft-365-add-ins/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-launches-new-web-experience-updated-browser-extension-microsoft-365-add-ins/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-11-20T20:42:00Z"
+      "published": "2026-11-21T00:27:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Quick introduces enterprise guardrails (preview)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-enterprise-guardrails-preview/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-enterprise-guardrails-preview/",
+      "title": "Web Search on Amazon Bedrock expands language support and country-aware search",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-search-amazon-bedrock/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-search-amazon-bedrock/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-11-20T20:30:00Z"
+      "published": "2026-11-21T00:17:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS announces Data Hub in AWS Billing and Cost Management (preview)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/data-hub-billing-cost-management-preview/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/data-hub-billing-cost-management-preview/",
+      "title": "Build more capable automations through chat with Flows in AWS Quick",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-flows-automations-chat/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-flows-automations-chat/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-11-20T20:30:00Z"
+      "published": "2026-11-20T23:59:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon CloudWatch Observability EKS add-on now supports custom OpenTelemetry and Prometheus telemetry",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-addon-custom-telemetry/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-addon-custom-telemetry/",
+      "title": "Amazon RDS for Oracle now supports Primary Endpoint",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-primary-endpoint-v2/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-primary-endpoint-v2/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-11-20T20:05:00Z"
+      "published": "2026-11-20T22:54:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon Transcribe announces a synchronous transcription API",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-transcribe-sync-api/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-transcribe-sync-api/",
+      "title": "AWS Lambda now publishes Event Function state change events to Amazon EventBridge",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-function-state-events/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-function-state-events/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-11-20T20:00:00Z"
+      "published": "2026-11-20T22:40:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon DynamoDB vector search now supports new inline filter operators",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/dynamodb-vector-filters/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/dynamodb-vector-filters/",
+      "title": "AWS Network Firewall introduces automated Internet firewall in public preview",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-firewall-automated-internet/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-firewall-automated-internet/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-11-20T20:00:00Z"
+      "published": "2026-11-20T22:38:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon CloudWatch Observability EKS add-on now supports telemetry filtering",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-otel-addon-filtering/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-otel-addon-filtering/",
+      "title": "AWS Quick now supports Japanese, German, Vietnamese, and Chinese",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-japanese-german-chinese-vietnamese/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-japanese-german-chinese-vietnamese/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-11-20T19:52:00Z"
+      "published": "2026-11-20T22:11:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "Amazon SageMaker JumpStart now offers a model leaderboard to compare models on quality, speed, and cost",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/1/sagemaker-jumpstart-model-leaderboard/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/1/sagemaker-jumpstart-model-leaderboard/",
+      "title": "Amazon RDS for Oracle now supports Replica First Patching for reduced downtime",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-replica-first-patching/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-replica-first-patching/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-11-20T19:27:00Z"
+      "published": "2026-11-20T22:00:00Z"
     },
     {
       "source": "rss",
       "subsource": "aws.amazon.com",
       "category": "devops",
-      "title": "AWS Partner Central Agents now help partners create and manage Partner Central and Marketplace support cases",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-central-agents-support/",
-      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-central-agents-support/",
+      "title": "Amazon Cognito extends multi-Region replication to additional AWS Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-mrr-opt-in-regions/",
+      "discuss_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-mrr-opt-in-regions/",
       "score": null,
       "comments": null,
       "author": "aws@amazon.com",
-      "published": "2026-11-20T19:07:00Z"
+      "published": "2026-11-20T22:00:00Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "Review: Godzilla Minus Zero joins the list of truly stellar sequels",
+      "url": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/",
+      "discuss_url": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/",
+      "score": null,
+      "comments": null,
+      "author": "Jennifer Ouellette",
+      "published": "2026-11-21T22:12:41Z"
+    },
+    {
+      "source": "rss",
+      "subsource": "arstechnica.com",
+      "category": "industry",
+      "title": "“Race realism” isn’t realistic—and it isn’t good science",
+      "url": "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/",
+      "discuss_url": "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/",
+      "score": null,
+      "comments": null,
+      "author": "Jonathan R. Goodman and Rebecca Sear, The Conversation",
+      "published": "2026-11-21T12:01:13Z"
     },
     {
       "source": "rss",
@@ -728,18 +752,6 @@
       "comments": null,
       "author": "Jeremy Hsu",
       "published": "2026-11-20T21:47:10Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
-      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
-      "discuss_url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
-      "score": null,
-      "comments": null,
-      "author": "Dan Goodin",
-      "published": "2026-11-20T20:59:08Z"
     },
     {
       "source": "rss",
@@ -812,18 +824,6 @@
       "comments": null,
       "author": "Jeremy Hsu",
       "published": "2026-11-20T14:52:51Z"
-    },
-    {
-      "source": "rss",
-      "subsource": "arstechnica.com",
-      "category": "industry",
-      "title": "SpaceX lenders don’t want Elon Musk launching their collateral into space",
-      "url": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/",
-      "discuss_url": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/",
-      "score": null,
-      "comments": null,
-      "author": "Michelle Chan, Financial Times",
-      "published": "2026-11-20T14:15:21Z"
     }
   ]
 }
